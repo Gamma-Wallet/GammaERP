@@ -28,9 +28,9 @@ public sealed record TypeProperty(
 /// categories, as the screens do; the set-up needs the register's Set up screen.
 /// </summary>
 [McpServerToolType]
-public sealed class RegisterTools(ErpDbContext db, RequestContext request, Visibility visibility, ProductUnitService productUnits)
+public sealed class RegisterTools(ErpDbContext db, RequestContext request, Visibility visibility, ProductUnitService productUnits, Gamma.Erp.Services.Documents.DocumentService documents)
 {
-    private const string RegisterHelp = "The register: partners (clients and suppliers), products (products and services), accounts (the chart of accounts), units, or cost-centres.";
+    private const string RegisterHelp = "The register: partners (clients and suppliers), products (products and services), accounts (the chart of accounts), units, cost-centres, employees or opportunities; for categories and types only, also documents (document types) and transactions (line types).";
     private const string LanguageHelp = "Optional: the language of the name and description given (e.g. it); English when left out.";
 
     [McpServerTool(Name = "register_setup", Title = "A register's categories, types and properties", ReadOnly = true)]
@@ -40,7 +40,7 @@ public sealed class RegisterTools(ErpDbContext db, RequestContext request, Visib
         Erp.Run<object>(async () =>
         {
             Erp.NeedsPlace(request);
-            var r = Registers.Of(register, db, request, visibility);
+            var r = Registers.Of(register, db, request, visibility, documents);
             var categories = (await r.Rows.CategoriesAsync(ct).ConfigureAwait(false)).Where(c => c.Active).ToList();
             var types = (await r.Rows.TypesAsync(ct).ConfigureAwait(false)).Where(t => t.Active).ToList();
             if (!string.IsNullOrWhiteSpace(type))
@@ -101,13 +101,25 @@ public sealed class RegisterTools(ErpDbContext db, RequestContext request, Visib
         [Description("Products only: the VAT group its lines start with (id, code or name); \"none\" takes its type's.")] string? vatGroup = null,
         [Description("Products only: its units (ids, codes or names) in order, the first the default; the whole list.")] IReadOnlyList<string>? units = null,
         [Description("Products only: true when it is made of other products.")] bool? composite = null,
-        [Description(LanguageHelp)] string? language = null, CancellationToken ct = default) =>
+        [Description(LanguageHelp)] string? language = null,
+        [Description("Opportunities only: the client (partner id or exact code).")] string? client = null,
+        [Description("Opportunities only: the stage (id or name).")] string? stage = null,
+        [Description("Opportunities only: the expected amount.")] decimal? amount = null,
+        [Description("Opportunities only: the amount's currency (code or id).")] string? currency = null,
+        [Description("Opportunities only: the expected close date.")] DateOnly? expectedClose = null,
+        [Description("Opportunities only: why it was lost (needed for a lost stage).")] string? lostReason = null, CancellationToken ct = default) =>
         Erp.Run<object>(async () =>
         {
             Erp.NeedsYes(confirm, "the row to save (register, type, category, name, code, values)");
             Erp.NeedsPlace(request);
-            var r = Registers.Of(register, db, request, visibility);
+            var r = Registers.Of(register, db, request, visibility, documents);
+            NoRows(r);
             Only(r, "partners", "paymentDays", paymentDays is not null);
+            foreach (var (field, given) in new[] { ("client", client is not null), ("stage", stage is not null), ("amount", amount is not null), ("currency", currency is not null),
+                ("expectedClose", expectedClose is not null), ("lostReason", lostReason is not null) })
+            {
+                Only(r, "opportunities", field, given);
+            }
             Only(r, "products", "vatGroup", vatGroup is not null);
             Only(r, "products", "units", units is not null);
             Only(r, "products", "composite", composite is not null);
@@ -141,6 +153,8 @@ public sealed class RegisterTools(ErpDbContext db, RequestContext request, Visib
                 PaymentDays = paymentDays ?? existing?.PaymentDays,
                 DefaultVatGroupId = vatId,
                 IsComposite = composite ?? existing?.IsComposite ?? false,
+                Opportunity = r.Key == "opportunities" ? await OpportunityAsync(existing?.Opportunity, client, stage, amount, currency, expectedClose, lostReason, ct).ConfigureAwait(false)
+                    : existing?.Opportunity,
             };
 
             var unitIds = new List<Guid>();
@@ -181,7 +195,8 @@ public sealed class RegisterTools(ErpDbContext db, RequestContext request, Visib
         {
             Erp.NeedsYes(confirm, "the row to switch off");
             Erp.NeedsPlace(request);
-            var r = Registers.Of(register, db, request, visibility);
+            var r = Registers.Of(register, db, request, visibility, documents);
+            NoRows(r);
             var id = await RowIdAsync(r, row, ct).ConfigureAwait(false);
             var element = await r.Rows.ElementAsync(id, ct).ConfigureAwait(false) ?? throw new McpException($"There is no such {r.What} that you may see.");
             await r.Rows.DeleteElementAsync(id, ct).ConfigureAwait(false);
@@ -204,8 +219,8 @@ public sealed class RegisterTools(ErpDbContext db, RequestContext request, Visib
         {
             Erp.NeedsYes(confirm, "the category to save");
             Erp.NeedsPlace(request);
-            var r = Registers.Of(register, db, request, visibility);
-            await Registers.Screen(visibility, ["setup"], [r.Route], ct).ConfigureAwait(false);
+            var r = Registers.Of(register, db, request, visibility, documents);
+            await Registers.Screen(visibility, r.Setup.Screens, r.Setup.Parameters, ct).ConfigureAwait(false);
             var all = await r.Rows.CategoriesAsync(ct).ConfigureAwait(false);
             var existing = category is null ? null : all.First(c => c.Id == Registers.Category(all, category, r.What));
             if (existing is null && string.IsNullOrWhiteSpace(name))
@@ -252,7 +267,7 @@ public sealed class RegisterTools(ErpDbContext db, RequestContext request, Visib
         {
             Erp.NeedsYes(confirm, "the type to save, with its properties");
             Erp.NeedsPlace(request);
-            var r = Registers.Of(register, db, request, visibility);
+            var r = Registers.Of(register, db, request, visibility, documents);
             foreach (var (field, given) in new[] { ("vatGroup", vatGroup is not null), ("tracksLot", tracksLot is not null), ("tracksSerial", tracksSerial is not null),
                 ("fixedAsset", fixedAsset is not null), ("units", units is not null) })
             {
@@ -261,7 +276,7 @@ public sealed class RegisterTools(ErpDbContext db, RequestContext request, Visib
 
             Only(r, "cost-centres", "takesBankStatements", takesBankStatements is not null);
             Only(r, "cost-centres", "isProductionPoint", isProductionPoint is not null);
-            await Registers.Screen(visibility, ["setup"], [r.Route], ct).ConfigureAwait(false);
+            await Registers.Screen(visibility, r.Setup.Screens, r.Setup.Parameters, ct).ConfigureAwait(false);
             var types = await r.Rows.TypesAsync(ct).ConfigureAwait(false);
             var existing = type is null ? null : Registers.Type(types, type, r.What);
             if (existing is null && (string.IsNullOrWhiteSpace(name) || categories is not { Count: > 0 }))
@@ -314,6 +329,112 @@ public sealed class RegisterTools(ErpDbContext db, RequestContext request, Visib
                 properties = Registers.Properties(saved), units = savedUnits,
             };
         });
+
+    [McpServerTool(Name = "copy_type_properties", Title = "Copy properties from another type", ReadOnly = false, Destructive = false)]
+    [Description("Copies properties of another type of the same register onto a type, with their choices (a preset such as brand / model / serial number shared by several product types): all of them, or those named by code or name. A property the type already has (by name) is left as it is. Needs the register's Set up screen. Show the user what will be copied and get an explicit yes; then confirm=true.")]
+    public Task<object> CopyTypePropertiesAsync(
+        [Description("True only after the user said yes.")] bool confirm,
+        [Description(RegisterHelp)] string register,
+        [Description("The type that gets the properties: id, code or name.")] string type,
+        [Description("The type they are copied from: id, code or name.")] string from,
+        [Description("Optional: only these properties (codes or names); all when left out.")] IReadOnlyList<string>? properties = null, CancellationToken ct = default) =>
+        Erp.Run<object>(async () =>
+        {
+            Erp.NeedsYes(confirm, "the properties to copy and onto which type");
+            Erp.NeedsPlace(request);
+            var r = Registers.Of(register, db, request, visibility, documents);
+            await Registers.Screen(visibility, r.Setup.Screens, r.Setup.Parameters, ct).ConfigureAwait(false);
+            var types = await r.Rows.TypesAsync(ct).ConfigureAwait(false);
+            var target = Registers.Type(types, type, r.What);
+            var source = Registers.Type(types, from, r.What);
+            List<Guid>? ids = null;
+            if (properties is { Count: > 0 })
+            {
+                ids = [];
+                foreach (var name in properties)
+                {
+                    var p = source.Properties.FirstOrDefault(x => x.Active && (string.Equals(x.Code, name.Trim(), StringComparison.OrdinalIgnoreCase)
+                        || string.Equals(Registers.Name(x.Name), name.Trim(), StringComparison.OrdinalIgnoreCase)))
+                        ?? throw new McpException($"The type {Registers.Name(source.Name)} has no property {name}.");
+                    ids.Add(p.Id!.Value);
+                }
+            }
+
+            var saved = await r.Rows.CopyPropertiesAsync(target.Id!.Value, source.Id!.Value, ids, ct).ConfigureAwait(false);
+            return new { saved.Id, saved.Code, name = Registers.Name(saved.Name), properties = Registers.Properties(saved) };
+        });
+
+    [McpServerTool(Name = "get_register_row", Title = "Read one row of a register", ReadOnly = true)]
+    [Description("Reads one row of a register in full: type, categories, parent, property values by code, who may see it, and for partners the payment days, for products the VAT group, composite and units, for opportunities their client, stage, amount and close date. With history=true, also its earlier versions (who changed what, when).")]
+    public Task<object> GetRegisterRowAsync([Description(RegisterHelp)] string register,
+        [Description("The row: its id or exact code.")] string row,
+        [Description("True: also its history.")] bool history = false, CancellationToken ct = default) =>
+        Erp.Run<object>(async () =>
+        {
+            Erp.NeedsPlace(request);
+            var r = Registers.Of(register, db, request, visibility, documents);
+            NoRows(r);
+            var id = await RowIdAsync(r, row, ct).ConfigureAwait(false);
+            var element = await r.Rows.ElementAsync(id, ct).ConfigureAwait(false) ?? throw new McpException($"There is no such {r.What} that you may see.");
+            var type = (await r.Rows.TypesAsync(ct).ConfigureAwait(false)).FirstOrDefault(t => t.Id == element.TypeId);
+            var categories = await r.Rows.CategoriesAsync(ct).ConfigureAwait(false);
+            object? units = r.Key == "products" ? (await productUnits.ProductAsync(id, Registers.English, ct).ConfigureAwait(false))?.Units.Select(u => new { u.UnitId, u.Code, u.Name }) : null;
+            object? past = history ? await r.Rows.HistoryAsync(id, ct).ConfigureAwait(false) : null;
+            return new
+            {
+                element.Id, element.Code, name = Registers.Name(element.Name), names = element.Name, description = element.Description, type = type is null ? null : Registers.Name(type.Name),
+                parentId = element.IdSup, element.Active,
+                categories = element.CategoryIds.Select(c => categories.FirstOrDefault(x => x.Id == c) is { } x ? x.Code ?? Registers.Name(x.Name) : c.ToString()),
+                values = type?.Properties.Where(p => p.Id is not null && element.Values.ContainsKey(p.Id.Value))
+                    .ToDictionary(p => p.Code ?? Registers.Name(p.Name) ?? p.Id.ToString()!, p => element.Values[p.Id!.Value]),
+                paymentDays = r.Key == "partners" ? element.PaymentDays : null,
+                vatGroupId = r.Key == "products" ? element.DefaultVatGroupId : null,
+                composite = r.Key == "products" ? element.IsComposite : (bool?)null,
+                units, opportunity = element.Opportunity, accessUsers = element.AccessUserIds, accessRoles = element.AccessRoleIds, history = past,
+            };
+        });
+
+    private static void NoRows(Register r)
+    {
+        if (!r.RowsHere)
+        {
+            throw new McpException(r.Key switch
+            {
+                "documents" => "Documents are written with save_draft_document; here only their categories and types are set up.",
+                "users" => "Users are added with add_user and changed with set_user_access and user_sign_in; here only the roles (categories) and user types are set up.",
+                _ => "Lines are written on their documents; here only the line types' categories and types are set up.",
+            });
+        }
+    }
+
+    private async Task<OpportunityFieldsDto> OpportunityAsync(OpportunityFieldsDto? existing, string? client, string? stage, decimal? amount, string? currency,
+        DateOnly? expectedClose, string? lostReason, CancellationToken ct)
+    {
+        var partnerId = client is null ? existing?.PartnerId
+            : await Registers.ElementAsync(s => Registers.Partners(db, request, visibility).LookupAsync(null, null, s, Registers.English, 1, Registers.MaxPage, ct), client, "partner")
+                .ConfigureAwait(false);
+        var stageId = existing?.StageId;
+        if (stage is not null)
+        {
+            var key = stage.Trim();
+            var stages = await db.Set<Gamma.Erp.Models.Opportunities.OpportunityStage>().AsNoTracking().ToListAsync(ct).ConfigureAwait(false);
+            var found = stages.Where(x => Registers.Is(x.Id, key) || string.Equals(x.Name.In(Registers.English), key, StringComparison.OrdinalIgnoreCase)).ToList();
+            stageId = found.Count == 1 ? found[0].Id
+                : throw new McpException($"No single stage \"{key}\". Stages: {string.Join(", ", stages.OrderBy(x => x.SortOrder).Select(x => x.Name.In(Registers.English)))}.");
+        }
+
+        var currencyId = existing?.CurrencyId;
+        if (currency is not null)
+        {
+            var key = currency.Trim();
+            var currencies = await db.Set<Gamma.Erp.Models.Currencies.Currency>().AsNoTracking().ToListAsync(ct).ConfigureAwait(false);
+            currencyId = currencies.FirstOrDefault(c => Registers.Is(c.Id, key) || string.Equals(c.Code, key, StringComparison.OrdinalIgnoreCase))?.Id
+                ?? throw new McpException($"No currency \"{key}\".");
+        }
+
+        return new OpportunityFieldsDto(partnerId, stageId, amount ?? existing?.Amount, currencyId, expectedClose ?? existing?.ExpectedClose, existing?.OwnerUserId,
+            lostReason ?? existing?.LostReason);
+    }
 
     /// <summary>The type's properties as they will be sent: the active ones it has, with the given ones added or changed (sent whole, as the screen sends them).</summary>
     private static List<TypeInfoDto> Properties(IReadOnlyList<TypeInfoDto> existing, IReadOnlyList<TypeProperty>? given, string language)

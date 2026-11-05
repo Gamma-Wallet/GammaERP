@@ -14,6 +14,7 @@ using Opportunities = Gamma.Erp.Models.Opportunities;
 using Partners = Gamma.Erp.Models.Partners;
 using Products = Gamma.Erp.Models.Products;
 using Units = Gamma.Erp.Models.Units;
+using Transactions = Gamma.Erp.Models.Transactions;
 using Users = Gamma.Erp.Models.Users;
 
 namespace Gamma.Erp.Api.Mcp.Tools;
@@ -22,7 +23,11 @@ namespace Gamma.Erp.Api.Mcp.Tools;
 public sealed record FoundDto(Guid Id, string? Code, string? Name, string? Type, IReadOnlyList<string?> Categories, object? More = null);
 
 /// <summary>A register the register tools write: its key, what one row is called, its REST route (the Set up screen's parameter) and its service.</summary>
-internal sealed record Register(string Key, string What, string Route, IEntityRows Rows);
+internal sealed record Register(string Key, string What, string Route, IEntityRows Rows, bool RowsHere = true, string[]? SetupScreens = null, string[]? SetupParameters = null)
+{
+    /// <summary>The screen (and parameter) its categories and types are set up on: the register's Set up screen, or the type registers' own.</summary>
+    public (string[] Screens, string[] Parameters) Setup => (SetupScreens ?? ["setup"], SetupParameters ?? (SetupScreens is null ? [Route] : []));
+}
 
 /// <summary>
 /// What the tools share to reach the registers: each entity's service built exactly as the REST routes build it (Endpoints.MapEntity), the menu
@@ -67,8 +72,16 @@ internal static class Registers
         Units.Unit, Units.UnitInfo, Units.InterUnitCategory, Units.UnitAccess> Units(ErpDbContext db, RequestContext request, Visibility visibility) =>
         new(db, request, visibility);
 
+    public static EntityService<Employees.EmployeeCategory, Employees.EmployeeType, Employees.InterEmployeeTypeCategory, Employees.EmployeeTypeInfo, Employees.EmployeeTypeInfoChoice,
+        Employees.Employee, Employees.EmployeeInfo, Employees.InterEmployeeCategory, Employees.EmployeeAccess> Employees(ErpDbContext db, RequestContext request, Visibility visibility) =>
+        new(db, request, visibility);
+
+    public static EntityService<Transactions.TransactionCategory, Transactions.TransactionType, Transactions.InterTransactionTypeCategory, Transactions.TransactionTypeInfo,
+        Transactions.TransactionTypeInfoChoice, Transactions.Transaction, Transactions.TransactionInfo, Transactions.InterTransactionCategory, Transactions.TransactionAccess>
+        Transactions(ErpDbContext db, RequestContext request, Visibility visibility) => new(db, request, visibility);
+
     /// <summary>The register a tool names: partners, products, accounts, units or cost centres (a few other words for each are taken too).</summary>
-    public static Register Of(string given, ErpDbContext db, RequestContext request, Visibility visibility)
+    public static Register Of(string given, ErpDbContext db, RequestContext request, Visibility visibility, Gamma.Erp.Services.Documents.DocumentService? documents = null)
     {
         var key = (given ?? "").Trim().ToUpperInvariant().Replace(" ", "-", StringComparison.Ordinal).Replace("_", "-", StringComparison.Ordinal);
         return key switch
@@ -80,7 +93,14 @@ internal static class Registers
             "UNITS" or "UNIT" => new("units", "unit", "units", Units(db, request, visibility)),
             "COST-CENTRES" or "COST-CENTRE" or "COST-CENTERS" or "COST-CENTER" or "PLACES" or "PLACE" =>
                 new("cost-centres", "cost centre", "cost-centers", CostCenters(db, request, visibility)),
-            _ => throw new McpException($"There is no register \"{given}\". Registers: partners, products, accounts, units, cost-centres."),
+            "EMPLOYEES" or "EMPLOYEE" or "STAFF" => new("employees", "employee", "employees", Employees(db, request, visibility)),
+            "OPPORTUNITIES" or "OPPORTUNITY" => new("opportunities", "opportunity", "opportunities", Opportunities(db, request, visibility)),
+            "USERS" or "USER" or "ROLES" or "ROLE" => new("users", "user", "users", Users(db, request, visibility), RowsHere: false),
+            "TRANSACTIONS" or "TRANSACTION" or "LINE-TYPES" or "LINES" =>
+                new("transactions", "line type", "transactions", Transactions(db, request, visibility), RowsHere: false, SetupScreens: ["entities"], SetupParameters: ["transactions"]),
+            "DOCUMENTS" or "DOCUMENT" or "DOCUMENT-TYPES" => documents is null ? throw new McpException("Document types are not reachable here.")
+                : new("documents", "document", "documents", documents.Entities, RowsHere: false, SetupScreens: ["document-types"]),
+            _ => throw new McpException($"There is no register \"{given}\". Registers: partners, products, accounts, units, cost-centres, employees, opportunities; for set-up only, documents, transactions (line types) and users (roles are its categories)."),
         };
     }
 

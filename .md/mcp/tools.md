@@ -82,9 +82,11 @@ All five are changing tools. Opening balances and stock still come in on the Mig
 | `save_register_row` | Adds or changes a row of a register as its screen does: a partner (client or supplier), product or service, account, unit or cost centre. Type, categories, name (in a language), code, parent, description, property values by code; partners also payment days; products the default VAT group, composite, and their units in order (the first the default). On a change only what is given changes | yes |
 | `switch_off_register_row` | Switches a row off, as the screen's delete; refused while active rows sit under it, and for the general client | yes |
 | `save_register_category` | Adds or changes a register's category (holds rows or only groups); needs the register's **Set up** screen | yes |
+| `get_register_row` | One row in full: type, categories, values by code, who may see it, payment days, VAT group, units, an opportunity's fields; with `history`, its earlier versions | no |
+| `copy_type_properties` | Copies properties (with their choices) from another type of the register | yes |
 | `save_register_type` | Adds or changes a register's type: name, code, parent type, categories, folder, properties (given ones added or changed by code or name, the others kept), code range; product types also VAT group, lots, serials, fixed asset, units; cost-centre types bank statements, production point. Needs **Set up** (a product type's units: an administrator) | yes |
 
-The registers are `partners`, `products`, `accounts`, `units` and `cost-centres`. Rows go through the register's own service, so the user's write right on the category is checked. A Lookup property is added on the Set up screen.
+The registers are `partners`, `products`, `accounts`, `units`, `cost-centres`, `employees` and `opportunities` (with their client, stage, amount, currency and close date). For categories and types only: `documents` (document types), `transactions` (line types) and `users` (roles are its categories). Rows go through the register's own service, so the user's write right on the category is checked. A Lookup property is added on the Set up screen.
 
 ## Production, stock and the till
 
@@ -132,7 +134,47 @@ A counter sale is a bill of the point of sale's bill type: write it with `save_d
 | `decide_statement_line` | `match` a line to a document, `ignore` it, `clear` the decision, or `remove` a statement | yes |
 | `repairs`, `repair` | The repairs board; `new`, `move`, `technician`, `offer`, `bill`, `decide`. Needs **Repairs** | `repair` yes |
 
-Not covered: Lookup properties of a type; access tokens and passwords other than a new user's first one; files to upload (bank statement import, migration import, the Files screen); hotel stays, show seats and the production display (on the screens only).
+## Front of house: hotel, cinema, restaurant, kitchen
+
+| Tool | Does | Changes |
+|---|---|---|
+| `stays` | A hotel's stays between two days: room, guest, days, price, checked in, checked out | no |
+| `stay` | `book` a room, `check-in`, `extend`, `check-out` (posts the bill for the nights: final), `cancel`. Works on real dates: a check-out bills today | yes |
+| `shows` | A cinema's or theatre's shows from a day on, or a show's taken seats | no |
+| `book_seats` | `book` seats at a show (one posted bill, final) or `cancel` a booking by its bill (reversed whole) | yes, final |
+| `pos_orders`, `bill_pos_orders` | Waiters' open orders; `bill` them (one posted bill) or `cancel` one | `bill_pos_orders` yes |
+| `production_display`, `mark_produced` | Production points and their boards; mark order lines made (posts the production) or undo | `mark_produced` yes |
+| `pos_info` | A point of sale's settings, places, current menus, barcodes, payment methods | no |
+
+Shows are configuration rows (`save_configuration_row`, model `pos-shows`). Each needs the POS screen (the display: Production display).
+
+## More reports
+
+`report` with a name: `ageing`, `vat-register`, `document-totals`, `contracts`, `item-tracking`, `purchase-prices`, `partner-ledger`, `partner-statistics`, `partner-ranking`, `cost-center-ledger`, `cost-center-balance`, `staff-ledger`, `opportunity-documents`, `unbalanced-scenarios`, `vat-return-form`. Each needs its report in the menu.
+
+## Users, access and the account
+
+| Tool | Does | Changes |
+|---|---|---|
+| `user_sign_in` | A user's sign-in name, e-mail, a new first password, places (administrators) | yes |
+| `my_account` | The signed-in user's rights, menu, screen language, own password | language, password |
+| `tokens` | Personal tokens: list, make (value shown once), revoke; an administrator lists or revokes another user's | make, revoke |
+| `audit` | User activity: users, sign-ins, activity per table, a table's rows, one row's change | no |
+
+## Set-up, documents, files
+
+| Tool | Does | Changes |
+|---|---|---|
+| `save_skin` | The skin in use, a skin's file, upload, back to built-in, switch off (administrators) | yes |
+| `group_setup` | Starter-pack lists, a group's own books, linking the group's companies as partners, the statutory chart | yes |
+| `document_type_settings` | A document type's General settings and users; set only the ones given (administrators) | yes |
+| `document_details` | Posting preview, history, neighbours, what is left to reverse, a sheet's journals, flows, documents made, the PDF (base64), a line's proposal | no |
+| `release_all_documents` | Lets go of every document the user holds | the holds |
+| `files` | The file store: list, info, read (base64), upload (base64), remove | upload, remove |
+| `bank_statement_options`, `import_bank_statement` | Banks and formats; import a statement file (base64) | import |
+| `migration` | Steps, opening balance, a step's template or export (Excel, base64), import (checks only, or saves with `confirm`) | import with confirm |
+
+Not covered: Lookup properties of a type (the register's Set up screen); exports of reports to Excel or PDF other than a document's PDF and the migration's Excel (Claude reads the reports' data instead).
 
 ## Related
 
