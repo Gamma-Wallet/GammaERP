@@ -118,7 +118,7 @@ A counter sale is a bill of the point of sale's bill type: write it with `save_d
 | `set_document_type_users` | Gives a document type to users and roles (the whole lists); administrators | yes |
 | `approvals`, `approve_document` | The documents waiting for approval; approves one within the user's limit. Needs **Approvals** | `approve_document` yes |
 | `contract_billing` | `due` (needs **Invoice run**), `renewals` (needs **Renewals**), a contract's `plan` | no |
-| `run_contract_billing` | `run` the invoice run up to a day (posted, final), `renew` a contract to a new end date, set a contract's billing `plan` | yes |
+| `run_contract_billing` | `run` the invoice run up to a day (draft invoices, posted afterwards with `post_document`), `renew` a contract to a new end date, set a contract's billing `plan` | yes |
 | `year_closing` | `check` a fiscal year, or `close` it (final). Needs **Year closing** | close |
 | `save_currency` | Adds, changes or switches off a currency; administrators with **Currencies** | yes |
 

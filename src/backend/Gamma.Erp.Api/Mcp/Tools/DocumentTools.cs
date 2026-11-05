@@ -34,7 +34,8 @@ public sealed record DraftLine(
     [property: Description("Only when the line's own place differs from the document's: the cost centre id it comes from.")] Guid? From = null,
     [property: Description("Only when the line's own place differs from the document's: the cost centre id it goes to.")] Guid? To = null,
     [property: Description("Lot, for a product that tracks lots.")] string? Lot = null,
-    [property: Description("Serial numbers, one per unit, for a product that tracks them.")] IReadOnlyList<string>? Serials = null);
+    [property: Description("Serial numbers, one per unit, for a product that tracks them.")] IReadOnlyList<string>? Serials = null,
+    [property: Description("The lot's expiry date (yyyy-mm-dd), on a purchase of a product that tracks lots.")] DateOnly? LotExpiry = null);
 
 /// <summary>A row of a journal sheet as Claude gives it: one journal under the sheet, debit or credit, as the sheet's grid holds it.</summary>
 public sealed record SheetRow(
@@ -563,7 +564,7 @@ public sealed class DocumentTools(DocumentService documents, ErpDbContext db, Re
             ExchangeRate = line.ExchangeRate, FromId = line.From, ToId = line.To,
             FromName = line.From is { } from ? (await Registers.NameOfAsync(db, from, ct).ConfigureAwait(false)).Name : null,
             ToName = line.To is { } to ? (await Registers.NameOfAsync(db, to, ct).ConfigureAwait(false)).Name : null,
-            Lot = line.Lot, Serials = [.. (line.Serials ?? []).Select(s => new TransactionSerialDto(s))],
+            Lot = line.Lot, LotExpiryDate = line.LotExpiry, Serials = [.. (line.Serials ?? []).Select(s => new TransactionSerialDto(s))],
         };
     }
 
@@ -650,7 +651,7 @@ public sealed class DocumentTools(DocumentService documents, ErpDbContext db, Re
                 t.Id, n = i + 1, kind = kinds.GetValueOrDefault(t.TypeId), element = t.ElementName, elementId = t.ElementId, unit = t.UnitName, t.Quantity, t.Price, t.Discount,
                 vatGroup = t.VatGroupId is { } v ? vats.GetValueOrDefault(v) : null, t.Value, t.Vat, total = t.ValueVat,
                 currency = t.CurrencyId is { } c ? currencies.GetValueOrDefault(c) : null, t.ExchangeRate, totalLcu = t.ValueVatLcu,
-                from = t.FromName, to = t.ToName, t.Debit, t.Credit, t.Lot, serials = t.Serials.Count == 0 ? null : t.Serials.Select(s => s.Serial),
+                from = t.FromName, to = t.ToName, t.Debit, t.Credit, t.Lot, lotExpiry = t.LotExpiryDate, serials = t.Serials.Count == 0 ? null : t.Serials.Select(s => s.Serial),
                 reversibleLeft = reversible is null ? (decimal?)null : reversible.GetValueOrDefault(t.Id!.Value),
             }),
             totals = d.Totals.Select(t => new

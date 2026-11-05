@@ -155,7 +155,7 @@ public sealed class WorkflowTools(ErpDbContext db, RequestContext request, Visib
         });
 
     [McpServerTool(Name = "run_contract_billing", Title = "Invoice run, renewal or a contract's plan", ReadOnly = false, Destructive = true)]
-    [Description("Starts contract billing by hand, as its screens do: action run (invoices every contract due by a day; the invoices are made and posted, so final; needs Invoice run), renew (a contract to a new end date, as a new contract; needs Renewals), or plan (sets a contract's billing: every how many months and the next date; needs Documents). Show the user contract_billing's list or the change and get an explicit yes; then confirm=true.")]
+    [Description("Starts contract billing by hand, as its screens do: action run (makes one draft invoice per contract due by a day and moves each next date on; the drafts are then checked and posted with post_document; needs Invoice run), renew (a contract to a new end date, as a new contract; needs Renewals), or plan (sets a contract's billing: every how many months and the next date; needs Documents). Show the user contract_billing's list or the change and get an explicit yes; then confirm=true.")]
     public Task<object> RunContractBillingAsync(
         [Description("True only after the user said yes.")] bool confirm,
         [Description("run, renew or plan.")] string action,
