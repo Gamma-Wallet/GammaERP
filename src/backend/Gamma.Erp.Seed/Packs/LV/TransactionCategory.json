@@ -1,0 +1,66 @@
+[
+ {
+  "Key": "transaction_category:LINES",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "LINES",
+  "Name": {
+   "en": "Transactions",
+   "lv": "Rindas"
+  },
+  "Description": {
+   "en": "Transactions",
+   "lv": "Rindas"
+  },
+  "SortOrder": 2.0
+ },
+ {
+  "Key": "transaction_category:JOURNAL_LINES",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "JOURNAL_LINES",
+  "Name": {
+   "en": "Journal lines",
+   "lv": "Memoriālā ordera rindas"
+  },
+  "Description": {
+   "en": "Journal lines",
+   "lv": "Memoriālā ordera rindas"
+  },
+  "SortOrder": 10.0
+ },
+ {
+  "Key": "transaction_category:DEPRECIATION_LINES",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "DEPRECIATION_LINES",
+  "Name": {
+   "en": "Depreciation lines",
+   "lv": "Nolietojuma rindas"
+  },
+  "Description": {
+   "en": "Depreciation lines",
+   "lv": "Nolietojuma rindas"
+  },
+  "SortOrder": 11.0
+ },
+ {
+  "Key": "transaction_category:REVALUATION_LINES",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "REVALUATION_LINES",
+  "Name": {
+   "en": "Revaluation lines",
+   "lv": "Pārvērtēšanas rindas"
+  },
+  "Description": {
+   "en": "Revaluation lines",
+   "lv": "Pārvērtēšanas rindas"
+  },
+  "SortOrder": 12.0
+ }
+]

@@ -1,0 +1,58 @@
+[
+ {
+  "Key": "inter_chart_type_category:1",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "CategoryId": "chart_category:STATUTORY"
+ },
+ {
+  "Key": "inter_chart_type_category:2",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "CategoryId": "chart_category:STATUTORY"
+ },
+ {
+  "Key": "inter_chart_type_category:3",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "CategoryId": "chart_category:STATUTORY"
+ },
+ {
+  "Key": "inter_chart_type_category:4",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "CategoryId": "chart_category:STATUTORY"
+ },
+ {
+  "Key": "inter_chart_type_category:5",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "CategoryId": "chart_category:STATUTORY"
+ },
+ {
+  "Key": "inter_chart_type_category:6",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "CategoryId": "chart_category:STATUTORY"
+ },
+ {
+  "Key": "inter_chart_type_category:7",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "CategoryId": "chart_category:STATUTORY"
+ },
+ {
+  "Key": "inter_chart_type_category:0",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "chart_type:0",
+  "CategoryId": "chart_category:STATUTORY"
+ }
+]

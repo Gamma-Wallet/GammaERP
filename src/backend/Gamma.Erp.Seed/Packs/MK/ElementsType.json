@@ -1,0 +1,90 @@
+[
+ {
+  "Key": "elements_type:1",
+  "Active": true,
+  "Name": {
+   "en": "table",
+   "mk": "табела"
+  }
+ },
+ {
+  "Key": "elements_type:2",
+  "Active": true,
+  "Name": {
+   "en": "specified element",
+   "mk": "одреден елемент"
+  }
+ },
+ {
+  "Key": "elements_type:3",
+  "Active": true,
+  "Name": {
+   "en": "empty element",
+   "mk": "празен елемент"
+  }
+ },
+ {
+  "Key": "elements_type:4",
+  "Active": true,
+  "Name": {
+   "en": "line reference",
+   "mk": "референца на ставка"
+  }
+ },
+ {
+  "Key": "elements_type:5",
+  "Active": true,
+  "Name": {
+   "en": "line configuration",
+   "mk": "поставки на ставки"
+  }
+ },
+ {
+  "Key": "elements_type:6",
+  "Active": true,
+  "Name": {
+   "en": "document reference",
+   "mk": "референца на документ"
+  }
+ },
+ {
+  "Key": "elements_type:7",
+  "Active": true,
+  "Name": {
+   "en": "document configuration",
+   "mk": "поставки на документи"
+  }
+ },
+ {
+  "Key": "elements_type:8",
+  "Active": true,
+  "Name": {
+   "en": "scenario configuration",
+   "mk": "поставки на сценарио"
+  }
+ },
+ {
+  "Key": "elements_type:9",
+  "Active": true,
+  "Name": {
+   "en": "depreciation scenario configuration",
+   "mk": "поставки на сценарио за амортизација"
+  }
+ },
+ {
+  "Key": "elements_type:10",
+  "Active": true,
+  "Name": {
+   "en": "depreciation scenario",
+   "mk": "сценарио за амортизација"
+  }
+ },
+ {
+  "Key": "elements_type:11",
+  "Active": true,
+  "Name": {
+   "en": "Transaction amount",
+   "mk": "Износ на ставката"
+  }
+ }
+]

@@ -1,0 +1,90 @@
+[
+ {
+  "Key": "elements_type:1",
+  "Active": true,
+  "Name": {
+   "en": "table",
+   "fr": "table"
+  }
+ },
+ {
+  "Key": "elements_type:2",
+  "Active": true,
+  "Name": {
+   "en": "specified element",
+   "fr": "élément précis"
+  }
+ },
+ {
+  "Key": "elements_type:3",
+  "Active": true,
+  "Name": {
+   "en": "empty element",
+   "fr": "élément vide"
+  }
+ },
+ {
+  "Key": "elements_type:4",
+  "Active": true,
+  "Name": {
+   "en": "line reference",
+   "fr": "référence de ligne"
+  }
+ },
+ {
+  "Key": "elements_type:5",
+  "Active": true,
+  "Name": {
+   "en": "line configuration",
+   "fr": "paramétrage des lignes"
+  }
+ },
+ {
+  "Key": "elements_type:6",
+  "Active": true,
+  "Name": {
+   "en": "document reference",
+   "fr": "référence de pièce"
+  }
+ },
+ {
+  "Key": "elements_type:7",
+  "Active": true,
+  "Name": {
+   "en": "document configuration",
+   "fr": "paramétrage des pièces"
+  }
+ },
+ {
+  "Key": "elements_type:8",
+  "Active": true,
+  "Name": {
+   "en": "scenario configuration",
+   "fr": "paramétrage du schéma"
+  }
+ },
+ {
+  "Key": "elements_type:9",
+  "Active": true,
+  "Name": {
+   "en": "depreciation scenario configuration",
+   "fr": "paramétrage du schéma d'amortissement"
+  }
+ },
+ {
+  "Key": "elements_type:10",
+  "Active": true,
+  "Name": {
+   "en": "depreciation scenario",
+   "fr": "schéma d'amortissement"
+  }
+ },
+ {
+  "Key": "elements_type:11",
+  "Active": true,
+  "Name": {
+   "en": "Transaction amount",
+   "fr": "Montant de la ligne"
+  }
+ }
+]

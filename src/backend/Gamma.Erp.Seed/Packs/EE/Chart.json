@@ -1,0 +1,2126 @@
+[
+ {
+  "Key": "chart:1",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "1",
+  "Name": {
+   "en": "Non-current assets",
+   "et": "Põhivara"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:11",
+  "IdSup": "chart:1",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "11",
+  "Name": {
+   "en": "Property, plant and equipment",
+   "et": "Materiaalne põhivara"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:1101",
+  "IdSup": "chart:11",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "1101",
+  "Name": {
+   "en": "Land",
+   "et": "Maa"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:1102",
+  "IdSup": "chart:11",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "1102",
+  "Name": {
+   "en": "Buildings",
+   "et": "Ehitised"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:1103",
+  "IdSup": "chart:11",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "1103",
+  "Name": {
+   "en": "Plant and machinery",
+   "et": "Masinad ja seadmed"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:1104",
+  "IdSup": "chart:11",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "1104",
+  "Name": {
+   "en": "Vehicles",
+   "et": "Transpordivahendid"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:1105",
+  "IdSup": "chart:11",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "1105",
+  "Name": {
+   "en": "Furniture and fittings",
+   "et": "Inventar"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:1106",
+  "IdSup": "chart:11",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "1106",
+  "Name": {
+   "en": "Computer equipment",
+   "et": "Arvutustehnika"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:1107",
+  "IdSup": "chart:11",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "1107",
+  "Name": {
+   "en": "Assets under construction",
+   "et": "Lõpetamata ehitised"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:12",
+  "IdSup": "chart:1",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "12",
+  "Name": {
+   "en": "Accumulated depreciation, property, plant and equipment",
+   "et": "Materiaalse põhivara akumuleeritud kulum"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:1202",
+  "IdSup": "chart:12",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "1202",
+  "Name": {
+   "en": "Buildings",
+   "et": "Ehitiste akumuleeritud kulum"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:1203",
+  "IdSup": "chart:12",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "1203",
+  "Name": {
+   "en": "Plant and machinery",
+   "et": "Masinate ja seadmete akumuleeritud kulum"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:1204",
+  "IdSup": "chart:12",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "1204",
+  "Name": {
+   "en": "Vehicles",
+   "et": "Transpordivahendite akumuleeritud kulum"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:1205",
+  "IdSup": "chart:12",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "1205",
+  "Name": {
+   "en": "Furniture and fittings",
+   "et": "Inventari akumuleeritud kulum"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:1206",
+  "IdSup": "chart:12",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "1206",
+  "Name": {
+   "en": "Computer equipment",
+   "et": "Arvutustehnika akumuleeritud kulum"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:13",
+  "IdSup": "chart:1",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "13",
+  "Name": {
+   "en": "Intangible assets",
+   "et": "Immateriaalne põhivara"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:1301",
+  "IdSup": "chart:13",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "1301",
+  "Name": {
+   "en": "Goodwill",
+   "et": "Firmaväärtus"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:1302",
+  "IdSup": "chart:13",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "1302",
+  "Name": {
+   "en": "Software",
+   "et": "Tarkvara"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:1303",
+  "IdSup": "chart:13",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "1303",
+  "Name": {
+   "en": "Trademarks and licences",
+   "et": "Kaubamärgid ja litsentsid"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:14",
+  "IdSup": "chart:1",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "14",
+  "Name": {
+   "en": "Accumulated amortisation, intangible assets",
+   "et": "Immateriaalse põhivara akumuleeritud kulum"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:1402",
+  "IdSup": "chart:14",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "1402",
+  "Name": {
+   "en": "Software",
+   "et": "Tarkvara akumuleeritud kulum"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:1403",
+  "IdSup": "chart:14",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "1403",
+  "Name": {
+   "en": "Trademarks and licences",
+   "et": "Kaubamärkide ja litsentside akumuleeritud kulum"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:15",
+  "IdSup": "chart:1",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "15",
+  "Name": {
+   "en": "Investment property",
+   "et": "Kinnisvarainvesteeringud"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:1501",
+  "IdSup": "chart:15",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "1501",
+  "Name": {
+   "en": "Investment property",
+   "et": "Kinnisvarainvesteeringud"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:16",
+  "IdSup": "chart:1",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "16",
+  "Name": {
+   "en": "Financial assets",
+   "et": "Pikaajalised finantsinvesteeringud"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:1601",
+  "IdSup": "chart:16",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "1601",
+  "Name": {
+   "en": "Investments in subsidiaries",
+   "et": "Osalused tütarettevõtjates"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:1602",
+  "IdSup": "chart:16",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "1602",
+  "Name": {
+   "en": "Investments in associates",
+   "et": "Osalused sidusettevõtjates"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:1603",
+  "IdSup": "chart:16",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "1603",
+  "Name": {
+   "en": "Other investments",
+   "et": "Muud investeeringud"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:1604",
+  "IdSup": "chart:16",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "1604",
+  "Name": {
+   "en": "Long-term loans receivable",
+   "et": "Pikaajalised laenunõuded"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:17",
+  "IdSup": "chart:1",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "17",
+  "Name": {
+   "en": "Deferred tax",
+   "et": "Edasilükkunud tulumaks"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:1701",
+  "IdSup": "chart:17",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "1701",
+  "Name": {
+   "en": "Deferred tax assets",
+   "et": "Edasilükkunud tulumaksu vara"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:2",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "2",
+  "Name": {
+   "en": "Current assets",
+   "et": "Käibevara"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:20",
+  "IdSup": "chart:2",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "20",
+  "Name": {
+   "en": "Inventories",
+   "et": "Varud"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:2001",
+  "IdSup": "chart:20",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "2001",
+  "Name": {
+   "en": "Goods for resale",
+   "et": "Kaubad"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:2002",
+  "IdSup": "chart:20",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "2002",
+  "Name": {
+   "en": "Raw materials",
+   "et": "Tooraine"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:2003",
+  "IdSup": "chart:20",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "2003",
+  "Name": {
+   "en": "Consumables",
+   "et": "Abimaterjalid"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:2004",
+  "IdSup": "chart:20",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "2004",
+  "Name": {
+   "en": "Finished goods",
+   "et": "Valmistoodang"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:2005",
+  "IdSup": "chart:20",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "2005",
+  "Name": {
+   "en": "Work in progress",
+   "et": "Lõpetamata toodang"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:22",
+  "IdSup": "chart:2",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "22",
+  "Name": {
+   "en": "Trade receivables",
+   "et": "Nõuded ostjate vastu"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:2201",
+  "IdSup": "chart:22",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "2201",
+  "Name": {
+   "en": "Trade debtors",
+   "et": "Ostjatelt laekumata arved"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:2202",
+  "IdSup": "chart:22",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "2202",
+  "Name": {
+   "en": "Foreign debtors",
+   "et": "Välismaistelt ostjatelt laekumata arved"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:2203",
+  "IdSup": "chart:22",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "2203",
+  "Name": {
+   "en": "Cheques receivable",
+   "et": "Laekumata tšekid"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:2209",
+  "IdSup": "chart:22",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "2209",
+  "Name": {
+   "en": "Allowance for doubtful debts",
+   "et": "Ebatõenäoliselt laekuvad nõuded"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:23",
+  "IdSup": "chart:2",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "23",
+  "Name": {
+   "en": "Other receivables",
+   "et": "Muud nõuded"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:2301",
+  "IdSup": "chart:23",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "2301",
+  "Name": {
+   "en": "Prepayments",
+   "et": "Ettemakstud kulud"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:2302",
+  "IdSup": "chart:23",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "2302",
+  "Name": {
+   "en": "Advances to suppliers",
+   "et": "Ettemaksed tarnijatele"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:2303",
+  "IdSup": "chart:23",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "2303",
+  "Name": {
+   "en": "Advances to employees",
+   "et": "Ettemaksed töötajatele"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:2304",
+  "IdSup": "chart:23",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "2304",
+  "Name": {
+   "en": "Deposits paid",
+   "et": "Tagatisdeposiidid"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:2305",
+  "IdSup": "chart:23",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "2305",
+  "Name": {
+   "en": "Other debtors",
+   "et": "Muud nõuded"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:24",
+  "IdSup": "chart:2",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "24",
+  "Name": {
+   "en": "Tax receivables",
+   "et": "Maksunõuded"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:2401",
+  "IdSup": "chart:24",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "2401",
+  "Name": {
+   "en": "Input VAT",
+   "et": "Sisendkäibemaks"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:2402",
+  "IdSup": "chart:24",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "2402",
+  "Name": {
+   "en": "VAT recoverable",
+   "et": "Tagastatav käibemaks"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:2403",
+  "IdSup": "chart:24",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "2403",
+  "Name": {
+   "en": "Provisional tax paid",
+   "et": "Ettemakstud maksud"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:28",
+  "IdSup": "chart:2",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "28",
+  "Name": {
+   "en": "Cash and cash equivalents",
+   "et": "Raha"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:2801",
+  "IdSup": "chart:28",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "2801",
+  "Name": {
+   "en": "Cash in hand",
+   "et": "Kassa"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:2802",
+  "IdSup": "chart:28",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "2802",
+  "Name": {
+   "en": "Cash in hand, foreign currency",
+   "et": "Valuutakassa"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:2803",
+  "IdSup": "chart:28",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "2803",
+  "Name": {
+   "en": "Bank current account",
+   "et": "Arvelduskonto"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:2804",
+  "IdSup": "chart:28",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "2804",
+  "Name": {
+   "en": "Bank account, foreign currency",
+   "et": "Valuutakonto"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:2805",
+  "IdSup": "chart:28",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "2805",
+  "Name": {
+   "en": "Fixed deposits",
+   "et": "Tähtajalised hoiused"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:2806",
+  "IdSup": "chart:28",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "2806",
+  "Name": {
+   "en": "Cash in transit",
+   "et": "Raha teel"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:3",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "3",
+  "Name": {
+   "en": "Equity",
+   "et": "Omakapital"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:30",
+  "IdSup": "chart:3",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "30",
+  "Name": {
+   "en": "Share capital",
+   "et": "Osakapital"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:3001",
+  "IdSup": "chart:30",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "3001",
+  "Name": {
+   "en": "Share capital",
+   "et": "Osakapital"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:3002",
+  "IdSup": "chart:30",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "3002",
+  "Name": {
+   "en": "Share premium",
+   "et": "Ülekurss"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:31",
+  "IdSup": "chart:3",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "31",
+  "Name": {
+   "en": "Reserves",
+   "et": "Reservid"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:3101",
+  "IdSup": "chart:31",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "3101",
+  "Name": {
+   "en": "Revaluation reserve",
+   "et": "Ümberhindluse reserv"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:3102",
+  "IdSup": "chart:31",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "3102",
+  "Name": {
+   "en": "Other reserves",
+   "et": "Muud reservid"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:32",
+  "IdSup": "chart:3",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "32",
+  "Name": {
+   "en": "Retained earnings",
+   "et": "Eelmiste perioodide jaotamata kasum"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:3201",
+  "IdSup": "chart:32",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "3201",
+  "Name": {
+   "en": "Retained earnings",
+   "et": "Eelmiste perioodide jaotamata kasum"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:3202",
+  "IdSup": "chart:32",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "3202",
+  "Name": {
+   "en": "Profit or loss for the year",
+   "et": "Aruandeaasta kasum või kahjum"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:4",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "4",
+  "Name": {
+   "en": "Liabilities",
+   "et": "Kohustised"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:40",
+  "IdSup": "chart:4",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "40",
+  "Name": {
+   "en": "Non-current liabilities",
+   "et": "Pikaajalised kohustised"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:4001",
+  "IdSup": "chart:40",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "4001",
+  "Name": {
+   "en": "Long-term bank loans",
+   "et": "Pikaajalised pangalaenud"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:4002",
+  "IdSup": "chart:40",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "4002",
+  "Name": {
+   "en": "Lease liabilities",
+   "et": "Rendikohustised"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:4003",
+  "IdSup": "chart:40",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "4003",
+  "Name": {
+   "en": "Shareholder loans",
+   "et": "Osanike laenud"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:4004",
+  "IdSup": "chart:40",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "4004",
+  "Name": {
+   "en": "Deferred tax liabilities",
+   "et": "Edasilükkunud tulumaksu kohustis"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:4005",
+  "IdSup": "chart:40",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "4005",
+  "Name": {
+   "en": "Provisions",
+   "et": "Eraldised"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:41",
+  "IdSup": "chart:4",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "41",
+  "Name": {
+   "en": "Trade payables",
+   "et": "Võlad tarnijatele"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:4101",
+  "IdSup": "chart:41",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "4101",
+  "Name": {
+   "en": "Trade creditors",
+   "et": "Võlad tarnijatele"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:4102",
+  "IdSup": "chart:41",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "4102",
+  "Name": {
+   "en": "Foreign creditors",
+   "et": "Võlad välismaistele tarnijatele"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:4103",
+  "IdSup": "chart:41",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "4103",
+  "Name": {
+   "en": "Cheques payable",
+   "et": "Vekslivõlad"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:4104",
+  "IdSup": "chart:41",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "4104",
+  "Name": {
+   "en": "Advances from customers",
+   "et": "Ostjate ettemaksed"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:42",
+  "IdSup": "chart:4",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "42",
+  "Name": {
+   "en": "Other payables",
+   "et": "Muud kohustised"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:4201",
+  "IdSup": "chart:42",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "4201",
+  "Name": {
+   "en": "Accrued expenses",
+   "et": "Viitvõlad"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:4202",
+  "IdSup": "chart:42",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "4202",
+  "Name": {
+   "en": "Deferred income",
+   "et": "Ettemakstud tulud"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:4203",
+  "IdSup": "chart:42",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "4203",
+  "Name": {
+   "en": "Wages payable",
+   "et": "Võlad töövõtjatele"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:4204",
+  "IdSup": "chart:42",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "4204",
+  "Name": {
+   "en": "Social insurance payable",
+   "et": "Sotsiaalmaksu võlad"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:4205",
+  "IdSup": "chart:42",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "4205",
+  "Name": {
+   "en": "Health insurance contributions payable",
+   "et": "Ravikindlustuse võlad"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:4206",
+  "IdSup": "chart:42",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "4206",
+  "Name": {
+   "en": "Other creditors",
+   "et": "Muud võlad"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:4207",
+  "IdSup": "chart:42",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "4207",
+  "Name": {
+   "en": "Dividends payable",
+   "et": "Dividendivõlad"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:43",
+  "IdSup": "chart:4",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "43",
+  "Name": {
+   "en": "Current borrowings",
+   "et": "Lühiajalised laenud"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:4301",
+  "IdSup": "chart:43",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "4301",
+  "Name": {
+   "en": "Bank overdrafts",
+   "et": "Arvelduskrediit"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:4302",
+  "IdSup": "chart:43",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "4302",
+  "Name": {
+   "en": "Short-term bank loans",
+   "et": "Lühiajalised pangalaenud"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:44",
+  "IdSup": "chart:4",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "44",
+  "Name": {
+   "en": "Tax payables",
+   "et": "Maksuvõlad"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:4401",
+  "IdSup": "chart:44",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "4401",
+  "Name": {
+   "en": "Output VAT",
+   "et": "Käibemaksukohustis"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:4402",
+  "IdSup": "chart:44",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "4402",
+  "Name": {
+   "en": "VAT payable",
+   "et": "Tasumisele kuuluv käibemaks"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:4403",
+  "IdSup": "chart:44",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "4403",
+  "Name": {
+   "en": "Income tax payable",
+   "et": "Tulumaksuvõlg"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:4404",
+  "IdSup": "chart:44",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "4404",
+  "Name": {
+   "en": "Employee income tax payable",
+   "et": "Kinnipeetud tulumaks"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:4405",
+  "IdSup": "chart:44",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "4405",
+  "Name": {
+   "en": "Other taxes payable",
+   "et": "Muud maksuvõlad"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:5",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "5",
+  "Name": {
+   "en": "Income",
+   "et": "Tulud"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:50",
+  "IdSup": "chart:5",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "50",
+  "Name": {
+   "en": "Revenue",
+   "et": "Müügitulu"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:5001",
+  "IdSup": "chart:50",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "5001",
+  "Name": {
+   "en": "Sales of goods",
+   "et": "Kaupade müük"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:5002",
+  "IdSup": "chart:50",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "5002",
+  "Name": {
+   "en": "Services rendered",
+   "et": "Teenuste müük"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:5003",
+  "IdSup": "chart:50",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "5003",
+  "Name": {
+   "en": "Sales of products",
+   "et": "Toodangu müük"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:5004",
+  "IdSup": "chart:50",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "5004",
+  "Name": {
+   "en": "Sales returns and discounts",
+   "et": "Müügi allahindlused ja tagastused"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:51",
+  "IdSup": "chart:5",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "51",
+  "Name": {
+   "en": "Other income",
+   "et": "Muud äritulud"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:5101",
+  "IdSup": "chart:51",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "5101",
+  "Name": {
+   "en": "Rental income",
+   "et": "Renditulu"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:5102",
+  "IdSup": "chart:51",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "5102",
+  "Name": {
+   "en": "Grants",
+   "et": "Toetused"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:5103",
+  "IdSup": "chart:51",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "5103",
+  "Name": {
+   "en": "Gain on disposal of property, plant and equipment",
+   "et": "Põhivara müügikasum"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:5104",
+  "IdSup": "chart:51",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "5104",
+  "Name": {
+   "en": "Sundry income",
+   "et": "Muud tulud"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:52",
+  "IdSup": "chart:5",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "52",
+  "Name": {
+   "en": "Finance income",
+   "et": "Finantstulud"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:5201",
+  "IdSup": "chart:52",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "5201",
+  "Name": {
+   "en": "Interest income",
+   "et": "Intressitulu"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:5202",
+  "IdSup": "chart:52",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "5202",
+  "Name": {
+   "en": "Dividend income",
+   "et": "Dividenditulu"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:5203",
+  "IdSup": "chart:52",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "5203",
+  "Name": {
+   "en": "Exchange gains",
+   "et": "Kasum valuutakursi muutustest"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:6",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "6",
+  "Name": {
+   "en": "Purchases and cost of sales",
+   "et": "Ostud ja müüdud kaupade kulu"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:60",
+  "IdSup": "chart:6",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "60",
+  "Name": {
+   "en": "Purchases",
+   "et": "Ostud"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:6001",
+  "IdSup": "chart:60",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "6001",
+  "Name": {
+   "en": "Purchases of goods",
+   "et": "Kaupade ost"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:6002",
+  "IdSup": "chart:60",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "6002",
+  "Name": {
+   "en": "Purchases of raw materials",
+   "et": "Tooraine ost"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:6003",
+  "IdSup": "chart:60",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "6003",
+  "Name": {
+   "en": "Purchases of consumables",
+   "et": "Materjalide ost"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:6004",
+  "IdSup": "chart:60",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "6004",
+  "Name": {
+   "en": "Purchase returns and discounts",
+   "et": "Ostude allahindlused ja tagastused"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:6005",
+  "IdSup": "chart:60",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "6005",
+  "Name": {
+   "en": "Carriage and customs on purchases",
+   "et": "Ostudega seotud veod ja tollimaksud"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:61",
+  "IdSup": "chart:6",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "61",
+  "Name": {
+   "en": "Change in inventories",
+   "et": "Varude muutus"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:6101",
+  "IdSup": "chart:61",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "6101",
+  "Name": {
+   "en": "Change in inventories of goods",
+   "et": "Kaupade varude muutus"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:6102",
+  "IdSup": "chart:61",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "6102",
+  "Name": {
+   "en": "Change in inventories of raw materials",
+   "et": "Tooraine varude muutus"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:7",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "7",
+  "Name": {
+   "en": "Expenses",
+   "et": "Kulud"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:70",
+  "IdSup": "chart:7",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "70",
+  "Name": {
+   "en": "Staff costs",
+   "et": "Tööjõukulud"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:7001",
+  "IdSup": "chart:70",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "7001",
+  "Name": {
+   "en": "Wages and salaries",
+   "et": "Palgakulu"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:7002",
+  "IdSup": "chart:70",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "7002",
+  "Name": {
+   "en": "Employer's social insurance",
+   "et": "Sotsiaalmaks"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:7003",
+  "IdSup": "chart:70",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "7003",
+  "Name": {
+   "en": "Employer's health insurance contributions",
+   "et": "Tööandja ravikindlustusmaksed"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:7004",
+  "IdSup": "chart:70",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "7004",
+  "Name": {
+   "en": "Other employer contributions",
+   "et": "Muud tööandja maksed"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:7005",
+  "IdSup": "chart:70",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "7005",
+  "Name": {
+   "en": "Other staff costs",
+   "et": "Muud tööjõukulud"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:71",
+  "IdSup": "chart:7",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "71",
+  "Name": {
+   "en": "Premises",
+   "et": "Ruumikulud"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:7101",
+  "IdSup": "chart:71",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "7101",
+  "Name": {
+   "en": "Rent",
+   "et": "Rent"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:7102",
+  "IdSup": "chart:71",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "7102",
+  "Name": {
+   "en": "Electricity",
+   "et": "Elekter"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:7103",
+  "IdSup": "chart:71",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "7103",
+  "Name": {
+   "en": "Water",
+   "et": "Vesi"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:7104",
+  "IdSup": "chart:71",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "7104",
+  "Name": {
+   "en": "Repairs and maintenance",
+   "et": "Remont ja hooldus"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:7105",
+  "IdSup": "chart:71",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "7105",
+  "Name": {
+   "en": "Insurance",
+   "et": "Kindlustus"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:72",
+  "IdSup": "chart:7",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "72",
+  "Name": {
+   "en": "Administrative expenses",
+   "et": "Halduskulud"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:7201",
+  "IdSup": "chart:72",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "7201",
+  "Name": {
+   "en": "Telecommunications",
+   "et": "Side"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:7202",
+  "IdSup": "chart:72",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "7202",
+  "Name": {
+   "en": "Postage",
+   "et": "Postikulud"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:7203",
+  "IdSup": "chart:72",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "7203",
+  "Name": {
+   "en": "Stationery",
+   "et": "Kontoritarbed"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:7204",
+  "IdSup": "chart:72",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "7204",
+  "Name": {
+   "en": "Audit fees",
+   "et": "Audit"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:7205",
+  "IdSup": "chart:72",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "7205",
+  "Name": {
+   "en": "Professional fees",
+   "et": "Konsultatsioonid"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:7206",
+  "IdSup": "chart:72",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "7206",
+  "Name": {
+   "en": "Subscriptions",
+   "et": "Liikmemaksud ja tellimused"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:7207",
+  "IdSup": "chart:72",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "7207",
+  "Name": {
+   "en": "Annual company fees",
+   "et": "Ettevõtte tasud"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:73",
+  "IdSup": "chart:7",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "73",
+  "Name": {
+   "en": "Selling expenses",
+   "et": "Turustuskulud"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:7301",
+  "IdSup": "chart:73",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "7301",
+  "Name": {
+   "en": "Advertising",
+   "et": "Reklaam"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:7302",
+  "IdSup": "chart:73",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "7302",
+  "Name": {
+   "en": "Carriage on sales",
+   "et": "Müügiveod"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:7303",
+  "IdSup": "chart:73",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "7303",
+  "Name": {
+   "en": "Commissions",
+   "et": "Vahendustasud"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:7304",
+  "IdSup": "chart:73",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "7304",
+  "Name": {
+   "en": "Travel",
+   "et": "Lähetuskulud"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:74",
+  "IdSup": "chart:7",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "74",
+  "Name": {
+   "en": "Vehicle expenses",
+   "et": "Sõidukikulud"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:7401",
+  "IdSup": "chart:74",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "7401",
+  "Name": {
+   "en": "Fuel",
+   "et": "Kütus"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:7402",
+  "IdSup": "chart:74",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "7402",
+  "Name": {
+   "en": "Vehicle licences and insurance",
+   "et": "Sõidukimaks ja kindlustus"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:7403",
+  "IdSup": "chart:74",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "7403",
+  "Name": {
+   "en": "Vehicle repairs",
+   "et": "Sõidukite remont"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:75",
+  "IdSup": "chart:7",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "75",
+  "Name": {
+   "en": "Finance costs",
+   "et": "Finantskulud"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:7501",
+  "IdSup": "chart:75",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "7501",
+  "Name": {
+   "en": "Interest expense",
+   "et": "Intressikulu"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:7502",
+  "IdSup": "chart:75",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "7502",
+  "Name": {
+   "en": "Bank charges",
+   "et": "Pangatasud"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:7503",
+  "IdSup": "chart:75",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "7503",
+  "Name": {
+   "en": "Exchange losses",
+   "et": "Kahjum valuutakursi muutustest"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:7504",
+  "IdSup": "chart:75",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "7504",
+  "Name": {
+   "en": "Lease interest",
+   "et": "Rendiintressid"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:76",
+  "IdSup": "chart:7",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "76",
+  "Name": {
+   "en": "Depreciation and amortisation",
+   "et": "Põhivara kulum"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:7601",
+  "IdSup": "chart:76",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "7601",
+  "Name": {
+   "en": "Buildings",
+   "et": "Ehitiste kulum"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:7602",
+  "IdSup": "chart:76",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "7602",
+  "Name": {
+   "en": "Plant and machinery",
+   "et": "Masinate ja seadmete kulum"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:7603",
+  "IdSup": "chart:76",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "7603",
+  "Name": {
+   "en": "Vehicles",
+   "et": "Transpordivahendite kulum"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:7604",
+  "IdSup": "chart:76",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "7604",
+  "Name": {
+   "en": "Furniture and fittings",
+   "et": "Inventari kulum"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:7605",
+  "IdSup": "chart:76",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "7605",
+  "Name": {
+   "en": "Computer equipment",
+   "et": "Arvutustehnika kulum"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:7606",
+  "IdSup": "chart:76",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "7606",
+  "Name": {
+   "en": "Intangible assets",
+   "et": "Immateriaalse põhivara kulum"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:77",
+  "IdSup": "chart:7",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "77",
+  "Name": {
+   "en": "Other expenses",
+   "et": "Muud kulud"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:7701",
+  "IdSup": "chart:77",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "7701",
+  "Name": {
+   "en": "Bad debts",
+   "et": "Ebatõenäoliselt laekuvad nõuded"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:7702",
+  "IdSup": "chart:77",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "7702",
+  "Name": {
+   "en": "Loss on disposal of property, plant and equipment",
+   "et": "Põhivara müügikahjum"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:7703",
+  "IdSup": "chart:77",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "7703",
+  "Name": {
+   "en": "Non-recoverable VAT",
+   "et": "Mittemahaarvatav käibemaks"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:7704",
+  "IdSup": "chart:77",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "7704",
+  "Name": {
+   "en": "Sundry expenses",
+   "et": "Muud kulud"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:7705",
+  "IdSup": "chart:77",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "7705",
+  "Name": {
+   "en": "Inventory losses and waste",
+   "et": "Varude kaod ja praak"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:8",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "chart_type:8",
+  "Code": "8",
+  "Name": {
+   "en": "Income tax",
+   "et": "Tulumaks"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:80",
+  "IdSup": "chart:8",
+  "Active": true,
+  "TypeId": "chart_type:8",
+  "Code": "80",
+  "Name": {
+   "en": "Taxation",
+   "et": "Maksud"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:8001",
+  "IdSup": "chart:80",
+  "Active": true,
+  "TypeId": "chart_type:8",
+  "Code": "8001",
+  "Name": {
+   "en": "Corporation tax",
+   "et": "Ettevõtte tulumaks"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:8002",
+  "IdSup": "chart:80",
+  "Active": true,
+  "TypeId": "chart_type:8",
+  "Code": "8002",
+  "Name": {
+   "en": "Other taxes on profit",
+   "et": "Muud kasumimaksud"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:8003",
+  "IdSup": "chart:80",
+  "Active": true,
+  "TypeId": "chart_type:8",
+  "Code": "8003",
+  "Name": {
+   "en": "Deferred tax",
+   "et": "Edasilükkunud tulumaks"
+  },
+  "IsComposite": false
+ }
+]

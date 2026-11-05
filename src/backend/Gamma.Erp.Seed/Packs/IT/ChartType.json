@@ -1,0 +1,142 @@
+[
+ {
+  "Key": "chart_type:ATT",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "ATT",
+  "CodeStart": 0,
+  "CodeEnd": 99999,
+  "CodeCurrent": 0,
+  "Name": {
+   "it": "Attività"
+  },
+  "SortOrder": 10
+ },
+ {
+  "Key": "chart_type:PN",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "PN",
+  "CodeStart": 0,
+  "CodeEnd": 99999,
+  "CodeCurrent": 0,
+  "Name": {
+   "it": "Patrimonio netto"
+  },
+  "SortOrder": 20
+ },
+ {
+  "Key": "chart_type:PAS",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "PAS",
+  "CodeStart": 0,
+  "CodeEnd": 99999,
+  "CodeCurrent": 0,
+  "Name": {
+   "it": "Passività"
+  },
+  "SortOrder": 30
+ },
+ {
+  "Key": "chart_type:RIC",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "RIC",
+  "CodeStart": 0,
+  "CodeEnd": 99999,
+  "CodeCurrent": 0,
+  "Name": {
+   "it": "Valore della produzione"
+  },
+  "SortOrder": 40
+ },
+ {
+  "Key": "chart_type:COS",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "COS",
+  "CodeStart": 0,
+  "CodeEnd": 99999,
+  "CodeCurrent": 0,
+  "Name": {
+   "it": "Costi della produzione"
+  },
+  "SortOrder": 50
+ },
+ {
+  "Key": "chart_type:FIN",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "FIN",
+  "CodeStart": 0,
+  "CodeEnd": 99999,
+  "CodeCurrent": 0,
+  "Name": {
+   "it": "Proventi e oneri finanziari"
+  },
+  "SortOrder": 60
+ },
+ {
+  "Key": "chart_type:STR",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "STR",
+  "CodeStart": 0,
+  "CodeEnd": 99999,
+  "CodeCurrent": 0,
+  "Name": {
+   "it": "Proventi e oneri straordinari"
+  },
+  "SortOrder": 70
+ },
+ {
+  "Key": "chart_type:IMP",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "IMP",
+  "CodeStart": 0,
+  "CodeEnd": 99999,
+  "CodeCurrent": 0,
+  "Name": {
+   "it": "Imposte sul reddito"
+  },
+  "SortOrder": 80
+ },
+ {
+  "Key": "chart_type:RIE",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "RIE",
+  "CodeStart": 0,
+  "CodeEnd": 99999,
+  "CodeCurrent": 0,
+  "Name": {
+   "it": "Conti riepilogativi"
+  },
+  "SortOrder": 90
+ },
+ {
+  "Key": "chart_type:ORD",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "ORD",
+  "CodeStart": 0,
+  "CodeEnd": 99999,
+  "CodeCurrent": 0,
+  "Name": {
+   "it": "Conti d'ordine"
+  },
+  "SortOrder": 100
+ }
+]

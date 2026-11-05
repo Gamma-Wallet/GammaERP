@@ -1,0 +1,5458 @@
+[
+ {
+  "Key": "chart:1",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "1",
+  "Name": {
+   "pt": "Meios financeiros líquidos"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:11",
+  "IdSup": "chart:1",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "11",
+  "Name": {
+   "pt": "Caixa"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:12",
+  "IdSup": "chart:1",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "12",
+  "Name": {
+   "pt": "Depósitos à ordem"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:13",
+  "IdSup": "chart:1",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "13",
+  "Name": {
+   "pt": "Outros depósitos bancários"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:14",
+  "IdSup": "chart:1",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "14",
+  "Name": {
+   "pt": "Outros instrumentos financeiros"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:141",
+  "IdSup": "chart:14",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "141",
+  "Name": {
+   "pt": "Derivados"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:1411",
+  "IdSup": "chart:141",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "1411",
+  "Name": {
+   "pt": "Potencialmente favoráveis"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:1412",
+  "IdSup": "chart:141",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "1412",
+  "Name": {
+   "pt": "Potencialmente desfavoráveis"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:142",
+  "IdSup": "chart:14",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "142",
+  "Name": {
+   "pt": "Instrumentos financeiros detidos para negociação"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:1421",
+  "IdSup": "chart:142",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "1421",
+  "Name": {
+   "pt": "Ativos financeiros"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:1422",
+  "IdSup": "chart:142",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "1422",
+  "Name": {
+   "pt": "Passivos financeiros"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:143",
+  "IdSup": "chart:14",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "143",
+  "Name": {
+   "pt": "Outros ativos e passivos financeiros"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:1431",
+  "IdSup": "chart:143",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "1431",
+  "Name": {
+   "pt": "Outros ativos financeiros"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:1432",
+  "IdSup": "chart:143",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "1432",
+  "Name": {
+   "pt": "Outros passivos financeiros"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:2",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "2",
+  "Name": {
+   "pt": "Contas a receber e a pagar"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:21",
+  "IdSup": "chart:2",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "21",
+  "Name": {
+   "pt": "Clientes"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:211",
+  "IdSup": "chart:21",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "211",
+  "Name": {
+   "pt": "Clientes c/c"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:2111",
+  "IdSup": "chart:211",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "2111",
+  "Name": {
+   "pt": "Clientes gerais"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:2112",
+  "IdSup": "chart:211",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "2112",
+  "Name": {
+   "pt": "Clientes — empresa-mãe"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:2113",
+  "IdSup": "chart:211",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "2113",
+  "Name": {
+   "pt": "Clientes — empresas subsidiárias"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:2114",
+  "IdSup": "chart:211",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "2114",
+  "Name": {
+   "pt": "Clientes — empresas associadas"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:2115",
+  "IdSup": "chart:211",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "2115",
+  "Name": {
+   "pt": "Clientes — empreendimentos conjuntos"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:2116",
+  "IdSup": "chart:211",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "2116",
+  "Name": {
+   "pt": "Clientes — outras partes relacionadas"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:212",
+  "IdSup": "chart:21",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "212",
+  "Name": {
+   "pt": "Clientes — títulos a receber"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:2121",
+  "IdSup": "chart:212",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "2121",
+  "Name": {
+   "pt": "Clientes gerais"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:2122",
+  "IdSup": "chart:212",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "2122",
+  "Name": {
+   "pt": "Clientes — empresa-mãe"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:2123",
+  "IdSup": "chart:212",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "2123",
+  "Name": {
+   "pt": "Clientes — empresas subsidiárias"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:2124",
+  "IdSup": "chart:212",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "2124",
+  "Name": {
+   "pt": "Clientes — empresas associadas"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:2125",
+  "IdSup": "chart:212",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "2125",
+  "Name": {
+   "pt": "Clientes — empreendimentos conjuntos"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:2126",
+  "IdSup": "chart:212",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "2126",
+  "Name": {
+   "pt": "Clientes — outras partes relacionadas"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:218",
+  "IdSup": "chart:21",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "218",
+  "Name": {
+   "pt": "Adiantamentos de clientes"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:219",
+  "IdSup": "chart:21",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "219",
+  "Name": {
+   "pt": "Perdas por imparidade acumuladas"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:22",
+  "IdSup": "chart:2",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "22",
+  "Name": {
+   "pt": "Fornecedores"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:221",
+  "IdSup": "chart:22",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "221",
+  "Name": {
+   "pt": "Fornecedores c/c"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:2211",
+  "IdSup": "chart:221",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "2211",
+  "Name": {
+   "pt": "Fornecedores gerais"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:2212",
+  "IdSup": "chart:221",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "2212",
+  "Name": {
+   "pt": "Fornecedores — empresa-mãe"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:2213",
+  "IdSup": "chart:221",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "2213",
+  "Name": {
+   "pt": "Fornecedores — empresas subsidiárias"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:2214",
+  "IdSup": "chart:221",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "2214",
+  "Name": {
+   "pt": "Fornecedores — empresas associadas"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:2215",
+  "IdSup": "chart:221",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "2215",
+  "Name": {
+   "pt": "Fornecedores — empreendimentos conjuntos"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:2216",
+  "IdSup": "chart:221",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "2216",
+  "Name": {
+   "pt": "Fornecedores — outras partes relacionadas"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:222",
+  "IdSup": "chart:22",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "222",
+  "Name": {
+   "pt": "Fornecedores — títulos a pagar"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:2221",
+  "IdSup": "chart:222",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "2221",
+  "Name": {
+   "pt": "Fornecedores gerais"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:2222",
+  "IdSup": "chart:222",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "2222",
+  "Name": {
+   "pt": "Fornecedores — empresa-mãe"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:2223",
+  "IdSup": "chart:222",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "2223",
+  "Name": {
+   "pt": "Fornecedores — empresas subsidiárias"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:2224",
+  "IdSup": "chart:222",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "2224",
+  "Name": {
+   "pt": "Fornecedores — empresas associadas"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:2225",
+  "IdSup": "chart:222",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "2225",
+  "Name": {
+   "pt": "Fornecedores — empreendimentos conjuntos"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:2226",
+  "IdSup": "chart:222",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "2226",
+  "Name": {
+   "pt": "Fornecedores — outras partes relacionadas"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:225",
+  "IdSup": "chart:22",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "225",
+  "Name": {
+   "pt": "Faturas em receção e conferência"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:228",
+  "IdSup": "chart:22",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "228",
+  "Name": {
+   "pt": "Adiantamentos a fornecedores"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:229",
+  "IdSup": "chart:22",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "229",
+  "Name": {
+   "pt": "Perdas por imparidade acumuladas"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:23",
+  "IdSup": "chart:2",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "23",
+  "Name": {
+   "pt": "Pessoal"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:231",
+  "IdSup": "chart:23",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "231",
+  "Name": {
+   "pt": "Remunerações a pagar"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:2311",
+  "IdSup": "chart:231",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "2311",
+  "Name": {
+   "pt": "Aos órgãos sociais"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:2312",
+  "IdSup": "chart:231",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "2312",
+  "Name": {
+   "pt": "Ao pessoal"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:232",
+  "IdSup": "chart:23",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "232",
+  "Name": {
+   "pt": "Adiantamentos"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:2321",
+  "IdSup": "chart:232",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "2321",
+  "Name": {
+   "pt": "Aos órgãos sociais"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:2322",
+  "IdSup": "chart:232",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "2322",
+  "Name": {
+   "pt": "Ao pessoal"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:237",
+  "IdSup": "chart:23",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "237",
+  "Name": {
+   "pt": "Cauções"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:2371",
+  "IdSup": "chart:237",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "2371",
+  "Name": {
+   "pt": "Dos órgãos sociais"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:2372",
+  "IdSup": "chart:237",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "2372",
+  "Name": {
+   "pt": "Do pessoal"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:238",
+  "IdSup": "chart:23",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "238",
+  "Name": {
+   "pt": "Outras operações"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:2381",
+  "IdSup": "chart:238",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "2381",
+  "Name": {
+   "pt": "Com os órgãos sociais"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:2382",
+  "IdSup": "chart:238",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "2382",
+  "Name": {
+   "pt": "Com o pessoal"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:239",
+  "IdSup": "chart:23",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "239",
+  "Name": {
+   "pt": "Perdas por imparidade acumuladas"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:24",
+  "IdSup": "chart:2",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "24",
+  "Name": {
+   "pt": "Estado e outros entes públicos"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:241",
+  "IdSup": "chart:24",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "241",
+  "Name": {
+   "pt": "Imposto sobre o rendimento"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:242",
+  "IdSup": "chart:24",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "242",
+  "Name": {
+   "pt": "Retenção de impostos sobre rendimentos"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:243",
+  "IdSup": "chart:24",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "243",
+  "Name": {
+   "pt": "Imposto sobre o valor acrescentado (IVA)"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:2431",
+  "IdSup": "chart:243",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "2431",
+  "Name": {
+   "pt": "IVA — Suportado"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:2432",
+  "IdSup": "chart:243",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "2432",
+  "Name": {
+   "pt": "IVA — Dedutível"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:2433",
+  "IdSup": "chart:243",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "2433",
+  "Name": {
+   "pt": "IVA — Liquidado"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:2434",
+  "IdSup": "chart:243",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "2434",
+  "Name": {
+   "pt": "IVA — Regularizações"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:2435",
+  "IdSup": "chart:243",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "2435",
+  "Name": {
+   "pt": "IVA — Apuramento"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:2436",
+  "IdSup": "chart:243",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "2436",
+  "Name": {
+   "pt": "IVA — A pagar"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:2437",
+  "IdSup": "chart:243",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "2437",
+  "Name": {
+   "pt": "IVA — A recuperar"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:2438",
+  "IdSup": "chart:243",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "2438",
+  "Name": {
+   "pt": "IVA — Reembolsos pedidos"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:2439",
+  "IdSup": "chart:243",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "2439",
+  "Name": {
+   "pt": "IVA — Liquidações oficiosas"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:244",
+  "IdSup": "chart:24",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "244",
+  "Name": {
+   "pt": "Outros impostos"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:245",
+  "IdSup": "chart:24",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "245",
+  "Name": {
+   "pt": "Contribuições para a Segurança Social"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:246",
+  "IdSup": "chart:24",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "246",
+  "Name": {
+   "pt": "Tributos das autarquias locais"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:248",
+  "IdSup": "chart:24",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "248",
+  "Name": {
+   "pt": "Outras tributações"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:25",
+  "IdSup": "chart:2",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "25",
+  "Name": {
+   "pt": "Financiamentos obtidos"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:251",
+  "IdSup": "chart:25",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "251",
+  "Name": {
+   "pt": "Instituições de crédito e sociedades financeiras"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:2511",
+  "IdSup": "chart:251",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "2511",
+  "Name": {
+   "pt": "Empréstimos bancários"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:2512",
+  "IdSup": "chart:251",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "2512",
+  "Name": {
+   "pt": "Descobertos bancários"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:2513",
+  "IdSup": "chart:251",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "2513",
+  "Name": {
+   "pt": "Locações financeiras"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:252",
+  "IdSup": "chart:25",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "252",
+  "Name": {
+   "pt": "Mercado de valores mobiliários"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:2521",
+  "IdSup": "chart:252",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "2521",
+  "Name": {
+   "pt": "Empréstimos por obrigações"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:253",
+  "IdSup": "chart:25",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "253",
+  "Name": {
+   "pt": "Participantes de capital"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:2531",
+  "IdSup": "chart:253",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "2531",
+  "Name": {
+   "pt": "Empresa-mãe — Suprimentos e outros mútuos"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:2532",
+  "IdSup": "chart:253",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "2532",
+  "Name": {
+   "pt": "Outros participantes — Suprimentos e outros mútuos"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:254",
+  "IdSup": "chart:25",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "254",
+  "Name": {
+   "pt": "Subsidiárias, associadas e empreendimentos conjuntos"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:258",
+  "IdSup": "chart:25",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "258",
+  "Name": {
+   "pt": "Outros financiadores"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:26",
+  "IdSup": "chart:2",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "26",
+  "Name": {
+   "pt": "Acionistas/sócios"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:261",
+  "IdSup": "chart:26",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "261",
+  "Name": {
+   "pt": "Acionistas c/ subscrição"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:262",
+  "IdSup": "chart:26",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "262",
+  "Name": {
+   "pt": "Quotas não liberadas"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:263",
+  "IdSup": "chart:26",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "263",
+  "Name": {
+   "pt": "Adiantamentos por conta de lucros"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:264",
+  "IdSup": "chart:26",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "264",
+  "Name": {
+   "pt": "Resultados atribuídos"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:265",
+  "IdSup": "chart:26",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "265",
+  "Name": {
+   "pt": "Lucros disponíveis"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:266",
+  "IdSup": "chart:26",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "266",
+  "Name": {
+   "pt": "Empréstimos concedidos — empresa-mãe"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:268",
+  "IdSup": "chart:26",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "268",
+  "Name": {
+   "pt": "Outras operações"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:269",
+  "IdSup": "chart:26",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "269",
+  "Name": {
+   "pt": "Perdas por imparidade acumuladas"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:27",
+  "IdSup": "chart:2",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "27",
+  "Name": {
+   "pt": "Outras contas a receber e a pagar"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:271",
+  "IdSup": "chart:27",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "271",
+  "Name": {
+   "pt": "Fornecedores de investimentos"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:2711",
+  "IdSup": "chart:271",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "2711",
+  "Name": {
+   "pt": "Fornecedores de investimentos — contas gerais"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:2712",
+  "IdSup": "chart:271",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "2712",
+  "Name": {
+   "pt": "Faturas em receção e conferência"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:2713",
+  "IdSup": "chart:271",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "2713",
+  "Name": {
+   "pt": "Adiantamentos a fornecedores de investimentos"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:272",
+  "IdSup": "chart:27",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "272",
+  "Name": {
+   "pt": "Devedores e credores por acréscimos (periodização económica)"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:2721",
+  "IdSup": "chart:272",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "2721",
+  "Name": {
+   "pt": "Devedores por acréscimos de rendimentos"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:2722",
+  "IdSup": "chart:272",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "2722",
+  "Name": {
+   "pt": "Credores por acréscimos de gastos"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:273",
+  "IdSup": "chart:27",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "273",
+  "Name": {
+   "pt": "Benefícios pós-emprego"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:274",
+  "IdSup": "chart:27",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "274",
+  "Name": {
+   "pt": "Impostos diferidos"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:2741",
+  "IdSup": "chart:274",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "2741",
+  "Name": {
+   "pt": "Ativos por impostos diferidos"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:2742",
+  "IdSup": "chart:274",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "2742",
+  "Name": {
+   "pt": "Passivos por impostos diferidos"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:275",
+  "IdSup": "chart:27",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "275",
+  "Name": {
+   "pt": "Credores por subscrições não liberadas"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:276",
+  "IdSup": "chart:27",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "276",
+  "Name": {
+   "pt": "Adiantamentos por conta de vendas"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:278",
+  "IdSup": "chart:27",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "278",
+  "Name": {
+   "pt": "Outros devedores e credores"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:279",
+  "IdSup": "chart:27",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "279",
+  "Name": {
+   "pt": "Perdas por imparidade acumuladas"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:28",
+  "IdSup": "chart:2",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "28",
+  "Name": {
+   "pt": "Diferimentos"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:281",
+  "IdSup": "chart:28",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "281",
+  "Name": {
+   "pt": "Gastos a reconhecer"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:282",
+  "IdSup": "chart:28",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "282",
+  "Name": {
+   "pt": "Rendimentos a reconhecer"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:29",
+  "IdSup": "chart:2",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "29",
+  "Name": {
+   "pt": "Provisões"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:291",
+  "IdSup": "chart:29",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "291",
+  "Name": {
+   "pt": "Impostos"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:292",
+  "IdSup": "chart:29",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "292",
+  "Name": {
+   "pt": "Garantias a clientes"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:293",
+  "IdSup": "chart:29",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "293",
+  "Name": {
+   "pt": "Processos judiciais em curso"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:294",
+  "IdSup": "chart:29",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "294",
+  "Name": {
+   "pt": "Acidentes de trabalho e doenças profissionais"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:295",
+  "IdSup": "chart:29",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "295",
+  "Name": {
+   "pt": "Matérias ambientais"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:296",
+  "IdSup": "chart:29",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "296",
+  "Name": {
+   "pt": "Contratos onerosos"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:297",
+  "IdSup": "chart:29",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "297",
+  "Name": {
+   "pt": "Reestruturação"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:298",
+  "IdSup": "chart:29",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "298",
+  "Name": {
+   "pt": "Outras provisões"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:3",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "3",
+  "Name": {
+   "pt": "Inventários e ativos biológicos"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:31",
+  "IdSup": "chart:3",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "31",
+  "Name": {
+   "pt": "Compras"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:311",
+  "IdSup": "chart:31",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "311",
+  "Name": {
+   "pt": "Mercadorias"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:312",
+  "IdSup": "chart:31",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "312",
+  "Name": {
+   "pt": "Matérias-primas, subsidiárias e de consumo"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:313",
+  "IdSup": "chart:31",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "313",
+  "Name": {
+   "pt": "Ativos biológicos"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:317",
+  "IdSup": "chart:31",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "317",
+  "Name": {
+   "pt": "Devoluções de compras"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:318",
+  "IdSup": "chart:31",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "318",
+  "Name": {
+   "pt": "Descontos e abatimentos em compras"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:32",
+  "IdSup": "chart:3",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "32",
+  "Name": {
+   "pt": "Mercadorias"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:325",
+  "IdSup": "chart:32",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "325",
+  "Name": {
+   "pt": "Mercadorias em trânsito"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:326",
+  "IdSup": "chart:32",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "326",
+  "Name": {
+   "pt": "Mercadorias em poder de terceiros"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:329",
+  "IdSup": "chart:32",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "329",
+  "Name": {
+   "pt": "Perdas por imparidade acumuladas"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:33",
+  "IdSup": "chart:3",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "33",
+  "Name": {
+   "pt": "Matérias-primas, subsidiárias e de consumo"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:331",
+  "IdSup": "chart:33",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "331",
+  "Name": {
+   "pt": "Matérias-primas"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:332",
+  "IdSup": "chart:33",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "332",
+  "Name": {
+   "pt": "Matérias subsidiárias"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:333",
+  "IdSup": "chart:33",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "333",
+  "Name": {
+   "pt": "Embalagens"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:334",
+  "IdSup": "chart:33",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "334",
+  "Name": {
+   "pt": "Materiais diversos"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:335",
+  "IdSup": "chart:33",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "335",
+  "Name": {
+   "pt": "Matérias em trânsito"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:339",
+  "IdSup": "chart:33",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "339",
+  "Name": {
+   "pt": "Perdas por imparidade acumuladas"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:34",
+  "IdSup": "chart:3",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "34",
+  "Name": {
+   "pt": "Produtos acabados e intermédios"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:346",
+  "IdSup": "chart:34",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "346",
+  "Name": {
+   "pt": "Produtos em poder de terceiros"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:349",
+  "IdSup": "chart:34",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "349",
+  "Name": {
+   "pt": "Perdas por imparidade acumuladas"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:35",
+  "IdSup": "chart:3",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "35",
+  "Name": {
+   "pt": "Subprodutos, desperdícios, resíduos e refugos"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:351",
+  "IdSup": "chart:35",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "351",
+  "Name": {
+   "pt": "Subprodutos"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:352",
+  "IdSup": "chart:35",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "352",
+  "Name": {
+   "pt": "Desperdícios, resíduos e refugos"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:359",
+  "IdSup": "chart:35",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "359",
+  "Name": {
+   "pt": "Perdas por imparidade acumuladas"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:36",
+  "IdSup": "chart:3",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "36",
+  "Name": {
+   "pt": "Produtos e trabalhos em curso"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:37",
+  "IdSup": "chart:3",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "37",
+  "Name": {
+   "pt": "Ativos biológicos"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:371",
+  "IdSup": "chart:37",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "371",
+  "Name": {
+   "pt": "Consumíveis"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:3711",
+  "IdSup": "chart:371",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "3711",
+  "Name": {
+   "pt": "Animais"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:3712",
+  "IdSup": "chart:371",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "3712",
+  "Name": {
+   "pt": "Plantas"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:372",
+  "IdSup": "chart:37",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "372",
+  "Name": {
+   "pt": "De produção"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:3721",
+  "IdSup": "chart:372",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "3721",
+  "Name": {
+   "pt": "Animais"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:3722",
+  "IdSup": "chart:372",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "3722",
+  "Name": {
+   "pt": "Plantas"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:38",
+  "IdSup": "chart:3",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "38",
+  "Name": {
+   "pt": "Reclassificação e regularização de inventários"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:382",
+  "IdSup": "chart:38",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "382",
+  "Name": {
+   "pt": "Mercadorias"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:383",
+  "IdSup": "chart:38",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "383",
+  "Name": {
+   "pt": "Matérias-primas, subsidiárias e de consumo"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:384",
+  "IdSup": "chart:38",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "384",
+  "Name": {
+   "pt": "Produtos acabados e intermédios"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:385",
+  "IdSup": "chart:38",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "385",
+  "Name": {
+   "pt": "Subprodutos, desperdícios, resíduos e refugos"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:386",
+  "IdSup": "chart:38",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "386",
+  "Name": {
+   "pt": "Produtos e trabalhos em curso"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:387",
+  "IdSup": "chart:38",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "387",
+  "Name": {
+   "pt": "Ativos biológicos"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:39",
+  "IdSup": "chart:3",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "39",
+  "Name": {
+   "pt": "Adiantamentos por conta de compras"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:4",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "4",
+  "Name": {
+   "pt": "Investimentos"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:41",
+  "IdSup": "chart:4",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "41",
+  "Name": {
+   "pt": "Investimentos financeiros"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:411",
+  "IdSup": "chart:41",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "411",
+  "Name": {
+   "pt": "Investimentos em subsidiárias"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:4111",
+  "IdSup": "chart:411",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "4111",
+  "Name": {
+   "pt": "Participações de capital — método da equivalência patrimonial"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:4112",
+  "IdSup": "chart:411",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "4112",
+  "Name": {
+   "pt": "Participações de capital — outros métodos"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:4113",
+  "IdSup": "chart:411",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "4113",
+  "Name": {
+   "pt": "Empréstimos concedidos"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:412",
+  "IdSup": "chart:41",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "412",
+  "Name": {
+   "pt": "Investimentos em associadas"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:4121",
+  "IdSup": "chart:412",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "4121",
+  "Name": {
+   "pt": "Participações de capital — método da equivalência patrimonial"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:4122",
+  "IdSup": "chart:412",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "4122",
+  "Name": {
+   "pt": "Participações de capital — outros métodos"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:4123",
+  "IdSup": "chart:412",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "4123",
+  "Name": {
+   "pt": "Empréstimos concedidos"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:413",
+  "IdSup": "chart:41",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "413",
+  "Name": {
+   "pt": "Investimentos em entidades conjuntamente controladas"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:4131",
+  "IdSup": "chart:413",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "4131",
+  "Name": {
+   "pt": "Participações de capital — método da equivalência patrimonial"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:4132",
+  "IdSup": "chart:413",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "4132",
+  "Name": {
+   "pt": "Participações de capital — outros métodos"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:4133",
+  "IdSup": "chart:413",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "4133",
+  "Name": {
+   "pt": "Empréstimos concedidos"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:414",
+  "IdSup": "chart:41",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "414",
+  "Name": {
+   "pt": "Investimentos noutras empresas"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:4141",
+  "IdSup": "chart:414",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "4141",
+  "Name": {
+   "pt": "Participações de capital"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:4142",
+  "IdSup": "chart:414",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "4142",
+  "Name": {
+   "pt": "Empréstimos concedidos"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:415",
+  "IdSup": "chart:41",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "415",
+  "Name": {
+   "pt": "Outros investimentos financeiros"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:4151",
+  "IdSup": "chart:415",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "4151",
+  "Name": {
+   "pt": "Detidos até à maturidade"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:4158",
+  "IdSup": "chart:415",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "4158",
+  "Name": {
+   "pt": "Outros"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:419",
+  "IdSup": "chart:41",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "419",
+  "Name": {
+   "pt": "Perdas por imparidade acumuladas"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:42",
+  "IdSup": "chart:4",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "42",
+  "Name": {
+   "pt": "Propriedades de investimento"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:421",
+  "IdSup": "chart:42",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "421",
+  "Name": {
+   "pt": "Terrenos e recursos naturais"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:422",
+  "IdSup": "chart:42",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "422",
+  "Name": {
+   "pt": "Edifícios e outras construções"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:426",
+  "IdSup": "chart:42",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "426",
+  "Name": {
+   "pt": "Outras propriedades de investimento"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:428",
+  "IdSup": "chart:42",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "428",
+  "Name": {
+   "pt": "Depreciações acumuladas"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:429",
+  "IdSup": "chart:42",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "429",
+  "Name": {
+   "pt": "Perdas por imparidade acumuladas"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:43",
+  "IdSup": "chart:4",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "43",
+  "Name": {
+   "pt": "Ativos fixos tangíveis"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:431",
+  "IdSup": "chart:43",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "431",
+  "Name": {
+   "pt": "Terrenos e recursos naturais"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:432",
+  "IdSup": "chart:43",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "432",
+  "Name": {
+   "pt": "Edifícios e outras construções"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:433",
+  "IdSup": "chart:43",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "433",
+  "Name": {
+   "pt": "Equipamento básico"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:434",
+  "IdSup": "chart:43",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "434",
+  "Name": {
+   "pt": "Equipamento de transporte"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:435",
+  "IdSup": "chart:43",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "435",
+  "Name": {
+   "pt": "Equipamento administrativo"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:436",
+  "IdSup": "chart:43",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "436",
+  "Name": {
+   "pt": "Equipamentos biológicos"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:437",
+  "IdSup": "chart:43",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "437",
+  "Name": {
+   "pt": "Outros ativos fixos tangíveis"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:438",
+  "IdSup": "chart:43",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "438",
+  "Name": {
+   "pt": "Depreciações acumuladas"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:439",
+  "IdSup": "chart:43",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "439",
+  "Name": {
+   "pt": "Perdas por imparidade acumuladas"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:44",
+  "IdSup": "chart:4",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "44",
+  "Name": {
+   "pt": "Ativos intangíveis"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:441",
+  "IdSup": "chart:44",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "441",
+  "Name": {
+   "pt": "Goodwill"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:442",
+  "IdSup": "chart:44",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "442",
+  "Name": {
+   "pt": "Projetos de desenvolvimento"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:443",
+  "IdSup": "chart:44",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "443",
+  "Name": {
+   "pt": "Programas de computador"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:444",
+  "IdSup": "chart:44",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "444",
+  "Name": {
+   "pt": "Propriedade industrial"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:446",
+  "IdSup": "chart:44",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "446",
+  "Name": {
+   "pt": "Outros ativos intangíveis"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:448",
+  "IdSup": "chart:44",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "448",
+  "Name": {
+   "pt": "Amortizações acumuladas"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:449",
+  "IdSup": "chart:44",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "449",
+  "Name": {
+   "pt": "Perdas por imparidade acumuladas"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:45",
+  "IdSup": "chart:4",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "45",
+  "Name": {
+   "pt": "Investimentos em curso"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:451",
+  "IdSup": "chart:45",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "451",
+  "Name": {
+   "pt": "Investimentos financeiros em curso"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:452",
+  "IdSup": "chart:45",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "452",
+  "Name": {
+   "pt": "Propriedades de investimento em curso"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:453",
+  "IdSup": "chart:45",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "453",
+  "Name": {
+   "pt": "Ativos fixos tangíveis em curso"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:454",
+  "IdSup": "chart:45",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "454",
+  "Name": {
+   "pt": "Ativos intangíveis em curso"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:455",
+  "IdSup": "chart:45",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "455",
+  "Name": {
+   "pt": "Adiantamentos por conta de investimentos"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:459",
+  "IdSup": "chart:45",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "459",
+  "Name": {
+   "pt": "Perdas por imparidade acumuladas"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:46",
+  "IdSup": "chart:4",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "46",
+  "Name": {
+   "pt": "Ativos não correntes detidos para venda"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:469",
+  "IdSup": "chart:46",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "469",
+  "Name": {
+   "pt": "Perdas por imparidade acumuladas"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:5",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "5",
+  "Name": {
+   "pt": "Capital, reservas e resultados transitados"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:51",
+  "IdSup": "chart:5",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "51",
+  "Name": {
+   "pt": "Capital subscrito"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:52",
+  "IdSup": "chart:5",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "52",
+  "Name": {
+   "pt": "Ações (quotas) próprias"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:521",
+  "IdSup": "chart:52",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "521",
+  "Name": {
+   "pt": "Valor nominal"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:522",
+  "IdSup": "chart:52",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "522",
+  "Name": {
+   "pt": "Descontos e prémios"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:53",
+  "IdSup": "chart:5",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "53",
+  "Name": {
+   "pt": "Outros instrumentos de capital próprio"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:54",
+  "IdSup": "chart:5",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "54",
+  "Name": {
+   "pt": "Prémios de emissão"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:55",
+  "IdSup": "chart:5",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "55",
+  "Name": {
+   "pt": "Reservas"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:551",
+  "IdSup": "chart:55",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "551",
+  "Name": {
+   "pt": "Reservas legais"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:552",
+  "IdSup": "chart:55",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "552",
+  "Name": {
+   "pt": "Outras reservas"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:56",
+  "IdSup": "chart:5",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "56",
+  "Name": {
+   "pt": "Resultados transitados"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:57",
+  "IdSup": "chart:5",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "57",
+  "Name": {
+   "pt": "Ajustamentos em ativos financeiros"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:571",
+  "IdSup": "chart:57",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "571",
+  "Name": {
+   "pt": "Relacionados com o método da equivalência patrimonial"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:5711",
+  "IdSup": "chart:571",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "5711",
+  "Name": {
+   "pt": "Ajustamentos de transição"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:5712",
+  "IdSup": "chart:571",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "5712",
+  "Name": {
+   "pt": "Lucros não atribuídos"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:5713",
+  "IdSup": "chart:571",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "5713",
+  "Name": {
+   "pt": "Decorrentes de outras variações nos capitais próprios das participadas"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:579",
+  "IdSup": "chart:57",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "579",
+  "Name": {
+   "pt": "Outros"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:58",
+  "IdSup": "chart:5",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "58",
+  "Name": {
+   "pt": "Excedentes de revalorização de ativos fixos tangíveis e intangíveis"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:581",
+  "IdSup": "chart:58",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "581",
+  "Name": {
+   "pt": "Reavaliações decorrentes de diplomas legais"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:5811",
+  "IdSup": "chart:581",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "5811",
+  "Name": {
+   "pt": "Antes de imposto sobre o rendimento"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:5812",
+  "IdSup": "chart:581",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "5812",
+  "Name": {
+   "pt": "Impostos diferidos"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:589",
+  "IdSup": "chart:58",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "589",
+  "Name": {
+   "pt": "Outros excedentes"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:5891",
+  "IdSup": "chart:589",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "5891",
+  "Name": {
+   "pt": "Antes de imposto sobre o rendimento"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:5892",
+  "IdSup": "chart:589",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "5892",
+  "Name": {
+   "pt": "Impostos diferidos"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:59",
+  "IdSup": "chart:5",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "59",
+  "Name": {
+   "pt": "Outras variações no capital próprio"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:591",
+  "IdSup": "chart:59",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "591",
+  "Name": {
+   "pt": "Diferenças de conversão de demonstrações financeiras"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:592",
+  "IdSup": "chart:59",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "592",
+  "Name": {
+   "pt": "Ajustamentos por impostos diferidos"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:593",
+  "IdSup": "chart:59",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "593",
+  "Name": {
+   "pt": "Subsídios"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:594",
+  "IdSup": "chart:59",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "594",
+  "Name": {
+   "pt": "Doações"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:599",
+  "IdSup": "chart:59",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "599",
+  "Name": {
+   "pt": "Outras"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:6",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "6",
+  "Name": {
+   "pt": "Gastos"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:61",
+  "IdSup": "chart:6",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "61",
+  "Name": {
+   "pt": "Custo dos inventários vendidos e das matérias consumidas"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:611",
+  "IdSup": "chart:61",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "611",
+  "Name": {
+   "pt": "Mercadorias"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:612",
+  "IdSup": "chart:61",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "612",
+  "Name": {
+   "pt": "Matérias-primas, subsidiárias e de consumo"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:613",
+  "IdSup": "chart:61",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "613",
+  "Name": {
+   "pt": "Ativos biológicos (compras)"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:62",
+  "IdSup": "chart:6",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "62",
+  "Name": {
+   "pt": "Fornecimentos e serviços externos"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:621",
+  "IdSup": "chart:62",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "621",
+  "Name": {
+   "pt": "Subcontratos"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:622",
+  "IdSup": "chart:62",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "622",
+  "Name": {
+   "pt": "Serviços especializados"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:6221",
+  "IdSup": "chart:622",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "6221",
+  "Name": {
+   "pt": "Trabalhos especializados"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:6222",
+  "IdSup": "chart:622",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "6222",
+  "Name": {
+   "pt": "Publicidade e propaganda"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:6223",
+  "IdSup": "chart:622",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "6223",
+  "Name": {
+   "pt": "Vigilância e segurança"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:6224",
+  "IdSup": "chart:622",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "6224",
+  "Name": {
+   "pt": "Honorários"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:6225",
+  "IdSup": "chart:622",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "6225",
+  "Name": {
+   "pt": "Comissões"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:6226",
+  "IdSup": "chart:622",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "6226",
+  "Name": {
+   "pt": "Conservação e reparação"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:6228",
+  "IdSup": "chart:622",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "6228",
+  "Name": {
+   "pt": "Outros"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:623",
+  "IdSup": "chart:62",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "623",
+  "Name": {
+   "pt": "Materiais"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:6231",
+  "IdSup": "chart:623",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "6231",
+  "Name": {
+   "pt": "Ferramentas e utensílios de desgaste rápido"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:6232",
+  "IdSup": "chart:623",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "6232",
+  "Name": {
+   "pt": "Livros e documentação técnica"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:6233",
+  "IdSup": "chart:623",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "6233",
+  "Name": {
+   "pt": "Material de escritório"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:6234",
+  "IdSup": "chart:623",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "6234",
+  "Name": {
+   "pt": "Artigos para oferta"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:6238",
+  "IdSup": "chart:623",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "6238",
+  "Name": {
+   "pt": "Outros"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:624",
+  "IdSup": "chart:62",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "624",
+  "Name": {
+   "pt": "Energia e fluidos"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:6241",
+  "IdSup": "chart:624",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "6241",
+  "Name": {
+   "pt": "Eletricidade"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:6242",
+  "IdSup": "chart:624",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "6242",
+  "Name": {
+   "pt": "Combustíveis"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:6243",
+  "IdSup": "chart:624",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "6243",
+  "Name": {
+   "pt": "Água"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:6248",
+  "IdSup": "chart:624",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "6248",
+  "Name": {
+   "pt": "Outros"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:625",
+  "IdSup": "chart:62",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "625",
+  "Name": {
+   "pt": "Deslocações, estadas e transportes"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:6251",
+  "IdSup": "chart:625",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "6251",
+  "Name": {
+   "pt": "Deslocações e estadas"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:6252",
+  "IdSup": "chart:625",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "6252",
+  "Name": {
+   "pt": "Transportes de pessoal"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:6253",
+  "IdSup": "chart:625",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "6253",
+  "Name": {
+   "pt": "Transportes de mercadorias"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:6258",
+  "IdSup": "chart:625",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "6258",
+  "Name": {
+   "pt": "Outros"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:626",
+  "IdSup": "chart:62",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "626",
+  "Name": {
+   "pt": "Serviços diversos"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:6261",
+  "IdSup": "chart:626",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "6261",
+  "Name": {
+   "pt": "Rendas e alugueres"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:6262",
+  "IdSup": "chart:626",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "6262",
+  "Name": {
+   "pt": "Comunicação"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:6263",
+  "IdSup": "chart:626",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "6263",
+  "Name": {
+   "pt": "Seguros"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:6264",
+  "IdSup": "chart:626",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "6264",
+  "Name": {
+   "pt": "Royalties"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:6265",
+  "IdSup": "chart:626",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "6265",
+  "Name": {
+   "pt": "Contencioso e notariado"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:6266",
+  "IdSup": "chart:626",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "6266",
+  "Name": {
+   "pt": "Despesas de representação"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:6267",
+  "IdSup": "chart:626",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "6267",
+  "Name": {
+   "pt": "Limpeza, higiene e conforto"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:6268",
+  "IdSup": "chart:626",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "6268",
+  "Name": {
+   "pt": "Outros serviços"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:63",
+  "IdSup": "chart:6",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "63",
+  "Name": {
+   "pt": "Gastos com o pessoal"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:631",
+  "IdSup": "chart:63",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "631",
+  "Name": {
+   "pt": "Remunerações dos órgãos sociais"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:632",
+  "IdSup": "chart:63",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "632",
+  "Name": {
+   "pt": "Remunerações do pessoal"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:633",
+  "IdSup": "chart:63",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "633",
+  "Name": {
+   "pt": "Benefícios pós-emprego"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:6331",
+  "IdSup": "chart:633",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "6331",
+  "Name": {
+   "pt": "Prémios para pensões"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:6332",
+  "IdSup": "chart:633",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "6332",
+  "Name": {
+   "pt": "Outros benefícios"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:634",
+  "IdSup": "chart:63",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "634",
+  "Name": {
+   "pt": "Indemnizações"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:635",
+  "IdSup": "chart:63",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "635",
+  "Name": {
+   "pt": "Encargos sobre remunerações"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:636",
+  "IdSup": "chart:63",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "636",
+  "Name": {
+   "pt": "Seguros de acidentes no trabalho e doenças profissionais"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:637",
+  "IdSup": "chart:63",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "637",
+  "Name": {
+   "pt": "Gastos de ação social"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:638",
+  "IdSup": "chart:63",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "638",
+  "Name": {
+   "pt": "Outros gastos com o pessoal"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:64",
+  "IdSup": "chart:6",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "64",
+  "Name": {
+   "pt": "Gastos de depreciação e de amortização"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:641",
+  "IdSup": "chart:64",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "641",
+  "Name": {
+   "pt": "Propriedades de investimento"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:642",
+  "IdSup": "chart:64",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "642",
+  "Name": {
+   "pt": "Ativos fixos tangíveis"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:643",
+  "IdSup": "chart:64",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "643",
+  "Name": {
+   "pt": "Ativos intangíveis"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:65",
+  "IdSup": "chart:6",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "65",
+  "Name": {
+   "pt": "Perdas por imparidade"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:651",
+  "IdSup": "chart:65",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "651",
+  "Name": {
+   "pt": "Em dívidas a receber"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:6511",
+  "IdSup": "chart:651",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "6511",
+  "Name": {
+   "pt": "Clientes"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:6512",
+  "IdSup": "chart:651",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "6512",
+  "Name": {
+   "pt": "Outros devedores"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:652",
+  "IdSup": "chart:65",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "652",
+  "Name": {
+   "pt": "Em inventários"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:653",
+  "IdSup": "chart:65",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "653",
+  "Name": {
+   "pt": "Em investimentos financeiros"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:654",
+  "IdSup": "chart:65",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "654",
+  "Name": {
+   "pt": "Em propriedades de investimento"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:655",
+  "IdSup": "chart:65",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "655",
+  "Name": {
+   "pt": "Em ativos fixos tangíveis"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:656",
+  "IdSup": "chart:65",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "656",
+  "Name": {
+   "pt": "Em ativos intangíveis"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:657",
+  "IdSup": "chart:65",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "657",
+  "Name": {
+   "pt": "Em investimentos em curso"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:658",
+  "IdSup": "chart:65",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "658",
+  "Name": {
+   "pt": "Em ativos não correntes detidos para venda"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:66",
+  "IdSup": "chart:6",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "66",
+  "Name": {
+   "pt": "Perdas por reduções de justo valor"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:661",
+  "IdSup": "chart:66",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "661",
+  "Name": {
+   "pt": "Em instrumentos financeiros"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:662",
+  "IdSup": "chart:66",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "662",
+  "Name": {
+   "pt": "Em investimentos financeiros"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:663",
+  "IdSup": "chart:66",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "663",
+  "Name": {
+   "pt": "Em propriedades de investimento"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:664",
+  "IdSup": "chart:66",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "664",
+  "Name": {
+   "pt": "Em ativos biológicos"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:67",
+  "IdSup": "chart:6",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "67",
+  "Name": {
+   "pt": "Provisões do período"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:671",
+  "IdSup": "chart:67",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "671",
+  "Name": {
+   "pt": "Impostos"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:672",
+  "IdSup": "chart:67",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "672",
+  "Name": {
+   "pt": "Garantias a clientes"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:673",
+  "IdSup": "chart:67",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "673",
+  "Name": {
+   "pt": "Processos judiciais em curso"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:674",
+  "IdSup": "chart:67",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "674",
+  "Name": {
+   "pt": "Acidentes no trabalho e doenças profissionais"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:675",
+  "IdSup": "chart:67",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "675",
+  "Name": {
+   "pt": "Matérias ambientais"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:676",
+  "IdSup": "chart:67",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "676",
+  "Name": {
+   "pt": "Contratos onerosos"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:677",
+  "IdSup": "chart:67",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "677",
+  "Name": {
+   "pt": "Reestruturação"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:678",
+  "IdSup": "chart:67",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "678",
+  "Name": {
+   "pt": "Outras provisões"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:68",
+  "IdSup": "chart:6",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "68",
+  "Name": {
+   "pt": "Outros gastos"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:681",
+  "IdSup": "chart:68",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "681",
+  "Name": {
+   "pt": "Impostos"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:6812",
+  "IdSup": "chart:681",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "6812",
+  "Name": {
+   "pt": "Impostos indiretos"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:6813",
+  "IdSup": "chart:681",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "6813",
+  "Name": {
+   "pt": "Taxas"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:682",
+  "IdSup": "chart:68",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "682",
+  "Name": {
+   "pt": "Descontos de pronto pagamento concedidos"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:683",
+  "IdSup": "chart:68",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "683",
+  "Name": {
+   "pt": "Dívidas incobráveis"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:684",
+  "IdSup": "chart:68",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "684",
+  "Name": {
+   "pt": "Perdas em inventários"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:6841",
+  "IdSup": "chart:684",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "6841",
+  "Name": {
+   "pt": "Sinistros"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:6842",
+  "IdSup": "chart:684",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "6842",
+  "Name": {
+   "pt": "Quebras"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:6848",
+  "IdSup": "chart:684",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "6848",
+  "Name": {
+   "pt": "Outras perdas"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:685",
+  "IdSup": "chart:68",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "685",
+  "Name": {
+   "pt": "Gastos em subsidiárias, associadas e empreendimentos conjuntos"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:6851",
+  "IdSup": "chart:685",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "6851",
+  "Name": {
+   "pt": "Cobertura de prejuízos"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:6852",
+  "IdSup": "chart:685",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "6852",
+  "Name": {
+   "pt": "Aplicação do método da equivalência patrimonial"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:6853",
+  "IdSup": "chart:685",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "6853",
+  "Name": {
+   "pt": "Alienações"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:6858",
+  "IdSup": "chart:685",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "6858",
+  "Name": {
+   "pt": "Outros gastos"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:686",
+  "IdSup": "chart:68",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "686",
+  "Name": {
+   "pt": "Gastos nos restantes investimentos financeiros"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:6861",
+  "IdSup": "chart:686",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "6861",
+  "Name": {
+   "pt": "Cobertura de prejuízos"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:6862",
+  "IdSup": "chart:686",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "6862",
+  "Name": {
+   "pt": "Alienações"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:6863",
+  "IdSup": "chart:686",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "6863",
+  "Name": {
+   "pt": "Diferenças de câmbio desfavoráveis"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:6868",
+  "IdSup": "chart:686",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "6868",
+  "Name": {
+   "pt": "Outros gastos"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:687",
+  "IdSup": "chart:68",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "687",
+  "Name": {
+   "pt": "Gastos em investimentos não financeiros"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:6871",
+  "IdSup": "chart:687",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "6871",
+  "Name": {
+   "pt": "Alienações"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:6872",
+  "IdSup": "chart:687",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "6872",
+  "Name": {
+   "pt": "Sinistros"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:6873",
+  "IdSup": "chart:687",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "6873",
+  "Name": {
+   "pt": "Abates"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:6874",
+  "IdSup": "chart:687",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "6874",
+  "Name": {
+   "pt": "Gastos em propriedades de investimento"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:6878",
+  "IdSup": "chart:687",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "6878",
+  "Name": {
+   "pt": "Outros gastos"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:688",
+  "IdSup": "chart:68",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "688",
+  "Name": {
+   "pt": "Outros"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:6881",
+  "IdSup": "chart:688",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "6881",
+  "Name": {
+   "pt": "Correções relativas a períodos anteriores"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:6882",
+  "IdSup": "chart:688",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "6882",
+  "Name": {
+   "pt": "Donativos"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:6883",
+  "IdSup": "chart:688",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "6883",
+  "Name": {
+   "pt": "Quotizações"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:6884",
+  "IdSup": "chart:688",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "6884",
+  "Name": {
+   "pt": "Ofertas e amostras de inventários"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:6885",
+  "IdSup": "chart:688",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "6885",
+  "Name": {
+   "pt": "Insuficiência da estimativa para impostos"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:6886",
+  "IdSup": "chart:688",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "6886",
+  "Name": {
+   "pt": "Perdas em instrumentos financeiros"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:6887",
+  "IdSup": "chart:688",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "6887",
+  "Name": {
+   "pt": "Diferenças de câmbio desfavoráveis"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:6888",
+  "IdSup": "chart:688",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "6888",
+  "Name": {
+   "pt": "Outros não especificados"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:69",
+  "IdSup": "chart:6",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "69",
+  "Name": {
+   "pt": "Gastos de financiamento"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:691",
+  "IdSup": "chart:69",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "691",
+  "Name": {
+   "pt": "Juros suportados"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:6911",
+  "IdSup": "chart:691",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "6911",
+  "Name": {
+   "pt": "Juros de financiamentos obtidos"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:6918",
+  "IdSup": "chart:691",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "6918",
+  "Name": {
+   "pt": "Outros juros"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:692",
+  "IdSup": "chart:69",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "692",
+  "Name": {
+   "pt": "Diferenças de câmbio desfavoráveis"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:6921",
+  "IdSup": "chart:692",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "6921",
+  "Name": {
+   "pt": "Relativas a financiamentos obtidos"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:6928",
+  "IdSup": "chart:692",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "6928",
+  "Name": {
+   "pt": "Outras"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:698",
+  "IdSup": "chart:69",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "698",
+  "Name": {
+   "pt": "Outros gastos de financiamento"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:6981",
+  "IdSup": "chart:698",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "6981",
+  "Name": {
+   "pt": "Relativos a financiamentos obtidos"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:6988",
+  "IdSup": "chart:698",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "6988",
+  "Name": {
+   "pt": "Outros"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:7",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "7",
+  "Name": {
+   "pt": "Rendimentos"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:71",
+  "IdSup": "chart:7",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "71",
+  "Name": {
+   "pt": "Vendas"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:711",
+  "IdSup": "chart:71",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "711",
+  "Name": {
+   "pt": "Mercadorias"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:712",
+  "IdSup": "chart:71",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "712",
+  "Name": {
+   "pt": "Produtos acabados e intermédios"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:713",
+  "IdSup": "chart:71",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "713",
+  "Name": {
+   "pt": "Subprodutos, desperdícios, resíduos e refugos"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:714",
+  "IdSup": "chart:71",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "714",
+  "Name": {
+   "pt": "Ativos biológicos"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:716",
+  "IdSup": "chart:71",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "716",
+  "Name": {
+   "pt": "IVA das vendas com imposto incluído"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:717",
+  "IdSup": "chart:71",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "717",
+  "Name": {
+   "pt": "Devoluções de vendas"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:718",
+  "IdSup": "chart:71",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "718",
+  "Name": {
+   "pt": "Descontos e abatimentos em vendas"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:72",
+  "IdSup": "chart:7",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "72",
+  "Name": {
+   "pt": "Prestações de serviços"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:721",
+  "IdSup": "chart:72",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "721",
+  "Name": {
+   "pt": "Serviço A"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:722",
+  "IdSup": "chart:72",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "722",
+  "Name": {
+   "pt": "Serviço B"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:725",
+  "IdSup": "chart:72",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "725",
+  "Name": {
+   "pt": "Serviços secundários"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:726",
+  "IdSup": "chart:72",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "726",
+  "Name": {
+   "pt": "IVA dos serviços com imposto incluído"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:728",
+  "IdSup": "chart:72",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "728",
+  "Name": {
+   "pt": "Descontos e abatimentos"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:73",
+  "IdSup": "chart:7",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "73",
+  "Name": {
+   "pt": "Variações nos inventários da produção"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:731",
+  "IdSup": "chart:73",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "731",
+  "Name": {
+   "pt": "Produtos acabados e intermédios"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:732",
+  "IdSup": "chart:73",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "732",
+  "Name": {
+   "pt": "Subprodutos, desperdícios, resíduos e refugos"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:733",
+  "IdSup": "chart:73",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "733",
+  "Name": {
+   "pt": "Produtos e trabalhos em curso"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:734",
+  "IdSup": "chart:73",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "734",
+  "Name": {
+   "pt": "Ativos biológicos"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:74",
+  "IdSup": "chart:7",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "74",
+  "Name": {
+   "pt": "Trabalhos para a própria entidade"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:741",
+  "IdSup": "chart:74",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "741",
+  "Name": {
+   "pt": "Ativos fixos tangíveis"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:742",
+  "IdSup": "chart:74",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "742",
+  "Name": {
+   "pt": "Ativos intangíveis"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:743",
+  "IdSup": "chart:74",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "743",
+  "Name": {
+   "pt": "Propriedades de investimento"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:744",
+  "IdSup": "chart:74",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "744",
+  "Name": {
+   "pt": "Ativos por gastos diferidos"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:75",
+  "IdSup": "chart:7",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "75",
+  "Name": {
+   "pt": "Subsídios à exploração"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:751",
+  "IdSup": "chart:75",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "751",
+  "Name": {
+   "pt": "Subsídios das entidades públicas"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:752",
+  "IdSup": "chart:75",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "752",
+  "Name": {
+   "pt": "Subsídios de outras entidades"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:76",
+  "IdSup": "chart:7",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "76",
+  "Name": {
+   "pt": "Reversões"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:761",
+  "IdSup": "chart:76",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "761",
+  "Name": {
+   "pt": "De depreciações e de amortizações"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:7611",
+  "IdSup": "chart:761",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "7611",
+  "Name": {
+   "pt": "Propriedades de investimento"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:7612",
+  "IdSup": "chart:761",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "7612",
+  "Name": {
+   "pt": "Ativos fixos tangíveis"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:7613",
+  "IdSup": "chart:761",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "7613",
+  "Name": {
+   "pt": "Ativos intangíveis"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:762",
+  "IdSup": "chart:76",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "762",
+  "Name": {
+   "pt": "De perdas por imparidade"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:7621",
+  "IdSup": "chart:762",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "7621",
+  "Name": {
+   "pt": "Em dívidas a receber"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:76211",
+  "IdSup": "chart:7621",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "76211",
+  "Name": {
+   "pt": "Clientes"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:76212",
+  "IdSup": "chart:7621",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "76212",
+  "Name": {
+   "pt": "Outros devedores"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:7622",
+  "IdSup": "chart:762",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "7622",
+  "Name": {
+   "pt": "Em inventários"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:7623",
+  "IdSup": "chart:762",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "7623",
+  "Name": {
+   "pt": "Em investimentos financeiros"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:7624",
+  "IdSup": "chart:762",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "7624",
+  "Name": {
+   "pt": "Em propriedades de investimento"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:7625",
+  "IdSup": "chart:762",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "7625",
+  "Name": {
+   "pt": "Em ativos fixos tangíveis"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:7626",
+  "IdSup": "chart:762",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "7626",
+  "Name": {
+   "pt": "Em ativos intangíveis"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:7627",
+  "IdSup": "chart:762",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "7627",
+  "Name": {
+   "pt": "Em investimentos em curso"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:7628",
+  "IdSup": "chart:762",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "7628",
+  "Name": {
+   "pt": "Em ativos não correntes detidos para venda"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:763",
+  "IdSup": "chart:76",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "763",
+  "Name": {
+   "pt": "De provisões"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:7631",
+  "IdSup": "chart:763",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "7631",
+  "Name": {
+   "pt": "Impostos"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:7632",
+  "IdSup": "chart:763",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "7632",
+  "Name": {
+   "pt": "Garantias a clientes"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:7633",
+  "IdSup": "chart:763",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "7633",
+  "Name": {
+   "pt": "Processos judiciais em curso"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:7634",
+  "IdSup": "chart:763",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "7634",
+  "Name": {
+   "pt": "Acidentes no trabalho e doenças profissionais"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:7635",
+  "IdSup": "chart:763",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "7635",
+  "Name": {
+   "pt": "Matérias ambientais"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:7636",
+  "IdSup": "chart:763",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "7636",
+  "Name": {
+   "pt": "Contratos onerosos"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:7637",
+  "IdSup": "chart:763",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "7637",
+  "Name": {
+   "pt": "Reestruturação"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:7638",
+  "IdSup": "chart:763",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "7638",
+  "Name": {
+   "pt": "Outras provisões"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:77",
+  "IdSup": "chart:7",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "77",
+  "Name": {
+   "pt": "Ganhos por aumentos de justo valor"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:771",
+  "IdSup": "chart:77",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "771",
+  "Name": {
+   "pt": "Em instrumentos financeiros"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:772",
+  "IdSup": "chart:77",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "772",
+  "Name": {
+   "pt": "Em investimentos financeiros"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:773",
+  "IdSup": "chart:77",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "773",
+  "Name": {
+   "pt": "Em propriedades de investimento"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:774",
+  "IdSup": "chart:77",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "774",
+  "Name": {
+   "pt": "Em ativos biológicos"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:78",
+  "IdSup": "chart:7",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "78",
+  "Name": {
+   "pt": "Outros rendimentos"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:781",
+  "IdSup": "chart:78",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "781",
+  "Name": {
+   "pt": "Rendimentos suplementares"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:7811",
+  "IdSup": "chart:781",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "7811",
+  "Name": {
+   "pt": "Serviços sociais"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:7812",
+  "IdSup": "chart:781",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "7812",
+  "Name": {
+   "pt": "Aluguer de equipamento"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:7813",
+  "IdSup": "chart:781",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "7813",
+  "Name": {
+   "pt": "Estudos, projetos e assistência tecnológica"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:7814",
+  "IdSup": "chart:781",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "7814",
+  "Name": {
+   "pt": "Royalties"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:7815",
+  "IdSup": "chart:781",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "7815",
+  "Name": {
+   "pt": "Desempenho de cargos sociais noutras empresas"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:7816",
+  "IdSup": "chart:781",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "7816",
+  "Name": {
+   "pt": "Outros rendimentos suplementares"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:782",
+  "IdSup": "chart:78",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "782",
+  "Name": {
+   "pt": "Descontos de pronto pagamento obtidos"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:783",
+  "IdSup": "chart:78",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "783",
+  "Name": {
+   "pt": "Recuperação de dívidas a receber"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:784",
+  "IdSup": "chart:78",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "784",
+  "Name": {
+   "pt": "Ganhos em inventários"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:7841",
+  "IdSup": "chart:784",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "7841",
+  "Name": {
+   "pt": "Sinistros"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:7842",
+  "IdSup": "chart:784",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "7842",
+  "Name": {
+   "pt": "Sobras"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:7848",
+  "IdSup": "chart:784",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "7848",
+  "Name": {
+   "pt": "Outros ganhos"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:785",
+  "IdSup": "chart:78",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "785",
+  "Name": {
+   "pt": "Rendimentos em subsidiárias, associadas e empreendimentos conjuntos"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:7851",
+  "IdSup": "chart:785",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "7851",
+  "Name": {
+   "pt": "Aplicação do método da equivalência patrimonial"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:7852",
+  "IdSup": "chart:785",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "7852",
+  "Name": {
+   "pt": "Alienações"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:7858",
+  "IdSup": "chart:785",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "7858",
+  "Name": {
+   "pt": "Outros rendimentos"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:786",
+  "IdSup": "chart:78",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "786",
+  "Name": {
+   "pt": "Rendimentos nos restantes ativos financeiros"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:7861",
+  "IdSup": "chart:786",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "7861",
+  "Name": {
+   "pt": "Diferenças de câmbio favoráveis"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:7862",
+  "IdSup": "chart:786",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "7862",
+  "Name": {
+   "pt": "Alienações"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:7868",
+  "IdSup": "chart:786",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "7868",
+  "Name": {
+   "pt": "Outros rendimentos"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:787",
+  "IdSup": "chart:78",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "787",
+  "Name": {
+   "pt": "Rendimentos em investimentos não financeiros"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:7871",
+  "IdSup": "chart:787",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "7871",
+  "Name": {
+   "pt": "Alienações"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:7872",
+  "IdSup": "chart:787",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "7872",
+  "Name": {
+   "pt": "Sinistros"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:7873",
+  "IdSup": "chart:787",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "7873",
+  "Name": {
+   "pt": "Rendas e outros rendimentos em propriedades de investimento"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:7878",
+  "IdSup": "chart:787",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "7878",
+  "Name": {
+   "pt": "Outros rendimentos"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:788",
+  "IdSup": "chart:78",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "788",
+  "Name": {
+   "pt": "Outros"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:7881",
+  "IdSup": "chart:788",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "7881",
+  "Name": {
+   "pt": "Correções relativas a períodos anteriores"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:7882",
+  "IdSup": "chart:788",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "7882",
+  "Name": {
+   "pt": "Excesso da estimativa para impostos"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:7883",
+  "IdSup": "chart:788",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "7883",
+  "Name": {
+   "pt": "Imputação de subsídios para investimentos"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:7884",
+  "IdSup": "chart:788",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "7884",
+  "Name": {
+   "pt": "Ganhos em outros instrumentos financeiros"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:7885",
+  "IdSup": "chart:788",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "7885",
+  "Name": {
+   "pt": "Restituição de impostos"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:7887",
+  "IdSup": "chart:788",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "7887",
+  "Name": {
+   "pt": "Diferenças de câmbio favoráveis"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:7888",
+  "IdSup": "chart:788",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "7888",
+  "Name": {
+   "pt": "Outros não especificados"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:79",
+  "IdSup": "chart:7",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "79",
+  "Name": {
+   "pt": "Juros, dividendos e outros rendimentos similares"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:791",
+  "IdSup": "chart:79",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "791",
+  "Name": {
+   "pt": "Juros obtidos"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:7911",
+  "IdSup": "chart:791",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "7911",
+  "Name": {
+   "pt": "De depósitos"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:7912",
+  "IdSup": "chart:791",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "7912",
+  "Name": {
+   "pt": "De outras aplicações de meios financeiros líquidos"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:7913",
+  "IdSup": "chart:791",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "7913",
+  "Name": {
+   "pt": "De financiamentos concedidos a associadas e empreendimentos conjuntos"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:7914",
+  "IdSup": "chart:791",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "7914",
+  "Name": {
+   "pt": "De financiamentos concedidos a subsidiárias"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:7915",
+  "IdSup": "chart:791",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "7915",
+  "Name": {
+   "pt": "De financiamentos obtidos"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:7918",
+  "IdSup": "chart:791",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "7918",
+  "Name": {
+   "pt": "De outros financiamentos concedidos"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:792",
+  "IdSup": "chart:79",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "792",
+  "Name": {
+   "pt": "Dividendos obtidos"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:7921",
+  "IdSup": "chart:792",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "7921",
+  "Name": {
+   "pt": "De aplicações de meios financeiros líquidos"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:7922",
+  "IdSup": "chart:792",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "7922",
+  "Name": {
+   "pt": "De associadas e empreendimentos conjuntos"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:7923",
+  "IdSup": "chart:792",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "7923",
+  "Name": {
+   "pt": "De subsidiárias"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:7928",
+  "IdSup": "chart:792",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "7928",
+  "Name": {
+   "pt": "Outras"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:793",
+  "IdSup": "chart:79",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "793",
+  "Name": {
+   "pt": "Diferenças de câmbio favoráveis"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:798",
+  "IdSup": "chart:79",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "798",
+  "Name": {
+   "pt": "Outros rendimentos similares"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:8",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "chart_type:8",
+  "Code": "8",
+  "Name": {
+   "pt": "Resultados"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:81",
+  "IdSup": "chart:8",
+  "Active": true,
+  "TypeId": "chart_type:8",
+  "Code": "81",
+  "Name": {
+   "pt": "Resultado líquido do período"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:811",
+  "IdSup": "chart:81",
+  "Active": true,
+  "TypeId": "chart_type:8",
+  "Code": "811",
+  "Name": {
+   "pt": "Resultado antes de impostos"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:812",
+  "IdSup": "chart:81",
+  "Active": true,
+  "TypeId": "chart_type:8",
+  "Code": "812",
+  "Name": {
+   "pt": "Imposto sobre o rendimento do período"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:8121",
+  "IdSup": "chart:812",
+  "Active": true,
+  "TypeId": "chart_type:8",
+  "Code": "8121",
+  "Name": {
+   "pt": "Imposto estimado para o período"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:8122",
+  "IdSup": "chart:812",
+  "Active": true,
+  "TypeId": "chart_type:8",
+  "Code": "8122",
+  "Name": {
+   "pt": "Imposto diferido"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:818",
+  "IdSup": "chart:81",
+  "Active": true,
+  "TypeId": "chart_type:8",
+  "Code": "818",
+  "Name": {
+   "pt": "Resultado líquido"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:89",
+  "IdSup": "chart:8",
+  "Active": true,
+  "TypeId": "chart_type:8",
+  "Code": "89",
+  "Name": {
+   "pt": "Dividendos antecipados"
+  },
+  "IsComposite": false
+ }
+]

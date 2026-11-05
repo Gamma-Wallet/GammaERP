@@ -1,0 +1,15 @@
+[
+ {
+  "Key": "chart_category:STATUTORY",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "SKK",
+  "Name": {
+   "en": "Chart of accounts (SKK)",
+   "sq": "Plani kontabël (SKK)"
+  },
+  "IsStatutory": true,
+  "SortOrder": 10
+ }
+]

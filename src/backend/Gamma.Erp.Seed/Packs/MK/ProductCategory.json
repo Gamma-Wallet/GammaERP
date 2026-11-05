@@ -1,0 +1,122 @@
+[
+ {
+  "Key": "product_category:PRODUCT",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "PRODUCT",
+  "Name": {
+   "en": "Products",
+   "mk": "Производи"
+  },
+  "SortOrder": 10
+ },
+ {
+  "Key": "product_category:SERVICE",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "SERVICE",
+  "Name": {
+   "en": "Services",
+   "mk": "Услуги"
+  },
+  "SortOrder": 20
+ },
+ {
+  "Key": "product_category:ASSET",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "ASSET",
+  "Name": {
+   "en": "Assets",
+   "mk": "Основни средства"
+  },
+  "SortOrder": 30
+ },
+ {
+  "Key": "product_category:LAND",
+  "IdSup": "product_category:ASSET",
+  "Active": true,
+  "IsElement": true,
+  "Code": "LAND",
+  "Name": {
+   "en": "Land",
+   "mk": "Земјишта"
+  },
+  "SortOrder": 10
+ },
+ {
+  "Key": "product_category:BUILDINGS",
+  "IdSup": "product_category:ASSET",
+  "Active": true,
+  "IsElement": true,
+  "Code": "BUILDINGS",
+  "Name": {
+   "en": "Buildings",
+   "mk": "Градежни објекти"
+  },
+  "SortOrder": 20
+ },
+ {
+  "Key": "product_category:OFFICE",
+  "IdSup": "product_category:ASSET",
+  "Active": true,
+  "IsElement": true,
+  "Code": "OFFICE",
+  "Name": {
+   "en": "Office equipment",
+   "mk": "Канцелариска опрема"
+  },
+  "SortOrder": 30
+ },
+ {
+  "Key": "product_category:VEHICLES",
+  "IdSup": "product_category:ASSET",
+  "Active": true,
+  "IsElement": true,
+  "Code": "VEHICLES",
+  "Name": {
+   "en": "Vehicles",
+   "mk": "Транспортни средства"
+  },
+  "SortOrder": 40
+ },
+ {
+  "Key": "product_category:COMPUTERS",
+  "IdSup": "product_category:ASSET",
+  "Active": true,
+  "IsElement": true,
+  "Code": "COMPUTERS",
+  "Name": {
+   "en": "Computer equipment",
+   "mk": "Компјутерска опрема"
+  },
+  "SortOrder": 50
+ },
+ {
+  "Key": "product_category:FURNITURE",
+  "IdSup": "product_category:ASSET",
+  "Active": true,
+  "IsElement": true,
+  "Code": "FURNITURE",
+  "Name": {
+   "en": "Furniture and fittings",
+   "mk": "Мебел и инвентар"
+  },
+  "SortOrder": 60
+ },
+ {
+  "Key": "product_category:INTANGIBLE",
+  "IdSup": "product_category:ASSET",
+  "Active": true,
+  "IsElement": true,
+  "Code": "INTANGIBLE",
+  "Name": {
+   "en": "Intangible assets",
+   "mk": "Нематеријални средства"
+  },
+  "SortOrder": 70
+ }
+]

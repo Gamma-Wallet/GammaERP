@@ -1,0 +1,114 @@
+<ui-dialog [title]="data.type ? 'Type ' + (name() || '') : 'New type'" width="880px">
+  <div class="layout">
+    @if (message()) { <p class="message" role="alert">{{ message() }}</p> }
+    <div class="grid">
+      <ui-field class="wide" [label]="'Name' | t" [required]="true" [error]="errors()['name'] ?? null">
+        <ui-translated-input [label]="'Name' | t" [value]="draft().name" (valueChange)="set({ name: $event ?? {} })" />
+      </ui-field>
+      <ui-field [label]="'Code' | t" [error]="errors()['code'] ?? null">
+        <input uiInput [value]="draft().code ?? ''" (input)="set({ code: $any($event.target).value || null })" />
+      </ui-field>
+      <ui-field [label]="'Under' | t" [hint]="'Empty: at the top' | t" [error]="errors()['idSup'] ?? null">
+        <ui-select [options]="parents()" [value]="draft().idSup" (valueChange)="set({ idSup: $event })" />
+      </ui-field>
+      <ui-field [label]="'Codes from' | t" [hint]="'Rows of the type get the next code' | t">
+        <input uiInput [numeric]="true" inputmode="numeric" [value]="draft().codeStart ?? ''" (input)="set({ codeStart: number($any($event.target).value) })" />
+      </ui-field>
+      <ui-field [label]="'Codes to' | t" [error]="errors()['codeCurrent'] ?? null">
+        <input uiInput [numeric]="true" inputmode="numeric" [value]="draft().codeEnd ?? ''" (input)="set({ codeEnd: number($any($event.target).value) })" />
+      </ui-field>
+      <ui-field class="wide" [label]="'Categories' | t" [hint]="'The categories whose rows may have this type' | t" [error]="errors()['categoryIds'] ?? null">
+        <ui-select [multiple]="true" [options]="categoryOptions()" [values]="draft().categoryIds" (valuesChange)="set({ categoryIds: $event })" />
+      </ui-field>
+      @if (data.register.key === 'products') {
+        <ui-field class="wide" [label]="'VAT group' | t" [hint]="'What the lines of its products start with, unless a product names its own' | t">
+          <ui-select [options]="vatOptions()" [value]="draft().vatGroupId ?? null" (valueChange)="set({ vatGroupId: $event })" />
+        </ui-field>
+        <ui-checkbox class="wide" [checked]="!!draft().tracksSerial" (checkedChange)="set({ tracksSerial: $event })">{{ 'Tracks serial numbers: each unit has its own number on every line' | t }}</ui-checkbox>
+        <ui-checkbox class="wide" [checked]="!!draft().fixedAsset" (checkedChange)="set({ fixedAsset: $event })">{{ 'Fixed asset: its products are registered and depreciated' | t }}</ui-checkbox>
+        <ui-checkbox class="wide" [checked]="!!draft().tracksLot" (checkedChange)="set({ tracksLot: $event })">{{ 'Tracks lots: every line names its lot' | t }}</ui-checkbox>
+        @if (draft().tracksLot) {
+          <ui-checkbox class="wide" [checked]="draft().refusesExpired !== false" (checkedChange)="set({ refusesExpired: $event })">{{ 'An expired lot can\'t go to a client' | t }}</ui-checkbox>
+        }
+      }
+      @if (data.register.key === 'cost-centers') {
+        <ui-checkbox class="wide" [checked]="!!draft().takesBankStatements" (checkedChange)="set({ takesBankStatements: $event })">{{ 'Bank accounts: bank statements are uploaded for them' | t }}</ui-checkbox>
+        <ui-checkbox class="wide" [checked]="!!draft().isProductionPoint" (checkedChange)="set({ isProductionPoint: $event })">{{ 'Production points: they have a production point display' | t }}</ui-checkbox>
+      }
+      <ui-checkbox class="wide" [checked]="draft().isElement" (checkedChange)="set({ isElement: $event })">{{ 'Rows can have this type (otherwise a folder of types)' | t }}</ui-checkbox>
+    </div>
+
+    <div class="properties-head">
+      <h3>{{ 'Properties' | t }}</h3>
+      @if (data.type?.id && otherTypes().length) {
+        <div class="copy">
+          <ui-select [options]="otherTypes()" [placeholder]="'Copy from a type…' | t" [ariaLabel]="'Copy properties from' | t" [value]="copyFrom()" (valueChange)="copyFrom.set($event)" />
+          <button uiButton size="small" [disabled]="!copyFrom()" (click)="copy()">{{ 'Copy' | t }}</button>
+        </div>
+      }
+    </div>
+    @if (errors()['properties']) { <p class="message">{{ errors()['properties'] }}</p> }
+
+    <ol class="properties">
+      @for (p of draft().properties; track p.id; let i = $index; let first = $first; let last = $last) {
+        <li [class.invalid]="errorOf(i)">
+          <div class="property-grid">
+            <ui-field [label]="'Name' | t" [required]="true">
+              <ui-translated-input [label]="'Property name' | t" [value]="p.name" (valueChange)="setProperty(i, { name: $event ?? {} })" />
+            </ui-field>
+            <ui-field [label]="'Kind' | t">
+              <ui-select [options]="kinds" [value]="p.kind" (valueChange)="setProperty(i, { kind: $event ?? Kind.Text })" />
+            </ui-field>
+            <ui-field [label]="'Code' | t" [hint]="'A key the system reads, e.g. BARCODE. Empty for most' | t">
+              <input class="control" [value]="p.code ?? ''" (input)="setProperty(i, { code: $any($event.target).value.trim().toUpperCase() || null })" />
+            </ui-field>
+            @if (p.kind === Kind.Lookup) {
+              <ui-field [label]="'Picks from' | t" [required]="true">
+                <ui-select [options]="scopeOptions()" [value]="p.elementsId ?? null" (valueChange)="setProperty(i, { elementsId: $event })" />
+              </ui-field>
+            }
+            <ui-field [label]="'Shown' | t" [hint]="'Only when this choice is picked' | t">
+              <ui-select [options]="showChoices()" [value]="p.shownForChoiceId ?? null" (valueChange)="setProperty(i, { shownForChoiceId: $event })" />
+            </ui-field>
+            @if (hasChoices(p)) {
+              <ui-field class="wide" [label]="'Choices' | t">
+                <div class="choices">
+                  @for (c of p.choices; track c.id; let j = $index) {
+                    <div class="choice">
+                      <ui-translated-input [label]="'Choice' | t" [value]="c.name" (valueChange)="setChoice(i, j, $event ?? {})" />
+                      <button uiButton variant="quiet" [iconOnly]="true" [attr.aria-label]="'Remove choice' | t" (click)="removeChoice(i, j)"><ui-icon name="trash" /></button>
+                    </div>
+                  }
+                  <div><button uiButton size="small" (click)="addChoice(i)"><ui-icon name="plus" [size]="14" />{{ 'Choice' | t }}</button></div>
+                </div>
+              </ui-field>
+            }
+          </div>
+          <div class="property-side">
+            <ui-checkbox [checked]="p.required" (checkedChange)="setProperty(i, { required: $event })">{{ 'Required' | t }}</ui-checkbox>
+            <div class="row-buttons">
+              <button uiButton variant="quiet" size="small" [iconOnly]="true" [attr.aria-label]="'Move up' | t" [disabled]="first" (click)="move(i, -1)"><ui-icon name="arrow-up" [size]="14" /></button>
+              <button uiButton variant="quiet" size="small" [iconOnly]="true" [attr.aria-label]="'Move down' | t" [disabled]="last" (click)="move(i, 1)"><ui-icon name="arrow-down" [size]="14" /></button>
+              <button uiButton variant="quiet" size="small" [iconOnly]="true" [attr.aria-label]="'Remove property' | t" (click)="removeProperty(i)"><ui-icon name="trash" [size]="14" /></button>
+            </div>
+          </div>
+          @if (errorOf(i)) { <p class="property-error">{{ errorOf(i) }}</p> }
+        </li>
+      } @empty {
+        <li class="none muted">{{ 'No properties: rows of this type have a code, a name and a description only.' | t }}</li>
+      }
+    </ol>
+    <div><button uiButton size="small" (click)="addProperty()"><ui-icon name="plus" [size]="14" />{{ 'Property' | t }}</button></div>
+    @if (data.register.key === 'products' && data.type?.id) {
+      <h3>{{ 'Units' | t }}</h3>
+      <p class="muted">{{ 'What a product of this type is offered when it has no units of its own. Saved on their own.' | t }}</p>
+      <app-product-units mode="type" [id]="data.type!.id!" [scopes]="data.scopes" [administrator]="isAdministrator()" />
+    }
+  </div>
+  <ng-container dialog-footer>
+    @if (data.type) { <button uiButton variant="danger" (click)="switchOff()">{{ 'Switch off…' | t }}</button> }
+    <span class="spacer"></span>
+    <button uiButton variant="quiet" (click)="ref.close(false)">{{ 'Cancel' | t }}</button>
+    <button uiButton variant="primary" [disabled]="saving()" (click)="save()">{{ 'Save' | t }}</button>
+  </ng-container>
+</ui-dialog>

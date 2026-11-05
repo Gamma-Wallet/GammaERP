@@ -1,0 +1,139 @@
+[
+ {
+  "Key": "user_category:ADMINISTRATOR",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "ADMINISTRATOR",
+  "Name": {
+   "en": "Administrator",
+   "da": "Administrator"
+  },
+  "SortOrder": 10,
+  "IsAdministrator": true
+ },
+ {
+  "Key": "user_category:FINANCE",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "FINANCE",
+  "Name": {
+   "en": "Finance",
+   "da": "Bogholderi"
+  },
+  "SortOrder": 20
+ },
+ {
+  "Key": "user_category:SELLER",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "SELLER",
+  "Name": {
+   "en": "Seller",
+   "da": "Sælger"
+  },
+  "SortOrder": 30
+ },
+ {
+  "Key": "user_category:WAREHOUSE",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "WAREHOUSE",
+  "Name": {
+   "en": "Warehouse keeper",
+   "da": "Lagermedarbejder"
+  },
+  "SortOrder": 40
+ },
+ {
+  "Key": "user_category:IT",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "IT",
+  "Name": {
+   "en": "IT",
+   "da": "IT"
+  },
+  "SortOrder": 50
+ },
+ {
+  "Key": "user_category:CONSULTANT",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "CONSULTANT",
+  "Name": {
+   "en": "Consultant",
+   "da": "Konsulent"
+  },
+  "SortOrder": 60
+ },
+ {
+  "Key": "user_category:PRODUCTION_POINT",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "PRODUCTION_POINT",
+  "Name": {
+   "en": "Production point",
+   "da": "Produktionssted"
+  },
+  "SortOrder": 70
+ },
+ {
+  "Key": "user_category:TECHNICIAN",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "TECHNICIAN",
+  "Name": {
+   "en": "Technician",
+   "da": "Tekniker"
+  },
+  "SortOrder": 80
+ },
+ {
+  "Key": "user_category:WAITER",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "WAITER",
+  "Name": {
+   "en": "Waiter",
+   "da": "Tjener"
+  },
+  "SortOrder": 90
+ },
+ {
+  "Key": "user_category:CASHIER",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "CASHIER",
+  "Name": {
+   "en": "Cashier",
+   "da": "Kasserer"
+  },
+  "SortOrder": 100
+ },
+ {
+  "Key": "user_category:USERS",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "USERS",
+  "Name": {
+   "en": "Users",
+   "da": "Brugere"
+  },
+  "SortOrder": 5,
+  "Description": {
+   "en": "Users",
+   "da": "Brugere"
+  }
+ }
+]

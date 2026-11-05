@@ -1,0 +1,2884 @@
+[
+ {
+  "Key": "document_type:SALES_INVOICE_GOODS",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "INV",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Sales invoice, goods",
+   "nl": "Verkoopfactuur goederen"
+  },
+  "Description": {
+   "en": "Sales invoice, goods",
+   "nl": "Verkoopfactuur goederen"
+  },
+  "SortOrder": 5.0,
+  "MenuId": null,
+  "AllowsPartialReversal": true,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": false,
+  "HoldsOpenItem": true,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": true
+ },
+ {
+  "Key": "document_type:CREDIT_NOTE_GOODS_SOLD",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "CN",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Credit note, goods sold",
+   "nl": "Creditnota verkochte goederen"
+  },
+  "Description": {
+   "en": "Credit note, goods sold",
+   "nl": "Creditnota verkochte goederen"
+  },
+  "SortOrder": 6.0,
+  "MenuId": null,
+  "IsReversal": true,
+  "ReversedDocumentTypeId": "document_type:SALES_INVOICE_GOODS",
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:SALES_INVOICE_SERVICES",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "INVS",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Sales invoice, services",
+   "nl": "Verkoopfactuur diensten"
+  },
+  "Description": {
+   "en": "Sales invoice, services",
+   "nl": "Verkoopfactuur diensten"
+  },
+  "SortOrder": 7.0,
+  "MenuId": null,
+  "AllowsPartialReversal": true,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": false,
+  "HoldsOpenItem": true,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": true
+ },
+ {
+  "Key": "document_type:CREDIT_NOTE_SERVICES_SOLD",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "CNS",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Credit note, services sold",
+   "nl": "Creditnota geleverde diensten"
+  },
+  "Description": {
+   "en": "Credit note, services sold",
+   "nl": "Creditnota geleverde diensten"
+  },
+  "SortOrder": 8.0,
+  "MenuId": null,
+  "IsReversal": true,
+  "ReversedDocumentTypeId": "document_type:SALES_INVOICE_SERVICES",
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:PURCHASE_INVOICE_GOODS",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "PINV",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Purchase invoice, goods",
+   "nl": "Inkoopfactuur goederen"
+  },
+  "Description": {
+   "en": "Purchase invoice, goods",
+   "nl": "Inkoopfactuur goederen"
+  },
+  "SortOrder": 9.0,
+  "MenuId": null,
+  "AllowsPartialReversal": true,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": false,
+  "HoldsOpenItem": true,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:CREDIT_NOTE_GOODS_BOUGHT",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "PCN",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Credit note, goods bought",
+   "nl": "Inkoopcreditnota goederen"
+  },
+  "Description": {
+   "en": "Credit note, goods bought",
+   "nl": "Inkoopcreditnota goederen"
+  },
+  "SortOrder": 11.0,
+  "MenuId": null,
+  "IsReversal": true,
+  "ReversedDocumentTypeId": "document_type:PURCHASE_INVOICE_GOODS",
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:PURCHASE_INVOICE_SERVICES",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "PINVS",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Purchase invoice, services",
+   "nl": "Inkoopfactuur diensten"
+  },
+  "Description": {
+   "en": "Purchase invoice, services",
+   "nl": "Inkoopfactuur diensten"
+  },
+  "SortOrder": 12.0,
+  "MenuId": null,
+  "AllowsPartialReversal": true,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": false,
+  "HoldsOpenItem": true,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:CREDIT_NOTE_SERVICES_BOUGHT",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "PCNS",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Credit note, services bought",
+   "nl": "Inkoopcreditnota diensten"
+  },
+  "Description": {
+   "en": "Credit note, services bought",
+   "nl": "Inkoopcreditnota diensten"
+  },
+  "SortOrder": 13.0,
+  "MenuId": null,
+  "IsReversal": true,
+  "ReversedDocumentTypeId": "document_type:PURCHASE_INVOICE_SERVICES",
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:GOODS_TRANSFER",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "DN",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Goods transfer note",
+   "nl": "Verplaatsingsbon"
+  },
+  "Description": {
+   "en": "Goods transfer note",
+   "nl": "Verplaatsingsbon"
+  },
+  "SortOrder": 14.0,
+  "MenuId": null,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:PAYMENT",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "PAY",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Payment",
+   "nl": "Betaling"
+  },
+  "Description": {
+   "en": "Payment",
+   "nl": "Betaling"
+  },
+  "SortOrder": 15.0,
+  "MenuId": null,
+  "AllowsPartialReversal": false,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": true,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:RECEIPT",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "REC",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Receipt",
+   "nl": "Ontvangst"
+  },
+  "Description": {
+   "en": "Receipt",
+   "nl": "Ontvangst"
+  },
+  "SortOrder": 16.0,
+  "MenuId": null,
+  "AllowsPartialReversal": false,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": true,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:PREPAYMENT",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "PPAY",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Prepayment",
+   "nl": "Vooruitbetaling"
+  },
+  "Description": {
+   "en": "Prepayment",
+   "nl": "Vooruitbetaling"
+  },
+  "SortOrder": 17.0,
+  "MenuId": null,
+  "AllowsPartialReversal": false,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:GOODS_TRANSFER_TO_STAFF",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "DNS",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Goods transfer, cost centre to staff",
+   "nl": "Verplaatsing van kostenplaats naar medewerker"
+  },
+  "Description": {
+   "en": "Goods transfer, cost centre to staff",
+   "nl": "Verplaatsing van kostenplaats naar medewerker"
+  },
+  "SortOrder": 18.0,
+  "MenuId": null,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:SALES_OFFER_GOODS",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "QUO",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Sales offer, goods",
+   "nl": "Offerte goederen"
+  },
+  "Description": {
+   "en": "Sales offer, goods",
+   "nl": "Offerte goederen"
+  },
+  "SortOrder": 19.0,
+  "MenuId": null,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": true,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:DEPRECIATION_SHEET",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "DEPS",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Depreciation sheet",
+   "nl": "Afschrijvingsstaat"
+  },
+  "Description": {
+   "en": "Depreciation sheet",
+   "nl": "Afschrijvingsstaat"
+  },
+  "SortOrder": 20.0,
+  "MenuId": null,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:DEPRECIATION_JOURNAL",
+  "IdSup": "document_type:DEPRECIATION_SHEET",
+  "Active": true,
+  "IsElement": true,
+  "Code": "DEP",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Depreciation journal",
+   "nl": "Afschrijvingsboeking"
+  },
+  "Description": {
+   "en": "Depreciation journal",
+   "nl": "Afschrijvingsboeking"
+  },
+  "SortOrder": 21.0,
+  "MenuId": null,
+  "AllowsPartialReversal": false,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:JOURNAL_SHEET",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "JVS",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Journal sheet",
+   "nl": "Memoriaalboeking"
+  },
+  "Description": {
+   "en": "Journal sheet",
+   "nl": "Memoriaalboeking"
+  },
+  "SortOrder": 22.0,
+  "MenuId": null,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:JOURNAL_PAYMENT",
+  "IdSup": "document_type:JOURNAL_SHEET",
+  "Active": true,
+  "IsElement": true,
+  "Code": "PAY",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Payment",
+   "nl": "Betaling"
+  },
+  "Description": {
+   "en": "Payment",
+   "nl": "Betaling"
+  },
+  "SortOrder": 23.0,
+  "MenuId": null,
+  "AllowsPartialReversal": false,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": true,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:JOURNAL_RECEIPT",
+  "IdSup": "document_type:JOURNAL_SHEET",
+  "Active": true,
+  "IsElement": true,
+  "Code": "REC",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Receipt",
+   "nl": "Ontvangst"
+  },
+  "Description": {
+   "en": "Receipt",
+   "nl": "Ontvangst"
+  },
+  "SortOrder": 24.0,
+  "MenuId": null,
+  "AllowsPartialReversal": false,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": true,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:JOURNAL_PREPAYMENT",
+  "IdSup": "document_type:JOURNAL_SHEET",
+  "Active": true,
+  "IsElement": true,
+  "Code": "PPAY",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Prepayment",
+   "nl": "Vooruitbetaling"
+  },
+  "Description": {
+   "en": "Prepayment",
+   "nl": "Vooruitbetaling"
+  },
+  "SortOrder": 25.0,
+  "MenuId": null,
+  "AllowsPartialReversal": false,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:REVALUATION_SHEET",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "REVS",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Revaluation sheet",
+   "nl": "Herwaarderingsstaat"
+  },
+  "Description": {
+   "en": "Revaluation sheet",
+   "nl": "Herwaarderingsstaat"
+  },
+  "SortOrder": 26.0,
+  "MenuId": null,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:REVALUATION_JOURNAL",
+  "IdSup": "document_type:REVALUATION_SHEET",
+  "Active": true,
+  "IsElement": true,
+  "Code": "REV",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Revaluation journal",
+   "nl": "Herwaarderingsboeking"
+  },
+  "Description": {
+   "en": "Revaluation journal",
+   "nl": "Herwaarderingsboeking"
+  },
+  "SortOrder": 27.0,
+  "MenuId": null,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:ADVANCE",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "ADV",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Advance",
+   "nl": "Voorschot"
+  },
+  "Description": {
+   "en": "Client's advance",
+   "nl": "Voorschot van klant"
+  },
+  "SortOrder": 29.0,
+  "MenuId": null,
+  "AllowsPartialReversal": false,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:EMPLOYEE_ADVANCE",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "EADV",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Employee advance",
+   "nl": "Voorschot aan medewerker"
+  },
+  "Description": {
+   "en": "Advance to an employee",
+   "nl": "Voorschot aan een medewerker"
+  },
+  "SortOrder": 30.0,
+  "MenuId": null,
+  "AllowsPartialReversal": false,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:JOURNAL_ADVANCE",
+  "IdSup": "document_type:JOURNAL_SHEET",
+  "Active": true,
+  "IsElement": true,
+  "Code": "ADV",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Advance",
+   "nl": "Voorschot"
+  },
+  "Description": {
+   "en": "Client's advance",
+   "nl": "Voorschot van klant"
+  },
+  "SortOrder": 32.0,
+  "MenuId": null,
+  "AllowsPartialReversal": false,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:JOURNAL_EMPLOYEE_ADVANCE",
+  "IdSup": "document_type:JOURNAL_SHEET",
+  "Active": true,
+  "IsElement": true,
+  "Code": "EADV",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Employee advance",
+   "nl": "Voorschot aan medewerker"
+  },
+  "Description": {
+   "en": "Advance to an employee",
+   "nl": "Voorschot aan een medewerker"
+  },
+  "SortOrder": 33.0,
+  "MenuId": null,
+  "AllowsPartialReversal": false,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:SALES_CONTRACT_GOODS",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "SCON",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Sales contract, goods",
+   "nl": "Verkoopcontract goederen"
+  },
+  "Description": {
+   "en": "Sales contract, goods",
+   "nl": "Verkoopcontract goederen"
+  },
+  "SortOrder": 34.0,
+  "MenuId": null,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": true,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": true,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:PURCHASE_CONTRACT_GOODS",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "PCON",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Purchase contract, goods",
+   "nl": "Inkoopcontract goederen"
+  },
+  "Description": {
+   "en": "Purchase contract, goods",
+   "nl": "Inkoopcontract goederen"
+  },
+  "SortOrder": 35.0,
+  "MenuId": null,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": true,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": true,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:PURCHASE_OFFER_GOODS",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "RFQ",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Purchase offer, goods",
+   "nl": "Offerteaanvraag goederen"
+  },
+  "Description": {
+   "en": "Purchase offer, goods",
+   "nl": "Offerteaanvraag goederen"
+  },
+  "SortOrder": 36.0,
+  "MenuId": null,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": true,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:SALES_OFFER_SERVICES",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "QUOS",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Sales offer, services",
+   "nl": "Offerte diensten"
+  },
+  "Description": {
+   "en": "Sales offer, services",
+   "nl": "Offerte diensten"
+  },
+  "SortOrder": 37.0,
+  "MenuId": null,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": true,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:REPAIR_INTAKE",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "RIN",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Repair intake",
+   "nl": "Reparatie-inname"
+  },
+  "Description": {
+   "en": "Repair intake",
+   "nl": "Reparatie-inname"
+  },
+  "SortOrder": 37.01,
+  "MenuId": null,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": true,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false,
+  "StartsRepair": true
+ },
+ {
+  "Key": "document_type:REPAIR_OFFER",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "ROF",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Repair offer",
+   "nl": "Reparatieofferte"
+  },
+  "Description": {
+   "en": "Repair offer",
+   "nl": "Reparatieofferte"
+  },
+  "SortOrder": 37.02,
+  "MenuId": null,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": true,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false,
+  "CanBeAccepted": true
+ },
+ {
+  "Key": "document_type:PURCHASE_OFFER_SERVICES",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "RFQS",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Purchase offer, services",
+   "nl": "Offerteaanvraag diensten"
+  },
+  "Description": {
+   "en": "Purchase offer, services",
+   "nl": "Offerteaanvraag diensten"
+  },
+  "SortOrder": 38.0,
+  "MenuId": null,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": true,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:SALES_CONTRACT_SERVICES",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "SCONS",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Sales contract, services",
+   "nl": "Dienstverleningscontract"
+  },
+  "Description": {
+   "en": "Sales contract, services",
+   "nl": "Dienstverleningscontract"
+  },
+  "SortOrder": 39.0,
+  "MenuId": null,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": true,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": true,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:PURCHASE_CONTRACT_SERVICES",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "PCONS",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Purchase contract, services",
+   "nl": "Contract afgenomen diensten"
+  },
+  "Description": {
+   "en": "Purchase contract, services",
+   "nl": "Contract afgenomen diensten"
+  },
+  "SortOrder": 40.0,
+  "MenuId": null,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": true,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": true,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:RECURRING_DEPRECIATION_SHEET",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "DEPR",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Recurring depreciation sheet",
+   "nl": "Periodieke afschrijvingsstaat"
+  },
+  "Description": null,
+  "SortOrder": 41.0,
+  "MenuId": null,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:RECURRING_JOURNAL_SHEET",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "JVR",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Recurring journal sheet",
+   "nl": "Periodieke memoriaalboeking"
+  },
+  "Description": null,
+  "SortOrder": 42.0,
+  "MenuId": null,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:RECURRING_REVALUATION_SHEET",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "REVR",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Recurring revaluation sheet",
+   "nl": "Periodieke herwaarderingsstaat"
+  },
+  "Description": null,
+  "SortOrder": 43.0,
+  "MenuId": null,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:GENERAL_JOURNAL_ENTRY",
+  "IdSup": "document_type:JOURNAL_SHEET",
+  "Active": true,
+  "IsElement": true,
+  "Code": "JV",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "General journal entry",
+   "nl": "Algemene boeking"
+  },
+  "Description": {
+   "en": "General journal entry",
+   "nl": "Algemene boeking"
+  },
+  "SortOrder": 44.0,
+  "MenuId": null,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:POS_RECEIPT",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "RCPT",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Point-of-sale receipt",
+   "nl": "Kassabon"
+  },
+  "Description": {
+   "en": "Point-of-sale receipt",
+   "nl": "Kassabon"
+  },
+  "SortOrder": 45.0,
+  "MenuId": null,
+  "AllowsPartialReversal": true,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": true,
+  "SellsProducedProduct": true
+ },
+ {
+  "Key": "document_type:GOODS_TRANSFER_FROM_STAFF",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "DNSC",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Goods transfer, staff to cost centre",
+   "nl": "Verplaatsing van medewerker naar kostenplaats"
+  },
+  "Description": {
+   "en": "Goods transfer, staff to cost centre",
+   "nl": "Verplaatsing van medewerker naar kostenplaats"
+  },
+  "SortOrder": 46.0,
+  "MenuId": null,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:GOODS_TRANSFER_TO_CLIENT",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "DNCC",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Goods transfer, cost centre to client",
+   "nl": "Levering van kostenplaats aan klant"
+  },
+  "Description": {
+   "en": "Goods transfer, cost centre to client",
+   "nl": "Levering van kostenplaats aan klant"
+  },
+  "SortOrder": 47.0,
+  "MenuId": null,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:GOODS_TRANSFER_FROM_CLIENT",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "DNKC",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Goods transfer, client to cost centre",
+   "nl": "Retour van klant naar kostenplaats"
+  },
+  "Description": {
+   "en": "Goods transfer, client to cost centre",
+   "nl": "Retour van klant naar kostenplaats"
+  },
+  "SortOrder": 48.0,
+  "MenuId": null,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:POS_CONTRACT",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "POSC",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Point-of-sale contract",
+   "nl": "Contract verkooppunt"
+  },
+  "Description": {
+   "en": "Point-of-sale contract",
+   "nl": "Contract verkooppunt"
+  },
+  "SortOrder": 49.0,
+  "MenuId": null,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": true,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": true,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:POS_MONEY_IN",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "POSR",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Point-of-sale receipt of money",
+   "nl": "Ontvangst aan het verkooppunt"
+  },
+  "Description": {
+   "en": "Point-of-sale receipt of money",
+   "nl": "Ontvangst aan het verkooppunt"
+  },
+  "SortOrder": 50.0,
+  "MenuId": null,
+  "AllowsPartialReversal": true,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:POS_MONEY_OUT",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "POSP",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Point-of-sale payment",
+   "nl": "Betaling aan het verkooppunt"
+  },
+  "Description": {
+   "en": "Point-of-sale payment",
+   "nl": "Betaling aan het verkooppunt"
+  },
+  "SortOrder": 51.0,
+  "MenuId": null,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:POS_GOODS_IN",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "POSIN",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Point-of-sale goods in",
+   "nl": "Ontvangst goederen verkooppunt"
+  },
+  "Description": {
+   "en": "Point-of-sale goods in",
+   "nl": "Ontvangst goederen verkooppunt"
+  },
+  "SortOrder": 52.0,
+  "MenuId": null,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:POS_GOODS_OUT",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "POSOUT",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Point-of-sale goods out",
+   "nl": "Uitgifte goederen verkooppunt"
+  },
+  "Description": {
+   "en": "Point-of-sale goods out",
+   "nl": "Uitgifte goederen verkooppunt"
+  },
+  "SortOrder": 53.0,
+  "MenuId": null,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:WAGE_PAYMENT",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "PAYW",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Wage payment",
+   "nl": "Loonbetaling"
+  },
+  "Description": {
+   "en": "Wage payment",
+   "nl": "Loonbetaling"
+  },
+  "SortOrder": 56.0,
+  "MenuId": null,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:RENT_PAYMENT",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "PAYR",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Rent payment",
+   "nl": "Huurbetaling"
+  },
+  "Description": {
+   "en": "Rent payment",
+   "nl": "Huurbetaling"
+  },
+  "SortOrder": 57.0,
+  "MenuId": null,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:CUSTOMS_DECLARATION",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "CUS",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Customs declaration",
+   "nl": "Douaneaangifte"
+  },
+  "Description": {
+   "en": "Customs declaration",
+   "nl": "Douaneaangifte"
+  },
+  "SortOrder": 58.0,
+  "MenuId": null,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:CUSTOMS_DECLARATION_ASSETS",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "CUSA",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Customs declaration, assets",
+   "nl": "Douaneaangifte vaste activa"
+  },
+  "Description": {
+   "en": "Customs declaration, assets",
+   "nl": "Douaneaangifte vaste activa"
+  },
+  "SortOrder": 59.0,
+  "MenuId": null,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:POS_REVERSAL",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "RRET",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Point-of-sale reversal",
+   "nl": "Storno kassaverkoop"
+  },
+  "Description": {
+   "en": "Point-of-sale reversal",
+   "nl": "Storno kassaverkoop"
+  },
+  "SortOrder": 60.0,
+  "MenuId": null,
+  "IsReversal": true,
+  "ReversedDocumentTypeId": "document_type:POS_RECEIPT",
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:POS_REFUND",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "POSREF",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Point-of-sale refund",
+   "nl": "Terugbetaling aan het verkooppunt"
+  },
+  "Description": {
+   "en": "Point-of-sale refund",
+   "nl": "Terugbetaling aan het verkooppunt"
+  },
+  "SortOrder": 62.0,
+  "MenuId": null,
+  "IsReversal": true,
+  "ReversedDocumentTypeId": "document_type:POS_MONEY_IN",
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:POS_MONEY_FROM_STAFF",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "POSRS",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Point-of-sale receipt from staff",
+   "nl": "Ontvangst van medewerker aan het verkooppunt"
+  },
+  "Description": {
+   "en": "Point-of-sale receipt from staff",
+   "nl": "Ontvangst van medewerker aan het verkooppunt"
+  },
+  "SortOrder": 63.0,
+  "MenuId": null,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:GOODS_OUT_TO_STAFF",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "SOUT",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Goods out to staff",
+   "nl": "Uitgifte aan medewerker"
+  },
+  "Description": {
+   "en": "Goods out to staff",
+   "nl": "Uitgifte aan medewerker"
+  },
+  "SortOrder": 65.0,
+  "MenuId": null,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:GOODS_TRANSFER_STAFF_TO_CLIENT",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "DNSK",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Goods transfer, staff to client",
+   "nl": "Levering van medewerker aan klant"
+  },
+  "Description": {
+   "en": "Goods transfer, staff to client",
+   "nl": "Levering van medewerker aan klant"
+  },
+  "SortOrder": 66.0,
+  "MenuId": null,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:GOODS_IN_FROM_STAFF",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "SIN",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Goods in from staff",
+   "nl": "Ontvangst van medewerker"
+  },
+  "Description": {
+   "en": "Goods in from staff",
+   "nl": "Ontvangst van medewerker"
+  },
+  "SortOrder": 67.0,
+  "MenuId": null,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:REVERSAL_PAYMENT",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "RPAY",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Reversal of payment",
+   "nl": "Storno betaling"
+  },
+  "SortOrder": 15.0,
+  "IsReversal": true,
+  "ReversedDocumentTypeId": "document_type:PAYMENT",
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:REVERSAL_RECEIPT",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "RREC",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Reversal of receipt",
+   "nl": "Storno ontvangst"
+  },
+  "SortOrder": 16.0,
+  "IsReversal": true,
+  "ReversedDocumentTypeId": "document_type:RECEIPT",
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:REVERSAL_PREPAYMENT",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "RPPAY",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Reversal of prepayment",
+   "nl": "Storno vooruitbetaling"
+  },
+  "SortOrder": 17.0,
+  "IsReversal": true,
+  "ReversedDocumentTypeId": "document_type:PREPAYMENT",
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:REVERSAL_DEPRECIATION_JOURNAL",
+  "IdSup": "document_type:REVERSAL_DEPRECIATION_SHEET",
+  "Active": true,
+  "IsElement": true,
+  "Code": "RDEP",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Reversal of depreciation journal",
+   "nl": "Storno afschrijvingsboeking"
+  },
+  "SortOrder": 21.0,
+  "IsReversal": true,
+  "ReversedDocumentTypeId": "document_type:DEPRECIATION_JOURNAL",
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:REVERSAL_JOURNAL_PAYMENT",
+  "IdSup": "document_type:REVERSAL_JOURNAL_SHEET",
+  "Active": true,
+  "IsElement": true,
+  "Code": "RPAYJ",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Reversal of payment",
+   "nl": "Storno betaling"
+  },
+  "SortOrder": 23.0,
+  "IsReversal": true,
+  "ReversedDocumentTypeId": "document_type:JOURNAL_PAYMENT",
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:REVERSAL_JOURNAL_RECEIPT",
+  "IdSup": "document_type:REVERSAL_JOURNAL_SHEET",
+  "Active": true,
+  "IsElement": true,
+  "Code": "RRECJ",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Reversal of receipt",
+   "nl": "Storno ontvangst"
+  },
+  "SortOrder": 24.0,
+  "IsReversal": true,
+  "ReversedDocumentTypeId": "document_type:JOURNAL_RECEIPT",
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:REVERSAL_JOURNAL_PREPAYMENT",
+  "IdSup": "document_type:REVERSAL_JOURNAL_SHEET",
+  "Active": true,
+  "IsElement": true,
+  "Code": "RPPAYJ",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Reversal of prepayment",
+   "nl": "Storno vooruitbetaling"
+  },
+  "SortOrder": 25.0,
+  "IsReversal": true,
+  "ReversedDocumentTypeId": "document_type:JOURNAL_PREPAYMENT",
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:REVERSAL_ADVANCE",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "RADV",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Reversal of advance",
+   "nl": "Storno voorschot"
+  },
+  "SortOrder": 29.0,
+  "IsReversal": true,
+  "ReversedDocumentTypeId": "document_type:ADVANCE",
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:REVERSAL_EMPLOYEE_ADVANCE",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "READV",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Reversal of employee advance",
+   "nl": "Storno voorschot aan medewerker"
+  },
+  "SortOrder": 30.0,
+  "IsReversal": true,
+  "ReversedDocumentTypeId": "document_type:EMPLOYEE_ADVANCE",
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:REVERSAL_JOURNAL_ADVANCE",
+  "IdSup": "document_type:REVERSAL_JOURNAL_SHEET",
+  "Active": true,
+  "IsElement": true,
+  "Code": "RADVJ",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Reversal of advance",
+   "nl": "Storno voorschot"
+  },
+  "SortOrder": 32.0,
+  "IsReversal": true,
+  "ReversedDocumentTypeId": "document_type:JOURNAL_ADVANCE",
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:REVERSAL_JOURNAL_EMPLOYEE_ADVANCE",
+  "IdSup": "document_type:REVERSAL_JOURNAL_SHEET",
+  "Active": true,
+  "IsElement": false,
+  "Code": "READVJ",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Reversal of employee advance",
+   "nl": "Storno voorschot aan medewerker"
+  },
+  "SortOrder": 33.0,
+  "IsReversal": true,
+  "ReversedDocumentTypeId": "document_type:JOURNAL_EMPLOYEE_ADVANCE",
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:PRODUCTION",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "PRD",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Production",
+   "nl": "Productie"
+  },
+  "Description": {
+   "en": "Production",
+   "nl": "Productie"
+  },
+  "SortOrder": 90.0,
+  "MenuId": null,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": false,
+  "AllowsPartialReversal": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:UNIT_SPLIT",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "UNS",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Unit split",
+   "nl": "Eenheidsomrekening"
+  },
+  "Description": {
+   "en": "Unit split",
+   "nl": "Eenheidsomrekening"
+  },
+  "SortOrder": 92.0,
+  "MenuId": null,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": false,
+  "AllowsPartialReversal": true,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:REVERSAL_UNIT_SPLIT",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "RUNS",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Reversal of unit split",
+   "nl": "Storno eenheidsomrekening"
+  },
+  "Description": {
+   "en": "Reversal of unit split",
+   "nl": "Storno eenheidsomrekening"
+  },
+  "SortOrder": 93.0,
+  "MenuId": null,
+  "IsReversal": true,
+  "ReversedDocumentTypeId": "document_type:UNIT_SPLIT",
+  "NeverPosted": false,
+  "AllowsPartialReversal": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:REVERSAL_JOURNAL_SHEET",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "RJVSJ",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Reversal of journal sheet",
+   "nl": "Terugboeking van boekingsblad"
+  },
+  "SortOrder": 222.0,
+  "IsReversal": true,
+  "ReversedDocumentTypeId": "document_type:JOURNAL_SHEET",
+  "NeverPosted": false,
+  "Description": {
+   "en": "Reversal of journal sheet",
+   "nl": "Terugboeking van boekingsblad"
+  },
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:REVERSAL_DEPRECIATION_SHEET",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "RDEPSJ",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Reversal of depreciation sheet",
+   "nl": "Terugboeking van afschrijvingsblad"
+  },
+  "SortOrder": 220.0,
+  "IsReversal": true,
+  "ReversedDocumentTypeId": "document_type:DEPRECIATION_SHEET",
+  "NeverPosted": false,
+  "Description": {
+   "en": "Reversal of depreciation sheet",
+   "nl": "Terugboeking van afschrijvingsblad"
+  },
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:REVERSAL_GENERAL_JOURNAL_ENTRY",
+  "IdSup": "document_type:REVERSAL_JOURNAL_SHEET",
+  "Active": true,
+  "IsElement": true,
+  "Code": "RJVJ",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Reversal of general journal entry",
+   "nl": "Terugboeking van algemene boeking"
+  },
+  "SortOrder": 244.0,
+  "IsReversal": true,
+  "ReversedDocumentTypeId": "document_type:GENERAL_JOURNAL_ENTRY",
+  "NeverPosted": false,
+  "Description": {
+   "en": "Reversal of general journal entry",
+   "nl": "Terugboeking van algemene boeking"
+  },
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:RECURRING_JOURNAL_PAYMENT",
+  "IdSup": "document_type:RECURRING_JOURNAL_SHEET",
+  "Active": true,
+  "IsElement": true,
+  "Code": "PAYRR",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Payment",
+   "nl": "Betaling"
+  },
+  "Description": {
+   "en": "Payment",
+   "nl": "Betaling"
+  },
+  "SortOrder": 123.0,
+  "MenuId": null,
+  "AllowsPartialReversal": false,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": true,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:REVERSAL_RECURRING_JOURNAL_PAYMENT",
+  "IdSup": "document_type:REVERSAL_RECURRING_JOURNAL_SHEET",
+  "Active": true,
+  "IsElement": true,
+  "Code": "RPAYRJ",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Reversal of payment",
+   "nl": "Storno betaling"
+  },
+  "SortOrder": 123.0,
+  "IsReversal": true,
+  "ReversedDocumentTypeId": "document_type:RECURRING_JOURNAL_PAYMENT",
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:RECURRING_JOURNAL_RECEIPT",
+  "IdSup": "document_type:RECURRING_JOURNAL_SHEET",
+  "Active": true,
+  "IsElement": true,
+  "Code": "RECR",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Receipt",
+   "nl": "Ontvangst"
+  },
+  "Description": {
+   "en": "Receipt",
+   "nl": "Ontvangst"
+  },
+  "SortOrder": 124.0,
+  "MenuId": null,
+  "AllowsPartialReversal": false,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": true,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:REVERSAL_RECURRING_JOURNAL_RECEIPT",
+  "IdSup": "document_type:REVERSAL_RECURRING_JOURNAL_SHEET",
+  "Active": true,
+  "IsElement": true,
+  "Code": "RRECRJ",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Reversal of receipt",
+   "nl": "Storno ontvangst"
+  },
+  "SortOrder": 124.0,
+  "IsReversal": true,
+  "ReversedDocumentTypeId": "document_type:RECURRING_JOURNAL_RECEIPT",
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:RECURRING_JOURNAL_PREPAYMENT",
+  "IdSup": "document_type:RECURRING_JOURNAL_SHEET",
+  "Active": true,
+  "IsElement": true,
+  "Code": "PPAYR",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Prepayment",
+   "nl": "Vooruitbetaling"
+  },
+  "Description": {
+   "en": "Prepayment",
+   "nl": "Vooruitbetaling"
+  },
+  "SortOrder": 125.0,
+  "MenuId": null,
+  "AllowsPartialReversal": false,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:REVERSAL_RECURRING_JOURNAL_PREPAYMENT",
+  "IdSup": "document_type:REVERSAL_RECURRING_JOURNAL_SHEET",
+  "Active": true,
+  "IsElement": true,
+  "Code": "RPPAYRJ",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Reversal of prepayment",
+   "nl": "Storno vooruitbetaling"
+  },
+  "SortOrder": 125.0,
+  "IsReversal": true,
+  "ReversedDocumentTypeId": "document_type:RECURRING_JOURNAL_PREPAYMENT",
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:RECURRING_JOURNAL_ADVANCE",
+  "IdSup": "document_type:RECURRING_JOURNAL_SHEET",
+  "Active": true,
+  "IsElement": true,
+  "Code": "ADVR",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Advance",
+   "nl": "Voorschot"
+  },
+  "Description": {
+   "en": "Client's advance",
+   "nl": "Voorschot van klant"
+  },
+  "SortOrder": 132.0,
+  "MenuId": null,
+  "AllowsPartialReversal": false,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:REVERSAL_RECURRING_JOURNAL_ADVANCE",
+  "IdSup": "document_type:REVERSAL_RECURRING_JOURNAL_SHEET",
+  "Active": true,
+  "IsElement": true,
+  "Code": "RADVRJ",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Reversal of advance",
+   "nl": "Storno voorschot"
+  },
+  "SortOrder": 132.0,
+  "IsReversal": true,
+  "ReversedDocumentTypeId": "document_type:RECURRING_JOURNAL_ADVANCE",
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:RECURRING_JOURNAL_EMPLOYEE_ADVANCE",
+  "IdSup": "document_type:RECURRING_JOURNAL_SHEET",
+  "Active": true,
+  "IsElement": true,
+  "Code": "EADVR",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Employee advance",
+   "nl": "Voorschot aan medewerker"
+  },
+  "Description": {
+   "en": "Advance to an employee",
+   "nl": "Voorschot aan een medewerker"
+  },
+  "SortOrder": 133.0,
+  "MenuId": null,
+  "AllowsPartialReversal": false,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:REVERSAL_RECURRING_JOURNAL_EMPLOYEE_ADVANCE",
+  "IdSup": "document_type:REVERSAL_RECURRING_JOURNAL_SHEET",
+  "Active": true,
+  "IsElement": false,
+  "Code": "READVRJ",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Reversal of employee advance",
+   "nl": "Storno voorschot aan medewerker"
+  },
+  "SortOrder": 133.0,
+  "IsReversal": true,
+  "ReversedDocumentTypeId": "document_type:RECURRING_JOURNAL_EMPLOYEE_ADVANCE",
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:RECURRING_GENERAL_JOURNAL_ENTRY",
+  "IdSup": "document_type:RECURRING_JOURNAL_SHEET",
+  "Active": true,
+  "IsElement": true,
+  "Code": "JVRR",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "General journal entry",
+   "nl": "Algemene boeking"
+  },
+  "Description": {
+   "en": "General journal entry",
+   "nl": "Algemene boeking"
+  },
+  "SortOrder": 144.0,
+  "MenuId": null,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:REVERSAL_RECURRING_GENERAL_JOURNAL_ENTRY",
+  "IdSup": "document_type:REVERSAL_RECURRING_JOURNAL_SHEET",
+  "Active": true,
+  "IsElement": true,
+  "Code": "RJVRJ",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Reversal of general journal entry",
+   "nl": "Terugboeking van algemene boeking"
+  },
+  "SortOrder": 344.0,
+  "IsReversal": true,
+  "ReversedDocumentTypeId": "document_type:RECURRING_GENERAL_JOURNAL_ENTRY",
+  "NeverPosted": false,
+  "Description": {
+   "en": "Reversal of general journal entry",
+   "nl": "Terugboeking van algemene boeking"
+  },
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:REVERSAL_RECURRING_JOURNAL_SHEET",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "RJVRJR",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Reversal of journal sheet",
+   "nl": "Terugboeking van boekingsblad"
+  },
+  "SortOrder": 322.0,
+  "IsReversal": true,
+  "ReversedDocumentTypeId": "document_type:RECURRING_JOURNAL_SHEET",
+  "NeverPosted": false,
+  "Description": {
+   "en": "Reversal of journal sheet",
+   "nl": "Terugboeking van boekingsblad"
+  },
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:RECURRING_DEPRECIATION_JOURNAL",
+  "IdSup": "document_type:RECURRING_DEPRECIATION_SHEET",
+  "Active": true,
+  "IsElement": true,
+  "Code": "DEPRR",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Depreciation journal",
+   "nl": "Afschrijvingsboeking"
+  },
+  "Description": {
+   "en": "Depreciation journal",
+   "nl": "Afschrijvingsboeking"
+  },
+  "SortOrder": 121.0,
+  "MenuId": null,
+  "AllowsPartialReversal": false,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:REVERSAL_RECURRING_DEPRECIATION_JOURNAL",
+  "IdSup": "document_type:REVERSAL_RECURRING_DEPRECIATION_SHEET",
+  "Active": true,
+  "IsElement": true,
+  "Code": "RDEPRJ",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Reversal of depreciation journal",
+   "nl": "Storno afschrijvingsboeking"
+  },
+  "SortOrder": 121.0,
+  "IsReversal": true,
+  "ReversedDocumentTypeId": "document_type:RECURRING_DEPRECIATION_JOURNAL",
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:REVERSAL_RECURRING_DEPRECIATION_SHEET",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "RDEPRJR",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Reversal of depreciation sheet",
+   "nl": "Terugboeking van afschrijvingsblad"
+  },
+  "SortOrder": 320.0,
+  "IsReversal": true,
+  "ReversedDocumentTypeId": "document_type:RECURRING_DEPRECIATION_SHEET",
+  "NeverPosted": false,
+  "Description": {
+   "en": "Reversal of depreciation sheet",
+   "nl": "Terugboeking van afschrijvingsblad"
+  },
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:RECURRING_REVALUATION_JOURNAL",
+  "IdSup": "document_type:RECURRING_REVALUATION_SHEET",
+  "Active": true,
+  "IsElement": true,
+  "Code": "REVRR",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Revaluation journal",
+   "nl": "Herwaarderingsboeking"
+  },
+  "Description": {
+   "en": "Revaluation journal",
+   "nl": "Herwaarderingsboeking"
+  },
+  "SortOrder": 127.0,
+  "MenuId": null,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:PURCHASE_REQUEST",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "PRQ",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Purchase request",
+   "nl": "Inkoopaanvraag"
+  },
+  "Description": {
+   "en": "Purchase request",
+   "nl": "Inkoopaanvraag"
+  },
+  "SortOrder": 19.1,
+  "MenuId": null,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": true,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": true,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:PURCHASE_ORDER",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "POR",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Purchase order",
+   "nl": "Inkooporder"
+  },
+  "Description": {
+   "en": "Purchase order",
+   "nl": "Inkooporder"
+  },
+  "SortOrder": 19.2,
+  "MenuId": null,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": true,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": true,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:SALES_ORDER",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "SOR",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Sales order",
+   "nl": "Verkooporder"
+  },
+  "Description": {
+   "en": "Sales order",
+   "nl": "Verkooporder"
+  },
+  "SortOrder": 19.3,
+  "MenuId": null,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": true,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false,
+  "ProducedOnProductionScreen": true
+ },
+ {
+  "Key": "document_type:POS_ORDER",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "PSO",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Point-of-sale order",
+   "nl": "Bestelling verkooppunt"
+  },
+  "Description": {
+   "en": "Point-of-sale order",
+   "nl": "Bestelling verkooppunt"
+  },
+  "SortOrder": 19.310000000000002,
+  "MenuId": null,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": true,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false,
+  "SendsToProduction": true,
+  "ProductionDocumentTypeId": "document_type:PRODUCTION"
+ },
+ {
+  "Key": "document_type:DISASSEMBLY",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "DIS",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Disassembly",
+   "nl": "Demontage"
+  },
+  "Description": {
+   "en": "Disassembly",
+   "nl": "Demontage"
+  },
+  "SortOrder": 90.5,
+  "MenuId": null,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": false,
+  "AllowsPartialReversal": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false,
+  "ProductionDocumentTypeId": null
+ },
+ {
+  "Key": "document_type:REVERSAL_CUSTOMS_DECLARATION",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "RCUS",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Reversal of customs declaration",
+   "nl": "Storno: Douaneaangifte"
+  },
+  "Description": {
+   "en": "Reversal of customs declaration",
+   "nl": "Storno: Douaneaangifte"
+  },
+  "SortOrder": 58.5,
+  "MenuId": null,
+  "IsReversal": true,
+  "ReversedDocumentTypeId": "document_type:CUSTOMS_DECLARATION",
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false,
+  "AllowsPartialReversal": false
+ },
+ {
+  "Key": "document_type:REVERSAL_CUSTOMS_DECLARATION_ASSETS",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "RCUSA",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Reversal of customs declaration, assets",
+   "nl": "Storno: Douaneaangifte vaste activa"
+  },
+  "Description": {
+   "en": "Reversal of customs declaration, assets",
+   "nl": "Storno: Douaneaangifte vaste activa"
+  },
+  "SortOrder": 59.5,
+  "MenuId": null,
+  "IsReversal": true,
+  "ReversedDocumentTypeId": "document_type:CUSTOMS_DECLARATION_ASSETS",
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false,
+  "AllowsPartialReversal": false
+ },
+ {
+  "Key": "document_type:REVERSAL_GOODS_TRANSFER",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "RDN",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Reversal of goods transfer note",
+   "nl": "Storno: Verplaatsingsbon"
+  },
+  "Description": {
+   "en": "Reversal of goods transfer note",
+   "nl": "Storno: Verplaatsingsbon"
+  },
+  "SortOrder": 14.5,
+  "MenuId": null,
+  "IsReversal": true,
+  "ReversedDocumentTypeId": "document_type:GOODS_TRANSFER",
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false,
+  "AllowsPartialReversal": false
+ },
+ {
+  "Key": "document_type:REVERSAL_GOODS_TRANSFER_TO_STAFF",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "RDNS",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Reversal of goods transfer, cost centre to staff",
+   "nl": "Storno: Verplaatsing van kostenplaats naar medewerker"
+  },
+  "Description": {
+   "en": "Reversal of goods transfer, cost centre to staff",
+   "nl": "Storno: Verplaatsing van kostenplaats naar medewerker"
+  },
+  "SortOrder": 18.5,
+  "MenuId": null,
+  "IsReversal": true,
+  "ReversedDocumentTypeId": "document_type:GOODS_TRANSFER_TO_STAFF",
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false,
+  "AllowsPartialReversal": false
+ },
+ {
+  "Key": "document_type:REVERSAL_GOODS_TRANSFER_FROM_STAFF",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "RDNSC",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Reversal of goods transfer, staff to cost centre",
+   "nl": "Storno: Verplaatsing van medewerker naar kostenplaats"
+  },
+  "Description": {
+   "en": "Reversal of goods transfer, staff to cost centre",
+   "nl": "Storno: Verplaatsing van medewerker naar kostenplaats"
+  },
+  "SortOrder": 46.5,
+  "MenuId": null,
+  "IsReversal": true,
+  "ReversedDocumentTypeId": "document_type:GOODS_TRANSFER_FROM_STAFF",
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false,
+  "AllowsPartialReversal": false
+ },
+ {
+  "Key": "document_type:REVERSAL_GOODS_TRANSFER_TO_CLIENT",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "RDNCC",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Reversal of goods transfer, cost centre to client",
+   "nl": "Storno: Levering van kostenplaats aan klant"
+  },
+  "Description": {
+   "en": "Reversal of goods transfer, cost centre to client",
+   "nl": "Storno: Levering van kostenplaats aan klant"
+  },
+  "SortOrder": 47.5,
+  "MenuId": null,
+  "IsReversal": true,
+  "ReversedDocumentTypeId": "document_type:GOODS_TRANSFER_TO_CLIENT",
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false,
+  "AllowsPartialReversal": false
+ },
+ {
+  "Key": "document_type:REVERSAL_GOODS_TRANSFER_FROM_CLIENT",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "RDNKC",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Reversal of goods transfer, client to cost centre",
+   "nl": "Storno: Retour van klant naar kostenplaats"
+  },
+  "Description": {
+   "en": "Reversal of goods transfer, client to cost centre",
+   "nl": "Storno: Retour van klant naar kostenplaats"
+  },
+  "SortOrder": 48.5,
+  "MenuId": null,
+  "IsReversal": true,
+  "ReversedDocumentTypeId": "document_type:GOODS_TRANSFER_FROM_CLIENT",
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false,
+  "AllowsPartialReversal": false
+ },
+ {
+  "Key": "document_type:REVERSAL_GOODS_TRANSFER_STAFF_TO_CLIENT",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "RDNSK",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Reversal of goods transfer, staff to client",
+   "nl": "Storno: Levering van medewerker aan klant"
+  },
+  "Description": {
+   "en": "Reversal of goods transfer, staff to client",
+   "nl": "Storno: Levering van medewerker aan klant"
+  },
+  "SortOrder": 66.5,
+  "MenuId": null,
+  "IsReversal": true,
+  "ReversedDocumentTypeId": "document_type:GOODS_TRANSFER_STAFF_TO_CLIENT",
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false,
+  "AllowsPartialReversal": false
+ }
+]

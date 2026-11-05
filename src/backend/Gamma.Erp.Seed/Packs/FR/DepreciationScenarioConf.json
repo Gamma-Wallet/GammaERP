@@ -1,0 +1,142 @@
+[
+ {
+  "Key": "depreciation_scenario_conf:assets:0",
+  "IdSup": null,
+  "Active": true,
+  "DepreciationScenarioId": "depreciation_scenario:assets",
+  "ChartId": "chart:68112",
+  "ChartName": "Immobilisations corporelles",
+  "Side": false,
+  "SideValue": "Debit"
+ },
+ {
+  "Key": "depreciation_scenario_conf:assets:1",
+  "IdSup": null,
+  "Active": true,
+  "DepreciationScenarioId": "depreciation_scenario:assets",
+  "ChartId": "chart:2815",
+  "ChartName": "Installations, matériel et outillage industriels (même ventilation que celle du compte 215)",
+  "Side": true,
+  "SideValue": "Credit"
+ },
+ {
+  "Key": "depreciation_scenario_conf:buildings:0",
+  "IdSup": null,
+  "Active": true,
+  "DepreciationScenarioId": "depreciation_scenario:buildings",
+  "ChartId": "chart:68112",
+  "ChartName": "Immobilisations corporelles",
+  "Side": false,
+  "SideValue": "Debit"
+ },
+ {
+  "Key": "depreciation_scenario_conf:buildings:1",
+  "IdSup": null,
+  "Active": true,
+  "DepreciationScenarioId": "depreciation_scenario:buildings",
+  "ChartId": "chart:2813",
+  "ChartName": "Constructions (même ventilation que celle du compte 213)",
+  "Side": true,
+  "SideValue": "Credit"
+ },
+ {
+  "Key": "depreciation_scenario_conf:office:0",
+  "IdSup": null,
+  "Active": true,
+  "DepreciationScenarioId": "depreciation_scenario:office",
+  "ChartId": "chart:68112",
+  "ChartName": "Immobilisations corporelles",
+  "Side": false,
+  "SideValue": "Debit"
+ },
+ {
+  "Key": "depreciation_scenario_conf:office:1",
+  "IdSup": null,
+  "Active": true,
+  "DepreciationScenarioId": "depreciation_scenario:office",
+  "ChartId": "chart:28183",
+  "ChartName": "Matériel de bureau et matériel informatique",
+  "Side": true,
+  "SideValue": "Credit"
+ },
+ {
+  "Key": "depreciation_scenario_conf:vehicles:0",
+  "IdSup": null,
+  "Active": true,
+  "DepreciationScenarioId": "depreciation_scenario:vehicles",
+  "ChartId": "chart:68112",
+  "ChartName": "Immobilisations corporelles",
+  "Side": false,
+  "SideValue": "Debit"
+ },
+ {
+  "Key": "depreciation_scenario_conf:vehicles:1",
+  "IdSup": null,
+  "Active": true,
+  "DepreciationScenarioId": "depreciation_scenario:vehicles",
+  "ChartId": "chart:28182",
+  "ChartName": "Matériel de transport",
+  "Side": true,
+  "SideValue": "Credit"
+ },
+ {
+  "Key": "depreciation_scenario_conf:computers:0",
+  "IdSup": null,
+  "Active": true,
+  "DepreciationScenarioId": "depreciation_scenario:computers",
+  "ChartId": "chart:68112",
+  "ChartName": "Immobilisations corporelles",
+  "Side": false,
+  "SideValue": "Debit"
+ },
+ {
+  "Key": "depreciation_scenario_conf:computers:1",
+  "IdSup": null,
+  "Active": true,
+  "DepreciationScenarioId": "depreciation_scenario:computers",
+  "ChartId": "chart:28183",
+  "ChartName": "Matériel de bureau et matériel informatique",
+  "Side": true,
+  "SideValue": "Credit"
+ },
+ {
+  "Key": "depreciation_scenario_conf:furniture:0",
+  "IdSup": null,
+  "Active": true,
+  "DepreciationScenarioId": "depreciation_scenario:furniture",
+  "ChartId": "chart:68112",
+  "ChartName": "Immobilisations corporelles",
+  "Side": false,
+  "SideValue": "Debit"
+ },
+ {
+  "Key": "depreciation_scenario_conf:furniture:1",
+  "IdSup": null,
+  "Active": true,
+  "DepreciationScenarioId": "depreciation_scenario:furniture",
+  "ChartId": "chart:28184",
+  "ChartName": "Mobilier",
+  "Side": true,
+  "SideValue": "Credit"
+ },
+ {
+  "Key": "depreciation_scenario_conf:intangible:0",
+  "IdSup": null,
+  "Active": true,
+  "DepreciationScenarioId": "depreciation_scenario:intangible",
+  "ChartId": "chart:68111",
+  "ChartName": "Immobilisations incorporelles et frais d’établissement",
+  "Side": false,
+  "SideValue": "Debit"
+ },
+ {
+  "Key": "depreciation_scenario_conf:intangible:1",
+  "IdSup": null,
+  "Active": true,
+  "DepreciationScenarioId": "depreciation_scenario:intangible",
+  "ChartId": "chart:2805",
+  "ChartName": "Concessions et droits similaires, brevets, licences, solutions informatiques, droits et valeurs similaires",
+  "Side": true,
+  "SideValue": "Credit"
+ }
+]

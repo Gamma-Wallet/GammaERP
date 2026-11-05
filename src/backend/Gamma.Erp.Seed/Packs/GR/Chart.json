@@ -1,0 +1,5062 @@
+[
+ {
+  "Key": "chart:1",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "1",
+  "Name": {
+   "el": "Ενσώματα και άυλα μη κυκλοφορούντα (πάγια) περιουσιακά στοιχεία"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:10",
+  "IdSup": "chart:1",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "10",
+  "Name": {
+   "el": "Γη"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:10.01",
+  "IdSup": "chart:10",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "10.01",
+  "Name": {
+   "el": "Μικτή αξία (κόστος ή αναπροσαρμοσμένη) γης"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:10.02",
+  "IdSup": "chart:10",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "10.02",
+  "Name": {
+   "el": "Σωρευμένες απομειώσεις γης"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:11",
+  "IdSup": "chart:1",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "11",
+  "Name": {
+   "el": "Διαμορφώσεις γης υποκείμενες σε απόσβεση"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:11.01",
+  "IdSup": "chart:11",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "11.01",
+  "Name": {
+   "el": "Μικτή αξία (κόστος ή αναπροσαρμοσμένη) διαμορφώσεων γης"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:11.02",
+  "IdSup": "chart:11",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "11.02",
+  "Name": {
+   "el": "Σωρευμένες αποσβέσεις διαμορφώσεων γης"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:11.03",
+  "IdSup": "chart:11",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "11.03",
+  "Name": {
+   "el": "Σωρευμένες απομειώσεις διαμορφώσεων γης"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:12",
+  "IdSup": "chart:1",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "12",
+  "Name": {
+   "el": "Κτήρια - τεχνικά έργα"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:12.01",
+  "IdSup": "chart:12",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "12.01",
+  "Name": {
+   "el": "Μικτή αξία (κόστος ή αναπροσαρμοσμένη) κτηρίων - τεχνικών έργων"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:12.02",
+  "IdSup": "chart:12",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "12.02",
+  "Name": {
+   "el": "Σωρευμένες αποσβέσεις κτηρίων - τεχνικών έργων"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:12.03",
+  "IdSup": "chart:12",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "12.03",
+  "Name": {
+   "el": "Σωρευμένες απομειώσεις κτηρίων - τεχνικών έργων"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:13",
+  "IdSup": "chart:1",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "13",
+  "Name": {
+   "el": "Μηχανολογικός εξοπλισμός"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:13.01",
+  "IdSup": "chart:13",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "13.01",
+  "Name": {
+   "el": "Αξία κτήσης μηχανολογικού εξοπλισμού"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:13.02",
+  "IdSup": "chart:13",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "13.02",
+  "Name": {
+   "el": "Σωρευμένες αποσβέσεις μηχανολογικού εξοπλισμού"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:13.03",
+  "IdSup": "chart:13",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "13.03",
+  "Name": {
+   "el": "Σωρευμένες απομειώσεις μηχανολογικού εξοπλισμού"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:14",
+  "IdSup": "chart:1",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "14",
+  "Name": {
+   "el": "Μεταφορικά μέσα"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:14.01",
+  "IdSup": "chart:14",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "14.01",
+  "Name": {
+   "el": "Μικτή αξία κτήσης μεταφορικών μέσων"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:14.02",
+  "IdSup": "chart:14",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "14.02",
+  "Name": {
+   "el": "Σωρευμένες αποσβέσεις μεταφορικών μέσων"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:14.03",
+  "IdSup": "chart:14",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "14.03",
+  "Name": {
+   "el": "Σωρευμένες απομειώσεις μεταφορικών μέσων"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:15",
+  "IdSup": "chart:1",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "15",
+  "Name": {
+   "el": "Λοιπός εξοπλισμός"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:15.01",
+  "IdSup": "chart:15",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "15.01",
+  "Name": {
+   "el": "Μικτή αξία κτήσης εξοπλισμού"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:15.02",
+  "IdSup": "chart:15",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "15.02",
+  "Name": {
+   "el": "Σωρευμένες αποσβέσεις εξοπλισμού"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:15.03",
+  "IdSup": "chart:15",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "15.03",
+  "Name": {
+   "el": "Σωρευμένες απομειώσεις εξοπλισμού"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:16",
+  "IdSup": "chart:1",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "16",
+  "Name": {
+   "el": "Επενδύσεις σε ακίνητα"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:16.01",
+  "IdSup": "chart:16",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "16.01",
+  "Name": {
+   "el": "Μικτή αξία (κόστος ή αναπροσαρμοσμένη) επενδύσεων σε ακίνητα"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:16.02",
+  "IdSup": "chart:16",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "16.02",
+  "Name": {
+   "el": "Σωρευμένες αποσβέσεις επενδύσεων σε ακίνητα"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:16.03",
+  "IdSup": "chart:16",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "16.03",
+  "Name": {
+   "el": "Σωρευμένες απομειώσεις επενδύσεων σε ακίνητα"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:17",
+  "IdSup": "chart:1",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "17",
+  "Name": {
+   "el": "Πάγια βιολογικά περιουσιακά στοιχεία"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:17.01",
+  "IdSup": "chart:17",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "17.01",
+  "Name": {
+   "el": "Ζώντα ζώα"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:17.01.01",
+  "IdSup": "chart:17.01",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "17.01.01",
+  "Name": {
+   "el": "Μικτή αξία (κόστος ή αναπροσαρμοσμένη) ζώντων ζώων"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:17.01.02",
+  "IdSup": "chart:17.01",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "17.01.02",
+  "Name": {
+   "el": "Σωρευμένες αποσβέσεις ζώντων ζώων"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:17.01.03",
+  "IdSup": "chart:17.01",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "17.01.03",
+  "Name": {
+   "el": "Σωρευμένες απομειώσεις ζώντων ζώων"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:17.02",
+  "IdSup": "chart:17",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "17.02",
+  "Name": {
+   "el": "Δένδρα και φυτά"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:17.02.01",
+  "IdSup": "chart:17.02",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "17.02.01",
+  "Name": {
+   "el": "Μικτή αξία (κόστος ή αναπροσαρμοσμένη) δένδρων και φυτών"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:17.02.02",
+  "IdSup": "chart:17.02",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "17.02.02",
+  "Name": {
+   "el": "Σωρευμένες αποσβέσεις δένδρων και φυτών"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:17.02.03",
+  "IdSup": "chart:17.02",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "17.02.03",
+  "Name": {
+   "el": "Σωρευμένες απομειώσεις δένδρων και φυτών"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:18",
+  "IdSup": "chart:1",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "18",
+  "Name": {
+   "el": "Άυλα"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:18.01",
+  "IdSup": "chart:18",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "18.01",
+  "Name": {
+   "el": "Δαπάνες ανάπτυξης"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:18.01.01",
+  "IdSup": "chart:18.01",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "18.01.01",
+  "Name": {
+   "el": "Μικτή αξία κτήσης δαπανών ανάπτυξης"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:18.01.02",
+  "IdSup": "chart:18.01",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "18.01.02",
+  "Name": {
+   "el": "Σωρευμένες αποσβέσεις δαπανών ανάπτυξης"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:18.01.03",
+  "IdSup": "chart:18.01",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "18.01.03",
+  "Name": {
+   "el": "Σωρευμένες απομειώσεις δαπανών ανάπτυξης"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:18.02",
+  "IdSup": "chart:18",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "18.02",
+  "Name": {
+   "el": "Υπεραξία"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:18.02.01",
+  "IdSup": "chart:18.02",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "18.02.01",
+  "Name": {
+   "el": "Μικτή αξία κτήσης υπεραξίας"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:18.02.02",
+  "IdSup": "chart:18.02",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "18.02.02",
+  "Name": {
+   "el": "Σωρευμένες αποσβέσεις υπεραξίας"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:18.02.03",
+  "IdSup": "chart:18.02",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "18.02.03",
+  "Name": {
+   "el": "Σωρευμένες απομειώσεις υπεραξίας"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:18.03",
+  "IdSup": "chart:18",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "18.03",
+  "Name": {
+   "el": "Λοιπά άυλα"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:18.03.01",
+  "IdSup": "chart:18.03",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "18.03.01",
+  "Name": {
+   "el": "Μικτή αξία κτήσης λοιπών άυλων"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:18.03.02",
+  "IdSup": "chart:18.03",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "18.03.02",
+  "Name": {
+   "el": "Σωρευμένες αποσβέσεις λοιπών άυλων"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:18.03.03",
+  "IdSup": "chart:18.03",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "18.03.03",
+  "Name": {
+   "el": "Σωρευμένες απομειώσεις λοιπών άυλων"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:2",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "2",
+  "Name": {
+   "el": "Αποθέματα"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:20",
+  "IdSup": "chart:2",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "20",
+  "Name": {
+   "el": "Εμπορεύματα"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:20.01",
+  "IdSup": "chart:20",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "20.01",
+  "Name": {
+   "el": "Εμπορεύματα έναρξης"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:20.02",
+  "IdSup": "chart:20",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "20.02",
+  "Name": {
+   "el": "Αγορές εμπορευμάτων χρήσης"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:20.03",
+  "IdSup": "chart:20",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "20.03",
+  "Name": {
+   "el": "Εκπτώσεις αγορών εμπορευμάτων"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:20.04",
+  "IdSup": "chart:20",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "20.04",
+  "Name": {
+   "el": "Επιστροφές αγορών εμπορευμάτων"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:20.05",
+  "IdSup": "chart:20",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "20.05",
+  "Name": {
+   "el": "Απομείωση εμπορευμάτων"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:20.06",
+  "IdSup": "chart:20",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "20.06",
+  "Name": {
+   "el": "Εμπορεύματα λήξης"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:21",
+  "IdSup": "chart:2",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "21",
+  "Name": {
+   "el": "Προϊόντα"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:21.01",
+  "IdSup": "chart:21",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "21.01",
+  "Name": {
+   "el": "Προϊόντα έναρξης"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:21.02",
+  "IdSup": "chart:21",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "21.02",
+  "Name": {
+   "el": "Παραγωγή χρήσης"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:21.03",
+  "IdSup": "chart:21",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "21.03",
+  "Name": {
+   "el": "Απομείωση προϊόντων"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:21.04",
+  "IdSup": "chart:21",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "21.04",
+  "Name": {
+   "el": "Προϊόντα λήξης"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:22",
+  "IdSup": "chart:2",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "22",
+  "Name": {
+   "el": "Βιολογικά περιουσιακά στοιχεία (κυκλοφορούντα)"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:22.01",
+  "IdSup": "chart:22",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "22.01",
+  "Name": {
+   "el": "Ζώντα ζώα"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:22.01.01",
+  "IdSup": "chart:22.01",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "22.01.01",
+  "Name": {
+   "el": "Ζώντα ζώα έναρξης"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:22.01.02",
+  "IdSup": "chart:22.01",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "22.01.02",
+  "Name": {
+   "el": "Αγορές ζώντων ζώων"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:22.01.03",
+  "IdSup": "chart:22.01",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "22.01.03",
+  "Name": {
+   "el": "Εκπτώσεις αγορών ζώντων ζώων"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:22.01.04",
+  "IdSup": "chart:22.01",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "22.01.04",
+  "Name": {
+   "el": "Επιστροφές αγορών ζώντων ζώων"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:22.01.05",
+  "IdSup": "chart:22.01",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "22.01.05",
+  "Name": {
+   "el": "Απομείωση ζώντων ζώων"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:22.01.06",
+  "IdSup": "chart:22.01",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "22.01.06",
+  "Name": {
+   "el": "Διαφορές επιμέτρησης εύλογης αξίας ζώντων ζώων"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:22.01.07",
+  "IdSup": "chart:22.01",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "22.01.07",
+  "Name": {
+   "el": "Ζώντα ζώα λήξης"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:22.02",
+  "IdSup": "chart:22",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "22.02",
+  "Name": {
+   "el": "Δένδρα και φυτά"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:22.02.01",
+  "IdSup": "chart:22.02",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "22.02.01",
+  "Name": {
+   "el": "Δένδρα και φυτά έναρξης"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:22.02.02",
+  "IdSup": "chart:22.02",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "22.02.02",
+  "Name": {
+   "el": "Αγορές δένδρων και φυτών"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:22.02.03",
+  "IdSup": "chart:22.02",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "22.02.03",
+  "Name": {
+   "el": "Εκπτώσεις αγορών δένδρων και φυτών"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:22.02.04",
+  "IdSup": "chart:22.02",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "22.02.04",
+  "Name": {
+   "el": "Επιστροφές αγορών δένδρων και φυτών"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:22.02.05",
+  "IdSup": "chart:22.02",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "22.02.05",
+  "Name": {
+   "el": "Απομείωση δένδρων και φυτών"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:22.02.06",
+  "IdSup": "chart:22.02",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "22.02.06",
+  "Name": {
+   "el": "Διαφορές επιμέτρησης εύλογης αξίας δένδρων και φυτών"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:22.02.07",
+  "IdSup": "chart:22.02",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "22.02.07",
+  "Name": {
+   "el": "Δένδρα και φυτά λήξης"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:23",
+  "IdSup": "chart:2",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "23",
+  "Name": {
+   "el": "Παραγωγή σε εξέλιξη"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:23.01",
+  "IdSup": "chart:23",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "23.01",
+  "Name": {
+   "el": "Παραγωγή σε εξέλιξη έναρξης"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:23.02",
+  "IdSup": "chart:23",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "23.02",
+  "Name": {
+   "el": "Παραγωγή σε εξέλιξη λήξης"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:24",
+  "IdSup": "chart:2",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "24",
+  "Name": {
+   "el": "Πρώτες ύλες και υλικά"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:24.01",
+  "IdSup": "chart:24",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "24.01",
+  "Name": {
+   "el": "Πρώτες ύλες και υλικά έναρξης"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:24.02",
+  "IdSup": "chart:24",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "24.02",
+  "Name": {
+   "el": "Αγορές πρώτων υλών και υλικών χρήσης"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:24.03",
+  "IdSup": "chart:24",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "24.03",
+  "Name": {
+   "el": "Εκπτώσεις αγορών πρώτων υλών και υλικών"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:24.04",
+  "IdSup": "chart:24",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "24.04",
+  "Name": {
+   "el": "Επιστροφές αγορών πρώτων υλών και υλικών"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:24.05",
+  "IdSup": "chart:24",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "24.05",
+  "Name": {
+   "el": "Απομείωση πρώτων υλών και υλικών"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:24.06",
+  "IdSup": "chart:24",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "24.06",
+  "Name": {
+   "el": "Αποθέματα λήξης πρώτων υλών και υλικών"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:25",
+  "IdSup": "chart:2",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "25",
+  "Name": {
+   "el": "Υλικά συσκευασίας"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:25.01",
+  "IdSup": "chart:25",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "25.01",
+  "Name": {
+   "el": "Υλικά συσκευασίας έναρξης"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:25.02",
+  "IdSup": "chart:25",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "25.02",
+  "Name": {
+   "el": "Αγορές υλικών συσκευασίας"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:25.03",
+  "IdSup": "chart:25",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "25.03",
+  "Name": {
+   "el": "Εκπτώσεις αγορών υλικών συσκευασίας"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:25.04",
+  "IdSup": "chart:25",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "25.04",
+  "Name": {
+   "el": "Επιστροφές αγορών υλικών συσκευασίας"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:25.05",
+  "IdSup": "chart:25",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "25.05",
+  "Name": {
+   "el": "Απομείωση υλικών συσκευασίας"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:25.06",
+  "IdSup": "chart:25",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "25.06",
+  "Name": {
+   "el": "Υλικά συσκευασίας λήξης"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:26",
+  "IdSup": "chart:2",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "26",
+  "Name": {
+   "el": "Ανταλλακτικά παγίων"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:26.01",
+  "IdSup": "chart:26",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "26.01",
+  "Name": {
+   "el": "Ανταλλακτικά παγίων έναρξης"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:26.02",
+  "IdSup": "chart:26",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "26.02",
+  "Name": {
+   "el": "Αγορές ανταλλακτικών παγίων"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:26.03",
+  "IdSup": "chart:26",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "26.03",
+  "Name": {
+   "el": "Εκπτώσεις αγορών ανταλλακτικών παγίων"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:26.04",
+  "IdSup": "chart:26",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "26.04",
+  "Name": {
+   "el": "Επιστροφές αγορών ανταλλακτικών παγίων"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:26.05",
+  "IdSup": "chart:26",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "26.05",
+  "Name": {
+   "el": "Απομείωση ανταλλακτικών"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:26.06",
+  "IdSup": "chart:26",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "26.06",
+  "Name": {
+   "el": "Ανταλλακτικά παγίων λήξης"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:27",
+  "IdSup": "chart:2",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "27",
+  "Name": {
+   "el": "Λοιπά αποθέματα"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:27.01",
+  "IdSup": "chart:27",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "27.01",
+  "Name": {
+   "el": "Λοιπά αποθέματα έναρξης"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:27.02",
+  "IdSup": "chart:27",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "27.02",
+  "Name": {
+   "el": "Αγορές λοιπών αποθεμάτων"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:27.03",
+  "IdSup": "chart:27",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "27.03",
+  "Name": {
+   "el": "Εκπτώσεις αγορών λοιπών αποθεμάτων"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:27.04",
+  "IdSup": "chart:27",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "27.04",
+  "Name": {
+   "el": "Επιστροφές αγορών λοιπών αποθεμάτων"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:27.05",
+  "IdSup": "chart:27",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "27.05",
+  "Name": {
+   "el": "Απομείωση λοιπών αποθεμάτων"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:27.06",
+  "IdSup": "chart:27",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "27.06",
+  "Name": {
+   "el": "Λοιπά αποθέματα λήξης"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:3",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "3",
+  "Name": {
+   "el": "Χρηματοοικονομικά και λοιπά περιουσιακά στοιχεία"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:30",
+  "IdSup": "chart:3",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "30",
+  "Name": {
+   "el": "Πελάτες"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:30.01",
+  "IdSup": "chart:30",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "30.01",
+  "Name": {
+   "el": "Πελάτες - μη συνδεδεμένες οντότητες"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:30.01.01",
+  "IdSup": "chart:30.01",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "30.01.01",
+  "Name": {
+   "el": "Πελάτες μη συνδεδεμένες οντότητες - ονομαστικό ποσό"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:30.01.02",
+  "IdSup": "chart:30.01",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "30.01.02",
+  "Name": {
+   "el": "Μη δουλευμένοι τόκοι μη συνδεδεμένων πελατών"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:30.01.03",
+  "IdSup": "chart:30.01",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "30.01.03",
+  "Name": {
+   "el": "Προκαταβολές μη συνδεδεμένων πελατών"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:30.01.04",
+  "IdSup": "chart:30.01",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "30.01.04",
+  "Name": {
+   "el": "Απομείωση μη συνδεδεμένων πελατών"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:30.02",
+  "IdSup": "chart:30",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "30.02",
+  "Name": {
+   "el": "Πελάτες - συνδεδεμένες οντότητες"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:30.02.01",
+  "IdSup": "chart:30.02",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "30.02.01",
+  "Name": {
+   "el": "Συνδεδεμένοι πελάτες - ονομαστικό ποσό"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:30.02.02",
+  "IdSup": "chart:30.02",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "30.02.02",
+  "Name": {
+   "el": "Μη δουλευμένοι τόκοι συνδεδεμένων πελατών"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:30.02.03",
+  "IdSup": "chart:30.02",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "30.02.03",
+  "Name": {
+   "el": "Προκαταβολές συνδεδεμένων πελατών"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:30.02.04",
+  "IdSup": "chart:30.02",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "30.02.04",
+  "Name": {
+   "el": "Απομείωση συνδεδεμένων πελατών"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:31",
+  "IdSup": "chart:3",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "31",
+  "Name": {
+   "el": "Αξιόγραφα εμπορικών απαιτήσεων"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:31.01",
+  "IdSup": "chart:31",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "31.01",
+  "Name": {
+   "el": "Αξιόγραφα εμπορικών απαιτήσεων - μη συνδεδεμένες οντότητες"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:31.01.01",
+  "IdSup": "chart:31.01",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "31.01.01",
+  "Name": {
+   "el": "Αξιόγραφα εμπορικών απαιτήσεων μη συνδεδεμένων οντοτήτων - ονομαστικό ποσό"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:31.01.02",
+  "IdSup": "chart:31.01",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "31.01.02",
+  "Name": {
+   "el": "Μη δουλευμένοι τόκοι αξιογράφων εμπορικών απαιτήσεων μη συνδεδεμένων οντοτήτων"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:31.01.03",
+  "IdSup": "chart:31.01",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "31.01.03",
+  "Name": {
+   "el": "Απομείωση αξιογράφων εμπορικών απαιτήσεων μη συνδεδεμένων οντοτήτων"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:31.02",
+  "IdSup": "chart:31",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "31.02",
+  "Name": {
+   "el": "Αξιόγραφα εμπορικών απαιτήσεων - συνδεδεμένες οντότητες"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:31.02.01",
+  "IdSup": "chart:31.02",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "31.02.01",
+  "Name": {
+   "el": "Αξιόγραφα εμπορικών απαιτήσεων συνδεδεμένων οντοτήτων - ονομαστικό ποσό"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:31.02.02",
+  "IdSup": "chart:31.02",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "31.02.02",
+  "Name": {
+   "el": "Μη δουλευμένοι τόκοι αξιογράφων εμπορικών απαιτήσεων συνδεδεμένων οντοτήτων"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:31.02.03",
+  "IdSup": "chart:31.02",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "31.02.03",
+  "Name": {
+   "el": "Απομείωση αξιογράφων εμπορικών απαιτήσεων συνδεδεμένων οντοτήτων"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:32",
+  "IdSup": "chart:3",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "32",
+  "Name": {
+   "el": "Χορηγηθέντα δάνεια"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:32.01",
+  "IdSup": "chart:32",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "32.01",
+  "Name": {
+   "el": "Δάνεια χορηγηθέντα σε συνδεδεμένες οντότητες"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:32.02",
+  "IdSup": "chart:32",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "32.02",
+  "Name": {
+   "el": "Δάνεια χορηγηθέντα στο προσωπικό και στη διοίκηση"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:32.03",
+  "IdSup": "chart:32",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "32.03",
+  "Name": {
+   "el": "Λοιπά χορηγηθέντα δάνεια"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:32.04",
+  "IdSup": "chart:32",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "32.04",
+  "Name": {
+   "el": "Απομείωση χορηγηθέντων δανείων"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:33",
+  "IdSup": "chart:3",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "33",
+  "Name": {
+   "el": "Λοιπές απαιτήσεις"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:33.01",
+  "IdSup": "chart:33",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "33.01",
+  "Name": {
+   "el": "Έσοδα από πάσης φύσεως συμμετοχές εισπρακτέα"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:33.01.01",
+  "IdSup": "chart:33.01",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "33.01.01",
+  "Name": {
+   "el": "Έσοδα από πάσης φύσεως συμμετοχές εισπρακτέα - ονομαστικό ποσό"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:33.01.02",
+  "IdSup": "chart:33.01",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "33.01.02",
+  "Name": {
+   "el": "Απομείωση - έσοδα από πάσης φύσεως συμμετοχές εισπρακτέα"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:33.02",
+  "IdSup": "chart:33",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "33.02",
+  "Name": {
+   "el": "Άλλες απαιτήσεις από συνδεδεμένες οντότητες"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:33.02.01",
+  "IdSup": "chart:33.02",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "33.02.01",
+  "Name": {
+   "el": "Άλλες απαιτήσεις από συνδεδεμένες οντότητες - ονομαστικό ποσό"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:33.02.02",
+  "IdSup": "chart:33.02",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "33.02.02",
+  "Name": {
+   "el": "Απομείωση - άλλες απαιτήσεις από συνδεδεμένες οντότητες"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:33.03",
+  "IdSup": "chart:33",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "33.03",
+  "Name": {
+   "el": "Άλλες απαιτήσεις από μη συνδεδεμένες οντότητες"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:33.03.01",
+  "IdSup": "chart:33.03",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "33.03.01",
+  "Name": {
+   "el": "Άλλες απαιτήσεις από μη συνδεδεμένες οντότητες - ονομαστικό ποσό"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:33.03.02",
+  "IdSup": "chart:33.03",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "33.03.02",
+  "Name": {
+   "el": "Απομείωση - άλλες απαιτήσεις από μη συνδεδεμένες οντότητες"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:33.04",
+  "IdSup": "chart:33",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "33.04",
+  "Name": {
+   "el": "Εγγυήσεις"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:34",
+  "IdSup": "chart:3",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "34",
+  "Name": {
+   "el": "Επενδύσεις"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:34.01",
+  "IdSup": "chart:34",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "34.01",
+  "Name": {
+   "el": "Διακρατούμενες έως τη λήξη επενδύσεις"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:34.01.01",
+  "IdSup": "chart:34.01",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "34.01.01",
+  "Name": {
+   "el": "Διακρατούμενες έως τη λήξη επενδύσεις - ονομαστική αξία"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:34.01.02",
+  "IdSup": "chart:34.01",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "34.01.02",
+  "Name": {
+   "el": "Διακρατούμενες έως τη λήξη επενδύσεις - συμπληρωματικά ποσά"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:34.01.03",
+  "IdSup": "chart:34.01",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "34.01.03",
+  "Name": {
+   "el": "Απομείωση διακρατούμενων έως τη λήξη επενδύσεων"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:34.02",
+  "IdSup": "chart:34",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "34.02",
+  "Name": {
+   "el": "Διαθέσιμα για πώληση"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:34.02.01",
+  "IdSup": "chart:34.02",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "34.02.01",
+  "Name": {
+   "el": "Διαθέσιμα για πώληση"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:34.02.02",
+  "IdSup": "chart:34.02",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "34.02.02",
+  "Name": {
+   "el": "Απομείωση διαθέσιμων για πώληση"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:34.03",
+  "IdSup": "chart:34",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "34.03",
+  "Name": {
+   "el": "Εμπορικό χαρτοφυλάκιο"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:35",
+  "IdSup": "chart:3",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "35",
+  "Name": {
+   "el": "Χρηματοοικονομικά στοιχεία για αντιστάθμιση"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:35.01",
+  "IdSup": "chart:35",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "35.01",
+  "Name": {
+   "el": "Χρηματοοικονομικά στοιχεία για αντιστάθμιση εύλογης αξίας"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:35.02",
+  "IdSup": "chart:35",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "35.02",
+  "Name": {
+   "el": "Χρηματοοικονομικά στοιχεία για αντιστάθμιση ταμειακών ροών"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:36",
+  "IdSup": "chart:3",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "36",
+  "Name": {
+   "el": "Συμμετοχές"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:36.01",
+  "IdSup": "chart:36",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "36.01",
+  "Name": {
+   "el": "Συμμετοχές σε θυγατρικές"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:36.01.01",
+  "IdSup": "chart:36.01",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "36.01.01",
+  "Name": {
+   "el": "Συμμετοχές σε θυγατρικές"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:36.01.02",
+  "IdSup": "chart:36.01",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "36.01.02",
+  "Name": {
+   "el": "Απομείωση συμμετοχών σε θυγατρικές"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:36.02",
+  "IdSup": "chart:36",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "36.02",
+  "Name": {
+   "el": "Συμμετοχές σε συγγενείς"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:36.02.01",
+  "IdSup": "chart:36.02",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "36.02.01",
+  "Name": {
+   "el": "Συμμετοχές σε συγγενείς"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:36.02.02",
+  "IdSup": "chart:36.02",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "36.02.02",
+  "Name": {
+   "el": "Απομείωση συμμετοχών σε συγγενείς"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:36.03",
+  "IdSup": "chart:36",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "36.03",
+  "Name": {
+   "el": "Συμμετοχές σε κοινοπραξίες"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:36.03.01",
+  "IdSup": "chart:36.03",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "36.03.01",
+  "Name": {
+   "el": "Συμμετοχές σε κοινοπραξίες"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:36.03.02",
+  "IdSup": "chart:36.03",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "36.03.02",
+  "Name": {
+   "el": "Απομείωση συμμετοχών σε κοινοπραξίες"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:37",
+  "IdSup": "chart:3",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "37",
+  "Name": {
+   "el": "Προπληρωμένα έξοδα και δουλευμένα έσοδα περιόδου"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:37.01",
+  "IdSup": "chart:37",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "37.01",
+  "Name": {
+   "el": "Προπληρωμένα έξοδα"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:37.01.01",
+  "IdSup": "chart:37.01",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "37.01.01",
+  "Name": {
+   "el": "Προπληρωμένα έξοδα σε μη συνδεδεμένες οντότητες"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:37.01.02",
+  "IdSup": "chart:37.01",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "37.01.02",
+  "Name": {
+   "el": "Προπληρωμένα έξοδα σε συνδεδεμένες οντότητες"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:37.02",
+  "IdSup": "chart:37",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "37.02",
+  "Name": {
+   "el": "Δουλευμένα έσοδα περιόδου"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:37.02.01",
+  "IdSup": "chart:37.02",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "37.02.01",
+  "Name": {
+   "el": "Δουλευμένα έσοδα περιόδου από μη συνδεδεμένες οντότητες"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:37.02.02",
+  "IdSup": "chart:37.02",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "37.02.02",
+  "Name": {
+   "el": "Δουλευμένα έσοδα περιόδου από συνδεδεμένες οντότητες"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:38",
+  "IdSup": "chart:3",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "38",
+  "Name": {
+   "el": "Ταμειακά διαθέσιμα και ισοδύναμα"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:38.01",
+  "IdSup": "chart:38",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "38.01",
+  "Name": {
+   "el": "Ταμείο"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:38.02",
+  "IdSup": "chart:38",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "38.02",
+  "Name": {
+   "el": "Καταθέσεις όψεως"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:38.03",
+  "IdSup": "chart:38",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "38.03",
+  "Name": {
+   "el": "Καταθέσεις προθεσμίας"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:38.04",
+  "IdSup": "chart:38",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "38.04",
+  "Name": {
+   "el": "Λοιπά ταμειακά ισοδύναμα"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:39",
+  "IdSup": "chart:3",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "39",
+  "Name": {
+   "el": "Αναβαλλόμενοι φόροι ενεργητικού"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:4",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "4",
+  "Name": {
+   "el": "Καθαρή θέση"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:40",
+  "IdSup": "chart:4",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "40",
+  "Name": {
+   "el": "Κεφάλαιο"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:41",
+  "IdSup": "chart:4",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "41",
+  "Name": {
+   "el": "Υπέρ το άρτιο"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:42",
+  "IdSup": "chart:4",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "42",
+  "Name": {
+   "el": "Καταθέσεις ιδιοκτητών"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:43",
+  "IdSup": "chart:4",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "43",
+  "Name": {
+   "el": "Ίδιοι τίτλοι"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:43.01",
+  "IdSup": "chart:43",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "43.01",
+  "Name": {
+   "el": "Αξία κτήσης ίδιων τίτλων"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:43.02",
+  "IdSup": "chart:43",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "43.02",
+  "Name": {
+   "el": "Αποτέλεσμα (κέρδος/ζημία) από τη διάθεση ίδιων τίτλων"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:44",
+  "IdSup": "chart:4",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "44",
+  "Name": {
+   "el": "Διαφορές εύλογης αξίας"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:44.01",
+  "IdSup": "chart:44",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "44.01",
+  "Name": {
+   "el": "Διαφορές εύλογης αξίας ενσώματων παγίων"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:44.02",
+  "IdSup": "chart:44",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "44.02",
+  "Name": {
+   "el": "Διαφορές εύλογης αξίας διαθέσιμων για πώληση"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:44.03",
+  "IdSup": "chart:44",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "44.03",
+  "Name": {
+   "el": "Διαφορές εύλογης αξίας στοιχείων αντιστάθμισης ταμειακών ροών"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:45",
+  "IdSup": "chart:4",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "45",
+  "Name": {
+   "el": "Συναλλαγματικές διαφορές"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:46",
+  "IdSup": "chart:4",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "46",
+  "Name": {
+   "el": "Αποθεματικά νόμων"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:47",
+  "IdSup": "chart:4",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "47",
+  "Name": {
+   "el": "Αφορολόγητα αποθεματικά"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:48",
+  "IdSup": "chart:4",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "48",
+  "Name": {
+   "el": "Αποθεματικά καταστατικού και λοιπά αποθεματικά"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:48.01",
+  "IdSup": "chart:48",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "48.01",
+  "Name": {
+   "el": "Αποθεματικά καταστατικού"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:48.02",
+  "IdSup": "chart:48",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "48.02",
+  "Name": {
+   "el": "Προαιρετικά αποθεματικά αποφάσεων γενικής συνέλευσης ιδιοκτητών"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:49",
+  "IdSup": "chart:4",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "49",
+  "Name": {
+   "el": "Αποτελέσματα εις νέο"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:5",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "5",
+  "Name": {
+   "el": "Υποχρεώσεις"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:50",
+  "IdSup": "chart:5",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "50",
+  "Name": {
+   "el": "Προμηθευτές"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:50.01",
+  "IdSup": "chart:50",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "50.01",
+  "Name": {
+   "el": "Προμηθευτές - μη συνδεδεμένες οντότητες"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:50.02",
+  "IdSup": "chart:50",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "50.02",
+  "Name": {
+   "el": "Προμηθευτές - συνδεδεμένες οντότητες"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:50.03",
+  "IdSup": "chart:50",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "50.03",
+  "Name": {
+   "el": "Προκαταβολές σε προμηθευτές - μη συνδεδεμένες οντότητες"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:50.03.01",
+  "IdSup": "chart:50.03",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "50.03.01",
+  "Name": {
+   "el": "Προκαταβολές σε προμηθευτές για μη κυκλοφορούντα στοιχεία - μη συνδεδεμένες οντότητες"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:50.03.02",
+  "IdSup": "chart:50.03",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "50.03.02",
+  "Name": {
+   "el": "Προκαταβολές σε προμηθευτές για αποθέματα - μη συνδεδεμένες οντότητες"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:50.03.03",
+  "IdSup": "chart:50.03",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "50.03.03",
+  "Name": {
+   "el": "Λοιπές προκαταβολές σε προμηθευτές - μη συνδεδεμένες οντότητες"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:50.04",
+  "IdSup": "chart:50",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "50.04",
+  "Name": {
+   "el": "Προκαταβολές σε προμηθευτές - συνδεδεμένες οντότητες"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:50.04.01",
+  "IdSup": "chart:50.04",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "50.04.01",
+  "Name": {
+   "el": "Προκαταβολές σε προμηθευτές για μη κυκλοφορούντα στοιχεία - συνδεδεμένες οντότητες"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:50.04.02",
+  "IdSup": "chart:50.04",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "50.04.02",
+  "Name": {
+   "el": "Προκαταβολές σε προμηθευτές για αποθέματα - συνδεδεμένες οντότητες"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:50.04.03",
+  "IdSup": "chart:50.04",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "50.04.03",
+  "Name": {
+   "el": "Λοιπές προκαταβολές σε προμηθευτές - συνδεδεμένες οντότητες"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:51",
+  "IdSup": "chart:5",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "51",
+  "Name": {
+   "el": "Αξιόγραφα εμπορικών υποχρεώσεων"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:51.01",
+  "IdSup": "chart:51",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "51.01",
+  "Name": {
+   "el": "Αξιόγραφα εμπορικών υποχρεώσεων - μη συνδεδεμένες οντότητες"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:51.02",
+  "IdSup": "chart:51",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "51.02",
+  "Name": {
+   "el": "Αξιόγραφα εμπορικών υποχρεώσεων - συνδεδεμένες οντότητες"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:52",
+  "IdSup": "chart:5",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "52",
+  "Name": {
+   "el": "Τραπεζικά δάνεια"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:52.01",
+  "IdSup": "chart:52",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "52.01",
+  "Name": {
+   "el": "Τραπεζικά δάνεια - μη συνδεδεμένες οντότητες"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:52.02",
+  "IdSup": "chart:52",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "52.02",
+  "Name": {
+   "el": "Τραπεζικά δάνεια - συνδεδεμένες οντότητες"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:53",
+  "IdSup": "chart:5",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "53",
+  "Name": {
+   "el": "Λοιπές υποχρεώσεις"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:53.01",
+  "IdSup": "chart:53",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "53.01",
+  "Name": {
+   "el": "Δάνεια από μη συνδεδεμένες οντότητες"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:53.02",
+  "IdSup": "chart:53",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "53.02",
+  "Name": {
+   "el": "Δάνεια από συνδεδεμένες οντότητες"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:53.03",
+  "IdSup": "chart:53",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "53.03",
+  "Name": {
+   "el": "Αποδοχές προσωπικού πληρωτέες"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:53.04",
+  "IdSup": "chart:53",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "53.04",
+  "Name": {
+   "el": "Υποχρεώσεις προς ιδιοκτήτες και διευθυντικό προσωπικό"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:53.05",
+  "IdSup": "chart:53",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "53.05",
+  "Name": {
+   "el": "Μερίσματα, προμερίσματα και άλλα ποσά συναφούς φύσης πληρωτέα"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:53.06",
+  "IdSup": "chart:53",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "53.06",
+  "Name": {
+   "el": "Άλλες υποχρεώσεις προς μη συνδεδεμένες οντότητες"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:53.07",
+  "IdSup": "chart:53",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "53.07",
+  "Name": {
+   "el": "Άλλες υποχρεώσεις προς συνδεδεμένες οντότητες"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:54",
+  "IdSup": "chart:5",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "54",
+  "Name": {
+   "el": "Υποχρεώσεις από φόρους και τέλη"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:54.01",
+  "IdSup": "chart:54",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "54.01",
+  "Name": {
+   "el": "Φόρος εισοδήματος πληρωτέος"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:54.01.01",
+  "IdSup": "chart:54.01",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "54.01.01",
+  "Name": {
+   "el": "Φόρος εισοδήματος ετήσιας δήλωσης"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:54.01.02",
+  "IdSup": "chart:54.01",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "54.01.02",
+  "Name": {
+   "el": "Παρακρατούμενος φόρος εισοδήματος της οντότητας (αντίθετος)"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:54.01.03",
+  "IdSup": "chart:54.01",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "54.01.03",
+  "Name": {
+   "el": "Προκαταβολή φόρου εισοδήματος (αντίθετος)"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:54.02",
+  "IdSup": "chart:54",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "54.02",
+  "Name": {
+   "el": "Φόρος προστιθέμενης αξίας (ΦΠΑ)"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:54.02.01",
+  "IdSup": "chart:54.02",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "54.02.01",
+  "Name": {
+   "el": "ΦΠΑ εκροών"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:54.02.02",
+  "IdSup": "chart:54.02",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "54.02.02",
+  "Name": {
+   "el": "ΦΠΑ εισροών"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:54.02.03",
+  "IdSup": "chart:54.02",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "54.02.03",
+  "Name": {
+   "el": "Καταβληθείς ΦΠΑ"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:54.03",
+  "IdSup": "chart:54",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "54.03",
+  "Name": {
+   "el": "Παρακρατούμενοι φόροι εισοδήματος τρίτων"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:54.03.01",
+  "IdSup": "chart:54.03",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "54.03.01",
+  "Name": {
+   "el": "Παρακρατούμενος φόρος από μισθωτή εργασία και συντάξεις"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:54.03.02",
+  "IdSup": "chart:54.03",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "54.03.02",
+  "Name": {
+   "el": "Παρακρατούμενος φόρος από επιχειρηματική δραστηριότητα"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:54.03.03",
+  "IdSup": "chart:54.03",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "54.03.03",
+  "Name": {
+   "el": "Παρακρατούμενος φόρος διανεμομένων μερισμάτων"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:54.03.04",
+  "IdSup": "chart:54.03",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "54.03.04",
+  "Name": {
+   "el": "Λοιποί παρακρατούμενοι φόροι εισοδήματος"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:54.04",
+  "IdSup": "chart:54",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "54.04",
+  "Name": {
+   "el": "Τέλη χαρτοσήμου"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:54.05",
+  "IdSup": "chart:54",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "54.05",
+  "Name": {
+   "el": "Λοιποί φόροι, τέλη και εισφορές"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:55",
+  "IdSup": "chart:5",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "55",
+  "Name": {
+   "el": "Υποχρεώσεις σε ασφαλιστικούς οργανισμούς"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:55.01",
+  "IdSup": "chart:55",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "55.01",
+  "Name": {
+   "el": "Υποχρεώσεις σε ασφαλιστικούς οργανισμούς κύριας ασφάλισης"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:55.02",
+  "IdSup": "chart:55",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "55.02",
+  "Name": {
+   "el": "Υποχρεώσεις σε ασφαλιστικούς οργανισμούς επικουρικής ασφάλισης"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:56",
+  "IdSup": "chart:5",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "56",
+  "Name": {
+   "el": "Δουλευμένα έξοδα και έσοδα επομένων χρήσεων"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:56.01",
+  "IdSup": "chart:56",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "56.01",
+  "Name": {
+   "el": "Έξοδα χρήσεως δουλευμένα"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:56.01.01",
+  "IdSup": "chart:56.01",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "56.01.01",
+  "Name": {
+   "el": "Έξοδα χρήσεως δουλευμένα - μη συνδεδεμένες οντότητες"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:56.01.02",
+  "IdSup": "chart:56.01",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "56.01.02",
+  "Name": {
+   "el": "Έξοδα χρήσεως δουλευμένα - συνδεδεμένες οντότητες"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:56.02",
+  "IdSup": "chart:56",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "56.02",
+  "Name": {
+   "el": "Έσοδα επόμενων χρήσεων"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:56.02.01",
+  "IdSup": "chart:56.02",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "56.02.01",
+  "Name": {
+   "el": "Έσοδα επόμενων χρήσεων - μη συνδεδεμένες οντότητες"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:56.02.02",
+  "IdSup": "chart:56.02",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "56.02.02",
+  "Name": {
+   "el": "Έσοδα επόμενων χρήσεων - συνδεδεμένες οντότητες"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:57",
+  "IdSup": "chart:5",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "57",
+  "Name": {
+   "el": "Προβλέψεις"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:57.01",
+  "IdSup": "chart:57",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "57.01",
+  "Name": {
+   "el": "Προβλέψεις για παροχές σε εργαζομένους"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:57.02",
+  "IdSup": "chart:57",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "57.02",
+  "Name": {
+   "el": "Λοιπές προβλέψεις"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:57.02.01",
+  "IdSup": "chart:57.02",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "57.02.01",
+  "Name": {
+   "el": "Προβλέψεις για εκκρεμοδικίες"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:57.02.02",
+  "IdSup": "chart:57.02",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "57.02.02",
+  "Name": {
+   "el": "Προβλέψεις για δοσμένες εγγυήσεις"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:57.02.03",
+  "IdSup": "chart:57.02",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "57.02.03",
+  "Name": {
+   "el": "Προβλέψεις για αποκατάσταση περιβάλλοντος"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:57.02.04",
+  "IdSup": "chart:57.02",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "57.02.04",
+  "Name": {
+   "el": "Προβλέψεις για διαφορές φορολογικού ελέγχου"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:57.02.05",
+  "IdSup": "chart:57.02",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "57.02.05",
+  "Name": {
+   "el": "Άλλες προβλέψεις"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:57.03",
+  "IdSup": "chart:57",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "57.03",
+  "Name": {
+   "el": "Προβλέψεις για συνδεδεμένες οντότητες"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:58",
+  "IdSup": "chart:5",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "58",
+  "Name": {
+   "el": "Κρατικές επιχορηγήσεις"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:59",
+  "IdSup": "chart:5",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "59",
+  "Name": {
+   "el": "Αναβαλλόμενοι φόροι παθητικού"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:6",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "6",
+  "Name": {
+   "el": "Έξοδα και ζημιές"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:60",
+  "IdSup": "chart:6",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "60",
+  "Name": {
+   "el": "Παροχές σε εργαζόμενους"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:60.01",
+  "IdSup": "chart:60",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "60.01",
+  "Name": {
+   "el": "Μικτές αποδοχές"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:60.02",
+  "IdSup": "chart:60",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "60.02",
+  "Name": {
+   "el": "Εργοδοτικές εισφορές"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:60.03",
+  "IdSup": "chart:60",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "60.03",
+  "Name": {
+   "el": "Λοιπές παροχές"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:60.04",
+  "IdSup": "chart:60",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "60.04",
+  "Name": {
+   "el": "Προβλέψεις για παροχές μετά την έξοδο από την υπηρεσία (καθαρό ποσό)"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:60.05",
+  "IdSup": "chart:60",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "60.05",
+  "Name": {
+   "el": "Παροχές σε εργαζόμενους σε συνδεδεμένες οντότητες"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:61",
+  "IdSup": "chart:6",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "61",
+  "Name": {
+   "el": "Ζημιές επιμέτρησης περιουσιακών στοιχείων"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:61.01",
+  "IdSup": "chart:61",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "61.01",
+  "Name": {
+   "el": "Απομείωση ενσώματων παγίων (πλην βιολογικών)"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:61.02",
+  "IdSup": "chart:61",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "61.02",
+  "Name": {
+   "el": "Απομείωση βιολογικών περιουσιακών στοιχείων"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:61.03",
+  "IdSup": "chart:61",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "61.03",
+  "Name": {
+   "el": "Απομείωση άυλων παγίων"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:61.04",
+  "IdSup": "chart:61",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "61.04",
+  "Name": {
+   "el": "Απομείωση αποθεμάτων"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:61.05",
+  "IdSup": "chart:61",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "61.05",
+  "Name": {
+   "el": "Απομείωση χρηματοοικονομικών στοιχείων"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:61.05.01",
+  "IdSup": "chart:61.05",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "61.05.01",
+  "Name": {
+   "el": "Απομείωση πελατών"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:61.05.02",
+  "IdSup": "chart:61.05",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "61.05.02",
+  "Name": {
+   "el": "Απομείωση αξιογράφων εμπορικών απαιτήσεων"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:61.05.03",
+  "IdSup": "chart:61.05",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "61.05.03",
+  "Name": {
+   "el": "Απομείωση διακρατούμενων μέχρι τη λήξη επενδύσεων"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:61.05.04",
+  "IdSup": "chart:61.05",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "61.05.04",
+  "Name": {
+   "el": "Απομείωση συμμετοχών σε θυγατρικές"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:61.05.05",
+  "IdSup": "chart:61.05",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "61.05.05",
+  "Name": {
+   "el": "Απομείωση συμμετοχών σε συγγενείς"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:61.05.06",
+  "IdSup": "chart:61.05",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "61.05.06",
+  "Name": {
+   "el": "Απομείωση συμμετοχών σε κοινοπραξίες"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:61.06",
+  "IdSup": "chart:61",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "61.06",
+  "Name": {
+   "el": "Απομείωση λοιπών περιουσιακών στοιχείων"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:61.07",
+  "IdSup": "chart:61",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "61.07",
+  "Name": {
+   "el": "Ζημίες από επιμέτρηση στην εύλογη αξία"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:61.07.01",
+  "IdSup": "chart:61.07",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "61.07.01",
+  "Name": {
+   "el": "Ζημιές εύλογης αξίας ενσώματων πάγιων στοιχείων"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:61.07.02",
+  "IdSup": "chart:61.07",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "61.07.02",
+  "Name": {
+   "el": "Ζημιές εύλογης αξίας βιολογικών περιουσιακών στοιχείων"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:61.07.03",
+  "IdSup": "chart:61.07",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "61.07.03",
+  "Name": {
+   "el": "Ζημιές εύλογης αξίας χρηματοοικονομικών στοιχείων"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:62",
+  "IdSup": "chart:6",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "62",
+  "Name": {
+   "el": "Χρεωστικές συναλλαγματικές διαφορές"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:62.01",
+  "IdSup": "chart:62",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "62.01",
+  "Name": {
+   "el": "Χρεωστικές συναλλαγματικές διαφορές από διακανονισμό"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:62.01.01",
+  "IdSup": "chart:62.01",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "62.01.01",
+  "Name": {
+   "el": "Χρεωστικές συναλλαγματικές διαφορές διακανονισμού εμπορικών απαιτήσεων και υποχρεώσεων"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:62.01.02",
+  "IdSup": "chart:62.01",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "62.01.02",
+  "Name": {
+   "el": "Χρεωστικές συναλλαγματικές διαφορές διακανονισμού δανείων"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:62.01.03",
+  "IdSup": "chart:62.01",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "62.01.03",
+  "Name": {
+   "el": "Χρεωστικές συναλλαγματικές διαφορές διακανονισμού λοιπών στοιχείων ισολογισμού"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:62.02",
+  "IdSup": "chart:62",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "62.02",
+  "Name": {
+   "el": "Χρεωστικές συναλλαγματικές διαφορές επιμέτρησης"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:62.02.01",
+  "IdSup": "chart:62.02",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "62.02.01",
+  "Name": {
+   "el": "Χρεωστικές συναλλαγματικές διαφορές επιμέτρησης εμπορικών απαιτήσεων και υποχρεώσεων"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:62.02.02",
+  "IdSup": "chart:62.02",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "62.02.02",
+  "Name": {
+   "el": "Χρεωστικές συναλλαγματικές διαφορές επιμέτρησης δανείων"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:62.02.03",
+  "IdSup": "chart:62.02",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "62.02.03",
+  "Name": {
+   "el": "Χρεωστικές συναλλαγματικές διαφορές επιμέτρησης λοιπών στοιχείων ισολογισμού"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:63",
+  "IdSup": "chart:6",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "63",
+  "Name": {
+   "el": "Ζημιές από διάθεση-απόσυρση μη κυκλοφορούντων περιουσιακών στοιχείων"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:63.01",
+  "IdSup": "chart:63",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "63.01",
+  "Name": {
+   "el": "Ζημιές από διάθεση-απόσυρση ενσώματων παγίων"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:63.02",
+  "IdSup": "chart:63",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "63.02",
+  "Name": {
+   "el": "Ζημιές από διάθεση-απόσυρση άυλων πάγιων στοιχείων"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:63.03",
+  "IdSup": "chart:63",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "63.03",
+  "Name": {
+   "el": "Ζημιές από διάθεση χρηματοοικονομικών στοιχείων"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:63.04",
+  "IdSup": "chart:63",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "63.04",
+  "Name": {
+   "el": "Ζημιές από διάθεση-απόσυρση περιουσιακών στοιχείων σε συνδεδεμένες οντότητες"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:64",
+  "IdSup": "chart:6",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "64",
+  "Name": {
+   "el": "Διάφορα λειτουργικά έξοδα"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:64.01",
+  "IdSup": "chart:64",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "64.01",
+  "Name": {
+   "el": "Αμοιβές για υπηρεσίες"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:64.01.01",
+  "IdSup": "chart:64.01",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "64.01.01",
+  "Name": {
+   "el": "Αμοιβές για υπηρεσίες - μη συνδεδεμένες οντότητες"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:64.01.02",
+  "IdSup": "chart:64.01",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "64.01.02",
+  "Name": {
+   "el": "Αμοιβές για υπηρεσίες - συνδεδεμένες οντότητες"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:64.02",
+  "IdSup": "chart:64",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "64.02",
+  "Name": {
+   "el": "Ενέργεια"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:64.03",
+  "IdSup": "chart:64",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "64.03",
+  "Name": {
+   "el": "Ύδρευση"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:64.04",
+  "IdSup": "chart:64",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "64.04",
+  "Name": {
+   "el": "Τηλεπικοινωνίες"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:64.05",
+  "IdSup": "chart:64",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "64.05",
+  "Name": {
+   "el": "Ενοίκια"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:64.05.01",
+  "IdSup": "chart:64.05",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "64.05.01",
+  "Name": {
+   "el": "Ενοίκια - μη συνδεδεμένες οντότητες"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:64.05.02",
+  "IdSup": "chart:64.05",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "64.05.02",
+  "Name": {
+   "el": "Ενοίκια - συνδεδεμένες οντότητες"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:64.06",
+  "IdSup": "chart:64",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "64.06",
+  "Name": {
+   "el": "Ασφάλιστρα"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:64.07",
+  "IdSup": "chart:64",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "64.07",
+  "Name": {
+   "el": "Μεταφορικά"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:64.08",
+  "IdSup": "chart:64",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "64.08",
+  "Name": {
+   "el": "Αναλώσιμα"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:64.09",
+  "IdSup": "chart:64",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "64.09",
+  "Name": {
+   "el": "Επισκευές και συντηρήσεις"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:64.10",
+  "IdSup": "chart:64",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "64.10",
+  "Name": {
+   "el": "Διαφήμιση και προβολή"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:64.11",
+  "IdSup": "chart:64",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "64.11",
+  "Name": {
+   "el": "Φόροι και τέλη (πλην φόρου εισοδήματος)"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:64.12",
+  "IdSup": "chart:64",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "64.12",
+  "Name": {
+   "el": "Λοιπά έξοδα"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:64.13",
+  "IdSup": "chart:64",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "64.13",
+  "Name": {
+   "el": "Διάφορα λειτουργικά έξοδα από συνδεδεμένες οντότητες"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:65",
+  "IdSup": "chart:6",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "65",
+  "Name": {
+   "el": "Χρεωστικοί τόκοι και συναφή έξοδα"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:65.01",
+  "IdSup": "chart:65",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "65.01",
+  "Name": {
+   "el": "Τόκοι τραπεζικών δανείων"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:65.02",
+  "IdSup": "chart:65",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "65.02",
+  "Name": {
+   "el": "Τόκοι δανείων από συνδεδεμένες οντότητες"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:65.03",
+  "IdSup": "chart:65",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "65.03",
+  "Name": {
+   "el": "Τόκοι λοιπών δανείων"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:65.04",
+  "IdSup": "chart:65",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "65.04",
+  "Name": {
+   "el": "Τόκοι λοιπών υποχρεώσεων και προβλέψεων"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:65.05",
+  "IdSup": "chart:65",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "65.05",
+  "Name": {
+   "el": "Λοιπά χρηματοοικονομικά έξοδα"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:66",
+  "IdSup": "chart:6",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "66",
+  "Name": {
+   "el": "Αποσβέσεις"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:66.01",
+  "IdSup": "chart:66",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "66.01",
+  "Name": {
+   "el": "Αποσβέσεις διαμορφώσεων γης"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:66.02",
+  "IdSup": "chart:66",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "66.02",
+  "Name": {
+   "el": "Αποσβέσεις κτηρίων - τεχνικών έργων"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:66.03",
+  "IdSup": "chart:66",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "66.03",
+  "Name": {
+   "el": "Αποσβέσεις μηχανολογικού εξοπλισμού"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:66.04",
+  "IdSup": "chart:66",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "66.04",
+  "Name": {
+   "el": "Αποσβέσεις μεταφορικών μέσων"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:66.05",
+  "IdSup": "chart:66",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "66.05",
+  "Name": {
+   "el": "Αποσβέσεις λοιπού εξοπλισμού"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:66.06",
+  "IdSup": "chart:66",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "66.06",
+  "Name": {
+   "el": "Αποσβέσεις επενδύσεων σε ακίνητα"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:66.07",
+  "IdSup": "chart:66",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "66.07",
+  "Name": {
+   "el": "Αποσβέσεις πάγιων βιολογικών περιουσιακών στοιχείων"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:66.08",
+  "IdSup": "chart:66",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "66.08",
+  "Name": {
+   "el": "Αποσβέσεις άυλων παγίων"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:67",
+  "IdSup": "chart:6",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "67",
+  "Name": {
+   "el": "Ασυνήθη έξοδα, ζημιές και πρόστιμα"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:67.01",
+  "IdSup": "chart:67",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "67.01",
+  "Name": {
+   "el": "Ζημιές φυσικών καταστροφών"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:67.02",
+  "IdSup": "chart:67",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "67.02",
+  "Name": {
+   "el": "Ζημιές άλλων καταστροφών"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:67.03",
+  "IdSup": "chart:67",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "67.03",
+  "Name": {
+   "el": "Άλλα ασυνήθη έξοδα και ζημίες"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:67.04",
+  "IdSup": "chart:67",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "67.04",
+  "Name": {
+   "el": "Πρόστιμα, προσαυξήσεις και ποινές"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:67.05",
+  "IdSup": "chart:67",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "67.05",
+  "Name": {
+   "el": "Ασυνήθη έξοδα και ζημιές από συνδεδεμένες οντότητες"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:68",
+  "IdSup": "chart:6",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "68",
+  "Name": {
+   "el": "Προβλέψεις (εκτός από προβλέψεις για το προσωπικό)"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:68.01",
+  "IdSup": "chart:68",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "68.01",
+  "Name": {
+   "el": "Προβλέψεις για εκκρεμοδικίες"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:68.02",
+  "IdSup": "chart:68",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "68.02",
+  "Name": {
+   "el": "Προβλέψεις για δοσμένες εγγυήσεις"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:68.03",
+  "IdSup": "chart:68",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "68.03",
+  "Name": {
+   "el": "Προβλέψεις για αποκατάσταση περιβάλλοντος"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:68.04",
+  "IdSup": "chart:68",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "68.04",
+  "Name": {
+   "el": "Προβλέψεις για διαφορές φορολογικού ελέγχου πλην φόρου εισοδήματος"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:68.05",
+  "IdSup": "chart:68",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "68.05",
+  "Name": {
+   "el": "Άλλες προβλέψεις"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:68.06",
+  "IdSup": "chart:68",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "68.06",
+  "Name": {
+   "el": "Προβλέψεις για συνδεδεμένες οντότητες"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:69",
+  "IdSup": "chart:6",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "69",
+  "Name": {
+   "el": "Φόρος εισοδήματος"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:69.01",
+  "IdSup": "chart:69",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "69.01",
+  "Name": {
+   "el": "Τρέχων φόρος (έξοδο) περιόδου"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:69.02",
+  "IdSup": "chart:69",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "69.02",
+  "Name": {
+   "el": "Αναβαλλόμενος φόρος (έξοδο) περιόδου"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:69.03",
+  "IdSup": "chart:69",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "69.03",
+  "Name": {
+   "el": "Προβλέψεις για διαφορές φορολογικού ελέγχου φόρου εισοδήματος"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:7",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "7",
+  "Name": {
+   "el": "Έσοδα και κέρδη"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:70",
+  "IdSup": "chart:7",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "70",
+  "Name": {
+   "el": "Πωλήσεις αγαθών και υπηρεσιών"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:70.01",
+  "IdSup": "chart:70",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "70.01",
+  "Name": {
+   "el": "Πωλήσεις εμπορευμάτων (καθαρές) σε μη συνδεδεμένες οντότητες"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:70.01.01",
+  "IdSup": "chart:70.01",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "70.01.01",
+  "Name": {
+   "el": "Πωλήσεις εμπορευμάτων σε μη συνδεδεμένες οντότητες"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:70.01.02",
+  "IdSup": "chart:70.01",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "70.01.02",
+  "Name": {
+   "el": "Επιστροφές πωλήσεων εμπορευμάτων σε μη συνδεδεμένες οντότητες"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:70.01.03",
+  "IdSup": "chart:70.01",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "70.01.03",
+  "Name": {
+   "el": "Εκπτώσεις πωλήσεων εμπορευμάτων σε μη συνδεδεμένες οντότητες"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:70.02",
+  "IdSup": "chart:70",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "70.02",
+  "Name": {
+   "el": "Πωλήσεις εμπορευμάτων (καθαρές) σε συνδεδεμένες οντότητες"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:70.02.01",
+  "IdSup": "chart:70.02",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "70.02.01",
+  "Name": {
+   "el": "Πωλήσεις εμπορευμάτων σε συνδεδεμένες οντότητες"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:70.02.02",
+  "IdSup": "chart:70.02",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "70.02.02",
+  "Name": {
+   "el": "Επιστροφές πωλήσεων εμπορευμάτων σε συνδεδεμένες οντότητες"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:70.02.03",
+  "IdSup": "chart:70.02",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "70.02.03",
+  "Name": {
+   "el": "Εκπτώσεις πωλήσεων εμπορευμάτων σε συνδεδεμένες οντότητες"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:70.03",
+  "IdSup": "chart:70",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "70.03",
+  "Name": {
+   "el": "Πωλήσεις προϊόντων έτοιμων και ημιτελών (καθαρές) σε μη συνδεδεμένες οντότητες"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:70.03.01",
+  "IdSup": "chart:70.03",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "70.03.01",
+  "Name": {
+   "el": "Πωλήσεις προϊόντων έτοιμων και ημιτελών σε μη συνδεδεμένες οντότητες"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:70.03.02",
+  "IdSup": "chart:70.03",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "70.03.02",
+  "Name": {
+   "el": "Επιστροφές πωλήσεων προϊόντων έτοιμων και ημιτελών σε μη συνδεδεμένες οντότητες"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:70.03.03",
+  "IdSup": "chart:70.03",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "70.03.03",
+  "Name": {
+   "el": "Εκπτώσεις πωλήσεων προϊόντων έτοιμων και ημιτελών σε μη συνδεδεμένες οντότητες"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:70.04",
+  "IdSup": "chart:70",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "70.04",
+  "Name": {
+   "el": "Πωλήσεις προϊόντων έτοιμων και ημιτελών (καθαρές) σε συνδεδεμένες οντότητες"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:70.04.01",
+  "IdSup": "chart:70.04",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "70.04.01",
+  "Name": {
+   "el": "Πωλήσεις προϊόντων έτοιμων και ημιτελών σε συνδεδεμένες οντότητες"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:70.04.02",
+  "IdSup": "chart:70.04",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "70.04.02",
+  "Name": {
+   "el": "Επιστροφές πωλήσεων προϊόντων έτοιμων και ημιτελών σε συνδεδεμένες οντότητες"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:70.04.03",
+  "IdSup": "chart:70.04",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "70.04.03",
+  "Name": {
+   "el": "Εκπτώσεις πωλήσεων προϊόντων έτοιμων και ημιτελών σε συνδεδεμένες οντότητες"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:70.05",
+  "IdSup": "chart:70",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "70.05",
+  "Name": {
+   "el": "Πωλήσεις λοιπών αποθεμάτων (καθαρές) σε μη συνδεδεμένες οντότητες"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:70.05.01",
+  "IdSup": "chart:70.05",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "70.05.01",
+  "Name": {
+   "el": "Πωλήσεις λοιπών αποθεμάτων σε μη συνδεδεμένες οντότητες"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:70.05.02",
+  "IdSup": "chart:70.05",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "70.05.02",
+  "Name": {
+   "el": "Επιστροφές πωλήσεων λοιπών αποθεμάτων σε μη συνδεδεμένες οντότητες"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:70.05.03",
+  "IdSup": "chart:70.05",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "70.05.03",
+  "Name": {
+   "el": "Εκπτώσεις πωλήσεων λοιπών αποθεμάτων σε μη συνδεδεμένες οντότητες"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:70.06",
+  "IdSup": "chart:70",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "70.06",
+  "Name": {
+   "el": "Πωλήσεις λοιπών αποθεμάτων (καθαρές) σε συνδεδεμένες οντότητες"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:70.06.01",
+  "IdSup": "chart:70.06",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "70.06.01",
+  "Name": {
+   "el": "Πωλήσεις λοιπών αποθεμάτων σε συνδεδεμένες οντότητες"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:70.06.02",
+  "IdSup": "chart:70.06",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "70.06.02",
+  "Name": {
+   "el": "Επιστροφές πωλήσεων λοιπών αποθεμάτων σε συνδεδεμένες οντότητες"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:70.06.03",
+  "IdSup": "chart:70.06",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "70.06.03",
+  "Name": {
+   "el": "Εκπτώσεις πωλήσεων λοιπών αποθεμάτων σε συνδεδεμένες οντότητες"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:70.07",
+  "IdSup": "chart:70",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "70.07",
+  "Name": {
+   "el": "Πωλήσεις υπηρεσιών (καθαρές) σε μη συνδεδεμένες οντότητες"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:70.07.01",
+  "IdSup": "chart:70.07",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "70.07.01",
+  "Name": {
+   "el": "Πωλήσεις υπηρεσιών σε μη συνδεδεμένες οντότητες"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:70.07.02",
+  "IdSup": "chart:70.07",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "70.07.02",
+  "Name": {
+   "el": "Επιστροφές πωλήσεων υπηρεσιών σε μη συνδεδεμένες οντότητες"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:70.07.03",
+  "IdSup": "chart:70.07",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "70.07.03",
+  "Name": {
+   "el": "Εκπτώσεις πωλήσεων υπηρεσιών σε μη συνδεδεμένες οντότητες"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:70.08",
+  "IdSup": "chart:70",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "70.08",
+  "Name": {
+   "el": "Πωλήσεις υπηρεσιών (καθαρές) σε συνδεδεμένες οντότητες"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:70.08.01",
+  "IdSup": "chart:70.08",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "70.08.01",
+  "Name": {
+   "el": "Πωλήσεις υπηρεσιών σε συνδεδεμένες οντότητες"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:70.08.02",
+  "IdSup": "chart:70.08",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "70.08.02",
+  "Name": {
+   "el": "Επιστροφές πωλήσεων υπηρεσιών σε συνδεδεμένες οντότητες"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:70.08.03",
+  "IdSup": "chart:70.08",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "70.08.03",
+  "Name": {
+   "el": "Εκπτώσεις πωλήσεων υπηρεσιών σε συνδεδεμένες οντότητες"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:71",
+  "IdSup": "chart:7",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "71",
+  "Name": {
+   "el": "Λοιπά συνήθη έσοδα"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:71.01",
+  "IdSup": "chart:71",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "71.01",
+  "Name": {
+   "el": "Αποσβέσεις επιχορηγήσεων παγίων στοιχείων"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:71.02",
+  "IdSup": "chart:71",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "71.02",
+  "Name": {
+   "el": "Επιχορηγήσεις τόκων"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:71.03",
+  "IdSup": "chart:71",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "71.03",
+  "Name": {
+   "el": "Επιχορηγήσεις λοιπών εξόδων"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:71.04",
+  "IdSup": "chart:71",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "71.04",
+  "Name": {
+   "el": "Άλλα λειτουργικά έσοδα"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:71.05",
+  "IdSup": "chart:71",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "71.05",
+  "Name": {
+   "el": "Άλλα λειτουργικά έσοδα από συνδεδεμένες οντότητες"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:72",
+  "IdSup": "chart:7",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "72",
+  "Name": {
+   "el": "Πιστωτικοί τόκοι και συναφή έσοδα"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:72.01",
+  "IdSup": "chart:72",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "72.01",
+  "Name": {
+   "el": "Πιστωτικοί τόκοι πωλήσεων"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:72.02",
+  "IdSup": "chart:72",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "72.02",
+  "Name": {
+   "el": "Πιστωτικοί τόκοι δανείων και απαιτήσεων"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:72.03",
+  "IdSup": "chart:72",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "72.03",
+  "Name": {
+   "el": "Πιστωτικοί τόκοι από συνδεδεμένες οντότητες"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:72.04",
+  "IdSup": "chart:72",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "72.04",
+  "Name": {
+   "el": "Πιστωτικοί τόκοι άλλων επενδύσεων"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:73",
+  "IdSup": "chart:7",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "73",
+  "Name": {
+   "el": "Πιστωτικές συναλλαγματικές διαφορές"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:73.01",
+  "IdSup": "chart:73",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "73.01",
+  "Name": {
+   "el": "Πιστωτικές συναλλαγματικές διαφορές από διακανονισμό"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:73.01.01",
+  "IdSup": "chart:73.01",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "73.01.01",
+  "Name": {
+   "el": "Πιστωτικές συναλλαγματικές διαφορές διακανονισμού εμπορικών απαιτήσεων και υποχρεώσεων"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:73.01.02",
+  "IdSup": "chart:73.01",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "73.01.02",
+  "Name": {
+   "el": "Πιστωτικές συναλλαγματικές διαφορές διακανονισμού δανείων"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:73.01.03",
+  "IdSup": "chart:73.01",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "73.01.03",
+  "Name": {
+   "el": "Πιστωτικές συναλλαγματικές διαφορές διακανονισμού λοιπών στοιχείων ισολογισμού"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:73.02",
+  "IdSup": "chart:73",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "73.02",
+  "Name": {
+   "el": "Πιστωτικές συναλλαγματικές διαφορές επιμέτρησης"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:73.02.01",
+  "IdSup": "chart:73.02",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "73.02.01",
+  "Name": {
+   "el": "Πιστωτικές συναλλαγματικές διαφορές επιμέτρησης εμπορικών απαιτήσεων και υποχρεώσεων"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:73.02.02",
+  "IdSup": "chart:73.02",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "73.02.02",
+  "Name": {
+   "el": "Πιστωτικές συναλλαγματικές διαφορές επιμέτρησης δανείων"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:73.02.03",
+  "IdSup": "chart:73.02",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "73.02.03",
+  "Name": {
+   "el": "Πιστωτικές συναλλαγματικές διαφορές επιμέτρησης λοιπών στοιχείων ισολογισμού"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:74",
+  "IdSup": "chart:7",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "74",
+  "Name": {
+   "el": "Έσοδα συμμετοχών"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:74.01",
+  "IdSup": "chart:74",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "74.01",
+  "Name": {
+   "el": "Μερίσματα από συμμετοχές σε συγγενείς"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:74.02",
+  "IdSup": "chart:74",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "74.02",
+  "Name": {
+   "el": "Μερίσματα από συμμετοχές σε θυγατρικές"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:74.03",
+  "IdSup": "chart:74",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "74.03",
+  "Name": {
+   "el": "Μερίσματα από συμμετοχές σε κοινοπραξίες"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:74.04",
+  "IdSup": "chart:74",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "74.04",
+  "Name": {
+   "el": "Μερίσματα από λοιπούς συμμετοχικούς τίτλους"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:75",
+  "IdSup": "chart:7",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "75",
+  "Name": {
+   "el": "Κέρδη από διάθεση μη κυκλοφορούντων περιουσιακών στοιχείων"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:75.01",
+  "IdSup": "chart:75",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "75.01",
+  "Name": {
+   "el": "Κέρδη από διάθεση ενσώματων παγίων"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:75.02",
+  "IdSup": "chart:75",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "75.02",
+  "Name": {
+   "el": "Κέρδη από διάθεση άυλων πάγιων στοιχείων"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:75.03",
+  "IdSup": "chart:75",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "75.03",
+  "Name": {
+   "el": "Κέρδη από διάθεση χρηματοοικονομικών στοιχείων"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:75.04",
+  "IdSup": "chart:75",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "75.04",
+  "Name": {
+   "el": "Κέρδη από διάθεση μη κυκλοφορούντων περιουσιακών στοιχείων σε συνδεδεμένες οντότητες"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:76",
+  "IdSup": "chart:7",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "76",
+  "Name": {
+   "el": "Κέρδη από αναστροφή προβλέψεων και απομειώσεων"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:76.01",
+  "IdSup": "chart:76",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "76.01",
+  "Name": {
+   "el": "Κέρδη από αναστροφή προβλέψεων για εκκρεμοδικίες"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:76.02",
+  "IdSup": "chart:76",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "76.02",
+  "Name": {
+   "el": "Κέρδη από αναστροφή προβλέψεων για δοσμένες εγγυήσεις"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:76.03",
+  "IdSup": "chart:76",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "76.03",
+  "Name": {
+   "el": "Κέρδη από αναστροφή προβλέψεων για αποκατάσταση περιβάλλοντος"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:76.04",
+  "IdSup": "chart:76",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "76.04",
+  "Name": {
+   "el": "Κέρδη από αναστροφή προβλέψεων για διαφορές φορολογικού ελέγχου πλην φόρου εισοδήματος"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:76.05",
+  "IdSup": "chart:76",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "76.05",
+  "Name": {
+   "el": "Κέρδη από αναστροφή άλλων προβλέψεων"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:76.06",
+  "IdSup": "chart:76",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "76.06",
+  "Name": {
+   "el": "Κέρδη από αναστροφή απομείωσης ενσώματων παγίων (πλην βιολογικών)"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:76.07",
+  "IdSup": "chart:76",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "76.07",
+  "Name": {
+   "el": "Κέρδη από αναστροφή απομείωσης βιολογικών περιουσιακών στοιχείων"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:76.08",
+  "IdSup": "chart:76",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "76.08",
+  "Name": {
+   "el": "Κέρδη από αναστροφή απομείωσης άυλων παγίων"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:76.09",
+  "IdSup": "chart:76",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "76.09",
+  "Name": {
+   "el": "Κέρδη από αναστροφή απομείωσης αποθεμάτων"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:76.10",
+  "IdSup": "chart:76",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "76.10",
+  "Name": {
+   "el": "Κέρδη από αναστροφή απομείωσης χρηματοοικονομικών στοιχείων"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:76.10.01",
+  "IdSup": "chart:76.10",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "76.10.01",
+  "Name": {
+   "el": "Κέρδη από αναστροφή απομείωσης πελατών"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:76.10.02",
+  "IdSup": "chart:76.10",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "76.10.02",
+  "Name": {
+   "el": "Κέρδη από αναστροφή απομείωσης αξιογράφων εμπορικών απαιτήσεων"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:76.10.03",
+  "IdSup": "chart:76.10",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "76.10.03",
+  "Name": {
+   "el": "Κέρδη από αναστροφή απομείωσης διακρατούμενων μέχρι τη λήξη επενδύσεων"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:76.10.04",
+  "IdSup": "chart:76.10",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "76.10.04",
+  "Name": {
+   "el": "Κέρδη από αναστροφή απομείωσης συμμετοχών σε θυγατρικές"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:76.10.05",
+  "IdSup": "chart:76.10",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "76.10.05",
+  "Name": {
+   "el": "Κέρδη από αναστροφή απομείωσης συμμετοχών σε συγγενείς"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:76.10.06",
+  "IdSup": "chart:76.10",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "76.10.06",
+  "Name": {
+   "el": "Κέρδη από αναστροφή απομείωσης συμμετοχών σε κοινοπραξίες"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:76.11",
+  "IdSup": "chart:76",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "76.11",
+  "Name": {
+   "el": "Κέρδη από αναστροφή απομείωσης λοιπών περιουσιακών στοιχείων"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:77",
+  "IdSup": "chart:7",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "77",
+  "Name": {
+   "el": "Κέρδη από επιμέτρηση στην εύλογη αξία"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:77.01",
+  "IdSup": "chart:77",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "77.01",
+  "Name": {
+   "el": "Κέρδη εύλογης αξίας ενσώματων πάγιων στοιχείων"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:77.02",
+  "IdSup": "chart:77",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "77.02",
+  "Name": {
+   "el": "Κέρδη εύλογης αξίας βιολογικών περιουσιακών στοιχείων"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:77.03",
+  "IdSup": "chart:77",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "77.03",
+  "Name": {
+   "el": "Κέρδη εύλογης αξίας χρηματοοικονομικών στοιχείων"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:78",
+  "IdSup": "chart:7",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "78",
+  "Name": {
+   "el": "Φόρος εισοδήματος έσοδο"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:78.01",
+  "IdSup": "chart:78",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "78.01",
+  "Name": {
+   "el": "Τρέχων φόρος περιόδου έσοδο"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:78.02",
+  "IdSup": "chart:78",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "78.02",
+  "Name": {
+   "el": "Αναβαλλόμενος φόρος περιόδου έσοδο"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:78.03",
+  "IdSup": "chart:78",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "78.03",
+  "Name": {
+   "el": "Κέρδη από αναστροφή προβλέψεων για διαφορές φορολογικού ελέγχου φόρου εισοδήματος"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:79",
+  "IdSup": "chart:7",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "79",
+  "Name": {
+   "el": "Ασυνήθη έσοδα και κέρδη"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:79.01",
+  "IdSup": "chart:79",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "79.01",
+  "Name": {
+   "el": "Ασυνήθη έσοδα και κέρδη από μη συνδεδεμένες οντότητες"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:79.02",
+  "IdSup": "chart:79",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "79.02",
+  "Name": {
+   "el": "Ασυνήθη έσοδα και κέρδη από συνδεδεμένες οντότητες"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:79.03",
+  "IdSup": "chart:79",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "79.03",
+  "Name": {
+   "el": "Κέρδος από αγορά οντότητας σε τιμή ευκαιρίας"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:8",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "chart_type:8",
+  "Code": "8",
+  "Name": {
+   "el": "Ιδιοπαραγωγή, υποκαταστήματα και αποτελέσματα περιόδου"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:80",
+  "IdSup": "chart:8",
+  "Active": true,
+  "TypeId": "chart_type:8",
+  "Code": "80",
+  "Name": {
+   "el": "Έξοδα σε ιδιοπαραγωγή"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:80.01",
+  "IdSup": "chart:80",
+  "Active": true,
+  "TypeId": "chart_type:8",
+  "Code": "80.01",
+  "Name": {
+   "el": "Παροχές σε εργαζόμενους σε ιδιοπαραγωγή"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:80.02",
+  "IdSup": "chart:80",
+  "Active": true,
+  "TypeId": "chart_type:8",
+  "Code": "80.02",
+  "Name": {
+   "el": "Αποσβέσεις σε ιδιοπαραγωγή"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:80.03",
+  "IdSup": "chart:80",
+  "Active": true,
+  "TypeId": "chart_type:8",
+  "Code": "80.03",
+  "Name": {
+   "el": "Άλλα λειτουργικά έξοδα σε ιδιοπαραγωγή"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:80.04",
+  "IdSup": "chart:80",
+  "Active": true,
+  "TypeId": "chart_type:8",
+  "Code": "80.04",
+  "Name": {
+   "el": "Χρηματοοικονομικά έξοδα σε ιδιοπαραγωγή"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:80.05",
+  "IdSup": "chart:80",
+  "Active": true,
+  "TypeId": "chart_type:8",
+  "Code": "80.05",
+  "Name": {
+   "el": "Προβλέψεις σε ιδιοπαραγωγή"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:81",
+  "IdSup": "chart:8",
+  "Active": true,
+  "TypeId": "chart_type:8",
+  "Code": "81",
+  "Name": {
+   "el": "Δοσοληπτικοί λογαριασμοί υποκαταστημάτων αυτοτελούς παρακολούθησης"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:81.01",
+  "IdSup": "chart:81",
+  "Active": true,
+  "TypeId": "chart_type:8",
+  "Code": "81.01",
+  "Name": {
+   "el": "Χρεωστικοί δοσοληπτικοί λογαριασμοί υποκαταστημάτων / κεντρικού"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:81.02",
+  "IdSup": "chart:81",
+  "Active": true,
+  "TypeId": "chart_type:8",
+  "Code": "81.02",
+  "Name": {
+   "el": "Πιστωτικοί δοσοληπτικοί λογαριασμοί υποκαταστημάτων / κεντρικού"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:82",
+  "IdSup": "chart:8",
+  "Active": true,
+  "TypeId": "chart_type:8",
+  "Code": "82",
+  "Name": {
+   "el": "Αποτέλεσμα (κέρδη ή ζημίες) περιόδου"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:82.01",
+  "IdSup": "chart:82",
+  "Active": true,
+  "TypeId": "chart_type:8",
+  "Code": "82.01",
+  "Name": {
+   "el": "Συγκέντρωση αποτελεσματικών λογαριασμών"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:82.02",
+  "IdSup": "chart:82",
+  "Active": true,
+  "TypeId": "chart_type:8",
+  "Code": "82.02",
+  "Name": {
+   "el": "Καθαρό κέρδος περιόδου (μετά από φόρους)"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:82.03",
+  "IdSup": "chart:82",
+  "Active": true,
+  "TypeId": "chart_type:8",
+  "Code": "82.03",
+  "Name": {
+   "el": "Καθαρή ζημία περιόδου (μετά από φόρους)"
+  },
+  "IsComposite": false
+ }
+]

@@ -1,0 +1,26 @@
+[
+ {
+  "Key": "depreciation_method:STRAIGHT_LINE",
+  "IdSup": null,
+  "Active": true,
+  "Name": {
+   "en": "Straight-line"
+  },
+  "Description": {
+   "en": "Straight-line depreciation"
+  },
+  "Formula": "(VF/DT)*DK"
+ },
+ {
+  "Key": "depreciation_method:REMAINING_VALUE",
+  "IdSup": null,
+  "Active": true,
+  "Name": {
+   "en": "Remaining value"
+  },
+  "Description": {
+   "en": "Depreciation on the remaining value"
+  },
+  "Formula": "((VF*PD*((1-PD)^YK))/365)*DK"
+ }
+]

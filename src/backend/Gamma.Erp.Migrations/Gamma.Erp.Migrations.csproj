@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <!-- The database migrations, generated from the models (Gamma.Erp.Persistence) plus the security set-up by hand. -->
+  <PropertyGroup>
+    <RootNamespace>Gamma.Erp.Migrations</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" PrivateAssets="all" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Gamma.Erp.Persistence\Gamma.Erp.Persistence.csproj" />
+  </ItemGroup>
+</Project>

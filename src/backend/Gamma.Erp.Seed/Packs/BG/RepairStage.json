@@ -1,0 +1,68 @@
+[
+ {
+  "Key": "repair_stage:RECEIVED",
+  "IdSup": null,
+  "Active": true,
+  "Name": {
+   "en": "Received",
+   "bg": "Получено"
+  },
+  "SortOrder": 10.0,
+  "IsFinal": false
+ },
+ {
+  "Key": "repair_stage:OFFER_GIVEN",
+  "IdSup": null,
+  "Active": true,
+  "Name": {
+   "en": "Offer given",
+   "bg": "Дадена оферта"
+  },
+  "SortOrder": 20.0,
+  "IsFinal": false
+ },
+ {
+  "Key": "repair_stage:ACCEPTED",
+  "IdSup": null,
+  "Active": true,
+  "Name": {
+   "en": "Accepted",
+   "bg": "Приета"
+  },
+  "SortOrder": 30.0,
+  "IsFinal": false
+ },
+ {
+  "Key": "repair_stage:READY",
+  "IdSup": null,
+  "Active": true,
+  "Name": {
+   "en": "Ready",
+   "bg": "Готово"
+  },
+  "SortOrder": 40.0,
+  "IsFinal": false
+ },
+ {
+  "Key": "repair_stage:COLLECTED",
+  "IdSup": null,
+  "Active": true,
+  "Name": {
+   "en": "Collected",
+   "bg": "Взето"
+  },
+  "SortOrder": 50.0,
+  "IsFinal": true
+ },
+ {
+  "Key": "repair_stage:REFUSED",
+  "IdSup": null,
+  "Active": true,
+  "Name": {
+   "en": "Refused",
+   "bg": "Отказана"
+  },
+  "SortOrder": 60.0,
+  "IsFinal": true
+ }
+]

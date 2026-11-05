@@ -1,0 +1,114 @@
+[
+ {
+  "Key": "chart_type:1",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "1",
+  "CodeStart": 0,
+  "CodeEnd": 99999,
+  "CodeCurrent": 0,
+  "Name": {
+   "pt": "Classe 1 – Meios financeiros líquidos"
+  },
+  "SortOrder": 10
+ },
+ {
+  "Key": "chart_type:2",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "2",
+  "CodeStart": 0,
+  "CodeEnd": 99999,
+  "CodeCurrent": 0,
+  "Name": {
+   "pt": "Classe 2 – Contas a receber e a pagar"
+  },
+  "SortOrder": 20
+ },
+ {
+  "Key": "chart_type:3",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "3",
+  "CodeStart": 0,
+  "CodeEnd": 99999,
+  "CodeCurrent": 0,
+  "Name": {
+   "pt": "Classe 3 – Inventários e ativos biológicos"
+  },
+  "SortOrder": 30
+ },
+ {
+  "Key": "chart_type:4",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "4",
+  "CodeStart": 0,
+  "CodeEnd": 99999,
+  "CodeCurrent": 0,
+  "Name": {
+   "pt": "Classe 4 – Investimentos"
+  },
+  "SortOrder": 40
+ },
+ {
+  "Key": "chart_type:5",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "5",
+  "CodeStart": 0,
+  "CodeEnd": 99999,
+  "CodeCurrent": 0,
+  "Name": {
+   "pt": "Classe 5 – Capital, reservas e resultados transitados"
+  },
+  "SortOrder": 50
+ },
+ {
+  "Key": "chart_type:6",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "6",
+  "CodeStart": 0,
+  "CodeEnd": 99999,
+  "CodeCurrent": 0,
+  "Name": {
+   "pt": "Classe 6 – Gastos"
+  },
+  "SortOrder": 60
+ },
+ {
+  "Key": "chart_type:7",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "7",
+  "CodeStart": 0,
+  "CodeEnd": 99999,
+  "CodeCurrent": 0,
+  "Name": {
+   "pt": "Classe 7 – Rendimentos"
+  },
+  "SortOrder": 70
+ },
+ {
+  "Key": "chart_type:8",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "8",
+  "CodeStart": 0,
+  "CodeEnd": 99999,
+  "CodeCurrent": 0,
+  "Name": {
+   "pt": "Classe 8 – Resultados"
+  },
+  "SortOrder": 80
+ }
+]

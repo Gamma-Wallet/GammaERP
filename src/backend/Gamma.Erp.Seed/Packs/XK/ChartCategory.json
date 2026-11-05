@@ -1,0 +1,15 @@
+[
+ {
+  "Key": "chart_category:STATUTORY",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "PKP",
+  "Name": {
+   "en": "Chart of accounts (PKP)",
+   "sq": "Plani kontabël"
+  },
+  "IsStatutory": true,
+  "SortOrder": 10
+ }
+]

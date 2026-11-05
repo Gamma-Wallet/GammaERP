@@ -1,0 +1,30 @@
+[
+ {
+  "Key": "depreciation_method:STRAIGHT_LINE",
+  "IdSup": null,
+  "Active": true,
+  "Name": {
+   "en": "Straight-line",
+   "es": "Lineal"
+  },
+  "Description": {
+   "en": "Straight-line depreciation",
+   "es": "Amortización lineal"
+  },
+  "Formula": "(VF/DT)*DK"
+ },
+ {
+  "Key": "depreciation_method:REMAINING_VALUE",
+  "IdSup": null,
+  "Active": true,
+  "Name": {
+   "en": "Remaining value",
+   "es": "Valor pendiente"
+  },
+  "Description": {
+   "en": "Depreciation on the remaining value",
+   "es": "Amortización sobre el valor pendiente"
+  },
+  "Formula": "((VF*PD*((1-PD)^YK))/365)*DK"
+ }
+]

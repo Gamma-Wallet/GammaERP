@@ -1,0 +1,15 @@
+[
+ {
+  "Key": "chart_category:STATUTORY",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "GAMMA",
+  "Name": {
+   "en": "Chart of accounts (GAMMA)",
+   "lv": "Kontu plāns (Gamma, saskaņā ar SGS 1)"
+  },
+  "IsStatutory": true,
+  "SortOrder": 10
+ }
+]

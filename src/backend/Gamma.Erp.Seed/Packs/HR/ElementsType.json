@@ -1,0 +1,90 @@
+[
+ {
+  "Key": "elements_type:1",
+  "Active": true,
+  "Name": {
+   "en": "table",
+   "hr": "tablica"
+  }
+ },
+ {
+  "Key": "elements_type:2",
+  "Active": true,
+  "Name": {
+   "en": "specified element",
+   "hr": "određeni element"
+  }
+ },
+ {
+  "Key": "elements_type:3",
+  "Active": true,
+  "Name": {
+   "en": "empty element",
+   "hr": "prazan element"
+  }
+ },
+ {
+  "Key": "elements_type:4",
+  "Active": true,
+  "Name": {
+   "en": "line reference",
+   "hr": "poveznica na stavku"
+  }
+ },
+ {
+  "Key": "elements_type:5",
+  "Active": true,
+  "Name": {
+   "en": "line configuration",
+   "hr": "postavke stavaka"
+  }
+ },
+ {
+  "Key": "elements_type:6",
+  "Active": true,
+  "Name": {
+   "en": "document reference",
+   "hr": "poveznica na dokument"
+  }
+ },
+ {
+  "Key": "elements_type:7",
+  "Active": true,
+  "Name": {
+   "en": "document configuration",
+   "hr": "postavke dokumenata"
+  }
+ },
+ {
+  "Key": "elements_type:8",
+  "Active": true,
+  "Name": {
+   "en": "scenario configuration",
+   "hr": "postavke kontiranja"
+  }
+ },
+ {
+  "Key": "elements_type:9",
+  "Active": true,
+  "Name": {
+   "en": "depreciation scenario configuration",
+   "hr": "postavke kontiranja amortizacije"
+  }
+ },
+ {
+  "Key": "elements_type:10",
+  "Active": true,
+  "Name": {
+   "en": "depreciation scenario",
+   "hr": "kontiranje amortizacije"
+  }
+ },
+ {
+  "Key": "elements_type:11",
+  "Active": true,
+  "Name": {
+   "en": "Transaction amount",
+   "hr": "Iznos stavke"
+  }
+ }
+]

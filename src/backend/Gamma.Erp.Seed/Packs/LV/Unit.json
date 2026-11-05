@@ -1,0 +1,149 @@
+[
+ {
+  "Key": "unit:PIECE",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "unit_type:STANDARD",
+  "Code": "PIECE",
+  "Name": {
+   "en": "Piece",
+   "lv": "Gabals"
+  },
+  "Description": null
+ },
+ {
+  "Key": "unit:KG",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "unit_type:WEIGHT",
+  "Code": "KG",
+  "Name": {
+   "en": "kg",
+   "lv": "kg"
+  },
+  "Description": null
+ },
+ {
+  "Key": "unit:HOUR",
+  "IdSup": "unit:DAY",
+  "Active": true,
+  "TypeId": "unit_type:TIME",
+  "Code": "HOUR",
+  "Name": {
+   "en": "Hour",
+   "lv": "Stunda"
+  },
+  "Description": null
+ },
+ {
+  "Key": "unit:DAY",
+  "IdSup": "unit:MONTH",
+  "Active": true,
+  "TypeId": "unit_type:TIME",
+  "Code": "DAY",
+  "Name": {
+   "en": "Day",
+   "lv": "Diena"
+  },
+  "Description": null
+ },
+ {
+  "Key": "unit:MONTH",
+  "IdSup": "unit:YEAR",
+  "Active": true,
+  "TypeId": "unit_type:TIME",
+  "Code": "MONTH",
+  "Name": {
+   "en": "Month",
+   "lv": "Mēnesis"
+  },
+  "Description": null
+ },
+ {
+  "Key": "unit:YEAR",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "unit_type:TIME",
+  "Code": "YEAR",
+  "Name": {
+   "en": "Year",
+   "lv": "Gads"
+  },
+  "Description": null
+ },
+ {
+  "Key": "unit:G",
+  "IdSup": "unit:KG",
+  "Active": true,
+  "TypeId": "unit_type:WEIGHT",
+  "Code": "G",
+  "Name": {
+   "en": "g",
+   "lv": "g"
+  },
+  "Description": {
+   "en": "g",
+   "lv": "g"
+  }
+ },
+ {
+  "Key": "unit:CM",
+  "IdSup": "unit:M",
+  "Active": true,
+  "TypeId": "unit_type:LENGTH",
+  "Code": "CM",
+  "Name": {
+   "en": "cm",
+   "lv": "cm"
+  },
+  "Description": {
+   "en": "cm",
+   "lv": "cm"
+  }
+ },
+ {
+  "Key": "unit:M",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "unit_type:LENGTH",
+  "Code": "M",
+  "Name": {
+   "en": "m",
+   "lv": "m"
+  },
+  "Description": {
+   "en": "m",
+   "lv": "m"
+  }
+ },
+ {
+  "Key": "unit:MM",
+  "IdSup": "unit:M",
+  "Active": true,
+  "TypeId": "unit_type:LENGTH",
+  "Code": "MM",
+  "Name": {
+   "en": "mm",
+   "lv": "mm"
+  },
+  "Description": {
+   "en": "mm",
+   "lv": "mm"
+  }
+ },
+ {
+  "Key": "unit:KM",
+  "IdSup": "unit:M",
+  "Active": true,
+  "TypeId": "unit_type:LENGTH",
+  "Code": "KM",
+  "Name": {
+   "en": "km",
+   "lv": "km"
+  },
+  "Description": {
+   "en": "km",
+   "lv": "km"
+  }
+ }
+]

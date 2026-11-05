@@ -1,0 +1,834 @@
+[
+ {
+  "Key": "cost_center_type_info:1",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "cost_center_type:COMPANY",
+  "Name": {
+   "en": "Tax number",
+   "it": "Partita IVA"
+  },
+  "Description": {
+   "en": "Tax number",
+   "it": "Partita IVA"
+  },
+  "Required": false,
+  "Kind": 1,
+  "SortOrder": 2.0,
+  "ElementsId": "elements:1",
+  "IsFile": false,
+  "Code": "TAX_NUMBER"
+ },
+ {
+  "Key": "cost_center_type_info:2",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "cost_center_type:BASE",
+  "Name": {
+   "en": "Owner",
+   "it": "Titolare"
+  },
+  "Description": {
+   "en": "Owner",
+   "it": "Titolare"
+  },
+  "Required": false,
+  "Kind": 9,
+  "SortOrder": 10.0,
+  "ElementsId": "elements:19",
+  "IsFile": false
+ },
+ {
+  "Key": "cost_center_type_info:3",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "cost_center_type:CASH_DESK",
+  "Name": {
+   "en": "Name",
+   "it": "Denominazione"
+  },
+  "Description": {
+   "en": "Name",
+   "it": "Denominazione"
+  },
+  "Required": false,
+  "Kind": 1,
+  "SortOrder": 11.0,
+  "ElementsId": "elements:1",
+  "IsFile": false
+ },
+ {
+  "Key": "cost_center_type_info:4",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "cost_center_type:BANK",
+  "Name": {
+   "en": "Name",
+   "it": "Denominazione"
+  },
+  "Description": {
+   "en": "Name",
+   "it": "Denominazione"
+  },
+  "Required": false,
+  "Kind": 1,
+  "SortOrder": 14.0,
+  "ElementsId": "elements:1",
+  "IsFile": false
+ },
+ {
+  "Key": "cost_center_type_info:5",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "cost_center_type:CASH_DESK",
+  "Name": {
+   "en": "Currency",
+   "it": "Valuta"
+  },
+  "Description": {
+   "en": "Currency",
+   "it": "Valuta"
+  },
+  "Required": true,
+  "Kind": 9,
+  "SortOrder": 20.0,
+  "ElementsId": "elements:49",
+  "IsFile": false,
+  "DefaultElementId": "currency:EUR"
+ },
+ {
+  "Key": "cost_center_type_info:6",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "cost_center_type:BANK",
+  "Name": {
+   "en": "Currency",
+   "it": "Valuta"
+  },
+  "Description": {
+   "en": "Currency",
+   "it": "Valuta"
+  },
+  "Required": true,
+  "Kind": 9,
+  "SortOrder": 21.0,
+  "ElementsId": "elements:50",
+  "IsFile": false,
+  "DefaultElementId": "currency:EUR"
+ },
+ {
+  "Key": "cost_center_type_info:7",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "cost_center_type:COMPANY",
+  "Name": {
+   "en": "Trade name",
+   "it": "Nome commerciale"
+  },
+  "Description": {
+   "en": "Trade name",
+   "it": "Nome commerciale"
+  },
+  "Required": false,
+  "Kind": 1,
+  "SortOrder": 22.0,
+  "ElementsId": "elements:1",
+  "IsFile": false,
+  "Code": "TRADE_NAME"
+ },
+ {
+  "Key": "cost_center_type_info:8",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "cost_center_type:COMPANY",
+  "Name": {
+   "en": "Address",
+   "it": "Indirizzo"
+  },
+  "Description": {
+   "en": "Address",
+   "it": "Indirizzo"
+  },
+  "Required": false,
+  "Kind": 1,
+  "SortOrder": 23.0,
+  "ElementsId": "elements:1",
+  "IsFile": false,
+  "Code": "ADDRESS"
+ },
+ {
+  "Key": "cost_center_type_info:9",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "cost_center_type:COMPANY",
+  "Name": {
+   "en": "Phone",
+   "it": "Telefono"
+  },
+  "Description": {
+   "en": "Phone",
+   "it": "Telefono"
+  },
+  "Required": false,
+  "Kind": 1,
+  "SortOrder": 24.0,
+  "ElementsId": "elements:1",
+  "IsFile": false,
+  "Code": "PHONE"
+ },
+ {
+  "Key": "cost_center_type_info:10",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "cost_center_type:COMPANY",
+  "Name": {
+   "en": "E-mail",
+   "it": "E-mail"
+  },
+  "Description": {
+   "en": "E-mail",
+   "it": "E-mail"
+  },
+  "Required": false,
+  "Kind": 1,
+  "SortOrder": 25.0,
+  "ElementsId": "elements:1",
+  "IsFile": false,
+  "Code": "EMAIL"
+ },
+ {
+  "Key": "cost_center_type_info:11",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "cost_center_type:COMPANY",
+  "Name": {
+   "en": "Website",
+   "it": "Sito web"
+  },
+  "Description": {
+   "en": "Website",
+   "it": "Sito web"
+  },
+  "Required": false,
+  "Kind": 1,
+  "SortOrder": 26.0,
+  "ElementsId": "elements:1",
+  "IsFile": false
+ },
+ {
+  "Key": "cost_center_type_info:12",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "cost_center_type:COMPANY",
+  "Name": {
+   "en": "Logo",
+   "it": "Logo"
+  },
+  "Description": {
+   "en": "Logo",
+   "it": "Logo"
+  },
+  "Required": false,
+  "Kind": 5,
+  "SortOrder": 27.0,
+  "ElementsId": "elements:1",
+  "IsFile": false,
+  "Code": "LOGO"
+ },
+ {
+  "Key": "cost_center_type_info:13",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "cost_center_type:BASE",
+  "Name": {
+   "en": "Phone",
+   "it": "Telefono"
+  },
+  "Description": {
+   "en": "Phone",
+   "it": "Telefono"
+  },
+  "Required": false,
+  "Kind": 1,
+  "SortOrder": 28.0,
+  "ElementsId": "elements:1",
+  "IsFile": false,
+  "Code": "PHONE"
+ },
+ {
+  "Key": "cost_center_type_info:14",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "cost_center_type:POS_RESTAURANT",
+  "Name": {
+   "en": "Address",
+   "it": "Indirizzo"
+  },
+  "Description": {
+   "en": "Address",
+   "it": "Indirizzo"
+  },
+  "Required": true,
+  "Kind": 1,
+  "SortOrder": 29.0,
+  "ElementsId": "elements:1",
+  "IsFile": false
+ },
+ {
+  "Key": "cost_center_type_info:15",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "cost_center_type:POS_RESTAURANT",
+  "Name": {
+   "en": "Phone",
+   "it": "Telefono"
+  },
+  "Description": {
+   "en": "Phone",
+   "it": "Telefono"
+  },
+  "Required": true,
+  "Kind": 1,
+  "SortOrder": 30.0,
+  "ElementsId": "elements:1",
+  "IsFile": false,
+  "Code": "PHONE"
+ },
+ {
+  "Key": "cost_center_type_info:16",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "cost_center_type:POS_RESTAURANT",
+  "Name": {
+   "en": "E-mail",
+   "it": "E-mail"
+  },
+  "Description": {
+   "en": "E-mail",
+   "it": "E-mail"
+  },
+  "Required": true,
+  "Kind": 1,
+  "SortOrder": 31.0,
+  "ElementsId": "elements:1",
+  "IsFile": false
+ },
+ {
+  "Key": "cost_center_type_info:17",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "cost_center_type:WAREHOUSE",
+  "Name": {
+   "en": "Address",
+   "it": "Indirizzo"
+  },
+  "Description": {
+   "en": "Address",
+   "it": "Indirizzo"
+  },
+  "Required": false,
+  "Kind": 1,
+  "SortOrder": 32.0,
+  "ElementsId": "elements:1",
+  "IsFile": false
+ },
+ {
+  "Key": "cost_center_type_info:18",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "cost_center_type:WAREHOUSE",
+  "Name": {
+   "en": "Phone",
+   "it": "Telefono"
+  },
+  "Description": {
+   "en": "Phone",
+   "it": "Telefono"
+  },
+  "Required": false,
+  "Kind": 1,
+  "SortOrder": 33.0,
+  "ElementsId": "elements:1",
+  "IsFile": false,
+  "Code": "PHONE"
+ },
+ {
+  "Key": "cost_center_type_info:19",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "cost_center_type:WAREHOUSE",
+  "Name": {
+   "en": "Authorised person",
+   "it": "Persona autorizzata"
+  },
+  "Description": {
+   "en": "Authorised person",
+   "it": "Persona autorizzata"
+  },
+  "Required": false,
+  "Kind": 9,
+  "SortOrder": 34.0,
+  "ElementsId": "elements:135",
+  "IsFile": false
+ },
+ {
+  "Key": "cost_center_type_info:20",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "cost_center_type:OFFICE",
+  "Name": {
+   "en": "Address",
+   "it": "Indirizzo"
+  },
+  "Description": {
+   "en": "Address",
+   "it": "Indirizzo"
+  },
+  "Required": false,
+  "Kind": 1,
+  "SortOrder": 35.0,
+  "ElementsId": "elements:1",
+  "IsFile": false
+ },
+ {
+  "Key": "cost_center_type_info:21",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "cost_center_type:CASH_DESK",
+  "Name": {
+   "en": "Account",
+   "it": "Conto"
+  },
+  "Required": true,
+  "Kind": 9,
+  "SortOrder": 1,
+  "ElementsId": "elements:181",
+  "IsFile": false,
+  "DefaultElementId": "chart:08.202"
+ },
+ {
+  "Key": "cost_center_type_info:22",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "cost_center_type:BANK",
+  "Name": {
+   "en": "Account",
+   "it": "Conto"
+  },
+  "Required": true,
+  "Kind": 9,
+  "SortOrder": 1,
+  "ElementsId": "elements:181",
+  "IsFile": false,
+  "DefaultElementId": "chart:08.010"
+ },
+ {
+  "Key": "cost_center_type_info:23",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "cost_center_type:COMPANY",
+  "Name": {
+   "en": "Negative stock allowed (cost centres)",
+   "it": "Giacenza negativa consentita (centri di costo)"
+  },
+  "Description": {
+   "en": "cost centres",
+   "it": "centri di costo"
+  },
+  "Required": false,
+  "Kind": 2,
+  "SortOrder": 31,
+  "ElementsId": "elements:10",
+  "IsFile": false,
+  "Code": "NEGATIVE_STOCK"
+ },
+ {
+  "Key": "cost_center_type_info:24",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "cost_center_type:COMPANY",
+  "Name": {
+   "en": "Negative stock allowed (partners)",
+   "it": "Giacenza negativa consentita (partner)"
+  },
+  "Description": {
+   "en": "partners",
+   "it": "partner"
+  },
+  "Required": false,
+  "Kind": 2,
+  "SortOrder": 31,
+  "ElementsId": "elements:11",
+  "IsFile": false,
+  "Code": "NEGATIVE_STOCK"
+ },
+ {
+  "Key": "cost_center_type_info:25",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "cost_center_type:COMPANY",
+  "Name": {
+   "en": "Negative stock allowed (employees)",
+   "it": "Giacenza negativa consentita (dipendenti)"
+  },
+  "Description": {
+   "en": "employees",
+   "it": "dipendenti"
+  },
+  "Required": false,
+  "Kind": 2,
+  "SortOrder": 31,
+  "ElementsId": "elements:7",
+  "IsFile": false,
+  "Code": "NEGATIVE_STOCK"
+ },
+ {
+  "Key": "cost_center_type_info:26",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "cost_center_type:COMPANY",
+  "Name": {
+   "en": "Hold timeout (minutes)",
+   "it": "Tempo di blocco del documento (minuti)"
+  },
+  "Required": false,
+  "Kind": 2,
+  "SortOrder": 30,
+  "IsFile": false,
+  "Code": "HOLD_TIMEOUT"
+ },
+ {
+  "Key": "cost_center_type_info:fiscal_year",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "cost_center_type:COMPANY",
+  "Name": {
+   "en": "Fiscal year starts (month)",
+   "it": "L'esercizio inizia (mese)"
+  },
+  "Description": {
+   "en": "1 to 12; January when empty",
+   "it": "Da 1 a 12; gennaio se vuoto"
+  },
+  "Required": false,
+  "Kind": 2,
+  "SortOrder": 32,
+  "IsFile": false
+ },
+ {
+  "Key": "cost_center_type_info:table_x",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "cost_center_type:TABLE",
+  "Name": {
+   "en": "Position X",
+   "it": "Posizione X"
+  },
+  "Required": false,
+  "Kind": 2,
+  "SortOrder": 1,
+  "IsFile": false
+ },
+ {
+  "Key": "cost_center_type_info:table_y",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "cost_center_type:TABLE",
+  "Name": {
+   "en": "Position Y",
+   "it": "Posizione Y"
+  },
+  "Required": false,
+  "Kind": 2,
+  "SortOrder": 2,
+  "IsFile": false
+ },
+ {
+  "Key": "cost_center_type_info:table_seats",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "cost_center_type:TABLE",
+  "Name": {
+   "en": "Seats",
+   "it": "Posti"
+  },
+  "Required": false,
+  "Kind": 2,
+  "SortOrder": 3,
+  "IsFile": false
+ },
+ {
+  "Key": "cost_center_type_info:14_pos_shop",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "cost_center_type:POS_SHOP",
+  "Name": {
+   "en": "Address",
+   "it": "Indirizzo"
+  },
+  "Description": {
+   "en": "Address",
+   "it": "Indirizzo"
+  },
+  "Required": true,
+  "Kind": 1,
+  "SortOrder": 29.0,
+  "ElementsId": "elements:1",
+  "IsFile": false
+ },
+ {
+  "Key": "cost_center_type_info:15_pos_shop",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "cost_center_type:POS_SHOP",
+  "Name": {
+   "en": "Phone",
+   "it": "Telefono"
+  },
+  "Description": {
+   "en": "Phone",
+   "it": "Telefono"
+  },
+  "Required": true,
+  "Kind": 1,
+  "SortOrder": 30.0,
+  "ElementsId": "elements:1",
+  "IsFile": false,
+  "Code": "PHONE"
+ },
+ {
+  "Key": "cost_center_type_info:16_pos_shop",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "cost_center_type:POS_SHOP",
+  "Name": {
+   "en": "E-mail",
+   "it": "E-mail"
+  },
+  "Description": {
+   "en": "E-mail",
+   "it": "E-mail"
+  },
+  "Required": true,
+  "Kind": 1,
+  "SortOrder": 31.0,
+  "ElementsId": "elements:1",
+  "IsFile": false
+ },
+ {
+  "Key": "cost_center_type_info:14_pos_events",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "cost_center_type:POS_EVENTS",
+  "Name": {
+   "en": "Address",
+   "it": "Indirizzo"
+  },
+  "Description": {
+   "en": "Address",
+   "it": "Indirizzo"
+  },
+  "Required": true,
+  "Kind": 1,
+  "SortOrder": 29.0,
+  "ElementsId": "elements:1",
+  "IsFile": false
+ },
+ {
+  "Key": "cost_center_type_info:15_pos_events",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "cost_center_type:POS_EVENTS",
+  "Name": {
+   "en": "Phone",
+   "it": "Telefono"
+  },
+  "Description": {
+   "en": "Phone",
+   "it": "Telefono"
+  },
+  "Required": true,
+  "Kind": 1,
+  "SortOrder": 30.0,
+  "ElementsId": "elements:1",
+  "IsFile": false,
+  "Code": "PHONE"
+ },
+ {
+  "Key": "cost_center_type_info:16_pos_events",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "cost_center_type:POS_EVENTS",
+  "Name": {
+   "en": "E-mail",
+   "it": "E-mail"
+  },
+  "Description": {
+   "en": "E-mail",
+   "it": "E-mail"
+  },
+  "Required": true,
+  "Kind": 1,
+  "SortOrder": 31.0,
+  "ElementsId": "elements:1",
+  "IsFile": false
+ },
+ {
+  "Key": "cost_center_type_info:14_pos_stays",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "cost_center_type:POS_STAYS",
+  "Name": {
+   "en": "Address",
+   "it": "Indirizzo"
+  },
+  "Description": {
+   "en": "Address",
+   "it": "Indirizzo"
+  },
+  "Required": true,
+  "Kind": 1,
+  "SortOrder": 29.0,
+  "ElementsId": "elements:1",
+  "IsFile": false
+ },
+ {
+  "Key": "cost_center_type_info:15_pos_stays",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "cost_center_type:POS_STAYS",
+  "Name": {
+   "en": "Phone",
+   "it": "Telefono"
+  },
+  "Description": {
+   "en": "Phone",
+   "it": "Telefono"
+  },
+  "Required": true,
+  "Kind": 1,
+  "SortOrder": 30.0,
+  "ElementsId": "elements:1",
+  "IsFile": false,
+  "Code": "PHONE"
+ },
+ {
+  "Key": "cost_center_type_info:16_pos_stays",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "cost_center_type:POS_STAYS",
+  "Name": {
+   "en": "E-mail",
+   "it": "E-mail"
+  },
+  "Description": {
+   "en": "E-mail",
+   "it": "E-mail"
+  },
+  "Required": true,
+  "Kind": 1,
+  "SortOrder": 31.0,
+  "ElementsId": "elements:1",
+  "IsFile": false
+ },
+ {
+  "Key": "cost_center_type_info:seat_x",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "cost_center_type:SEAT",
+  "Name": {
+   "en": "Position X",
+   "it": "Posizione X"
+  },
+  "Required": false,
+  "Kind": 2,
+  "SortOrder": 1,
+  "IsFile": false
+ },
+ {
+  "Key": "cost_center_type_info:seat_y",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "cost_center_type:SEAT",
+  "Name": {
+   "en": "Position Y",
+   "it": "Posizione Y"
+  },
+  "Required": false,
+  "Kind": 2,
+  "SortOrder": 2,
+  "IsFile": false
+ },
+ {
+  "Key": "cost_center_type_info:room_beds",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "cost_center_type:ROOM",
+  "Name": {
+   "en": "Beds",
+   "it": "Letti"
+  },
+  "Required": false,
+  "Kind": 2,
+  "SortOrder": 1,
+  "IsFile": false
+ },
+ {
+  "Key": "cost_center_type_info:14_pos_repairs",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "cost_center_type:POS_REPAIRS",
+  "Name": {
+   "en": "Address",
+   "it": "Indirizzo"
+  },
+  "Description": {
+   "en": "Address",
+   "it": "Indirizzo"
+  },
+  "Required": true,
+  "Kind": 1,
+  "SortOrder": 29.0,
+  "ElementsId": "elements:1",
+  "IsFile": false
+ },
+ {
+  "Key": "cost_center_type_info:15_pos_repairs",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "cost_center_type:POS_REPAIRS",
+  "Name": {
+   "en": "Phone",
+   "it": "Telefono"
+  },
+  "Description": {
+   "en": "Phone",
+   "it": "Telefono"
+  },
+  "Required": true,
+  "Kind": 1,
+  "SortOrder": 30.0,
+  "ElementsId": "elements:1",
+  "IsFile": false,
+  "Code": "PHONE"
+ },
+ {
+  "Key": "cost_center_type_info:16_pos_repairs",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "cost_center_type:POS_REPAIRS",
+  "Name": {
+   "en": "E-mail",
+   "it": "E-mail"
+  },
+  "Description": {
+   "en": "E-mail",
+   "it": "E-mail"
+  },
+  "Required": true,
+  "Kind": 1,
+  "SortOrder": 31.0,
+  "ElementsId": "elements:1",
+  "IsFile": false
+ }
+]

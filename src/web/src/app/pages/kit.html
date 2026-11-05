@@ -1,0 +1,122 @@
+<div class="head">
+  <h1>Component kit</h1>
+  <p class="muted">Every building block of the screens, with made-up data.</p>
+</div>
+
+<section class="kpis">
+  <ui-kpi label="Sales this month" value="9,650" unit="EUR" [change]="-4.5" comparedTo="September" />
+  <ui-kpi label="Bills" value="450" [change]="8.2" comparedTo="September" />
+  <ui-kpi label="Costs" value="7,820" unit="EUR" [change]="-6.1" [upIsGood]="false" comparedTo="September" />
+  <ui-kpi label="Unpaid bills" value="3" caption="Oldest from 28/10/2026" />
+</section>
+
+<section class="card">
+  <h2>Buttons and status</h2>
+  <div class="row">
+    <button uiButton variant="primary"><ui-icon name="plus" />New invoice</button>
+    <button uiButton>Hold</button>
+    <button uiButton variant="quiet">Cancel</button>
+    <button uiButton variant="danger" (click)="reverse()"><ui-icon name="undo" />Reverse…</button>
+    <button uiButton size="small">Small</button>
+    <button uiButton [iconOnly]="true" aria-label="Print"><ui-icon name="printer" /></button>
+    <button uiButton disabled>Disabled</button>
+  </div>
+  <div class="row">
+    <ui-status kind="good">Posted</ui-status>
+    <ui-status kind="warning">On hold</ui-status>
+    <ui-status kind="serious">Overdue</ui-status>
+    <ui-status kind="critical">Rejected</ui-status>
+    <ui-status kind="info">Draft</ui-status>
+    <ui-status>Reversed</ui-status>
+  </div>
+  <div class="row">
+    <button uiButton size="small" (click)="toast('good')">Toast: done</button>
+    <button uiButton size="small" (click)="toast('info')">Toast: note</button>
+    <button uiButton size="small" (click)="toast('warning')">Toast: warning</button>
+    <button uiButton size="small" (click)="toast('critical')">Toast: error</button>
+  </div>
+  <div class="row">
+    <button uiButton size="touch" variant="primary">Touch: Pay</button>
+    <button uiButton size="touch">Touch: Table 4</button>
+  </div>
+</section>
+
+<section class="card">
+  <h2>Inputs</h2>
+  <div class="grid">
+    <ui-field label="Partner" hint="Six options: no search box">
+      <ui-select [options]="partnerOptions" [(value)]="partner" />
+    </ui-field>
+    <ui-field label="Products" hint="More than 8: with a search box, several at once">
+      <ui-select [options]="manyOptions" [multiple]="true" [(values)]="products" />
+    </ui-field>
+    <ui-field label="Reference" [required]="true" error="Fill this in.">
+      <input uiInput placeholder="e.g. PO-2291" />
+    </ui-field>
+    <ui-field label="Amount" hint="Figures line up on the right">
+      <input uiInput [numeric]="true" inputmode="decimal" value="1500.50" />
+    </ui-field>
+    <ui-field label="Note" class="wide">
+      <textarea uiInput [value]="note()" (input)="note.set($any($event.target).value)"></textarea>
+    </ui-field>
+    <ui-checkbox [(checked)]="remember">Remember this partner</ui-checkbox>
+  </div>
+</section>
+
+<section class="card flush">
+  <div class="card-head">
+    <h2>Data table</h2>
+    <ui-chips [chips]="stateChips()" [(chosen)]="states" [showAll]="true" ariaLabel="State" />
+  </div>
+  <ui-table class="docs" [columns]="columns" [rows]="documents()" [(sort)]="sort" [(page)]="page" [pageSize]="12"
+    [selectable]="true" [(selected)]="selected" [activeId]="activeId()" (rowClick)="activeId.set($event.id)"
+    [footer]="{ partner: documents().length + ' documents', amount: total() }" ariaLabel="Sales invoices">
+    <ng-template uiCell="state" let-row>
+      <ui-status [kind]="kindOf(row)">{{ stateOf(row) }}</ui-status>
+    </ng-template>
+  </ui-table>
+  @if (selected().length) {
+    <p class="muted under">{{ selected().length }} selected</p>
+  }
+</section>
+
+<section class="card flush">
+  <div class="card-head">
+    <h2>Tree table</h2>
+    <div class="row">
+      <button uiButton size="small" (click)="expandAll(true)">Expand all</button>
+      <button uiButton size="small" (click)="expandAll(false)">Collapse all</button>
+    </div>
+  </div>
+  <ui-tree-table [columns]="accountColumns" [rows]="accounts" [(expanded)]="expanded" [footer]="{ name: 'Total', debit: '19,950.00', credit: '19,950.00' }"
+    ariaLabel="Trial balance" />
+</section>
+
+<section class="card">
+  <h2>Tabs</h2>
+  <ui-tabs [tabs]="tabs" [(active)]="tab" ariaLabel="Invoice" />
+  <div class="tab-body" role="tabpanel">
+    @switch (tab()) {
+      @case ('lines') { <p>The invoice lines.</p> }
+      @case ('posting') { <p>The posting preview: debit and credit per account.</p> }
+      @case ('history') { <p>Every earlier version of the invoice.</p> }
+    }
+  </div>
+</section>
+
+<section class="charts">
+  <ui-chart class="span-2" title="Sales" subtitle="Monthly, this year and last" [spec]="salesChart" />
+  <ui-chart title="Sales mix" subtitle="October" [spec]="mixChart" />
+  <ui-chart class="span-2" title="Costs" subtitle="Monthly, by kind" [spec]="costChart" />
+  <ui-chart title="Bills by weekday" subtitle="Last 4 weeks" [spec]="visitsChart" />
+</section>
+
+<section class="card">
+  <h2>Form from properties</h2>
+  <p class="muted">A product type's properties, one of every kind. "Sold as" shows more fields for each choice.</p>
+  <ui-property-form [properties]="properties" [(values)]="values" [lookupOptions]="lookups" />
+  <div class="row">
+    <button uiButton variant="primary" (click)="save()">Check and show what is saved</button>
+  </div>
+  @if (saved()) { <pre>{{ saved() }}</pre> }
+</section>

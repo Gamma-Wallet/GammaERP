@@ -1,0 +1,57 @@
+[
+ {
+  "Key": "unit_category:STANDARD",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "STANDARD",
+  "Name": {
+   "en": "Standard",
+   "lt": "Standartinis"
+  },
+  "Description": null,
+  "SortOrder": 2.0
+ },
+ {
+  "Key": "unit_category:WEIGHT",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "WEIGHT",
+  "Name": {
+   "en": "Weight",
+   "lt": "Svoris"
+  },
+  "Description": null,
+  "SortOrder": 2.0
+ },
+ {
+  "Key": "unit_category:TIME",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "TIME",
+  "Name": {
+   "en": "Time",
+   "lt": "Laikas"
+  },
+  "Description": null,
+  "SortOrder": 3.0
+ },
+ {
+  "Key": "unit_category:LENGTH",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "LENGTH",
+  "Name": {
+   "en": "Length",
+   "lt": "Ilgis"
+  },
+  "Description": {
+   "en": "Length",
+   "lt": "Ilgis"
+  },
+  "SortOrder": 4.0
+ }
+]

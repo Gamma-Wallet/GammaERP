@@ -1,0 +1,206 @@
+[
+ {
+  "Key": "document_category:SALES",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "SALES",
+  "Name": {
+   "en": "Sales",
+   "pl": "Sprzedaż"
+  },
+  "Description": {
+   "en": "Sales invoices",
+   "pl": "Faktury sprzedaży"
+  },
+  "SortOrder": 3.0
+ },
+ {
+  "Key": "document_category:PURCHASES",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "PURCHASES",
+  "Name": {
+   "en": "Purchases",
+   "pl": "Zakupy"
+  },
+  "Description": {
+   "en": "Purchase invoices",
+   "pl": "Faktury zakupu"
+  },
+  "SortOrder": 4.0
+ },
+ {
+  "Key": "document_category:TRANSFERS",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "TRANSFERS",
+  "Name": {
+   "en": "Goods transfers",
+   "pl": "Przesunięcia towarów"
+  },
+  "Description": {
+   "en": "Goods transfer note",
+   "pl": "Dokument przesunięcia"
+  },
+  "SortOrder": 5.0
+ },
+ {
+  "Key": "document_category:CASH_DESK",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "CASH_DESK",
+  "Name": {
+   "en": "Cash desk",
+   "pl": "Kasa"
+  },
+  "Description": {
+   "en": "Cash desk",
+   "pl": "Kasa"
+  },
+  "SortOrder": 6.0
+ },
+ {
+  "Key": "document_category:BANK",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "BANK",
+  "Name": {
+   "en": "Bank",
+   "pl": "Bank"
+  },
+  "Description": {
+   "en": "Bank",
+   "pl": "Bank"
+  },
+  "SortOrder": 7.0
+ },
+ {
+  "Key": "document_category:OFFERS",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "OFFERS",
+  "Name": {
+   "en": "Offers",
+   "pl": "Oferty"
+  },
+  "Description": {
+   "en": "Offers",
+   "pl": "Oferty"
+  },
+  "SortOrder": 9.0
+ },
+ {
+  "Key": "document_category:JOURNAL",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "JOURNAL",
+  "Name": {
+   "en": "Journal",
+   "pl": "Dziennik"
+  },
+  "Description": {
+   "en": "Journal",
+   "pl": "Dziennik"
+  },
+  "SortOrder": 8.0
+ },
+ {
+  "Key": "document_category:CONTRACTS",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "CONTRACTS",
+  "Name": {
+   "en": "Contracts",
+   "pl": "Umowy"
+  },
+  "Description": {
+   "en": "Contracts",
+   "pl": "Umowy"
+  },
+  "SortOrder": 10.0
+ },
+ {
+  "Key": "document_category:RECURRING_JOURNAL",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "RECURRING_JOURNAL",
+  "Name": {
+   "en": "Recurring journal",
+   "pl": "Dziennik cykliczny"
+  },
+  "Description": {
+   "en": "Recurring journal",
+   "pl": "Dziennik cykliczny"
+  },
+  "SortOrder": 11.0
+ },
+ {
+  "Key": "document_category:REVERSALS",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "REVERSALS",
+  "Name": {
+   "en": "Reversals",
+   "pl": "Storna"
+  },
+  "SortOrder": 100
+ },
+ {
+  "Key": "document_category:PRODUCTION",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "PRODUCTION",
+  "Name": {
+   "en": "Production",
+   "pl": "Produkcja"
+  },
+  "Description": {
+   "en": "Production",
+   "pl": "Produkcja"
+  },
+  "SortOrder": 11.0
+ },
+ {
+  "Key": "document_category:ORDERS",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "ORDERS",
+  "Name": {
+   "en": "Orders",
+   "pl": "Zamówienia"
+  },
+  "Description": {
+   "en": "Orders",
+   "pl": "Zamówienia"
+  },
+  "SortOrder": 9.0
+ },
+ {
+  "Key": "document_category:REPAIRS",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "REPAIRS",
+  "Name": {
+   "en": "Repairs",
+   "pl": "Naprawy"
+  },
+  "Description": {
+   "en": "Repairs",
+   "pl": "Naprawy"
+  },
+  "SortOrder": 9.5
+ }
+]

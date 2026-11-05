@@ -1,0 +1,15 @@
+[
+ {
+  "Key": "chart_category:STATUTORY",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "PGC",
+  "Name": {
+   "en": "Chart of accounts (PGC)",
+   "es": "Plan General de Contabilidad (RD 1514/2007)"
+  },
+  "IsStatutory": true,
+  "SortOrder": 10
+ }
+]

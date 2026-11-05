@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <!-- The database rules and the starter data on a real PostgreSQL (Testcontainers): history in the same table, soft delete, only active
+       rows read, tenant isolation, and the organisation with the Albanian pack loading with every link checked. -->
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <IsPackable>false</IsPackable>
+    <NoWarn>$(NoWarn);CA1707;CA1515;CA2007</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="xunit.v3" />
+    <PackageReference Include="AwesomeAssertions" />
+    <PackageReference Include="Testcontainers.PostgreSql" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\backend\Gamma.Erp.Migrations\Gamma.Erp.Migrations.csproj" />
+    <ProjectReference Include="..\..\src\backend\Gamma.Erp.Seed\Gamma.Erp.Seed.csproj" />
+  </ItemGroup>
+</Project>

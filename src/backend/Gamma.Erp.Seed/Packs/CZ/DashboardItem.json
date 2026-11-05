@@ -1,0 +1,258 @@
+[
+ {
+  "Key": "dashboard_item:SALES",
+  "IdSup": null,
+  "Active": true,
+  "Code": "SALES",
+  "Name": {
+   "en": "Sales",
+   "cs": "Prodej"
+  },
+  "Kind": "Total",
+  "DocumentCategoryId": "document_category:SALES",
+  "SecondCategoryId": null,
+  "PartnerCategoryId": null,
+  "Negate": false,
+  "SortOrder": 1.0
+ },
+ {
+  "Key": "dashboard_item:PURCHASES",
+  "IdSup": null,
+  "Active": true,
+  "Code": "PURCHASES",
+  "Name": {
+   "en": "Purchases",
+   "cs": "Nákup"
+  },
+  "Kind": "Total",
+  "DocumentCategoryId": "document_category:PURCHASES",
+  "SecondCategoryId": null,
+  "PartnerCategoryId": null,
+  "Negate": true,
+  "SortOrder": 2.0
+ },
+ {
+  "Key": "dashboard_item:CLIENTS_OWE",
+  "IdSup": null,
+  "Active": true,
+  "Code": "CLIENTS_OWE",
+  "Name": {
+   "en": "Clients owe us",
+   "cs": "Pohledávky od klientů"
+  },
+  "Kind": "Balance",
+  "DocumentCategoryId": "document_category:SALES",
+  "SecondCategoryId": null,
+  "PartnerCategoryId": "partner_category:CLIENTS",
+  "Negate": false,
+  "SortOrder": 3.0
+ },
+ {
+  "Key": "dashboard_item:SUPPLIERS_OWED",
+  "IdSup": null,
+  "Active": true,
+  "Code": "SUPPLIERS_OWED",
+  "Name": {
+   "en": "We owe suppliers",
+   "cs": "Závazky vůči dodavatelům"
+  },
+  "Kind": "Balance",
+  "DocumentCategoryId": "document_category:PURCHASES",
+  "SecondCategoryId": null,
+  "PartnerCategoryId": "partner_category:SUPPLIERS",
+  "Negate": true,
+  "SortOrder": 4.0
+ },
+ {
+  "Key": "dashboard_item:DRAFTS",
+  "IdSup": null,
+  "Active": true,
+  "Code": "DRAFTS",
+  "Name": {
+   "en": "Drafts waiting",
+   "cs": "Čekající koncepty"
+  },
+  "Kind": "Drafts",
+  "DocumentCategoryId": "document_category:SALES",
+  "SecondCategoryId": "document_category:PURCHASES",
+  "PartnerCategoryId": null,
+  "Negate": false,
+  "SortOrder": 5.0
+ },
+ {
+  "Key": "dashboard_item:SALES_PURCHASES",
+  "IdSup": null,
+  "Active": true,
+  "Code": "SALES_PURCHASES",
+  "Name": {
+   "en": "Sales and purchases by month",
+   "cs": "Prodeje a nákupy podle měsíců"
+  },
+  "Kind": "Monthly",
+  "DocumentCategoryId": "document_category:SALES",
+  "SecondCategoryId": "document_category:PURCHASES",
+  "PartnerCategoryId": null,
+  "Negate": false,
+  "SortOrder": 6.0
+ },
+ {
+  "Key": "dashboard_item:VAT_BY_MONTH",
+  "IdSup": null,
+  "Active": true,
+  "Code": "VAT_BY_MONTH",
+  "Name": {
+   "en": "VAT by month",
+   "cs": "DPH podle měsíců"
+  },
+  "Kind": "MonthlyVat",
+  "DocumentCategoryId": "document_category:SALES",
+  "SecondCategoryId": "document_category:PURCHASES",
+  "PartnerCategoryId": null,
+  "Negate": false,
+  "SortOrder": 7.0
+ },
+ {
+  "Key": "dashboard_item:TOP_CLIENTS",
+  "IdSup": null,
+  "Active": true,
+  "Code": "TOP_CLIENTS",
+  "Name": {
+   "en": "Top clients",
+   "cs": "Nejlepší klienti"
+  },
+  "Kind": "TopPartners",
+  "DocumentCategoryId": "document_category:SALES",
+  "SecondCategoryId": null,
+  "PartnerCategoryId": null,
+  "Negate": false,
+  "SortOrder": 8.0
+ },
+ {
+  "Key": "dashboard_item:TOP_SUPPLIERS",
+  "IdSup": null,
+  "Active": true,
+  "Code": "TOP_SUPPLIERS",
+  "Name": {
+   "en": "Top suppliers",
+   "cs": "Nejlepší dodavatelé"
+  },
+  "Kind": "TopPartners",
+  "DocumentCategoryId": "document_category:PURCHASES",
+  "SecondCategoryId": null,
+  "PartnerCategoryId": null,
+  "Negate": false,
+  "SortOrder": 9.0
+ },
+ {
+  "Key": "dashboard_item:TOP_PRODUCTS",
+  "IdSup": null,
+  "Active": true,
+  "Code": "TOP_PRODUCTS",
+  "Name": {
+   "en": "Top products",
+   "cs": "Nejlepší produkty"
+  },
+  "Kind": "TopProducts",
+  "DocumentCategoryId": "document_category:SALES",
+  "SecondCategoryId": null,
+  "PartnerCategoryId": null,
+  "Negate": false,
+  "SortOrder": 10.0
+ },
+ {
+  "Key": "dashboard_item:SALES_BY_COST_CENTER",
+  "IdSup": null,
+  "Active": true,
+  "Code": "SALES_BY_COST_CENTER",
+  "Name": {
+   "en": "Sales by cost centre",
+   "cs": "Prodeje podle nákladových středisek"
+  },
+  "Kind": "ByCostCenter",
+  "DocumentCategoryId": "document_category:SALES",
+  "SecondCategoryId": null,
+  "PartnerCategoryId": null,
+  "Negate": false,
+  "SortOrder": 11.0
+ },
+ {
+  "Key": "dashboard_item:OVERDUE_CLIENTS",
+  "IdSup": null,
+  "Active": true,
+  "Code": "OVERDUE_CLIENTS",
+  "Name": {
+   "en": "Overdue from clients",
+   "cs": "Po splatnosti od klientů"
+  },
+  "Kind": "Overdue",
+  "DocumentCategoryId": "document_category:SALES",
+  "SecondCategoryId": null,
+  "PartnerCategoryId": null,
+  "Negate": false,
+  "SortOrder": 12.0
+ },
+ {
+  "Key": "dashboard_item:OVERDUE_SUPPLIERS",
+  "IdSup": null,
+  "Active": true,
+  "Code": "OVERDUE_SUPPLIERS",
+  "Name": {
+   "en": "Overdue to suppliers",
+   "cs": "Po splatnosti dodavatelům"
+  },
+  "Kind": "Overdue",
+  "DocumentCategoryId": "document_category:PURCHASES",
+  "SecondCategoryId": null,
+  "PartnerCategoryId": null,
+  "Negate": true,
+  "SortOrder": 13.0
+ },
+ {
+  "Key": "dashboard_item:GROSS_PROFIT",
+  "IdSup": null,
+  "Active": true,
+  "Code": "GROSS_PROFIT",
+  "Name": {
+   "en": "Gross profit",
+   "cs": "Hrubý zisk"
+  },
+  "Kind": "GrossProfit",
+  "DocumentCategoryId": "document_category:SALES",
+  "SecondCategoryId": null,
+  "PartnerCategoryId": null,
+  "Negate": false,
+  "SortOrder": 14.0
+ },
+ {
+  "Key": "dashboard_item:GROSS_PROFIT_BY_COST_CENTER",
+  "IdSup": null,
+  "Active": true,
+  "Code": "GROSS_PROFIT_BY_COST_CENTER",
+  "Name": {
+   "en": "Gross profit by cost centre",
+   "cs": "Hrubý zisk podle nákladového střediska"
+  },
+  "Kind": "GrossProfitByCostCenter",
+  "DocumentCategoryId": "document_category:SALES",
+  "SecondCategoryId": null,
+  "PartnerCategoryId": null,
+  "Negate": false,
+  "SortOrder": 15.0
+ },
+ {
+  "Key": "dashboard_item:TOP_COMBINED",
+  "IdSup": null,
+  "Active": true,
+  "Code": "TOP_COMBINED",
+  "Name": {
+   "en": "Top combined products",
+   "cs": "Nejlepší kombinované produkty"
+  },
+  "Kind": "TopCombined",
+  "DocumentCategoryId": "document_category:SALES",
+  "SecondCategoryId": null,
+  "PartnerCategoryId": null,
+  "Negate": false,
+  "SortOrder": 16.0
+ }
+]

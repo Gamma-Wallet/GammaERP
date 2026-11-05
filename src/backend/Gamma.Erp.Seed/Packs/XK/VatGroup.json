@@ -1,0 +1,41 @@
+[
+ {
+  "Key": "vat_group:XK_18",
+  "IdSup": null,
+  "Active": true,
+  "Code": null,
+  "Name": {
+   "en": "VAT 18%",
+   "sq": "TVSH 18%"
+  },
+  "Description": null,
+  "Rate": 18.0,
+  "Depreciation": false
+ },
+ {
+  "Key": "vat_group:XK_8",
+  "IdSup": null,
+  "Active": true,
+  "Code": null,
+  "Name": {
+   "en": "VAT 8%",
+   "sq": "TVSH 8%"
+  },
+  "Description": null,
+  "Rate": 8.0,
+  "Depreciation": false
+ },
+ {
+  "Key": "vat_group:XK_0",
+  "IdSup": null,
+  "Active": true,
+  "Code": null,
+  "Name": {
+   "en": "VAT 0%",
+   "sq": "TVSH 0%"
+  },
+  "Description": null,
+  "Rate": 0.0,
+  "Depreciation": false
+ }
+]

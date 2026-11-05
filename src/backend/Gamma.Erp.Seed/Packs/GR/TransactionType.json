@@ -1,0 +1,477 @@
+[
+ {
+  "Key": "transaction_type:ACCOUNT",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "ACCOUNT",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Account",
+   "el": "Λογαριασμός"
+  },
+  "Description": {
+   "en": "Account",
+   "el": "Λογαριασμός"
+  },
+  "SortOrder": 3.0
+ },
+ {
+  "Key": "transaction_type:ITEM",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "ITEM",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Item",
+   "el": "Είδος"
+  },
+  "Description": {
+   "en": "Item",
+   "el": "Είδος"
+  },
+  "SortOrder": 4.0
+ },
+ {
+  "Key": "transaction_type:FIXED_ASSET",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "FIXED_ASSET",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Fixed asset",
+   "el": "Πάγιο"
+  },
+  "Description": {
+   "en": "Fixed asset",
+   "el": "Πάγιο"
+  },
+  "SortOrder": 5.0
+ },
+ {
+  "Key": "transaction_type:SERVICE_ITEM",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "SERVICE_ITEM",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Service item",
+   "el": "Είδος (υπηρεσία)"
+  },
+  "Description": {
+   "en": "Service item",
+   "el": "Είδος (υπηρεσία)"
+  },
+  "SortOrder": 6.0
+ },
+ {
+  "Key": "transaction_type:SUPPLIER",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "SUPPLIER",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Supplier",
+   "el": "Προμηθευτής"
+  },
+  "Description": {
+   "en": "Supplier",
+   "el": "Προμηθευτής"
+  },
+  "SortOrder": 7.0
+ },
+ {
+  "Key": "transaction_type:CLIENT",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "CLIENT",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Client",
+   "el": "Πελάτης"
+  },
+  "Description": {
+   "en": "Client",
+   "el": "Πελάτης"
+  },
+  "SortOrder": 8.0
+ },
+ {
+  "Key": "transaction_type:CASH_DESK_ACCOUNT",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "CASH_DESK_ACCOUNT",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Cash desk account",
+   "el": "Λογαριασμός ταμείου"
+  },
+  "Description": {
+   "en": "Cash desk account",
+   "el": "Λογαριασμός ταμείου"
+  },
+  "SortOrder": 9.0
+ },
+ {
+  "Key": "transaction_type:BANK_ACCOUNT",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "BANK_ACCOUNT",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Bank account",
+   "el": "Τραπεζικός λογαριασμός"
+  },
+  "Description": {
+   "en": "Bank account",
+   "el": "Τραπεζικός λογαριασμός"
+  },
+  "SortOrder": 10.0
+ },
+ {
+  "Key": "transaction_type:STAFF",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "STAFF",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Staff",
+   "el": "Προσωπικό"
+  },
+  "Description": {
+   "en": "Staff",
+   "el": "Προσωπικό"
+  },
+  "SortOrder": 11.0
+ },
+ {
+  "Key": "transaction_type:DEPRECIATION",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "DEPRECIATION",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Depreciation",
+   "el": "Απόσβεση"
+  },
+  "Description": {
+   "en": "Depreciation",
+   "el": "Απόσβεση"
+  },
+  "SortOrder": 12.0
+ },
+ {
+  "Key": "transaction_type:REVALUATION",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "REVALUATION",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Revaluation",
+   "el": "Αναπροσαρμογή"
+  },
+  "Description": {
+   "en": "Revaluation",
+   "el": "Αναπροσαρμογή"
+  },
+  "SortOrder": 13.0
+ },
+ {
+  "Key": "transaction_type:FIXED_ASSET_SERVICE",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "FIXED_ASSET_SERVICE",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Fixed asset (service)",
+   "el": "Πάγιο (υπηρεσία)"
+  },
+  "Description": {
+   "en": "Fixed asset (service)",
+   "el": "Πάγιο (υπηρεσία)"
+  },
+  "SortOrder": 14.0
+ },
+ {
+  "Key": "transaction_type:COMBINED_ITEM",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "COMBINED_ITEM",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Combined item",
+   "el": "Σύνθετο είδος"
+  },
+  "Description": {
+   "en": "Combined item",
+   "el": "Σύνθετο είδος"
+  },
+  "SortOrder": 15.0
+ },
+ {
+  "Key": "transaction_type:CUSTOMS",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "CUSTOMS",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Customs",
+   "el": "Τελωνείο"
+  },
+  "Description": {
+   "en": "Customs",
+   "el": "Τελωνείο"
+  },
+  "SortOrder": 16.0
+ },
+ {
+  "Key": "transaction_type:TRANSPORT",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "TRANSPORT",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Transport",
+   "el": "Μεταφορά"
+  },
+  "Description": {
+   "en": "Transport",
+   "el": "Μεταφορά"
+  },
+  "SortOrder": 17.0
+ },
+ {
+  "Key": "transaction_type:CUSTOMS_AGENCY",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "CUSTOMS_AGENCY",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Customs agency",
+   "el": "Εκτελωνιστής"
+  },
+  "Description": {
+   "en": "Customs agency",
+   "el": "Εκτελωνιστής"
+  },
+  "SortOrder": 18.0
+ },
+ {
+  "Key": "transaction_type:CUSTOMS_ASSETS",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "CUSTOMS_ASSETS",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Customs, assets",
+   "el": "Τελωνείο παγίων"
+  },
+  "Description": {
+   "en": "Customs, assets",
+   "el": "Τελωνείο παγίων"
+  },
+  "SortOrder": 19.0
+ },
+ {
+  "Key": "transaction_type:TRANSPORT_ASSETS",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "TRANSPORT_ASSETS",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Transport, assets",
+   "el": "Μεταφορά παγίων"
+  },
+  "Description": {
+   "en": "Transport, assets",
+   "el": "Μεταφορά παγίων"
+  },
+  "SortOrder": 20.0
+ },
+ {
+  "Key": "transaction_type:CUSTOMS_AGENCY_ASSETS",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "CUSTOMS_AGENCY_ASSETS",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Customs agency, assets",
+   "el": "Εκτελωνιστής παγίων"
+  },
+  "Description": {
+   "en": "Customs agency, assets",
+   "el": "Εκτελωνιστής παγίων"
+  },
+  "SortOrder": 21.0
+ },
+ {
+  "Key": "transaction_type:RAW_MATERIAL",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "RAW_MATERIAL",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Raw material used",
+   "el": "Πρώτη ύλη που χρησιμοποιήθηκε"
+  },
+  "Description": {
+   "en": "Raw material used",
+   "el": "Πρώτη ύλη που χρησιμοποιήθηκε"
+  },
+  "SortOrder": 40.0
+ },
+ {
+  "Key": "transaction_type:PRODUCED_ITEM",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "PRODUCED_ITEM",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Produced item",
+   "el": "Παραχθέν προϊόν"
+  },
+  "Description": {
+   "en": "Produced item",
+   "el": "Παραχθέν προϊόν"
+  },
+  "SortOrder": 41.0
+ },
+ {
+  "Key": "transaction_type:WASTE",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "WASTE",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Waste",
+   "el": "Φύρα"
+  },
+  "Description": {
+   "en": "Waste",
+   "el": "Φύρα"
+  },
+  "SortOrder": 42.0
+ },
+ {
+  "Key": "transaction_type:DISASSEMBLED_ITEM",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "DISASSEMBLED_ITEM",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Product taken apart",
+   "el": "Προϊόν που αποσυναρμολογήθηκε"
+  },
+  "Description": {
+   "en": "Product taken apart",
+   "el": "Προϊόν που αποσυναρμολογήθηκε"
+  },
+  "SortOrder": 43.0
+ },
+ {
+  "Key": "transaction_type:RECOVERED_PART",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "RECOVERED_PART",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Recovered component",
+   "el": "Ανακτημένο συστατικό"
+  },
+  "Description": {
+   "en": "Recovered component",
+   "el": "Ανακτημένο συστατικό"
+  },
+  "SortOrder": 44.0
+ },
+ {
+  "Key": "transaction_type:DISASSEMBLY_WASTE",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "DISASSEMBLY_WASTE",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Disassembly waste",
+   "el": "Φύρα αποσυναρμολόγησης"
+  },
+  "Description": {
+   "en": "Disassembly waste",
+   "el": "Φύρα αποσυναρμολόγησης"
+  },
+  "SortOrder": 45.0
+ }
+]

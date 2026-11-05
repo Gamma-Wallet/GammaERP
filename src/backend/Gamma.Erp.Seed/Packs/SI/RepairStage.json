@@ -1,0 +1,68 @@
+[
+ {
+  "Key": "repair_stage:RECEIVED",
+  "IdSup": null,
+  "Active": true,
+  "Name": {
+   "en": "Received",
+   "sl": "Prejeto"
+  },
+  "SortOrder": 10.0,
+  "IsFinal": false
+ },
+ {
+  "Key": "repair_stage:OFFER_GIVEN",
+  "IdSup": null,
+  "Active": true,
+  "Name": {
+   "en": "Offer given",
+   "sl": "Ponudba dana"
+  },
+  "SortOrder": 20.0,
+  "IsFinal": false
+ },
+ {
+  "Key": "repair_stage:ACCEPTED",
+  "IdSup": null,
+  "Active": true,
+  "Name": {
+   "en": "Accepted",
+   "sl": "Sprejeta"
+  },
+  "SortOrder": 30.0,
+  "IsFinal": false
+ },
+ {
+  "Key": "repair_stage:READY",
+  "IdSup": null,
+  "Active": true,
+  "Name": {
+   "en": "Ready",
+   "sl": "Pripravljeno"
+  },
+  "SortOrder": 40.0,
+  "IsFinal": false
+ },
+ {
+  "Key": "repair_stage:COLLECTED",
+  "IdSup": null,
+  "Active": true,
+  "Name": {
+   "en": "Collected",
+   "sl": "Prevzeto"
+  },
+  "SortOrder": 50.0,
+  "IsFinal": true
+ },
+ {
+  "Key": "repair_stage:REFUSED",
+  "IdSup": null,
+  "Active": true,
+  "Name": {
+   "en": "Refused",
+   "sl": "Zavrnjena"
+  },
+  "SortOrder": 60.0,
+  "IsFinal": true
+ }
+]

@@ -1,0 +1,372 @@
+# Italy's chart of accounts: the "quadro dei conti" taught in Italian technical schools, ordered by the Civil Code's balance-sheet and
+# income-statement schemes (art. 2424 and 2425: assets 00-09, equity 10, liabilities 20-25, value of production 30-34, production costs
+# 40-50, financial, value adjustments, extraordinary items and taxes 60-67, closing accounts 70-72, memorandum accounts 80-82).
+# Source: Mondadori Education / Le Monnier, "Quadro dei conti di un'azienda costituita sotto forma di s.n.c." (Biblioteca di Economia
+# aziendale), https://libropiuweb.mondadorieducation.it/media/libropiu/contenuti/120900030758_fortuna_connoinaziendaplus/00_biblioteca/00_archivio/00_biblio_economia/pdf/Quadro%20dei%20conti-snc.pdf
+# Italian law prescribes the schemes, not a chart; this is the common one. Its sample clients, suppliers and partners (Socio X…) are left
+# out. Gamma's additions for companies (the source is a partnership's): 06.011.02, 06.015.02, 10.400, 10.500, 24.003.02, 67.001 (IRES and
+# the legal reserve). Names in Italian only (the founder: each country's chart keeps its own names); the English column is a reference.
+# code	Italian	English
+00	Crediti verso soci per versamenti ancora dovuti	Amounts due from shareholders
+00.001	Soci c/conferimenti	Shareholders, contributions due
+00.002	Soci c/reintegro	Shareholders, restoration of capital
+00.003	Soci c/prelevamenti	Shareholders, drawings
+01	Immobilizzazioni immateriali	Intangible assets
+01.000	Costi d'impianto	Start-up costs
+01.001	Costi di ampliamento	Expansion costs
+01.002	Costi di pubblicità da ammortizzare	Advertising costs to amortise
+01.005	Software	Software
+01.006	Marchi	Trademarks
+01.009	Avviamento	Goodwill
+01.011	Acconti su immobilizzazioni immateriali	Advances on intangible assets
+01.012	Oneri pluriennali da ammortizzare	Multi-year charges to amortise
+01.020	Fondo ammortamento costi d'impianto	Accumulated amortisation, start-up costs
+01.021	Fondo ammortamento costi di ampliamento	Accumulated amortisation, expansion costs
+01.022	Fondo ammortamento costi di pubblicità	Accumulated amortisation, advertising costs
+01.025	Fondo ammortamento software	Accumulated amortisation, software
+01.026	Fondo ammortamento marchi	Accumulated amortisation, trademarks
+01.029	Fondo ammortamento avviamento	Accumulated amortisation, goodwill
+01.030	Fondo ammortamento oneri pluriennali da ammortizzare	Accumulated amortisation, multi-year charges
+02	Immobilizzazioni materiali	Tangible assets
+02.000	Terreni	Land
+02.002	Fabbricati	Buildings
+02.005	Attrezzature commerciali	Commercial equipment
+02.006	Macchine d'ufficio	Office machines
+02.007	Elaboratori elettronici	Computers
+02.008	Arredamento	Furniture and fittings
+02.009	Automezzi	Vehicles
+02.010	Imballaggi durevoli	Durable packaging
+02.017	Immobilizzazioni materiali in corso	Tangible assets under construction
+02.018	Acconti su immobilizzazioni materiali	Advances on tangible assets
+02.020	Fondo ammortamento fabbricati	Accumulated depreciation, buildings
+02.023	Fondo ammortamento attrezzature commerciali	Accumulated depreciation, commercial equipment
+02.024	Fondo ammortamento macchine d'ufficio	Accumulated depreciation, office machines
+02.025	Fondo ammortamento elaboratori elettronici	Accumulated depreciation, computers
+02.026	Fondo ammortamento arredamento	Accumulated depreciation, furniture
+02.027	Fondo ammortamento automezzi	Accumulated depreciation, vehicles
+02.028	Fondo ammortamento imballaggi durevoli	Accumulated depreciation, durable packaging
+02.030	Fondo svalutazione fabbricati	Impairment, buildings
+02.032	Fondo svalutazione automezzi	Impairment, vehicles
+03	Immobilizzazioni finanziarie	Financial fixed assets
+03.003	Partecipazioni diverse	Other shareholdings
+03.009	Mutui attivi	Loans granted
+04	Rimanenze	Inventories
+04.000	Merci	Goods
+04.001	Imballaggi	Packaging
+04.002	Materiali di consumo	Consumables
+04.003	Materie prime	Raw materials
+04.004	Materie sussidiarie	Auxiliary materials
+04.005	Prodotti in lavorazione	Work in progress
+04.006	Semilavorati	Semi-finished products
+04.007	Lavori in corso su ordinazione	Contract work in progress
+04.008	Prodotti finiti	Finished products
+04.009	Anticipi a fornitori	Advances to suppliers
+05	Crediti commerciali	Trade receivables
+05.000	Crediti v/clienti	Trade receivables, clients
+05.001	Crediti v/clienti esteri	Trade receivables, foreign clients
+05.002	Clienti c/spese anticipate	Clients, expenses advanced
+05.003	Clienti c/fatture da emettere	Clients, invoices to issue
+05.004	Crediti insoluti	Unpaid receivables
+05.008	Crediti da liquidare	Receivables to settle
+05.009	Crediti per interessi di mora	Default interest receivable
+05.010	Cambiali attive	Bills receivable
+05.011	Cambiali allo sconto	Bills discounted
+05.012	Cambiali all'incasso	Bills for collection
+05.013	Effetti insoluti e protestati	Bills unpaid and protested
+05.100	Fondo svalutazione crediti	Allowance for doubtful receivables
+05.101	Fondo rischi su crediti	Receivables risk provision
+05.102	Fondo rischi su crediti per interessi di mora	Default interest risk provision
+06	Altri crediti	Other receivables
+06.001	Iva a credito	Input VAT
+06.011	Erario c/acconto imposte	Tax payments on account
+06.011.01	Erario c/acconto Irap	IRAP paid on account
+06.011.02	Erario c/acconto Ires	IRES paid on account
+06.011.03	Erario c/acconto Iva	VAT paid on account
+06.011.04	Erario c/acconto imposta sostitutiva Tfr	Severance substitute tax paid on account
+06.015	Crediti v/Erario per imposte	Tax receivables
+06.015.01	Crediti v/Erario per Irap	IRAP receivable
+06.015.02	Crediti v/Erario per Ires	IRES receivable
+06.015.03	Crediti v/Erario per Iva	VAT receivable
+06.025	Soci c/ritenute subite	Shareholders, withholding suffered
+06.030	Crediti v/Erario per imposte anticipate	Deferred tax assets
+06.051	Dipendenti c/anticipi	Advances to employees
+06.052	Crediti per cauzioni	Deposits paid
+06.053	Istituti previdenziali c/rimborsi	Social security refunds due
+06.054	Crediti v/Istituti previdenziali	Social security receivables
+06.055	Crediti diversi	Sundry receivables
+06.055.01	Fornitori c/spese anticipate	Suppliers, expenses advanced
+06.055.02	Fornitori c/caparre	Suppliers, deposits
+06.058	Crediti v/factor	Factor receivables
+06.059	Ente concedente c/contributi	Grants receivable
+07	Attività finanziarie che non costituiscono immobilizzazioni	Current financial assets
+07.008	Titoli obbligazionari	Bonds
+07.009	Titoli di Stato	Government securities
+07.010	Bot	Treasury bills
+07.015	Fondo svalutazione titoli	Securities impairment
+08	Disponibilità liquide	Cash and cash equivalents
+08.000	Banca X c/c	Bank X current account
+08.001	Banca Y c/c	Bank Y current account
+08.010	Banche c/c attivi	Bank current accounts
+08.100	C/c postale	Postal current account
+08.200	Assegni	Cheques
+08.202	Denaro in cassa	Cash in hand
+08.203	Valori bollati	Revenue stamps
+08.204	Altri valori in cassa	Other cash items
+08.205	Cedole	Coupons
+09	Ratei e risconti attivi	Accrued income and prepaid expenses
+09.000	Ratei attivi	Accrued income
+09.001	Risconti attivi	Prepaid expenses
+10	Patrimonio netto	Equity
+10.000	Capitale sociale	Share capital
+10.001	Soci c/versamenti in c/capitale	Shareholders' capital contributions
+10.400	Riserva legale	Legal reserve
+10.450	Riserva volontaria	Voluntary reserve
+10.500	Utili portati a nuovo	Retained earnings
+10.501	Perdite a nuovo	Losses carried forward
+10.600	Utile d'esercizio	Profit for the year
+10.602	Perdita d'esercizio	Loss for the year
+20	Fondi per rischi ed oneri	Provisions for risks and charges
+20.001	Fondo per imposte	Tax provision
+20.001.01	Fondo per rischi imposte	Tax risk provision
+20.001.02	Fondo per imposte differite	Deferred tax liabilities
+20.003	Fondo responsabilità civile	Civil liability provision
+20.008	Fondo per manutenzioni cicliche	Cyclical maintenance provision
+20.009	Fondo per interventi di garanzia	Warranty provision
+20.010	Fondo per buoni sconto e concorsi a premio	Discount vouchers and prize competitions provision
+21	Trattamento di fine rapporto di lavoro subordinato	Employee severance (TFR)
+21.000	Debiti per Tfr	Severance payable
+22	Debiti finanziari	Financial liabilities
+22.050	Soci c/finanziamenti	Shareholder loans
+22.102	Sovvenzioni bancarie	Bank loans
+22.103	Banche c/c passivi	Bank overdrafts
+22.104	Banche c/anticipazioni	Bank advances
+22.105	Banche c/Ri.Ba. all'incasso	Banks, Ri.Ba. for collection
+22.106	Banche c/cambiali all'incasso	Banks, bills for collection
+22.108	Mutui passivi	Mortgages and loans
+22.108.01	Mutui ipotecari	Mortgage loans
+22.108.02	Mutui non ipotecari	Unsecured loans
+22.112	Banca Z c/c	Bank Z current account
+23	Debiti commerciali	Trade payables
+23.000	Debiti v/fornitori	Trade payables, suppliers
+23.001	Debiti v/fornitori esteri	Trade payables, foreign suppliers
+23.003	Fornitori c/fatture da ricevere	Suppliers, invoices to receive
+23.004	Clienti c/anticipi	Clients, advances received
+23.005	Clienti c/caparre	Clients, deposits received
+23.006	Cambiali passive	Bills payable
+23.007	Debiti da liquidare	Payables to settle
+24	Altri debiti	Other payables
+24.000	Iva a debito	Output VAT
+24.001	Debiti v/Erario	Payables to the tax authority
+24.002	Erario c/ritenute da versare	Withholding tax to pay
+24.003	Debiti v/Erario per imposte	Taxes payable
+24.003.01	Debiti v/Erario per Irap	IRAP payable
+24.003.02	Debiti v/Erario per Ires	IRES payable
+24.003.03	Debiti v/Erario per Iva	VAT payable
+24.003.04	Debiti v/Erario per imposta sostitutiva Tfr	Severance substitute tax payable
+24.004	Debiti v/Erario per ritenute	Withholdings payable
+24.005	Debiti v/Istituti previdenziali	Social security payable
+24.006	Dipendenti c/retribuzioni	Wages payable
+24.007	Dipendenti c/liquidazioni	Severance due to employees
+24.008	Debiti per cauzioni	Deposits received
+24.009	Debiti v/factor	Factor payables
+24.010	Soci c/utili	Dividends payable
+24.012	Soci c/rimborsi	Shareholders, refunds due
+24.013	Soci c/liquidazione	Shareholders, liquidation due
+24.040	Debiti diversi	Sundry payables
+25	Ratei e risconti passivi	Accrued expenses and deferred income
+25.000	Ratei passivi	Accrued expenses
+25.001	Risconti passivi	Deferred income
+30	Ricavi delle vendite e delle prestazioni	Revenue from sales and services
+30.009	Vendite al minuto	Retail sales
+30.010	Vendite di merci	Sales of goods
+30.011	Vendite estero	Export sales
+30.012	Rimborsi spese di imballo	Packaging costs recharged
+30.013	Rimborsi spese di vendita	Selling costs recharged
+30.014	Rimborsi spese di trasporto	Transport costs recharged
+30.015	Resi su vendite	Sales returns
+30.016	Ribassi e abbuoni passivi	Discounts allowed
+30.017	Premi a clienti	Rebates to clients
+31	Variazioni delle rimanenze di prodotti in corso di lavorazione, semilavorati, finiti e dei lavori in corso su ordinazione	Change in work in progress and finished products
+31.000	Variazioni rimanenze prodotti in lavorazione	Change in work in progress
+31.001	Variazioni rimanenze semilavorati	Change in semi-finished products
+31.002	Variazioni rimanenze prodotti finiti	Change in finished products
+31.003	Variazioni lavori in corso su ordinazione	Change in contract work in progress
+32	Incrementi di immobilizzazioni per lavori interni	Own work capitalised
+32.000	Costruzioni interne	Own construction
+34	Altri ricavi e proventi	Other revenue and income
+34.001	Fitti attivi	Rental income
+34.002	Rimborsi spese varie	Sundry costs recharged
+34.005	Arrotondamenti attivi	Rounding gains
+34.006	Plusvalenze ordinarie	Ordinary capital gains
+34.007	Sopravvenienze attive ordinarie	Ordinary contingent gains
+34.010	Proventi vari	Sundry income
+34.100	Contributi in c/esercizio	Operating grants
+35	Prestazioni di servizi	Services rendered
+35.000	Ricavi per prestazioni di servizi	Revenue from services
+40	Costi per acquisti di materie prime, sussidiarie, di consumo e di merci	Purchases of materials and goods
+40.009	Apporti di merci	Goods contributed
+40.010	Acquisti merci	Purchases of goods
+40.011	Acquisti estero	Purchases from abroad
+40.012	Acquisti imballaggi	Purchases of packaging
+40.013	Acquisti materiali di consumo	Purchases of consumables
+40.014	Spese di imballo	Packaging costs
+40.015	Resi su acquisti	Purchase returns
+40.016	Ribassi e abbuoni attivi	Discounts received
+40.017	Premi da fornitori	Rebates from suppliers
+41	Costi per servizi	Services
+41.000	Costi prestazioni servizi	Services received
+41.001	Spese per consulenze professionali	Professional fees
+41.002	Provvigioni passive	Commissions paid
+41.003	Spese per collaborazioni	Collaborators
+41.006	Costi di trasporto	Transport
+41.007	Costi per energia elettrica	Electricity
+41.008	Costi per gas e acqua	Gas and water
+41.009	Manutenzioni e riparazioni	Maintenance and repairs
+41.010	Costi di pubblicità	Advertising
+41.011	Costi di assicurazione	Insurance
+41.012	Spese telefoniche	Telephone
+41.013	Spese postali	Postage
+41.016	Spese di incasso	Collection costs
+41.017	Commissioni bancarie	Bank charges
+41.019	Spese accessorie di acquisto	Incidental purchase costs
+41.020	Contributo ambientale Conai	CONAI environmental contribution
+41.031	Costi di ricerca e selezione del personale	Recruitment
+41.032	Costi di addestramento del personale	Staff training
+41.033	Costi per l'aggiornamento professionale	Professional development
+41.034	Costi per la formazione del personale	Staff education
+42	Costi per godimento di beni di terzi	Use of third-party assets
+42.001	Fitti passivi	Rent
+42.002	Canoni di leasing	Lease payments
+43	Costi per il personale	Staff costs
+43.001	Retribuzioni	Wages and salaries
+43.002	Oneri sociali	Social security contributions
+43.003	Trattamento di fine rapporto	Severance (TFR)
+43.008	Costi diversi per il personale	Other staff costs
+44	Ammortamenti immobilizzazioni immateriali	Amortisation of intangible assets
+44.000	Ammortamento costi d'impianto	Start-up costs
+44.001	Ammortamento costi di ampliamento	Expansion costs
+44.002	Ammortamento costi di pubblicità	Advertising costs
+44.005	Ammortamento software	Software
+44.006	Ammortamento marchi	Trademarks
+44.009	Ammortamento avviamento	Goodwill
+44.010	Ammortamento oneri pluriennali da ammortizzare	Multi-year charges
+45	Ammortamenti immobilizzazioni materiali	Depreciation of tangible assets
+45.002	Ammortamento fabbricati	Buildings
+45.005	Ammortamento attrezzature commerciali	Commercial equipment
+45.006	Ammortamento macchine d'ufficio	Office machines
+45.007	Ammortamento elaboratori elettronici	Computers
+45.008	Ammortamento arredamento	Furniture and fittings
+45.009	Ammortamento automezzi	Vehicles
+45.010	Ammortamento imballaggi durevoli	Durable packaging
+46	Svalutazioni	Write-downs
+46.000	Svalutazione immobilizzazioni immateriali	Intangible assets
+46.100	Svalutazione immobilizzazioni materiali	Tangible assets
+46.400	Svalutazioni crediti	Receivables
+46.405	Svalutazione crediti per interessi di mora	Default interest receivable
+47	Variazioni delle rimanenze di materie prime, sussidiarie, di consumo e merci	Change in inventories of materials and goods
+47.002	Variazioni rimanenze materiali di consumo	Consumables
+47.003	Variazioni rimanenze materie prime	Raw materials
+47.004	Variazioni rimanenze materie sussidiarie	Auxiliary materials
+47.010	Variazioni rimanenze merci	Goods
+47.011	Variazioni rimanenze imballaggi	Packaging
+48	Accantonamenti per rischi	Provisions for risks
+48.001	Accantonamento per rischi imposte	Tax risks
+48.002	Accantonamento per responsabilità civile	Civil liability
+48.100	Accantonamento rischi vari	Sundry risks
+49	Altri accantonamenti	Other provisions
+49.001	Accantonamento per manutenzioni cicliche	Cyclical maintenance
+49.002	Accantonamento per interventi di garanzia	Warranty
+49.003	Accantonamento per buoni sconto e concorsi a premio	Discount vouchers and prize competitions
+50	Oneri diversi di gestione	Other operating charges
+50.001	Oneri tributari	Taxes and duties
+50.002	Perdite su crediti	Bad debts
+50.004	Iva indetraibile	Non-deductible VAT
+50.006	Arrotondamenti passivi	Rounding losses
+50.007	Omaggi a clienti	Gifts to clients
+50.008	Imposta di bollo	Stamp duty
+50.009	Minusvalenze ordinarie	Ordinary capital losses
+50.010	Sopravvenienze passive ordinarie	Ordinary contingent losses
+50.011	Spese varie	Sundry expenses
+60	Proventi finanziari	Financial income
+60.010	Interessi su titoli	Interest on securities
+60.011	Utili su titoli	Gains on securities
+60.020	Interessi attivi bancari	Bank interest income
+60.021	Interessi attivi postali	Postal interest income
+60.022	Interessi attivi su mutui	Interest on loans granted
+60.023	Interessi attivi da clienti	Interest from clients
+60.024	Interessi attivi di mora	Default interest income
+60.025	Sconti attivi da fornitori	Cash discounts received
+60.026	Proventi finanziari diversi	Sundry financial income
+60.027	Interessi attivi da soci	Interest from shareholders
+60.028	Utili su cambi	Exchange gains
+60.029	Interessi attivi	Interest income
+60.100	Utili su partecipazioni	Income from shareholdings
+61	Oneri finanziari	Financial charges
+61.000	Interessi passivi bancari	Bank interest expense
+61.001	Interessi passivi su mutui	Loan interest expense
+61.002	Interessi passivi su sovvenzioni	Interest on bank loans
+61.003	Interessi passivi v/Erario	Interest to the tax authority
+61.004	Interessi passivi v/fornitori	Interest to suppliers
+61.005	Interessi passivi di mora	Default interest expense
+61.010	Perdite su titoli	Losses on securities
+61.011	Perdite su cambi	Exchange losses
+61.015	Sconti passivi bancari	Bank discount charges
+61.016	Sconti passivi a clienti	Cash discounts allowed
+61.017	Oneri finanziari diversi	Sundry financial charges
+61.018	Interessi passivi su factoring	Factoring interest
+61.030	Perdite su partecipazioni	Losses on shareholdings
+61.103	Interessi passivi v/soci	Interest to shareholders
+62	Rivalutazioni di attività finanziarie	Revaluation of financial assets
+62.000	Rivalutazioni partecipazioni	Shareholdings
+62.010	Rivalutazioni titoli obbligazionari	Bonds
+63	Svalutazioni di attività finanziarie	Write-downs of financial assets
+63.000	Svalutazioni partecipazioni	Shareholdings
+63.010	Svalutazioni titoli obbligazionari	Bonds
+65	Proventi straordinari	Extraordinary income
+65.000	Plusvalenze straordinarie	Extraordinary capital gains
+65.002	Sopravvenienze attive straordinarie	Extraordinary contingent gains
+65.003	Altri proventi straordinari	Other extraordinary income
+66	Oneri straordinari	Extraordinary charges
+66.000	Minusvalenze straordinarie	Extraordinary capital losses
+66.002	Sopravvenienze passive straordinarie	Extraordinary contingent losses
+66.005	Imposte relative a esercizi precedenti	Prior-year taxes
+67	Imposte sul reddito	Income taxes
+67.000	Irap dell'esercizio	IRAP for the year
+67.001	Ires dell'esercizio	IRES for the year
+70	Conti riepilogativi del Conto economico	Income statement closing accounts
+70.000	Conto economico	Income statement
+71	Conti riepilogativi dello Stato patrimoniale	Balance sheet closing accounts
+71.000	Stato patrimoniale iniziale	Opening balance sheet
+71.001	Stato patrimoniale finale	Closing balance sheet
+71.002	Erario c/Iva	VAT settlement
+71.003	Istituti previdenziali	Social security settlement
+71.004	Banche c/c	Bank settlement
+72	Conti di risultato	Result accounts
+72.001	Gestione titoli	Securities trading result
+80	Rischi	Risks
+80.000	Rischi di regresso su effetti scontati	Recourse risk on bills discounted
+80.001	Banche c/effetti scontati	Banks, bills discounted
+80.002	Rischi di regresso su effetti s.b.f.	Recourse risk on bills subject to collection
+80.003	Banche c/effetti incassati s.b.f.	Banks, bills collected subject to collection
+81	Impegni	Commitments
+81.000	Merci da ricevere	Goods to receive
+81.001	Fornitori c/impegni	Suppliers, commitments
+81.002	Clienti c/impegni	Clients, commitments
+81.003	Merci da consegnare	Goods to deliver
+81.004	Beni in leasing	Leased assets
+81.005	Creditori per beni in leasing	Lessors
+81.006	Fideiussioni di terzi	Third-party guarantees
+81.007	Creditori per fideiussioni	Guarantee creditors
+81.008	Avalli di terzi	Third-party endorsements
+81.009	Creditori per avalli	Endorsement creditors
+81.010	Debitori per fideiussioni	Guarantee debtors
+81.011	Fideiussioni per c/terzi	Guarantees given for third parties
+81.012	Debitori per avalli	Endorsement debtors
+81.013	Avalli per c/terzi	Endorsements given for third parties
+82	Beni di terzi	Third-party assets
+82.000	Beni di terzi in deposito	Third-party assets held
+82.001	Depositanti beni	Depositors of assets
+82.002	Titoli di terzi a cauzione	Third-party securities as deposit
+82.003	Depositanti titoli a cauzione	Depositors of securities
+82.004	Merci di terzi in deposito	Third-party goods held
+82.005	Depositanti merci	Depositors of goods

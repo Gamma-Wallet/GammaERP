@@ -1,0 +1,122 @@
+[
+ {
+  "Key": "chart_type:1",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "1",
+  "CodeStart": 0,
+  "CodeEnd": 99999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Class 1 – Non-current assets",
+   "hu": "Számlaosztály 1 – Befektetett eszközök"
+  },
+  "SortOrder": 10
+ },
+ {
+  "Key": "chart_type:2",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "2",
+  "CodeStart": 0,
+  "CodeEnd": 99999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Class 2 – Current assets",
+   "hu": "Számlaosztály 2 – Forgóeszközök"
+  },
+  "SortOrder": 20
+ },
+ {
+  "Key": "chart_type:3",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "3",
+  "CodeStart": 0,
+  "CodeEnd": 99999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Class 3 – Equity",
+   "hu": "Számlaosztály 3 – Saját tőke"
+  },
+  "SortOrder": 30
+ },
+ {
+  "Key": "chart_type:4",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "4",
+  "CodeStart": 0,
+  "CodeEnd": 99999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Class 4 – Liabilities",
+   "hu": "Számlaosztály 4 – Kötelezettségek"
+  },
+  "SortOrder": 40
+ },
+ {
+  "Key": "chart_type:5",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "5",
+  "CodeStart": 0,
+  "CodeEnd": 99999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Class 5 – Income",
+   "hu": "Számlaosztály 5 – Bevételek"
+  },
+  "SortOrder": 50
+ },
+ {
+  "Key": "chart_type:6",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "6",
+  "CodeStart": 0,
+  "CodeEnd": 99999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Class 6 – Purchases and cost of sales",
+   "hu": "Számlaosztály 6 – Beszerzések és az értékesítés költsége"
+  },
+  "SortOrder": 60
+ },
+ {
+  "Key": "chart_type:7",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "7",
+  "CodeStart": 0,
+  "CodeEnd": 99999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Class 7 – Expenses",
+   "hu": "Számlaosztály 7 – Költségek és ráfordítások"
+  },
+  "SortOrder": 70
+ },
+ {
+  "Key": "chart_type:8",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "8",
+  "CodeStart": 0,
+  "CodeEnd": 99999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Class 8 – Income tax",
+   "hu": "Számlaosztály 8 – Nyereségadók"
+  },
+  "SortOrder": 80
+ }
+]

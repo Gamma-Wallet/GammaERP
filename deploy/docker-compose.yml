@@ -1,0 +1,75 @@
+# Gamma ERP: PostgreSQL, the API (erp) and the screens (web, which also passes the API's paths to erp, so both share one address).
+# Copy .env.example to .env, set the values, then from this folder:
+#   docker compose up -d            (pulls the published images from ghcr.io)
+#   docker compose up -d --build    (builds the images from this checkout instead)
+name: gamma-erp
+services:
+  db:
+    image: postgres:16-alpine
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: ${POSTGRES_DB:-gamma_erp}
+      POSTGRES_USER: ${POSTGRES_USER:-gamma_erp}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:?set POSTGRES_PASSWORD in .env}
+    volumes:
+      - db-data:/var/lib/postgresql/data
+    ports:
+      - "127.0.0.1:${DB_PORT:-5433}:5432"
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U $${POSTGRES_USER} -d $${POSTGRES_DB}"]
+      interval: 5s
+      retries: 20
+
+  erp:
+    build:
+      context: ..
+      dockerfile: deploy/Dockerfile
+    image: ghcr.io/gamma-wallet/gamma-erp-api:${ERP_TAG:-gamma}
+    restart: unless-stopped
+    depends_on:
+      db:
+        condition: service_healthy
+    environment:
+      ConnectionStrings__Erp: "Host=db;Port=5432;Database=${POSTGRES_DB:-gamma_erp};Username=${POSTGRES_USER:-gamma_erp};Password=${POSTGRES_PASSWORD}"
+      MIGRATE_ON_START: ${MIGRATE_ON_START:-true}
+      Auth__RedirectUris__0: ${AUTH_REDIRECT_URI:-http://127.0.0.1:8090/signed-in}
+      Auth__RequireHttps: ${AUTH_REQUIRE_HTTPS:-true}
+      Auth__SignInLimitPerMinute: ${AUTH_SIGN_IN_LIMIT:-10}
+      # The MCP endpoint's public address, as Claude names it when it signs in (e.g. https://erp.example.com/mcp).
+      Mcp__Resources__0: ${MCP_RESOURCE:-http://127.0.0.1:8090/mcp}
+      ForwardedHeaders__Enabled: ${FORWARDED_HEADERS:-true}
+      Auth__SigningCertificate: ${AUTH_SIGNING_CERTIFICATE:-}
+      Auth__EncryptionCertificate: ${AUTH_ENCRYPTION_CERTIFICATE:-}
+      Auth__CertificatePassword: ${AUTH_CERTIFICATE_PASSWORD:-}
+      Files__MaxBytes: ${FILES_MAX_BYTES:-10485760}
+      Mail__Host: ${MAIL_HOST:-}
+      Mail__Port: ${MAIL_PORT:-587}
+      Mail__Security: ${MAIL_SECURITY:-StartTls}
+      Mail__User: ${MAIL_USER:-}
+      Mail__Password: ${MAIL_PASSWORD:-}
+      Mail__From: ${MAIL_FROM:-}
+    volumes:
+      - erp-data:/data
+      - ./certs:/certs:ro
+    # No port of its own: the screens' container is the way in.
+    healthcheck:
+      # No curl in the image: bash's own TCP.
+      test: ["CMD", "bash", "-c", "exec 3<>/dev/tcp/127.0.0.1/8080 && printf 'GET /health HTTP/1.0\\r\\n\\r\\n' >&3 && grep -q Healthy <&3"]
+      interval: 5s
+      retries: 30
+
+  web:
+    build:
+      context: ..
+      dockerfile: deploy/web.Dockerfile
+    image: ghcr.io/gamma-wallet/gamma-erp-web:${ERP_TAG:-gamma}
+    restart: unless-stopped
+    depends_on:
+      erp:
+        condition: service_healthy
+    ports:
+      - "127.0.0.1:${WEB_PORT:-8090}:8080"
+
+volumes:
+  db-data:
+  erp-data:

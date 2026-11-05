@@ -1,0 +1,18 @@
+[
+ {
+  "Key": "opportunity_type:STANDARD",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "OPP",
+  "CodeStart": 1,
+  "CodeEnd": 999999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Opportunity",
+   "et": "Võimalus"
+  },
+  "Description": null,
+  "SortOrder": 1.0
+ }
+]

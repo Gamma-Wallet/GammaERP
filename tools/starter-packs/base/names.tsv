@@ -1,0 +1,1051 @@
+# The names of the base rows by key, in English (the base) and in each pack language (Gamma's translations). Albanian as it is
+# written (sentence case, ë and ç). The charts are not here: each country has its own, in its own language.
+# key	field	en	sq	it	el
+cost_center_type:BASE	Name	Base	Bazë	Sede	Έδρα
+cost_center_type:BASE	Description	Base	Bazë	Sede	Έδρα
+cost_center_type:CASH_DESK	Name	Cash desk	Arka	Cassa	Ταμείο
+cost_center_type:CASH_DESK	Description	Cash desk	Arka	Cassa	Ταμείο
+cost_center_type:BANK	Name	Bank	Banka	Banca	Τράπεζα
+cost_center_type:BANK	Description	Bank	Banka	Banca	Τράπεζα
+cost_center_type:POINT_OF_SALE	Name	Point of sale	Pikë shitjeje	Punto vendita	Σημείο πώλησης
+cost_center_type:POINT_OF_SALE	Description	Point of sale	Pikë shitjeje	Punto vendita	Σημείο πώλησης
+cost_center_type:WAREHOUSE	Name	Warehouse	Magazina	Magazzino	Αποθήκη
+cost_center_type:WAREHOUSE	Description	Warehouse	Magazina	Magazzino	Αποθήκη
+cost_center_type:OFFICE	Name	Office	Zyrë	Ufficio	Γραφείο
+cost_center_type:OFFICE	Description	Office	Zyrë	Ufficio	Γραφείο
+cost_center_type_info:1	Name	Tax number	NIPT	Partita IVA	Αριθμός ΦΠΑ
+cost_center_type_info:1	Description	Tax number	NIPT	Partita IVA	Αριθμός ΦΠΑ
+cost_center_type_info:2	Name	Owner	Pronari	Titolare	Ιδιοκτήτης
+cost_center_type_info:2	Description	Owner	Pronari	Titolare	Ιδιοκτήτης
+cost_center_type_info:3	Name	Name	Emërtimi	Denominazione	Επωνυμία
+cost_center_type_info:3	Description	Name	Emërtimi	Denominazione	Επωνυμία
+cost_center_type_info:4	Name	Name	Emërtimi	Denominazione	Επωνυμία
+cost_center_type_info:4	Description	Name	Emërtimi	Denominazione	Επωνυμία
+cost_center_type_info:5	Name	Currency	Monedha	Valuta	Νόμισμα
+cost_center_type_info:5	Description	Currency	Monedha	Valuta	Νόμισμα
+cost_center_type_info:6	Name	Currency	Monedha	Valuta	Νόμισμα
+cost_center_type_info:6	Description	Currency	Monedha	Valuta	Νόμισμα
+cost_center_type_info:7	Name	Trade name	Emri tregtar	Nome commerciale	Εμπορική επωνυμία
+cost_center_type_info:7	Description	Trade name	Emri tregtar	Nome commerciale	Εμπορική επωνυμία
+cost_center_type_info:8	Name	Address	Adresa	Indirizzo	Διεύθυνση
+cost_center_type_info:8	Description	Address	Adresa	Indirizzo	Διεύθυνση
+cost_center_type_info:9	Name	Phone	Telefoni	Telefono	Τηλέφωνο
+cost_center_type_info:9	Description	Phone	Telefoni	Telefono	Τηλέφωνο
+cost_center_type_info:10	Name	E-mail	Email	E-mail	Email
+cost_center_type_info:10	Description	E-mail	Email	E-mail	Email
+cost_center_type_info:11	Name	Website	Faqja e internetit	Sito web	Ιστοσελίδα
+cost_center_type_info:11	Description	Website	Faqja e internetit	Sito web	Ιστοσελίδα
+cost_center_type_info:12	Name	Logo	Logoja	Logo	Λογότυπο
+cost_center_type_info:12	Description	Logo	Logoja	Logo	Λογότυπο
+cost_center_type_info:13	Name	Phone	Telefoni	Telefono	Τηλέφωνο
+cost_center_type_info:13	Description	Phone	Telefoni	Telefono	Τηλέφωνο
+cost_center_type_info:14	Name	Address	Adresa	Indirizzo	Διεύθυνση
+cost_center_type_info:14	Description	Address	Adresa	Indirizzo	Διεύθυνση
+cost_center_type_info:15	Name	Phone	Telefoni	Telefono	Τηλέφωνο
+cost_center_type_info:15	Description	Phone	Telefoni	Telefono	Τηλέφωνο
+cost_center_type_info:16	Name	E-mail	Email	E-mail	Email
+cost_center_type_info:16	Description	E-mail	Email	E-mail	Email
+cost_center_type_info:17	Name	Address	Adresa	Indirizzo	Διεύθυνση
+cost_center_type_info:17	Description	Address	Adresa	Indirizzo	Διεύθυνση
+cost_center_type_info:18	Name	Phone	Telefoni	Telefono	Τηλέφωνο
+cost_center_type_info:18	Description	Phone	Telefoni	Telefono	Τηλέφωνο
+cost_center_type_info:19	Name	Authorised person	Personi i autorizuar	Persona autorizzata	Εξουσιοδοτημένο πρόσωπο
+cost_center_type_info:19	Description	Authorised person	Personi i autorizuar	Persona autorizzata	Εξουσιοδοτημένο πρόσωπο
+cost_center_type_info:20	Name	Address	Adresa	Indirizzo	Διεύθυνση
+cost_center_type_info:20	Description	Address	Adresa	Indirizzo	Διεύθυνση
+cost_center_type_info:21	Name	Account	Llogaria	Conto	Λογαριασμός
+cost_center_type_info:22	Name	Account	Llogaria	Conto	Λογαριασμός
+cost_center_type_info:23	Name	Negative stock allowed (cost centres)	Gjendje negative e lejuar (qendrat e kostos)	Giacenza negativa consentita (centri di costo)	Επιτρέπεται αρνητικό απόθεμα (κέντρα κόστους)
+cost_center_type_info:23	Description	cost centres	qendrat e kostos	centri di costo	κέντρα κόστους
+cost_center_type_info:24	Name	Negative stock allowed (partners)	Gjendje negative e lejuar (partnerët)	Giacenza negativa consentita (partner)	Επιτρέπεται αρνητικό απόθεμα (συνεργάτες)
+cost_center_type_info:24	Description	partners	partnerët	partner	συνεργάτες
+cost_center_type_info:25	Name	Negative stock allowed (employees)	Gjendje negative e lejuar (punonjësit)	Giacenza negativa consentita (dipendenti)	Επιτρέπεται αρνητικό απόθεμα (υπάλληλοι)
+cost_center_type_info:25	Description	employees	punonjësit	dipendenti	υπάλληλοι
+cost_center_type_info:26	Name	Hold timeout (minutes)	Koha e mbajtjes së dokumentit (minuta)	Tempo di blocco del documento (minuti)	Χρόνος κράτησης εγγράφου (λεπτά)
+currency:ALL	Name	ALL	ALL	ALL	ALL
+currency:EUR	Name	EUR	EUR	EUR	EUR
+currency:USD	Name	USD	USD	USD	USD
+currency:GBP	Name	GBP	GBP	GBP	GBP
+currency:CAD	Name	CAD	CAD	CAD	CAD
+currency:CHF	Name	CHF	CHF	CHF	CHF
+depreciation_book:COMPANY	Name	Company book	Libri i kompanisë	Libro civilistico	Λογιστικό βιβλίο εταιρείας
+depreciation_book:COMPANY	Description	Company book	Libri i kompanisë	Libro civilistico	Λογιστικό βιβλίο εταιρείας
+depreciation_book:TAX	Name	Tax book	Libri i tatimeve	Libro fiscale	Φορολογικό βιβλίο
+depreciation_book:TAX	Description	Tax book	Libri i tatimeve	Libro fiscale	Φορολογικό βιβλίο
+depreciation_method:STRAIGHT_LINE	Name	Straight-line	Lineare	A quote costanti	Σταθερή μέθοδος
+depreciation_method:STRAIGHT_LINE	Description	Straight-line depreciation	Metoda lineare e amortizimit	Ammortamento a quote costanti	Απόσβεση με σταθερή μέθοδο
+depreciation_method:REMAINING_VALUE	Name	Remaining value	Vlera e mbetur	Valore residuo	Υπολειμματική αξία
+depreciation_method:REMAINING_VALUE	Description	Depreciation on the remaining value	Metoda e amortizimit sipas vlerës së mbetur	Ammortamento sul valore residuo	Απόσβεση επί της υπολειμματικής αξίας
+depreciation_scenario:assets	Name	Assets	Asete	Beni strumentali	Πάγια
+depreciation_scenario:assets:tax	Name	Assets	Asete	Beni strumentali	Πάγια
+depreciation_scenario:land	Name	Land	Toka	Terreni	Γη
+depreciation_scenario:land:tax	Name	Land	Toka	Terreni	Γη
+depreciation_scenario:buildings	Name	Buildings	Ndërtesa	Fabbricati	Κτίρια
+depreciation_scenario:buildings:tax	Name	Buildings	Ndërtesa	Fabbricati	Κτίρια
+depreciation_scenario:office	Name	Office equipment	Pajisje zyre	Macchine d'ufficio	Εξοπλισμός γραφείου
+depreciation_scenario:office:tax	Name	Office equipment	Pajisje zyre	Macchine d'ufficio	Εξοπλισμός γραφείου
+depreciation_scenario:vehicles	Name	Vehicles	Mjete transporti	Automezzi	Οχήματα
+depreciation_scenario:vehicles:tax	Name	Vehicles	Mjete transporti	Automezzi	Οχήματα
+depreciation_scenario:computers	Name	Computer equipment	Pajisje kompjuterike	Elaboratori elettronici	Ηλεκτρονικοί υπολογιστές
+depreciation_scenario:computers:tax	Name	Computer equipment	Pajisje kompjuterike	Elaboratori elettronici	Ηλεκτρονικοί υπολογιστές
+depreciation_scenario:furniture	Name	Furniture and fittings	Mobilieri dhe orendi	Arredamento	Έπιπλα και εξοπλισμός
+depreciation_scenario:furniture:tax	Name	Furniture and fittings	Mobilieri dhe orendi	Arredamento	Έπιπλα και εξοπλισμός
+depreciation_scenario:intangible	Name	Intangible assets	Aktive jomateriale	Immobilizzazioni immateriali	Άυλα πάγια
+depreciation_scenario:intangible:tax	Name	Intangible assets	Aktive jomateriale	Immobilizzazioni immateriali	Άυλα πάγια
+document_category:SALES	Name	Sales	Shitje	Vendite	Πωλήσεις
+document_category:SALES	Description	Sales invoices	Fatura shitjeje	Fatture di vendita	Τιμολόγια πώλησης
+document_category:PURCHASES	Name	Purchases	Blerje	Acquisti	Αγορές
+document_category:PURCHASES	Description	Purchase invoices	Fatura blerjeje	Fatture di acquisto	Τιμολόγια αγοράς
+document_category:TRANSFERS	Name	Goods transfers	Transferim malli	Trasferimenti merci	Μεταφορές εμπορευμάτων
+document_category:TRANSFERS	Description	Goods transfer note	Faturë transferimi malli	Documento di trasporto (DDT)	Δελτίο διακίνησης εμπορευμάτων
+document_category:CASH_DESK	Name	Cash desk	Arka	Cassa	Ταμείο
+document_category:CASH_DESK	Description	Cash desk	Arka	Cassa	Ταμείο
+document_category:BANK	Name	Bank	Banka	Banca	Τράπεζα
+document_category:BANK	Description	Bank	Banka	Banca	Τράπεζα
+document_category:OFFERS	Name	Offers	Oferta	Preventivi	Προσφορές
+document_category:OFFERS	Description	Offers	Oferta	Preventivi	Προσφορές
+document_category:JOURNAL	Name	Journal	Ditari	Prima nota	Ημερολόγιο
+document_category:JOURNAL	Description	Journal	Ditari	Prima nota	Ημερολόγιο
+document_category:CONTRACTS	Name	Contracts	Kontrata	Contratti	Συμβάσεις
+document_category:CONTRACTS	Description	Contracts	Kontrata	Contratti	Συμβάσεις
+document_category:RECURRING_JOURNAL	Name	Recurring journal	Ditari periodik	Prima nota ricorrente	Επαναλαμβανόμενο ημερολόγιο
+document_category:RECURRING_JOURNAL	Description	Recurring journal	Ditari periodik	Prima nota ricorrente	Επαναλαμβανόμενο ημερολόγιο
+document_category:REVERSALS	Name	Reversals	Stornime	Storni	Αντιλογισμοί
+document_type:SALES_INVOICE_GOODS	Name	Sales invoice, goods	Faturë shitjeje malli	Fattura di vendita merci	Τιμολόγιο πώλησης εμπορευμάτων
+document_type:SALES_INVOICE_GOODS	Description	Sales invoice, goods	Faturë shitjeje malli	Fattura di vendita merci	Τιμολόγιο πώλησης εμπορευμάτων
+document_type:CREDIT_NOTE_GOODS_SOLD	Name	Credit note, goods sold	Faturë kthimi shitjeje malli	Nota di credito vendita merci	Πιστωτικό σημείωμα πώλησης εμπορευμάτων
+document_type:CREDIT_NOTE_GOODS_SOLD	Description	Credit note, goods sold	Faturë kthimi shitjeje malli	Nota di credito vendita merci	Πιστωτικό σημείωμα πώλησης εμπορευμάτων
+document_type:SALES_INVOICE_SERVICES	Name	Sales invoice, services	Faturë shitjeje shërbimi	Fattura di vendita servizi	Τιμολόγιο παροχής υπηρεσιών
+document_type:SALES_INVOICE_SERVICES	Description	Sales invoice, services	Faturë shitjeje shërbimi	Fattura di vendita servizi	Τιμολόγιο παροχής υπηρεσιών
+document_type:CREDIT_NOTE_SERVICES_SOLD	Name	Credit note, services sold	Faturë kthimi shitjeje shërbimi	Nota di credito vendita servizi	Πιστωτικό σημείωμα παροχής υπηρεσιών
+document_type:CREDIT_NOTE_SERVICES_SOLD	Description	Credit note, services sold	Faturë kthimi shitjeje shërbimi	Nota di credito vendita servizi	Πιστωτικό σημείωμα παροχής υπηρεσιών
+document_type:PURCHASE_INVOICE_GOODS	Name	Purchase invoice, goods	Faturë blerjeje malli	Fattura di acquisto merci	Τιμολόγιο αγοράς εμπορευμάτων
+document_type:PURCHASE_INVOICE_GOODS	Description	Purchase invoice, goods	Faturë blerjeje malli	Fattura di acquisto merci	Τιμολόγιο αγοράς εμπορευμάτων
+document_type:CREDIT_NOTE_GOODS_BOUGHT	Name	Credit note, goods bought	Faturë kthimi blerjeje malli	Nota di credito acquisto merci	Πιστωτικό σημείωμα αγοράς εμπορευμάτων
+document_type:CREDIT_NOTE_GOODS_BOUGHT	Description	Credit note, goods bought	Faturë kthimi blerjeje malli	Nota di credito acquisto merci	Πιστωτικό σημείωμα αγοράς εμπορευμάτων
+document_type:PURCHASE_INVOICE_SERVICES	Name	Purchase invoice, services	Faturë blerjeje shërbimi	Fattura di acquisto servizi	Τιμολόγιο αγοράς υπηρεσιών
+document_type:PURCHASE_INVOICE_SERVICES	Description	Purchase invoice, services	Faturë blerjeje shërbimi	Fattura di acquisto servizi	Τιμολόγιο αγοράς υπηρεσιών
+document_type:CREDIT_NOTE_SERVICES_BOUGHT	Name	Credit note, services bought	Faturë kthimi blerjeje shërbimi	Nota di credito acquisto servizi	Πιστωτικό σημείωμα αγοράς υπηρεσιών
+document_type:CREDIT_NOTE_SERVICES_BOUGHT	Description	Credit note, services bought	Faturë kthimi blerjeje shërbimi	Nota di credito acquisto servizi	Πιστωτικό σημείωμα αγοράς υπηρεσιών
+document_type:GOODS_TRANSFER	Name	Goods transfer note	Faturë transferimi malli	Documento di trasporto (DDT)	Δελτίο διακίνησης εμπορευμάτων
+document_type:GOODS_TRANSFER	Description	Goods transfer note	Faturë transferimi malli	Documento di trasporto (DDT)	Δελτίο διακίνησης εμπορευμάτων
+document_type:PAYMENT	Name	Payment	Mandat pagese	Pagamento	Πληρωμή
+document_type:PAYMENT	Description	Payment	Mandat pagese	Pagamento	Πληρωμή
+document_type:RECEIPT	Name	Receipt	Mandat arkëtimi	Incasso	Είσπραξη
+document_type:RECEIPT	Description	Receipt	Mandat arkëtimi	Incasso	Είσπραξη
+document_type:PREPAYMENT	Name	Prepayment	Parapagim	Pagamento anticipato	Προπληρωμή
+document_type:PREPAYMENT	Description	Prepayment	Parapagim	Pagamento anticipato	Προπληρωμή
+document_type:GOODS_TRANSFER_TO_STAFF	Name	Goods transfer, cost centre to staff	Transferim malli nga qendra e kostos te personeli	DDT da centro di costo a personale	Διακίνηση από κέντρο κόστους σε προσωπικό
+document_type:GOODS_TRANSFER_TO_STAFF	Description	Goods transfer, cost centre to staff	Transferim malli nga qendra e kostos te personeli	DDT da centro di costo a personale	Διακίνηση από κέντρο κόστους σε προσωπικό
+document_type:SALES_OFFER_GOODS	Name	Sales offer, goods	Ofertë shitjeje malli	Preventivo di vendita merci	Προσφορά πώλησης εμπορευμάτων
+document_type:SALES_OFFER_GOODS	Description	Sales offer, goods	Ofertë shitjeje malli	Preventivo di vendita merci	Προσφορά πώλησης εμπορευμάτων
+document_type:DEPRECIATION_SHEET	Name	Depreciation sheet	Fletë amortizimi	Foglio ammortamenti	Φύλλο αποσβέσεων
+document_type:DEPRECIATION_SHEET	Description	Depreciation sheet	Fletë amortizimi	Foglio ammortamenti	Φύλλο αποσβέσεων
+document_type:DEPRECIATION_JOURNAL	Name	Depreciation journal	Regjistrim amortizimi	Registrazione ammortamenti	Εγγραφή αποσβέσεων
+document_type:DEPRECIATION_JOURNAL	Description	Depreciation journal	Regjistrim amortizimi	Registrazione ammortamenti	Εγγραφή αποσβέσεων
+document_type:JOURNAL_SHEET	Name	Journal sheet	Fletë kontabël	Foglio di prima nota	Φύλλο ημερολογίου
+document_type:JOURNAL_SHEET	Description	Journal sheet	Fletë kontabël	Foglio di prima nota	Φύλλο ημερολογίου
+document_type:JOURNAL_PAYMENT	Name	Payment	Mandat pagese	Pagamento	Πληρωμή
+document_type:JOURNAL_PAYMENT	Description	Payment	Mandat pagese	Pagamento	Πληρωμή
+document_type:JOURNAL_RECEIPT	Name	Receipt	Mandat arkëtimi	Incasso	Είσπραξη
+document_type:JOURNAL_RECEIPT	Description	Receipt	Mandat arkëtimi	Incasso	Είσπραξη
+document_type:JOURNAL_PREPAYMENT	Name	Prepayment	Parapagim	Pagamento anticipato	Προπληρωμή
+document_type:JOURNAL_PREPAYMENT	Description	Prepayment	Parapagim	Pagamento anticipato	Προπληρωμή
+document_type:REVALUATION_SHEET	Name	Revaluation sheet	Fletë rivlerësimi	Foglio rivalutazioni	Φύλλο αναπροσαρμογών
+document_type:REVALUATION_SHEET	Description	Revaluation sheet	Fletë rivlerësimi	Foglio rivalutazioni	Φύλλο αναπροσαρμογών
+document_type:REVALUATION_JOURNAL	Name	Revaluation journal	Regjistrim rivlerësimi	Registrazione rivalutazioni	Εγγραφή αναπροσαρμογής
+document_type:REVALUATION_JOURNAL	Description	Revaluation journal	Regjistrim rivlerësimi	Registrazione rivalutazioni	Εγγραφή αναπροσαρμογής
+document_type:ADVANCE	Name	Advance	Paradhënie	Anticipo	Προκαταβολή
+document_type:ADVANCE	Description	Client's advance	Paradhënie e klientit	Anticipo del cliente	Προκαταβολή πελάτη
+document_type:EMPLOYEE_ADVANCE	Name	Employee advance	Paradhënie punonjësi	Anticipo a dipendente	Προκαταβολή σε υπάλληλο
+document_type:EMPLOYEE_ADVANCE	Description	Advance to an employee	Paradhënie për punonjësin	Anticipo a un dipendente	Προκαταβολή σε υπάλληλο
+document_type:JOURNAL_ADVANCE	Name	Advance	Paradhënie	Anticipo	Προκαταβολή
+document_type:JOURNAL_ADVANCE	Description	Client's advance	Paradhënie klienti	Anticipo cliente	Προκαταβολή πελάτη
+document_type:JOURNAL_EMPLOYEE_ADVANCE	Name	Employee advance	Paradhënie punonjësi	Anticipo a dipendente	Προκαταβολή σε υπάλληλο
+document_type:JOURNAL_EMPLOYEE_ADVANCE	Description	Advance to an employee	Paradhënie për punonjësin	Anticipo a un dipendente	Προκαταβολή σε υπάλληλο
+document_type:SALES_CONTRACT_GOODS	Name	Sales contract, goods	Kontratë shitjeje malli	Contratto di vendita merci	Σύμβαση πώλησης εμπορευμάτων
+document_type:SALES_CONTRACT_GOODS	Description	Sales contract, goods	Kontratë shitjeje malli	Contratto di vendita merci	Σύμβαση πώλησης εμπορευμάτων
+document_type:PURCHASE_CONTRACT_GOODS	Name	Purchase contract, goods	Kontratë blerjeje malli	Contratto di acquisto merci	Σύμβαση αγοράς εμπορευμάτων
+document_type:PURCHASE_CONTRACT_GOODS	Description	Purchase contract, goods	Kontratë blerjeje malli	Contratto di acquisto merci	Σύμβαση αγοράς εμπορευμάτων
+document_type:PURCHASE_OFFER_GOODS	Name	Purchase offer, goods	Ofertë blerjeje malli	Richiesta d'offerta merci	Προσφορά αγοράς εμπορευμάτων
+document_type:PURCHASE_OFFER_GOODS	Description	Purchase offer, goods	Ofertë blerjeje malli	Richiesta d'offerta merci	Προσφορά αγοράς εμπορευμάτων
+document_type:SALES_OFFER_SERVICES	Name	Sales offer, services	Ofertë shitjeje shërbimi	Preventivo di vendita servizi	Προσφορά παροχής υπηρεσιών
+document_type:SALES_OFFER_SERVICES	Description	Sales offer, services	Ofertë shitjeje shërbimi	Preventivo di vendita servizi	Προσφορά παροχής υπηρεσιών
+document_type:PURCHASE_OFFER_SERVICES	Name	Purchase offer, services	Ofertë blerjeje shërbimi	Richiesta d'offerta servizi	Προσφορά αγοράς υπηρεσιών
+document_type:PURCHASE_OFFER_SERVICES	Description	Purchase offer, services	Ofertë blerjeje shërbimi	Richiesta d'offerta servizi	Προσφορά αγοράς υπηρεσιών
+document_type:SALES_CONTRACT_SERVICES	Name	Sales contract, services	Kontratë shitjeje shërbimi	Contratto di vendita servizi	Σύμβαση παροχής υπηρεσιών
+document_type:SALES_CONTRACT_SERVICES	Description	Sales contract, services	Kontratë shitjeje shërbimi	Contratto di vendita servizi	Σύμβαση παροχής υπηρεσιών
+document_type:PURCHASE_CONTRACT_SERVICES	Name	Purchase contract, services	Kontratë blerjeje shërbimi	Contratto di acquisto servizi	Σύμβαση αγοράς υπηρεσιών
+document_type:PURCHASE_CONTRACT_SERVICES	Description	Purchase contract, services	Kontratë blerjeje shërbimi	Contratto di acquisto servizi	Σύμβαση αγοράς υπηρεσιών
+document_type:RECURRING_DEPRECIATION_SHEET	Name	Recurring depreciation sheet	Fletë amortizimi periodike	Foglio ammortamenti ricorrente	Επαναλαμβανόμενο φύλλο αποσβέσεων
+document_type:RECURRING_JOURNAL_SHEET	Name	Recurring journal sheet	Fletë kontabël periodike	Prima nota ricorrente	Επαναλαμβανόμενο φύλλο ημερολογίου
+document_type:RECURRING_REVALUATION_SHEET	Name	Recurring revaluation sheet	Fletë rivlerësimi periodike	Foglio rivalutazioni ricorrente	Επαναλαμβανόμενο φύλλο αναπροσαρμογών
+document_type:GENERAL_JOURNAL_ENTRY	Name	General journal entry	Regjistrim i përgjithshëm	Scrittura generica	Γενική εγγραφή
+document_type:GENERAL_JOURNAL_ENTRY	Description	General journal entry	Regjistrim i përgjithshëm	Scrittura generica	Γενική εγγραφή
+document_type:POS_RECEIPT	Name	Point-of-sale receipt	Faturë POS	Documento commerciale	Απόδειξη λιανικής
+document_type:POS_RECEIPT	Description	Point-of-sale receipt	Faturë POS	Documento commerciale	Απόδειξη λιανικής
+document_type:GOODS_TRANSFER_FROM_STAFF	Name	Goods transfer, staff to cost centre	Transferim malli nga personeli te qendra e kostos	DDT da personale a centro di costo	Διακίνηση από προσωπικό σε κέντρο κόστους
+document_type:GOODS_TRANSFER_FROM_STAFF	Description	Goods transfer, staff to cost centre	Transferim malli nga personeli te qendra e kostos	DDT da personale a centro di costo	Διακίνηση από προσωπικό σε κέντρο κόστους
+document_type:GOODS_TRANSFER_TO_CLIENT	Name	Goods transfer, cost centre to client	Transferim malli nga qendra e kostos te klienti	DDT da centro di costo a cliente	Διακίνηση από κέντρο κόστους σε πελάτη
+document_type:GOODS_TRANSFER_TO_CLIENT	Description	Goods transfer, cost centre to client	Transferim malli nga qendra e kostos te klienti	DDT da centro di costo a cliente	Διακίνηση από κέντρο κόστους σε πελάτη
+document_type:GOODS_TRANSFER_FROM_CLIENT	Name	Goods transfer, client to cost centre	Transferim malli nga klienti te qendra e kostos	DDT da cliente a centro di costo	Διακίνηση από πελάτη σε κέντρο κόστους
+document_type:GOODS_TRANSFER_FROM_CLIENT	Description	Goods transfer, client to cost centre	Transferim malli nga klienti te qendra e kostos	DDT da cliente a centro di costo	Διακίνηση από πελάτη σε κέντρο κόστους
+document_type:POS_CONTRACT	Name	Point-of-sale contract	Kontratë POS	Contratto punto vendita	Σύμβαση σημείου πώλησης
+document_type:POS_CONTRACT	Description	Point-of-sale contract	Kontratë POS	Contratto punto vendita	Σύμβαση σημείου πώλησης
+document_type:POS_MONEY_IN	Name	Point-of-sale receipt of money	Mandat arkëtimi POS	Incasso punto vendita	Είσπραξη σημείου πώλησης
+document_type:POS_MONEY_IN	Description	Point-of-sale receipt of money	Mandat arkëtimi POS	Incasso punto vendita	Είσπραξη σημείου πώλησης
+document_type:POS_MONEY_OUT	Name	Point-of-sale payment	Mandat pagese POS	Pagamento punto vendita	Πληρωμή σημείου πώλησης
+document_type:POS_MONEY_OUT	Description	Point-of-sale payment	Mandat pagese POS	Pagamento punto vendita	Πληρωμή σημείου πώλησης
+document_type:POS_GOODS_IN	Name	Point-of-sale goods in	Fletë hyrje POS	Carico punto vendita	Παραλαβή σημείου πώλησης
+document_type:POS_GOODS_IN	Description	Point-of-sale goods in	Fletë hyrje POS	Carico punto vendita	Παραλαβή σημείου πώλησης
+document_type:POS_GOODS_OUT	Name	Point-of-sale goods out	Fletë dalje POS	Scarico punto vendita	Εξαγωγή σημείου πώλησης
+document_type:POS_GOODS_OUT	Description	Point-of-sale goods out	Fletë dalje POS	Scarico punto vendita	Εξαγωγή σημείου πώλησης
+document_type:WAGE_PAYMENT	Name	Wage payment	Mandat pagese pagash	Pagamento stipendi	Πληρωμή μισθών
+document_type:WAGE_PAYMENT	Description	Wage payment	Mandat pagese pagash	Pagamento stipendi	Πληρωμή μισθών
+document_type:RENT_PAYMENT	Name	Rent payment	Mandat pagese qiraje	Pagamento affitto	Πληρωμή ενοικίου
+document_type:RENT_PAYMENT	Description	Rent payment	Mandat pagese qiraje	Pagamento affitto	Πληρωμή ενοικίου
+document_type:CUSTOMS_DECLARATION	Name	Customs declaration	Deklaratë doganore	Bolletta doganale	Τελωνειακή διασάφηση
+document_type:CUSTOMS_DECLARATION	Description	Customs declaration	Deklaratë doganore	Bolletta doganale	Τελωνειακή διασάφηση
+document_type:CUSTOMS_DECLARATION_ASSETS	Name	Customs declaration, assets	Deklaratë doganore asetesh	Bolletta doganale beni strumentali	Τελωνειακή διασάφηση παγίων
+document_type:CUSTOMS_DECLARATION_ASSETS	Description	Customs declaration, assets	Deklaratë doganore asetesh	Bolletta doganale beni strumentali	Τελωνειακή διασάφηση παγίων
+document_type:POS_REVERSAL	Name	Point-of-sale reversal	Faturë stornimi POS	Storno documento commerciale	Αντιλογισμός λιανικής
+document_type:POS_REVERSAL	Description	Point-of-sale reversal	Faturë stornimi POS	Storno documento commerciale	Αντιλογισμός λιανικής
+document_type:POS_REFUND	Name	Point-of-sale refund	Mandat pagese kthimi POS	Rimborso punto vendita	Επιστροφή χρημάτων σημείου πώλησης
+document_type:POS_REFUND	Description	Point-of-sale refund	Mandat pagese kthimi POS	Rimborso punto vendita	Επιστροφή χρημάτων σημείου πώλησης
+document_type:POS_MONEY_FROM_STAFF	Name	Point-of-sale receipt from staff	Mandat arkëtimi nga personeli POS	Incasso da personale punto vendita	Είσπραξη από προσωπικό σημείου πώλησης
+document_type:POS_MONEY_FROM_STAFF	Description	Point-of-sale receipt from staff	Mandat arkëtimi nga personeli POS	Incasso da personale punto vendita	Είσπραξη από προσωπικό σημείου πώλησης
+document_type:GOODS_OUT_TO_STAFF	Name	Goods out to staff	Fletë dalje te personeli	Scarico a personale	Εξαγωγή σε προσωπικό
+document_type:GOODS_OUT_TO_STAFF	Description	Goods out to staff	Fletë dalje te personeli	Scarico a personale	Εξαγωγή σε προσωπικό
+document_type:GOODS_TRANSFER_STAFF_TO_CLIENT	Name	Goods transfer, staff to client	Transferim malli nga personeli te klienti	DDT da personale a cliente	Διακίνηση από προσωπικό σε πελάτη
+document_type:GOODS_TRANSFER_STAFF_TO_CLIENT	Description	Goods transfer, staff to client	Transferim malli nga personeli te klienti	DDT da personale a cliente	Διακίνηση από προσωπικό σε πελάτη
+document_type:GOODS_IN_FROM_STAFF	Name	Goods in from staff	Fletë hyrje nga personeli	Carico da personale	Παραλαβή από προσωπικό
+document_type:GOODS_IN_FROM_STAFF	Description	Goods in from staff	Fletë hyrje nga personeli	Carico da personale	Παραλαβή από προσωπικό
+document_type:REVERSAL_PAYMENT	Name	Reversal of payment	Kthim mandati pagese	Storno pagamento	Αντιλογισμός πληρωμής
+document_type:REVERSAL_RECEIPT	Name	Reversal of receipt	Kthim mandati arkëtimi	Storno incasso	Αντιλογισμός είσπραξης
+document_type:REVERSAL_PREPAYMENT	Name	Reversal of prepayment	Kthim parapagimi	Storno pagamento anticipato	Αντιλογισμός προπληρωμής
+document_type:REVERSAL_DEPRECIATION_JOURNAL	Name	Reversal of depreciation journal	Kthim regjistrimi amortizimi	Storno registrazione ammortamenti	Αντιλογισμός εγγραφής αποσβέσεων
+document_type:REVERSAL_JOURNAL_PAYMENT	Name	Reversal of payment	Kthim mandati pagese	Storno pagamento	Αντιλογισμός πληρωμής
+document_type:REVERSAL_JOURNAL_RECEIPT	Name	Reversal of receipt	Kthim mandati arkëtimi	Storno incasso	Αντιλογισμός είσπραξης
+document_type:REVERSAL_JOURNAL_PREPAYMENT	Name	Reversal of prepayment	Kthim parapagimi	Storno pagamento anticipato	Αντιλογισμός προπληρωμής
+document_type:REVERSAL_ADVANCE	Name	Reversal of advance	Kthim paradhënieje	Storno anticipo	Αντιλογισμός προκαταβολής
+document_type:REVERSAL_EMPLOYEE_ADVANCE	Name	Reversal of employee advance	Kthim paradhënieje punonjësi	Storno anticipo a dipendente	Αντιλογισμός προκαταβολής υπαλλήλου
+document_type:REVERSAL_JOURNAL_ADVANCE	Name	Reversal of advance	Kthim paradhënieje	Storno anticipo	Αντιλογισμός προκαταβολής
+document_type:REVERSAL_JOURNAL_EMPLOYEE_ADVANCE	Name	Reversal of employee advance	Kthim paradhënieje punonjësi	Storno anticipo a dipendente	Αντιλογισμός προκαταβολής υπαλλήλου
+document_type_info:1	Name	End date	Data e përfundimit	Data di fine	Ημερομηνία λήξης
+document_type_info:2	Name	Offer valid until	Vlefshmëria e ofertës	Validità del preventivo	Ισχύς προσφοράς
+document_type_info:2	Description	Offer valid until	Vlefshmëria e ofertës	Validità del preventivo	Ισχύς προσφοράς
+document_type_info:3	Name	End date	Data e përfundimit	Data di fine	Ημερομηνία λήξης
+document_type_info:4	Name	Start date	Data e fillimit	Data di inizio	Ημερομηνία έναρξης
+document_type_info:4	Description	Start date	Data e fillimit	Data di inizio	Ημερομηνία έναρξης
+document_type_info:5	Name	Start date	Data e fillimit	Data di inizio	Ημερομηνία έναρξης
+document_type_info:5	Description	Start date	Data e fillimit	Data di inizio	Ημερομηνία έναρξης
+document_type_info:6	Name	Start date	Data e fillimit	Data di inizio	Ημερομηνία έναρξης
+document_type_info:6	Description	Start date	Data e fillimit	Data di inizio	Ημερομηνία έναρξης
+document_type_info:7	Name	End date	Data e përfundimit	Data di fine	Ημερομηνία λήξης
+document_type_info:7	Description	End date	Data e përfundimit	Data di fine	Ημερομηνία λήξης
+document_type_info:8	Name	Start date	Data e fillimit	Data di inizio	Ημερομηνία έναρξης
+document_type_info:8	Description	Start date	Data e fillimit	Data di inizio	Ημερομηνία έναρξης
+document_type_info:9	Name	End date	Data e përfundimit	Data di fine	Ημερομηνία λήξης
+document_type_info:9	Description	End date	Data e përfundimit	Data di fine	Ημερομηνία λήξης
+document_type_info:18	Name	Start date	Data e fillimit	Data di inizio	Ημερομηνία έναρξης
+document_type_info:19	Name	End date	Data e përfundimit	Data di fine	Ημερομηνία λήξης
+document_type_info:20	Name	Contract number	Numri i kontratës	Numero del contratto	Αριθμός σύμβασης
+document_type_info:20	Description	Contract number	Numri i kontratës	Numero del contratto	Αριθμός σύμβασης
+document_type_info:22	Name	Carrier	Transportuesi	Vettore	Μεταφορέας
+document_type_info:22	Description	Carrier	Transportuesi	Vettore	Μεταφορέας
+document_type_info:25	Name	Purchase invoice	Fatura e blerjes	Fattura di acquisto	Τιμολόγιο αγοράς
+document_type_info:25	Description	Purchase invoice	Fatura e blerjes	Fattura di acquisto	Τιμολόγιο αγοράς
+document_type_info:26	Name	Purchase invoice	Fatura e blerjes	Fattura di acquisto	Τιμολόγιο αγοράς
+document_type_info:26	Description	Purchase invoice	Fatura e blerjes	Fattura di acquisto	Τιμολόγιο αγοράς
+document_type_info:27	Name	Last payment date	Data e pagesës së fundit	Data dell'ultimo pagamento	Ημερομηνία τελευταίας πληρωμής
+document_type_info:27	Description	Last payment date	Data e pagesës së fundit	Data dell'ultimo pagamento	Ημερομηνία τελευταίας πληρωμής
+elements:2	Name	Accounts	Llogaritë	Conti	Λογαριασμοί
+elements:3	Name	Products / services	Produkte / shërbime	Prodotti / servizi	Προϊόντα / υπηρεσίες
+elements:4	Name	Products / services	Produkte / shërbime	Prodotti / servizi	Προϊόντα / υπηρεσίες
+elements:5	Name	Products / services	Produkte / shërbime	Prodotti / servizi	Προϊόντα / υπηρεσίες
+elements:6	Name	Client / supplier / third party	Klient / furnitor / të tretë	Cliente / fornitore / terzi	Πελάτης / προμηθευτής / τρίτος
+elements:7	Name	Staff	Personeli	Personale	Προσωπικό
+elements:8	Name	Client / supplier / third party	Klient / furnitor / të tretë	Cliente / fornitore / terzi	Πελάτης / προμηθευτής / τρίτος
+elements:9	Name	Client / supplier / third party	Klient / furnitor / të tretë	Cliente / fornitore / terzi	Πελάτης / προμηθευτής / τρίτος
+elements:10	Name	cost centres	qendrat e kostos	centri di costo	κέντρα κόστους
+elements:11	Name	Client / supplier / third party	Klient / furnitor / të tretë	Cliente / fornitore / terzi	Πελάτης / προμηθευτής / τρίτος
+elements:12	Name	cost centres	qendrat e kostos	centri di costo	κέντρα κόστους
+elements:13	Name	Client / supplier / third party	Klient / furnitor / të tretë	Cliente / fornitore / terzi	Πελάτης / προμηθευτής / τρίτος
+elements:14	Name	Client / supplier / third party	Klient / furnitor / të tretë	Cliente / fornitore / terzi	Πελάτης / προμηθευτής / τρίτος
+elements:15	Name	cost centres	qendrat e kostos	centri di costo	κέντρα κόστους
+elements:16	Name	Client / supplier / third party	Klient / furnitor / të tretë	Cliente / fornitore / terzi	Πελάτης / προμηθευτής / τρίτος
+elements:17	Name	cost centres	qendrat e kostos	centri di costo	κέντρα κόστους
+elements:18	Name	cost centres	qendrat e kostos	centri di costo	κέντρα κόστους
+elements:19	Name	Client / supplier / third party	Klient / furnitor / të tretë	Cliente / fornitore / terzi	Πελάτης / προμηθευτής / τρίτος
+elements:20	Name	cost centres	qendrat e kostos	centri di costo	κέντρα κόστους
+elements:21	Name	cost centres	qendrat e kostos	centri di costo	κέντρα κόστους
+elements:22	Name	Client / supplier / third party	Klient / furnitor / të tretë	Cliente / fornitore / terzi	Πελάτης / προμηθευτής / τρίτος
+elements:23	Name	cost centres	qendrat e kostos	centri di costo	κέντρα κόστους
+elements:24	Name	Client / supplier / third party	Klient / furnitor / të tretë	Cliente / fornitore / terzi	Πελάτης / προμηθευτής / τρίτος
+elements:25	Name	cost centres	qendrat e kostos	centri di costo	κέντρα κόστους
+elements:26	Name	Client / supplier / third party	Klient / furnitor / të tretë	Cliente / fornitore / terzi	Πελάτης / προμηθευτής / τρίτος
+elements:27	Name	cost centres	qendrat e kostos	centri di costo	κέντρα κόστους
+elements:28	Name	Client / supplier / third party	Klient / furnitor / të tretë	Cliente / fornitore / terzi	Πελάτης / προμηθευτής / τρίτος
+elements:29	Name	Products / services	Produkte / shërbime	Prodotti / servizi	Προϊόντα / υπηρεσίες
+elements:30	Name	Accounts	Llogaritë	Conti	Λογαριασμοί
+elements:31	Name	Accounts	Llogaritë	Conti	Λογαριασμοί
+elements:32	Name	Client / supplier / third party	Klient / furnitor / të tretë	Cliente / fornitore / terzi	Πελάτης / προμηθευτής / τρίτος
+elements:33	Name	Client / supplier / third party	Klient / furnitor / të tretë	Cliente / fornitore / terzi	Πελάτης / προμηθευτής / τρίτος
+elements:34	Name	Client / supplier / third party	Klient / furnitor / të tretë	Cliente / fornitore / terzi	Πελάτης / προμηθευτής / τρίτος
+elements:35	Name	Client / supplier / third party	Klient / furnitor / të tretë	Cliente / fornitore / terzi	Πελάτης / προμηθευτής / τρίτος
+elements:36	Name	Client / supplier / third party	Klient / furnitor / të tretë	Cliente / fornitore / terzi	Πελάτης / προμηθευτής / τρίτος
+elements:37	Name	Client / supplier / third party	Klient / furnitor / të tretë	Cliente / fornitore / terzi	Πελάτης / προμηθευτής / τρίτος
+elements:38	Name	cost centres	qendrat e kostos	centri di costo	κέντρα κόστους
+elements:39	Name	cost centres	qendrat e kostos	centri di costo	κέντρα κόστους
+elements:40	Name	cost centres	qendrat e kostos	centri di costo	κέντρα κόστους
+elements:41	Name	cost centres	qendrat e kostos	centri di costo	κέντρα κόστους
+elements:42	Name	cost centres	qendrat e kostos	centri di costo	κέντρα κόστους
+elements:43	Name	cost centres	qendrat e kostos	centri di costo	κέντρα κόστους
+elements:44	Name	cost centres	qendrat e kostos	centri di costo	κέντρα κόστους
+elements:45	Name	cost centres	qendrat e kostos	centri di costo	κέντρα κόστους
+elements:46	Name	cost centres	qendrat e kostos	centri di costo	κέντρα κόστους
+elements:47	Name	Client / supplier / third party	Klient / furnitor / të tretë	Cliente / fornitore / terzi	Πελάτης / προμηθευτής / τρίτος
+elements:48	Name	Client / supplier / third party	Klient / furnitor / të tretë	Cliente / fornitore / terzi	Πελάτης / προμηθευτής / τρίτος
+elements:49	Name	Currency	Monedha	Valuta	Νόμισμα
+elements:50	Name	Currency	Monedha	Valuta	Νόμισμα
+elements:51	Name	cost centres	qendrat e kostos	centri di costo	κέντρα κόστους
+elements:52	Name	cost centres	qendrat e kostos	centri di costo	κέντρα κόστους
+elements:53	Name	cost centres	qendrat e kostos	centri di costo	κέντρα κόστους
+elements:54	Name	cost centres	qendrat e kostos	centri di costo	κέντρα κόστους
+elements:55	Name	cost centres	qendrat e kostos	centri di costo	κέντρα κόστους
+elements:56	Name	cost centres	qendrat e kostos	centri di costo	κέντρα κόστους
+elements:57	Name	cost centres	qendrat e kostos	centri di costo	κέντρα κόστους
+elements:58	Name	cost centres	qendrat e kostos	centri di costo	κέντρα κόστους
+elements:59	Name	Client / supplier / third party	Klient / furnitor / të tretë	Cliente / fornitore / terzi	Πελάτης / προμηθευτής / τρίτος
+elements:60	Name	cost centres	qendrat e kostos	centri di costo	κέντρα κόστους
+elements:61	Name	Client / supplier / third party	Klient / furnitor / të tretë	Cliente / fornitore / terzi	Πελάτης / προμηθευτής / τρίτος
+elements:62	Name	cost centres	qendrat e kostos	centri di costo	κέντρα κόστους
+elements:63	Name	Staff	Personeli	Personale	Προσωπικό
+elements:64	Name	Client / supplier / third party	Klient / furnitor / të tretë	Cliente / fornitore / terzi	Πελάτης / προμηθευτής / τρίτος
+elements:65	Name	cost centres	qendrat e kostos	centri di costo	κέντρα κόστους
+elements:66	Name	Client / supplier / third party	Klient / furnitor / të tretë	Cliente / fornitore / terzi	Πελάτης / προμηθευτής / τρίτος
+elements:67	Name	cost centres	qendrat e kostos	centri di costo	κέντρα κόστους
+elements:68	Name	cost centres	qendrat e kostos	centri di costo	κέντρα κόστους
+elements:69	Name	cost centres	qendrat e kostos	centri di costo	κέντρα κόστους
+elements:70	Name	Staff	Personeli	Personale	Προσωπικό
+elements:71	Name	cost centres	qendrat e kostos	centri di costo	κέντρα κόστους
+elements:72	Name	Client / supplier / third party	Klient / furnitor / të tretë	Cliente / fornitore / terzi	Πελάτης / προμηθευτής / τρίτος
+elements:73	Name	cost centres	qendrat e kostos	centri di costo	κέντρα κόστους
+elements:74	Name	cost centres	qendrat e kostos	centri di costo	κέντρα κόστους
+elements:75	Name	cost centres	qendrat e kostos	centri di costo	κέντρα κόστους
+elements:76	Name	cost centres	qendrat e kostos	centri di costo	κέντρα κόστους
+elements:77	Name	cost centres	qendrat e kostos	centri di costo	κέντρα κόστους
+elements:78	Name	cost centres	qendrat e kostos	centri di costo	κέντρα κόστους
+elements:79	Name	cost centres	qendrat e kostos	centri di costo	κέντρα κόστους
+elements:80	Name	cost centres	qendrat e kostos	centri di costo	κέντρα κόστους
+elements:81	Name	cost centres	qendrat e kostos	centri di costo	κέντρα κόστους
+elements:82	Name	cost centres	qendrat e kostos	centri di costo	κέντρα κόστους
+elements:83	Name	cost centres	qendrat e kostos	centri di costo	κέντρα κόστους
+elements:84	Name	cost centres	qendrat e kostos	centri di costo	κέντρα κόστους
+elements:85	Name	cost centres	qendrat e kostos	centri di costo	κέντρα κόστους
+elements:86	Name	cost centres	qendrat e kostos	centri di costo	κέντρα κόστους
+elements:87	Name	cost centres	qendrat e kostos	centri di costo	κέντρα κόστους
+elements:88	Name	cost centres	qendrat e kostos	centri di costo	κέντρα κόστους
+elements:89	Name	cost centres	qendrat e kostos	centri di costo	κέντρα κόστους
+elements:90	Name	cost centres	qendrat e kostos	centri di costo	κέντρα κόστους
+elements:91	Name	cost centres	qendrat e kostos	centri di costo	κέντρα κόστους
+elements:92	Name	cost centres	qendrat e kostos	centri di costo	κέντρα κόστους
+elements:93	Name	cost centres	qendrat e kostos	centri di costo	κέντρα κόστους
+elements:94	Name	cost centres	qendrat e kostos	centri di costo	κέντρα κόστους
+elements:95	Name	cost centres	qendrat e kostos	centri di costo	κέντρα κόστους
+elements:96	Name	cost centres	qendrat e kostos	centri di costo	κέντρα κόστους
+elements:97	Name	cost centres	qendrat e kostos	centri di costo	κέντρα κόστους
+elements:98	Name	cost centres	qendrat e kostos	centri di costo	κέντρα κόστους
+elements:99	Name	cost centres	qendrat e kostos	centri di costo	κέντρα κόστους
+elements:100	Name	cost centres	qendrat e kostos	centri di costo	κέντρα κόστους
+elements:101	Name	cost centres	qendrat e kostos	centri di costo	κέντρα κόστους
+elements:102	Name	cost centres	qendrat e kostos	centri di costo	κέντρα κόστους
+elements:103	Name	cost centres	qendrat e kostos	centri di costo	κέντρα κόστους
+elements:104	Name	cost centres	qendrat e kostos	centri di costo	κέντρα κόστους
+elements:105	Name	cost centres	qendrat e kostos	centri di costo	κέντρα κόστους
+elements:106	Name	cost centres	qendrat e kostos	centri di costo	κέντρα κόστους
+elements:107	Name	cost centres	qendrat e kostos	centri di costo	κέντρα κόστους
+elements:108	Name	Accounts	Llogaritë	Conti	Λογαριασμοί
+elements:109	Name	Accounts	Llogaritë	Conti	Λογαριασμοί
+elements:110	Name	Accounts	Llogaritë	Conti	Λογαριασμοί
+elements:111	Name	Accounts	Llogaritë	Conti	Λογαριασμοί
+elements:112	Name	Accounts	Llogaritë	Conti	Λογαριασμοί
+elements:113	Name	Accounts	Llogaritë	Conti	Λογαριασμοί
+elements:114	Name	Client / supplier / third party	Klient / furnitor / të tretë	Cliente / fornitore / terzi	Πελάτης / προμηθευτής / τρίτος
+elements:115	Name	Client / supplier / third party	Klient / furnitor / të tretë	Cliente / fornitore / terzi	Πελάτης / προμηθευτής / τρίτος
+elements:116	Name	Client / supplier / third party	Klient / furnitor / të tretë	Cliente / fornitore / terzi	Πελάτης / προμηθευτής / τρίτος
+elements:117	Name	Staff	Personeli	Personale	Προσωπικό
+elements:118	Name	Client / supplier / third party	Klient / furnitor / të tretë	Cliente / fornitore / terzi	Πελάτης / προμηθευτής / τρίτος
+elements:119	Name	Client / supplier / third party	Klient / furnitor / të tretë	Cliente / fornitore / terzi	Πελάτης / προμηθευτής / τρίτος
+elements:120	Name	Staff	Personeli	Personale	Προσωπικό
+elements:121	Name	cost centres	qendrat e kostos	centri di costo	κέντρα κόστους
+elements:122	Name	cost centres	qendrat e kostos	centri di costo	κέντρα κόστους
+elements:123	Name	Staff	Personeli	Personale	Προσωπικό
+elements:124	Name	Client / supplier / third party	Klient / furnitor / të tretë	Cliente / fornitore / terzi	Πελάτης / προμηθευτής / τρίτος
+elements:125	Name	Client / supplier / third party	Klient / furnitor / të tretë	Cliente / fornitore / terzi	Πελάτης / προμηθευτής / τρίτος
+elements:126	Name	Client / supplier / third party	Klient / furnitor / të tretë	Cliente / fornitore / terzi	Πελάτης / προμηθευτής / τρίτος
+elements:127	Name	cost centres	qendrat e kostos	centri di costo	κέντρα κόστους
+elements:128	Name	Products / services	Produkte / shërbime	Prodotti / servizi	Προϊόντα / υπηρεσίες
+elements:129	Name	Staff	Personeli	Personale	Προσωπικό
+elements:130	Name	cost centres	qendrat e kostos	centri di costo	κέντρα κόστους
+elements:131	Name	Client / supplier / third party	Klient / furnitor / të tretë	Cliente / fornitore / terzi	Πελάτης / προμηθευτής / τρίτος
+elements:132	Name	cost centres	qendrat e kostos	centri di costo	κέντρα κόστους
+elements:133	Name	Client / supplier / third party	Klient / furnitor / të tretë	Cliente / fornitore / terzi	Πελάτης / προμηθευτής / τρίτος
+elements:134	Name	cost centres	qendrat e kostos	centri di costo	κέντρα κόστους
+elements:135	Name	Staff	Personeli	Personale	Προσωπικό
+elements:136	Name	cost centres	qendrat e kostos	centri di costo	κέντρα κόστους
+elements:137	Name	cost centres	qendrat e kostos	centri di costo	κέντρα κόστους
+elements:138	Name	Client / supplier / third party	Klient / furnitor / të tretë	Cliente / fornitore / terzi	Πελάτης / προμηθευτής / τρίτος
+elements:139	Name	Staff	Personeli	Personale	Προσωπικό
+elements:140	Name	Staff	Personeli	Personale	Προσωπικό
+elements:141	Name	Staff	Personeli	Personale	Προσωπικό
+elements:142	Name	cost centres	qendrat e kostos	centri di costo	κέντρα κόστους
+elements:143	Name	cost centres	qendrat e kostos	centri di costo	κέντρα κόστους
+elements:144	Name	cost centres	qendrat e kostos	centri di costo	κέντρα κόστους
+elements:145	Name	Staff	Personeli	Personale	Προσωπικό
+elements:146	Name	Client / supplier / third party	Klient / furnitor / të tretë	Cliente / fornitore / terzi	Πελάτης / προμηθευτής / τρίτος
+elements:147	Name	Staff	Personeli	Personale	Προσωπικό
+elements:148	Name	cost centres	qendrat e kostos	centri di costo	κέντρα κόστους
+elements:149	Name	cost centres	qendrat e kostos	centri di costo	κέντρα κόστους
+elements:150	Name	Financial documents	Dokumente financiare	Documenti contabili	Λογιστικά παραστατικά
+elements:151	Name	Products / services	Produkte / shërbime	Prodotti / servizi	Προϊόντα / υπηρεσίες
+elements:152	Name	Products / services	Produkte / shërbime	Prodotti / servizi	Προϊόντα / υπηρεσίες
+elements:153	Name	Products / services	Produkte / shërbime	Prodotti / servizi	Προϊόντα / υπηρεσίες
+elements:154	Name	Client / supplier / third party	Klient / furnitor / të tretë	Cliente / fornitore / terzi	Πελάτης / προμηθευτής / τρίτος
+elements:155	Name	cost centres	qendrat e kostos	centri di costo	κέντρα κόστους
+elements:156	Name	Products / services	Produkte / shërbime	Prodotti / servizi	Προϊόντα / υπηρεσίες
+elements:157	Name	Products / services	Produkte / shërbime	Prodotti / servizi	Προϊόντα / υπηρεσίες
+elements:158	Name	Products / services	Produkte / shërbime	Prodotti / servizi	Προϊόντα / υπηρεσίες
+elements:159	Name	Products / services	Produkte / shërbime	Prodotti / servizi	Προϊόντα / υπηρεσίες
+elements:160	Name	Financial documents	Dokumente financiare	Documenti contabili	Λογιστικά παραστατικά
+elements:161	Name	Client / supplier / third party	Klient / furnitor / të tretë	Cliente / fornitore / terzi	Πελάτης / προμηθευτής / τρίτος
+elements:162	Name	cost centres	qendrat e kostos	centri di costo	κέντρα κόστους
+elements:163	Name	Client / supplier / third party	Klient / furnitor / të tretë	Cliente / fornitore / terzi	Πελάτης / προμηθευτής / τρίτος
+elements:164	Name	Client / supplier / third party	Klient / furnitor / të tretë	Cliente / fornitore / terzi	Πελάτης / προμηθευτής / τρίτος
+elements:165	Name	Client / supplier / third party	Klient / furnitor / të tretë	Cliente / fornitore / terzi	Πελάτης / προμηθευτής / τρίτος
+elements:166	Name	cost centres	qendrat e kostos	centri di costo	κέντρα κόστους
+elements:167	Name	Staff	Personeli	Personale	Προσωπικό
+elements:168	Name	cost centres	qendrat e kostos	centri di costo	κέντρα κόστους
+elements:169	Name	Client / supplier / third party	Klient / furnitor / të tretë	Cliente / fornitore / terzi	Πελάτης / προμηθευτής / τρίτος
+elements:170	Name	Staff	Personeli	Personale	Προσωπικό
+elements:171	Name	Staff	Personeli	Personale	Προσωπικό
+elements:172	Name	Staff	Personeli	Personale	Προσωπικό
+elements:173	Name	Client / supplier / third party	Klient / furnitor / të tretë	Cliente / fornitore / terzi	Πελάτης / προμηθευτής / τρίτος
+elements:174	Name	Transaction value	Vlera e transaksionit	Importo della riga	Αξία γραμμής
+elements:175	Name	Transaction discount	Vlera e uljes së transaksionit	Sconto della riga	Έκπτωση γραμμής
+elements:176	Name	Transaction VAT	Vlera e TVSH-së së transaksionit	IVA della riga	ΦΠΑ γραμμής
+elements:177	Name	Asset's remaining value	Vlera e mbetur e asetit	Valore residuo del bene	Αναπόσβεστη αξία παγίου
+elements:178	Name	Transaction debit	Vlera në debi e rreshtit të ditarit	Dare della riga	Χρέωση γραμμής
+elements:179	Name	Transaction credit	Vlera në kredi e rreshtit të ditarit	Avere della riga	Πίστωση γραμμής
+elements:180	Name	Transaction value with VAT	Vlera me TVSH e transaksionit	Importo della riga con IVA	Αξία γραμμής με ΦΠΑ
+elements:181	Name	Accounts	Llogaritë	Conti	Λογαριασμοί
+elements:chart_class:fixed_assets	Name	Non-current asset accounts	Llogaritë e klasës 2	Conti delle immobilizzazioni	Λογαριασμοί παγίων
+elements:chart_class:inventories	Name	Inventory accounts	Llogaritë e klasës 3	Conti delle rimanenze	Λογαριασμοί αποθεμάτων
+elements:chart_class:expenses	Name	Expense accounts	Llogaritë e klasës 6	Conti di costo	Λογαριασμοί εξόδων
+elements:chart_class:income	Name	Income accounts	Llogaritë e klasës 7	Conti di ricavo	Λογαριασμοί εσόδων
+elements:chart_all	Name	All accounts	Të gjitha llogaritë	Tutti i conti	Όλοι οι λογαριασμοί
+elements:187	Name	Assets	Asete	Beni strumentali	Πάγια
+elements:188	Name	Land	Toka	Terreni	Γη
+elements:189	Name	Buildings	Ndërtesa	Fabbricati	Κτίρια
+elements:190	Name	Office equipment	Pajisje zyre	Macchine d'ufficio	Εξοπλισμός γραφείου
+elements:191	Name	Vehicles	Mjete transporti	Automezzi	Οχήματα
+elements:192	Name	Computer equipment	Pajisje kompjuterike	Elaboratori elettronici	Ηλεκτρονικοί υπολογιστές
+elements:193	Name	Furniture and fittings	Mobilieri dhe orendi	Arredamento	Έπιπλα και εξοπλισμός
+elements:194	Name	Intangible assets	Aktive jomateriale	Immobilizzazioni immateriali	Άυλα πάγια
+elements_type:1	Name	table	tabele	tabella	πίνακας
+elements_type:2	Name	specified element	element i specifikuar	elemento specifico	συγκεκριμένο στοιχείο
+elements_type:3	Name	empty element	element bosh	elemento vuoto	κενό στοιχείο
+elements_type:4	Name	line reference	reference transaksionesh	riferimento righe	αναφορά γραμμών
+elements_type:5	Name	line configuration	konfigurim transaksionesh	configurazione righe	ρύθμιση γραμμών
+elements_type:6	Name	document reference	reference faturash	riferimento documenti	αναφορά παραστατικών
+elements_type:7	Name	document configuration	konfigurim faturash	configurazione documenti	ρύθμιση παραστατικών
+elements_type:8	Name	scenario configuration	konfigurim skenar	configurazione scenario	ρύθμιση σεναρίου
+elements_type:9	Name	depreciation scenario configuration	konfigurim skenar amortizimi	configurazione scenario di ammortamento	ρύθμιση σεναρίου αποσβέσεων
+elements_type:10	Name	depreciation scenario	skenar amortizimi	scenario di ammortamento	σενάριο αποσβέσεων
+elements_type:11	Name	Transaction amount	Shumë e transaksionit	Importo della riga	Ποσό γραμμής
+employee_category:FINANCE	Name	Finance	Financa	Amministrazione	Λογιστήριο
+employee_category:STAFF	Name	Staff	Personel	Personale	Προσωπικό
+employee_type:ADMINISTRATOR	Name	Administrator	Administrator	Amministratore	Διαχειριστής
+employee_type:FINANCIER	Name	Financier	Financier	Contabile	Λογιστής
+employee_type:WAREHOUSE	Name	Warehouse keeper	Magazinier	Magazziniere	Αποθηκάριος
+employee_type:DRIVER	Name	Driver	Shofer	Autista	Οδηγός
+employee_type:WORKER	Name	Worker	Punëtor	Operaio	Εργάτης
+partner_category:CLIENTS	Name	Clients	Klientë	Clienti	Πελάτες
+partner_category:SUPPLIERS	Name	Suppliers	Furnitorë	Fornitori	Προμηθευτές
+partner_type:UNKNOWN	Name	Unknown	I panjohur	Sconosciuto	Άγνωστος
+partner_type:PERSON	Name	Person	Individ	Persona fisica	Φυσικό πρόσωπο
+partner_type:SME	Name	SME	SME	PMI	ΜμΕ
+partner_type:LTD	Name	LTD	Sh.p.k.	S.r.l.	Ε.Π.Ε. (Ltd)
+partner_type:GROUP_COMPANY	Name	Company of the group	Kompani e grupit	Società del gruppo	Εταιρεία του ομίλου
+payment_method:CASH	Name	Cash	Para në dorë	Contanti	Μετρητά
+payment_method:CASH	Description	Cash	Para në dorë	Contanti	Μετρητά
+payment_method:UNPAID	Name	Unpaid	Pa pagesë	Non pagato	Απλήρωτο
+payment_method:UNPAID	Description	Unpaid	Pa pagesë	Non pagato	Απλήρωτο
+payment_method:CREDIT_CARD	Name	Credit card	Kartë krediti	Carta di credito	Πιστωτική κάρτα
+payment_method:CREDIT_CARD	Description	Credit card	Kartë krediti	Carta di credito	Πιστωτική κάρτα
+product_category:PRODUCT	Name	Products	Produkte	Prodotti	Προϊόντα
+product_category:SERVICE	Name	Services	Shërbime	Servizi	Υπηρεσίες
+product_category:ASSET	Name	Assets	Asete	Beni strumentali	Πάγια
+product_category:LAND	Name	Land	Toka	Terreni	Γη
+product_category:BUILDINGS	Name	Buildings	Ndërtesa	Fabbricati	Κτίρια
+product_category:OFFICE	Name	Office equipment	Pajisje zyre	Macchine d'ufficio	Εξοπλισμός γραφείου
+product_category:VEHICLES	Name	Vehicles	Mjete transporti	Automezzi	Οχήματα
+product_category:COMPUTERS	Name	Computer equipment	Pajisje kompjuterike	Elaboratori elettronici	Ηλεκτρονικοί υπολογιστές
+product_category:FURNITURE	Name	Furniture and fittings	Mobilieri dhe orendi	Arredamento	Έπιπλα και εξοπλισμός
+product_category:INTANGIBLE	Name	Intangible assets	Aktive jomateriale	Immobilizzazioni immateriali	Άυλα πάγια
+product_type:GOODS	Name	Goods	Mall	Merce	Εμπόρευμα
+product_type:SERVICE	Name	Service	Shërbim	Servizio	Υπηρεσία
+product_type:ASSET	Name	Asset	Aset	Bene strumentale	Πάγιο
+scenario:1	Name	All accounts	Të gjitha llogaritë	Tutti i conti	Όλοι οι λογαριασμοί
+scenario:2	Name	All accounts	Të gjitha llogaritë	Tutti i conti	Όλοι οι λογαριασμοί
+scenario:3	Name	All accounts	Të gjitha llogaritë	Tutti i conti	Όλοι οι λογαριασμοί
+scenario:4	Name	All accounts	Të gjitha llogaritë	Tutti i conti	Όλοι οι λογαριασμοί
+scenario:5	Name	All accounts	Të gjitha llogaritë	Tutti i conti	Όλοι οι λογαριασμοί
+scenario:6	Name	All accounts	Të gjitha llogaritë	Tutti i conti	Όλοι οι λογαριασμοί
+scenario:7	Name	All accounts	Të gjitha llogaritë	Tutti i conti	Όλοι οι λογαριασμοί
+scenario:8	Name	Income accounts	Llogaritë e klasës 7	Conti di ricavo	Λογαριασμοί εσόδων
+scenario:9	Name	Income accounts	Llogaritë e klasës 7	Conti di ricavo	Λογαριασμοί εσόδων
+scenario:10	Name	Income accounts	Llogaritë e klasës 7	Conti di ricavo	Λογαριασμοί εσόδων
+scenario:11	Name	Income accounts	Llogaritë e klasës 7	Conti di ricavo	Λογαριασμοί εσόδων
+scenario:12	Name	Non-current asset accounts	Llogaritë e klasës 2	Conti delle immobilizzazioni	Λογαριασμοί παγίων
+scenario:13	Name	Inventory accounts	Llogaritë e klasës 3	Conti delle rimanenze	Λογαριασμοί αποθεμάτων
+scenario:14	Name	Expense accounts	Llogaritë e klasës 6	Conti di costo	Λογαριασμοί εξόδων
+scenario:15	Name	Non-current asset accounts	Llogaritë e klasës 2	Conti delle immobilizzazioni	Λογαριασμοί παγίων
+scenario:16	Name	Inventory accounts	Llogaritë e klasës 3	Conti delle rimanenze	Λογαριασμοί αποθεμάτων
+scenario:17	Name	Expense accounts	Llogaritë e klasës 6	Conti di costo	Λογαριασμοί εξόδων
+scenario:18	Name	Non-current asset accounts	Llogaritë e klasës 2	Conti delle immobilizzazioni	Λογαριασμοί παγίων
+scenario:19	Name	Inventory accounts	Llogaritë e klasës 3	Conti delle rimanenze	Λογαριασμοί αποθεμάτων
+scenario:20	Name	Expense accounts	Llogaritë e klasës 6	Conti di costo	Λογαριασμοί εξόδων
+scenario:21	Name	Non-current asset accounts	Llogaritë e klasës 2	Conti delle immobilizzazioni	Λογαριασμοί παγίων
+scenario:22	Name	Inventory accounts	Llogaritë e klasës 3	Conti delle rimanenze	Λογαριασμοί αποθεμάτων
+scenario:23	Name	Expense accounts	Llogaritë e klasës 6	Conti di costo	Λογαριασμοί εξόδων
+scenario:24	Name	All accounts	Të gjitha llogaritë	Tutti i conti	Όλοι οι λογαριασμοί
+scenario:25	Name	All accounts	Të gjitha llogaritë	Tutti i conti	Όλοι οι λογαριασμοί
+scenario:26	Name	All accounts	Të gjitha llogaritë	Tutti i conti	Όλοι οι λογαριασμοί
+scenario:27	Name	Items	Artikuj	Articoli	Είδη
+scenario:28	Name	Items	Artikuj	Articoli	Είδη
+scenario:29	Name	Items	Artikuj	Articoli	Είδη
+scenario:30	Name	Items	Artikuj	Articoli	Είδη
+scenario:31	Name	Accounts	Llogari	Conto	Λογαριασμός
+scenario:32	Name	All accounts	Të gjitha llogaritë	Tutti i conti	Όλοι οι λογαριασμοί
+scenario:33	Name	All accounts	Të gjitha llogaritë	Tutti i conti	Όλοι οι λογαριασμοί
+scenario:34	Name	All accounts	Të gjitha llogaritë	Tutti i conti	Όλοι οι λογαριασμοί
+scenario:35	Name	Accounts	Llogari	Conto	Λογαριασμός
+scenario:36	Name	All accounts	Të gjitha llogaritë	Tutti i conti	Όλοι οι λογαριασμοί
+scenario:37	Name	All accounts	Të gjitha llogaritë	Tutti i conti	Όλοι οι λογαριασμοί
+scenario:38	Name	All accounts	Të gjitha llogaritë	Tutti i conti	Όλοι οι λογαριασμοί
+scenario:39	Name	All accounts	Të gjitha llogaritë	Tutti i conti	Όλοι οι λογαριασμοί
+scenario:40	Name	All accounts	Të gjitha llogaritë	Tutti i conti	Όλοι οι λογαριασμοί
+scenario:41	Name	All accounts	Të gjitha llogaritë	Tutti i conti	Όλοι οι λογαριασμοί
+scenario:42	Name	All accounts	Të gjitha llogaritë	Tutti i conti	Όλοι οι λογαριασμοί
+transaction_category:LINES	Name	Transactions	Rreshta	Righe	Γραμμές
+transaction_category:LINES	Description	Transactions	Rreshta	Righe	Γραμμές
+transaction_category:JOURNAL_LINES	Name	Journal lines	Rreshta ditari	Righe di prima nota	Γραμμές ημερολογίου
+transaction_category:JOURNAL_LINES	Description	Journal lines	Rreshta ditari	Righe di prima nota	Γραμμές ημερολογίου
+transaction_category:DEPRECIATION_LINES	Name	Depreciation lines	Rreshta amortizimi	Righe di ammortamento	Γραμμές αποσβέσεων
+transaction_category:DEPRECIATION_LINES	Description	Depreciation lines	Rreshta amortizimi	Righe di ammortamento	Γραμμές αποσβέσεων
+transaction_category:REVALUATION_LINES	Name	Revaluation lines	Rreshta rivlerësimi	Righe di rivalutazione	Γραμμές αναπροσαρμογής
+transaction_category:REVALUATION_LINES	Description	Revaluation lines	Rreshta rivlerësimi	Righe di rivalutazione	Γραμμές αναπροσαρμογής
+transaction_type:ACCOUNT	Name	Account	Llogari	Conto	Λογαριασμός
+transaction_type:ACCOUNT	Description	Account	Llogari	Conto	Λογαριασμός
+transaction_type:ITEM	Name	Item	Artikull	Articolo	Είδος
+transaction_type:ITEM	Description	Item	Artikull	Articolo	Είδος
+transaction_type:FIXED_ASSET	Name	Fixed asset	Aset afatgjatë	Bene strumentale	Πάγιο
+transaction_type:FIXED_ASSET	Description	Fixed asset	Aset afatgjatë	Bene strumentale	Πάγιο
+transaction_type:SERVICE_ITEM	Name	Service item	Artikull (shërbim)	Articolo (servizio)	Είδος (υπηρεσία)
+transaction_type:SERVICE_ITEM	Description	Service item	Artikull (shërbim)	Articolo (servizio)	Είδος (υπηρεσία)
+transaction_type:SUPPLIER	Name	Supplier	Furnitor	Fornitore	Προμηθευτής
+transaction_type:SUPPLIER	Description	Supplier	Furnitor	Fornitore	Προμηθευτής
+transaction_type:CLIENT	Name	Client	Klient	Cliente	Πελάτης
+transaction_type:CLIENT	Description	Client	Klient	Cliente	Πελάτης
+transaction_type:CASH_DESK_ACCOUNT	Name	Cash desk account	Llogari e arkës	Conto cassa	Λογαριασμός ταμείου
+transaction_type:CASH_DESK_ACCOUNT	Description	Cash desk account	Llogari e arkës	Conto cassa	Λογαριασμός ταμείου
+transaction_type:BANK_ACCOUNT	Name	Bank account	Llogari e bankës	Conto banca	Τραπεζικός λογαριασμός
+transaction_type:BANK_ACCOUNT	Description	Bank account	Llogari e bankës	Conto banca	Τραπεζικός λογαριασμός
+transaction_type:STAFF	Name	Staff	Personel	Personale	Προσωπικό
+transaction_type:STAFF	Description	Staff	Personel	Personale	Προσωπικό
+transaction_type:DEPRECIATION	Name	Depreciation	Amortizim	Ammortamento	Απόσβεση
+transaction_type:DEPRECIATION	Description	Depreciation	Amortizim	Ammortamento	Απόσβεση
+transaction_type:REVALUATION	Name	Revaluation	Rivlerësim	Rivalutazione	Αναπροσαρμογή
+transaction_type:REVALUATION	Description	Revaluation	Rivlerësim	Rivalutazione	Αναπροσαρμογή
+transaction_type:FIXED_ASSET_SERVICE	Name	Fixed asset (service)	Aset afatgjatë (shërbim)	Bene strumentale (servizio)	Πάγιο (υπηρεσία)
+transaction_type:FIXED_ASSET_SERVICE	Description	Fixed asset (service)	Aset afatgjatë (shërbim)	Bene strumentale (servizio)	Πάγιο (υπηρεσία)
+transaction_type:COMBINED_ITEM	Name	Combined item	Artikull i përbërë	Articolo composto	Σύνθετο είδος
+transaction_type:COMBINED_ITEM	Description	Combined item	Artikull i përbërë	Articolo composto	Σύνθετο είδος
+transaction_type:CUSTOMS	Name	Customs	Doganë	Dogana	Τελωνείο
+transaction_type:CUSTOMS	Description	Customs	Doganë	Dogana	Τελωνείο
+transaction_type:TRANSPORT	Name	Transport	Transport	Trasporto	Μεταφορά
+transaction_type:TRANSPORT	Description	Transport	Transport	Trasporto	Μεταφορά
+transaction_type:CUSTOMS_AGENCY	Name	Customs agency	Agjenci doganore	Spedizioniere doganale	Εκτελωνιστής
+transaction_type:CUSTOMS_AGENCY	Description	Customs agency	Agjenci doganore	Spedizioniere doganale	Εκτελωνιστής
+transaction_type:CUSTOMS_ASSETS	Name	Customs, assets	Doganë asetesh	Dogana beni strumentali	Τελωνείο παγίων
+transaction_type:CUSTOMS_ASSETS	Description	Customs, assets	Doganë asetesh	Dogana beni strumentali	Τελωνείο παγίων
+transaction_type:TRANSPORT_ASSETS	Name	Transport, assets	Transport asetesh	Trasporto beni strumentali	Μεταφορά παγίων
+transaction_type:TRANSPORT_ASSETS	Description	Transport, assets	Transport asetesh	Trasporto beni strumentali	Μεταφορά παγίων
+transaction_type:CUSTOMS_AGENCY_ASSETS	Name	Customs agency, assets	Agjenci doganore asetesh	Spedizioniere doganale beni strumentali	Εκτελωνιστής παγίων
+transaction_type:CUSTOMS_AGENCY_ASSETS	Description	Customs agency, assets	Agjenci doganore asetesh	Spedizioniere doganale beni strumentali	Εκτελωνιστής παγίων
+unit:PIECE	Name	Piece	Copë	Pezzo	Τεμάχιο
+unit:KG	Name	kg	kg	kg	kg
+unit:HOUR	Name	Hour	Orë	Ora	Ώρα
+unit:DAY	Name	Day	Ditë	Giorno	Ημέρα
+unit:MONTH	Name	Month	Muaj	Mese	Μήνας
+unit:YEAR	Name	Year	Vit	Anno	Έτος
+unit:G	Name	g	g	g	g
+unit:G	Description	g	g	g	g
+unit:CM	Name	cm	cm	cm	cm
+unit:CM	Description	cm	cm	cm	cm
+unit:M	Name	m	m	m	m
+unit:M	Description	m	m	m	m
+unit:MM	Name	mm	mm	mm	mm
+unit:MM	Description	mm	mm	mm	mm
+unit:KM	Name	km	km	km	km
+unit:KM	Description	km	km	km	km
+unit_category:STANDARD	Name	Standard	Standard	Standard	Τυποποιημένη
+unit_category:WEIGHT	Name	Weight	Peshë	Peso	Βάρος
+unit_category:TIME	Name	Time	Kohë	Tempo	Χρόνος
+unit_category:LENGTH	Name	Length	Gjatësi	Lunghezza	Μήκος
+unit_category:LENGTH	Description	Length	Gjatësi	Lunghezza	Μήκος
+unit_type:STANDARD	Name	Standard	Standard	Standard	Τυποποιημένη
+unit_type:STANDARD	Description	Standard	Standard	Standard	Τυποποιημένη
+unit_type:WEIGHT	Name	Weight	Peshë	Peso	Βάρος
+unit_type:WEIGHT	Description	Weight	Peshë	Peso	Βάρος
+unit_type:TIME	Name	Time	Kohë	Tempo	Χρόνος
+unit_type:TIME	Description	Time	Kohë	Tempo	Χρόνος
+unit_type:LENGTH	Name	Length	Gjatësi	Lunghezza	Μήκος
+unit_type:LENGTH	Description	Length	Gjatësi	Lunghezza	Μήκος
+user_category:ADMINISTRATOR	Name	Administrator	Administrator	Amministratore	Διαχειριστής
+user_category:FINANCE	Name	Finance	Financa	Amministrazione	Λογιστήριο
+user_category:SELLER	Name	Seller	Shitës	Venditore	Πωλητής
+user_category:WAREHOUSE	Name	Warehouse keeper	Magazinier	Magazziniere	Αποθηκάριος
+user_category:IT	Name	IT	IT	IT	Πληροφορική
+user_category:CONSULTANT	Name	Consultant	Konsulent	Consulente	Σύμβουλος
+vat_group:STANDARD	Name	VAT 20%	TVSH 20%	IVA 20%	ΦΠΑ 20%
+vat_group:ZERO	Name	VAT 0%	TVSH 0%	IVA 0%	ΦΠΑ 0%
+currency:MKD	Name	MKD	MKD	MKD	MKD
+currency:BGN	Name	BGN	BGN	BGN	BGN
+currency:CZK	Name	CZK	CZK	CZK	CZK
+currency:DKK	Name	DKK	DKK	DKK	DKK
+currency:HUF	Name	HUF	HUF	HUF	HUF
+currency:PLN	Name	PLN	PLN	PLN	PLN
+currency:RON	Name	RON	RON	RON	RON
+currency:SEK	Name	SEK	SEK	SEK	SEK
+cost_center_type:HALL	Name	Hall	Sallë	Sala	Αίθουσα
+cost_center_type:HALL	Description	Hall	Sallë	Sala	Αίθουσα
+cost_center_type:TABLE	Name	Table	Tavolinë	Tavolo	Τραπέζι
+cost_center_type:TABLE	Description	Table	Tavolinë	Tavolo	Τραπέζι
+cost_center_type:COUNTER	Name	Counter	Banak	Bancone	Πάγκος
+cost_center_type:COUNTER	Description	Counter	Banak	Bancone	Πάγκος
+cost_center_type:POS_RESTAURANT	Name	Restaurant / café	Restorant / kafe	Ristorante / bar	Εστιατόριο / καφέ
+cost_center_type:POS_RESTAURANT	Description	Restaurant / café	Restorant / kafe	Ristorante / bar	Εστιατόριο / καφέ
+cost_center_type:POS_SHOP	Name	Shop	Dyqan	Negozio	Κατάστημα
+cost_center_type:POS_SHOP	Description	Shop	Dyqan	Negozio	Κατάστημα
+cost_center_type:TILL	Name	Till	Arkë shitjeje	Cassa	Ταμειακή θέση
+cost_center_type:TILL	Description	Till	Arkë shitjeje	Cassa	Ταμειακή θέση
+cost_center_type:POS_EVENTS	Name	Cinema / theatre	Kinema / teatër	Cinema / teatro	Κινηματογράφος / θέατρο
+cost_center_type:POS_EVENTS	Description	Cinema / theatre	Kinema / teatër	Cinema / teatro	Κινηματογράφος / θέατρο
+cost_center_type:AUDITORIUM	Name	Auditorium	Sallë shfaqjesh	Sala spettacoli	Αίθουσα θεάματος
+cost_center_type:AUDITORIUM	Description	Auditorium	Sallë shfaqjesh	Sala spettacoli	Αίθουσα θεάματος
+cost_center_type:SEAT_ROW	Name	Row	Rresht	Fila	Σειρά
+cost_center_type:SEAT_ROW	Description	Row	Rresht	Fila	Σειρά
+cost_center_type:SEAT	Name	Seat	Vend	Posto	Θέση
+cost_center_type:SEAT	Description	Seat	Vend	Posto	Θέση
+cost_center_type:POS_STAYS	Name	Hotel	Hotel	Albergo	Ξενοδοχείο
+cost_center_type:POS_STAYS	Description	Hotel	Hotel	Albergo	Ξενοδοχείο
+cost_center_type:FLOOR	Name	Floor	Kat	Piano	Όροφος
+cost_center_type:FLOOR	Description	Floor	Kat	Piano	Όροφος
+cost_center_type:ROOM	Name	Room	Dhomë	Camera	Δωμάτιο
+cost_center_type:ROOM	Description	Room	Dhomë	Camera	Δωμάτιο
+cost_center_type_info:room_beds	Name	Beds	Shtretër	Letti	Κρεβάτια
+cost_center_type_info:14_pos_shop	Name	Address	Adresa	Indirizzo	Διεύθυνση
+cost_center_type_info:14_pos_shop	Description	Address	Adresa	Indirizzo	Διεύθυνση
+cost_center_type_info:14_pos_events	Name	Address	Adresa	Indirizzo	Διεύθυνση
+cost_center_type_info:14_pos_events	Description	Address	Adresa	Indirizzo	Διεύθυνση
+cost_center_type_info:14_pos_stays	Name	Address	Adresa	Indirizzo	Διεύθυνση
+cost_center_type_info:14_pos_stays	Description	Address	Adresa	Indirizzo	Διεύθυνση
+cost_center_type_info:15_pos_shop	Name	Phone	Telefoni	Telefono	Τηλέφωνο
+cost_center_type_info:15_pos_shop	Description	Phone	Telefoni	Telefono	Τηλέφωνο
+cost_center_type_info:15_pos_events	Name	Phone	Telefoni	Telefono	Τηλέφωνο
+cost_center_type_info:15_pos_events	Description	Phone	Telefoni	Telefono	Τηλέφωνο
+cost_center_type_info:15_pos_stays	Name	Phone	Telefoni	Telefono	Τηλέφωνο
+cost_center_type_info:15_pos_stays	Description	Phone	Telefoni	Telefono	Τηλέφωνο
+cost_center_type_info:16_pos_shop	Name	E-mail	Email	E-mail	Email
+cost_center_type_info:16_pos_shop	Description	E-mail	Email	E-mail	Email
+cost_center_type_info:16_pos_events	Name	E-mail	Email	E-mail	Email
+cost_center_type_info:16_pos_events	Description	E-mail	Email	E-mail	Email
+cost_center_type_info:16_pos_stays	Name	E-mail	Email	E-mail	Email
+cost_center_type_info:16_pos_stays	Description	E-mail	Email	E-mail	Email
+cost_center_type_info:table_x	Name	Position X	Pozicioni X	Posizione X	Θέση X
+cost_center_type_info:table_y	Name	Position Y	Pozicioni Y	Posizione Y	Θέση Y
+cost_center_type_info:table_seats	Name	Seats	Vende	Posti	Θέσεις
+cost_center_type_info:seat_x	Name	Position X	Pozicioni X	Posizione X	Θέση X
+cost_center_type_info:seat_y	Name	Position Y	Pozicioni Y	Posizione Y	Θέση Y
+document_type:PRODUCTION	Name	Production	Prodhim	Produzione	Παραγωγή
+document_type:PRODUCTION	Description	Production	Prodhim	Produzione	Παραγωγή
+document_type:UNIT_SPLIT	Name	Unit split	Ndarje në njësi tjetër	Conversione unità	Μετατροπή μονάδας
+document_type:UNIT_SPLIT	Description	Unit split	Ndarje në njësi tjetër	Conversione unità	Μετατροπή μονάδας
+document_type:REVERSAL_UNIT_SPLIT	Name	Reversal of unit split	Kthim ndarjeje në njësi	Storno conversione unità	Αντιλογισμός μετατροπής μονάδας
+document_type:REVERSAL_UNIT_SPLIT	Description	Reversal of unit split	Kthim ndarjeje në njësi	Storno conversione unità	Αντιλογισμός μετατροπής μονάδας
+transaction_type:RAW_MATERIAL	Name	Raw material used	Lëndë e parë e përdorur	Materia prima utilizzata	Πρώτη ύλη που χρησιμοποιήθηκε
+transaction_type:RAW_MATERIAL	Description	Raw material used	Lëndë e parë e përdorur	Materia prima utilizzata	Πρώτη ύλη που χρησιμοποιήθηκε
+transaction_type:PRODUCED_ITEM	Name	Produced item	Produkt i prodhuar	Prodotto finito	Παραχθέν προϊόν
+transaction_type:PRODUCED_ITEM	Description	Produced item	Produkt i prodhuar	Prodotto finito	Παραχθέν προϊόν
+transaction_type:WASTE	Name	Waste	Firo	Scarto di produzione	Φύρα
+transaction_type:WASTE	Description	Waste	Firo	Scarto di produzione	Φύρα
+document_category:PRODUCTION	Name	Production	Prodhim	Produzione	Παραγωγή
+document_category:PRODUCTION	Description	Production	Prodhim	Produzione	Παραγωγή
+product_type_info:BARCODE	Name	Barcode	Barkodi	Codice a barre	Γραμμωτός κώδικας
+product_type_info:BARCODE	Description	Barcode	Barkodi	Codice a barre	Γραμμωτός κώδικας
+elements:register_product	Name	Products and services	Produkte dhe shërbime	Prodotti e servizi	Προϊόντα και υπηρεσίες
+elements:register_unit	Name	Units of measure	Njësi matëse	Unità di misura	Μονάδες μέτρησης
+elements:register_user	Name	Users	Përdoruesit	Utenti	Χρήστες
+elements:register_document	Name	Documents	Dokumente	Documenti	Παραστατικά
+document_type:REVERSAL_JOURNAL_SHEET	Name	Reversal of journal sheet	Storno i fletës kontabël	Storno del foglio contabile	Αντιλογισμός λογιστικού φύλλου
+document_type:REVERSAL_JOURNAL_SHEET	Description	Reversal of journal sheet	Storno i fletës kontabël	Storno del foglio contabile	Αντιλογισμός λογιστικού φύλλου
+document_type:REVERSAL_DEPRECIATION_SHEET	Name	Reversal of depreciation sheet	Storno i fletës së amortizimit	Storno del foglio di ammortamento	Αντιλογισμός φύλλου αποσβέσεων
+document_type:REVERSAL_DEPRECIATION_SHEET	Description	Reversal of depreciation sheet	Storno i fletës së amortizimit	Storno del foglio di ammortamento	Αντιλογισμός φύλλου αποσβέσεων
+document_type:REVERSAL_GENERAL_JOURNAL_ENTRY	Name	Reversal of general journal entry	Storno i veprimit të përgjithshëm	Storno della scrittura generale	Αντιλογισμός γενικής εγγραφής
+document_type:REVERSAL_GENERAL_JOURNAL_ENTRY	Description	Reversal of general journal entry	Storno i veprimit të përgjithshëm	Storno della scrittura generale	Αντιλογισμός γενικής εγγραφής
+document_type:RECURRING_JOURNAL_PAYMENT	Name	Payment	Mandat pagese	Pagamento	Πληρωμή
+document_type:RECURRING_JOURNAL_PAYMENT	Description	Payment	Mandat pagese	Pagamento	Πληρωμή
+document_type:REVERSAL_RECURRING_JOURNAL_PAYMENT	Name	Reversal of payment	Kthim mandati pagese	Storno pagamento	Αντιλογισμός πληρωμής
+document_type:RECURRING_JOURNAL_RECEIPT	Name	Receipt	Mandat arkëtimi	Incasso	Είσπραξη
+document_type:RECURRING_JOURNAL_RECEIPT	Description	Receipt	Mandat arkëtimi	Incasso	Είσπραξη
+document_type:REVERSAL_RECURRING_JOURNAL_RECEIPT	Name	Reversal of receipt	Kthim mandati arkëtimi	Storno incasso	Αντιλογισμός είσπραξης
+document_type:RECURRING_JOURNAL_PREPAYMENT	Name	Prepayment	Parapagim	Pagamento anticipato	Προπληρωμή
+document_type:RECURRING_JOURNAL_PREPAYMENT	Description	Prepayment	Parapagim	Pagamento anticipato	Προπληρωμή
+document_type:REVERSAL_RECURRING_JOURNAL_PREPAYMENT	Name	Reversal of prepayment	Kthim parapagimi	Storno pagamento anticipato	Αντιλογισμός προπληρωμής
+document_type:RECURRING_JOURNAL_ADVANCE	Name	Advance	Paradhënie	Anticipo	Προκαταβολή
+document_type:RECURRING_JOURNAL_ADVANCE	Description	Client's advance	Paradhënie klienti	Anticipo cliente	Προκαταβολή πελάτη
+document_type:REVERSAL_RECURRING_JOURNAL_ADVANCE	Name	Reversal of advance	Kthim paradhënieje	Storno anticipo	Αντιλογισμός προκαταβολής
+document_type:RECURRING_JOURNAL_EMPLOYEE_ADVANCE	Name	Employee advance	Paradhënie punonjësi	Anticipo a dipendente	Προκαταβολή σε υπάλληλο
+document_type:RECURRING_JOURNAL_EMPLOYEE_ADVANCE	Description	Advance to an employee	Paradhënie për punonjësin	Anticipo a un dipendente	Προκαταβολή σε υπάλληλο
+document_type:REVERSAL_RECURRING_JOURNAL_EMPLOYEE_ADVANCE	Name	Reversal of employee advance	Kthim paradhënieje punonjësi	Storno anticipo a dipendente	Αντιλογισμός προκαταβολής υπαλλήλου
+document_type:RECURRING_GENERAL_JOURNAL_ENTRY	Name	General journal entry	Regjistrim i përgjithshëm	Scrittura generica	Γενική εγγραφή
+document_type:RECURRING_GENERAL_JOURNAL_ENTRY	Description	General journal entry	Regjistrim i përgjithshëm	Scrittura generica	Γενική εγγραφή
+document_type:REVERSAL_RECURRING_GENERAL_JOURNAL_ENTRY	Name	Reversal of general journal entry	Storno i veprimit të përgjithshëm	Storno della scrittura generale	Αντιλογισμός γενικής εγγραφής
+document_type:REVERSAL_RECURRING_GENERAL_JOURNAL_ENTRY	Description	Reversal of general journal entry	Storno i veprimit të përgjithshëm	Storno della scrittura generale	Αντιλογισμός γενικής εγγραφής
+document_type:REVERSAL_RECURRING_JOURNAL_SHEET	Name	Reversal of journal sheet	Storno i fletës kontabël	Storno del foglio contabile	Αντιλογισμός λογιστικού φύλλου
+document_type:REVERSAL_RECURRING_JOURNAL_SHEET	Description	Reversal of journal sheet	Storno i fletës kontabël	Storno del foglio contabile	Αντιλογισμός λογιστικού φύλλου
+document_type:RECURRING_DEPRECIATION_JOURNAL	Name	Depreciation journal	Regjistrim amortizimi	Registrazione ammortamenti	Εγγραφή αποσβέσεων
+document_type:RECURRING_DEPRECIATION_JOURNAL	Description	Depreciation journal	Regjistrim amortizimi	Registrazione ammortamenti	Εγγραφή αποσβέσεων
+document_type:REVERSAL_RECURRING_DEPRECIATION_JOURNAL	Name	Reversal of depreciation journal	Kthim regjistrimi amortizimi	Storno registrazione ammortamenti	Αντιλογισμός εγγραφής αποσβέσεων
+document_type:REVERSAL_RECURRING_DEPRECIATION_SHEET	Name	Reversal of depreciation sheet	Storno i fletës së amortizimit	Storno del foglio di ammortamento	Αντιλογισμός φύλλου αποσβέσεων
+document_type:REVERSAL_RECURRING_DEPRECIATION_SHEET	Description	Reversal of depreciation sheet	Storno i fletës së amortizimit	Storno del foglio di ammortamento	Αντιλογισμός φύλλου αποσβέσεων
+document_type:RECURRING_REVALUATION_JOURNAL	Name	Revaluation journal	Regjistrim rivlerësimi	Registrazione rivalutazioni	Εγγραφή αναπροσαρμογής
+document_type:RECURRING_REVALUATION_JOURNAL	Description	Revaluation journal	Regjistrim rivlerësimi	Registrazione rivalutazioni	Εγγραφή αναπροσαρμογής
+partner_type_info:UNKNOWN_TAX_NUMBER	Name	Tax number	NIPT	Partita IVA	Αριθμός ΦΠΑ
+partner_type_info:UNKNOWN_TAX_NUMBER	Description	Tax number	NIPT	Partita IVA	Αριθμός ΦΠΑ
+partner_type_info:UNKNOWN_CITY	Name	City	Qyteti	Città	Πόλη
+partner_type_info:UNKNOWN_CITY	Description	City	Qyteti	Città	Πόλη
+partner_type_info:UNKNOWN_ADDRESS	Name	Address	Adresa	Indirizzo	Διεύθυνση
+partner_type_info:UNKNOWN_ADDRESS	Description	Address	Adresa	Indirizzo	Διεύθυνση
+partner_type_info:UNKNOWN_PHONE	Name	Phone	Telefoni	Telefono	Τηλέφωνο
+partner_type_info:UNKNOWN_PHONE	Description	Phone	Telefoni	Telefono	Τηλέφωνο
+partner_type_info:UNKNOWN_EMAIL	Name	E-mail	Email	E-mail	Email
+partner_type_info:UNKNOWN_EMAIL	Description	E-mail	Email	E-mail	Email
+partner_type_info:PERSON_TAX_NUMBER	Name	Tax number	NIPT	Partita IVA	Αριθμός ΦΠΑ
+partner_type_info:PERSON_TAX_NUMBER	Description	Tax number	NIPT	Partita IVA	Αριθμός ΦΠΑ
+partner_type_info:PERSON_CITY	Name	City	Qyteti	Città	Πόλη
+partner_type_info:PERSON_CITY	Description	City	Qyteti	Città	Πόλη
+partner_type_info:PERSON_ADDRESS	Name	Address	Adresa	Indirizzo	Διεύθυνση
+partner_type_info:PERSON_ADDRESS	Description	Address	Adresa	Indirizzo	Διεύθυνση
+partner_type_info:PERSON_PHONE	Name	Phone	Telefoni	Telefono	Τηλέφωνο
+partner_type_info:PERSON_PHONE	Description	Phone	Telefoni	Telefono	Τηλέφωνο
+partner_type_info:PERSON_EMAIL	Name	E-mail	Email	E-mail	Email
+partner_type_info:PERSON_EMAIL	Description	E-mail	Email	E-mail	Email
+partner_type_info:SME_TAX_NUMBER	Name	Tax number	NIPT	Partita IVA	Αριθμός ΦΠΑ
+partner_type_info:SME_TAX_NUMBER	Description	Tax number	NIPT	Partita IVA	Αριθμός ΦΠΑ
+partner_type_info:SME_CITY	Name	City	Qyteti	Città	Πόλη
+partner_type_info:SME_CITY	Description	City	Qyteti	Città	Πόλη
+partner_type_info:SME_ADDRESS	Name	Address	Adresa	Indirizzo	Διεύθυνση
+partner_type_info:SME_ADDRESS	Description	Address	Adresa	Indirizzo	Διεύθυνση
+partner_type_info:SME_PHONE	Name	Phone	Telefoni	Telefono	Τηλέφωνο
+partner_type_info:SME_PHONE	Description	Phone	Telefoni	Telefono	Τηλέφωνο
+partner_type_info:SME_EMAIL	Name	E-mail	Email	E-mail	Email
+partner_type_info:SME_EMAIL	Description	E-mail	Email	E-mail	Email
+partner_type_info:LTD_TAX_NUMBER	Name	Tax number	NIPT	Partita IVA	Αριθμός ΦΠΑ
+partner_type_info:LTD_TAX_NUMBER	Description	Tax number	NIPT	Partita IVA	Αριθμός ΦΠΑ
+partner_type_info:LTD_CITY	Name	City	Qyteti	Città	Πόλη
+partner_type_info:LTD_CITY	Description	City	Qyteti	Città	Πόλη
+partner_type_info:LTD_ADDRESS	Name	Address	Adresa	Indirizzo	Διεύθυνση
+partner_type_info:LTD_ADDRESS	Description	Address	Adresa	Indirizzo	Διεύθυνση
+partner_type_info:LTD_PHONE	Name	Phone	Telefoni	Telefono	Τηλέφωνο
+partner_type_info:LTD_PHONE	Description	Phone	Telefoni	Telefono	Τηλέφωνο
+partner_type_info:LTD_EMAIL	Name	E-mail	Email	E-mail	Email
+partner_type_info:LTD_EMAIL	Description	E-mail	Email	E-mail	Email
+partner_type_info:GROUP_COMPANY_TAX_NUMBER	Name	Tax number	NIPT	Partita IVA	Αριθμός ΦΠΑ
+partner_type_info:GROUP_COMPANY_TAX_NUMBER	Description	Tax number	NIPT	Partita IVA	Αριθμός ΦΠΑ
+partner_type_info:GROUP_COMPANY_CITY	Name	City	Qyteti	Città	Πόλη
+partner_type_info:GROUP_COMPANY_CITY	Description	City	Qyteti	Città	Πόλη
+partner_type_info:GROUP_COMPANY_ADDRESS	Name	Address	Adresa	Indirizzo	Διεύθυνση
+partner_type_info:GROUP_COMPANY_ADDRESS	Description	Address	Adresa	Indirizzo	Διεύθυνση
+partner_type_info:GROUP_COMPANY_PHONE	Name	Phone	Telefoni	Telefono	Τηλέφωνο
+partner_type_info:GROUP_COMPANY_PHONE	Description	Phone	Telefoni	Telefono	Τηλέφωνο
+partner_type_info:GROUP_COMPANY_EMAIL	Name	E-mail	Email	E-mail	Email
+partner_type_info:GROUP_COMPANY_EMAIL	Description	E-mail	Email	E-mail	Email
+dashboard_item:SALES	Name	Sales	Shitjet	Vendite	Πωλήσεις
+dashboard_item:PURCHASES	Name	Purchases	Blerjet	Acquisti	Αγορές
+dashboard_item:CLIENTS_OWE	Name	Clients owe us	Klientët na detyrohen	Crediti verso clienti	Μας οφείλουν οι πελάτες
+dashboard_item:SUPPLIERS_OWED	Name	We owe suppliers	U detyrohemi furnitorëve	Debiti verso fornitori	Οφείλουμε στους προμηθευτές
+dashboard_item:DRAFTS	Name	Drafts waiting	Dokumente në pritje	Bozze in attesa	Πρόχειρα σε αναμονή
+dashboard_item:SALES_PURCHASES	Name	Sales and purchases by month	Shitjet dhe blerjet sipas muajve	Vendite e acquisti per mese	Πωλήσεις και αγορές ανά μήνα
+dashboard_item:VAT_BY_MONTH	Name	VAT by month	TVSH sipas muajve	IVA per mese	ΦΠΑ ανά μήνα
+dashboard_item:TOP_CLIENTS	Name	Top clients	Klientët kryesorë	Migliori clienti	Κορυφαίοι πελάτες
+dashboard_item:TOP_SUPPLIERS	Name	Top suppliers	Furnitorët kryesorë	Migliori fornitori	Κορυφαίοι προμηθευτές
+dashboard_item:TOP_PRODUCTS	Name	Top products	Produktet kryesore	Migliori prodotti	Κορυφαία προϊόντα
+dashboard_item:SALES_BY_COST_CENTER	Name	Sales by cost centre	Shitjet sipas qendrës së kostos	Vendite per centro di costo	Πωλήσεις ανά κέντρο κόστους
+migration_item:COST_CENTERS	Name	Warehouses, banks, cash desks and places	Magazina, banka, arka dhe vende	Magazzini, banche, casse e luoghi	Αποθήκες, τράπεζες, ταμεία και χώροι
+migration_item:PARTNER_CATEGORIES	Name	Client and supplier categories	Kategoritë e klientëve dhe furnitorëve	Categorie di clienti e fornitori	Κατηγορίες πελατών και προμηθευτών
+migration_item:PRODUCT_CATEGORIES	Name	Product categories	Kategoritë e produkteve	Categorie di prodotti	Κατηγορίες προϊόντων
+migration_item:UNITS	Name	Units	Njësitë	Unità	Μονάδες
+migration_item:PARTNERS	Name	Clients and suppliers	Klientët dhe furnitorët	Clienti e fornitori	Πελάτες και προμηθευτές
+migration_item:PRODUCTS	Name	Products and services	Produktet dhe shërbimet	Prodotti e servizi	Προϊόντα και υπηρεσίες
+migration_item:PRICES	Name	Sale prices	Çmimet e shitjes	Prezzi di vendita	Τιμές πώλησης
+migration_item:STAFF	Name	Staff	Personeli	Personale	Προσωπικό
+migration_item:RATES	Name	Exchange rates	Kurset e këmbimit	Tassi di cambio	Συναλλαγματικές ισοτιμίες
+migration_item:NUMBERS	Name	Next document numbers	Numrat e ardhshëm të dokumenteve	Prossimi numeri dei documenti	Επόμενοι αριθμοί εγγράφων
+migration_item:OPENING_PARTNERS	Name	Opening balances: clients and suppliers	Bilancet e çeljes: klientët dhe furnitorët	Saldi di apertura: clienti e fornitori	Υπόλοιπα έναρξης: πελάτες και προμηθευτές
+migration_item:OPENING_CASH	Name	Opening balances: banks, cash desks and staff	Bilancet e çeljes: bankat, arkat dhe personeli	Saldi di apertura: banche, casse e personale	Υπόλοιπα έναρξης: τράπεζες, ταμεία και προσωπικό
+migration_item:OPENING_CHART	Name	Opening balances: the chart	Bilancet e çeljes: plani kontabël	Saldi di apertura: il piano dei conti	Υπόλοιπα έναρξης: το λογιστικό σχέδιο
+migration_item:CHART	Name	Chart of accounts	Plani kontabël	Piano dei conti	Λογιστικό σχέδιο
+migration_item:POSTING_GROUPS	Name	Posting groups	Grupet e kontabilizimit	Gruppi di registrazione	Ομάδες λογιστικοποίησης
+migration_item:DOCUMENT_CATEGORIES	Name	Document categories	Kategoritë e dokumenteve	Categorie di documenti	Κατηγορίες εγγράφων
+migration_item:DOCUMENT_TYPES	Name	Document types	Llojet e dokumenteve	Tipi di documento	Τύποι εγγράφων
+migration_item:LINE_CATEGORIES	Name	Transaction categories	Kategoritë e transaksioneve	Categorie di transazione	Κατηγορίες συναλλαγών
+migration_item:LINE_TYPES	Name	Transaction types	Llojet e transaksioneve	Tipi di transazione	Τύποι συναλλαγών
+migration_item:LINE_KINDS	Name	Transaction types of document types	Transaksionet e llojeve të dokumenteve	Tipi di transazione dei tipi di documento	Τύποι συναλλαγών τύπων εγγράφων
+migration_item:OPENING_STOCK	Name	Opening balances: stock	Bilancet e çeljes: gjendja e mallrave	Saldi di apertura: magazzino	Υπόλοιπα έναρξης: απόθεμα
+migration_item:OPENING_ASSETS	Name	Opening balances: fixed assets	Bilancet e çeljes: aktivet afatgjata	Saldi di apertura: cespiti	Υπόλοιπα έναρξης: πάγια
+migration_item:VAT_GROUPS	Name	VAT groups	Grupet e TVSH-së	Gruppi IVA	Ομάδες ΦΠΑ
+migration_item:DOCUMENT_VAT_GROUPS	Name	VAT groups of document types	Grupet e TVSH-së të llojeve të dokumenteve	Gruppi IVA dei tipi di documento	Ομάδες ΦΠΑ τύπων εγγράφων
+migration_item:VAT_RETURN_BOXES	Name	VAT return boxes	Kutitë e deklaratës së TVSH-së	Caselle della dichiarazione IVA	Πεδία δήλωσης ΦΠΑ
+migration_item:VAT_RETURN_BOX_RULES	Name	VAT return box rules	Rregullat e kutive të deklaratës së TVSH-së	Regole delle caselle IVA	Κανόνες πεδίων δήλωσης ΦΠΑ
+elements:asset_cost	Name	Transaction asset cost	Kosto e aktivit të veprimit	Costo del cespite	Κόστος παγίου
+elements:asset_depreciated	Name	Transaction asset depreciation	Amortizimi i aktivit të veprimit	Ammortamento del cespite	Απόσβεση παγίου
+elements:asset_book_value	Name	Transaction asset book value	Vlera kontabël e aktivit të veprimit	Valore contabile del cespite	Λογιστική αξία παγίου
+partner:GENERAL	Name	General client	Klient i përgjithshëm	Cliente generico	Γενικός πελάτης
+dashboard_item:OVERDUE_CLIENTS	Name	Overdue from clients	Vonesa nga klientët	Scaduto dai clienti	Ληξιπρόθεσμα από πελάτες
+dashboard_item:OVERDUE_SUPPLIERS	Name	Overdue to suppliers	Vonesa ndaj furnitorëve	Scaduto verso fornitori	Ληξιπρόθεσμα σε προμηθευτές
+dashboard_item:GROSS_PROFIT	Name	Gross profit	Fitimi bruto	Utile lordo	Μικτό κέρδος
+dashboard_item:GROSS_PROFIT_BY_COST_CENTER	Name	Gross profit by cost centre	Fitimi bruto sipas qendrës së kostos	Utile lordo per centro di costo	Μικτό κέρδος ανά κέντρο κόστους
+dashboard_item:TOP_COMBINED	Name	Top combined products	Produktet e kombinuara kryesore	Prodotti combinati principali	Κορυφαία σύνθετα προϊόντα
+opportunity_category:SALES	Name	Sales opportunities	Mundësi shitjeje	Opportunità di vendita	Ευκαιρίες πώλησης
+opportunity_type:STANDARD	Name	Opportunity	Mundësi	Opportunità	Ευκαιρία
+opportunity_stage:QUALIFY	Name	Qualify	Vlerësim	Qualifica	Αξιολόγηση
+opportunity_stage:PROPOSE	Name	Propose	Ofertë	Proposta	Πρόταση
+opportunity_stage:NEGOTIATE	Name	Negotiate	Negocim	Trattativa	Διαπραγμάτευση
+opportunity_stage:WON	Name	Won	Fituar	Vinta	Κερδήθηκε
+opportunity_stage:LOST	Name	Lost	Humbur	Persa	Χάθηκε
+elements:register_opportunity	Name	Opportunities	Mundësitë	Opportunità	Ευκαιρίες
+partner_category:LEADS	Name	Leads	Kontakte të reja	Contatti	Υποψήφιοι πελάτες
+document_category:ORDERS	Name	Orders	Porositë	Ordini	Παραγγελίες
+document_category:ORDERS	Description	Orders	Porositë	Ordini	Παραγγελίες
+document_type:PURCHASE_REQUEST	Name	Purchase request	Kërkesë blerjeje	Richiesta di acquisto	Αίτηση αγοράς
+document_type:PURCHASE_REQUEST	Description	Purchase request	Kërkesë blerjeje	Richiesta di acquisto	Αίτηση αγοράς
+document_type:PURCHASE_ORDER	Name	Purchase order	Porosi blerjeje	Ordine di acquisto	Παραγγελία αγοράς
+document_type:PURCHASE_ORDER	Description	Purchase order	Porosi blerjeje	Ordine di acquisto	Παραγγελία αγοράς
+document_type:SALES_ORDER	Name	Sales order	Porosi shitjeje	Ordine di vendita	Παραγγελία πώλησης
+document_type:SALES_ORDER	Description	Sales order	Porosi shitjeje	Ordine di vendita	Παραγγελία πώλησης
+bank_statement_format:STANDARD	Name	Date, text, reference, amount	Data, teksti, referenca, shuma	Data, testo, riferimento, importo	Ημερομηνία, κείμενο, αναφορά, ποσό
+document_type:POS_ORDER	Name	Point-of-sale order	Porosi e pikës së shitjes	Ordine del punto vendita	Παραγγελία σημείου πώλησης
+document_type:POS_ORDER	Description	Point-of-sale order	Porosi e pikës së shitjes	Ordine del punto vendita	Παραγγελία σημείου πώλησης
+cost_center_type:PRODUCTION_POINT	Name	Production point	Pikë prodhimi	Punto di produzione	Σημείο παραγωγής
+cost_center_type:PRODUCTION_POINT	Description	Production point	Pikë prodhimi	Punto di produzione	Σημείο παραγωγής
+user_category:PRODUCTION_POINT	Name	Production point	Pikë prodhimi	Punto di produzione	Σημείο παραγωγής
+document_category:REPAIRS	Name	Repairs	Riparimet	Riparazioni	Επισκευές
+document_category:REPAIRS	Description	Repairs	Riparimet	Riparazioni	Επισκευές
+document_type:REPAIR_INTAKE	Name	Repair intake	Pranim për riparim	Accettazione riparazione	Παραλαβή επισκευής
+document_type:REPAIR_INTAKE	Description	Repair intake	Pranim për riparim	Accettazione riparazione	Παραλαβή επισκευής
+document_type:REPAIR_OFFER	Name	Repair offer	Ofertë riparimi	Offerta di riparazione	Προσφορά επισκευής
+document_type:REPAIR_OFFER	Description	Repair offer	Ofertë riparimi	Offerta di riparazione	Προσφορά επισκευής
+document_type_info:REPAIR_ITEM	Name	Item	Artikulli	Articolo	Είδος
+document_type_info:REPAIR_ITEM	Description	Item	Artikulli	Articolo	Είδος
+document_type_info:REPAIR_MODEL	Name	Brand and model	Marka dhe modeli	Marca e modello	Μάρκα και μοντέλο
+document_type_info:REPAIR_MODEL	Description	Brand and model	Marka dhe modeli	Marca e modello	Μάρκα και μοντέλο
+document_type_info:REPAIR_SERIAL	Name	Serial number or plate	Numri serial ose targa	Numero di serie o targa	Σειριακός αριθμός ή πινακίδα
+document_type_info:REPAIR_SERIAL	Description	Serial number or plate	Numri serial ose targa	Numero di serie o targa	Σειριακός αριθμός ή πινακίδα
+document_type_info:REPAIR_ACCESSORIES	Name	Accessories left	Aksesorët e lënë	Accessori lasciati	Αξεσουάρ που αφέθηκαν
+document_type_info:REPAIR_ACCESSORIES	Description	Accessories left	Aksesorët e lënë	Accessori lasciati	Αξεσουάρ που αφέθηκαν
+document_type_info:REPAIR_DEFECT	Name	Defect described	Defekti i përshkruar	Difetto descritto	Περιγραφή βλάβης
+document_type_info:REPAIR_DEFECT	Description	Defect described	Defekti i përshkruar	Difetto descritto	Περιγραφή βλάβης
+document_type_info:REPAIR_BACK	Name	Come back on	Kthehu më	Tornare il	Επιστροφή στις
+document_type_info:REPAIR_BACK	Description	Come back on	Kthehu më	Tornare il	Επιστροφή στις
+repair_stage:RECEIVED	Name	Received	Marrë	Ricevuto	Παραλήφθηκε
+repair_stage:OFFER_GIVEN	Name	Offer given	Oferta u dha	Offerta data	Δόθηκε προσφορά
+repair_stage:ACCEPTED	Name	Accepted	Pranuar	Accettato	Αποδεκτό
+repair_stage:READY	Name	Ready	Gati	Pronto	Έτοιμο
+repair_stage:COLLECTED	Name	Collected	Tërhequr	Ritirato	Παραλήφθηκε από πελάτη
+repair_stage:REFUSED	Name	Refused	Refuzuar	Rifiutato	Απορρίφθηκε
+user_category:TECHNICIAN	Name	Technician	Teknik	Tecnico	Τεχνικός
+cost_center_type:POS_REPAIRS	Name	Repair shop	Servis riparimi	Centro riparazioni	Συνεργείο επισκευών
+cost_center_type:POS_REPAIRS	Description	Repair shop	Servis riparimi	Centro riparazioni	Συνεργείο επισκευών
+cost_center_type_info:14_pos_repairs	Name	Address	Adresa	Indirizzo	Διεύθυνση
+cost_center_type_info:14_pos_repairs	Description	Address	Adresa	Indirizzo	Διεύθυνση
+cost_center_type_info:15_pos_repairs	Name	Phone	Telefoni	Telefono	Τηλέφωνο
+cost_center_type_info:15_pos_repairs	Description	Phone	Telefoni	Telefono	Τηλέφωνο
+cost_center_type_info:16_pos_repairs	Name	E-mail	Email	E-mail	Email
+cost_center_type_info:16_pos_repairs	Description	E-mail	Email	E-mail	Email
+user_category:WAITER	Name	Waiter	Kamarier	Cameriere	Σερβιτόρος
+user_category:CASHIER	Name	Cashier	Arkëtar	Cassiere	Ταμίας
+document_type:DISASSEMBLY	Name	Disassembly	Çmontim	Smontaggio	Αποσυναρμολόγηση
+document_type:DISASSEMBLY	Description	Disassembly	Çmontim	Smontaggio	Αποσυναρμολόγηση
+transaction_type:DISASSEMBLED_ITEM	Name	Product taken apart	Produkt i çmontuar	Prodotto smontato	Προϊόν που αποσυναρμολογήθηκε
+transaction_type:DISASSEMBLED_ITEM	Description	Product taken apart	Produkt i çmontuar	Prodotto smontato	Προϊόν που αποσυναρμολογήθηκε
+transaction_type:RECOVERED_PART	Name	Recovered component	Përbërës i rikuperuar	Componente recuperato	Ανακτημένο συστατικό
+transaction_type:RECOVERED_PART	Description	Recovered component	Përbërës i rikuperuar	Componente recuperato	Ανακτημένο συστατικό
+transaction_type:DISASSEMBLY_WASTE	Name	Disassembly waste	Firo çmontimi	Scarto di smontaggio	Φύρα αποσυναρμολόγησης
+transaction_type:DISASSEMBLY_WASTE	Description	Disassembly waste	Firo çmontimi	Scarto di smontaggio	Φύρα αποσυναρμολόγησης
+document_type:REVERSAL_CUSTOMS_DECLARATION	Name	Reversal of customs declaration	Stornim: Deklaratë doganore	Storno: Bolletta doganale	Αντιλογισμός: Τελωνειακή διασάφηση
+document_type:REVERSAL_CUSTOMS_DECLARATION	Description	Reversal of customs declaration	Stornim: Deklaratë doganore	Storno: Bolletta doganale	Αντιλογισμός: Τελωνειακή διασάφηση
+document_type:REVERSAL_CUSTOMS_DECLARATION_ASSETS	Name	Reversal of customs declaration, assets	Stornim: Deklaratë doganore asetesh	Storno: Bolletta doganale beni strumentali	Αντιλογισμός: Τελωνειακή διασάφηση παγίων
+document_type:REVERSAL_CUSTOMS_DECLARATION_ASSETS	Description	Reversal of customs declaration, assets	Stornim: Deklaratë doganore asetesh	Storno: Bolletta doganale beni strumentali	Αντιλογισμός: Τελωνειακή διασάφηση παγίων
+document_type:REVERSAL_GOODS_TRANSFER	Name	Reversal of goods transfer note	Stornim: Faturë transferimi malli	Storno: Documento di trasporto (DDT)	Αντιλογισμός: Δελτίο διακίνησης εμπορευμάτων
+document_type:REVERSAL_GOODS_TRANSFER	Description	Reversal of goods transfer note	Stornim: Faturë transferimi malli	Storno: Documento di trasporto (DDT)	Αντιλογισμός: Δελτίο διακίνησης εμπορευμάτων
+document_type:REVERSAL_GOODS_TRANSFER_TO_STAFF	Name	Reversal of goods transfer, cost centre to staff	Stornim: Transferim malli nga qendra e kostos te personeli	Storno: DDT da centro di costo a personale	Αντιλογισμός: Διακίνηση από κέντρο κόστους σε προσωπικό
+document_type:REVERSAL_GOODS_TRANSFER_TO_STAFF	Description	Reversal of goods transfer, cost centre to staff	Stornim: Transferim malli nga qendra e kostos te personeli	Storno: DDT da centro di costo a personale	Αντιλογισμός: Διακίνηση από κέντρο κόστους σε προσωπικό
+document_type:REVERSAL_GOODS_TRANSFER_FROM_STAFF	Name	Reversal of goods transfer, staff to cost centre	Stornim: Transferim malli nga personeli te qendra e kostos	Storno: DDT da personale a centro di costo	Αντιλογισμός: Διακίνηση από προσωπικό σε κέντρο κόστους
+document_type:REVERSAL_GOODS_TRANSFER_FROM_STAFF	Description	Reversal of goods transfer, staff to cost centre	Stornim: Transferim malli nga personeli te qendra e kostos	Storno: DDT da personale a centro di costo	Αντιλογισμός: Διακίνηση από προσωπικό σε κέντρο κόστους
+document_type:REVERSAL_GOODS_TRANSFER_TO_CLIENT	Name	Reversal of goods transfer, cost centre to client	Stornim: Transferim malli nga qendra e kostos te klienti	Storno: DDT da centro di costo a cliente	Αντιλογισμός: Διακίνηση από κέντρο κόστους σε πελάτη
+document_type:REVERSAL_GOODS_TRANSFER_TO_CLIENT	Description	Reversal of goods transfer, cost centre to client	Stornim: Transferim malli nga qendra e kostos te klienti	Storno: DDT da centro di costo a cliente	Αντιλογισμός: Διακίνηση από κέντρο κόστους σε πελάτη
+document_type:REVERSAL_GOODS_TRANSFER_FROM_CLIENT	Name	Reversal of goods transfer, client to cost centre	Stornim: Transferim malli nga klienti te qendra e kostos	Storno: DDT da cliente a centro di costo	Αντιλογισμός: Διακίνηση από πελάτη σε κέντρο κόστους
+document_type:REVERSAL_GOODS_TRANSFER_FROM_CLIENT	Description	Reversal of goods transfer, client to cost centre	Stornim: Transferim malli nga klienti te qendra e kostos	Storno: DDT da cliente a centro di costo	Αντιλογισμός: Διακίνηση από πελάτη σε κέντρο κόστους
+document_type:REVERSAL_GOODS_TRANSFER_STAFF_TO_CLIENT	Name	Reversal of goods transfer, staff to client	Stornim: Transferim malli nga personeli te klienti	Storno: DDT da personale a cliente	Αντιλογισμός: Διακίνηση από προσωπικό σε πελάτη
+document_type:REVERSAL_GOODS_TRANSFER_STAFF_TO_CLIENT	Description	Reversal of goods transfer, staff to client	Stornim: Transferim malli nga personeli te klienti	Storno: DDT da personale a cliente	Αντιλογισμός: Διακίνηση από προσωπικό σε πελάτη
+user_category:USERS	Name	Users	Përdoruesit	Utenti	Χρήστες
+user_category:USERS	Description	Users	Përdoruesit	Utenti	Χρήστες
+user_type:STAFF	Name	Staff	Personeli	Personale	Προσωπικό
+user_type:STAFF	Description	Staff	Personeli	Personale	Προσωπικό
+menu:DASHBOARD	Name	Dashboard	Paneli	Cruscotto	Πίνακας ελέγχου
+menu:DOCUMENTS	Name	Documents	Dokumente	Documenti	Παραστατικά
+menu:DOCUMENTS_SALES	Name	Sales	Shitje	Vendite	Πωλήσεις
+menu:DOCUMENTS_PURCHASES	Name	Purchases	Blerje	Acquisti	Αγορές
+menu:DOCUMENTS_TRANSFERS	Name	Goods transfers	Transferim malli	Trasferimenti merci	Μεταφορές εμπορευμάτων
+menu:DOCUMENTS_PRODUCTION	Name	Production	Prodhim	Produzione	Παραγωγή
+menu:DOCUMENTS_CASH_DESK	Name	Cash desk	Arka	Cassa	Ταμείο
+menu:DOCUMENTS_BANK	Name	Bank	Banka	Banca	Τράπεζα
+menu:DOCUMENTS_OFFERS	Name	Offers	Oferta	Preventivi	Προσφορές
+menu:DOCUMENTS_ORDERS	Name	Orders	Porositë	Ordini	Παραγγελίες
+menu:DOCUMENTS_REPAIRS	Name	Repairs	Riparimet	Riparazioni	Επισκευές
+menu:DOCUMENTS_CONTRACTS	Name	Contracts	Kontrata	Contratti	Συμβάσεις
+menu:DOCUMENTS_JOURNAL	Name	Journal	Ditari	Prima nota	Ημερολόγιο
+menu:DOCUMENTS_RECURRING_JOURNAL	Name	Recurring journal	Ditari periodik	Prima nota ricorrente	Επαναλαμβανόμενο ημερολόγιο
+menu:DOCUMENTS_REVERSALS	Name	Reversals	Stornime	Storni	Αντιλογισμοί
+menu:CRM	Name	CRM	CRM	CRM	CRM
+menu:OPPORTUNITIES	Name	Opportunities	Mundësitë	Opportunità	Ευκαιρίες
+menu:PIPELINE	Name	Pipeline	Tubacioni i shitjeve	Pipeline	Αγωγός πωλήσεων
+menu:OPPORTUNITY_FORECAST	Name	Forecast	Parashikimi	Previsione	Πρόβλεψη
+menu:OPPORTUNITY_DOCUMENTS	Name	Opportunities and documents	Mundësitë dhe dokumentet	Opportunità e documenti	Ευκαιρίες και έγγραφα
+menu:OPPORTUNITY_STAGES	Name	Opportunity stages	Fazat e mundësive	Fasi delle opportunità	Στάδια ευκαιριών
+menu:SETUP_OPPORTUNITIES	Name	Opportunity types and categories	Llojet dhe kategoritë e mundësive	Tipi e categorie delle opportunità	Τύποι και κατηγορίες ευκαιριών
+menu:CONTRACTS_AREA	Name	Contracts	Kontratat	Contratti	Συμβόλαια
+menu:INVOICE_RUN	Name	Invoice run	Faturimi i kontratave	Fatturazione contratti	Τιμολόγηση συμβολαίων
+menu:RENEWALS	Name	Renewals	Rinovimet	Rinnovi	Ανανεώσεις
+menu:BANK_STATEMENTS	Name	Bank statements	Pasqyrat bankare	Estratti conto	Κινήσεις τράπεζας
+menu:APPROVALS	Name	Approvals	Miratimet	Approvazioni	Εγκρίσεις
+menu:PARTNERS	Name	Clients and suppliers	Klientë dhe furnitorë	Clienti e fornitori	Πελάτες και προμηθευτές
+menu:REPAIRS_AREA	Name	Repairs	Riparimet	Riparazioni	Επισκευές
+menu:REPAIR_BOARD	Name	Repair board	Tabela e riparimeve	Tabellone riparazioni	Πίνακας επισκευών
+menu:REPAIR_STAGES	Name	Repair stages	Fazat e riparimit	Fasi di riparazione	Στάδια επισκευής
+menu:POS	Name	Point of sale	Pikë shitje	Punto vendita	Σημείο πώλησης
+menu:POINT_OF_SALE	Name	Open the point of sale	Hap pikën e shitjes	Apri il punto vendita	Άνοιγμα σημείου πώλησης
+menu:PRODUCTION_DISPLAY	Name	Production point display	Ekrani i pikës së prodhimit	Schermo del punto di produzione	Οθόνη σημείου παραγωγής
+menu:PRODUCTION_ROUTES	Name	Production routes	Rrugët e prodhimit	Percorsi di produzione	Διαδρομές παραγωγής
+menu:POS_SHIFTS	Name	Shifts	Turnet	Turni	Βάρδιες
+menu:POS_SETTINGS	Name	Point-of-sale settings	Cilësimet e pikës së shitjes	Impostazioni del punto vendita	Ρυθμίσεις σημείου πώλησης
+menu:POS_SHOWS	Name	Shows	Shfaqjet	Spettacoli	Παραστάσεις
+menu:PRODUCTS_AREA	Name	Products and services	Produkte dhe shërbime	Prodotti e servizi	Προϊόντα και υπηρεσίες
+menu:PRODUCTS	Name	Products and services	Produkte dhe shërbime	Prodotti e servizi	Προϊόντα και υπηρεσίες
+menu:SALE_PRICES	Name	Sale prices	Çmimet e shitjes	Prezzi di vendita	Τιμές πώλησης
+menu:SALE_PRICE_TYPES	Name	Sale prices by partner	Çmimet e shitjes sipas partnerit	Prezzi di vendita per partner	Τιμές πώλησης ανά συνεργάτη
+menu:SALE_MENUS	Name	Sale menus	Menutë e shitjes	Menu di vendita	Μενού πώλησης
+menu:SALE_MENU_CATEGORIES	Name	Sale menu categories	Kategoritë e menuve të shitjes	Categorie dei menu di vendita	Κατηγορίες μενού πώλησης
+menu:UNITS	Name	Units of measure	Njësi matëse	Unità di misura	Μονάδες μέτρησης
+menu:UNIT_CONVERSIONS	Name	Unit conversions	Konvertimet e njësive	Conversioni tra unità	Μετατροπές μονάδων
+menu:STOCK_AREA	Name	Stock and production	Magazina dhe prodhimi	Magazzino e produzione	Απόθεμα και παραγωγή
+menu:ORDERS_TO_PRODUCE	Name	Orders to produce	Porosi për prodhim	Ordini da produrre	Παραγγελίες για παραγωγή
+menu:LOTS	Name	Lots	Lotet	Lotti	Παρτίδες
+menu:SERIAL_NUMBERS	Name	Serial numbers	Numrat serialë	Numeri di serie	Σειριακοί αριθμοί
+menu:RECIPES	Name	Recipes	Recetat	Ricette	Συνταγές
+menu:CONVERT_STOCK	Name	Convert stock between units	Konvertim i gjendjes në një njësi tjetër	Conversione delle giacenze tra unità	Μετατροπή αποθέματος μεταξύ μονάδων
+menu:ACCOUNTING_SETUP	Name	Accounting setup	Konfigurimi kontabël	Impostazioni contabili	Λογιστικές ρυθμίσεις
+menu:CHART	Name	Chart of accounts	Plani kontabël	Piano dei conti	Λογιστικό σχέδιο
+menu:BALANCE_SHEET_LINES	Name	Balance sheet lines	Rreshtat e bilancit	Righe dello stato patrimoniale	Γραμμές ισολογισμού
+menu:PROFIT_LOSS_LINES	Name	Profit and loss lines	Rreshtat e fitimit dhe humbjes	Righe del conto economico	Γραμμές αποτελεσμάτων
+menu:SETUP_CHARTS	Name	Chart types and categories	Llojet dhe kategoritë e planit	Tipi e categorie del piano	Τύποι και κατηγορίες σχεδίου
+menu:POSTING_SCENARIOS	Name	Posting scenarios	Skenarët e kontabilizimit	Scenari di contabilizzazione	Σενάρια λογιστικών εγγραφών
+menu:SCENARIO_LINES	Name	Scenario lines	Rreshtat e skenarëve	Righe degli scenari	Γραμμές σεναρίων
+menu:UNBALANCED_SCENARIOS	Name	Unbalanced scenarios	Skenarë të pabalancuar	Scenari non bilanciati	Μη ισοσκελισμένα σενάρια
+menu:CHART_MAPPINGS	Name	Account mapping	Lidhja e llogarive	Corrispondenza dei conti	Αντιστοίχιση λογαριασμών
+menu:YEAR_CLOSING	Name	Close the year	Mbyll vitin	Chiudi l'esercizio	Κλείσιμο χρήσης
+menu:CLOSED_PERIODS	Name	Closed periods	Periudhat e mbyllura	Periodi chiusi	Κλειστές περίοδοι
+menu:VAT_GROUPS	Name	VAT groups	Grupet e TVSH-së	Gruppi IVA	Ομάδες ΦΠΑ
+menu:VAT_RETURN_BOXES	Name	VAT return boxes	Kutitë e deklaratës së TVSH-së	Righi della dichiarazione IVA	Πεδία δήλωσης ΦΠΑ
+menu:VAT_RETURN_BOX_RULES	Name	VAT return box rules	Rregullat e kutive të deklaratës	Regole dei righi della dichiarazione	Κανόνες πεδίων δήλωσης
+menu:FIXED_ASSETS	Name	Fixed assets	Aktive të qëndrueshme	Immobilizzazioni	Πάγια
+menu:DEPRECIATION	Name	Depreciation	Amortizimi	Ammortamento	Αποσβέσεις
+menu:DEPRECIATION_BOOKS	Name	Depreciation books	Librat e amortizimit	Libri degli ammortamenti	Βιβλία αποσβέσεων
+menu:DEPRECIATION_METHODS	Name	Depreciation methods	Metodat e amortizimit	Metodi di ammortamento	Μέθοδοι απόσβεσης
+menu:DEPRECIATION_SCENARIOS	Name	Depreciation scenarios	Skenarët e amortizimit	Scenari di ammortamento	Σενάρια απόσβεσης
+menu:DEPRECIATION_SCENARIO_LINES	Name	Depreciation scenario lines	Rreshtat e skenarëve të amortizimit	Righe degli scenari di ammortamento	Γραμμές σεναρίων απόσβεσης
+menu:ASSET_VALUE	Name	Remaining asset value	Vlera e mbetur e aktivit	Valore residuo del cespite	Αναπόσβεστη αξία παγίου
+menu:CURRENCIES_AREA	Name	Currencies and payments	Monedhat dhe pagesat	Valute e pagamenti	Νομίσματα και πληρωμές
+menu:CURRENCIES	Name	Currencies and exchange rates	Monedha dhe kurse këmbimi	Valute e tassi di cambio	Νομίσματα και συναλλαγματικές ισοτιμίες
+menu:PAYMENT_METHODS	Name	Payment methods	Mënyrat e pagesës	Metodi di pagamento	Τρόποι πληρωμής
+menu:BANK_STATEMENT_FORMATS	Name	Bank statement formats	Formatet e pasqyrave bankare	Formati estratti conto	Μορφές κινήσεων τράπεζας
+menu:PAYMENT_METHOD_COST_CENTERS	Name	Payment methods by cost centre	Mënyrat e pagesës sipas qendrës së kostos	Metodi di pagamento per centro di costo	Τρόποι πληρωμής ανά κέντρο κόστους
+menu:REPORTS	Name	Reports	Raporte	Report	Αναφορές
+menu:DASHBOARD_ITEMS	Name	Dashboard items	Elementet e panelit	Elementi del cruscotto	Στοιχεία πίνακα ελέγχου
+menu:FINANCIAL_REPORTS	Name	Financial	Financiare	Finanziari	Οικονομικά
+menu:BALANCE_SHEET	Name	Balance sheet	Bilanci	Stato patrimoniale	Ισολογισμός
+menu:PROFIT_LOSS	Name	Profit and loss	Fitimi dhe humbja	Conto economico	Αποτελέσματα
+menu:TRIAL_BALANCE	Name	Trial balance	Bilanci i verifikimit	Bilancio di verifica	Ισοζύγιο
+menu:LEDGER	Name	Account ledger	Kartela e llogarisë	Partitario del conto	Καρτέλα λογαριασμού
+menu:AGEING	Name	Ageing	Vjetërsia e detyrimeve	Scadenzario	Ενηλικίωση υπολοίπων
+menu:OPEN_ITEMS	Name	Open invoices	Fatura të hapura	Fatture aperte	Ανοιχτά τιμολόγια
+menu:PARTNER_LEDGER	Name	Client and supplier ledger	Kartela e klientit dhe e furnitorit	Partitario clienti e fornitori	Καρτέλα πελατών και προμηθευτών
+menu:STAFF_LEDGER	Name	Staff ledger	Kartela e personelit	Partitario del personale	Καρτέλα προσωπικού
+menu:COST_CENTER_LEDGER	Name	Cost centre ledger	Kartela e qendrës së kostos	Partitario del centro di costo	Καρτέλα κέντρου κόστους
+menu:VAT_REPORTS	Name	VAT	TVSH	IVA	ΦΠΑ
+menu:VAT_REGISTER	Name	VAT books	Librat e TVSH-së	Registri IVA	Βιβλία ΦΠΑ
+menu:VAT_RETURN	Name	VAT return	Deklarata e TVSH-së	Dichiarazione IVA	Δήλωση ΦΠΑ
+menu:VAT_RETURN_FORM	Name	VAT return by boxes	Deklarata e TVSH-së sipas kutive	Dichiarazione IVA per righi	Δήλωση ΦΠΑ ανά πεδίο
+menu:STOCK_REPORTS	Name	Stock and sales	Magazina dhe shitjet	Magazzino e vendite	Αποθήκη και πωλήσεις
+menu:STOCK	Name	Stock	Gjendja e magazinës	Giacenze	Απόθεμα
+menu:ITEM_TRACKING	Name	Item movements	Lëvizjet e artikullit	Movimenti dell'articolo	Κινήσεις είδους
+menu:DOCUMENT_LINES	Name	Sales and purchases by line	Shitje dhe blerje sipas rreshtave	Vendite e acquisti per riga	Πωλήσεις και αγορές ανά γραμμή
+menu:LINES_BY_USER	Name	Sales by waiter	Shitje sipas kamarierit	Vendite per cameriere	Πωλήσεις ανά σερβιτόρο
+menu:LINES_BY_PARTNER	Name	Sales and purchases by client	Shitje dhe blerje sipas klientit	Vendite e acquisti per cliente	Πωλήσεις και αγορές ανά πελάτη
+menu:LINES_BY_COST_CENTER	Name	Sales and purchases by cost centre	Shitje dhe blerje sipas qendrës së kostos	Vendite e acquisti per centro di costo	Πωλήσεις και αγορές ανά κέντρο κόστους
+menu:TRANSFERS_REPORT	Name	Transfers	Transferimet	Trasferimenti	Μεταφορές
+menu:PURCHASE_PRICES	Name	Purchase price history	Historiku i çmimeve të blerjes	Storico dei prezzi di acquisto	Ιστορικό τιμών αγοράς
+menu:DOCUMENT_TOTALS	Name	Document totals	Totalet e dokumenteve	Totali dei documenti	Σύνολα παραστατικών
+menu:CONTRACTS_REPORT	Name	Contracts	Kontratat	Contratti	Συμβάσεις
+menu:PARTNER_STATISTICS	Name	Client statistics	Statistikat e klientëve	Statistiche dei clienti	Στατιστικά πελατών
+menu:COMPANY	Name	Company	Kompania	Azienda	Εταιρεία
+menu:COST_CENTERS	Name	Cost centres	Qendra kostoje	Centri di costo	Κέντρα κόστους
+menu:EMPLOYEES	Name	Employees	Punonjës	Dipendenti	Εργαζόμενοι
+menu:GROUP_PURCHASES	Name	Purchases from the group	Blerjet nga grupi	Acquisti dal gruppo	Αγορές από τον όμιλο
+menu:FILES	Name	Files	Skedarët	File	Αρχεία
+menu:USERS_AREA	Name	Users and rights	Përdoruesit dhe të drejtat	Utenti e permessi	Χρήστες και δικαιώματα
+menu:USERS	Name	Users	Përdoruesit	Utenti	Χρήστες
+menu:USER_RIGHTS	Name	Rights	Të drejtat	Permessi	Δικαιώματα
+menu:ROLES	Name	Roles	Rolet	Ruoli	Ρόλοι
+menu:APPROVAL_LIMITS	Name	Approval limits	Kufijtë e miratimit	Limiti di approvazione	Όρια έγκρισης
+menu:USER_ACTIVITY	Name	User activity	Veprimtaria e përdoruesve	Attività degli utenti	Δραστηριότητα χρηστών
+menu:SYSTEM_SETTINGS	Name	System settings	Cilësimet e sistemit	Impostazioni di sistema	Ρυθμίσεις συστήματος
+menu:MIGRATION	Name	Migration	Migrimi	Migrazione	Μετάπτωση
+menu:DOCUMENT_TYPES	Name	Document types	Llojet e dokumenteve	Tipi di documento	Τύποι παραστατικών
+menu:MIGRATION_ITEMS	Name	Migration steps	Hapat e migrimit	Passi della migrazione	Βήματα μετάπτωσης
+menu:LINE_TYPES	Name	Transaction types	Llojet e transaksioneve	Tipi di transazione	Τύποι συναλλαγών
+menu:LINE_SCOPES	Name	Transaction scopes	Fushat e transaksioneve	Ambiti delle transazioni	Πεδία συναλλαγών
+menu:DOCUMENT_FLOWS	Name	Document flows	Rrjedhat e dokumenteve	Flussi dei documenti	Ροές παραστατικών
+menu:TYPES_AND_CATEGORIES	Name	Types and categories	Llojet dhe kategoritë	Tipi e categorie	Τύποι και κατηγορίες
+menu:SETUP_PARTNERS	Name	Clients and suppliers	Klientë dhe furnitorë	Clienti e fornitori	Πελάτες και προμηθευτές
+menu:SETUP_EMPLOYEES	Name	Employees	Punonjës	Dipendenti	Εργαζόμενοι
+menu:SETUP_PRODUCTS	Name	Products and services	Produkte dhe shërbime	Prodotti e servizi	Προϊόντα και υπηρεσίες
+menu:SETUP_COST_CENTERS	Name	Cost centres	Qendra kostoje	Centri di costo	Κέντρα κόστους
+menu:SETUP_UNITS	Name	Units of measure	Njësi matëse	Unità di misura	Μονάδες μέτρησης
+menu:SETUP_USERS	Name	Users and roles	Përdoruesit dhe rolet	Utenti e ruoli	Χρήστες και ρόλοι
+menu:TEMPLATES	Name	Print templates	Modelet e printimit	Modelli di stampa	Πρότυπα εκτύπωσης
+menu:SKINS	Name	Skins	Pamjet	Temi grafici	Θέματα εμφάνισης
+menu:MENU	Name	Menu	Menuja	Menu	Μενού

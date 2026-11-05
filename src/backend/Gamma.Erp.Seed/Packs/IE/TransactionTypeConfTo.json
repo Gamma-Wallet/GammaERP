@@ -1,0 +1,394 @@
+[
+ {
+  "Key": "transaction_type_conf_to:1",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeTransactionTypeId": "inter_document_type_transaction_type:67",
+  "ElementsId": "elements:90"
+ },
+ {
+  "Key": "transaction_type_conf_to:2",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeTransactionTypeId": "inter_document_type_transaction_type:68",
+  "ElementsId": "elements:91"
+ },
+ {
+  "Key": "transaction_type_conf_to:3",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeTransactionTypeId": "inter_document_type_transaction_type:69",
+  "ElementsId": "elements:92"
+ },
+ {
+  "Key": "transaction_type_conf_to:4",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeTransactionTypeId": "inter_document_type_transaction_type:70",
+  "ElementsId": "elements:93"
+ },
+ {
+  "Key": "transaction_type_conf_to:5",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeTransactionTypeId": "inter_document_type_transaction_type:71",
+  "ElementsId": "elements:94"
+ },
+ {
+  "Key": "transaction_type_conf_to:6",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeTransactionTypeId": "inter_document_type_transaction_type:72",
+  "ElementsId": "elements:95"
+ },
+ {
+  "Key": "transaction_type_conf_to:7",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeTransactionTypeId": "inter_document_type_transaction_type:73",
+  "ElementsId": "elements:96"
+ },
+ {
+  "Key": "transaction_type_conf_to:8",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeTransactionTypeId": "inter_document_type_transaction_type:74",
+  "ElementsId": "elements:97"
+ },
+ {
+  "Key": "transaction_type_conf_to:9",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeTransactionTypeId": "inter_document_type_transaction_type:93",
+  "ElementsId": "elements:98"
+ },
+ {
+  "Key": "transaction_type_conf_to:10",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeTransactionTypeId": "inter_document_type_transaction_type:94",
+  "ElementsId": "elements:102"
+ },
+ {
+  "Key": "transaction_type_conf_to:11",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeTransactionTypeId": "inter_document_type_transaction_type:95",
+  "ElementsId": "elements:103"
+ },
+ {
+  "Key": "transaction_type_conf_to:12",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeTransactionTypeId": "inter_document_type_transaction_type:96",
+  "ElementsId": "elements:104"
+ },
+ {
+  "Key": "transaction_type_conf_to:13",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeTransactionTypeId": "inter_document_type_transaction_type:97",
+  "ElementsId": "elements:105"
+ },
+ {
+  "Key": "transaction_type_conf_to:14",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeTransactionTypeId": "inter_document_type_transaction_type:98",
+  "ElementsId": "elements:106"
+ },
+ {
+  "Key": "transaction_type_conf_to:15",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeTransactionTypeId": "inter_document_type_transaction_type:187",
+  "ElementsId": "elements:90"
+ },
+ {
+  "Key": "transaction_type_conf_to:16",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeTransactionTypeId": "inter_document_type_transaction_type:188",
+  "ElementsId": "elements:91"
+ },
+ {
+  "Key": "transaction_type_conf_to:17",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeTransactionTypeId": "inter_document_type_transaction_type:189",
+  "ElementsId": "elements:92"
+ },
+ {
+  "Key": "transaction_type_conf_to:18",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeTransactionTypeId": "inter_document_type_transaction_type:190",
+  "ElementsId": "elements:93"
+ },
+ {
+  "Key": "transaction_type_conf_to:19",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeTransactionTypeId": "inter_document_type_transaction_type:191",
+  "ElementsId": "elements:94"
+ },
+ {
+  "Key": "transaction_type_conf_to:20",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeTransactionTypeId": "inter_document_type_transaction_type:192",
+  "ElementsId": "elements:95"
+ },
+ {
+  "Key": "transaction_type_conf_to:21",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeTransactionTypeId": "inter_document_type_transaction_type:193",
+  "ElementsId": "elements:96"
+ },
+ {
+  "Key": "transaction_type_conf_to:22",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeTransactionTypeId": "inter_document_type_transaction_type:194",
+  "ElementsId": "elements:97"
+ },
+ {
+  "Key": "transaction_type_conf_to:journal-reversal:9:journal-reversal:93:REVERSAL_GENERAL_JOURNAL_ENTRY",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeTransactionTypeId": "inter_document_type_transaction_type:journal-reversal:93:REVERSAL_GENERAL_JOURNAL_ENTRY",
+  "ElementsId": "elements:98"
+ },
+ {
+  "Key": "transaction_type_conf_to:journal-reversal:10:journal-reversal:94:REVERSAL_GENERAL_JOURNAL_ENTRY",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeTransactionTypeId": "inter_document_type_transaction_type:journal-reversal:94:REVERSAL_GENERAL_JOURNAL_ENTRY",
+  "ElementsId": "elements:102"
+ },
+ {
+  "Key": "transaction_type_conf_to:journal-reversal:11:journal-reversal:95:REVERSAL_GENERAL_JOURNAL_ENTRY",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeTransactionTypeId": "inter_document_type_transaction_type:journal-reversal:95:REVERSAL_GENERAL_JOURNAL_ENTRY",
+  "ElementsId": "elements:103"
+ },
+ {
+  "Key": "transaction_type_conf_to:journal-reversal:12:journal-reversal:96:REVERSAL_GENERAL_JOURNAL_ENTRY",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeTransactionTypeId": "inter_document_type_transaction_type:journal-reversal:96:REVERSAL_GENERAL_JOURNAL_ENTRY",
+  "ElementsId": "elements:104"
+ },
+ {
+  "Key": "transaction_type_conf_to:journal-reversal:13:journal-reversal:97:REVERSAL_GENERAL_JOURNAL_ENTRY",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeTransactionTypeId": "inter_document_type_transaction_type:journal-reversal:97:REVERSAL_GENERAL_JOURNAL_ENTRY",
+  "ElementsId": "elements:105"
+ },
+ {
+  "Key": "transaction_type_conf_to:journal-reversal:14:journal-reversal:98:REVERSAL_GENERAL_JOURNAL_ENTRY",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeTransactionTypeId": "inter_document_type_transaction_type:journal-reversal:98:REVERSAL_GENERAL_JOURNAL_ENTRY",
+  "ElementsId": "elements:106"
+ },
+ {
+  "Key": "transaction_type_conf_to:recurring:1:recurring:67:RECURRING_JOURNAL_ADVANCE",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeTransactionTypeId": "inter_document_type_transaction_type:recurring:67:RECURRING_JOURNAL_ADVANCE",
+  "ElementsId": "elements:90"
+ },
+ {
+  "Key": "transaction_type_conf_to:recurring:2:recurring:68:RECURRING_JOURNAL_ADVANCE",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeTransactionTypeId": "inter_document_type_transaction_type:recurring:68:RECURRING_JOURNAL_ADVANCE",
+  "ElementsId": "elements:91"
+ },
+ {
+  "Key": "transaction_type_conf_to:recurring:3:recurring:69:RECURRING_JOURNAL_ADVANCE",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeTransactionTypeId": "inter_document_type_transaction_type:recurring:69:RECURRING_JOURNAL_ADVANCE",
+  "ElementsId": "elements:92"
+ },
+ {
+  "Key": "transaction_type_conf_to:recurring:4:recurring:70:RECURRING_JOURNAL_ADVANCE",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeTransactionTypeId": "inter_document_type_transaction_type:recurring:70:RECURRING_JOURNAL_ADVANCE",
+  "ElementsId": "elements:93"
+ },
+ {
+  "Key": "transaction_type_conf_to:recurring:5:recurring:71:RECURRING_JOURNAL_EMPLOYEE_ADVANCE",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeTransactionTypeId": "inter_document_type_transaction_type:recurring:71:RECURRING_JOURNAL_EMPLOYEE_ADVANCE",
+  "ElementsId": "elements:94"
+ },
+ {
+  "Key": "transaction_type_conf_to:recurring:6:recurring:72:RECURRING_JOURNAL_EMPLOYEE_ADVANCE",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeTransactionTypeId": "inter_document_type_transaction_type:recurring:72:RECURRING_JOURNAL_EMPLOYEE_ADVANCE",
+  "ElementsId": "elements:95"
+ },
+ {
+  "Key": "transaction_type_conf_to:recurring:7:recurring:73:RECURRING_JOURNAL_EMPLOYEE_ADVANCE",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeTransactionTypeId": "inter_document_type_transaction_type:recurring:73:RECURRING_JOURNAL_EMPLOYEE_ADVANCE",
+  "ElementsId": "elements:96"
+ },
+ {
+  "Key": "transaction_type_conf_to:recurring:8:recurring:74:RECURRING_JOURNAL_EMPLOYEE_ADVANCE",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeTransactionTypeId": "inter_document_type_transaction_type:recurring:74:RECURRING_JOURNAL_EMPLOYEE_ADVANCE",
+  "ElementsId": "elements:97"
+ },
+ {
+  "Key": "transaction_type_conf_to:recurring:9:recurring:93:RECURRING_GENERAL_JOURNAL_ENTRY",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeTransactionTypeId": "inter_document_type_transaction_type:recurring:93:RECURRING_GENERAL_JOURNAL_ENTRY",
+  "ElementsId": "elements:98"
+ },
+ {
+  "Key": "transaction_type_conf_to:recurring:10:recurring:94:RECURRING_GENERAL_JOURNAL_ENTRY",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeTransactionTypeId": "inter_document_type_transaction_type:recurring:94:RECURRING_GENERAL_JOURNAL_ENTRY",
+  "ElementsId": "elements:102"
+ },
+ {
+  "Key": "transaction_type_conf_to:recurring:11:recurring:95:RECURRING_GENERAL_JOURNAL_ENTRY",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeTransactionTypeId": "inter_document_type_transaction_type:recurring:95:RECURRING_GENERAL_JOURNAL_ENTRY",
+  "ElementsId": "elements:103"
+ },
+ {
+  "Key": "transaction_type_conf_to:recurring:12:recurring:96:RECURRING_GENERAL_JOURNAL_ENTRY",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeTransactionTypeId": "inter_document_type_transaction_type:recurring:96:RECURRING_GENERAL_JOURNAL_ENTRY",
+  "ElementsId": "elements:104"
+ },
+ {
+  "Key": "transaction_type_conf_to:recurring:13:recurring:97:RECURRING_GENERAL_JOURNAL_ENTRY",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeTransactionTypeId": "inter_document_type_transaction_type:recurring:97:RECURRING_GENERAL_JOURNAL_ENTRY",
+  "ElementsId": "elements:105"
+ },
+ {
+  "Key": "transaction_type_conf_to:recurring:14:recurring:98:RECURRING_GENERAL_JOURNAL_ENTRY",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeTransactionTypeId": "inter_document_type_transaction_type:recurring:98:RECURRING_GENERAL_JOURNAL_ENTRY",
+  "ElementsId": "elements:106"
+ },
+ {
+  "Key": "transaction_type_conf_to:recurring:15:recurring:187:REVERSAL_RECURRING_JOURNAL_ADVANCE",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeTransactionTypeId": "inter_document_type_transaction_type:recurring:187:REVERSAL_RECURRING_JOURNAL_ADVANCE",
+  "ElementsId": "elements:90"
+ },
+ {
+  "Key": "transaction_type_conf_to:recurring:16:recurring:188:REVERSAL_RECURRING_JOURNAL_ADVANCE",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeTransactionTypeId": "inter_document_type_transaction_type:recurring:188:REVERSAL_RECURRING_JOURNAL_ADVANCE",
+  "ElementsId": "elements:91"
+ },
+ {
+  "Key": "transaction_type_conf_to:recurring:17:recurring:189:REVERSAL_RECURRING_JOURNAL_ADVANCE",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeTransactionTypeId": "inter_document_type_transaction_type:recurring:189:REVERSAL_RECURRING_JOURNAL_ADVANCE",
+  "ElementsId": "elements:92"
+ },
+ {
+  "Key": "transaction_type_conf_to:recurring:18:recurring:190:REVERSAL_RECURRING_JOURNAL_ADVANCE",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeTransactionTypeId": "inter_document_type_transaction_type:recurring:190:REVERSAL_RECURRING_JOURNAL_ADVANCE",
+  "ElementsId": "elements:93"
+ },
+ {
+  "Key": "transaction_type_conf_to:recurring:19:recurring:191:REVERSAL_RECURRING_JOURNAL_EMPLOYEE_ADVANCE",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeTransactionTypeId": "inter_document_type_transaction_type:recurring:191:REVERSAL_RECURRING_JOURNAL_EMPLOYEE_ADVANCE",
+  "ElementsId": "elements:94"
+ },
+ {
+  "Key": "transaction_type_conf_to:recurring:20:recurring:192:REVERSAL_RECURRING_JOURNAL_EMPLOYEE_ADVANCE",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeTransactionTypeId": "inter_document_type_transaction_type:recurring:192:REVERSAL_RECURRING_JOURNAL_EMPLOYEE_ADVANCE",
+  "ElementsId": "elements:95"
+ },
+ {
+  "Key": "transaction_type_conf_to:recurring:21:recurring:193:REVERSAL_RECURRING_JOURNAL_EMPLOYEE_ADVANCE",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeTransactionTypeId": "inter_document_type_transaction_type:recurring:193:REVERSAL_RECURRING_JOURNAL_EMPLOYEE_ADVANCE",
+  "ElementsId": "elements:96"
+ },
+ {
+  "Key": "transaction_type_conf_to:recurring:22:recurring:194:REVERSAL_RECURRING_JOURNAL_EMPLOYEE_ADVANCE",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeTransactionTypeId": "inter_document_type_transaction_type:recurring:194:REVERSAL_RECURRING_JOURNAL_EMPLOYEE_ADVANCE",
+  "ElementsId": "elements:97"
+ },
+ {
+  "Key": "transaction_type_conf_to:recurring:journal-reversal:9:journal-reversal:93:REVERSAL_GENERAL_JOURNAL_ENTRY:recurring:journal-reversal:93:REVERSAL_GENERAL_JOURNAL_ENTRY:REVERSAL_RECURRING_GENERAL_JOURNAL_ENTRY",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeTransactionTypeId": "inter_document_type_transaction_type:recurring:journal-reversal:93:REVERSAL_GENERAL_JOURNAL_ENTRY:REVERSAL_RECURRING_GENERAL_JOURNAL_ENTRY",
+  "ElementsId": "elements:98"
+ },
+ {
+  "Key": "transaction_type_conf_to:recurring:journal-reversal:10:journal-reversal:94:REVERSAL_GENERAL_JOURNAL_ENTRY:recurring:journal-reversal:94:REVERSAL_GENERAL_JOURNAL_ENTRY:REVERSAL_RECURRING_GENERAL_JOURNAL_ENTRY",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeTransactionTypeId": "inter_document_type_transaction_type:recurring:journal-reversal:94:REVERSAL_GENERAL_JOURNAL_ENTRY:REVERSAL_RECURRING_GENERAL_JOURNAL_ENTRY",
+  "ElementsId": "elements:102"
+ },
+ {
+  "Key": "transaction_type_conf_to:recurring:journal-reversal:11:journal-reversal:95:REVERSAL_GENERAL_JOURNAL_ENTRY:recurring:journal-reversal:95:REVERSAL_GENERAL_JOURNAL_ENTRY:REVERSAL_RECURRING_GENERAL_JOURNAL_ENTRY",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeTransactionTypeId": "inter_document_type_transaction_type:recurring:journal-reversal:95:REVERSAL_GENERAL_JOURNAL_ENTRY:REVERSAL_RECURRING_GENERAL_JOURNAL_ENTRY",
+  "ElementsId": "elements:103"
+ },
+ {
+  "Key": "transaction_type_conf_to:recurring:journal-reversal:12:journal-reversal:96:REVERSAL_GENERAL_JOURNAL_ENTRY:recurring:journal-reversal:96:REVERSAL_GENERAL_JOURNAL_ENTRY:REVERSAL_RECURRING_GENERAL_JOURNAL_ENTRY",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeTransactionTypeId": "inter_document_type_transaction_type:recurring:journal-reversal:96:REVERSAL_GENERAL_JOURNAL_ENTRY:REVERSAL_RECURRING_GENERAL_JOURNAL_ENTRY",
+  "ElementsId": "elements:104"
+ },
+ {
+  "Key": "transaction_type_conf_to:recurring:journal-reversal:13:journal-reversal:97:REVERSAL_GENERAL_JOURNAL_ENTRY:recurring:journal-reversal:97:REVERSAL_GENERAL_JOURNAL_ENTRY:REVERSAL_RECURRING_GENERAL_JOURNAL_ENTRY",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeTransactionTypeId": "inter_document_type_transaction_type:recurring:journal-reversal:97:REVERSAL_GENERAL_JOURNAL_ENTRY:REVERSAL_RECURRING_GENERAL_JOURNAL_ENTRY",
+  "ElementsId": "elements:105"
+ },
+ {
+  "Key": "transaction_type_conf_to:recurring:journal-reversal:14:journal-reversal:98:REVERSAL_GENERAL_JOURNAL_ENTRY:recurring:journal-reversal:98:REVERSAL_GENERAL_JOURNAL_ENTRY:REVERSAL_RECURRING_GENERAL_JOURNAL_ENTRY",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeTransactionTypeId": "inter_document_type_transaction_type:recurring:journal-reversal:98:REVERSAL_GENERAL_JOURNAL_ENTRY:REVERSAL_RECURRING_GENERAL_JOURNAL_ENTRY",
+  "ElementsId": "elements:106"
+ }
+]

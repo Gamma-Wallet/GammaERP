@@ -1,0 +1,54 @@
+[
+ {
+  "Key": "vat_group:HR_25",
+  "IdSup": null,
+  "Active": true,
+  "Code": null,
+  "Name": {
+   "en": "VAT 25%",
+   "hr": "PDV 25%"
+  },
+  "Description": null,
+  "Rate": 25.0,
+  "Depreciation": false
+ },
+ {
+  "Key": "vat_group:HR_13",
+  "IdSup": null,
+  "Active": true,
+  "Code": null,
+  "Name": {
+   "en": "VAT 13%",
+   "hr": "PDV 13%"
+  },
+  "Description": null,
+  "Rate": 13.0,
+  "Depreciation": false
+ },
+ {
+  "Key": "vat_group:HR_5",
+  "IdSup": null,
+  "Active": true,
+  "Code": null,
+  "Name": {
+   "en": "VAT 5%",
+   "hr": "PDV 5%"
+  },
+  "Description": null,
+  "Rate": 5.0,
+  "Depreciation": false
+ },
+ {
+  "Key": "vat_group:HR_0",
+  "IdSup": null,
+  "Active": true,
+  "Code": null,
+  "Name": {
+   "en": "VAT 0% / exempt",
+   "hr": "PDV 0% / oslobođeno"
+  },
+  "Description": null,
+  "Rate": 0.0,
+  "Depreciation": false
+ }
+]

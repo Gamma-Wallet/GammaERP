@@ -1,0 +1,142 @@
+[
+ {
+  "Key": "depreciation_scenario_conf:assets:0",
+  "IdSup": null,
+  "Active": true,
+  "DepreciationScenarioId": "depreciation_scenario:assets",
+  "ChartId": "chart:7602",
+  "ChartName": "Амортизация на машини и съоръжения",
+  "Side": false,
+  "SideValue": "Debit"
+ },
+ {
+  "Key": "depreciation_scenario_conf:assets:1",
+  "IdSup": null,
+  "Active": true,
+  "DepreciationScenarioId": "depreciation_scenario:assets",
+  "ChartId": "chart:1203",
+  "ChartName": "Натрупана амортизация на машини и съоръжения",
+  "Side": true,
+  "SideValue": "Credit"
+ },
+ {
+  "Key": "depreciation_scenario_conf:buildings:0",
+  "IdSup": null,
+  "Active": true,
+  "DepreciationScenarioId": "depreciation_scenario:buildings",
+  "ChartId": "chart:7601",
+  "ChartName": "Амортизация на сгради",
+  "Side": false,
+  "SideValue": "Debit"
+ },
+ {
+  "Key": "depreciation_scenario_conf:buildings:1",
+  "IdSup": null,
+  "Active": true,
+  "DepreciationScenarioId": "depreciation_scenario:buildings",
+  "ChartId": "chart:1202",
+  "ChartName": "Натрупана амортизация на сгради",
+  "Side": true,
+  "SideValue": "Credit"
+ },
+ {
+  "Key": "depreciation_scenario_conf:office:0",
+  "IdSup": null,
+  "Active": true,
+  "DepreciationScenarioId": "depreciation_scenario:office",
+  "ChartId": "chart:7604",
+  "ChartName": "Амортизация на стопански инвентар",
+  "Side": false,
+  "SideValue": "Debit"
+ },
+ {
+  "Key": "depreciation_scenario_conf:office:1",
+  "IdSup": null,
+  "Active": true,
+  "DepreciationScenarioId": "depreciation_scenario:office",
+  "ChartId": "chart:1205",
+  "ChartName": "Натрупана амортизация на стопански инвентар",
+  "Side": true,
+  "SideValue": "Credit"
+ },
+ {
+  "Key": "depreciation_scenario_conf:vehicles:0",
+  "IdSup": null,
+  "Active": true,
+  "DepreciationScenarioId": "depreciation_scenario:vehicles",
+  "ChartId": "chart:7603",
+  "ChartName": "Амортизация на транспортни средства",
+  "Side": false,
+  "SideValue": "Debit"
+ },
+ {
+  "Key": "depreciation_scenario_conf:vehicles:1",
+  "IdSup": null,
+  "Active": true,
+  "DepreciationScenarioId": "depreciation_scenario:vehicles",
+  "ChartId": "chart:1204",
+  "ChartName": "Натрупана амортизация на транспортни средства",
+  "Side": true,
+  "SideValue": "Credit"
+ },
+ {
+  "Key": "depreciation_scenario_conf:computers:0",
+  "IdSup": null,
+  "Active": true,
+  "DepreciationScenarioId": "depreciation_scenario:computers",
+  "ChartId": "chart:7605",
+  "ChartName": "Амортизация на компютърна техника",
+  "Side": false,
+  "SideValue": "Debit"
+ },
+ {
+  "Key": "depreciation_scenario_conf:computers:1",
+  "IdSup": null,
+  "Active": true,
+  "DepreciationScenarioId": "depreciation_scenario:computers",
+  "ChartId": "chart:1206",
+  "ChartName": "Натрупана амортизация на компютърна техника",
+  "Side": true,
+  "SideValue": "Credit"
+ },
+ {
+  "Key": "depreciation_scenario_conf:furniture:0",
+  "IdSup": null,
+  "Active": true,
+  "DepreciationScenarioId": "depreciation_scenario:furniture",
+  "ChartId": "chart:7604",
+  "ChartName": "Амортизация на стопански инвентар",
+  "Side": false,
+  "SideValue": "Debit"
+ },
+ {
+  "Key": "depreciation_scenario_conf:furniture:1",
+  "IdSup": null,
+  "Active": true,
+  "DepreciationScenarioId": "depreciation_scenario:furniture",
+  "ChartId": "chart:1205",
+  "ChartName": "Натрупана амортизация на стопански инвентар",
+  "Side": true,
+  "SideValue": "Credit"
+ },
+ {
+  "Key": "depreciation_scenario_conf:intangible:0",
+  "IdSup": null,
+  "Active": true,
+  "DepreciationScenarioId": "depreciation_scenario:intangible",
+  "ChartId": "chart:7606",
+  "ChartName": "Амортизация на нематериални активи",
+  "Side": false,
+  "SideValue": "Debit"
+ },
+ {
+  "Key": "depreciation_scenario_conf:intangible:1",
+  "IdSup": null,
+  "Active": true,
+  "DepreciationScenarioId": "depreciation_scenario:intangible",
+  "ChartId": "chart:1402",
+  "ChartName": "Натрупана амортизация на програмни продукти",
+  "Side": true,
+  "SideValue": "Credit"
+ }
+]

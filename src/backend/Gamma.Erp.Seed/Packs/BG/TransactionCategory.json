@@ -1,0 +1,66 @@
+[
+ {
+  "Key": "transaction_category:LINES",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "LINES",
+  "Name": {
+   "en": "Transactions",
+   "bg": "Редове"
+  },
+  "Description": {
+   "en": "Transactions",
+   "bg": "Редове"
+  },
+  "SortOrder": 2.0
+ },
+ {
+  "Key": "transaction_category:JOURNAL_LINES",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "JOURNAL_LINES",
+  "Name": {
+   "en": "Journal lines",
+   "bg": "Редове на мемориален ордер"
+  },
+  "Description": {
+   "en": "Journal lines",
+   "bg": "Редове на мемориален ордер"
+  },
+  "SortOrder": 10.0
+ },
+ {
+  "Key": "transaction_category:DEPRECIATION_LINES",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "DEPRECIATION_LINES",
+  "Name": {
+   "en": "Depreciation lines",
+   "bg": "Редове за амортизация"
+  },
+  "Description": {
+   "en": "Depreciation lines",
+   "bg": "Редове за амортизация"
+  },
+  "SortOrder": 11.0
+ },
+ {
+  "Key": "transaction_category:REVALUATION_LINES",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "REVALUATION_LINES",
+  "Name": {
+   "en": "Revaluation lines",
+   "bg": "Редове за преоценка"
+  },
+  "Description": {
+   "en": "Revaluation lines",
+   "bg": "Редове за преоценка"
+  },
+  "SortOrder": 12.0
+ }
+]

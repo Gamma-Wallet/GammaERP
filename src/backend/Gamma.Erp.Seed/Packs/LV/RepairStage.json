@@ -1,0 +1,68 @@
+[
+ {
+  "Key": "repair_stage:RECEIVED",
+  "IdSup": null,
+  "Active": true,
+  "Name": {
+   "en": "Received",
+   "lv": "Saņemts"
+  },
+  "SortOrder": 10.0,
+  "IsFinal": false
+ },
+ {
+  "Key": "repair_stage:OFFER_GIVEN",
+  "IdSup": null,
+  "Active": true,
+  "Name": {
+   "en": "Offer given",
+   "lv": "Piedāvājums iedots"
+  },
+  "SortOrder": 20.0,
+  "IsFinal": false
+ },
+ {
+  "Key": "repair_stage:ACCEPTED",
+  "IdSup": null,
+  "Active": true,
+  "Name": {
+   "en": "Accepted",
+   "lv": "Pieņemts"
+  },
+  "SortOrder": 30.0,
+  "IsFinal": false
+ },
+ {
+  "Key": "repair_stage:READY",
+  "IdSup": null,
+  "Active": true,
+  "Name": {
+   "en": "Ready",
+   "lv": "Gatavs"
+  },
+  "SortOrder": 40.0,
+  "IsFinal": false
+ },
+ {
+  "Key": "repair_stage:COLLECTED",
+  "IdSup": null,
+  "Active": true,
+  "Name": {
+   "en": "Collected",
+   "lv": "Saņemts atpakaļ"
+  },
+  "SortOrder": 50.0,
+  "IsFinal": true
+ },
+ {
+  "Key": "repair_stage:REFUSED",
+  "IdSup": null,
+  "Active": true,
+  "Name": {
+   "en": "Refused",
+   "lv": "Noraidīts"
+  },
+  "SortOrder": 60.0,
+  "IsFinal": true
+ }
+]

@@ -1,0 +1,66 @@
+[
+ {
+  "Key": "transaction_category:LINES",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "LINES",
+  "Name": {
+   "en": "Transactions",
+   "sq": "Rreshta"
+  },
+  "Description": {
+   "en": "Transactions",
+   "sq": "Rreshta"
+  },
+  "SortOrder": 2.0
+ },
+ {
+  "Key": "transaction_category:JOURNAL_LINES",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "JOURNAL_LINES",
+  "Name": {
+   "en": "Journal lines",
+   "sq": "Rreshta ditari"
+  },
+  "Description": {
+   "en": "Journal lines",
+   "sq": "Rreshta ditari"
+  },
+  "SortOrder": 10.0
+ },
+ {
+  "Key": "transaction_category:DEPRECIATION_LINES",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "DEPRECIATION_LINES",
+  "Name": {
+   "en": "Depreciation lines",
+   "sq": "Rreshta amortizimi"
+  },
+  "Description": {
+   "en": "Depreciation lines",
+   "sq": "Rreshta amortizimi"
+  },
+  "SortOrder": 11.0
+ },
+ {
+  "Key": "transaction_category:REVALUATION_LINES",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "REVALUATION_LINES",
+  "Name": {
+   "en": "Revaluation lines",
+   "sq": "Rreshta rivlerësimi"
+  },
+  "Description": {
+   "en": "Revaluation lines",
+   "sq": "Rreshta rivlerësimi"
+  },
+  "SortOrder": 12.0
+ }
+]

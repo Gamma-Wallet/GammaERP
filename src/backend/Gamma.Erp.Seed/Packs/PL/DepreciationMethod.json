@@ -1,0 +1,30 @@
+[
+ {
+  "Key": "depreciation_method:STRAIGHT_LINE",
+  "IdSup": null,
+  "Active": true,
+  "Name": {
+   "en": "Straight-line",
+   "pl": "Liniowa"
+  },
+  "Description": {
+   "en": "Straight-line depreciation",
+   "pl": "Amortyzacja liniowa"
+  },
+  "Formula": "(VF/DT)*DK"
+ },
+ {
+  "Key": "depreciation_method:REMAINING_VALUE",
+  "IdSup": null,
+  "Active": true,
+  "Name": {
+   "en": "Remaining value",
+   "pl": "Wartość pozostała"
+  },
+  "Description": {
+   "en": "Depreciation on the remaining value",
+   "pl": "Amortyzacja od wartości pozostałej"
+  },
+  "Formula": "((VF*PD*((1-PD)^YK))/365)*DK"
+ }
+]

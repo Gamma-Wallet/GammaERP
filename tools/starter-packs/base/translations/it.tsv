@@ -1,0 +1,18 @@
+# The base names in Italian that names.tsv has no row for, keyed by the English name.
+# en	it
+1 to 12; January when empty	Da 1 a 12; gennaio se vuoto
+Fiscal year starts (month)	L'esercizio inizia (mese)
+Fixed assets, assets	Immobilizzazioni, beni
+Fixed assets, buildings	Immobilizzazioni, fabbricati
+Fixed assets, computers	Immobilizzazioni, computer
+Fixed assets, furniture	Immobilizzazioni, mobili
+Fixed assets, intangible	Immobilizzazioni, immateriali
+Fixed assets, land	Immobilizzazioni, terreni
+Fixed assets, office	Immobilizzazioni, ufficio
+Fixed assets, vehicles	Immobilizzazioni, veicoli
+Transaction stock cost	Costo di magazzino dell'operazione
+Disassembly	Smontaggio
+Product taken apart	Prodotto smontato
+Recovered component	Componente recuperato
+Disassembly waste	Scarto di smontaggio
+Point-of-sale reversal	Storno documento commerciale

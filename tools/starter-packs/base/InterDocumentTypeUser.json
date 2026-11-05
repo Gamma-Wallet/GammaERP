@@ -1,0 +1,90 @@
+[
+ {
+  "Key": "inter_document_type_user:WAITER:POS_ORDER",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:POS_ORDER",
+  "UserId": null,
+  "RoleId": "user_category:WAITER"
+ },
+ {
+  "Key": "inter_document_type_user:WAITER:POS_RECEIPT",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:POS_RECEIPT",
+  "UserId": null,
+  "RoleId": "user_category:WAITER"
+ },
+ {
+  "Key": "inter_document_type_user:WAITER:POS_MONEY_IN",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:POS_MONEY_IN",
+  "UserId": null,
+  "RoleId": "user_category:WAITER"
+ },
+ {
+  "Key": "inter_document_type_user:CASHIER:POS_ORDER",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:POS_ORDER",
+  "UserId": null,
+  "RoleId": "user_category:CASHIER"
+ },
+ {
+  "Key": "inter_document_type_user:CASHIER:POS_RECEIPT",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:POS_RECEIPT",
+  "UserId": null,
+  "RoleId": "user_category:CASHIER"
+ },
+ {
+  "Key": "inter_document_type_user:CASHIER:POS_MONEY_IN",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:POS_MONEY_IN",
+  "UserId": null,
+  "RoleId": "user_category:CASHIER"
+ },
+ {
+  "Key": "inter_document_type_user:CASHIER:POS_MONEY_OUT",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:POS_MONEY_OUT",
+  "UserId": null,
+  "RoleId": "user_category:CASHIER"
+ },
+ {
+  "Key": "inter_document_type_user:PRODUCTION_POINT:PRODUCTION",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:PRODUCTION",
+  "UserId": null,
+  "RoleId": "user_category:PRODUCTION_POINT"
+ },
+ {
+  "Key": "inter_document_type_user:TECHNICIAN:REPAIR_INTAKE",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:REPAIR_INTAKE",
+  "UserId": null,
+  "RoleId": "user_category:TECHNICIAN"
+ },
+ {
+  "Key": "inter_document_type_user:TECHNICIAN:REPAIR_OFFER",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:REPAIR_OFFER",
+  "UserId": null,
+  "RoleId": "user_category:TECHNICIAN"
+ },
+ {
+  "Key": "inter_document_type_user:TECHNICIAN:SALES_INVOICE_SERVICES",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:SALES_INVOICE_SERVICES",
+  "UserId": null,
+  "RoleId": "user_category:TECHNICIAN"
+ }
+]

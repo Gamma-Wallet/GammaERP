@@ -1,0 +1,206 @@
+[
+ {
+  "Key": "document_category:SALES",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "SALES",
+  "Name": {
+   "en": "Sales",
+   "bg": "Продажби"
+  },
+  "Description": {
+   "en": "Sales invoices",
+   "bg": "Издадени фактури"
+  },
+  "SortOrder": 3.0
+ },
+ {
+  "Key": "document_category:PURCHASES",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "PURCHASES",
+  "Name": {
+   "en": "Purchases",
+   "bg": "Покупки"
+  },
+  "Description": {
+   "en": "Purchase invoices",
+   "bg": "Получени фактури"
+  },
+  "SortOrder": 4.0
+ },
+ {
+  "Key": "document_category:TRANSFERS",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "TRANSFERS",
+  "Name": {
+   "en": "Goods transfers",
+   "bg": "Прехвърляне на стоки"
+  },
+  "Description": {
+   "en": "Goods transfer note",
+   "bg": "Стокова разписка"
+  },
+  "SortOrder": 5.0
+ },
+ {
+  "Key": "document_category:CASH_DESK",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "CASH_DESK",
+  "Name": {
+   "en": "Cash desk",
+   "bg": "Каса"
+  },
+  "Description": {
+   "en": "Cash desk",
+   "bg": "Каса"
+  },
+  "SortOrder": 6.0
+ },
+ {
+  "Key": "document_category:BANK",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "BANK",
+  "Name": {
+   "en": "Bank",
+   "bg": "Банка"
+  },
+  "Description": {
+   "en": "Bank",
+   "bg": "Банка"
+  },
+  "SortOrder": 7.0
+ },
+ {
+  "Key": "document_category:OFFERS",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "OFFERS",
+  "Name": {
+   "en": "Offers",
+   "bg": "Оферти"
+  },
+  "Description": {
+   "en": "Offers",
+   "bg": "Оферти"
+  },
+  "SortOrder": 9.0
+ },
+ {
+  "Key": "document_category:JOURNAL",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "JOURNAL",
+  "Name": {
+   "en": "Journal",
+   "bg": "Мемориален дневник"
+  },
+  "Description": {
+   "en": "Journal",
+   "bg": "Мемориален дневник"
+  },
+  "SortOrder": 8.0
+ },
+ {
+  "Key": "document_category:CONTRACTS",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "CONTRACTS",
+  "Name": {
+   "en": "Contracts",
+   "bg": "Договори"
+  },
+  "Description": {
+   "en": "Contracts",
+   "bg": "Договори"
+  },
+  "SortOrder": 10.0
+ },
+ {
+  "Key": "document_category:RECURRING_JOURNAL",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "RECURRING_JOURNAL",
+  "Name": {
+   "en": "Recurring journal",
+   "bg": "Периодичен дневник"
+  },
+  "Description": {
+   "en": "Recurring journal",
+   "bg": "Периодичен дневник"
+  },
+  "SortOrder": 11.0
+ },
+ {
+  "Key": "document_category:REVERSALS",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "REVERSALS",
+  "Name": {
+   "en": "Reversals",
+   "bg": "Сторна"
+  },
+  "SortOrder": 100
+ },
+ {
+  "Key": "document_category:PRODUCTION",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "PRODUCTION",
+  "Name": {
+   "en": "Production",
+   "bg": "Производство"
+  },
+  "Description": {
+   "en": "Production",
+   "bg": "Производство"
+  },
+  "SortOrder": 11.0
+ },
+ {
+  "Key": "document_category:ORDERS",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "ORDERS",
+  "Name": {
+   "en": "Orders",
+   "bg": "Поръчки"
+  },
+  "Description": {
+   "en": "Orders",
+   "bg": "Поръчки"
+  },
+  "SortOrder": 9.0
+ },
+ {
+  "Key": "document_category:REPAIRS",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "REPAIRS",
+  "Name": {
+   "en": "Repairs",
+   "bg": "Ремонти"
+  },
+  "Description": {
+   "en": "Repairs",
+   "bg": "Ремонти"
+  },
+  "SortOrder": 9.5
+ }
+]

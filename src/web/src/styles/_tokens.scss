@@ -1,0 +1,141 @@
+// Gamma ERP's own theme: the design tokens every component reads. The built-in look is the "Harbour" skin (the founder, 2026-11-04): a
+// cool light canvas, white surfaces, a deep harbour-navy top bar and primary, little colour, Newsreader titles and Inter text. A skin
+// (tools/starter-packs/base/skins/*.json) overrides these values only; the layout stays the founder's (2026-10-30).
+:root {
+  // Light or dark: tells the browser how to draw native parts (date pickers, scroll bars)
+  --color-scheme: light;
+
+  // Surfaces and ink
+  --canvas: #f1f3f6;
+  --surface: #ffffff;
+  --surface-2: #f7f8fa;
+  --hover: #edf0f4;
+  --selected: #e2e8f0;
+  --chosen: #e9f5fc;
+  --ink: #121a24;
+  --ink-2: #344152;
+  --muted: #5b6878;
+  --line: #e0e5eb;
+  // Control borders (inputs, checkboxes, buttons): at least 3:1 on the surface
+  --line-strong: #8994a3;
+
+  // The top bar
+  --topbar: #11233a;
+  --topbar-ink: #f2f6fa;
+  --topbar-muted: #a7b7ca;
+  --topbar-hover: #1c3452;
+
+  // Accents: links and focus; the Gamma sky blue for highlights, a deeper step for focus so it shows on white
+  --link: #1a5fb4;
+  --brand: #4fb7e8;
+  --focus: #2585bd;
+  --primary: #163252;
+  --primary-hover: #21446d;
+  --primary-ink: #ffffff;
+
+  // Status, always with an icon and a word
+  --good: #17784a;
+  --warning: #965500;
+  --serious: #b83d0b;
+  --critical: #b42318;
+  --good-bg: #e7f3ec;
+  --warning-bg: #fbf0df;
+  --serious-bg: #fcebe2;
+  --critical-bg: #fdeceb;
+  --info-bg: #e8f1fb;
+  // The same states on the dark top bar and toasts
+  --good-on-dark: #4cc38a;
+  --warning-on-dark: #f0aa3a;
+  --critical-on-dark: #f2726c;
+
+  // Chart series, in this fixed order (never by rank). The data-viz reference palette, checked with its validator on white (2026-10-31):
+  // every adjacent pair passes the colour-blind (ΔE ≥ 9.1) and normal-vision (≥ 19.6) checks; 3, 4 and 5 are below 3:1 on white, so
+  // every chart has a table view.
+  --series-1: #2a78d6;
+  --series-2: #eb6834;
+  --series-3: #1baf7a;
+  --series-4: #eda100;
+  --series-5: #e87ba4;
+  --series-6: #008300;
+  --series-7: #6250d6;
+  --series-8: #e34948;
+
+  // Type (Newsreader has no Greek, so Greek titles fall back to Source Serif 4)
+  --font-title: 'Newsreader', 'Source Serif 4', Georgia, serif;
+  --font-text: Inter, system-ui, -apple-system, 'Segoe UI', sans-serif;
+  --text-xs: 12px;
+  --text-s: 13px;
+  --text-m: 14px;
+  --text-l: 16px;
+  --title-s: 19px;
+  --title-m: 24px;
+  --title-l: 31px;
+  // The KPI card's headline number
+  --kpi-value: 28px;
+
+  // Space, shape, depth
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 24px;
+  --space-6: 32px;
+  // Checkboxes, tree toggles, small close buttons
+  --radius-xs: 4px;
+  --radius-s: 6px;
+  --radius: 8px;
+  --radius-l: 12px;
+  --radius-pill: 999px;
+  --shadow-pop: 0 12px 32px rgb(17 35 58 / 0.14), 0 1px 3px rgb(17 35 58 / 0.10);
+  // Behind a dialog
+  --backdrop: rgb(17 35 58 / 0.40);
+
+  // Layout
+  --topbar-h: 52px;
+  --sidebar-w: 288px;
+
+  // Density
+  --control-h: 36px;
+  // Small buttons and pager buttons
+  --control-h-s: 28px;
+  // Touch buttons and the point of sale's large targets
+  --touch-h: 56px;
+  // Table body rows and the header row
+  --row-h: 38px;
+  --row-head-h: 36px;
+  // Side-menu rows
+  --menu-item-h: 34px;
+}
+
+// The point of sale's variant (Harbour POS): a touch screen at a counter gets bigger text and targets, rounder corners and a step more
+// contrast on secondary text and borders. A plain type selector, so a company's POS skin set on app-pos later overrides it.
+app-pos {
+  --muted: #4f5b6a;
+  --line: #d3dae2;
+  --line-strong: #7a8697;
+  --text-xs: 13px;
+  --text-s: 15px;
+  --text-m: 16px;
+  --text-l: 18px;
+  --title-s: 21px;
+  --title-m: 26px;
+  --title-l: 32px;
+  --space-2: 10px;
+  --space-3: 14px;
+  --space-4: 20px;
+  --space-5: 28px;
+  --radius-xs: 6px;
+  --radius-s: 8px;
+  --radius: 12px;
+  --radius-l: 16px;
+  --topbar-h: 60px;
+  --control-h: 52px;
+  --control-h-s: 40px;
+  --touch-h: 64px;
+  --row-h: 48px;
+  --row-head-h: 40px;
+}
+
+:root {
+  color-scheme: var(--color-scheme);
+}

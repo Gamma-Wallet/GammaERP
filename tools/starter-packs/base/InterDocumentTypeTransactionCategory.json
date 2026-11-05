@@ -1,0 +1,709 @@
+[
+ {
+  "Key": "inter_document_type_transaction_category:1",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:CREDIT_NOTE_SERVICES_SOLD",
+  "TransactionCategoryId": "transaction_category:LINES"
+ },
+ {
+  "Key": "inter_document_type_transaction_category:2",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:SALES_OFFER_GOODS",
+  "TransactionCategoryId": "transaction_category:LINES"
+ },
+ {
+  "Key": "inter_document_type_transaction_category:3",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:SALES_INVOICE_GOODS",
+  "TransactionCategoryId": "transaction_category:LINES"
+ },
+ {
+  "Key": "inter_document_type_transaction_category:4",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:PURCHASE_INVOICE_GOODS",
+  "TransactionCategoryId": "transaction_category:LINES"
+ },
+ {
+  "Key": "inter_document_type_transaction_category:5",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:CREDIT_NOTE_GOODS_BOUGHT",
+  "TransactionCategoryId": "transaction_category:LINES"
+ },
+ {
+  "Key": "inter_document_type_transaction_category:6",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:CREDIT_NOTE_GOODS_SOLD",
+  "TransactionCategoryId": "transaction_category:LINES"
+ },
+ {
+  "Key": "inter_document_type_transaction_category:7",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:SALES_INVOICE_SERVICES",
+  "TransactionCategoryId": "transaction_category:LINES"
+ },
+ {
+  "Key": "inter_document_type_transaction_category:8",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:PURCHASE_INVOICE_SERVICES",
+  "TransactionCategoryId": "transaction_category:LINES"
+ },
+ {
+  "Key": "inter_document_type_transaction_category:9",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:CREDIT_NOTE_SERVICES_BOUGHT",
+  "TransactionCategoryId": "transaction_category:LINES"
+ },
+ {
+  "Key": "inter_document_type_transaction_category:10",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:GOODS_TRANSFER",
+  "TransactionCategoryId": "transaction_category:LINES"
+ },
+ {
+  "Key": "inter_document_type_transaction_category:11",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:GOODS_TRANSFER_TO_STAFF",
+  "TransactionCategoryId": "transaction_category:LINES"
+ },
+ {
+  "Key": "inter_document_type_transaction_category:12",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:PAYMENT",
+  "TransactionCategoryId": "transaction_category:LINES"
+ },
+ {
+  "Key": "inter_document_type_transaction_category:13",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:RECEIPT",
+  "TransactionCategoryId": "transaction_category:LINES"
+ },
+ {
+  "Key": "inter_document_type_transaction_category:14",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:PREPAYMENT",
+  "TransactionCategoryId": "transaction_category:LINES"
+ },
+ {
+  "Key": "inter_document_type_transaction_category:15",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:ADVANCE",
+  "TransactionCategoryId": "transaction_category:LINES"
+ },
+ {
+  "Key": "inter_document_type_transaction_category:16",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:EMPLOYEE_ADVANCE",
+  "TransactionCategoryId": "transaction_category:LINES"
+ },
+ {
+  "Key": "inter_document_type_transaction_category:17",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:DEPRECIATION_JOURNAL",
+  "TransactionCategoryId": "transaction_category:JOURNAL_LINES"
+ },
+ {
+  "Key": "inter_document_type_transaction_category:18",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:JOURNAL_PAYMENT",
+  "TransactionCategoryId": "transaction_category:JOURNAL_LINES"
+ },
+ {
+  "Key": "inter_document_type_transaction_category:19",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:JOURNAL_RECEIPT",
+  "TransactionCategoryId": "transaction_category:JOURNAL_LINES"
+ },
+ {
+  "Key": "inter_document_type_transaction_category:20",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:JOURNAL_PREPAYMENT",
+  "TransactionCategoryId": "transaction_category:JOURNAL_LINES"
+ },
+ {
+  "Key": "inter_document_type_transaction_category:21",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:JOURNAL_ADVANCE",
+  "TransactionCategoryId": "transaction_category:JOURNAL_LINES"
+ },
+ {
+  "Key": "inter_document_type_transaction_category:22",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:JOURNAL_EMPLOYEE_ADVANCE",
+  "TransactionCategoryId": "transaction_category:JOURNAL_LINES"
+ },
+ {
+  "Key": "inter_document_type_transaction_category:23",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:SALES_CONTRACT_GOODS",
+  "TransactionCategoryId": "transaction_category:LINES"
+ },
+ {
+  "Key": "inter_document_type_transaction_category:24",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:PURCHASE_CONTRACT_GOODS",
+  "TransactionCategoryId": "transaction_category:LINES"
+ },
+ {
+  "Key": "inter_document_type_transaction_category:25",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:PURCHASE_OFFER_GOODS",
+  "TransactionCategoryId": "transaction_category:LINES"
+ },
+ {
+  "Key": "inter_document_type_transaction_category:26",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:SALES_OFFER_SERVICES",
+  "TransactionCategoryId": "transaction_category:LINES"
+ },
+ {
+  "Key": "inter_document_type_transaction_category:27",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:PURCHASE_OFFER_SERVICES",
+  "TransactionCategoryId": "transaction_category:LINES"
+ },
+ {
+  "Key": "inter_document_type_transaction_category:28",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:GENERAL_JOURNAL_ENTRY",
+  "TransactionCategoryId": "transaction_category:JOURNAL_LINES"
+ },
+ {
+  "Key": "inter_document_type_transaction_category:29",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:SALES_CONTRACT_SERVICES",
+  "TransactionCategoryId": "transaction_category:LINES"
+ },
+ {
+  "Key": "inter_document_type_transaction_category:30",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:PURCHASE_CONTRACT_SERVICES",
+  "TransactionCategoryId": "transaction_category:LINES"
+ },
+ {
+  "Key": "inter_document_type_transaction_category:31",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:POS_RECEIPT",
+  "TransactionCategoryId": "transaction_category:LINES"
+ },
+ {
+  "Key": "inter_document_type_transaction_category:32",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:GOODS_TRANSFER_FROM_STAFF",
+  "TransactionCategoryId": "transaction_category:LINES"
+ },
+ {
+  "Key": "inter_document_type_transaction_category:33",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:GOODS_TRANSFER_TO_CLIENT",
+  "TransactionCategoryId": "transaction_category:LINES"
+ },
+ {
+  "Key": "inter_document_type_transaction_category:34",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:GOODS_TRANSFER_FROM_CLIENT",
+  "TransactionCategoryId": "transaction_category:LINES"
+ },
+ {
+  "Key": "inter_document_type_transaction_category:35",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:REVALUATION_JOURNAL",
+  "TransactionCategoryId": "transaction_category:REVALUATION_LINES"
+ },
+ {
+  "Key": "inter_document_type_transaction_category:36",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:POS_CONTRACT",
+  "TransactionCategoryId": "transaction_category:LINES"
+ },
+ {
+  "Key": "inter_document_type_transaction_category:37",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:POS_MONEY_IN",
+  "TransactionCategoryId": "transaction_category:LINES"
+ },
+ {
+  "Key": "inter_document_type_transaction_category:38",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:POS_MONEY_OUT",
+  "TransactionCategoryId": "transaction_category:LINES"
+ },
+ {
+  "Key": "inter_document_type_transaction_category:39",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:POS_GOODS_IN",
+  "TransactionCategoryId": "transaction_category:LINES"
+ },
+ {
+  "Key": "inter_document_type_transaction_category:40",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:POS_GOODS_OUT",
+  "TransactionCategoryId": "transaction_category:LINES"
+ },
+ {
+  "Key": "inter_document_type_transaction_category:41",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:DEPRECIATION_JOURNAL",
+  "TransactionCategoryId": "transaction_category:DEPRECIATION_LINES"
+ },
+ {
+  "Key": "inter_document_type_transaction_category:42",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:WAGE_PAYMENT",
+  "TransactionCategoryId": "transaction_category:LINES"
+ },
+ {
+  "Key": "inter_document_type_transaction_category:43",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:RENT_PAYMENT",
+  "TransactionCategoryId": "transaction_category:LINES"
+ },
+ {
+  "Key": "inter_document_type_transaction_category:44",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:CUSTOMS_DECLARATION",
+  "TransactionCategoryId": "transaction_category:LINES"
+ },
+ {
+  "Key": "inter_document_type_transaction_category:45",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:CUSTOMS_DECLARATION_ASSETS",
+  "TransactionCategoryId": "transaction_category:LINES"
+ },
+ {
+  "Key": "inter_document_type_transaction_category:46",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:POS_REVERSAL",
+  "TransactionCategoryId": "transaction_category:LINES"
+ },
+ {
+  "Key": "inter_document_type_transaction_category:47",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:POS_REFUND",
+  "TransactionCategoryId": "transaction_category:LINES"
+ },
+ {
+  "Key": "inter_document_type_transaction_category:48",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:POS_MONEY_FROM_STAFF",
+  "TransactionCategoryId": "transaction_category:LINES"
+ },
+ {
+  "Key": "inter_document_type_transaction_category:49",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:GOODS_OUT_TO_STAFF",
+  "TransactionCategoryId": "transaction_category:LINES"
+ },
+ {
+  "Key": "inter_document_type_transaction_category:50",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:GOODS_TRANSFER_STAFF_TO_CLIENT",
+  "TransactionCategoryId": "transaction_category:LINES"
+ },
+ {
+  "Key": "inter_document_type_transaction_category:51",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:GOODS_IN_FROM_STAFF",
+  "TransactionCategoryId": "transaction_category:LINES"
+ },
+ {
+  "Key": "inter_document_type_transaction_category:52",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:GOODS_TRANSFER_FROM_CLIENT",
+  "TransactionCategoryId": "transaction_category:LINES"
+ },
+ {
+  "Key": "inter_document_type_transaction_category:53",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:REVERSAL_PAYMENT",
+  "TransactionCategoryId": "transaction_category:LINES"
+ },
+ {
+  "Key": "inter_document_type_transaction_category:54",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:REVERSAL_RECEIPT",
+  "TransactionCategoryId": "transaction_category:LINES"
+ },
+ {
+  "Key": "inter_document_type_transaction_category:55",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:REVERSAL_PREPAYMENT",
+  "TransactionCategoryId": "transaction_category:LINES"
+ },
+ {
+  "Key": "inter_document_type_transaction_category:56",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:REVERSAL_DEPRECIATION_JOURNAL",
+  "TransactionCategoryId": "transaction_category:JOURNAL_LINES"
+ },
+ {
+  "Key": "inter_document_type_transaction_category:57",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:REVERSAL_DEPRECIATION_JOURNAL",
+  "TransactionCategoryId": "transaction_category:DEPRECIATION_LINES"
+ },
+ {
+  "Key": "inter_document_type_transaction_category:58",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:REVERSAL_JOURNAL_PAYMENT",
+  "TransactionCategoryId": "transaction_category:JOURNAL_LINES"
+ },
+ {
+  "Key": "inter_document_type_transaction_category:59",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:REVERSAL_JOURNAL_RECEIPT",
+  "TransactionCategoryId": "transaction_category:JOURNAL_LINES"
+ },
+ {
+  "Key": "inter_document_type_transaction_category:60",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:REVERSAL_JOURNAL_PREPAYMENT",
+  "TransactionCategoryId": "transaction_category:JOURNAL_LINES"
+ },
+ {
+  "Key": "inter_document_type_transaction_category:61",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:REVERSAL_ADVANCE",
+  "TransactionCategoryId": "transaction_category:LINES"
+ },
+ {
+  "Key": "inter_document_type_transaction_category:62",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:REVERSAL_EMPLOYEE_ADVANCE",
+  "TransactionCategoryId": "transaction_category:LINES"
+ },
+ {
+  "Key": "inter_document_type_transaction_category:63",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:REVERSAL_JOURNAL_ADVANCE",
+  "TransactionCategoryId": "transaction_category:JOURNAL_LINES"
+ },
+ {
+  "Key": "inter_document_type_transaction_category:64",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:REVERSAL_JOURNAL_EMPLOYEE_ADVANCE",
+  "TransactionCategoryId": "transaction_category:JOURNAL_LINES"
+ },
+ {
+  "Key": "interdocumenttypetransactioncategory:production:PRODUCTION:0",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:PRODUCTION",
+  "TransactionCategoryId": "transaction_category:LINES"
+ },
+ {
+  "Key": "interdocumenttypetransactioncategory:production:UNIT_SPLIT:0",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:UNIT_SPLIT",
+  "TransactionCategoryId": "transaction_category:LINES"
+ },
+ {
+  "Key": "interdocumenttypetransactioncategory:production:REVERSAL_UNIT_SPLIT:0",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:REVERSAL_UNIT_SPLIT",
+  "TransactionCategoryId": "transaction_category:LINES"
+ },
+ {
+  "Key": "inter_document_type_transaction_category:journal-reversal:28:REVERSAL_GENERAL_JOURNAL_ENTRY",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:REVERSAL_GENERAL_JOURNAL_ENTRY",
+  "TransactionCategoryId": "transaction_category:JOURNAL_LINES"
+ },
+ {
+  "Key": "inter_document_type_transaction_category:recurring:17:RECURRING_DEPRECIATION_JOURNAL",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:RECURRING_DEPRECIATION_JOURNAL",
+  "TransactionCategoryId": "transaction_category:JOURNAL_LINES"
+ },
+ {
+  "Key": "inter_document_type_transaction_category:recurring:18:RECURRING_JOURNAL_PAYMENT",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:RECURRING_JOURNAL_PAYMENT",
+  "TransactionCategoryId": "transaction_category:JOURNAL_LINES"
+ },
+ {
+  "Key": "inter_document_type_transaction_category:recurring:19:RECURRING_JOURNAL_RECEIPT",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:RECURRING_JOURNAL_RECEIPT",
+  "TransactionCategoryId": "transaction_category:JOURNAL_LINES"
+ },
+ {
+  "Key": "inter_document_type_transaction_category:recurring:20:RECURRING_JOURNAL_PREPAYMENT",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:RECURRING_JOURNAL_PREPAYMENT",
+  "TransactionCategoryId": "transaction_category:JOURNAL_LINES"
+ },
+ {
+  "Key": "inter_document_type_transaction_category:recurring:21:RECURRING_JOURNAL_ADVANCE",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:RECURRING_JOURNAL_ADVANCE",
+  "TransactionCategoryId": "transaction_category:JOURNAL_LINES"
+ },
+ {
+  "Key": "inter_document_type_transaction_category:recurring:22:RECURRING_JOURNAL_EMPLOYEE_ADVANCE",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:RECURRING_JOURNAL_EMPLOYEE_ADVANCE",
+  "TransactionCategoryId": "transaction_category:JOURNAL_LINES"
+ },
+ {
+  "Key": "inter_document_type_transaction_category:recurring:28:RECURRING_GENERAL_JOURNAL_ENTRY",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:RECURRING_GENERAL_JOURNAL_ENTRY",
+  "TransactionCategoryId": "transaction_category:JOURNAL_LINES"
+ },
+ {
+  "Key": "inter_document_type_transaction_category:recurring:35:RECURRING_REVALUATION_JOURNAL",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:RECURRING_REVALUATION_JOURNAL",
+  "TransactionCategoryId": "transaction_category:REVALUATION_LINES"
+ },
+ {
+  "Key": "inter_document_type_transaction_category:recurring:41:RECURRING_DEPRECIATION_JOURNAL",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:RECURRING_DEPRECIATION_JOURNAL",
+  "TransactionCategoryId": "transaction_category:DEPRECIATION_LINES"
+ },
+ {
+  "Key": "inter_document_type_transaction_category:recurring:56:REVERSAL_RECURRING_DEPRECIATION_JOURNAL",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:REVERSAL_RECURRING_DEPRECIATION_JOURNAL",
+  "TransactionCategoryId": "transaction_category:JOURNAL_LINES"
+ },
+ {
+  "Key": "inter_document_type_transaction_category:recurring:57:REVERSAL_RECURRING_DEPRECIATION_JOURNAL",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:REVERSAL_RECURRING_DEPRECIATION_JOURNAL",
+  "TransactionCategoryId": "transaction_category:DEPRECIATION_LINES"
+ },
+ {
+  "Key": "inter_document_type_transaction_category:recurring:58:REVERSAL_RECURRING_JOURNAL_PAYMENT",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:REVERSAL_RECURRING_JOURNAL_PAYMENT",
+  "TransactionCategoryId": "transaction_category:JOURNAL_LINES"
+ },
+ {
+  "Key": "inter_document_type_transaction_category:recurring:59:REVERSAL_RECURRING_JOURNAL_RECEIPT",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:REVERSAL_RECURRING_JOURNAL_RECEIPT",
+  "TransactionCategoryId": "transaction_category:JOURNAL_LINES"
+ },
+ {
+  "Key": "inter_document_type_transaction_category:recurring:60:REVERSAL_RECURRING_JOURNAL_PREPAYMENT",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:REVERSAL_RECURRING_JOURNAL_PREPAYMENT",
+  "TransactionCategoryId": "transaction_category:JOURNAL_LINES"
+ },
+ {
+  "Key": "inter_document_type_transaction_category:recurring:63:REVERSAL_RECURRING_JOURNAL_ADVANCE",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:REVERSAL_RECURRING_JOURNAL_ADVANCE",
+  "TransactionCategoryId": "transaction_category:JOURNAL_LINES"
+ },
+ {
+  "Key": "inter_document_type_transaction_category:recurring:64:REVERSAL_RECURRING_JOURNAL_EMPLOYEE_ADVANCE",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:REVERSAL_RECURRING_JOURNAL_EMPLOYEE_ADVANCE",
+  "TransactionCategoryId": "transaction_category:JOURNAL_LINES"
+ },
+ {
+  "Key": "inter_document_type_transaction_category:recurring:journal-reversal:28:REVERSAL_GENERAL_JOURNAL_ENTRY:REVERSAL_RECURRING_GENERAL_JOURNAL_ENTRY",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:REVERSAL_RECURRING_GENERAL_JOURNAL_ENTRY",
+  "TransactionCategoryId": "transaction_category:JOURNAL_LINES"
+ },
+ {
+  "Key": "inter_document_type_transaction_category:25:PURCHASE_REQUEST",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:PURCHASE_REQUEST",
+  "TransactionCategoryId": "transaction_category:LINES"
+ },
+ {
+  "Key": "inter_document_type_transaction_category:25:PURCHASE_ORDER",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:PURCHASE_ORDER",
+  "TransactionCategoryId": "transaction_category:LINES"
+ },
+ {
+  "Key": "inter_document_type_transaction_category:2:SALES_ORDER",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:SALES_ORDER",
+  "TransactionCategoryId": "transaction_category:LINES"
+ },
+ {
+  "Key": "inter_document_type_transaction_category:2:POS_ORDER",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:POS_ORDER",
+  "TransactionCategoryId": "transaction_category:LINES"
+ },
+ {
+  "Key": "inter_document_type_transaction_category:26:REPAIR_INTAKE",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:REPAIR_INTAKE",
+  "TransactionCategoryId": "transaction_category:LINES"
+ },
+ {
+  "Key": "inter_document_type_transaction_category:26:REPAIR_OFFER",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:REPAIR_OFFER",
+  "TransactionCategoryId": "transaction_category:LINES"
+ },
+ {
+  "Key": "interdocumenttypetransactioncategory:disassembly:DISASSEMBLY:0",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:DISASSEMBLY",
+  "TransactionCategoryId": "transaction_category:LINES"
+ },
+ {
+  "Key": "inter_document_type_transaction_category:44:reversal",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:REVERSAL_CUSTOMS_DECLARATION",
+  "TransactionCategoryId": "transaction_category:LINES"
+ },
+ {
+  "Key": "inter_document_type_transaction_category:45:reversal",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:REVERSAL_CUSTOMS_DECLARATION_ASSETS",
+  "TransactionCategoryId": "transaction_category:LINES"
+ },
+ {
+  "Key": "inter_document_type_transaction_category:10:reversal",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:REVERSAL_GOODS_TRANSFER",
+  "TransactionCategoryId": "transaction_category:LINES"
+ },
+ {
+  "Key": "inter_document_type_transaction_category:11:reversal",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:REVERSAL_GOODS_TRANSFER_TO_STAFF",
+  "TransactionCategoryId": "transaction_category:LINES"
+ },
+ {
+  "Key": "inter_document_type_transaction_category:32:reversal",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:REVERSAL_GOODS_TRANSFER_FROM_STAFF",
+  "TransactionCategoryId": "transaction_category:LINES"
+ },
+ {
+  "Key": "inter_document_type_transaction_category:33:reversal",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:REVERSAL_GOODS_TRANSFER_TO_CLIENT",
+  "TransactionCategoryId": "transaction_category:LINES"
+ },
+ {
+  "Key": "inter_document_type_transaction_category:34:reversal",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:REVERSAL_GOODS_TRANSFER_FROM_CLIENT",
+  "TransactionCategoryId": "transaction_category:LINES"
+ },
+ {
+  "Key": "inter_document_type_transaction_category:52:reversal",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:REVERSAL_GOODS_TRANSFER_FROM_CLIENT",
+  "TransactionCategoryId": "transaction_category:LINES"
+ },
+ {
+  "Key": "inter_document_type_transaction_category:50:reversal",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:REVERSAL_GOODS_TRANSFER_STAFF_TO_CLIENT",
+  "TransactionCategoryId": "transaction_category:LINES"
+ }
+]

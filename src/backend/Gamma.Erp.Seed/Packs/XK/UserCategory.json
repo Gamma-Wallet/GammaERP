@@ -1,0 +1,139 @@
+[
+ {
+  "Key": "user_category:ADMINISTRATOR",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "ADMINISTRATOR",
+  "Name": {
+   "en": "Administrator",
+   "sq": "Administrator"
+  },
+  "SortOrder": 10,
+  "IsAdministrator": true
+ },
+ {
+  "Key": "user_category:FINANCE",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "FINANCE",
+  "Name": {
+   "en": "Finance",
+   "sq": "Financa"
+  },
+  "SortOrder": 20
+ },
+ {
+  "Key": "user_category:SELLER",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "SELLER",
+  "Name": {
+   "en": "Seller",
+   "sq": "Shitës"
+  },
+  "SortOrder": 30
+ },
+ {
+  "Key": "user_category:WAREHOUSE",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "WAREHOUSE",
+  "Name": {
+   "en": "Warehouse keeper",
+   "sq": "Magazinier"
+  },
+  "SortOrder": 40
+ },
+ {
+  "Key": "user_category:IT",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "IT",
+  "Name": {
+   "en": "IT",
+   "sq": "IT"
+  },
+  "SortOrder": 50
+ },
+ {
+  "Key": "user_category:CONSULTANT",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "CONSULTANT",
+  "Name": {
+   "en": "Consultant",
+   "sq": "Konsulent"
+  },
+  "SortOrder": 60
+ },
+ {
+  "Key": "user_category:PRODUCTION_POINT",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "PRODUCTION_POINT",
+  "Name": {
+   "en": "Production point",
+   "sq": "Pikë prodhimi"
+  },
+  "SortOrder": 70
+ },
+ {
+  "Key": "user_category:TECHNICIAN",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "TECHNICIAN",
+  "Name": {
+   "en": "Technician",
+   "sq": "Teknik"
+  },
+  "SortOrder": 80
+ },
+ {
+  "Key": "user_category:WAITER",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "WAITER",
+  "Name": {
+   "en": "Waiter",
+   "sq": "Kamarier"
+  },
+  "SortOrder": 90
+ },
+ {
+  "Key": "user_category:CASHIER",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "CASHIER",
+  "Name": {
+   "en": "Cashier",
+   "sq": "Arkëtar"
+  },
+  "SortOrder": 100
+ },
+ {
+  "Key": "user_category:USERS",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "USERS",
+  "Name": {
+   "en": "Users",
+   "sq": "Përdoruesit"
+  },
+  "SortOrder": 5,
+  "Description": {
+   "en": "Users",
+   "sq": "Përdoruesit"
+  }
+ }
+]

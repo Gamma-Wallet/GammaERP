@@ -1,0 +1,66 @@
+[
+ {
+  "Key": "transaction_category:LINES",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "LINES",
+  "Name": {
+   "en": "Transactions",
+   "pl": "Pozycje"
+  },
+  "Description": {
+   "en": "Transactions",
+   "pl": "Pozycje"
+  },
+  "SortOrder": 2.0
+ },
+ {
+  "Key": "transaction_category:JOURNAL_LINES",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "JOURNAL_LINES",
+  "Name": {
+   "en": "Journal lines",
+   "pl": "Pozycje polecenia księgowania"
+  },
+  "Description": {
+   "en": "Journal lines",
+   "pl": "Pozycje polecenia księgowania"
+  },
+  "SortOrder": 10.0
+ },
+ {
+  "Key": "transaction_category:DEPRECIATION_LINES",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "DEPRECIATION_LINES",
+  "Name": {
+   "en": "Depreciation lines",
+   "pl": "Pozycje amortyzacji"
+  },
+  "Description": {
+   "en": "Depreciation lines",
+   "pl": "Pozycje amortyzacji"
+  },
+  "SortOrder": 11.0
+ },
+ {
+  "Key": "transaction_category:REVALUATION_LINES",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "REVALUATION_LINES",
+  "Name": {
+   "en": "Revaluation lines",
+   "pl": "Pozycje przeszacowania"
+  },
+  "Description": {
+   "en": "Revaluation lines",
+   "pl": "Pozycje przeszacowania"
+  },
+  "SortOrder": 12.0
+ }
+]

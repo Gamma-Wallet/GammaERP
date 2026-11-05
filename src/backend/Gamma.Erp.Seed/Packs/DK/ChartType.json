@@ -1,0 +1,122 @@
+[
+ {
+  "Key": "chart_type:1",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "1",
+  "CodeStart": 0,
+  "CodeEnd": 99999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Class 1 – Non-current assets",
+   "da": "Gruppe 1 – Anlægsaktiver"
+  },
+  "SortOrder": 10
+ },
+ {
+  "Key": "chart_type:2",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "2",
+  "CodeStart": 0,
+  "CodeEnd": 99999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Class 2 – Current assets",
+   "da": "Gruppe 2 – Omsætningsaktiver"
+  },
+  "SortOrder": 20
+ },
+ {
+  "Key": "chart_type:3",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "3",
+  "CodeStart": 0,
+  "CodeEnd": 99999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Class 3 – Equity",
+   "da": "Gruppe 3 – Egenkapital"
+  },
+  "SortOrder": 30
+ },
+ {
+  "Key": "chart_type:4",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "4",
+  "CodeStart": 0,
+  "CodeEnd": 99999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Class 4 – Liabilities",
+   "da": "Gruppe 4 – Gældsforpligtelser"
+  },
+  "SortOrder": 40
+ },
+ {
+  "Key": "chart_type:5",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "5",
+  "CodeStart": 0,
+  "CodeEnd": 99999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Class 5 – Income",
+   "da": "Gruppe 5 – Indtægter"
+  },
+  "SortOrder": 50
+ },
+ {
+  "Key": "chart_type:6",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "6",
+  "CodeStart": 0,
+  "CodeEnd": 99999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Class 6 – Purchases and cost of sales",
+   "da": "Gruppe 6 – Vareforbrug"
+  },
+  "SortOrder": 60
+ },
+ {
+  "Key": "chart_type:7",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "7",
+  "CodeStart": 0,
+  "CodeEnd": 99999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Class 7 – Expenses",
+   "da": "Gruppe 7 – Omkostninger"
+  },
+  "SortOrder": 70
+ },
+ {
+  "Key": "chart_type:8",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "8",
+  "CodeStart": 0,
+  "CodeEnd": 99999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Class 8 – Income tax",
+   "da": "Gruppe 8 – Skat af årets resultat"
+  },
+  "SortOrder": 80
+ }
+]

@@ -1,0 +1,238 @@
+[
+ {
+  "Key": "document_type_flow:SALES_OFFER_GOODS:SALES_CONTRACT_GOODS",
+  "IdSup": null,
+  "Active": true,
+  "SourceTypeId": "document_type:SALES_OFFER_GOODS",
+  "TargetTypeId": "document_type:SALES_CONTRACT_GOODS",
+  "Once": true,
+  "ValidUntilInfoId": null
+ },
+ {
+  "Key": "document_type_flow:SALES_OFFER_GOODS:SALES_INVOICE_GOODS",
+  "IdSup": null,
+  "Active": true,
+  "SourceTypeId": "document_type:SALES_OFFER_GOODS",
+  "TargetTypeId": "document_type:SALES_INVOICE_GOODS",
+  "Once": true,
+  "ValidUntilInfoId": null
+ },
+ {
+  "Key": "document_type_flow:SALES_CONTRACT_GOODS:SALES_INVOICE_GOODS",
+  "IdSup": null,
+  "Active": true,
+  "SourceTypeId": "document_type:SALES_CONTRACT_GOODS",
+  "TargetTypeId": "document_type:SALES_INVOICE_GOODS",
+  "Once": false,
+  "ValidUntilInfoId": "document_type_info:1"
+ },
+ {
+  "Key": "document_type_flow:SALES_OFFER_SERVICES:SALES_CONTRACT_SERVICES",
+  "IdSup": null,
+  "Active": true,
+  "SourceTypeId": "document_type:SALES_OFFER_SERVICES",
+  "TargetTypeId": "document_type:SALES_CONTRACT_SERVICES",
+  "Once": true,
+  "ValidUntilInfoId": null
+ },
+ {
+  "Key": "document_type_flow:SALES_OFFER_SERVICES:SALES_INVOICE_SERVICES",
+  "IdSup": null,
+  "Active": true,
+  "SourceTypeId": "document_type:SALES_OFFER_SERVICES",
+  "TargetTypeId": "document_type:SALES_INVOICE_SERVICES",
+  "Once": true,
+  "ValidUntilInfoId": null
+ },
+ {
+  "Key": "document_type_flow:SALES_CONTRACT_SERVICES:SALES_INVOICE_SERVICES",
+  "IdSup": null,
+  "Active": true,
+  "SourceTypeId": "document_type:SALES_CONTRACT_SERVICES",
+  "TargetTypeId": "document_type:SALES_INVOICE_SERVICES",
+  "Once": false,
+  "ValidUntilInfoId": "document_type_info:3"
+ },
+ {
+  "Key": "document_type_flow:PURCHASE_OFFER_GOODS:PURCHASE_CONTRACT_GOODS",
+  "IdSup": null,
+  "Active": true,
+  "SourceTypeId": "document_type:PURCHASE_OFFER_GOODS",
+  "TargetTypeId": "document_type:PURCHASE_CONTRACT_GOODS",
+  "Once": true,
+  "ValidUntilInfoId": null
+ },
+ {
+  "Key": "document_type_flow:PURCHASE_OFFER_GOODS:PURCHASE_INVOICE_GOODS",
+  "IdSup": null,
+  "Active": true,
+  "SourceTypeId": "document_type:PURCHASE_OFFER_GOODS",
+  "TargetTypeId": "document_type:PURCHASE_INVOICE_GOODS",
+  "Once": true,
+  "ValidUntilInfoId": null
+ },
+ {
+  "Key": "document_type_flow:PURCHASE_CONTRACT_GOODS:PURCHASE_INVOICE_GOODS",
+  "IdSup": null,
+  "Active": true,
+  "SourceTypeId": "document_type:PURCHASE_CONTRACT_GOODS",
+  "TargetTypeId": "document_type:PURCHASE_INVOICE_GOODS",
+  "Once": false,
+  "ValidUntilInfoId": "document_type_info:7"
+ },
+ {
+  "Key": "document_type_flow:PURCHASE_OFFER_SERVICES:PURCHASE_CONTRACT_SERVICES",
+  "IdSup": null,
+  "Active": true,
+  "SourceTypeId": "document_type:PURCHASE_OFFER_SERVICES",
+  "TargetTypeId": "document_type:PURCHASE_CONTRACT_SERVICES",
+  "Once": true,
+  "ValidUntilInfoId": null
+ },
+ {
+  "Key": "document_type_flow:PURCHASE_OFFER_SERVICES:PURCHASE_INVOICE_SERVICES",
+  "IdSup": null,
+  "Active": true,
+  "SourceTypeId": "document_type:PURCHASE_OFFER_SERVICES",
+  "TargetTypeId": "document_type:PURCHASE_INVOICE_SERVICES",
+  "Once": true,
+  "ValidUntilInfoId": null
+ },
+ {
+  "Key": "document_type_flow:PURCHASE_CONTRACT_SERVICES:PURCHASE_INVOICE_SERVICES",
+  "IdSup": null,
+  "Active": true,
+  "SourceTypeId": "document_type:PURCHASE_CONTRACT_SERVICES",
+  "TargetTypeId": "document_type:PURCHASE_INVOICE_SERVICES",
+  "Once": false,
+  "ValidUntilInfoId": "document_type_info:9"
+ },
+ {
+  "Key": "document_type_flow:POS_CONTRACT:POS_RECEIPT",
+  "IdSup": null,
+  "Active": true,
+  "SourceTypeId": "document_type:POS_CONTRACT",
+  "TargetTypeId": "document_type:POS_RECEIPT",
+  "Once": false,
+  "ValidUntilInfoId": "document_type_info:19"
+ },
+ {
+  "Key": "document_type_flow:RENEW_SALES_CONTRACT_GOODS",
+  "IdSup": null,
+  "Active": true,
+  "SourceTypeId": "document_type:SALES_CONTRACT_GOODS",
+  "TargetTypeId": "document_type:SALES_CONTRACT_GOODS",
+  "Once": true,
+  "ValidUntilInfoId": null
+ },
+ {
+  "Key": "document_type_flow:RENEW_PURCHASE_CONTRACT_GOODS",
+  "IdSup": null,
+  "Active": true,
+  "SourceTypeId": "document_type:PURCHASE_CONTRACT_GOODS",
+  "TargetTypeId": "document_type:PURCHASE_CONTRACT_GOODS",
+  "Once": true,
+  "ValidUntilInfoId": null
+ },
+ {
+  "Key": "document_type_flow:RENEW_SALES_CONTRACT_SERVICES",
+  "IdSup": null,
+  "Active": true,
+  "SourceTypeId": "document_type:SALES_CONTRACT_SERVICES",
+  "TargetTypeId": "document_type:SALES_CONTRACT_SERVICES",
+  "Once": true,
+  "ValidUntilInfoId": null
+ },
+ {
+  "Key": "document_type_flow:RENEW_PURCHASE_CONTRACT_SERVICES",
+  "IdSup": null,
+  "Active": true,
+  "SourceTypeId": "document_type:PURCHASE_CONTRACT_SERVICES",
+  "TargetTypeId": "document_type:PURCHASE_CONTRACT_SERVICES",
+  "Once": true,
+  "ValidUntilInfoId": null
+ },
+ {
+  "Key": "document_type_flow:RENEW_POS_CONTRACT",
+  "IdSup": null,
+  "Active": true,
+  "SourceTypeId": "document_type:POS_CONTRACT",
+  "TargetTypeId": "document_type:POS_CONTRACT",
+  "Once": true,
+  "ValidUntilInfoId": null
+ },
+ {
+  "Key": "document_type_flow:PURCHASE_REQUEST:PURCHASE_ORDER",
+  "IdSup": null,
+  "Active": true,
+  "SourceTypeId": "document_type:PURCHASE_REQUEST",
+  "TargetTypeId": "document_type:PURCHASE_ORDER",
+  "Once": true,
+  "ValidUntilInfoId": null
+ },
+ {
+  "Key": "document_type_flow:PURCHASE_OFFER_GOODS:PURCHASE_ORDER",
+  "IdSup": null,
+  "Active": true,
+  "SourceTypeId": "document_type:PURCHASE_OFFER_GOODS",
+  "TargetTypeId": "document_type:PURCHASE_ORDER",
+  "Once": true,
+  "ValidUntilInfoId": null
+ },
+ {
+  "Key": "document_type_flow:PURCHASE_ORDER:PURCHASE_INVOICE_GOODS",
+  "IdSup": null,
+  "Active": true,
+  "SourceTypeId": "document_type:PURCHASE_ORDER",
+  "TargetTypeId": "document_type:PURCHASE_INVOICE_GOODS",
+  "Once": true,
+  "ValidUntilInfoId": null
+ },
+ {
+  "Key": "document_type_flow:SALES_OFFER_GOODS:SALES_ORDER",
+  "IdSup": null,
+  "Active": true,
+  "SourceTypeId": "document_type:SALES_OFFER_GOODS",
+  "TargetTypeId": "document_type:SALES_ORDER",
+  "Once": true,
+  "ValidUntilInfoId": null
+ },
+ {
+  "Key": "document_type_flow:SALES_ORDER:SALES_INVOICE_GOODS",
+  "IdSup": null,
+  "Active": true,
+  "SourceTypeId": "document_type:SALES_ORDER",
+  "TargetTypeId": "document_type:SALES_INVOICE_GOODS",
+  "Once": true,
+  "ValidUntilInfoId": null
+ },
+ {
+  "Key": "document_type_flow:POS_ORDER:POS_RECEIPT",
+  "IdSup": null,
+  "Active": true,
+  "SourceTypeId": "document_type:POS_ORDER",
+  "TargetTypeId": "document_type:POS_RECEIPT",
+  "Once": false,
+  "ValidUntilInfoId": null
+ },
+ {
+  "Key": "document_type_flow:REPAIR_INTAKE:REPAIR_OFFER",
+  "IdSup": null,
+  "Active": true,
+  "SourceTypeId": "document_type:REPAIR_INTAKE",
+  "TargetTypeId": "document_type:REPAIR_OFFER",
+  "Once": false,
+  "ValidUntilInfoId": null,
+  "NeedsAcceptance": false
+ },
+ {
+  "Key": "document_type_flow:REPAIR_OFFER:SALES_INVOICE_SERVICES",
+  "IdSup": null,
+  "Active": true,
+  "SourceTypeId": "document_type:REPAIR_OFFER",
+  "TargetTypeId": "document_type:SALES_INVOICE_SERVICES",
+  "Once": true,
+  "ValidUntilInfoId": null,
+  "NeedsAcceptance": true
+ }
+]

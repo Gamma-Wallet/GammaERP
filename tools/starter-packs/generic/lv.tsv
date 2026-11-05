@@ -1,0 +1,179 @@
+# Gamma's generic chart (chart-generic.tsv) in Latvian, by account code. Gamma's translations.
+# code	lv
+1	Ilgtermiņa ieguldījumi
+11	Pamatlīdzekļi
+1101	Zeme
+1102	Ēkas
+1103	Iekārtas un mašīnas
+1104	Transportlīdzekļi
+1105	Inventārs
+1106	Datortehnika
+1107	Nepabeigtā celtniecība
+12	Pamatlīdzekļu uzkrātais nolietojums
+1202	Ēku uzkrātais nolietojums
+1203	Iekārtu un mašīnu uzkrātais nolietojums
+1204	Transportlīdzekļu uzkrātais nolietojums
+1205	Inventāra uzkrātais nolietojums
+1206	Datortehnikas uzkrātais nolietojums
+13	Nemateriālie ieguldījumi
+1301	Nemateriālā vērtība
+1302	Programmatūra
+1303	Preču zīmes un licences
+14	Nemateriālo ieguldījumu uzkrātā amortizācija
+1402	Programmatūras uzkrātā amortizācija
+1403	Preču zīmju un licenču uzkrātā amortizācija
+15	Ieguldījuma īpašumi
+1501	Ieguldījuma īpašumi
+16	Ilgtermiņa finanšu ieguldījumi
+1601	Līdzdalība radniecīgo sabiedrību kapitālā
+1602	Līdzdalība asociēto sabiedrību kapitālā
+1603	Citi ieguldījumi
+1604	Ilgtermiņa aizdevumi
+17	Atliktais nodoklis
+1701	Atliktā nodokļa aktīvi
+2	Apgrozāmie līdzekļi
+20	Krājumi
+2001	Preces pārdošanai
+2002	Izejvielas
+2003	Palīgmateriāli
+2004	Gatavie ražojumi
+2005	Nepabeigtie ražojumi
+22	Pircēju un pasūtītāju parādi
+2201	Pircēju parādi
+2202	Ārvalstu pircēju parādi
+2203	Saņemamie čeki
+2209	Uzkrājumi šaubīgiem debitoru parādiem
+23	Citi debitori
+2301	Nākamo periodu izmaksas
+2302	Avansi piegādātājiem
+2303	Avansi darbiniekiem
+2304	Drošības naudas
+2305	Citi debitori
+24	Nodokļu pārmaksas
+2401	Priekšnodoklis (PVN)
+2402	Atmaksājamais PVN
+2403	Nodokļu avansi
+28	Nauda
+2801	Kase
+2802	Kase ārvalstu valūtā
+2803	Norēķinu konts
+2804	Konts ārvalstu valūtā
+2805	Termiņnoguldījumi
+2806	Nauda ceļā
+3	Pašu kapitāls
+30	Pamatkapitāls
+3001	Pamatkapitāls
+3002	Akciju emisijas uzcenojums
+31	Rezerves
+3101	Pārvērtēšanas rezerve
+3102	Citas rezerves
+32	Nesadalītā peļņa
+3201	Iepriekšējo gadu nesadalītā peļņa
+3202	Pārskata gada peļņa vai zaudējumi
+4	Saistības
+40	Ilgtermiņa saistības
+4001	Ilgtermiņa bankas aizņēmumi
+4002	Nomas saistības
+4003	Aizņēmumi no dalībniekiem
+4004	Atliktā nodokļa saistības
+4005	Uzkrājumi
+41	Parādi piegādātājiem
+4101	Parādi piegādātājiem
+4102	Parādi ārvalstu piegādātājiem
+4103	Maksājamie vekseļi
+4104	No pircējiem saņemtie avansi
+42	Citi kreditori
+4201	Uzkrātās saistības
+4202	Nākamo periodu ieņēmumi
+4203	Darba algas saistības
+4204	Sociālās apdrošināšanas saistības
+4205	Veselības apdrošināšanas saistības
+4206	Citi kreditori
+4207	Izmaksājamās dividendes
+43	Īstermiņa aizņēmumi
+4301	Kredītlīnija
+4302	Īstermiņa bankas aizņēmumi
+44	Nodokļu saistības
+4401	Aprēķinātais PVN
+4402	Maksājamais PVN
+4403	Uzņēmumu ienākuma nodokļa saistības
+4404	Iedzīvotāju ienākuma nodokļa saistības
+4405	Citu nodokļu saistības
+5	Ieņēmumi
+50	Neto apgrozījums
+5001	Ieņēmumi no preču pārdošanas
+5002	Ieņēmumi no pakalpojumiem
+5003	Ieņēmumi no saražotās produkcijas pārdošanas
+5004	Atlaides un atgriešanas
+51	Citi saimnieciskās darbības ieņēmumi
+5101	Nomas ieņēmumi
+5102	Dotācijas
+5103	Peļņa no pamatlīdzekļu pārdošanas
+5104	Citi ieņēmumi
+52	Finanšu ieņēmumi
+5201	Procentu ieņēmumi
+5202	Dividenžu ieņēmumi
+5203	Valūtas kursu peļņa
+6	Iepirkumi un pārdotās produkcijas izmaksas
+60	Iepirkumi
+6001	Preču iepirkums
+6002	Izejvielu iepirkums
+6003	Materiālu iepirkums
+6004	Iepirkuma atlaides un atgriešanas
+6005	Iepirkuma transports un muitas maksājumi
+61	Krājumu izmaiņas
+6101	Preču krājumu izmaiņas
+6102	Izejvielu krājumu izmaiņas
+7	Izmaksas
+70	Personāla izmaksas
+7001	Darba alga
+7002	Darba devēja sociālās iemaksas
+7003	Darba devēja veselības apdrošināšana
+7004	Citas darba devēja iemaksas
+7005	Citas personāla izmaksas
+71	Telpu izmaksas
+7101	Noma
+7102	Elektroenerģija
+7103	Ūdens
+7104	Remonts un uzturēšana
+7105	Apdrošināšana
+72	Administrācijas izmaksas
+7201	Sakari
+7202	Pasta izdevumi
+7203	Biroja preces
+7204	Revīzija
+7205	Konsultāciju pakalpojumi
+7206	Biedru naudas un abonementi
+7207	Sabiedrības nodevas
+73	Pārdošanas izmaksas
+7301	Reklāma
+7302	Pārdošanas transports
+7303	Komisijas maksas
+7304	Komandējumi
+74	Transportlīdzekļu izmaksas
+7401	Degviela
+7402	Transportlīdzekļu nodoklis un apdrošināšana
+7403	Transportlīdzekļu remonts
+75	Finanšu izmaksas
+7501	Procentu izdevumi
+7502	Bankas komisijas
+7503	Valūtas kursu zaudējumi
+7504	Nomas procenti
+76	Nolietojums un amortizācija
+7601	Ēku nolietojums
+7602	Iekārtu un mašīnu nolietojums
+7603	Transportlīdzekļu nolietojums
+7604	Inventāra nolietojums
+7605	Datortehnikas nolietojums
+7606	Nemateriālo ieguldījumu amortizācija
+77	Citas izmaksas
+7701	Norakstītie debitoru parādi
+7702	Zaudējumi no pamatlīdzekļu pārdošanas
+7703	Neatskaitāmais PVN
+7704	Citas izmaksas
+7705	Krājumu zudumi un brāķis
+8	Ienākuma nodoklis
+80	Nodokļi
+8001	Uzņēmumu ienākuma nodoklis
+8002	Citi peļņas nodokļi
+8003	Atliktais nodoklis

@@ -1,0 +1,442 @@
+# The base names in Bulgarian, keyed by the English name (Gamma's translations), for the packs in Bulgarian.
+# en	bg
+Base	Седалище
+Cash desk	Каса
+Bank	Банка
+Point of sale	Търговски обект
+Warehouse	Склад
+Office	Офис
+Tax number	ДДС номер
+Owner	Собственик
+Name	Наименование
+Currency	Валута
+Trade name	Търговско наименование
+Address	Адрес
+Phone	Телефон
+E-mail	Имейл
+Website	Уебсайт
+Logo	Лого
+Authorised person	Упълномощено лице
+Account	Сметка
+Negative stock allowed (cost centres)	Разрешена отрицателна наличност (разходни центрове)
+Negative stock allowed (partners)	Разрешена отрицателна наличност (партньори)
+Negative stock allowed (employees)	Разрешена отрицателна наличност (служители)
+cost centres	разходни центрове
+partners	контрагенти
+employees	служители
+Hold timeout (minutes)	Време за заключване на документа (минути)
+ALL	ALL
+EUR	EUR
+USD	USD
+GBP	GBP
+CAD	CAD
+CHF	CHF
+Company book	Счетоводен амортизационен план
+Tax book	Данъчен амортизационен план
+Straight-line	Линеен
+Straight-line depreciation	Линейна амортизация
+Remaining value	Балансова стойност
+Depreciation on the remaining value	Амортизация върху балансовата стойност
+Assets	Дълготрайни активи
+Land	Земи
+Buildings	Сгради
+Office equipment	Офис техника
+Vehicles	Транспортни средства
+Computer equipment	Компютърна техника
+Furniture and fittings	Стопански инвентар
+Intangible assets	Нематериални активи
+Sales	Продажби
+Sales invoices	Издадени фактури
+Purchases	Покупки
+Purchase invoices	Получени фактури
+Goods transfers	Прехвърляне на стоки
+Goods transfer note	Стокова разписка
+Offers	Оферти
+Journal	Мемориален дневник
+Contracts	Договори
+Recurring journal	Периодичен дневник
+Reversals	Сторна
+Sales invoice, goods	Фактура за продажба на стоки
+Credit note, goods sold	Кредитно известие за продадени стоки
+Sales invoice, services	Фактура за услуги
+Credit note, services sold	Кредитно известие за предоставени услуги
+Purchase invoice, goods	Получена фактура за стоки
+Credit note, goods bought	Получено кредитно известие за стоки
+Purchase invoice, services	Получена фактура за услуги
+Credit note, services bought	Получено кредитно известие за услуги
+Payment	Плащане
+Receipt	Постъпление
+Prepayment	Авансово плащане
+Goods transfer, cost centre to staff	Прехвърляне от разходен център към служител
+Sales offer, goods	Оферта за стоки
+Depreciation sheet	Амортизационен план
+Depreciation journal	Осчетоводяване на амортизация
+Journal sheet	Мемориален ордер
+Revaluation sheet	Справка за преоценка
+Revaluation journal	Осчетоводяване на преоценка
+Advance	Аванс
+Client's advance	Аванс от клиент
+Employee advance	Аванс на служител
+Advance to an employee	Аванс на служител
+Sales contract, goods	Договор за продажба на стоки
+Purchase contract, goods	Договор за покупка на стоки
+Purchase offer, goods	Запитване за стоки
+Sales offer, services	Оферта за услуги
+Purchase offer, services	Запитване за услуги
+Sales contract, services	Договор за услуги
+Purchase contract, services	Договор за получени услуги
+Recurring depreciation sheet	Периодичен амортизационен план
+Recurring journal sheet	Периодичен мемориален ордер
+Recurring revaluation sheet	Периодична справка за преоценка
+General journal entry	Обща счетоводна статия
+Point-of-sale receipt	Касова бележка
+Goods transfer, staff to cost centre	Прехвърляне от служител към разходен център
+Goods transfer, cost centre to client	Доставка от разходен център към клиент
+Goods transfer, client to cost centre	Връщане от клиент към разходен център
+Point-of-sale contract	Договор на търговски обект
+Point-of-sale receipt of money	Постъпление в търговския обект
+Point-of-sale payment	Плащане в търговския обект
+Point-of-sale goods in	Заприхождаване в търговския обект
+Point-of-sale goods out	Изписване от търговския обект
+Wage payment	Изплащане на заплати
+Rent payment	Плащане на наем
+Customs declaration	Митническа декларация
+Customs declaration, assets	Митническа декларация за дълготрайни активи
+Point-of-sale refund	Възстановяване на суми в търговския обект
+Point-of-sale receipt from staff	Постъпление от служител в търговския обект
+Goods out to staff	Изписване към служител
+Goods transfer, staff to client	Доставка от служител към клиент
+Goods in from staff	Заприхождаване от служител
+Reversal of payment	Сторно на плащане
+Reversal of receipt	Сторно на постъпление
+Reversal of prepayment	Сторно на авансово плащане
+Reversal of depreciation journal	Сторно на амортизация
+Reversal of advance	Сторно на аванс
+Reversal of employee advance	Сторно на аванс на служител
+End date	Крайна дата
+Offer valid until	Валидност на офертата
+Start date	Начална дата
+External number	Външен номер
+Contract number	Номер на договор
+Invoice number	Номер на фактура
+Carrier	Превозвач
+Linked invoice	Свързана фактура
+Purchase invoice	Получена фактура
+Last payment date	Дата на последно плащане
+Accounts	Сметки
+Products / services	Продукция / услуги
+Client / supplier / third party	Клиент / доставчик / трето лице
+Staff	Персонал
+Financial documents	Счетоводни документи
+Transaction value	Стойност на реда
+Transaction discount	Отстъпка на реда
+Transaction VAT	ДДС на реда
+Asset's remaining value	Балансова стойност на актива
+Transaction debit	Дебит на реда
+Transaction credit	Кредит на реда
+Transaction value with VAT	Стойност на реда с ДДС
+Non-current asset accounts	Сметки за нетекущи активи
+Inventory accounts	Сметки за материални запаси
+Expense accounts	Сметки за разходи
+Income accounts	Сметки за приходи
+All accounts	Всички сметки
+table	таблица
+specified element	конкретен елемент
+empty element	празен елемент
+line reference	препратка към ред
+line configuration	настройки на редовете
+document reference	препратка към документ
+document configuration	настройки на документите
+scenario configuration	настройки на контировката
+depreciation scenario configuration	настройки на контировката за амортизация
+depreciation scenario	контировка за амортизация
+Transaction amount	Сума на реда
+Finance	Счетоводство
+Administrator	Администратор
+Financier	Счетоводител
+Warehouse keeper	Складодържател
+Driver	Шофьор
+Worker	Работник
+Clients	Клиенти
+Suppliers	Доставчици
+Unknown	Неизвестен
+Person	Физическо лице
+SME	МСП
+LTD	ООД
+Cash	В брой
+Unpaid	Неплатено
+Credit card	Банкова карта
+Products	Продукция
+Services	Услуги
+Goods	Стоки
+Service	Услуга
+Asset	Дълготраен актив
+Items	Артикули
+Transactions	Редове
+Journal lines	Редове на мемориален ордер
+Depreciation lines	Редове за амортизация
+Revaluation lines	Редове за преоценка
+Item	Артикул
+Fixed asset	Дълготраен актив
+Service item	Артикул (услуга)
+Supplier	Доставчик
+Client	Клиент
+Cash desk account	Касова сметка
+Bank account	Банкова сметка
+Depreciation	Амортизация
+Revaluation	Преоценка
+Fixed asset (service)	Дълготраен актив (услуга)
+Combined item	Комплект
+Customs	Мито
+Transport	Транспорт
+Customs agency	Митнически агент
+Customs, assets	Мито за дълготрайни активи
+Transport, assets	Транспорт на дълготрайни активи
+Customs agency, assets	Митнически агент за дълготрайни активи
+Piece	Брой
+kg	кг
+Hour	Час
+Day	Ден
+Month	Месец
+Year	Година
+g	г
+cm	см
+m	м
+mm	mm
+km	km
+Standard	Стандартна
+Weight	Тегло
+Time	Време
+Length	Дължина
+Seller	Продавач
+IT	ИТ
+Consultant	Консултант
+VAT 20%	ДДС 20%
+VAT 0%	ДДС 0%
+Hall	Зала
+Table	Маса
+Counter	Бар
+Production	Производство
+Reversal of production	Сторно на производство
+Unit split	Преобразуване на мерна единица
+Reversal of unit split	Сторно на преобразуване на мерна единица
+Raw material used	Вложена суровина
+Produced item	Произведен продукт
+Waste	Брак
+Account ledger	Аналитична карта на сметка
+Administration	Администрация
+Chart of accounts	Сметкоплан
+Client and supplier ledger	Карта на клиенти и доставчици
+Client statistics	Статистика на клиентите
+Clients and suppliers	Клиенти и доставчици
+Configuration	Настройки
+Convert stock between units	Преобразуване на наличност в друга мярка
+Cost centre ledger	Карта на разходния център
+Cost centres	Разходни центрове
+Currencies and exchange rates	Валути и валутни курсове
+Document types	Видове документи
+Documents	Документи
+Employees	Служители
+Files	Файлове
+Financial reports	Финансови отчети
+Item movements	Движения на артикул
+Menu	Меню
+Menu access	Достъп до менюто
+Operations	Операции
+Orders to produce	Поръчки за производство
+Payment methods	Начини на плащане
+Posting scenarios	Сценарии за осчетоводяване
+Print templates	Шаблони за печат
+Products and services	Продукти и услуги
+Recipes	Рецепти
+Registers	Номенклатури
+Reports	Справки
+Rights	Права
+Sale menus	Менюта за продажба
+Point-of-sale settings	Настройки на точката на продажба
+Shows	Представления
+Purchases from the group	Покупки от групата
+Barcode	Баркод
+Sale prices	Продажни цени
+Sales and purchases by line	Продажби и покупки по редове
+Stock	Наличност
+Stock and sales	Склад и продажби
+Trial balance	Оборотна ведомост
+Unit conversions	Преобразувания на мерни единици
+Units of measure	Мерни единици
+Users	Потребители
+VAT books	Дневници по ДДС
+VAT groups	Групи по ДДС
+VAT return	Справка-декларация по ДДС
+VAT return boxes	Клетки на справка-декларацията по ДДС
+Company of the group	Дружество от групата
+Restaurant / café	Ресторант / кафе
+Shop	Магазин
+Till	Каса
+Cinema / theatre	Кино / театър
+Auditorium	Зала
+Row	Ред
+Seat	Място
+Hotel	Хотел
+Floor	Етаж
+Room	Стая
+Beds	Легла
+Position X	Позиция X
+Seats	Места
+Position Y	Позиция Y
+Reversal of journal sheet	Сторно на счетоводен лист
+Reversal of depreciation sheet	Сторно на амортизационен лист
+Reversal of general journal entry	Сторно на обща счетоводна статия
+Open the point of sale	Отвори точката за продажба
+Stock and production	Склад и производство
+Accounting setup	Счетоводни настройки
+Fixed assets	Дълготрайни активи
+Currencies and payments	Валути и плащания
+Company	Фирма
+Users and rights	Потребители и права
+System settings	Системни настройки
+Types and categories	Типове и категории
+VAT	ДДС
+Financial	Финансови
+Sale prices by partner	Продажни цени по партньор
+Sale menu categories	Категории на менютата
+Scenario lines	Редове на сценарии
+Unbalanced scenarios	Небалансирани сценарии
+Remaining asset value	Остатъчна стойност на актива
+VAT return box rules	Правила за полетата на ДДС декларацията
+VAT return by boxes	ДДС декларация по полета
+Payment methods by cost centre	Методи на плащане по разходен център
+Users and roles	Потребители и роли
+Document flows	Потоци на документи
+Chart types and categories	Типове и категории на сметкоплана
+Balance sheet	Баланс
+Profit and loss	Приходи и разходи
+Balance sheet lines	Редове на баланса
+Profit and loss lines	Редове за приходи и разходи
+City	Град
+Staff ledger	Картон на персонала
+Sales and purchases by client	Продажби и покупки по клиент
+Sales and purchases by cost centre	Продажби и покупки по разходен център
+Transfers	Трансфери
+Document totals	Суми по документи
+Purchase price history	История на покупните цени
+Depreciation books	Амортизационни книги
+Depreciation methods	Методи на амортизация
+Depreciation scenarios	Сценарии за амортизация
+Depreciation scenario lines	Редове на сценарии за амортизация
+Serial numbers	Серийни номера
+User activity	Потребителска активност
+Dashboard	Табло
+Dashboard items	Елементи на таблото
+Clients owe us	Клиентите ни дължат
+We owe suppliers	Дължим на доставчици
+Drafts waiting	Чакащи чернови
+Sales and purchases by month	Продажби и покупки по месеци
+VAT by month	ДДС по месеци
+Top clients	Най-добри клиенти
+Top suppliers	Най-добри доставчици
+Top products	Най-добри продукти
+Sales by cost centre	Продажби по разходни центрове
+Migration	Миграция
+Migration steps	Стъпки на миграцията
+Warehouses, banks, cash desks and places	Складове, банки, каси и места
+Client and supplier categories	Категории клиенти и доставчици
+Product categories	Продуктови категории
+Units	Мерни единици
+Exchange rates	Валутни курсове
+Next document numbers	Следващи номера на документи
+Opening balances: clients and suppliers	Начални салда: клиенти и доставчици
+Opening balances: banks, cash desks and staff	Начални салда: банки, каси и персонал
+Opening balances: the chart	Начални салда: сметкоплан
+Posting groups	Групи за осчетоводяване
+Document categories	Категории документи
+Opening balances: stock	Начални салда: стоки
+Opening balances: fixed assets	Начални салда: дълготрайни активи
+VAT groups of document types	ДДС групи на видовете документи
+Closed periods	Затворени периоди
+Transaction types	Видове транзакции
+Transaction scopes	Обхвати на транзакции
+Transaction categories	Категории транзакции
+Transaction types of document types	Видове транзакции на видовете документи
+General client	Общ клиент
+Transaction asset cost	Разход за актива по операцията
+Transaction asset depreciation	Амортизация на актива по операцията
+Transaction asset book value	Балансова стойност на актива по операцията
+Sales by waiter	Продажби по сервитьор
+Ageing	Падежи на вземания
+Open invoices	Отворени фактури
+Overdue from clients	Просрочени от клиенти
+Overdue to suppliers	Просрочени към доставчици
+Gross profit	Брутна печалба
+Gross profit by cost centre	Брутна печалба по разходен център
+Top combined products	Топ комбинирани продукти
+Close the year	Приключване на годината
+Invoice run	Фактуриране по договори
+Renewals	Подновявания
+CRM	CRM
+Opportunities	Възможности
+Pipeline	Фуния на продажбите
+Forecast	Прогноза
+Opportunity stages	Етапи на възможностите
+Sales opportunities	Възможности за продажби
+Opportunity	Възможност
+Qualify	Квалификация
+Propose	Предложение
+Negotiate	Преговори
+Won	Спечелена
+Lost	Загубена
+Leads	Потенциални клиенти
+Orders	Поръчки
+Purchase request	Заявка за покупка
+Purchase order	Поръчка за покупка
+Sales order	Поръчка за продажба
+Approvals	Одобрения
+Approval limits	Лимити за одобрение
+Bank statements	Банкови извлечения
+Bank statement formats	Формати на банкови извлечения
+Date, text, reference, amount	Дата, текст, референция, сума
+Lots	Партиди
+Shifts	Смени
+Production point	Точка за производство
+Production point display	Екран на точката за производство
+Production routes	Маршрути на производството
+Point-of-sale order	Поръчка на търговския обект
+Repairs	Ремонти
+Repair intake	Приемане за ремонт
+Repair offer	Оферта за ремонт
+Technician	Техник
+Received	Получено
+Offer given	Дадена оферта
+Accepted	Приета
+Ready	Готово
+Collected	Взето
+Refused	Отказана
+Item	Артикул
+Brand and model	Марка и модел
+Serial number or plate	Сериен номер или табела
+Accessories left	Оставени аксесоари
+Defect described	Описан дефект
+Come back on	Върнете се на
+Repair board	Табло за ремонти
+Repair stages	Етапи на ремонта
+Repair shop	Сервиз
+Roles	Роли
+Account mapping	Съответствие на сметки
+Waiter	Сервитьор
+Cashier	Касиер
+Disassembly	Разглобяване
+Product taken apart	Разглобен продукт
+Recovered component	Възстановен компонент
+Disassembly waste	Фира от разглобяване
+Point-of-sale reversal	Сторно на точка на продажба
+Reversal of customs declaration	Сторно: Митническа декларация
+Reversal of customs declaration, assets	Сторно: Митническа декларация за дълготрайни активи
+Reversal of goods transfer note	Сторно: Стокова разписка
+Reversal of goods transfer, cost centre to staff	Сторно: Прехвърляне от разходен център към служител
+Reversal of goods transfer, staff to cost centre	Сторно: Прехвърляне от служител към разходен център
+Reversal of goods transfer, cost centre to client	Сторно: Доставка от разходен център към клиент
+Reversal of goods transfer, client to cost centre	Сторно: Връщане от клиент към разходен център
+Reversal of goods transfer, staff to client	Сторно: Доставка от служител към клиент
+Opportunity types and categories	Видове и категории възможности
+Opportunities and documents	Възможности и документи
+Skins	Теми на оформлението

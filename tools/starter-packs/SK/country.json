@@ -1,0 +1,309 @@
+{
+  "country": "SK",
+  "language": "sk",
+  "currency": "EUR",
+  "sources": [
+    "Chart: rámcová účtová osnova (opatrenie MF SR č. 23054/2002-92), classes and groups, with the customary synthetic accounts; see chart-sk.tsv",
+    "VAT: zákon č. 222/2004 Z. z. o DPH as amended (from 2025): 23 % basic, 19 % and 5 % reduced, 0 %",
+    "Depreciation: zákon č. 595/2003 Z. z. o dani z príjmov, odpisové skupiny (1: 4 years, 2: 6, 3: 8, 4: 12, 5: 20, 6: 40)",
+    "Document codes: as Czechia's"
+  ],
+  "uncertain": [
+    "The chart was written from the opatrenie's structure, not from a fetched copy; the group names should be checked against the text.",
+    "Groups used: computers, cars and furniture group 1 (4 years), machinery group 2 (6 years), buildings group 6 (40 years).",
+    "Input and output VAT are one account, 343 Daň z pridanej hodnoty."
+  ],
+  "chart": {
+    "file": "chart-sk.tsv",
+    "category": {
+      "code": "RUO",
+      "name": "Rámcová účtová osnova (opatrenie MF SR č. 23054/2002-92)"
+    },
+    "types": [
+      {
+        "code": "0",
+        "name": "Účtová trieda 0 – Dlhodobý majetok",
+        "prefixes": [
+          "0"
+        ],
+        "roles": [
+          "fixed_assets"
+        ]
+      },
+      {
+        "code": "1",
+        "name": "Účtová trieda 1 – Zásoby",
+        "prefixes": [
+          "1"
+        ],
+        "roles": [
+          "inventories"
+        ]
+      },
+      {
+        "code": "2",
+        "name": "Účtová trieda 2 – Finančné účty",
+        "prefixes": [
+          "2"
+        ],
+        "roles": []
+      },
+      {
+        "code": "3",
+        "name": "Účtová trieda 3 – Zúčtovacie vzťahy",
+        "prefixes": [
+          "3"
+        ],
+        "roles": []
+      },
+      {
+        "code": "4",
+        "name": "Účtová trieda 4 – Kapitálové účty a dlhodobé záväzky",
+        "prefixes": [
+          "4"
+        ],
+        "roles": []
+      },
+      {
+        "code": "5",
+        "name": "Účtová trieda 5 – Náklady",
+        "prefixes": [
+          "5"
+        ],
+        "roles": [
+          "expenses"
+        ]
+      },
+      {
+        "code": "6",
+        "name": "Účtová trieda 6 – Výnosy",
+        "prefixes": [
+          "6"
+        ],
+        "roles": [
+          "income"
+        ]
+      },
+      {
+        "code": "7",
+        "name": "Účtová trieda 7 – Závierkové účty a podsúvahové účty",
+        "prefixes": [
+          "7"
+        ],
+        "roles": []
+      }
+    ]
+  },
+  "roles": {
+    "clients": "311",
+    "output_vat": "343",
+    "suppliers": "321",
+    "input_vat": "343",
+    "employee_advances": "335",
+    "goods_sales": "604",
+    "goods_purchases": "131",
+    "client_advances": "324",
+    "supplier_prepayments": "314",
+    "wages_payable": "331",
+    "rent_expense": "518",
+    "services_sales": "602",
+    "services_purchases": "518",
+    "asset_assets": "022",
+    "asset_land": "031",
+    "asset_buildings": "021",
+    "asset_office": "022",
+    "asset_vehicles": "022",
+    "asset_computers": "022",
+    "asset_furniture": "022",
+    "asset_intangible": "013",
+    "production": "121",
+    "waste": "549"
+  },
+  "cash_account": "211",
+  "bank_account": "221",
+  "services_account": "602",
+  "vat": [
+    {
+      "rate": 23,
+      "name": "DPH 23%",
+      "en": "VAT 23%",
+      "standard": true
+    },
+    {
+      "rate": 19,
+      "name": "DPH 19%",
+      "en": "VAT 19%",
+      "standard": true
+    },
+    {
+      "rate": 5,
+      "name": "DPH 5%",
+      "en": "VAT 5%",
+      "standard": true
+    },
+    {
+      "rate": 0,
+      "name": "DPH 0% / oslobodené",
+      "en": "VAT 0% / exempt",
+      "standard": false
+    }
+  ],
+  "depreciation": {
+    "assets": [
+      72,
+      16.67,
+      "551",
+      "082"
+    ],
+    "land": [
+      null,
+      0,
+      null,
+      null
+    ],
+    "buildings": [
+      480,
+      2.5,
+      "551",
+      "081"
+    ],
+    "office": [
+      48,
+      25,
+      "551",
+      "082"
+    ],
+    "vehicles": [
+      48,
+      25,
+      "551",
+      "082"
+    ],
+    "computers": [
+      48,
+      25,
+      "551",
+      "082"
+    ],
+    "furniture": [
+      48,
+      25,
+      "551",
+      "082"
+    ],
+    "intangible": [
+      48,
+      25,
+      "551",
+      "073"
+    ]
+  },
+  "document_codes": {
+    "PURCHASE_REQUEST": "PRQ",
+    "PURCHASE_ORDER": "POR",
+    "SALES_ORDER": "SOR",
+    "REPAIR_INTAKE": "RIN",
+    "REPAIR_OFFER": "ROF",
+    "POS_ORDER": "PSO",
+    "SALES_INVOICE_GOODS": "FV",
+    "CREDIT_NOTE_GOODS_SOLD": "DV",
+    "SALES_INVOICE_SERVICES": "FVS",
+    "CREDIT_NOTE_SERVICES_SOLD": "DVS",
+    "PURCHASE_INVOICE_GOODS": "FP",
+    "CREDIT_NOTE_GOODS_BOUGHT": "DP",
+    "PURCHASE_INVOICE_SERVICES": "FPS",
+    "CREDIT_NOTE_SERVICES_BOUGHT": "DPS",
+    "GOODS_TRANSFER": "PRV",
+    "PAYMENT": "VPD",
+    "RECEIPT": "PPD",
+    "PREPAYMENT": "PLP",
+    "GOODS_TRANSFER_TO_STAFF": "PRVZ",
+    "SALES_OFFER_GOODS": "NAB",
+    "DEPRECIATION_SHEET": "OPL",
+    "DEPRECIATION_JOURNAL": "ODP",
+    "JOURNAL_SHEET": "ID",
+    "JOURNAL_PAYMENT": "VPD",
+    "JOURNAL_RECEIPT": "PPD",
+    "JOURNAL_PREPAYMENT": "PLP",
+    "REVALUATION_SHEET": "PPC",
+    "REVALUATION_JOURNAL": "ZPC",
+    "ADVANCE": "ZAL",
+    "EMPLOYEE_ADVANCE": "ZAZ",
+    "JOURNAL_ADVANCE": "ZAL",
+    "JOURNAL_EMPLOYEE_ADVANCE": "ZAZ",
+    "SALES_CONTRACT_GOODS": "KSP",
+    "PURCHASE_CONTRACT_GOODS": "KSN",
+    "PURCHASE_OFFER_GOODS": "POZ",
+    "SALES_OFFER_SERVICES": "NABS",
+    "PURCHASE_OFFER_SERVICES": "POS",
+    "SALES_CONTRACT_SERVICES": "SPS",
+    "PURCHASE_CONTRACT_SERVICES": "SOS",
+    "RECURRING_DEPRECIATION_SHEET": "OPLO",
+    "RECURRING_JOURNAL_SHEET": "IDO",
+    "RECURRING_REVALUATION_SHEET": "PPCO",
+    "GENERAL_JOURNAL_ENTRY": "UZ",
+    "POS_RECEIPT": "UCT",
+    "GOODS_TRANSFER_FROM_STAFF": "PRVS",
+    "GOODS_TRANSFER_TO_CLIENT": "PRVO",
+    "GOODS_TRANSFER_FROM_CLIENT": "PRVOS",
+    "POS_CONTRACT": "SPM",
+    "POS_MONEY_IN": "PPM",
+    "POS_MONEY_OUT": "VPM",
+    "POS_GOODS_IN": "PRM",
+    "POS_GOODS_OUT": "VYM",
+    "WAGE_PAYMENT": "MZD",
+    "RENT_PAYMENT": "NAJ",
+    "CUSTOMS_DECLARATION": "JSD",
+    "CUSTOMS_DECLARATION_ASSETS": "JSDM",
+    "POS_REVERSAL": "VRM",
+    "POS_REFUND": "VRP",
+    "POS_MONEY_FROM_STAFF": "PPZ",
+    "GOODS_OUT_TO_STAFF": "VYZ",
+    "GOODS_TRANSFER_STAFF_TO_CLIENT": "PRVZO",
+    "GOODS_IN_FROM_STAFF": "PRZ",
+    "REVERSAL_PAYMENT": "SVPD",
+    "REVERSAL_RECEIPT": "SPPD",
+    "REVERSAL_PREPAYMENT": "SPLP",
+    "REVERSAL_DEPRECIATION_JOURNAL": "SODP",
+    "REVERSAL_JOURNAL_PAYMENT": "SVPDJ",
+    "REVERSAL_JOURNAL_RECEIPT": "SPPDJ",
+    "REVERSAL_JOURNAL_PREPAYMENT": "SPLPJ",
+    "REVERSAL_ADVANCE": "SZAL",
+    "REVERSAL_EMPLOYEE_ADVANCE": "SZAZ",
+    "REVERSAL_JOURNAL_ADVANCE": "SZALJ",
+    "REVERSAL_JOURNAL_EMPLOYEE_ADVANCE": "SZAZJ",
+    "PRODUCTION": "VYR",
+    "UNIT_SPLIT": "PMJ",
+    "REVERSAL_UNIT_SPLIT": "SPMJ",
+    "REVERSAL_JOURNAL_SHEET": "SIDJ",
+    "REVERSAL_DEPRECIATION_SHEET": "SOPLJ",
+    "REVERSAL_GENERAL_JOURNAL_ENTRY": "SUZJ",
+    "RECURRING_JOURNAL_PAYMENT": "VPDO",
+    "REVERSAL_RECURRING_JOURNAL_PAYMENT": "SVPDOJ",
+    "RECURRING_JOURNAL_RECEIPT": "PPDO",
+    "REVERSAL_RECURRING_JOURNAL_RECEIPT": "SPPDOJ",
+    "RECURRING_JOURNAL_PREPAYMENT": "PLPO",
+    "REVERSAL_RECURRING_JOURNAL_PREPAYMENT": "SPLPOJ",
+    "RECURRING_JOURNAL_ADVANCE": "ZALO",
+    "REVERSAL_RECURRING_JOURNAL_ADVANCE": "SZALOJ",
+    "RECURRING_JOURNAL_EMPLOYEE_ADVANCE": "ZAZO",
+    "REVERSAL_RECURRING_JOURNAL_EMPLOYEE_ADVANCE": "SZAZOJ",
+    "RECURRING_GENERAL_JOURNAL_ENTRY": "UZO",
+    "REVERSAL_RECURRING_GENERAL_JOURNAL_ENTRY": "SUZOJ",
+    "REVERSAL_RECURRING_JOURNAL_SHEET": "SIDOJ",
+    "RECURRING_DEPRECIATION_JOURNAL": "ODPO",
+    "REVERSAL_RECURRING_DEPRECIATION_JOURNAL": "SODPOJ",
+    "REVERSAL_RECURRING_DEPRECIATION_SHEET": "SOPLOJ",
+    "RECURRING_REVALUATION_JOURNAL": "ZPCO",
+    "DISASSEMBLY": "DEM",
+    "REVERSAL_CUSTOMS_DECLARATION": "SJSD",
+    "REVERSAL_CUSTOMS_DECLARATION_ASSETS": "SJSDM",
+    "REVERSAL_GOODS_TRANSFER": "SPRV",
+    "REVERSAL_GOODS_TRANSFER_TO_STAFF": "SPRVZ",
+    "REVERSAL_GOODS_TRANSFER_FROM_STAFF": "SPRVS",
+    "REVERSAL_GOODS_TRANSFER_TO_CLIENT": "SPRVO",
+    "REVERSAL_GOODS_TRANSFER_FROM_CLIENT": "SPRVOS",
+    "REVERSAL_GOODS_TRANSFER_STAFF_TO_CLIENT": "SPRVZO"
+  },
+  "document_descriptions": {}
+}

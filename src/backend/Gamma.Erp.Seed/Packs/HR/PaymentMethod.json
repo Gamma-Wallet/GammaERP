@@ -1,0 +1,47 @@
+[
+ {
+  "Key": "payment_method:CASH",
+  "IdSup": null,
+  "Active": true,
+  "Code": "CASH",
+  "Name": {
+   "en": "Cash",
+   "hr": "Gotovina"
+  },
+  "Description": {
+   "en": "Cash",
+   "hr": "Gotovina"
+  },
+  "IsCash": true
+ },
+ {
+  "Key": "payment_method:UNPAID",
+  "IdSup": null,
+  "Active": true,
+  "Code": "UNPAID",
+  "Name": {
+   "en": "Unpaid",
+   "hr": "Neplaćeno"
+  },
+  "Description": {
+   "en": "Unpaid",
+   "hr": "Neplaćeno"
+  },
+  "IsCash": false
+ },
+ {
+  "Key": "payment_method:CREDIT_CARD",
+  "IdSup": null,
+  "Active": true,
+  "Code": "CREDIT_CARD",
+  "Name": {
+   "en": "Credit card",
+   "hr": "Kartica"
+  },
+  "Description": {
+   "en": "Credit card",
+   "hr": "Kartica"
+  },
+  "IsCash": false
+ }
+]

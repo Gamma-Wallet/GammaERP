@@ -1,0 +1,13 @@
+[
+ {
+  "Key": "user_type:STAFF",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "STAFF",
+  "Name": {
+   "en": "Staff"
+  },
+  "SortOrder": 10
+ }
+]

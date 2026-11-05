@@ -1,0 +1,2926 @@
+[
+ {
+  "Key": "document_type:SALES_INVOICE_GOODS",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "FSHM",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Sales invoice, goods",
+   "sq": "Faturë shitjeje malli"
+  },
+  "Description": {
+   "en": "Sales invoice, goods",
+   "sq": "Faturë shitjeje malli"
+  },
+  "SortOrder": 5.0,
+  "MenuId": null,
+  "AllowsPartialReversal": true,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": false,
+  "HoldsOpenItem": true,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": true
+ },
+ {
+  "Key": "document_type:CREDIT_NOTE_GOODS_SOLD",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "FKSHM",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Credit note, goods sold",
+   "sq": "Faturë kthimi shitjeje malli"
+  },
+  "Description": {
+   "en": "Credit note, goods sold",
+   "sq": "Faturë kthimi shitjeje malli"
+  },
+  "SortOrder": 6.0,
+  "MenuId": null,
+  "IsReversal": true,
+  "ReversedDocumentTypeId": "document_type:SALES_INVOICE_GOODS",
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:SALES_INVOICE_SERVICES",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "FSHSH",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Sales invoice, services",
+   "sq": "Faturë shitjeje shërbimi"
+  },
+  "Description": {
+   "en": "Sales invoice, services",
+   "sq": "Faturë shitjeje shërbimi"
+  },
+  "SortOrder": 7.0,
+  "MenuId": null,
+  "AllowsPartialReversal": true,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": false,
+  "HoldsOpenItem": true,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": true
+ },
+ {
+  "Key": "document_type:CREDIT_NOTE_SERVICES_SOLD",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "FKSHSH",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Credit note, services sold",
+   "sq": "Faturë kthimi shitjeje shërbimi"
+  },
+  "Description": {
+   "en": "Credit note, services sold",
+   "sq": "Faturë kthimi shitjeje shërbimi"
+  },
+  "SortOrder": 8.0,
+  "MenuId": null,
+  "IsReversal": true,
+  "ReversedDocumentTypeId": "document_type:SALES_INVOICE_SERVICES",
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:PURCHASE_INVOICE_GOODS",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "FBM",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Purchase invoice, goods",
+   "sq": "Faturë blerjeje malli"
+  },
+  "Description": {
+   "en": "Purchase invoice, goods",
+   "sq": "Faturë blerjeje malli"
+  },
+  "SortOrder": 9.0,
+  "MenuId": null,
+  "AllowsPartialReversal": true,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": false,
+  "HoldsOpenItem": true,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:CREDIT_NOTE_GOODS_BOUGHT",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "FKBM",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Credit note, goods bought",
+   "sq": "Faturë kthimi blerjeje malli"
+  },
+  "Description": {
+   "en": "Credit note, goods bought",
+   "sq": "Faturë kthimi blerjeje malli"
+  },
+  "SortOrder": 11.0,
+  "MenuId": null,
+  "IsReversal": true,
+  "ReversedDocumentTypeId": "document_type:PURCHASE_INVOICE_GOODS",
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:PURCHASE_INVOICE_SERVICES",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "FBSH",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Purchase invoice, services",
+   "sq": "Faturë blerjeje shërbimi"
+  },
+  "Description": {
+   "en": "Purchase invoice, services",
+   "sq": "Faturë blerjeje shërbimi"
+  },
+  "SortOrder": 12.0,
+  "MenuId": null,
+  "AllowsPartialReversal": true,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": false,
+  "HoldsOpenItem": true,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:CREDIT_NOTE_SERVICES_BOUGHT",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "FKBSH",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Credit note, services bought",
+   "sq": "Faturë kthimi blerjeje shërbimi"
+  },
+  "Description": {
+   "en": "Credit note, services bought",
+   "sq": "Faturë kthimi blerjeje shërbimi"
+  },
+  "SortOrder": 13.0,
+  "MenuId": null,
+  "IsReversal": true,
+  "ReversedDocumentTypeId": "document_type:PURCHASE_INVOICE_SERVICES",
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:GOODS_TRANSFER",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "FTM",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Goods transfer note",
+   "sq": "Faturë transferimi malli"
+  },
+  "Description": {
+   "en": "Goods transfer note",
+   "sq": "Faturë transferimi malli"
+  },
+  "SortOrder": 14.0,
+  "MenuId": null,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:PAYMENT",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "MP",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Payment",
+   "sq": "Mandat pagese"
+  },
+  "Description": {
+   "en": "Payment",
+   "sq": "Mandat pagese"
+  },
+  "SortOrder": 15.0,
+  "MenuId": null,
+  "AllowsPartialReversal": false,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": true,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:RECEIPT",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "MA",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Receipt",
+   "sq": "Mandat arkëtimi"
+  },
+  "Description": {
+   "en": "Receipt",
+   "sq": "Mandat arkëtimi"
+  },
+  "SortOrder": 16.0,
+  "MenuId": null,
+  "AllowsPartialReversal": false,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": true,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:PREPAYMENT",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "PP",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Prepayment",
+   "sq": "Parapagim"
+  },
+  "Description": {
+   "en": "Prepayment",
+   "sq": "Parapagim"
+  },
+  "SortOrder": 17.0,
+  "MenuId": null,
+  "AllowsPartialReversal": false,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:GOODS_TRANSFER_TO_STAFF",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "FTMP",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Goods transfer, cost centre to staff",
+   "sq": "Transferim malli nga qendra e kostos te personeli"
+  },
+  "Description": {
+   "en": "Goods transfer, cost centre to staff",
+   "sq": "Transferim malli nga qendra e kostos te personeli"
+  },
+  "SortOrder": 18.0,
+  "MenuId": null,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:SALES_OFFER_GOODS",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "OSHM",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Sales offer, goods",
+   "sq": "Ofertë shitjeje malli"
+  },
+  "Description": {
+   "en": "Sales offer, goods",
+   "sq": "Ofertë shitjeje malli"
+  },
+  "SortOrder": 19.0,
+  "MenuId": null,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": true,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:DEPRECIATION_SHEET",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "FA",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Depreciation sheet",
+   "sq": "Fletë amortizimi"
+  },
+  "Description": {
+   "en": "Depreciation sheet",
+   "sq": "Fletë amortizimi"
+  },
+  "SortOrder": 20.0,
+  "MenuId": null,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:DEPRECIATION_JOURNAL",
+  "IdSup": "document_type:DEPRECIATION_SHEET",
+  "Active": true,
+  "IsElement": true,
+  "Code": "FAA",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Depreciation journal",
+   "sq": "Regjistrim amortizimi"
+  },
+  "Description": {
+   "en": "Depreciation journal",
+   "sq": "Regjistrim amortizimi"
+  },
+  "SortOrder": 21.0,
+  "MenuId": null,
+  "AllowsPartialReversal": false,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:JOURNAL_SHEET",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "FK",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Journal sheet",
+   "sq": "Fletë kontabël"
+  },
+  "Description": {
+   "en": "Journal sheet",
+   "sq": "Fletë kontabël"
+  },
+  "SortOrder": 22.0,
+  "MenuId": null,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:JOURNAL_PAYMENT",
+  "IdSup": "document_type:JOURNAL_SHEET",
+  "Active": true,
+  "IsElement": true,
+  "Code": "MP",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Payment",
+   "sq": "Mandat pagese"
+  },
+  "Description": {
+   "en": "Payment",
+   "sq": "Mandat pagese"
+  },
+  "SortOrder": 23.0,
+  "MenuId": null,
+  "AllowsPartialReversal": false,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": true,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:JOURNAL_RECEIPT",
+  "IdSup": "document_type:JOURNAL_SHEET",
+  "Active": true,
+  "IsElement": true,
+  "Code": "MA",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Receipt",
+   "sq": "Mandat arkëtimi"
+  },
+  "Description": {
+   "en": "Receipt",
+   "sq": "Mandat arkëtimi"
+  },
+  "SortOrder": 24.0,
+  "MenuId": null,
+  "AllowsPartialReversal": false,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": true,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:JOURNAL_PREPAYMENT",
+  "IdSup": "document_type:JOURNAL_SHEET",
+  "Active": true,
+  "IsElement": true,
+  "Code": "PP",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Prepayment",
+   "sq": "Parapagim"
+  },
+  "Description": {
+   "en": "Prepayment",
+   "sq": "Parapagim"
+  },
+  "SortOrder": 25.0,
+  "MenuId": null,
+  "AllowsPartialReversal": false,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:REVALUATION_SHEET",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "FR",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Revaluation sheet",
+   "sq": "Fletë rivlerësimi"
+  },
+  "Description": {
+   "en": "Revaluation sheet",
+   "sq": "Fletë rivlerësimi"
+  },
+  "SortOrder": 26.0,
+  "MenuId": null,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:REVALUATION_JOURNAL",
+  "IdSup": "document_type:REVALUATION_SHEET",
+  "Active": true,
+  "IsElement": true,
+  "Code": "FRV",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Revaluation journal",
+   "sq": "Regjistrim rivlerësimi"
+  },
+  "Description": {
+   "en": "Revaluation journal",
+   "sq": "Regjistrim rivlerësimi"
+  },
+  "SortOrder": 27.0,
+  "MenuId": null,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:ADVANCE",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "PK",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Advance",
+   "sq": "Paradhënie"
+  },
+  "Description": {
+   "en": "Client's advance",
+   "sq": "Paradhënie e klientit"
+  },
+  "SortOrder": 29.0,
+  "MenuId": null,
+  "AllowsPartialReversal": false,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:EMPLOYEE_ADVANCE",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "PPP",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Employee advance",
+   "sq": "Paradhënie punonjësi"
+  },
+  "Description": {
+   "en": "Advance to an employee",
+   "sq": "Paradhënie për punonjësin"
+  },
+  "SortOrder": 30.0,
+  "MenuId": null,
+  "AllowsPartialReversal": false,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:JOURNAL_ADVANCE",
+  "IdSup": "document_type:JOURNAL_SHEET",
+  "Active": true,
+  "IsElement": true,
+  "Code": "PK",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Advance",
+   "sq": "Paradhënie"
+  },
+  "Description": {
+   "en": "Client's advance",
+   "sq": "Paradhënie klienti"
+  },
+  "SortOrder": 32.0,
+  "MenuId": null,
+  "AllowsPartialReversal": false,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:JOURNAL_EMPLOYEE_ADVANCE",
+  "IdSup": "document_type:JOURNAL_SHEET",
+  "Active": true,
+  "IsElement": true,
+  "Code": "PPP",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Employee advance",
+   "sq": "Paradhënie punonjësi"
+  },
+  "Description": {
+   "en": "Advance to an employee",
+   "sq": "Paradhënie për punonjësin"
+  },
+  "SortOrder": 33.0,
+  "MenuId": null,
+  "AllowsPartialReversal": false,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:SALES_CONTRACT_GOODS",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "KOSHM",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Sales contract, goods",
+   "sq": "Kontratë shitjeje malli"
+  },
+  "Description": {
+   "en": "Sales contract, goods",
+   "sq": "Kontratë shitjeje malli"
+  },
+  "SortOrder": 34.0,
+  "MenuId": null,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": true,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": true,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:PURCHASE_CONTRACT_GOODS",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "KOBM",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Purchase contract, goods",
+   "sq": "Kontratë blerjeje malli"
+  },
+  "Description": {
+   "en": "Purchase contract, goods",
+   "sq": "Kontratë blerjeje malli"
+  },
+  "SortOrder": 35.0,
+  "MenuId": null,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": true,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": true,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:PURCHASE_OFFER_GOODS",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "OBM",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Purchase offer, goods",
+   "sq": "Ofertë blerjeje malli"
+  },
+  "Description": {
+   "en": "Purchase offer, goods",
+   "sq": "Ofertë blerjeje malli"
+  },
+  "SortOrder": 36.0,
+  "MenuId": null,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": true,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:SALES_OFFER_SERVICES",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "OSHSH",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Sales offer, services",
+   "sq": "Ofertë shitjeje shërbimi"
+  },
+  "Description": {
+   "en": "Sales offer, services",
+   "sq": "Ofertë shitjeje shërbimi"
+  },
+  "SortOrder": 37.0,
+  "MenuId": null,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": true,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:REPAIR_INTAKE",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "RIN",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Repair intake",
+   "sq": "Pranim për riparim"
+  },
+  "Description": {
+   "en": "Repair intake",
+   "sq": "Pranim për riparim"
+  },
+  "SortOrder": 37.01,
+  "MenuId": null,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": true,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false,
+  "StartsRepair": true
+ },
+ {
+  "Key": "document_type:REPAIR_OFFER",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "ROF",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Repair offer",
+   "sq": "Ofertë riparimi"
+  },
+  "Description": {
+   "en": "Repair offer",
+   "sq": "Ofertë riparimi"
+  },
+  "SortOrder": 37.02,
+  "MenuId": null,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": true,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false,
+  "CanBeAccepted": true
+ },
+ {
+  "Key": "document_type:PURCHASE_OFFER_SERVICES",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "OBSH",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Purchase offer, services",
+   "sq": "Ofertë blerjeje shërbimi"
+  },
+  "Description": {
+   "en": "Purchase offer, services",
+   "sq": "Ofertë blerjeje shërbimi"
+  },
+  "SortOrder": 38.0,
+  "MenuId": null,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": true,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:SALES_CONTRACT_SERVICES",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "KOSHSH",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Sales contract, services",
+   "sq": "Kontratë shitjeje shërbimi"
+  },
+  "Description": {
+   "en": "Sales contract, services",
+   "sq": "Kontratë shitjeje shërbimi"
+  },
+  "SortOrder": 39.0,
+  "MenuId": null,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": true,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": true,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:PURCHASE_CONTRACT_SERVICES",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "KOBSH",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Purchase contract, services",
+   "sq": "Kontratë blerjeje shërbimi"
+  },
+  "Description": {
+   "en": "Purchase contract, services",
+   "sq": "Kontratë blerjeje shërbimi"
+  },
+  "SortOrder": 40.0,
+  "MenuId": null,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": true,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": true,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:RECURRING_DEPRECIATION_SHEET",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "FAR",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Recurring depreciation sheet",
+   "sq": "Fletë amortizimi periodike"
+  },
+  "Description": null,
+  "SortOrder": 41.0,
+  "MenuId": null,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:RECURRING_JOURNAL_SHEET",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "FKR",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Recurring journal sheet",
+   "sq": "Fletë kontabël periodike"
+  },
+  "Description": null,
+  "SortOrder": 42.0,
+  "MenuId": null,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:RECURRING_REVALUATION_SHEET",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "FRR",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Recurring revaluation sheet",
+   "sq": "Fletë rivlerësimi periodike"
+  },
+  "Description": null,
+  "SortOrder": 43.0,
+  "MenuId": null,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:GENERAL_JOURNAL_ENTRY",
+  "IdSup": "document_type:JOURNAL_SHEET",
+  "Active": true,
+  "IsElement": true,
+  "Code": "GJ",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "General journal entry",
+   "sq": "Regjistrim i përgjithshëm"
+  },
+  "Description": {
+   "en": "General journal entry",
+   "sq": "Regjistrim i përgjithshëm"
+  },
+  "SortOrder": 44.0,
+  "MenuId": null,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:POS_RECEIPT",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "PSH",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Point-of-sale receipt",
+   "sq": "Faturë POS"
+  },
+  "Description": {
+   "en": "Point-of-sale receipt",
+   "sq": "Faturë POS"
+  },
+  "SortOrder": 45.0,
+  "MenuId": null,
+  "AllowsPartialReversal": true,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": true,
+  "SellsProducedProduct": true
+ },
+ {
+  "Key": "document_type:GOODS_TRANSFER_FROM_STAFF",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "FTMPQK",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Goods transfer, staff to cost centre",
+   "sq": "Transferim malli nga personeli te qendra e kostos"
+  },
+  "Description": {
+   "en": "Goods transfer, staff to cost centre",
+   "sq": "Transferim malli nga personeli te qendra e kostos"
+  },
+  "SortOrder": 46.0,
+  "MenuId": null,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:GOODS_TRANSFER_TO_CLIENT",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "FTQK",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Goods transfer, cost centre to client",
+   "sq": "Transferim malli nga qendra e kostos te klienti"
+  },
+  "Description": {
+   "en": "Goods transfer, cost centre to client",
+   "sq": "Transferim malli nga qendra e kostos te klienti"
+  },
+  "SortOrder": 47.0,
+  "MenuId": null,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:GOODS_TRANSFER_FROM_CLIENT",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "FTKQ",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Goods transfer, client to cost centre",
+   "sq": "Transferim malli nga klienti te qendra e kostos"
+  },
+  "Description": {
+   "en": "Goods transfer, client to cost centre",
+   "sq": "Transferim malli nga klienti te qendra e kostos"
+  },
+  "SortOrder": 48.0,
+  "MenuId": null,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:POS_CONTRACT",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "KOP",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Point-of-sale contract",
+   "sq": "Kontratë POS"
+  },
+  "Description": {
+   "en": "Point-of-sale contract",
+   "sq": "Kontratë POS"
+  },
+  "SortOrder": 49.0,
+  "MenuId": null,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": true,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": true,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:POS_MONEY_IN",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "MAP",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Point-of-sale receipt of money",
+   "sq": "Mandat arkëtimi POS"
+  },
+  "Description": {
+   "en": "Point-of-sale receipt of money",
+   "sq": "Mandat arkëtimi POS"
+  },
+  "SortOrder": 50.0,
+  "MenuId": null,
+  "AllowsPartialReversal": true,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:POS_MONEY_OUT",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "MPP",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Point-of-sale payment",
+   "sq": "Mandat pagese POS"
+  },
+  "Description": {
+   "en": "Point-of-sale payment",
+   "sq": "Mandat pagese POS"
+  },
+  "SortOrder": 51.0,
+  "MenuId": null,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:POS_GOODS_IN",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "FH",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Point-of-sale goods in",
+   "sq": "Fletë hyrje POS"
+  },
+  "Description": {
+   "en": "Point-of-sale goods in",
+   "sq": "Fletë hyrje POS"
+  },
+  "SortOrder": 52.0,
+  "MenuId": null,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:POS_GOODS_OUT",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "FD",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Point-of-sale goods out",
+   "sq": "Fletë dalje POS"
+  },
+  "Description": {
+   "en": "Point-of-sale goods out",
+   "sq": "Fletë dalje POS"
+  },
+  "SortOrder": 53.0,
+  "MenuId": null,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:WAGE_PAYMENT",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "MPG",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Wage payment",
+   "sq": "Mandat pagese pagash"
+  },
+  "Description": {
+   "en": "Wage payment",
+   "sq": "Mandat pagese pagash"
+  },
+  "SortOrder": 56.0,
+  "MenuId": null,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:RENT_PAYMENT",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "MPQ",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Rent payment",
+   "sq": "Mandat pagese qiraje"
+  },
+  "Description": {
+   "en": "Rent payment",
+   "sq": "Mandat pagese qiraje"
+  },
+  "SortOrder": 57.0,
+  "MenuId": null,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:CUSTOMS_DECLARATION",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "DD",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Customs declaration",
+   "sq": "Deklaratë doganore"
+  },
+  "Description": {
+   "en": "Customs declaration",
+   "sq": "Deklaratë doganore"
+  },
+  "SortOrder": 58.0,
+  "MenuId": null,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:CUSTOMS_DECLARATION_ASSETS",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "FDA",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Customs declaration, assets",
+   "sq": "Deklaratë doganore asetesh"
+  },
+  "Description": {
+   "en": "Customs declaration, assets",
+   "sq": "Deklaratë doganore asetesh"
+  },
+  "SortOrder": 59.0,
+  "MenuId": null,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:POS_REVERSAL",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "FKBP",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Point-of-sale reversal",
+   "sq": "Faturë stornimi POS"
+  },
+  "Description": {
+   "en": "Point-of-sale reversal",
+   "sq": "Faturë stornimi POS"
+  },
+  "SortOrder": 60.0,
+  "MenuId": null,
+  "IsReversal": true,
+  "ReversedDocumentTypeId": "document_type:POS_RECEIPT",
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:POS_REFUND",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "MPKP",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Point-of-sale refund",
+   "sq": "Mandat pagese kthimi POS"
+  },
+  "Description": {
+   "en": "Point-of-sale refund",
+   "sq": "Mandat pagese kthimi POS"
+  },
+  "SortOrder": 62.0,
+  "MenuId": null,
+  "IsReversal": true,
+  "ReversedDocumentTypeId": "document_type:POS_MONEY_IN",
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:POS_MONEY_FROM_STAFF",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "MAPP",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Point-of-sale receipt from staff",
+   "sq": "Mandat arkëtimi nga personeli POS"
+  },
+  "Description": {
+   "en": "Point-of-sale receipt from staff",
+   "sq": "Mandat arkëtimi nga personeli POS"
+  },
+  "SortOrder": 63.0,
+  "MenuId": null,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:GOODS_OUT_TO_STAFF",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "FDP",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Goods out to staff",
+   "sq": "Fletë dalje te personeli"
+  },
+  "Description": {
+   "en": "Goods out to staff",
+   "sq": "Fletë dalje te personeli"
+  },
+  "SortOrder": 65.0,
+  "MenuId": null,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:GOODS_TRANSFER_STAFF_TO_CLIENT",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "FTPK",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Goods transfer, staff to client",
+   "sq": "Transferim malli nga personeli te klienti"
+  },
+  "Description": {
+   "en": "Goods transfer, staff to client",
+   "sq": "Transferim malli nga personeli te klienti"
+  },
+  "SortOrder": 66.0,
+  "MenuId": null,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:GOODS_IN_FROM_STAFF",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "FHP",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Goods in from staff",
+   "sq": "Fletë hyrje nga personeli"
+  },
+  "Description": {
+   "en": "Goods in from staff",
+   "sq": "Fletë hyrje nga personeli"
+  },
+  "SortOrder": 67.0,
+  "MenuId": null,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:REVERSAL_PAYMENT",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "KMP",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Reversal of payment",
+   "sq": "Kthim mandati pagese"
+  },
+  "SortOrder": 15.0,
+  "IsReversal": true,
+  "ReversedDocumentTypeId": "document_type:PAYMENT",
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:REVERSAL_RECEIPT",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "KMA",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Reversal of receipt",
+   "sq": "Kthim mandati arkëtimi"
+  },
+  "SortOrder": 16.0,
+  "IsReversal": true,
+  "ReversedDocumentTypeId": "document_type:RECEIPT",
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:REVERSAL_PREPAYMENT",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "KPP",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Reversal of prepayment",
+   "sq": "Kthim parapagimi"
+  },
+  "SortOrder": 17.0,
+  "IsReversal": true,
+  "ReversedDocumentTypeId": "document_type:PREPAYMENT",
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:REVERSAL_DEPRECIATION_JOURNAL",
+  "IdSup": "document_type:REVERSAL_DEPRECIATION_SHEET",
+  "Active": true,
+  "IsElement": true,
+  "Code": "KFAAJ",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Reversal of depreciation journal",
+   "sq": "Kthim regjistrimi amortizimi"
+  },
+  "SortOrder": 21.0,
+  "IsReversal": true,
+  "ReversedDocumentTypeId": "document_type:DEPRECIATION_JOURNAL",
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:REVERSAL_JOURNAL_PAYMENT",
+  "IdSup": "document_type:REVERSAL_JOURNAL_SHEET",
+  "Active": true,
+  "IsElement": true,
+  "Code": "KMPJ",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Reversal of payment",
+   "sq": "Kthim mandati pagese"
+  },
+  "SortOrder": 23.0,
+  "IsReversal": true,
+  "ReversedDocumentTypeId": "document_type:JOURNAL_PAYMENT",
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:REVERSAL_JOURNAL_RECEIPT",
+  "IdSup": "document_type:REVERSAL_JOURNAL_SHEET",
+  "Active": true,
+  "IsElement": true,
+  "Code": "KMAJ",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Reversal of receipt",
+   "sq": "Kthim mandati arkëtimi"
+  },
+  "SortOrder": 24.0,
+  "IsReversal": true,
+  "ReversedDocumentTypeId": "document_type:JOURNAL_RECEIPT",
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:REVERSAL_JOURNAL_PREPAYMENT",
+  "IdSup": "document_type:REVERSAL_JOURNAL_SHEET",
+  "Active": true,
+  "IsElement": true,
+  "Code": "KPPJ",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Reversal of prepayment",
+   "sq": "Kthim parapagimi"
+  },
+  "SortOrder": 25.0,
+  "IsReversal": true,
+  "ReversedDocumentTypeId": "document_type:JOURNAL_PREPAYMENT",
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:REVERSAL_ADVANCE",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "KPK",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Reversal of advance",
+   "sq": "Kthim paradhënieje"
+  },
+  "SortOrder": 29.0,
+  "IsReversal": true,
+  "ReversedDocumentTypeId": "document_type:ADVANCE",
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:REVERSAL_EMPLOYEE_ADVANCE",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "KPPP",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Reversal of employee advance",
+   "sq": "Kthim paradhënieje punonjësi"
+  },
+  "SortOrder": 30.0,
+  "IsReversal": true,
+  "ReversedDocumentTypeId": "document_type:EMPLOYEE_ADVANCE",
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:REVERSAL_JOURNAL_ADVANCE",
+  "IdSup": "document_type:REVERSAL_JOURNAL_SHEET",
+  "Active": true,
+  "IsElement": true,
+  "Code": "KPKJ",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Reversal of advance",
+   "sq": "Kthim paradhënieje"
+  },
+  "SortOrder": 32.0,
+  "IsReversal": true,
+  "ReversedDocumentTypeId": "document_type:JOURNAL_ADVANCE",
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:REVERSAL_JOURNAL_EMPLOYEE_ADVANCE",
+  "IdSup": "document_type:REVERSAL_JOURNAL_SHEET",
+  "Active": true,
+  "IsElement": false,
+  "Code": "KPPPJ",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Reversal of employee advance",
+   "sq": "Kthim paradhënieje punonjësi"
+  },
+  "SortOrder": 33.0,
+  "IsReversal": true,
+  "ReversedDocumentTypeId": "document_type:JOURNAL_EMPLOYEE_ADVANCE",
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:PRODUCTION",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "FPR",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Production",
+   "sq": "Prodhim"
+  },
+  "Description": {
+   "en": "Production",
+   "sq": "Prodhim"
+  },
+  "SortOrder": 90.0,
+  "MenuId": null,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": false,
+  "AllowsPartialReversal": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:UNIT_SPLIT",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "FNJ",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Unit split",
+   "sq": "Ndarje në njësi tjetër"
+  },
+  "Description": {
+   "en": "Unit split",
+   "sq": "Ndarje në njësi tjetër"
+  },
+  "SortOrder": 92.0,
+  "MenuId": null,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": false,
+  "AllowsPartialReversal": true,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:REVERSAL_UNIT_SPLIT",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "KFNJ",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Reversal of unit split",
+   "sq": "Kthim ndarjeje në njësi"
+  },
+  "Description": {
+   "en": "Reversal of unit split",
+   "sq": "Kthim ndarjeje në njësi"
+  },
+  "SortOrder": 93.0,
+  "MenuId": null,
+  "IsReversal": true,
+  "ReversedDocumentTypeId": "document_type:UNIT_SPLIT",
+  "NeverPosted": false,
+  "AllowsPartialReversal": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:REVERSAL_JOURNAL_SHEET",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "KFKJ",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Reversal of journal sheet",
+   "sq": "Storno i fletës kontabël"
+  },
+  "SortOrder": 222.0,
+  "IsReversal": true,
+  "ReversedDocumentTypeId": "document_type:JOURNAL_SHEET",
+  "NeverPosted": false,
+  "Description": {
+   "en": "Reversal of journal sheet",
+   "sq": "Storno i fletës kontabël"
+  },
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:REVERSAL_DEPRECIATION_SHEET",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "KFAJ",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Reversal of depreciation sheet",
+   "sq": "Storno i fletës së amortizimit"
+  },
+  "SortOrder": 220.0,
+  "IsReversal": true,
+  "ReversedDocumentTypeId": "document_type:DEPRECIATION_SHEET",
+  "NeverPosted": false,
+  "Description": {
+   "en": "Reversal of depreciation sheet",
+   "sq": "Storno i fletës së amortizimit"
+  },
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:REVERSAL_GENERAL_JOURNAL_ENTRY",
+  "IdSup": "document_type:REVERSAL_JOURNAL_SHEET",
+  "Active": true,
+  "IsElement": true,
+  "Code": "KGJJ",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Reversal of general journal entry",
+   "sq": "Storno i veprimit të përgjithshëm"
+  },
+  "SortOrder": 244.0,
+  "IsReversal": true,
+  "ReversedDocumentTypeId": "document_type:GENERAL_JOURNAL_ENTRY",
+  "NeverPosted": false,
+  "Description": {
+   "en": "Reversal of general journal entry",
+   "sq": "Storno i veprimit të përgjithshëm"
+  },
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:RECURRING_JOURNAL_PAYMENT",
+  "IdSup": "document_type:RECURRING_JOURNAL_SHEET",
+  "Active": true,
+  "IsElement": true,
+  "Code": "MPR",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Payment",
+   "sq": "Mandat pagese"
+  },
+  "Description": {
+   "en": "Payment",
+   "sq": "Mandat pagese"
+  },
+  "SortOrder": 123.0,
+  "MenuId": null,
+  "AllowsPartialReversal": false,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": true,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:REVERSAL_RECURRING_JOURNAL_PAYMENT",
+  "IdSup": "document_type:REVERSAL_RECURRING_JOURNAL_SHEET",
+  "Active": true,
+  "IsElement": true,
+  "Code": "KMPRJ",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Reversal of payment",
+   "sq": "Kthim mandati pagese"
+  },
+  "SortOrder": 123.0,
+  "IsReversal": true,
+  "ReversedDocumentTypeId": "document_type:RECURRING_JOURNAL_PAYMENT",
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:RECURRING_JOURNAL_RECEIPT",
+  "IdSup": "document_type:RECURRING_JOURNAL_SHEET",
+  "Active": true,
+  "IsElement": true,
+  "Code": "MAR",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Receipt",
+   "sq": "Mandat arkëtimi"
+  },
+  "Description": {
+   "en": "Receipt",
+   "sq": "Mandat arkëtimi"
+  },
+  "SortOrder": 124.0,
+  "MenuId": null,
+  "AllowsPartialReversal": false,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": true,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:REVERSAL_RECURRING_JOURNAL_RECEIPT",
+  "IdSup": "document_type:REVERSAL_RECURRING_JOURNAL_SHEET",
+  "Active": true,
+  "IsElement": true,
+  "Code": "KMARJ",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Reversal of receipt",
+   "sq": "Kthim mandati arkëtimi"
+  },
+  "SortOrder": 124.0,
+  "IsReversal": true,
+  "ReversedDocumentTypeId": "document_type:RECURRING_JOURNAL_RECEIPT",
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:RECURRING_JOURNAL_PREPAYMENT",
+  "IdSup": "document_type:RECURRING_JOURNAL_SHEET",
+  "Active": true,
+  "IsElement": true,
+  "Code": "PPR",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Prepayment",
+   "sq": "Parapagim"
+  },
+  "Description": {
+   "en": "Prepayment",
+   "sq": "Parapagim"
+  },
+  "SortOrder": 125.0,
+  "MenuId": null,
+  "AllowsPartialReversal": false,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:REVERSAL_RECURRING_JOURNAL_PREPAYMENT",
+  "IdSup": "document_type:REVERSAL_RECURRING_JOURNAL_SHEET",
+  "Active": true,
+  "IsElement": true,
+  "Code": "KPPRJ",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Reversal of prepayment",
+   "sq": "Kthim parapagimi"
+  },
+  "SortOrder": 125.0,
+  "IsReversal": true,
+  "ReversedDocumentTypeId": "document_type:RECURRING_JOURNAL_PREPAYMENT",
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:RECURRING_JOURNAL_ADVANCE",
+  "IdSup": "document_type:RECURRING_JOURNAL_SHEET",
+  "Active": true,
+  "IsElement": true,
+  "Code": "PKR",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Advance",
+   "sq": "Paradhënie"
+  },
+  "Description": {
+   "en": "Client's advance",
+   "sq": "Paradhënie klienti"
+  },
+  "SortOrder": 132.0,
+  "MenuId": null,
+  "AllowsPartialReversal": false,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:REVERSAL_RECURRING_JOURNAL_ADVANCE",
+  "IdSup": "document_type:REVERSAL_RECURRING_JOURNAL_SHEET",
+  "Active": true,
+  "IsElement": true,
+  "Code": "KPKRJ",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Reversal of advance",
+   "sq": "Kthim paradhënieje"
+  },
+  "SortOrder": 132.0,
+  "IsReversal": true,
+  "ReversedDocumentTypeId": "document_type:RECURRING_JOURNAL_ADVANCE",
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:RECURRING_JOURNAL_EMPLOYEE_ADVANCE",
+  "IdSup": "document_type:RECURRING_JOURNAL_SHEET",
+  "Active": true,
+  "IsElement": true,
+  "Code": "PPPR",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Employee advance",
+   "sq": "Paradhënie punonjësi"
+  },
+  "Description": {
+   "en": "Advance to an employee",
+   "sq": "Paradhënie për punonjësin"
+  },
+  "SortOrder": 133.0,
+  "MenuId": null,
+  "AllowsPartialReversal": false,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:REVERSAL_RECURRING_JOURNAL_EMPLOYEE_ADVANCE",
+  "IdSup": "document_type:REVERSAL_RECURRING_JOURNAL_SHEET",
+  "Active": true,
+  "IsElement": false,
+  "Code": "KPPPRJ",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Reversal of employee advance",
+   "sq": "Kthim paradhënieje punonjësi"
+  },
+  "SortOrder": 133.0,
+  "IsReversal": true,
+  "ReversedDocumentTypeId": "document_type:RECURRING_JOURNAL_EMPLOYEE_ADVANCE",
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:RECURRING_GENERAL_JOURNAL_ENTRY",
+  "IdSup": "document_type:RECURRING_JOURNAL_SHEET",
+  "Active": true,
+  "IsElement": true,
+  "Code": "GJR",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "General journal entry",
+   "sq": "Regjistrim i përgjithshëm"
+  },
+  "Description": {
+   "en": "General journal entry",
+   "sq": "Regjistrim i përgjithshëm"
+  },
+  "SortOrder": 144.0,
+  "MenuId": null,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:REVERSAL_RECURRING_GENERAL_JOURNAL_ENTRY",
+  "IdSup": "document_type:REVERSAL_RECURRING_JOURNAL_SHEET",
+  "Active": true,
+  "IsElement": true,
+  "Code": "KGJRJ",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Reversal of general journal entry",
+   "sq": "Storno i veprimit të përgjithshëm"
+  },
+  "SortOrder": 344.0,
+  "IsReversal": true,
+  "ReversedDocumentTypeId": "document_type:RECURRING_GENERAL_JOURNAL_ENTRY",
+  "NeverPosted": false,
+  "Description": {
+   "en": "Reversal of general journal entry",
+   "sq": "Storno i veprimit të përgjithshëm"
+  },
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:REVERSAL_RECURRING_JOURNAL_SHEET",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "KFKRJ",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Reversal of journal sheet",
+   "sq": "Storno i fletës kontabël"
+  },
+  "SortOrder": 322.0,
+  "IsReversal": true,
+  "ReversedDocumentTypeId": "document_type:RECURRING_JOURNAL_SHEET",
+  "NeverPosted": false,
+  "Description": {
+   "en": "Reversal of journal sheet",
+   "sq": "Storno i fletës kontabël"
+  },
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:RECURRING_DEPRECIATION_JOURNAL",
+  "IdSup": "document_type:RECURRING_DEPRECIATION_SHEET",
+  "Active": true,
+  "IsElement": true,
+  "Code": "FAAR",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Depreciation journal",
+   "sq": "Regjistrim amortizimi"
+  },
+  "Description": {
+   "en": "Depreciation journal",
+   "sq": "Regjistrim amortizimi"
+  },
+  "SortOrder": 121.0,
+  "MenuId": null,
+  "AllowsPartialReversal": false,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:REVERSAL_RECURRING_DEPRECIATION_JOURNAL",
+  "IdSup": "document_type:REVERSAL_RECURRING_DEPRECIATION_SHEET",
+  "Active": true,
+  "IsElement": true,
+  "Code": "KFAARJ",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Reversal of depreciation journal",
+   "sq": "Kthim regjistrimi amortizimi"
+  },
+  "SortOrder": 121.0,
+  "IsReversal": true,
+  "ReversedDocumentTypeId": "document_type:RECURRING_DEPRECIATION_JOURNAL",
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:REVERSAL_RECURRING_DEPRECIATION_SHEET",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "KFARJ",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Reversal of depreciation sheet",
+   "sq": "Storno i fletës së amortizimit"
+  },
+  "SortOrder": 320.0,
+  "IsReversal": true,
+  "ReversedDocumentTypeId": "document_type:RECURRING_DEPRECIATION_SHEET",
+  "NeverPosted": false,
+  "Description": {
+   "en": "Reversal of depreciation sheet",
+   "sq": "Storno i fletës së amortizimit"
+  },
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:RECURRING_REVALUATION_JOURNAL",
+  "IdSup": "document_type:RECURRING_REVALUATION_SHEET",
+  "Active": true,
+  "IsElement": true,
+  "Code": "FRVR",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Revaluation journal",
+   "sq": "Regjistrim rivlerësimi"
+  },
+  "Description": {
+   "en": "Revaluation journal",
+   "sq": "Regjistrim rivlerësimi"
+  },
+  "SortOrder": 127.0,
+  "MenuId": null,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:PURCHASE_REQUEST",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "KRB",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Purchase request",
+   "sq": "Kërkesë blerjeje"
+  },
+  "Description": {
+   "en": "Purchase request",
+   "sq": "Kërkesë blerjeje"
+  },
+  "SortOrder": 19.1,
+  "MenuId": null,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": true,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": true,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:PURCHASE_ORDER",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "PRB",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Purchase order",
+   "sq": "Porosi blerjeje"
+  },
+  "Description": {
+   "en": "Purchase order",
+   "sq": "Porosi blerjeje"
+  },
+  "SortOrder": 19.2,
+  "MenuId": null,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": true,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": true,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:SALES_ORDER",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "PRSH",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Sales order",
+   "sq": "Porosi shitjeje"
+  },
+  "Description": {
+   "en": "Sales order",
+   "sq": "Porosi shitjeje"
+  },
+  "SortOrder": 19.3,
+  "MenuId": null,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": true,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false,
+  "ProducedOnProductionScreen": true
+ },
+ {
+  "Key": "document_type:POS_ORDER",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "PSO",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Point-of-sale order",
+   "sq": "Porosi e pikës së shitjes"
+  },
+  "Description": {
+   "en": "Point-of-sale order",
+   "sq": "Porosi e pikës së shitjes"
+  },
+  "SortOrder": 19.310000000000002,
+  "MenuId": null,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": true,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false,
+  "SendsToProduction": true,
+  "ProductionDocumentTypeId": "document_type:PRODUCTION"
+ },
+ {
+  "Key": "document_type:DISASSEMBLY",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "FCM",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Disassembly",
+   "sq": "Çmontim"
+  },
+  "Description": {
+   "en": "Disassembly",
+   "sq": "Çmontim"
+  },
+  "SortOrder": 90.5,
+  "MenuId": null,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": false,
+  "AllowsPartialReversal": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false,
+  "ProductionDocumentTypeId": null
+ },
+ {
+  "Key": "document_type:REVERSAL_CUSTOMS_DECLARATION",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "KDD",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Reversal of customs declaration",
+   "sq": "Stornim: Deklaratë doganore"
+  },
+  "Description": {
+   "en": "Reversal of customs declaration",
+   "sq": "Stornim: Deklaratë doganore"
+  },
+  "SortOrder": 58.5,
+  "MenuId": null,
+  "IsReversal": true,
+  "ReversedDocumentTypeId": "document_type:CUSTOMS_DECLARATION",
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false,
+  "AllowsPartialReversal": false
+ },
+ {
+  "Key": "document_type:REVERSAL_CUSTOMS_DECLARATION_ASSETS",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "KFDA",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Reversal of customs declaration, assets",
+   "sq": "Stornim: Deklaratë doganore asetesh"
+  },
+  "Description": {
+   "en": "Reversal of customs declaration, assets",
+   "sq": "Stornim: Deklaratë doganore asetesh"
+  },
+  "SortOrder": 59.5,
+  "MenuId": null,
+  "IsReversal": true,
+  "ReversedDocumentTypeId": "document_type:CUSTOMS_DECLARATION_ASSETS",
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false,
+  "AllowsPartialReversal": false
+ },
+ {
+  "Key": "document_type:REVERSAL_GOODS_TRANSFER",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "KFTM",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Reversal of goods transfer note",
+   "sq": "Stornim: Faturë transferimi malli"
+  },
+  "Description": {
+   "en": "Reversal of goods transfer note",
+   "sq": "Stornim: Faturë transferimi malli"
+  },
+  "SortOrder": 14.5,
+  "MenuId": null,
+  "IsReversal": true,
+  "ReversedDocumentTypeId": "document_type:GOODS_TRANSFER",
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false,
+  "AllowsPartialReversal": false
+ },
+ {
+  "Key": "document_type:REVERSAL_GOODS_TRANSFER_TO_STAFF",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "KFTMP",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Reversal of goods transfer, cost centre to staff",
+   "sq": "Stornim: Transferim malli nga qendra e kostos te personeli"
+  },
+  "Description": {
+   "en": "Reversal of goods transfer, cost centre to staff",
+   "sq": "Stornim: Transferim malli nga qendra e kostos te personeli"
+  },
+  "SortOrder": 18.5,
+  "MenuId": null,
+  "IsReversal": true,
+  "ReversedDocumentTypeId": "document_type:GOODS_TRANSFER_TO_STAFF",
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false,
+  "AllowsPartialReversal": false
+ },
+ {
+  "Key": "document_type:REVERSAL_GOODS_TRANSFER_FROM_STAFF",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "KFTMPQK",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Reversal of goods transfer, staff to cost centre",
+   "sq": "Stornim: Transferim malli nga personeli te qendra e kostos"
+  },
+  "Description": {
+   "en": "Reversal of goods transfer, staff to cost centre",
+   "sq": "Stornim: Transferim malli nga personeli te qendra e kostos"
+  },
+  "SortOrder": 46.5,
+  "MenuId": null,
+  "IsReversal": true,
+  "ReversedDocumentTypeId": "document_type:GOODS_TRANSFER_FROM_STAFF",
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false,
+  "AllowsPartialReversal": false
+ },
+ {
+  "Key": "document_type:REVERSAL_GOODS_TRANSFER_TO_CLIENT",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "KFTQK",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Reversal of goods transfer, cost centre to client",
+   "sq": "Stornim: Transferim malli nga qendra e kostos te klienti"
+  },
+  "Description": {
+   "en": "Reversal of goods transfer, cost centre to client",
+   "sq": "Stornim: Transferim malli nga qendra e kostos te klienti"
+  },
+  "SortOrder": 47.5,
+  "MenuId": null,
+  "IsReversal": true,
+  "ReversedDocumentTypeId": "document_type:GOODS_TRANSFER_TO_CLIENT",
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false,
+  "AllowsPartialReversal": false
+ },
+ {
+  "Key": "document_type:REVERSAL_GOODS_TRANSFER_FROM_CLIENT",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "KFTKQ",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Reversal of goods transfer, client to cost centre",
+   "sq": "Stornim: Transferim malli nga klienti te qendra e kostos"
+  },
+  "Description": {
+   "en": "Reversal of goods transfer, client to cost centre",
+   "sq": "Stornim: Transferim malli nga klienti te qendra e kostos"
+  },
+  "SortOrder": 48.5,
+  "MenuId": null,
+  "IsReversal": true,
+  "ReversedDocumentTypeId": "document_type:GOODS_TRANSFER_FROM_CLIENT",
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false,
+  "AllowsPartialReversal": false
+ },
+ {
+  "Key": "document_type:REVERSAL_GOODS_TRANSFER_STAFF_TO_CLIENT",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "KFTPK",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Reversal of goods transfer, staff to client",
+   "sq": "Stornim: Transferim malli nga personeli te klienti"
+  },
+  "Description": {
+   "en": "Reversal of goods transfer, staff to client",
+   "sq": "Stornim: Transferim malli nga personeli te klienti"
+  },
+  "SortOrder": 66.5,
+  "MenuId": null,
+  "IsReversal": true,
+  "ReversedDocumentTypeId": "document_type:GOODS_TRANSFER_STAFF_TO_CLIENT",
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false,
+  "AllowsPartialReversal": false
+ },
+ {
+  "IdSup": null,
+  "Active": true,
+  "Key": "document_type:OPENING_STOCK",
+  "IsElement": false,
+  "Code": "CGJ",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Opening stock",
+   "sq": "Çelje e gjendjes së mallrave"
+  },
+  "Description": null,
+  "SortOrder": 99.0,
+  "MenuId": null,
+  "AllowsPartialReversal": false,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": false
+ },
+ {
+  "IdSup": null,
+  "Active": true,
+  "Key": "document_type:OPENING_STOCK_REVERSAL",
+  "IsElement": false,
+  "Code": "KCGJ",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Reversal of opening stock",
+   "sq": "Kthim i çeljes së gjendjes"
+  },
+  "Description": null,
+  "SortOrder": 99.0,
+  "MenuId": null,
+  "AllowsPartialReversal": false,
+  "IsReversal": true,
+  "ReversedDocumentTypeId": "document_type:OPENING_STOCK",
+  "NeverPosted": false
+ }
+]

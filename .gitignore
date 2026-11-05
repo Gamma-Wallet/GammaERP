@@ -1,0 +1,40 @@
+# .NET
+bin/
+obj/
+*.user
+*.suo
+.vs/
+TestResults/
+coverage/
+*.coverage
+*.trx
+
+# Node / Angular
+node_modules/
+dist/
+.angular/
+*.log
+
+# Environment and secrets: never commit real values
+.env
+.env.*
+!.env.example
+secrets/
+
+# OS / editors
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/*
+!.vscode/extensions.json
+
+# Playwright
+tests/e2e/test-results/
+tests/e2e/playwright-report/
+
+# Files kept by a local API (Files:Root default)
+App_Data/
+
+# Python
+__pycache__/
+*.pyc

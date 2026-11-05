@@ -1,0 +1,90 @@
+[
+ {
+  "Key": "elements_type:1",
+  "Active": true,
+  "Name": {
+   "en": "table",
+   "et": "tabel"
+  }
+ },
+ {
+  "Key": "elements_type:2",
+  "Active": true,
+  "Name": {
+   "en": "specified element",
+   "et": "määratud element"
+  }
+ },
+ {
+  "Key": "elements_type:3",
+  "Active": true,
+  "Name": {
+   "en": "empty element",
+   "et": "tühi element"
+  }
+ },
+ {
+  "Key": "elements_type:4",
+  "Active": true,
+  "Name": {
+   "en": "line reference",
+   "et": "reaviide"
+  }
+ },
+ {
+  "Key": "elements_type:5",
+  "Active": true,
+  "Name": {
+   "en": "line configuration",
+   "et": "rea seadistused"
+  }
+ },
+ {
+  "Key": "elements_type:6",
+  "Active": true,
+  "Name": {
+   "en": "document reference",
+   "et": "dokumendiviide"
+  }
+ },
+ {
+  "Key": "elements_type:7",
+  "Active": true,
+  "Name": {
+   "en": "document configuration",
+   "et": "dokumendi seadistused"
+  }
+ },
+ {
+  "Key": "elements_type:8",
+  "Active": true,
+  "Name": {
+   "en": "scenario configuration",
+   "et": "kontomalli seadistused"
+  }
+ },
+ {
+  "Key": "elements_type:9",
+  "Active": true,
+  "Name": {
+   "en": "depreciation scenario configuration",
+   "et": "kulumi kontomalli seadistused"
+  }
+ },
+ {
+  "Key": "elements_type:10",
+  "Active": true,
+  "Name": {
+   "en": "depreciation scenario",
+   "et": "kulumi kontomall"
+  }
+ },
+ {
+  "Key": "elements_type:11",
+  "Active": true,
+  "Name": {
+   "en": "Transaction amount",
+   "et": "Rea summa"
+  }
+ }
+]

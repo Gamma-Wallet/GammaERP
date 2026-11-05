@@ -1,0 +1,17 @@
+{
+  "name": "gamma-erp-e2e",
+  "private": true,
+  "description": "Gamma ERP in the browser: Playwright specs against the Docker stack (deploy/docker-compose.yml) on a fresh database.",
+  "scripts": {
+    "e2e": "node run.mjs",
+    "stack:up": "node stack.mjs up",
+    "stack:down": "node stack.mjs down",
+    "test": "playwright test",
+    "lint": "tsc -p tsconfig.json"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.56.1",
+    "@types/node": "24.10.1",
+    "typescript": "5.9.3"
+  }
+}

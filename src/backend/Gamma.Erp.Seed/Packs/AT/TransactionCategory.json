@@ -1,0 +1,66 @@
+[
+ {
+  "Key": "transaction_category:LINES",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "LINES",
+  "Name": {
+   "en": "Transactions",
+   "de": "Positionen"
+  },
+  "Description": {
+   "en": "Transactions",
+   "de": "Positionen"
+  },
+  "SortOrder": 2.0
+ },
+ {
+  "Key": "transaction_category:JOURNAL_LINES",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "JOURNAL_LINES",
+  "Name": {
+   "en": "Journal lines",
+   "de": "Buchungszeilen"
+  },
+  "Description": {
+   "en": "Journal lines",
+   "de": "Buchungszeilen"
+  },
+  "SortOrder": 10.0
+ },
+ {
+  "Key": "transaction_category:DEPRECIATION_LINES",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "DEPRECIATION_LINES",
+  "Name": {
+   "en": "Depreciation lines",
+   "de": "Abschreibungszeilen"
+  },
+  "Description": {
+   "en": "Depreciation lines",
+   "de": "Abschreibungszeilen"
+  },
+  "SortOrder": 11.0
+ },
+ {
+  "Key": "transaction_category:REVALUATION_LINES",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "REVALUATION_LINES",
+  "Name": {
+   "en": "Revaluation lines",
+   "de": "Neubewertungszeilen"
+  },
+  "Description": {
+   "en": "Revaluation lines",
+   "de": "Neubewertungszeilen"
+  },
+  "SortOrder": 12.0
+ }
+]

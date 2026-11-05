@@ -1,0 +1,179 @@
+# Gamma's generic chart (chart-generic.tsv) in German, by account code. Gamma's translations.
+# code	de
+1	Anlagevermögen
+11	Sachanlagen
+1101	Grundstücke
+1102	Gebäude
+1103	Technische Anlagen und Maschinen
+1104	Fahrzeuge
+1105	Betriebs- und Geschäftsausstattung
+1106	EDV-Anlagen
+1107	Anlagen im Bau
+12	Kumulierte Abschreibungen auf Sachanlagen
+1202	Kumulierte Abschreibungen auf Gebäude
+1203	Kumulierte Abschreibungen auf technische Anlagen und Maschinen
+1204	Kumulierte Abschreibungen auf Fahrzeuge
+1205	Kumulierte Abschreibungen auf Betriebs- und Geschäftsausstattung
+1206	Kumulierte Abschreibungen auf EDV-Anlagen
+13	Immaterielle Vermögensgegenstände
+1301	Geschäfts- oder Firmenwert
+1302	Software
+1303	Marken und Lizenzen
+14	Kumulierte Abschreibungen auf immaterielle Vermögensgegenstände
+1402	Kumulierte Abschreibungen auf Software
+1403	Kumulierte Abschreibungen auf Marken und Lizenzen
+15	Als Finanzinvestition gehaltene Immobilien
+1501	Als Finanzinvestition gehaltene Immobilien
+16	Finanzanlagen
+1601	Anteile an verbundenen Unternehmen
+1602	Beteiligungen an assoziierten Unternehmen
+1603	Sonstige Finanzanlagen
+1604	Langfristige Ausleihungen
+17	Latente Steuern
+1701	Aktive latente Steuern
+2	Umlaufvermögen
+20	Vorräte
+2001	Handelswaren
+2002	Rohstoffe
+2003	Hilfs- und Betriebsstoffe
+2004	Fertige Erzeugnisse
+2005	Unfertige Erzeugnisse
+22	Forderungen aus Lieferungen und Leistungen
+2201	Forderungen aus Lieferungen und Leistungen
+2202	Forderungen gegen ausländische Kunden
+2203	Schecks
+2209	Wertberichtigungen auf Forderungen
+23	Sonstige Forderungen
+2301	Aktive Rechnungsabgrenzung
+2302	Geleistete Anzahlungen
+2303	Vorschüsse an Mitarbeiter
+2304	Geleistete Kautionen
+2305	Sonstige Vermögensgegenstände
+24	Steuerforderungen
+2401	Vorsteuer
+2402	Umsatzsteuerforderungen
+2403	Steuervorauszahlungen
+28	Liquide Mittel
+2801	Kasse
+2802	Kasse in Fremdwährung
+2803	Bank
+2804	Bank in Fremdwährung
+2805	Festgelder
+2806	Geldtransit
+3	Eigenkapital
+30	Gezeichnetes Kapital
+3001	Gezeichnetes Kapital
+3002	Kapitalrücklage
+31	Rücklagen
+3101	Neubewertungsrücklage
+3102	Andere Gewinnrücklagen
+32	Gewinnvortrag
+3201	Gewinn- oder Verlustvortrag
+3202	Jahresüberschuss oder Jahresfehlbetrag
+4	Verbindlichkeiten
+40	Langfristige Verbindlichkeiten
+4001	Langfristige Bankdarlehen
+4002	Leasingverbindlichkeiten
+4003	Gesellschafterdarlehen
+4004	Passive latente Steuern
+4005	Rückstellungen
+41	Verbindlichkeiten aus Lieferungen und Leistungen
+4101	Verbindlichkeiten aus Lieferungen und Leistungen
+4102	Verbindlichkeiten gegenüber ausländischen Lieferanten
+4103	Wechselverbindlichkeiten
+4104	Erhaltene Anzahlungen
+42	Sonstige Verbindlichkeiten
+4201	Passive Rechnungsabgrenzung (Aufwand)
+4202	Passive Rechnungsabgrenzung (Ertrag)
+4203	Verbindlichkeiten aus Lohn und Gehalt
+4204	Verbindlichkeiten im Rahmen der sozialen Sicherheit
+4205	Verbindlichkeiten gegenüber Krankenkassen
+4206	Sonstige Verbindlichkeiten
+4207	Verbindlichkeiten aus Ausschüttungen
+43	Kurzfristige Finanzverbindlichkeiten
+4301	Kontokorrentkredite
+4302	Kurzfristige Bankdarlehen
+44	Steuerverbindlichkeiten
+4401	Umsatzsteuer
+4402	Umsatzsteuer-Zahllast
+4403	Ertragsteuerverbindlichkeiten
+4404	Lohnsteuerverbindlichkeiten
+4405	Sonstige Steuerverbindlichkeiten
+5	Erträge
+50	Umsatzerlöse
+5001	Erlöse aus Warenverkauf
+5002	Erlöse aus Dienstleistungen
+5003	Erlöse aus eigenen Erzeugnissen
+5004	Erlösschmälerungen
+51	Sonstige betriebliche Erträge
+5101	Mieterträge
+5102	Zuschüsse
+5103	Erträge aus dem Abgang von Sachanlagen
+5104	Übrige sonstige Erträge
+52	Finanzerträge
+5201	Zinserträge
+5202	Beteiligungserträge
+5203	Kursgewinne
+6	Wareneinkauf und Materialaufwand
+60	Einkauf
+6001	Wareneingang
+6002	Einkauf von Rohstoffen
+6003	Einkauf von Hilfs- und Betriebsstoffen
+6004	Erhaltene Skonti und Nachlässe
+6005	Bezugsnebenkosten
+61	Bestandsveränderungen
+6101	Bestandsveränderungen Waren
+6102	Bestandsveränderungen Rohstoffe
+7	Aufwendungen
+70	Personalaufwand
+7001	Löhne und Gehälter
+7002	Arbeitgeberanteil zur Sozialversicherung
+7003	Arbeitgeberanteil zur Krankenversicherung
+7004	Sonstige Arbeitgeberbeiträge
+7005	Sonstiger Personalaufwand
+71	Raumkosten
+7101	Miete
+7102	Strom
+7103	Wasser
+7104	Instandhaltung
+7105	Versicherungen
+72	Verwaltungskosten
+7201	Telekommunikation
+7202	Porto
+7203	Büromaterial
+7204	Abschlussprüfung
+7205	Rechts- und Beratungskosten
+7206	Beiträge
+7207	Gebühren der Gesellschaft
+73	Vertriebskosten
+7301	Werbung
+7302	Ausgangsfrachten
+7303	Provisionen
+7304	Reisekosten
+74	Fahrzeugkosten
+7401	Kraftstoff
+7402	Kfz-Steuer und Kfz-Versicherung
+7403	Kfz-Reparaturen
+75	Finanzaufwendungen
+7501	Zinsaufwendungen
+7502	Bankgebühren
+7503	Kursverluste
+7504	Leasingzinsen
+76	Abschreibungen
+7601	Abschreibungen auf Gebäude
+7602	Abschreibungen auf technische Anlagen und Maschinen
+7603	Abschreibungen auf Fahrzeuge
+7604	Abschreibungen auf Betriebs- und Geschäftsausstattung
+7605	Abschreibungen auf EDV-Anlagen
+7606	Abschreibungen auf immaterielle Vermögensgegenstände
+77	Sonstige Aufwendungen
+7701	Forderungsverluste
+7702	Verluste aus dem Abgang von Sachanlagen
+7703	Nicht abziehbare Vorsteuer
+7704	Übrige sonstige Aufwendungen
+7705	Bestandsverluste und Schwund
+8	Steuern vom Einkommen und vom Ertrag
+80	Ertragsteuern
+8001	Körperschaftsteuer
+8002	Sonstige Steuern vom Ertrag
+8003	Latente Steuern

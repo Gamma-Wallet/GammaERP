@@ -1,0 +1,66 @@
+[
+ {
+  "Key": "transaction_category:LINES",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "LINES",
+  "Name": {
+   "en": "Transactions",
+   "ro": "Rânduri"
+  },
+  "Description": {
+   "en": "Transactions",
+   "ro": "Rânduri"
+  },
+  "SortOrder": 2.0
+ },
+ {
+  "Key": "transaction_category:JOURNAL_LINES",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "JOURNAL_LINES",
+  "Name": {
+   "en": "Journal lines",
+   "ro": "Rânduri de notă contabilă"
+  },
+  "Description": {
+   "en": "Journal lines",
+   "ro": "Rânduri de notă contabilă"
+  },
+  "SortOrder": 10.0
+ },
+ {
+  "Key": "transaction_category:DEPRECIATION_LINES",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "DEPRECIATION_LINES",
+  "Name": {
+   "en": "Depreciation lines",
+   "ro": "Rânduri de amortizare"
+  },
+  "Description": {
+   "en": "Depreciation lines",
+   "ro": "Rânduri de amortizare"
+  },
+  "SortOrder": 11.0
+ },
+ {
+  "Key": "transaction_category:REVALUATION_LINES",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "REVALUATION_LINES",
+  "Name": {
+   "en": "Revaluation lines",
+   "ro": "Rânduri de reevaluare"
+  },
+  "Description": {
+   "en": "Revaluation lines",
+   "ro": "Rânduri de reevaluare"
+  },
+  "SortOrder": 12.0
+ }
+]

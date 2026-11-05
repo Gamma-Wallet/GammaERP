@@ -1,0 +1,206 @@
+[
+ {
+  "Key": "document_category:SALES",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "SALES",
+  "Name": {
+   "en": "Sales",
+   "fi": "Myynti"
+  },
+  "Description": {
+   "en": "Sales invoices",
+   "fi": "Myyntilaskut"
+  },
+  "SortOrder": 3.0
+ },
+ {
+  "Key": "document_category:PURCHASES",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "PURCHASES",
+  "Name": {
+   "en": "Purchases",
+   "fi": "Ostot"
+  },
+  "Description": {
+   "en": "Purchase invoices",
+   "fi": "Ostolaskut"
+  },
+  "SortOrder": 4.0
+ },
+ {
+  "Key": "document_category:TRANSFERS",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "TRANSFERS",
+  "Name": {
+   "en": "Goods transfers",
+   "fi": "Varastosiirrot"
+  },
+  "Description": {
+   "en": "Goods transfer note",
+   "fi": "Siirtotosite"
+  },
+  "SortOrder": 5.0
+ },
+ {
+  "Key": "document_category:CASH_DESK",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "CASH_DESK",
+  "Name": {
+   "en": "Cash desk",
+   "fi": "Kassa"
+  },
+  "Description": {
+   "en": "Cash desk",
+   "fi": "Kassa"
+  },
+  "SortOrder": 6.0
+ },
+ {
+  "Key": "document_category:BANK",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "BANK",
+  "Name": {
+   "en": "Bank",
+   "fi": "Pankki"
+  },
+  "Description": {
+   "en": "Bank",
+   "fi": "Pankki"
+  },
+  "SortOrder": 7.0
+ },
+ {
+  "Key": "document_category:OFFERS",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "OFFERS",
+  "Name": {
+   "en": "Offers",
+   "fi": "Tarjoukset"
+  },
+  "Description": {
+   "en": "Offers",
+   "fi": "Tarjoukset"
+  },
+  "SortOrder": 9.0
+ },
+ {
+  "Key": "document_category:JOURNAL",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "JOURNAL",
+  "Name": {
+   "en": "Journal",
+   "fi": "Muistiotositteet"
+  },
+  "Description": {
+   "en": "Journal",
+   "fi": "Muistiotositteet"
+  },
+  "SortOrder": 8.0
+ },
+ {
+  "Key": "document_category:CONTRACTS",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "CONTRACTS",
+  "Name": {
+   "en": "Contracts",
+   "fi": "Sopimukset"
+  },
+  "Description": {
+   "en": "Contracts",
+   "fi": "Sopimukset"
+  },
+  "SortOrder": 10.0
+ },
+ {
+  "Key": "document_category:RECURRING_JOURNAL",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "RECURRING_JOURNAL",
+  "Name": {
+   "en": "Recurring journal",
+   "fi": "Toistuvat tositteet"
+  },
+  "Description": {
+   "en": "Recurring journal",
+   "fi": "Toistuvat tositteet"
+  },
+  "SortOrder": 11.0
+ },
+ {
+  "Key": "document_category:REVERSALS",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "REVERSALS",
+  "Name": {
+   "en": "Reversals",
+   "fi": "Peruutukset"
+  },
+  "SortOrder": 100
+ },
+ {
+  "Key": "document_category:PRODUCTION",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "PRODUCTION",
+  "Name": {
+   "en": "Production",
+   "fi": "Valmistus"
+  },
+  "Description": {
+   "en": "Production",
+   "fi": "Valmistus"
+  },
+  "SortOrder": 11.0
+ },
+ {
+  "Key": "document_category:ORDERS",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "ORDERS",
+  "Name": {
+   "en": "Orders",
+   "fi": "Tilaukset"
+  },
+  "Description": {
+   "en": "Orders",
+   "fi": "Tilaukset"
+  },
+  "SortOrder": 9.0
+ },
+ {
+  "Key": "document_category:REPAIRS",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "REPAIRS",
+  "Name": {
+   "en": "Repairs",
+   "fi": "Korjaukset"
+  },
+  "Description": {
+   "en": "Repairs",
+   "fi": "Korjaukset"
+  },
+  "SortOrder": 9.5
+ }
+]

@@ -1,0 +1,477 @@
+[
+ {
+  "Key": "transaction_type:ACCOUNT",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "ACCOUNT",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Account",
+   "pt": "Conta"
+  },
+  "Description": {
+   "en": "Account",
+   "pt": "Conta"
+  },
+  "SortOrder": 3.0
+ },
+ {
+  "Key": "transaction_type:ITEM",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "ITEM",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Item",
+   "pt": "Artigo"
+  },
+  "Description": {
+   "en": "Item",
+   "pt": "Artigo"
+  },
+  "SortOrder": 4.0
+ },
+ {
+  "Key": "transaction_type:FIXED_ASSET",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "FIXED_ASSET",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Fixed asset",
+   "pt": "Ativo fixo"
+  },
+  "Description": {
+   "en": "Fixed asset",
+   "pt": "Ativo fixo"
+  },
+  "SortOrder": 5.0
+ },
+ {
+  "Key": "transaction_type:SERVICE_ITEM",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "SERVICE_ITEM",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Service item",
+   "pt": "Artigo (serviço)"
+  },
+  "Description": {
+   "en": "Service item",
+   "pt": "Artigo (serviço)"
+  },
+  "SortOrder": 6.0
+ },
+ {
+  "Key": "transaction_type:SUPPLIER",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "SUPPLIER",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Supplier",
+   "pt": "Fornecedor"
+  },
+  "Description": {
+   "en": "Supplier",
+   "pt": "Fornecedor"
+  },
+  "SortOrder": 7.0
+ },
+ {
+  "Key": "transaction_type:CLIENT",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "CLIENT",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Client",
+   "pt": "Cliente"
+  },
+  "Description": {
+   "en": "Client",
+   "pt": "Cliente"
+  },
+  "SortOrder": 8.0
+ },
+ {
+  "Key": "transaction_type:CASH_DESK_ACCOUNT",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "CASH_DESK_ACCOUNT",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Cash desk account",
+   "pt": "Conta de caixa"
+  },
+  "Description": {
+   "en": "Cash desk account",
+   "pt": "Conta de caixa"
+  },
+  "SortOrder": 9.0
+ },
+ {
+  "Key": "transaction_type:BANK_ACCOUNT",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "BANK_ACCOUNT",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Bank account",
+   "pt": "Conta bancária"
+  },
+  "Description": {
+   "en": "Bank account",
+   "pt": "Conta bancária"
+  },
+  "SortOrder": 10.0
+ },
+ {
+  "Key": "transaction_type:STAFF",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "STAFF",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Staff",
+   "pt": "Pessoal"
+  },
+  "Description": {
+   "en": "Staff",
+   "pt": "Pessoal"
+  },
+  "SortOrder": 11.0
+ },
+ {
+  "Key": "transaction_type:DEPRECIATION",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "DEPRECIATION",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Depreciation",
+   "pt": "Depreciação"
+  },
+  "Description": {
+   "en": "Depreciation",
+   "pt": "Depreciação"
+  },
+  "SortOrder": 12.0
+ },
+ {
+  "Key": "transaction_type:REVALUATION",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "REVALUATION",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Revaluation",
+   "pt": "Revalorização"
+  },
+  "Description": {
+   "en": "Revaluation",
+   "pt": "Revalorização"
+  },
+  "SortOrder": 13.0
+ },
+ {
+  "Key": "transaction_type:FIXED_ASSET_SERVICE",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "FIXED_ASSET_SERVICE",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Fixed asset (service)",
+   "pt": "Ativo fixo (serviço)"
+  },
+  "Description": {
+   "en": "Fixed asset (service)",
+   "pt": "Ativo fixo (serviço)"
+  },
+  "SortOrder": 14.0
+ },
+ {
+  "Key": "transaction_type:COMBINED_ITEM",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "COMBINED_ITEM",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Combined item",
+   "pt": "Artigo composto"
+  },
+  "Description": {
+   "en": "Combined item",
+   "pt": "Artigo composto"
+  },
+  "SortOrder": 15.0
+ },
+ {
+  "Key": "transaction_type:CUSTOMS",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "CUSTOMS",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Customs",
+   "pt": "Alfândega"
+  },
+  "Description": {
+   "en": "Customs",
+   "pt": "Alfândega"
+  },
+  "SortOrder": 16.0
+ },
+ {
+  "Key": "transaction_type:TRANSPORT",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "TRANSPORT",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Transport",
+   "pt": "Transporte"
+  },
+  "Description": {
+   "en": "Transport",
+   "pt": "Transporte"
+  },
+  "SortOrder": 17.0
+ },
+ {
+  "Key": "transaction_type:CUSTOMS_AGENCY",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "CUSTOMS_AGENCY",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Customs agency",
+   "pt": "Despachante"
+  },
+  "Description": {
+   "en": "Customs agency",
+   "pt": "Despachante"
+  },
+  "SortOrder": 18.0
+ },
+ {
+  "Key": "transaction_type:CUSTOMS_ASSETS",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "CUSTOMS_ASSETS",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Customs, assets",
+   "pt": "Alfândega de ativos fixos"
+  },
+  "Description": {
+   "en": "Customs, assets",
+   "pt": "Alfândega de ativos fixos"
+  },
+  "SortOrder": 19.0
+ },
+ {
+  "Key": "transaction_type:TRANSPORT_ASSETS",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "TRANSPORT_ASSETS",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Transport, assets",
+   "pt": "Transporte de ativos fixos"
+  },
+  "Description": {
+   "en": "Transport, assets",
+   "pt": "Transporte de ativos fixos"
+  },
+  "SortOrder": 20.0
+ },
+ {
+  "Key": "transaction_type:CUSTOMS_AGENCY_ASSETS",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "CUSTOMS_AGENCY_ASSETS",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Customs agency, assets",
+   "pt": "Despachante de ativos fixos"
+  },
+  "Description": {
+   "en": "Customs agency, assets",
+   "pt": "Despachante de ativos fixos"
+  },
+  "SortOrder": 21.0
+ },
+ {
+  "Key": "transaction_type:RAW_MATERIAL",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "RAW_MATERIAL",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Raw material used",
+   "pt": "Matéria-prima consumida"
+  },
+  "Description": {
+   "en": "Raw material used",
+   "pt": "Matéria-prima consumida"
+  },
+  "SortOrder": 40.0
+ },
+ {
+  "Key": "transaction_type:PRODUCED_ITEM",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "PRODUCED_ITEM",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Produced item",
+   "pt": "Produto fabricado"
+  },
+  "Description": {
+   "en": "Produced item",
+   "pt": "Produto fabricado"
+  },
+  "SortOrder": 41.0
+ },
+ {
+  "Key": "transaction_type:WASTE",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "WASTE",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Waste",
+   "pt": "Quebra"
+  },
+  "Description": {
+   "en": "Waste",
+   "pt": "Quebra"
+  },
+  "SortOrder": 42.0
+ },
+ {
+  "Key": "transaction_type:DISASSEMBLED_ITEM",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "DISASSEMBLED_ITEM",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Product taken apart",
+   "pt": "Produto desmontado"
+  },
+  "Description": {
+   "en": "Product taken apart",
+   "pt": "Produto desmontado"
+  },
+  "SortOrder": 43.0
+ },
+ {
+  "Key": "transaction_type:RECOVERED_PART",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "RECOVERED_PART",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Recovered component",
+   "pt": "Componente recuperado"
+  },
+  "Description": {
+   "en": "Recovered component",
+   "pt": "Componente recuperado"
+  },
+  "SortOrder": 44.0
+ },
+ {
+  "Key": "transaction_type:DISASSEMBLY_WASTE",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "DISASSEMBLY_WASTE",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Disassembly waste",
+   "pt": "Quebra de desmontagem"
+  },
+  "Description": {
+   "en": "Disassembly waste",
+   "pt": "Quebra de desmontagem"
+  },
+  "SortOrder": 45.0
+ }
+]

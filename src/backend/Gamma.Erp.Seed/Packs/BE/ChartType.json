@@ -1,0 +1,114 @@
+[
+ {
+  "Key": "chart_type:1",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "1",
+  "CodeStart": 0,
+  "CodeEnd": 99999,
+  "CodeCurrent": 0,
+  "Name": {
+   "fr": "Classe 1 – Fonds propres, provisions pour risques et charges et dettes à plus d’un an"
+  },
+  "SortOrder": 10
+ },
+ {
+  "Key": "chart_type:2",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "2",
+  "CodeStart": 0,
+  "CodeEnd": 99999,
+  "CodeCurrent": 0,
+  "Name": {
+   "fr": "Classe 2 – Frais d'établissement, actifs immobilisés et créances à plus d'un an"
+  },
+  "SortOrder": 20
+ },
+ {
+  "Key": "chart_type:3",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "3",
+  "CodeStart": 0,
+  "CodeEnd": 99999,
+  "CodeCurrent": 0,
+  "Name": {
+   "fr": "Classe 3 – Stocks et commandes en cours d'exécution"
+  },
+  "SortOrder": 30
+ },
+ {
+  "Key": "chart_type:4",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "4",
+  "CodeStart": 0,
+  "CodeEnd": 99999,
+  "CodeCurrent": 0,
+  "Name": {
+   "fr": "Classe 4 – Créances et dettes à un an au plus"
+  },
+  "SortOrder": 40
+ },
+ {
+  "Key": "chart_type:5",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "5",
+  "CodeStart": 0,
+  "CodeEnd": 99999,
+  "CodeCurrent": 0,
+  "Name": {
+   "fr": "Classe 5 – Placements de trésorerie et valeurs disponibles"
+  },
+  "SortOrder": 50
+ },
+ {
+  "Key": "chart_type:6",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "6",
+  "CodeStart": 0,
+  "CodeEnd": 99999,
+  "CodeCurrent": 0,
+  "Name": {
+   "fr": "Classe 6 – Charges"
+  },
+  "SortOrder": 60
+ },
+ {
+  "Key": "chart_type:7",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "7",
+  "CodeStart": 0,
+  "CodeEnd": 99999,
+  "CodeCurrent": 0,
+  "Name": {
+   "fr": "Classe 7 – Produits"
+  },
+  "SortOrder": 70
+ },
+ {
+  "Key": "chart_type:0",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "0",
+  "CodeStart": 0,
+  "CodeEnd": 99999,
+  "CodeCurrent": 0,
+  "Name": {
+   "fr": "Classe 0 – Droits et engagements hors bilan"
+  },
+  "SortOrder": 80
+ }
+]

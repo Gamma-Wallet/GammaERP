@@ -1,0 +1,7 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <!-- Every model of Gamma ERP: the database objects,
+       one folder per entity with its nine models, and what the API and the screens exchange (Dto/). Models only, no logic. -->
+  <PropertyGroup>
+    <RootNamespace>Gamma.Erp.Models</RootNamespace>
+  </PropertyGroup>
+</Project>

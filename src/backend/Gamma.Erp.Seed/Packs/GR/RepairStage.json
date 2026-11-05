@@ -1,0 +1,68 @@
+[
+ {
+  "Key": "repair_stage:RECEIVED",
+  "IdSup": null,
+  "Active": true,
+  "Name": {
+   "en": "Received",
+   "el": "Παραλήφθηκε"
+  },
+  "SortOrder": 10.0,
+  "IsFinal": false
+ },
+ {
+  "Key": "repair_stage:OFFER_GIVEN",
+  "IdSup": null,
+  "Active": true,
+  "Name": {
+   "en": "Offer given",
+   "el": "Δόθηκε προσφορά"
+  },
+  "SortOrder": 20.0,
+  "IsFinal": false
+ },
+ {
+  "Key": "repair_stage:ACCEPTED",
+  "IdSup": null,
+  "Active": true,
+  "Name": {
+   "en": "Accepted",
+   "el": "Αποδεκτό"
+  },
+  "SortOrder": 30.0,
+  "IsFinal": false
+ },
+ {
+  "Key": "repair_stage:READY",
+  "IdSup": null,
+  "Active": true,
+  "Name": {
+   "en": "Ready",
+   "el": "Έτοιμο"
+  },
+  "SortOrder": 40.0,
+  "IsFinal": false
+ },
+ {
+  "Key": "repair_stage:COLLECTED",
+  "IdSup": null,
+  "Active": true,
+  "Name": {
+   "en": "Collected",
+   "el": "Παραλήφθηκε από πελάτη"
+  },
+  "SortOrder": 50.0,
+  "IsFinal": true
+ },
+ {
+  "Key": "repair_stage:REFUSED",
+  "IdSup": null,
+  "Active": true,
+  "Name": {
+   "en": "Refused",
+   "el": "Απορρίφθηκε"
+  },
+  "SortOrder": 60.0,
+  "IsFinal": true
+ }
+]

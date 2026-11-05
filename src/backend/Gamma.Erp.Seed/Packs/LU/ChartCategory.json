@@ -1,0 +1,15 @@
+[
+ {
+  "Key": "chart_category:STATUTORY",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "PCN",
+  "Name": {
+   "en": "Chart of accounts (PCN)",
+   "fr": "Plan comptable normalisé (RGD 12/09/2019)"
+  },
+  "IsStatutory": true,
+  "SortOrder": 10
+ }
+]

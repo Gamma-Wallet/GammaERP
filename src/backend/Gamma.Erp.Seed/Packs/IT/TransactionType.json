@@ -1,0 +1,477 @@
+[
+ {
+  "Key": "transaction_type:ACCOUNT",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "ACCOUNT",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Account",
+   "it": "Conto"
+  },
+  "Description": {
+   "en": "Account",
+   "it": "Conto"
+  },
+  "SortOrder": 3.0
+ },
+ {
+  "Key": "transaction_type:ITEM",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "ITEM",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Item",
+   "it": "Articolo"
+  },
+  "Description": {
+   "en": "Item",
+   "it": "Articolo"
+  },
+  "SortOrder": 4.0
+ },
+ {
+  "Key": "transaction_type:FIXED_ASSET",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "FIXED_ASSET",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Fixed asset",
+   "it": "Bene strumentale"
+  },
+  "Description": {
+   "en": "Fixed asset",
+   "it": "Bene strumentale"
+  },
+  "SortOrder": 5.0
+ },
+ {
+  "Key": "transaction_type:SERVICE_ITEM",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "SERVICE_ITEM",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Service item",
+   "it": "Articolo (servizio)"
+  },
+  "Description": {
+   "en": "Service item",
+   "it": "Articolo (servizio)"
+  },
+  "SortOrder": 6.0
+ },
+ {
+  "Key": "transaction_type:SUPPLIER",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "SUPPLIER",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Supplier",
+   "it": "Fornitore"
+  },
+  "Description": {
+   "en": "Supplier",
+   "it": "Fornitore"
+  },
+  "SortOrder": 7.0
+ },
+ {
+  "Key": "transaction_type:CLIENT",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "CLIENT",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Client",
+   "it": "Cliente"
+  },
+  "Description": {
+   "en": "Client",
+   "it": "Cliente"
+  },
+  "SortOrder": 8.0
+ },
+ {
+  "Key": "transaction_type:CASH_DESK_ACCOUNT",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "CASH_DESK_ACCOUNT",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Cash desk account",
+   "it": "Conto cassa"
+  },
+  "Description": {
+   "en": "Cash desk account",
+   "it": "Conto cassa"
+  },
+  "SortOrder": 9.0
+ },
+ {
+  "Key": "transaction_type:BANK_ACCOUNT",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "BANK_ACCOUNT",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Bank account",
+   "it": "Conto banca"
+  },
+  "Description": {
+   "en": "Bank account",
+   "it": "Conto banca"
+  },
+  "SortOrder": 10.0
+ },
+ {
+  "Key": "transaction_type:STAFF",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "STAFF",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Staff",
+   "it": "Personale"
+  },
+  "Description": {
+   "en": "Staff",
+   "it": "Personale"
+  },
+  "SortOrder": 11.0
+ },
+ {
+  "Key": "transaction_type:DEPRECIATION",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "DEPRECIATION",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Depreciation",
+   "it": "Ammortamento"
+  },
+  "Description": {
+   "en": "Depreciation",
+   "it": "Ammortamento"
+  },
+  "SortOrder": 12.0
+ },
+ {
+  "Key": "transaction_type:REVALUATION",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "REVALUATION",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Revaluation",
+   "it": "Rivalutazione"
+  },
+  "Description": {
+   "en": "Revaluation",
+   "it": "Rivalutazione"
+  },
+  "SortOrder": 13.0
+ },
+ {
+  "Key": "transaction_type:FIXED_ASSET_SERVICE",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "FIXED_ASSET_SERVICE",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Fixed asset (service)",
+   "it": "Bene strumentale (servizio)"
+  },
+  "Description": {
+   "en": "Fixed asset (service)",
+   "it": "Bene strumentale (servizio)"
+  },
+  "SortOrder": 14.0
+ },
+ {
+  "Key": "transaction_type:COMBINED_ITEM",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "COMBINED_ITEM",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Combined item",
+   "it": "Articolo composto"
+  },
+  "Description": {
+   "en": "Combined item",
+   "it": "Articolo composto"
+  },
+  "SortOrder": 15.0
+ },
+ {
+  "Key": "transaction_type:CUSTOMS",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "CUSTOMS",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Customs",
+   "it": "Dogana"
+  },
+  "Description": {
+   "en": "Customs",
+   "it": "Dogana"
+  },
+  "SortOrder": 16.0
+ },
+ {
+  "Key": "transaction_type:TRANSPORT",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "TRANSPORT",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Transport",
+   "it": "Trasporto"
+  },
+  "Description": {
+   "en": "Transport",
+   "it": "Trasporto"
+  },
+  "SortOrder": 17.0
+ },
+ {
+  "Key": "transaction_type:CUSTOMS_AGENCY",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "CUSTOMS_AGENCY",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Customs agency",
+   "it": "Spedizioniere doganale"
+  },
+  "Description": {
+   "en": "Customs agency",
+   "it": "Spedizioniere doganale"
+  },
+  "SortOrder": 18.0
+ },
+ {
+  "Key": "transaction_type:CUSTOMS_ASSETS",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "CUSTOMS_ASSETS",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Customs, assets",
+   "it": "Dogana beni strumentali"
+  },
+  "Description": {
+   "en": "Customs, assets",
+   "it": "Dogana beni strumentali"
+  },
+  "SortOrder": 19.0
+ },
+ {
+  "Key": "transaction_type:TRANSPORT_ASSETS",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "TRANSPORT_ASSETS",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Transport, assets",
+   "it": "Trasporto beni strumentali"
+  },
+  "Description": {
+   "en": "Transport, assets",
+   "it": "Trasporto beni strumentali"
+  },
+  "SortOrder": 20.0
+ },
+ {
+  "Key": "transaction_type:CUSTOMS_AGENCY_ASSETS",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "CUSTOMS_AGENCY_ASSETS",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Customs agency, assets",
+   "it": "Spedizioniere doganale beni strumentali"
+  },
+  "Description": {
+   "en": "Customs agency, assets",
+   "it": "Spedizioniere doganale beni strumentali"
+  },
+  "SortOrder": 21.0
+ },
+ {
+  "Key": "transaction_type:RAW_MATERIAL",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "RAW_MATERIAL",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Raw material used",
+   "it": "Materia prima utilizzata"
+  },
+  "Description": {
+   "en": "Raw material used",
+   "it": "Materia prima utilizzata"
+  },
+  "SortOrder": 40.0
+ },
+ {
+  "Key": "transaction_type:PRODUCED_ITEM",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "PRODUCED_ITEM",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Produced item",
+   "it": "Prodotto finito"
+  },
+  "Description": {
+   "en": "Produced item",
+   "it": "Prodotto finito"
+  },
+  "SortOrder": 41.0
+ },
+ {
+  "Key": "transaction_type:WASTE",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "WASTE",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Waste",
+   "it": "Scarto di produzione"
+  },
+  "Description": {
+   "en": "Waste",
+   "it": "Scarto di produzione"
+  },
+  "SortOrder": 42.0
+ },
+ {
+  "Key": "transaction_type:DISASSEMBLED_ITEM",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "DISASSEMBLED_ITEM",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Product taken apart",
+   "it": "Prodotto smontato"
+  },
+  "Description": {
+   "en": "Product taken apart",
+   "it": "Prodotto smontato"
+  },
+  "SortOrder": 43.0
+ },
+ {
+  "Key": "transaction_type:RECOVERED_PART",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "RECOVERED_PART",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Recovered component",
+   "it": "Componente recuperato"
+  },
+  "Description": {
+   "en": "Recovered component",
+   "it": "Componente recuperato"
+  },
+  "SortOrder": 44.0
+ },
+ {
+  "Key": "transaction_type:DISASSEMBLY_WASTE",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "DISASSEMBLY_WASTE",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Disassembly waste",
+   "it": "Scarto di smontaggio"
+  },
+  "Description": {
+   "en": "Disassembly waste",
+   "it": "Scarto di smontaggio"
+  },
+  "SortOrder": 45.0
+ }
+]

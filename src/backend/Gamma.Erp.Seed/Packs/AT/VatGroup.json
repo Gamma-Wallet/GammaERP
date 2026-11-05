@@ -1,0 +1,54 @@
+[
+ {
+  "Key": "vat_group:AT_20",
+  "IdSup": null,
+  "Active": true,
+  "Code": null,
+  "Name": {
+   "en": "VAT 20%",
+   "de": "USt 20%"
+  },
+  "Description": null,
+  "Rate": 20.0,
+  "Depreciation": false
+ },
+ {
+  "Key": "vat_group:AT_13",
+  "IdSup": null,
+  "Active": true,
+  "Code": null,
+  "Name": {
+   "en": "VAT 13%",
+   "de": "USt 13%"
+  },
+  "Description": null,
+  "Rate": 13.0,
+  "Depreciation": false
+ },
+ {
+  "Key": "vat_group:AT_10",
+  "IdSup": null,
+  "Active": true,
+  "Code": null,
+  "Name": {
+   "en": "VAT 10%",
+   "de": "USt 10%"
+  },
+  "Description": null,
+  "Rate": 10.0,
+  "Depreciation": false
+ },
+ {
+  "Key": "vat_group:AT_0",
+  "IdSup": null,
+  "Active": true,
+  "Code": null,
+  "Name": {
+   "en": "VAT 0% / exempt",
+   "de": "USt 0% / steuerfrei"
+  },
+  "Description": null,
+  "Rate": 0.0,
+  "Depreciation": false
+ }
+]

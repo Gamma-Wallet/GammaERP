@@ -1,0 +1,9 @@
+[
+ {
+  "Key": "inter_opportunity_type_category:1",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "opportunity_type:STANDARD",
+  "CategoryId": "opportunity_category:SALES"
+ }
+]

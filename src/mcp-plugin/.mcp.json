@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "gamma-erp": {
+      "type": "http",
+      "url": "${GAMMA_ERP_URL}/mcp",
+      "headers": {
+        "Authorization": "Bearer ${GAMMA_ERP_TOKEN}"
+      }
+    }
+  }
+}

@@ -1,0 +1,54 @@
+[
+ {
+  "Key": "vat_group:GR_24",
+  "IdSup": null,
+  "Active": true,
+  "Code": null,
+  "Name": {
+   "en": "VAT 24%",
+   "el": "ΦΠΑ 24%"
+  },
+  "Description": null,
+  "Rate": 24.0,
+  "Depreciation": false
+ },
+ {
+  "Key": "vat_group:GR_13",
+  "IdSup": null,
+  "Active": true,
+  "Code": null,
+  "Name": {
+   "en": "VAT 13%",
+   "el": "ΦΠΑ 13%"
+  },
+  "Description": null,
+  "Rate": 13.0,
+  "Depreciation": false
+ },
+ {
+  "Key": "vat_group:GR_6",
+  "IdSup": null,
+  "Active": true,
+  "Code": null,
+  "Name": {
+   "en": "VAT 6%",
+   "el": "ΦΠΑ 6%"
+  },
+  "Description": null,
+  "Rate": 6.0,
+  "Depreciation": false
+ },
+ {
+  "Key": "vat_group:GR_0",
+  "IdSup": null,
+  "Active": true,
+  "Code": null,
+  "Name": {
+   "en": "VAT 0% / exempt",
+   "el": "ΦΠΑ 0% / απαλλαγή"
+  },
+  "Description": null,
+  "Rate": 0.0,
+  "Depreciation": false
+ }
+]

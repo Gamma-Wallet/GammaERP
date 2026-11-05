@@ -1,0 +1,156 @@
+[
+ {
+  "Key": "inter_cost_center_type_category:1",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "cost_center_type:COMPANY",
+  "CategoryId": "cost_center_category:COMPANIES"
+ },
+ {
+  "Key": "inter_cost_center_type_category:2",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "cost_center_type:BASE",
+  "CategoryId": "cost_center_category:COMPANIES"
+ },
+ {
+  "Key": "inter_cost_center_type_category:3",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "cost_center_type:CASH_DESK",
+  "CategoryId": "cost_center_category:COMPANIES"
+ },
+ {
+  "Key": "inter_cost_center_type_category:4",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "cost_center_type:BANK",
+  "CategoryId": "cost_center_category:COMPANIES"
+ },
+ {
+  "Key": "inter_cost_center_type_category:5",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "cost_center_type:POINT_OF_SALE",
+  "CategoryId": "cost_center_category:COMPANIES"
+ },
+ {
+  "Key": "inter_cost_center_type_category:6",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "cost_center_type:WAREHOUSE",
+  "CategoryId": "cost_center_category:COMPANIES"
+ },
+ {
+  "Key": "inter_cost_center_type_category:7",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "cost_center_type:OFFICE",
+  "CategoryId": "cost_center_category:COMPANIES"
+ },
+ {
+  "Key": "inter_cost_center_type_category:hall",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "cost_center_type:HALL",
+  "CategoryId": "cost_center_category:COMPANIES"
+ },
+ {
+  "Key": "inter_cost_center_type_category:table",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "cost_center_type:TABLE",
+  "CategoryId": "cost_center_category:COMPANIES"
+ },
+ {
+  "Key": "inter_cost_center_type_category:counter",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "cost_center_type:COUNTER",
+  "CategoryId": "cost_center_category:COMPANIES"
+ },
+ {
+  "Key": "inter_cost_center_type_category:8",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "cost_center_type:POS_RESTAURANT",
+  "CategoryId": "cost_center_category:COMPANIES"
+ },
+ {
+  "Key": "inter_cost_center_type_category:9",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "cost_center_type:POS_SHOP",
+  "CategoryId": "cost_center_category:COMPANIES"
+ },
+ {
+  "Key": "inter_cost_center_type_category:10",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "cost_center_type:TILL",
+  "CategoryId": "cost_center_category:COMPANIES"
+ },
+ {
+  "Key": "inter_cost_center_type_category:11",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "cost_center_type:POS_EVENTS",
+  "CategoryId": "cost_center_category:COMPANIES"
+ },
+ {
+  "Key": "inter_cost_center_type_category:12",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "cost_center_type:AUDITORIUM",
+  "CategoryId": "cost_center_category:COMPANIES"
+ },
+ {
+  "Key": "inter_cost_center_type_category:13",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "cost_center_type:SEAT_ROW",
+  "CategoryId": "cost_center_category:COMPANIES"
+ },
+ {
+  "Key": "inter_cost_center_type_category:14",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "cost_center_type:SEAT",
+  "CategoryId": "cost_center_category:COMPANIES"
+ },
+ {
+  "Key": "inter_cost_center_type_category:15",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "cost_center_type:POS_STAYS",
+  "CategoryId": "cost_center_category:COMPANIES"
+ },
+ {
+  "Key": "inter_cost_center_type_category:16",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "cost_center_type:FLOOR",
+  "CategoryId": "cost_center_category:COMPANIES"
+ },
+ {
+  "Key": "inter_cost_center_type_category:17",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "cost_center_type:ROOM",
+  "CategoryId": "cost_center_category:COMPANIES"
+ },
+ {
+  "Key": "inter_cost_center_type_category:PRODUCTION_POINT",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "cost_center_type:PRODUCTION_POINT",
+  "CategoryId": "cost_center_category:COMPANIES"
+ },
+ {
+  "Key": "inter_cost_center_type_category:POS_REPAIRS",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "cost_center_type:POS_REPAIRS",
+  "CategoryId": "cost_center_category:COMPANIES"
+ }
+]

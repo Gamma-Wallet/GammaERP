@@ -1,0 +1,38 @@
+[
+ {
+  "Key": "partner_category:CLIENTS",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "CLIENTS",
+  "Name": {
+   "en": "Clients",
+   "sl": "Kupci"
+  },
+  "SortOrder": 10
+ },
+ {
+  "Key": "partner_category:SUPPLIERS",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "SUPPLIERS",
+  "Name": {
+   "en": "Suppliers",
+   "sl": "Dobavitelji"
+  },
+  "SortOrder": 20
+ },
+ {
+  "Key": "partner_category:LEADS",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "LEADS",
+  "Name": {
+   "en": "Leads",
+   "sl": "Potencialne stranke"
+  },
+  "SortOrder": 3.0
+ }
+]

@@ -1,0 +1,310 @@
+{
+  "country": "RO",
+  "language": "ro",
+  "currency": "RON",
+  "sources": [
+    "Chart: planul de conturi general, OMFP 1802/2014 (Contzilla pocket edition 2019), see chart-ro.tsv",
+    "VAT: Fiscal Code as amended by Law 141/2025, from 1 August 2025: 21 % standard, 11 % reduced (the former 9 % and 5 % merged), 0 %",
+    "Depreciation: straight-line over the useful lives of the catalogue (HG 2139/2004)"
+  ],
+  "uncertain": [
+    "Lives used, from the catalogue as commonly taken (to be checked): buildings 40 years, machinery 8, vehicles 5, office equipment and furniture 10, computers 3, software 3.",
+    "Accounts added or renamed after 2019 (OMF 2649/2023 and later) are not in this list.",
+    "Purchases of goods post to 371 Mărfuri (permanent inventory, as most Romanian companies keep it)."
+  ],
+  "chart": {
+    "file": "chart-ro.tsv",
+    "category": {
+      "code": "PCG",
+      "name": "Planul de conturi general (OMFP 1802/2014)"
+    },
+    "types": [
+      {
+        "code": "1",
+        "name": "Clasa 1 – Conturi de capitaluri, provizioane, împrumuturi şi datorii asimilate",
+        "prefixes": [
+          "1"
+        ],
+        "roles": []
+      },
+      {
+        "code": "2",
+        "name": "Clasa 2 – Conturi de imobilizări",
+        "prefixes": [
+          "2"
+        ],
+        "roles": [
+          "fixed_assets"
+        ]
+      },
+      {
+        "code": "3",
+        "name": "Clasa 3 – Conturi de stocuri şi producţie în curs de execuţie",
+        "prefixes": [
+          "3"
+        ],
+        "roles": [
+          "inventories"
+        ]
+      },
+      {
+        "code": "4",
+        "name": "Clasa 4 – Conturi de terţi",
+        "prefixes": [
+          "4"
+        ],
+        "roles": []
+      },
+      {
+        "code": "5",
+        "name": "Clasa 5 – Conturi de trezorerie",
+        "prefixes": [
+          "5"
+        ],
+        "roles": []
+      },
+      {
+        "code": "6",
+        "name": "Clasa 6 – Conturi de cheltuieli",
+        "prefixes": [
+          "6"
+        ],
+        "roles": [
+          "expenses"
+        ]
+      },
+      {
+        "code": "7",
+        "name": "Clasa 7 – Conturi de venituri",
+        "prefixes": [
+          "7"
+        ],
+        "roles": [
+          "income"
+        ]
+      },
+      {
+        "code": "8",
+        "name": "Clasa 8 – Conturi speciale",
+        "prefixes": [
+          "8"
+        ],
+        "roles": []
+      },
+      {
+        "code": "9",
+        "name": "Clasa 9 – Conturi de gestiune",
+        "prefixes": [
+          "9"
+        ],
+        "roles": []
+      }
+    ]
+  },
+  "roles": {
+    "clients": "4111",
+    "output_vat": "4427",
+    "suppliers": "401",
+    "input_vat": "4426",
+    "employee_advances": "425",
+    "goods_sales": "707",
+    "goods_purchases": "371",
+    "client_advances": "419",
+    "supplier_prepayments": "4091",
+    "wages_payable": "421",
+    "rent_expense": "612",
+    "services_sales": "704",
+    "services_purchases": "628",
+    "asset_assets": "2131",
+    "asset_land": "2111",
+    "asset_buildings": "212",
+    "asset_office": "214",
+    "asset_vehicles": "2133",
+    "asset_computers": "214",
+    "asset_furniture": "214",
+    "asset_intangible": "208",
+    "production": "331",
+    "waste": "6588"
+  },
+  "cash_account": "5311",
+  "bank_account": "5121",
+  "services_account": "704",
+  "vat": [
+    {
+      "rate": 21,
+      "name": "TVA 21%",
+      "en": "VAT 21%",
+      "standard": true
+    },
+    {
+      "rate": 11,
+      "name": "TVA 11%",
+      "en": "VAT 11%",
+      "standard": true
+    },
+    {
+      "rate": 0,
+      "name": "TVA 0% / scutit",
+      "en": "VAT 0% / exempt",
+      "standard": false
+    }
+  ],
+  "depreciation": {
+    "assets": [
+      96,
+      12.5,
+      "6811",
+      "2813"
+    ],
+    "land": [
+      null,
+      0,
+      null,
+      null
+    ],
+    "buildings": [
+      480,
+      2.5,
+      "6811",
+      "2812"
+    ],
+    "office": [
+      120,
+      10,
+      "6811",
+      "2814"
+    ],
+    "vehicles": [
+      60,
+      20,
+      "6811",
+      "2813"
+    ],
+    "computers": [
+      36,
+      33.33,
+      "6811",
+      "2814"
+    ],
+    "furniture": [
+      120,
+      10,
+      "6811",
+      "2814"
+    ],
+    "intangible": [
+      36,
+      33.33,
+      "6811",
+      "2808"
+    ]
+  },
+  "document_codes": {
+    "PURCHASE_REQUEST": "PRQ",
+    "PURCHASE_ORDER": "POR",
+    "SALES_ORDER": "SOR",
+    "REPAIR_INTAKE": "RIN",
+    "REPAIR_OFFER": "ROF",
+    "POS_ORDER": "PSO",
+    "SALES_INVOICE_GOODS": "FV",
+    "CREDIT_NOTE_GOODS_SOLD": "FSV",
+    "SALES_INVOICE_SERVICES": "FVS",
+    "CREDIT_NOTE_SERVICES_SOLD": "FSVS",
+    "PURCHASE_INVOICE_GOODS": "FA",
+    "CREDIT_NOTE_GOODS_BOUGHT": "FSA",
+    "PURCHASE_INVOICE_SERVICES": "FAS",
+    "CREDIT_NOTE_SERVICES_BOUGHT": "FSAS",
+    "GOODS_TRANSFER": "AVZ",
+    "PAYMENT": "PL",
+    "RECEIPT": "INC",
+    "PREPAYMENT": "PAV",
+    "GOODS_TRANSFER_TO_STAFF": "AVZP",
+    "SALES_OFFER_GOODS": "OFM",
+    "DEPRECIATION_SHEET": "FAM",
+    "DEPRECIATION_JOURNAL": "NAM",
+    "JOURNAL_SHEET": "NC",
+    "JOURNAL_PAYMENT": "PL",
+    "JOURNAL_RECEIPT": "INC",
+    "JOURNAL_PREPAYMENT": "PAV",
+    "REVALUATION_SHEET": "FRE",
+    "REVALUATION_JOURNAL": "NRE",
+    "ADVANCE": "AV",
+    "EMPLOYEE_ADVANCE": "AVA",
+    "JOURNAL_ADVANCE": "AV",
+    "JOURNAL_EMPLOYEE_ADVANCE": "AVA",
+    "SALES_CONTRACT_GOODS": "CVM",
+    "PURCHASE_CONTRACT_GOODS": "CAM",
+    "PURCHASE_OFFER_GOODS": "COM",
+    "SALES_OFFER_SERVICES": "OFS",
+    "PURCHASE_OFFER_SERVICES": "COS",
+    "SALES_CONTRACT_SERVICES": "CPS",
+    "PURCHASE_CONTRACT_SERVICES": "CAS",
+    "RECURRING_DEPRECIATION_SHEET": "FAMP",
+    "RECURRING_JOURNAL_SHEET": "NCP",
+    "RECURRING_REVALUATION_SHEET": "FREP",
+    "GENERAL_JOURNAL_ENTRY": "NCG",
+    "POS_RECEIPT": "BF",
+    "GOODS_TRANSFER_FROM_STAFF": "AVZPC",
+    "GOODS_TRANSFER_TO_CLIENT": "AVZCL",
+    "GOODS_TRANSFER_FROM_CLIENT": "AVZLC",
+    "POS_CONTRACT": "CPV",
+    "POS_MONEY_IN": "INCPV",
+    "POS_MONEY_OUT": "PLPV",
+    "POS_GOODS_IN": "NIRPV",
+    "POS_GOODS_OUT": "BCPV",
+    "WAGE_PAYMENT": "PLS",
+    "RENT_PAYMENT": "PLC",
+    "CUSTOMS_DECLARATION": "DV",
+    "CUSTOMS_DECLARATION_ASSETS": "DVI",
+    "POS_REVERSAL": "BFR",
+    "POS_REFUND": "RSPV",
+    "POS_MONEY_FROM_STAFF": "INCPP",
+    "GOODS_OUT_TO_STAFF": "BCP",
+    "GOODS_TRANSFER_STAFF_TO_CLIENT": "AVZPK",
+    "GOODS_IN_FROM_STAFF": "NIRP",
+    "REVERSAL_PAYMENT": "SPL",
+    "REVERSAL_RECEIPT": "SINC",
+    "REVERSAL_PREPAYMENT": "SPAV",
+    "REVERSAL_DEPRECIATION_JOURNAL": "SNAM",
+    "REVERSAL_JOURNAL_PAYMENT": "SPLJ",
+    "REVERSAL_JOURNAL_RECEIPT": "SINCJ",
+    "REVERSAL_JOURNAL_PREPAYMENT": "SPAVJ",
+    "REVERSAL_ADVANCE": "SAV",
+    "REVERSAL_EMPLOYEE_ADVANCE": "SAVA",
+    "REVERSAL_JOURNAL_ADVANCE": "SAVJ",
+    "REVERSAL_JOURNAL_EMPLOYEE_ADVANCE": "SAVAJ",
+    "PRODUCTION": "PRD",
+    "UNIT_SPLIT": "CUM",
+    "REVERSAL_UNIT_SPLIT": "SCUM",
+    "REVERSAL_JOURNAL_SHEET": "SNCJ",
+    "REVERSAL_DEPRECIATION_SHEET": "SFAMJ",
+    "REVERSAL_GENERAL_JOURNAL_ENTRY": "SNCGJ",
+    "RECURRING_JOURNAL_PAYMENT": "PLP",
+    "REVERSAL_RECURRING_JOURNAL_PAYMENT": "SPLPJ",
+    "RECURRING_JOURNAL_RECEIPT": "INCP",
+    "REVERSAL_RECURRING_JOURNAL_RECEIPT": "SINCPJ",
+    "RECURRING_JOURNAL_PREPAYMENT": "PAVP",
+    "REVERSAL_RECURRING_JOURNAL_PREPAYMENT": "SPAVPJ",
+    "RECURRING_JOURNAL_ADVANCE": "AVP",
+    "REVERSAL_RECURRING_JOURNAL_ADVANCE": "SAVPJ",
+    "RECURRING_JOURNAL_EMPLOYEE_ADVANCE": "AVAP",
+    "REVERSAL_RECURRING_JOURNAL_EMPLOYEE_ADVANCE": "SAVAPJ",
+    "RECURRING_GENERAL_JOURNAL_ENTRY": "NCGP",
+    "REVERSAL_RECURRING_GENERAL_JOURNAL_ENTRY": "SNCGPJ",
+    "REVERSAL_RECURRING_JOURNAL_SHEET": "SNCPJ",
+    "RECURRING_DEPRECIATION_JOURNAL": "NAMP",
+    "REVERSAL_RECURRING_DEPRECIATION_JOURNAL": "SNAMPJ",
+    "REVERSAL_RECURRING_DEPRECIATION_SHEET": "SFAMPJ",
+    "RECURRING_REVALUATION_JOURNAL": "NREP",
+    "DISASSEMBLY": "DZA",
+    "REVERSAL_CUSTOMS_DECLARATION": "SDV",
+    "REVERSAL_CUSTOMS_DECLARATION_ASSETS": "SDVI",
+    "REVERSAL_GOODS_TRANSFER": "SAVZ",
+    "REVERSAL_GOODS_TRANSFER_TO_STAFF": "SAVZP",
+    "REVERSAL_GOODS_TRANSFER_FROM_STAFF": "SAVZPC",
+    "REVERSAL_GOODS_TRANSFER_TO_CLIENT": "SAVZCL",
+    "REVERSAL_GOODS_TRANSFER_FROM_CLIENT": "SAVZLC",
+    "REVERSAL_GOODS_TRANSFER_STAFF_TO_CLIENT": "SAVZPK"
+  },
+  "document_descriptions": {}
+}

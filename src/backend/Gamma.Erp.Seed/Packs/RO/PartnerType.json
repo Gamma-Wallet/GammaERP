@@ -1,0 +1,62 @@
+[
+ {
+  "Key": "partner_type:UNKNOWN",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "UNKNOWN",
+  "Name": {
+   "en": "Unknown",
+   "ro": "Necunoscut"
+  },
+  "SortOrder": 10
+ },
+ {
+  "Key": "partner_type:PERSON",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "PERSON",
+  "Name": {
+   "en": "Person",
+   "ro": "Persoană fizică"
+  },
+  "SortOrder": 20
+ },
+ {
+  "Key": "partner_type:SME",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "SME",
+  "Name": {
+   "en": "SME",
+   "ro": "IMM"
+  },
+  "SortOrder": 30
+ },
+ {
+  "Key": "partner_type:LTD",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "LTD",
+  "Name": {
+   "en": "LTD",
+   "ro": "S.R.L."
+  },
+  "SortOrder": 40
+ },
+ {
+  "Key": "partner_type:GROUP_COMPANY",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "GROUP_COMPANY",
+  "Name": {
+   "en": "Company of the group",
+   "ro": "Societate a grupului"
+  },
+  "SortOrder": 50
+ }
+]

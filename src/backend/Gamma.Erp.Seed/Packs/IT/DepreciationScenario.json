@@ -1,0 +1,226 @@
+[
+ {
+  "Key": "depreciation_scenario:assets",
+  "IdSup": null,
+  "Active": true,
+  "Name": {
+   "en": "Assets",
+   "it": "Beni strumentali"
+  },
+  "DepreciationBookId": "depreciation_book:COMPANY",
+  "ElementsId": "elements:187",
+  "Months": 120,
+  "LinearPercentage": 10,
+  "DecliningPercentage": 0
+ },
+ {
+  "Key": "depreciation_scenario:assets:tax",
+  "IdSup": null,
+  "Active": true,
+  "Name": {
+   "en": "Assets",
+   "it": "Beni strumentali"
+  },
+  "DepreciationBookId": "depreciation_book:TAX",
+  "ElementsId": "elements:187",
+  "Months": 120,
+  "LinearPercentage": 10,
+  "DecliningPercentage": 0
+ },
+ {
+  "Key": "depreciation_scenario:land",
+  "IdSup": null,
+  "Active": true,
+  "Name": {
+   "en": "Land",
+   "it": "Terreni"
+  },
+  "DepreciationBookId": "depreciation_book:COMPANY",
+  "ElementsId": "elements:188",
+  "Months": null,
+  "LinearPercentage": 0,
+  "DecliningPercentage": 0
+ },
+ {
+  "Key": "depreciation_scenario:land:tax",
+  "IdSup": null,
+  "Active": true,
+  "Name": {
+   "en": "Land",
+   "it": "Terreni"
+  },
+  "DepreciationBookId": "depreciation_book:TAX",
+  "ElementsId": "elements:188",
+  "Months": null,
+  "LinearPercentage": 0,
+  "DecliningPercentage": 0
+ },
+ {
+  "Key": "depreciation_scenario:buildings",
+  "IdSup": null,
+  "Active": true,
+  "Name": {
+   "en": "Buildings",
+   "it": "Fabbricati"
+  },
+  "DepreciationBookId": "depreciation_book:COMPANY",
+  "ElementsId": "elements:189",
+  "Months": 400,
+  "LinearPercentage": 3,
+  "DecliningPercentage": 0
+ },
+ {
+  "Key": "depreciation_scenario:buildings:tax",
+  "IdSup": null,
+  "Active": true,
+  "Name": {
+   "en": "Buildings",
+   "it": "Fabbricati"
+  },
+  "DepreciationBookId": "depreciation_book:TAX",
+  "ElementsId": "elements:189",
+  "Months": 400,
+  "LinearPercentage": 3,
+  "DecliningPercentage": 0
+ },
+ {
+  "Key": "depreciation_scenario:office",
+  "IdSup": null,
+  "Active": true,
+  "Name": {
+   "en": "Office equipment",
+   "it": "Macchine d'ufficio"
+  },
+  "DepreciationBookId": "depreciation_book:COMPANY",
+  "ElementsId": "elements:190",
+  "Months": 100,
+  "LinearPercentage": 12,
+  "DecliningPercentage": 0
+ },
+ {
+  "Key": "depreciation_scenario:office:tax",
+  "IdSup": null,
+  "Active": true,
+  "Name": {
+   "en": "Office equipment",
+   "it": "Macchine d'ufficio"
+  },
+  "DepreciationBookId": "depreciation_book:TAX",
+  "ElementsId": "elements:190",
+  "Months": 100,
+  "LinearPercentage": 12,
+  "DecliningPercentage": 0
+ },
+ {
+  "Key": "depreciation_scenario:vehicles",
+  "IdSup": null,
+  "Active": true,
+  "Name": {
+   "en": "Vehicles",
+   "it": "Automezzi"
+  },
+  "DepreciationBookId": "depreciation_book:COMPANY",
+  "ElementsId": "elements:191",
+  "Months": 60,
+  "LinearPercentage": 20,
+  "DecliningPercentage": 0
+ },
+ {
+  "Key": "depreciation_scenario:vehicles:tax",
+  "IdSup": null,
+  "Active": true,
+  "Name": {
+   "en": "Vehicles",
+   "it": "Automezzi"
+  },
+  "DepreciationBookId": "depreciation_book:TAX",
+  "ElementsId": "elements:191",
+  "Months": 60,
+  "LinearPercentage": 20,
+  "DecliningPercentage": 0
+ },
+ {
+  "Key": "depreciation_scenario:computers",
+  "IdSup": null,
+  "Active": true,
+  "Name": {
+   "en": "Computer equipment",
+   "it": "Elaboratori elettronici"
+  },
+  "DepreciationBookId": "depreciation_book:COMPANY",
+  "ElementsId": "elements:192",
+  "Months": 60,
+  "LinearPercentage": 20,
+  "DecliningPercentage": 0
+ },
+ {
+  "Key": "depreciation_scenario:computers:tax",
+  "IdSup": null,
+  "Active": true,
+  "Name": {
+   "en": "Computer equipment",
+   "it": "Elaboratori elettronici"
+  },
+  "DepreciationBookId": "depreciation_book:TAX",
+  "ElementsId": "elements:192",
+  "Months": 60,
+  "LinearPercentage": 20,
+  "DecliningPercentage": 0
+ },
+ {
+  "Key": "depreciation_scenario:furniture",
+  "IdSup": null,
+  "Active": true,
+  "Name": {
+   "en": "Furniture and fittings",
+   "it": "Arredamento"
+  },
+  "DepreciationBookId": "depreciation_book:COMPANY",
+  "ElementsId": "elements:193",
+  "Months": 80,
+  "LinearPercentage": 15,
+  "DecliningPercentage": 0
+ },
+ {
+  "Key": "depreciation_scenario:furniture:tax",
+  "IdSup": null,
+  "Active": true,
+  "Name": {
+   "en": "Furniture and fittings",
+   "it": "Arredamento"
+  },
+  "DepreciationBookId": "depreciation_book:TAX",
+  "ElementsId": "elements:193",
+  "Months": 80,
+  "LinearPercentage": 15,
+  "DecliningPercentage": 0
+ },
+ {
+  "Key": "depreciation_scenario:intangible",
+  "IdSup": null,
+  "Active": true,
+  "Name": {
+   "en": "Intangible assets",
+   "it": "Immobilizzazioni immateriali"
+  },
+  "DepreciationBookId": "depreciation_book:COMPANY",
+  "ElementsId": "elements:194",
+  "Months": 60,
+  "LinearPercentage": 20,
+  "DecliningPercentage": 0
+ },
+ {
+  "Key": "depreciation_scenario:intangible:tax",
+  "IdSup": null,
+  "Active": true,
+  "Name": {
+   "en": "Intangible assets",
+   "it": "Immobilizzazioni immateriali"
+  },
+  "DepreciationBookId": "depreciation_book:TAX",
+  "ElementsId": "elements:194",
+  "Months": 60,
+  "LinearPercentage": 20,
+  "DecliningPercentage": 0
+ }
+]

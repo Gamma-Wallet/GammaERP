@@ -1,0 +1,477 @@
+[
+ {
+  "Key": "transaction_type:ACCOUNT",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "ACCOUNT",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Account",
+   "bg": "Сметка"
+  },
+  "Description": {
+   "en": "Account",
+   "bg": "Сметка"
+  },
+  "SortOrder": 3.0
+ },
+ {
+  "Key": "transaction_type:ITEM",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "ITEM",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Item",
+   "bg": "Артикул"
+  },
+  "Description": {
+   "en": "Item",
+   "bg": "Артикул"
+  },
+  "SortOrder": 4.0
+ },
+ {
+  "Key": "transaction_type:FIXED_ASSET",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "FIXED_ASSET",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Fixed asset",
+   "bg": "Дълготраен актив"
+  },
+  "Description": {
+   "en": "Fixed asset",
+   "bg": "Дълготраен актив"
+  },
+  "SortOrder": 5.0
+ },
+ {
+  "Key": "transaction_type:SERVICE_ITEM",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "SERVICE_ITEM",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Service item",
+   "bg": "Артикул (услуга)"
+  },
+  "Description": {
+   "en": "Service item",
+   "bg": "Артикул (услуга)"
+  },
+  "SortOrder": 6.0
+ },
+ {
+  "Key": "transaction_type:SUPPLIER",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "SUPPLIER",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Supplier",
+   "bg": "Доставчик"
+  },
+  "Description": {
+   "en": "Supplier",
+   "bg": "Доставчик"
+  },
+  "SortOrder": 7.0
+ },
+ {
+  "Key": "transaction_type:CLIENT",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "CLIENT",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Client",
+   "bg": "Клиент"
+  },
+  "Description": {
+   "en": "Client",
+   "bg": "Клиент"
+  },
+  "SortOrder": 8.0
+ },
+ {
+  "Key": "transaction_type:CASH_DESK_ACCOUNT",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "CASH_DESK_ACCOUNT",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Cash desk account",
+   "bg": "Касова сметка"
+  },
+  "Description": {
+   "en": "Cash desk account",
+   "bg": "Касова сметка"
+  },
+  "SortOrder": 9.0
+ },
+ {
+  "Key": "transaction_type:BANK_ACCOUNT",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "BANK_ACCOUNT",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Bank account",
+   "bg": "Банкова сметка"
+  },
+  "Description": {
+   "en": "Bank account",
+   "bg": "Банкова сметка"
+  },
+  "SortOrder": 10.0
+ },
+ {
+  "Key": "transaction_type:STAFF",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "STAFF",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Staff",
+   "bg": "Персонал"
+  },
+  "Description": {
+   "en": "Staff",
+   "bg": "Персонал"
+  },
+  "SortOrder": 11.0
+ },
+ {
+  "Key": "transaction_type:DEPRECIATION",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "DEPRECIATION",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Depreciation",
+   "bg": "Амортизация"
+  },
+  "Description": {
+   "en": "Depreciation",
+   "bg": "Амортизация"
+  },
+  "SortOrder": 12.0
+ },
+ {
+  "Key": "transaction_type:REVALUATION",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "REVALUATION",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Revaluation",
+   "bg": "Преоценка"
+  },
+  "Description": {
+   "en": "Revaluation",
+   "bg": "Преоценка"
+  },
+  "SortOrder": 13.0
+ },
+ {
+  "Key": "transaction_type:FIXED_ASSET_SERVICE",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "FIXED_ASSET_SERVICE",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Fixed asset (service)",
+   "bg": "Дълготраен актив (услуга)"
+  },
+  "Description": {
+   "en": "Fixed asset (service)",
+   "bg": "Дълготраен актив (услуга)"
+  },
+  "SortOrder": 14.0
+ },
+ {
+  "Key": "transaction_type:COMBINED_ITEM",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "COMBINED_ITEM",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Combined item",
+   "bg": "Комплект"
+  },
+  "Description": {
+   "en": "Combined item",
+   "bg": "Комплект"
+  },
+  "SortOrder": 15.0
+ },
+ {
+  "Key": "transaction_type:CUSTOMS",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "CUSTOMS",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Customs",
+   "bg": "Мито"
+  },
+  "Description": {
+   "en": "Customs",
+   "bg": "Мито"
+  },
+  "SortOrder": 16.0
+ },
+ {
+  "Key": "transaction_type:TRANSPORT",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "TRANSPORT",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Transport",
+   "bg": "Транспорт"
+  },
+  "Description": {
+   "en": "Transport",
+   "bg": "Транспорт"
+  },
+  "SortOrder": 17.0
+ },
+ {
+  "Key": "transaction_type:CUSTOMS_AGENCY",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "CUSTOMS_AGENCY",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Customs agency",
+   "bg": "Митнически агент"
+  },
+  "Description": {
+   "en": "Customs agency",
+   "bg": "Митнически агент"
+  },
+  "SortOrder": 18.0
+ },
+ {
+  "Key": "transaction_type:CUSTOMS_ASSETS",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "CUSTOMS_ASSETS",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Customs, assets",
+   "bg": "Мито за дълготрайни активи"
+  },
+  "Description": {
+   "en": "Customs, assets",
+   "bg": "Мито за дълготрайни активи"
+  },
+  "SortOrder": 19.0
+ },
+ {
+  "Key": "transaction_type:TRANSPORT_ASSETS",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "TRANSPORT_ASSETS",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Transport, assets",
+   "bg": "Транспорт на дълготрайни активи"
+  },
+  "Description": {
+   "en": "Transport, assets",
+   "bg": "Транспорт на дълготрайни активи"
+  },
+  "SortOrder": 20.0
+ },
+ {
+  "Key": "transaction_type:CUSTOMS_AGENCY_ASSETS",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "CUSTOMS_AGENCY_ASSETS",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Customs agency, assets",
+   "bg": "Митнически агент за дълготрайни активи"
+  },
+  "Description": {
+   "en": "Customs agency, assets",
+   "bg": "Митнически агент за дълготрайни активи"
+  },
+  "SortOrder": 21.0
+ },
+ {
+  "Key": "transaction_type:RAW_MATERIAL",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "RAW_MATERIAL",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Raw material used",
+   "bg": "Вложена суровина"
+  },
+  "Description": {
+   "en": "Raw material used",
+   "bg": "Вложена суровина"
+  },
+  "SortOrder": 40.0
+ },
+ {
+  "Key": "transaction_type:PRODUCED_ITEM",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "PRODUCED_ITEM",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Produced item",
+   "bg": "Произведен продукт"
+  },
+  "Description": {
+   "en": "Produced item",
+   "bg": "Произведен продукт"
+  },
+  "SortOrder": 41.0
+ },
+ {
+  "Key": "transaction_type:WASTE",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "WASTE",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Waste",
+   "bg": "Брак"
+  },
+  "Description": {
+   "en": "Waste",
+   "bg": "Брак"
+  },
+  "SortOrder": 42.0
+ },
+ {
+  "Key": "transaction_type:DISASSEMBLED_ITEM",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "DISASSEMBLED_ITEM",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Product taken apart",
+   "bg": "Разглобен продукт"
+  },
+  "Description": {
+   "en": "Product taken apart",
+   "bg": "Разглобен продукт"
+  },
+  "SortOrder": 43.0
+ },
+ {
+  "Key": "transaction_type:RECOVERED_PART",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "RECOVERED_PART",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Recovered component",
+   "bg": "Възстановен компонент"
+  },
+  "Description": {
+   "en": "Recovered component",
+   "bg": "Възстановен компонент"
+  },
+  "SortOrder": 44.0
+ },
+ {
+  "Key": "transaction_type:DISASSEMBLY_WASTE",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "DISASSEMBLY_WASTE",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Disassembly waste",
+   "bg": "Фира от разглобяване"
+  },
+  "Description": {
+   "en": "Disassembly waste",
+   "bg": "Фира от разглобяване"
+  },
+  "SortOrder": 45.0
+ }
+]

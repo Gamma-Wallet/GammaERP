@@ -1,0 +1,5579 @@
+[
+ {
+  "Key": "chart:0",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "chart_type:0",
+  "Code": "0",
+  "Name": {
+   "mk": "Нетековни средства"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:00",
+  "IdSup": "chart:0",
+  "Active": true,
+  "TypeId": "chart_type:0",
+  "Code": "00",
+  "Name": {
+   "mk": "Нематеријални средства"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:000",
+  "IdSup": "chart:00",
+  "Active": true,
+  "TypeId": "chart_type:0",
+  "Code": "000",
+  "Name": {
+   "mk": "Издатоци за развој"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:001",
+  "IdSup": "chart:00",
+  "Active": true,
+  "TypeId": "chart_type:0",
+  "Code": "001",
+  "Name": {
+   "mk": "Гудвил (Goodwill)"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:002",
+  "IdSup": "chart:00",
+  "Active": true,
+  "TypeId": "chart_type:0",
+  "Code": "002",
+  "Name": {
+   "mk": "Концесии, патенти, лиценци, трговски и услужни марки"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:003",
+  "IdSup": "chart:00",
+  "Active": true,
+  "TypeId": "chart_type:0",
+  "Code": "003",
+  "Name": {
+   "mk": "Софтвер и останати права"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:005",
+  "IdSup": "chart:00",
+  "Active": true,
+  "TypeId": "chart_type:0",
+  "Code": "005",
+  "Name": {
+   "mk": "Аванси за набавка на нематеријални средства"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:006",
+  "IdSup": "chart:00",
+  "Active": true,
+  "TypeId": "chart_type:0",
+  "Code": "006",
+  "Name": {
+   "mk": "Нематеријални средства во подготовка"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:007",
+  "IdSup": "chart:00",
+  "Active": true,
+  "TypeId": "chart_type:0",
+  "Code": "007",
+  "Name": {
+   "mk": "Останати нематеријални средства"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:008",
+  "IdSup": "chart:00",
+  "Active": true,
+  "TypeId": "chart_type:0",
+  "Code": "008",
+  "Name": {
+   "mk": "Вредносно усогласување на нематеријални средства"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:009",
+  "IdSup": "chart:00",
+  "Active": true,
+  "TypeId": "chart_type:0",
+  "Code": "009",
+  "Name": {
+   "mk": "Акумулирана амортизација на нематеријални средства"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:01",
+  "IdSup": "chart:0",
+  "Active": true,
+  "TypeId": "chart_type:0",
+  "Code": "01",
+  "Name": {
+   "mk": "Материјални средства"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:010",
+  "IdSup": "chart:01",
+  "Active": true,
+  "TypeId": "chart_type:0",
+  "Code": "010",
+  "Name": {
+   "mk": "Земјишта"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:011",
+  "IdSup": "chart:01",
+  "Active": true,
+  "TypeId": "chart_type:0",
+  "Code": "011",
+  "Name": {
+   "mk": "Градежни објекти"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:012",
+  "IdSup": "chart:01",
+  "Active": true,
+  "TypeId": "chart_type:0",
+  "Code": "012",
+  "Name": {
+   "mk": "Постројки и опрема"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:013",
+  "IdSup": "chart:01",
+  "Active": true,
+  "TypeId": "chart_type:0",
+  "Code": "013",
+  "Name": {
+   "mk": "Алат, погонски и канцелариски инвентар, мебел и транспортни средства"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:014",
+  "IdSup": "chart:01",
+  "Active": true,
+  "TypeId": "chart_type:0",
+  "Code": "014",
+  "Name": {
+   "mk": "Биолошки средства"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:015",
+  "IdSup": "chart:01",
+  "Active": true,
+  "TypeId": "chart_type:0",
+  "Code": "015",
+  "Name": {
+   "mk": "Останати материјални средства"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:016",
+  "IdSup": "chart:01",
+  "Active": true,
+  "TypeId": "chart_type:0",
+  "Code": "016",
+  "Name": {
+   "mk": "Материјални средства во подготовка"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:017",
+  "IdSup": "chart:01",
+  "Active": true,
+  "TypeId": "chart_type:0",
+  "Code": "017",
+  "Name": {
+   "mk": "Аванси за набавка на материјални средства"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:018",
+  "IdSup": "chart:01",
+  "Active": true,
+  "TypeId": "chart_type:0",
+  "Code": "018",
+  "Name": {
+   "mk": "Вредносно усогласување на материјални средства"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:019",
+  "IdSup": "chart:01",
+  "Active": true,
+  "TypeId": "chart_type:0",
+  "Code": "019",
+  "Name": {
+   "mk": "Акумулирана амортизација на материјални средства"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:02",
+  "IdSup": "chart:0",
+  "Active": true,
+  "TypeId": "chart_type:0",
+  "Code": "02",
+  "Name": {
+   "mk": "Вложувања во недвижности"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:020",
+  "IdSup": "chart:02",
+  "Active": true,
+  "TypeId": "chart_type:0",
+  "Code": "020",
+  "Name": {
+   "mk": "Вложувања во недвижности за наем"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:021",
+  "IdSup": "chart:02",
+  "Active": true,
+  "TypeId": "chart_type:0",
+  "Code": "021",
+  "Name": {
+   "mk": "Вложувања во недвижности заради зголемување на капиталот"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:026",
+  "IdSup": "chart:02",
+  "Active": true,
+  "TypeId": "chart_type:0",
+  "Code": "026",
+  "Name": {
+   "mk": "Вложувања во недвижности во подготовка"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:027",
+  "IdSup": "chart:02",
+  "Active": true,
+  "TypeId": "chart_type:0",
+  "Code": "027",
+  "Name": {
+   "mk": "Аванси за вложувања во недвижности"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:028",
+  "IdSup": "chart:02",
+  "Active": true,
+  "TypeId": "chart_type:0",
+  "Code": "028",
+  "Name": {
+   "mk": "Вредносно усогласување на вложувања во недвижности"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:029",
+  "IdSup": "chart:02",
+  "Active": true,
+  "TypeId": "chart_type:0",
+  "Code": "029",
+  "Name": {
+   "mk": "Акумулирана амортизација на вложувања во недвижности"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:03",
+  "IdSup": "chart:0",
+  "Active": true,
+  "TypeId": "chart_type:0",
+  "Code": "03",
+  "Name": {
+   "mk": "Долгорочни финансиски средства"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:030",
+  "IdSup": "chart:03",
+  "Active": true,
+  "TypeId": "chart_type:0",
+  "Code": "030",
+  "Name": {
+   "mk": "Вложувања во подружница"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:031",
+  "IdSup": "chart:03",
+  "Active": true,
+  "TypeId": "chart_type:0",
+  "Code": "031",
+  "Name": {
+   "mk": "Вложувања во придружни друштва и заеднички контролирани друштва (учество во заеднички вложувања)"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:032",
+  "IdSup": "chart:03",
+  "Active": true,
+  "TypeId": "chart_type:0",
+  "Code": "032",
+  "Name": {
+   "mk": "Долгорочни заеми и кредити на поврзани друштва во земјата и странство"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:033",
+  "IdSup": "chart:03",
+  "Active": true,
+  "TypeId": "chart_type:0",
+  "Code": "033",
+  "Name": {
+   "mk": "Дадени заеми и кредити во земјата и во странство"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:034",
+  "IdSup": "chart:03",
+  "Active": true,
+  "TypeId": "chart_type:0",
+  "Code": "034",
+  "Name": {
+   "mk": "Финансиски средства кои се чуваат до доспевање"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:035",
+  "IdSup": "chart:03",
+  "Active": true,
+  "TypeId": "chart_type:0",
+  "Code": "035",
+  "Name": {
+   "mk": "Финансиски средства расположиви за продажба"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:036",
+  "IdSup": "chart:03",
+  "Active": true,
+  "TypeId": "chart_type:0",
+  "Code": "036",
+  "Name": {
+   "mk": "Финансиски средства според објективна вредност преку добивката или загубата"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:037",
+  "IdSup": "chart:03",
+  "Active": true,
+  "TypeId": "chart_type:0",
+  "Code": "037",
+  "Name": {
+   "mk": "Дадени депозити и кауции во земјата и странство"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:038",
+  "IdSup": "chart:03",
+  "Active": true,
+  "TypeId": "chart_type:0",
+  "Code": "038",
+  "Name": {
+   "mk": "Останати долгорочни финансиски средства"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:039",
+  "IdSup": "chart:03",
+  "Active": true,
+  "TypeId": "chart_type:0",
+  "Code": "039",
+  "Name": {
+   "mk": "Вредносно усогласување на долгорочните финансиски средства"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:04",
+  "IdSup": "chart:0",
+  "Active": true,
+  "TypeId": "chart_type:0",
+  "Code": "04",
+  "Name": {
+   "mk": "Долгорочни побарувања"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:040",
+  "IdSup": "chart:04",
+  "Active": true,
+  "TypeId": "chart_type:0",
+  "Code": "040",
+  "Name": {
+   "mk": "Побарувања од поврзани друштва врз основа на продажба"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:041",
+  "IdSup": "chart:04",
+  "Active": true,
+  "TypeId": "chart_type:0",
+  "Code": "041",
+  "Name": {
+   "mk": "Побарувања од неповрзани друштва врз основа на продажба на кредит"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:042",
+  "IdSup": "chart:04",
+  "Active": true,
+  "TypeId": "chart_type:0",
+  "Code": "042",
+  "Name": {
+   "mk": "Побарувања врз основа на наем - финансиски лизинг"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:043",
+  "IdSup": "chart:04",
+  "Active": true,
+  "TypeId": "chart_type:0",
+  "Code": "043",
+  "Name": {
+   "mk": "Побарувања врз основа на форфетинг"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:044",
+  "IdSup": "chart:04",
+  "Active": true,
+  "TypeId": "chart_type:0",
+  "Code": "044",
+  "Name": {
+   "mk": "Побарувања врз основа на дадени гаранции"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:045",
+  "IdSup": "chart:04",
+  "Active": true,
+  "TypeId": "chart_type:0",
+  "Code": "045",
+  "Name": {
+   "mk": "Спорни и ризични побарувања"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:046",
+  "IdSup": "chart:04",
+  "Active": true,
+  "TypeId": "chart_type:0",
+  "Code": "046",
+  "Name": {
+   "mk": "Побарувања за дадени аванси"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:047",
+  "IdSup": "chart:04",
+  "Active": true,
+  "TypeId": "chart_type:0",
+  "Code": "047",
+  "Name": {
+   "mk": "Останати долгорочни побарувања"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:049",
+  "IdSup": "chart:04",
+  "Active": true,
+  "TypeId": "chart_type:0",
+  "Code": "049",
+  "Name": {
+   "mk": "Вредносно усогласување на долгорочни побарувања"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:05",
+  "IdSup": "chart:0",
+  "Active": true,
+  "TypeId": "chart_type:0",
+  "Code": "05",
+  "Name": {
+   "mk": "Одложени даночни средства"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:050",
+  "IdSup": "chart:05",
+  "Active": true,
+  "TypeId": "chart_type:0",
+  "Code": "050",
+  "Name": {
+   "mk": "Одложени даночни средства"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:1",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "1",
+  "Name": {
+   "mk": "Парични средства, хартии од вредност, краткорочни побарувања и платени трошоци за идни периоди и пресметани приходи"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:10",
+  "IdSup": "chart:1",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "10",
+  "Name": {
+   "mk": "Парични средства и парични еквиваленти"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:100",
+  "IdSup": "chart:10",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "100",
+  "Name": {
+   "mk": "Парични средства на трансакциски сметки во денари"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:101",
+  "IdSup": "chart:10",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "101",
+  "Name": {
+   "mk": "Издвоени парични средства и акредитиви"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:102",
+  "IdSup": "chart:10",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "102",
+  "Name": {
+   "mk": "Парични средства во благајна"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:103",
+  "IdSup": "chart:10",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "103",
+  "Name": {
+   "mk": "Девизни сметки"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:104",
+  "IdSup": "chart:10",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "104",
+  "Name": {
+   "mk": "Девизни акредитиви"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:105",
+  "IdSup": "chart:10",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "105",
+  "Name": {
+   "mk": "Парични средства во благајна во странска валута"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:106",
+  "IdSup": "chart:10",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "106",
+  "Name": {
+   "mk": "Депозити - парични еквиваленти"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:107",
+  "IdSup": "chart:10",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "107",
+  "Name": {
+   "mk": "Хартии од вредност - готовински еквиваленти"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:108",
+  "IdSup": "chart:10",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "108",
+  "Name": {
+   "mk": "Останати парични средства"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:109",
+  "IdSup": "chart:10",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "109",
+  "Name": {
+   "mk": "Вредносно усогласување на парични еквиваленти"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:11",
+  "IdSup": "chart:1",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "11",
+  "Name": {
+   "mk": "Побарувања од поврзани друштва"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:110",
+  "IdSup": "chart:11",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "110",
+  "Name": {
+   "mk": "Побарувања од поврзани друштва врз основа на продажба на добра и услуги во земјата"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:111",
+  "IdSup": "chart:11",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "111",
+  "Name": {
+   "mk": "Побарувања од поврзани друштва врз основа на продажба на добра и услуги во странство"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:112",
+  "IdSup": "chart:11",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "112",
+  "Name": {
+   "mk": "Побарувања од поврзани друштва за аванси, депозити и кауции во земјата"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:113",
+  "IdSup": "chart:11",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "113",
+  "Name": {
+   "mk": "Побарувања од поврзани друштва за аванси, депозити и кауции во странство"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:114",
+  "IdSup": "chart:11",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "114",
+  "Name": {
+   "mk": "Побарувања од поврзани друштва за камати (договорни и казнени) во земјата"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:115",
+  "IdSup": "chart:11",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "115",
+  "Name": {
+   "mk": "Побарувања од поврзани друштва за камати (договорни и казнени) во странство"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:116",
+  "IdSup": "chart:11",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "116",
+  "Name": {
+   "mk": "Побарувања од специфично работење од поврзани друштва"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:118",
+  "IdSup": "chart:11",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "118",
+  "Name": {
+   "mk": "Останати побарувања од поврзани друштва"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:119",
+  "IdSup": "chart:11",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "119",
+  "Name": {
+   "mk": "Вредносно усогласување на побарувањата од поврзани друштва"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:12",
+  "IdSup": "chart:1",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "12",
+  "Name": {
+   "mk": "Побарувања од купувачи"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:120",
+  "IdSup": "chart:12",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "120",
+  "Name": {
+   "mk": "Побарувања од купувачи во земјата"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:121",
+  "IdSup": "chart:12",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "121",
+  "Name": {
+   "mk": "Побарувања од купувачи во странство"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:122",
+  "IdSup": "chart:12",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "122",
+  "Name": {
+   "mk": "Побарувања за дадени аванси, депозити и кауции во земјата"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:123",
+  "IdSup": "chart:12",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "123",
+  "Name": {
+   "mk": "Побарувања за дадени аванси, депозити и кауции во странство"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:124",
+  "IdSup": "chart:12",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "124",
+  "Name": {
+   "mk": "Побарувања од специфично работење на неповрзани друштва"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:125",
+  "IdSup": "chart:12",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "125",
+  "Name": {
+   "mk": "Побарувања од камати (договорни и казнени)"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:126",
+  "IdSup": "chart:12",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "126",
+  "Name": {
+   "mk": "Спорни и сомнителни побарувања"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:127",
+  "IdSup": "chart:12",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "127",
+  "Name": {
+   "mk": "Останати побарувања"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:129",
+  "IdSup": "chart:12",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "129",
+  "Name": {
+   "mk": "Вредносно усогласување на побарувањата од купувачи"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:13",
+  "IdSup": "chart:1",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "13",
+  "Name": {
+   "mk": "Побарувања од државни органи и институции"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:130",
+  "IdSup": "chart:13",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "130",
+  "Name": {
+   "mk": "Данок на додадена вредност"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:131",
+  "IdSup": "chart:13",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "131",
+  "Name": {
+   "mk": "Побарувања за повеќе платени акцизи"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:132",
+  "IdSup": "chart:13",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "132",
+  "Name": {
+   "mk": "Побарувања за повеќе платени царини и царински давачки"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:133",
+  "IdSup": "chart:13",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "133",
+  "Name": {
+   "mk": "Побарувања за повеќе платен данок на добивка, данок на вкупен приход и данок на приход платен на странско правно лице (задржан данок)"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:134",
+  "IdSup": "chart:13",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "134",
+  "Name": {
+   "mk": "Побарувања за повеќе платен персонален данок на доход"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:135",
+  "IdSup": "chart:13",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "135",
+  "Name": {
+   "mk": "Побарувања за повеќе платени придонеси и други давачки"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:136",
+  "IdSup": "chart:13",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "136",
+  "Name": {
+   "mk": "Побарувања за повеќе платен данок на имот"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:137",
+  "IdSup": "chart:13",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "137",
+  "Name": {
+   "mk": "Побарувања за регрес, субвенции, премии и други државни поддршки"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:138",
+  "IdSup": "chart:13",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "138",
+  "Name": {
+   "mk": "Останати побарувања од државни органи и институции"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:139",
+  "IdSup": "chart:13",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "139",
+  "Name": {
+   "mk": "Вредносно усогласување на побарувањата од државни органи и институции"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:14",
+  "IdSup": "chart:1",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "14",
+  "Name": {
+   "mk": "Побарувања од вработените"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:140",
+  "IdSup": "chart:14",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "140",
+  "Name": {
+   "mk": "Побарувања од вработените за повеќе исплатена плата и надоместоци на плата и други примања"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:143",
+  "IdSup": "chart:14",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "143",
+  "Name": {
+   "mk": "Побарувања од вработените за аконтации за службени патувања"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:145",
+  "IdSup": "chart:14",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "145",
+  "Name": {
+   "mk": "Останати побарувања од вработените"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:149",
+  "IdSup": "chart:14",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "149",
+  "Name": {
+   "mk": "Вредносно усогласување на побарувањата од вработените"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:15",
+  "IdSup": "chart:1",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "15",
+  "Name": {
+   "mk": "Останати побарувања"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:150",
+  "IdSup": "chart:15",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "150",
+  "Name": {
+   "mk": "Побарувања од осигурителни друштва"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:151",
+  "IdSup": "chart:15",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "151",
+  "Name": {
+   "mk": "Побарувања за тантиеми (надоместоци за користење патенти, знаци и авторски права)"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:152",
+  "IdSup": "chart:15",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "152",
+  "Name": {
+   "mk": "Побарувања врз основа на цесија, асигнација и преземање на долг"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:153",
+  "IdSup": "chart:15",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "153",
+  "Name": {
+   "mk": "Побарувања за членарини"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:154",
+  "IdSup": "chart:15",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "154",
+  "Name": {
+   "mk": "Побарувања за дивиденда или удел во добивката"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:157",
+  "IdSup": "chart:15",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "157",
+  "Name": {
+   "mk": "Побарувања врз основа на продажба на удел"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:158",
+  "IdSup": "chart:15",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "158",
+  "Name": {
+   "mk": "Останати побарувања"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:159",
+  "IdSup": "chart:15",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "159",
+  "Name": {
+   "mk": "Вредносно усогласување на останати побарувања"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:16",
+  "IdSup": "chart:1",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "16",
+  "Name": {
+   "mk": "Краткорочни финансиски средства"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:160",
+  "IdSup": "chart:16",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "160",
+  "Name": {
+   "mk": "Краткорочни кредити и заеми од поврзани друштва во земјата"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:161",
+  "IdSup": "chart:16",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "161",
+  "Name": {
+   "mk": "Краткорочни кредити и заеми од поврзани друштва во странство"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:162",
+  "IdSup": "chart:16",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "162",
+  "Name": {
+   "mk": "Краткорочни кредити и заеми во земјата"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:163",
+  "IdSup": "chart:16",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "163",
+  "Name": {
+   "mk": "Краткорочни кредити и заеми од странство"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:164",
+  "IdSup": "chart:16",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "164",
+  "Name": {
+   "mk": "Хартии од вредност кои се чуваат до доспевање"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:165",
+  "IdSup": "chart:16",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "165",
+  "Name": {
+   "mk": "Хартии од вредност според објективна вредност преку добивката или загубата"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:166",
+  "IdSup": "chart:16",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "166",
+  "Name": {
+   "mk": "Краткорочно орочени денарски средства"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:167",
+  "IdSup": "chart:16",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "167",
+  "Name": {
+   "mk": "Краткорочно орочени странски средства за плаќање"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:168",
+  "IdSup": "chart:16",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "168",
+  "Name": {
+   "mk": "Останати краткорочни финансиски средства"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:169",
+  "IdSup": "chart:16",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "169",
+  "Name": {
+   "mk": "Вредносно усогласување на финансиски средства"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:19",
+  "IdSup": "chart:1",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "19",
+  "Name": {
+   "mk": "Платени трошоци за идни периоди и пресметани приходи (авр)"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:190",
+  "IdSup": "chart:19",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "190",
+  "Name": {
+   "mk": "Однапред платени трошоци"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:191",
+  "IdSup": "chart:19",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "191",
+  "Name": {
+   "mk": "Однапред платени зависни трошоци за набавка"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:192",
+  "IdSup": "chart:19",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "192",
+  "Name": {
+   "mk": "Однапред платени надоместоци за концесија"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:193",
+  "IdSup": "chart:19",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "193",
+  "Name": {
+   "mk": "Однапред платени франшизи, трговски знаци и слични права"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:194",
+  "IdSup": "chart:19",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "194",
+  "Name": {
+   "mk": "Однапред платени патенти и лиценци"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:195",
+  "IdSup": "chart:19",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "195",
+  "Name": {
+   "mk": "Пресметани приходи што не можеле да бидат фактурирани"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:198",
+  "IdSup": "chart:19",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "198",
+  "Name": {
+   "mk": "Останати однапред платени трошоци и пресметани приходи"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:2",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "2",
+  "Name": {
+   "mk": "Обврски, резервирања за трошоци и ризици, одложени плаќања и приходи за идни периоди"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:21",
+  "IdSup": "chart:2",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "21",
+  "Name": {
+   "mk": "Краткорочни обврски спрема поврзани друштва"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:210",
+  "IdSup": "chart:21",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "210",
+  "Name": {
+   "mk": "Обврски од поврзани друштва врз основа на набавка на добра и услуги во земјата"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:211",
+  "IdSup": "chart:21",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "211",
+  "Name": {
+   "mk": "Обврски од поврзани друштва врз основа на набавка на добра и услуги од странство"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:212",
+  "IdSup": "chart:21",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "212",
+  "Name": {
+   "mk": "Обврски од поврзани друштва за аванси, депозити и кауции во земјата"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:213",
+  "IdSup": "chart:21",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "213",
+  "Name": {
+   "mk": "Обврски од поврзани друштва за аванси, депозити и кауции од странство"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:214",
+  "IdSup": "chart:21",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "214",
+  "Name": {
+   "mk": "Обврски од поврзани друштва за камати (договорни и казнени) во земјата"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:215",
+  "IdSup": "chart:21",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "215",
+  "Name": {
+   "mk": "Обврски од поврзани друштва за камати (договорни и казнени) од странство"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:216",
+  "IdSup": "chart:21",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "216",
+  "Name": {
+   "mk": "Обврски од специфично работење од поврзани друштва"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:218",
+  "IdSup": "chart:21",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "218",
+  "Name": {
+   "mk": "Останати обврски од поврзани друштва"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:22",
+  "IdSup": "chart:2",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "22",
+  "Name": {
+   "mk": "Краткорочни обврски спрема добавувачи"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:220",
+  "IdSup": "chart:22",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "220",
+  "Name": {
+   "mk": "Обврски спрема добавувачи во земјата"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:221",
+  "IdSup": "chart:22",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "221",
+  "Name": {
+   "mk": "Обврски спрема добавувачи од странство"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:222",
+  "IdSup": "chart:22",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "222",
+  "Name": {
+   "mk": "Обврски за примени аванси, депозити и кауции во земјата"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:223",
+  "IdSup": "chart:22",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "223",
+  "Name": {
+   "mk": "Обврски за примени аванси, депозити и кауции од странство"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:224",
+  "IdSup": "chart:22",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "224",
+  "Name": {
+   "mk": "Обврски од специфично работење од неповрзани друштва"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:225",
+  "IdSup": "chart:22",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "225",
+  "Name": {
+   "mk": "Обврски за камати (договорни и казнени)"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:229",
+  "IdSup": "chart:22",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "229",
+  "Name": {
+   "mk": "Останати обврски од добавувачи"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:23",
+  "IdSup": "chart:2",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "23",
+  "Name": {
+   "mk": "Краткорочни обврски за даноци, придонеси и други давачки"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:230",
+  "IdSup": "chart:23",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "230",
+  "Name": {
+   "mk": "Обврски за данокот на додадена вредност"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:231",
+  "IdSup": "chart:23",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "231",
+  "Name": {
+   "mk": "Обврски за акцизи"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:232",
+  "IdSup": "chart:23",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "232",
+  "Name": {
+   "mk": "Обврски за царини и царински давачки"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:233",
+  "IdSup": "chart:23",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "233",
+  "Name": {
+   "mk": "Обврски за данок на добивка, данок на вкупен приход и данок на приход платен на странско правно лице (задржан данок)"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:234",
+  "IdSup": "chart:23",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "234",
+  "Name": {
+   "mk": "Обврски за даноци и придонеси на плата и надоместоци на плата"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:235",
+  "IdSup": "chart:23",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "235",
+  "Name": {
+   "mk": "Обврски за персонален данок на доход"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:236",
+  "IdSup": "chart:23",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "236",
+  "Name": {
+   "mk": "Обврски за данок на имот"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:237",
+  "IdSup": "chart:23",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "237",
+  "Name": {
+   "mk": "Обврски за данок на непризнати расходи и помалку искажани приходи"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:239",
+  "IdSup": "chart:23",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "239",
+  "Name": {
+   "mk": "Обврски за останати даноци, придонеси и други давачки"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:24",
+  "IdSup": "chart:2",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "24",
+  "Name": {
+   "mk": "Обврски спрема вработените"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:240",
+  "IdSup": "chart:24",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "240",
+  "Name": {
+   "mk": "Обврски за плата и надоместоци на плата"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:241",
+  "IdSup": "chart:24",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "241",
+  "Name": {
+   "mk": "Обврски за надоместоци на трошоците на вработените"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:242",
+  "IdSup": "chart:24",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "242",
+  "Name": {
+   "mk": "Останати обврски спрема вработените врз основа на колективни договори"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:249",
+  "IdSup": "chart:24",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "249",
+  "Name": {
+   "mk": "Останати обврски спрема вработените"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:25",
+  "IdSup": "chart:2",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "25",
+  "Name": {
+   "mk": "Останати краткорочни обврски и краткорочни резервирања"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:250",
+  "IdSup": "chart:25",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "250",
+  "Name": {
+   "mk": "Обврски спрема осигурителни друштва"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:251",
+  "IdSup": "chart:25",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "251",
+  "Name": {
+   "mk": "Обврски за надомест и други примања на членови на управен и надзорен одбор, одбор на директори и управители"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:252",
+  "IdSup": "chart:25",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "252",
+  "Name": {
+   "mk": "Обврски спрема вршители на дејност и други физички лица"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:253",
+  "IdSup": "chart:25",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "253",
+  "Name": {
+   "mk": "Обврски врз основа на наем"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:254",
+  "IdSup": "chart:25",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "254",
+  "Name": {
+   "mk": "Обврски врз основа на учество во добивката"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:255",
+  "IdSup": "chart:25",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "255",
+  "Name": {
+   "mk": "Обврски за членарини"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:256",
+  "IdSup": "chart:25",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "256",
+  "Name": {
+   "mk": "Обврски за краткорочни резервирања на трошоци во гарантен рок"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:259",
+  "IdSup": "chart:25",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "259",
+  "Name": {
+   "mk": "Останати краткорочни обврски"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:26",
+  "IdSup": "chart:2",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "26",
+  "Name": {
+   "mk": "Краткорочни финансиски обврски"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:260",
+  "IdSup": "chart:26",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "260",
+  "Name": {
+   "mk": "Краткорочни кредити и заеми од поврзани друштва во земјата"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:261",
+  "IdSup": "chart:26",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "261",
+  "Name": {
+   "mk": "Краткорочни кредити и заеми од поврзани друштва од странство"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:262",
+  "IdSup": "chart:26",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "262",
+  "Name": {
+   "mk": "Краткорочни кредити и заеми во земјата"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:263",
+  "IdSup": "chart:26",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "263",
+  "Name": {
+   "mk": "Краткорочни кредити и заеми од странство"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:264",
+  "IdSup": "chart:26",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "264",
+  "Name": {
+   "mk": "Обврски врз основа на издадени хартии од вредност кои се чуваат до доспевање"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:265",
+  "IdSup": "chart:26",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "265",
+  "Name": {
+   "mk": "Обврски врз основа на есконтни работи"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:266",
+  "IdSup": "chart:26",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "266",
+  "Name": {
+   "mk": "Обврски врз основа на откуп на побарувања"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:267",
+  "IdSup": "chart:26",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "267",
+  "Name": {
+   "mk": "Обврски врз основа на нетековни средства кои се чуваат за продажба и прекинато работење"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:269",
+  "IdSup": "chart:26",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "269",
+  "Name": {
+   "mk": "Обврски врз основа на останати краткорочни финансиски средства"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:27",
+  "IdSup": "chart:2",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "27",
+  "Name": {
+   "mk": "Долгорочни резервирања"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:270",
+  "IdSup": "chart:27",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "270",
+  "Name": {
+   "mk": "Резервирања за трошоци во гарантен рок"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:271",
+  "IdSup": "chart:27",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "271",
+  "Name": {
+   "mk": "Резервирања за трошоци за обновување на природни богатства"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:272",
+  "IdSup": "chart:27",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "272",
+  "Name": {
+   "mk": "Резервирања за трошоци за преструктуирање"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:273",
+  "IdSup": "chart:27",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "273",
+  "Name": {
+   "mk": "Резервирања за користи на вработените"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:279",
+  "IdSup": "chart:27",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "279",
+  "Name": {
+   "mk": "Останати долгорочни резервирања"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:28",
+  "IdSup": "chart:2",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "28",
+  "Name": {
+   "mk": "Долгорочни обврски"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:280",
+  "IdSup": "chart:28",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "280",
+  "Name": {
+   "mk": "Долгорочни обврски од поврзани друштва врз основа на набавка на добра и услуги во земјата и странство"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:281",
+  "IdSup": "chart:28",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "281",
+  "Name": {
+   "mk": "Долгорочни обврски од поврзани друштва за аванси, депозити и кауции во земјата и странство"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:282",
+  "IdSup": "chart:28",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "282",
+  "Name": {
+   "mk": "Долгорочни обврски спрема добавувачи во земјата"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:283",
+  "IdSup": "chart:28",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "283",
+  "Name": {
+   "mk": "Долгорочни обврски спрема добавувачи од странство"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:284",
+  "IdSup": "chart:28",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "284",
+  "Name": {
+   "mk": "Долгорочни обврски за примени аванси, депозити и кауции во земјата и странство"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:285",
+  "IdSup": "chart:28",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "285",
+  "Name": {
+   "mk": "Долгорочни обврски врз основа на заеми и кредити од поврзани друштва во земјата и странство"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:286",
+  "IdSup": "chart:28",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "286",
+  "Name": {
+   "mk": "Долгорочни обврски врз основа на заеми и кредити во земјата и странство"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:287",
+  "IdSup": "chart:28",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "287",
+  "Name": {
+   "mk": "Долгорочни обврски врз основа на издадени хартии од вредност"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:288",
+  "IdSup": "chart:28",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "288",
+  "Name": {
+   "mk": "Останати долгорочни обврски и останати финансиски долгорочни обврски"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:289",
+  "IdSup": "chart:28",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "289",
+  "Name": {
+   "mk": "Одложени даночни обврски"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:29",
+  "IdSup": "chart:2",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "29",
+  "Name": {
+   "mk": "Одложени плаќања на трошоци и приходи на идни периоди (пвр)"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:290",
+  "IdSup": "chart:29",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "290",
+  "Name": {
+   "mk": "Однапред пресметани трошоци"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:291",
+  "IdSup": "chart:29",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "291",
+  "Name": {
+   "mk": "Пресметани трошоци за набавка на добра"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:292",
+  "IdSup": "chart:29",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "292",
+  "Name": {
+   "mk": "Пресметани трошоци за користење на права"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:293",
+  "IdSup": "chart:29",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "293",
+  "Name": {
+   "mk": "Пресметани приходи за идни периоди"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:294",
+  "IdSup": "chart:29",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "294",
+  "Name": {
+   "mk": "Одложено признавање на приходи врз основа на државни поддршки"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:295",
+  "IdSup": "chart:29",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "295",
+  "Name": {
+   "mk": "Одложено признавање на приходи"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:299",
+  "IdSup": "chart:29",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "299",
+  "Name": {
+   "mk": "Останати пасивни временски разграничувања"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:3",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "3",
+  "Name": {
+   "mk": "Залихи на суровини, материјали, резервни делови и ситен инвентар"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:30",
+  "IdSup": "chart:3",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "30",
+  "Name": {
+   "mk": "Пресметка на набавката на залихи"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:300",
+  "IdSup": "chart:30",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "300",
+  "Name": {
+   "mk": "Вредност по пресметка од добавувачите"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:301",
+  "IdSup": "chart:30",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "301",
+  "Name": {
+   "mk": "Зависни трошоци на набавката"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:302",
+  "IdSup": "chart:30",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "302",
+  "Name": {
+   "mk": "Царини и други увозни давачки"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:303",
+  "IdSup": "chart:30",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "303",
+  "Name": {
+   "mk": "Данок на додадена вредност и останати давачки (без право на одбивка)"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:304",
+  "IdSup": "chart:30",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "304",
+  "Name": {
+   "mk": "Останати давачки поврзани со набавката на залихите"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:309",
+  "IdSup": "chart:30",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "309",
+  "Name": {
+   "mk": "Пресметка на набавката"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:31",
+  "IdSup": "chart:3",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "31",
+  "Name": {
+   "mk": "Залиха на суровини и материјали"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:310",
+  "IdSup": "chart:31",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "310",
+  "Name": {
+   "mk": "Суровини и материјали на залиха"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:311",
+  "IdSup": "chart:31",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "311",
+  "Name": {
+   "mk": "Суровини и материјали на пат"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:316",
+  "IdSup": "chart:31",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "316",
+  "Name": {
+   "mk": "Суровини и материјали во доработка, обработка и манипулација"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:318",
+  "IdSup": "chart:31",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "318",
+  "Name": {
+   "mk": "Вредносно усогласување на залихите на суровини и материјали"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:319",
+  "IdSup": "chart:31",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "319",
+  "Name": {
+   "mk": "Отстапување од стандардните (плански) цени на суровини и материјали"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:32",
+  "IdSup": "chart:3",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "32",
+  "Name": {
+   "mk": "Залиха на резервни делови"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:320",
+  "IdSup": "chart:32",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "320",
+  "Name": {
+   "mk": "Залиха на резервни делови"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:328",
+  "IdSup": "chart:32",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "328",
+  "Name": {
+   "mk": "Вредносно усогласување на залиха на резервни делови"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:329",
+  "IdSup": "chart:32",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "329",
+  "Name": {
+   "mk": "Отстапување од стандардните (плански) цени на резервните делови"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:35",
+  "IdSup": "chart:3",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "35",
+  "Name": {
+   "mk": "Залиха на ситен инвентар, амбалажа и автогуми"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:350",
+  "IdSup": "chart:35",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "350",
+  "Name": {
+   "mk": "Ситен инвентар на залиха"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:351",
+  "IdSup": "chart:35",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "351",
+  "Name": {
+   "mk": "Ситен инвентар во употреба"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:352",
+  "IdSup": "chart:35",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "352",
+  "Name": {
+   "mk": "Залиха на амбалажа"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:353",
+  "IdSup": "chart:35",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "353",
+  "Name": {
+   "mk": "Амбалажа во употреба"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:354",
+  "IdSup": "chart:35",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "354",
+  "Name": {
+   "mk": "Залиха на автогуми"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:355",
+  "IdSup": "chart:35",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "355",
+  "Name": {
+   "mk": "Автогуми во употреба"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:358",
+  "IdSup": "chart:35",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "358",
+  "Name": {
+   "mk": "Вредносно усогласување на залихи на ситен инвентар, амбалажа и автогуми"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:359",
+  "IdSup": "chart:35",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "359",
+  "Name": {
+   "mk": "Отстапување од стандардните (плански) цени на ситен инвентар, амбалажа и автогуми"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:4",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "4",
+  "Name": {
+   "mk": "Трошоци и расходи од работењето"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:40",
+  "IdSup": "chart:4",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "40",
+  "Name": {
+   "mk": "Трошоци за суровини, материјали, енергија, резервни делови и ситен инвентар"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:400",
+  "IdSup": "chart:40",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "400",
+  "Name": {
+   "mk": "Трошоци за суровини и материјали (за производство)"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:401",
+  "IdSup": "chart:40",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "401",
+  "Name": {
+   "mk": "Трошоци за материјали (за администрација, управа и продажба)"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:402",
+  "IdSup": "chart:40",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "402",
+  "Name": {
+   "mk": "Трошоци за енергија (за производство)"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:403",
+  "IdSup": "chart:40",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "403",
+  "Name": {
+   "mk": "Трошоци за енергија (за администрација, управа и продажба)"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:404",
+  "IdSup": "chart:40",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "404",
+  "Name": {
+   "mk": "Трошоци за резервни делови и материјали за одржување (за производство)"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:405",
+  "IdSup": "chart:40",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "405",
+  "Name": {
+   "mk": "Трошоци за резервни делови и материјали за одржување (за администрација, управа и продажба)"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:406",
+  "IdSup": "chart:40",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "406",
+  "Name": {
+   "mk": "Трошоци за амбалажа"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:407",
+  "IdSup": "chart:40",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "407",
+  "Name": {
+   "mk": "Трошоци за ситен инвентар, амбалажа и автогуми (за производство)"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:408",
+  "IdSup": "chart:40",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "408",
+  "Name": {
+   "mk": "Трошоци за ситен инвентар, амбалажа и автогуми (за администрација, управа и продажба)"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:409",
+  "IdSup": "chart:40",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "409",
+  "Name": {
+   "mk": "Отстапувања од стандардните (плански) цени"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:41",
+  "IdSup": "chart:4",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "41",
+  "Name": {
+   "mk": "Трошоци за услуги"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:410",
+  "IdSup": "chart:41",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "410",
+  "Name": {
+   "mk": "Транспортни услуги"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:411",
+  "IdSup": "chart:41",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "411",
+  "Name": {
+   "mk": "Поштенски услуги, телефонски услуги и интернет"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:412",
+  "IdSup": "chart:41",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "412",
+  "Name": {
+   "mk": "Надворешни услуги за изработка на добра и извршување на услуги"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:413",
+  "IdSup": "chart:41",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "413",
+  "Name": {
+   "mk": "Услуги за одржување и заштита"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:414",
+  "IdSup": "chart:41",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "414",
+  "Name": {
+   "mk": "Наем - лизинг"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:415",
+  "IdSup": "chart:41",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "415",
+  "Name": {
+   "mk": "Комунални услуги"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:416",
+  "IdSup": "chart:41",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "416",
+  "Name": {
+   "mk": "Трошоци за истражување и развој"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:417",
+  "IdSup": "chart:41",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "417",
+  "Name": {
+   "mk": "Трошоци за реклама, пропаганда, промоција и саеми"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:419",
+  "IdSup": "chart:41",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "419",
+  "Name": {
+   "mk": "Останати услуги"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:42",
+  "IdSup": "chart:4",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "42",
+  "Name": {
+   "mk": "Плата, надоместоци на плата и останати трошоци за вработените"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:420",
+  "IdSup": "chart:42",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "420",
+  "Name": {
+   "mk": "Плата и надоместоци на плата - бруто (за производство)"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:421",
+  "IdSup": "chart:42",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "421",
+  "Name": {
+   "mk": "Плата и надоместоци на плата - бруто (за администрација, управа и продажба)"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:422",
+  "IdSup": "chart:42",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "422",
+  "Name": {
+   "mk": "Останати трошоци за вработените"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:43",
+  "IdSup": "chart:4",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "43",
+  "Name": {
+   "mk": "Трошоци за амортизација и резервирања"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:430",
+  "IdSup": "chart:43",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "430",
+  "Name": {
+   "mk": "Трошоци за амортизација (за производство)"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:431",
+  "IdSup": "chart:43",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "431",
+  "Name": {
+   "mk": "Трошоци за амортизација на биолошки средства"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:432",
+  "IdSup": "chart:43",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "432",
+  "Name": {
+   "mk": "Трошоци за амортизација (за администрација, управа и продажба)"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:433",
+  "IdSup": "chart:43",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "433",
+  "Name": {
+   "mk": "Долгорочни резервирања за трошоци за обновување на природни богатства"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:435",
+  "IdSup": "chart:43",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "435",
+  "Name": {
+   "mk": "Долгорочни резервирања за користи на вработените"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:436",
+  "IdSup": "chart:43",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "436",
+  "Name": {
+   "mk": "Долгорочни резервирања на трошоци за преструктуирање"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:437",
+  "IdSup": "chart:43",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "437",
+  "Name": {
+   "mk": "Долгорочни резервирања за гарантен рок"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:438",
+  "IdSup": "chart:43",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "438",
+  "Name": {
+   "mk": "Долгорочни резервирања за кауции и депозити"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:439",
+  "IdSup": "chart:43",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "439",
+  "Name": {
+   "mk": "Останати долгорочни резервирања за трошоци и ризици"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:44",
+  "IdSup": "chart:4",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "44",
+  "Name": {
+   "mk": "Останати трошоци од работењето"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:440",
+  "IdSup": "chart:44",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "440",
+  "Name": {
+   "mk": "Дневници за службени патувања, ноќевања и патни трошоци"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:441",
+  "IdSup": "chart:44",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "441",
+  "Name": {
+   "mk": "Надоместоци на трошоци на вработените и подароци"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:442",
+  "IdSup": "chart:44",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "442",
+  "Name": {
+   "mk": "Трошоци за надомест и други примања на членови на управен и надзорен одбор, одбор на директори и управители"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:443",
+  "IdSup": "chart:44",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "443",
+  "Name": {
+   "mk": "Трошоци за спонзорства и донации"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:444",
+  "IdSup": "chart:44",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "444",
+  "Name": {
+   "mk": "Трошоци за репрезентација"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:445",
+  "IdSup": "chart:44",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "445",
+  "Name": {
+   "mk": "Трошоци за осигурување"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:446",
+  "IdSup": "chart:44",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "446",
+  "Name": {
+   "mk": "Банкарски услуги и трошоци за платен промет"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:447",
+  "IdSup": "chart:44",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "447",
+  "Name": {
+   "mk": "Даноци кои не зависат од резултатот, членарини и други давачки"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:448",
+  "IdSup": "chart:44",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "448",
+  "Name": {
+   "mk": "Трошоци за користење на права (освен наем)"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:449",
+  "IdSup": "chart:44",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "449",
+  "Name": {
+   "mk": "Останати трошоци на работењето"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:45",
+  "IdSup": "chart:4",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "45",
+  "Name": {
+   "mk": "Вредносно усогласување (обезвреднување) на нетековни и тековни средства"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:450",
+  "IdSup": "chart:45",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "450",
+  "Name": {
+   "mk": "Вредносно усогласување (обезвреднување) на нематеријални средства"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:451",
+  "IdSup": "chart:45",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "451",
+  "Name": {
+   "mk": "Вредносно усогласување (обезвреднување) на материјални средства"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:452",
+  "IdSup": "chart:45",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "452",
+  "Name": {
+   "mk": "Вредносно усогласување (обезвреднување) на вложувања во недвижности"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:453",
+  "IdSup": "chart:45",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "453",
+  "Name": {
+   "mk": "Вредносно усогласување (обезвреднување) на останати материјални средства"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:454",
+  "IdSup": "chart:45",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "454",
+  "Name": {
+   "mk": "Вредносно усогласување (обезвреднување) на долгорочни побарувања, депозити и слично"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:455",
+  "IdSup": "chart:45",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "455",
+  "Name": {
+   "mk": "Вредносно усогласување (обезвреднување) на краткорочни побарувања"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:456",
+  "IdSup": "chart:45",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "456",
+  "Name": {
+   "mk": "Вредносно усогласување (обезвреднување) на залихи"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:457",
+  "IdSup": "chart:45",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "457",
+  "Name": {
+   "mk": "Вредносно усогласување (обезвреднување) на нетековни средства кои се чуваат за продажба и прекинато работење"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:459",
+  "IdSup": "chart:45",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "459",
+  "Name": {
+   "mk": "Вредносно усогласување (обезвреднување) на останати средства"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:46",
+  "IdSup": "chart:4",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "46",
+  "Name": {
+   "mk": "Останати расходи"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:460",
+  "IdSup": "chart:46",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "460",
+  "Name": {
+   "mk": "Загуби врз основа на расходување и загуби од продажба на нематеријални и материјални средства"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:461",
+  "IdSup": "chart:46",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "461",
+  "Name": {
+   "mk": "Загуби врз основа на расходување и загуба од продажба на биолошки средства"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:462",
+  "IdSup": "chart:46",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "462",
+  "Name": {
+   "mk": "Загуби врз основа на продажба на учество во капитал и хартии од вредност"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:463",
+  "IdSup": "chart:46",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "463",
+  "Name": {
+   "mk": "Загуба од продажба на материјали"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:464",
+  "IdSup": "chart:46",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "464",
+  "Name": {
+   "mk": "Кусоци, кало, растур, расипување и кршење"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:465",
+  "IdSup": "chart:46",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "465",
+  "Name": {
+   "mk": "Расходи врз основа на ефекти од договорени заштити од ризици, кои не ги исполнуваат условите да се искажат во рамките на ревалоризационите резерви"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:466",
+  "IdSup": "chart:46",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "466",
+  "Name": {
+   "mk": "Расходи врз основа на директен отпис на побарувања"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:467",
+  "IdSup": "chart:46",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "467",
+  "Name": {
+   "mk": "Расходи за дополнително одобрени попусти, рабат, рекламации и дадени примероци"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:468",
+  "IdSup": "chart:46",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "468",
+  "Name": {
+   "mk": "Казни, пенали, надоместоци за штети и друго"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:469",
+  "IdSup": "chart:46",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "469",
+  "Name": {
+   "mk": "Останати расходи од работењето"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:47",
+  "IdSup": "chart:4",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "47",
+  "Name": {
+   "mk": "Финансиски расходи"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:470",
+  "IdSup": "chart:47",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "470",
+  "Name": {
+   "mk": "Расходи врз основа на камати од работењето со поврзани друштва"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:471",
+  "IdSup": "chart:47",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "471",
+  "Name": {
+   "mk": "Расходи врз основа на курсни разлики од работењето со поврзани друштва"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:472",
+  "IdSup": "chart:47",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "472",
+  "Name": {
+   "mk": "Останати финансиски расходи од поврзани друштва"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:474",
+  "IdSup": "chart:47",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "474",
+  "Name": {
+   "mk": "Расходи врз основа на камати од работењето со неповрзани друштва"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:475",
+  "IdSup": "chart:47",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "475",
+  "Name": {
+   "mk": "Расходи врз основа на негативни курсни разлики од работењето со неповрзани друштва"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:476",
+  "IdSup": "chart:47",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "476",
+  "Name": {
+   "mk": "Вредносно усогласување (обезвреднување) на долгорочни финансиски средства и хартии од вредност расположиви за продажба"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:477",
+  "IdSup": "chart:47",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "477",
+  "Name": {
+   "mk": "Нереализирани загуби (расходи) од финансиски средства"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:479",
+  "IdSup": "chart:47",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "479",
+  "Name": {
+   "mk": "Останати финансиски расходи"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:48",
+  "IdSup": "chart:4",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "48",
+  "Name": {
+   "mk": "Удел во загуба на придружно друштво и нето загуба од прекинато работење"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:480",
+  "IdSup": "chart:48",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "480",
+  "Name": {
+   "mk": "Удел во загуба на придружно друштво"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:481",
+  "IdSup": "chart:48",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "481",
+  "Name": {
+   "mk": "Нето загуба од прекинато работење"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:49",
+  "IdSup": "chart:4",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "49",
+  "Name": {
+   "mk": "Пренос на расходи"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:490",
+  "IdSup": "chart:49",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "490",
+  "Name": {
+   "mk": "Распоред на директни трошоци - за пресметка на вредноста на добра (производи) и услуги"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:491",
+  "IdSup": "chart:49",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "491",
+  "Name": {
+   "mk": "Распоред на општи трошоци за пресметка на вредноста на добра (производи) и услуги"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:492",
+  "IdSup": "chart:49",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "492",
+  "Name": {
+   "mk": "Распоред на трошоците непосредно врз товар на вкупниот приход"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:5",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "5",
+  "Name": {
+   "mk": "Слободна (за интерна употреба- погонски пресметки и други потреби)"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:6",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "6",
+  "Name": {
+   "mk": "Залихи на производство, готови производи и стоки, биолошки средства и нетековни средства кои се чуваат за продажба и прекинато работење"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:60",
+  "IdSup": "chart:6",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "60",
+  "Name": {
+   "mk": "Производство"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:600",
+  "IdSup": "chart:60",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "600",
+  "Name": {
+   "mk": "Производство (изградба) во тек"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:601",
+  "IdSup": "chart:60",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "601",
+  "Name": {
+   "mk": "Залиха на полупроизводи"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:602",
+  "IdSup": "chart:60",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "602",
+  "Name": {
+   "mk": "Залиха на застарени недовршени производи, полупроизводи и делови"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:606",
+  "IdSup": "chart:60",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "606",
+  "Name": {
+   "mk": "Производство во доработка, обработка и манипулација"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:608",
+  "IdSup": "chart:60",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "608",
+  "Name": {
+   "mk": "Вредносно усогласување на недовршени производи - услуги, полупроизводи и делови"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:609",
+  "IdSup": "chart:60",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "609",
+  "Name": {
+   "mk": "Отстапување од стандардните (плански) цени на производството"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:61",
+  "IdSup": "chart:6",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "61",
+  "Name": {
+   "mk": "Биолошки средства"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:610",
+  "IdSup": "chart:61",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "610",
+  "Name": {
+   "mk": "Недовршено производство на биолошки средства"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:611",
+  "IdSup": "chart:61",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "611",
+  "Name": {
+   "mk": "Залиха на биолошки средства за продажба"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:618",
+  "IdSup": "chart:61",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "618",
+  "Name": {
+   "mk": "Вредносно усогласување на биолошки средства"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:63",
+  "IdSup": "chart:6",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "63",
+  "Name": {
+   "mk": "Готови производи"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:630",
+  "IdSup": "chart:63",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "630",
+  "Name": {
+   "mk": "Производи на залиха"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:631",
+  "IdSup": "chart:63",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "631",
+  "Name": {
+   "mk": "Производи во туѓ склад"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:633",
+  "IdSup": "chart:63",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "633",
+  "Name": {
+   "mk": "Производи во продавница"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:634",
+  "IdSup": "chart:63",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "634",
+  "Name": {
+   "mk": "Вкалкулиран данок на додадена вредност"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:635",
+  "IdSup": "chart:63",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "635",
+  "Name": {
+   "mk": "Вкалкулирани акцизи"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:636",
+  "IdSup": "chart:63",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "636",
+  "Name": {
+   "mk": "Производи во доработка, обработка и манипулација"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:637",
+  "IdSup": "chart:63",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "637",
+  "Name": {
+   "mk": "Залихи на некурентни производи и отпадоци"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:638",
+  "IdSup": "chart:63",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "638",
+  "Name": {
+   "mk": "Вредносно усогласување на залихите на готовите производи"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:639",
+  "IdSup": "chart:63",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "639",
+  "Name": {
+   "mk": "Отстапување од стандардните (плански) цени на производите"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:65",
+  "IdSup": "chart:6",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "65",
+  "Name": {
+   "mk": "Пресметка на набавката на стоки"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:650",
+  "IdSup": "chart:65",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "650",
+  "Name": {
+   "mk": "Вредност на стоките по пресметка на добавувачот"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:651",
+  "IdSup": "chart:65",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "651",
+  "Name": {
+   "mk": "Зависни трошоци за набавка на стоки"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:652",
+  "IdSup": "chart:65",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "652",
+  "Name": {
+   "mk": "Царини и други увозни давачки за стоките"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:653",
+  "IdSup": "chart:65",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "653",
+  "Name": {
+   "mk": "Данок на додадена вредност, акцизи и други давачки за стоки"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:659",
+  "IdSup": "chart:65",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "659",
+  "Name": {
+   "mk": "Пресметка на набавката"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:66",
+  "IdSup": "chart:6",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "66",
+  "Name": {
+   "mk": "Стоки"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:660",
+  "IdSup": "chart:66",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "660",
+  "Name": {
+   "mk": "Стоки на залиха"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:661",
+  "IdSup": "chart:66",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "661",
+  "Name": {
+   "mk": "Стоки во туѓ склад"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:662",
+  "IdSup": "chart:66",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "662",
+  "Name": {
+   "mk": "Стоки на пат"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:663",
+  "IdSup": "chart:66",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "663",
+  "Name": {
+   "mk": "Стоки во продавница"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:664",
+  "IdSup": "chart:66",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "664",
+  "Name": {
+   "mk": "Вкалкулиран данок на додадена вредност"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:665",
+  "IdSup": "chart:66",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "665",
+  "Name": {
+   "mk": "Вкалкулирани акцизи"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:666",
+  "IdSup": "chart:66",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "666",
+  "Name": {
+   "mk": "Стоки во доработка, обработка и манипулација"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:668",
+  "IdSup": "chart:66",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "668",
+  "Name": {
+   "mk": "Вредносно усогласување на залихата на стоките"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:669",
+  "IdSup": "chart:66",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "669",
+  "Name": {
+   "mk": "Разлика во цени на стоките"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:67",
+  "IdSup": "chart:6",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "67",
+  "Name": {
+   "mk": "Нетековни средства кои се чуваат за продажба и прекинато работење"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:670",
+  "IdSup": "chart:67",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "670",
+  "Name": {
+   "mk": "Нематеријални средства кои се чуваат за продажба"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:671",
+  "IdSup": "chart:67",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "671",
+  "Name": {
+   "mk": "Земјиште коe се чува за продажба"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:672",
+  "IdSup": "chart:67",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "672",
+  "Name": {
+   "mk": "Градежни објекти кои се чуваат за продажба"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:673",
+  "IdSup": "chart:67",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "673",
+  "Name": {
+   "mk": "Вложувања во недвижности кои се чуваат за продажба"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:674",
+  "IdSup": "chart:67",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "674",
+  "Name": {
+   "mk": "Останати нетековни средства кои се чуваат за продажба"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:675",
+  "IdSup": "chart:67",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "675",
+  "Name": {
+   "mk": "Биолошки средства кои се чуваат за продажба"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:676",
+  "IdSup": "chart:67",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "676",
+  "Name": {
+   "mk": "Средства чие работење е прекинато"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:678",
+  "IdSup": "chart:67",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "678",
+  "Name": {
+   "mk": "Вредносно усогласување на нетековни средства кои се чуваат за продажба и прекинато работење"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:7",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "7",
+  "Name": {
+   "mk": "Покривање на расходи и приходи"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:70",
+  "IdSup": "chart:7",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "70",
+  "Name": {
+   "mk": "Расходи на продадени добра и услуги"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:700",
+  "IdSup": "chart:70",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "700",
+  "Name": {
+   "mk": "Расходи врз основа на продадени добра (производи) и услуги"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:701",
+  "IdSup": "chart:70",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "701",
+  "Name": {
+   "mk": "Набавна вредност на продадени добра (стоки)"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:702",
+  "IdSup": "chart:70",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "702",
+  "Name": {
+   "mk": "Набавна вредност на продадени нетековни средства кои се чуваат за продажба и прекинато работење"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:703",
+  "IdSup": "chart:70",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "703",
+  "Name": {
+   "mk": "Набавна вредност на продадени материјали, резервни делови и отпадоци"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:73",
+  "IdSup": "chart:7",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "73",
+  "Name": {
+   "mk": "Приходи од продажба на добра и услуги на поврзани друштва"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:730",
+  "IdSup": "chart:73",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "730",
+  "Name": {
+   "mk": "Приходи од продажба на добра (производи, стоки) и услуги на поврзани друштва во земјата"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:731",
+  "IdSup": "chart:73",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "731",
+  "Name": {
+   "mk": "Приходи од продажба на добра (производи, стоки) и услуги на поврзани друштва од странство"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:732",
+  "IdSup": "chart:73",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "732",
+  "Name": {
+   "mk": "Приходи од специфично работење на поврзани друштва"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:733",
+  "IdSup": "chart:73",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "733",
+  "Name": {
+   "mk": "Приходи од продажба на добра и услуги на поврзани друштва врз други основи"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:74",
+  "IdSup": "chart:7",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "74",
+  "Name": {
+   "mk": "Приходи од продажба на неповрзани друштва"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:740",
+  "IdSup": "chart:74",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "740",
+  "Name": {
+   "mk": "Приходи од продажба на добра (производи) и услуги во земјата"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:741",
+  "IdSup": "chart:74",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "741",
+  "Name": {
+   "mk": "Приходи од продажба на добра (стоки) во земјата"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:742",
+  "IdSup": "chart:74",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "742",
+  "Name": {
+   "mk": "Приходи од продажба на добра (производи, стоки) и услуги во странство"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:743",
+  "IdSup": "chart:74",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "743",
+  "Name": {
+   "mk": "Приходи од продажба на материјали, резервни делови и отпадоци"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:744",
+  "IdSup": "chart:74",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "744",
+  "Name": {
+   "mk": "Приходи од продажба на нетековни средства кои се чуваат за продажба и прекинато работење"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:745",
+  "IdSup": "chart:74",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "745",
+  "Name": {
+   "mk": "Приходи врз основа на употреба на сопствени добра (производи, стоки) и услуги"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:746",
+  "IdSup": "chart:74",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "746",
+  "Name": {
+   "mk": "Приходи од специфично работење на неповрзани друштва"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:747",
+  "IdSup": "chart:74",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "747",
+  "Name": {
+   "mk": "Приходи од наемнини"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:748",
+  "IdSup": "chart:74",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "748",
+  "Name": {
+   "mk": "Приходи од продажба на добра врз основа на финансиски наем (лизинг)"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:749",
+  "IdSup": "chart:74",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "749",
+  "Name": {
+   "mk": "Останати приходи од продажба на неповрзани друштва"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:75",
+  "IdSup": "chart:7",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "75",
+  "Name": {
+   "mk": "Приходи од вредносно усогласување на нетековни и тековни средства"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:750",
+  "IdSup": "chart:75",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "750",
+  "Name": {
+   "mk": "Приходи од вредносно усогласување на нематеријални средства"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:751",
+  "IdSup": "chart:75",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "751",
+  "Name": {
+   "mk": "Приходи од вредносно усогласување на материјални средства"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:752",
+  "IdSup": "chart:75",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "752",
+  "Name": {
+   "mk": "Приходи од вредносно усогласување на вложувања во недвижности"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:753",
+  "IdSup": "chart:75",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "753",
+  "Name": {
+   "mk": "Приходи од вредносно усогласување на останати материјални средства"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:754",
+  "IdSup": "chart:75",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "754",
+  "Name": {
+   "mk": "Приходи од вредносно усогласување на долгорочни побарувања, депозити и слично"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:755",
+  "IdSup": "chart:75",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "755",
+  "Name": {
+   "mk": "Приходи од вредносно усогласување на краткорочни побарувања"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:756",
+  "IdSup": "chart:75",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "756",
+  "Name": {
+   "mk": "Приходи од вредносно усогласување на залихи"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:757",
+  "IdSup": "chart:75",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "757",
+  "Name": {
+   "mk": "Приходи од вредносно усогласување на нетековни средства кои се чуваат за продажба и прекинато работење"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:759",
+  "IdSup": "chart:75",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "759",
+  "Name": {
+   "mk": "Приходи од вредносно усогласување на останати средства"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:76",
+  "IdSup": "chart:7",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "76",
+  "Name": {
+   "mk": "Останати приходи"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:760",
+  "IdSup": "chart:76",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "760",
+  "Name": {
+   "mk": "Добивки од продажба на нематеријални и материјални средства"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:761",
+  "IdSup": "chart:76",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "761",
+  "Name": {
+   "mk": "Добивки од продажба на биолошки средства"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:762",
+  "IdSup": "chart:76",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "762",
+  "Name": {
+   "mk": "Добивки од продажба на учество во капитал и хартии од вредност"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:763",
+  "IdSup": "chart:76",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "763",
+  "Name": {
+   "mk": "Добивки од продажба на материјали и отпадоци"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:764",
+  "IdSup": "chart:76",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "764",
+  "Name": {
+   "mk": "Вишоци"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:765",
+  "IdSup": "chart:76",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "765",
+  "Name": {
+   "mk": "Приходи од наплатени отпишани побарувања и приходи од отпис на обврските"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:766",
+  "IdSup": "chart:76",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "766",
+  "Name": {
+   "mk": "Приходи врз основа на ефекти од договорена заштита од ризик"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:767",
+  "IdSup": "chart:76",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "767",
+  "Name": {
+   "mk": "Приходи од премии, субвенции, дотации и донации"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:768",
+  "IdSup": "chart:76",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "768",
+  "Name": {
+   "mk": "Приходи од укинување на долгорочни резервирања"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:769",
+  "IdSup": "chart:76",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "769",
+  "Name": {
+   "mk": "Останати приходи од работењето"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:77",
+  "IdSup": "chart:7",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "77",
+  "Name": {
+   "mk": "Финансиски приходи"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:770",
+  "IdSup": "chart:77",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "770",
+  "Name": {
+   "mk": "Приходи врз основа на камати од работењето со поврзани друштва"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:771",
+  "IdSup": "chart:77",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "771",
+  "Name": {
+   "mk": "Приходи врз основа на позитивни курсни разлики од работењето со поврзани друштва"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:772",
+  "IdSup": "chart:77",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "772",
+  "Name": {
+   "mk": "Останати финансиски приходи од поврзани друштва"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:773",
+  "IdSup": "chart:77",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "773",
+  "Name": {
+   "mk": "Приходи од вложувања во поврзани друштва"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:774",
+  "IdSup": "chart:77",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "774",
+  "Name": {
+   "mk": "Приходи врз основа на камати од работењето со неповрзани друштва"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:775",
+  "IdSup": "chart:77",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "775",
+  "Name": {
+   "mk": "Приходи врз основа на позитивни курсни разлики од работењето со неповрзани друштва"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:776",
+  "IdSup": "chart:77",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "776",
+  "Name": {
+   "mk": "Приходи од вложувања во неповрзани друштва"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:777",
+  "IdSup": "chart:77",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "777",
+  "Name": {
+   "mk": "Нереализирани добивки (приходи) од финансиски средства"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:779",
+  "IdSup": "chart:77",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "779",
+  "Name": {
+   "mk": "Останати финансиски приходи"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:78",
+  "IdSup": "chart:7",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "78",
+  "Name": {
+   "mk": "Удел во добивката на придружно друштво и нето добивка од прекинато работење"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:780",
+  "IdSup": "chart:78",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "780",
+  "Name": {
+   "mk": "Удел во добивката на придружно друштво"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:781",
+  "IdSup": "chart:78",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "781",
+  "Name": {
+   "mk": "Нето добивка од прекинато работење"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:79",
+  "IdSup": "chart:7",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "79",
+  "Name": {
+   "mk": "Разлика на приходи и расходи"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:790",
+  "IdSup": "chart:79",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "790",
+  "Name": {
+   "mk": "Разлика на приходи и расходи од вкупното работење"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:8",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "chart_type:8",
+  "Code": "8",
+  "Name": {
+   "mk": "Резултати од работењето"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:80",
+  "IdSup": "chart:8",
+  "Active": true,
+  "TypeId": "chart_type:8",
+  "Code": "80",
+  "Name": {
+   "mk": "Добивка/загуба пред оданочување"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:800",
+  "IdSup": "chart:80",
+  "Active": true,
+  "TypeId": "chart_type:8",
+  "Code": "800",
+  "Name": {
+   "mk": "Добивка пред оданочување"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:801",
+  "IdSup": "chart:80",
+  "Active": true,
+  "TypeId": "chart_type:8",
+  "Code": "801",
+  "Name": {
+   "mk": "Загуба пред оданочување"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:81",
+  "IdSup": "chart:8",
+  "Active": true,
+  "TypeId": "chart_type:8",
+  "Code": "81",
+  "Name": {
+   "mk": "Данок на добивка и други давачки"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:810",
+  "IdSup": "chart:81",
+  "Active": true,
+  "TypeId": "chart_type:8",
+  "Code": "810",
+  "Name": {
+   "mk": "Данок на добивка"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:811",
+  "IdSup": "chart:81",
+  "Active": true,
+  "TypeId": "chart_type:8",
+  "Code": "811",
+  "Name": {
+   "mk": "Одложени даночни приходи"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:812",
+  "IdSup": "chart:81",
+  "Active": true,
+  "TypeId": "chart_type:8",
+  "Code": "812",
+  "Name": {
+   "mk": "Одложени даночни расходи"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:813",
+  "IdSup": "chart:81",
+  "Active": true,
+  "TypeId": "chart_type:8",
+  "Code": "813",
+  "Name": {
+   "mk": "Други давачки"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:82",
+  "IdSup": "chart:8",
+  "Active": true,
+  "TypeId": "chart_type:8",
+  "Code": "82",
+  "Name": {
+   "mk": "Нето добивка/загуба за периодот"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:820",
+  "IdSup": "chart:82",
+  "Active": true,
+  "TypeId": "chart_type:8",
+  "Code": "820",
+  "Name": {
+   "mk": "Нето добивка за периодот"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:821",
+  "IdSup": "chart:82",
+  "Active": true,
+  "TypeId": "chart_type:8",
+  "Code": "821",
+  "Name": {
+   "mk": "Нето загуба за периодот"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:83",
+  "IdSup": "chart:8",
+  "Active": true,
+  "TypeId": "chart_type:8",
+  "Code": "83",
+  "Name": {
+   "mk": "Добивка/загуба за периодот која припаѓа на други"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:830",
+  "IdSup": "chart:83",
+  "Active": true,
+  "TypeId": "chart_type:8",
+  "Code": "830",
+  "Name": {
+   "mk": "Добивка која припаѓа на сопствениците на матичното друштво"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:831",
+  "IdSup": "chart:83",
+  "Active": true,
+  "TypeId": "chart_type:8",
+  "Code": "831",
+  "Name": {
+   "mk": "Добивка која припаѓа на учество кое нема контрола"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:832",
+  "IdSup": "chart:83",
+  "Active": true,
+  "TypeId": "chart_type:8",
+  "Code": "832",
+  "Name": {
+   "mk": "Загуба која припаѓа на сопствениците на матичното друштво"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:833",
+  "IdSup": "chart:83",
+  "Active": true,
+  "TypeId": "chart_type:8",
+  "Code": "833",
+  "Name": {
+   "mk": "Загуба која припаѓа на учество кое нема контрола"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:84",
+  "IdSup": "chart:8",
+  "Active": true,
+  "TypeId": "chart_type:8",
+  "Code": "84",
+  "Name": {
+   "mk": "Останата сеопфатна добивка/загуба"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:840",
+  "IdSup": "chart:84",
+  "Active": true,
+  "TypeId": "chart_type:8",
+  "Code": "840",
+  "Name": {
+   "mk": "Добивка која произлегува од преведување на странско работење"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:841",
+  "IdSup": "chart:84",
+  "Active": true,
+  "TypeId": "chart_type:8",
+  "Code": "841",
+  "Name": {
+   "mk": "Загуба која произлегува од преведување на странско работење"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:842",
+  "IdSup": "chart:84",
+  "Active": true,
+  "TypeId": "chart_type:8",
+  "Code": "842",
+  "Name": {
+   "mk": "Добивка од повторно мерење на финансиски средства расположиви за продажба"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:843",
+  "IdSup": "chart:84",
+  "Active": true,
+  "TypeId": "chart_type:8",
+  "Code": "843",
+  "Name": {
+   "mk": "Загуба од повторно мерење на финансиски средства расположиви за продажба"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:844",
+  "IdSup": "chart:84",
+  "Active": true,
+  "TypeId": "chart_type:8",
+  "Code": "844",
+  "Name": {
+   "mk": "Добивка од ефектот од хеџинг инструменти за хеџирање на парични текови"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:845",
+  "IdSup": "chart:84",
+  "Active": true,
+  "TypeId": "chart_type:8",
+  "Code": "845",
+  "Name": {
+   "mk": "Загуба од ефектот од хеџинг инструменти за хеџирање на парични текови"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:846",
+  "IdSup": "chart:84",
+  "Active": true,
+  "TypeId": "chart_type:8",
+  "Code": "846",
+  "Name": {
+   "mk": "Позитивни ефекти од ревалоризација на нематеријалните и материјалните средства"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:847",
+  "IdSup": "chart:84",
+  "Active": true,
+  "TypeId": "chart_type:8",
+  "Code": "847",
+  "Name": {
+   "mk": "Негативни ефекти од ревалоризација на нематеријалните и материјалните средства"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:848",
+  "IdSup": "chart:84",
+  "Active": true,
+  "TypeId": "chart_type:8",
+  "Code": "848",
+  "Name": {
+   "mk": "Актуарски добивки на дефинирани планови за користи на вработените"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:849",
+  "IdSup": "chart:84",
+  "Active": true,
+  "TypeId": "chart_type:8",
+  "Code": "849",
+  "Name": {
+   "mk": "Актуарски загуби на дефинирани планови за користи на вработените"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:85",
+  "IdSup": "chart:8",
+  "Active": true,
+  "TypeId": "chart_type:8",
+  "Code": "85",
+  "Name": {
+   "mk": "Удел во останата сеопфатна добивка/ загуба на придружни друштва (само за потребите на консолидација)"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:850",
+  "IdSup": "chart:85",
+  "Active": true,
+  "TypeId": "chart_type:8",
+  "Code": "850",
+  "Name": {
+   "mk": "Удел во останата сеопфатна добивка на придружни друштва"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:851",
+  "IdSup": "chart:85",
+  "Active": true,
+  "TypeId": "chart_type:8",
+  "Code": "851",
+  "Name": {
+   "mk": "Удел во останата сеопфатна загуба на придружни друштва"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:86",
+  "IdSup": "chart:8",
+  "Active": true,
+  "TypeId": "chart_type:8",
+  "Code": "86",
+  "Name": {
+   "mk": "Данок на добивка на компоненти на останата сеопфатна добивка"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:860",
+  "IdSup": "chart:86",
+  "Active": true,
+  "TypeId": "chart_type:8",
+  "Code": "860",
+  "Name": {
+   "mk": "Данок на добивка на компоненти на останата сеопфатна добивка"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:87",
+  "IdSup": "chart:8",
+  "Active": true,
+  "TypeId": "chart_type:8",
+  "Code": "87",
+  "Name": {
+   "mk": "Нето останата сеопфатна добивка/загуба"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:870",
+  "IdSup": "chart:87",
+  "Active": true,
+  "TypeId": "chart_type:8",
+  "Code": "870",
+  "Name": {
+   "mk": "Нето останата сеопфатна добивка"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:871",
+  "IdSup": "chart:87",
+  "Active": true,
+  "TypeId": "chart_type:8",
+  "Code": "871",
+  "Name": {
+   "mk": "Нето останата сеопфатна загуба"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:88",
+  "IdSup": "chart:8",
+  "Active": true,
+  "TypeId": "chart_type:8",
+  "Code": "88",
+  "Name": {
+   "mk": "Вкупна сеопфатна добивка/загуба за периодот"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:880",
+  "IdSup": "chart:88",
+  "Active": true,
+  "TypeId": "chart_type:8",
+  "Code": "880",
+  "Name": {
+   "mk": "Сеопфатна добивка која им припаѓа на сопствениците на матичното друштво"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:881",
+  "IdSup": "chart:88",
+  "Active": true,
+  "TypeId": "chart_type:8",
+  "Code": "881",
+  "Name": {
+   "mk": "Сеопфатна добивка која им припаѓа на учество кое нема контрола"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:882",
+  "IdSup": "chart:88",
+  "Active": true,
+  "TypeId": "chart_type:8",
+  "Code": "882",
+  "Name": {
+   "mk": "Сеопфатна загуба која им припаѓа на сопствениците на матичното друштво"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:883",
+  "IdSup": "chart:88",
+  "Active": true,
+  "TypeId": "chart_type:8",
+  "Code": "883",
+  "Name": {
+   "mk": "Сеопфатна загуба која им припаѓа на учество кое нема контрола"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:89",
+  "IdSup": "chart:8",
+  "Active": true,
+  "TypeId": "chart_type:8",
+  "Code": "89",
+  "Name": {
+   "mk": "Распоредување на добивката"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:890",
+  "IdSup": "chart:89",
+  "Active": true,
+  "TypeId": "chart_type:8",
+  "Code": "890",
+  "Name": {
+   "mk": "Покривање на загубата од претходни години"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:891",
+  "IdSup": "chart:89",
+  "Active": true,
+  "TypeId": "chart_type:8",
+  "Code": "891",
+  "Name": {
+   "mk": "Зголемување на капиталот (капитал на сопствениците)"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:892",
+  "IdSup": "chart:89",
+  "Active": true,
+  "TypeId": "chart_type:8",
+  "Code": "892",
+  "Name": {
+   "mk": "Дивиденди или удел во добивката и друго"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:893",
+  "IdSup": "chart:89",
+  "Active": true,
+  "TypeId": "chart_type:8",
+  "Code": "893",
+  "Name": {
+   "mk": "Резерви"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:899",
+  "IdSup": "chart:89",
+  "Active": true,
+  "TypeId": "chart_type:8",
+  "Code": "899",
+  "Name": {
+   "mk": "Нераспоредена добивка"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:9",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "chart_type:9",
+  "Code": "9",
+  "Name": {
+   "mk": "Капитал, резерви и вонбилансна евиденција"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:90",
+  "IdSup": "chart:9",
+  "Active": true,
+  "TypeId": "chart_type:9",
+  "Code": "90",
+  "Name": {
+   "mk": "Основна главнина - запишан капитал"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:900",
+  "IdSup": "chart:90",
+  "Active": true,
+  "TypeId": "chart_type:9",
+  "Code": "900",
+  "Name": {
+   "mk": "Основна главнина - запишан и уплатен капитал"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:901",
+  "IdSup": "chart:90",
+  "Active": true,
+  "TypeId": "chart_type:9",
+  "Code": "901",
+  "Name": {
+   "mk": "Запишана, а неуплатена основна главнина"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:902",
+  "IdSup": "chart:90",
+  "Active": true,
+  "TypeId": "chart_type:9",
+  "Code": "902",
+  "Name": {
+   "mk": "Сопствени акции и удели"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:91",
+  "IdSup": "chart:9",
+  "Active": true,
+  "TypeId": "chart_type:9",
+  "Code": "91",
+  "Name": {
+   "mk": "Премии на емитирани акции"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:910",
+  "IdSup": "chart:91",
+  "Active": true,
+  "TypeId": "chart_type:9",
+  "Code": "910",
+  "Name": {
+   "mk": "Премии врз основа на продажба на обични акции"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:911",
+  "IdSup": "chart:91",
+  "Active": true,
+  "TypeId": "chart_type:9",
+  "Code": "911",
+  "Name": {
+   "mk": "Премии врз основа на продажба на приоритетни акции"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:912",
+  "IdSup": "chart:91",
+  "Active": true,
+  "TypeId": "chart_type:9",
+  "Code": "912",
+  "Name": {
+   "mk": "Премии врз основа на конверзија на приоритетни акции во обични акции"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:93",
+  "IdSup": "chart:9",
+  "Active": true,
+  "TypeId": "chart_type:9",
+  "Code": "93",
+  "Name": {
+   "mk": "Ревалоризациони резерви и разлики од вреднување на компоненти на останата сеопфатна добивка"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:930",
+  "IdSup": "chart:93",
+  "Active": true,
+  "TypeId": "chart_type:9",
+  "Code": "930",
+  "Name": {
+   "mk": "Ревалоризациони резерви на нематеријални и материјални средства"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:931",
+  "IdSup": "chart:93",
+  "Active": true,
+  "TypeId": "chart_type:9",
+  "Code": "931",
+  "Name": {
+   "mk": "Ревалоризациони резерви врз основа на преведување на странско работење"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:932",
+  "IdSup": "chart:93",
+  "Active": true,
+  "TypeId": "chart_type:9",
+  "Code": "932",
+  "Name": {
+   "mk": "Ревалоризациони резерви врз основа на финансиски средства расположиви за продажба"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:933",
+  "IdSup": "chart:93",
+  "Active": true,
+  "TypeId": "chart_type:9",
+  "Code": "933",
+  "Name": {
+   "mk": "Добивки/загуби од заштита на паричниот тек до рекласификација"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:934",
+  "IdSup": "chart:93",
+  "Active": true,
+  "TypeId": "chart_type:9",
+  "Code": "934",
+  "Name": {
+   "mk": "Добивки/загуби на дефинирани планови за користи на вработените"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:935",
+  "IdSup": "chart:93",
+  "Active": true,
+  "TypeId": "chart_type:9",
+  "Code": "935",
+  "Name": {
+   "mk": "Останати ревалоризациони резерви"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:94",
+  "IdSup": "chart:9",
+  "Active": true,
+  "TypeId": "chart_type:9",
+  "Code": "94",
+  "Name": {
+   "mk": "Резерви"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:940",
+  "IdSup": "chart:94",
+  "Active": true,
+  "TypeId": "chart_type:9",
+  "Code": "940",
+  "Name": {
+   "mk": "Законски резерви"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:941",
+  "IdSup": "chart:94",
+  "Active": true,
+  "TypeId": "chart_type:9",
+  "Code": "941",
+  "Name": {
+   "mk": "Статутарни резерви"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:942",
+  "IdSup": "chart:94",
+  "Active": true,
+  "TypeId": "chart_type:9",
+  "Code": "942",
+  "Name": {
+   "mk": "Останати резерви"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:95",
+  "IdSup": "chart:9",
+  "Active": true,
+  "TypeId": "chart_type:9",
+  "Code": "95",
+  "Name": {
+   "mk": "Задржана (акумулирана) добивка и добивка за тековна година"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:950",
+  "IdSup": "chart:95",
+  "Active": true,
+  "TypeId": "chart_type:9",
+  "Code": "950",
+  "Name": {
+   "mk": "Задржана (акумулирана) добивка од претходни години"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:951",
+  "IdSup": "chart:95",
+  "Active": true,
+  "TypeId": "chart_type:9",
+  "Code": "951",
+  "Name": {
+   "mk": "Добивка од тековната година"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:96",
+  "IdSup": "chart:9",
+  "Active": true,
+  "TypeId": "chart_type:9",
+  "Code": "96",
+  "Name": {
+   "mk": "Пренесена загуба и загуба за тековна година"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:960",
+  "IdSup": "chart:96",
+  "Active": true,
+  "TypeId": "chart_type:9",
+  "Code": "960",
+  "Name": {
+   "mk": "Пренесена загуба од претходни години"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:961",
+  "IdSup": "chart:96",
+  "Active": true,
+  "TypeId": "chart_type:9",
+  "Code": "961",
+  "Name": {
+   "mk": "Загуба за тековната година"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:97",
+  "IdSup": "chart:9",
+  "Active": true,
+  "TypeId": "chart_type:9",
+  "Code": "97",
+  "Name": {
+   "mk": "Учество во капиталот кое нема контрола"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:99",
+  "IdSup": "chart:9",
+  "Active": true,
+  "TypeId": "chart_type:9",
+  "Code": "99",
+  "Name": {
+   "mk": "Вонбилансна евиденција"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:990",
+  "IdSup": "chart:99",
+  "Active": true,
+  "TypeId": "chart_type:9",
+  "Code": "990",
+  "Name": {
+   "mk": "Примени туѓи недвижности, постројки и опрема"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:991",
+  "IdSup": "chart:99",
+  "Active": true,
+  "TypeId": "chart_type:9",
+  "Code": "991",
+  "Name": {
+   "mk": "Примени туѓи материјали, полупроизводи, производи и стоки"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:992",
+  "IdSup": "chart:99",
+  "Active": true,
+  "TypeId": "chart_type:9",
+  "Code": "992",
+  "Name": {
+   "mk": "Хартии од вредност и други вредносници"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:993",
+  "IdSup": "chart:99",
+  "Active": true,
+  "TypeId": "chart_type:9",
+  "Code": "993",
+  "Name": {
+   "mk": "Права"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:994",
+  "IdSup": "chart:99",
+  "Active": true,
+  "TypeId": "chart_type:9",
+  "Code": "994",
+  "Name": {
+   "mk": "Останата активна вонбилансна евиденција"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:995",
+  "IdSup": "chart:99",
+  "Active": true,
+  "TypeId": "chart_type:9",
+  "Code": "995",
+  "Name": {
+   "mk": "Обврски за примени туѓи недвижности, постројки и опрема"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:996",
+  "IdSup": "chart:99",
+  "Active": true,
+  "TypeId": "chart_type:9",
+  "Code": "996",
+  "Name": {
+   "mk": "Обврски за примени туѓи материјали, полупроизводи, производи и стоки"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:997",
+  "IdSup": "chart:99",
+  "Active": true,
+  "TypeId": "chart_type:9",
+  "Code": "997",
+  "Name": {
+   "mk": "Обврски за хартии од вредност и други вредносници"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:998",
+  "IdSup": "chart:99",
+  "Active": true,
+  "TypeId": "chart_type:9",
+  "Code": "998",
+  "Name": {
+   "mk": "Обврски за права"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:999",
+  "IdSup": "chart:99",
+  "Active": true,
+  "TypeId": "chart_type:9",
+  "Code": "999",
+  "Name": {
+   "mk": "Останата пасивна вонбилансна евиденција"
+  },
+  "IsComposite": false
+ }
+]

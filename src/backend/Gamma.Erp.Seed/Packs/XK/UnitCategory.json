@@ -1,0 +1,57 @@
+[
+ {
+  "Key": "unit_category:STANDARD",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "STANDARD",
+  "Name": {
+   "en": "Standard",
+   "sq": "Standard"
+  },
+  "Description": null,
+  "SortOrder": 2.0
+ },
+ {
+  "Key": "unit_category:WEIGHT",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "WEIGHT",
+  "Name": {
+   "en": "Weight",
+   "sq": "Peshë"
+  },
+  "Description": null,
+  "SortOrder": 2.0
+ },
+ {
+  "Key": "unit_category:TIME",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "TIME",
+  "Name": {
+   "en": "Time",
+   "sq": "Kohë"
+  },
+  "Description": null,
+  "SortOrder": 3.0
+ },
+ {
+  "Key": "unit_category:LENGTH",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "LENGTH",
+  "Name": {
+   "en": "Length",
+   "sq": "Gjatësi"
+  },
+  "Description": {
+   "en": "Length",
+   "sq": "Gjatësi"
+  },
+  "SortOrder": 4.0
+ }
+]

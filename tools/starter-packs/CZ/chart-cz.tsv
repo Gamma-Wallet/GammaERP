@@ -1,0 +1,261 @@
+# Czechia's chart of accounts: the classes and groups are the směrná účtová osnova of vyhláška č. 500/2002 Sb. (příloha č. 4), as
+# zakonyprolidi.cz publishes the decree (https://www.zakonyprolidi.cz/cs/2002-500). The decree leaves the three-digit (synthetic)
+# accounts to each entity; those here are the customary Czech ones, Gamma's choice. Names in Czech only.
+# code	Czech	English (reference, left empty)
+0	Dlouhodobý majetek	
+01	Dlouhodobý nehmotný majetek	
+012	Nehmotné výsledky vývoje	
+013	Software	
+014	Ocenitelná práva	
+015	Goodwill	
+019	Ostatní dlouhodobý nehmotný majetek	
+02	Dlouhodobý hmotný majetek odpisovaný	
+021	Stavby	
+022	Hmotné movité věci a jejich soubory	
+025	Pěstitelské celky trvalých porostů	
+026	Dospělá zvířata a jejich skupiny	
+029	Jiný dlouhodobý hmotný majetek	
+03	Dlouhodobý hmotný majetek neodpisovaný	
+031	Pozemky	
+032	Umělecká díla a sbírky	
+04	Nedokončený dlouhodobý nehmotný a hmotný majetek	
+041	Nedokončený dlouhodobý nehmotný majetek	
+042	Nedokončený dlouhodobý hmotný majetek	
+043	Pořizovaný dlouhodobý finanční majetek	
+05	Poskytnuté zálohy na dlouhodobý majetek	
+051	Poskytnuté zálohy na dlouhodobý nehmotný majetek	
+052	Poskytnuté zálohy na dlouhodobý hmotný majetek	
+053	Poskytnuté zálohy na dlouhodobý finanční majetek	
+06	Dlouhodobý finanční majetek	
+061	Podíly – ovládaná nebo ovládající osoba	
+062	Podíly – podstatný vliv	
+063	Ostatní dlouhodobé cenné papíry a podíly	
+067	Zápůjčky a úvěry – ostatní	
+069	Jiný dlouhodobý finanční majetek	
+07	Oprávky k dlouhodobému nehmotnému majetku	
+072	Oprávky k nehmotným výsledkům vývoje	
+073	Oprávky k softwaru	
+074	Oprávky k ocenitelným právům	
+075	Oprávky ke goodwillu	
+079	Oprávky k ostatnímu dlouhodobému nehmotnému majetku	
+08	Oprávky k dlouhodobému hmotnému majetku	
+081	Oprávky ke stavbám	
+082	Oprávky k hmotným movitým věcem a jejich souborům	
+085	Oprávky k pěstitelským celkům trvalých porostů	
+086	Oprávky k dospělým zvířatům a jejich skupinám	
+089	Oprávky k jinému dlouhodobému hmotnému majetku	
+09	Opravné položky k dlouhodobému majetku	
+091	Opravná položka k dlouhodobému nehmotnému majetku	
+092	Opravná položka k dlouhodobému hmotnému majetku	
+096	Opravná položka k dlouhodobému finančnímu majetku	
+1	Zásoby	
+11	Materiál	
+111	Pořízení materiálu	
+112	Materiál na skladě	
+119	Materiál na cestě	
+12	Zásoby vlastní činnosti	
+121	Nedokončená výroba	
+122	Polotovary vlastní výroby	
+123	Výrobky	
+124	Mladá a ostatní zvířata a jejich skupiny	
+13	Zboží	
+131	Pořízení zboží	
+132	Zboží na skladě a v prodejnách	
+139	Zboží na cestě	
+15	Poskytnuté zálohy na zásoby	
+151	Poskytnuté zálohy na materiál	
+152	Poskytnuté zálohy na zvířata	
+153	Poskytnuté zálohy na zboží	
+19	Opravné položky k zásobám	
+191	Opravná položka k materiálu	
+192	Opravná položka k nedokončené výrobě	
+193	Opravná položka k polotovarům vlastní výroby	
+194	Opravná položka k výrobkům	
+195	Opravná položka ke zvířatům	
+196	Opravná položka ke zboží	
+2	Krátkodobý finanční majetek a peněžní prostředky	
+21	Peněžní prostředky v pokladně	
+211	Pokladna	
+213	Ceniny	
+22	Peněžní prostředky na účtech	
+221	Bankovní účty	
+23	Krátkodobé úvěry	
+231	Krátkodobé úvěry	
+24	Krátkodobé finanční výpomoci	
+241	Emitované krátkodobé dluhopisy	
+249	Ostatní krátkodobé finanční výpomoci	
+25	Krátkodobý finanční majetek	
+251	Majetkové cenné papíry k obchodování	
+253	Dluhové cenné papíry k obchodování	
+259	Ostatní krátkodobý finanční majetek	
+26	Převody mezi finančními účty	
+261	Peníze na cestě	
+29	Opravné položky ke krátkodobému finančnímu majetku	
+291	Opravné položky ke krátkodobému finančnímu majetku	
+3	Zúčtovací vztahy	
+31	Pohledávky (krátkodobé i dlouhodobé)	
+311	Odběratelé	
+313	Pohledávky za eskontované cenné papíry	
+314	Poskytnuté zálohy	
+315	Ostatní pohledávky	
+32	Závazky (krátkodobé)	
+321	Dodavatelé	
+324	Přijaté zálohy	
+325	Ostatní závazky	
+33	Zúčtování se zaměstnanci a institucemi	
+331	Zaměstnanci	
+333	Ostatní závazky vůči zaměstnancům	
+335	Pohledávky za zaměstnanci	
+336	Zúčtování s institucemi sociálního zabezpečení a zdravotního pojištění	
+34	Zúčtování daní a dotací	
+341	Daň z příjmů	
+342	Ostatní přímé daně	
+343	Daň z přidané hodnoty	
+345	Ostatní daně a poplatky	
+346	Dotace ze státního rozpočtu	
+35	Pohledávky za společníky	
+351	Pohledávky – ovládaná nebo ovládající osoba	
+355	Ostatní pohledávky za společníky	
+36	Závazky ke společníkům	
+364	Závazky ke společníkům při rozdělování zisku	
+365	Ostatní závazky ke společníkům	
+37	Jiné pohledávky a závazky	
+373	Pohledávky a závazky z pevných termínových operací	
+378	Jiné pohledávky	
+379	Jiné závazky	
+38	Přechodné účty aktiv a pasiv	
+381	Náklady příštích období	
+383	Výdaje příštích období	
+384	Výnosy příštích období	
+385	Příjmy příštích období	
+388	Dohadné účty aktivní	
+389	Dohadné účty pasivní	
+39	Opravná položka k zúčtovacím vztahům a vnitřní zúčtování	
+391	Opravná položka k pohledávkám	
+395	Vnitřní zúčtování	
+4	Kapitálové účty a dlouhodobé závazky	
+41	Základní kapitál a kapitálové fondy	
+411	Základní kapitál	
+412	Ážio	
+413	Ostatní kapitálové fondy	
+414	Oceňovací rozdíly z přecenění majetku a závazků	
+42	Fondy ze zisku a převedené výsledky hospodaření	
+421	Rezervní fond	
+423	Statutární a ostatní fondy	
+428	Nerozdělený zisk minulých let	
+429	Neuhrazená ztráta minulých let	
+43	Výsledek hospodaření	
+431	Výsledek hospodaření ve schvalovacím řízení	
+45	Rezervy	
+451	Rezervy podle zvláštních právních předpisů	
+459	Ostatní rezervy	
+46	Dlouhodobé závazky k úvěrovým institucím	
+461	Závazky k úvěrovým institucím	
+47	Dlouhodobé závazky	
+471	Dlouhodobé závazky – ovládaná nebo ovládající osoba	
+473	Vydané dluhopisy	
+474	Závazky z nájmu	
+475	Dlouhodobé přijaté zálohy	
+478	Dlouhodobé směnky k úhradě	
+479	Jiné dlouhodobé závazky	
+48	Odložený daňový závazek a pohledávka	
+481	Odložený daňový závazek a pohledávka	
+49	Individuální podnikatel	
+491	Účet individuálního podnikatele	
+5	Náklady	
+50	Spotřebované nákupy	
+501	Spotřeba materiálu	
+502	Spotřeba energie	
+503	Spotřeba ostatních neskladovatelných dodávek	
+504	Prodané zboží	
+51	Služby	
+511	Opravy a udržování	
+512	Cestovné	
+513	Náklady na reprezentaci	
+518	Ostatní služby	
+52	Osobní náklady	
+521	Mzdové náklady	
+523	Odměny členům orgánů obchodní korporace	
+524	Zákonné sociální a zdravotní pojištění	
+525	Ostatní sociální pojištění	
+527	Zákonné sociální náklady	
+528	Ostatní sociální náklady	
+53	Daně a poplatky	
+531	Daň silniční	
+532	Daň z nemovitých věcí	
+538	Ostatní daně a poplatky	
+54	Jiné provozní náklady	
+541	Zůstatková cena prodaného dlouhodobého nehmotného a hmotného majetku	
+542	Prodaný materiál	
+543	Dary	
+544	Smluvní pokuty a úroky z prodlení	
+545	Ostatní pokuty a penále	
+546	Odpis pohledávky	
+548	Ostatní provozní náklady	
+549	Manka a škody z provozní činnosti	
+55	Odpisy, rezervy, komplexní náklady příštích období a opravné položky v provozní oblasti	
+551	Odpisy dlouhodobého nehmotného a hmotného majetku	
+552	Tvorba a zúčtování rezerv podle zvláštních právních předpisů	
+554	Tvorba a zúčtování ostatních rezerv	
+555	Tvorba a zúčtování komplexních nákladů příštích období	
+558	Tvorba a zúčtování zákonných opravných položek	
+559	Tvorba a zúčtování ostatních opravných položek	
+56	Finanční náklady	
+561	Prodané cenné papíry a podíly	
+562	Úroky	
+563	Kurzové ztráty	
+564	Náklady z přecenění cenných papírů	
+566	Náklady z finančního majetku	
+567	Náklady z derivátových operací	
+568	Ostatní finanční náklady	
+569	Manka a škody na finančním majetku	
+57	Rezervy a opravné položky ve finanční oblasti	
+574	Tvorba a zúčtování finančních rezerv	
+579	Tvorba a zúčtování opravných položek ve finanční činnosti	
+58	Změna stavu zásob vlastní činnosti a aktivace	
+581	Změna stavu nedokončené výroby	
+582	Změna stavu polotovarů	
+583	Změna stavu výrobků	
+584	Změna stavu zvířat	
+585	Aktivace materiálu a zboží	
+586	Aktivace vnitropodnikových služeb	
+587	Aktivace dlouhodobého nehmotného majetku	
+588	Aktivace dlouhodobého hmotného majetku	
+59	Daně z příjmů, převodové účty a rezerva na daň z příjmů	
+591	Daň z příjmů – splatná	
+592	Daň z příjmů – odložená	
+595	Dodatečné odvody daně z příjmů	
+596	Převod podílu na výsledku hospodaření společníkům	
+597	Převod provozních nákladů	
+598	Převod finančních nákladů	
+599	Rezerva na daň z příjmů	
+6	Výnosy	
+60	Tržby za vlastní výkony a zboží	
+601	Tržby za vlastní výrobky	
+602	Tržby z prodeje služeb	
+604	Tržby za zboží	
+64	Jiné provozní výnosy	
+641	Tržby z prodeje dlouhodobého nehmotného a hmotného majetku	
+642	Tržby z prodeje materiálu	
+644	Smluvní pokuty a úroky z prodlení	
+646	Výnosy z odepsaných pohledávek	
+648	Ostatní provozní výnosy	
+66	Finanční výnosy	
+661	Tržby z prodeje cenných papírů a podílů	
+662	Úroky	
+663	Kurzové zisky	
+664	Výnosy z přecenění cenných papírů	
+665	Výnosy z dlouhodobého finančního majetku	
+666	Výnosy z krátkodobého finančního majetku	
+667	Výnosy z derivátových operací	
+668	Ostatní finanční výnosy	
+69	Převodové účty	
+697	Převod provozních výnosů	
+698	Převod finančních výnosů	
+7	Závěrkové a podrozvahové účty	
+70	Účty rozvažné	
+701	Počáteční účet rozvažný	
+702	Konečný účet rozvažný	
+71	Účet zisků a ztrát	
+710	Účet zisků a ztrát	
+75	Podrozvahové účty (75 až 79)	

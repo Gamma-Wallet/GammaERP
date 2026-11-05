@@ -1,0 +1,17 @@
+[
+  { "Code": "GENERAL", "Parent": null, "Name": { "en": "General", "sq": "Të përgjithshme", "it": "Generale", "el": "Γενικά" } },
+  { "Code": "RETAIL", "Parent": "GENERAL", "Name": { "en": "Retail", "sq": "Shitje me pakicë", "it": "Commercio al dettaglio", "el": "Λιανικό εμπόριο" } },
+  { "Code": "SUPERMARKET", "Parent": "RETAIL", "Name": { "en": "Supermarket", "sq": "Supermarket", "it": "Supermercato", "el": "Σουπερμάρκετ" } },
+  { "Code": "MINIMARKET", "Parent": "RETAIL", "Name": { "en": "Minimarket", "sq": "Minimarket", "it": "Minimarket", "el": "Μίνι μάρκετ" } },
+  { "Code": "FLOWER_SHOP", "Parent": "RETAIL", "Name": { "en": "Flower shop", "sq": "Dyqan lulesh", "it": "Fioraio", "el": "Ανθοπωλείο" } },
+  { "Code": "WHOLESALE", "Parent": "GENERAL", "Name": { "en": "Wholesale", "sq": "Shitje me shumicë", "it": "Commercio all'ingrosso", "el": "Χονδρικό εμπόριο" } },
+  { "Code": "SERVICE", "Parent": "GENERAL", "Name": { "en": "Service", "sq": "Shërbime", "it": "Servizi", "el": "Υπηρεσίες" } },
+  { "Code": "HOSPITALITY", "Parent": "SERVICE", "Name": { "en": "Hospitality", "sq": "Hoteleri dhe restorante", "it": "Ristorazione", "el": "Εστίαση" } },
+  { "Code": "BAR", "Parent": "HOSPITALITY", "Name": { "en": "Bar", "sq": "Bar", "it": "Bar", "el": "Μπαρ" } },
+  { "Code": "RESTAURANT", "Parent": "HOSPITALITY", "Name": { "en": "Restaurant", "sq": "Restorant", "it": "Ristorante", "el": "Εστιατόριο" } },
+  { "Code": "FAST_FOOD", "Parent": "HOSPITALITY", "Name": { "en": "Fast food", "sq": "Fast food", "it": "Fast food", "el": "Γρήγορο φαγητό" } },
+  { "Code": "BEAUTY", "Parent": "SERVICE", "Name": { "en": "Beauty", "sq": "Bukuri", "it": "Bellezza", "el": "Ομορφιά" } },
+  { "Code": "BARBER", "Parent": "BEAUTY", "Name": { "en": "Barber / beauty salon (appointments)", "sq": "Berber / sallon bukurie (rezervime)", "it": "Barbiere / centro estetico (appuntamenti)", "el": "Κουρείο / ινστιτούτο ομορφιάς (ραντεβού)" } },
+  { "Code": "ACCOMMODATION", "Parent": "SERVICE", "Name": { "en": "Accommodation", "sq": "Akomodim", "it": "Alloggio", "el": "Διαμονή" } },
+  { "Code": "HOTEL", "Parent": "ACCOMMODATION", "Name": { "en": "Hotel (accommodation)", "sq": "Hotel (akomodim)", "it": "Hotel (alloggio)", "el": "Ξενοδοχείο (διαμονή)" } }
+]

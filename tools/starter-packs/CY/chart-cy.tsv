@@ -1,0 +1,182 @@
+# Cyprus's chart of accounts. Cyprus prescribes no chart: companies report under IFRS as adopted by the EU (Companies Law, Cap. 113) and
+# prepare their statements in Greek. This chart is Gamma's, built on the captions of IAS 1 (statement of financial position and of profit
+# or loss by nature), not an official one: 1 non-current assets, 2 current assets, 3 equity, 4 liabilities, 5 income, 6 purchases and cost
+# of sales, 7 expenses, 8 income tax. Names in Greek only (the founder: each country's chart keeps its own names); English as a reference.
+# code	Greek	English
+1	Μη κυκλοφορούντα περιουσιακά στοιχεία	Non-current assets
+11	Ακίνητα, εγκαταστάσεις και εξοπλισμός	Property, plant and equipment
+1101	Γη	Land
+1102	Κτίρια	Buildings
+1103	Μηχανήματα και εγκαταστάσεις	Plant and machinery
+1104	Οχήματα	Vehicles
+1105	Έπιπλα και εξοπλισμός	Furniture and fittings
+1106	Ηλεκτρονικοί υπολογιστές	Computer equipment
+1107	Ακινητοποιήσεις υπό εκτέλεση	Assets under construction
+12	Συσσωρευμένες αποσβέσεις ακινήτων, εγκαταστάσεων και εξοπλισμού	Accumulated depreciation, property, plant and equipment
+1202	Συσσωρευμένες αποσβέσεις κτιρίων	Buildings
+1203	Συσσωρευμένες αποσβέσεις μηχανημάτων	Plant and machinery
+1204	Συσσωρευμένες αποσβέσεις οχημάτων	Vehicles
+1205	Συσσωρευμένες αποσβέσεις επίπλων και εξοπλισμού	Furniture and fittings
+1206	Συσσωρευμένες αποσβέσεις ηλεκτρονικών υπολογιστών	Computer equipment
+13	Άυλα περιουσιακά στοιχεία	Intangible assets
+1301	Υπεραξία	Goodwill
+1302	Λογισμικό	Software
+1303	Εμπορικά σήματα και άδειες	Trademarks and licences
+14	Συσσωρευμένες αποσβέσεις άυλων περιουσιακών στοιχείων	Accumulated amortisation, intangible assets
+1402	Συσσωρευμένες αποσβέσεις λογισμικού	Software
+1403	Συσσωρευμένες αποσβέσεις σημάτων και αδειών	Trademarks and licences
+15	Επενδύσεις σε ακίνητα	Investment property
+1501	Επενδύσεις σε ακίνητα	Investment property
+16	Χρηματοοικονομικά περιουσιακά στοιχεία	Financial assets
+1601	Επενδύσεις σε θυγατρικές	Investments in subsidiaries
+1602	Επενδύσεις σε συνδεδεμένες εταιρείες	Investments in associates
+1603	Λοιπές επενδύσεις	Other investments
+1604	Μακροπρόθεσμα δάνεια εισπρακτέα	Long-term loans receivable
+17	Αναβαλλόμενη φορολογία	Deferred tax
+1701	Αναβαλλόμενες φορολογικές απαιτήσεις	Deferred tax assets
+2	Κυκλοφορούντα περιουσιακά στοιχεία	Current assets
+20	Αποθέματα	Inventories
+2001	Εμπορεύματα	Goods for resale
+2002	Πρώτες ύλες	Raw materials
+2003	Αναλώσιμα	Consumables
+2004	Έτοιμα προϊόντα	Finished goods
+2005	Παραγωγή σε εξέλιξη	Work in progress
+22	Εμπορικές απαιτήσεις	Trade receivables
+2201	Εμπορικοί χρεώστες	Trade debtors
+2202	Χρεώστες εξωτερικού	Foreign debtors
+2203	Επιταγές εισπρακτέες	Cheques receivable
+2209	Πρόβλεψη για επισφαλείς απαιτήσεις	Allowance for doubtful debts
+23	Λοιπές απαιτήσεις	Other receivables
+2301	Προπληρωμές	Prepayments
+2302	Προκαταβολές σε προμηθευτές	Advances to suppliers
+2303	Προκαταβολές σε υπαλλήλους	Advances to employees
+2304	Εγγυήσεις	Deposits paid
+2305	Λοιποί χρεώστες	Other debtors
+24	Φορολογικές απαιτήσεις	Tax receivables
+2401	ΦΠΑ εισροών	Input VAT
+2402	ΦΠΑ εισπρακτέος	VAT recoverable
+2403	Προσωρινή φορολογία πληρωθείσα	Provisional tax paid
+28	Μετρητά και αντίστοιχα μετρητών	Cash and cash equivalents
+2801	Ταμείο	Cash in hand
+2802	Ταμείο σε ξένο νόμισμα	Cash in hand, foreign currency
+2803	Τράπεζα – τρεχούμενος λογαριασμός	Bank current account
+2804	Τράπεζα – λογαριασμός σε ξένο νόμισμα	Bank account, foreign currency
+2805	Προθεσμιακές καταθέσεις	Fixed deposits
+2806	Μετρητά υπό διαμετακόμιση	Cash in transit
+3	Ίδια κεφάλαια	Equity
+30	Μετοχικό κεφάλαιο	Share capital
+3001	Μετοχικό κεφάλαιο	Share capital
+3002	Αποθεματικό υπέρ το άρτιο	Share premium
+31	Αποθεματικά	Reserves
+3101	Αποθεματικό επανεκτίμησης	Revaluation reserve
+3102	Λοιπά αποθεματικά	Other reserves
+32	Συσσωρευμένα κέρδη	Retained earnings
+3201	Συσσωρευμένα κέρδη	Retained earnings
+3202	Κέρδος/ζημιά χρήσης	Profit or loss for the year
+4	Υποχρεώσεις	Liabilities
+40	Μακροπρόθεσμες υποχρεώσεις	Non-current liabilities
+4001	Μακροπρόθεσμα τραπεζικά δάνεια	Long-term bank loans
+4002	Υποχρεώσεις μισθώσεων	Lease liabilities
+4003	Δάνεια από μετόχους	Shareholder loans
+4004	Αναβαλλόμενες φορολογικές υποχρεώσεις	Deferred tax liabilities
+4005	Προβλέψεις	Provisions
+41	Εμπορικές υποχρεώσεις	Trade payables
+4101	Εμπορικοί πιστωτές	Trade creditors
+4102	Πιστωτές εξωτερικού	Foreign creditors
+4103	Επιταγές πληρωτέες	Cheques payable
+4104	Προκαταβολές από πελάτες	Advances from customers
+42	Λοιπές υποχρεώσεις	Other payables
+4201	Οφειλόμενα έξοδα	Accrued expenses
+4202	Έσοδα επόμενων χρήσεων	Deferred income
+4203	Μισθοί πληρωτέοι	Wages payable
+4204	Κοινωνικές ασφαλίσεις πληρωτέες	Social insurance payable
+4205	Γενικό Σχέδιο Υγείας πληρωτέο	General Healthcare System contributions payable
+4206	Λοιποί πιστωτές	Other creditors
+4207	Μερίσματα πληρωτέα	Dividends payable
+43	Βραχυπρόθεσμος δανεισμός	Current borrowings
+4301	Τραπεζικά παρατραβήγματα	Bank overdrafts
+4302	Βραχυπρόθεσμα τραπεζικά δάνεια	Short-term bank loans
+44	Φορολογικές υποχρεώσεις	Tax payables
+4401	ΦΠΑ εκροών	Output VAT
+4402	ΦΠΑ πληρωτέος	VAT payable
+4403	Φόρος εισοδήματος πληρωτέος	Income tax payable
+4404	Φόρος εισοδήματος υπαλλήλων πληρωτέος	Employee income tax payable
+4405	Έκτακτη αμυντική εισφορά πληρωτέα	Special defence contribution payable
+5	Έσοδα	Income
+50	Εισοδήματα	Revenue
+5001	Πωλήσεις εμπορευμάτων	Sales of goods
+5002	Παροχή υπηρεσιών	Services rendered
+5003	Πωλήσεις προϊόντων	Sales of products
+5004	Επιστροφές και εκπτώσεις πωλήσεων	Sales returns and discounts
+51	Λοιπά έσοδα	Other income
+5101	Ενοίκια εισπρακτέα	Rental income
+5102	Επιχορηγήσεις	Grants
+5103	Κέρδος από πώληση ακινήτων, εγκαταστάσεων και εξοπλισμού	Gain on disposal of property, plant and equipment
+5104	Διάφορα έσοδα	Sundry income
+52	Χρηματοοικονομικά έσοδα	Finance income
+5201	Τόκοι εισπρακτέοι	Interest income
+5202	Μερίσματα εισπρακτέα	Dividend income
+5203	Συναλλαγματικά κέρδη	Exchange gains
+6	Αγορές και κόστος πωλήσεων	Purchases and cost of sales
+60	Αγορές	Purchases
+6001	Αγορές εμπορευμάτων	Purchases of goods
+6002	Αγορές πρώτων υλών	Purchases of raw materials
+6003	Αγορές αναλωσίμων	Purchases of consumables
+6004	Επιστροφές και εκπτώσεις αγορών	Purchase returns and discounts
+6005	Μεταφορικά και τελωνειακά αγορών	Carriage and customs on purchases
+61	Μεταβολή αποθεμάτων	Change in inventories
+6101	Μεταβολή αποθεμάτων εμπορευμάτων	Change in inventories of goods
+6102	Μεταβολή αποθεμάτων πρώτων υλών	Change in inventories of raw materials
+7	Έξοδα	Expenses
+70	Αμοιβές προσωπικού	Staff costs
+7001	Μισθοί και ημερομίσθια	Wages and salaries
+7002	Κοινωνικές ασφαλίσεις εργοδότη	Employer's social insurance
+7003	Εισφορές Γενικού Σχεδίου Υγείας εργοδότη	Employer's General Healthcare System contributions
+7004	Λοιπές εισφορές εργοδότη	Other employer contributions
+7005	Λοιπά έξοδα προσωπικού	Other staff costs
+71	Έξοδα χώρων	Premises
+7101	Ενοίκια	Rent
+7102	Ηλεκτρισμός	Electricity
+7103	Νερό	Water
+7104	Επιδιορθώσεις και συντήρηση	Repairs and maintenance
+7105	Ασφάλιστρα	Insurance
+72	Έξοδα διοίκησης	Administrative expenses
+7201	Τηλεπικοινωνίες	Telecommunications
+7202	Ταχυδρομικά	Postage
+7203	Γραφική ύλη	Stationery
+7204	Ελεγκτικά δικαιώματα	Audit fees
+7205	Επαγγελματικά δικαιώματα	Professional fees
+7206	Συνδρομές	Subscriptions
+7207	Ετήσιο τέλος εταιρείας	Annual company levy
+73	Έξοδα πωλήσεων	Selling expenses
+7301	Διαφήμιση	Advertising
+7302	Μεταφορικά πωλήσεων	Carriage on sales
+7303	Προμήθειες	Commissions
+7304	Ταξίδια	Travel
+74	Έξοδα οχημάτων	Vehicle expenses
+7401	Καύσιμα	Fuel
+7402	Άδειες και ασφάλιστρα οχημάτων	Vehicle licences and insurance
+7403	Επιδιορθώσεις οχημάτων	Vehicle repairs
+75	Χρηματοοικονομικά έξοδα	Finance costs
+7501	Τόκοι πληρωτέοι	Interest expense
+7502	Τραπεζικά έξοδα	Bank charges
+7503	Συναλλαγματικές ζημιές	Exchange losses
+7504	Τόκοι μισθώσεων	Lease interest
+76	Αποσβέσεις	Depreciation and amortisation
+7601	Αποσβέσεις κτιρίων	Buildings
+7602	Αποσβέσεις μηχανημάτων	Plant and machinery
+7603	Αποσβέσεις οχημάτων	Vehicles
+7604	Αποσβέσεις επίπλων και εξοπλισμού	Furniture and fittings
+7605	Αποσβέσεις ηλεκτρονικών υπολογιστών	Computer equipment
+7606	Αποσβέσεις άυλων περιουσιακών στοιχείων	Intangible assets
+77	Λοιπά έξοδα	Other expenses
+7701	Επισφαλείς απαιτήσεις	Bad debts
+7702	Ζημιά από πώληση ακινήτων, εγκαταστάσεων και εξοπλισμού	Loss on disposal of property, plant and equipment
+7703	ΦΠΑ μη επιστρεπτέος	Non-recoverable VAT
+7704	Διάφορα έξοδα	Sundry expenses
+7705	Απώλειες και φθορές αποθεμάτων	Inventory losses and waste
+8	Φορολογία εισοδήματος	Income tax
+80	Φορολογία	Taxation
+8001	Εταιρικός φόρος	Corporation tax
+8002	Έκτακτη αμυντική εισφορά	Special defence contribution
+8003	Αναβαλλόμενη φορολογία	Deferred tax

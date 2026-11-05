@@ -1,0 +1,56 @@
+[
+ {
+  "Key": "unit_conversion:KG_G",
+  "IdSup": null,
+  "Active": true,
+  "FromUnitId": "unit:KG",
+  "ToUnitId": "unit:G",
+  "Factor": 1000,
+  "ProductId": null
+ },
+ {
+  "Key": "unit_conversion:M_CM",
+  "IdSup": null,
+  "Active": true,
+  "FromUnitId": "unit:M",
+  "ToUnitId": "unit:CM",
+  "Factor": 100,
+  "ProductId": null
+ },
+ {
+  "Key": "unit_conversion:DAY_HOUR",
+  "IdSup": null,
+  "Active": true,
+  "FromUnitId": "unit:DAY",
+  "ToUnitId": "unit:HOUR",
+  "Factor": 24,
+  "ProductId": null
+ },
+ {
+  "Key": "unit_conversion:YEAR_MONTH",
+  "IdSup": null,
+  "Active": true,
+  "FromUnitId": "unit:YEAR",
+  "ToUnitId": "unit:MONTH",
+  "Factor": 12,
+  "ProductId": null
+ },
+ {
+  "Key": "unit_conversion:M_MM",
+  "IdSup": null,
+  "Active": true,
+  "FromUnitId": "unit:M",
+  "ToUnitId": "unit:MM",
+  "Factor": 1000,
+  "ProductId": null
+ },
+ {
+  "Key": "unit_conversion:KM_M",
+  "IdSup": null,
+  "Active": true,
+  "FromUnitId": "unit:KM",
+  "ToUnitId": "unit:M",
+  "Factor": 1000,
+  "ProductId": null
+ }
+]

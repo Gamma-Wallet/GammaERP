@@ -1,0 +1,50 @@
+[
+ {
+  "Key": "vat_group:MT_18",
+  "IdSup": null,
+  "Active": true,
+  "Code": null,
+  "Name": {
+   "en": "VAT 18%"
+  },
+  "Description": null,
+  "Rate": 18.0,
+  "Depreciation": false
+ },
+ {
+  "Key": "vat_group:MT_7",
+  "IdSup": null,
+  "Active": true,
+  "Code": null,
+  "Name": {
+   "en": "VAT 7%"
+  },
+  "Description": null,
+  "Rate": 7.0,
+  "Depreciation": false
+ },
+ {
+  "Key": "vat_group:MT_5",
+  "IdSup": null,
+  "Active": true,
+  "Code": null,
+  "Name": {
+   "en": "VAT 5%"
+  },
+  "Description": null,
+  "Rate": 5.0,
+  "Depreciation": false
+ },
+ {
+  "Key": "vat_group:MT_0",
+  "IdSup": null,
+  "Active": true,
+  "Code": null,
+  "Name": {
+   "en": "VAT 0% / exempt"
+  },
+  "Description": null,
+  "Rate": 0.0,
+  "Depreciation": false
+ }
+]

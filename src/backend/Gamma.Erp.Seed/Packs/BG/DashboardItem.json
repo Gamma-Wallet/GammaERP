@@ -1,0 +1,258 @@
+[
+ {
+  "Key": "dashboard_item:SALES",
+  "IdSup": null,
+  "Active": true,
+  "Code": "SALES",
+  "Name": {
+   "en": "Sales",
+   "bg": "Продажби"
+  },
+  "Kind": "Total",
+  "DocumentCategoryId": "document_category:SALES",
+  "SecondCategoryId": null,
+  "PartnerCategoryId": null,
+  "Negate": false,
+  "SortOrder": 1.0
+ },
+ {
+  "Key": "dashboard_item:PURCHASES",
+  "IdSup": null,
+  "Active": true,
+  "Code": "PURCHASES",
+  "Name": {
+   "en": "Purchases",
+   "bg": "Покупки"
+  },
+  "Kind": "Total",
+  "DocumentCategoryId": "document_category:PURCHASES",
+  "SecondCategoryId": null,
+  "PartnerCategoryId": null,
+  "Negate": true,
+  "SortOrder": 2.0
+ },
+ {
+  "Key": "dashboard_item:CLIENTS_OWE",
+  "IdSup": null,
+  "Active": true,
+  "Code": "CLIENTS_OWE",
+  "Name": {
+   "en": "Clients owe us",
+   "bg": "Клиентите ни дължат"
+  },
+  "Kind": "Balance",
+  "DocumentCategoryId": "document_category:SALES",
+  "SecondCategoryId": null,
+  "PartnerCategoryId": "partner_category:CLIENTS",
+  "Negate": false,
+  "SortOrder": 3.0
+ },
+ {
+  "Key": "dashboard_item:SUPPLIERS_OWED",
+  "IdSup": null,
+  "Active": true,
+  "Code": "SUPPLIERS_OWED",
+  "Name": {
+   "en": "We owe suppliers",
+   "bg": "Дължим на доставчици"
+  },
+  "Kind": "Balance",
+  "DocumentCategoryId": "document_category:PURCHASES",
+  "SecondCategoryId": null,
+  "PartnerCategoryId": "partner_category:SUPPLIERS",
+  "Negate": true,
+  "SortOrder": 4.0
+ },
+ {
+  "Key": "dashboard_item:DRAFTS",
+  "IdSup": null,
+  "Active": true,
+  "Code": "DRAFTS",
+  "Name": {
+   "en": "Drafts waiting",
+   "bg": "Чакащи чернови"
+  },
+  "Kind": "Drafts",
+  "DocumentCategoryId": "document_category:SALES",
+  "SecondCategoryId": "document_category:PURCHASES",
+  "PartnerCategoryId": null,
+  "Negate": false,
+  "SortOrder": 5.0
+ },
+ {
+  "Key": "dashboard_item:SALES_PURCHASES",
+  "IdSup": null,
+  "Active": true,
+  "Code": "SALES_PURCHASES",
+  "Name": {
+   "en": "Sales and purchases by month",
+   "bg": "Продажби и покупки по месеци"
+  },
+  "Kind": "Monthly",
+  "DocumentCategoryId": "document_category:SALES",
+  "SecondCategoryId": "document_category:PURCHASES",
+  "PartnerCategoryId": null,
+  "Negate": false,
+  "SortOrder": 6.0
+ },
+ {
+  "Key": "dashboard_item:VAT_BY_MONTH",
+  "IdSup": null,
+  "Active": true,
+  "Code": "VAT_BY_MONTH",
+  "Name": {
+   "en": "VAT by month",
+   "bg": "ДДС по месеци"
+  },
+  "Kind": "MonthlyVat",
+  "DocumentCategoryId": "document_category:SALES",
+  "SecondCategoryId": "document_category:PURCHASES",
+  "PartnerCategoryId": null,
+  "Negate": false,
+  "SortOrder": 7.0
+ },
+ {
+  "Key": "dashboard_item:TOP_CLIENTS",
+  "IdSup": null,
+  "Active": true,
+  "Code": "TOP_CLIENTS",
+  "Name": {
+   "en": "Top clients",
+   "bg": "Най-добри клиенти"
+  },
+  "Kind": "TopPartners",
+  "DocumentCategoryId": "document_category:SALES",
+  "SecondCategoryId": null,
+  "PartnerCategoryId": null,
+  "Negate": false,
+  "SortOrder": 8.0
+ },
+ {
+  "Key": "dashboard_item:TOP_SUPPLIERS",
+  "IdSup": null,
+  "Active": true,
+  "Code": "TOP_SUPPLIERS",
+  "Name": {
+   "en": "Top suppliers",
+   "bg": "Най-добри доставчици"
+  },
+  "Kind": "TopPartners",
+  "DocumentCategoryId": "document_category:PURCHASES",
+  "SecondCategoryId": null,
+  "PartnerCategoryId": null,
+  "Negate": false,
+  "SortOrder": 9.0
+ },
+ {
+  "Key": "dashboard_item:TOP_PRODUCTS",
+  "IdSup": null,
+  "Active": true,
+  "Code": "TOP_PRODUCTS",
+  "Name": {
+   "en": "Top products",
+   "bg": "Най-добри продукти"
+  },
+  "Kind": "TopProducts",
+  "DocumentCategoryId": "document_category:SALES",
+  "SecondCategoryId": null,
+  "PartnerCategoryId": null,
+  "Negate": false,
+  "SortOrder": 10.0
+ },
+ {
+  "Key": "dashboard_item:SALES_BY_COST_CENTER",
+  "IdSup": null,
+  "Active": true,
+  "Code": "SALES_BY_COST_CENTER",
+  "Name": {
+   "en": "Sales by cost centre",
+   "bg": "Продажби по разходни центрове"
+  },
+  "Kind": "ByCostCenter",
+  "DocumentCategoryId": "document_category:SALES",
+  "SecondCategoryId": null,
+  "PartnerCategoryId": null,
+  "Negate": false,
+  "SortOrder": 11.0
+ },
+ {
+  "Key": "dashboard_item:OVERDUE_CLIENTS",
+  "IdSup": null,
+  "Active": true,
+  "Code": "OVERDUE_CLIENTS",
+  "Name": {
+   "en": "Overdue from clients",
+   "bg": "Просрочени от клиенти"
+  },
+  "Kind": "Overdue",
+  "DocumentCategoryId": "document_category:SALES",
+  "SecondCategoryId": null,
+  "PartnerCategoryId": null,
+  "Negate": false,
+  "SortOrder": 12.0
+ },
+ {
+  "Key": "dashboard_item:OVERDUE_SUPPLIERS",
+  "IdSup": null,
+  "Active": true,
+  "Code": "OVERDUE_SUPPLIERS",
+  "Name": {
+   "en": "Overdue to suppliers",
+   "bg": "Просрочени към доставчици"
+  },
+  "Kind": "Overdue",
+  "DocumentCategoryId": "document_category:PURCHASES",
+  "SecondCategoryId": null,
+  "PartnerCategoryId": null,
+  "Negate": true,
+  "SortOrder": 13.0
+ },
+ {
+  "Key": "dashboard_item:GROSS_PROFIT",
+  "IdSup": null,
+  "Active": true,
+  "Code": "GROSS_PROFIT",
+  "Name": {
+   "en": "Gross profit",
+   "bg": "Брутна печалба"
+  },
+  "Kind": "GrossProfit",
+  "DocumentCategoryId": "document_category:SALES",
+  "SecondCategoryId": null,
+  "PartnerCategoryId": null,
+  "Negate": false,
+  "SortOrder": 14.0
+ },
+ {
+  "Key": "dashboard_item:GROSS_PROFIT_BY_COST_CENTER",
+  "IdSup": null,
+  "Active": true,
+  "Code": "GROSS_PROFIT_BY_COST_CENTER",
+  "Name": {
+   "en": "Gross profit by cost centre",
+   "bg": "Брутна печалба по разходен център"
+  },
+  "Kind": "GrossProfitByCostCenter",
+  "DocumentCategoryId": "document_category:SALES",
+  "SecondCategoryId": null,
+  "PartnerCategoryId": null,
+  "Negate": false,
+  "SortOrder": 15.0
+ },
+ {
+  "Key": "dashboard_item:TOP_COMBINED",
+  "IdSup": null,
+  "Active": true,
+  "Code": "TOP_COMBINED",
+  "Name": {
+   "en": "Top combined products",
+   "bg": "Топ комбинирани продукти"
+  },
+  "Kind": "TopCombined",
+  "DocumentCategoryId": "document_category:SALES",
+  "SecondCategoryId": null,
+  "PartnerCategoryId": null,
+  "Negate": false,
+  "SortOrder": 16.0
+ }
+]

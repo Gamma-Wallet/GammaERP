@@ -1,0 +1,477 @@
+[
+ {
+  "Key": "transaction_type:ACCOUNT",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "ACCOUNT",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Account",
+   "sl": "Konto"
+  },
+  "Description": {
+   "en": "Account",
+   "sl": "Konto"
+  },
+  "SortOrder": 3.0
+ },
+ {
+  "Key": "transaction_type:ITEM",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "ITEM",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Item",
+   "sl": "Artikel"
+  },
+  "Description": {
+   "en": "Item",
+   "sl": "Artikel"
+  },
+  "SortOrder": 4.0
+ },
+ {
+  "Key": "transaction_type:FIXED_ASSET",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "FIXED_ASSET",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Fixed asset",
+   "sl": "Osnovno sredstvo"
+  },
+  "Description": {
+   "en": "Fixed asset",
+   "sl": "Osnovno sredstvo"
+  },
+  "SortOrder": 5.0
+ },
+ {
+  "Key": "transaction_type:SERVICE_ITEM",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "SERVICE_ITEM",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Service item",
+   "sl": "Artikel (storitev)"
+  },
+  "Description": {
+   "en": "Service item",
+   "sl": "Artikel (storitev)"
+  },
+  "SortOrder": 6.0
+ },
+ {
+  "Key": "transaction_type:SUPPLIER",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "SUPPLIER",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Supplier",
+   "sl": "Dobavitelj"
+  },
+  "Description": {
+   "en": "Supplier",
+   "sl": "Dobavitelj"
+  },
+  "SortOrder": 7.0
+ },
+ {
+  "Key": "transaction_type:CLIENT",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "CLIENT",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Client",
+   "sl": "Kupec"
+  },
+  "Description": {
+   "en": "Client",
+   "sl": "Kupec"
+  },
+  "SortOrder": 8.0
+ },
+ {
+  "Key": "transaction_type:CASH_DESK_ACCOUNT",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "CASH_DESK_ACCOUNT",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Cash desk account",
+   "sl": "Konto blagajne"
+  },
+  "Description": {
+   "en": "Cash desk account",
+   "sl": "Konto blagajne"
+  },
+  "SortOrder": 9.0
+ },
+ {
+  "Key": "transaction_type:BANK_ACCOUNT",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "BANK_ACCOUNT",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Bank account",
+   "sl": "Bančni račun"
+  },
+  "Description": {
+   "en": "Bank account",
+   "sl": "Bančni račun"
+  },
+  "SortOrder": 10.0
+ },
+ {
+  "Key": "transaction_type:STAFF",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "STAFF",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Staff",
+   "sl": "Osebje"
+  },
+  "Description": {
+   "en": "Staff",
+   "sl": "Osebje"
+  },
+  "SortOrder": 11.0
+ },
+ {
+  "Key": "transaction_type:DEPRECIATION",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "DEPRECIATION",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Depreciation",
+   "sl": "Amortizacija"
+  },
+  "Description": {
+   "en": "Depreciation",
+   "sl": "Amortizacija"
+  },
+  "SortOrder": 12.0
+ },
+ {
+  "Key": "transaction_type:REVALUATION",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "REVALUATION",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Revaluation",
+   "sl": "Prevrednotenje"
+  },
+  "Description": {
+   "en": "Revaluation",
+   "sl": "Prevrednotenje"
+  },
+  "SortOrder": 13.0
+ },
+ {
+  "Key": "transaction_type:FIXED_ASSET_SERVICE",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "FIXED_ASSET_SERVICE",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Fixed asset (service)",
+   "sl": "Osnovno sredstvo (storitev)"
+  },
+  "Description": {
+   "en": "Fixed asset (service)",
+   "sl": "Osnovno sredstvo (storitev)"
+  },
+  "SortOrder": 14.0
+ },
+ {
+  "Key": "transaction_type:COMBINED_ITEM",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "COMBINED_ITEM",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Combined item",
+   "sl": "Sestavljeni artikel"
+  },
+  "Description": {
+   "en": "Combined item",
+   "sl": "Sestavljeni artikel"
+  },
+  "SortOrder": 15.0
+ },
+ {
+  "Key": "transaction_type:CUSTOMS",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "CUSTOMS",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Customs",
+   "sl": "Carina"
+  },
+  "Description": {
+   "en": "Customs",
+   "sl": "Carina"
+  },
+  "SortOrder": 16.0
+ },
+ {
+  "Key": "transaction_type:TRANSPORT",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "TRANSPORT",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Transport",
+   "sl": "Prevoz"
+  },
+  "Description": {
+   "en": "Transport",
+   "sl": "Prevoz"
+  },
+  "SortOrder": 17.0
+ },
+ {
+  "Key": "transaction_type:CUSTOMS_AGENCY",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "CUSTOMS_AGENCY",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Customs agency",
+   "sl": "Carinski zastopnik"
+  },
+  "Description": {
+   "en": "Customs agency",
+   "sl": "Carinski zastopnik"
+  },
+  "SortOrder": 18.0
+ },
+ {
+  "Key": "transaction_type:CUSTOMS_ASSETS",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "CUSTOMS_ASSETS",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Customs, assets",
+   "sl": "Carina za osnovna sredstva"
+  },
+  "Description": {
+   "en": "Customs, assets",
+   "sl": "Carina za osnovna sredstva"
+  },
+  "SortOrder": 19.0
+ },
+ {
+  "Key": "transaction_type:TRANSPORT_ASSETS",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "TRANSPORT_ASSETS",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Transport, assets",
+   "sl": "Prevoz osnovnih sredstev"
+  },
+  "Description": {
+   "en": "Transport, assets",
+   "sl": "Prevoz osnovnih sredstev"
+  },
+  "SortOrder": 20.0
+ },
+ {
+  "Key": "transaction_type:CUSTOMS_AGENCY_ASSETS",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "CUSTOMS_AGENCY_ASSETS",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Customs agency, assets",
+   "sl": "Carinski zastopnik za osnovna sredstva"
+  },
+  "Description": {
+   "en": "Customs agency, assets",
+   "sl": "Carinski zastopnik za osnovna sredstva"
+  },
+  "SortOrder": 21.0
+ },
+ {
+  "Key": "transaction_type:RAW_MATERIAL",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "RAW_MATERIAL",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Raw material used",
+   "sl": "Porabljena surovina"
+  },
+  "Description": {
+   "en": "Raw material used",
+   "sl": "Porabljena surovina"
+  },
+  "SortOrder": 40.0
+ },
+ {
+  "Key": "transaction_type:PRODUCED_ITEM",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "PRODUCED_ITEM",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Produced item",
+   "sl": "Izdelan izdelek"
+  },
+  "Description": {
+   "en": "Produced item",
+   "sl": "Izdelan izdelek"
+  },
+  "SortOrder": 41.0
+ },
+ {
+  "Key": "transaction_type:WASTE",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "WASTE",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Waste",
+   "sl": "Kalo"
+  },
+  "Description": {
+   "en": "Waste",
+   "sl": "Kalo"
+  },
+  "SortOrder": 42.0
+ },
+ {
+  "Key": "transaction_type:DISASSEMBLED_ITEM",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "DISASSEMBLED_ITEM",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Product taken apart",
+   "sl": "Razstavljen izdelek"
+  },
+  "Description": {
+   "en": "Product taken apart",
+   "sl": "Razstavljen izdelek"
+  },
+  "SortOrder": 43.0
+ },
+ {
+  "Key": "transaction_type:RECOVERED_PART",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "RECOVERED_PART",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Recovered component",
+   "sl": "Vrnjena sestavina"
+  },
+  "Description": {
+   "en": "Recovered component",
+   "sl": "Vrnjena sestavina"
+  },
+  "SortOrder": 44.0
+ },
+ {
+  "Key": "transaction_type:DISASSEMBLY_WASTE",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "DISASSEMBLY_WASTE",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Disassembly waste",
+   "sl": "Kalo pri razstavljanju"
+  },
+  "Description": {
+   "en": "Disassembly waste",
+   "sl": "Kalo pri razstavljanju"
+  },
+  "SortOrder": 45.0
+ }
+]

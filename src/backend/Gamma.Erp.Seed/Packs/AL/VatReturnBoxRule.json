@@ -1,0 +1,212 @@
+[
+ {
+  "Key": "vat_return_box_rule:12:0",
+  "IdSup": null,
+  "Active": true,
+  "BoxId": "vat_return_box:12",
+  "DocumentCategoryId": "document_category:SALES",
+  "DocumentTypeId": null,
+  "TransactionTypeId": null,
+  "VatGroupId": "vat_group:AL_0"
+ },
+ {
+  "Key": "vat_return_box_rule:13:0",
+  "IdSup": null,
+  "Active": true,
+  "BoxId": "vat_return_box:13",
+  "DocumentCategoryId": "document_category:SALES",
+  "DocumentTypeId": null,
+  "TransactionTypeId": null,
+  "VatGroupId": "vat_group:AL_20"
+ },
+ {
+  "Key": "vat_return_box_rule:14:0",
+  "IdSup": null,
+  "Active": true,
+  "BoxId": "vat_return_box:14",
+  "DocumentCategoryId": "document_category:SALES",
+  "DocumentTypeId": null,
+  "TransactionTypeId": null,
+  "VatGroupId": "vat_group:AL_20"
+ },
+ {
+  "Key": "vat_return_box_rule:17:0",
+  "IdSup": null,
+  "Active": true,
+  "BoxId": "vat_return_box:17",
+  "DocumentCategoryId": "document_category:SALES",
+  "DocumentTypeId": null,
+  "TransactionTypeId": null,
+  "VatGroupId": "vat_group:AL_6"
+ },
+ {
+  "Key": "vat_return_box_rule:18:0",
+  "IdSup": null,
+  "Active": true,
+  "BoxId": "vat_return_box:18",
+  "DocumentCategoryId": "document_category:SALES",
+  "DocumentTypeId": null,
+  "TransactionTypeId": null,
+  "VatGroupId": "vat_group:AL_6"
+ },
+ {
+  "Key": "vat_return_box_rule:26:0",
+  "IdSup": null,
+  "Active": true,
+  "BoxId": "vat_return_box:26",
+  "DocumentCategoryId": "document_category:PURCHASES",
+  "DocumentTypeId": null,
+  "TransactionTypeId": null,
+  "VatGroupId": "vat_group:AL_0"
+ },
+ {
+  "Key": "vat_return_box_rule:27:0",
+  "IdSup": null,
+  "Active": true,
+  "BoxId": "vat_return_box:27",
+  "DocumentCategoryId": "document_category:PURCHASES",
+  "DocumentTypeId": null,
+  "TransactionTypeId": "transaction_type:FIXED_ASSET",
+  "VatGroupId": "vat_group:AL_0"
+ },
+ {
+  "Key": "vat_return_box_rule:28:0",
+  "IdSup": null,
+  "Active": true,
+  "BoxId": "vat_return_box:28",
+  "DocumentCategoryId": null,
+  "DocumentTypeId": "document_type:CUSTOMS_DECLARATION_ASSETS",
+  "TransactionTypeId": null,
+  "VatGroupId": "vat_group:AL_0"
+ },
+ {
+  "Key": "vat_return_box_rule:29:0",
+  "IdSup": null,
+  "Active": true,
+  "BoxId": "vat_return_box:29",
+  "DocumentCategoryId": null,
+  "DocumentTypeId": "document_type:CUSTOMS_DECLARATION",
+  "TransactionTypeId": null,
+  "VatGroupId": "vat_group:AL_0"
+ },
+ {
+  "Key": "vat_return_box_rule:30:0",
+  "IdSup": null,
+  "Active": true,
+  "BoxId": "vat_return_box:30",
+  "DocumentCategoryId": null,
+  "DocumentTypeId": "document_type:CUSTOMS_DECLARATION",
+  "TransactionTypeId": null,
+  "VatGroupId": "vat_group:AL_20"
+ },
+ {
+  "Key": "vat_return_box_rule:31:0",
+  "IdSup": null,
+  "Active": true,
+  "BoxId": "vat_return_box:31",
+  "DocumentCategoryId": null,
+  "DocumentTypeId": "document_type:CUSTOMS_DECLARATION",
+  "TransactionTypeId": null,
+  "VatGroupId": "vat_group:AL_20"
+ },
+ {
+  "Key": "vat_return_box_rule:34:0",
+  "IdSup": null,
+  "Active": true,
+  "BoxId": "vat_return_box:34",
+  "DocumentCategoryId": null,
+  "DocumentTypeId": "document_type:CUSTOMS_DECLARATION",
+  "TransactionTypeId": null,
+  "VatGroupId": "vat_group:AL_6"
+ },
+ {
+  "Key": "vat_return_box_rule:35:0",
+  "IdSup": null,
+  "Active": true,
+  "BoxId": "vat_return_box:35",
+  "DocumentCategoryId": null,
+  "DocumentTypeId": "document_type:CUSTOMS_DECLARATION",
+  "TransactionTypeId": null,
+  "VatGroupId": "vat_group:AL_6"
+ },
+ {
+  "Key": "vat_return_box_rule:36:0",
+  "IdSup": null,
+  "Active": true,
+  "BoxId": "vat_return_box:36",
+  "DocumentCategoryId": null,
+  "DocumentTypeId": "document_type:CUSTOMS_DECLARATION_ASSETS",
+  "TransactionTypeId": null,
+  "VatGroupId": "vat_group:AL_20"
+ },
+ {
+  "Key": "vat_return_box_rule:37:0",
+  "IdSup": null,
+  "Active": true,
+  "BoxId": "vat_return_box:37",
+  "DocumentCategoryId": null,
+  "DocumentTypeId": "document_type:CUSTOMS_DECLARATION_ASSETS",
+  "TransactionTypeId": null,
+  "VatGroupId": "vat_group:AL_20"
+ },
+ {
+  "Key": "vat_return_box_rule:38:0",
+  "IdSup": null,
+  "Active": true,
+  "BoxId": "vat_return_box:38",
+  "DocumentCategoryId": "document_category:PURCHASES",
+  "DocumentTypeId": null,
+  "TransactionTypeId": null,
+  "VatGroupId": "vat_group:AL_20"
+ },
+ {
+  "Key": "vat_return_box_rule:39:0",
+  "IdSup": null,
+  "Active": true,
+  "BoxId": "vat_return_box:39",
+  "DocumentCategoryId": "document_category:PURCHASES",
+  "DocumentTypeId": null,
+  "TransactionTypeId": null,
+  "VatGroupId": "vat_group:AL_20"
+ },
+ {
+  "Key": "vat_return_box_rule:42:0",
+  "IdSup": null,
+  "Active": true,
+  "BoxId": "vat_return_box:42",
+  "DocumentCategoryId": "document_category:PURCHASES",
+  "DocumentTypeId": null,
+  "TransactionTypeId": null,
+  "VatGroupId": "vat_group:AL_6"
+ },
+ {
+  "Key": "vat_return_box_rule:43:0",
+  "IdSup": null,
+  "Active": true,
+  "BoxId": "vat_return_box:43",
+  "DocumentCategoryId": "document_category:PURCHASES",
+  "DocumentTypeId": null,
+  "TransactionTypeId": null,
+  "VatGroupId": "vat_group:AL_6"
+ },
+ {
+  "Key": "vat_return_box_rule:44:0",
+  "IdSup": null,
+  "Active": true,
+  "BoxId": "vat_return_box:44",
+  "DocumentCategoryId": "document_category:PURCHASES",
+  "DocumentTypeId": null,
+  "TransactionTypeId": "transaction_type:FIXED_ASSET",
+  "VatGroupId": "vat_group:AL_20"
+ },
+ {
+  "Key": "vat_return_box_rule:45:0",
+  "IdSup": null,
+  "Active": true,
+  "BoxId": "vat_return_box:45",
+  "DocumentCategoryId": "document_category:PURCHASES",
+  "DocumentTypeId": null,
+  "TransactionTypeId": "transaction_type:FIXED_ASSET",
+  "VatGroupId": "vat_group:AL_20"
+ }
+]

@@ -1,0 +1,67 @@
+[
+ {
+  "Key": "vat_group:FR_20",
+  "IdSup": null,
+  "Active": true,
+  "Code": null,
+  "Name": {
+   "en": "VAT 20%",
+   "fr": "TVA 20%"
+  },
+  "Description": null,
+  "Rate": 20.0,
+  "Depreciation": false
+ },
+ {
+  "Key": "vat_group:FR_10",
+  "IdSup": null,
+  "Active": true,
+  "Code": null,
+  "Name": {
+   "en": "VAT 10%",
+   "fr": "TVA 10%"
+  },
+  "Description": null,
+  "Rate": 10.0,
+  "Depreciation": false
+ },
+ {
+  "Key": "vat_group:FR_5.5",
+  "IdSup": null,
+  "Active": true,
+  "Code": null,
+  "Name": {
+   "en": "VAT 5.5%",
+   "fr": "TVA 5,5%"
+  },
+  "Description": null,
+  "Rate": 5.5,
+  "Depreciation": false
+ },
+ {
+  "Key": "vat_group:FR_2.1",
+  "IdSup": null,
+  "Active": true,
+  "Code": null,
+  "Name": {
+   "en": "VAT 2.1%",
+   "fr": "TVA 2,1%"
+  },
+  "Description": null,
+  "Rate": 2.1,
+  "Depreciation": false
+ },
+ {
+  "Key": "vat_group:FR_0",
+  "IdSup": null,
+  "Active": true,
+  "Code": null,
+  "Name": {
+   "en": "VAT 0% / exempt",
+   "fr": "TVA 0% / exonéré"
+  },
+  "Description": null,
+  "Rate": 0.0,
+  "Depreciation": false
+ }
+]

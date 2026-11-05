@@ -1,0 +1,68 @@
+[
+ {
+  "Key": "repair_stage:RECEIVED",
+  "IdSup": null,
+  "Active": true,
+  "Name": {
+   "en": "Received",
+   "es": "Recibido"
+  },
+  "SortOrder": 10.0,
+  "IsFinal": false
+ },
+ {
+  "Key": "repair_stage:OFFER_GIVEN",
+  "IdSup": null,
+  "Active": true,
+  "Name": {
+   "en": "Offer given",
+   "es": "Oferta entregada"
+  },
+  "SortOrder": 20.0,
+  "IsFinal": false
+ },
+ {
+  "Key": "repair_stage:ACCEPTED",
+  "IdSup": null,
+  "Active": true,
+  "Name": {
+   "en": "Accepted",
+   "es": "Aceptada"
+  },
+  "SortOrder": 30.0,
+  "IsFinal": false
+ },
+ {
+  "Key": "repair_stage:READY",
+  "IdSup": null,
+  "Active": true,
+  "Name": {
+   "en": "Ready",
+   "es": "Listo"
+  },
+  "SortOrder": 40.0,
+  "IsFinal": false
+ },
+ {
+  "Key": "repair_stage:COLLECTED",
+  "IdSup": null,
+  "Active": true,
+  "Name": {
+   "en": "Collected",
+   "es": "Recogido"
+  },
+  "SortOrder": 50.0,
+  "IsFinal": true
+ },
+ {
+  "Key": "repair_stage:REFUSED",
+  "IdSup": null,
+  "Active": true,
+  "Name": {
+   "en": "Refused",
+   "es": "Rechazada"
+  },
+  "SortOrder": 60.0,
+  "IsFinal": true
+ }
+]

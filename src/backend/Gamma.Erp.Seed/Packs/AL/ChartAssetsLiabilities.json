@@ -1,0 +1,212 @@
+[
+ {
+  "Key": "chart_assets_liabilities:A",
+  "IdSup": null,
+  "Active": true,
+  "Code": "A",
+  "Name": {
+   "en": "Assets",
+   "sq": "Aktivet"
+  },
+  "SortOrder": 10,
+  "Accounts": null,
+  "BalanceSide": 0,
+  "CreditSide": false,
+  "ResultKind": 0
+ },
+ {
+  "Key": "chart_assets_liabilities:A1",
+  "IdSup": "chart_assets_liabilities:A",
+  "Active": true,
+  "Code": "A1",
+  "Name": {
+   "en": "Non-current assets",
+   "sq": "Aktivet afatgjata"
+  },
+  "SortOrder": 20,
+  "Accounts": "2",
+  "BalanceSide": 0,
+  "CreditSide": false,
+  "ResultKind": 0
+ },
+ {
+  "Key": "chart_assets_liabilities:A2",
+  "IdSup": "chart_assets_liabilities:A",
+  "Active": true,
+  "Code": "A2",
+  "Name": {
+   "en": "Current assets",
+   "sq": "Aktivet afatshkurtra"
+  },
+  "SortOrder": 30,
+  "Accounts": null,
+  "BalanceSide": 0,
+  "CreditSide": false,
+  "ResultKind": 0
+ },
+ {
+  "Key": "chart_assets_liabilities:A21",
+  "IdSup": "chart_assets_liabilities:A2",
+  "Active": true,
+  "Code": "A21",
+  "Name": {
+   "en": "Inventories",
+   "sq": "Inventarët"
+  },
+  "SortOrder": 40,
+  "Accounts": "3",
+  "BalanceSide": 0,
+  "CreditSide": false,
+  "ResultKind": 0
+ },
+ {
+  "Key": "chart_assets_liabilities:A22",
+  "IdSup": "chart_assets_liabilities:A2",
+  "Active": true,
+  "Code": "A22",
+  "Name": {
+   "en": "Receivables",
+   "sq": "Të drejta për t'u arkëtuar"
+  },
+  "SortOrder": 50,
+  "Accounts": "4",
+  "BalanceSide": 1,
+  "CreditSide": false,
+  "ResultKind": 0
+ },
+ {
+  "Key": "chart_assets_liabilities:A23",
+  "IdSup": "chart_assets_liabilities:A2",
+  "Active": true,
+  "Code": "A23",
+  "Name": {
+   "en": "Cash and cash equivalents",
+   "sq": "Mjete monetare"
+  },
+  "SortOrder": 60,
+  "Accounts": "5",
+  "BalanceSide": 1,
+  "CreditSide": false,
+  "ResultKind": 0
+ },
+ {
+  "Key": "chart_assets_liabilities:P",
+  "IdSup": null,
+  "Active": true,
+  "Code": "P",
+  "Name": {
+   "en": "Liabilities and equity",
+   "sq": "Detyrimet dhe kapitali"
+  },
+  "SortOrder": 70,
+  "Accounts": null,
+  "BalanceSide": 0,
+  "CreditSide": true,
+  "ResultKind": 0
+ },
+ {
+  "Key": "chart_assets_liabilities:P1",
+  "IdSup": "chart_assets_liabilities:P",
+  "Active": true,
+  "Code": "P1",
+  "Name": {
+   "en": "Equity",
+   "sq": "Kapitali"
+  },
+  "SortOrder": 80,
+  "Accounts": null,
+  "BalanceSide": 0,
+  "CreditSide": true,
+  "ResultKind": 0
+ },
+ {
+  "Key": "chart_assets_liabilities:P11",
+  "IdSup": "chart_assets_liabilities:P1",
+  "Active": true,
+  "Code": "P11",
+  "Name": {
+   "en": "Capital and reserves",
+   "sq": "Kapitali dhe rezervat"
+  },
+  "SortOrder": 90,
+  "Accounts": "1",
+  "BalanceSide": 0,
+  "CreditSide": true,
+  "ResultKind": 0
+ },
+ {
+  "Key": "chart_assets_liabilities:P12",
+  "IdSup": "chart_assets_liabilities:P1",
+  "Active": true,
+  "Code": "P12",
+  "Name": {
+   "en": "Retained earnings of prior years",
+   "sq": "Rezultati i viteve të mëparshme"
+  },
+  "SortOrder": 100,
+  "Accounts": null,
+  "BalanceSide": 0,
+  "CreditSide": true,
+  "ResultKind": 2
+ },
+ {
+  "Key": "chart_assets_liabilities:P13",
+  "IdSup": "chart_assets_liabilities:P1",
+  "Active": true,
+  "Code": "P13",
+  "Name": {
+   "en": "Result for the period",
+   "sq": "Rezultati i periudhës"
+  },
+  "SortOrder": 110,
+  "Accounts": null,
+  "BalanceSide": 0,
+  "CreditSide": true,
+  "ResultKind": 1
+ },
+ {
+  "Key": "chart_assets_liabilities:P2",
+  "IdSup": "chart_assets_liabilities:P",
+  "Active": true,
+  "Code": "P2",
+  "Name": {
+   "en": "Liabilities",
+   "sq": "Detyrimet"
+  },
+  "SortOrder": 120,
+  "Accounts": null,
+  "BalanceSide": 0,
+  "CreditSide": true,
+  "ResultKind": 0
+ },
+ {
+  "Key": "chart_assets_liabilities:P21",
+  "IdSup": "chart_assets_liabilities:P2",
+  "Active": true,
+  "Code": "P21",
+  "Name": {
+   "en": "Payables",
+   "sq": "Të pagueshme"
+  },
+  "SortOrder": 130,
+  "Accounts": "4",
+  "BalanceSide": 2,
+  "CreditSide": true,
+  "ResultKind": 0
+ },
+ {
+  "Key": "chart_assets_liabilities:P22",
+  "IdSup": "chart_assets_liabilities:P2",
+  "Active": true,
+  "Code": "P22",
+  "Name": {
+   "en": "Bank overdrafts",
+   "sq": "Mbitërheqje bankare"
+  },
+  "SortOrder": 140,
+  "Accounts": "5",
+  "BalanceSide": 2,
+  "CreditSide": true,
+  "ResultKind": 0
+ }
+]

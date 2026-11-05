@@ -1,0 +1,79 @@
+<header class="top"><img class="mark" src="gamma-logo-white.png" alt="Gamma" /></header>
+<main>
+  @if (!corporate()) {
+    <section class="card">
+      <h1>{{ 'New company' | t }}</h1>
+      @if (session.me()?.isAdministrator) {
+        <p>{{ 'Your organisation is a single company, so there is no group to add a company to.' | t }}</p>
+        <p class="muted">{{ 'A separate business is set up on the server.' | t }}</p>
+        <footer>
+          <a uiButton variant="quiet" routerLink="/choose">{{ 'Back' | t }}</a>
+        </footer>
+      } @else {
+        <p>{{ 'Only an administrator working at the group adds companies.' | t }}</p>
+        <footer><a uiButton variant="quiet" routerLink="/choose">{{ 'Back' | t }}</a></footer>
+      }
+    </section>
+  } @else {
+    <ol class="progress" [attr.aria-label]="'Steps' | t">
+      @for (s of steps; track s; let i = $index) {
+        <li [class.done]="i < step()" [class.current]="i === step()" [attr.aria-current]="i === step() ? 'step' : null">{{ s }}</li>
+      }
+    </ol>
+    <section class="card">
+      <h1>{{ steps[step()] }}</h1>
+      <p class="muted">{{ 'A new company in the group {0}' | t: (corporate()!.name) }}</p>
+      @switch (step()) {
+        @case (0) {
+          <ui-field [label]="'Country' | t" [required]="true">
+            <ui-select [options]="countryOptions()" [searchable]="true" [value]="model().country" (valueChange)="set({ country: $event })" />
+          </ui-field>
+        }
+        @case (1) {
+          <ui-field [label]="'Company name' | t" [required]="true"><input uiInput [value]="model().name" (input)="set({ name: $any($event.target).value })" /></ui-field>
+          <ui-field [label]="'Short code' | t" [hint]="'Empty: made from the name; unique in the group' | t"><input uiInput [value]="model().code" (input)="set({ code: $any($event.target).value })" /></ui-field>
+        }
+        @case (2) {
+          <app-activity-picker [catalogue]="catalogue()" [value]="model().activity" (valueChange)="set({ activity: $event })" />
+          <ui-checkbox [checked]="model().fromCatalogue" (checkedChange)="set({ fromCatalogue: $event })">
+            {{ 'Load only what this activity uses (otherwise the country\'s full configuration)' | t }}
+          </ui-checkbox>
+        }
+        @case (3) {
+          <ui-field [label]="'Start from' | t">
+            <ui-select [options]="companies()" [value]="model().copyFrom" (valueChange)="set({ copyFrom: $event })" />
+          </ui-field>
+          <p class="muted">{{ model().copyFrom ? ('These parts are copied from that company:' | t) : ('These parts of the country\'s pack are loaded:' | t) }}</p>
+          <app-groups-picker [groups]="packGroups()" [value]="model().groups" (valueChange)="set({ groups: $event })" />
+        }
+        @case (4) {
+          <dl class="review">
+            <dt>{{ 'Group' | t }}</dt><dd>{{ corporate()!.name }}</dd>
+            <dt>{{ 'Company' | t }}</dt><dd>{{ model().name }} @if (model().code) { ({{ model().code }}) }</dd>
+            <dt>{{ 'Country' | t }}</dt><dd>{{ model().country }}</dd>
+            <dt>{{ 'Activity' | t }}</dt><dd>{{ activityPath() }} · {{ model().fromCatalogue ? "the activity's configuration" : "the country's full configuration" }}</dd>
+            <dt>{{ 'Starts from' | t }}</dt><dd>{{ source() }}</dd>
+            <dt>{{ 'Loads' | t }}</dt><dd>@for (g of model().groups; track g; let last = $last) { {{ groupNames[g] ?? g }}@if (!last) {, } }</dd>
+          </dl>
+          <p class="muted">{{ 'Everything is made in one go: if anything is refused, nothing is kept. Cash desks, banks and the other places are added afterwards in Company › Cost centres.' | t }}</p>
+        }
+      }
+      @if (message()) { <p class="message" role="alert"><ui-icon name="critical" [size]="16" />{{ message() }}</p> }
+      @if (problem()) { <p class="muted problem">{{ problem() }}</p> }
+      <footer>
+        @if (step() > 0) { <button uiButton variant="quiet" (click)="back()">{{ 'Back' | t }}</button> } @else { <a uiButton variant="quiet" routerLink="/choose">{{ 'Cancel' | t }}</a> }
+        <span class="spacer"></span>
+        @if (step() < steps.length - 1) {
+          <button uiButton variant="primary" [disabled]="!!problem()" (click)="next()">{{ 'Next' | t }}</button>
+        } @else {
+          <button uiButton variant="primary" [disabled]="creating()" (click)="create()">{{ creating() ? ('Setting up…' | t) : ('Create the company' | t) }}</button>
+        }
+      </footer>
+    </section>
+    <section class="card">
+      <h2>{{ "The group's partners" | t }}</h2>
+      <p class="muted">{{ 'Makes the group and each of its companies partners of each other where they are not yet. Safe to repeat.' | t }}</p>
+      <footer><button uiButton [disabled]="linking()" (click)="linkPartners()">{{ "Link the group's partners again" | t }}</button></footer>
+    </section>
+  }
+</main>

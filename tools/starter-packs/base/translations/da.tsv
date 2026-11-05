@@ -1,0 +1,442 @@
+# The base names in Danish, keyed by the English name (Gamma's translations), for the packs in Danish.
+# en	da
+Base	Hovedkontor
+Cash desk	Kasse
+Bank	Bank
+Point of sale	Salgssted
+Warehouse	Lager
+Office	Kontor
+Tax number	CVR-nummer
+Owner	Ejer
+Name	Navn
+Currency	Valuta
+Trade name	Binavn
+Address	Adresse
+Phone	Telefon
+E-mail	E-mail
+Website	Hjemmeside
+Logo	Logo
+Authorised person	Fuldmægtig
+Account	Konto
+Negative stock allowed (cost centres)	Negativ beholdning tilladt (omkostningssteder)
+Negative stock allowed (partners)	Negativ beholdning tilladt (partnere)
+Negative stock allowed (employees)	Negativ beholdning tilladt (medarbejdere)
+cost centres	omkostningssteder
+partners	forretningsforbindelser
+employees	medarbejdere
+Hold timeout (minutes)	Låsetid for bilaget (minutter)
+ALL	ALL
+EUR	EUR
+USD	USD
+GBP	GBP
+CAD	CAD
+CHF	CHF
+Company book	Regnskabsmæssig opgørelse
+Tax book	Skattemæssig opgørelse
+Straight-line	Lineær
+Straight-line depreciation	Lineær afskrivning
+Remaining value	Restværdi
+Depreciation on the remaining value	Saldoafskrivning
+Assets	Anlægsaktiver
+Land	Grunde
+Buildings	Bygninger
+Office equipment	Kontorudstyr
+Vehicles	Transportmidler
+Computer equipment	It-udstyr
+Furniture and fittings	Inventar
+Intangible assets	Immaterielle anlægsaktiver
+Sales	Salg
+Sales invoices	Salgsfakturaer
+Purchases	Køb
+Purchase invoices	Købsfakturaer
+Goods transfers	Lageroverførsler
+Goods transfer note	Overførselsbilag
+Offers	Tilbud
+Journal	Kassekladde
+Contracts	Kontrakter
+Recurring journal	Faste posteringer
+Reversals	Tilbageførsler
+Sales invoice, goods	Salgsfaktura, varer
+Credit note, goods sold	Kreditnota, solgte varer
+Sales invoice, services	Salgsfaktura, tjenesteydelser
+Credit note, services sold	Kreditnota, ydede tjenester
+Purchase invoice, goods	Købsfaktura, varer
+Credit note, goods bought	Købskreditnota, varer
+Purchase invoice, services	Købsfaktura, tjenesteydelser
+Credit note, services bought	Købskreditnota, tjenesteydelser
+Payment	Betaling
+Receipt	Indbetaling
+Prepayment	Forudbetaling
+Goods transfer, cost centre to staff	Overførsel fra omkostningssted til medarbejder
+Sales offer, goods	Tilbud på varer
+Depreciation sheet	Afskrivningsplan
+Depreciation journal	Bogføring af afskrivninger
+Journal sheet	Posteringsbilag
+Revaluation sheet	Opskrivningsoversigt
+Revaluation journal	Bogføring af opskrivning
+Advance	Forskud
+Client's advance	Forskud fra kunde
+Employee advance	Forskud til medarbejder
+Advance to an employee	Forskud til en medarbejder
+Sales contract, goods	Salgskontrakt, varer
+Purchase contract, goods	Købskontrakt, varer
+Purchase offer, goods	Forespørgsel på varer
+Sales offer, services	Tilbud på tjenesteydelser
+Purchase offer, services	Forespørgsel på tjenesteydelser
+Sales contract, services	Kontrakt om tjenesteydelser
+Purchase contract, services	Kontrakt om købte tjenesteydelser
+Recurring depreciation sheet	Fast afskrivningsplan
+Recurring journal sheet	Fast posteringsbilag
+Recurring revaluation sheet	Fast opskrivningsoversigt
+General journal entry	Almindelig postering
+Point-of-sale receipt	Kassebon
+Goods transfer, staff to cost centre	Overførsel fra medarbejder til omkostningssted
+Goods transfer, cost centre to client	Levering fra omkostningssted til kunde
+Goods transfer, client to cost centre	Returnering fra kunde til omkostningssted
+Point-of-sale contract	Kontrakt for salgsstedet
+Point-of-sale receipt of money	Indbetaling på salgsstedet
+Point-of-sale payment	Udbetaling på salgsstedet
+Point-of-sale goods in	Varemodtagelse på salgsstedet
+Point-of-sale goods out	Vareudlevering fra salgsstedet
+Wage payment	Lønudbetaling
+Rent payment	Huslejebetaling
+Customs declaration	Toldangivelse
+Customs declaration, assets	Toldangivelse for anlægsaktiver
+Point-of-sale refund	Tilbagebetaling på salgsstedet
+Point-of-sale receipt from staff	Indbetaling fra medarbejder på salgsstedet
+Goods out to staff	Udlevering til medarbejder
+Goods transfer, staff to client	Levering fra medarbejder til kunde
+Goods in from staff	Modtagelse fra medarbejder
+Reversal of payment	Tilbageførsel af betaling
+Reversal of receipt	Tilbageførsel af indbetaling
+Reversal of prepayment	Tilbageførsel af forudbetaling
+Reversal of depreciation journal	Tilbageførsel af afskrivninger
+Reversal of advance	Tilbageførsel af forskud
+Reversal of employee advance	Tilbageførsel af forskud til medarbejder
+End date	Slutdato
+Offer valid until	Tilbuddet gælder til
+Start date	Startdato
+External number	Eksternt nummer
+Contract number	Kontraktnummer
+Invoice number	Fakturanummer
+Carrier	Fragtfører
+Linked invoice	Tilknyttet faktura
+Purchase invoice	Købsfaktura
+Last payment date	Dato for seneste betaling
+Accounts	Konti
+Products / services	Produkter / tjenesteydelser
+Client / supplier / third party	Kunde / leverandør / tredjemand
+Staff	Personale
+Financial documents	Bilag
+Transaction value	Linjens beløb
+Transaction discount	Linjens rabat
+Transaction VAT	Linjens moms
+Asset's remaining value	Aktivets restværdi
+Transaction debit	Linjens debet
+Transaction credit	Linjens kredit
+Transaction value with VAT	Linjens beløb inkl. moms
+Non-current asset accounts	Konti for anlægsaktiver
+Inventory accounts	Lagerkonti
+Expense accounts	Omkostningskonti
+Income accounts	Indtægtskonti
+All accounts	Alle konti
+table	tabel
+specified element	bestemt element
+empty element	tomt element
+line reference	linjehenvisning
+line configuration	linjeopsætning
+document reference	bilagshenvisning
+document configuration	bilagsopsætning
+scenario configuration	konteringsopsætning
+depreciation scenario configuration	konteringsopsætning for afskrivninger
+depreciation scenario	afskrivningskontering
+Transaction amount	Linjens beløb
+Finance	Bogholderi
+Administrator	Administrator
+Financier	Bogholder
+Warehouse keeper	Lagermedarbejder
+Driver	Chauffør
+Worker	Arbejder
+Clients	Kunder
+Suppliers	Leverandører
+Unknown	Ukendt
+Person	Privatperson
+SME	SMV
+LTD	ApS
+Cash	Kontant
+Unpaid	Ubetalt
+Credit card	Betalingskort
+Products	Produkter
+Services	Tjenesteydelser
+Goods	Varer
+Service	Tjenesteydelse
+Asset	Anlægsaktiv
+Items	Varenumre
+Transactions	Linjer
+Journal lines	Posteringslinjer
+Depreciation lines	Afskrivningslinjer
+Revaluation lines	Opskrivningslinjer
+Item	Varenummer
+Fixed asset	Anlægsaktiv
+Service item	Varenummer (tjeneste)
+Supplier	Leverandør
+Client	Kunde
+Cash desk account	Kassekonto
+Bank account	Bankkonto
+Depreciation	Afskrivning
+Revaluation	Opskrivning
+Fixed asset (service)	Anlægsaktiv (tjeneste)
+Combined item	Styklistevare
+Customs	Told
+Transport	Transport
+Customs agency	Speditør
+Customs, assets	Told på anlægsaktiver
+Transport, assets	Transport af anlægsaktiver
+Customs agency, assets	Speditør for anlægsaktiver
+Piece	Stk.
+kg	kg
+Hour	Time
+Day	Dag
+Month	Måned
+Year	År
+g	g
+cm	cm
+m	m
+mm	mm
+km	km
+Standard	Standard
+Weight	Vægt
+Time	Tid
+Length	Længde
+Seller	Sælger
+IT	IT
+Consultant	Konsulent
+VAT 20%	Moms 20%
+VAT 0%	Moms 0%
+Hall	Sal
+Table	Bord
+Counter	Disk
+Production	Produktion
+Reversal of production	Tilbageførsel af produktion
+Unit split	Enhedsomregning
+Reversal of unit split	Tilbageførsel af enhedsomregning
+Raw material used	Forbrugt råvare
+Produced item	Produceret vare
+Waste	Spild
+Account ledger	Kontokort
+Administration	Administration
+Chart of accounts	Kontoplan
+Client and supplier ledger	Debitor- og kreditorkort
+Client statistics	Kundestatistik
+Clients and suppliers	Kunder og leverandører
+Configuration	Opsætning
+Convert stock between units	Omregn lager til en anden enhed
+Cost centre ledger	Omkostningsstedskort
+Cost centres	Omkostningssteder
+Currencies and exchange rates	Valutaer og valutakurser
+Document types	Dokumenttyper
+Documents	Dokumenter
+Employees	Medarbejdere
+Files	Filer
+Financial reports	Regnskabsrapporter
+Item movements	Varebevægelser
+Menu	Menu
+Menu access	Menuadgang
+Operations	Handlinger
+Orders to produce	Ordrer til produktion
+Payment methods	Betalingsmetoder
+Posting scenarios	Bogføringsscenarier
+Print templates	Udskriftsskabeloner
+Products and services	Varer og ydelser
+Recipes	Opskrifter
+Registers	Stamdata
+Reports	Rapporter
+Rights	Rettigheder
+Sale menus	Salgsmenuer
+Point-of-sale settings	Indstillinger for salgssted
+Shows	Forestillinger
+Purchases from the group	Køb fra koncernen
+Barcode	Stregkode
+Sale prices	Salgspriser
+Sales and purchases by line	Salg og køb pr. linje
+Stock	Lager
+Stock and sales	Lager og salg
+Trial balance	Saldobalance
+Unit conversions	Enhedsomregninger
+Units of measure	Måleenheder
+Users	Brugere
+VAT books	Momsbøger
+VAT groups	Momsgrupper
+VAT return	Momsangivelse
+VAT return boxes	Felter i momsangivelsen
+Company of the group	Koncernselskab
+Restaurant / café	Restaurant / café
+Shop	Butik
+Till	Kasse
+Cinema / theatre	Biograf / teater
+Auditorium	Sal
+Row	Række
+Seat	Sæde
+Hotel	Hotel
+Floor	Etage
+Room	Værelse
+Beds	Senge
+Position X	Position X
+Seats	Pladser
+Position Y	Position Y
+Reversal of journal sheet	Tilbageførsel af kassekladde
+Reversal of depreciation sheet	Tilbageførsel af afskrivningsark
+Reversal of general journal entry	Tilbageførsel af generel postering
+Open the point of sale	Åbn salgsstedet
+Stock and production	Lager og produktion
+Accounting setup	Regnskabsopsætning
+Fixed assets	Anlægsaktiver
+Currencies and payments	Valutaer og betalinger
+Company	Virksomhed
+Users and rights	Brugere og rettigheder
+System settings	Systemindstillinger
+Types and categories	Typer og kategorier
+VAT	Moms
+Financial	Finansielle
+Sale prices by partner	Salgspriser pr. partner
+Sale menu categories	Kategorier i salgsmenuer
+Scenario lines	Scenarielinjer
+Unbalanced scenarios	Scenarier uden balance
+Remaining asset value	Aktivets restværdi
+VAT return box rules	Regler for momsangivelsens felter
+VAT return by boxes	Momsangivelse pr. felt
+Payment methods by cost centre	Betalingsmetoder pr. omkostningssted
+Users and roles	Brugere og roller
+Document flows	Dokumentforløb
+Chart types and categories	Kontoplanens typer og kategorier
+Balance sheet	Balance
+Profit and loss	Resultatopgørelse
+Balance sheet lines	Balancelinjer
+Profit and loss lines	Resultatlinjer
+City	By
+Staff ledger	Personalekonto
+Sales and purchases by client	Salg og køb pr. kunde
+Sales and purchases by cost centre	Salg og køb pr. omkostningssted
+Transfers	Overførsler
+Document totals	Bilagstotaler
+Purchase price history	Købsprishistorik
+Depreciation books	Afskrivningsbøger
+Depreciation methods	Afskrivningsmetoder
+Depreciation scenarios	Afskrivningsscenarier
+Depreciation scenario lines	Linjer i afskrivningsscenarier
+Serial numbers	Serienumre
+User activity	Brugeraktivitet
+Dashboard	Oversigt
+Dashboard items	Oversigtselementer
+Clients owe us	Kunder skylder os
+We owe suppliers	Vi skylder leverandører
+Drafts waiting	Ventende kladder
+Sales and purchases by month	Salg og køb pr. måned
+VAT by month	Moms pr. måned
+Top clients	Topkunder
+Top suppliers	Topleverandører
+Top products	Topprodukter
+Sales by cost centre	Salg pr. omkostningssted
+Migration	Migrering
+Migration steps	Migreringstrin
+Warehouses, banks, cash desks and places	Lagre, banker, kasser og steder
+Client and supplier categories	Kunde- og leverandørkategorier
+Product categories	Produktkategorier
+Units	Enheder
+Exchange rates	Valutakurser
+Next document numbers	Næste bilagsnumre
+Opening balances: clients and suppliers	Åbningssaldi: kunder og leverandører
+Opening balances: banks, cash desks and staff	Åbningssaldi: banker, kasser og personale
+Opening balances: the chart	Åbningssaldi: kontoplanen
+Posting groups	Bogføringsgrupper
+Document categories	Bilagskategorier
+Opening balances: stock	Åbningssaldi: lager
+Opening balances: fixed assets	Åbningssaldi: anlægsaktiver
+VAT groups of document types	Momsgrupper for bilagstyper
+Closed periods	Lukkede perioder
+Transaction types	Transaktionstyper
+Transaction scopes	Transaktionsområder
+Transaction categories	Transaktionskategorier
+Transaction types of document types	Transaktionstyper for bilagstyper
+General client	Generel kunde
+Transaction asset cost	Aktivets kostpris
+Transaction asset depreciation	Aktivets afskrivning
+Transaction asset book value	Aktivets bogførte værdi
+Sales by waiter	Salg pr. tjener
+Ageing	Aldersfordeling
+Open invoices	Åbne fakturaer
+Overdue from clients	Forfaldent fra kunder
+Overdue to suppliers	Forfaldent til leverandører
+Gross profit	Bruttofortjeneste
+Gross profit by cost centre	Bruttofortjeneste pr. omkostningssted
+Top combined products	Top kombinerede produkter
+Close the year	Luk året
+Invoice run	Kontraktfakturering
+Renewals	Fornyelser
+CRM	CRM
+Opportunities	Muligheder
+Pipeline	Salgspipeline
+Forecast	Prognose
+Opportunity stages	Salgsfaser
+Sales opportunities	Salgsmuligheder
+Opportunity	Mulighed
+Qualify	Kvalificering
+Propose	Tilbud
+Negotiate	Forhandling
+Won	Vundet
+Lost	Tabt
+Leads	Leads
+Orders	Ordrer
+Purchase request	Indkøbsanmodning
+Purchase order	Indkøbsordre
+Sales order	Salgsordre
+Approvals	Godkendelser
+Approval limits	Godkendelsesgrænser
+Bank statements	Kontoudtog
+Bank statement formats	Formater for kontoudtog
+Date, text, reference, amount	Dato, tekst, reference, beløb
+Lots	Partier
+Shifts	Vagter
+Production point	Produktionssted
+Production point display	Skærm til produktionssted
+Production routes	Produktionsruter
+Point-of-sale order	Salgsstedsordre
+Repairs	Reparationer
+Repair intake	Reparationsmodtagelse
+Repair offer	Reparationstilbud
+Technician	Tekniker
+Received	Modtaget
+Offer given	Tilbud givet
+Accepted	Accepteret
+Ready	Klar
+Collected	Afhentet
+Refused	Afvist
+Item	Genstand
+Brand and model	Mærke og model
+Serial number or plate	Serienummer eller nummerplade
+Accessories left	Efterladt tilbehør
+Defect described	Beskrevet fejl
+Come back on	Kom tilbage den
+Repair board	Reparationstavle
+Repair stages	Reparationsfaser
+Repair shop	Reparationsværksted
+Roles	Roller
+Account mapping	Kontotilknytning
+Waiter	Tjener
+Cashier	Kasserer
+Disassembly	Adskillelse
+Product taken apart	Adskilt produkt
+Recovered component	Genvundet komponent
+Disassembly waste	Spild ved adskillelse
+Point-of-sale reversal	Tilbageførsel af kassesalg
+Reversal of customs declaration	Tilbageførsel: Toldangivelse
+Reversal of customs declaration, assets	Tilbageførsel: Toldangivelse for anlægsaktiver
+Reversal of goods transfer note	Tilbageførsel: Overførselsbilag
+Reversal of goods transfer, cost centre to staff	Tilbageførsel: Overførsel fra omkostningssted til medarbejder
+Reversal of goods transfer, staff to cost centre	Tilbageførsel: Overførsel fra medarbejder til omkostningssted
+Reversal of goods transfer, cost centre to client	Tilbageførsel: Levering fra omkostningssted til kunde
+Reversal of goods transfer, client to cost centre	Tilbageførsel: Returnering fra kunde til omkostningssted
+Reversal of goods transfer, staff to client	Tilbageførsel: Levering fra medarbejder til kunde
+Opportunity types and categories	Typer og kategorier af salgsmuligheder
+Opportunities and documents	Salgsmuligheder og dokumenter
+Skins	Temaer

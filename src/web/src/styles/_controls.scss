@@ -1,0 +1,220 @@
+// The kit's controls that dress native elements (buttons, inputs), so they keep the browser's own behaviour, forms and accessibility.
+
+// Buttons: <button uiButton> (see ui/button.ts) or class="button". Variants: primary, quiet, danger; sizes: small, touch.
+.button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-2);
+  height: var(--control-h);
+  padding: 0 var(--space-4);
+  border: 1px solid var(--line-strong);
+  border-radius: var(--radius);
+  background: var(--surface);
+  color: var(--ink);
+  font-weight: 500;
+  white-space: nowrap;
+  cursor: pointer;
+  user-select: none;
+
+  &:hover:not(:disabled) {
+    background: var(--hover);
+    text-decoration: none;
+  }
+
+  // One disabled look for every variant, never a half-transparent fill.
+  &:disabled {
+    border-color: var(--line);
+    background: var(--surface-2);
+    color: var(--muted);
+    cursor: default;
+  }
+
+  &.primary {
+    border-color: var(--primary);
+    background: var(--primary);
+    color: var(--primary-ink);
+
+    &:hover:not(:disabled) {
+      background: var(--primary-hover);
+    }
+
+    &:disabled {
+      border-color: var(--line);
+      background: var(--surface-2);
+      color: var(--muted);
+    }
+  }
+
+  &.quiet {
+    border-color: transparent;
+    background: none;
+  }
+
+  &.danger {
+    border-color: var(--critical);
+    background: var(--surface);
+    color: var(--critical);
+
+    &:hover:not(:disabled) {
+      background: var(--critical-bg);
+    }
+
+    &:disabled {
+      border-color: var(--line);
+      background: var(--surface-2);
+      color: var(--muted);
+    }
+  }
+
+  &.small {
+    height: var(--control-h-s);
+    padding: 0 var(--space-3);
+    font-size: var(--text-s);
+  }
+
+  // Touch screens (the point of sale): a finger-sized target.
+  &.touch {
+    height: var(--touch-h);
+    padding: 0 var(--space-5);
+    font-size: var(--text-l);
+  }
+
+  &.icon-only {
+    width: var(--control-h);
+    padding: 0;
+
+    &.small {
+      width: var(--control-h-s);
+    }
+  }
+}
+
+// Text inputs and text areas: <input uiInput> (see ui/input.ts).
+.control {
+  width: 100%;
+  min-width: 0;
+  height: var(--control-h);
+  padding: 0 var(--space-3);
+  border: 1px solid var(--line-strong);
+  border-radius: var(--radius);
+  background: var(--surface);
+  color: var(--ink);
+  font: inherit;
+
+  &::placeholder {
+    color: var(--muted);
+  }
+
+  &:hover:not(:disabled) {
+    border-color: var(--muted);
+  }
+
+  &:focus-visible {
+    outline: 2px solid var(--focus);
+    outline-offset: 0;
+    border-color: var(--focus);
+  }
+
+  &:disabled {
+    background: var(--surface-2);
+    color: var(--muted);
+  }
+
+  &[aria-invalid='true'] {
+    border-color: var(--critical);
+  }
+
+  &.number {
+    text-align: right;
+    font-variant-numeric: tabular-nums;
+  }
+}
+
+// A finished record (a posted document): its fields read as text in a frame, not as a greyed-out form.
+.read-only .control:disabled {
+  border-color: var(--line);
+  background: transparent;
+  color: var(--ink);
+  opacity: 1;
+  -webkit-text-fill-color: var(--ink);
+}
+
+.read-only ui-select ui-icon[name='chevron-down'] {
+  visibility: hidden;
+}
+
+textarea.control {
+  height: auto;
+  min-height: 80px;
+  padding: var(--space-2) var(--space-3);
+  resize: vertical;
+}
+
+// The dropdown panels (select, menus) opened through the CDK overlay.
+.menu-panel,
+.select-panel {
+  min-width: 200px;
+  padding: var(--space-1);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: var(--surface);
+  box-shadow: var(--shadow-pop);
+}
+
+.select-panel {
+  display: flex;
+  flex-direction: column;
+  max-height: 320px;
+}
+
+.menu-item {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  gap: var(--space-2);
+  padding: var(--space-2) var(--space-3);
+  border: 0;
+  border-radius: var(--radius-s);
+  background: none;
+  text-align: left;
+  cursor: pointer;
+
+  &:hover,
+  &:focus {
+    background: var(--hover);
+    outline: none;
+  }
+}
+
+// The dialog's backdrop and panel (CDK dialog).
+.dialog-backdrop {
+  background: var(--backdrop);
+}
+
+.dialog-panel {
+  max-width: calc(100vw - 32px);
+  max-height: calc(100vh - 32px);
+}
+
+// Numbers that line up in columns.
+.figures {
+  font-variant-numeric: tabular-nums;
+}
+
+.muted {
+  color: var(--muted);
+}
+
+// Only for screen readers.
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+  border: 0;
+}

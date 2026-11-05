@@ -1,0 +1,5 @@
+# Text files are stored with LF in the repository; each checkout converts as its platform likes. Shell scripts and packs stay LF everywhere.
+* text=auto
+*.sh text eol=lf
+src/backend/Gamma.Erp.Seed/Packs/** text eol=lf
+tools/starter-packs/** text eol=lf

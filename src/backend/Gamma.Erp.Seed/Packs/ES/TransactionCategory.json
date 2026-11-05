@@ -1,0 +1,66 @@
+[
+ {
+  "Key": "transaction_category:LINES",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "LINES",
+  "Name": {
+   "en": "Transactions",
+   "es": "Líneas"
+  },
+  "Description": {
+   "en": "Transactions",
+   "es": "Líneas"
+  },
+  "SortOrder": 2.0
+ },
+ {
+  "Key": "transaction_category:JOURNAL_LINES",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "JOURNAL_LINES",
+  "Name": {
+   "en": "Journal lines",
+   "es": "Líneas de asiento"
+  },
+  "Description": {
+   "en": "Journal lines",
+   "es": "Líneas de asiento"
+  },
+  "SortOrder": 10.0
+ },
+ {
+  "Key": "transaction_category:DEPRECIATION_LINES",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "DEPRECIATION_LINES",
+  "Name": {
+   "en": "Depreciation lines",
+   "es": "Líneas de amortización"
+  },
+  "Description": {
+   "en": "Depreciation lines",
+   "es": "Líneas de amortización"
+  },
+  "SortOrder": 11.0
+ },
+ {
+  "Key": "transaction_category:REVALUATION_LINES",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "REVALUATION_LINES",
+  "Name": {
+   "en": "Revaluation lines",
+   "es": "Líneas de revalorización"
+  },
+  "Description": {
+   "en": "Revaluation lines",
+   "es": "Líneas de revalorización"
+  },
+  "SortOrder": 12.0
+ }
+]

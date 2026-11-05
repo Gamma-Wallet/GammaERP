@@ -1,0 +1,21 @@
+[
+ {
+  "Key": "bank_statement_format:STANDARD",
+  "IdSup": null,
+  "Active": true,
+  "Name": {
+   "en": "Date, text, reference, amount",
+   "fr": "Date, texte, référence, montant"
+  },
+  "Separator": ",",
+  "HeaderLines": 1,
+  "DateColumn": 1,
+  "DateFormat": "yyyy-MM-dd",
+  "TextColumn": 2,
+  "ReferenceColumn": 3,
+  "AmountColumn": 4,
+  "MoneyInColumn": null,
+  "MoneyOutColumn": null,
+  "DecimalComma": false
+ }
+]

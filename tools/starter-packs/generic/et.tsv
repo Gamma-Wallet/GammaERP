@@ -1,0 +1,179 @@
+# Gamma's generic chart (chart-generic.tsv) in Estonian, by account code. Gamma's translations.
+# code	et
+1	Põhivara
+11	Materiaalne põhivara
+1101	Maa
+1102	Ehitised
+1103	Masinad ja seadmed
+1104	Transpordivahendid
+1105	Inventar
+1106	Arvutustehnika
+1107	Lõpetamata ehitised
+12	Materiaalse põhivara akumuleeritud kulum
+1202	Ehitiste akumuleeritud kulum
+1203	Masinate ja seadmete akumuleeritud kulum
+1204	Transpordivahendite akumuleeritud kulum
+1205	Inventari akumuleeritud kulum
+1206	Arvutustehnika akumuleeritud kulum
+13	Immateriaalne põhivara
+1301	Firmaväärtus
+1302	Tarkvara
+1303	Kaubamärgid ja litsentsid
+14	Immateriaalse põhivara akumuleeritud kulum
+1402	Tarkvara akumuleeritud kulum
+1403	Kaubamärkide ja litsentside akumuleeritud kulum
+15	Kinnisvarainvesteeringud
+1501	Kinnisvarainvesteeringud
+16	Pikaajalised finantsinvesteeringud
+1601	Osalused tütarettevõtjates
+1602	Osalused sidusettevõtjates
+1603	Muud investeeringud
+1604	Pikaajalised laenunõuded
+17	Edasilükkunud tulumaks
+1701	Edasilükkunud tulumaksu vara
+2	Käibevara
+20	Varud
+2001	Kaubad
+2002	Tooraine
+2003	Abimaterjalid
+2004	Valmistoodang
+2005	Lõpetamata toodang
+22	Nõuded ostjate vastu
+2201	Ostjatelt laekumata arved
+2202	Välismaistelt ostjatelt laekumata arved
+2203	Laekumata tšekid
+2209	Ebatõenäoliselt laekuvad nõuded
+23	Muud nõuded
+2301	Ettemakstud kulud
+2302	Ettemaksed tarnijatele
+2303	Ettemaksed töötajatele
+2304	Tagatisdeposiidid
+2305	Muud nõuded
+24	Maksunõuded
+2401	Sisendkäibemaks
+2402	Tagastatav käibemaks
+2403	Ettemakstud maksud
+28	Raha
+2801	Kassa
+2802	Valuutakassa
+2803	Arvelduskonto
+2804	Valuutakonto
+2805	Tähtajalised hoiused
+2806	Raha teel
+3	Omakapital
+30	Osakapital
+3001	Osakapital
+3002	Ülekurss
+31	Reservid
+3101	Ümberhindluse reserv
+3102	Muud reservid
+32	Eelmiste perioodide jaotamata kasum
+3201	Eelmiste perioodide jaotamata kasum
+3202	Aruandeaasta kasum või kahjum
+4	Kohustised
+40	Pikaajalised kohustised
+4001	Pikaajalised pangalaenud
+4002	Rendikohustised
+4003	Osanike laenud
+4004	Edasilükkunud tulumaksu kohustis
+4005	Eraldised
+41	Võlad tarnijatele
+4101	Võlad tarnijatele
+4102	Võlad välismaistele tarnijatele
+4103	Vekslivõlad
+4104	Ostjate ettemaksed
+42	Muud kohustised
+4201	Viitvõlad
+4202	Ettemakstud tulud
+4203	Võlad töövõtjatele
+4204	Sotsiaalmaksu võlad
+4205	Ravikindlustuse võlad
+4206	Muud võlad
+4207	Dividendivõlad
+43	Lühiajalised laenud
+4301	Arvelduskrediit
+4302	Lühiajalised pangalaenud
+44	Maksuvõlad
+4401	Käibemaksukohustis
+4402	Tasumisele kuuluv käibemaks
+4403	Tulumaksuvõlg
+4404	Kinnipeetud tulumaks
+4405	Muud maksuvõlad
+5	Tulud
+50	Müügitulu
+5001	Kaupade müük
+5002	Teenuste müük
+5003	Toodangu müük
+5004	Müügi allahindlused ja tagastused
+51	Muud äritulud
+5101	Renditulu
+5102	Toetused
+5103	Põhivara müügikasum
+5104	Muud tulud
+52	Finantstulud
+5201	Intressitulu
+5202	Dividenditulu
+5203	Kasum valuutakursi muutustest
+6	Ostud ja müüdud kaupade kulu
+60	Ostud
+6001	Kaupade ost
+6002	Tooraine ost
+6003	Materjalide ost
+6004	Ostude allahindlused ja tagastused
+6005	Ostudega seotud veod ja tollimaksud
+61	Varude muutus
+6101	Kaupade varude muutus
+6102	Tooraine varude muutus
+7	Kulud
+70	Tööjõukulud
+7001	Palgakulu
+7002	Sotsiaalmaks
+7003	Tööandja ravikindlustusmaksed
+7004	Muud tööandja maksed
+7005	Muud tööjõukulud
+71	Ruumikulud
+7101	Rent
+7102	Elekter
+7103	Vesi
+7104	Remont ja hooldus
+7105	Kindlustus
+72	Halduskulud
+7201	Side
+7202	Postikulud
+7203	Kontoritarbed
+7204	Audit
+7205	Konsultatsioonid
+7206	Liikmemaksud ja tellimused
+7207	Ettevõtte tasud
+73	Turustuskulud
+7301	Reklaam
+7302	Müügiveod
+7303	Vahendustasud
+7304	Lähetuskulud
+74	Sõidukikulud
+7401	Kütus
+7402	Sõidukimaks ja kindlustus
+7403	Sõidukite remont
+75	Finantskulud
+7501	Intressikulu
+7502	Pangatasud
+7503	Kahjum valuutakursi muutustest
+7504	Rendiintressid
+76	Põhivara kulum
+7601	Ehitiste kulum
+7602	Masinate ja seadmete kulum
+7603	Transpordivahendite kulum
+7604	Inventari kulum
+7605	Arvutustehnika kulum
+7606	Immateriaalse põhivara kulum
+77	Muud kulud
+7701	Ebatõenäoliselt laekuvad nõuded
+7702	Põhivara müügikahjum
+7703	Mittemahaarvatav käibemaks
+7704	Muud kulud
+7705	Varude kaod ja praak
+8	Tulumaks
+80	Maksud
+8001	Ettevõtte tulumaks
+8002	Muud kasumimaksud
+8003	Edasilükkunud tulumaks

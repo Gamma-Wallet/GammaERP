@@ -1,0 +1,114 @@
+[
+ {
+  "Key": "chart_type:0",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "0",
+  "CodeStart": 0,
+  "CodeEnd": 99999,
+  "CodeCurrent": 0,
+  "Name": {
+   "cs": "Účtová třída 0 – Dlouhodobý majetek"
+  },
+  "SortOrder": 10
+ },
+ {
+  "Key": "chart_type:1",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "1",
+  "CodeStart": 0,
+  "CodeEnd": 99999,
+  "CodeCurrent": 0,
+  "Name": {
+   "cs": "Účtová třída 1 – Zásoby"
+  },
+  "SortOrder": 20
+ },
+ {
+  "Key": "chart_type:2",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "2",
+  "CodeStart": 0,
+  "CodeEnd": 99999,
+  "CodeCurrent": 0,
+  "Name": {
+   "cs": "Účtová třída 2 – Krátkodobý finanční majetek a peněžní prostředky"
+  },
+  "SortOrder": 30
+ },
+ {
+  "Key": "chart_type:3",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "3",
+  "CodeStart": 0,
+  "CodeEnd": 99999,
+  "CodeCurrent": 0,
+  "Name": {
+   "cs": "Účtová třída 3 – Zúčtovací vztahy"
+  },
+  "SortOrder": 40
+ },
+ {
+  "Key": "chart_type:4",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "4",
+  "CodeStart": 0,
+  "CodeEnd": 99999,
+  "CodeCurrent": 0,
+  "Name": {
+   "cs": "Účtová třída 4 – Kapitálové účty a dlouhodobé závazky"
+  },
+  "SortOrder": 50
+ },
+ {
+  "Key": "chart_type:5",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "5",
+  "CodeStart": 0,
+  "CodeEnd": 99999,
+  "CodeCurrent": 0,
+  "Name": {
+   "cs": "Účtová třída 5 – Náklady"
+  },
+  "SortOrder": 60
+ },
+ {
+  "Key": "chart_type:6",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "6",
+  "CodeStart": 0,
+  "CodeEnd": 99999,
+  "CodeCurrent": 0,
+  "Name": {
+   "cs": "Účtová třída 6 – Výnosy"
+  },
+  "SortOrder": 70
+ },
+ {
+  "Key": "chart_type:7",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "7",
+  "CodeStart": 0,
+  "CodeEnd": 99999,
+  "CodeCurrent": 0,
+  "Name": {
+   "cs": "Účtová třída 7 – Závěrkové a podrozvahové účty"
+  },
+  "SortOrder": 80
+ }
+]

@@ -1,0 +1,139 @@
+[
+ {
+  "Key": "user_category:ADMINISTRATOR",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "ADMINISTRATOR",
+  "Name": {
+   "en": "Administrator",
+   "hu": "Rendszergazda"
+  },
+  "SortOrder": 10,
+  "IsAdministrator": true
+ },
+ {
+  "Key": "user_category:FINANCE",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "FINANCE",
+  "Name": {
+   "en": "Finance",
+   "hu": "Pénzügy"
+  },
+  "SortOrder": 20
+ },
+ {
+  "Key": "user_category:SELLER",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "SELLER",
+  "Name": {
+   "en": "Seller",
+   "hu": "Eladó"
+  },
+  "SortOrder": 30
+ },
+ {
+  "Key": "user_category:WAREHOUSE",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "WAREHOUSE",
+  "Name": {
+   "en": "Warehouse keeper",
+   "hu": "Raktáros"
+  },
+  "SortOrder": 40
+ },
+ {
+  "Key": "user_category:IT",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "IT",
+  "Name": {
+   "en": "IT",
+   "hu": "IT"
+  },
+  "SortOrder": 50
+ },
+ {
+  "Key": "user_category:CONSULTANT",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "CONSULTANT",
+  "Name": {
+   "en": "Consultant",
+   "hu": "Tanácsadó"
+  },
+  "SortOrder": 60
+ },
+ {
+  "Key": "user_category:PRODUCTION_POINT",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "PRODUCTION_POINT",
+  "Name": {
+   "en": "Production point",
+   "hu": "Termelési pont"
+  },
+  "SortOrder": 70
+ },
+ {
+  "Key": "user_category:TECHNICIAN",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "TECHNICIAN",
+  "Name": {
+   "en": "Technician",
+   "hu": "Technikus"
+  },
+  "SortOrder": 80
+ },
+ {
+  "Key": "user_category:WAITER",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "WAITER",
+  "Name": {
+   "en": "Waiter",
+   "hu": "Pincér"
+  },
+  "SortOrder": 90
+ },
+ {
+  "Key": "user_category:CASHIER",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "CASHIER",
+  "Name": {
+   "en": "Cashier",
+   "hu": "Pénztáros"
+  },
+  "SortOrder": 100
+ },
+ {
+  "Key": "user_category:USERS",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "USERS",
+  "Name": {
+   "en": "Users",
+   "hu": "Felhasználók"
+  },
+  "SortOrder": 5,
+  "Description": {
+   "en": "Users",
+   "hu": "Felhasználók"
+  }
+ }
+]

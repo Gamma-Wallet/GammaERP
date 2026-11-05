@@ -1,0 +1,492 @@
+[
+ {
+  "Key": "partner_type_info:UNKNOWN_TAX_NUMBER",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "partner_type:UNKNOWN",
+  "Name": {
+   "en": "Tax number",
+   "hr": "OIB"
+  },
+  "Description": {
+   "en": "Tax number",
+   "hr": "OIB"
+  },
+  "Required": false,
+  "Kind": 1,
+  "SortOrder": 1.0,
+  "ElementsId": null,
+  "IsFile": false,
+  "Code": "TAX_NUMBER"
+ },
+ {
+  "Key": "partner_type_info:UNKNOWN_CITY",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "partner_type:UNKNOWN",
+  "Name": {
+   "en": "City",
+   "hr": "Grad"
+  },
+  "Description": {
+   "en": "City",
+   "hr": "Grad"
+  },
+  "Required": false,
+  "Kind": 1,
+  "SortOrder": 2.0,
+  "ElementsId": null,
+  "IsFile": false,
+  "Code": "CITY"
+ },
+ {
+  "Key": "partner_type_info:UNKNOWN_ADDRESS",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "partner_type:UNKNOWN",
+  "Name": {
+   "en": "Address",
+   "hr": "Adresa"
+  },
+  "Description": {
+   "en": "Address",
+   "hr": "Adresa"
+  },
+  "Required": false,
+  "Kind": 1,
+  "SortOrder": 3.0,
+  "ElementsId": null,
+  "IsFile": false
+ },
+ {
+  "Key": "partner_type_info:UNKNOWN_PHONE",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "partner_type:UNKNOWN",
+  "Name": {
+   "en": "Phone",
+   "hr": "Telefon"
+  },
+  "Description": {
+   "en": "Phone",
+   "hr": "Telefon"
+  },
+  "Required": false,
+  "Kind": 1,
+  "SortOrder": 4.0,
+  "ElementsId": null,
+  "IsFile": false,
+  "Code": "PHONE"
+ },
+ {
+  "Key": "partner_type_info:UNKNOWN_EMAIL",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "partner_type:UNKNOWN",
+  "Name": {
+   "en": "E-mail",
+   "hr": "E-pošta"
+  },
+  "Description": {
+   "en": "E-mail",
+   "hr": "E-pošta"
+  },
+  "Required": false,
+  "Kind": 1,
+  "SortOrder": 5.0,
+  "ElementsId": null,
+  "IsFile": false
+ },
+ {
+  "Key": "partner_type_info:PERSON_TAX_NUMBER",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "partner_type:PERSON",
+  "Name": {
+   "en": "Tax number",
+   "hr": "OIB"
+  },
+  "Description": {
+   "en": "Tax number",
+   "hr": "OIB"
+  },
+  "Required": false,
+  "Kind": 1,
+  "SortOrder": 1.0,
+  "ElementsId": null,
+  "IsFile": false,
+  "Code": "TAX_NUMBER"
+ },
+ {
+  "Key": "partner_type_info:PERSON_CITY",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "partner_type:PERSON",
+  "Name": {
+   "en": "City",
+   "hr": "Grad"
+  },
+  "Description": {
+   "en": "City",
+   "hr": "Grad"
+  },
+  "Required": false,
+  "Kind": 1,
+  "SortOrder": 2.0,
+  "ElementsId": null,
+  "IsFile": false,
+  "Code": "CITY"
+ },
+ {
+  "Key": "partner_type_info:PERSON_ADDRESS",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "partner_type:PERSON",
+  "Name": {
+   "en": "Address",
+   "hr": "Adresa"
+  },
+  "Description": {
+   "en": "Address",
+   "hr": "Adresa"
+  },
+  "Required": false,
+  "Kind": 1,
+  "SortOrder": 3.0,
+  "ElementsId": null,
+  "IsFile": false
+ },
+ {
+  "Key": "partner_type_info:PERSON_PHONE",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "partner_type:PERSON",
+  "Name": {
+   "en": "Phone",
+   "hr": "Telefon"
+  },
+  "Description": {
+   "en": "Phone",
+   "hr": "Telefon"
+  },
+  "Required": false,
+  "Kind": 1,
+  "SortOrder": 4.0,
+  "ElementsId": null,
+  "IsFile": false,
+  "Code": "PHONE"
+ },
+ {
+  "Key": "partner_type_info:PERSON_EMAIL",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "partner_type:PERSON",
+  "Name": {
+   "en": "E-mail",
+   "hr": "E-pošta"
+  },
+  "Description": {
+   "en": "E-mail",
+   "hr": "E-pošta"
+  },
+  "Required": false,
+  "Kind": 1,
+  "SortOrder": 5.0,
+  "ElementsId": null,
+  "IsFile": false
+ },
+ {
+  "Key": "partner_type_info:SME_TAX_NUMBER",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "partner_type:SME",
+  "Name": {
+   "en": "Tax number",
+   "hr": "OIB"
+  },
+  "Description": {
+   "en": "Tax number",
+   "hr": "OIB"
+  },
+  "Required": false,
+  "Kind": 1,
+  "SortOrder": 1.0,
+  "ElementsId": null,
+  "IsFile": false,
+  "Code": "TAX_NUMBER"
+ },
+ {
+  "Key": "partner_type_info:SME_CITY",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "partner_type:SME",
+  "Name": {
+   "en": "City",
+   "hr": "Grad"
+  },
+  "Description": {
+   "en": "City",
+   "hr": "Grad"
+  },
+  "Required": false,
+  "Kind": 1,
+  "SortOrder": 2.0,
+  "ElementsId": null,
+  "IsFile": false,
+  "Code": "CITY"
+ },
+ {
+  "Key": "partner_type_info:SME_ADDRESS",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "partner_type:SME",
+  "Name": {
+   "en": "Address",
+   "hr": "Adresa"
+  },
+  "Description": {
+   "en": "Address",
+   "hr": "Adresa"
+  },
+  "Required": false,
+  "Kind": 1,
+  "SortOrder": 3.0,
+  "ElementsId": null,
+  "IsFile": false
+ },
+ {
+  "Key": "partner_type_info:SME_PHONE",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "partner_type:SME",
+  "Name": {
+   "en": "Phone",
+   "hr": "Telefon"
+  },
+  "Description": {
+   "en": "Phone",
+   "hr": "Telefon"
+  },
+  "Required": false,
+  "Kind": 1,
+  "SortOrder": 4.0,
+  "ElementsId": null,
+  "IsFile": false,
+  "Code": "PHONE"
+ },
+ {
+  "Key": "partner_type_info:SME_EMAIL",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "partner_type:SME",
+  "Name": {
+   "en": "E-mail",
+   "hr": "E-pošta"
+  },
+  "Description": {
+   "en": "E-mail",
+   "hr": "E-pošta"
+  },
+  "Required": false,
+  "Kind": 1,
+  "SortOrder": 5.0,
+  "ElementsId": null,
+  "IsFile": false
+ },
+ {
+  "Key": "partner_type_info:LTD_TAX_NUMBER",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "partner_type:LTD",
+  "Name": {
+   "en": "Tax number",
+   "hr": "OIB"
+  },
+  "Description": {
+   "en": "Tax number",
+   "hr": "OIB"
+  },
+  "Required": false,
+  "Kind": 1,
+  "SortOrder": 1.0,
+  "ElementsId": null,
+  "IsFile": false,
+  "Code": "TAX_NUMBER"
+ },
+ {
+  "Key": "partner_type_info:LTD_CITY",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "partner_type:LTD",
+  "Name": {
+   "en": "City",
+   "hr": "Grad"
+  },
+  "Description": {
+   "en": "City",
+   "hr": "Grad"
+  },
+  "Required": false,
+  "Kind": 1,
+  "SortOrder": 2.0,
+  "ElementsId": null,
+  "IsFile": false,
+  "Code": "CITY"
+ },
+ {
+  "Key": "partner_type_info:LTD_ADDRESS",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "partner_type:LTD",
+  "Name": {
+   "en": "Address",
+   "hr": "Adresa"
+  },
+  "Description": {
+   "en": "Address",
+   "hr": "Adresa"
+  },
+  "Required": false,
+  "Kind": 1,
+  "SortOrder": 3.0,
+  "ElementsId": null,
+  "IsFile": false
+ },
+ {
+  "Key": "partner_type_info:LTD_PHONE",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "partner_type:LTD",
+  "Name": {
+   "en": "Phone",
+   "hr": "Telefon"
+  },
+  "Description": {
+   "en": "Phone",
+   "hr": "Telefon"
+  },
+  "Required": false,
+  "Kind": 1,
+  "SortOrder": 4.0,
+  "ElementsId": null,
+  "IsFile": false,
+  "Code": "PHONE"
+ },
+ {
+  "Key": "partner_type_info:LTD_EMAIL",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "partner_type:LTD",
+  "Name": {
+   "en": "E-mail",
+   "hr": "E-pošta"
+  },
+  "Description": {
+   "en": "E-mail",
+   "hr": "E-pošta"
+  },
+  "Required": false,
+  "Kind": 1,
+  "SortOrder": 5.0,
+  "ElementsId": null,
+  "IsFile": false
+ },
+ {
+  "Key": "partner_type_info:GROUP_COMPANY_TAX_NUMBER",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "partner_type:GROUP_COMPANY",
+  "Name": {
+   "en": "Tax number",
+   "hr": "OIB"
+  },
+  "Description": {
+   "en": "Tax number",
+   "hr": "OIB"
+  },
+  "Required": false,
+  "Kind": 1,
+  "SortOrder": 1.0,
+  "ElementsId": null,
+  "IsFile": false,
+  "Code": "TAX_NUMBER"
+ },
+ {
+  "Key": "partner_type_info:GROUP_COMPANY_CITY",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "partner_type:GROUP_COMPANY",
+  "Name": {
+   "en": "City",
+   "hr": "Grad"
+  },
+  "Description": {
+   "en": "City",
+   "hr": "Grad"
+  },
+  "Required": false,
+  "Kind": 1,
+  "SortOrder": 2.0,
+  "ElementsId": null,
+  "IsFile": false,
+  "Code": "CITY"
+ },
+ {
+  "Key": "partner_type_info:GROUP_COMPANY_ADDRESS",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "partner_type:GROUP_COMPANY",
+  "Name": {
+   "en": "Address",
+   "hr": "Adresa"
+  },
+  "Description": {
+   "en": "Address",
+   "hr": "Adresa"
+  },
+  "Required": false,
+  "Kind": 1,
+  "SortOrder": 3.0,
+  "ElementsId": null,
+  "IsFile": false
+ },
+ {
+  "Key": "partner_type_info:GROUP_COMPANY_PHONE",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "partner_type:GROUP_COMPANY",
+  "Name": {
+   "en": "Phone",
+   "hr": "Telefon"
+  },
+  "Description": {
+   "en": "Phone",
+   "hr": "Telefon"
+  },
+  "Required": false,
+  "Kind": 1,
+  "SortOrder": 4.0,
+  "ElementsId": null,
+  "IsFile": false,
+  "Code": "PHONE"
+ },
+ {
+  "Key": "partner_type_info:GROUP_COMPANY_EMAIL",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "partner_type:GROUP_COMPANY",
+  "Name": {
+   "en": "E-mail",
+   "hr": "E-pošta"
+  },
+  "Description": {
+   "en": "E-mail",
+   "hr": "E-pošta"
+  },
+  "Required": false,
+  "Kind": 1,
+  "SortOrder": 5.0,
+  "ElementsId": null,
+  "IsFile": false
+ }
+]

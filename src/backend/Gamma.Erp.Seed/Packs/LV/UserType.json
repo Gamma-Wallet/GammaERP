@@ -1,0 +1,18 @@
+[
+ {
+  "Key": "user_type:STAFF",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "STAFF",
+  "Name": {
+   "en": "Staff",
+   "lv": "Personāls"
+  },
+  "SortOrder": 10,
+  "Description": {
+   "en": "Staff",
+   "lv": "Personāls"
+  }
+ }
+]

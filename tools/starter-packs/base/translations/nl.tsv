@@ -1,0 +1,442 @@
+# The base names in Dutch, keyed by the English name (Gamma's translations), for the packs in Dutch.
+# en	nl
+Base	Hoofdvestiging
+Cash desk	Kassa
+Bank	Bank
+Point of sale	Verkooppunt
+Warehouse	Magazijn
+Office	Kantoor
+Tax number	Btw-nummer
+Owner	Eigenaar
+Name	Naam
+Currency	Valuta
+Trade name	Handelsnaam
+Address	Adres
+Phone	Telefoon
+E-mail	E-mail
+Website	Website
+Logo	Logo
+Authorised person	Gevolmachtigde
+Account	Rekening
+Negative stock allowed (cost centres)	Negatieve voorraad toegestaan (kostenplaatsen)
+Negative stock allowed (partners)	Negatieve voorraad toegestaan (relaties)
+Negative stock allowed (employees)	Negatieve voorraad toegestaan (medewerkers)
+cost centres	kostenplaatsen
+partners	relaties
+employees	medewerkers
+Hold timeout (minutes)	Vergrendelingsduur van het document (minuten)
+ALL	ALL
+EUR	EUR
+USD	USD
+GBP	GBP
+CAD	CAD
+CHF	CHF
+Company book	Commerciële administratie
+Tax book	Fiscale administratie
+Straight-line	Lineair
+Straight-line depreciation	Lineaire afschrijving
+Remaining value	Boekwaarde
+Depreciation on the remaining value	Afschrijving op de boekwaarde
+Assets	Vaste activa
+Land	Terreinen
+Buildings	Gebouwen
+Office equipment	Kantoorinventaris
+Vehicles	Vervoermiddelen
+Computer equipment	Computerapparatuur
+Furniture and fittings	Inventaris
+Intangible assets	Immateriële vaste activa
+Sales	Verkoop
+Sales invoices	Verkoopfacturen
+Purchases	Inkoop
+Purchase invoices	Inkoopfacturen
+Goods transfers	Voorraadverplaatsingen
+Goods transfer note	Verplaatsingsbon
+Offers	Offertes
+Journal	Memoriaal
+Contracts	Contracten
+Recurring journal	Periodiek memoriaal
+Reversals	Tegenboekingen
+Sales invoice, goods	Verkoopfactuur goederen
+Credit note, goods sold	Creditnota verkochte goederen
+Sales invoice, services	Verkoopfactuur diensten
+Credit note, services sold	Creditnota geleverde diensten
+Purchase invoice, goods	Inkoopfactuur goederen
+Credit note, goods bought	Inkoopcreditnota goederen
+Purchase invoice, services	Inkoopfactuur diensten
+Credit note, services bought	Inkoopcreditnota diensten
+Payment	Betaling
+Receipt	Ontvangst
+Prepayment	Vooruitbetaling
+Goods transfer, cost centre to staff	Verplaatsing van kostenplaats naar medewerker
+Sales offer, goods	Offerte goederen
+Depreciation sheet	Afschrijvingsstaat
+Depreciation journal	Afschrijvingsboeking
+Journal sheet	Memoriaalboeking
+Revaluation sheet	Herwaarderingsstaat
+Revaluation journal	Herwaarderingsboeking
+Advance	Voorschot
+Client's advance	Voorschot van klant
+Employee advance	Voorschot aan medewerker
+Advance to an employee	Voorschot aan een medewerker
+Sales contract, goods	Verkoopcontract goederen
+Purchase contract, goods	Inkoopcontract goederen
+Purchase offer, goods	Offerteaanvraag goederen
+Sales offer, services	Offerte diensten
+Purchase offer, services	Offerteaanvraag diensten
+Sales contract, services	Dienstverleningscontract
+Purchase contract, services	Contract afgenomen diensten
+Recurring depreciation sheet	Periodieke afschrijvingsstaat
+Recurring journal sheet	Periodieke memoriaalboeking
+Recurring revaluation sheet	Periodieke herwaarderingsstaat
+General journal entry	Algemene boeking
+Point-of-sale receipt	Kassabon
+Goods transfer, staff to cost centre	Verplaatsing van medewerker naar kostenplaats
+Goods transfer, cost centre to client	Levering van kostenplaats aan klant
+Goods transfer, client to cost centre	Retour van klant naar kostenplaats
+Point-of-sale contract	Contract verkooppunt
+Point-of-sale receipt of money	Ontvangst aan het verkooppunt
+Point-of-sale payment	Betaling aan het verkooppunt
+Point-of-sale goods in	Ontvangst goederen verkooppunt
+Point-of-sale goods out	Uitgifte goederen verkooppunt
+Wage payment	Loonbetaling
+Rent payment	Huurbetaling
+Customs declaration	Douaneaangifte
+Customs declaration, assets	Douaneaangifte vaste activa
+Point-of-sale refund	Terugbetaling aan het verkooppunt
+Point-of-sale receipt from staff	Ontvangst van medewerker aan het verkooppunt
+Goods out to staff	Uitgifte aan medewerker
+Goods transfer, staff to client	Levering van medewerker aan klant
+Goods in from staff	Ontvangst van medewerker
+Reversal of payment	Storno betaling
+Reversal of receipt	Storno ontvangst
+Reversal of prepayment	Storno vooruitbetaling
+Reversal of depreciation journal	Storno afschrijvingsboeking
+Reversal of advance	Storno voorschot
+Reversal of employee advance	Storno voorschot aan medewerker
+End date	Einddatum
+Offer valid until	Offerte geldig tot
+Start date	Begindatum
+External number	Extern nummer
+Contract number	Contractnummer
+Invoice number	Factuurnummer
+Carrier	Vervoerder
+Linked invoice	Gekoppelde factuur
+Purchase invoice	Inkoopfactuur
+Last payment date	Datum laatste betaling
+Accounts	Rekeningen
+Products / services	Producten / diensten
+Client / supplier / third party	Klant / leverancier / derde
+Staff	Personeel
+Financial documents	Boekingsstukken
+Transaction value	Bedrag van de regel
+Transaction discount	Korting van de regel
+Transaction VAT	Btw van de regel
+Asset's remaining value	Boekwaarde van het activum
+Transaction debit	Debet van de regel
+Transaction credit	Credit van de regel
+Transaction value with VAT	Bedrag van de regel incl. btw
+Non-current asset accounts	Rekeningen vaste activa
+Inventory accounts	Voorraadrekeningen
+Expense accounts	Kostenrekeningen
+Income accounts	Opbrengstrekeningen
+All accounts	Alle rekeningen
+table	tabel
+specified element	bepaald element
+empty element	leeg element
+line reference	regelverwijzing
+line configuration	regelinstellingen
+document reference	documentverwijzing
+document configuration	documentinstellingen
+scenario configuration	boekingsinstellingen
+depreciation scenario configuration	boekingsinstellingen afschrijving
+depreciation scenario	afschrijvingsboeking
+Transaction amount	Bedrag van de regel
+Finance	Administratie
+Administrator	Beheerder
+Financier	Boekhouder
+Warehouse keeper	Magazijnmedewerker
+Driver	Chauffeur
+Worker	Medewerker productie
+Clients	Klanten
+Suppliers	Leveranciers
+Unknown	Onbekend
+Person	Particulier
+SME	Mkb
+LTD	B.V.
+Cash	Contant
+Unpaid	Onbetaald
+Credit card	Creditcard
+Products	Producten
+Services	Diensten
+Goods	Handelsgoederen
+Service	Dienst
+Asset	Vast activum
+Items	Artikelen
+Transactions	Regels
+Journal lines	Boekingsregels
+Depreciation lines	Afschrijvingsregels
+Revaluation lines	Herwaarderingsregels
+Item	Artikel
+Fixed asset	Vast activum
+Service item	Artikel (dienst)
+Supplier	Leverancier
+Client	Klant
+Cash desk account	Kasrekening
+Bank account	Bankrekening
+Depreciation	Afschrijving
+Revaluation	Herwaardering
+Fixed asset (service)	Vast activum (dienst)
+Combined item	Samengesteld artikel
+Customs	Douane
+Transport	Transport
+Customs agency	Douane-expediteur
+Customs, assets	Douane vaste activa
+Transport, assets	Transport vaste activa
+Customs agency, assets	Douane-expediteur vaste activa
+Piece	Stuk
+kg	kg
+Hour	Uur
+Day	Dag
+Month	Maand
+Year	Jaar
+g	g
+cm	cm
+m	m
+mm	mm
+km	km
+Standard	Standaard
+Weight	Gewicht
+Time	Tijd
+Length	Lengte
+Seller	Verkoper
+IT	IT
+Consultant	Adviseur
+VAT 20%	Btw 20%
+VAT 0%	Btw 0%
+Hall	Zaal
+Table	Tafel
+Counter	Bar
+Production	Productie
+Reversal of production	Storno productie
+Unit split	Eenheidsomrekening
+Reversal of unit split	Storno eenheidsomrekening
+Raw material used	Verbruikte grondstof
+Produced item	Geproduceerd artikel
+Waste	Derving
+Account ledger	Grootboekkaart
+Administration	Beheer
+Chart of accounts	Rekeningschema
+Client and supplier ledger	Debiteuren- en crediteurenkaart
+Client statistics	Klantstatistieken
+Clients and suppliers	Klanten en leveranciers
+Configuration	Configuratie
+Convert stock between units	Voorraad omrekenen naar een andere eenheid
+Cost centre ledger	Kostenplaatskaart
+Cost centres	Kostenplaatsen
+Currencies and exchange rates	Valuta en wisselkoersen
+Document types	Documentsoorten
+Documents	Documenten
+Employees	Medewerkers
+Files	Bestanden
+Financial reports	Financiële rapporten
+Item movements	Artikelbewegingen
+Menu	Menu
+Menu access	Menutoegang
+Operations	Handelingen
+Orders to produce	Te produceren orders
+Payment methods	Betaalmethoden
+Posting scenarios	Boekingsscenario's
+Print templates	Afdruksjablonen
+Products and services	Producten en diensten
+Recipes	Recepturen
+Registers	Stamgegevens
+Reports	Rapporten
+Rights	Rechten
+Sale menus	Verkoopmenu's
+Point-of-sale settings	Instellingen verkooppunt
+Shows	Voorstellingen
+Purchases from the group	Inkopen bij de groep
+Barcode	Streepjescode
+Sale prices	Verkoopprijzen
+Sales and purchases by line	Verkopen en inkopen per regel
+Stock	Voorraad
+Stock and sales	Voorraad en verkoop
+Trial balance	Proef- en saldibalans
+Unit conversions	Eenheidsomrekeningen
+Units of measure	Maateenheden
+Users	Gebruikers
+VAT books	Btw-boeken
+VAT groups	Btw-groepen
+VAT return	Btw-aangifte
+VAT return boxes	Rubrieken van de btw-aangifte
+Company of the group	Groepsmaatschappij
+Restaurant / café	Restaurant / café
+Shop	Winkel
+Till	Kassa
+Cinema / theatre	Bioscoop / theater
+Auditorium	Zaal
+Row	Rij
+Seat	Stoel
+Hotel	Hotel
+Floor	Verdieping
+Room	Kamer
+Beds	Bedden
+Position X	Positie X
+Seats	Plaatsen
+Position Y	Positie Y
+Reversal of journal sheet	Terugboeking van boekingsblad
+Reversal of depreciation sheet	Terugboeking van afschrijvingsblad
+Reversal of general journal entry	Terugboeking van algemene boeking
+Open the point of sale	Verkooppunt openen
+Stock and production	Voorraad en productie
+Accounting setup	Boekhoudinstellingen
+Fixed assets	Vaste activa
+Currencies and payments	Valuta en betalingen
+Company	Bedrijf
+Users and rights	Gebruikers en rechten
+System settings	Systeeminstellingen
+Types and categories	Typen en categorieën
+VAT	Btw
+Financial	Financieel
+Sale prices by partner	Verkoopprijzen per partner
+Sale menu categories	Categorieën van verkoopmenu's
+Scenario lines	Scenarioregels
+Unbalanced scenarios	Niet-sluitende scenario's
+Remaining asset value	Restwaarde van het actief
+VAT return box rules	Regels voor btw-aangiftevakken
+VAT return by boxes	Btw-aangifte per vak
+Payment methods by cost centre	Betaalmethoden per kostenplaats
+Users and roles	Gebruikers en rollen
+Document flows	Documentstromen
+Chart types and categories	Typen en categorieën van het rekeningschema
+Balance sheet	Balans
+Profit and loss	Winst en verlies
+Balance sheet lines	Balansregels
+Profit and loss lines	Regels van winst en verlies
+City	Stad
+Staff ledger	Personeelsgrootboek
+Sales and purchases by client	Verkoop en inkoop per klant
+Sales and purchases by cost centre	Verkoop en inkoop per kostenplaats
+Transfers	Overboekingen
+Document totals	Documenttotalen
+Purchase price history	Inkoopprijshistorie
+Depreciation books	Afschrijvingsboeken
+Depreciation methods	Afschrijvingsmethoden
+Depreciation scenarios	Afschrijvingsscenario's
+Depreciation scenario lines	Regels van afschrijvingsscenario's
+Serial numbers	Serienummers
+User activity	Gebruikersactiviteit
+Dashboard	Dashboard
+Dashboard items	Dashboarditems
+Clients owe us	Klanten zijn ons verschuldigd
+We owe suppliers	Wij zijn leveranciers verschuldigd
+Drafts waiting	Wachtende concepten
+Sales and purchases by month	Verkoop en inkoop per maand
+VAT by month	Btw per maand
+Top clients	Topklanten
+Top suppliers	Topleveranciers
+Top products	Topproducten
+Sales by cost centre	Verkoop per kostenplaats
+Migration	Migratie
+Migration steps	Migratiestappen
+Warehouses, banks, cash desks and places	Magazijnen, banken, kassa’s en plaatsen
+Client and supplier categories	Klant- en leverancierscategorieën
+Product categories	Productcategorieën
+Units	Eenheden
+Exchange rates	Wisselkoersen
+Next document numbers	Volgende documentnummers
+Opening balances: clients and suppliers	Beginsaldi: klanten en leveranciers
+Opening balances: banks, cash desks and staff	Beginsaldi: banken, kassa’s en personeel
+Opening balances: the chart	Beginsaldi: rekeningschema
+Posting groups	Boekingsgroepen
+Document categories	Documentcategorieën
+Opening balances: stock	Beginsaldi: voorraad
+Opening balances: fixed assets	Beginsaldi: vaste activa
+VAT groups of document types	Btw-groepen van documenttypen
+Closed periods	Afgesloten perioden
+Transaction types	Transactietypen
+Transaction scopes	Transactiebereiken
+Transaction categories	Transactiecategorieën
+Transaction types of document types	Transactietypen van documenttypen
+General client	Algemene klant
+Transaction asset cost	Kostprijs van het actief
+Transaction asset depreciation	Afschrijving van het actief
+Transaction asset book value	Boekwaarde van het actief
+Sales by waiter	Verkoop per ober
+Ageing	Ouderdomsanalyse
+Open invoices	Openstaande facturen
+Overdue from clients	Achterstallig van klanten
+Overdue to suppliers	Achterstallig aan leveranciers
+Gross profit	Brutowinst
+Gross profit by cost centre	Brutowinst per kostenplaats
+Top combined products	Beste samengestelde producten
+Close the year	Jaar afsluiten
+Invoice run	Contractfacturatie
+Renewals	Verlengingen
+CRM	CRM
+Opportunities	Kansen
+Pipeline	Verkooppijplijn
+Forecast	Prognose
+Opportunity stages	Fasen van kansen
+Sales opportunities	Verkoopkansen
+Opportunity	Kans
+Qualify	Kwalificatie
+Propose	Voorstel
+Negotiate	Onderhandeling
+Won	Gewonnen
+Lost	Verloren
+Leads	Leads
+Orders	Orders
+Purchase request	Inkoopaanvraag
+Purchase order	Inkooporder
+Sales order	Verkooporder
+Approvals	Goedkeuringen
+Approval limits	Goedkeuringslimieten
+Bank statements	Bankafschriften
+Bank statement formats	Bankafschriftformaten
+Date, text, reference, amount	Datum, tekst, referentie, bedrag
+Lots	Partijen
+Shifts	Diensten
+Production point	Productiepunt
+Production point display	Scherm van het productiepunt
+Production routes	Productieroutes
+Point-of-sale order	Bestelling verkooppunt
+Repairs	Reparaties
+Repair intake	Reparatie-inname
+Repair offer	Reparatieofferte
+Technician	Technicus
+Received	Ontvangen
+Offer given	Offerte gegeven
+Accepted	Geaccepteerd
+Ready	Klaar
+Collected	Opgehaald
+Refused	Geweigerd
+Item	Artikel
+Brand and model	Merk en model
+Serial number or plate	Serienummer of kenteken
+Accessories left	Achtergelaten accessoires
+Defect described	Beschreven defect
+Come back on	Terugkomen op
+Repair board	Reparatiebord
+Repair stages	Reparatiefasen
+Repair shop	Reparatiewerkplaats
+Roles	Rollen
+Account mapping	Rekeningkoppeling
+Waiter	Ober
+Cashier	Kassier
+Disassembly	Demontage
+Product taken apart	Gedemonteerd product
+Recovered component	Teruggewonnen onderdeel
+Disassembly waste	Demontageverlies
+Point-of-sale reversal	Storno kassaverkoop
+Reversal of customs declaration	Storno: Douaneaangifte
+Reversal of customs declaration, assets	Storno: Douaneaangifte vaste activa
+Reversal of goods transfer note	Storno: Verplaatsingsbon
+Reversal of goods transfer, cost centre to staff	Storno: Verplaatsing van kostenplaats naar medewerker
+Reversal of goods transfer, staff to cost centre	Storno: Verplaatsing van medewerker naar kostenplaats
+Reversal of goods transfer, cost centre to client	Storno: Levering van kostenplaats aan klant
+Reversal of goods transfer, client to cost centre	Storno: Retour van klant naar kostenplaats
+Reversal of goods transfer, staff to client	Storno: Levering van medewerker aan klant
+Opportunity types and categories	Soorten en categorieën van kansen
+Opportunities and documents	Kansen en documenten
+Skins	Thema’s

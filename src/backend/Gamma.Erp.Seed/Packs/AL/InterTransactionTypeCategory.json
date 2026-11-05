@@ -1,0 +1,233 @@
+[
+ {
+  "Key": "inter_transaction_type_category:1",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "transaction_type:ACCOUNT",
+  "CategoryId": "transaction_category:LINES"
+ },
+ {
+  "Key": "inter_transaction_type_category:2",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "transaction_type:ITEM",
+  "CategoryId": "transaction_category:LINES"
+ },
+ {
+  "Key": "inter_transaction_type_category:3",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "transaction_type:FIXED_ASSET",
+  "CategoryId": "transaction_category:LINES"
+ },
+ {
+  "Key": "inter_transaction_type_category:4",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "transaction_type:SERVICE_ITEM",
+  "CategoryId": "transaction_category:LINES"
+ },
+ {
+  "Key": "inter_transaction_type_category:5",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "transaction_type:SUPPLIER",
+  "CategoryId": "transaction_category:LINES"
+ },
+ {
+  "Key": "inter_transaction_type_category:6",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "transaction_type:CLIENT",
+  "CategoryId": "transaction_category:LINES"
+ },
+ {
+  "Key": "inter_transaction_type_category:7",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "transaction_type:CASH_DESK_ACCOUNT",
+  "CategoryId": "transaction_category:LINES"
+ },
+ {
+  "Key": "inter_transaction_type_category:8",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "transaction_type:BANK_ACCOUNT",
+  "CategoryId": "transaction_category:LINES"
+ },
+ {
+  "Key": "inter_transaction_type_category:9",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "transaction_type:STAFF",
+  "CategoryId": "transaction_category:LINES"
+ },
+ {
+  "Key": "inter_transaction_type_category:10",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "transaction_type:ACCOUNT",
+  "CategoryId": "transaction_category:JOURNAL_LINES"
+ },
+ {
+  "Key": "inter_transaction_type_category:11",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "transaction_type:SUPPLIER",
+  "CategoryId": "transaction_category:JOURNAL_LINES"
+ },
+ {
+  "Key": "inter_transaction_type_category:12",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "transaction_type:CLIENT",
+  "CategoryId": "transaction_category:JOURNAL_LINES"
+ },
+ {
+  "Key": "inter_transaction_type_category:13",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "transaction_type:CASH_DESK_ACCOUNT",
+  "CategoryId": "transaction_category:JOURNAL_LINES"
+ },
+ {
+  "Key": "inter_transaction_type_category:14",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "transaction_type:BANK_ACCOUNT",
+  "CategoryId": "transaction_category:JOURNAL_LINES"
+ },
+ {
+  "Key": "inter_transaction_type_category:15",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "transaction_type:STAFF",
+  "CategoryId": "transaction_category:JOURNAL_LINES"
+ },
+ {
+  "Key": "inter_transaction_type_category:16",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "transaction_type:FIXED_ASSET_SERVICE",
+  "CategoryId": "transaction_category:LINES"
+ },
+ {
+  "Key": "inter_transaction_type_category:17",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "transaction_type:ACCOUNT",
+  "CategoryId": "transaction_category:DEPRECIATION_LINES"
+ },
+ {
+  "Key": "inter_transaction_type_category:18",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "transaction_type:REVALUATION",
+  "CategoryId": "transaction_category:REVALUATION_LINES"
+ },
+ {
+  "Key": "inter_transaction_type_category:19",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "transaction_type:COMBINED_ITEM",
+  "CategoryId": "transaction_category:LINES"
+ },
+ {
+  "Key": "inter_transaction_type_category:20",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "transaction_type:FIXED_ASSET",
+  "CategoryId": "transaction_category:JOURNAL_LINES"
+ },
+ {
+  "Key": "inter_transaction_type_category:21",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "transaction_type:DEPRECIATION",
+  "CategoryId": "transaction_category:DEPRECIATION_LINES"
+ },
+ {
+  "Key": "inter_transaction_type_category:22",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "transaction_type:CUSTOMS",
+  "CategoryId": "transaction_category:LINES"
+ },
+ {
+  "Key": "inter_transaction_type_category:23",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "transaction_type:TRANSPORT",
+  "CategoryId": "transaction_category:LINES"
+ },
+ {
+  "Key": "inter_transaction_type_category:24",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "transaction_type:CUSTOMS_AGENCY",
+  "CategoryId": "transaction_category:LINES"
+ },
+ {
+  "Key": "inter_transaction_type_category:25",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "transaction_type:CUSTOMS_ASSETS",
+  "CategoryId": "transaction_category:LINES"
+ },
+ {
+  "Key": "inter_transaction_type_category:26",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "transaction_type:TRANSPORT_ASSETS",
+  "CategoryId": "transaction_category:LINES"
+ },
+ {
+  "Key": "inter_transaction_type_category:27",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "transaction_type:CUSTOMS_AGENCY_ASSETS",
+  "CategoryId": "transaction_category:LINES"
+ },
+ {
+  "Key": "inter_transaction_type_category:production:RAW_MATERIAL",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "transaction_type:RAW_MATERIAL",
+  "CategoryId": "transaction_category:LINES"
+ },
+ {
+  "Key": "inter_transaction_type_category:production:PRODUCED_ITEM",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "transaction_type:PRODUCED_ITEM",
+  "CategoryId": "transaction_category:LINES"
+ },
+ {
+  "Key": "inter_transaction_type_category:production:WASTE",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "transaction_type:WASTE",
+  "CategoryId": "transaction_category:LINES"
+ },
+ {
+  "Key": "inter_transaction_type_category:disassembly:DISASSEMBLED_ITEM",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "transaction_type:DISASSEMBLED_ITEM",
+  "CategoryId": "transaction_category:LINES"
+ },
+ {
+  "Key": "inter_transaction_type_category:disassembly:RECOVERED_PART",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "transaction_type:RECOVERED_PART",
+  "CategoryId": "transaction_category:LINES"
+ },
+ {
+  "Key": "inter_transaction_type_category:disassembly:DISASSEMBLY_WASTE",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "transaction_type:DISASSEMBLY_WASTE",
+  "CategoryId": "transaction_category:LINES"
+ }
+]

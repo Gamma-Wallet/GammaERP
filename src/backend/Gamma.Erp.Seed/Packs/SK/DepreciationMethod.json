@@ -1,0 +1,30 @@
+[
+ {
+  "Key": "depreciation_method:STRAIGHT_LINE",
+  "IdSup": null,
+  "Active": true,
+  "Name": {
+   "en": "Straight-line",
+   "sk": "Rovnomerné"
+  },
+  "Description": {
+   "en": "Straight-line depreciation",
+   "sk": "Rovnomerné odpisovanie"
+  },
+  "Formula": "(VF/DT)*DK"
+ },
+ {
+  "Key": "depreciation_method:REMAINING_VALUE",
+  "IdSup": null,
+  "Active": true,
+  "Name": {
+   "en": "Remaining value",
+   "sk": "Zostatková cena"
+  },
+  "Description": {
+   "en": "Depreciation on the remaining value",
+   "sk": "Odpisovanie zo zostatkovej ceny"
+  },
+  "Formula": "((VF*PD*((1-PD)^YK))/365)*DK"
+ }
+]

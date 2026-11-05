@@ -1,0 +1,301 @@
+{
+  "country": "NL",
+  "language": "nl",
+  "currency": "EUR",
+  "sources": [
+    "VAT: Wet op de omzetbelasting 1968: 21 % general, 9 % reduced, 0 %",
+    "Depreciation: Wet Vpb 1969 / Wet IB 2001: at most 20 % a year on movable assets (computers and vehicles 5 years), buildings down to the WOZ floor, goodwill at most 10 % a year"
+  ],
+  "uncertain": [
+    "The chart is Gamma's generic one on the IAS 1 captions, not an official chart.",
+    "The Netherlands' Referentie Grootboekschema (RGS) is the national reference chart; mapping to RGS codes is to be added.",
+    "Document codes are the English ones (INV, CN, REC…); they can be set to Dutch ones in NL/country.json."
+  ],
+  "chart": {
+    "generic": true,
+    "category": {
+      "code": "GAMMA",
+      "name": "Rekeningschema (Gamma, volgens IAS 1)"
+    },
+    "types": [
+      {
+        "code": "1",
+        "name": "Rubriek 1 – Vaste activa",
+        "prefixes": [
+          "1"
+        ],
+        "roles": [
+          "fixed_assets"
+        ]
+      },
+      {
+        "code": "2",
+        "name": "Rubriek 2 – Vlottende activa",
+        "prefixes": [
+          "2"
+        ],
+        "roles": []
+      },
+      {
+        "code": "3",
+        "name": "Rubriek 3 – Eigen vermogen",
+        "prefixes": [
+          "3"
+        ],
+        "roles": []
+      },
+      {
+        "code": "4",
+        "name": "Rubriek 4 – Schulden",
+        "prefixes": [
+          "4"
+        ],
+        "roles": []
+      },
+      {
+        "code": "5",
+        "name": "Rubriek 5 – Opbrengsten",
+        "prefixes": [
+          "5"
+        ],
+        "roles": [
+          "income"
+        ]
+      },
+      {
+        "code": "6",
+        "name": "Rubriek 6 – Inkoop en kostprijs van de omzet",
+        "prefixes": [
+          "6"
+        ],
+        "roles": [
+          "inventories"
+        ]
+      },
+      {
+        "code": "7",
+        "name": "Rubriek 7 – Kosten",
+        "prefixes": [
+          "7"
+        ],
+        "roles": [
+          "expenses"
+        ]
+      },
+      {
+        "code": "8",
+        "name": "Rubriek 8 – Belastingen",
+        "prefixes": [
+          "8"
+        ],
+        "roles": []
+      }
+    ]
+  },
+  "roles": {
+    "clients": "2201",
+    "output_vat": "4401",
+    "suppliers": "4101",
+    "input_vat": "2401",
+    "employee_advances": "2303",
+    "goods_sales": "5001",
+    "goods_purchases": "6001",
+    "client_advances": "4104",
+    "supplier_prepayments": "2302",
+    "wages_payable": "4203",
+    "rent_expense": "7101",
+    "services_sales": "5002",
+    "services_purchases": "7205",
+    "asset_assets": "1103",
+    "asset_land": "1101",
+    "asset_buildings": "1102",
+    "asset_office": "1105",
+    "asset_vehicles": "1104",
+    "asset_computers": "1106",
+    "asset_furniture": "1105",
+    "asset_intangible": "1302",
+    "production": "2005",
+    "waste": "7705"
+  },
+  "cash_account": "2801",
+  "bank_account": "2803",
+  "services_account": "5002",
+  "vat": [
+    {
+      "rate": 21,
+      "name": "Btw 21%",
+      "en": "VAT 21%",
+      "standard": true
+    },
+    {
+      "rate": 9,
+      "name": "Btw 9%",
+      "en": "VAT 9%",
+      "standard": true
+    },
+    {
+      "rate": 0,
+      "name": "Btw 0% / vrijgesteld",
+      "en": "VAT 0% / exempt",
+      "standard": false
+    }
+  ],
+  "depreciation": {
+    "assets": [
+      120,
+      10,
+      "7602",
+      "1203"
+    ],
+    "land": [
+      null,
+      0,
+      null,
+      null
+    ],
+    "buildings": [
+      360,
+      3.33,
+      "7601",
+      "1202"
+    ],
+    "office": [
+      120,
+      10,
+      "7604",
+      "1205"
+    ],
+    "vehicles": [
+      60,
+      20,
+      "7603",
+      "1204"
+    ],
+    "computers": [
+      60,
+      20,
+      "7605",
+      "1206"
+    ],
+    "furniture": [
+      120,
+      10,
+      "7604",
+      "1205"
+    ],
+    "intangible": [
+      60,
+      20,
+      "7606",
+      "1402"
+    ]
+  },
+  "document_codes": {
+    "PURCHASE_REQUEST": "PRQ",
+    "PURCHASE_ORDER": "POR",
+    "SALES_ORDER": "SOR",
+    "REPAIR_INTAKE": "RIN",
+    "REPAIR_OFFER": "ROF",
+    "POS_ORDER": "PSO",
+    "SALES_INVOICE_GOODS": "INV",
+    "CREDIT_NOTE_GOODS_SOLD": "CN",
+    "SALES_INVOICE_SERVICES": "INVS",
+    "CREDIT_NOTE_SERVICES_SOLD": "CNS",
+    "PURCHASE_INVOICE_GOODS": "PINV",
+    "CREDIT_NOTE_GOODS_BOUGHT": "PCN",
+    "PURCHASE_INVOICE_SERVICES": "PINVS",
+    "CREDIT_NOTE_SERVICES_BOUGHT": "PCNS",
+    "GOODS_TRANSFER": "DN",
+    "PAYMENT": "PAY",
+    "RECEIPT": "REC",
+    "PREPAYMENT": "PPAY",
+    "GOODS_TRANSFER_TO_STAFF": "DNS",
+    "SALES_OFFER_GOODS": "QUO",
+    "DEPRECIATION_SHEET": "DEPS",
+    "DEPRECIATION_JOURNAL": "DEP",
+    "JOURNAL_SHEET": "JVS",
+    "JOURNAL_PAYMENT": "PAY",
+    "JOURNAL_RECEIPT": "REC",
+    "JOURNAL_PREPAYMENT": "PPAY",
+    "REVALUATION_SHEET": "REVS",
+    "REVALUATION_JOURNAL": "REV",
+    "ADVANCE": "ADV",
+    "EMPLOYEE_ADVANCE": "EADV",
+    "JOURNAL_ADVANCE": "ADV",
+    "JOURNAL_EMPLOYEE_ADVANCE": "EADV",
+    "SALES_CONTRACT_GOODS": "SCON",
+    "PURCHASE_CONTRACT_GOODS": "PCON",
+    "PURCHASE_OFFER_GOODS": "RFQ",
+    "SALES_OFFER_SERVICES": "QUOS",
+    "PURCHASE_OFFER_SERVICES": "RFQS",
+    "SALES_CONTRACT_SERVICES": "SCONS",
+    "PURCHASE_CONTRACT_SERVICES": "PCONS",
+    "RECURRING_DEPRECIATION_SHEET": "DEPR",
+    "RECURRING_JOURNAL_SHEET": "JVR",
+    "RECURRING_REVALUATION_SHEET": "REVR",
+    "GENERAL_JOURNAL_ENTRY": "JV",
+    "POS_RECEIPT": "RCPT",
+    "GOODS_TRANSFER_FROM_STAFF": "DNSC",
+    "GOODS_TRANSFER_TO_CLIENT": "DNCC",
+    "GOODS_TRANSFER_FROM_CLIENT": "DNKC",
+    "POS_CONTRACT": "POSC",
+    "POS_MONEY_IN": "POSR",
+    "POS_MONEY_OUT": "POSP",
+    "POS_GOODS_IN": "POSIN",
+    "POS_GOODS_OUT": "POSOUT",
+    "WAGE_PAYMENT": "PAYW",
+    "RENT_PAYMENT": "PAYR",
+    "CUSTOMS_DECLARATION": "CUS",
+    "CUSTOMS_DECLARATION_ASSETS": "CUSA",
+    "POS_REVERSAL": "RRET",
+    "POS_REFUND": "POSREF",
+    "POS_MONEY_FROM_STAFF": "POSRS",
+    "GOODS_OUT_TO_STAFF": "SOUT",
+    "GOODS_TRANSFER_STAFF_TO_CLIENT": "DNSK",
+    "GOODS_IN_FROM_STAFF": "SIN",
+    "REVERSAL_PAYMENT": "RPAY",
+    "REVERSAL_RECEIPT": "RREC",
+    "REVERSAL_PREPAYMENT": "RPPAY",
+    "REVERSAL_DEPRECIATION_JOURNAL": "RDEP",
+    "REVERSAL_JOURNAL_PAYMENT": "RPAYJ",
+    "REVERSAL_JOURNAL_RECEIPT": "RRECJ",
+    "REVERSAL_JOURNAL_PREPAYMENT": "RPPAYJ",
+    "REVERSAL_ADVANCE": "RADV",
+    "REVERSAL_EMPLOYEE_ADVANCE": "READV",
+    "REVERSAL_JOURNAL_ADVANCE": "RADVJ",
+    "REVERSAL_JOURNAL_EMPLOYEE_ADVANCE": "READVJ",
+    "PRODUCTION": "PRD",
+    "UNIT_SPLIT": "UNS",
+    "REVERSAL_UNIT_SPLIT": "RUNS",
+    "REVERSAL_JOURNAL_SHEET": "RJVSJ",
+    "REVERSAL_DEPRECIATION_SHEET": "RDEPSJ",
+    "REVERSAL_GENERAL_JOURNAL_ENTRY": "RJVJ",
+    "RECURRING_JOURNAL_PAYMENT": "PAYRR",
+    "REVERSAL_RECURRING_JOURNAL_PAYMENT": "RPAYRJ",
+    "RECURRING_JOURNAL_RECEIPT": "RECR",
+    "REVERSAL_RECURRING_JOURNAL_RECEIPT": "RRECRJ",
+    "RECURRING_JOURNAL_PREPAYMENT": "PPAYR",
+    "REVERSAL_RECURRING_JOURNAL_PREPAYMENT": "RPPAYRJ",
+    "RECURRING_JOURNAL_ADVANCE": "ADVR",
+    "REVERSAL_RECURRING_JOURNAL_ADVANCE": "RADVRJ",
+    "RECURRING_JOURNAL_EMPLOYEE_ADVANCE": "EADVR",
+    "REVERSAL_RECURRING_JOURNAL_EMPLOYEE_ADVANCE": "READVRJ",
+    "RECURRING_GENERAL_JOURNAL_ENTRY": "JVRR",
+    "REVERSAL_RECURRING_GENERAL_JOURNAL_ENTRY": "RJVRJ",
+    "REVERSAL_RECURRING_JOURNAL_SHEET": "RJVRJR",
+    "RECURRING_DEPRECIATION_JOURNAL": "DEPRR",
+    "REVERSAL_RECURRING_DEPRECIATION_JOURNAL": "RDEPRJ",
+    "REVERSAL_RECURRING_DEPRECIATION_SHEET": "RDEPRJR",
+    "RECURRING_REVALUATION_JOURNAL": "REVRR",
+    "DISASSEMBLY": "DIS",
+    "REVERSAL_CUSTOMS_DECLARATION": "RCUS",
+    "REVERSAL_CUSTOMS_DECLARATION_ASSETS": "RCUSA",
+    "REVERSAL_GOODS_TRANSFER": "RDN",
+    "REVERSAL_GOODS_TRANSFER_TO_STAFF": "RDNS",
+    "REVERSAL_GOODS_TRANSFER_FROM_STAFF": "RDNSC",
+    "REVERSAL_GOODS_TRANSFER_TO_CLIENT": "RDNCC",
+    "REVERSAL_GOODS_TRANSFER_FROM_CLIENT": "RDNKC",
+    "REVERSAL_GOODS_TRANSFER_STAFF_TO_CLIENT": "RDNSK"
+  },
+  "document_descriptions": {}
+}

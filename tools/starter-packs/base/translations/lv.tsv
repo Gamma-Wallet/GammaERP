@@ -1,0 +1,442 @@
+# The base names in Latvian, keyed by the English name (Gamma's translations), for the packs in Latvian.
+# en	lv
+Base	Juridiskā adrese
+Cash desk	Kase
+Bank	Banka
+Point of sale	Tirdzniecības vieta
+Warehouse	Noliktava
+Office	Birojs
+Tax number	PVN maksātāja numurs
+Owner	Īpašnieks
+Name	Nosaukums
+Currency	Valūta
+Trade name	Komercnosaukums
+Address	Adrese
+Phone	Tālrunis
+E-mail	E-pasts
+Website	Tīmekļa vietne
+Logo	Logotips
+Authorised person	Pilnvarotā persona
+Account	Konts
+Negative stock allowed (cost centres)	Atļauts negatīvs atlikums (izmaksu centri)
+Negative stock allowed (partners)	Atļauts negatīvs atlikums (partneri)
+Negative stock allowed (employees)	Atļauts negatīvs atlikums (darbinieki)
+cost centres	izmaksu centri
+partners	partneri
+employees	darbinieki
+Hold timeout (minutes)	Dokumenta bloķēšanas laiks (minūtes)
+ALL	ALL
+EUR	EUR
+USD	USD
+GBP	GBP
+CAD	CAD
+CHF	CHF
+Company book	Grāmatvedības nolietojums
+Tax book	Nodokļu nolietojums
+Straight-line	Lineārā
+Straight-line depreciation	Lineārā nolietojuma metode
+Remaining value	Atlikusī vērtība
+Depreciation on the remaining value	Nolietojums no atlikušās vērtības
+Assets	Pamatlīdzekļi
+Land	Zeme
+Buildings	Ēkas
+Office equipment	Biroja tehnika
+Vehicles	Transportlīdzekļi
+Computer equipment	Datortehnika
+Furniture and fittings	Inventārs
+Intangible assets	Nemateriālie ieguldījumi
+Sales	Pārdošana
+Sales invoices	Izrakstītie rēķini
+Purchases	Iepirkumi
+Purchase invoices	Saņemtie rēķini
+Goods transfers	Preču pārvietošana
+Goods transfer note	Pavadzīme
+Offers	Piedāvājumi
+Journal	Memoriālie orderi
+Contracts	Līgumi
+Recurring journal	Periodiskie ieraksti
+Reversals	Stornēšana
+Sales invoice, goods	Rēķins par precēm
+Credit note, goods sold	Kredītrēķins par pārdotajām precēm
+Sales invoice, services	Rēķins par pakalpojumiem
+Credit note, services sold	Kredītrēķins par sniegtajiem pakalpojumiem
+Purchase invoice, goods	Saņemtais rēķins par precēm
+Credit note, goods bought	Saņemtais kredītrēķins par precēm
+Purchase invoice, services	Saņemtais rēķins par pakalpojumiem
+Credit note, services bought	Saņemtais kredītrēķins par pakalpojumiem
+Payment	Izmaksa
+Receipt	Iemaksa
+Prepayment	Priekšapmaksa
+Goods transfer, cost centre to staff	Pārvietošana no izmaksu centra darbiniekam
+Sales offer, goods	Piedāvājums precēm
+Depreciation sheet	Nolietojuma plāns
+Depreciation journal	Nolietojuma grāmatojums
+Journal sheet	Memoriālais orderis
+Revaluation sheet	Pārvērtēšanas pārskats
+Revaluation journal	Pārvērtēšanas grāmatojums
+Advance	Avanss
+Client's advance	Pircēja avanss
+Employee advance	Avanss darbiniekam
+Advance to an employee	Avanss darbiniekam
+Sales contract, goods	Pirkuma līgums (pārdošana)
+Purchase contract, goods	Pirkuma līgums (iepirkums)
+Purchase offer, goods	Cenu aptauja precēm
+Sales offer, services	Piedāvājums pakalpojumiem
+Purchase offer, services	Cenu aptauja pakalpojumiem
+Sales contract, services	Pakalpojumu līgums
+Purchase contract, services	Saņemto pakalpojumu līgums
+Recurring depreciation sheet	Periodisks nolietojuma plāns
+Recurring journal sheet	Periodisks memoriālais orderis
+Recurring revaluation sheet	Periodisks pārvērtēšanas pārskats
+General journal entry	Vispārīgs grāmatojums
+Point-of-sale receipt	Kases čeks
+Goods transfer, staff to cost centre	Pārvietošana no darbinieka uz izmaksu centru
+Goods transfer, cost centre to client	Piegāde no izmaksu centra pircējam
+Goods transfer, client to cost centre	Atgriešana no pircēja izmaksu centram
+Point-of-sale contract	Tirdzniecības vietas līgums
+Point-of-sale receipt of money	Iemaksa tirdzniecības vietā
+Point-of-sale payment	Izmaksa tirdzniecības vietā
+Point-of-sale goods in	Pieņemšana tirdzniecības vietā
+Point-of-sale goods out	Izsniegšana no tirdzniecības vietas
+Wage payment	Algas izmaksa
+Rent payment	Nomas maksājums
+Customs declaration	Muitas deklarācija
+Customs declaration, assets	Pamatlīdzekļu muitas deklarācija
+Point-of-sale refund	Naudas atmaksa tirdzniecības vietā
+Point-of-sale receipt from staff	Darbinieka iemaksa tirdzniecības vietā
+Goods out to staff	Izsniegšana darbiniekam
+Goods transfer, staff to client	Piegāde no darbinieka pircējam
+Goods in from staff	Pieņemšana no darbinieka
+Reversal of payment	Izmaksas stornēšana
+Reversal of receipt	Iemaksas stornēšana
+Reversal of prepayment	Priekšapmaksas stornēšana
+Reversal of depreciation journal	Nolietojuma grāmatojuma stornēšana
+Reversal of advance	Avansa stornēšana
+Reversal of employee advance	Darbinieka avansa stornēšana
+End date	Beigu datums
+Offer valid until	Piedāvājums derīgs līdz
+Start date	Sākuma datums
+External number	Ārējais numurs
+Contract number	Līguma numurs
+Invoice number	Rēķina numurs
+Carrier	Pārvadātājs
+Linked invoice	Saistītais rēķins
+Purchase invoice	Saņemtais rēķins
+Last payment date	Pēdējā maksājuma datums
+Accounts	Konti
+Products / services	Produkti / pakalpojumi
+Client / supplier / third party	Pircējs / piegādātājs / trešā persona
+Staff	Personāls
+Financial documents	Attaisnojuma dokumenti
+Transaction value	Rindas summa
+Transaction discount	Rindas atlaide
+Transaction VAT	Rindas PVN
+Asset's remaining value	Aktīva atlikusī vērtība
+Transaction debit	Rindas debets
+Transaction credit	Rindas kredīts
+Transaction value with VAT	Rindas summa ar PVN
+Non-current asset accounts	Ilgtermiņa ieguldījumu konti
+Inventory accounts	Krājumu konti
+Expense accounts	Izmaksu konti
+Income accounts	Ieņēmumu konti
+All accounts	Visi konti
+table	tabula
+specified element	noteikts elements
+empty element	tukšs elements
+line reference	atsauce uz rindu
+line configuration	rindu iestatījumi
+document reference	atsauce uz dokumentu
+document configuration	dokumentu iestatījumi
+scenario configuration	kontējuma iestatījumi
+depreciation scenario configuration	nolietojuma kontējuma iestatījumi
+depreciation scenario	nolietojuma kontējums
+Transaction amount	Rindas summa
+Finance	Grāmatvedība
+Administrator	Administrators
+Financier	Grāmatvedis
+Warehouse keeper	Noliktavas pārzinis
+Driver	Autovadītājs
+Worker	Strādnieks
+Clients	Pircēji
+Suppliers	Piegādātāji
+Unknown	Nezināms
+Person	Fiziska persona
+SME	MVU
+LTD	SIA
+Cash	Skaidra nauda
+Unpaid	Neapmaksāts
+Credit card	Maksājumu karte
+Products	Produkti
+Services	Pakalpojumi
+Goods	Preces
+Service	Pakalpojums
+Asset	Pamatlīdzeklis
+Items	Artikuli
+Transactions	Rindas
+Journal lines	Memoriālā ordera rindas
+Depreciation lines	Nolietojuma rindas
+Revaluation lines	Pārvērtēšanas rindas
+Item	Artikuls
+Fixed asset	Pamatlīdzeklis
+Service item	Artikuls (pakalpojums)
+Supplier	Piegādātājs
+Client	Pircējs
+Cash desk account	Kases konts
+Bank account	Bankas konts
+Depreciation	Nolietojums
+Revaluation	Pārvērtēšana
+Fixed asset (service)	Pamatlīdzeklis (pakalpojums)
+Combined item	Komplekts
+Customs	Muita
+Transport	Transports
+Customs agency	Muitas brokeris
+Customs, assets	Pamatlīdzekļu muita
+Transport, assets	Pamatlīdzekļu transports
+Customs agency, assets	Muitas brokeris pamatlīdzekļiem
+Piece	Gabals
+kg	kg
+Hour	Stunda
+Day	Diena
+Month	Mēnesis
+Year	Gads
+g	g
+cm	cm
+m	m
+mm	mm
+km	km
+Standard	Standarta
+Weight	Svars
+Time	Laiks
+Length	Garums
+Seller	Pārdevējs
+IT	IT
+Consultant	Konsultants
+VAT 20%	PVN 20%
+VAT 0%	PVN 0%
+Hall	Zāle
+Table	Galds
+Counter	Bārs
+Production	Ražošana
+Reversal of production	Ražošanas stornēšana
+Unit split	Mērvienības pārrēķins
+Reversal of unit split	Mērvienības pārrēķina stornēšana
+Raw material used	Izlietotā izejviela
+Produced item	Saražotais produkts
+Waste	Zudumi
+Account ledger	Konta kartīte
+Administration	Administrēšana
+Chart of accounts	Kontu plāns
+Client and supplier ledger	Klientu un piegādātāju kartīte
+Client statistics	Klientu statistika
+Clients and suppliers	Klienti un piegādātāji
+Configuration	Iestatījumi
+Convert stock between units	Pārrēķināt krājumus citā vienībā
+Cost centre ledger	Izmaksu centra kartīte
+Cost centres	Izmaksu centri
+Currencies and exchange rates	Valūtas un valūtu kursi
+Document types	Dokumentu veidi
+Documents	Dokumenti
+Employees	Darbinieki
+Files	Faili
+Financial reports	Finanšu pārskati
+Item movements	Preces kustība
+Menu	Izvēlne
+Menu access	Piekļuve izvēlnei
+Operations	Darbības
+Orders to produce	Ražojamie pasūtījumi
+Payment methods	Maksājumu veidi
+Posting scenarios	Grāmatošanas scenāriji
+Print templates	Drukas veidnes
+Products and services	Produkti un pakalpojumi
+Recipes	Receptes
+Registers	Reģistri
+Reports	Pārskati
+Rights	Tiesības
+Sale menus	Pārdošanas ēdienkartes
+Point-of-sale settings	Tirdzniecības vietas iestatījumi
+Shows	Izrādes
+Purchases from the group	Pirkumi no grupas
+Barcode	Svītrkods
+Sale prices	Pārdošanas cenas
+Sales and purchases by line	Pārdošana un iepirkumi pa rindām
+Stock	Krājumi
+Stock and sales	Krājumi un pārdošana
+Trial balance	Apgrozījuma pārskats
+Unit conversions	Vienību pārrēķini
+Units of measure	Mērvienības
+Users	Lietotāji
+VAT books	PVN žurnāli
+VAT groups	PVN grupas
+VAT return	PVN deklarācija
+VAT return boxes	PVN deklarācijas lauki
+Company of the group	Grupas uzņēmums
+Restaurant / café	Restorāns / kafejnīca
+Shop	Veikals
+Till	Kase
+Cinema / theatre	Kinoteātris / teātris
+Auditorium	Zāle
+Row	Rinda
+Seat	Vieta
+Hotel	Viesnīca
+Floor	Stāvs
+Room	Istaba
+Beds	Gultas
+Position X	Pozīcija X
+Seats	Vietas
+Position Y	Pozīcija Y
+Reversal of journal sheet	Grāmatojuma lapas stornēšana
+Reversal of depreciation sheet	Nolietojuma lapas stornēšana
+Reversal of general journal entry	Vispārējā ieraksta stornēšana
+Open the point of sale	Atvērt tirdzniecības vietu
+Stock and production	Krājumi un ražošana
+Accounting setup	Grāmatvedības iestatījumi
+Fixed assets	Pamatlīdzekļi
+Currencies and payments	Valūtas un maksājumi
+Company	Uzņēmums
+Users and rights	Lietotāji un tiesības
+System settings	Sistēmas iestatījumi
+Types and categories	Veidi un kategorijas
+VAT	PVN
+Financial	Finanšu
+Sale prices by partner	Pārdošanas cenas pēc partnera
+Sale menu categories	Pārdošanas izvēlņu kategorijas
+Scenario lines	Scenāriju rindas
+Unbalanced scenarios	Nesabalansēti scenāriji
+Remaining asset value	Aktīva atlikusī vērtība
+VAT return box rules	PVN deklarācijas lauku noteikumi
+VAT return by boxes	PVN deklarācija pa laukiem
+Payment methods by cost centre	Maksājumu veidi pēc izmaksu centra
+Users and roles	Lietotāji un lomas
+Document flows	Dokumentu plūsmas
+Chart types and categories	Kontu plāna veidi un kategorijas
+Balance sheet	Bilance
+Profit and loss	Peļņa un zaudējumi
+Balance sheet lines	Bilances rindas
+Profit and loss lines	Peļņas un zaudējumu rindas
+City	Pilsēta
+Staff ledger	Personāla konts
+Sales and purchases by client	Pārdošana un pirkumi pa klientiem
+Sales and purchases by cost centre	Pārdošana un pirkumi pa izmaksu centriem
+Transfers	Pārvietojumi
+Document totals	Dokumentu kopsummas
+Purchase price history	Iepirkuma cenu vēsture
+Depreciation books	Nolietojuma grāmatas
+Depreciation methods	Nolietojuma metodes
+Depreciation scenarios	Nolietojuma scenāriji
+Depreciation scenario lines	Nolietojuma scenāriju rindas
+Serial numbers	Sērijas numuri
+User activity	Lietotāju darbības
+Dashboard	Informācijas panelis
+Dashboard items	Paneļa vienumi
+Clients owe us	Klientu parādi mums
+We owe suppliers	Mūsu parādi piegādātājiem
+Drafts waiting	Gaidošie melnraksti
+Sales and purchases by month	Pārdošana un pirkumi pa mēnešiem
+VAT by month	PVN pa mēnešiem
+Top clients	Labākie klienti
+Top suppliers	Labākie piegādātāji
+Top products	Labākie produkti
+Sales by cost centre	Pārdošana pa izmaksu centriem
+Migration	Migrācija
+Migration steps	Migrācijas soļi
+Warehouses, banks, cash desks and places	Noliktavas, bankas, kases un vietas
+Client and supplier categories	Klientu un piegādātāju kategorijas
+Product categories	Produktu kategorijas
+Units	Vienības
+Exchange rates	Valūtas kursi
+Next document numbers	Nākamie dokumentu numuri
+Opening balances: clients and suppliers	Sākuma atlikumi: klienti un piegādātāji
+Opening balances: banks, cash desks and staff	Sākuma atlikumi: bankas, kases un personāls
+Opening balances: the chart	Sākuma atlikumi: kontu plāns
+Posting groups	Grāmatošanas grupas
+Document categories	Dokumentu kategorijas
+Opening balances: stock	Sākuma atlikumi: krājumi
+Opening balances: fixed assets	Sākuma atlikumi: pamatlīdzekļi
+VAT groups of document types	Dokumentu veidu PVN grupas
+Closed periods	Slēgtie periodi
+Transaction types	Darījumu veidi
+Transaction scopes	Darījumu tvērumi
+Transaction categories	Darījumu kategorijas
+Transaction types of document types	Dokumentu veidu darījumu veidi
+General client	Vispārējs klients
+Transaction asset cost	Aktīva izmaksas
+Transaction asset depreciation	Aktīva nolietojums
+Transaction asset book value	Aktīva uzskaites vērtība
+Sales by waiter	Pārdošana pa viesmīļiem
+Ageing	Parādu novecošana
+Open invoices	Atvērtie rēķini
+Overdue from clients	Kavēts no klientiem
+Overdue to suppliers	Kavēts piegādātājiem
+Gross profit	Bruto peļņa
+Gross profit by cost centre	Bruto peļņa pa izmaksu centriem
+Top combined products	Populārākie kombinētie produkti
+Close the year	Slēgt gadu
+Invoice run	Līgumu rēķini
+Renewals	Atjaunojumi
+CRM	CRM
+Opportunities	Iespējas
+Pipeline	Pārdošanas piltuve
+Forecast	Prognoze
+Opportunity stages	Iespēju posmi
+Sales opportunities	Pārdošanas iespējas
+Opportunity	Iespēja
+Qualify	Kvalifikācija
+Propose	Piedāvājums
+Negotiate	Sarunas
+Won	Iegūts
+Lost	Zaudēts
+Leads	Potenciālie klienti
+Orders	Pasūtījumi
+Purchase request	Iepirkuma pieprasījums
+Purchase order	Iepirkuma pasūtījums
+Sales order	Pārdošanas pasūtījums
+Approvals	Apstiprinājumi
+Approval limits	Apstiprināšanas limiti
+Bank statements	Bankas izraksti
+Bank statement formats	Bankas izrakstu formāti
+Date, text, reference, amount	Datums, teksts, atsauce, summa
+Lots	Partijas
+Shifts	Maiņas
+Production point	Ražošanas punkts
+Production point display	Ražošanas punkta ekrāns
+Production routes	Ražošanas maršruti
+Point-of-sale order	Tirdzniecības vietas pasūtījums
+Repairs	Remonti
+Repair intake	Pieņemšana remontam
+Repair offer	Remonta piedāvājums
+Technician	Tehniķis
+Received	Saņemts
+Offer given	Piedāvājums iedots
+Accepted	Pieņemts
+Ready	Gatavs
+Collected	Saņemts atpakaļ
+Refused	Noraidīts
+Item	Prece
+Brand and model	Marka un modelis
+Serial number or plate	Sērijas numurs vai numurzīme
+Accessories left	Atstātie piederumi
+Defect described	Aprakstītais defekts
+Come back on	Atgriezties
+Repair board	Remonta tāfele
+Repair stages	Remonta posmi
+Repair shop	Remontdarbnīca
+Roles	Lomas
+Account mapping	Kontu atbilstība
+Waiter	Viesmīlis
+Cashier	Kasieris
+Disassembly	Demontāža
+Product taken apart	Demontēts produkts
+Recovered component	Atgūta sastāvdaļa
+Disassembly waste	Demontāžas zudumi
+Point-of-sale reversal	Kases pārdošanas stornēšana
+Reversal of customs declaration	Stornēšana: Muitas deklarācija
+Reversal of customs declaration, assets	Stornēšana: Pamatlīdzekļu muitas deklarācija
+Reversal of goods transfer note	Stornēšana: Pavadzīme
+Reversal of goods transfer, cost centre to staff	Stornēšana: Pārvietošana no izmaksu centra darbiniekam
+Reversal of goods transfer, staff to cost centre	Stornēšana: Pārvietošana no darbinieka uz izmaksu centru
+Reversal of goods transfer, cost centre to client	Stornēšana: Piegāde no izmaksu centra pircējam
+Reversal of goods transfer, client to cost centre	Stornēšana: Atgriešana no pircēja izmaksu centram
+Reversal of goods transfer, staff to client	Stornēšana: Piegāde no darbinieka pircējam
+Opportunity types and categories	Iespēju veidi un kategorijas
+Opportunities and documents	Iespējas un dokumenti
+Skins	Tēmas

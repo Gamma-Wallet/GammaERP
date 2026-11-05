@@ -1,0 +1,125 @@
+<header class="topbar">
+  <a class="product" routerLink="/">
+    <img class="mark" src="gamma-logo-white.png" alt="Gamma" />
+  </a>
+  <div class="company">{{ session.place()?.companyName ?? session.place()?.name }}</div>
+  <nav class="tools" [attr.aria-label]="'Tools' | t">
+    @if (session.languages().length > 1) {
+      <select class="language" [attr.aria-label]="text.shell.language" [title]="text.shell.language" (change)="chooseLanguage($any($event.target).value)">
+        @for (code of session.languages(); track code) {
+          <option class="language-option" [value]="code" [selected]="code === language()">{{ languageName(code) }}</option>
+        }
+      </select>
+    }
+    @if (filesRoute(); as files) {
+      <a class="tool" [routerLink]="files" [attr.aria-label]="text.shell.files" [title]="text.shell.files"><ui-icon name="files" [size]="18" /></a>
+    }
+    <button class="tool" type="button" disabled [attr.aria-label]="text.shell.help" [title]="text.shell.help"><ui-icon name="help" [size]="18" /></button>
+    <button class="tool" type="button" [cdkMenuTriggerFor]="account" [attr.aria-label]="text.shell.account" [title]="text.shell.account">
+      <ui-icon name="account" [size]="18" />
+    </button>
+  </nav>
+</header>
+
+<ng-template #account>
+  <div class="menu-panel" cdkMenu>
+    <div class="who">
+      <strong>{{ session.me()?.name }}</strong>
+      <span>{{ session.me()?.username }}{{ session.me()?.isAdministrator ? ' · ' + text.shell.administrator : '' }}</span>
+    </div>
+    <button class="menu-item" cdkMenuItem routerLink="/choose"><ui-icon name="building" />{{ text.shell.changePlace }}</button>
+    <button class="menu-item" cdkMenuItem (cdkMenuItemTriggered)="changePassword()"><ui-icon name="key" />{{ 'Change password' | t }}</button>
+    <button class="menu-item" cdkMenuItem (cdkMenuItemTriggered)="tokens()"><ui-icon name="shield" />{{ 'Claude tokens' | t }}</button>
+    <button class="menu-item" cdkMenuItem (cdkMenuItemTriggered)="signOut()"><ui-icon name="log-out" />{{ text.shell.signOut }}</button>
+  </div>
+</ng-template>
+
+<div class="frame">
+  <aside class="sidebar">
+    <div class="context">
+      <button class="context-row" type="button" [cdkMenuTriggerFor]="account">
+        <ui-icon name="user" />
+        <span class="label">{{ session.me()?.name }}</span>
+        <ui-icon name="chevron-right" [size]="14" />
+      </button>
+      <a class="context-row" routerLink="/choose" [title]="text.shell.changePlace">
+        <ui-icon name="building" />
+        <span class="label">{{ session.place()?.name }}</span>
+        <ui-icon name="chevron-right" [size]="14" />
+      </a>
+    </div>
+
+    <nav class="menu" [attr.aria-label]="'Menu' | t">
+      @for (top of menu(); track top.id) {
+        @if (top.isElement) {
+          <a class="item" [routerLink]="routeOf(top)" routerLinkActive="active"><ui-icon [name]="top.icon" />{{ top.name }}</a>
+        } @else {
+          <section class="group">
+            <button class="group-head" type="button" (click)="toggle(top)" [attr.aria-expanded]="open().has(top.id)">
+              <ui-icon [name]="top.icon" />
+              <span class="label">{{ top.name }}</span>
+              <ui-icon [name]="open().has(top.id) ? 'chevron-down' : 'chevron-right'" [size]="14" />
+            </button>
+            @if (open().has(top.id)) {
+              <ng-container *ngTemplateOutlet="items; context: { $implicit: top.children }" />
+            }
+          </section>
+        }
+      } @empty {
+        <p class="empty">{{ text.shell.emptyMenu }}</p>
+      }
+    </nav>
+  </aside>
+
+  <main class="page">
+    <router-outlet />
+    <app-footer />
+  </main>
+</div>
+
+<ng-template #items let-nodes>
+  <ul class="items">
+    @for (node of nodes; track node.id) {
+      <li>
+        @if (node.documentTypes.length > 1) {
+          <!-- A document category with several types: a folder of them, its documents all together first. -->
+          <button class="group-head nested" type="button" (click)="toggle(node)" [attr.aria-expanded]="open().has(node.id)">
+            <ui-icon [name]="node.icon" />
+            <span class="label">{{ node.name }}</span>
+            <ui-icon [name]="open().has(node.id) ? 'chevron-down' : 'chevron-right'" [size]="14" />
+          </button>
+          @if (open().has(node.id)) {
+            <ul class="items">
+              <li>
+                <a class="item" [routerLink]="routeOf(node)" routerLinkActive="active" [routerLinkActiveOptions]="exactLink">
+                  <span class="label">{{ 'All' | t }}</span>
+                </a>
+              </li>
+              @for (type of node.documentTypes; track type.id) {
+                <li>
+                  <a class="item" [routerLink]="routeOf(node)" [queryParams]="{ type: type.id }" routerLinkActive="active" [routerLinkActiveOptions]="exactLink" [attr.title]="type.code">
+                    <span class="label">{{ type.name ?? type.code }}</span>
+                  </a>
+                </li>
+              }
+            </ul>
+          }
+        } @else if (node.isElement) {
+          <a class="item" [routerLink]="routeOf(node)" routerLinkActive="active">
+            <ui-icon [name]="node.icon" />
+            <span class="label">{{ node.name }}</span>
+          </a>
+        } @else {
+          <button class="group-head nested" type="button" (click)="toggle(node)" [attr.aria-expanded]="open().has(node.id)">
+            <ui-icon [name]="node.icon" />
+            <span class="label">{{ node.name }}</span>
+            <ui-icon [name]="open().has(node.id) ? 'chevron-down' : 'chevron-right'" [size]="14" />
+          </button>
+          @if (open().has(node.id)) {
+            <ng-container *ngTemplateOutlet="items; context: { $implicit: node.children }" />
+          }
+        }
+      </li>
+    }
+  </ul>
+</ng-template>

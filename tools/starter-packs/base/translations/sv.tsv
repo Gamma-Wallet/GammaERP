@@ -1,0 +1,442 @@
+# The base names in Swedish, keyed by the English name (Gamma's translations), for the packs in Swedish (Sweden; Finland's second language).
+# en	sv
+Base	Huvudkontor
+Cash desk	Kassa
+Bank	Bank
+Point of sale	Försäljningsställe
+Warehouse	Lager
+Office	Kontor
+Tax number	Momsregistreringsnummer
+Owner	Ägare
+Name	Firma
+Currency	Valuta
+Trade name	Bifirma
+Address	Adress
+Phone	Telefon
+E-mail	E-post
+Website	Webbplats
+Logo	Logotyp
+Authorised person	Behörig person
+Account	Konto
+Negative stock allowed (cost centres)	Negativt lager tillåtet (kostnadsställen)
+Negative stock allowed (partners)	Negativt lager tillåtet (partner)
+Negative stock allowed (employees)	Negativt lager tillåtet (anställda)
+cost centres	kostnadsställen
+partners	affärspartner
+employees	anställda
+Hold timeout (minutes)	Låstid för verifikationen (minuter)
+ALL	ALL
+EUR	EUR
+USD	USD
+GBP	GBP
+CAD	CAD
+CHF	CHF
+Company book	Bokföringsmässig plan
+Tax book	Skattemässig plan
+Straight-line	Linjär
+Straight-line depreciation	Linjär avskrivning
+Remaining value	Restvärde
+Depreciation on the remaining value	Restvärdesavskrivning
+Assets	Anläggningstillgångar
+Land	Mark
+Buildings	Byggnader
+Office equipment	Kontorsutrustning
+Vehicles	Fordon
+Computer equipment	Datorer
+Furniture and fittings	Inventarier
+Intangible assets	Immateriella anläggningstillgångar
+Sales	Försäljning
+Sales invoices	Kundfakturor
+Purchases	Inköp
+Purchase invoices	Leverantörsfakturor
+Goods transfers	Lagerflyttar
+Goods transfer note	Flyttsedel
+Offers	Offerter
+Journal	Verifikationer
+Contracts	Avtal
+Recurring journal	Återkommande verifikationer
+Reversals	Återföringar
+Sales invoice, goods	Kundfaktura, varor
+Credit note, goods sold	Kreditfaktura, sålda varor
+Sales invoice, services	Kundfaktura, tjänster
+Credit note, services sold	Kreditfaktura, utförda tjänster
+Purchase invoice, goods	Leverantörsfaktura, varor
+Credit note, goods bought	Leverantörskreditfaktura, varor
+Purchase invoice, services	Leverantörsfaktura, tjänster
+Credit note, services bought	Leverantörskreditfaktura, tjänster
+Payment	Utbetalning
+Receipt	Inbetalning
+Prepayment	Förskottsbetalning
+Goods transfer, cost centre to staff	Flytt från kostnadsställe till anställd
+Sales offer, goods	Offert på varor
+Depreciation sheet	Avskrivningsplan
+Depreciation journal	Bokföring av avskrivningar
+Journal sheet	Verifikation
+Revaluation sheet	Uppskrivningsöversikt
+Revaluation journal	Bokföring av uppskrivning
+Advance	Förskott
+Client's advance	Förskott från kund
+Employee advance	Förskott till anställd
+Advance to an employee	Förskott till en anställd
+Sales contract, goods	Försäljningsavtal, varor
+Purchase contract, goods	Inköpsavtal, varor
+Purchase offer, goods	Offertförfrågan, varor
+Sales offer, services	Offert på tjänster
+Purchase offer, services	Offertförfrågan, tjänster
+Sales contract, services	Tjänsteavtal
+Purchase contract, services	Avtal om köpta tjänster
+Recurring depreciation sheet	Återkommande avskrivningsplan
+Recurring journal sheet	Återkommande verifikation
+Recurring revaluation sheet	Återkommande uppskrivningsöversikt
+General journal entry	Allmän verifikation
+Point-of-sale receipt	Kassakvitto
+Goods transfer, staff to cost centre	Flytt från anställd till kostnadsställe
+Goods transfer, cost centre to client	Leverans från kostnadsställe till kund
+Goods transfer, client to cost centre	Retur från kund till kostnadsställe
+Point-of-sale contract	Avtal för försäljningsstället
+Point-of-sale receipt of money	Inbetalning vid försäljningsstället
+Point-of-sale payment	Utbetalning vid försäljningsstället
+Point-of-sale goods in	Varumottagning vid försäljningsstället
+Point-of-sale goods out	Uttag från försäljningsstället
+Wage payment	Löneutbetalning
+Rent payment	Hyresbetalning
+Customs declaration	Tulldeklaration
+Customs declaration, assets	Tulldeklaration för anläggningstillgångar
+Point-of-sale refund	Återbetalning vid försäljningsstället
+Point-of-sale receipt from staff	Inbetalning från anställd vid försäljningsstället
+Goods out to staff	Uttag till anställd
+Goods transfer, staff to client	Leverans från anställd till kund
+Goods in from staff	Mottagning från anställd
+Reversal of payment	Makulering av utbetalning
+Reversal of receipt	Makulering av inbetalning
+Reversal of prepayment	Makulering av förskottsbetalning
+Reversal of depreciation journal	Makulering av avskrivningar
+Reversal of advance	Makulering av förskott
+Reversal of employee advance	Makulering av förskott till anställd
+End date	Slutdatum
+Offer valid until	Offerten gäller till
+Start date	Startdatum
+External number	Externt nummer
+Contract number	Avtalsnummer
+Invoice number	Fakturanummer
+Carrier	Transportör
+Linked invoice	Kopplad faktura
+Purchase invoice	Leverantörsfaktura
+Last payment date	Datum för senaste betalning
+Accounts	Konton
+Products / services	Produkter / tjänster
+Client / supplier / third party	Kund / leverantör / tredje part
+Staff	Personal
+Financial documents	Verifikationer
+Transaction value	Radens belopp
+Transaction discount	Radens rabatt
+Transaction VAT	Radens moms
+Asset's remaining value	Tillgångens restvärde
+Transaction debit	Radens debet
+Transaction credit	Radens kredit
+Transaction value with VAT	Radens belopp inkl. moms
+Non-current asset accounts	Konton för anläggningstillgångar
+Inventory accounts	Lagerkonton
+Expense accounts	Kostnadskonton
+Income accounts	Intäktskonton
+All accounts	Alla konton
+table	tabell
+specified element	angivet element
+empty element	tomt element
+line reference	radhänvisning
+line configuration	radinställningar
+document reference	verifikationshänvisning
+document configuration	verifikationsinställningar
+scenario configuration	konteringsinställningar
+depreciation scenario configuration	konteringsinställningar för avskrivningar
+depreciation scenario	avskrivningskontering
+Transaction amount	Radens belopp
+Finance	Ekonomi
+Administrator	Administratör
+Financier	Ekonom
+Warehouse keeper	Lagerarbetare
+Driver	Chaufför
+Worker	Arbetare
+Clients	Kunder
+Suppliers	Leverantörer
+Unknown	Okänd
+Person	Privatperson
+SME	SMF
+LTD	AB
+Cash	Kontant
+Unpaid	Obetald
+Credit card	Kort
+Products	Produkter
+Services	Tjänster
+Goods	Varor
+Service	Tjänst
+Asset	Anläggningstillgång
+Items	Artiklar
+Transactions	Rader
+Journal lines	Verifikationsrader
+Depreciation lines	Avskrivningsrader
+Revaluation lines	Uppskrivningsrader
+Item	Artikel
+Fixed asset	Anläggningstillgång
+Service item	Artikel (tjänst)
+Supplier	Leverantör
+Client	Kund
+Cash desk account	Kassakonto
+Bank account	Bankkonto
+Depreciation	Avskrivning
+Revaluation	Uppskrivning
+Fixed asset (service)	Anläggningstillgång (tjänst)
+Combined item	Strukturartikel
+Customs	Tull
+Transport	Frakt
+Customs agency	Tullombud
+Customs, assets	Tull på anläggningstillgångar
+Transport, assets	Frakt av anläggningstillgångar
+Customs agency, assets	Tullombud för anläggningstillgångar
+Piece	Styck
+kg	kg
+Hour	Timme
+Day	Dag
+Month	Månad
+Year	År
+g	g
+cm	cm
+m	m
+mm	mm
+km	km
+Standard	Standard
+Weight	Vikt
+Time	Tid
+Length	Längd
+Seller	Säljare
+IT	IT
+Consultant	Konsult
+VAT 20%	Moms 20%
+VAT 0%	Moms 0%
+Hall	Sal
+Table	Bord
+Counter	Disk
+Production	Tillverkning
+Reversal of production	Makulering av tillverkning
+Unit split	Enhetsomvandling
+Reversal of unit split	Makulering av enhetsomvandling
+Raw material used	Förbrukad råvara
+Produced item	Tillverkad artikel
+Waste	Spill
+Account ledger	Kontokort
+Administration	Administration
+Chart of accounts	Kontoplan
+Client and supplier ledger	Kund- och leverantörsreskontra
+Client statistics	Kundstatistik
+Clients and suppliers	Kunder och leverantörer
+Configuration	Inställningar
+Convert stock between units	Räkna om lager till en annan enhet
+Cost centre ledger	Kostnadsställekort
+Cost centres	Kostnadsställen
+Currencies and exchange rates	Valutor och växelkurser
+Document types	Dokumenttyper
+Documents	Dokument
+Employees	Anställda
+Files	Filer
+Financial reports	Finansiella rapporter
+Item movements	Artikelrörelser
+Menu	Meny
+Menu access	Menybehörighet
+Operations	Åtgärder
+Orders to produce	Order att tillverka
+Payment methods	Betalningssätt
+Posting scenarios	Konteringsscenarier
+Print templates	Utskriftsmallar
+Products and services	Produkter och tjänster
+Recipes	Recept
+Registers	Register
+Reports	Rapporter
+Rights	Behörigheter
+Sale menus	Försäljningsmenyer
+Point-of-sale settings	Inställningar för försäljningsställe
+Shows	Föreställningar
+Purchases from the group	Inköp från koncernen
+Barcode	Streckkod
+Sale prices	Försäljningspriser
+Sales and purchases by line	Försäljning och inköp per rad
+Stock	Lager
+Stock and sales	Lager och försäljning
+Trial balance	Råbalans
+Unit conversions	Enhetsomräkningar
+Units of measure	Måttenheter
+Users	Användare
+VAT books	Momsböcker
+VAT groups	Momsgrupper
+VAT return	Momsdeklaration
+VAT return boxes	Rutor i momsdeklarationen
+Company of the group	Koncernbolag
+Restaurant / café	Restaurang / kafé
+Shop	Butik
+Till	Kassa
+Cinema / theatre	Biograf / teater
+Auditorium	Salong
+Row	Rad
+Seat	Plats
+Hotel	Hotell
+Floor	Våning
+Room	Rum
+Beds	Sängar
+Position X	Position X
+Seats	Platser
+Position Y	Position Y
+Reversal of journal sheet	Återföring av bokföringsblad
+Reversal of depreciation sheet	Återföring av avskrivningsblad
+Reversal of general journal entry	Återföring av allmän verifikation
+Open the point of sale	Öppna försäljningsstället
+Stock and production	Lager och produktion
+Accounting setup	Bokföringsinställningar
+Fixed assets	Anläggningstillgångar
+Currencies and payments	Valutor och betalningar
+Company	Företag
+Users and rights	Användare och behörigheter
+System settings	Systeminställningar
+Types and categories	Typer och kategorier
+VAT	Moms
+Financial	Ekonomi
+Sale prices by partner	Försäljningspriser per partner
+Sale menu categories	Kategorier i försäljningsmenyer
+Scenario lines	Scenariorader
+Unbalanced scenarios	Obalanserade scenarier
+Remaining asset value	Tillgångens restvärde
+VAT return box rules	Regler för momsdeklarationens rutor
+VAT return by boxes	Momsdeklaration per ruta
+Payment methods by cost centre	Betalningssätt per kostnadsställe
+Users and roles	Användare och roller
+Document flows	Dokumentflöden
+Chart types and categories	Kontoplanens typer och kategorier
+Balance sheet	Balansräkning
+Profit and loss	Resultaträkning
+Balance sheet lines	Balansräkningsrader
+Profit and loss lines	Resultaträkningsrader
+City	Stad
+Staff ledger	Personalreskontra
+Sales and purchases by client	Försäljning och inköp per kund
+Sales and purchases by cost centre	Försäljning och inköp per kostnadsställe
+Transfers	Överföringar
+Document totals	Dokumentsummor
+Purchase price history	Inköpsprishistorik
+Depreciation books	Avskrivningsböcker
+Depreciation methods	Avskrivningsmetoder
+Depreciation scenarios	Avskrivningsscenarier
+Depreciation scenario lines	Rader i avskrivningsscenarier
+Serial numbers	Serienummer
+User activity	Användaraktivitet
+Dashboard	Översikt
+Dashboard items	Översiktsobjekt
+Clients owe us	Kunder är skyldiga oss
+We owe suppliers	Vi är skyldiga leverantörer
+Drafts waiting	Väntande utkast
+Sales and purchases by month	Försäljning och inköp per månad
+VAT by month	Moms per månad
+Top clients	Toppkunder
+Top suppliers	Toppleverantörer
+Top products	Toppprodukter
+Sales by cost centre	Försäljning per kostnadsställe
+Migration	Migrering
+Migration steps	Migreringssteg
+Warehouses, banks, cash desks and places	Lager, banker, kassor och platser
+Client and supplier categories	Kund- och leverantörskategorier
+Product categories	Produktkategorier
+Units	Enheter
+Exchange rates	Växelkurser
+Next document numbers	Nästa dokumentnummer
+Opening balances: clients and suppliers	Ingående saldon: kunder och leverantörer
+Opening balances: banks, cash desks and staff	Ingående saldon: banker, kassor och personal
+Opening balances: the chart	Ingående saldon: kontoplanen
+Posting groups	Bokföringsgrupper
+Document categories	Dokumentkategorier
+Opening balances: stock	Ingående saldon: lager
+Opening balances: fixed assets	Ingående saldon: anläggningstillgångar
+VAT groups of document types	Momsgrupper för dokumenttyper
+Closed periods	Stängda perioder
+Transaction types	Transaktionstyper
+Transaction scopes	Transaktionsomfång
+Transaction categories	Transaktionskategorier
+Transaction types of document types	Transaktionstyper för dokumenttyper
+General client	Allmän kund
+Transaction asset cost	Tillgångens anskaffningsvärde
+Transaction asset depreciation	Tillgångens avskrivning
+Transaction asset book value	Tillgångens bokförda värde
+Sales by waiter	Försäljning per servitör
+Ageing	Åldersanalys
+Open invoices	Öppna fakturor
+Overdue from clients	Förfallet från kunder
+Overdue to suppliers	Förfallet till leverantörer
+Gross profit	Bruttovinst
+Gross profit by cost centre	Bruttovinst per kostnadsställe
+Top combined products	Bästa kombinerade produkter
+Close the year	Stäng året
+Invoice run	Avtalsfakturering
+Renewals	Förnyelser
+CRM	CRM
+Opportunities	Affärsmöjligheter
+Pipeline	Säljtratt
+Forecast	Prognos
+Opportunity stages	Faser för affärsmöjligheter
+Sales opportunities	Säljmöjligheter
+Opportunity	Affärsmöjlighet
+Qualify	Kvalificering
+Propose	Offert
+Negotiate	Förhandling
+Won	Vunnen
+Lost	Förlorad
+Leads	Leads
+Orders	Order
+Purchase request	Inköpsanmodan
+Purchase order	Inköpsorder
+Sales order	Försäljningsorder
+Approvals	Godkännanden
+Approval limits	Godkännandegränser
+Bank statements	Kontoutdrag
+Bank statement formats	Format för kontoutdrag
+Date, text, reference, amount	Datum, text, referens, belopp
+Lots	Partier
+Shifts	Skift
+Production point	Produktionsställe
+Production point display	Skärm för produktionsställe
+Production routes	Produktionsvägar
+Point-of-sale order	Order från försäljningsställe
+Repairs	Reparationer
+Repair intake	Reparationsmottagning
+Repair offer	Reparationsoffert
+Technician	Tekniker
+Received	Mottaget
+Offer given	Offert lämnad
+Accepted	Accepterad
+Ready	Klar
+Collected	Avhämtad
+Refused	Avvisad
+Item	Artikel
+Brand and model	Märke och modell
+Serial number or plate	Serienummer eller registreringsnummer
+Accessories left	Lämnade tillbehör
+Defect described	Beskrivet fel
+Come back on	Kom tillbaka den
+Repair board	Reparationstavla
+Repair stages	Reparationssteg
+Repair shop	Reparationsverkstad
+Roles	Roller
+Account mapping	Kontomappning
+Waiter	Servitör
+Cashier	Kassör
+Disassembly	Demontering
+Product taken apart	Demonterad artikel
+Recovered component	Återvunnen komponent
+Disassembly waste	Spill vid demontering
+Point-of-sale reversal	Makulering av kassaförsäljning
+Reversal of customs declaration	Makulering: Tulldeklaration
+Reversal of customs declaration, assets	Makulering: Tulldeklaration för anläggningstillgångar
+Reversal of goods transfer note	Makulering: Flyttsedel
+Reversal of goods transfer, cost centre to staff	Makulering: Flytt från kostnadsställe till anställd
+Reversal of goods transfer, staff to cost centre	Makulering: Flytt från anställd till kostnadsställe
+Reversal of goods transfer, cost centre to client	Makulering: Leverans från kostnadsställe till kund
+Reversal of goods transfer, client to cost centre	Makulering: Retur från kund till kostnadsställe
+Reversal of goods transfer, staff to client	Makulering: Leverans från anställd till kund
+Opportunity types and categories	Typer och kategorier av affärsmöjligheter
+Opportunities and documents	Affärsmöjligheter och dokument
+Skins	Teman

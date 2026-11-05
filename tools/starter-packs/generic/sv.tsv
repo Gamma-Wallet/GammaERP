@@ -1,0 +1,179 @@
+# Gamma's generic chart (chart-generic.tsv) in Swedish, by account code. Gamma's translations.
+# code	sv
+1	Anläggningstillgångar
+11	Materiella anläggningstillgångar
+1101	Mark
+1102	Byggnader
+1103	Maskiner och tekniska anläggningar
+1104	Fordon
+1105	Inventarier
+1106	Datorer
+1107	Pågående nyanläggningar
+12	Ackumulerade avskrivningar på materiella anläggningstillgångar
+1202	Ackumulerade avskrivningar på byggnader
+1203	Ackumulerade avskrivningar på maskiner och tekniska anläggningar
+1204	Ackumulerade avskrivningar på fordon
+1205	Ackumulerade avskrivningar på inventarier
+1206	Ackumulerade avskrivningar på datorer
+13	Immateriella anläggningstillgångar
+1301	Goodwill
+1302	Programvara
+1303	Varumärken och licenser
+14	Ackumulerade avskrivningar på immateriella anläggningstillgångar
+1402	Ackumulerade avskrivningar på programvara
+1403	Ackumulerade avskrivningar på varumärken och licenser
+15	Förvaltningsfastigheter
+1501	Förvaltningsfastigheter
+16	Finansiella anläggningstillgångar
+1601	Andelar i koncernföretag
+1602	Andelar i intresseföretag
+1603	Andra långfristiga värdepappersinnehav
+1604	Långfristiga lånefordringar
+17	Uppskjuten skatt
+1701	Uppskjutna skattefordringar
+2	Omsättningstillgångar
+20	Varulager
+2001	Handelsvaror
+2002	Råvaror
+2003	Förnödenheter
+2004	Färdiga varor
+2005	Varor under tillverkning
+22	Kundfordringar
+2201	Kundfordringar
+2202	Kundfordringar utland
+2203	Checkar
+2209	Nedskrivning av kundfordringar
+23	Övriga fordringar
+2301	Förutbetalda kostnader
+2302	Förskott till leverantörer
+2303	Förskott till anställda
+2304	Depositioner
+2305	Övriga fordringar
+24	Skattefordringar
+2401	Ingående moms
+2402	Momsfordran
+2403	Preliminärskatt
+28	Kassa och bank
+2801	Kassa
+2802	Kassa i utländsk valuta
+2803	Företagskonto
+2804	Valutakonto
+2805	Bundna bankmedel
+2806	Pengar under överföring
+3	Eget kapital
+30	Aktiekapital
+3001	Aktiekapital
+3002	Överkursfond
+31	Fonder
+3101	Uppskrivningsfond
+3102	Övriga fonder
+32	Balanserat resultat
+3201	Balanserat resultat
+3202	Årets resultat
+4	Skulder
+40	Långfristiga skulder
+4001	Långfristiga banklån
+4002	Leasingskulder
+4003	Lån från delägare
+4004	Uppskjutna skatteskulder
+4005	Avsättningar
+41	Leverantörsskulder
+4101	Leverantörsskulder
+4102	Leverantörsskulder utland
+4103	Växelskulder
+4104	Förskott från kunder
+42	Övriga skulder
+4201	Upplupna kostnader
+4202	Förutbetalda intäkter
+4203	Löneskulder
+4204	Skuld för sociala avgifter
+4205	Skuld för sjukförsäkringsavgifter
+4206	Övriga skulder
+4207	Utdelningsskuld
+43	Kortfristiga lån
+4301	Checkräkningskredit
+4302	Kortfristiga banklån
+44	Skatteskulder
+4401	Utgående moms
+4402	Momsskuld
+4403	Skatteskuld
+4404	Personalens källskatt
+4405	Övriga skatteskulder
+5	Intäkter
+50	Nettoomsättning
+5001	Försäljning av varor
+5002	Försäljning av tjänster
+5003	Försäljning av egna produkter
+5004	Lämnade rabatter och returer
+51	Övriga rörelseintäkter
+5101	Hyresintäkter
+5102	Bidrag
+5103	Vinst vid försäljning av anläggningstillgångar
+5104	Övriga intäkter
+52	Finansiella intäkter
+5201	Ränteintäkter
+5202	Utdelningar
+5203	Valutakursvinster
+6	Inköp och kostnad för sålda varor
+60	Inköp
+6001	Inköp av handelsvaror
+6002	Inköp av råvaror
+6003	Inköp av förnödenheter
+6004	Erhållna rabatter och returer
+6005	Frakter och tullar vid inköp
+61	Lagerförändringar
+6101	Lagerförändring av handelsvaror
+6102	Lagerförändring av råvaror
+7	Kostnader
+70	Personalkostnader
+7001	Löner
+7002	Arbetsgivaravgifter
+7003	Arbetsgivarens sjukförsäkringsavgifter
+7004	Övriga arbetsgivaravgifter
+7005	Övriga personalkostnader
+71	Lokalkostnader
+7101	Lokalhyra
+7102	El
+7103	Vatten
+7104	Reparation och underhåll
+7105	Försäkringar
+72	Administrationskostnader
+7201	Telefon och internet
+7202	Porto
+7203	Kontorsmaterial
+7204	Revisionsarvode
+7205	Konsultarvoden
+7206	Medlemsavgifter och prenumerationer
+7207	Bolagets avgifter
+73	Försäljningskostnader
+7301	Reklam
+7302	Utgående frakter
+7303	Provisioner
+7304	Resekostnader
+74	Bilkostnader
+7401	Drivmedel
+7402	Fordonsskatt och försäkring
+7403	Reparation av fordon
+75	Finansiella kostnader
+7501	Räntekostnader
+7502	Bankavgifter
+7503	Valutakursförluster
+7504	Leasingräntor
+76	Avskrivningar
+7601	Avskrivningar på byggnader
+7602	Avskrivningar på maskiner och tekniska anläggningar
+7603	Avskrivningar på fordon
+7604	Avskrivningar på inventarier
+7605	Avskrivningar på datorer
+7606	Avskrivningar på immateriella anläggningstillgångar
+77	Övriga kostnader
+7701	Kundförluster
+7702	Förlust vid försäljning av anläggningstillgångar
+7703	Ej avdragsgill moms
+7704	Övriga kostnader
+7705	Lagersvinn och kassation
+8	Skatt på årets resultat
+80	Skatter
+8001	Bolagsskatt
+8002	Övriga skatter på resultatet
+8003	Uppskjuten skatt

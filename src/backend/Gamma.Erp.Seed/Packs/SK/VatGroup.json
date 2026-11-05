@@ -1,0 +1,54 @@
+[
+ {
+  "Key": "vat_group:SK_23",
+  "IdSup": null,
+  "Active": true,
+  "Code": null,
+  "Name": {
+   "en": "VAT 23%",
+   "sk": "DPH 23%"
+  },
+  "Description": null,
+  "Rate": 23.0,
+  "Depreciation": false
+ },
+ {
+  "Key": "vat_group:SK_19",
+  "IdSup": null,
+  "Active": true,
+  "Code": null,
+  "Name": {
+   "en": "VAT 19%",
+   "sk": "DPH 19%"
+  },
+  "Description": null,
+  "Rate": 19.0,
+  "Depreciation": false
+ },
+ {
+  "Key": "vat_group:SK_5",
+  "IdSup": null,
+  "Active": true,
+  "Code": null,
+  "Name": {
+   "en": "VAT 5%",
+   "sk": "DPH 5%"
+  },
+  "Description": null,
+  "Rate": 5.0,
+  "Depreciation": false
+ },
+ {
+  "Key": "vat_group:SK_0",
+  "IdSup": null,
+  "Active": true,
+  "Code": null,
+  "Name": {
+   "en": "VAT 0% / exempt",
+   "sk": "DPH 0% / oslobodené"
+  },
+  "Description": null,
+  "Rate": 0.0,
+  "Depreciation": false
+ }
+]

@@ -1,0 +1,4694 @@
+[
+ {
+  "Key": "chart:1",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "1",
+  "Name": {
+   "en": "Equity",
+   "sq": "Kapitali"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:101",
+  "IdSup": "chart:1",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "101",
+  "Name": {
+   "en": "Paid-in capital",
+   "sq": "Kapitali i paguar"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:102",
+  "IdSup": "chart:1",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "102",
+  "Name": {
+   "en": "Subscribed capital unpaid",
+   "sq": "Kapitali i nënshkruar i papaguar"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:103",
+  "IdSup": "chart:1",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "103",
+  "Name": {
+   "en": "Treasury shares",
+   "sq": "Aksione të thesarit"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:104",
+  "IdSup": "chart:1",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "104",
+  "Name": {
+   "en": "Share premium",
+   "sq": "Prime të lidhura me kapitalin"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:105",
+  "IdSup": "chart:1",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "105",
+  "Name": {
+   "en": "Capital discounts",
+   "sq": "Zbritje të lidhura me kapitalin"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:106",
+  "IdSup": "chart:1",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "106",
+  "Name": {
+   "en": "Revaluation reserve",
+   "sq": "Rezerva nga rivlerësimi"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:107",
+  "IdSup": "chart:1",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "107",
+  "Name": {
+   "en": "Other reserves",
+   "sq": "Rezerva të tjera"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:1071",
+  "IdSup": "chart:107",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "1071",
+  "Name": {
+   "en": "Legal reserve",
+   "sq": "Rezerva ligjore"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:1073",
+  "IdSup": "chart:107",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "1073",
+  "Name": {
+   "en": "Statutory reserve",
+   "sq": "Rezerva statutore"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:1078",
+  "IdSup": "chart:107",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "1078",
+  "Name": {
+   "en": "Other reserves",
+   "sq": "Rezerva të tjera"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:108",
+  "IdSup": "chart:1",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "108",
+  "Name": {
+   "en": "Retained earnings",
+   "sq": "Fitimi/Humbja e pashpërndarë"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:109",
+  "IdSup": "chart:1",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "109",
+  "Name": {
+   "en": "Profit or loss for the year",
+   "sq": "Rezultati i ushtrimit"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:2",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "2",
+  "Name": {
+   "en": "Non-current assets",
+   "sq": "Aktivet afatgjata"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:20",
+  "IdSup": "chart:2",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "20",
+  "Name": {
+   "en": "Intangible assets",
+   "sq": "AA jomateriale"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:201",
+  "IdSup": "chart:20",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "201",
+  "Name": {
+   "en": "Goodwill",
+   "sq": "Emri i mirë"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:203",
+  "IdSup": "chart:20",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "203",
+  "Name": {
+   "en": "Development costs",
+   "sq": "Shpenzime të zhvillimit"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:205",
+  "IdSup": "chart:20",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "205",
+  "Name": {
+   "en": "Concessions, similar rights and licences",
+   "sq": "Koncesione dhe të drejta të ngjashme, licensa"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:208",
+  "IdSup": "chart:20",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "208",
+  "Name": {
+   "en": "Other intangible assets",
+   "sq": "Të tjera AA jomateriale"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:21",
+  "IdSup": "chart:2",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "21",
+  "Name": {
+   "en": "Tangible assets",
+   "sq": "AA materiale"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:211",
+  "IdSup": "chart:21",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "211",
+  "Name": {
+   "en": "Land",
+   "sq": "Toka"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:212",
+  "IdSup": "chart:21",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "212",
+  "Name": {
+   "en": "Buildings",
+   "sq": "Ndërtesa"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:213",
+  "IdSup": "chart:21",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "213",
+  "Name": {
+   "en": "Plant, machinery, equipment and tools",
+   "sq": "Instalime teknike, makineri, pajisje, instrumente dhe vegla pune"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:215",
+  "IdSup": "chart:21",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "215",
+  "Name": {
+   "en": "Vehicles",
+   "sq": "Mjete transporti"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:218",
+  "IdSup": "chart:21",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "218",
+  "Name": {
+   "en": "Other tangible assets",
+   "sq": "Të tjera AA materiale"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:2181",
+  "IdSup": "chart:218",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "2181",
+  "Name": {
+   "en": "Furniture and office equipment",
+   "sq": "Mobilje dhe pajisje zyre"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:2182",
+  "IdSup": "chart:218",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "2182",
+  "Name": {
+   "en": "IT equipment",
+   "sq": "Pajisje informative"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:2188",
+  "IdSup": "chart:218",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "2188",
+  "Name": {
+   "en": "Other",
+   "sq": "Të tjera"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:23",
+  "IdSup": "chart:2",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "23",
+  "Name": {
+   "en": "Assets under construction",
+   "sq": "AA në proces"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:231",
+  "IdSup": "chart:23",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "231",
+  "Name": {
+   "en": "Tangible assets under construction",
+   "sq": "AA materiale në proces"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:232",
+  "IdSup": "chart:23",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "232",
+  "Name": {
+   "en": "Intangible assets under development",
+   "sq": "AA jomateriale në proces"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:24",
+  "IdSup": "chart:2",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "24",
+  "Name": {
+   "en": "Biological assets",
+   "sq": "AA biologjike"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:25",
+  "IdSup": "chart:2",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "25",
+  "Name": {
+   "en": "Non-current assets held for sale",
+   "sq": "AA të mbajtura për shitje"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:26",
+  "IdSup": "chart:2",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "26",
+  "Name": {
+   "en": "Financial assets",
+   "sq": "AA financiare"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:261",
+  "IdSup": "chart:26",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "261",
+  "Name": {
+   "en": "Shares in subsidiaries",
+   "sq": "Aksione të shoqërive të kontrolluara"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:262",
+  "IdSup": "chart:26",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "262",
+  "Name": {
+   "en": "Shares in associates",
+   "sq": "Aksione të shoqërive të lidhura"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:263",
+  "IdSup": "chart:26",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "263",
+  "Name": {
+   "en": "Other shares and securities",
+   "sq": "Aksione të tjera dhe letra me vlerë"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:265",
+  "IdSup": "chart:26",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "265",
+  "Name": {
+   "en": "Long-term loans given",
+   "sq": "Huadhënie afatgjatë"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:268",
+  "IdSup": "chart:26",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "268",
+  "Name": {
+   "en": "Other long-term receivables",
+   "sq": "Të drejta të tjera afatgjatë"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:280",
+  "IdSup": "chart:2",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "280",
+  "Name": {
+   "en": "Amortisation of intangible assets",
+   "sq": "Amortizimi i AA jomateriale"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:2801",
+  "IdSup": "chart:280",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "2801",
+  "Name": {
+   "en": "Goodwill",
+   "sq": "Për emrin e mirë"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:2803",
+  "IdSup": "chart:280",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "2803",
+  "Name": {
+   "en": "Development costs",
+   "sq": "Për shpenzimet e zhvillimit"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:2805",
+  "IdSup": "chart:280",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "2805",
+  "Name": {
+   "en": "Concessions, patents, licences",
+   "sq": "Për koncesione, patenta, licensa e të ngjashme"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:2808",
+  "IdSup": "chart:280",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "2808",
+  "Name": {
+   "en": "Other intangible assets",
+   "sq": "Për të tjera AA jomateriale"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:281",
+  "IdSup": "chart:2",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "281",
+  "Name": {
+   "en": "Depreciation of tangible assets",
+   "sq": "Amortizimi i AA materiale"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:2812",
+  "IdSup": "chart:281",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "2812",
+  "Name": {
+   "en": "Buildings",
+   "sq": "Për ndërtesat"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:2813",
+  "IdSup": "chart:281",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "2813",
+  "Name": {
+   "en": "Plant, machinery, equipment and tools",
+   "sq": "Për instalime teknike, makineri, pajisje, instrumente e vegla"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:2815",
+  "IdSup": "chart:281",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "2815",
+  "Name": {
+   "en": "Vehicles",
+   "sq": "Për mjetet e transportit"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:2818",
+  "IdSup": "chart:281",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "2818",
+  "Name": {
+   "en": "Other tangible assets",
+   "sq": "Për të tjera AA materiale"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:284",
+  "IdSup": "chart:2",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "284",
+  "Name": {
+   "en": "Depreciation of biological assets",
+   "sq": "Amortizimi i AA biologjike"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:29",
+  "IdSup": "chart:2",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "29",
+  "Name": {
+   "en": "Impairment of non-current assets",
+   "sq": "Zhvlerësimi i AA"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:290",
+  "IdSup": "chart:29",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "290",
+  "Name": {
+   "en": "Intangible assets",
+   "sq": "Për AA jomateriale"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:2901",
+  "IdSup": "chart:290",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "2901",
+  "Name": {
+   "en": "Goodwill",
+   "sq": "Për emrin e mirë"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:2903",
+  "IdSup": "chart:290",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "2903",
+  "Name": {
+   "en": "Development costs",
+   "sq": "Për shpenzimet e zhvillimit"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:2905",
+  "IdSup": "chart:290",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "2905",
+  "Name": {
+   "en": "Concessions, patents, licences",
+   "sq": "Për koncesione, patenta, licensa dhe të ngjashme"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:2908",
+  "IdSup": "chart:290",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "2908",
+  "Name": {
+   "en": "Other intangible assets",
+   "sq": "Për të tjera AA jomateriale"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:291",
+  "IdSup": "chart:29",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "291",
+  "Name": {
+   "en": "Tangible assets",
+   "sq": "Për AA materiale"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:2911",
+  "IdSup": "chart:291",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "2911",
+  "Name": {
+   "en": "Land",
+   "sq": "Për tokat"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:2912",
+  "IdSup": "chart:291",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "2912",
+  "Name": {
+   "en": "Buildings",
+   "sq": "Për ndërtesat"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:2913",
+  "IdSup": "chart:291",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "2913",
+  "Name": {
+   "en": "Plant, machinery, equipment and tools",
+   "sq": "Për instalimet teknike, makineri, pajisje, instrumente e vegla"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:2915",
+  "IdSup": "chart:291",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "2915",
+  "Name": {
+   "en": "Vehicles",
+   "sq": "Për mjetet e transportit"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:2918",
+  "IdSup": "chart:291",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "2918",
+  "Name": {
+   "en": "Other tangible assets",
+   "sq": "Për të tjera AA materiale"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:293",
+  "IdSup": "chart:29",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "293",
+  "Name": {
+   "en": "Assets under construction",
+   "sq": "Për AA në proces"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:294",
+  "IdSup": "chart:29",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "294",
+  "Name": {
+   "en": "Biological assets",
+   "sq": "Për AA biologjike"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:296",
+  "IdSup": "chart:29",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "296",
+  "Name": {
+   "en": "Long-term financial investments",
+   "sq": "Për investimet financiare afatgjata"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:2961",
+  "IdSup": "chart:296",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "2961",
+  "Name": {
+   "en": "Shares in subsidiaries",
+   "sq": "Aksione të shoqërive të kontrolluara"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:2962",
+  "IdSup": "chart:296",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "2962",
+  "Name": {
+   "en": "Shares in associates",
+   "sq": "Aksione të shoqërive të lidhura"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:2963",
+  "IdSup": "chart:296",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "2963",
+  "Name": {
+   "en": "Other shares or securities",
+   "sq": "Të tjera aksione ose letra me vlerë"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:2965",
+  "IdSup": "chart:296",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "2965",
+  "Name": {
+   "en": "Long-term loans given",
+   "sq": "Huadhënie afatgjatë"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:2968",
+  "IdSup": "chart:296",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "2968",
+  "Name": {
+   "en": "Other long-term receivables",
+   "sq": "Të drejta të tjera afatgjata"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:3",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "3",
+  "Name": {
+   "en": "Inventories",
+   "sq": "Inventarët"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:31",
+  "IdSup": "chart:3",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "31",
+  "Name": {
+   "en": "Materials",
+   "sq": "Materiale"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:311",
+  "IdSup": "chart:31",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "311",
+  "Name": {
+   "en": "Raw materials",
+   "sq": "Materiale të para"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:312",
+  "IdSup": "chart:31",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "312",
+  "Name": {
+   "en": "Other materials",
+   "sq": "Materiale të tjera"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:3123",
+  "IdSup": "chart:312",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "3123",
+  "Name": {
+   "en": "Auxiliary materials",
+   "sq": "Materiale ndihmëse"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:3124",
+  "IdSup": "chart:312",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "3124",
+  "Name": {
+   "en": "Fuel",
+   "sq": "Lëndë djegëse"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:3125",
+  "IdSup": "chart:312",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "3125",
+  "Name": {
+   "en": "Spare parts",
+   "sq": "Pjesë ndërrimi"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:3126",
+  "IdSup": "chart:312",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "3126",
+  "Name": {
+   "en": "Packaging materials",
+   "sq": "Materiale ambalazhimi"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:3127",
+  "IdSup": "chart:312",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "3127",
+  "Name": {
+   "en": "Other materials",
+   "sq": "Materiale të tjera"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:32",
+  "IdSup": "chart:3",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "32",
+  "Name": {
+   "en": "Small tools and packaging",
+   "sq": "Inventari i imët dhe ambalazhet"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:326",
+  "IdSup": "chart:32",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "326",
+  "Name": {
+   "en": "Returnable packaging",
+   "sq": "Ambalazh i kthyeshëm (qarkullues)"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:327",
+  "IdSup": "chart:32",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "327",
+  "Name": {
+   "en": "Small tools",
+   "sq": "Inventar i imët"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:33",
+  "IdSup": "chart:3",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "33",
+  "Name": {
+   "en": "Work in progress",
+   "sq": "Prodhimi në proces"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:331",
+  "IdSup": "chart:33",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "331",
+  "Name": {
+   "en": "Production in progress",
+   "sq": "Prodhimi në proces"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:332",
+  "IdSup": "chart:33",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "332",
+  "Name": {
+   "en": "Works in progress",
+   "sq": "Punime në proces"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:333",
+  "IdSup": "chart:33",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "333",
+  "Name": {
+   "en": "Services in progress",
+   "sq": "Shërbime në proces"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:34",
+  "IdSup": "chart:3",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "34",
+  "Name": {
+   "en": "Products",
+   "sq": "Produkte"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:341",
+  "IdSup": "chart:34",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "341",
+  "Name": {
+   "en": "Finished products",
+   "sq": "Produkte të gatshëm"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:342",
+  "IdSup": "chart:34",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "342",
+  "Name": {
+   "en": "Intermediate products",
+   "sq": "Produkte të ndërmjetëm"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:347",
+  "IdSup": "chart:34",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "347",
+  "Name": {
+   "en": "By-products and scrap",
+   "sq": "Nënprodukte dhe produkte mbeturinë"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:35",
+  "IdSup": "chart:3",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "35",
+  "Name": {
+   "en": "Goods for resale",
+   "sq": "Mallra"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:36",
+  "IdSup": "chart:3",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "36",
+  "Name": {
+   "en": "Biological assets (current)",
+   "sq": "Aktive biologjike (afatshkurtra)"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:37",
+  "IdSup": "chart:3",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "37",
+  "Name": {
+   "en": "Inventory in transit or held by third parties",
+   "sq": "Inventar i pambërritur ose tek të tretët"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:371",
+  "IdSup": "chart:37",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "371",
+  "Name": {
+   "en": "Raw materials",
+   "sq": "Materiale të para"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:372",
+  "IdSup": "chart:37",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "372",
+  "Name": {
+   "en": "Other materials",
+   "sq": "Materiale të tjera"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:374",
+  "IdSup": "chart:37",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "374",
+  "Name": {
+   "en": "Finished products",
+   "sq": "Produkte të gatshëm"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:375",
+  "IdSup": "chart:37",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "375",
+  "Name": {
+   "en": "Goods (and products) for sale",
+   "sq": "Mallra (dhe produkte) për shitje"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:376",
+  "IdSup": "chart:37",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "376",
+  "Name": {
+   "en": "Livestock",
+   "sq": "Gjë e gjallë"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:38",
+  "IdSup": "chart:3",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "38",
+  "Name": {
+   "en": "Inventory price differences",
+   "sq": "Diferenca nga çmimet e magazinimit"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:39",
+  "IdSup": "chart:3",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "39",
+  "Name": {
+   "en": "Impairment of inventories",
+   "sq": "Zhvlerësimi i inventarëve"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:391",
+  "IdSup": "chart:39",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "391",
+  "Name": {
+   "en": "Raw materials",
+   "sq": "Zhvlerësimi i materialeve të para"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:392",
+  "IdSup": "chart:39",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "392",
+  "Name": {
+   "en": "Other materials",
+   "sq": "Zhvlerësimi i materialeve të tjera"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:393",
+  "IdSup": "chart:39",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "393",
+  "Name": {
+   "en": "Work in progress",
+   "sq": "Zhvlerësimi i prodhimeve në proces"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:394",
+  "IdSup": "chart:39",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "394",
+  "Name": {
+   "en": "Finished products",
+   "sq": "Zhvlerësimi i produkteve të gatshëm"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:395",
+  "IdSup": "chart:39",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "395",
+  "Name": {
+   "en": "Goods (and products) for sale",
+   "sq": "Zhvlerësimi i mallrave (dhe produkteve) për shitje"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:4",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "4",
+  "Name": {
+   "en": "Third parties",
+   "sq": "Të tretët"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:40",
+  "IdSup": "chart:4",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "40",
+  "Name": {
+   "en": "Trade payables",
+   "sq": "Detyrime tregtare"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:401",
+  "IdSup": "chart:40",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "401",
+  "Name": {
+   "en": "Suppliers of goods, products and services",
+   "sq": "Furnitorë për mallra, produkte e shërbime"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:403",
+  "IdSup": "chart:40",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "403",
+  "Name": {
+   "en": "Notes payable",
+   "sq": "Premtim pagesa të pagueshme"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:404",
+  "IdSup": "chart:40",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "404",
+  "Name": {
+   "en": "Suppliers of non-current assets",
+   "sq": "Furnitorë për aktivet afatgjata"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:408",
+  "IdSup": "chart:40",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "408",
+  "Name": {
+   "en": "Suppliers, invoices not yet received",
+   "sq": "Furnitorë për fatura të pambërritura"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:409",
+  "IdSup": "chart:40",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "409",
+  "Name": {
+   "en": "Advances received",
+   "sq": "Parapagime të marra"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:41",
+  "IdSup": "chart:4",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "41",
+  "Name": {
+   "en": "Trade receivables",
+   "sq": "Të drejta tregtare"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:411",
+  "IdSup": "chart:41",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "411",
+  "Name": {
+   "en": "Clients for goods, products and services",
+   "sq": "Klientë për mallra, produkte e shërbime"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:413",
+  "IdSup": "chart:41",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "413",
+  "Name": {
+   "en": "Notes receivable",
+   "sq": "Premtim pagesa të arkëtueshme"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:414",
+  "IdSup": "chart:41",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "414",
+  "Name": {
+   "en": "Clients for non-current assets",
+   "sq": "Klientë për aktivet afatgjata"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:416",
+  "IdSup": "chart:41",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "416",
+  "Name": {
+   "en": "Receivables in litigation",
+   "sq": "Të drejta për t'u arkëtuar nga proceset gjyqësore"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:418",
+  "IdSup": "chart:41",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "418",
+  "Name": {
+   "en": "Advances given",
+   "sq": "Parapagime të dhëna"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:42",
+  "IdSup": "chart:4",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "42",
+  "Name": {
+   "en": "Payables to staff",
+   "sq": "Detyrime ndaj personelit"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:421",
+  "IdSup": "chart:42",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "421",
+  "Name": {
+   "en": "Wages and bonuses",
+   "sq": "Paga dhe shpërblime"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:423",
+  "IdSup": "chart:42",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "423",
+  "Name": {
+   "en": "Advances to employees",
+   "sq": "Paradhënie për punonjësit"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:427",
+  "IdSup": "chart:42",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "427",
+  "Name": {
+   "en": "Staff, other amounts due",
+   "sq": "Personeli - detyrime të kërkuara"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:43",
+  "IdSup": "chart:4",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "43",
+  "Name": {
+   "en": "Social security payables",
+   "sq": "Detyrime për sigurime shoqërore"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:431",
+  "IdSup": "chart:43",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "431",
+  "Name": {
+   "en": "Social and health insurance",
+   "sq": "Sigurime shoqërore dhe shëndetësore"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:437",
+  "IdSup": "chart:43",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "437",
+  "Name": {
+   "en": "Other social bodies",
+   "sq": "Organizma të tjera shoqërore"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:438",
+  "IdSup": "chart:43",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "438",
+  "Name": {
+   "en": "Other payables",
+   "sq": "Detyrime të tjera"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:44",
+  "IdSup": "chart:4",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "44",
+  "Name": {
+   "en": "State, taxes and duties",
+   "sq": "Shteti për tatime dhe taksa"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:441",
+  "IdSup": "chart:44",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "441",
+  "Name": {
+   "en": "Excise",
+   "sq": "Akciza"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:442",
+  "IdSup": "chart:44",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "442",
+  "Name": {
+   "en": "Personal income tax",
+   "sq": "Tatim mbi të ardhurat personale"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:443",
+  "IdSup": "chart:44",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "443",
+  "Name": {
+   "en": "Other employee taxes",
+   "sq": "Tatime të tjera për punonjësit"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:444",
+  "IdSup": "chart:44",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "444",
+  "Name": {
+   "en": "Corporate income tax",
+   "sq": "Tatim mbi fitimin"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:445",
+  "IdSup": "chart:44",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "445",
+  "Name": {
+   "en": "VAT",
+   "sq": "TVSH"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:4453",
+  "IdSup": "chart:445",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "4453",
+  "Name": {
+   "en": "VAT to pay",
+   "sq": "Shteti - TVSH për t'u paguar"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:4454",
+  "IdSup": "chart:445",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "4454",
+  "Name": {
+   "en": "VAT to recover",
+   "sq": "Shteti - TVSH për t'u marrë"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:4456",
+  "IdSup": "chart:445",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "4456",
+  "Name": {
+   "en": "Input VAT (deductible)",
+   "sq": "Shteti - TVSH e zbritshme"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:4457",
+  "IdSup": "chart:445",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "4457",
+  "Name": {
+   "en": "Output VAT (payable)",
+   "sq": "Shteti - TVSH e pagueshme"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:4458",
+  "IdSup": "chart:445",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "4458",
+  "Name": {
+   "en": "VAT to be regularised",
+   "sq": "Shteti - TVSH për t'u rregulluar"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:447",
+  "IdSup": "chart:44",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "447",
+  "Name": {
+   "en": "Other taxes payable and recoverable",
+   "sq": "Të tjera tatime për t'u paguar dhe për t'u kthyer"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:448",
+  "IdSup": "chart:44",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "448",
+  "Name": {
+   "en": "Deferred taxes",
+   "sq": "Tatime të shtyra"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:449",
+  "IdSup": "chart:44",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "449",
+  "Name": {
+   "en": "Withholding tax",
+   "sq": "Tatimi në burim"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:45",
+  "IdSup": "chart:4",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "45",
+  "Name": {
+   "en": "Related parties",
+   "sq": "Të drejta dhe detyrime ndaj palëve të lidhura"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:451",
+  "IdSup": "chart:45",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "451",
+  "Name": {
+   "en": "Group companies",
+   "sq": "Të drejta dhe detyrime ndaj pjesëtarëve të tjerë të grupit"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:455",
+  "IdSup": "chart:45",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "455",
+  "Name": {
+   "en": "Partners and shareholders",
+   "sq": "Të drejta dhe detyrime ndaj ortakëve dhe aksionerëve"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:456",
+  "IdSup": "chart:45",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "456",
+  "Name": {
+   "en": "Owners, subscribed capital called",
+   "sq": "Të drejta ndaj pronarëve për kapitalin e nënshkruar"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:457",
+  "IdSup": "chart:45",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "457",
+  "Name": {
+   "en": "Dividends payable",
+   "sq": "Dividentë për t'u paguar"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:460",
+  "IdSup": "chart:4",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "460",
+  "Name": {
+   "en": "Finance leases",
+   "sq": "Qira financiare"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:461",
+  "IdSup": "chart:4",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "461",
+  "Name": {
+   "en": "Short-term borrowings",
+   "sq": "Huamarrje afatshkurtra"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:4611",
+  "IdSup": "chart:461",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "4611",
+  "Name": {
+   "en": "Banks",
+   "sq": "Bankat"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:4612",
+  "IdSup": "chart:461",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "4612",
+  "Name": {
+   "en": "Other instruments",
+   "sq": "Të tjerë tituj"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:4631",
+  "IdSup": "chart:4",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "4631",
+  "Name": {
+   "en": "Short-term provisions",
+   "sq": "Provizionet afatshkurtra"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:4632",
+  "IdSup": "chart:4",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "4632",
+  "Name": {
+   "en": "Long-term provisions",
+   "sq": "Provizionet afatgjata"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:464",
+  "IdSup": "chart:4",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "464",
+  "Name": {
+   "en": "Payables for securities bought",
+   "sq": "Detyrime për blerjet e letrave me vlerë"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:465",
+  "IdSup": "chart:4",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "465",
+  "Name": {
+   "en": "Receivables for securities sold",
+   "sq": "Të drejta për t'u arkëtuar nga shitjet e letrave me vlerë"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:4661",
+  "IdSup": "chart:4",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "4661",
+  "Name": {
+   "en": "Short-term grants",
+   "sq": "Grante afatshkurtra"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:4662",
+  "IdSup": "chart:4",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "4662",
+  "Name": {
+   "en": "Long-term grants",
+   "sq": "Grante afatgjata"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:467",
+  "IdSup": "chart:4",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "467",
+  "Name": {
+   "en": "Other debtors and creditors",
+   "sq": "Debitorë të tjerë, kreditorë të tjerë"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:46701",
+  "IdSup": "chart:467",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "46701",
+  "Name": {
+   "en": "Sellers",
+   "sq": "Shitës"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:46702",
+  "IdSup": "chart:467",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "46702",
+  "Name": {
+   "en": "Suppliers",
+   "sq": "Furnizues"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:468",
+  "IdSup": "chart:4",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "468",
+  "Name": {
+   "en": "Long-term borrowings",
+   "sq": "Huamarrjet afatgjata"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:4681",
+  "IdSup": "chart:468",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "4681",
+  "Name": {
+   "en": "Banks",
+   "sq": "Bankat"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:4682",
+  "IdSup": "chart:468",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "4682",
+  "Name": {
+   "en": "Bonds",
+   "sq": "Obligacionet"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:46821",
+  "IdSup": "chart:4682",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "46821",
+  "Name": {
+   "en": "Bond premium",
+   "sq": "Primi i obligacionit"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:46822",
+  "IdSup": "chart:4682",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "46822",
+  "Name": {
+   "en": "Bond discount",
+   "sq": "Zbritja e obligacionit"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:469",
+  "IdSup": "chart:4",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "469",
+  "Name": {
+   "en": "Short-term loans given",
+   "sq": "Huadhënie afatshkurtra"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:47",
+  "IdSup": "chart:4",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "47",
+  "Name": {
+   "en": "Suspense accounts",
+   "sq": "Llogari të përkohshme ose në pritje"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:476",
+  "IdSup": "chart:47",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "476",
+  "Name": {
+   "en": "Translation differences, assets",
+   "sq": "Diferenca konvertimi - aktive"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:477",
+  "IdSup": "chart:47",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "477",
+  "Name": {
+   "en": "Translation differences, liabilities",
+   "sq": "Diferenca konvertimi - pasive"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:48",
+  "IdSup": "chart:4",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "48",
+  "Name": {
+   "en": "Accruals and deferrals",
+   "sq": "Të ardhura dhe shpenzime të llogaritura"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:481",
+  "IdSup": "chart:48",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "481",
+  "Name": {
+   "en": "Accrued expenses",
+   "sq": "Shpenzime të llogaritura"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:483",
+  "IdSup": "chart:48",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "483",
+  "Name": {
+   "en": "Accrued interest receivable",
+   "sq": "Interesa aktive të llogaritura"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:484",
+  "IdSup": "chart:48",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "484",
+  "Name": {
+   "en": "Accrued interest payable",
+   "sq": "Interesa pasive të llogaritura"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:486",
+  "IdSup": "chart:48",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "486",
+  "Name": {
+   "en": "Prepaid expenses",
+   "sq": "Shpenzime të periudhave të ardhshme"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:487",
+  "IdSup": "chart:48",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "487",
+  "Name": {
+   "en": "Accrued income",
+   "sq": "Të ardhura të llogaritura"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:488",
+  "IdSup": "chart:48",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "488",
+  "Name": {
+   "en": "Deferred income",
+   "sq": "Të ardhura të periudhave të ardhshme"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:49",
+  "IdSup": "chart:4",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "49",
+  "Name": {
+   "en": "Impairment of receivables and payables",
+   "sq": "Zhvlerësim i të drejtave dhe detyrimeve"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:490",
+  "IdSup": "chart:49",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "490",
+  "Name": {
+   "en": "Payables",
+   "sq": "Zhvlerësim i detyrimeve"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:4901",
+  "IdSup": "chart:490",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "4901",
+  "Name": {
+   "en": "Suppliers of goods, products and services",
+   "sq": "Për furnitorët e mallrave, produkteve dhe shërbimeve"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:4903",
+  "IdSup": "chart:490",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "4903",
+  "Name": {
+   "en": "Notes payable",
+   "sq": "Për premtim pagesa të pagueshme"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:4904",
+  "IdSup": "chart:490",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "4904",
+  "Name": {
+   "en": "Suppliers of non-current assets",
+   "sq": "Për furnitorët e aktiveve afatgjata"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:4908",
+  "IdSup": "chart:490",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "4908",
+  "Name": {
+   "en": "Suppliers, invoices not yet received",
+   "sq": "Për furnitorë për fatura të pambërritura"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:491",
+  "IdSup": "chart:49",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "491",
+  "Name": {
+   "en": "Receivables",
+   "sq": "Zhvlerësim i të drejtave"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:4911",
+  "IdSup": "chart:491",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "4911",
+  "Name": {
+   "en": "Clients for goods, products and services",
+   "sq": "Për klientët e mallrave, produkteve dhe shërbimeve"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:4913",
+  "IdSup": "chart:491",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "4913",
+  "Name": {
+   "en": "Notes receivable",
+   "sq": "Për premtim pagesa të arkëtueshme"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:4914",
+  "IdSup": "chart:491",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "4914",
+  "Name": {
+   "en": "Clients for non-current assets",
+   "sq": "Për klientët e aktiveve afatgjata"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:4916",
+  "IdSup": "chart:491",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "4916",
+  "Name": {
+   "en": "Receivables in litigation",
+   "sq": "Për të drejta për t'u arkëtuar nga proceset gjyqësore"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:4918",
+  "IdSup": "chart:491",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "4918",
+  "Name": {
+   "en": "Advances given",
+   "sq": "Për parapagime të dhëna"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:5",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "5",
+  "Name": {
+   "en": "Cash and cash equivalents",
+   "sq": "Likuiditetet"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:50",
+  "IdSup": "chart:5",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "50",
+  "Name": {
+   "en": "Short-term securities",
+   "sq": "Letra me vlerë afatshkurtra"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:503",
+  "IdSup": "chart:50",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "503",
+  "Name": {
+   "en": "Equity securities",
+   "sq": "Letra me vlerë të pjesëmarrjes"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:504",
+  "IdSup": "chart:50",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "504",
+  "Name": {
+   "en": "Debt securities",
+   "sq": "Letra me vlerë të huave"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:51",
+  "IdSup": "chart:5",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "51",
+  "Name": {
+   "en": "Banks and other financial institutions",
+   "sq": "Banka dhe institucione të tjera financiare"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:511",
+  "IdSup": "chart:51",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "511",
+  "Name": {
+   "en": "Cash in transit",
+   "sq": "Vlera monetare në tranzit"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:5111",
+  "IdSup": "chart:511",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "5111",
+  "Name": {
+   "en": "Cash in transit, lek",
+   "sq": "Vlera monetare në tranzit, në lekë"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:5114",
+  "IdSup": "chart:511",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "5114",
+  "Name": {
+   "en": "Cash in transit, foreign currency",
+   "sq": "Vlera monetare në tranzit, në monedha të huaja"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:512",
+  "IdSup": "chart:51",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "512",
+  "Name": {
+   "en": "Cash at bank",
+   "sq": "Vlera monetare në bankë"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:5121",
+  "IdSup": "chart:512",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "5121",
+  "Name": {
+   "en": "Cash at bank, lek",
+   "sq": "Vlera monetare në bankë, në lekë"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:5124",
+  "IdSup": "chart:512",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "5124",
+  "Name": {
+   "en": "Cash at bank, foreign currency",
+   "sq": "Vlera monetare në bankë, në monedha të huaja"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:519",
+  "IdSup": "chart:51",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "519",
+  "Name": {
+   "en": "Bank overdrafts",
+   "sq": "Llogari bankare të zbuluara (overdrafte)"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:53",
+  "IdSup": "chart:5",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "53",
+  "Name": {
+   "en": "Cash on hand",
+   "sq": "Vlera në arkë"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:531",
+  "IdSup": "chart:53",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "531",
+  "Name": {
+   "en": "Cash in hand",
+   "sq": "Vlera monetare në arkë"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:5311",
+  "IdSup": "chart:531",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "5311",
+  "Name": {
+   "en": "Cash in hand, lek",
+   "sq": "Vlera monetare në arkë, në lekë"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:5314",
+  "IdSup": "chart:531",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "5314",
+  "Name": {
+   "en": "Cash in hand, foreign currency",
+   "sq": "Vlera monetare në arkë, në monedha të huaja"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:532",
+  "IdSup": "chart:53",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "532",
+  "Name": {
+   "en": "Other values on hand",
+   "sq": "Vlera të tjera në arkë"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:5321",
+  "IdSup": "chart:532",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "5321",
+  "Name": {
+   "en": "Tax stamps",
+   "sq": "Pulla tatimore"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:5322",
+  "IdSup": "chart:532",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "5322",
+  "Name": {
+   "en": "Tickets",
+   "sq": "Bileta"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:5328",
+  "IdSup": "chart:532",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "5328",
+  "Name": {
+   "en": "Other values",
+   "sq": "Vlera të tjera"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:540",
+  "IdSup": "chart:5",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "540",
+  "Name": {
+   "en": "Loans treated as liquid",
+   "sq": "Hua që konsiderohen likuide"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:5401",
+  "IdSup": "chart:540",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "5401",
+  "Name": {
+   "en": "In lek",
+   "sq": "Hua në lekë"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:5404",
+  "IdSup": "chart:540",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "5404",
+  "Name": {
+   "en": "In foreign currency",
+   "sq": "Hua në monedhë të huaj"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:541",
+  "IdSup": "chart:5",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "541",
+  "Name": {
+   "en": "Loans given",
+   "sq": "Hua të dhëna"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:5411",
+  "IdSup": "chart:541",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "5411",
+  "Name": {
+   "en": "In lek",
+   "sq": "Hua në lekë"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:5414",
+  "IdSup": "chart:541",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "5414",
+  "Name": {
+   "en": "In foreign currency",
+   "sq": "Hua në monedha të huaja"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:542",
+  "IdSup": "chart:5",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "542",
+  "Name": {
+   "en": "Loans received",
+   "sq": "Hua të marra"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:5421",
+  "IdSup": "chart:542",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "5421",
+  "Name": {
+   "en": "In lek",
+   "sq": "Hua në lekë"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:5424",
+  "IdSup": "chart:542",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "5424",
+  "Name": {
+   "en": "In foreign currency",
+   "sq": "Hua në monedha të huaja"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:543",
+  "IdSup": "chart:5",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "543",
+  "Name": {
+   "en": "Securities held to maturity",
+   "sq": "Letra me vlerë të blera (të mbajtura deri në maturim)"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:5431",
+  "IdSup": "chart:543",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "5431",
+  "Name": {
+   "en": "In lek",
+   "sq": "Në lekë"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:5434",
+  "IdSup": "chart:543",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "5434",
+  "Name": {
+   "en": "In foreign currency",
+   "sq": "Në monedha të huaja"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:544",
+  "IdSup": "chart:5",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "544",
+  "Name": {
+   "en": "Debt securities issued",
+   "sq": "Letra me vlerë të borxhit, të emetuara"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:5441",
+  "IdSup": "chart:544",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "5441",
+  "Name": {
+   "en": "In lek",
+   "sq": "Në lekë"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:5444",
+  "IdSup": "chart:544",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "5444",
+  "Name": {
+   "en": "In foreign currency",
+   "sq": "Në monedha të huaja"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:547",
+  "IdSup": "chart:5",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "547",
+  "Name": {
+   "en": "Other trading securities",
+   "sq": "Letra të tjera për tregtim"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:5471",
+  "IdSup": "chart:547",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "5471",
+  "Name": {
+   "en": "In lek",
+   "sq": "Letra me vlerë në lekë"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:5472",
+  "IdSup": "chart:547",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "5472",
+  "Name": {
+   "en": "In foreign currency",
+   "sq": "Letra me vlerë në monedha të huaja"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:551",
+  "IdSup": "chart:5",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "551",
+  "Name": {
+   "en": "Derivatives",
+   "sq": "Derivatët"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:5511",
+  "IdSup": "chart:551",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "5511",
+  "Name": {
+   "en": "Positive value (assets)",
+   "sq": "Vlera pozitive (aktivet)"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:5512",
+  "IdSup": "chart:551",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "5512",
+  "Name": {
+   "en": "Negative value (liabilities)",
+   "sq": "Vlera negative (detyrimet)"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:552",
+  "IdSup": "chart:5",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "552",
+  "Name": {
+   "en": "Primary financial instruments for trading",
+   "sq": "Instrumente financiare primare për tregtim"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:559",
+  "IdSup": "chart:5",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "559",
+  "Name": {
+   "en": "Other financial assets for trading",
+   "sq": "Aktive të tjera financiare për tregtim"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:58",
+  "IdSup": "chart:5",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "58",
+  "Name": {
+   "en": "Internal transfers",
+   "sq": "Xhirime të brendshme"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:581",
+  "IdSup": "chart:58",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "581",
+  "Name": {
+   "en": "Internal transfers",
+   "sq": "Xhirime të brendshme"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:59",
+  "IdSup": "chart:5",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "59",
+  "Name": {
+   "en": "Impairment of financial assets",
+   "sq": "Zhvlerësimi i aktiveve financiare"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:590",
+  "IdSup": "chart:59",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "590",
+  "Name": {
+   "en": "Securities",
+   "sq": "Zhvlerësimi i letrave me vlerë"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:5903",
+  "IdSup": "chart:590",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "5903",
+  "Name": {
+   "en": "Shares",
+   "sq": "Aksionet"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:5905",
+  "IdSup": "chart:590",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "5905",
+  "Name": {
+   "en": "Bonds",
+   "sq": "Obligacionet"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:599",
+  "IdSup": "chart:59",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "599",
+  "Name": {
+   "en": "Other financial assets",
+   "sq": "Zhvlerësime të tjera për aktivet financiare"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:6",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "6",
+  "Name": {
+   "en": "Expenses",
+   "sq": "Shpenzimet"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:60",
+  "IdSup": "chart:6",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "60",
+  "Name": {
+   "en": "Purchases and consumption",
+   "sq": "Blerje/shpenzime të konsumuara"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:601",
+  "IdSup": "chart:60",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "601",
+  "Name": {
+   "en": "Purchases of raw and other materials",
+   "sq": "Blerje materialesh të para e të tjera"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:6011",
+  "IdSup": "chart:601",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "6011",
+  "Name": {
+   "en": "Raw materials",
+   "sq": "Blerje materiale të para"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:6012",
+  "IdSup": "chart:601",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "6012",
+  "Name": {
+   "en": "Other materials",
+   "sq": "Blerje materiale të tjera"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:60123",
+  "IdSup": "chart:6012",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "60123",
+  "Name": {
+   "en": "Auxiliary materials",
+   "sq": "Materiale ndihmëse"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:60124",
+  "IdSup": "chart:6012",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "60124",
+  "Name": {
+   "en": "Fuel",
+   "sq": "Lëndë djegëse"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:60125",
+  "IdSup": "chart:6012",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "60125",
+  "Name": {
+   "en": "Spare parts",
+   "sq": "Pjesë ndërrimi"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:60126",
+  "IdSup": "chart:6012",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "60126",
+  "Name": {
+   "en": "Packaging materials",
+   "sq": "Materiale ambalazhimi"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:60127",
+  "IdSup": "chart:6012",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "60127",
+  "Name": {
+   "en": "Other materials",
+   "sq": "Materiale të tjera"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:602",
+  "IdSup": "chart:60",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "602",
+  "Name": {
+   "en": "Purchases of small tools and packaging",
+   "sq": "Blerje objekte inventari"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:6026",
+  "IdSup": "chart:602",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "6026",
+  "Name": {
+   "en": "Returnable packaging",
+   "sq": "Ambalazh i kthyeshëm (qarkullues)"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:6027",
+  "IdSup": "chart:602",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "6027",
+  "Name": {
+   "en": "Small tools",
+   "sq": "Inventar i imët"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:603",
+  "IdSup": "chart:60",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "603",
+  "Name": {
+   "en": "Change in inventories",
+   "sq": "Ndryshim gjendje inventari"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:6034",
+  "IdSup": "chart:603",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "6034",
+  "Name": {
+   "en": "Change in products",
+   "sq": "Ndryshim gjendje prodhim produktesh"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:604",
+  "IdSup": "chart:60",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "604",
+  "Name": {
+   "en": "Energy, steam and water",
+   "sq": "Blerje energji, avull, ujë"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:6041",
+  "IdSup": "chart:604",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "6041",
+  "Name": {
+   "en": "Production and warehouse",
+   "sq": "Për prodhimin, magazinën"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:6042",
+  "IdSup": "chart:604",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "6042",
+  "Name": {
+   "en": "Sales units",
+   "sq": "Për shitjet"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:6043",
+  "IdSup": "chart:604",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "6043",
+  "Name": {
+   "en": "Administration",
+   "sq": "Për administratën"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:605",
+  "IdSup": "chart:60",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "605",
+  "Name": {
+   "en": "Purchases of goods and services",
+   "sq": "Blerje/shpenzime mallrash, shërbimesh"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:606",
+  "IdSup": "chart:60",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "606",
+  "Name": {
+   "en": "Purchases of biological assets",
+   "sq": "Blerje/shpenzime aktive biologjike"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:607",
+  "IdSup": "chart:60",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "607",
+  "Name": {
+   "en": "Purchases in transit",
+   "sq": "Blerje tek të tretët (të pambërritura)"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:608",
+  "IdSup": "chart:60",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "608",
+  "Name": {
+   "en": "Other purchases",
+   "sq": "Blerje/shpenzime të tjera"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:609",
+  "IdSup": "chart:60",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "609",
+  "Name": {
+   "en": "Discounts from suppliers",
+   "sq": "Zbritje financiare nga furnitori"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:61",
+  "IdSup": "chart:6",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "61",
+  "Name": {
+   "en": "External services",
+   "sq": "Shërbime nga të tretët"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:611",
+  "IdSup": "chart:61",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "611",
+  "Name": {
+   "en": "Subcontracting",
+   "sq": "Trajtime të përgjithshme"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:613",
+  "IdSup": "chart:61",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "613",
+  "Name": {
+   "en": "Rent",
+   "sq": "Qira"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:6131",
+  "IdSup": "chart:613",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "6131",
+  "Name": {
+   "en": "Production and warehouse",
+   "sq": "Qira për prodhimin, magazinimin"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:6132",
+  "IdSup": "chart:613",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "6132",
+  "Name": {
+   "en": "Sales and distribution units",
+   "sq": "Qira për njësitë e shitjes e të shpërndarjes"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:6133",
+  "IdSup": "chart:613",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "6133",
+  "Name": {
+   "en": "Administration",
+   "sq": "Qira për administratën"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:615",
+  "IdSup": "chart:61",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "615",
+  "Name": {
+   "en": "Maintenance and repairs",
+   "sq": "Mirëmbajtje dhe riparime"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:6151",
+  "IdSup": "chart:615",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "6151",
+  "Name": {
+   "en": "Production and warehouse",
+   "sq": "Për prodhimin, magazinimin"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:6152",
+  "IdSup": "chart:615",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "6152",
+  "Name": {
+   "en": "Sales and distribution units",
+   "sq": "Për njësitë e shitjes, të shpërndarjes"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:6153",
+  "IdSup": "chart:615",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "6153",
+  "Name": {
+   "en": "Administration",
+   "sq": "Për administratën"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:616",
+  "IdSup": "chart:61",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "616",
+  "Name": {
+   "en": "Insurance",
+   "sq": "Sigurime"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:6161",
+  "IdSup": "chart:616",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "6161",
+  "Name": {
+   "en": "Goods, warehouses, production",
+   "sq": "Sigurime mallra, magazina, njësi prodhimi"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:6162",
+  "IdSup": "chart:616",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "6162",
+  "Name": {
+   "en": "Sales, distribution, marketing",
+   "sq": "Sigurime njësi shitje, shpërndarje, marketing"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:6163",
+  "IdSup": "chart:616",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "6163",
+  "Name": {
+   "en": "Administration",
+   "sq": "Sigurime njësi administrative"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:617",
+  "IdSup": "chart:61",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "617",
+  "Name": {
+   "en": "Research and studies",
+   "sq": "Kërkime dhe studime"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:618",
+  "IdSup": "chart:61",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "618",
+  "Name": {
+   "en": "Other",
+   "sq": "Të tjera"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:62",
+  "IdSup": "chart:6",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "62",
+  "Name": {
+   "en": "Other services",
+   "sq": "Shërbime të tjera"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:621",
+  "IdSup": "chart:62",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "621",
+  "Name": {
+   "en": "External staff",
+   "sq": "Personel jashtë njësisë"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:6211",
+  "IdSup": "chart:621",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "6211",
+  "Name": {
+   "en": "Supply and production",
+   "sq": "Për furnizimin e prodhimin"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:6212",
+  "IdSup": "chart:621",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "6212",
+  "Name": {
+   "en": "Distribution and sales",
+   "sq": "Për shpërndarjen e shitjet"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:6213",
+  "IdSup": "chart:621",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "6213",
+  "Name": {
+   "en": "Administration",
+   "sq": "Për administratën"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:622",
+  "IdSup": "chart:62",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "622",
+  "Name": {
+   "en": "Intermediaries' commissions and fees",
+   "sq": "Komisione të ndërmjetësve dhe honorare"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:623",
+  "IdSup": "chart:62",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "623",
+  "Name": {
+   "en": "Concessions, patents and licences",
+   "sq": "Shpenzime për koncesione, patenta, licensa dhe të ngjashme"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:624",
+  "IdSup": "chart:62",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "624",
+  "Name": {
+   "en": "Advertising",
+   "sq": "Publicitet, reklama"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:625",
+  "IdSup": "chart:62",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "625",
+  "Name": {
+   "en": "Travel and allowances",
+   "sq": "Transferime, udhëtime, dieta"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:6251",
+  "IdSup": "chart:625",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "6251",
+  "Name": {
+   "en": "Supply",
+   "sq": "Për furnizimin"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:6252",
+  "IdSup": "chart:625",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "6252",
+  "Name": {
+   "en": "Distribution",
+   "sq": "Për shpërndarjen"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:6253",
+  "IdSup": "chart:625",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "6253",
+  "Name": {
+   "en": "Administration",
+   "sq": "Për administratën"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:626",
+  "IdSup": "chart:62",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "626",
+  "Name": {
+   "en": "Postage and telecommunications",
+   "sq": "Shpenzime postare dhe telekomunikimi"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:627",
+  "IdSup": "chart:62",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "627",
+  "Name": {
+   "en": "Transport",
+   "sq": "Shpenzime transporti"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:6271",
+  "IdSup": "chart:627",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "6271",
+  "Name": {
+   "en": "Purchases",
+   "sq": "Për blerjet"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:6272",
+  "IdSup": "chart:627",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "6272",
+  "Name": {
+   "en": "Sales",
+   "sq": "Për shitjet"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:6276",
+  "IdSup": "chart:627",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "6276",
+  "Name": {
+   "en": "Staff",
+   "sq": "Për personelin"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:628",
+  "IdSup": "chart:62",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "628",
+  "Name": {
+   "en": "Bank charges",
+   "sq": "Shpenzime për shërbimet bankare"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:63",
+  "IdSup": "chart:6",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "63",
+  "Name": {
+   "en": "Taxes and duties",
+   "sq": "Tatime dhe taksa"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:632",
+  "IdSup": "chart:63",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "632",
+  "Name": {
+   "en": "Customs duties",
+   "sq": "Taksa, tarifa doganore"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:633",
+  "IdSup": "chart:63",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "633",
+  "Name": {
+   "en": "Excise",
+   "sq": "Akciza"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:634",
+  "IdSup": "chart:63",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "634",
+  "Name": {
+   "en": "Local taxes and fees",
+   "sq": "Taksa dhe tarifa vendore"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:635",
+  "IdSup": "chart:63",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "635",
+  "Name": {
+   "en": "Registration tax",
+   "sq": "Taksa e regjistrimit"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:638",
+  "IdSup": "chart:63",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "638",
+  "Name": {
+   "en": "Other taxes",
+   "sq": "Tatime të tjera"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:64",
+  "IdSup": "chart:6",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "64",
+  "Name": {
+   "en": "Staff costs",
+   "sq": "Shpenzime për personelin"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:641",
+  "IdSup": "chart:64",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "641",
+  "Name": {
+   "en": "Wages and bonuses",
+   "sq": "Pagat dhe shpërblimet e personelit"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:6411",
+  "IdSup": "chart:641",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "6411",
+  "Name": {
+   "en": "Supply and production staff",
+   "sq": "Për personelin e furnizimit, prodhimit"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:6412",
+  "IdSup": "chart:641",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "6412",
+  "Name": {
+   "en": "Distribution and sales staff",
+   "sq": "Për personelin e shpërndarjes, shitjes"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:6413",
+  "IdSup": "chart:641",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "6413",
+  "Name": {
+   "en": "Administration staff",
+   "sq": "Për personelin e administratës"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:644",
+  "IdSup": "chart:64",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "644",
+  "Name": {
+   "en": "Social and health insurance",
+   "sq": "Sigurimet shoqërore dhe shëndetësore"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:6441",
+  "IdSup": "chart:644",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "6441",
+  "Name": {
+   "en": "Supply and production staff",
+   "sq": "Për personelin e furnizimit, prodhimit"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:6442",
+  "IdSup": "chart:644",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "6442",
+  "Name": {
+   "en": "Distribution and sales staff",
+   "sq": "Për personelin e shpërndarjes, shitjes"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:6443",
+  "IdSup": "chart:644",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "6443",
+  "Name": {
+   "en": "Administration staff",
+   "sq": "Për personelin e administratës"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:645",
+  "IdSup": "chart:64",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "645",
+  "Name": {
+   "en": "Other staff contributions",
+   "sq": "Kontribute dhe kuota të tjera për personelin"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:648",
+  "IdSup": "chart:64",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "648",
+  "Name": {
+   "en": "Other staff costs",
+   "sq": "Shpenzime të tjera për personelin"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:65",
+  "IdSup": "chart:6",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "65",
+  "Name": {
+   "en": "Other operating expenses",
+   "sq": "Shpenzime të tjera të veçanta korente"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:653",
+  "IdSup": "chart:65",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "653",
+  "Name": {
+   "en": "Subsidies given",
+   "sq": "Subvencione të dhëna"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:654",
+  "IdSup": "chart:65",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "654",
+  "Name": {
+   "en": "Entertainment and representation",
+   "sq": "Shpenzime për pritje dhe përfaqësime"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:657",
+  "IdSup": "chart:65",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "657",
+  "Name": {
+   "en": "Fines and damages",
+   "sq": "Gjoba dhe dëmshpërblime"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:658",
+  "IdSup": "chart:65",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "658",
+  "Name": {
+   "en": "Other current expenses",
+   "sq": "Shpenzime të tjera korente"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:66",
+  "IdSup": "chart:6",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "66",
+  "Name": {
+   "en": "Financial expenses",
+   "sq": "Shpenzime financiare"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:661",
+  "IdSup": "chart:66",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "661",
+  "Name": {
+   "en": "From subsidiaries",
+   "sq": "Nga shoqëritë e kontrolluara"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:662",
+  "IdSup": "chart:66",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "662",
+  "Name": {
+   "en": "From associates",
+   "sq": "Nga shoqëritë e lidhura"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:664",
+  "IdSup": "chart:66",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "664",
+  "Name": {
+   "en": "Losses on revaluing securities",
+   "sq": "Humbje nga rivlerësimi i letrave me vlerë"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:665",
+  "IdSup": "chart:66",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "665",
+  "Name": {
+   "en": "Losses on selling securities",
+   "sq": "Humbje nga shitja e letrave me vlerë"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:667",
+  "IdSup": "chart:66",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "667",
+  "Name": {
+   "en": "Interest expense",
+   "sq": "Shpenzime për interesa"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:668",
+  "IdSup": "chart:66",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "668",
+  "Name": {
+   "en": "Other financial expenses",
+   "sq": "Shpenzime financiare të tjera"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:669",
+  "IdSup": "chart:66",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "669",
+  "Name": {
+   "en": "Foreign exchange losses",
+   "sq": "Humbje nga këmbimet dhe përkthimet valutore"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:66901",
+  "IdSup": "chart:669",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "66901",
+  "Name": {
+   "en": "Losses on revaluing cash and bank",
+   "sq": "Humbje nga azhurnimi i arkës/bankës"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:67",
+  "IdSup": "chart:6",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "67",
+  "Name": {
+   "en": "Other non-current expenses",
+   "sq": "Shpenzime të tjera jo korente"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:672",
+  "IdSup": "chart:67",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "672",
+  "Name": {
+   "en": "Carrying amount of non-current assets sold",
+   "sq": "Vlera kontabël e aktiveve afatgjata të shitura"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:677",
+  "IdSup": "chart:67",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "677",
+  "Name": {
+   "en": "Prior-period errors, losses",
+   "sq": "Humbje nga gabime të lejuara në ushtrimet e mëparshme"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:68",
+  "IdSup": "chart:6",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "68",
+  "Name": {
+   "en": "Depreciation, amortisation and impairment",
+   "sq": "Zhvlerësime dhe amortizim"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:680",
+  "IdSup": "chart:68",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "680",
+  "Name": {
+   "en": "Amortisation of intangible assets",
+   "sq": "Shpenzim amortizimi i AA jomateriale"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:6801",
+  "IdSup": "chart:680",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "6801",
+  "Name": {
+   "en": "Goodwill",
+   "sq": "Për emrin e mirë"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:6803",
+  "IdSup": "chart:680",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "6803",
+  "Name": {
+   "en": "Development costs",
+   "sq": "Për shpenzimet e zhvillimit"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:6805",
+  "IdSup": "chart:680",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "6805",
+  "Name": {
+   "en": "Concessions, patents, licences",
+   "sq": "Për koncesione, patenta, licensa e të ngjashme"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:6808",
+  "IdSup": "chart:680",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "6808",
+  "Name": {
+   "en": "Other intangible assets",
+   "sq": "Për të tjera AA jomateriale"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:681",
+  "IdSup": "chart:68",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "681",
+  "Name": {
+   "en": "Depreciation of tangible assets",
+   "sq": "Amortizimet e aktiveve afatgjata"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:6812",
+  "IdSup": "chart:681",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "6812",
+  "Name": {
+   "en": "Buildings",
+   "sq": "Shpenzim amortizimi për ndërtesat"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:68121",
+  "IdSup": "chart:6812",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "68121",
+  "Name": {
+   "en": "Production and warehouse buildings",
+   "sq": "Për ndërtesë prodhimi, magazine"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:68122",
+  "IdSup": "chart:6812",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "68122",
+  "Name": {
+   "en": "Sales buildings",
+   "sq": "Për ndërtesë njësi shitjeje"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:68123",
+  "IdSup": "chart:6812",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "68123",
+  "Name": {
+   "en": "Administration buildings",
+   "sq": "Për ndërtesë administrative"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:6813",
+  "IdSup": "chart:681",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "6813",
+  "Name": {
+   "en": "Plant, machinery, equipment and tools",
+   "sq": "Për instalime teknike, makineri, pajisje, instrumente e vegla"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:68131",
+  "IdSup": "chart:6813",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "68131",
+  "Name": {
+   "en": "Production and warehouse",
+   "sq": "Për prodhimin, magazinimin"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:68132",
+  "IdSup": "chart:6813",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "68132",
+  "Name": {
+   "en": "Distribution and sales",
+   "sq": "Për shpërndarjen, shitjen"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:68133",
+  "IdSup": "chart:6813",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "68133",
+  "Name": {
+   "en": "Administration",
+   "sq": "Për administratën"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:6815",
+  "IdSup": "chart:681",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "6815",
+  "Name": {
+   "en": "Vehicles",
+   "sq": "Shpenzim amortizimi për mjetet e transportit"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:68151",
+  "IdSup": "chart:6815",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "68151",
+  "Name": {
+   "en": "Production and supply vehicles",
+   "sq": "Për mjetet e transportit të prodhimit e furnizimit"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:68152",
+  "IdSup": "chart:6815",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "68152",
+  "Name": {
+   "en": "Distribution and sales vehicles",
+   "sq": "Për mjetet e transportit të shpërndarjes e shitjes"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:68153",
+  "IdSup": "chart:6815",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "68153",
+  "Name": {
+   "en": "Administration vehicles",
+   "sq": "Për mjetet e transportit të administratës"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:6818",
+  "IdSup": "chart:681",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "6818",
+  "Name": {
+   "en": "Other tangible assets",
+   "sq": "Për të tjera AA materiale"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:686",
+  "IdSup": "chart:68",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "686",
+  "Name": {
+   "en": "Impairment of financial assets",
+   "sq": "Provizione për zhvlerësimin e aktiveve financiare"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:687",
+  "IdSup": "chart:68",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "687",
+  "Name": {
+   "en": "Other expenses (incl. revaluation losses)",
+   "sq": "Shpenzime të tjera (përfshihen humbjet nga rivlerësimi i aktiveve)"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:69",
+  "IdSup": "chart:6",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "69",
+  "Name": {
+   "en": "Income tax expense",
+   "sq": "Tatimi mbi fitimin"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:7",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "7",
+  "Name": {
+   "en": "Income",
+   "sq": "Të ardhurat"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:701",
+  "IdSup": "chart:7",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "701",
+  "Name": {
+   "en": "Sales of finished products",
+   "sq": "Shitje e produkteve të gatshëm"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:702",
+  "IdSup": "chart:7",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "702",
+  "Name": {
+   "en": "Sales of intermediate products",
+   "sq": "Shitje e produkteve të ndërmjetëm"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:703",
+  "IdSup": "chart:7",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "703",
+  "Name": {
+   "en": "Sales of by-products",
+   "sq": "Shitje e nënprodukteve"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:704",
+  "IdSup": "chart:7",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "704",
+  "Name": {
+   "en": "Sales of works and services",
+   "sq": "Shitje e punimeve dhe e shërbimeve"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:705",
+  "IdSup": "chart:7",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "705",
+  "Name": {
+   "en": "Sales of goods",
+   "sq": "Shitje mallrash"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:706",
+  "IdSup": "chart:7",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "706",
+  "Name": {
+   "en": "Sales of biological assets",
+   "sq": "Shitje aktive biologjike"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:707",
+  "IdSup": "chart:7",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "707",
+  "Name": {
+   "en": "Sales of materials and supplies",
+   "sq": "Shitje materialesh e furniturash"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:7071",
+  "IdSup": "chart:707",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "7071",
+  "Name": {
+   "en": "Raw and auxiliary materials",
+   "sq": "Shitje materiale të para e ndihmëse"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:70711",
+  "IdSup": "chart:7071",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "70711",
+  "Name": {
+   "en": "Raw materials",
+   "sq": "Shitje materiale të para"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:70712",
+  "IdSup": "chart:7071",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "70712",
+  "Name": {
+   "en": "Auxiliary materials",
+   "sq": "Shitje materiale ndihmëse"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:7072",
+  "IdSup": "chart:707",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "7072",
+  "Name": {
+   "en": "Small tools",
+   "sq": "Shitje objekte inventari"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:708",
+  "IdSup": "chart:7",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "708",
+  "Name": {
+   "en": "Other sales income",
+   "sq": "Të ardhura nga shitje të tjera"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:7081",
+  "IdSup": "chart:708",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "7081",
+  "Name": {
+   "en": "Rent",
+   "sq": "Qira"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:7082",
+  "IdSup": "chart:708",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "7082",
+  "Name": {
+   "en": "Commissions",
+   "sq": "Komisione"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:7083",
+  "IdSup": "chart:708",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "7083",
+  "Name": {
+   "en": "Transport for third parties",
+   "sq": "Transport për të tretët"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:7088",
+  "IdSup": "chart:708",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "7088",
+  "Name": {
+   "en": "Other",
+   "sq": "Të tjera"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:71",
+  "IdSup": "chart:7",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "71",
+  "Name": {
+   "en": "Change in work in progress and products",
+   "sq": "Ndryshimi i gjendjes së prodhimit në proces e produkteve"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:72",
+  "IdSup": "chart:7",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "72",
+  "Name": {
+   "en": "Own work capitalised",
+   "sq": "Prodhimi i aktiveve afatgjata"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:721",
+  "IdSup": "chart:72",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "721",
+  "Name": {
+   "en": "Intangible assets",
+   "sq": "Prodhimi i AA jomateriale"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:722",
+  "IdSup": "chart:72",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "722",
+  "Name": {
+   "en": "Tangible assets",
+   "sq": "Prodhimi i AA materiale"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:73",
+  "IdSup": "chart:7",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "73",
+  "Name": {
+   "en": "Grant income",
+   "sq": "Të ardhura nga grantet"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:75",
+  "IdSup": "chart:7",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "75",
+  "Name": {
+   "en": "Other operating income",
+   "sq": "Të ardhura të tjera korente"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:76",
+  "IdSup": "chart:7",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "76",
+  "Name": {
+   "en": "Financial income",
+   "sq": "Të ardhura financiare"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:761",
+  "IdSup": "chart:76",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "761",
+  "Name": {
+   "en": "From subsidiaries",
+   "sq": "Nga shoqëritë e kontrolluara"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:762",
+  "IdSup": "chart:76",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "762",
+  "Name": {
+   "en": "From associates",
+   "sq": "Nga shoqëritë e lidhura"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:763",
+  "IdSup": "chart:76",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "763",
+  "Name": {
+   "en": "Dividend income",
+   "sq": "Të ardhura nga dividentët"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:764",
+  "IdSup": "chart:76",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "764",
+  "Name": {
+   "en": "Gains on revaluing securities",
+   "sq": "Fitim nga rivlerësimi i letrave me vlerë"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:765",
+  "IdSup": "chart:76",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "765",
+  "Name": {
+   "en": "Gains on selling securities",
+   "sq": "Fitim nga shitja e letrave me vlerë"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:767",
+  "IdSup": "chart:76",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "767",
+  "Name": {
+   "en": "Interest income",
+   "sq": "Të ardhura nga interesat"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:768",
+  "IdSup": "chart:76",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "768",
+  "Name": {
+   "en": "Other financial income",
+   "sq": "Të ardhura të tjera financiare"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:769",
+  "IdSup": "chart:76",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "769",
+  "Name": {
+   "en": "Foreign exchange gains",
+   "sq": "Fitim nga këmbimet valutore"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:76901",
+  "IdSup": "chart:769",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "76901",
+  "Name": {
+   "en": "Gains on revaluing cash and bank",
+   "sq": "Fitime nga azhurnimi i arkës/bankës"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:77",
+  "IdSup": "chart:7",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "77",
+  "Name": {
+   "en": "Other non-current income",
+   "sq": "Të ardhura të tjera jo korente"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:771",
+  "IdSup": "chart:77",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "771",
+  "Name": {
+   "en": "Revaluation gains",
+   "sq": "Të ardhura nga rivlerësimi"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:772",
+  "IdSup": "chart:77",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "772",
+  "Name": {
+   "en": "Proceeds from sales of non-current assets",
+   "sq": "Të ardhura nga shitja e aktiveve afatgjata"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:777",
+  "IdSup": "chart:77",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "777",
+  "Name": {
+   "en": "Prior-period errors, gains",
+   "sq": "Fitime nga gabime të lejuara në ushtrimet e mëparshme"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:8",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "chart_type:8",
+  "Code": "8",
+  "Name": {
+   "en": "Off-balance-sheet accounts",
+   "sq": "Llogari jashtë bilancit"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:890",
+  "IdSup": "chart:8",
+  "Active": true,
+  "TypeId": "chart_type:8",
+  "Code": "890",
+  "Name": {
+   "en": "Opening balance",
+   "sq": "Bilanci i çeljes"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:891",
+  "IdSup": "chart:8",
+  "Active": true,
+  "TypeId": "chart_type:8",
+  "Code": "891",
+  "Name": {
+   "en": "Closing balance",
+   "sq": "Bilanci i mbylljes"
+  },
+  "IsComposite": false
+ }
+]

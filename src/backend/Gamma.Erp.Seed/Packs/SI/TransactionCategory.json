@@ -1,0 +1,66 @@
+[
+ {
+  "Key": "transaction_category:LINES",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "LINES",
+  "Name": {
+   "en": "Transactions",
+   "sl": "Postavke"
+  },
+  "Description": {
+   "en": "Transactions",
+   "sl": "Postavke"
+  },
+  "SortOrder": 2.0
+ },
+ {
+  "Key": "transaction_category:JOURNAL_LINES",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "JOURNAL_LINES",
+  "Name": {
+   "en": "Journal lines",
+   "sl": "Postavke temeljnice"
+  },
+  "Description": {
+   "en": "Journal lines",
+   "sl": "Postavke temeljnice"
+  },
+  "SortOrder": 10.0
+ },
+ {
+  "Key": "transaction_category:DEPRECIATION_LINES",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "DEPRECIATION_LINES",
+  "Name": {
+   "en": "Depreciation lines",
+   "sl": "Postavke amortizacije"
+  },
+  "Description": {
+   "en": "Depreciation lines",
+   "sl": "Postavke amortizacije"
+  },
+  "SortOrder": 11.0
+ },
+ {
+  "Key": "transaction_category:REVALUATION_LINES",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "REVALUATION_LINES",
+  "Name": {
+   "en": "Revaluation lines",
+   "sl": "Postavke prevrednotenja"
+  },
+  "Description": {
+   "en": "Revaluation lines",
+   "sl": "Postavke prevrednotenja"
+  },
+  "SortOrder": 12.0
+ }
+]

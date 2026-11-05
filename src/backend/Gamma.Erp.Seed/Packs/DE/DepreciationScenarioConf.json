@@ -1,0 +1,142 @@
+[
+ {
+  "Key": "depreciation_scenario_conf:assets:0",
+  "IdSup": null,
+  "Active": true,
+  "DepreciationScenarioId": "depreciation_scenario:assets",
+  "ChartId": "chart:7602",
+  "ChartName": "Abschreibungen auf technische Anlagen und Maschinen",
+  "Side": false,
+  "SideValue": "Debit"
+ },
+ {
+  "Key": "depreciation_scenario_conf:assets:1",
+  "IdSup": null,
+  "Active": true,
+  "DepreciationScenarioId": "depreciation_scenario:assets",
+  "ChartId": "chart:1203",
+  "ChartName": "Kumulierte Abschreibungen auf technische Anlagen und Maschinen",
+  "Side": true,
+  "SideValue": "Credit"
+ },
+ {
+  "Key": "depreciation_scenario_conf:buildings:0",
+  "IdSup": null,
+  "Active": true,
+  "DepreciationScenarioId": "depreciation_scenario:buildings",
+  "ChartId": "chart:7601",
+  "ChartName": "Abschreibungen auf Gebäude",
+  "Side": false,
+  "SideValue": "Debit"
+ },
+ {
+  "Key": "depreciation_scenario_conf:buildings:1",
+  "IdSup": null,
+  "Active": true,
+  "DepreciationScenarioId": "depreciation_scenario:buildings",
+  "ChartId": "chart:1202",
+  "ChartName": "Kumulierte Abschreibungen auf Gebäude",
+  "Side": true,
+  "SideValue": "Credit"
+ },
+ {
+  "Key": "depreciation_scenario_conf:office:0",
+  "IdSup": null,
+  "Active": true,
+  "DepreciationScenarioId": "depreciation_scenario:office",
+  "ChartId": "chart:7604",
+  "ChartName": "Abschreibungen auf Betriebs- und Geschäftsausstattung",
+  "Side": false,
+  "SideValue": "Debit"
+ },
+ {
+  "Key": "depreciation_scenario_conf:office:1",
+  "IdSup": null,
+  "Active": true,
+  "DepreciationScenarioId": "depreciation_scenario:office",
+  "ChartId": "chart:1205",
+  "ChartName": "Kumulierte Abschreibungen auf Betriebs- und Geschäftsausstattung",
+  "Side": true,
+  "SideValue": "Credit"
+ },
+ {
+  "Key": "depreciation_scenario_conf:vehicles:0",
+  "IdSup": null,
+  "Active": true,
+  "DepreciationScenarioId": "depreciation_scenario:vehicles",
+  "ChartId": "chart:7603",
+  "ChartName": "Abschreibungen auf Fahrzeuge",
+  "Side": false,
+  "SideValue": "Debit"
+ },
+ {
+  "Key": "depreciation_scenario_conf:vehicles:1",
+  "IdSup": null,
+  "Active": true,
+  "DepreciationScenarioId": "depreciation_scenario:vehicles",
+  "ChartId": "chart:1204",
+  "ChartName": "Kumulierte Abschreibungen auf Fahrzeuge",
+  "Side": true,
+  "SideValue": "Credit"
+ },
+ {
+  "Key": "depreciation_scenario_conf:computers:0",
+  "IdSup": null,
+  "Active": true,
+  "DepreciationScenarioId": "depreciation_scenario:computers",
+  "ChartId": "chart:7605",
+  "ChartName": "Abschreibungen auf EDV-Anlagen",
+  "Side": false,
+  "SideValue": "Debit"
+ },
+ {
+  "Key": "depreciation_scenario_conf:computers:1",
+  "IdSup": null,
+  "Active": true,
+  "DepreciationScenarioId": "depreciation_scenario:computers",
+  "ChartId": "chart:1206",
+  "ChartName": "Kumulierte Abschreibungen auf EDV-Anlagen",
+  "Side": true,
+  "SideValue": "Credit"
+ },
+ {
+  "Key": "depreciation_scenario_conf:furniture:0",
+  "IdSup": null,
+  "Active": true,
+  "DepreciationScenarioId": "depreciation_scenario:furniture",
+  "ChartId": "chart:7604",
+  "ChartName": "Abschreibungen auf Betriebs- und Geschäftsausstattung",
+  "Side": false,
+  "SideValue": "Debit"
+ },
+ {
+  "Key": "depreciation_scenario_conf:furniture:1",
+  "IdSup": null,
+  "Active": true,
+  "DepreciationScenarioId": "depreciation_scenario:furniture",
+  "ChartId": "chart:1205",
+  "ChartName": "Kumulierte Abschreibungen auf Betriebs- und Geschäftsausstattung",
+  "Side": true,
+  "SideValue": "Credit"
+ },
+ {
+  "Key": "depreciation_scenario_conf:intangible:0",
+  "IdSup": null,
+  "Active": true,
+  "DepreciationScenarioId": "depreciation_scenario:intangible",
+  "ChartId": "chart:7606",
+  "ChartName": "Abschreibungen auf immaterielle Vermögensgegenstände",
+  "Side": false,
+  "SideValue": "Debit"
+ },
+ {
+  "Key": "depreciation_scenario_conf:intangible:1",
+  "IdSup": null,
+  "Active": true,
+  "DepreciationScenarioId": "depreciation_scenario:intangible",
+  "ChartId": "chart:1402",
+  "ChartName": "Kumulierte Abschreibungen auf Software",
+  "Side": true,
+  "SideValue": "Credit"
+ }
+]

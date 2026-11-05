@@ -1,0 +1,90 @@
+[
+ {
+  "Key": "elements_type:1",
+  "Active": true,
+  "Name": {
+   "en": "table",
+   "pt": "tabela"
+  }
+ },
+ {
+  "Key": "elements_type:2",
+  "Active": true,
+  "Name": {
+   "en": "specified element",
+   "pt": "elemento específico"
+  }
+ },
+ {
+  "Key": "elements_type:3",
+  "Active": true,
+  "Name": {
+   "en": "empty element",
+   "pt": "elemento vazio"
+  }
+ },
+ {
+  "Key": "elements_type:4",
+  "Active": true,
+  "Name": {
+   "en": "line reference",
+   "pt": "referência de linha"
+  }
+ },
+ {
+  "Key": "elements_type:5",
+  "Active": true,
+  "Name": {
+   "en": "line configuration",
+   "pt": "configuração de linhas"
+  }
+ },
+ {
+  "Key": "elements_type:6",
+  "Active": true,
+  "Name": {
+   "en": "document reference",
+   "pt": "referência de documento"
+  }
+ },
+ {
+  "Key": "elements_type:7",
+  "Active": true,
+  "Name": {
+   "en": "document configuration",
+   "pt": "configuração de documentos"
+  }
+ },
+ {
+  "Key": "elements_type:8",
+  "Active": true,
+  "Name": {
+   "en": "scenario configuration",
+   "pt": "configuração de cenário"
+  }
+ },
+ {
+  "Key": "elements_type:9",
+  "Active": true,
+  "Name": {
+   "en": "depreciation scenario configuration",
+   "pt": "configuração de cenário de depreciação"
+  }
+ },
+ {
+  "Key": "elements_type:10",
+  "Active": true,
+  "Name": {
+   "en": "depreciation scenario",
+   "pt": "cenário de depreciação"
+  }
+ },
+ {
+  "Key": "elements_type:11",
+  "Active": true,
+  "Name": {
+   "en": "Transaction amount",
+   "pt": "Valor da linha"
+  }
+ }
+]

@@ -1,0 +1,2829 @@
+[
+ {
+  "Key": "chart:0",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "chart_type:0",
+  "Code": "0",
+  "Name": {
+   "cs": "Dlouhodobý majetek"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:01",
+  "IdSup": "chart:0",
+  "Active": true,
+  "TypeId": "chart_type:0",
+  "Code": "01",
+  "Name": {
+   "cs": "Dlouhodobý nehmotný majetek"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:012",
+  "IdSup": "chart:01",
+  "Active": true,
+  "TypeId": "chart_type:0",
+  "Code": "012",
+  "Name": {
+   "cs": "Nehmotné výsledky vývoje"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:013",
+  "IdSup": "chart:01",
+  "Active": true,
+  "TypeId": "chart_type:0",
+  "Code": "013",
+  "Name": {
+   "cs": "Software"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:014",
+  "IdSup": "chart:01",
+  "Active": true,
+  "TypeId": "chart_type:0",
+  "Code": "014",
+  "Name": {
+   "cs": "Ocenitelná práva"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:015",
+  "IdSup": "chart:01",
+  "Active": true,
+  "TypeId": "chart_type:0",
+  "Code": "015",
+  "Name": {
+   "cs": "Goodwill"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:019",
+  "IdSup": "chart:01",
+  "Active": true,
+  "TypeId": "chart_type:0",
+  "Code": "019",
+  "Name": {
+   "cs": "Ostatní dlouhodobý nehmotný majetek"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:02",
+  "IdSup": "chart:0",
+  "Active": true,
+  "TypeId": "chart_type:0",
+  "Code": "02",
+  "Name": {
+   "cs": "Dlouhodobý hmotný majetek odpisovaný"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:021",
+  "IdSup": "chart:02",
+  "Active": true,
+  "TypeId": "chart_type:0",
+  "Code": "021",
+  "Name": {
+   "cs": "Stavby"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:022",
+  "IdSup": "chart:02",
+  "Active": true,
+  "TypeId": "chart_type:0",
+  "Code": "022",
+  "Name": {
+   "cs": "Hmotné movité věci a jejich soubory"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:025",
+  "IdSup": "chart:02",
+  "Active": true,
+  "TypeId": "chart_type:0",
+  "Code": "025",
+  "Name": {
+   "cs": "Pěstitelské celky trvalých porostů"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:026",
+  "IdSup": "chart:02",
+  "Active": true,
+  "TypeId": "chart_type:0",
+  "Code": "026",
+  "Name": {
+   "cs": "Dospělá zvířata a jejich skupiny"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:029",
+  "IdSup": "chart:02",
+  "Active": true,
+  "TypeId": "chart_type:0",
+  "Code": "029",
+  "Name": {
+   "cs": "Jiný dlouhodobý hmotný majetek"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:03",
+  "IdSup": "chart:0",
+  "Active": true,
+  "TypeId": "chart_type:0",
+  "Code": "03",
+  "Name": {
+   "cs": "Dlouhodobý hmotný majetek neodpisovaný"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:031",
+  "IdSup": "chart:03",
+  "Active": true,
+  "TypeId": "chart_type:0",
+  "Code": "031",
+  "Name": {
+   "cs": "Pozemky"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:032",
+  "IdSup": "chart:03",
+  "Active": true,
+  "TypeId": "chart_type:0",
+  "Code": "032",
+  "Name": {
+   "cs": "Umělecká díla a sbírky"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:04",
+  "IdSup": "chart:0",
+  "Active": true,
+  "TypeId": "chart_type:0",
+  "Code": "04",
+  "Name": {
+   "cs": "Nedokončený dlouhodobý nehmotný a hmotný majetek"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:041",
+  "IdSup": "chart:04",
+  "Active": true,
+  "TypeId": "chart_type:0",
+  "Code": "041",
+  "Name": {
+   "cs": "Nedokončený dlouhodobý nehmotný majetek"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:042",
+  "IdSup": "chart:04",
+  "Active": true,
+  "TypeId": "chart_type:0",
+  "Code": "042",
+  "Name": {
+   "cs": "Nedokončený dlouhodobý hmotný majetek"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:043",
+  "IdSup": "chart:04",
+  "Active": true,
+  "TypeId": "chart_type:0",
+  "Code": "043",
+  "Name": {
+   "cs": "Pořizovaný dlouhodobý finanční majetek"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:05",
+  "IdSup": "chart:0",
+  "Active": true,
+  "TypeId": "chart_type:0",
+  "Code": "05",
+  "Name": {
+   "cs": "Poskytnuté zálohy na dlouhodobý majetek"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:051",
+  "IdSup": "chart:05",
+  "Active": true,
+  "TypeId": "chart_type:0",
+  "Code": "051",
+  "Name": {
+   "cs": "Poskytnuté zálohy na dlouhodobý nehmotný majetek"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:052",
+  "IdSup": "chart:05",
+  "Active": true,
+  "TypeId": "chart_type:0",
+  "Code": "052",
+  "Name": {
+   "cs": "Poskytnuté zálohy na dlouhodobý hmotný majetek"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:053",
+  "IdSup": "chart:05",
+  "Active": true,
+  "TypeId": "chart_type:0",
+  "Code": "053",
+  "Name": {
+   "cs": "Poskytnuté zálohy na dlouhodobý finanční majetek"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:06",
+  "IdSup": "chart:0",
+  "Active": true,
+  "TypeId": "chart_type:0",
+  "Code": "06",
+  "Name": {
+   "cs": "Dlouhodobý finanční majetek"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:061",
+  "IdSup": "chart:06",
+  "Active": true,
+  "TypeId": "chart_type:0",
+  "Code": "061",
+  "Name": {
+   "cs": "Podíly – ovládaná nebo ovládající osoba"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:062",
+  "IdSup": "chart:06",
+  "Active": true,
+  "TypeId": "chart_type:0",
+  "Code": "062",
+  "Name": {
+   "cs": "Podíly – podstatný vliv"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:063",
+  "IdSup": "chart:06",
+  "Active": true,
+  "TypeId": "chart_type:0",
+  "Code": "063",
+  "Name": {
+   "cs": "Ostatní dlouhodobé cenné papíry a podíly"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:067",
+  "IdSup": "chart:06",
+  "Active": true,
+  "TypeId": "chart_type:0",
+  "Code": "067",
+  "Name": {
+   "cs": "Zápůjčky a úvěry – ostatní"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:069",
+  "IdSup": "chart:06",
+  "Active": true,
+  "TypeId": "chart_type:0",
+  "Code": "069",
+  "Name": {
+   "cs": "Jiný dlouhodobý finanční majetek"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:07",
+  "IdSup": "chart:0",
+  "Active": true,
+  "TypeId": "chart_type:0",
+  "Code": "07",
+  "Name": {
+   "cs": "Oprávky k dlouhodobému nehmotnému majetku"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:072",
+  "IdSup": "chart:07",
+  "Active": true,
+  "TypeId": "chart_type:0",
+  "Code": "072",
+  "Name": {
+   "cs": "Oprávky k nehmotným výsledkům vývoje"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:073",
+  "IdSup": "chart:07",
+  "Active": true,
+  "TypeId": "chart_type:0",
+  "Code": "073",
+  "Name": {
+   "cs": "Oprávky k softwaru"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:074",
+  "IdSup": "chart:07",
+  "Active": true,
+  "TypeId": "chart_type:0",
+  "Code": "074",
+  "Name": {
+   "cs": "Oprávky k ocenitelným právům"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:075",
+  "IdSup": "chart:07",
+  "Active": true,
+  "TypeId": "chart_type:0",
+  "Code": "075",
+  "Name": {
+   "cs": "Oprávky ke goodwillu"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:079",
+  "IdSup": "chart:07",
+  "Active": true,
+  "TypeId": "chart_type:0",
+  "Code": "079",
+  "Name": {
+   "cs": "Oprávky k ostatnímu dlouhodobému nehmotnému majetku"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:08",
+  "IdSup": "chart:0",
+  "Active": true,
+  "TypeId": "chart_type:0",
+  "Code": "08",
+  "Name": {
+   "cs": "Oprávky k dlouhodobému hmotnému majetku"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:081",
+  "IdSup": "chart:08",
+  "Active": true,
+  "TypeId": "chart_type:0",
+  "Code": "081",
+  "Name": {
+   "cs": "Oprávky ke stavbám"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:082",
+  "IdSup": "chart:08",
+  "Active": true,
+  "TypeId": "chart_type:0",
+  "Code": "082",
+  "Name": {
+   "cs": "Oprávky k hmotným movitým věcem a jejich souborům"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:085",
+  "IdSup": "chart:08",
+  "Active": true,
+  "TypeId": "chart_type:0",
+  "Code": "085",
+  "Name": {
+   "cs": "Oprávky k pěstitelským celkům trvalých porostů"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:086",
+  "IdSup": "chart:08",
+  "Active": true,
+  "TypeId": "chart_type:0",
+  "Code": "086",
+  "Name": {
+   "cs": "Oprávky k dospělým zvířatům a jejich skupinám"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:089",
+  "IdSup": "chart:08",
+  "Active": true,
+  "TypeId": "chart_type:0",
+  "Code": "089",
+  "Name": {
+   "cs": "Oprávky k jinému dlouhodobému hmotnému majetku"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:09",
+  "IdSup": "chart:0",
+  "Active": true,
+  "TypeId": "chart_type:0",
+  "Code": "09",
+  "Name": {
+   "cs": "Opravné položky k dlouhodobému majetku"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:091",
+  "IdSup": "chart:09",
+  "Active": true,
+  "TypeId": "chart_type:0",
+  "Code": "091",
+  "Name": {
+   "cs": "Opravná položka k dlouhodobému nehmotnému majetku"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:092",
+  "IdSup": "chart:09",
+  "Active": true,
+  "TypeId": "chart_type:0",
+  "Code": "092",
+  "Name": {
+   "cs": "Opravná položka k dlouhodobému hmotnému majetku"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:096",
+  "IdSup": "chart:09",
+  "Active": true,
+  "TypeId": "chart_type:0",
+  "Code": "096",
+  "Name": {
+   "cs": "Opravná položka k dlouhodobému finančnímu majetku"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:1",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "1",
+  "Name": {
+   "cs": "Zásoby"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:11",
+  "IdSup": "chart:1",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "11",
+  "Name": {
+   "cs": "Materiál"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:111",
+  "IdSup": "chart:11",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "111",
+  "Name": {
+   "cs": "Pořízení materiálu"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:112",
+  "IdSup": "chart:11",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "112",
+  "Name": {
+   "cs": "Materiál na skladě"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:119",
+  "IdSup": "chart:11",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "119",
+  "Name": {
+   "cs": "Materiál na cestě"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:12",
+  "IdSup": "chart:1",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "12",
+  "Name": {
+   "cs": "Zásoby vlastní činnosti"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:121",
+  "IdSup": "chart:12",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "121",
+  "Name": {
+   "cs": "Nedokončená výroba"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:122",
+  "IdSup": "chart:12",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "122",
+  "Name": {
+   "cs": "Polotovary vlastní výroby"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:123",
+  "IdSup": "chart:12",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "123",
+  "Name": {
+   "cs": "Výrobky"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:124",
+  "IdSup": "chart:12",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "124",
+  "Name": {
+   "cs": "Mladá a ostatní zvířata a jejich skupiny"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:13",
+  "IdSup": "chart:1",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "13",
+  "Name": {
+   "cs": "Zboží"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:131",
+  "IdSup": "chart:13",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "131",
+  "Name": {
+   "cs": "Pořízení zboží"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:132",
+  "IdSup": "chart:13",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "132",
+  "Name": {
+   "cs": "Zboží na skladě a v prodejnách"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:139",
+  "IdSup": "chart:13",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "139",
+  "Name": {
+   "cs": "Zboží na cestě"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:15",
+  "IdSup": "chart:1",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "15",
+  "Name": {
+   "cs": "Poskytnuté zálohy na zásoby"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:151",
+  "IdSup": "chart:15",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "151",
+  "Name": {
+   "cs": "Poskytnuté zálohy na materiál"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:152",
+  "IdSup": "chart:15",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "152",
+  "Name": {
+   "cs": "Poskytnuté zálohy na zvířata"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:153",
+  "IdSup": "chart:15",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "153",
+  "Name": {
+   "cs": "Poskytnuté zálohy na zboží"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:19",
+  "IdSup": "chart:1",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "19",
+  "Name": {
+   "cs": "Opravné položky k zásobám"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:191",
+  "IdSup": "chart:19",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "191",
+  "Name": {
+   "cs": "Opravná položka k materiálu"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:192",
+  "IdSup": "chart:19",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "192",
+  "Name": {
+   "cs": "Opravná položka k nedokončené výrobě"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:193",
+  "IdSup": "chart:19",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "193",
+  "Name": {
+   "cs": "Opravná položka k polotovarům vlastní výroby"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:194",
+  "IdSup": "chart:19",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "194",
+  "Name": {
+   "cs": "Opravná položka k výrobkům"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:195",
+  "IdSup": "chart:19",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "195",
+  "Name": {
+   "cs": "Opravná položka ke zvířatům"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:196",
+  "IdSup": "chart:19",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "196",
+  "Name": {
+   "cs": "Opravná položka ke zboží"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:2",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "2",
+  "Name": {
+   "cs": "Krátkodobý finanční majetek a peněžní prostředky"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:21",
+  "IdSup": "chart:2",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "21",
+  "Name": {
+   "cs": "Peněžní prostředky v pokladně"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:211",
+  "IdSup": "chart:21",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "211",
+  "Name": {
+   "cs": "Pokladna"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:213",
+  "IdSup": "chart:21",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "213",
+  "Name": {
+   "cs": "Ceniny"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:22",
+  "IdSup": "chart:2",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "22",
+  "Name": {
+   "cs": "Peněžní prostředky na účtech"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:221",
+  "IdSup": "chart:22",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "221",
+  "Name": {
+   "cs": "Bankovní účty"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:23",
+  "IdSup": "chart:2",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "23",
+  "Name": {
+   "cs": "Krátkodobé úvěry"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:231",
+  "IdSup": "chart:23",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "231",
+  "Name": {
+   "cs": "Krátkodobé úvěry"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:24",
+  "IdSup": "chart:2",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "24",
+  "Name": {
+   "cs": "Krátkodobé finanční výpomoci"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:241",
+  "IdSup": "chart:24",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "241",
+  "Name": {
+   "cs": "Emitované krátkodobé dluhopisy"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:249",
+  "IdSup": "chart:24",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "249",
+  "Name": {
+   "cs": "Ostatní krátkodobé finanční výpomoci"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:25",
+  "IdSup": "chart:2",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "25",
+  "Name": {
+   "cs": "Krátkodobý finanční majetek"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:251",
+  "IdSup": "chart:25",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "251",
+  "Name": {
+   "cs": "Majetkové cenné papíry k obchodování"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:253",
+  "IdSup": "chart:25",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "253",
+  "Name": {
+   "cs": "Dluhové cenné papíry k obchodování"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:259",
+  "IdSup": "chart:25",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "259",
+  "Name": {
+   "cs": "Ostatní krátkodobý finanční majetek"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:26",
+  "IdSup": "chart:2",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "26",
+  "Name": {
+   "cs": "Převody mezi finančními účty"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:261",
+  "IdSup": "chart:26",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "261",
+  "Name": {
+   "cs": "Peníze na cestě"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:29",
+  "IdSup": "chart:2",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "29",
+  "Name": {
+   "cs": "Opravné položky ke krátkodobému finančnímu majetku"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:291",
+  "IdSup": "chart:29",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "291",
+  "Name": {
+   "cs": "Opravné položky ke krátkodobému finančnímu majetku"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:3",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "3",
+  "Name": {
+   "cs": "Zúčtovací vztahy"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:31",
+  "IdSup": "chart:3",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "31",
+  "Name": {
+   "cs": "Pohledávky (krátkodobé i dlouhodobé)"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:311",
+  "IdSup": "chart:31",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "311",
+  "Name": {
+   "cs": "Odběratelé"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:313",
+  "IdSup": "chart:31",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "313",
+  "Name": {
+   "cs": "Pohledávky za eskontované cenné papíry"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:314",
+  "IdSup": "chart:31",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "314",
+  "Name": {
+   "cs": "Poskytnuté zálohy"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:315",
+  "IdSup": "chart:31",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "315",
+  "Name": {
+   "cs": "Ostatní pohledávky"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:32",
+  "IdSup": "chart:3",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "32",
+  "Name": {
+   "cs": "Závazky (krátkodobé)"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:321",
+  "IdSup": "chart:32",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "321",
+  "Name": {
+   "cs": "Dodavatelé"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:324",
+  "IdSup": "chart:32",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "324",
+  "Name": {
+   "cs": "Přijaté zálohy"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:325",
+  "IdSup": "chart:32",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "325",
+  "Name": {
+   "cs": "Ostatní závazky"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:33",
+  "IdSup": "chart:3",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "33",
+  "Name": {
+   "cs": "Zúčtování se zaměstnanci a institucemi"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:331",
+  "IdSup": "chart:33",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "331",
+  "Name": {
+   "cs": "Zaměstnanci"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:333",
+  "IdSup": "chart:33",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "333",
+  "Name": {
+   "cs": "Ostatní závazky vůči zaměstnancům"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:335",
+  "IdSup": "chart:33",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "335",
+  "Name": {
+   "cs": "Pohledávky za zaměstnanci"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:336",
+  "IdSup": "chart:33",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "336",
+  "Name": {
+   "cs": "Zúčtování s institucemi sociálního zabezpečení a zdravotního pojištění"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:34",
+  "IdSup": "chart:3",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "34",
+  "Name": {
+   "cs": "Zúčtování daní a dotací"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:341",
+  "IdSup": "chart:34",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "341",
+  "Name": {
+   "cs": "Daň z příjmů"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:342",
+  "IdSup": "chart:34",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "342",
+  "Name": {
+   "cs": "Ostatní přímé daně"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:343",
+  "IdSup": "chart:34",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "343",
+  "Name": {
+   "cs": "Daň z přidané hodnoty"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:345",
+  "IdSup": "chart:34",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "345",
+  "Name": {
+   "cs": "Ostatní daně a poplatky"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:346",
+  "IdSup": "chart:34",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "346",
+  "Name": {
+   "cs": "Dotace ze státního rozpočtu"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:35",
+  "IdSup": "chart:3",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "35",
+  "Name": {
+   "cs": "Pohledávky za společníky"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:351",
+  "IdSup": "chart:35",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "351",
+  "Name": {
+   "cs": "Pohledávky – ovládaná nebo ovládající osoba"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:355",
+  "IdSup": "chart:35",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "355",
+  "Name": {
+   "cs": "Ostatní pohledávky za společníky"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:36",
+  "IdSup": "chart:3",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "36",
+  "Name": {
+   "cs": "Závazky ke společníkům"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:364",
+  "IdSup": "chart:36",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "364",
+  "Name": {
+   "cs": "Závazky ke společníkům při rozdělování zisku"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:365",
+  "IdSup": "chart:36",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "365",
+  "Name": {
+   "cs": "Ostatní závazky ke společníkům"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:37",
+  "IdSup": "chart:3",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "37",
+  "Name": {
+   "cs": "Jiné pohledávky a závazky"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:373",
+  "IdSup": "chart:37",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "373",
+  "Name": {
+   "cs": "Pohledávky a závazky z pevných termínových operací"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:378",
+  "IdSup": "chart:37",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "378",
+  "Name": {
+   "cs": "Jiné pohledávky"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:379",
+  "IdSup": "chart:37",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "379",
+  "Name": {
+   "cs": "Jiné závazky"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:38",
+  "IdSup": "chart:3",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "38",
+  "Name": {
+   "cs": "Přechodné účty aktiv a pasiv"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:381",
+  "IdSup": "chart:38",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "381",
+  "Name": {
+   "cs": "Náklady příštích období"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:383",
+  "IdSup": "chart:38",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "383",
+  "Name": {
+   "cs": "Výdaje příštích období"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:384",
+  "IdSup": "chart:38",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "384",
+  "Name": {
+   "cs": "Výnosy příštích období"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:385",
+  "IdSup": "chart:38",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "385",
+  "Name": {
+   "cs": "Příjmy příštích období"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:388",
+  "IdSup": "chart:38",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "388",
+  "Name": {
+   "cs": "Dohadné účty aktivní"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:389",
+  "IdSup": "chart:38",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "389",
+  "Name": {
+   "cs": "Dohadné účty pasivní"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:39",
+  "IdSup": "chart:3",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "39",
+  "Name": {
+   "cs": "Opravná položka k zúčtovacím vztahům a vnitřní zúčtování"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:391",
+  "IdSup": "chart:39",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "391",
+  "Name": {
+   "cs": "Opravná položka k pohledávkám"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:395",
+  "IdSup": "chart:39",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "395",
+  "Name": {
+   "cs": "Vnitřní zúčtování"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:4",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "4",
+  "Name": {
+   "cs": "Kapitálové účty a dlouhodobé závazky"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:41",
+  "IdSup": "chart:4",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "41",
+  "Name": {
+   "cs": "Základní kapitál a kapitálové fondy"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:411",
+  "IdSup": "chart:41",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "411",
+  "Name": {
+   "cs": "Základní kapitál"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:412",
+  "IdSup": "chart:41",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "412",
+  "Name": {
+   "cs": "Ážio"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:413",
+  "IdSup": "chart:41",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "413",
+  "Name": {
+   "cs": "Ostatní kapitálové fondy"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:414",
+  "IdSup": "chart:41",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "414",
+  "Name": {
+   "cs": "Oceňovací rozdíly z přecenění majetku a závazků"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:42",
+  "IdSup": "chart:4",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "42",
+  "Name": {
+   "cs": "Fondy ze zisku a převedené výsledky hospodaření"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:421",
+  "IdSup": "chart:42",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "421",
+  "Name": {
+   "cs": "Rezervní fond"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:423",
+  "IdSup": "chart:42",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "423",
+  "Name": {
+   "cs": "Statutární a ostatní fondy"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:428",
+  "IdSup": "chart:42",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "428",
+  "Name": {
+   "cs": "Nerozdělený zisk minulých let"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:429",
+  "IdSup": "chart:42",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "429",
+  "Name": {
+   "cs": "Neuhrazená ztráta minulých let"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:43",
+  "IdSup": "chart:4",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "43",
+  "Name": {
+   "cs": "Výsledek hospodaření"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:431",
+  "IdSup": "chart:43",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "431",
+  "Name": {
+   "cs": "Výsledek hospodaření ve schvalovacím řízení"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:45",
+  "IdSup": "chart:4",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "45",
+  "Name": {
+   "cs": "Rezervy"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:451",
+  "IdSup": "chart:45",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "451",
+  "Name": {
+   "cs": "Rezervy podle zvláštních právních předpisů"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:459",
+  "IdSup": "chart:45",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "459",
+  "Name": {
+   "cs": "Ostatní rezervy"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:46",
+  "IdSup": "chart:4",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "46",
+  "Name": {
+   "cs": "Dlouhodobé závazky k úvěrovým institucím"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:461",
+  "IdSup": "chart:46",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "461",
+  "Name": {
+   "cs": "Závazky k úvěrovým institucím"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:47",
+  "IdSup": "chart:4",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "47",
+  "Name": {
+   "cs": "Dlouhodobé závazky"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:471",
+  "IdSup": "chart:47",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "471",
+  "Name": {
+   "cs": "Dlouhodobé závazky – ovládaná nebo ovládající osoba"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:473",
+  "IdSup": "chart:47",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "473",
+  "Name": {
+   "cs": "Vydané dluhopisy"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:474",
+  "IdSup": "chart:47",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "474",
+  "Name": {
+   "cs": "Závazky z nájmu"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:475",
+  "IdSup": "chart:47",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "475",
+  "Name": {
+   "cs": "Dlouhodobé přijaté zálohy"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:478",
+  "IdSup": "chart:47",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "478",
+  "Name": {
+   "cs": "Dlouhodobé směnky k úhradě"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:479",
+  "IdSup": "chart:47",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "479",
+  "Name": {
+   "cs": "Jiné dlouhodobé závazky"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:48",
+  "IdSup": "chart:4",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "48",
+  "Name": {
+   "cs": "Odložený daňový závazek a pohledávka"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:481",
+  "IdSup": "chart:48",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "481",
+  "Name": {
+   "cs": "Odložený daňový závazek a pohledávka"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:49",
+  "IdSup": "chart:4",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "49",
+  "Name": {
+   "cs": "Individuální podnikatel"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:491",
+  "IdSup": "chart:49",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "491",
+  "Name": {
+   "cs": "Účet individuálního podnikatele"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:5",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "5",
+  "Name": {
+   "cs": "Náklady"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:50",
+  "IdSup": "chart:5",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "50",
+  "Name": {
+   "cs": "Spotřebované nákupy"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:501",
+  "IdSup": "chart:50",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "501",
+  "Name": {
+   "cs": "Spotřeba materiálu"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:502",
+  "IdSup": "chart:50",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "502",
+  "Name": {
+   "cs": "Spotřeba energie"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:503",
+  "IdSup": "chart:50",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "503",
+  "Name": {
+   "cs": "Spotřeba ostatních neskladovatelných dodávek"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:504",
+  "IdSup": "chart:50",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "504",
+  "Name": {
+   "cs": "Prodané zboží"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:51",
+  "IdSup": "chart:5",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "51",
+  "Name": {
+   "cs": "Služby"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:511",
+  "IdSup": "chart:51",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "511",
+  "Name": {
+   "cs": "Opravy a udržování"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:512",
+  "IdSup": "chart:51",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "512",
+  "Name": {
+   "cs": "Cestovné"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:513",
+  "IdSup": "chart:51",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "513",
+  "Name": {
+   "cs": "Náklady na reprezentaci"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:518",
+  "IdSup": "chart:51",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "518",
+  "Name": {
+   "cs": "Ostatní služby"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:52",
+  "IdSup": "chart:5",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "52",
+  "Name": {
+   "cs": "Osobní náklady"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:521",
+  "IdSup": "chart:52",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "521",
+  "Name": {
+   "cs": "Mzdové náklady"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:523",
+  "IdSup": "chart:52",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "523",
+  "Name": {
+   "cs": "Odměny členům orgánů obchodní korporace"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:524",
+  "IdSup": "chart:52",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "524",
+  "Name": {
+   "cs": "Zákonné sociální a zdravotní pojištění"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:525",
+  "IdSup": "chart:52",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "525",
+  "Name": {
+   "cs": "Ostatní sociální pojištění"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:527",
+  "IdSup": "chart:52",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "527",
+  "Name": {
+   "cs": "Zákonné sociální náklady"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:528",
+  "IdSup": "chart:52",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "528",
+  "Name": {
+   "cs": "Ostatní sociální náklady"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:53",
+  "IdSup": "chart:5",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "53",
+  "Name": {
+   "cs": "Daně a poplatky"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:531",
+  "IdSup": "chart:53",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "531",
+  "Name": {
+   "cs": "Daň silniční"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:532",
+  "IdSup": "chart:53",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "532",
+  "Name": {
+   "cs": "Daň z nemovitých věcí"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:538",
+  "IdSup": "chart:53",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "538",
+  "Name": {
+   "cs": "Ostatní daně a poplatky"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:54",
+  "IdSup": "chart:5",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "54",
+  "Name": {
+   "cs": "Jiné provozní náklady"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:541",
+  "IdSup": "chart:54",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "541",
+  "Name": {
+   "cs": "Zůstatková cena prodaného dlouhodobého nehmotného a hmotného majetku"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:542",
+  "IdSup": "chart:54",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "542",
+  "Name": {
+   "cs": "Prodaný materiál"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:543",
+  "IdSup": "chart:54",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "543",
+  "Name": {
+   "cs": "Dary"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:544",
+  "IdSup": "chart:54",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "544",
+  "Name": {
+   "cs": "Smluvní pokuty a úroky z prodlení"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:545",
+  "IdSup": "chart:54",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "545",
+  "Name": {
+   "cs": "Ostatní pokuty a penále"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:546",
+  "IdSup": "chart:54",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "546",
+  "Name": {
+   "cs": "Odpis pohledávky"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:548",
+  "IdSup": "chart:54",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "548",
+  "Name": {
+   "cs": "Ostatní provozní náklady"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:549",
+  "IdSup": "chart:54",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "549",
+  "Name": {
+   "cs": "Manka a škody z provozní činnosti"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:55",
+  "IdSup": "chart:5",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "55",
+  "Name": {
+   "cs": "Odpisy, rezervy, komplexní náklady příštích období a opravné položky v provozní oblasti"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:551",
+  "IdSup": "chart:55",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "551",
+  "Name": {
+   "cs": "Odpisy dlouhodobého nehmotného a hmotného majetku"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:552",
+  "IdSup": "chart:55",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "552",
+  "Name": {
+   "cs": "Tvorba a zúčtování rezerv podle zvláštních právních předpisů"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:554",
+  "IdSup": "chart:55",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "554",
+  "Name": {
+   "cs": "Tvorba a zúčtování ostatních rezerv"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:555",
+  "IdSup": "chart:55",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "555",
+  "Name": {
+   "cs": "Tvorba a zúčtování komplexních nákladů příštích období"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:558",
+  "IdSup": "chart:55",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "558",
+  "Name": {
+   "cs": "Tvorba a zúčtování zákonných opravných položek"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:559",
+  "IdSup": "chart:55",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "559",
+  "Name": {
+   "cs": "Tvorba a zúčtování ostatních opravných položek"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:56",
+  "IdSup": "chart:5",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "56",
+  "Name": {
+   "cs": "Finanční náklady"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:561",
+  "IdSup": "chart:56",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "561",
+  "Name": {
+   "cs": "Prodané cenné papíry a podíly"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:562",
+  "IdSup": "chart:56",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "562",
+  "Name": {
+   "cs": "Úroky"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:563",
+  "IdSup": "chart:56",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "563",
+  "Name": {
+   "cs": "Kurzové ztráty"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:564",
+  "IdSup": "chart:56",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "564",
+  "Name": {
+   "cs": "Náklady z přecenění cenných papírů"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:566",
+  "IdSup": "chart:56",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "566",
+  "Name": {
+   "cs": "Náklady z finančního majetku"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:567",
+  "IdSup": "chart:56",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "567",
+  "Name": {
+   "cs": "Náklady z derivátových operací"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:568",
+  "IdSup": "chart:56",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "568",
+  "Name": {
+   "cs": "Ostatní finanční náklady"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:569",
+  "IdSup": "chart:56",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "569",
+  "Name": {
+   "cs": "Manka a škody na finančním majetku"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:57",
+  "IdSup": "chart:5",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "57",
+  "Name": {
+   "cs": "Rezervy a opravné položky ve finanční oblasti"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:574",
+  "IdSup": "chart:57",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "574",
+  "Name": {
+   "cs": "Tvorba a zúčtování finančních rezerv"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:579",
+  "IdSup": "chart:57",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "579",
+  "Name": {
+   "cs": "Tvorba a zúčtování opravných položek ve finanční činnosti"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:58",
+  "IdSup": "chart:5",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "58",
+  "Name": {
+   "cs": "Změna stavu zásob vlastní činnosti a aktivace"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:581",
+  "IdSup": "chart:58",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "581",
+  "Name": {
+   "cs": "Změna stavu nedokončené výroby"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:582",
+  "IdSup": "chart:58",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "582",
+  "Name": {
+   "cs": "Změna stavu polotovarů"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:583",
+  "IdSup": "chart:58",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "583",
+  "Name": {
+   "cs": "Změna stavu výrobků"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:584",
+  "IdSup": "chart:58",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "584",
+  "Name": {
+   "cs": "Změna stavu zvířat"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:585",
+  "IdSup": "chart:58",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "585",
+  "Name": {
+   "cs": "Aktivace materiálu a zboží"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:586",
+  "IdSup": "chart:58",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "586",
+  "Name": {
+   "cs": "Aktivace vnitropodnikových služeb"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:587",
+  "IdSup": "chart:58",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "587",
+  "Name": {
+   "cs": "Aktivace dlouhodobého nehmotného majetku"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:588",
+  "IdSup": "chart:58",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "588",
+  "Name": {
+   "cs": "Aktivace dlouhodobého hmotného majetku"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:59",
+  "IdSup": "chart:5",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "59",
+  "Name": {
+   "cs": "Daně z příjmů, převodové účty a rezerva na daň z příjmů"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:591",
+  "IdSup": "chart:59",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "591",
+  "Name": {
+   "cs": "Daň z příjmů – splatná"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:592",
+  "IdSup": "chart:59",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "592",
+  "Name": {
+   "cs": "Daň z příjmů – odložená"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:595",
+  "IdSup": "chart:59",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "595",
+  "Name": {
+   "cs": "Dodatečné odvody daně z příjmů"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:596",
+  "IdSup": "chart:59",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "596",
+  "Name": {
+   "cs": "Převod podílu na výsledku hospodaření společníkům"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:597",
+  "IdSup": "chart:59",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "597",
+  "Name": {
+   "cs": "Převod provozních nákladů"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:598",
+  "IdSup": "chart:59",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "598",
+  "Name": {
+   "cs": "Převod finančních nákladů"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:599",
+  "IdSup": "chart:59",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "599",
+  "Name": {
+   "cs": "Rezerva na daň z příjmů"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:6",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "6",
+  "Name": {
+   "cs": "Výnosy"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:60",
+  "IdSup": "chart:6",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "60",
+  "Name": {
+   "cs": "Tržby za vlastní výkony a zboží"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:601",
+  "IdSup": "chart:60",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "601",
+  "Name": {
+   "cs": "Tržby za vlastní výrobky"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:602",
+  "IdSup": "chart:60",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "602",
+  "Name": {
+   "cs": "Tržby z prodeje služeb"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:604",
+  "IdSup": "chart:60",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "604",
+  "Name": {
+   "cs": "Tržby za zboží"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:64",
+  "IdSup": "chart:6",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "64",
+  "Name": {
+   "cs": "Jiné provozní výnosy"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:641",
+  "IdSup": "chart:64",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "641",
+  "Name": {
+   "cs": "Tržby z prodeje dlouhodobého nehmotného a hmotného majetku"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:642",
+  "IdSup": "chart:64",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "642",
+  "Name": {
+   "cs": "Tržby z prodeje materiálu"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:644",
+  "IdSup": "chart:64",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "644",
+  "Name": {
+   "cs": "Smluvní pokuty a úroky z prodlení"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:646",
+  "IdSup": "chart:64",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "646",
+  "Name": {
+   "cs": "Výnosy z odepsaných pohledávek"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:648",
+  "IdSup": "chart:64",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "648",
+  "Name": {
+   "cs": "Ostatní provozní výnosy"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:66",
+  "IdSup": "chart:6",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "66",
+  "Name": {
+   "cs": "Finanční výnosy"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:661",
+  "IdSup": "chart:66",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "661",
+  "Name": {
+   "cs": "Tržby z prodeje cenných papírů a podílů"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:662",
+  "IdSup": "chart:66",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "662",
+  "Name": {
+   "cs": "Úroky"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:663",
+  "IdSup": "chart:66",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "663",
+  "Name": {
+   "cs": "Kurzové zisky"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:664",
+  "IdSup": "chart:66",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "664",
+  "Name": {
+   "cs": "Výnosy z přecenění cenných papírů"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:665",
+  "IdSup": "chart:66",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "665",
+  "Name": {
+   "cs": "Výnosy z dlouhodobého finančního majetku"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:666",
+  "IdSup": "chart:66",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "666",
+  "Name": {
+   "cs": "Výnosy z krátkodobého finančního majetku"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:667",
+  "IdSup": "chart:66",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "667",
+  "Name": {
+   "cs": "Výnosy z derivátových operací"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:668",
+  "IdSup": "chart:66",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "668",
+  "Name": {
+   "cs": "Ostatní finanční výnosy"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:69",
+  "IdSup": "chart:6",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "69",
+  "Name": {
+   "cs": "Převodové účty"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:697",
+  "IdSup": "chart:69",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "697",
+  "Name": {
+   "cs": "Převod provozních výnosů"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:698",
+  "IdSup": "chart:69",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "698",
+  "Name": {
+   "cs": "Převod finančních výnosů"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:7",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "7",
+  "Name": {
+   "cs": "Závěrkové a podrozvahové účty"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:70",
+  "IdSup": "chart:7",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "70",
+  "Name": {
+   "cs": "Účty rozvažné"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:701",
+  "IdSup": "chart:70",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "701",
+  "Name": {
+   "cs": "Počáteční účet rozvažný"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:702",
+  "IdSup": "chart:70",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "702",
+  "Name": {
+   "cs": "Konečný účet rozvažný"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:71",
+  "IdSup": "chart:7",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "71",
+  "Name": {
+   "cs": "Účet zisků a ztrát"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:710",
+  "IdSup": "chart:71",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "710",
+  "Name": {
+   "cs": "Účet zisků a ztrát"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:75",
+  "IdSup": "chart:7",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "75",
+  "Name": {
+   "cs": "Podrozvahové účty (75 až 79)"
+  },
+  "IsComposite": false
+ }
+]

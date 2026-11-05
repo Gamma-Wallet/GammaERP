@@ -1,0 +1,57 @@
+[
+ {
+  "Key": "unit_category:STANDARD",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "STANDARD",
+  "Name": {
+   "en": "Standard",
+   "nl": "Standaard"
+  },
+  "Description": null,
+  "SortOrder": 2.0
+ },
+ {
+  "Key": "unit_category:WEIGHT",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "WEIGHT",
+  "Name": {
+   "en": "Weight",
+   "nl": "Gewicht"
+  },
+  "Description": null,
+  "SortOrder": 2.0
+ },
+ {
+  "Key": "unit_category:TIME",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "TIME",
+  "Name": {
+   "en": "Time",
+   "nl": "Tijd"
+  },
+  "Description": null,
+  "SortOrder": 3.0
+ },
+ {
+  "Key": "unit_category:LENGTH",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "LENGTH",
+  "Name": {
+   "en": "Length",
+   "nl": "Lengte"
+  },
+  "Description": {
+   "en": "Length",
+   "nl": "Lengte"
+  },
+  "SortOrder": 4.0
+ }
+]

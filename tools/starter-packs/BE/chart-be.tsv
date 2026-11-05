@@ -1,0 +1,490 @@
+# Belgium's chart of accounts: the plan comptable minimum normalisé (PCMN, royal decree of 21 October 2018 implementing the Code de
+# droit économique, art. III.82-95), in French, as the Commission des normes comptables publishes it (coordinated text, unofficial):
+# https://www.cnc-cbn.be/fr/node/2250 . Ranges are kept as their first account (700 à 707 → 700, 570 à 577 → 570). Gamma's additions:
+# 610 (rent: the PCMN leaves class 61 to the company), 2110/2119, 2210/2219, 2300/2309, 2400/2409 (acquisition value and depreciation booked, footnote 6 of the PCMN). Names in French.
+# code	French	English (reference, left empty)
+1	Fonds propres, provisions pour risques et charges et dettes à plus d’un an	
+10	Capital	
+100	Capital souscrit	
+101	Capital non appelé (–)	
+11	Apport hors capital	
+110	Apport disponible hors capital	
+1100	Prime d'émission	
+1109	Autres	
+111	Apport indisponible hors capital	
+1110	Prime d'émission	
+1119	Autres	
+12	Plus-values de réévaluation	
+120	Plus-values de réévaluation sur immobilisations incorporelles	
+121	Plus-values de réévaluation sur immobilisations corporelles	
+122	Plus-values de réévaluation sur immobilisations financières	
+123	Plus-values de réévaluation sur stocks	
+124	Reprises de réductions de valeur sur placements de trésorerie	
+13	Réserves	
+130	Réserves légales	
+131	Autres réserves indisponibles	
+1311	Réserves statutairement indisponibles	
+1312	Réserve pour actions propres	
+1313	Soutien financier	
+1319	Autres	
+132	Réserves immunisées	
+133	Réserves disponibles	
+14	Bénéfice reporté ou perte reportée (–)	
+15	Subsides en capital	
+16	Provisions et impôts différés	
+160	Provisions pour pensions et obligations similaires	
+161	Provisions pour charges fiscales	
+162	Provisions pour grosses réparations et gros entretien	
+163	Provisions pour obligations environnementales	
+164	Provisions pour autres risques et charges	
+168	Impôts différés	
+1680	Impôts différés afférents à des subsides en capital	
+1681	Impôts différés afférents à des plus-values réalisées sur immobilisations incorporelles	
+1682	Impôts différés afférents à des plus-values réalisées sur immobilisations corporelles	
+1687	Impôts différés afférents à des plus-values réalisées sur titres émis par le secteur public belge	
+1688	Impôts différés étrangers	
+17	Dettes à plus d'un an	
+170	Emprunts subordonnés	
+1700	Convertibles	
+1701	Non convertibles	
+171	Emprunts obligataires non subordonnés	
+1710	Convertibles	
+1711	Non convertibles	
+172	Dettes de location-financement et assimilées	
+173	Établissements de crédit	
+1730	Dettes en compte	
+1731	Promesses	
+1732	Crédits d'acceptation	
+174	Autres emprunts	
+175	Dettes commerciales	
+1750	Fournisseurs	
+1751	Effets à payer	
+176	Acomptes sur commandes	
+178	Cautionnements reçus en numéraire	
+179	Dettes diverses	
+19	Acompte aux associés sur le partage de l'actif net (-)	
+2	Frais d'établissement, actifs immobilisés et créances à plus d'un an	
+20	Frais d'établissement	
+200	Frais de constitution, d'augmentation de capital ou d'augmentation de l'apport	
+201	Frais d'émission d'emprunts	
+202	Autres frais d'établissement	
+204	Frais de restructuration	
+21	Immobilisations incorporelles	
+210	Frais de recherche et de développement	
+211	Concessions, brevets, licences, savoir-faire, marques et droits similaires	
+2110	Concessions, brevets, licences - valeur d'acquisition	
+2119	Concessions, brevets, licences - amortissements actés	
+212	Goodwill	
+213	Acomptes versés	
+22	Terrains et constructions	
+220	Terrains	
+221	Constructions	
+2210	Constructions - valeur d'acquisition	
+2219	Constructions - amortissements actés	
+222	Terrains bâtis	
+223	Autres droits réels sur des immeubles	
+23	Installations, machines et outillage	
+2300	Installations, machines et outillage - valeur d'acquisition	
+2309	Installations, machines et outillage - amortissements actés	
+24	Mobilier et matériel roulant	
+2400	Mobilier et matériel roulant - valeur d'acquisition	
+2409	Mobilier et matériel roulant - amortissements actés	
+25	Immobilisations détenues en location-financement et droits similaires	
+250	Terrains et constructions	
+251	Installations, machines et outillage	
+252	Mobilier et matériel roulant	
+26	Autres immobilisations corporelles	
+27	Immobilisations corporelles en cours et acomptes versés	
+28	Immobilisations financières	
+280	Participations dans des entreprises liées	
+2800	Valeur d'acquisition	
+2801	Montants non appelés (–)	
+2808	Plus-values actées	
+2809	Réductions de valeur actées (-)	
+281	Créances sur des entreprises liées	
+2810	Créances en compte	
+2811	Effets à recevoir	
+2812	Titres à revenu fixe	
+2817	Créances douteuses	
+2819	Réductions de valeur actées (-)	
+282	Participations dans des entreprises avec lesquelles il existe un lien de participation	
+2820	Valeur d'acquisition	
+2821	Montants non appelés (–)	
+2828	Plus-values actées	
+2829	Réductions de valeur actées (-)	
+283	Créances sur des entreprises avec lesquelles il existe un lien de participation	
+2830	Créances en compte	
+2831	Effets à recevoir	
+2832	Titres à revenu fixe	
+2837	Créances douteuses	
+2839	Réductions de valeur actées (-)	
+284	Autres actions et parts	
+2840	Valeur d'acquisition	
+2841	Montants non appelés (–)	
+2848	Plus-values actées	
+2849	Réductions de valeur actées (-)	
+285	Autres créances	
+2850	Créances en compte	
+2851	Effets à recevoir	
+2852	Titres à revenu fixe	
+2857	Créances douteuses	
+2859	Réductions de valeur actées (-)	
+288	Cautionnements versés en numéraire	
+29	Créances à plus d'un an	
+290	Créances commerciales	
+2900	Clients	
+2901	Effets à recevoir	
+2906	Acomptes versés	
+2907	Créances douteuses	
+2909	Réductions de valeur actées (-)	
+291	Autres créances	
+2910	Créances en compte	
+2911	Effets à recevoir	
+2917	Créances douteuses	
+2919	Réductions de valeur actées (-)	
+3	Stocks et commandes en cours d'exécution	
+30	Matières premières	
+300	Valeur d'acquisition	
+309	Réductions de valeur actées (–)	
+31	Approvisionnements et fournitures	
+310	Valeur d'acquisition	
+319	Réductions de valeur actées (–)	
+32	En-cours de fabrication	
+320	Valeur d'acquisition	
+329	Réductions de valeur actées (–)	
+33	Produits finis	
+330	Valeur d'acquisition	
+339	Réductions de valeur actées (–)	
+34	Marchandises	
+340	Valeur d'acquisition	
+349	Réductions de valeur actées (–)	
+35	Immeubles destinés à la vente	
+350	Valeur d'acquisition	
+359	Réductions de valeur actées (–)	
+36	Acomptes versés sur achats pour stocks	
+360	Acomptes versés	
+369	Réductions de valeur actées (–)	
+37	Commandes en cours d'exécution	
+370	Valeur d'acquisition	
+371	Bénéfice pris en compte	
+379	Réductions de valeur actées (–)	
+4	Créances et dettes à un an au plus	
+40	Créances commerciales	
+400	Clients	
+401	Effets à recevoir	
+404	Produits à recevoir	
+406	Acomptes versés	
+407	Créances douteuses	
+409	Réductions de valeur actées (-)	
+41	Autres créances	
+410	Capital ou apport appelé, non versé	
+411	TVA à récupérer	
+412	Impôts et précomptes à récupérer	
+4120	Impôts belges sur le résultat	
+4125	Autres impôts et taxes belges	
+4128	Impôts et taxes étrangers	
+414	Produits à recevoir	
+416	Créances diverses	
+417	Créances douteuses	
+418	Cautionnements versés en numéraire	
+419	Réductions de valeur actées (–)	
+42	Dettes à plus d'un an échéant dans l'année	
+43	Dettes financières	
+430	Établissements de crédit - Emprunts en compte à terme fixe	
+431	Établissements de crédit - Promesses	
+432	Établissements de crédit - Crédits d'acceptation	
+433	Établissements de crédit - Dettes en compte courant	
+439	Autres emprunts	
+44	Dettes commerciales	
+440	Fournisseurs	
+441	Effets à payer	
+444	Factures à recevoir	
+45	Dettes fiscales, salariales et sociales	
+450	Dettes fiscales estimées	
+4500	Impôts belges sur le résultat	
+4505	Autres impôts et taxes belges	
+4508	Impôts et taxes étrangers	
+451	TVA à payer	
+452	Impôts et taxes à payer	
+4520	Impôts belges sur le résultat	
+4525	Autres impôts et taxes belges	
+4528	Impôts et taxes étrangers	
+453	Précomptes retenus	
+454	Office national de la Sécurité sociale	
+455	Rémunérations	
+456	Pécules de vacances	
+459	Autres dettes sociales	
+46	Acomptes sur commandes	
+47	Dettes découlant de l'affectation du résultat	
+470	Dividendes et tantièmes d'exercices antérieurs	
+471	Dividendes de l’exercice	
+472	Tantièmes de l'exercice	
+473	Autres allocataires	
+48	Dettes diverses	
+480	Obligations et coupons échus	
+488	Cautionnements reçus en numéraire	
+489	Autres dettes diverses	
+49	Comptes de régularisation et d'attente	
+490	Charges à reporter	
+491	Produits acquis	
+492	Charges à imputer	
+493	Produits à reporter	
+499	Comptes d'attente	
+5	Placements de trésorerie et valeurs disponibles	
+50	Actions propres	
+51	Actions, parts et placements de trésorerie autres que placements à revenu fixe	
+510	Valeur d'acquisition	
+5100	Actions et parts	
+5101	Placements de trésorerie autres que placements à revenu fixe	
+511	Montants non appelés (-)	
+5110	Actions et parts	
+519	Réductions de valeur actées (-)	
+5190	Actions et parts	
+5191	Placements de trésorerie autres que placements à revenu fixe	
+52	Titres à revenu fixe	
+520	Valeur d'acquisition	
+529	Réductions de valeur actées (–)	
+53	Dépôts à terme	
+530	De plus d'un an	
+531	De plus d'un mois et à un an au plus	
+532	D'un mois au plus	
+539	Réductions de valeur actées (–)	
+54	Valeurs échues à l'encaissement	
+55	Établissements de crédit	
+550	Comptes ouverts auprès des divers établissements, à subdiviser en	
+57	Caisses	
+570	Caisses-espèces	
+578	Caisses-timbres	
+58	Virements internes	
+6	Charges	
+60	Approvisionnements et marchandises	
+600	Achats de matières premières	
+601	Achats de fournitures	
+602	Achats de services, travaux et études	
+603	Sous-traitances générales	
+604	Achats de marchandises	
+605	Achats d'immeubles destinés à la vente	
+608	Remises, ristournes et rabais (–)	
+609	Variations des stocks	
+6090	de matières premières	
+6091	de fournitures	
+6094	de marchandises	
+6095	d'immeubles achetés destinés à la vente	
+61	Services et biens divers	
+610	Loyers et charges locatives	
+617	Personnel intérimaire et personnes mises à la disposition de l'entreprise	
+618	Rémunérations, primes pour assurances extralégales, pensions de retraite et de survie des administrateurs, gérants et associés actifs qui ne sont pas attribuées en vertu d'un contrat de travail	
+62	Rémunérations, charges sociales et pensions	
+620	Rémunérations et avantages sociaux directs	
+6200	Administrateurs ou gérants	
+6201	Personnel de direction	
+6202	Employés	
+6203	Ouvriers	
+6204	Autres membres du personnel	
+621	Cotisations patronales pour assurances sociales	
+622	Primes patronales pour assurances extra-légales	
+623	Autres frais du personnel	
+624	Pensions de retraite et de survie	
+6240	Administrateurs ou gérants	
+6241	Personnel	
+63	Amortissements, réductions de valeur et provisions pour risques	
+630	Dotations aux amortissements et aux réductions de valeur sur immobilisations	
+6300	Dotations aux amortissements sur frais d'établissement	
+6301	Dotation aux amortissements sur immobilisations incorporelles	
+6302	Dotation aux amortissements sur immobilisations corporelles	
+6308	Dotation aux réductions de valeur sur immobilisations incorporelles	
+6309	Dotation aux réductions de valeur sur immobilisations corporelles	
+631	Réductions de valeur sur stocks	
+6310	Dotations	
+6311	Reprises (–)	
+632	Réductions de valeur sur commandes en cours d'exécution	
+6320	Dotations	
+6321	Reprises (–)	
+633	Réductions de valeur sur créances commerciales à plus d'un an	
+6330	Dotations	
+6331	Reprises (–)	
+634	Réductions de valeur sur créances à un an au plus	
+6340	Dotations	
+6341	Reprises (–)	
+635	Provisions pour pensions et obligations similaires	
+6350	Dotations	
+6351	Utilisations et reprises (–)	
+636	Provisions pour grosses réparations et gros entretiens	
+6360	Dotations	
+6361	Utilisations et reprises (–)	
+637	Provisions pour obligations environnementales	
+6370	Dotations	
+6371	Utilisations et reprises (–)	
+638	Provisions pour autres risques et charges	
+6380	Dotations	
+6381	Utilisations et reprises (–)	
+64	Autres charges d'exploitation	
+640	Charges fiscales d’exploitation	
+641	Moins-values sur réalisations courantes d'immobilisations corporelles	
+642	Moins-values sur réalisations de créances commerciales	
+643	Charges d'exploitations diverses	
+649	Charges d'exploitation portées à l'actif au titre de frais de restructuration (–)	
+65	Charges financières	
+650	Charges des dettes	
+6500	Intérêts, commissions et frais afférents aux dettes	
+6501	Amortissements des frais d'émission d'emprunts	
+6502	Intérêts intercalaires portés à l'actif (–)	
+651	Réductions de valeur sur actifs circulants	
+6510	Dotations	
+6511	Reprises (–)	
+652	Moins-values sur réalisation d'actifs circulants	
+653	Charges d'escompte de créances	
+654	Différences de change	
+655	Écarts de conversion des devises	
+656	Provisions à caractère financier	
+6560	Dotations	
+6561	Utilisations et reprises (–)	
+657	Charges financières diverses	
+659	Charges financières portées à l'actif au titre de frais de restructuration (-)	
+66	Charges d’exploitation et charges financières non récurrentes	
+660	Amortissements et réductions de valeur non récurrents (dotations)	
+6600	sur frais d'établissement	
+6601	sur immobilisations incorporelles	
+6602	sur immobilisations corporelles	
+661	Réduction de valeur sur immobilisations financières (dotation)	
+662	Provisions pour risques et charges non récurrents	
+6620	Provisions pour risques et charges d’exploitation non récurrents	
+66200	Dotations	
+66201	Utilisation (-)	
+6621	Provisions pour risques et charges financiers non récurrents	
+66210	Dotations	
+66211	Utilisation (-)	
+663	Moins-values sur réalisation d'actifs immobilisés	
+6630	Moins-values sur réalisation d'immobilisations incorporelles et corporelles	
+6631	Moins-values sur réalisation d'immobilisations financières	
+664	Autres charges d'exploitation non récurrentes	
+668	Autres charges financières non récurrentes	
+6690	Charges d'exploitation non récurrentes portées à l'actif au titre de frais de restructuration (-)	
+6691	Charges financières non récurrentes portées à l'actif au titre de frais de restructuration (-)	
+67	Impôts sur le résultat	
+670	Impôts belges sur le résultat de l’exercice	
+6700	Impôts et précomptes dus ou versés	
+6701	Excédent de versements d'impôts et de précomptes porté à l’actif (–)	
+6702	Charges fiscales estimées	
+671	Impôts belges sur le résultat d'exercices antérieurs	
+6710	Suppléments d'impôts dus ou versés	
+6711	Suppléments d'impôts estimés	
+6712	Provisions fiscales constituées	
+672	Impôts étrangers sur le résultat de l’exercice	
+673	Impôts étrangers sur le résultat d'exercices antérieurs	
+68	Transferts aux impôts différés et aux réserves immunisées	
+680	Transferts aux impôts différés	
+689	Transferts aux réserves immunisées	
+69	Affectations et prélèvements	
+690	Perte reportée de l'exercice précédent	
+691	Affectations à l'apport	
+692	Dotation aux réserves	
+6920	Dotation à la réserve légale	
+6921	Dotation aux autres réserves	
+693	Bénéfices à reporter	
+694	Rémunération de l'apport	
+695	Administrateurs ou gérants	
+696	Employés	
+697	Autres applications	
+7	Produits	
+70	Chiffre d'affaires	
+700	Ventes et prestations de services	
+708	Remises, ristournes et rabais accordés (–)	
+71	Variation des stocks et des commandes en cours d’exécution	
+712	des en-cours de fabrication	
+713	des produits finis	
+715	des immeubles construits destinés à la vente	
+717	des commandes en cours d'exécution	
+7170	Valeur d'acquisition	
+7171	Bénéfice pris en compte	
+72	Production immobilisée	
+74	Autres produits d'exploitation	
+740	Subsides d'exploitation et montants compensatoires	
+741	Plus-values sur réalisations courantes d'immobilisations corporelles	
+742	Plus-values sur réalisations de créances commerciales	
+743	Produits d'exploitation divers	
+75	Produits financiers	
+750	Produits des immobilisations financières	
+751	Produits des actifs circulants	
+752	Plus-values sur réalisation d'actifs circulants	
+753	Subsides en capital et en intérêts	
+754	Différences de change	
+755	Écarts de conversion des devises	
+756	Produits financiers divers	
+76	Produits d'exploitation ou financiers non récurrents	
+760	Reprises d'amortissements et de réductions de valeur	
+7600	sur immobilisations incorporelles	
+7601	sur immobilisations corporelles	
+761	Reprises de réductions de valeur sur immobilisations financières	
+762	Reprises de provisions pour risques et charges non récurrents	
+7620	Reprises de provisions pour risques et charges d’exploitation non récurrents	
+7621	Reprises de provisions pour risques et charges financiers non récurrents	
+763	Plus-values sur réalisation d'actifs immobilisés	
+7630	Plus-values sur réalisation d'immobilisations incorporelles et corporelles	
+7631	Plus-values sur réalisations d'actifs immobilisés	
+764	Autres bénéfices d'exploitation non récurrents	
+769	Autres produits financiers non récurrents	
+77	Régularisations d'impôts et reprises de provisions fiscales	
+771	Impôts belges sur le résultat	
+7710	Régularisation d'impôts dus ou versés	
+7711	Régularisation d'impôts estimés	
+7712	Reprises de provisions fiscales	
+773	Impôts étrangers sur le résultat	
+78	Prélèvements sur les réserves immunisées et les impôts différés	
+780	Prélèvements sur les impôts différés	
+789	Prélèvement sur les réserves immunisées	
+79	Affectations et prélèvements	
+790	Bénéfice reporté de l'exercice précédent	
+791	Prélèvements sur l'apport	
+792	Prélèvements sur les réserves	
+793	Perte à reporter	
+794	Intervention d'associés (ou du propriétaire) dans la perte	
+0	Droits et engagements hors bilan	
+00	Garanties constituées par des tiers pour compte de l’entreprise	
+000	Créanciers de l'entreprise, bénéficiaires de garanties de tiers	
+001	Tiers constituants de garanties pour compte de l’entreprise	
+01	Garanties personnelles constituées pour compte de tiers	
+010	Débiteurs pour engagements sur effets en circulation	
+011	Créanciers d'engagements sur effets en circulation	
+0110	Effets cédés par l'entreprise sous son endos	
+0111	Autres engagements sur effets en circulation	
+012	Débiteurs pour autres garanties personnelles	
+013	Créanciers d'autres garanties personnelles	
+02	Garanties réelles constituées sur avoirs propres	
+020	Créanciers de l'entreprise, bénéficiaires de garanties réelles	
+021	Garanties réelles constituées pour compte propre	
+022	Créanciers de tiers, bénéficiaires de garanties réelles	
+023	Garanties réelles constituées pour compte de tiers	
+03	Garanties reçues	
+030	Dépôts statutaires	
+031	Déposants statutaires	
+032	Garanties reçues	
+033	Constituant de garanties	
+04	Biens et valeurs détenus par des tiers en leur nom mais aux risques et profits de l’entreprise	
+040	Tiers, détenteurs en leur nom mais aux risques et profits de l'entreprise de biens et de valeurs	
+041	Biens et valeurs détenus par des tiers en leur nom mais aux risques et profits de l’entreprise	
+05	Engagements d'acquisition et de cession d’immobilisations	
+050	Engagements d'acquisition	
+051	Créanciers d'engagements d'acquisition	
+052	Débiteurs pour engagements de cession	
+053	Engagements de cession	
+06	Marchés à terme	
+060	Marchandises achetées à terme - à recevoir	
+061	Créanciers pour marchandises achetées à terme	
+062	Débiteurs pour marchandises vendues à terme	
+063	Marchandises vendues à terme - à livrer	
+064	Devises achetées à terme - à recevoir	
+065	Créanciers pour devises achetées à terme	
+066	Débiteurs pour devises vendues à terme	
+067	Devises vendues à terme - à livrer	
+07	Biens et valeurs de tiers détenus par l'établissement	
+070	Droits d'usage à long terme	
+0700	Sur terrains et construction	
+0701	Sur installations, machines et outillage	
+0702	Sur mobilier et matériel roulant	
+071	Créanciers de loyers et redevances	
+072	Biens et valeurs de tiers reçus en dépôt, en consignation ou à façon	
+073	Commettants et déposants de biens et de valeurs	
+074	Biens et valeurs détenus pour compte ou aux risques et profits de tiers	
+075	Créanciers de biens et valeurs détenus pour compte de tiers ou à leurs risques et profits	
+09	Droits et engagements divers	

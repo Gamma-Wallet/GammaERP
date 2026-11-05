@@ -1,0 +1,107 @@
+[
+ {
+  "Key": "inter_partner_type_category:1",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "partner_type:UNKNOWN",
+  "CategoryId": "partner_category:CLIENTS"
+ },
+ {
+  "Key": "inter_partner_type_category:2",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "partner_type:UNKNOWN",
+  "CategoryId": "partner_category:SUPPLIERS"
+ },
+ {
+  "Key": "inter_partner_type_category:3",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "partner_type:PERSON",
+  "CategoryId": "partner_category:CLIENTS"
+ },
+ {
+  "Key": "inter_partner_type_category:4",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "partner_type:PERSON",
+  "CategoryId": "partner_category:SUPPLIERS"
+ },
+ {
+  "Key": "inter_partner_type_category:5",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "partner_type:SME",
+  "CategoryId": "partner_category:CLIENTS"
+ },
+ {
+  "Key": "inter_partner_type_category:6",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "partner_type:SME",
+  "CategoryId": "partner_category:SUPPLIERS"
+ },
+ {
+  "Key": "inter_partner_type_category:7",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "partner_type:LTD",
+  "CategoryId": "partner_category:CLIENTS"
+ },
+ {
+  "Key": "inter_partner_type_category:8",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "partner_type:LTD",
+  "CategoryId": "partner_category:SUPPLIERS"
+ },
+ {
+  "Key": "inter_partner_type_category:9",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "partner_type:GROUP_COMPANY",
+  "CategoryId": "partner_category:CLIENTS"
+ },
+ {
+  "Key": "inter_partner_type_category:10",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "partner_type:GROUP_COMPANY",
+  "CategoryId": "partner_category:SUPPLIERS"
+ },
+ {
+  "Key": "inter_partner_type_category:1:leads",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "partner_type:UNKNOWN",
+  "CategoryId": "partner_category:LEADS"
+ },
+ {
+  "Key": "inter_partner_type_category:3:leads",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "partner_type:PERSON",
+  "CategoryId": "partner_category:LEADS"
+ },
+ {
+  "Key": "inter_partner_type_category:5:leads",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "partner_type:SME",
+  "CategoryId": "partner_category:LEADS"
+ },
+ {
+  "Key": "inter_partner_type_category:7:leads",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "partner_type:LTD",
+  "CategoryId": "partner_category:LEADS"
+ },
+ {
+  "Key": "inter_partner_type_category:9:leads",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "partner_type:GROUP_COMPANY",
+  "CategoryId": "partner_category:LEADS"
+ }
+]

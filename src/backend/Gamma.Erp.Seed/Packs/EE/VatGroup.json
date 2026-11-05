@@ -1,0 +1,54 @@
+[
+ {
+  "Key": "vat_group:EE_24",
+  "IdSup": null,
+  "Active": true,
+  "Code": null,
+  "Name": {
+   "en": "VAT 24%",
+   "et": "Käibemaks 24%"
+  },
+  "Description": null,
+  "Rate": 24.0,
+  "Depreciation": false
+ },
+ {
+  "Key": "vat_group:EE_13",
+  "IdSup": null,
+  "Active": true,
+  "Code": null,
+  "Name": {
+   "en": "VAT 13%",
+   "et": "Käibemaks 13%"
+  },
+  "Description": null,
+  "Rate": 13.0,
+  "Depreciation": false
+ },
+ {
+  "Key": "vat_group:EE_9",
+  "IdSup": null,
+  "Active": true,
+  "Code": null,
+  "Name": {
+   "en": "VAT 9%",
+   "et": "Käibemaks 9%"
+  },
+  "Description": null,
+  "Rate": 9.0,
+  "Depreciation": false
+ },
+ {
+  "Key": "vat_group:EE_0",
+  "IdSup": null,
+  "Active": true,
+  "Code": null,
+  "Name": {
+   "en": "VAT 0% / exempt",
+   "et": "Käibemaks 0% / maksuvaba"
+  },
+  "Description": null,
+  "Rate": 0.0,
+  "Depreciation": false
+ }
+]

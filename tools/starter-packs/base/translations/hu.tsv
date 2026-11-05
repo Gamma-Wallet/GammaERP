@@ -1,0 +1,442 @@
+# The base names in Hungarian, keyed by the English name (Gamma's translations), for the packs in Hungarian.
+# en	hu
+Base	Székhely
+Cash desk	Pénztár
+Bank	Bank
+Point of sale	Értékesítési pont
+Warehouse	Raktár
+Office	Iroda
+Tax number	Adószám
+Owner	Tulajdonos
+Name	Cégnév
+Currency	Pénznem
+Trade name	Kereskedelmi név
+Address	Cím
+Phone	Telefon
+E-mail	E-mail
+Website	Weboldal
+Logo	Logó
+Authorised person	Meghatalmazott
+Account	Főkönyvi szám
+Negative stock allowed (cost centres)	Negatív készlet engedélyezve (költséghelyek)
+Negative stock allowed (partners)	Negatív készlet engedélyezve (partnerek)
+Negative stock allowed (employees)	Negatív készlet engedélyezve (munkavállalók)
+cost centres	költséghelyek
+partners	partnerek
+employees	munkavállalók
+Hold timeout (minutes)	A bizonylat zárolási ideje (perc)
+ALL	ALL
+EUR	EUR
+USD	USD
+GBP	GBP
+CAD	CAD
+CHF	CHF
+Company book	Számviteli nyilvántartás
+Tax book	Adónyilvántartás
+Straight-line	Lineáris
+Straight-line depreciation	Lineáris értékcsökkenés
+Remaining value	Nettó érték
+Depreciation on the remaining value	Értékcsökkenés a nettó érték alapján
+Assets	Befektetett eszközök
+Land	Földterület
+Buildings	Épületek
+Office equipment	Irodai berendezések
+Vehicles	Járművek
+Computer equipment	Számítástechnikai eszközök
+Furniture and fittings	Bútorok és berendezések
+Intangible assets	Immateriális javak
+Sales	Értékesítés
+Sales invoices	Kimenő számlák
+Purchases	Beszerzés
+Purchase invoices	Bejövő számlák
+Goods transfers	Raktárközi mozgások
+Goods transfer note	Szállítólevél
+Offers	Árajánlatok
+Journal	Napló
+Contracts	Szerződések
+Recurring journal	Ismétlődő napló
+Reversals	Sztornók
+Sales invoice, goods	Számla áruértékesítésről
+Credit note, goods sold	Helyesbítő számla áruértékesítésről
+Sales invoice, services	Számla szolgáltatásról
+Credit note, services sold	Helyesbítő számla szolgáltatásról
+Purchase invoice, goods	Bejövő számla árubeszerzésről
+Credit note, goods bought	Bejövő helyesbítő számla árubeszerzésről
+Purchase invoice, services	Bejövő számla szolgáltatásról
+Credit note, services bought	Bejövő helyesbítő számla szolgáltatásról
+Payment	Kifizetés
+Receipt	Befizetés
+Prepayment	Előre fizetés
+Goods transfer, cost centre to staff	Átadás költséghelyről munkavállalónak
+Sales offer, goods	Árajánlat áruról
+Depreciation sheet	Értékcsökkenési terv
+Depreciation journal	Értékcsökkenés könyvelése
+Journal sheet	Vegyes bizonylat
+Revaluation sheet	Átértékelési kimutatás
+Revaluation journal	Átértékelés könyvelése
+Advance	Előleg
+Client's advance	Vevői előleg
+Employee advance	Munkavállalói előleg
+Advance to an employee	Előleg munkavállalónak
+Sales contract, goods	Adásvételi szerződés (eladás)
+Purchase contract, goods	Adásvételi szerződés (vétel)
+Purchase offer, goods	Ajánlatkérés áruról
+Sales offer, services	Árajánlat szolgáltatásról
+Purchase offer, services	Ajánlatkérés szolgáltatásról
+Sales contract, services	Szolgáltatási szerződés
+Purchase contract, services	Igénybe vett szolgáltatás szerződése
+Recurring depreciation sheet	Ismétlődő értékcsökkenési terv
+Recurring journal sheet	Ismétlődő vegyes bizonylat
+Recurring revaluation sheet	Ismétlődő átértékelési kimutatás
+General journal entry	Általános könyvelési tétel
+Point-of-sale receipt	Nyugta
+Goods transfer, staff to cost centre	Átadás munkavállalótól költséghelyre
+Goods transfer, cost centre to client	Kiszállítás költséghelyről vevőnek
+Goods transfer, client to cost centre	Visszavét vevőtől költséghelyre
+Point-of-sale contract	Értékesítési pont szerződése
+Point-of-sale receipt of money	Befizetés az értékesítési ponton
+Point-of-sale payment	Kifizetés az értékesítési ponton
+Point-of-sale goods in	Bevételezés az értékesítési ponton
+Point-of-sale goods out	Kiadás az értékesítési pontról
+Wage payment	Bérkifizetés
+Rent payment	Bérleti díj fizetése
+Customs declaration	Vámáru-nyilatkozat
+Customs declaration, assets	Vámáru-nyilatkozat tárgyi eszközről
+Point-of-sale refund	Visszatérítés az értékesítési ponton
+Point-of-sale receipt from staff	Befizetés munkavállalótól az értékesítési ponton
+Goods out to staff	Kiadás munkavállalónak
+Goods transfer, staff to client	Kiszállítás munkavállalótól vevőnek
+Goods in from staff	Bevételezés munkavállalótól
+Reversal of payment	Kifizetés sztornója
+Reversal of receipt	Befizetés sztornója
+Reversal of prepayment	Előre fizetés sztornója
+Reversal of depreciation journal	Értékcsökkenés könyvelésének sztornója
+Reversal of advance	Előleg sztornója
+Reversal of employee advance	Munkavállalói előleg sztornója
+End date	Befejezés dátuma
+Offer valid until	Ajánlat érvényessége
+Start date	Kezdés dátuma
+External number	Külső szám
+Contract number	Szerződésszám
+Invoice number	Számlaszám
+Carrier	Fuvarozó
+Linked invoice	Kapcsolódó számla
+Purchase invoice	Bejövő számla
+Last payment date	Utolsó fizetés dátuma
+Accounts	Főkönyvi számlák
+Products / services	Termékek / szolgáltatások
+Client / supplier / third party	Vevő / szállító / harmadik fél
+Staff	Személyzet
+Financial documents	Számviteli bizonylatok
+Transaction value	A tétel értéke
+Transaction discount	A tétel engedménye
+Transaction VAT	A tétel ÁFA-ja
+Asset's remaining value	Az eszköz nettó értéke
+Transaction debit	A tétel tartozik oldala
+Transaction credit	A tétel követel oldala
+Transaction value with VAT	A tétel bruttó értéke
+Non-current asset accounts	Befektetett eszköz számlák
+Inventory accounts	Készletszámlák
+Expense accounts	Költségszámlák
+Income accounts	Bevételi számlák
+All accounts	Minden számla
+table	tábla
+specified element	meghatározott elem
+empty element	üres elem
+line reference	tételhivatkozás
+line configuration	tételbeállítások
+document reference	bizonylathivatkozás
+document configuration	bizonylatbeállítások
+scenario configuration	kontírozási beállítások
+depreciation scenario configuration	értékcsökkenési kontírozás beállításai
+depreciation scenario	értékcsökkenési kontírozás
+Transaction amount	A tétel összege
+Finance	Pénzügy
+Administrator	Rendszergazda
+Financier	Könyvelő
+Warehouse keeper	Raktáros
+Driver	Sofőr
+Worker	Fizikai dolgozó
+Clients	Vevők
+Suppliers	Szállítók
+Unknown	Ismeretlen
+Person	Magánszemély
+SME	KKV
+LTD	Kft.
+Cash	Készpénz
+Unpaid	Kifizetetlen
+Credit card	Bankkártya
+Products	Termékek
+Services	Szolgáltatások
+Goods	Áruk
+Service	Szolgáltatás
+Asset	Tárgyi eszköz
+Items	Cikkek
+Transactions	Tételek
+Journal lines	Könyvelési tételek
+Depreciation lines	Értékcsökkenési tételek
+Revaluation lines	Átértékelési tételek
+Item	Cikk
+Fixed asset	Tárgyi eszköz
+Service item	Cikk (szolgáltatás)
+Supplier	Szállító
+Client	Vevő
+Cash desk account	Pénztárszámla
+Bank account	Bankszámla
+Depreciation	Értékcsökkenés
+Revaluation	Átértékelés
+Fixed asset (service)	Tárgyi eszköz (szolgáltatás)
+Combined item	Összetett cikk
+Customs	Vám
+Transport	Szállítás
+Customs agency	Vámügynök
+Customs, assets	Vám tárgyi eszközre
+Transport, assets	Tárgyi eszköz szállítása
+Customs agency, assets	Vámügynök tárgyi eszközre
+Piece	Darab
+kg	kg
+Hour	Óra
+Day	Nap
+Month	Hónap
+Year	Év
+g	g
+cm	cm
+m	m
+mm	mm
+km	km
+Standard	Alap
+Weight	Tömeg
+Time	Idő
+Length	Hosszúság
+Seller	Eladó
+IT	IT
+Consultant	Tanácsadó
+VAT 20%	ÁFA 20%
+VAT 0%	ÁFA 0%
+Hall	Terem
+Table	Asztal
+Counter	Pult
+Production	Gyártás
+Reversal of production	Gyártás sztornója
+Unit split	Mértékegység-átváltás
+Reversal of unit split	Mértékegység-átváltás sztornója
+Raw material used	Felhasznált alapanyag
+Produced item	Gyártott termék
+Waste	Selejt
+Account ledger	Számlakarton
+Administration	Adminisztráció
+Chart of accounts	Számlatükör
+Client and supplier ledger	Vevő- és szállítókarton
+Client statistics	Vevőstatisztika
+Clients and suppliers	Vevők és szállítók
+Configuration	Beállítások
+Convert stock between units	Készlet átváltása másik egységre
+Cost centre ledger	Költséghely-karton
+Cost centres	Költséghelyek
+Currencies and exchange rates	Pénznemek és árfolyamok
+Document types	Bizonylattípusok
+Documents	Bizonylatok
+Employees	Munkavállalók
+Files	Fájlok
+Financial reports	Pénzügyi kimutatások
+Item movements	Cikkmozgások
+Menu	Menü
+Menu access	Menühozzáférés
+Operations	Műveletek
+Orders to produce	Gyártandó rendelések
+Payment methods	Fizetési módok
+Posting scenarios	Könyvelési forgatókönyvek
+Print templates	Nyomtatási sablonok
+Products and services	Termékek és szolgáltatások
+Recipes	Receptek
+Registers	Törzsadatok
+Reports	Kimutatások
+Rights	Jogosultságok
+Sale menus	Értékesítési menük
+Point-of-sale settings	Értékesítési pont beállításai
+Shows	Előadások
+Purchases from the group	Vásárlások a csoporttól
+Barcode	Vonalkód
+Sale prices	Eladási árak
+Sales and purchases by line	Értékesítések és beszerzések soronként
+Stock	Készlet
+Stock and sales	Készlet és értékesítés
+Trial balance	Főkönyvi kivonat
+Unit conversions	Mértékegység-átváltások
+Units of measure	Mértékegységek
+Users	Felhasználók
+VAT books	ÁFA-nyilvántartások
+VAT groups	ÁFA-csoportok
+VAT return	ÁFA-bevallás
+VAT return boxes	Az ÁFA-bevallás sorai
+Company of the group	Csoporttag vállalat
+Restaurant / café	Étterem / kávézó
+Shop	Bolt
+Till	Pénztár
+Cinema / theatre	Mozi / színház
+Auditorium	Terem
+Row	Sor
+Seat	Ülőhely
+Hotel	Szálloda
+Floor	Emelet
+Room	Szoba
+Beds	Ágyak
+Position X	X pozíció
+Seats	Férőhelyek
+Position Y	Y pozíció
+Reversal of journal sheet	Könyvelési lap sztornója
+Reversal of depreciation sheet	Értékcsökkenési lap sztornója
+Reversal of general journal entry	Általános könyvelési tétel sztornója
+Open the point of sale	Értékesítési pont megnyitása
+Stock and production	Készlet és gyártás
+Accounting setup	Könyvelési beállítások
+Fixed assets	Tárgyi eszközök
+Currencies and payments	Pénznemek és fizetések
+Company	Vállalat
+Users and rights	Felhasználók és jogok
+System settings	Rendszerbeállítások
+Types and categories	Típusok és kategóriák
+VAT	ÁFA
+Financial	Pénzügyi
+Sale prices by partner	Eladási árak partnerenként
+Sale menu categories	Értékesítési menük kategóriái
+Scenario lines	Forgatókönyv-sorok
+Unbalanced scenarios	Kiegyensúlyozatlan forgatókönyvek
+Remaining asset value	Eszköz maradványértéke
+VAT return box rules	ÁFA-bevallás sorainak szabályai
+VAT return by boxes	ÁFA-bevallás soronként
+Payment methods by cost centre	Fizetési módok költséghelyenként
+Users and roles	Felhasználók és szerepkörök
+Document flows	Bizonylatfolyamatok
+Chart types and categories	Számlatükör típusai és kategóriái
+Balance sheet	Mérleg
+Profit and loss	Eredménykimutatás
+Balance sheet lines	Mérlegsorok
+Profit and loss lines	Eredménysorok
+City	Város
+Staff ledger	Személyzeti karton
+Sales and purchases by client	Eladás és beszerzés ügyfelenként
+Sales and purchases by cost centre	Eladás és beszerzés költséghelyenként
+Transfers	Áthelyezések
+Document totals	Bizonylatok összesítése
+Purchase price history	Beszerzési árak története
+Depreciation books	Értékcsökkenési könyvek
+Depreciation methods	Értékcsökkenési módszerek
+Depreciation scenarios	Értékcsökkenési forgatókönyvek
+Depreciation scenario lines	Értékcsökkenési forgatókönyvek sorai
+Serial numbers	Sorozatszámok
+User activity	Felhasználói tevékenység
+Dashboard	Irányítópult
+Dashboard items	Irányítópult elemei
+Clients owe us	Ügyfelek tartozása
+We owe suppliers	Tartozás a szállítóknak
+Drafts waiting	Várakozó piszkozatok
+Sales and purchases by month	Értékesítés és beszerzés havonta
+VAT by month	Áfa havonta
+Top clients	Legjobb ügyfelek
+Top suppliers	Legjobb szállítók
+Top products	Legjobb termékek
+Sales by cost centre	Értékesítés költséghelyenként
+Migration	Migráció
+Migration steps	Migrációs lépések
+Warehouses, banks, cash desks and places	Raktárak, bankok, pénztárak és helyek
+Client and supplier categories	Ügyfél- és szállítókategóriák
+Product categories	Termékkategóriák
+Units	Egységek
+Exchange rates	Árfolyamok
+Next document numbers	Következő bizonylatszámok
+Opening balances: clients and suppliers	Nyitó egyenlegek: ügyfelek és szállítók
+Opening balances: banks, cash desks and staff	Nyitó egyenlegek: bankok, pénztárak és személyzet
+Opening balances: the chart	Nyitó egyenlegek: számlatükör
+Posting groups	Könyvelési csoportok
+Document categories	Bizonylatkategóriák
+Opening balances: stock	Nyitó egyenlegek: készlet
+Opening balances: fixed assets	Nyitó egyenlegek: tárgyi eszközök
+VAT groups of document types	Bizonylattípusok áfacsoportjai
+Closed periods	Lezárt időszakok
+Transaction types	Tranzakciótípusok
+Transaction scopes	Tranzakciós hatókörök
+Transaction categories	Tranzakciókategóriák
+Transaction types of document types	Bizonylattípusok tranzakciótípusai
+General client	Általános ügyfél
+Transaction asset cost	Eszköz bekerülési értéke
+Transaction asset depreciation	Eszköz értékcsökkenése
+Transaction asset book value	Eszköz könyv szerinti értéke
+Sales by waiter	Értékesítés felszolgálónként
+Ageing	Korosítás
+Open invoices	Nyitott számlák
+Overdue from clients	Lejárt ügyfeleknél
+Overdue to suppliers	Lejárt szállítóknak
+Gross profit	Bruttó nyereség
+Gross profit by cost centre	Bruttó nyereség költséghelyenként
+Top combined products	Legjobb kombinált termékek
+Close the year	Év lezárása
+Invoice run	Szerződéses számlázás
+Renewals	Megújítások
+CRM	CRM
+Opportunities	Lehetőségek
+Pipeline	Értékesítési tölcsér
+Forecast	Előrejelzés
+Opportunity stages	Lehetőségek szakaszai
+Sales opportunities	Értékesítési lehetőségek
+Opportunity	Lehetőség
+Qualify	Minősítés
+Propose	Ajánlat
+Negotiate	Tárgyalás
+Won	Megnyert
+Lost	Elvesztett
+Leads	Érdeklődők
+Orders	Rendelések
+Purchase request	Beszerzési igény
+Purchase order	Beszerzési rendelés
+Sales order	Vevői rendelés
+Approvals	Jóváhagyások
+Approval limits	Jóváhagyási limitek
+Bank statements	Bankszámlakivonatok
+Bank statement formats	Bankszámlakivonat-formátumok
+Date, text, reference, amount	Dátum, szöveg, hivatkozás, összeg
+Lots	Tételek
+Shifts	Műszakok
+Production point	Termelési pont
+Production point display	Termelési pont kijelzője
+Production routes	Termelési útvonalak
+Point-of-sale order	Értékesítési pont rendelése
+Repairs	Javítások
+Repair intake	Javítási átvétel
+Repair offer	Javítási ajánlat
+Technician	Technikus
+Received	Átvéve
+Offer given	Ajánlat kiadva
+Accepted	Elfogadva
+Ready	Kész
+Collected	Elvitt
+Refused	Elutasítva
+Item	Tétel
+Brand and model	Márka és modell
+Serial number or plate	Sorozatszám vagy rendszám
+Accessories left	Otthagyott tartozékok
+Defect described	Leírt hiba
+Come back on	Visszajönni
+Repair board	Javítási tábla
+Repair stages	Javítási szakaszok
+Repair shop	Szerviz
+Roles	Szerepkörök
+Account mapping	Számlamegfeleltetés
+Waiter	Pincér
+Cashier	Pénztáros
+Disassembly	Szétszerelés
+Product taken apart	Szétszerelt termék
+Recovered component	Visszanyert összetevő
+Disassembly waste	Szétszerelési veszteség
+Point-of-sale reversal	Pénztári sztornó
+Reversal of customs declaration	Sztornó: Vámáru-nyilatkozat
+Reversal of customs declaration, assets	Sztornó: Vámáru-nyilatkozat tárgyi eszközről
+Reversal of goods transfer note	Sztornó: Szállítólevél
+Reversal of goods transfer, cost centre to staff	Sztornó: Átadás költséghelyről munkavállalónak
+Reversal of goods transfer, staff to cost centre	Sztornó: Átadás munkavállalótól költséghelyre
+Reversal of goods transfer, cost centre to client	Sztornó: Kiszállítás költséghelyről vevőnek
+Reversal of goods transfer, client to cost centre	Sztornó: Visszavét vevőtől költséghelyre
+Reversal of goods transfer, staff to client	Sztornó: Kiszállítás munkavállalótól vevőnek
+Opportunity types and categories	Lehetőségek típusai és kategóriái
+Opportunities and documents	Lehetőségek és bizonylatok
+Skins	Témák

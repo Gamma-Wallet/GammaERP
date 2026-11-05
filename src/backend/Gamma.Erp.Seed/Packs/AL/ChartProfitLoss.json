@@ -1,0 +1,32 @@
+[
+ {
+  "Key": "chart_profit_loss:I",
+  "IdSup": null,
+  "Active": true,
+  "Code": "I",
+  "Name": {
+   "en": "Income",
+   "sq": "Të ardhurat"
+  },
+  "SortOrder": 10,
+  "Accounts": "7",
+  "BalanceSide": 0,
+  "CreditSide": true,
+  "ResultKind": 0
+ },
+ {
+  "Key": "chart_profit_loss:E",
+  "IdSup": null,
+  "Active": true,
+  "Code": "E",
+  "Name": {
+   "en": "Expenses",
+   "sq": "Shpenzimet"
+  },
+  "SortOrder": 20,
+  "Accounts": "6",
+  "BalanceSide": 0,
+  "CreditSide": false,
+  "ResultKind": 0
+ }
+]

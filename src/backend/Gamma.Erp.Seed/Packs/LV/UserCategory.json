@@ -1,0 +1,139 @@
+[
+ {
+  "Key": "user_category:ADMINISTRATOR",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "ADMINISTRATOR",
+  "Name": {
+   "en": "Administrator",
+   "lv": "Administrators"
+  },
+  "SortOrder": 10,
+  "IsAdministrator": true
+ },
+ {
+  "Key": "user_category:FINANCE",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "FINANCE",
+  "Name": {
+   "en": "Finance",
+   "lv": "Grāmatvedība"
+  },
+  "SortOrder": 20
+ },
+ {
+  "Key": "user_category:SELLER",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "SELLER",
+  "Name": {
+   "en": "Seller",
+   "lv": "Pārdevējs"
+  },
+  "SortOrder": 30
+ },
+ {
+  "Key": "user_category:WAREHOUSE",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "WAREHOUSE",
+  "Name": {
+   "en": "Warehouse keeper",
+   "lv": "Noliktavas pārzinis"
+  },
+  "SortOrder": 40
+ },
+ {
+  "Key": "user_category:IT",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "IT",
+  "Name": {
+   "en": "IT",
+   "lv": "IT"
+  },
+  "SortOrder": 50
+ },
+ {
+  "Key": "user_category:CONSULTANT",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "CONSULTANT",
+  "Name": {
+   "en": "Consultant",
+   "lv": "Konsultants"
+  },
+  "SortOrder": 60
+ },
+ {
+  "Key": "user_category:PRODUCTION_POINT",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "PRODUCTION_POINT",
+  "Name": {
+   "en": "Production point",
+   "lv": "Ražošanas punkts"
+  },
+  "SortOrder": 70
+ },
+ {
+  "Key": "user_category:TECHNICIAN",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "TECHNICIAN",
+  "Name": {
+   "en": "Technician",
+   "lv": "Tehniķis"
+  },
+  "SortOrder": 80
+ },
+ {
+  "Key": "user_category:WAITER",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "WAITER",
+  "Name": {
+   "en": "Waiter",
+   "lv": "Viesmīlis"
+  },
+  "SortOrder": 90
+ },
+ {
+  "Key": "user_category:CASHIER",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "CASHIER",
+  "Name": {
+   "en": "Cashier",
+   "lv": "Kasieris"
+  },
+  "SortOrder": 100
+ },
+ {
+  "Key": "user_category:USERS",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "USERS",
+  "Name": {
+   "en": "Users",
+   "lv": "Lietotāji"
+  },
+  "SortOrder": 5,
+  "Description": {
+   "en": "Users",
+   "lv": "Lietotāji"
+  }
+ }
+]

@@ -1,0 +1,54 @@
+[
+ {
+  "Key": "vat_group:LT_21",
+  "IdSup": null,
+  "Active": true,
+  "Code": null,
+  "Name": {
+   "en": "VAT 21%",
+   "lt": "PVM 21%"
+  },
+  "Description": null,
+  "Rate": 21.0,
+  "Depreciation": false
+ },
+ {
+  "Key": "vat_group:LT_9",
+  "IdSup": null,
+  "Active": true,
+  "Code": null,
+  "Name": {
+   "en": "VAT 9%",
+   "lt": "PVM 9%"
+  },
+  "Description": null,
+  "Rate": 9.0,
+  "Depreciation": false
+ },
+ {
+  "Key": "vat_group:LT_5",
+  "IdSup": null,
+  "Active": true,
+  "Code": null,
+  "Name": {
+   "en": "VAT 5%",
+   "lt": "PVM 5%"
+  },
+  "Description": null,
+  "Rate": 5.0,
+  "Depreciation": false
+ },
+ {
+  "Key": "vat_group:LT_0",
+  "IdSup": null,
+  "Active": true,
+  "Code": null,
+  "Name": {
+   "en": "VAT 0% / exempt",
+   "lt": "PVM 0% / neapmokestinama"
+  },
+  "Description": null,
+  "Rate": 0.0,
+  "Depreciation": false
+ }
+]

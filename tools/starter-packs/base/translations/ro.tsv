@@ -1,0 +1,442 @@
+# The base names in Romanian, keyed by the English name (Gamma's translations), for the packs in Romanian.
+# en	ro
+Base	Sediu
+Cash desk	Casierie
+Bank	Bancă
+Point of sale	Punct de vânzare
+Warehouse	Depozit
+Office	Birou
+Tax number	Cod de identificare fiscală
+Owner	Titular
+Name	Denumire
+Currency	Monedă
+Trade name	Denumire comercială
+Address	Adresă
+Phone	Telefon
+E-mail	E-mail
+Website	Site web
+Logo	Siglă
+Authorised person	Persoană împuternicită
+Account	Cont
+Negative stock allowed (cost centres)	Stoc negativ permis (centre de cost)
+Negative stock allowed (partners)	Stoc negativ permis (parteneri)
+Negative stock allowed (employees)	Stoc negativ permis (angajați)
+cost centres	centre de cost
+partners	parteneri
+employees	angajați
+Hold timeout (minutes)	Durata de blocare a documentului (minute)
+ALL	ALL
+EUR	EUR
+USD	USD
+GBP	GBP
+CAD	CAD
+CHF	CHF
+Company book	Registru contabil
+Tax book	Registru fiscal
+Straight-line	Liniară
+Straight-line depreciation	Amortizare liniară
+Remaining value	Valoare rămasă
+Depreciation on the remaining value	Amortizare la valoarea rămasă
+Assets	Imobilizări
+Land	Terenuri
+Buildings	Construcții
+Office equipment	Aparatură birotică
+Vehicles	Mijloace de transport
+Computer equipment	Echipamente informatice
+Furniture and fittings	Mobilier
+Intangible assets	Imobilizări necorporale
+Sales	Vânzări
+Sales invoices	Facturi emise
+Purchases	Achiziții
+Purchase invoices	Facturi primite
+Goods transfers	Transferuri de mărfuri
+Goods transfer note	Aviz de însoțire
+Offers	Oferte
+Journal	Jurnal
+Contracts	Contracte
+Recurring journal	Jurnal periodic
+Reversals	Stornări
+Sales invoice, goods	Factură de vânzare mărfuri
+Credit note, goods sold	Factură de stornare vânzare mărfuri
+Sales invoice, services	Factură de prestări servicii
+Credit note, services sold	Factură de stornare servicii prestate
+Purchase invoice, goods	Factură de achiziție mărfuri
+Credit note, goods bought	Factură de stornare achiziție mărfuri
+Purchase invoice, services	Factură de servicii primite
+Credit note, services bought	Factură de stornare servicii primite
+Payment	Plată
+Receipt	Încasare
+Prepayment	Plată în avans
+Goods transfer, cost centre to staff	Transfer de la centrul de cost la personal
+Sales offer, goods	Ofertă de vânzare mărfuri
+Depreciation sheet	Fișă de amortizare
+Depreciation journal	Notă contabilă de amortizare
+Journal sheet	Notă contabilă
+Revaluation sheet	Fișă de reevaluare
+Revaluation journal	Notă contabilă de reevaluare
+Advance	Avans
+Client's advance	Avans de la client
+Employee advance	Avans acordat angajatului
+Advance to an employee	Avans acordat unui angajat
+Sales contract, goods	Contract de vânzare mărfuri
+Purchase contract, goods	Contract de achiziție mărfuri
+Purchase offer, goods	Cerere de ofertă mărfuri
+Sales offer, services	Ofertă de servicii
+Purchase offer, services	Cerere de ofertă servicii
+Sales contract, services	Contract de prestări servicii
+Purchase contract, services	Contract de servicii primite
+Recurring depreciation sheet	Fișă de amortizare periodică
+Recurring journal sheet	Notă contabilă periodică
+Recurring revaluation sheet	Fișă de reevaluare periodică
+General journal entry	Notă contabilă generală
+Point-of-sale receipt	Bon fiscal
+Goods transfer, staff to cost centre	Transfer de la personal la centrul de cost
+Goods transfer, cost centre to client	Transfer de la centrul de cost la client
+Goods transfer, client to cost centre	Transfer de la client la centrul de cost
+Point-of-sale contract	Contract al punctului de vânzare
+Point-of-sale receipt of money	Încasare la punctul de vânzare
+Point-of-sale payment	Plată la punctul de vânzare
+Point-of-sale goods in	Intrare la punctul de vânzare
+Point-of-sale goods out	Ieșire din punctul de vânzare
+Wage payment	Plata salariilor
+Rent payment	Plata chiriei
+Customs declaration	Declarație vamală
+Customs declaration, assets	Declarație vamală pentru imobilizări
+Point-of-sale refund	Restituire la punctul de vânzare
+Point-of-sale receipt from staff	Încasare de la personal la punctul de vânzare
+Goods out to staff	Ieșire către personal
+Goods transfer, staff to client	Transfer de la personal la client
+Goods in from staff	Intrare de la personal
+Reversal of payment	Stornare plată
+Reversal of receipt	Stornare încasare
+Reversal of prepayment	Stornare plată în avans
+Reversal of depreciation journal	Stornare notă de amortizare
+Reversal of advance	Stornare avans
+Reversal of employee advance	Stornare avans acordat angajatului
+End date	Data de sfârșit
+Offer valid until	Valabilitatea ofertei
+Start date	Data de început
+External number	Număr extern
+Contract number	Număr de contract
+Invoice number	Număr de factură
+Carrier	Transportator
+Linked invoice	Factură asociată
+Purchase invoice	Factură de achiziție
+Last payment date	Data ultimei plăți
+Accounts	Conturi
+Products / services	Produse / servicii
+Client / supplier / third party	Client / furnizor / terț
+Staff	Personal
+Financial documents	Documente contabile
+Transaction value	Valoarea rândului
+Transaction discount	Reducerea rândului
+Transaction VAT	TVA-ul rândului
+Asset's remaining value	Valoarea rămasă a activului
+Transaction debit	Debitul rândului
+Transaction credit	Creditul rândului
+Transaction value with VAT	Valoarea rândului cu TVA
+Non-current asset accounts	Conturi de imobilizări
+Inventory accounts	Conturi de stocuri
+Expense accounts	Conturi de cheltuieli
+Income accounts	Conturi de venituri
+All accounts	Toate conturile
+table	tabel
+specified element	element anume
+empty element	element gol
+line reference	referință de rând
+line configuration	configurarea rândurilor
+document reference	referință de document
+document configuration	configurarea documentelor
+scenario configuration	configurarea scenariului
+depreciation scenario configuration	configurarea scenariului de amortizare
+depreciation scenario	scenariu de amortizare
+Transaction amount	Suma rândului
+Finance	Contabilitate
+Administrator	Administrator
+Financier	Contabil
+Warehouse keeper	Gestionar
+Driver	Șofer
+Worker	Muncitor
+Clients	Clienți
+Suppliers	Furnizori
+Unknown	Necunoscut
+Person	Persoană fizică
+SME	IMM
+LTD	S.R.L.
+Cash	Numerar
+Unpaid	Neplătit
+Credit card	Card de credit
+Products	Produse
+Services	Servicii
+Goods	Mărfuri
+Service	Serviciu
+Asset	Imobilizare
+Items	Articole
+Transactions	Rânduri
+Journal lines	Rânduri de notă contabilă
+Depreciation lines	Rânduri de amortizare
+Revaluation lines	Rânduri de reevaluare
+Item	Articol
+Fixed asset	Imobilizare
+Service item	Articol (serviciu)
+Supplier	Furnizor
+Client	Client
+Cash desk account	Cont de casă
+Bank account	Cont bancar
+Depreciation	Amortizare
+Revaluation	Reevaluare
+Fixed asset (service)	Imobilizare (serviciu)
+Combined item	Articol compus
+Customs	Vamă
+Transport	Transport
+Customs agency	Comisionar vamal
+Customs, assets	Vamă pentru imobilizări
+Transport, assets	Transport de imobilizări
+Customs agency, assets	Comisionar vamal pentru imobilizări
+Piece	Bucată
+kg	kg
+Hour	Oră
+Day	Zi
+Month	Lună
+Year	An
+g	g
+cm	cm
+m	m
+mm	mm
+km	km
+Standard	Standard
+Weight	Greutate
+Time	Timp
+Length	Lungime
+Seller	Vânzător
+IT	IT
+Consultant	Consultant
+VAT 20%	TVA 20%
+VAT 0%	TVA 0%
+Hall	Sală
+Table	Masă
+Counter	Bar
+Production	Producție
+Reversal of production	Stornare producție
+Unit split	Conversie unitate de măsură
+Reversal of unit split	Stornare conversie unitate de măsură
+Raw material used	Materie primă consumată
+Produced item	Produs fabricat
+Waste	Pierdere tehnologică
+Account ledger	Fișa contului
+Administration	Administrare
+Chart of accounts	Plan de conturi
+Client and supplier ledger	Fișa clienților și furnizorilor
+Client statistics	Statistici clienți
+Clients and suppliers	Clienți și furnizori
+Configuration	Configurare
+Convert stock between units	Conversia stocului în altă unitate
+Cost centre ledger	Fișa centrului de cost
+Cost centres	Centre de cost
+Currencies and exchange rates	Monede și cursuri de schimb
+Document types	Tipuri de documente
+Documents	Documente
+Employees	Angajați
+Files	Fișiere
+Financial reports	Rapoarte financiare
+Item movements	Mișcările articolului
+Menu	Meniu
+Menu access	Acces la meniu
+Operations	Operațiuni
+Orders to produce	Comenzi de produs
+Payment methods	Metode de plată
+Posting scenarios	Scenarii de înregistrare contabilă
+Print templates	Șabloane de tipărire
+Products and services	Produse și servicii
+Recipes	Rețete
+Registers	Nomenclatoare
+Reports	Rapoarte
+Rights	Drepturi
+Sale menus	Meniuri de vânzare
+Point-of-sale settings	Setările punctului de vânzare
+Shows	Spectacole
+Purchases from the group	Achiziții de la grup
+Barcode	Cod de bare
+Sale prices	Prețuri de vânzare
+Sales and purchases by line	Vânzări și achiziții pe linii
+Stock	Stoc
+Stock and sales	Stoc și vânzări
+Trial balance	Balanța de verificare
+Unit conversions	Conversii de unități
+Units of measure	Unități de măsură
+Users	Utilizatori
+VAT books	Jurnale de TVA
+VAT groups	Grupe de TVA
+VAT return	Decontul de TVA
+VAT return boxes	Rândurile decontului de TVA
+Company of the group	Societate a grupului
+Restaurant / café	Restaurant / cafenea
+Shop	Magazin
+Till	Casă de marcat
+Cinema / theatre	Cinema / teatru
+Auditorium	Sală
+Row	Rând
+Seat	Loc
+Hotel	Hotel
+Floor	Etaj
+Room	Cameră
+Beds	Paturi
+Position X	Poziția X
+Seats	Locuri
+Position Y	Poziția Y
+Reversal of journal sheet	Stornare a fișei contabile
+Reversal of depreciation sheet	Stornare a fișei de amortizare
+Reversal of general journal entry	Stornare a înregistrării generale
+Open the point of sale	Deschide punctul de vânzare
+Stock and production	Stoc și producție
+Accounting setup	Setări contabile
+Fixed assets	Imobilizări
+Currencies and payments	Valute și plăți
+Company	Companie
+Users and rights	Utilizatori și drepturi
+System settings	Setări de sistem
+Types and categories	Tipuri și categorii
+VAT	TVA
+Financial	Financiare
+Sale prices by partner	Prețuri de vânzare pe partener
+Sale menu categories	Categorii ale meniurilor de vânzare
+Scenario lines	Linii de scenarii
+Unbalanced scenarios	Scenarii neechilibrate
+Remaining asset value	Valoarea rămasă a activului
+VAT return box rules	Reguli pentru casetele declarației de TVA
+VAT return by boxes	Declarație de TVA pe casete
+Payment methods by cost centre	Metode de plată pe centru de cost
+Users and roles	Utilizatori și roluri
+Document flows	Fluxuri de documente
+Chart types and categories	Tipuri și categorii ale planului
+Balance sheet	Bilanț
+Profit and loss	Profit și pierdere
+Balance sheet lines	Linii de bilanț
+Profit and loss lines	Linii de profit și pierdere
+City	Oraș
+Staff ledger	Fișa personalului
+Sales and purchases by client	Vânzări și achiziții pe client
+Sales and purchases by cost centre	Vânzări și achiziții pe centru de cost
+Transfers	Transferuri
+Document totals	Totaluri documente
+Purchase price history	Istoricul prețurilor de achiziție
+Depreciation books	Registre de amortizare
+Depreciation methods	Metode de amortizare
+Depreciation scenarios	Scenarii de amortizare
+Depreciation scenario lines	Linii ale scenariilor de amortizare
+Serial numbers	Numere de serie
+User activity	Activitatea utilizatorilor
+Dashboard	Tablou de bord
+Dashboard items	Elementele tabloului de bord
+Clients owe us	Clienții ne datorează
+We owe suppliers	Datorăm furnizorilor
+Drafts waiting	Ciorne în așteptare
+Sales and purchases by month	Vânzări și achiziții pe luni
+VAT by month	TVA pe luni
+Top clients	Clienți de top
+Top suppliers	Furnizori de top
+Top products	Produse de top
+Sales by cost centre	Vânzări pe centre de cost
+Migration	Migrare
+Migration steps	Pașii migrării
+Warehouses, banks, cash desks and places	Depozite, bănci, case și locuri
+Client and supplier categories	Categorii de clienți și furnizori
+Product categories	Categorii de produse
+Units	Unități
+Exchange rates	Cursuri de schimb
+Next document numbers	Următoarele numere de documente
+Opening balances: clients and suppliers	Solduri inițiale: clienți și furnizori
+Opening balances: banks, cash desks and staff	Solduri inițiale: bănci, case și personal
+Opening balances: the chart	Solduri inițiale: planul de conturi
+Posting groups	Grupuri de contabilizare
+Document categories	Categorii de documente
+Opening balances: stock	Solduri inițiale: stocuri
+Opening balances: fixed assets	Solduri inițiale: imobilizări
+VAT groups of document types	Grupe de TVA ale tipurilor de documente
+Closed periods	Perioade închise
+Transaction types	Tipuri de tranzacții
+Transaction scopes	Domenii de tranzacții
+Transaction categories	Categorii de tranzacții
+Transaction types of document types	Tipuri de tranzacții ale tipurilor de documente
+General client	Client general
+Transaction asset cost	Costul activului
+Transaction asset depreciation	Amortizarea activului
+Transaction asset book value	Valoarea contabilă a activului
+Sales by waiter	Vânzări pe ospătar
+Ageing	Vechimea soldurilor
+Open invoices	Facturi deschise
+Overdue from clients	Restant de la clienți
+Overdue to suppliers	Restant către furnizori
+Gross profit	Profit brut
+Gross profit by cost centre	Profit brut pe centru de cost
+Top combined products	Top produse combinate
+Close the year	Închide anul
+Invoice run	Facturarea contractelor
+Renewals	Reînnoiri
+CRM	CRM
+Opportunities	Oportunități
+Pipeline	Pâlnie de vânzări
+Forecast	Prognoză
+Opportunity stages	Etapele oportunităților
+Sales opportunities	Oportunități de vânzare
+Opportunity	Oportunitate
+Qualify	Calificare
+Propose	Propunere
+Negotiate	Negociere
+Won	Câștigată
+Lost	Pierdută
+Leads	Clienți potențiali
+Orders	Comenzi
+Purchase request	Cerere de achiziție
+Purchase order	Comandă de achiziție
+Sales order	Comandă de vânzare
+Approvals	Aprobări
+Approval limits	Limite de aprobare
+Bank statements	Extrase bancare
+Bank statement formats	Formate de extrase bancare
+Date, text, reference, amount	Dată, text, referință, sumă
+Lots	Loturi
+Shifts	Ture
+Production point	Punct de producție
+Production point display	Ecranul punctului de producție
+Production routes	Rute de producție
+Point-of-sale order	Comandă punct de vânzare
+Repairs	Reparații
+Repair intake	Preluare pentru reparație
+Repair offer	Ofertă de reparație
+Technician	Tehnician
+Received	Primit
+Offer given	Ofertă dată
+Accepted	Acceptată
+Ready	Gata
+Collected	Ridicat
+Refused	Refuzată
+Item	Articol
+Brand and model	Marcă și model
+Serial number or plate	Număr de serie sau înmatriculare
+Accessories left	Accesorii lăsate
+Defect described	Defect descris
+Come back on	Reveniți pe
+Repair board	Panou reparații
+Repair stages	Etape de reparație
+Repair shop	Atelier de reparații
+Roles	Roluri
+Account mapping	Corespondența conturilor
+Waiter	Ospătar
+Cashier	Casier
+Disassembly	Dezasamblare
+Product taken apart	Produs dezasamblat
+Recovered component	Componentă recuperată
+Disassembly waste	Pierdere la dezasamblare
+Point-of-sale reversal	Stornare punct de vânzare
+Reversal of customs declaration	Stornare: Declarație vamală
+Reversal of customs declaration, assets	Stornare: Declarație vamală pentru imobilizări
+Reversal of goods transfer note	Stornare: Aviz de însoțire
+Reversal of goods transfer, cost centre to staff	Stornare: Transfer de la centrul de cost la personal
+Reversal of goods transfer, staff to cost centre	Stornare: Transfer de la personal la centrul de cost
+Reversal of goods transfer, cost centre to client	Stornare: Transfer de la centrul de cost la client
+Reversal of goods transfer, client to cost centre	Stornare: Transfer de la client la centrul de cost
+Reversal of goods transfer, staff to client	Stornare: Transfer de la personal la client
+Opportunity types and categories	Tipuri și categorii de oportunități
+Opportunities and documents	Oportunități și documente
+Skins	Teme

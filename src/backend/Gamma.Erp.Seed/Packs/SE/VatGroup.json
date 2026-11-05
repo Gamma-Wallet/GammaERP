@@ -1,0 +1,54 @@
+[
+ {
+  "Key": "vat_group:SE_25",
+  "IdSup": null,
+  "Active": true,
+  "Code": null,
+  "Name": {
+   "en": "VAT 25%",
+   "sv": "Moms 25%"
+  },
+  "Description": null,
+  "Rate": 25.0,
+  "Depreciation": false
+ },
+ {
+  "Key": "vat_group:SE_12",
+  "IdSup": null,
+  "Active": true,
+  "Code": null,
+  "Name": {
+   "en": "VAT 12%",
+   "sv": "Moms 12%"
+  },
+  "Description": null,
+  "Rate": 12.0,
+  "Depreciation": false
+ },
+ {
+  "Key": "vat_group:SE_6",
+  "IdSup": null,
+  "Active": true,
+  "Code": null,
+  "Name": {
+   "en": "VAT 6%",
+   "sv": "Moms 6%"
+  },
+  "Description": null,
+  "Rate": 6.0,
+  "Depreciation": false
+ },
+ {
+  "Key": "vat_group:SE_0",
+  "IdSup": null,
+  "Active": true,
+  "Code": null,
+  "Name": {
+   "en": "VAT 0% / exempt",
+   "sv": "Moms 0% / undantagen"
+  },
+  "Description": null,
+  "Rate": 0.0,
+  "Depreciation": false
+ }
+]

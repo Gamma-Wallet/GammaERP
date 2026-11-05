@@ -1,0 +1,408 @@
+[
+ {
+  "Key": "document_type_info:1",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "document_type:SALES_CONTRACT_GOODS",
+  "Name": {
+   "en": "End date",
+   "es": "Fecha de fin"
+  },
+  "Description": null,
+  "Required": false,
+  "Kind": 4,
+  "SortOrder": 4.0,
+  "ElementsId": "elements:1",
+  "IsFile": false
+ },
+ {
+  "Key": "document_type_info:2",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "document_type:PURCHASE_OFFER_SERVICES",
+  "Name": {
+   "en": "Offer valid until",
+   "es": "Validez del presupuesto"
+  },
+  "Description": {
+   "en": "Offer valid until",
+   "es": "Validez del presupuesto"
+  },
+  "Required": true,
+  "Kind": 4,
+  "SortOrder": 6.0,
+  "ElementsId": "elements:1",
+  "IsFile": false
+ },
+ {
+  "Key": "document_type_info:3",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "document_type:SALES_CONTRACT_SERVICES",
+  "Name": {
+   "en": "End date",
+   "es": "Fecha de fin"
+  },
+  "Description": null,
+  "Required": false,
+  "Kind": 4,
+  "SortOrder": 7.0,
+  "ElementsId": "elements:1",
+  "IsFile": false
+ },
+ {
+  "Key": "document_type_info:4",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "document_type:SALES_CONTRACT_GOODS",
+  "Name": {
+   "en": "Start date",
+   "es": "Fecha de inicio"
+  },
+  "Description": {
+   "en": "Start date",
+   "es": "Fecha de inicio"
+  },
+  "Required": false,
+  "Kind": 4,
+  "SortOrder": 8.0,
+  "ElementsId": "elements:1",
+  "IsFile": false
+ },
+ {
+  "Key": "document_type_info:5",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "document_type:SALES_CONTRACT_SERVICES",
+  "Name": {
+   "en": "Start date",
+   "es": "Fecha de inicio"
+  },
+  "Description": {
+   "en": "Start date",
+   "es": "Fecha de inicio"
+  },
+  "Required": false,
+  "Kind": 4,
+  "SortOrder": 9.0,
+  "ElementsId": "elements:1",
+  "IsFile": false
+ },
+ {
+  "Key": "document_type_info:6",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "document_type:PURCHASE_CONTRACT_GOODS",
+  "Name": {
+   "en": "Start date",
+   "es": "Fecha de inicio"
+  },
+  "Description": {
+   "en": "Start date",
+   "es": "Fecha de inicio"
+  },
+  "Required": false,
+  "Kind": 4,
+  "SortOrder": 10.0,
+  "ElementsId": "elements:1",
+  "IsFile": false
+ },
+ {
+  "Key": "document_type_info:7",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "document_type:PURCHASE_CONTRACT_GOODS",
+  "Name": {
+   "en": "End date",
+   "es": "Fecha de fin"
+  },
+  "Description": {
+   "en": "End date",
+   "es": "Fecha de fin"
+  },
+  "Required": false,
+  "Kind": 4,
+  "SortOrder": 11.0,
+  "ElementsId": "elements:1",
+  "IsFile": false
+ },
+ {
+  "Key": "document_type_info:8",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "document_type:PURCHASE_CONTRACT_SERVICES",
+  "Name": {
+   "en": "Start date",
+   "es": "Fecha de inicio"
+  },
+  "Description": {
+   "en": "Start date",
+   "es": "Fecha de inicio"
+  },
+  "Required": false,
+  "Kind": 4,
+  "SortOrder": 12.0,
+  "ElementsId": "elements:1",
+  "IsFile": false
+ },
+ {
+  "Key": "document_type_info:9",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "document_type:PURCHASE_CONTRACT_SERVICES",
+  "Name": {
+   "en": "End date",
+   "es": "Fecha de fin"
+  },
+  "Description": {
+   "en": "End date",
+   "es": "Fecha de fin"
+  },
+  "Required": false,
+  "Kind": 4,
+  "SortOrder": 13.0,
+  "ElementsId": "elements:1",
+  "IsFile": false
+ },
+ {
+  "Key": "document_type_info:18",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "document_type:POS_CONTRACT",
+  "Name": {
+   "en": "Start date",
+   "es": "Fecha de inicio"
+  },
+  "Description": null,
+  "Required": false,
+  "Kind": 4,
+  "SortOrder": 22.0,
+  "ElementsId": "elements:1",
+  "IsFile": false
+ },
+ {
+  "Key": "document_type_info:19",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "document_type:POS_CONTRACT",
+  "Name": {
+   "en": "End date",
+   "es": "Fecha de fin"
+  },
+  "Description": null,
+  "Required": false,
+  "Kind": 4,
+  "SortOrder": 23.0,
+  "ElementsId": "elements:1",
+  "IsFile": false
+ },
+ {
+  "Key": "document_type_info:20",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "document_type:POS_RECEIPT",
+  "Name": {
+   "en": "Contract number",
+   "es": "Número de contrato"
+  },
+  "Description": {
+   "en": "Contract number",
+   "es": "Número de contrato"
+  },
+  "Required": false,
+  "Kind": 1,
+  "SortOrder": 24.0,
+  "ElementsId": "elements:1",
+  "IsFile": false
+ },
+ {
+  "Key": "document_type_info:22",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "document_type:GOODS_TRANSFER",
+  "Name": {
+   "en": "Carrier",
+   "es": "Transportista"
+  },
+  "Description": {
+   "en": "Carrier",
+   "es": "Transportista"
+  },
+  "Required": false,
+  "Kind": 9,
+  "SortOrder": 26.0,
+  "ElementsId": "elements:147",
+  "IsFile": false
+ },
+ {
+  "Key": "document_type_info:25",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "document_type:CUSTOMS_DECLARATION",
+  "Name": {
+   "en": "Purchase invoice",
+   "es": "Factura de compra"
+  },
+  "Description": {
+   "en": "Purchase invoice",
+   "es": "Factura de compra"
+  },
+  "Required": false,
+  "Kind": 9,
+  "SortOrder": 32.0,
+  "ElementsId": "elements:150",
+  "IsFile": false
+ },
+ {
+  "Key": "document_type_info:26",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "document_type:CUSTOMS_DECLARATION_ASSETS",
+  "Name": {
+   "en": "Purchase invoice",
+   "es": "Factura de compra"
+  },
+  "Description": {
+   "en": "Purchase invoice",
+   "es": "Factura de compra"
+  },
+  "Required": false,
+  "Kind": 9,
+  "SortOrder": 33.0,
+  "ElementsId": "elements:160",
+  "IsFile": false
+ },
+ {
+  "Key": "document_type_info:27",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "document_type:POS_CONTRACT",
+  "Name": {
+   "en": "Last payment date",
+   "es": "Fecha del último pago"
+  },
+  "Description": {
+   "en": "Last payment date",
+   "es": "Fecha del último pago"
+  },
+  "Required": false,
+  "Kind": 4,
+  "SortOrder": 34.0,
+  "ElementsId": "elements:1",
+  "IsFile": false
+ },
+ {
+  "Key": "document_type_info:REPAIR_ITEM",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "document_type:REPAIR_INTAKE",
+  "Name": {
+   "en": "Item",
+   "es": "Artículo"
+  },
+  "Description": {
+   "en": "Item",
+   "es": "Artículo"
+  },
+  "Required": false,
+  "Kind": 1,
+  "SortOrder": 1.0,
+  "ElementsId": "elements:1",
+  "IsFile": false
+ },
+ {
+  "Key": "document_type_info:REPAIR_MODEL",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "document_type:REPAIR_INTAKE",
+  "Name": {
+   "en": "Brand and model",
+   "es": "Marca y modelo"
+  },
+  "Description": {
+   "en": "Brand and model",
+   "es": "Marca y modelo"
+  },
+  "Required": false,
+  "Kind": 1,
+  "SortOrder": 2.0,
+  "ElementsId": "elements:1",
+  "IsFile": false
+ },
+ {
+  "Key": "document_type_info:REPAIR_SERIAL",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "document_type:REPAIR_INTAKE",
+  "Name": {
+   "en": "Serial number or plate",
+   "es": "Número de serie o matrícula"
+  },
+  "Description": {
+   "en": "Serial number or plate",
+   "es": "Número de serie o matrícula"
+  },
+  "Required": false,
+  "Kind": 1,
+  "SortOrder": 3.0,
+  "ElementsId": "elements:1",
+  "IsFile": false
+ },
+ {
+  "Key": "document_type_info:REPAIR_ACCESSORIES",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "document_type:REPAIR_INTAKE",
+  "Name": {
+   "en": "Accessories left",
+   "es": "Accesorios dejados"
+  },
+  "Description": {
+   "en": "Accessories left",
+   "es": "Accesorios dejados"
+  },
+  "Required": false,
+  "Kind": 1,
+  "SortOrder": 4.0,
+  "ElementsId": "elements:1",
+  "IsFile": false
+ },
+ {
+  "Key": "document_type_info:REPAIR_DEFECT",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "document_type:REPAIR_INTAKE",
+  "Name": {
+   "en": "Defect described",
+   "es": "Defecto descrito"
+  },
+  "Description": {
+   "en": "Defect described",
+   "es": "Defecto descrito"
+  },
+  "Required": false,
+  "Kind": 1,
+  "SortOrder": 5.0,
+  "ElementsId": "elements:1",
+  "IsFile": false
+ },
+ {
+  "Key": "document_type_info:REPAIR_BACK",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "document_type:REPAIR_INTAKE",
+  "Name": {
+   "en": "Come back on",
+   "es": "Volver el"
+  },
+  "Description": {
+   "en": "Come back on",
+   "es": "Volver el"
+  },
+  "Required": false,
+  "Kind": 4,
+  "SortOrder": 6.0,
+  "ElementsId": "elements:1",
+  "IsFile": false
+ }
+]

@@ -1,0 +1,179 @@
+# Gamma's generic chart (chart-generic.tsv) in Finnish, by account code. Gamma's translations.
+# code	fi
+1	Pysyvät vastaavat
+11	Aineelliset hyödykkeet
+1101	Maa-alueet
+1102	Rakennukset
+1103	Koneet ja laitteet
+1104	Kuljetusvälineet
+1105	Kalusteet
+1106	Tietokoneet
+1107	Keskeneräiset hankinnat
+12	Aineellisten hyödykkeiden kertyneet poistot
+1202	Rakennusten kertyneet poistot
+1203	Koneiden ja laitteiden kertyneet poistot
+1204	Kuljetusvälineiden kertyneet poistot
+1205	Kalusteiden kertyneet poistot
+1206	Tietokoneiden kertyneet poistot
+13	Aineettomat hyödykkeet
+1301	Liikearvo
+1302	Ohjelmistot
+1303	Tavaramerkit ja lisenssit
+14	Aineettomien hyödykkeiden kertyneet poistot
+1402	Ohjelmistojen kertyneet poistot
+1403	Tavaramerkkien ja lisenssien kertyneet poistot
+15	Sijoituskiinteistöt
+1501	Sijoituskiinteistöt
+16	Sijoitukset
+1601	Osuudet saman konsernin yrityksissä
+1602	Osuudet osakkuusyrityksissä
+1603	Muut sijoitukset
+1604	Pitkäaikaiset lainasaamiset
+17	Laskennalliset verot
+1701	Laskennalliset verosaamiset
+2	Vaihtuvat vastaavat
+20	Vaihto-omaisuus
+2001	Kauppatavarat
+2002	Raaka-aineet
+2003	Tarvikkeet
+2004	Valmiit tuotteet
+2005	Keskeneräiset tuotteet
+22	Myyntisaamiset
+2201	Myyntisaamiset
+2202	Ulkomaiset myyntisaamiset
+2203	Perittävät shekit
+2209	Myyntisaamisten arvonalentumiset
+23	Muut saamiset
+2301	Siirtosaamiset
+2302	Ennakkomaksut toimittajille
+2303	Ennakot henkilökunnalle
+2304	Vuokravakuudet
+2305	Muut saamiset
+24	Verosaamiset
+2401	Arvonlisäverosaamiset (ostot)
+2402	Arvonlisäveron palautussaaminen
+2403	Ennakkoverot
+28	Rahat ja pankkisaamiset
+2801	Käteiskassa
+2802	Valuuttakassa
+2803	Pankkitili
+2804	Valuuttatili
+2805	Määräaikaistalletukset
+2806	Rahat matkalla
+3	Oma pääoma
+30	Osakepääoma
+3001	Osakepääoma
+3002	Ylikurssirahasto
+31	Rahastot
+3101	Arvonkorotusrahasto
+3102	Muut rahastot
+32	Edellisten tilikausien voitto
+3201	Edellisten tilikausien voitto tai tappio
+3202	Tilikauden voitto tai tappio
+4	Vieras pääoma
+40	Pitkäaikainen vieras pääoma
+4001	Pitkäaikaiset pankkilainat
+4002	Leasingvelat
+4003	Osakaslainat
+4004	Laskennalliset verovelat
+4005	Pakolliset varaukset
+41	Ostovelat
+4101	Ostovelat
+4102	Ulkomaiset ostovelat
+4103	Vekselivelat
+4104	Saadut ennakot
+42	Muut velat
+4201	Siirtovelat (kulut)
+4202	Siirtovelat (tulot)
+4203	Palkkavelat
+4204	Sosiaaliturvamaksuvelat
+4205	Sairausvakuutusmaksuvelat
+4206	Muut velat
+4207	Osinkovelat
+43	Lyhytaikaiset lainat
+4301	Tililimiitti
+4302	Lyhytaikaiset pankkilainat
+44	Verovelat
+4401	Arvonlisäverovelka (myynnit)
+4402	Maksettava arvonlisävero
+4403	Tuloverovelka
+4404	Ennakonpidätysvelka
+4405	Muut verovelat
+5	Tuotot
+50	Liikevaihto
+5001	Tavaramyynti
+5002	Palvelumyynti
+5003	Omien tuotteiden myynti
+5004	Myynnin oikaisuerät
+51	Liiketoiminnan muut tuotot
+5101	Vuokratuotot
+5102	Avustukset
+5103	Käyttöomaisuuden myyntivoitot
+5104	Muut tuotot
+52	Rahoitustuotot
+5201	Korkotuotot
+5202	Osinkotuotot
+5203	Kurssivoitot
+6	Ostot ja myytyjen tuotteiden hankintameno
+60	Ostot
+6001	Tavaraostot
+6002	Raaka-aineostot
+6003	Tarvikeostot
+6004	Ostojen oikaisuerät
+6005	Rahdit ja tullit ostoista
+61	Varastojen muutos
+6101	Tavaravaraston muutos
+6102	Raaka-ainevaraston muutos
+7	Kulut
+70	Henkilöstökulut
+7001	Palkat
+7002	Työnantajan sosiaaliturvamaksut
+7003	Työnantajan sairausvakuutusmaksut
+7004	Muut työnantajamaksut
+7005	Muut henkilöstökulut
+71	Toimitilakulut
+7101	Vuokrat
+7102	Sähkö
+7103	Vesi
+7104	Korjaukset ja kunnossapito
+7105	Vakuutukset
+72	Hallintokulut
+7201	Puhelin ja internet
+7202	Postikulut
+7203	Toimistotarvikkeet
+7204	Tilintarkastus
+7205	Asiantuntijapalvelut
+7206	Jäsenmaksut ja tilaukset
+7207	Yhtiön maksut
+73	Myyntikulut
+7301	Markkinointi
+7302	Lähtevät rahdit
+7303	Provisiot
+7304	Matkakulut
+74	Ajoneuvokulut
+7401	Polttoaineet
+7402	Ajoneuvovero ja vakuutukset
+7403	Ajoneuvojen korjaukset
+75	Rahoituskulut
+7501	Korkokulut
+7502	Pankkikulut
+7503	Kurssitappiot
+7504	Leasingkorot
+76	Poistot
+7601	Rakennusten poistot
+7602	Koneiden ja laitteiden poistot
+7603	Kuljetusvälineiden poistot
+7604	Kalusteiden poistot
+7605	Tietokoneiden poistot
+7606	Aineettomien hyödykkeiden poistot
+77	Muut kulut
+7701	Luottotappiot
+7702	Käyttöomaisuuden myyntitappiot
+7703	Vähennyskelvoton arvonlisävero
+7704	Muut kulut
+7705	Varastohävikki ja hukka
+8	Tuloverot
+80	Verot
+8001	Yhteisövero
+8002	Muut tuloverot
+8003	Laskennalliset verot

@@ -1,0 +1,30 @@
+[
+ {
+  "Key": "depreciation_method:STRAIGHT_LINE",
+  "IdSup": null,
+  "Active": true,
+  "Name": {
+   "en": "Straight-line",
+   "it": "A quote costanti"
+  },
+  "Description": {
+   "en": "Straight-line depreciation",
+   "it": "Ammortamento a quote costanti"
+  },
+  "Formula": "(VF/DT)*DK"
+ },
+ {
+  "Key": "depreciation_method:REMAINING_VALUE",
+  "IdSup": null,
+  "Active": true,
+  "Name": {
+   "en": "Remaining value",
+   "it": "Valore residuo"
+  },
+  "Description": {
+   "en": "Depreciation on the remaining value",
+   "it": "Ammortamento sul valore residuo"
+  },
+  "Formula": "((VF*PD*((1-PD)^YK))/365)*DK"
+ }
+]

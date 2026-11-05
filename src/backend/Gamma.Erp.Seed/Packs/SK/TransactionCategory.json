@@ -1,0 +1,66 @@
+[
+ {
+  "Key": "transaction_category:LINES",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "LINES",
+  "Name": {
+   "en": "Transactions",
+   "sk": "Riadky"
+  },
+  "Description": {
+   "en": "Transactions",
+   "sk": "Riadky"
+  },
+  "SortOrder": 2.0
+ },
+ {
+  "Key": "transaction_category:JOURNAL_LINES",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "JOURNAL_LINES",
+  "Name": {
+   "en": "Journal lines",
+   "sk": "Riadky interného dokladu"
+  },
+  "Description": {
+   "en": "Journal lines",
+   "sk": "Riadky interného dokladu"
+  },
+  "SortOrder": 10.0
+ },
+ {
+  "Key": "transaction_category:DEPRECIATION_LINES",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "DEPRECIATION_LINES",
+  "Name": {
+   "en": "Depreciation lines",
+   "sk": "Riadky odpisov"
+  },
+  "Description": {
+   "en": "Depreciation lines",
+   "sk": "Riadky odpisov"
+  },
+  "SortOrder": 11.0
+ },
+ {
+  "Key": "transaction_category:REVALUATION_LINES",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "REVALUATION_LINES",
+  "Name": {
+   "en": "Revaluation lines",
+   "sk": "Riadky precenenia"
+  },
+  "Description": {
+   "en": "Revaluation lines",
+   "sk": "Riadky precenenia"
+  },
+  "SortOrder": 12.0
+ }
+]

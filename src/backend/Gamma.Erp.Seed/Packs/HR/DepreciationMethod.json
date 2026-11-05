@@ -1,0 +1,30 @@
+[
+ {
+  "Key": "depreciation_method:STRAIGHT_LINE",
+  "IdSup": null,
+  "Active": true,
+  "Name": {
+   "en": "Straight-line",
+   "hr": "Linearna"
+  },
+  "Description": {
+   "en": "Straight-line depreciation",
+   "hr": "Linearna amortizacija"
+  },
+  "Formula": "(VF/DT)*DK"
+ },
+ {
+  "Key": "depreciation_method:REMAINING_VALUE",
+  "IdSup": null,
+  "Active": true,
+  "Name": {
+   "en": "Remaining value",
+   "hr": "Sadašnja vrijednost"
+  },
+  "Description": {
+   "en": "Depreciation on the remaining value",
+   "hr": "Amortizacija na sadašnju vrijednost"
+  },
+  "Formula": "((VF*PD*((1-PD)^YK))/365)*DK"
+ }
+]

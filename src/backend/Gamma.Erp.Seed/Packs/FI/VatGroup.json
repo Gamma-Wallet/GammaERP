@@ -1,0 +1,54 @@
+[
+ {
+  "Key": "vat_group:FI_25.5",
+  "IdSup": null,
+  "Active": true,
+  "Code": null,
+  "Name": {
+   "en": "VAT 25.5%",
+   "fi": "ALV 25,5%"
+  },
+  "Description": null,
+  "Rate": 25.5,
+  "Depreciation": false
+ },
+ {
+  "Key": "vat_group:FI_14",
+  "IdSup": null,
+  "Active": true,
+  "Code": null,
+  "Name": {
+   "en": "VAT 14%",
+   "fi": "ALV 14%"
+  },
+  "Description": null,
+  "Rate": 14.0,
+  "Depreciation": false
+ },
+ {
+  "Key": "vat_group:FI_10",
+  "IdSup": null,
+  "Active": true,
+  "Code": null,
+  "Name": {
+   "en": "VAT 10%",
+   "fi": "ALV 10%"
+  },
+  "Description": null,
+  "Rate": 10.0,
+  "Depreciation": false
+ },
+ {
+  "Key": "vat_group:FI_0",
+  "IdSup": null,
+  "Active": true,
+  "Code": null,
+  "Name": {
+   "en": "VAT 0% / exempt",
+   "fi": "ALV 0% / veroton"
+  },
+  "Description": null,
+  "Rate": 0.0,
+  "Depreciation": false
+ }
+]

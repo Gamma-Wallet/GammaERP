@@ -1,0 +1,9242 @@
+[
+ {
+  "Key": "chart:1",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "1",
+  "Name": {
+   "fr": "Comptes de capitaux"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:10",
+  "IdSup": "chart:1",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "10",
+  "Name": {
+   "fr": "Capital et réserves"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:101",
+  "IdSup": "chart:10",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "101",
+  "Name": {
+   "fr": "Capital"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:1011",
+  "IdSup": "chart:101",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "1011",
+  "Name": {
+   "fr": "Capital souscrit - non appelé"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:1012",
+  "IdSup": "chart:101",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "1012",
+  "Name": {
+   "fr": "Capital souscrit - appelé, non versé"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:1013",
+  "IdSup": "chart:101",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "1013",
+  "Name": {
+   "fr": "Capital souscrit - appelé, versé"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:10131",
+  "IdSup": "chart:1013",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "10131",
+  "Name": {
+   "fr": "Capital non amorti"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:10132",
+  "IdSup": "chart:1013",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "10132",
+  "Name": {
+   "fr": "Capital amorti"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:1018",
+  "IdSup": "chart:101",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "1018",
+  "Name": {
+   "fr": "Capital souscrit soumis à des réglementations particulières"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:102",
+  "IdSup": "chart:10",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "102",
+  "Name": {
+   "fr": "Fonds fiduciaires"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:104",
+  "IdSup": "chart:10",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "104",
+  "Name": {
+   "fr": "Primes liées au capital"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:1041",
+  "IdSup": "chart:104",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "1041",
+  "Name": {
+   "fr": "Primes d'émission"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:1042",
+  "IdSup": "chart:104",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "1042",
+  "Name": {
+   "fr": "Primes de fusion"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:1043",
+  "IdSup": "chart:104",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "1043",
+  "Name": {
+   "fr": "Primes d'apport"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:1044",
+  "IdSup": "chart:104",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "1044",
+  "Name": {
+   "fr": "Primes de conversion d'obligations en actions"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:1045",
+  "IdSup": "chart:104",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "1045",
+  "Name": {
+   "fr": "Bons de souscription d'actions"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:105",
+  "IdSup": "chart:10",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "105",
+  "Name": {
+   "fr": "Écarts de réévaluation"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:106",
+  "IdSup": "chart:10",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "106",
+  "Name": {
+   "fr": "Réserves"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:1061",
+  "IdSup": "chart:106",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "1061",
+  "Name": {
+   "fr": "Réserve légale"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:1062",
+  "IdSup": "chart:106",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "1062",
+  "Name": {
+   "fr": "Réserves indisponibles"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:1063",
+  "IdSup": "chart:106",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "1063",
+  "Name": {
+   "fr": "Réserves statutaires ou contractuelles"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:1064",
+  "IdSup": "chart:106",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "1064",
+  "Name": {
+   "fr": "Réserves réglementées"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:1068",
+  "IdSup": "chart:106",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "1068",
+  "Name": {
+   "fr": "Autres réserves"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:107",
+  "IdSup": "chart:10",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "107",
+  "Name": {
+   "fr": "Écart d'équivalence"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:108",
+  "IdSup": "chart:10",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "108",
+  "Name": {
+   "fr": "Compte de l'exploitant"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:109",
+  "IdSup": "chart:10",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "109",
+  "Name": {
+   "fr": "Actionnaires : capital souscrit - non appelé"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:11",
+  "IdSup": "chart:1",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "11",
+  "Name": {
+   "fr": "Report à nouveau"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:110",
+  "IdSup": "chart:11",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "110",
+  "Name": {
+   "fr": "Report à nouveau - solde créditeur"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:119",
+  "IdSup": "chart:11",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "119",
+  "Name": {
+   "fr": "Report à nouveau - solde débiteur"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:12",
+  "IdSup": "chart:1",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "12",
+  "Name": {
+   "fr": "Résultat de l'exercice"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:120",
+  "IdSup": "chart:12",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "120",
+  "Name": {
+   "fr": "Résultat de l'exercice - bénéfice"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:1209",
+  "IdSup": "chart:120",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "1209",
+  "Name": {
+   "fr": "Acomptes sur dividendes"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:129",
+  "IdSup": "chart:12",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "129",
+  "Name": {
+   "fr": "Résultat de l'exercice – perte"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:13",
+  "IdSup": "chart:1",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "13",
+  "Name": {
+   "fr": "Subventions d'investissement"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:131",
+  "IdSup": "chart:13",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "131",
+  "Name": {
+   "fr": "Subventions d'investissement octroyées"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:139",
+  "IdSup": "chart:13",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "139",
+  "Name": {
+   "fr": "Subventions d'investissement inscrites au compte de résultat"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:14",
+  "IdSup": "chart:1",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "14",
+  "Name": {
+   "fr": "Provisions réglementées"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:143",
+  "IdSup": "chart:14",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "143",
+  "Name": {
+   "fr": "Provisions réglementées pour hausse de prix"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:145",
+  "IdSup": "chart:14",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "145",
+  "Name": {
+   "fr": "Amortissements dérogatoires"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:148",
+  "IdSup": "chart:14",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "148",
+  "Name": {
+   "fr": "Autres provisions réglementées"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:15",
+  "IdSup": "chart:1",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "15",
+  "Name": {
+   "fr": "Provisions"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:151",
+  "IdSup": "chart:15",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "151",
+  "Name": {
+   "fr": "Provisions pour risques"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:1511",
+  "IdSup": "chart:151",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "1511",
+  "Name": {
+   "fr": "Provisions pour litiges"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:1512",
+  "IdSup": "chart:151",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "1512",
+  "Name": {
+   "fr": "Provisions pour garanties données aux clients"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:1514",
+  "IdSup": "chart:151",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "1514",
+  "Name": {
+   "fr": "Provisions pour amendes et pénalités"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:1515",
+  "IdSup": "chart:151",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "1515",
+  "Name": {
+   "fr": "Provisions pour pertes de change"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:1516",
+  "IdSup": "chart:151",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "1516",
+  "Name": {
+   "fr": "Provisions pour pertes sur contrats"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:1518",
+  "IdSup": "chart:151",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "1518",
+  "Name": {
+   "fr": "Autres provisions pour risques"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:152",
+  "IdSup": "chart:15",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "152",
+  "Name": {
+   "fr": "Provisions pour charges"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:1521",
+  "IdSup": "chart:152",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "1521",
+  "Name": {
+   "fr": "Provisions pour pensions et obligations similaires"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:1522",
+  "IdSup": "chart:152",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "1522",
+  "Name": {
+   "fr": "Provisions pour restructurations"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:1523",
+  "IdSup": "chart:152",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "1523",
+  "Name": {
+   "fr": "Provisions pour impôts"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:1524",
+  "IdSup": "chart:152",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "1524",
+  "Name": {
+   "fr": "Provisions pour renouvellement des immobilisations - entreprises concessionnaires"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:1525",
+  "IdSup": "chart:152",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "1525",
+  "Name": {
+   "fr": "Provisions pour gros entretien ou grandes révisions"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:1526",
+  "IdSup": "chart:152",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "1526",
+  "Name": {
+   "fr": "Provisions pour remise en état"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:1527",
+  "IdSup": "chart:152",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "1527",
+  "Name": {
+   "fr": "Autres provisions pour charges"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:16",
+  "IdSup": "chart:1",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "16",
+  "Name": {
+   "fr": "Emprunts et dettes assimilées"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:161",
+  "IdSup": "chart:16",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "161",
+  "Name": {
+   "fr": "Emprunts obligataires convertibles"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:1618",
+  "IdSup": "chart:161",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "1618",
+  "Name": {
+   "fr": "Intérêts courus sur emprunts obligataires convertibles"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:162",
+  "IdSup": "chart:16",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "162",
+  "Name": {
+   "fr": "Obligations représentatives de passifs nets remis en fiducie"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:163",
+  "IdSup": "chart:16",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "163",
+  "Name": {
+   "fr": "Autres emprunts obligataires"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:1638",
+  "IdSup": "chart:163",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "1638",
+  "Name": {
+   "fr": "Intérêts courus sur autres emprunts obligataires"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:164",
+  "IdSup": "chart:16",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "164",
+  "Name": {
+   "fr": "Emprunts auprès des établissements de crédit"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:1648",
+  "IdSup": "chart:164",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "1648",
+  "Name": {
+   "fr": "Intérêts courus sur emprunts auprès des établissements de crédit"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:165",
+  "IdSup": "chart:16",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "165",
+  "Name": {
+   "fr": "Dépôts et cautionnements reçus"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:1651",
+  "IdSup": "chart:165",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "1651",
+  "Name": {
+   "fr": "Dépôts"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:1655",
+  "IdSup": "chart:165",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "1655",
+  "Name": {
+   "fr": "Cautionnements"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:1658",
+  "IdSup": "chart:165",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "1658",
+  "Name": {
+   "fr": "Intérêts courus sur dépôts et cautionnements reçus"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:166",
+  "IdSup": "chart:16",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "166",
+  "Name": {
+   "fr": "Participation des salariés aux résultats"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:1661",
+  "IdSup": "chart:166",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "1661",
+  "Name": {
+   "fr": "Comptes bloqués"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:1662",
+  "IdSup": "chart:166",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "1662",
+  "Name": {
+   "fr": "Fonds de participation"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:1668",
+  "IdSup": "chart:166",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "1668",
+  "Name": {
+   "fr": "Intérêts courus sur participation des salariés aux résultats"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:167",
+  "IdSup": "chart:16",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "167",
+  "Name": {
+   "fr": "Emprunts et dettes assortis de conditions particulières"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:1671",
+  "IdSup": "chart:167",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "1671",
+  "Name": {
+   "fr": "Émissions de titres participatifs"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:16718",
+  "IdSup": "chart:1671",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "16718",
+  "Name": {
+   "fr": "Intérêts courus sur titres participatifs"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:1674",
+  "IdSup": "chart:167",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "1674",
+  "Name": {
+   "fr": "Avances conditionnées de l'État"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:16748",
+  "IdSup": "chart:1674",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "16748",
+  "Name": {
+   "fr": "Intérêts courus sur avances conditionnées"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:1675",
+  "IdSup": "chart:167",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "1675",
+  "Name": {
+   "fr": "Emprunts participatifs"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:16758",
+  "IdSup": "chart:1675",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "16758",
+  "Name": {
+   "fr": "Intérêts courus sur emprunts participatifs"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:168",
+  "IdSup": "chart:16",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "168",
+  "Name": {
+   "fr": "Autres emprunts et dettes assimilées"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:1681",
+  "IdSup": "chart:168",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "1681",
+  "Name": {
+   "fr": "Autres emprunts"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:1685",
+  "IdSup": "chart:168",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "1685",
+  "Name": {
+   "fr": "Rentes viagères capitalisées"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:1687",
+  "IdSup": "chart:168",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "1687",
+  "Name": {
+   "fr": "Autres dettes"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:1688",
+  "IdSup": "chart:168",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "1688",
+  "Name": {
+   "fr": "Intérêts courus sur autres emprunts et dettes assimilées"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:169",
+  "IdSup": "chart:16",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "169",
+  "Name": {
+   "fr": "Primes de remboursement des emprunts"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:17",
+  "IdSup": "chart:1",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "17",
+  "Name": {
+   "fr": "Dettes rattachées à des participations"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:171",
+  "IdSup": "chart:17",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "171",
+  "Name": {
+   "fr": "Dettes rattachées à des participations - groupe"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:174",
+  "IdSup": "chart:17",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "174",
+  "Name": {
+   "fr": "Dettes rattachées à des participations - hors groupe"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:178",
+  "IdSup": "chart:17",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "178",
+  "Name": {
+   "fr": "Dettes rattachées à des sociétés en participation"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:18",
+  "IdSup": "chart:1",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "18",
+  "Name": {
+   "fr": "Comptes de liaison des établissements et sociétés en participation"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:181",
+  "IdSup": "chart:18",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "181",
+  "Name": {
+   "fr": "Comptes de liaison des établissements"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:186",
+  "IdSup": "chart:18",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "186",
+  "Name": {
+   "fr": "Biens et prestations de services échangés entre établissements - charges"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:187",
+  "IdSup": "chart:18",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "187",
+  "Name": {
+   "fr": "Biens et prestations de services échangés entre établissements - produits"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:188",
+  "IdSup": "chart:18",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "188",
+  "Name": {
+   "fr": "Comptes de liaison des sociétés en participation"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:2",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "2",
+  "Name": {
+   "fr": "Comptes d'immobilisations"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:20",
+  "IdSup": "chart:2",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "20",
+  "Name": {
+   "fr": "Immobilisations incorporelles et frais d’établissement"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:201",
+  "IdSup": "chart:20",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "201",
+  "Name": {
+   "fr": "Frais d'établissement"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:2011",
+  "IdSup": "chart:201",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "2011",
+  "Name": {
+   "fr": "Frais de constitution"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:2012",
+  "IdSup": "chart:201",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "2012",
+  "Name": {
+   "fr": "Frais de premier établissement"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:20121",
+  "IdSup": "chart:2012",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "20121",
+  "Name": {
+   "fr": "Frais de prospection"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:20122",
+  "IdSup": "chart:2012",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "20122",
+  "Name": {
+   "fr": "Frais de publicité"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:2013",
+  "IdSup": "chart:201",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "2013",
+  "Name": {
+   "fr": "Frais d'augmentation de capital et d'opérations diverses - fusions, scissions, transformations"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:203",
+  "IdSup": "chart:20",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "203",
+  "Name": {
+   "fr": "Frais de développement"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:205",
+  "IdSup": "chart:20",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "205",
+  "Name": {
+   "fr": "Concessions et droits similaires, brevets, licences, marques, procédés, solutions informatiques, droits et valeurs similaires"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:206",
+  "IdSup": "chart:20",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "206",
+  "Name": {
+   "fr": "Droit au bail"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:207",
+  "IdSup": "chart:20",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "207",
+  "Name": {
+   "fr": "Fonds commercial"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:208",
+  "IdSup": "chart:20",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "208",
+  "Name": {
+   "fr": "Autres immobilisations incorporelles"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:2081",
+  "IdSup": "chart:208",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "2081",
+  "Name": {
+   "fr": "Mali de fusion sur actifs incorporels"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:21",
+  "IdSup": "chart:2",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "21",
+  "Name": {
+   "fr": "Immobilisations corporelles"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:211",
+  "IdSup": "chart:21",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "211",
+  "Name": {
+   "fr": "Terrains"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:2111",
+  "IdSup": "chart:211",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "2111",
+  "Name": {
+   "fr": "Terrains nus"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:2112",
+  "IdSup": "chart:211",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "2112",
+  "Name": {
+   "fr": "Terrains aménagés"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:2113",
+  "IdSup": "chart:211",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "2113",
+  "Name": {
+   "fr": "Sous-sols et sur-sols"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:2114",
+  "IdSup": "chart:211",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "2114",
+  "Name": {
+   "fr": "Terrains de carrières (Tréfonds)"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:2115",
+  "IdSup": "chart:211",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "2115",
+  "Name": {
+   "fr": "Terrains bâtis"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:212",
+  "IdSup": "chart:21",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "212",
+  "Name": {
+   "fr": "Agencements et aménagements de terrains (même ventilation que celle du compte 211)"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:213",
+  "IdSup": "chart:21",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "213",
+  "Name": {
+   "fr": "Constructions"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:2131",
+  "IdSup": "chart:213",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "2131",
+  "Name": {
+   "fr": "Bâtiments"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:2135",
+  "IdSup": "chart:213",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "2135",
+  "Name": {
+   "fr": "Installations générales - agencements - aménagements des constructions"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:2138",
+  "IdSup": "chart:213",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "2138",
+  "Name": {
+   "fr": "Ouvrages d'infrastructure"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:214",
+  "IdSup": "chart:21",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "214",
+  "Name": {
+   "fr": "Constructions sur sol d'autrui (même ventilation que celle du compte 213)"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:215",
+  "IdSup": "chart:21",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "215",
+  "Name": {
+   "fr": "Installations techniques, matériels et outillages industriels"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:2151",
+  "IdSup": "chart:215",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "2151",
+  "Name": {
+   "fr": "Installations complexes spécialisées"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:21511",
+  "IdSup": "chart:2151",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "21511",
+  "Name": {
+   "fr": "Installations complexes spécialisées sur sol propre"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:21514",
+  "IdSup": "chart:2151",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "21514",
+  "Name": {
+   "fr": "Installations complexes spécialisées sur sol d'autrui"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:2153",
+  "IdSup": "chart:215",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "2153",
+  "Name": {
+   "fr": "Installations à caractère spécifique"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:21531",
+  "IdSup": "chart:2153",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "21531",
+  "Name": {
+   "fr": "Installations à caractère spécifique sur sol propre"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:21534",
+  "IdSup": "chart:2153",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "21534",
+  "Name": {
+   "fr": "Installations à caractère spécifique sur sol d'autrui"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:2154",
+  "IdSup": "chart:215",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "2154",
+  "Name": {
+   "fr": "Matériels industriels"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:2155",
+  "IdSup": "chart:215",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "2155",
+  "Name": {
+   "fr": "Outillages industriels"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:2157",
+  "IdSup": "chart:215",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "2157",
+  "Name": {
+   "fr": "Agencements et aménagements des matériels et outillages industriels"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:218",
+  "IdSup": "chart:21",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "218",
+  "Name": {
+   "fr": "Autres immobilisations corporelles"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:2181",
+  "IdSup": "chart:218",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "2181",
+  "Name": {
+   "fr": "Installations générales, agencements, aménagements divers"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:2182",
+  "IdSup": "chart:218",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "2182",
+  "Name": {
+   "fr": "Matériel de transport"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:2183",
+  "IdSup": "chart:218",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "2183",
+  "Name": {
+   "fr": "Matériel de bureau et matériel informatique"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:2184",
+  "IdSup": "chart:218",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "2184",
+  "Name": {
+   "fr": "Mobilier"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:2185",
+  "IdSup": "chart:218",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "2185",
+  "Name": {
+   "fr": "Cheptel"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:2186",
+  "IdSup": "chart:218",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "2186",
+  "Name": {
+   "fr": "Emballages récupérables"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:2187",
+  "IdSup": "chart:218",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "2187",
+  "Name": {
+   "fr": "Mali de fusion sur actifs corporels"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:22",
+  "IdSup": "chart:2",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "22",
+  "Name": {
+   "fr": "Immobilisations mises en concession"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:229",
+  "IdSup": "chart:22",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "229",
+  "Name": {
+   "fr": "Droits du concédant"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:23",
+  "IdSup": "chart:2",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "23",
+  "Name": {
+   "fr": "Immobilisations en cours, avances et acomptes"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:231",
+  "IdSup": "chart:23",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "231",
+  "Name": {
+   "fr": "Immobilisations corporelles en cours"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:232",
+  "IdSup": "chart:23",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "232",
+  "Name": {
+   "fr": "Immobilisations incorporelles en cours"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:237",
+  "IdSup": "chart:23",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "237",
+  "Name": {
+   "fr": "Avances et acomptes versés sur commandes d'immobilisations incorporelles"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:238",
+  "IdSup": "chart:23",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "238",
+  "Name": {
+   "fr": "Avances et acomptes versés sur commandes d'immobilisations corporelles"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:26",
+  "IdSup": "chart:2",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "26",
+  "Name": {
+   "fr": "Participations et créances rattachées à des participations"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:261",
+  "IdSup": "chart:26",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "261",
+  "Name": {
+   "fr": "Titres de participation"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:2611",
+  "IdSup": "chart:261",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "2611",
+  "Name": {
+   "fr": "Actions"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:2618",
+  "IdSup": "chart:261",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "2618",
+  "Name": {
+   "fr": "Autres titres"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:262",
+  "IdSup": "chart:26",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "262",
+  "Name": {
+   "fr": "Titres évalués par équivalence"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:266",
+  "IdSup": "chart:26",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "266",
+  "Name": {
+   "fr": "Autres formes de participation"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:2661",
+  "IdSup": "chart:266",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "2661",
+  "Name": {
+   "fr": "Droits représentatifs d'actifs nets remis en fiducie"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:267",
+  "IdSup": "chart:26",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "267",
+  "Name": {
+   "fr": "Créances rattachées à des participations"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:2671",
+  "IdSup": "chart:267",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "2671",
+  "Name": {
+   "fr": "Créances rattachées à des participations - groupe"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:2674",
+  "IdSup": "chart:267",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "2674",
+  "Name": {
+   "fr": "Créances rattachées à des participations - hors groupe"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:2675",
+  "IdSup": "chart:267",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "2675",
+  "Name": {
+   "fr": "Versements représentatifs d'apports non capitalisés - appel de fonds"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:2676",
+  "IdSup": "chart:267",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "2676",
+  "Name": {
+   "fr": "Avances consolidables"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:2677",
+  "IdSup": "chart:267",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "2677",
+  "Name": {
+   "fr": "Autres créances rattachées à des participations"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:2678",
+  "IdSup": "chart:267",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "2678",
+  "Name": {
+   "fr": "Intérêts courus"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:268",
+  "IdSup": "chart:26",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "268",
+  "Name": {
+   "fr": "Créances rattachées à des sociétés en participation"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:2681",
+  "IdSup": "chart:268",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "2681",
+  "Name": {
+   "fr": "Principal"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:2688",
+  "IdSup": "chart:268",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "2688",
+  "Name": {
+   "fr": "Intérêts courus"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:269",
+  "IdSup": "chart:26",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "269",
+  "Name": {
+   "fr": "Versements restant à effectuer sur titres de participation non libérés"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:27",
+  "IdSup": "chart:2",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "27",
+  "Name": {
+   "fr": "Autres immobilisations financières"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:271",
+  "IdSup": "chart:27",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "271",
+  "Name": {
+   "fr": "Titres immobilisés autres que les titres immobilisés de l'activité de portefeuille (droit de propriété)"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:2711",
+  "IdSup": "chart:271",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "2711",
+  "Name": {
+   "fr": "Actions"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:2718",
+  "IdSup": "chart:271",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "2718",
+  "Name": {
+   "fr": "Autres titres"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:272",
+  "IdSup": "chart:27",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "272",
+  "Name": {
+   "fr": "Titres immobilisés (droit de créance)"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:2721",
+  "IdSup": "chart:272",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "2721",
+  "Name": {
+   "fr": "Obligations"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:2722",
+  "IdSup": "chart:272",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "2722",
+  "Name": {
+   "fr": "Bons"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:273",
+  "IdSup": "chart:27",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "273",
+  "Name": {
+   "fr": "Titres immobilisés de l'activité de portefeuille"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:274",
+  "IdSup": "chart:27",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "274",
+  "Name": {
+   "fr": "Prêts"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:2741",
+  "IdSup": "chart:274",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "2741",
+  "Name": {
+   "fr": "Prêts participatifs"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:2742",
+  "IdSup": "chart:274",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "2742",
+  "Name": {
+   "fr": "Prêts aux associés"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:2743",
+  "IdSup": "chart:274",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "2743",
+  "Name": {
+   "fr": "Prêts au personnel"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:2748",
+  "IdSup": "chart:274",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "2748",
+  "Name": {
+   "fr": "Autres prêts"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:275",
+  "IdSup": "chart:27",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "275",
+  "Name": {
+   "fr": "Dépôts et cautionnements versés"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:2751",
+  "IdSup": "chart:275",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "2751",
+  "Name": {
+   "fr": "Dépôts"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:2755",
+  "IdSup": "chart:275",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "2755",
+  "Name": {
+   "fr": "Cautionnements"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:276",
+  "IdSup": "chart:27",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "276",
+  "Name": {
+   "fr": "Autres créances immobilisées"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:2761",
+  "IdSup": "chart:276",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "2761",
+  "Name": {
+   "fr": "Créances diverses"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:2768",
+  "IdSup": "chart:276",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "2768",
+  "Name": {
+   "fr": "Intérêts courus"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:27682",
+  "IdSup": "chart:2768",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "27682",
+  "Name": {
+   "fr": "Intérêts courus sur titres immobilisés (droit de créance)"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:27684",
+  "IdSup": "chart:2768",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "27684",
+  "Name": {
+   "fr": "Intérêts courus sur prêts"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:27685",
+  "IdSup": "chart:2768",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "27685",
+  "Name": {
+   "fr": "Intérêts courus sur dépôts et cautionnements"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:27688",
+  "IdSup": "chart:2768",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "27688",
+  "Name": {
+   "fr": "Intérêts courus sur créances diverses"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:277",
+  "IdSup": "chart:27",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "277",
+  "Name": {
+   "fr": "Actions propres ou parts propres"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:2771",
+  "IdSup": "chart:277",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "2771",
+  "Name": {
+   "fr": "Actions propres ou parts propres"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:2772",
+  "IdSup": "chart:277",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "2772",
+  "Name": {
+   "fr": "Actions propres ou parts propres en voie d’annulation"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:278",
+  "IdSup": "chart:27",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "278",
+  "Name": {
+   "fr": "Mali de fusion sur actifs financiers"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:279",
+  "IdSup": "chart:27",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "279",
+  "Name": {
+   "fr": "Versements restant à effectuer sur titres immobilisés non libérés"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:28",
+  "IdSup": "chart:2",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "28",
+  "Name": {
+   "fr": "Amortissements des immobilisations"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:280",
+  "IdSup": "chart:28",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "280",
+  "Name": {
+   "fr": "Amortissements des immobilisations incorporelles et des frais d’établissement (même ventilation que celle du compte 20)"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:2801",
+  "IdSup": "chart:280",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "2801",
+  "Name": {
+   "fr": "Frais d'établissement (même ventilation que celle du compte 201)"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:2803",
+  "IdSup": "chart:280",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "2803",
+  "Name": {
+   "fr": "Frais de développement"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:2805",
+  "IdSup": "chart:280",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "2805",
+  "Name": {
+   "fr": "Concessions et droits similaires, brevets, licences, solutions informatiques, droits et valeurs similaires"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:2806",
+  "IdSup": "chart:280",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "2806",
+  "Name": {
+   "fr": "Droit au bail"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:2807",
+  "IdSup": "chart:280",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "2807",
+  "Name": {
+   "fr": "Fonds commercial"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:2808",
+  "IdSup": "chart:280",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "2808",
+  "Name": {
+   "fr": "Autres immobilisations incorporelles"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:281",
+  "IdSup": "chart:28",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "281",
+  "Name": {
+   "fr": "Amortissements des immobilisations corporelles (même ventilation que celle du compte 21)"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:2812",
+  "IdSup": "chart:281",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "2812",
+  "Name": {
+   "fr": "Agencements, aménagements de terrains (même ventilation que celle du compte 212)"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:2813",
+  "IdSup": "chart:281",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "2813",
+  "Name": {
+   "fr": "Constructions (même ventilation que celle du compte 213)"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:2814",
+  "IdSup": "chart:281",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "2814",
+  "Name": {
+   "fr": "Constructions sur sol d'autrui (même ventilation que celle du compte 214)"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:2815",
+  "IdSup": "chart:281",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "2815",
+  "Name": {
+   "fr": "Installations, matériel et outillage industriels (même ventilation que celle du compte 215)"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:2818",
+  "IdSup": "chart:281",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "2818",
+  "Name": {
+   "fr": "Autres immobilisations corporelles (même ventilation que celle du compte 218)"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:28182",
+  "IdSup": "chart:2818",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "28182",
+  "Name": {
+   "fr": "Matériel de transport"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:28183",
+  "IdSup": "chart:2818",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "28183",
+  "Name": {
+   "fr": "Matériel de bureau et matériel informatique"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:28184",
+  "IdSup": "chart:2818",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "28184",
+  "Name": {
+   "fr": "Mobilier"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:28187",
+  "IdSup": "chart:2818",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "28187",
+  "Name": {
+   "fr": "Amortissement du mali de fusion sur actifs corporels"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:282",
+  "IdSup": "chart:28",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "282",
+  "Name": {
+   "fr": "Amortissements des immobilisations mises en concession"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:29",
+  "IdSup": "chart:2",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "29",
+  "Name": {
+   "fr": "Dépréciations des immobilisations"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:290",
+  "IdSup": "chart:29",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "290",
+  "Name": {
+   "fr": "Dépréciations des immobilisations incorporelles"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:2901",
+  "IdSup": "chart:290",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "2901",
+  "Name": {
+   "fr": "Frais d’établissement"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:2903",
+  "IdSup": "chart:290",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "2903",
+  "Name": {
+   "fr": "Frais de développement"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:2905",
+  "IdSup": "chart:290",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "2905",
+  "Name": {
+   "fr": "Marques, procédés, droits et valeurs similaires"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:2906",
+  "IdSup": "chart:290",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "2906",
+  "Name": {
+   "fr": "Droit au bail"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:2907",
+  "IdSup": "chart:290",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "2907",
+  "Name": {
+   "fr": "Fonds commercial"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:2908",
+  "IdSup": "chart:290",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "2908",
+  "Name": {
+   "fr": "Autres immobilisations incorporelles"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:29081",
+  "IdSup": "chart:2908",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "29081",
+  "Name": {
+   "fr": "Dépréciation du mali de fusion sur actifs incorporels"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:291",
+  "IdSup": "chart:29",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "291",
+  "Name": {
+   "fr": "Dépréciations des immobilisations corporelles"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:2911",
+  "IdSup": "chart:291",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "2911",
+  "Name": {
+   "fr": "Terrains"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:2912",
+  "IdSup": "chart:291",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "2912",
+  "Name": {
+   "fr": "Agencements et aménagements de terrains"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:2913",
+  "IdSup": "chart:291",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "2913",
+  "Name": {
+   "fr": "Constructions"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:2914",
+  "IdSup": "chart:291",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "2914",
+  "Name": {
+   "fr": "Constructions sur sol d'autrui"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:2915",
+  "IdSup": "chart:291",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "2915",
+  "Name": {
+   "fr": "Installations techniques, matériels et outillages industriels"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:2918",
+  "IdSup": "chart:291",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "2918",
+  "Name": {
+   "fr": "Autres immobilisations corporelles"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:29187",
+  "IdSup": "chart:2918",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "29187",
+  "Name": {
+   "fr": "Dépréciation du mali de fusion sur actifs corporels"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:292",
+  "IdSup": "chart:29",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "292",
+  "Name": {
+   "fr": "Dépréciations des immobilisations mises en concession"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:293",
+  "IdSup": "chart:29",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "293",
+  "Name": {
+   "fr": "Dépréciations des immobilisations en cours"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:2931",
+  "IdSup": "chart:293",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "2931",
+  "Name": {
+   "fr": "Immobilisations corporelles en cours"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:2932",
+  "IdSup": "chart:293",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "2932",
+  "Name": {
+   "fr": "Immobilisations incorporelles en cours"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:296",
+  "IdSup": "chart:29",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "296",
+  "Name": {
+   "fr": "Dépréciations des participations et créances rattachées à des participations"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:2961",
+  "IdSup": "chart:296",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "2961",
+  "Name": {
+   "fr": "Titres de participation"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:2962",
+  "IdSup": "chart:296",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "2962",
+  "Name": {
+   "fr": "Titres évalués par équivalence"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:2966",
+  "IdSup": "chart:296",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "2966",
+  "Name": {
+   "fr": "Autres formes de participation"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:2967",
+  "IdSup": "chart:296",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "2967",
+  "Name": {
+   "fr": "Créances rattachées à des participations (même ventilation que celle du compte 267)"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:2968",
+  "IdSup": "chart:296",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "2968",
+  "Name": {
+   "fr": "Créances rattachées à des sociétés en participation (même ventilation que celle du compte 268)"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:297",
+  "IdSup": "chart:29",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "297",
+  "Name": {
+   "fr": "Dépréciations des autres immobilisations financières"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:2971",
+  "IdSup": "chart:297",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "2971",
+  "Name": {
+   "fr": "Titres immobilisés autres que les titres immobilisés de l'activité de portefeuille (droit de propriété)"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:2972",
+  "IdSup": "chart:297",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "2972",
+  "Name": {
+   "fr": "Titres immobilisés (droit de créance)"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:2973",
+  "IdSup": "chart:297",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "2973",
+  "Name": {
+   "fr": "Titres immobilisés de l'activité de portefeuille"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:2974",
+  "IdSup": "chart:297",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "2974",
+  "Name": {
+   "fr": "Prêts"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:2975",
+  "IdSup": "chart:297",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "2975",
+  "Name": {
+   "fr": "Dépôts et cautionnements versés"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:2976",
+  "IdSup": "chart:297",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "2976",
+  "Name": {
+   "fr": "Autres créances immobilisées"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:3",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "3",
+  "Name": {
+   "fr": "Comptes de stocks et en-cours"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:31",
+  "IdSup": "chart:3",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "31",
+  "Name": {
+   "fr": "Matières premières et fournitures"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:32",
+  "IdSup": "chart:3",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "32",
+  "Name": {
+   "fr": "Autres approvisionnements"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:321",
+  "IdSup": "chart:32",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "321",
+  "Name": {
+   "fr": "Matières consommables"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:322",
+  "IdSup": "chart:32",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "322",
+  "Name": {
+   "fr": "Fournitures consommables"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:3221",
+  "IdSup": "chart:322",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "3221",
+  "Name": {
+   "fr": "Combustibles"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:3222",
+  "IdSup": "chart:322",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "3222",
+  "Name": {
+   "fr": "Produits d'entretien"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:3223",
+  "IdSup": "chart:322",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "3223",
+  "Name": {
+   "fr": "Fournitures d'atelier et d'usine"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:3224",
+  "IdSup": "chart:322",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "3224",
+  "Name": {
+   "fr": "Fournitures de magasin"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:3225",
+  "IdSup": "chart:322",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "3225",
+  "Name": {
+   "fr": "Fournitures de bureau"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:326",
+  "IdSup": "chart:32",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "326",
+  "Name": {
+   "fr": "Emballages"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:3261",
+  "IdSup": "chart:326",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "3261",
+  "Name": {
+   "fr": "Emballages perdus"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:3265",
+  "IdSup": "chart:326",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "3265",
+  "Name": {
+   "fr": "Emballages récupérables non identifiables"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:3267",
+  "IdSup": "chart:326",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "3267",
+  "Name": {
+   "fr": "Emballages à usage mixte"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:33",
+  "IdSup": "chart:3",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "33",
+  "Name": {
+   "fr": "En-cours de production de biens"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:331",
+  "IdSup": "chart:33",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "331",
+  "Name": {
+   "fr": "Produits en cours"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:335",
+  "IdSup": "chart:33",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "335",
+  "Name": {
+   "fr": "Travaux en cours"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:34",
+  "IdSup": "chart:3",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "34",
+  "Name": {
+   "fr": "En-cours de production de services"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:341",
+  "IdSup": "chart:34",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "341",
+  "Name": {
+   "fr": "Études en cours"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:345",
+  "IdSup": "chart:34",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "345",
+  "Name": {
+   "fr": "Prestations de services en cours"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:35",
+  "IdSup": "chart:3",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "35",
+  "Name": {
+   "fr": "Stocks de produits"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:351",
+  "IdSup": "chart:35",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "351",
+  "Name": {
+   "fr": "Produits intermédiaires"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:355",
+  "IdSup": "chart:35",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "355",
+  "Name": {
+   "fr": "Produits finis"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:358",
+  "IdSup": "chart:35",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "358",
+  "Name": {
+   "fr": "Produits résiduels ou matières de récupération"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:3581",
+  "IdSup": "chart:358",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "3581",
+  "Name": {
+   "fr": "Déchets"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:3585",
+  "IdSup": "chart:358",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "3585",
+  "Name": {
+   "fr": "Rebuts"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:3586",
+  "IdSup": "chart:358",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "3586",
+  "Name": {
+   "fr": "Matières de récupération"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:36",
+  "IdSup": "chart:3",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "36",
+  "Name": {
+   "fr": "(Compte à ouvrir, le cas échéant, sous l'intitulé « Stocks provenant d'immobilisations »)"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:37",
+  "IdSup": "chart:3",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "37",
+  "Name": {
+   "fr": "Stocks de marchandises"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:38",
+  "IdSup": "chart:3",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "38",
+  "Name": {
+   "fr": "(Le compte 38 peut être utilisé pour comptabiliser les stocks en voie d'acheminement, mis en dépôt ou donnés en consignation)"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:39",
+  "IdSup": "chart:3",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "39",
+  "Name": {
+   "fr": "Dépréciations des stocks et en-cours"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:391",
+  "IdSup": "chart:39",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "391",
+  "Name": {
+   "fr": "Dépréciations des matières premières et fournitures"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:392",
+  "IdSup": "chart:39",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "392",
+  "Name": {
+   "fr": "Dépréciations des autres approvisionnements"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:393",
+  "IdSup": "chart:39",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "393",
+  "Name": {
+   "fr": "Dépréciations des en-cours de production de biens"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:394",
+  "IdSup": "chart:39",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "394",
+  "Name": {
+   "fr": "Dépréciations des en-cours de production de services"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:395",
+  "IdSup": "chart:39",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "395",
+  "Name": {
+   "fr": "Dépréciations des stocks de produits"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:397",
+  "IdSup": "chart:39",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "397",
+  "Name": {
+   "fr": "Dépréciations des stocks de marchandises"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:4",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "4",
+  "Name": {
+   "fr": "Comptes de tiers"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:40",
+  "IdSup": "chart:4",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "40",
+  "Name": {
+   "fr": "Fournisseurs et comptes rattachés"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:401",
+  "IdSup": "chart:40",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "401",
+  "Name": {
+   "fr": "Fournisseurs"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:4011",
+  "IdSup": "chart:401",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "4011",
+  "Name": {
+   "fr": "Fournisseurs - Achats de biens et prestations de services"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:4017",
+  "IdSup": "chart:401",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "4017",
+  "Name": {
+   "fr": "Fournisseurs - Retenues de garantie"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:403",
+  "IdSup": "chart:40",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "403",
+  "Name": {
+   "fr": "Fournisseurs - Effets à payer"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:404",
+  "IdSup": "chart:40",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "404",
+  "Name": {
+   "fr": "Fournisseurs d'immobilisations"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:4041",
+  "IdSup": "chart:404",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "4041",
+  "Name": {
+   "fr": "Fournisseurs - Achats d'immobilisations"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:4047",
+  "IdSup": "chart:404",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "4047",
+  "Name": {
+   "fr": "Fournisseurs d'immobilisations - Retenues de garantie"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:405",
+  "IdSup": "chart:40",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "405",
+  "Name": {
+   "fr": "Fournisseurs d'immobilisations - Effets à payer"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:408",
+  "IdSup": "chart:40",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "408",
+  "Name": {
+   "fr": "Fournisseurs - Factures non parvenues"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:4081",
+  "IdSup": "chart:408",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "4081",
+  "Name": {
+   "fr": "Fournisseurs"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:4084",
+  "IdSup": "chart:408",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "4084",
+  "Name": {
+   "fr": "Fournisseurs d'immobilisations"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:4088",
+  "IdSup": "chart:408",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "4088",
+  "Name": {
+   "fr": "Fournisseurs - Intérêts courus"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:409",
+  "IdSup": "chart:40",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "409",
+  "Name": {
+   "fr": "Fournisseurs débiteurs"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:4091",
+  "IdSup": "chart:409",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "4091",
+  "Name": {
+   "fr": "Fournisseurs - Avances et acomptes versés sur commandes"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:4096",
+  "IdSup": "chart:409",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "4096",
+  "Name": {
+   "fr": "Fournisseurs - Créances pour emballages et matériel à rendre"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:4097",
+  "IdSup": "chart:409",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "4097",
+  "Name": {
+   "fr": "Fournisseurs - Autres avoirs"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:40971",
+  "IdSup": "chart:4097",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "40971",
+  "Name": {
+   "fr": "Fournisseurs d'exploitation"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:40974",
+  "IdSup": "chart:4097",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "40974",
+  "Name": {
+   "fr": "Fournisseurs d'immobilisations"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:4098",
+  "IdSup": "chart:409",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "4098",
+  "Name": {
+   "fr": "Rabais, remises, ristournes à obtenir et autres avoirs non encore reçus"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:41",
+  "IdSup": "chart:4",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "41",
+  "Name": {
+   "fr": "Clients et comptes rattachés"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:411",
+  "IdSup": "chart:41",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "411",
+  "Name": {
+   "fr": "Clients"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:4111",
+  "IdSup": "chart:411",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "4111",
+  "Name": {
+   "fr": "Clients - Ventes de biens ou de prestations de services"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:4117",
+  "IdSup": "chart:411",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "4117",
+  "Name": {
+   "fr": "Clients - Retenues de garantie"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:413",
+  "IdSup": "chart:41",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "413",
+  "Name": {
+   "fr": "Clients - Effets à recevoir"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:416",
+  "IdSup": "chart:41",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "416",
+  "Name": {
+   "fr": "Clients douteux ou litigieux"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:418",
+  "IdSup": "chart:41",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "418",
+  "Name": {
+   "fr": "Clients - Produits non encore facturés"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:4181",
+  "IdSup": "chart:418",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "4181",
+  "Name": {
+   "fr": "Clients - Factures à établir"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:4188",
+  "IdSup": "chart:418",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "4188",
+  "Name": {
+   "fr": "Clients - Intérêts courus"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:419",
+  "IdSup": "chart:41",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "419",
+  "Name": {
+   "fr": "Clients créditeurs"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:4191",
+  "IdSup": "chart:419",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "4191",
+  "Name": {
+   "fr": "Clients - Avances et acomptes reçus sur commandes"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:4196",
+  "IdSup": "chart:419",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "4196",
+  "Name": {
+   "fr": "Clients - Dettes sur emballages et matériels consignés"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:4197",
+  "IdSup": "chart:419",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "4197",
+  "Name": {
+   "fr": "Clients - Autres avoirs"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:4198",
+  "IdSup": "chart:419",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "4198",
+  "Name": {
+   "fr": "Rabais, remises, ristournes à accorder et autres avoirs à établir"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:42",
+  "IdSup": "chart:4",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "42",
+  "Name": {
+   "fr": "Personnel et comptes rattachés"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:421",
+  "IdSup": "chart:42",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "421",
+  "Name": {
+   "fr": "Personnel - Rémunérations dues"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:422",
+  "IdSup": "chart:42",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "422",
+  "Name": {
+   "fr": "Comité social et économique"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:424",
+  "IdSup": "chart:42",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "424",
+  "Name": {
+   "fr": "Participation des salariés aux résultats"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:4246",
+  "IdSup": "chart:424",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "4246",
+  "Name": {
+   "fr": "Réserve spéciale"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:4248",
+  "IdSup": "chart:424",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "4248",
+  "Name": {
+   "fr": "Comptes courants"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:425",
+  "IdSup": "chart:42",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "425",
+  "Name": {
+   "fr": "Personnel - Avances et acomptes et autres comptes débiteurs"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:426",
+  "IdSup": "chart:42",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "426",
+  "Name": {
+   "fr": "Personnel - Dépôts"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:427",
+  "IdSup": "chart:42",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "427",
+  "Name": {
+   "fr": "Personnel - Oppositions"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:428",
+  "IdSup": "chart:42",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "428",
+  "Name": {
+   "fr": "Personnel - Charges à payer"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:4282",
+  "IdSup": "chart:428",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "4282",
+  "Name": {
+   "fr": "Dettes provisionnées pour congés à payer"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:4284",
+  "IdSup": "chart:428",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "4284",
+  "Name": {
+   "fr": "Dettes provisionnées pour participation des salariés aux résultats"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:4286",
+  "IdSup": "chart:428",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "4286",
+  "Name": {
+   "fr": "Autres charges à payer"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:43",
+  "IdSup": "chart:4",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "43",
+  "Name": {
+   "fr": "Sécurité sociale et autres organismes sociaux"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:431",
+  "IdSup": "chart:43",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "431",
+  "Name": {
+   "fr": "Sécurité sociale"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:437",
+  "IdSup": "chart:43",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "437",
+  "Name": {
+   "fr": "Autres organismes sociaux"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:438",
+  "IdSup": "chart:43",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "438",
+  "Name": {
+   "fr": "Organismes sociaux - Charges à payer"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:4382",
+  "IdSup": "chart:438",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "4382",
+  "Name": {
+   "fr": "Charges sociales sur congés à payer"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:4386",
+  "IdSup": "chart:438",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "4386",
+  "Name": {
+   "fr": "Autres charges à payer"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:439",
+  "IdSup": "chart:43",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "439",
+  "Name": {
+   "fr": "Organismes sociaux - Produits à recevoir"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:44",
+  "IdSup": "chart:4",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "44",
+  "Name": {
+   "fr": "État et autres collectivités publiques"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:441",
+  "IdSup": "chart:44",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "441",
+  "Name": {
+   "fr": "État - Subventions et aides à recevoir"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:442",
+  "IdSup": "chart:44",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "442",
+  "Name": {
+   "fr": "Contributions, impôts et taxes recouvrés pour le compte de l'État"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:4421",
+  "IdSup": "chart:442",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "4421",
+  "Name": {
+   "fr": "Prélèvements à la source (Impôt sur le revenu)"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:4422",
+  "IdSup": "chart:442",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "4422",
+  "Name": {
+   "fr": "Prélèvements forfaitaires non libératoires"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:4423",
+  "IdSup": "chart:442",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "4423",
+  "Name": {
+   "fr": "Retenues et prélèvements sur les distributions"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:444",
+  "IdSup": "chart:44",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "444",
+  "Name": {
+   "fr": "État - Impôts sur les bénéfices"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:445",
+  "IdSup": "chart:44",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "445",
+  "Name": {
+   "fr": "État - Taxes sur le chiffre d'affaires"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:4452",
+  "IdSup": "chart:445",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "4452",
+  "Name": {
+   "fr": "TVA due intracommunautaire"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:4455",
+  "IdSup": "chart:445",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "4455",
+  "Name": {
+   "fr": "Taxes sur le chiffre d'affaires à décaisser"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:44551",
+  "IdSup": "chart:4455",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "44551",
+  "Name": {
+   "fr": "TVA à décaisser"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:44558",
+  "IdSup": "chart:4455",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "44558",
+  "Name": {
+   "fr": "Taxes assimilées à la TVA"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:4456",
+  "IdSup": "chart:445",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "4456",
+  "Name": {
+   "fr": "Taxes sur le chiffre d'affaires déductibles"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:44562",
+  "IdSup": "chart:4456",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "44562",
+  "Name": {
+   "fr": "TVA sur immobilisations"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:44563",
+  "IdSup": "chart:4456",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "44563",
+  "Name": {
+   "fr": "TVA transférée par d'autres entités"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:44566",
+  "IdSup": "chart:4456",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "44566",
+  "Name": {
+   "fr": "TVA sur autres biens et services"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:44567",
+  "IdSup": "chart:4456",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "44567",
+  "Name": {
+   "fr": "Crédit de TVA à reporter"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:44568",
+  "IdSup": "chart:4456",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "44568",
+  "Name": {
+   "fr": "Taxes assimilées à la TVA"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:4457",
+  "IdSup": "chart:445",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "4457",
+  "Name": {
+   "fr": "Taxes sur le chiffre d'affaires collectées"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:44571",
+  "IdSup": "chart:4457",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "44571",
+  "Name": {
+   "fr": "TVA collectée"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:44578",
+  "IdSup": "chart:4457",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "44578",
+  "Name": {
+   "fr": "Taxes assimilées à la TVA"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:4458",
+  "IdSup": "chart:445",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "4458",
+  "Name": {
+   "fr": "Taxes sur le chiffre d'affaires à régulariser ou en attente"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:44581",
+  "IdSup": "chart:4458",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "44581",
+  "Name": {
+   "fr": "Acomptes - Régime simplifié d'imposition"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:44583",
+  "IdSup": "chart:4458",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "44583",
+  "Name": {
+   "fr": "Remboursement de taxes sur le chiffre d'affaires demandé"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:44584",
+  "IdSup": "chart:4458",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "44584",
+  "Name": {
+   "fr": "TVA récupérée d’avance"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:44586",
+  "IdSup": "chart:4458",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "44586",
+  "Name": {
+   "fr": "Taxes sur le chiffre d’affaires sur factures non parvenues"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:44587",
+  "IdSup": "chart:4458",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "44587",
+  "Name": {
+   "fr": "Taxes sur le chiffre d’affaires sur factures à établir"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:446",
+  "IdSup": "chart:44",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "446",
+  "Name": {
+   "fr": "Obligations cautionnées"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:447",
+  "IdSup": "chart:44",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "447",
+  "Name": {
+   "fr": "Autres impôts, taxes et versements assimilés"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:448",
+  "IdSup": "chart:44",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "448",
+  "Name": {
+   "fr": "État - Charges à payer et produits à recevoir"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:4481",
+  "IdSup": "chart:448",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "4481",
+  "Name": {
+   "fr": "État - Charges à Payer"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:44811",
+  "IdSup": "chart:4481",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "44811",
+  "Name": {
+   "fr": "Charges fiscales sur congés à payer"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:44812",
+  "IdSup": "chart:4481",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "44812",
+  "Name": {
+   "fr": "Charges à payer"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:4482",
+  "IdSup": "chart:448",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "4482",
+  "Name": {
+   "fr": "État - Produits à recevoir"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:449",
+  "IdSup": "chart:44",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "449",
+  "Name": {
+   "fr": "Quotas d’émission à acquérir"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:45",
+  "IdSup": "chart:4",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "45",
+  "Name": {
+   "fr": "Groupe et associés"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:451",
+  "IdSup": "chart:45",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "451",
+  "Name": {
+   "fr": "Groupe"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:455",
+  "IdSup": "chart:45",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "455",
+  "Name": {
+   "fr": "Associés - Comptes courants"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:4551",
+  "IdSup": "chart:455",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "4551",
+  "Name": {
+   "fr": "Principal"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:4558",
+  "IdSup": "chart:455",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "4558",
+  "Name": {
+   "fr": "Intérêts courus"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:456",
+  "IdSup": "chart:45",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "456",
+  "Name": {
+   "fr": "Associés - Opérations sur le capital"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:4561",
+  "IdSup": "chart:456",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "4561",
+  "Name": {
+   "fr": "Associés - Comptes d'apport en société"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:45611",
+  "IdSup": "chart:4561",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "45611",
+  "Name": {
+   "fr": "Apports en nature"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:45615",
+  "IdSup": "chart:4561",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "45615",
+  "Name": {
+   "fr": "Apports en numéraire"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:4562",
+  "IdSup": "chart:456",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "4562",
+  "Name": {
+   "fr": "Apporteurs - Capital appelé, non versé"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:45621",
+  "IdSup": "chart:4562",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "45621",
+  "Name": {
+   "fr": "Actionnaires - Capital souscrit et appelé, non versé"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:45625",
+  "IdSup": "chart:4562",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "45625",
+  "Name": {
+   "fr": "Associés - Capital appelé, non versé"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:4563",
+  "IdSup": "chart:456",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "4563",
+  "Name": {
+   "fr": "Associés - Versements reçus sur augmentation de capital"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:4564",
+  "IdSup": "chart:456",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "4564",
+  "Name": {
+   "fr": "Associés - Versements anticipés"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:4566",
+  "IdSup": "chart:456",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "4566",
+  "Name": {
+   "fr": "Actionnaires défaillants"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:4567",
+  "IdSup": "chart:456",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "4567",
+  "Name": {
+   "fr": "Associés - Capital à rembourser"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:457",
+  "IdSup": "chart:45",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "457",
+  "Name": {
+   "fr": "Associés - Dividendes à payer"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:458",
+  "IdSup": "chart:45",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "458",
+  "Name": {
+   "fr": "Associés - Opérations faites en commun et en GIE"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:4581",
+  "IdSup": "chart:458",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "4581",
+  "Name": {
+   "fr": "Opérations courantes"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:4588",
+  "IdSup": "chart:458",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "4588",
+  "Name": {
+   "fr": "Intérêts courus"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:46",
+  "IdSup": "chart:4",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "46",
+  "Name": {
+   "fr": "Débiteurs divers et créditeurs divers"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:462",
+  "IdSup": "chart:46",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "462",
+  "Name": {
+   "fr": "Créances sur cessions d'immobilisations"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:464",
+  "IdSup": "chart:46",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "464",
+  "Name": {
+   "fr": "Dettes sur acquisitions de valeurs mobilières de placement"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:465",
+  "IdSup": "chart:46",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "465",
+  "Name": {
+   "fr": "Créances sur cessions de valeurs mobilières de placement"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:467",
+  "IdSup": "chart:46",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "467",
+  "Name": {
+   "fr": "Divers comptes débiteurs et produits à recevoir"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:468",
+  "IdSup": "chart:46",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "468",
+  "Name": {
+   "fr": "Divers comptes créditeurs et charges à payer"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:47",
+  "IdSup": "chart:4",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "47",
+  "Name": {
+   "fr": "Comptes transitoires ou d'attente"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:471",
+  "IdSup": "chart:47",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "471",
+  "Name": {
+   "fr": "à 473 Comptes d'attente"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:474",
+  "IdSup": "chart:47",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "474",
+  "Name": {
+   "fr": "Différences d’évaluation – Actif"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:4741",
+  "IdSup": "chart:474",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "4741",
+  "Name": {
+   "fr": "Différences d'évaluation sur instruments financiers à terme - Actif"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:4742",
+  "IdSup": "chart:474",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "4742",
+  "Name": {
+   "fr": "Différences d'évaluation sur jetons détenus - Actif"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:4746",
+  "IdSup": "chart:474",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "4746",
+  "Name": {
+   "fr": "Différences d’évaluation de jetons sur des passifs - Actif"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:475",
+  "IdSup": "chart:47",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "475",
+  "Name": {
+   "fr": "Différences d’évaluation – Passif"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:4751",
+  "IdSup": "chart:475",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "4751",
+  "Name": {
+   "fr": "Différences d'évaluation sur instruments financiers à terme - Passif"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:4752",
+  "IdSup": "chart:475",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "4752",
+  "Name": {
+   "fr": "Différences d'évaluation sur jetons détenus - Passif"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:4756",
+  "IdSup": "chart:475",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "4756",
+  "Name": {
+   "fr": "Différences d’évaluation de jetons sur des passifs - Passif"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:476",
+  "IdSup": "chart:47",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "476",
+  "Name": {
+   "fr": "Différence de conversion - Actif"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:4761",
+  "IdSup": "chart:476",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "4761",
+  "Name": {
+   "fr": "Diminution des créances"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:4762",
+  "IdSup": "chart:476",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "4762",
+  "Name": {
+   "fr": "Augmentation des dettes"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:4768",
+  "IdSup": "chart:476",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "4768",
+  "Name": {
+   "fr": "Différences compensées par couverture de change"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:477",
+  "IdSup": "chart:47",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "477",
+  "Name": {
+   "fr": "Différences de conversion - Passif"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:4771",
+  "IdSup": "chart:477",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "4771",
+  "Name": {
+   "fr": "Augmentation des créances"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:4772",
+  "IdSup": "chart:477",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "4772",
+  "Name": {
+   "fr": "Diminution des dettes"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:4778",
+  "IdSup": "chart:477",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "4778",
+  "Name": {
+   "fr": "Différences compensées par couverture de change"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:478",
+  "IdSup": "chart:47",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "478",
+  "Name": {
+   "fr": "Autres comptes transitoires"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:4781",
+  "IdSup": "chart:478",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "4781",
+  "Name": {
+   "fr": "Mali de fusion sur actif circulant"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:48",
+  "IdSup": "chart:4",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "48",
+  "Name": {
+   "fr": "Comptes de régularisation"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:481",
+  "IdSup": "chart:48",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "481",
+  "Name": {
+   "fr": "Frais d’émission des emprunts"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:486",
+  "IdSup": "chart:48",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "486",
+  "Name": {
+   "fr": "Charges constatées d'avance"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:487",
+  "IdSup": "chart:48",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "487",
+  "Name": {
+   "fr": "Produits constatés d'avance"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:4871",
+  "IdSup": "chart:487",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "4871",
+  "Name": {
+   "fr": "Produits constatés d’avance sur jetons émis"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:488",
+  "IdSup": "chart:48",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "488",
+  "Name": {
+   "fr": "Comptes de répartition périodique des charges et des produits"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:4886",
+  "IdSup": "chart:488",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "4886",
+  "Name": {
+   "fr": "Charges"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:4887",
+  "IdSup": "chart:488",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "4887",
+  "Name": {
+   "fr": "Produits"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:49",
+  "IdSup": "chart:4",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "49",
+  "Name": {
+   "fr": "Dépréciations des comptes de tiers"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:491",
+  "IdSup": "chart:49",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "491",
+  "Name": {
+   "fr": "Dépréciations des comptes de clients"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:495",
+  "IdSup": "chart:49",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "495",
+  "Name": {
+   "fr": "Dépréciations des comptes du groupe et des associés"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:4951",
+  "IdSup": "chart:495",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "4951",
+  "Name": {
+   "fr": "Comptes du groupe"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:4955",
+  "IdSup": "chart:495",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "4955",
+  "Name": {
+   "fr": "Comptes courants des associés"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:4958",
+  "IdSup": "chart:495",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "4958",
+  "Name": {
+   "fr": "Opérations faites en commun et en GIE"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:496",
+  "IdSup": "chart:49",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "496",
+  "Name": {
+   "fr": "Dépréciations des comptes de débiteurs divers"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:4962",
+  "IdSup": "chart:496",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "4962",
+  "Name": {
+   "fr": "Créances sur cessions d'immobilisations"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:4965",
+  "IdSup": "chart:496",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "4965",
+  "Name": {
+   "fr": "Créances sur cessions de valeurs mobilières de placement"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:4967",
+  "IdSup": "chart:496",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "4967",
+  "Name": {
+   "fr": "Autres comptes débiteurs"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:5",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "5",
+  "Name": {
+   "fr": "Comptes financiers"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:50",
+  "IdSup": "chart:5",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "50",
+  "Name": {
+   "fr": "Valeurs mobilières de placement"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:502",
+  "IdSup": "chart:50",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "502",
+  "Name": {
+   "fr": "Actions propres"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:5021",
+  "IdSup": "chart:502",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "5021",
+  "Name": {
+   "fr": "Actions destinées à être attribuées aux employés et affectées à des plans déterminés"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:5022",
+  "IdSup": "chart:502",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "5022",
+  "Name": {
+   "fr": "Actions disponibles pour être attribuées aux employés ou pour la régularisation des cours de bourse"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:503",
+  "IdSup": "chart:50",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "503",
+  "Name": {
+   "fr": "Actions"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:5031",
+  "IdSup": "chart:503",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "5031",
+  "Name": {
+   "fr": "Titres cotés"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:5035",
+  "IdSup": "chart:503",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "5035",
+  "Name": {
+   "fr": "Titres non cotés"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:504",
+  "IdSup": "chart:50",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "504",
+  "Name": {
+   "fr": "Autres titres conférant un droit de propriété"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:505",
+  "IdSup": "chart:50",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "505",
+  "Name": {
+   "fr": "Obligations et bons émis par la société et rachetés par elle"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:506",
+  "IdSup": "chart:50",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "506",
+  "Name": {
+   "fr": "Obligations"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:5061",
+  "IdSup": "chart:506",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "5061",
+  "Name": {
+   "fr": "Titres cotés"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:5065",
+  "IdSup": "chart:506",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "5065",
+  "Name": {
+   "fr": "Titres non cotés"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:507",
+  "IdSup": "chart:50",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "507",
+  "Name": {
+   "fr": "Bons du Trésor et bons de caisse à court terme"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:508",
+  "IdSup": "chart:50",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "508",
+  "Name": {
+   "fr": "Autres valeurs mobilières de placement et autres créances assimilées"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:5081",
+  "IdSup": "chart:508",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "5081",
+  "Name": {
+   "fr": "Autres valeurs mobilières"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:5082",
+  "IdSup": "chart:508",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "5082",
+  "Name": {
+   "fr": "Bons de souscription"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:5088",
+  "IdSup": "chart:508",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "5088",
+  "Name": {
+   "fr": "Intérêts courus sur obligations, bons et valeurs assimilés"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:509",
+  "IdSup": "chart:50",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "509",
+  "Name": {
+   "fr": "Versements restant à effectuer sur valeurs mobilières de placement non libérées"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:51",
+  "IdSup": "chart:5",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "51",
+  "Name": {
+   "fr": "Banques, établissements financiers et assimilés"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:511",
+  "IdSup": "chart:51",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "511",
+  "Name": {
+   "fr": "Valeurs à l'encaissement"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:5111",
+  "IdSup": "chart:511",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "5111",
+  "Name": {
+   "fr": "Coupons échus à l'encaissement"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:5112",
+  "IdSup": "chart:511",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "5112",
+  "Name": {
+   "fr": "Chèques à encaisser"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:5113",
+  "IdSup": "chart:511",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "5113",
+  "Name": {
+   "fr": "Effets à l'encaissement"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:5114",
+  "IdSup": "chart:511",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "5114",
+  "Name": {
+   "fr": "Effets à l'escompte"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:512",
+  "IdSup": "chart:51",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "512",
+  "Name": {
+   "fr": "Banques"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:5121",
+  "IdSup": "chart:512",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "5121",
+  "Name": {
+   "fr": "Comptes en euros"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:5124",
+  "IdSup": "chart:512",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "5124",
+  "Name": {
+   "fr": "Comptes en devises"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:517",
+  "IdSup": "chart:51",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "517",
+  "Name": {
+   "fr": "Autres organismes financiers"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:518",
+  "IdSup": "chart:51",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "518",
+  "Name": {
+   "fr": "Intérêts courus"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:5181",
+  "IdSup": "chart:518",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "5181",
+  "Name": {
+   "fr": "Intérêts courus à payer"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:5188",
+  "IdSup": "chart:518",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "5188",
+  "Name": {
+   "fr": "Intérêts courus à recevoir"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:519",
+  "IdSup": "chart:51",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "519",
+  "Name": {
+   "fr": "Concours bancaires courants"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:5191",
+  "IdSup": "chart:519",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "5191",
+  "Name": {
+   "fr": "Crédit de mobilisation de créances commerciales"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:5193",
+  "IdSup": "chart:519",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "5193",
+  "Name": {
+   "fr": "Mobilisation de créances nées à l'étranger"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:5198",
+  "IdSup": "chart:519",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "5198",
+  "Name": {
+   "fr": "Intérêts courus sur concours bancaires courants"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:52",
+  "IdSup": "chart:5",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "52",
+  "Name": {
+   "fr": "Instruments financiers à terme et jetons détenus"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:521",
+  "IdSup": "chart:52",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "521",
+  "Name": {
+   "fr": "Instruments financiers à terme"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:522",
+  "IdSup": "chart:52",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "522",
+  "Name": {
+   "fr": "Jetons détenus"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:523",
+  "IdSup": "chart:52",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "523",
+  "Name": {
+   "fr": "Jetons auto-détenus"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:524",
+  "IdSup": "chart:52",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "524",
+  "Name": {
+   "fr": "Jetons empruntés"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:53",
+  "IdSup": "chart:5",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "53",
+  "Name": {
+   "fr": "Caisse"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:58",
+  "IdSup": "chart:5",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "58",
+  "Name": {
+   "fr": "Virements internes"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:59",
+  "IdSup": "chart:5",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "59",
+  "Name": {
+   "fr": "Dépréciations des comptes financiers"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:590",
+  "IdSup": "chart:59",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "590",
+  "Name": {
+   "fr": "Dépréciations des valeurs mobilières de placement"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:5903",
+  "IdSup": "chart:590",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "5903",
+  "Name": {
+   "fr": "Actions"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:5904",
+  "IdSup": "chart:590",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "5904",
+  "Name": {
+   "fr": "Autres titres conférant un droit de propriété"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:5906",
+  "IdSup": "chart:590",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "5906",
+  "Name": {
+   "fr": "Obligations"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:5908",
+  "IdSup": "chart:590",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "5908",
+  "Name": {
+   "fr": "Autres valeurs mobilières de placement et créances assimilées"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:6",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "6",
+  "Name": {
+   "fr": "Comptes de charges"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:60",
+  "IdSup": "chart:6",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "60",
+  "Name": {
+   "fr": "Achats (sauf 603)"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:601",
+  "IdSup": "chart:60",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "601",
+  "Name": {
+   "fr": "Achats stockés - Matières premières et fournitures"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:602",
+  "IdSup": "chart:60",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "602",
+  "Name": {
+   "fr": "Achats stockés - Autres approvisionnements"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:6021",
+  "IdSup": "chart:602",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "6021",
+  "Name": {
+   "fr": "Matières consommables"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:6022",
+  "IdSup": "chart:602",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "6022",
+  "Name": {
+   "fr": "Fournitures consommables"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:60221",
+  "IdSup": "chart:6022",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "60221",
+  "Name": {
+   "fr": "Combustibles"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:60222",
+  "IdSup": "chart:6022",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "60222",
+  "Name": {
+   "fr": "Produits d'entretien"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:60223",
+  "IdSup": "chart:6022",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "60223",
+  "Name": {
+   "fr": "Fournitures d'atelier et d'usine"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:60224",
+  "IdSup": "chart:6022",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "60224",
+  "Name": {
+   "fr": "Fournitures de magasin"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:60225",
+  "IdSup": "chart:6022",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "60225",
+  "Name": {
+   "fr": "Fourniture de bureau"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:6026",
+  "IdSup": "chart:602",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "6026",
+  "Name": {
+   "fr": "Emballages"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:60261",
+  "IdSup": "chart:6026",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "60261",
+  "Name": {
+   "fr": "Emballages perdus"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:60262",
+  "IdSup": "chart:6026",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "60262",
+  "Name": {
+   "fr": "Malis sur emballage"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:60265",
+  "IdSup": "chart:6026",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "60265",
+  "Name": {
+   "fr": "Emballages récupérables non identifiables"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:60267",
+  "IdSup": "chart:6026",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "60267",
+  "Name": {
+   "fr": "Emballages à usage mixte"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:604",
+  "IdSup": "chart:60",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "604",
+  "Name": {
+   "fr": "Achats d'études et prestations de services"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:605",
+  "IdSup": "chart:60",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "605",
+  "Name": {
+   "fr": "Achats de matériel, équipements et travaux"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:606",
+  "IdSup": "chart:60",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "606",
+  "Name": {
+   "fr": "Achats non stockés de matière et fournitures"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:6061",
+  "IdSup": "chart:606",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "6061",
+  "Name": {
+   "fr": "Fournitures non stockables (eau, énergie, etc.)"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:6063",
+  "IdSup": "chart:606",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "6063",
+  "Name": {
+   "fr": "Fournitures d'entretien et de petit équipement"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:6064",
+  "IdSup": "chart:606",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "6064",
+  "Name": {
+   "fr": "Fournitures administratives"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:6068",
+  "IdSup": "chart:606",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "6068",
+  "Name": {
+   "fr": "Autres matières et fournitures"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:607",
+  "IdSup": "chart:60",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "607",
+  "Name": {
+   "fr": "Achats de marchandises"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:608",
+  "IdSup": "chart:60",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "608",
+  "Name": {
+   "fr": "(Compte réservé, le cas échéant, au regroupement des frais accessoires incorporés aux achats)"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:609",
+  "IdSup": "chart:60",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "609",
+  "Name": {
+   "fr": "Rabais, remises et ristournes obtenus sur achats (même ventilation que celle du compte 60)"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:6098",
+  "IdSup": "chart:609",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "6098",
+  "Name": {
+   "fr": "Rabais, remises et ristournes non affectés"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:603",
+  "IdSup": "chart:60",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "603",
+  "Name": {
+   "fr": "Variation des stocks d'approvisionnements et de marchandises"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:6031",
+  "IdSup": "chart:603",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "6031",
+  "Name": {
+   "fr": "Variation des stocks de matières premières et fournitures"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:6032",
+  "IdSup": "chart:603",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "6032",
+  "Name": {
+   "fr": "Variation des stocks des autres approvisionnements"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:6037",
+  "IdSup": "chart:603",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "6037",
+  "Name": {
+   "fr": "Variation des stocks de marchandises 61/62 Autres charges externes"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:61",
+  "IdSup": "chart:6",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "61",
+  "Name": {
+   "fr": "Services extérieurs"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:611",
+  "IdSup": "chart:61",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "611",
+  "Name": {
+   "fr": "Sous-traitance générale"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:612",
+  "IdSup": "chart:61",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "612",
+  "Name": {
+   "fr": "Redevances de crédit-bail"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:6122",
+  "IdSup": "chart:612",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "6122",
+  "Name": {
+   "fr": "Crédit-bail mobilier"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:6125",
+  "IdSup": "chart:612",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "6125",
+  "Name": {
+   "fr": "Crédit-bail immobilier"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:613",
+  "IdSup": "chart:61",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "613",
+  "Name": {
+   "fr": "Locations"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:6132",
+  "IdSup": "chart:613",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "6132",
+  "Name": {
+   "fr": "Locations immobilières"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:6135",
+  "IdSup": "chart:613",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "6135",
+  "Name": {
+   "fr": "Locations mobilières"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:614",
+  "IdSup": "chart:61",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "614",
+  "Name": {
+   "fr": "Charges locatives et de copropriété"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:615",
+  "IdSup": "chart:61",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "615",
+  "Name": {
+   "fr": "Entretien et réparation"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:6152",
+  "IdSup": "chart:615",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "6152",
+  "Name": {
+   "fr": "Entretien et réparation sur biens immobiliers"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:6155",
+  "IdSup": "chart:615",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "6155",
+  "Name": {
+   "fr": "Entretien et réparation sur biens mobiliers"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:6156",
+  "IdSup": "chart:615",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "6156",
+  "Name": {
+   "fr": "Maintenance"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:616",
+  "IdSup": "chart:61",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "616",
+  "Name": {
+   "fr": "Primes d'assurances"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:6161",
+  "IdSup": "chart:616",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "6161",
+  "Name": {
+   "fr": "Multirisques"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:6162",
+  "IdSup": "chart:616",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "6162",
+  "Name": {
+   "fr": "Assurance obligatoire dommage construction"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:6163",
+  "IdSup": "chart:616",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "6163",
+  "Name": {
+   "fr": "Assurance - transport"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:61636",
+  "IdSup": "chart:6163",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "61636",
+  "Name": {
+   "fr": "sur achats"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:61637",
+  "IdSup": "chart:6163",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "61637",
+  "Name": {
+   "fr": "sur ventes"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:61638",
+  "IdSup": "chart:6163",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "61638",
+  "Name": {
+   "fr": "sur autres biens"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:6164",
+  "IdSup": "chart:616",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "6164",
+  "Name": {
+   "fr": "Risques d'exploitation"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:6165",
+  "IdSup": "chart:616",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "6165",
+  "Name": {
+   "fr": "Insolvabilité clients"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:617",
+  "IdSup": "chart:61",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "617",
+  "Name": {
+   "fr": "Études et recherches"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:618",
+  "IdSup": "chart:61",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "618",
+  "Name": {
+   "fr": "Divers"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:6181",
+  "IdSup": "chart:618",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "6181",
+  "Name": {
+   "fr": "Documentation générale"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:6183",
+  "IdSup": "chart:618",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "6183",
+  "Name": {
+   "fr": "Documentation technique"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:6185",
+  "IdSup": "chart:618",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "6185",
+  "Name": {
+   "fr": "Frais de colloques, séminaires, conférences"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:619",
+  "IdSup": "chart:61",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "619",
+  "Name": {
+   "fr": "Rabais, remises et ristournes obtenus sur services extérieurs"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:62",
+  "IdSup": "chart:6",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "62",
+  "Name": {
+   "fr": "Autres services extérieurs"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:621",
+  "IdSup": "chart:62",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "621",
+  "Name": {
+   "fr": "Personnel extérieur à l'entité"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:6211",
+  "IdSup": "chart:621",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "6211",
+  "Name": {
+   "fr": "Personnel intérimaire"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:6214",
+  "IdSup": "chart:621",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "6214",
+  "Name": {
+   "fr": "Personnel détaché ou prêté à l'entité"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:622",
+  "IdSup": "chart:62",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "622",
+  "Name": {
+   "fr": "Rémunérations d'intermédiaires et honoraires"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:6221",
+  "IdSup": "chart:622",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "6221",
+  "Name": {
+   "fr": "Commissions et courtages sur achats"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:6222",
+  "IdSup": "chart:622",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "6222",
+  "Name": {
+   "fr": "Commissions et courtages sur ventes"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:6224",
+  "IdSup": "chart:622",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "6224",
+  "Name": {
+   "fr": "Rémunérations des transitaires"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:6225",
+  "IdSup": "chart:622",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "6225",
+  "Name": {
+   "fr": "Rémunérations d'affacturage"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:6226",
+  "IdSup": "chart:622",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "6226",
+  "Name": {
+   "fr": "Honoraires"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:6227",
+  "IdSup": "chart:622",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "6227",
+  "Name": {
+   "fr": "Frais d'actes et de contentieux"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:6228",
+  "IdSup": "chart:622",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "6228",
+  "Name": {
+   "fr": "Divers"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:623",
+  "IdSup": "chart:62",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "623",
+  "Name": {
+   "fr": "Publicité, publications, relations publiques"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:6231",
+  "IdSup": "chart:623",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "6231",
+  "Name": {
+   "fr": "Annonces et insertions"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:6232",
+  "IdSup": "chart:623",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "6232",
+  "Name": {
+   "fr": "Échantillons"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:6233",
+  "IdSup": "chart:623",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "6233",
+  "Name": {
+   "fr": "Foires et expositions"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:6234",
+  "IdSup": "chart:623",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "6234",
+  "Name": {
+   "fr": "Cadeaux à la clientèle"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:6235",
+  "IdSup": "chart:623",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "6235",
+  "Name": {
+   "fr": "Primes"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:6236",
+  "IdSup": "chart:623",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "6236",
+  "Name": {
+   "fr": "Catalogues et imprimés"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:6237",
+  "IdSup": "chart:623",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "6237",
+  "Name": {
+   "fr": "Publications"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:6238",
+  "IdSup": "chart:623",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "6238",
+  "Name": {
+   "fr": "Divers (pourboires, dons courants)"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:624",
+  "IdSup": "chart:62",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "624",
+  "Name": {
+   "fr": "Transports de biens et transports collectifs du personnel"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:6241",
+  "IdSup": "chart:624",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "6241",
+  "Name": {
+   "fr": "Transports sur achats"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:6242",
+  "IdSup": "chart:624",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "6242",
+  "Name": {
+   "fr": "Transports sur ventes"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:6243",
+  "IdSup": "chart:624",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "6243",
+  "Name": {
+   "fr": "Transports entre établissements ou chantiers"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:6244",
+  "IdSup": "chart:624",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "6244",
+  "Name": {
+   "fr": "Transports administratifs"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:6247",
+  "IdSup": "chart:624",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "6247",
+  "Name": {
+   "fr": "Transports collectifs du personnel"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:6248",
+  "IdSup": "chart:624",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "6248",
+  "Name": {
+   "fr": "Divers"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:625",
+  "IdSup": "chart:62",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "625",
+  "Name": {
+   "fr": "Déplacements, missions et réceptions"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:6251",
+  "IdSup": "chart:625",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "6251",
+  "Name": {
+   "fr": "Voyages et déplacements"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:6255",
+  "IdSup": "chart:625",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "6255",
+  "Name": {
+   "fr": "Frais de déménagement"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:6256",
+  "IdSup": "chart:625",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "6256",
+  "Name": {
+   "fr": "Missions"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:6257",
+  "IdSup": "chart:625",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "6257",
+  "Name": {
+   "fr": "Réceptions"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:626",
+  "IdSup": "chart:62",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "626",
+  "Name": {
+   "fr": "Frais postaux et de télécommunications"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:627",
+  "IdSup": "chart:62",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "627",
+  "Name": {
+   "fr": "Services bancaires et assimilés"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:6271",
+  "IdSup": "chart:627",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "6271",
+  "Name": {
+   "fr": "Frais sur titres (achat, vente, garde)"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:6272",
+  "IdSup": "chart:627",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "6272",
+  "Name": {
+   "fr": "Commissions et frais sur émission d'emprunts"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:6275",
+  "IdSup": "chart:627",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "6275",
+  "Name": {
+   "fr": "Frais sur effets"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:6276",
+  "IdSup": "chart:627",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "6276",
+  "Name": {
+   "fr": "Location de coffres"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:6278",
+  "IdSup": "chart:627",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "6278",
+  "Name": {
+   "fr": "Autres frais et commissions sur prestations de services"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:628",
+  "IdSup": "chart:62",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "628",
+  "Name": {
+   "fr": "Divers"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:6281",
+  "IdSup": "chart:628",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "6281",
+  "Name": {
+   "fr": "Concours divers (cotisations)"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:6284",
+  "IdSup": "chart:628",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "6284",
+  "Name": {
+   "fr": "Frais de recrutement de personnel"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:629",
+  "IdSup": "chart:62",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "629",
+  "Name": {
+   "fr": "Rabais, remises et ristournes obtenus sur autres services extérieurs"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:63",
+  "IdSup": "chart:6",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "63",
+  "Name": {
+   "fr": "Impôts, taxes et versements assimilés"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:631",
+  "IdSup": "chart:63",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "631",
+  "Name": {
+   "fr": "Impôts, taxes et versements assimilés sur rémunérations (administrations des impôts)"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:6311",
+  "IdSup": "chart:631",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "6311",
+  "Name": {
+   "fr": "Taxe sur les salaires"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:6314",
+  "IdSup": "chart:631",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "6314",
+  "Name": {
+   "fr": "Cotisation pour défaut d'investissement obligatoire dans la construction"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:6318",
+  "IdSup": "chart:631",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "6318",
+  "Name": {
+   "fr": "Autres"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:633",
+  "IdSup": "chart:63",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "633",
+  "Name": {
+   "fr": "Impôts, taxes et versements assimilés sur rémunérations (autres organismes)"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:6331",
+  "IdSup": "chart:633",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "6331",
+  "Name": {
+   "fr": "Versement de transport"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:6332",
+  "IdSup": "chart:633",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "6332",
+  "Name": {
+   "fr": "Allocations logement"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:6333",
+  "IdSup": "chart:633",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "6333",
+  "Name": {
+   "fr": "Contribution unique des employeurs à la formation professionnelle"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:6334",
+  "IdSup": "chart:633",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "6334",
+  "Name": {
+   "fr": "Participation des employeurs à l'effort de construction"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:6335",
+  "IdSup": "chart:633",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "6335",
+  "Name": {
+   "fr": "Versements libératoires ouvrant droit à l'exonération de la taxe d'apprentissage"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:6338",
+  "IdSup": "chart:633",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "6338",
+  "Name": {
+   "fr": "Autres"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:635",
+  "IdSup": "chart:63",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "635",
+  "Name": {
+   "fr": "Autres impôts, taxes et versements assimilés (administrations des impôts)"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:6351",
+  "IdSup": "chart:635",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "6351",
+  "Name": {
+   "fr": "Impôts directs (sauf impôts sur les bénéfices)"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:63511",
+  "IdSup": "chart:6351",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "63511",
+  "Name": {
+   "fr": "Contribution économique territoriale"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:63512",
+  "IdSup": "chart:6351",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "63512",
+  "Name": {
+   "fr": "Taxes foncières"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:63513",
+  "IdSup": "chart:6351",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "63513",
+  "Name": {
+   "fr": "Autres impôts locaux"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:63514",
+  "IdSup": "chart:6351",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "63514",
+  "Name": {
+   "fr": "Taxe sur les véhicules des sociétés"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:6352",
+  "IdSup": "chart:635",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "6352",
+  "Name": {
+   "fr": "Taxe sur le chiffre d'affaires non récupérables"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:6353",
+  "IdSup": "chart:635",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "6353",
+  "Name": {
+   "fr": "Impôts indirects"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:6354",
+  "IdSup": "chart:635",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "6354",
+  "Name": {
+   "fr": "Droits d'enregistrement et de timbre"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:63541",
+  "IdSup": "chart:6354",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "63541",
+  "Name": {
+   "fr": "Droits de mutation"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:6358",
+  "IdSup": "chart:635",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "6358",
+  "Name": {
+   "fr": "Autres droits"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:637",
+  "IdSup": "chart:63",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "637",
+  "Name": {
+   "fr": "Autres impôts, taxes et versements assimilés (autres organismes)"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:6371",
+  "IdSup": "chart:637",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "6371",
+  "Name": {
+   "fr": "Contribution sociale de solidarité à la charge des sociétés"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:6372",
+  "IdSup": "chart:637",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "6372",
+  "Name": {
+   "fr": "Taxes perçues par les organismes publics internationaux"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:6374",
+  "IdSup": "chart:637",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "6374",
+  "Name": {
+   "fr": "Impôts et taxes exigibles à l'étranger"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:6378",
+  "IdSup": "chart:637",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "6378",
+  "Name": {
+   "fr": "Taxes diverses"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:638",
+  "IdSup": "chart:63",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "638",
+  "Name": {
+   "fr": "Rappel d’impôts (autres qu’impôts sur les bénéfices)"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:64",
+  "IdSup": "chart:6",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "64",
+  "Name": {
+   "fr": "Charges de personnel"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:641",
+  "IdSup": "chart:64",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "641",
+  "Name": {
+   "fr": "Rémunérations du personnel"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:6411",
+  "IdSup": "chart:641",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "6411",
+  "Name": {
+   "fr": "Salaires, appointements"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:6412",
+  "IdSup": "chart:641",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "6412",
+  "Name": {
+   "fr": "Congés payés"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:6413",
+  "IdSup": "chart:641",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "6413",
+  "Name": {
+   "fr": "Primes et gratifications"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:6414",
+  "IdSup": "chart:641",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "6414",
+  "Name": {
+   "fr": "Indemnités et avantages divers"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:6415",
+  "IdSup": "chart:641",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "6415",
+  "Name": {
+   "fr": "Supplément familial"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:644",
+  "IdSup": "chart:64",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "644",
+  "Name": {
+   "fr": "Rémunération du travail de l'exploitant"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:645",
+  "IdSup": "chart:64",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "645",
+  "Name": {
+   "fr": "Cotisations de sécurité sociale et de prévoyance"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:6451",
+  "IdSup": "chart:645",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "6451",
+  "Name": {
+   "fr": "Cotisations à l'Urssaf"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:6452",
+  "IdSup": "chart:645",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "6452",
+  "Name": {
+   "fr": "Cotisations aux mutuelles"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:6453",
+  "IdSup": "chart:645",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "6453",
+  "Name": {
+   "fr": "Cotisations aux caisses de retraites"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:6454",
+  "IdSup": "chart:645",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "6454",
+  "Name": {
+   "fr": "Cotisations à Pôle emploi"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:6458",
+  "IdSup": "chart:645",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "6458",
+  "Name": {
+   "fr": "Cotisations aux autres organismes sociaux"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:646",
+  "IdSup": "chart:64",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "646",
+  "Name": {
+   "fr": "Cotisations sociales personnelles de l'exploitant"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:647",
+  "IdSup": "chart:64",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "647",
+  "Name": {
+   "fr": "Autres cotisations sociales"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:6471",
+  "IdSup": "chart:647",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "6471",
+  "Name": {
+   "fr": "Prestations directes"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:6472",
+  "IdSup": "chart:647",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "6472",
+  "Name": {
+   "fr": "Versements au comité social et économique"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:6474",
+  "IdSup": "chart:647",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "6474",
+  "Name": {
+   "fr": "Versements aux autres œuvres sociales"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:6475",
+  "IdSup": "chart:647",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "6475",
+  "Name": {
+   "fr": "Médecine du travail, pharmacie"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:648",
+  "IdSup": "chart:64",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "648",
+  "Name": {
+   "fr": "Autres charges de personnel"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:649",
+  "IdSup": "chart:64",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "649",
+  "Name": {
+   "fr": "Remboursements de charges de personnel"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:65",
+  "IdSup": "chart:6",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "65",
+  "Name": {
+   "fr": "Autres charges de gestion courante"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:651",
+  "IdSup": "chart:65",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "651",
+  "Name": {
+   "fr": "Redevances pour concessions, brevets, licences, marques, procédés, solutions informatiques, droits et valeurs similaires"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:6511",
+  "IdSup": "chart:651",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "6511",
+  "Name": {
+   "fr": "Redevances pour concessions, brevets, licences, marques, procédés, solutions informatiques"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:6516",
+  "IdSup": "chart:651",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "6516",
+  "Name": {
+   "fr": "Droits d'auteur et de reproduction"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:6518",
+  "IdSup": "chart:651",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "6518",
+  "Name": {
+   "fr": "Autres droits et valeurs similaires"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:653",
+  "IdSup": "chart:65",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "653",
+  "Name": {
+   "fr": "Rémunérations de l’activité des administrateurs et des gérants"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:654",
+  "IdSup": "chart:65",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "654",
+  "Name": {
+   "fr": "Pertes sur créances irrécouvrables"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:6541",
+  "IdSup": "chart:654",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "6541",
+  "Name": {
+   "fr": "Créances de l'exercice"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:6544",
+  "IdSup": "chart:654",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "6544",
+  "Name": {
+   "fr": "Créances des exercices antérieurs"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:655",
+  "IdSup": "chart:65",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "655",
+  "Name": {
+   "fr": "Quote-part de résultat sur opérations faites en commun"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:6551",
+  "IdSup": "chart:655",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "6551",
+  "Name": {
+   "fr": "Quote-part de bénéfice transférée - comptabilité du gérant"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:6555",
+  "IdSup": "chart:655",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "6555",
+  "Name": {
+   "fr": "Quote-part de perte supportée - comptabilité des associés non gérants"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:656",
+  "IdSup": "chart:65",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "656",
+  "Name": {
+   "fr": "Pertes de change sur créances et dettes commerciales"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:657",
+  "IdSup": "chart:65",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "657",
+  "Name": {
+   "fr": "Valeurs comptables des immobilisations incorporelles et corporelles cédées"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:658",
+  "IdSup": "chart:65",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "658",
+  "Name": {
+   "fr": "Pénalités et autres charges"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:6581",
+  "IdSup": "chart:658",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "6581",
+  "Name": {
+   "fr": "Pénalités sur marchés (et dédits payés sur achats et ventes)"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:6582",
+  "IdSup": "chart:658",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "6582",
+  "Name": {
+   "fr": "Pénalités, amendes fiscales et pénales"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:6583",
+  "IdSup": "chart:658",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "6583",
+  "Name": {
+   "fr": "Malis provenant de clauses d’indexation"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:6584",
+  "IdSup": "chart:658",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "6584",
+  "Name": {
+   "fr": "Lots"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:6588",
+  "IdSup": "chart:658",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "6588",
+  "Name": {
+   "fr": "Opérations de constitution ou liquidation des fiducies"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:6589",
+  "IdSup": "chart:658",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "6589",
+  "Name": {
+   "fr": "Pertes et freintes sur stocks"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:66",
+  "IdSup": "chart:6",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "66",
+  "Name": {
+   "fr": "Charges financières"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:661",
+  "IdSup": "chart:66",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "661",
+  "Name": {
+   "fr": "Charges d'intérêts"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:6611",
+  "IdSup": "chart:661",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "6611",
+  "Name": {
+   "fr": "Intérêts des emprunts et dettes"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:66116",
+  "IdSup": "chart:6611",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "66116",
+  "Name": {
+   "fr": "Intérêts des emprunts et dettes assimilées"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:66117",
+  "IdSup": "chart:6611",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "66117",
+  "Name": {
+   "fr": "Intérêts des dettes rattachées à des participations"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:6612",
+  "IdSup": "chart:661",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "6612",
+  "Name": {
+   "fr": "Charges de la fiducie, résultat de la période"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:6615",
+  "IdSup": "chart:661",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "6615",
+  "Name": {
+   "fr": "Intérêts des comptes courants et des dépôts créditeurs"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:6616",
+  "IdSup": "chart:661",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "6616",
+  "Name": {
+   "fr": "Intérêts bancaires et sur opérations de financement (escompte…)"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:6617",
+  "IdSup": "chart:661",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "6617",
+  "Name": {
+   "fr": "Intérêts des obligations cautionnées"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:6618",
+  "IdSup": "chart:661",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "6618",
+  "Name": {
+   "fr": "Intérêts des autres dettes"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:66181",
+  "IdSup": "chart:6618",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "66181",
+  "Name": {
+   "fr": "Intérêts des dettes commerciales"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:66188",
+  "IdSup": "chart:6618",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "66188",
+  "Name": {
+   "fr": "Intérêts des dettes diverses"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:664",
+  "IdSup": "chart:66",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "664",
+  "Name": {
+   "fr": "Pertes sur créances liées à des participations"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:665",
+  "IdSup": "chart:66",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "665",
+  "Name": {
+   "fr": "Escomptes accordés"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:666",
+  "IdSup": "chart:66",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "666",
+  "Name": {
+   "fr": "Pertes de change financières"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:667",
+  "IdSup": "chart:66",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "667",
+  "Name": {
+   "fr": "Charges sur cession d’éléments financiers"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:6671",
+  "IdSup": "chart:667",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "6671",
+  "Name": {
+   "fr": "Valeurs comptables des immobilisations financières cédées"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:6672",
+  "IdSup": "chart:667",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "6672",
+  "Name": {
+   "fr": "Charges nettes sur cessions de titres immobilisés de l’activité de portefeuille"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:6673",
+  "IdSup": "chart:667",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "6673",
+  "Name": {
+   "fr": "Charges nettes sur cessions de valeurs mobilières de placement"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:6674",
+  "IdSup": "chart:667",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "6674",
+  "Name": {
+   "fr": "Charges nettes sur cessions de jetons"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:668",
+  "IdSup": "chart:66",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "668",
+  "Name": {
+   "fr": "Autres charges financières"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:6683",
+  "IdSup": "chart:668",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "6683",
+  "Name": {
+   "fr": "Mali provenant du rachat par l’entité d’actions et obligations émises par elle- même"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:67",
+  "IdSup": "chart:6",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "67",
+  "Name": {
+   "fr": "Charges exceptionnelles"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:672",
+  "IdSup": "chart:67",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "672",
+  "Name": {
+   "fr": "(Compte à la disposition des entités pour enregistrer, en cours d'exercice, les charges sur exercices antérieurs)"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:678",
+  "IdSup": "chart:67",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "678",
+  "Name": {
+   "fr": "Autres charges exceptionnelles"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:68",
+  "IdSup": "chart:6",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "68",
+  "Name": {
+   "fr": "Dotations aux amortissements, aux dépréciations et aux provisions"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:681",
+  "IdSup": "chart:68",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "681",
+  "Name": {
+   "fr": "Dotations aux amortissements, aux dépréciations et aux provisions (à inscrire dans les charges d'exploitation)"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:6811",
+  "IdSup": "chart:681",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "6811",
+  "Name": {
+   "fr": "Dotations aux amortissements sur immobilisations incorporelles et corporelles"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:68111",
+  "IdSup": "chart:6811",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "68111",
+  "Name": {
+   "fr": "Immobilisations incorporelles et frais d’établissement"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:68112",
+  "IdSup": "chart:6811",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "68112",
+  "Name": {
+   "fr": "Immobilisations corporelles"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:6815",
+  "IdSup": "chart:681",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "6815",
+  "Name": {
+   "fr": "Dotations aux provisions d'exploitation"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:6816",
+  "IdSup": "chart:681",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "6816",
+  "Name": {
+   "fr": "Dotations pour dépréciations des immobilisations incorporelles et corporelles"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:68161",
+  "IdSup": "chart:6816",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "68161",
+  "Name": {
+   "fr": "Immobilisations incorporelles"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:68162",
+  "IdSup": "chart:6816",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "68162",
+  "Name": {
+   "fr": "Immobilisations corporelles"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:6817",
+  "IdSup": "chart:681",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "6817",
+  "Name": {
+   "fr": "Dotations pour dépréciations des actifs circulants"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:68173",
+  "IdSup": "chart:6817",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "68173",
+  "Name": {
+   "fr": "Stocks et en-cours"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:68174",
+  "IdSup": "chart:6817",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "68174",
+  "Name": {
+   "fr": "Créances"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:686",
+  "IdSup": "chart:68",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "686",
+  "Name": {
+   "fr": "Dotations aux amortissements, aux dépréciations et aux provisions (à inscrire dans les charges financières)"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:6861",
+  "IdSup": "chart:686",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "6861",
+  "Name": {
+   "fr": "Dotations aux amortissements des primes de remboursement des emprunts"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:6862",
+  "IdSup": "chart:686",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "6862",
+  "Name": {
+   "fr": "Dotations aux amortissements des frais d'émission des emprunts"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:6865",
+  "IdSup": "chart:686",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "6865",
+  "Name": {
+   "fr": "Dotations aux provisions financières"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:6866",
+  "IdSup": "chart:686",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "6866",
+  "Name": {
+   "fr": "Dotations pour dépréciation des éléments financiers"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:68662",
+  "IdSup": "chart:6866",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "68662",
+  "Name": {
+   "fr": "Immobilisations financières"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:68665",
+  "IdSup": "chart:6866",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "68665",
+  "Name": {
+   "fr": "Valeurs mobilières de placement"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:687",
+  "IdSup": "chart:68",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "687",
+  "Name": {
+   "fr": "Dotations aux amortissements, aux dépréciations et aux provisions (à inscrire dans les charges exceptionnelles)"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:6871",
+  "IdSup": "chart:687",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "6871",
+  "Name": {
+   "fr": "Dotations aux amortissements exceptionnels des immobilisations"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:6872",
+  "IdSup": "chart:687",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "6872",
+  "Name": {
+   "fr": "Dotations aux provisions réglementées (immobilisations)"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:68725",
+  "IdSup": "chart:6872",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "68725",
+  "Name": {
+   "fr": "Amortissements dérogatoires"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:6873",
+  "IdSup": "chart:687",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "6873",
+  "Name": {
+   "fr": "Dotations aux provisions réglementées (stocks)"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:6874",
+  "IdSup": "chart:687",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "6874",
+  "Name": {
+   "fr": "Dotations aux autres provisions réglementées"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:6875",
+  "IdSup": "chart:687",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "6875",
+  "Name": {
+   "fr": "Dotations aux provisions exceptionnelles"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:6876",
+  "IdSup": "chart:687",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "6876",
+  "Name": {
+   "fr": "Dotations pour dépréciations exceptionnelles"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:69",
+  "IdSup": "chart:6",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "69",
+  "Name": {
+   "fr": "Participation des salariés - Impôts sur les bénéfices et assimilés"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:691",
+  "IdSup": "chart:69",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "691",
+  "Name": {
+   "fr": "Participation des salariés aux résultats"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:695",
+  "IdSup": "chart:69",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "695",
+  "Name": {
+   "fr": "Impôts sur les bénéfices"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:6951",
+  "IdSup": "chart:695",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "6951",
+  "Name": {
+   "fr": "Impôts dus en France"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:6952",
+  "IdSup": "chart:695",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "6952",
+  "Name": {
+   "fr": "Contribution additionnelle à l'impôt sur les bénéfices"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:6954",
+  "IdSup": "chart:695",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "6954",
+  "Name": {
+   "fr": "Impôts dus à l'étranger"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:696",
+  "IdSup": "chart:69",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "696",
+  "Name": {
+   "fr": "Suppléments d'impôt sur les sociétés liés aux distributions"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:698",
+  "IdSup": "chart:69",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "698",
+  "Name": {
+   "fr": "Intégration fiscale"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:6981",
+  "IdSup": "chart:698",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "6981",
+  "Name": {
+   "fr": "Intégration fiscale - Charges"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:6989",
+  "IdSup": "chart:698",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "6989",
+  "Name": {
+   "fr": "Intégration fiscale - Produits"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:699",
+  "IdSup": "chart:69",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "699",
+  "Name": {
+   "fr": "Produits - Reports en arrière des déficits"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:7",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "7",
+  "Name": {
+   "fr": "Comptes de produits"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:70",
+  "IdSup": "chart:7",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "70",
+  "Name": {
+   "fr": "Ventes de produits fabriqués, prestations de services, marchandises"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:701",
+  "IdSup": "chart:70",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "701",
+  "Name": {
+   "fr": "Ventes de produits finis"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:702",
+  "IdSup": "chart:70",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "702",
+  "Name": {
+   "fr": "Ventes de produits intermédiaires"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:703",
+  "IdSup": "chart:70",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "703",
+  "Name": {
+   "fr": "Ventes de produits résiduels"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:704",
+  "IdSup": "chart:70",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "704",
+  "Name": {
+   "fr": "Travaux"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:705",
+  "IdSup": "chart:70",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "705",
+  "Name": {
+   "fr": "Études"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:706",
+  "IdSup": "chart:70",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "706",
+  "Name": {
+   "fr": "Prestations de services"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:707",
+  "IdSup": "chart:70",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "707",
+  "Name": {
+   "fr": "Ventes de marchandises"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:708",
+  "IdSup": "chart:70",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "708",
+  "Name": {
+   "fr": "Produits des activités annexes"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:7081",
+  "IdSup": "chart:708",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "7081",
+  "Name": {
+   "fr": "Produits des services exploités dans l'intérêt du personnel"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:7082",
+  "IdSup": "chart:708",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "7082",
+  "Name": {
+   "fr": "Commissions et courtages"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:7083",
+  "IdSup": "chart:708",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "7083",
+  "Name": {
+   "fr": "Locations diverses"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:7084",
+  "IdSup": "chart:708",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "7084",
+  "Name": {
+   "fr": "Mise à disposition de personnel facturée"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:7085",
+  "IdSup": "chart:708",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "7085",
+  "Name": {
+   "fr": "Ports et frais accessoires facturés"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:7086",
+  "IdSup": "chart:708",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "7086",
+  "Name": {
+   "fr": "Bonis sur reprises d'emballages consignés"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:7087",
+  "IdSup": "chart:708",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "7087",
+  "Name": {
+   "fr": "Bonifications obtenues des clients et primes sur ventes"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:7088",
+  "IdSup": "chart:708",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "7088",
+  "Name": {
+   "fr": "Autres produits d'activités annexes (cessions d'approvisionnements)"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:709",
+  "IdSup": "chart:70",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "709",
+  "Name": {
+   "fr": "Rabais, remises et ristournes accordés"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:7091",
+  "IdSup": "chart:709",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "7091",
+  "Name": {
+   "fr": "Rabais, remises et ristournes accordés sur ventes de produits finis"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:7092",
+  "IdSup": "chart:709",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "7092",
+  "Name": {
+   "fr": "Rabais, remises et ristournes accordés sur ventes de produits intermédiaires"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:7094",
+  "IdSup": "chart:709",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "7094",
+  "Name": {
+   "fr": "Rabais, remises et ristournes accordés sur travaux"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:7095",
+  "IdSup": "chart:709",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "7095",
+  "Name": {
+   "fr": "Rabais, remises et ristournes accordés sur études"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:7096",
+  "IdSup": "chart:709",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "7096",
+  "Name": {
+   "fr": "Rabais, remises et ristournes accordés sur prestations de services"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:7097",
+  "IdSup": "chart:709",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "7097",
+  "Name": {
+   "fr": "Rabais, remises et ristournes accordés sur ventes de marchandises"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:7098",
+  "IdSup": "chart:709",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "7098",
+  "Name": {
+   "fr": "Rabais, remises et ristournes accordés sur produits des activités annexes"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:71",
+  "IdSup": "chart:7",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "71",
+  "Name": {
+   "fr": "Production stockée (ou déstockage)"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:713",
+  "IdSup": "chart:71",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "713",
+  "Name": {
+   "fr": "Variation des stocks des en-cours de production et de produits"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:7133",
+  "IdSup": "chart:713",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "7133",
+  "Name": {
+   "fr": "Variation des en-cours de production de biens"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:71331",
+  "IdSup": "chart:7133",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "71331",
+  "Name": {
+   "fr": "Produits en cours"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:71335",
+  "IdSup": "chart:7133",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "71335",
+  "Name": {
+   "fr": "Travaux en cours"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:7134",
+  "IdSup": "chart:713",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "7134",
+  "Name": {
+   "fr": "Variation des en-cours de production de services"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:71341",
+  "IdSup": "chart:7134",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "71341",
+  "Name": {
+   "fr": "Études en cours"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:71345",
+  "IdSup": "chart:7134",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "71345",
+  "Name": {
+   "fr": "Prestations de services en cours"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:7135",
+  "IdSup": "chart:713",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "7135",
+  "Name": {
+   "fr": "Variation des stocks de produits"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:71351",
+  "IdSup": "chart:7135",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "71351",
+  "Name": {
+   "fr": "Produits intermédiaires"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:71355",
+  "IdSup": "chart:7135",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "71355",
+  "Name": {
+   "fr": "Produits finis"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:71358",
+  "IdSup": "chart:7135",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "71358",
+  "Name": {
+   "fr": "Produits résiduels"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:72",
+  "IdSup": "chart:7",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "72",
+  "Name": {
+   "fr": "Production immobilisée"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:721",
+  "IdSup": "chart:72",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "721",
+  "Name": {
+   "fr": "Immobilisations incorporelles"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:722",
+  "IdSup": "chart:72",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "722",
+  "Name": {
+   "fr": "Immobilisations corporelles"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:74",
+  "IdSup": "chart:7",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "74",
+  "Name": {
+   "fr": "Subventions"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:741",
+  "IdSup": "chart:74",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "741",
+  "Name": {
+   "fr": "Subventions d’exploitation"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:742",
+  "IdSup": "chart:74",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "742",
+  "Name": {
+   "fr": "Subventions d’équilibre"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:747",
+  "IdSup": "chart:74",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "747",
+  "Name": {
+   "fr": "Quote-part des subventions d’investissement virée au résultat de l’exercice"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:75",
+  "IdSup": "chart:7",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "75",
+  "Name": {
+   "fr": "Autres produits de gestion courante"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:751",
+  "IdSup": "chart:75",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "751",
+  "Name": {
+   "fr": "Redevances pour concessions, brevets, licences, marques, procédés, solutions informatiques, droits et valeurs similaires"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:7511",
+  "IdSup": "chart:751",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "7511",
+  "Name": {
+   "fr": "Redevances pour concessions, brevets, licences, marques, procédés, solutions informatiques"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:7516",
+  "IdSup": "chart:751",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "7516",
+  "Name": {
+   "fr": "Droits d'auteur et de reproduction"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:7518",
+  "IdSup": "chart:751",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "7518",
+  "Name": {
+   "fr": "Autres droits et valeurs similaires"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:752",
+  "IdSup": "chart:75",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "752",
+  "Name": {
+   "fr": "Revenus des immeubles non affectés à des activités professionnelles"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:753",
+  "IdSup": "chart:75",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "753",
+  "Name": {
+   "fr": "Rémunérations de l’activité des administrateurs et des gérants"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:754",
+  "IdSup": "chart:75",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "754",
+  "Name": {
+   "fr": "Ristournes perçues des coopératives provenant des excédents"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:755",
+  "IdSup": "chart:75",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "755",
+  "Name": {
+   "fr": "Quote-part de résultat sur opérations faites en commun"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:7551",
+  "IdSup": "chart:755",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "7551",
+  "Name": {
+   "fr": "Quote-part de perte transférée - comptabilité du gérant"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:7555",
+  "IdSup": "chart:755",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "7555",
+  "Name": {
+   "fr": "Quote-part de bénéfice attribuée - comptabilité des associés non-gérants"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:756",
+  "IdSup": "chart:75",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "756",
+  "Name": {
+   "fr": "Gains de change sur créances et dettes commerciales"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:757",
+  "IdSup": "chart:75",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "757",
+  "Name": {
+   "fr": "Produits des cessions d’immobilisations incorporelles et corporelles"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:758",
+  "IdSup": "chart:75",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "758",
+  "Name": {
+   "fr": "Indemnités et autres produits"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:7581",
+  "IdSup": "chart:758",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "7581",
+  "Name": {
+   "fr": "Dédits et pénalités perçus sur achats et ventes"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:7582",
+  "IdSup": "chart:758",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "7582",
+  "Name": {
+   "fr": "Libéralités reçues"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:7583",
+  "IdSup": "chart:758",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "7583",
+  "Name": {
+   "fr": "Rentrées sur créances amorties"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:7584",
+  "IdSup": "chart:758",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "7584",
+  "Name": {
+   "fr": "Dégrèvements d’impôts autres qu’impôts sur les bénéfices"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:7585",
+  "IdSup": "chart:758",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "7585",
+  "Name": {
+   "fr": "Bonis provenant de clauses d’indexation"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:7586",
+  "IdSup": "chart:758",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "7586",
+  "Name": {
+   "fr": "Lots"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:7587",
+  "IdSup": "chart:758",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "7587",
+  "Name": {
+   "fr": "Indemnités d’assurance"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:7588",
+  "IdSup": "chart:758",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "7588",
+  "Name": {
+   "fr": "Opérations de constitution ou liquidation des fiducies"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:76",
+  "IdSup": "chart:7",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "76",
+  "Name": {
+   "fr": "Produits financiers"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:761",
+  "IdSup": "chart:76",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "761",
+  "Name": {
+   "fr": "Produits de participations"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:7611",
+  "IdSup": "chart:761",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "7611",
+  "Name": {
+   "fr": "Revenus des titres de participation"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:7612",
+  "IdSup": "chart:761",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "7612",
+  "Name": {
+   "fr": "Produits de la fiducie, résultat de la période"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:7616",
+  "IdSup": "chart:761",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "7616",
+  "Name": {
+   "fr": "Revenus sur autres formes de participation"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:7617",
+  "IdSup": "chart:761",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "7617",
+  "Name": {
+   "fr": "Revenus des créances rattachées à des participations"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:762",
+  "IdSup": "chart:76",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "762",
+  "Name": {
+   "fr": "Produits des autres immobilisations financières"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:7621",
+  "IdSup": "chart:762",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "7621",
+  "Name": {
+   "fr": "Revenus des titres immobilisés"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:7626",
+  "IdSup": "chart:762",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "7626",
+  "Name": {
+   "fr": "Revenus des prêts"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:7627",
+  "IdSup": "chart:762",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "7627",
+  "Name": {
+   "fr": "Revenus des créances immobilisées"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:763",
+  "IdSup": "chart:76",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "763",
+  "Name": {
+   "fr": "Revenus des autres créances"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:7631",
+  "IdSup": "chart:763",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "7631",
+  "Name": {
+   "fr": "Revenus des créances commerciales"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:7638",
+  "IdSup": "chart:763",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "7638",
+  "Name": {
+   "fr": "Revenus des créances diverses"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:764",
+  "IdSup": "chart:76",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "764",
+  "Name": {
+   "fr": "Revenus des valeurs mobilières de placement"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:765",
+  "IdSup": "chart:76",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "765",
+  "Name": {
+   "fr": "Escomptes obtenus"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:766",
+  "IdSup": "chart:76",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "766",
+  "Name": {
+   "fr": "Gains de change financiers"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:767",
+  "IdSup": "chart:76",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "767",
+  "Name": {
+   "fr": "Produits sur cession d’éléments financiers"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:7671",
+  "IdSup": "chart:767",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "7671",
+  "Name": {
+   "fr": "Produits des cessions d’immobilisations financières"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:7672",
+  "IdSup": "chart:767",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "7672",
+  "Name": {
+   "fr": "Produits nets sur cessions de titres immobilisés de l’activité de portefeuille"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:7673",
+  "IdSup": "chart:767",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "7673",
+  "Name": {
+   "fr": "Produits nets sur cessions de valeurs mobilières de placement"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:7674",
+  "IdSup": "chart:767",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "7674",
+  "Name": {
+   "fr": "Produits nets sur cessions de jetons"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:768",
+  "IdSup": "chart:76",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "768",
+  "Name": {
+   "fr": "Autres produits financiers"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:7683",
+  "IdSup": "chart:768",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "7683",
+  "Name": {
+   "fr": "Bonis provenant du rachat par l’entreprise d’actions et d’obligations émises par elle-même"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:77",
+  "IdSup": "chart:7",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "77",
+  "Name": {
+   "fr": "Produits exceptionnels"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:772",
+  "IdSup": "chart:77",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "772",
+  "Name": {
+   "fr": "(Compte à la disposition des entités pour enregistrer, en cours d'exercice, les produits sur exercices antérieurs)"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:778",
+  "IdSup": "chart:77",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "778",
+  "Name": {
+   "fr": "Autres produits exceptionnels"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:78",
+  "IdSup": "chart:7",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "78",
+  "Name": {
+   "fr": "Reprises sur amortissements, dépréciations et provisions"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:781",
+  "IdSup": "chart:78",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "781",
+  "Name": {
+   "fr": "Reprises sur amortissements, dépréciations et provisions (à inscrire dans les produits d'exploitation)"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:7811",
+  "IdSup": "chart:781",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "7811",
+  "Name": {
+   "fr": "Reprises sur amortissements des immobilisations incorporelles et corporelles"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:78111",
+  "IdSup": "chart:7811",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "78111",
+  "Name": {
+   "fr": "Immobilisations incorporelles"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:78112",
+  "IdSup": "chart:7811",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "78112",
+  "Name": {
+   "fr": "Immobilisations corporelles"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:7815",
+  "IdSup": "chart:781",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "7815",
+  "Name": {
+   "fr": "Reprises sur provisions d'exploitation"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:7816",
+  "IdSup": "chart:781",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "7816",
+  "Name": {
+   "fr": "Reprises sur dépréciations des immobilisations incorporelles et corporelles"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:78161",
+  "IdSup": "chart:7816",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "78161",
+  "Name": {
+   "fr": "Immobilisations incorporelles"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:78162",
+  "IdSup": "chart:7816",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "78162",
+  "Name": {
+   "fr": "Immobilisations corporelles"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:7817",
+  "IdSup": "chart:781",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "7817",
+  "Name": {
+   "fr": "Reprises sur dépréciations des actifs circulants"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:78173",
+  "IdSup": "chart:7817",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "78173",
+  "Name": {
+   "fr": "Stocks et en-cours"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:78174",
+  "IdSup": "chart:7817",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "78174",
+  "Name": {
+   "fr": "Créances"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:786",
+  "IdSup": "chart:78",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "786",
+  "Name": {
+   "fr": "Reprises sur dépréciations et provisions (à inscrire dans les produits financiers)"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:7865",
+  "IdSup": "chart:786",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "7865",
+  "Name": {
+   "fr": "Reprises sur provisions financières"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:7866",
+  "IdSup": "chart:786",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "7866",
+  "Name": {
+   "fr": "Reprises sur dépréciations des éléments financiers"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:78662",
+  "IdSup": "chart:7866",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "78662",
+  "Name": {
+   "fr": "Immobilisations financières"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:78665",
+  "IdSup": "chart:7866",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "78665",
+  "Name": {
+   "fr": "Valeurs mobilières de placement"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:787",
+  "IdSup": "chart:78",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "787",
+  "Name": {
+   "fr": "Reprises sur dépréciations et provisions (à inscrire dans les produits exceptionnels)"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:7872",
+  "IdSup": "chart:787",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "7872",
+  "Name": {
+   "fr": "Reprises sur provisions réglementées (immobilisations)"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:78725",
+  "IdSup": "chart:7872",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "78725",
+  "Name": {
+   "fr": "Amortissements dérogatoires"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:7873",
+  "IdSup": "chart:787",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "7873",
+  "Name": {
+   "fr": "Reprises sur provisions réglementées (stocks)"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:7874",
+  "IdSup": "chart:787",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "7874",
+  "Name": {
+   "fr": "Reprises sur autres provisions réglementées"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:7875",
+  "IdSup": "chart:787",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "7875",
+  "Name": {
+   "fr": "Reprises sur provisions exceptionnelles"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:7876",
+  "IdSup": "chart:787",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "7876",
+  "Name": {
+   "fr": "Reprises sur dépréciations exceptionnelles"
+  },
+  "IsComposite": false
+ }
+]

@@ -1,0 +1,179 @@
+# Gamma's generic chart (chart-generic.tsv) in Slovenian, by account code. Gamma's translations.
+# code	sl
+1	Dolgoročna sredstva
+11	Opredmetena osnovna sredstva
+1101	Zemljišča
+1102	Zgradbe
+1103	Proizvajalne naprave in stroji
+1104	Prevozna sredstva
+1105	Pohištvo in oprema
+1106	Računalniška oprema
+1107	Osnovna sredstva v gradnji
+12	Popravek vrednosti opredmetenih osnovnih sredstev
+1202	Popravek vrednosti zgradb
+1203	Popravek vrednosti proizvajalnih naprav in strojev
+1204	Popravek vrednosti prevoznih sredstev
+1205	Popravek vrednosti pohištva in opreme
+1206	Popravek vrednosti računalniške opreme
+13	Neopredmetena sredstva
+1301	Dobro ime
+1302	Programska oprema
+1303	Blagovne znamke in licence
+14	Popravek vrednosti neopredmetenih sredstev
+1402	Popravek vrednosti programske opreme
+1403	Popravek vrednosti blagovnih znamk in licenc
+15	Naložbene nepremičnine
+1501	Naložbene nepremičnine
+16	Dolgoročne finančne naložbe
+1601	Deleži v odvisnih družbah
+1602	Deleži v pridruženih družbah
+1603	Druge naložbe
+1604	Dolgoročno dana posojila
+17	Odloženi davki
+1701	Odložene terjatve za davek
+2	Kratkoročna sredstva
+20	Zaloge
+2001	Trgovsko blago
+2002	Surovine
+2003	Pomožni material
+2004	Proizvodi
+2005	Nedokončana proizvodnja
+22	Poslovne terjatve do kupcev
+2201	Kupci v državi
+2202	Kupci v tujini
+2203	Čeki za izterjavo
+2209	Popravek vrednosti terjatev
+23	Druge terjatve
+2301	Kratkoročno odloženi stroški
+2302	Predujmi dobaviteljem
+2303	Predujmi zaposlenim
+2304	Dane varščine
+2305	Druge terjatve
+24	Terjatve za davke
+2401	Vstopni DDV
+2402	Terjatev za vračilo DDV
+2403	Akontacija davka od dohodka
+28	Denarna sredstva
+2801	Blagajna
+2802	Devizna blagajna
+2803	Transakcijski račun
+2804	Devizni račun
+2805	Vezani depoziti
+2806	Denar na poti
+3	Kapital
+30	Osnovni kapital
+3001	Osnovni kapital
+3002	Kapitalske rezerve
+31	Rezerve
+3101	Revalorizacijske rezerve
+3102	Druge rezerve
+32	Preneseni dobiček
+3201	Preneseni čisti poslovni izid
+3202	Čisti poslovni izid poslovnega leta
+4	Obveznosti
+40	Dolgoročne obveznosti
+4001	Dolgoročni bančni krediti
+4002	Obveznosti iz najemov
+4003	Posojila družbenikov
+4004	Odložene obveznosti za davek
+4005	Rezervacije
+41	Poslovne obveznosti do dobaviteljev
+4101	Dobavitelji v državi
+4102	Dobavitelji v tujini
+4103	Obveznosti iz menic
+4104	Prejeti predujmi od kupcev
+42	Druge obveznosti
+4201	Vnaprej vračunani stroški
+4202	Odloženi prihodki
+4203	Obveznosti za plače
+4204	Obveznosti za prispevke za socialno varnost
+4205	Obveznosti za prispevke za zdravstveno zavarovanje
+4206	Druge obveznosti
+4207	Obveznosti za dividende
+43	Kratkoročne finančne obveznosti
+4301	Prekoračitve na računu
+4302	Kratkoročni bančni krediti
+44	Obveznosti za davke
+4401	Obračunani DDV
+4402	Obveznost za DDV
+4403	Obveznost za davek od dohodka pravnih oseb
+4404	Obveznost za dohodnino
+4405	Druge davčne obveznosti
+5	Prihodki
+50	Čisti prihodki od prodaje
+5001	Prihodki od prodaje blaga
+5002	Prihodki od storitev
+5003	Prihodki od prodaje proizvodov
+5004	Vračila in popusti pri prodaji
+51	Drugi poslovni prihodki
+5101	Prihodki od najemnin
+5102	Subvencije
+5103	Dobiček pri prodaji osnovnih sredstev
+5104	Drugi prihodki
+52	Finančni prihodki
+5201	Prihodki od obresti
+5202	Prihodki od dividend
+5203	Pozitivne tečajne razlike
+6	Nabava in stroški prodanega
+60	Nabava
+6001	Nabava trgovskega blaga
+6002	Nabava surovin
+6003	Nabava materiala
+6004	Vračila in popusti pri nabavi
+6005	Prevoz in carine pri nabavi
+61	Sprememba zalog
+6101	Sprememba zalog blaga
+6102	Sprememba zalog surovin
+7	Stroški in odhodki
+70	Stroški dela
+7001	Plače
+7002	Prispevki delodajalca za socialno varnost
+7003	Prispevki delodajalca za zdravstveno zavarovanje
+7004	Drugi prispevki delodajalca
+7005	Drugi stroški dela
+71	Stroški prostorov
+7101	Najemnine
+7102	Električna energija
+7103	Voda
+7104	Popravila in vzdrževanje
+7105	Zavarovalne premije
+72	Upravni stroški
+7201	Telekomunikacije
+7202	Poštnina
+7203	Pisarniški material
+7204	Revizija
+7205	Svetovalne storitve
+7206	Članarine in naročnine
+7207	Pristojbine družbe
+73	Stroški prodaje
+7301	Oglaševanje
+7302	Prevoz pri prodaji
+7303	Provizije
+7304	Službena potovanja
+74	Stroški vozil
+7401	Gorivo
+7402	Registracija in zavarovanje vozil
+7403	Popravila vozil
+75	Finančni odhodki
+7501	Odhodki za obresti
+7502	Bančni stroški
+7503	Negativne tečajne razlike
+7504	Obresti iz najemov
+76	Amortizacija
+7601	Amortizacija zgradb
+7602	Amortizacija proizvajalnih naprav in strojev
+7603	Amortizacija prevoznih sredstev
+7604	Amortizacija pohištva in opreme
+7605	Amortizacija računalniške opreme
+7606	Amortizacija neopredmetenih sredstev
+77	Drugi odhodki
+7701	Odpisane terjatve
+7702	Izguba pri prodaji osnovnih sredstev
+7703	Neodbitni DDV
+7704	Drugi odhodki
+7705	Primanjkljaji in odpis zalog
+8	Davek iz dobička
+80	Davki
+8001	Davek od dohodka pravnih oseb
+8002	Drugi davki iz dobička
+8003	Odloženi davki

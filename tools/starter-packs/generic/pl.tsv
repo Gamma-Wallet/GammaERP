@@ -1,0 +1,179 @@
+# Gamma's generic chart (chart-generic.tsv) in Polish, by account code. Gamma's translations.
+# code	pl
+1	Aktywa trwałe
+11	Rzeczowe aktywa trwałe
+1101	Grunty
+1102	Budynki
+1103	Maszyny i urządzenia
+1104	Środki transportu
+1105	Meble i wyposażenie
+1106	Sprzęt komputerowy
+1107	Środki trwałe w budowie
+12	Umorzenie rzeczowych aktywów trwałych
+1202	Umorzenie budynków
+1203	Umorzenie maszyn i urządzeń
+1204	Umorzenie środków transportu
+1205	Umorzenie mebli i wyposażenia
+1206	Umorzenie sprzętu komputerowego
+13	Wartości niematerialne i prawne
+1301	Wartość firmy
+1302	Oprogramowanie
+1303	Znaki towarowe i licencje
+14	Umorzenie wartości niematerialnych i prawnych
+1402	Umorzenie oprogramowania
+1403	Umorzenie znaków towarowych i licencji
+15	Nieruchomości inwestycyjne
+1501	Nieruchomości inwestycyjne
+16	Długoterminowe aktywa finansowe
+1601	Udziały w jednostkach zależnych
+1602	Udziały w jednostkach stowarzyszonych
+1603	Inne inwestycje
+1604	Pożyczki długoterminowe udzielone
+17	Podatek odroczony
+1701	Aktywa z tytułu odroczonego podatku dochodowego
+2	Aktywa obrotowe
+20	Zapasy
+2001	Towary
+2002	Surowce
+2003	Materiały pomocnicze
+2004	Wyroby gotowe
+2005	Produkcja w toku
+22	Należności z tytułu dostaw i usług
+2201	Należności od odbiorców
+2202	Należności od odbiorców zagranicznych
+2203	Czeki do otrzymania
+2209	Odpisy aktualizujące należności
+23	Pozostałe należności
+2301	Rozliczenia międzyokresowe czynne
+2302	Zaliczki dla dostawców
+2303	Zaliczki dla pracowników
+2304	Kaucje wpłacone
+2305	Pozostałe należności
+24	Należności podatkowe
+2401	VAT naliczony
+2402	VAT do zwrotu
+2403	Zaliczki na podatek dochodowy
+28	Środki pieniężne
+2801	Kasa
+2802	Kasa walutowa
+2803	Rachunek bankowy
+2804	Rachunek bankowy walutowy
+2805	Lokaty terminowe
+2806	Środki pieniężne w drodze
+3	Kapitał własny
+30	Kapitał zakładowy
+3001	Kapitał zakładowy
+3002	Kapitał zapasowy z emisji akcji powyżej wartości nominalnej
+31	Kapitały rezerwowe
+3101	Kapitał z aktualizacji wyceny
+3102	Pozostałe kapitały rezerwowe
+32	Zysk z lat ubiegłych
+3201	Wynik z lat ubiegłych
+3202	Wynik finansowy roku bieżącego
+4	Zobowiązania
+40	Zobowiązania długoterminowe
+4001	Długoterminowe kredyty bankowe
+4002	Zobowiązania z tytułu leasingu
+4003	Pożyczki od wspólników
+4004	Rezerwa z tytułu odroczonego podatku dochodowego
+4005	Rezerwy
+41	Zobowiązania z tytułu dostaw i usług
+4101	Zobowiązania wobec dostawców
+4102	Zobowiązania wobec dostawców zagranicznych
+4103	Weksle do zapłaty
+4104	Zaliczki otrzymane od odbiorców
+42	Pozostałe zobowiązania
+4201	Bierne rozliczenia międzyokresowe kosztów
+4202	Rozliczenia międzyokresowe przychodów
+4203	Zobowiązania z tytułu wynagrodzeń
+4204	Zobowiązania wobec ZUS
+4205	Zobowiązania z tytułu składek zdrowotnych
+4206	Pozostałe zobowiązania
+4207	Dywidendy do wypłaty
+43	Zobowiązania krótkoterminowe finansowe
+4301	Kredyt w rachunku bieżącym
+4302	Krótkoterminowe kredyty bankowe
+44	Zobowiązania podatkowe
+4401	VAT należny
+4402	VAT do zapłaty
+4403	Podatek dochodowy do zapłaty
+4404	Podatek dochodowy od wynagrodzeń do zapłaty
+4405	Pozostałe zobowiązania podatkowe
+5	Przychody
+50	Przychody ze sprzedaży
+5001	Przychody ze sprzedaży towarów
+5002	Przychody ze sprzedaży usług
+5003	Przychody ze sprzedaży produktów
+5004	Zwroty i rabaty od sprzedaży
+51	Pozostałe przychody operacyjne
+5101	Przychody z najmu
+5102	Dotacje
+5103	Zysk ze zbycia środków trwałych
+5104	Inne przychody operacyjne
+52	Przychody finansowe
+5201	Odsetki uzyskane
+5202	Dywidendy otrzymane
+5203	Dodatnie różnice kursowe
+6	Zakupy i koszt sprzedaży
+60	Zakupy
+6001	Zakup towarów
+6002	Zakup surowców
+6003	Zakup materiałów
+6004	Zwroty i rabaty od zakupów
+6005	Koszty transportu i cła przy zakupie
+61	Zmiana stanu zapasów
+6101	Zmiana stanu towarów
+6102	Zmiana stanu surowców
+7	Koszty
+70	Koszty pracownicze
+7001	Wynagrodzenia
+7002	Składki ZUS pracodawcy
+7003	Składki zdrowotne pracodawcy
+7004	Pozostałe składki pracodawcy
+7005	Pozostałe koszty pracownicze
+71	Koszty lokalu
+7101	Czynsz
+7102	Energia elektryczna
+7103	Woda
+7104	Remonty i konserwacja
+7105	Ubezpieczenia
+72	Koszty administracyjne
+7201	Telekomunikacja
+7202	Usługi pocztowe
+7203	Materiały biurowe
+7204	Badanie sprawozdania finansowego
+7205	Usługi doradcze
+7206	Składki członkowskie i subskrypcje
+7207	Opłaty spółki
+73	Koszty sprzedaży
+7301	Reklama
+7302	Transport sprzedaży
+7303	Prowizje
+7304	Podróże służbowe
+74	Koszty samochodów
+7401	Paliwo
+7402	Ubezpieczenia i opłaty samochodów
+7403	Naprawy samochodów
+75	Koszty finansowe
+7501	Odsetki zapłacone
+7502	Opłaty bankowe
+7503	Ujemne różnice kursowe
+7504	Odsetki leasingowe
+76	Amortyzacja
+7601	Amortyzacja budynków
+7602	Amortyzacja maszyn i urządzeń
+7603	Amortyzacja środków transportu
+7604	Amortyzacja mebli i wyposażenia
+7605	Amortyzacja sprzętu komputerowego
+7606	Amortyzacja wartości niematerialnych i prawnych
+77	Pozostałe koszty
+7701	Należności nieściągalne
+7702	Strata ze zbycia środków trwałych
+7703	VAT niepodlegający odliczeniu
+7704	Inne koszty
+7705	Niedobory i ubytki zapasów
+8	Podatek dochodowy
+80	Podatki
+8001	Podatek dochodowy od osób prawnych
+8002	Pozostałe podatki od zysku
+8003	Podatek odroczony

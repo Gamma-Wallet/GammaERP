@@ -1,0 +1,54 @@
+[
+ {
+  "Key": "vat_group:ES_21",
+  "IdSup": null,
+  "Active": true,
+  "Code": null,
+  "Name": {
+   "en": "VAT 21%",
+   "es": "IVA 21%"
+  },
+  "Description": null,
+  "Rate": 21.0,
+  "Depreciation": false
+ },
+ {
+  "Key": "vat_group:ES_10",
+  "IdSup": null,
+  "Active": true,
+  "Code": null,
+  "Name": {
+   "en": "VAT 10%",
+   "es": "IVA 10%"
+  },
+  "Description": null,
+  "Rate": 10.0,
+  "Depreciation": false
+ },
+ {
+  "Key": "vat_group:ES_4",
+  "IdSup": null,
+  "Active": true,
+  "Code": null,
+  "Name": {
+   "en": "VAT 4%",
+   "es": "IVA 4%"
+  },
+  "Description": null,
+  "Rate": 4.0,
+  "Depreciation": false
+ },
+ {
+  "Key": "vat_group:ES_0",
+  "IdSup": null,
+  "Active": true,
+  "Code": null,
+  "Name": {
+   "en": "VAT 0% / exempt",
+   "es": "IVA 0% / exento"
+  },
+  "Description": null,
+  "Rate": 0.0,
+  "Depreciation": false
+ }
+]

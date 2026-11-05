@@ -1,0 +1,766 @@
+{
+  "country": "AL",
+  "language": "sq",
+  "currency": "ALL",
+  "sources": [
+    "Chart: the classes 1-8 of the general accounting plan as used under the SKK (Law 25/2018), see chart-skk.tsv",
+    "VAT: 20 % standard, 6 % reduced, 0 % (Law 92/2014 on VAT)",
+    "Depreciation: Law 29/2023 on income tax, straight-line since 2024: buildings 5 %, intangibles 15 %, computers, software and information systems 25 %, other assets 20 %; land not depreciated"
+  ],
+  "uncertain": [
+    "Computers and other assets are depreciated as pools in the law; here per asset at the same rate.",
+    "Buildings and vehicles have expense accounts per function; the administration ones (68123, 68153) are proposed.",
+    "The old data gave two pairs of types one code each (FD: POS goods out and customs declaration; OBM: purchase offers for goods and services); the customs declaration is DD and the services offer OBSH here (2026-10-29).",
+    "Rent paid (rent_expense) goes to 6132, rent of sales and distribution units; a company renting only offices may use 6133."
+  ],
+  "chart": {
+    "file": "chart-skk.tsv",
+    "category": {
+      "code": "SKK",
+      "name": "Plani kontabël (SKK)"
+    },
+    "types": [
+      {
+        "code": "1",
+        "name": "Klasa 1 – Kapitali",
+        "prefixes": [
+          "1"
+        ],
+        "roles": []
+      },
+      {
+        "code": "2",
+        "name": "Klasa 2 – Aktivet afatgjata",
+        "prefixes": [
+          "2"
+        ],
+        "roles": [
+          "fixed_assets"
+        ]
+      },
+      {
+        "code": "3",
+        "name": "Klasa 3 – Inventarët",
+        "prefixes": [
+          "3"
+        ],
+        "roles": [
+          "inventories"
+        ]
+      },
+      {
+        "code": "4",
+        "name": "Klasa 4 – Të tretët",
+        "prefixes": [
+          "4"
+        ],
+        "roles": []
+      },
+      {
+        "code": "5",
+        "name": "Klasa 5 – Likuiditetet",
+        "prefixes": [
+          "5"
+        ],
+        "roles": []
+      },
+      {
+        "code": "6",
+        "name": "Klasa 6 – Shpenzimet",
+        "prefixes": [
+          "6"
+        ],
+        "roles": [
+          "expenses"
+        ]
+      },
+      {
+        "code": "7",
+        "name": "Klasa 7 – Të ardhurat",
+        "prefixes": [
+          "7"
+        ],
+        "roles": [
+          "income"
+        ]
+      },
+      {
+        "code": "8",
+        "name": "Klasa 8 – Llogari jashtë bilancit",
+        "prefixes": [
+          "8"
+        ],
+        "roles": []
+      }
+    ]
+  },
+  "roles": {
+    "cost_of_sales": "605",
+    "clients": "411",
+    "output_vat": "4457",
+    "suppliers": "401",
+    "input_vat": "4456",
+    "employee_advances": "423",
+    "goods_sales": "705",
+    "goods_purchases": "35",
+    "client_advances": "409",
+    "supplier_prepayments": "418",
+    "wages_payable": "421",
+    "rent_expense": "6132",
+    "services_sales": "704",
+    "services_purchases": "618",
+    "asset_assets": "213",
+    "asset_land": "211",
+    "asset_buildings": "212",
+    "asset_office": "2181",
+    "asset_vehicles": "215",
+    "asset_computers": "2182",
+    "asset_furniture": "2181",
+    "asset_intangible": "208",
+    "production": "331",
+    "waste": "687"
+  },
+  "cash_account": "5311",
+  "bank_account": "5121",
+  "services_account": "704",
+  "vat": [
+    {
+      "rate": 20,
+      "name": "TVSH 20%",
+      "en": "VAT 20%",
+      "standard": true
+    },
+    {
+      "rate": 6,
+      "name": "TVSH 6%",
+      "en": "VAT 6%",
+      "standard": true
+    },
+    {
+      "rate": 0,
+      "name": "TVSH 0%",
+      "en": "VAT 0%",
+      "standard": false
+    }
+  ],
+  "depreciation": {
+    "assets": [
+      60,
+      20,
+      "6818",
+      "2818"
+    ],
+    "land": [
+      null,
+      0,
+      null,
+      null
+    ],
+    "buildings": [
+      240,
+      5,
+      "68123",
+      "2812"
+    ],
+    "office": [
+      60,
+      20,
+      "6818",
+      "2818"
+    ],
+    "vehicles": [
+      60,
+      20,
+      "68153",
+      "2815"
+    ],
+    "computers": [
+      48,
+      25,
+      "6818",
+      "2818"
+    ],
+    "furniture": [
+      60,
+      20,
+      "6818",
+      "2818"
+    ],
+    "intangible": [
+      80,
+      15,
+      "6808",
+      "2808"
+    ]
+  },
+  "document_codes": {
+    "PURCHASE_REQUEST": "KRB",
+    "PURCHASE_ORDER": "PRB",
+    "SALES_ORDER": "PRSH",
+    "REPAIR_INTAKE": "PRP",
+    "REPAIR_OFFER": "OFRP",
+    "POS_ORDER": "PPSH",
+    "SALES_INVOICE_GOODS": "FSHM",
+    "CREDIT_NOTE_GOODS_SOLD": "FKSHM",
+    "SALES_INVOICE_SERVICES": "FSHSH",
+    "CREDIT_NOTE_SERVICES_SOLD": "FKSHSH",
+    "PURCHASE_INVOICE_GOODS": "FBM",
+    "CREDIT_NOTE_GOODS_BOUGHT": "FKBM",
+    "PURCHASE_INVOICE_SERVICES": "FBSH",
+    "CREDIT_NOTE_SERVICES_BOUGHT": "FKBSH",
+    "GOODS_TRANSFER": "FTM",
+    "PAYMENT": "MP",
+    "RECEIPT": "MA",
+    "PREPAYMENT": "PP",
+    "GOODS_TRANSFER_TO_STAFF": "FTMP",
+    "SALES_OFFER_GOODS": "OSHM",
+    "DEPRECIATION_SHEET": "FA",
+    "DEPRECIATION_JOURNAL": "FAA",
+    "JOURNAL_SHEET": "FK",
+    "JOURNAL_PAYMENT": "MP",
+    "JOURNAL_RECEIPT": "MA",
+    "JOURNAL_PREPAYMENT": "PP",
+    "REVALUATION_SHEET": "FR",
+    "REVALUATION_JOURNAL": "FRV",
+    "ADVANCE": "PK",
+    "EMPLOYEE_ADVANCE": "PPP",
+    "JOURNAL_ADVANCE": "PK",
+    "JOURNAL_EMPLOYEE_ADVANCE": "PPP",
+    "SALES_CONTRACT_GOODS": "KOSHM",
+    "PURCHASE_CONTRACT_GOODS": "KOBM",
+    "PURCHASE_OFFER_GOODS": "OBM",
+    "SALES_OFFER_SERVICES": "OSHSH",
+    "PURCHASE_OFFER_SERVICES": "OBSH",
+    "SALES_CONTRACT_SERVICES": "KOSHSH",
+    "PURCHASE_CONTRACT_SERVICES": "KOBSH",
+    "RECURRING_DEPRECIATION_SHEET": "FAR",
+    "RECURRING_JOURNAL_SHEET": "FKR",
+    "RECURRING_REVALUATION_SHEET": "FRR",
+    "GENERAL_JOURNAL_ENTRY": "GJ",
+    "POS_RECEIPT": "PSH",
+    "GOODS_TRANSFER_FROM_STAFF": "FTMPQK",
+    "GOODS_TRANSFER_TO_CLIENT": "FTQK",
+    "GOODS_TRANSFER_FROM_CLIENT": "FTKQ",
+    "POS_CONTRACT": "KOP",
+    "POS_MONEY_IN": "MAP",
+    "POS_MONEY_OUT": "MPP",
+    "POS_GOODS_IN": "FH",
+    "POS_GOODS_OUT": "FD",
+    "WAGE_PAYMENT": "MPG",
+    "RENT_PAYMENT": "MPQ",
+    "CUSTOMS_DECLARATION": "DD",
+    "CUSTOMS_DECLARATION_ASSETS": "FDA",
+    "POS_REVERSAL": "FKBP",
+    "POS_REFUND": "MPKP",
+    "POS_MONEY_FROM_STAFF": "MAPP",
+    "GOODS_OUT_TO_STAFF": "FDP",
+    "GOODS_TRANSFER_STAFF_TO_CLIENT": "FTPK",
+    "GOODS_IN_FROM_STAFF": "FHP",
+    "REVERSAL_PAYMENT": "KMP",
+    "REVERSAL_RECEIPT": "KMA",
+    "REVERSAL_PREPAYMENT": "KPP",
+    "REVERSAL_DEPRECIATION_JOURNAL": "KFAAJ",
+    "REVERSAL_JOURNAL_PAYMENT": "KMPJ",
+    "REVERSAL_JOURNAL_RECEIPT": "KMAJ",
+    "REVERSAL_JOURNAL_PREPAYMENT": "KPPJ",
+    "REVERSAL_ADVANCE": "KPK",
+    "REVERSAL_EMPLOYEE_ADVANCE": "KPPP",
+    "REVERSAL_JOURNAL_ADVANCE": "KPKJ",
+    "REVERSAL_JOURNAL_EMPLOYEE_ADVANCE": "KPPPJ",
+    "PRODUCTION": "FPR",
+    "UNIT_SPLIT": "FNJ",
+    "REVERSAL_UNIT_SPLIT": "KFNJ",
+    "REVERSAL_JOURNAL_SHEET": "KFKJ",
+    "REVERSAL_DEPRECIATION_SHEET": "KFAJ",
+    "REVERSAL_GENERAL_JOURNAL_ENTRY": "KGJJ",
+    "RECURRING_JOURNAL_PAYMENT": "MPR",
+    "REVERSAL_RECURRING_JOURNAL_PAYMENT": "KMPRJ",
+    "RECURRING_JOURNAL_RECEIPT": "MAR",
+    "REVERSAL_RECURRING_JOURNAL_RECEIPT": "KMARJ",
+    "RECURRING_JOURNAL_PREPAYMENT": "PPR",
+    "REVERSAL_RECURRING_JOURNAL_PREPAYMENT": "KPPRJ",
+    "RECURRING_JOURNAL_ADVANCE": "PKR",
+    "REVERSAL_RECURRING_JOURNAL_ADVANCE": "KPKRJ",
+    "RECURRING_JOURNAL_EMPLOYEE_ADVANCE": "PPPR",
+    "REVERSAL_RECURRING_JOURNAL_EMPLOYEE_ADVANCE": "KPPPRJ",
+    "RECURRING_GENERAL_JOURNAL_ENTRY": "GJR",
+    "REVERSAL_RECURRING_GENERAL_JOURNAL_ENTRY": "KGJRJ",
+    "REVERSAL_RECURRING_JOURNAL_SHEET": "KFKRJ",
+    "RECURRING_DEPRECIATION_JOURNAL": "FAAR",
+    "REVERSAL_RECURRING_DEPRECIATION_JOURNAL": "KFAARJ",
+    "REVERSAL_RECURRING_DEPRECIATION_SHEET": "KFARJ",
+    "RECURRING_REVALUATION_JOURNAL": "FRVR",
+    "DISASSEMBLY": "FCM",
+    "REVERSAL_CUSTOMS_DECLARATION": "KDD",
+    "REVERSAL_CUSTOMS_DECLARATION_ASSETS": "KFDA",
+    "REVERSAL_GOODS_TRANSFER": "KFTM",
+    "REVERSAL_GOODS_TRANSFER_TO_STAFF": "KFTMP",
+    "REVERSAL_GOODS_TRANSFER_FROM_STAFF": "KFTMPQK",
+    "REVERSAL_GOODS_TRANSFER_TO_CLIENT": "KFTQK",
+    "REVERSAL_GOODS_TRANSFER_FROM_CLIENT": "KFTKQ",
+    "REVERSAL_GOODS_TRANSFER_STAFF_TO_CLIENT": "KFTPK"
+  },
+  "document_descriptions": {},
+  "vat_return": [
+    {
+      "code": "9",
+      "name": "Shitjet e përjashtuara",
+      "en": "Exempt sales",
+      "input": false,
+      "amount": 1,
+      "rules": []
+    },
+    {
+      "code": "10",
+      "name": "Shitjet pa TVSH",
+      "en": "Sales without VAT",
+      "input": false,
+      "amount": 1,
+      "rules": []
+    },
+    {
+      "code": "11",
+      "name": "Eksporte mallrash",
+      "en": "Exports of goods",
+      "input": false,
+      "amount": 1,
+      "rules": []
+    },
+    {
+      "code": "12",
+      "name": "Furnizime me 0%",
+      "en": "Supplies at 0%",
+      "input": false,
+      "amount": 1,
+      "rules": [
+        {
+          "category": "SALES",
+          "vat": 0
+        }
+      ]
+    },
+    {
+      "code": "13",
+      "name": "Shitje me shkallë 20% – vlera e tatueshme",
+      "en": "Sales at 20%, taxable value",
+      "input": false,
+      "amount": 1,
+      "rules": [
+        {
+          "category": "SALES",
+          "vat": 20
+        }
+      ]
+    },
+    {
+      "code": "14",
+      "name": "Shitje me shkallë 20% – TVSH",
+      "en": "Sales at 20%, VAT",
+      "input": false,
+      "amount": 2,
+      "rules": [
+        {
+          "category": "SALES",
+          "vat": 20
+        }
+      ]
+    },
+    {
+      "code": "15",
+      "name": "Shitje me shkallë 10% – vlera e tatueshme",
+      "en": "Sales at 10%, taxable value",
+      "input": false,
+      "amount": 1,
+      "rules": []
+    },
+    {
+      "code": "16",
+      "name": "Shitje me shkallë 10% – TVSH",
+      "en": "Sales at 10%, VAT",
+      "input": false,
+      "amount": 2,
+      "rules": []
+    },
+    {
+      "code": "17",
+      "name": "Shitje me shkallë 6% – vlera e tatueshme",
+      "en": "Sales at 6%, taxable value",
+      "input": false,
+      "amount": 1,
+      "rules": [
+        {
+          "category": "SALES",
+          "vat": 6
+        }
+      ]
+    },
+    {
+      "code": "18",
+      "name": "Shitje me shkallë 6% – TVSH",
+      "en": "Sales at 6%, VAT",
+      "input": false,
+      "amount": 2,
+      "rules": [
+        {
+          "category": "SALES",
+          "vat": 6
+        }
+      ]
+    },
+    {
+      "code": "19",
+      "name": "Shitje regjimi agjentëve të udhëtimit/marzhi i fitimit/shitje në ankand – vlera e tatueshme",
+      "en": "Travel agents, profit margin, auctions, taxable value",
+      "input": false,
+      "amount": 1,
+      "rules": []
+    },
+    {
+      "code": "20",
+      "name": "Shitje regjimi agjentëve të udhëtimit/marzhi i fitimit/shitje në ankand – TVSH",
+      "en": "Travel agents, profit margin, auctions, VAT",
+      "input": false,
+      "amount": 2,
+      "rules": []
+    },
+    {
+      "code": "21",
+      "name": "Autongarkesë TVSH në shitje – vlera e tatueshme",
+      "en": "Self-charged VAT on sales, taxable value",
+      "input": false,
+      "amount": 1,
+      "rules": []
+    },
+    {
+      "code": "22",
+      "name": "Autongarkesë TVSH në shitje – TVSH",
+      "en": "Self-charged VAT on sales, VAT",
+      "input": false,
+      "amount": 2,
+      "rules": []
+    },
+    {
+      "code": "23",
+      "name": "Borxh i keq – vlera e tatueshme",
+      "en": "Bad debt, taxable value",
+      "input": false,
+      "amount": 1,
+      "rules": []
+    },
+    {
+      "code": "24",
+      "name": "Borxh i keq – TVSH",
+      "en": "Bad debt, VAT",
+      "input": false,
+      "amount": 2,
+      "rules": []
+    },
+    {
+      "code": "26",
+      "name": "Blerje të përjashtuara, me TVSH jo të zbritshme/pa TVSH",
+      "en": "Exempt purchases, non-deductible VAT or without VAT",
+      "input": true,
+      "amount": 1,
+      "rules": [
+        {
+          "category": "PURCHASES",
+          "vat": 0
+        }
+      ]
+    },
+    {
+      "code": "27",
+      "name": "Blerje investime brenda vendit pa TVSH",
+      "en": "Domestic investment purchases without VAT",
+      "input": true,
+      "amount": 1,
+      "rules": [
+        {
+          "category": "PURCHASES",
+          "line": "FIXED_ASSET",
+          "vat": 0
+        }
+      ]
+    },
+    {
+      "code": "28",
+      "name": "Importe të përjashtuara të investimit pa TVSH",
+      "en": "Exempt investment imports without VAT",
+      "input": true,
+      "amount": 1,
+      "rules": [
+        {
+          "type": "CUSTOMS_DECLARATION_ASSETS",
+          "vat": 0
+        }
+      ]
+    },
+    {
+      "code": "29",
+      "name": "Importe mallra të përjashtuara",
+      "en": "Exempt imports of goods",
+      "input": true,
+      "amount": 1,
+      "rules": [
+        {
+          "type": "CUSTOMS_DECLARATION",
+          "vat": 0
+        }
+      ]
+    },
+    {
+      "code": "30",
+      "name": "Importe mallra me shkallë 20% – vlera e tatueshme",
+      "en": "Imports of goods at 20%, taxable value",
+      "input": true,
+      "amount": 1,
+      "rules": [
+        {
+          "type": "CUSTOMS_DECLARATION",
+          "vat": 20
+        }
+      ]
+    },
+    {
+      "code": "31",
+      "name": "Importe mallra me shkallë 20% – TVSH",
+      "en": "Imports of goods at 20%, VAT",
+      "input": true,
+      "amount": 2,
+      "rules": [
+        {
+          "type": "CUSTOMS_DECLARATION",
+          "vat": 20
+        }
+      ]
+    },
+    {
+      "code": "32",
+      "name": "Importe mallra me shkallë 10% – vlera e tatueshme",
+      "en": "Imports of goods at 10%, taxable value",
+      "input": true,
+      "amount": 1,
+      "rules": []
+    },
+    {
+      "code": "33",
+      "name": "Importe mallra me shkallë 10% – TVSH",
+      "en": "Imports of goods at 10%, VAT",
+      "input": true,
+      "amount": 2,
+      "rules": []
+    },
+    {
+      "code": "34",
+      "name": "Importe mallra me shkallë 6% – vlera e tatueshme",
+      "en": "Imports of goods at 6%, taxable value",
+      "input": true,
+      "amount": 1,
+      "rules": [
+        {
+          "type": "CUSTOMS_DECLARATION",
+          "vat": 6
+        }
+      ]
+    },
+    {
+      "code": "35",
+      "name": "Importe mallra me shkallë 6% – TVSH",
+      "en": "Imports of goods at 6%, VAT",
+      "input": true,
+      "amount": 2,
+      "rules": [
+        {
+          "type": "CUSTOMS_DECLARATION",
+          "vat": 6
+        }
+      ]
+    },
+    {
+      "code": "36",
+      "name": "Importe të investimit me shkallë 20% – vlera e tatueshme",
+      "en": "Investment imports at 20%, taxable value",
+      "input": true,
+      "amount": 1,
+      "rules": [
+        {
+          "type": "CUSTOMS_DECLARATION_ASSETS",
+          "vat": 20
+        }
+      ]
+    },
+    {
+      "code": "37",
+      "name": "Importe të investimit me shkallë 20% – TVSH",
+      "en": "Investment imports at 20%, VAT",
+      "input": true,
+      "amount": 2,
+      "rules": [
+        {
+          "type": "CUSTOMS_DECLARATION_ASSETS",
+          "vat": 20
+        }
+      ]
+    },
+    {
+      "code": "38",
+      "name": "Nga furnitorë vendës me shkallë 20% – vlera e tatueshme",
+      "en": "From domestic suppliers at 20%, taxable value",
+      "input": true,
+      "amount": 1,
+      "rules": [
+        {
+          "category": "PURCHASES",
+          "vat": 20
+        }
+      ]
+    },
+    {
+      "code": "39",
+      "name": "Nga furnitorë vendës me shkallë 20% – TVSH",
+      "en": "From domestic suppliers at 20%, VAT",
+      "input": true,
+      "amount": 2,
+      "rules": [
+        {
+          "category": "PURCHASES",
+          "vat": 20
+        }
+      ]
+    },
+    {
+      "code": "40",
+      "name": "Nga furnitorë vendës me shkallë 10% – vlera e tatueshme",
+      "en": "From domestic suppliers at 10%, taxable value",
+      "input": true,
+      "amount": 1,
+      "rules": []
+    },
+    {
+      "code": "41",
+      "name": "Nga furnitorë vendës me shkallë 10% – TVSH",
+      "en": "From domestic suppliers at 10%, VAT",
+      "input": true,
+      "amount": 2,
+      "rules": []
+    },
+    {
+      "code": "42",
+      "name": "Nga furnitorë vendës me shkallë 6% – vlera e tatueshme",
+      "en": "From domestic suppliers at 6%, taxable value",
+      "input": true,
+      "amount": 1,
+      "rules": [
+        {
+          "category": "PURCHASES",
+          "vat": 6
+        }
+      ]
+    },
+    {
+      "code": "43",
+      "name": "Nga furnitorë vendës me shkallë 6% – TVSH",
+      "en": "From domestic suppliers at 6%, VAT",
+      "input": true,
+      "amount": 2,
+      "rules": [
+        {
+          "category": "PURCHASES",
+          "vat": 6
+        }
+      ]
+    },
+    {
+      "code": "44",
+      "name": "Të investimit nga furnitorë vendës me shkallë 20% – vlera e tatueshme",
+      "en": "Investment from domestic suppliers at 20%, taxable value",
+      "input": true,
+      "amount": 1,
+      "rules": [
+        {
+          "category": "PURCHASES",
+          "line": "FIXED_ASSET",
+          "vat": 20
+        }
+      ]
+    },
+    {
+      "code": "45",
+      "name": "Të investimit nga furnitorë vendës me shkallë 20% – TVSH",
+      "en": "Investment from domestic suppliers at 20%, VAT",
+      "input": true,
+      "amount": 2,
+      "rules": [
+        {
+          "category": "PURCHASES",
+          "line": "FIXED_ASSET",
+          "vat": 20
+        }
+      ]
+    },
+    {
+      "code": "46",
+      "name": "Nga fermerët vendës – vlera e tatueshme",
+      "en": "From domestic farmers, taxable value",
+      "input": true,
+      "amount": 1,
+      "rules": []
+    },
+    {
+      "code": "47",
+      "name": "Nga fermerët vendës – TVSH",
+      "en": "From domestic farmers, VAT",
+      "input": true,
+      "amount": 2,
+      "rules": []
+    },
+    {
+      "code": "48",
+      "name": "Autongarkesë TVSH në blerje me të drejtë kreditimi – vlera e tatueshme",
+      "en": "Self-charged VAT on purchases, deductible, taxable value",
+      "input": true,
+      "amount": 1,
+      "rules": []
+    },
+    {
+      "code": "49",
+      "name": "Autongarkesë TVSH në blerje me të drejtë kreditimi – TVSH",
+      "en": "Self-charged VAT on purchases, deductible, VAT",
+      "input": true,
+      "amount": 2,
+      "rules": []
+    },
+    {
+      "code": "50",
+      "name": "Rregullime të TVSH-së së zbritshme – vlera e tatueshme",
+      "en": "Adjustments of deductible VAT, taxable value",
+      "input": true,
+      "amount": 1,
+      "rules": []
+    },
+    {
+      "code": "51",
+      "name": "Rregullime të TVSH-së së zbritshme – TVSH",
+      "en": "Adjustments of deductible VAT, VAT",
+      "input": true,
+      "amount": 2,
+      "rules": []
+    },
+    {
+      "code": "52",
+      "name": "Veprime të borxhit të keq – vlera e tatueshme",
+      "en": "Bad debt, taxable value",
+      "input": true,
+      "amount": 1,
+      "rules": []
+    },
+    {
+      "code": "53",
+      "name": "Veprime të borxhit të keq – TVSH",
+      "en": "Bad debt, VAT",
+      "input": true,
+      "amount": 2,
+      "rules": []
+    }
+  ]
+}

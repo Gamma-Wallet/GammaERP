@@ -1,0 +1,79 @@
+[
+ {
+  "Key": "inter_unit_category:1",
+  "IdSup": null,
+  "Active": true,
+  "ElementId": "unit:PIECE",
+  "CategoryId": "unit_category:STANDARD"
+ },
+ {
+  "Key": "inter_unit_category:2",
+  "IdSup": null,
+  "Active": true,
+  "ElementId": "unit:KG",
+  "CategoryId": "unit_category:WEIGHT"
+ },
+ {
+  "Key": "inter_unit_category:3",
+  "IdSup": null,
+  "Active": true,
+  "ElementId": "unit:HOUR",
+  "CategoryId": "unit_category:TIME"
+ },
+ {
+  "Key": "inter_unit_category:4",
+  "IdSup": null,
+  "Active": true,
+  "ElementId": "unit:DAY",
+  "CategoryId": "unit_category:TIME"
+ },
+ {
+  "Key": "inter_unit_category:5",
+  "IdSup": null,
+  "Active": true,
+  "ElementId": "unit:MONTH",
+  "CategoryId": "unit_category:TIME"
+ },
+ {
+  "Key": "inter_unit_category:6",
+  "IdSup": null,
+  "Active": true,
+  "ElementId": "unit:YEAR",
+  "CategoryId": "unit_category:TIME"
+ },
+ {
+  "Key": "inter_unit_category:7",
+  "IdSup": null,
+  "Active": true,
+  "ElementId": "unit:G",
+  "CategoryId": "unit_category:WEIGHT"
+ },
+ {
+  "Key": "inter_unit_category:8",
+  "IdSup": null,
+  "Active": true,
+  "ElementId": "unit:CM",
+  "CategoryId": "unit_category:LENGTH"
+ },
+ {
+  "Key": "inter_unit_category:9",
+  "IdSup": null,
+  "Active": true,
+  "ElementId": "unit:M",
+  "CategoryId": "unit_category:LENGTH"
+ },
+ {
+  "Key": "inter_unit_category:10",
+  "IdSup": null,
+  "Active": true,
+  "ElementId": "unit:MM",
+  "CategoryId": "unit_category:LENGTH"
+ },
+ {
+  "Key": "inter_unit_category:11",
+  "IdSup": null,
+  "Active": true,
+  "ElementId": "unit:KM",
+  "CategoryId": "unit_category:LENGTH"
+ }
+]

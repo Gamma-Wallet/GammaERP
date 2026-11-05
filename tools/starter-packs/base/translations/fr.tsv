@@ -1,0 +1,442 @@
+# The base names in French, keyed by the English name (Gamma's translations), for the packs in French (France, Belgium, Luxembourg).
+# en	fr
+Base	Siège
+Cash desk	Caisse
+Bank	Banque
+Point of sale	Point de vente
+Warehouse	Entrepôt
+Office	Bureau
+Tax number	Numéro de TVA
+Owner	Exploitant
+Name	Raison sociale
+Currency	Devise
+Trade name	Nom commercial
+Address	Adresse
+Phone	Téléphone
+E-mail	Courriel
+Website	Site internet
+Logo	Logo
+Authorised person	Personne habilitée
+Account	Compte
+Negative stock allowed (cost centres)	Stock négatif autorisé (centres de coût)
+Negative stock allowed (partners)	Stock négatif autorisé (partenaires)
+Negative stock allowed (employees)	Stock négatif autorisé (employés)
+cost centres	centres de coût
+partners	tiers
+employees	salariés
+Hold timeout (minutes)	Durée de verrouillage du document (minutes)
+ALL	ALL
+EUR	EUR
+USD	USD
+GBP	GBP
+CAD	CAD
+CHF	CHF
+Company book	Plan comptable
+Tax book	Plan fiscal
+Straight-line	Linéaire
+Straight-line depreciation	Amortissement linéaire
+Remaining value	Valeur résiduelle
+Depreciation on the remaining value	Amortissement sur la valeur résiduelle
+Assets	Immobilisations
+Land	Terrains
+Buildings	Constructions
+Office equipment	Matériel de bureau
+Vehicles	Matériel de transport
+Computer equipment	Matériel informatique
+Furniture and fittings	Mobilier
+Intangible assets	Immobilisations incorporelles
+Sales	Ventes
+Sales invoices	Factures de vente
+Purchases	Achats
+Purchase invoices	Factures d'achat
+Goods transfers	Transferts de marchandises
+Goods transfer note	Bon de transfert
+Offers	Devis
+Journal	Journal
+Contracts	Contrats
+Recurring journal	Journal périodique
+Reversals	Extournes
+Sales invoice, goods	Facture de vente de marchandises
+Credit note, goods sold	Avoir sur vente de marchandises
+Sales invoice, services	Facture de prestations de services
+Credit note, services sold	Avoir sur prestations de services
+Purchase invoice, goods	Facture d'achat de marchandises
+Credit note, goods bought	Avoir sur achat de marchandises
+Purchase invoice, services	Facture de services reçus
+Credit note, services bought	Avoir sur services reçus
+Payment	Paiement
+Receipt	Encaissement
+Prepayment	Paiement anticipé
+Goods transfer, cost centre to staff	Transfert du centre de coût au personnel
+Sales offer, goods	Devis de vente de marchandises
+Depreciation sheet	Tableau des amortissements
+Depreciation journal	Écriture d'amortissement
+Journal sheet	Bordereau d'écritures
+Revaluation sheet	Tableau des réévaluations
+Revaluation journal	Écriture de réévaluation
+Advance	Avance
+Client's advance	Avance du client
+Employee advance	Avance au salarié
+Advance to an employee	Avance à un salarié
+Sales contract, goods	Contrat de vente de marchandises
+Purchase contract, goods	Contrat d'achat de marchandises
+Purchase offer, goods	Demande de devis de marchandises
+Sales offer, services	Devis de services
+Purchase offer, services	Demande de devis de services
+Sales contract, services	Contrat de prestations de services
+Purchase contract, services	Contrat de services reçus
+Recurring depreciation sheet	Tableau des amortissements périodique
+Recurring journal sheet	Bordereau d'écritures périodique
+Recurring revaluation sheet	Tableau des réévaluations périodique
+General journal entry	Écriture générale
+Point-of-sale receipt	Ticket de caisse
+Goods transfer, staff to cost centre	Transfert du personnel au centre de coût
+Goods transfer, cost centre to client	Transfert du centre de coût au client
+Goods transfer, client to cost centre	Transfert du client au centre de coût
+Point-of-sale contract	Contrat du point de vente
+Point-of-sale receipt of money	Encaissement au point de vente
+Point-of-sale payment	Paiement au point de vente
+Point-of-sale goods in	Entrée au point de vente
+Point-of-sale goods out	Sortie du point de vente
+Wage payment	Paiement des salaires
+Rent payment	Paiement du loyer
+Customs declaration	Déclaration en douane
+Customs declaration, assets	Déclaration en douane d'immobilisations
+Point-of-sale refund	Remboursement au point de vente
+Point-of-sale receipt from staff	Encaissement du personnel au point de vente
+Goods out to staff	Sortie vers le personnel
+Goods transfer, staff to client	Transfert du personnel au client
+Goods in from staff	Entrée du personnel
+Reversal of payment	Annulation de paiement
+Reversal of receipt	Annulation d'encaissement
+Reversal of prepayment	Annulation de paiement anticipé
+Reversal of depreciation journal	Annulation d'écriture d'amortissement
+Reversal of advance	Annulation d'avance
+Reversal of employee advance	Annulation d'avance au salarié
+End date	Date de fin
+Offer valid until	Validité du devis
+Start date	Date de début
+External number	Numéro externe
+Contract number	Numéro de contrat
+Invoice number	Numéro de facture
+Carrier	Transporteur
+Linked invoice	Facture liée
+Purchase invoice	Facture d'achat
+Last payment date	Date du dernier paiement
+Accounts	Comptes
+Products / services	Produits / services
+Client / supplier / third party	Client / fournisseur / tiers
+Staff	Personnel
+Financial documents	Pièces comptables
+Transaction value	Montant de la ligne
+Transaction discount	Remise de la ligne
+Transaction VAT	TVA de la ligne
+Asset's remaining value	Valeur nette de l'immobilisation
+Transaction debit	Débit de la ligne
+Transaction credit	Crédit de la ligne
+Transaction value with VAT	Montant TTC de la ligne
+Non-current asset accounts	Comptes d'immobilisations
+Inventory accounts	Comptes de stocks
+Expense accounts	Comptes de charges
+Income accounts	Comptes de produits
+All accounts	Tous les comptes
+table	table
+specified element	élément précis
+empty element	élément vide
+line reference	référence de ligne
+line configuration	paramétrage des lignes
+document reference	référence de pièce
+document configuration	paramétrage des pièces
+scenario configuration	paramétrage du schéma
+depreciation scenario configuration	paramétrage du schéma d'amortissement
+depreciation scenario	schéma d'amortissement
+Transaction amount	Montant de la ligne
+Finance	Comptabilité
+Administrator	Administrateur
+Financier	Comptable
+Warehouse keeper	Magasinier
+Driver	Chauffeur
+Worker	Ouvrier
+Clients	Clients
+Suppliers	Fournisseurs
+Unknown	Inconnu
+Person	Personne physique
+SME	PME
+LTD	SARL
+Cash	Espèces
+Unpaid	Non payé
+Credit card	Carte bancaire
+Products	Produits
+Services	Services
+Goods	Marchandises
+Service	Service
+Asset	Immobilisation
+Items	Articles
+Transactions	Lignes
+Journal lines	Lignes d'écriture
+Depreciation lines	Lignes d'amortissement
+Revaluation lines	Lignes de réévaluation
+Item	Article
+Fixed asset	Immobilisation
+Service item	Article (service)
+Supplier	Fournisseur
+Client	Client
+Cash desk account	Compte de caisse
+Bank account	Compte bancaire
+Depreciation	Amortissement
+Revaluation	Réévaluation
+Fixed asset (service)	Immobilisation (service)
+Combined item	Article composé
+Customs	Douane
+Transport	Transport
+Customs agency	Commissionnaire en douane
+Customs, assets	Douane sur immobilisations
+Transport, assets	Transport d'immobilisations
+Customs agency, assets	Commissionnaire en douane, immobilisations
+Piece	Unité
+kg	kg
+Hour	Heure
+Day	Jour
+Month	Mois
+Year	Année
+g	g
+cm	cm
+m	m
+mm	mm
+km	km
+Standard	Standard
+Weight	Poids
+Time	Durée
+Length	Longueur
+Seller	Vendeur
+IT	Informatique
+Consultant	Consultant
+VAT 20%	TVA 20%
+VAT 0%	TVA 0%
+Hall	Salle
+Table	Table
+Counter	Comptoir
+Production	Production
+Reversal of production	Annulation de production
+Unit split	Conversion d'unité
+Reversal of unit split	Annulation de conversion d'unité
+Raw material used	Matière première consommée
+Produced item	Produit fabriqué
+Waste	Freinte
+Account ledger	Grand livre du compte
+Administration	Administration
+Chart of accounts	Plan comptable
+Client and supplier ledger	Grand livre clients et fournisseurs
+Client statistics	Statistiques clients
+Clients and suppliers	Clients et fournisseurs
+Configuration	Configuration
+Convert stock between units	Convertir le stock dans une autre unité
+Cost centre ledger	Grand livre du centre de coût
+Cost centres	Centres de coût
+Currencies and exchange rates	Devises et taux de change
+Document types	Types de documents
+Documents	Documents
+Employees	Employés
+Files	Fichiers
+Financial reports	États financiers
+Item movements	Mouvements d'article
+Menu	Menu
+Menu access	Accès au menu
+Operations	Opérations
+Orders to produce	Commandes à produire
+Payment methods	Modes de paiement
+Posting scenarios	Scénarios de comptabilisation
+Print templates	Modèles d'impression
+Products and services	Produits et services
+Recipes	Recettes
+Registers	Référentiels
+Reports	Rapports
+Rights	Droits
+Sale menus	Menus de vente
+Point-of-sale settings	Paramètres du point de vente
+Shows	Séances
+Purchases from the group	Achats auprès du groupe
+Barcode	Code-barres
+Sale prices	Prix de vente
+Sales and purchases by line	Ventes et achats par ligne
+Stock	Stock
+Stock and sales	Stock et ventes
+Trial balance	Balance générale
+Unit conversions	Conversions d'unités
+Units of measure	Unités de mesure
+Users	Utilisateurs
+VAT books	Registres de TVA
+VAT groups	Groupes de TVA
+VAT return	Déclaration de TVA
+VAT return boxes	Cases de la déclaration de TVA
+Company of the group	Société du groupe
+Restaurant / café	Restaurant / café
+Shop	Magasin
+Till	Caisse
+Cinema / theatre	Cinéma / théâtre
+Auditorium	Salle
+Row	Rang
+Seat	Place
+Hotel	Hôtel
+Floor	Étage
+Room	Chambre
+Beds	Lits
+Position X	Position X
+Seats	Places
+Position Y	Position Y
+Reversal of journal sheet	Extourne de la feuille comptable
+Reversal of depreciation sheet	Extourne de la feuille d'amortissement
+Reversal of general journal entry	Extourne de l'écriture générale
+Open the point of sale	Ouvrir le point de vente
+Stock and production	Stock et production
+Accounting setup	Paramètres comptables
+Fixed assets	Immobilisations
+Currencies and payments	Devises et paiements
+Company	Entreprise
+Users and rights	Utilisateurs et droits
+System settings	Paramètres système
+Types and categories	Types et catégories
+VAT	TVA
+Financial	Financiers
+Sale prices by partner	Prix de vente par partenaire
+Sale menu categories	Catégories des menus de vente
+Scenario lines	Lignes de scénarios
+Unbalanced scenarios	Scénarios non équilibrés
+Remaining asset value	Valeur résiduelle de l'actif
+VAT return box rules	Règles des cases de la déclaration de TVA
+VAT return by boxes	Déclaration de TVA par cases
+Payment methods by cost centre	Modes de paiement par centre de coût
+Users and roles	Utilisateurs et rôles
+Document flows	Flux de documents
+Chart types and categories	Types et catégories du plan
+Balance sheet	Bilan
+Profit and loss	Compte de résultat
+Balance sheet lines	Lignes du bilan
+Profit and loss lines	Lignes du compte de résultat
+City	Ville
+Staff ledger	Grand livre du personnel
+Sales and purchases by client	Ventes et achats par client
+Sales and purchases by cost centre	Ventes et achats par centre de coûts
+Transfers	Transferts
+Document totals	Totaux des documents
+Purchase price history	Historique des prix d'achat
+Depreciation books	Livres d'amortissement
+Depreciation methods	Méthodes d'amortissement
+Depreciation scenarios	Scénarios d'amortissement
+Depreciation scenario lines	Lignes des scénarios d'amortissement
+Serial numbers	Numéros de série
+User activity	Activité des utilisateurs
+Dashboard	Tableau de bord
+Dashboard items	Éléments du tableau de bord
+Clients owe us	Créances clients
+We owe suppliers	Dettes fournisseurs
+Drafts waiting	Brouillons en attente
+Sales and purchases by month	Ventes et achats par mois
+VAT by month	TVA par mois
+Top clients	Meilleurs clients
+Top suppliers	Meilleurs fournisseurs
+Top products	Meilleurs produits
+Sales by cost centre	Ventes par centre de coûts
+Migration	Migration
+Migration steps	Étapes de migration
+Warehouses, banks, cash desks and places	Entrepôts, banques, caisses et lieux
+Client and supplier categories	Catégories de clients et fournisseurs
+Product categories	Catégories de produits
+Units	Unités
+Exchange rates	Taux de change
+Next document numbers	Prochains numéros de documents
+Opening balances: clients and suppliers	Soldes d’ouverture : clients et fournisseurs
+Opening balances: banks, cash desks and staff	Soldes d’ouverture : banques, caisses et personnel
+Opening balances: the chart	Soldes d’ouverture : plan comptable
+Posting groups	Groupes de comptabilisation
+Document categories	Catégories de documents
+Opening balances: stock	Soldes d’ouverture : stock
+Opening balances: fixed assets	Soldes d’ouverture : immobilisations
+VAT groups of document types	Groupes de TVA des types de documents
+Closed periods	Périodes clôturées
+Transaction types	Types de transaction
+Transaction scopes	Portées des transactions
+Transaction categories	Catégories de transaction
+Transaction types of document types	Types de transaction des types de documents
+General client	Client général
+Transaction asset cost	Coût de l'immobilisation
+Transaction asset depreciation	Amortissement de l'immobilisation
+Transaction asset book value	Valeur comptable de l'immobilisation
+Sales by waiter	Ventes par serveur
+Ageing	Balance âgée
+Open invoices	Factures ouvertes
+Overdue from clients	Échu des clients
+Overdue to suppliers	Échu aux fournisseurs
+Gross profit	Marge brute
+Gross profit by cost centre	Marge brute par centre de coût
+Top combined products	Meilleurs produits combinés
+Close the year	Clôturer l'exercice
+Invoice run	Facturation des contrats
+Renewals	Renouvellements
+CRM	CRM
+Opportunities	Opportunités
+Pipeline	Pipeline
+Forecast	Prévision
+Opportunity stages	Étapes des opportunités
+Sales opportunities	Opportunités de vente
+Opportunity	Opportunité
+Qualify	Qualification
+Propose	Proposition
+Negotiate	Négociation
+Won	Gagnée
+Lost	Perdue
+Leads	Prospects
+Orders	Commandes
+Purchase request	Demande d'achat
+Purchase order	Commande d'achat
+Sales order	Commande de vente
+Approvals	Approbations
+Approval limits	Limites d'approbation
+Bank statements	Relevés bancaires
+Bank statement formats	Formats de relevés bancaires
+Date, text, reference, amount	Date, texte, référence, montant
+Lots	Lots
+Shifts	Services
+Production point	Point de production
+Production point display	Écran du point de production
+Production routes	Routes de production
+Point-of-sale order	Commande du point de vente
+Repairs	Réparations
+Repair intake	Réception de réparation
+Repair offer	Offre de réparation
+Technician	Technicien
+Received	Reçu
+Offer given	Offre remise
+Accepted	Acceptée
+Ready	Prêt
+Collected	Récupéré
+Refused	Refusée
+Item	Article
+Brand and model	Marque et modèle
+Serial number or plate	Numéro de série ou plaque
+Accessories left	Accessoires laissés
+Defect described	Défaut décrit
+Come back on	Revenir le
+Repair board	Tableau des réparations
+Repair stages	Étapes de réparation
+Repair shop	Atelier de réparation
+Roles	Rôles
+Account mapping	Correspondance des comptes
+Waiter	Serveur
+Cashier	Caissier
+Disassembly	Démontage
+Product taken apart	Produit démonté
+Recovered component	Composant récupéré
+Disassembly waste	Perte au démontage
+Point-of-sale reversal	Annulation point de vente
+Reversal of customs declaration	Annulation: Déclaration en douane
+Reversal of customs declaration, assets	Annulation: Déclaration en douane d'immobilisations
+Reversal of goods transfer note	Annulation: Bon de transfert
+Reversal of goods transfer, cost centre to staff	Annulation: Transfert du centre de coût au personnel
+Reversal of goods transfer, staff to cost centre	Annulation: Transfert du personnel au centre de coût
+Reversal of goods transfer, cost centre to client	Annulation: Transfert du centre de coût au client
+Reversal of goods transfer, client to cost centre	Annulation: Transfert du client au centre de coût
+Reversal of goods transfer, staff to client	Annulation: Transfert du personnel au client
+Opportunity types and categories	Types et catégories d'opportunités
+Opportunities and documents	Opportunités et documents
+Skins	Thèmes

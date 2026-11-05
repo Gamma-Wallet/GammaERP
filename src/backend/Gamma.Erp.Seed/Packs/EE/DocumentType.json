@@ -1,0 +1,2884 @@
+[
+ {
+  "Key": "document_type:SALES_INVOICE_GOODS",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "INV",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Sales invoice, goods",
+   "et": "Müügiarve, kaubad"
+  },
+  "Description": {
+   "en": "Sales invoice, goods",
+   "et": "Müügiarve, kaubad"
+  },
+  "SortOrder": 5.0,
+  "MenuId": null,
+  "AllowsPartialReversal": true,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": false,
+  "HoldsOpenItem": true,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": true
+ },
+ {
+  "Key": "document_type:CREDIT_NOTE_GOODS_SOLD",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "CN",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Credit note, goods sold",
+   "et": "Kreeditarve, müüdud kaubad"
+  },
+  "Description": {
+   "en": "Credit note, goods sold",
+   "et": "Kreeditarve, müüdud kaubad"
+  },
+  "SortOrder": 6.0,
+  "MenuId": null,
+  "IsReversal": true,
+  "ReversedDocumentTypeId": "document_type:SALES_INVOICE_GOODS",
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:SALES_INVOICE_SERVICES",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "INVS",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Sales invoice, services",
+   "et": "Müügiarve, teenused"
+  },
+  "Description": {
+   "en": "Sales invoice, services",
+   "et": "Müügiarve, teenused"
+  },
+  "SortOrder": 7.0,
+  "MenuId": null,
+  "AllowsPartialReversal": true,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": false,
+  "HoldsOpenItem": true,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": true
+ },
+ {
+  "Key": "document_type:CREDIT_NOTE_SERVICES_SOLD",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "CNS",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Credit note, services sold",
+   "et": "Kreeditarve, osutatud teenused"
+  },
+  "Description": {
+   "en": "Credit note, services sold",
+   "et": "Kreeditarve, osutatud teenused"
+  },
+  "SortOrder": 8.0,
+  "MenuId": null,
+  "IsReversal": true,
+  "ReversedDocumentTypeId": "document_type:SALES_INVOICE_SERVICES",
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:PURCHASE_INVOICE_GOODS",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "PINV",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Purchase invoice, goods",
+   "et": "Ostuarve, kaubad"
+  },
+  "Description": {
+   "en": "Purchase invoice, goods",
+   "et": "Ostuarve, kaubad"
+  },
+  "SortOrder": 9.0,
+  "MenuId": null,
+  "AllowsPartialReversal": true,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": false,
+  "HoldsOpenItem": true,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:CREDIT_NOTE_GOODS_BOUGHT",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "PCN",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Credit note, goods bought",
+   "et": "Ostu kreeditarve, kaubad"
+  },
+  "Description": {
+   "en": "Credit note, goods bought",
+   "et": "Ostu kreeditarve, kaubad"
+  },
+  "SortOrder": 11.0,
+  "MenuId": null,
+  "IsReversal": true,
+  "ReversedDocumentTypeId": "document_type:PURCHASE_INVOICE_GOODS",
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:PURCHASE_INVOICE_SERVICES",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "PINVS",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Purchase invoice, services",
+   "et": "Ostuarve, teenused"
+  },
+  "Description": {
+   "en": "Purchase invoice, services",
+   "et": "Ostuarve, teenused"
+  },
+  "SortOrder": 12.0,
+  "MenuId": null,
+  "AllowsPartialReversal": true,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": false,
+  "HoldsOpenItem": true,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:CREDIT_NOTE_SERVICES_BOUGHT",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "PCNS",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Credit note, services bought",
+   "et": "Ostu kreeditarve, teenused"
+  },
+  "Description": {
+   "en": "Credit note, services bought",
+   "et": "Ostu kreeditarve, teenused"
+  },
+  "SortOrder": 13.0,
+  "MenuId": null,
+  "IsReversal": true,
+  "ReversedDocumentTypeId": "document_type:PURCHASE_INVOICE_SERVICES",
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:GOODS_TRANSFER",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "DN",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Goods transfer note",
+   "et": "Liikumisdokument"
+  },
+  "Description": {
+   "en": "Goods transfer note",
+   "et": "Liikumisdokument"
+  },
+  "SortOrder": 14.0,
+  "MenuId": null,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:PAYMENT",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "PAY",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Payment",
+   "et": "Väljamakse"
+  },
+  "Description": {
+   "en": "Payment",
+   "et": "Väljamakse"
+  },
+  "SortOrder": 15.0,
+  "MenuId": null,
+  "AllowsPartialReversal": false,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": true,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:RECEIPT",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "REC",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Receipt",
+   "et": "Laekumine"
+  },
+  "Description": {
+   "en": "Receipt",
+   "et": "Laekumine"
+  },
+  "SortOrder": 16.0,
+  "MenuId": null,
+  "AllowsPartialReversal": false,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": true,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:PREPAYMENT",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "PPAY",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Prepayment",
+   "et": "Ettemaks"
+  },
+  "Description": {
+   "en": "Prepayment",
+   "et": "Ettemaks"
+  },
+  "SortOrder": 17.0,
+  "MenuId": null,
+  "AllowsPartialReversal": false,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:GOODS_TRANSFER_TO_STAFF",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "DNS",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Goods transfer, cost centre to staff",
+   "et": "Liikumine kulukohast töötajale"
+  },
+  "Description": {
+   "en": "Goods transfer, cost centre to staff",
+   "et": "Liikumine kulukohast töötajale"
+  },
+  "SortOrder": 18.0,
+  "MenuId": null,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:SALES_OFFER_GOODS",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "QUO",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Sales offer, goods",
+   "et": "Pakkumine, kaubad"
+  },
+  "Description": {
+   "en": "Sales offer, goods",
+   "et": "Pakkumine, kaubad"
+  },
+  "SortOrder": 19.0,
+  "MenuId": null,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": true,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:DEPRECIATION_SHEET",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "DEPS",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Depreciation sheet",
+   "et": "Kulumikava"
+  },
+  "Description": {
+   "en": "Depreciation sheet",
+   "et": "Kulumikava"
+  },
+  "SortOrder": 20.0,
+  "MenuId": null,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:DEPRECIATION_JOURNAL",
+  "IdSup": "document_type:DEPRECIATION_SHEET",
+  "Active": true,
+  "IsElement": true,
+  "Code": "DEP",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Depreciation journal",
+   "et": "Kulumi lausend"
+  },
+  "Description": {
+   "en": "Depreciation journal",
+   "et": "Kulumi lausend"
+  },
+  "SortOrder": 21.0,
+  "MenuId": null,
+  "AllowsPartialReversal": false,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:JOURNAL_SHEET",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "JVS",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Journal sheet",
+   "et": "Memoriaalorder"
+  },
+  "Description": {
+   "en": "Journal sheet",
+   "et": "Memoriaalorder"
+  },
+  "SortOrder": 22.0,
+  "MenuId": null,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:JOURNAL_PAYMENT",
+  "IdSup": "document_type:JOURNAL_SHEET",
+  "Active": true,
+  "IsElement": true,
+  "Code": "PAY",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Payment",
+   "et": "Väljamakse"
+  },
+  "Description": {
+   "en": "Payment",
+   "et": "Väljamakse"
+  },
+  "SortOrder": 23.0,
+  "MenuId": null,
+  "AllowsPartialReversal": false,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": true,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:JOURNAL_RECEIPT",
+  "IdSup": "document_type:JOURNAL_SHEET",
+  "Active": true,
+  "IsElement": true,
+  "Code": "REC",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Receipt",
+   "et": "Laekumine"
+  },
+  "Description": {
+   "en": "Receipt",
+   "et": "Laekumine"
+  },
+  "SortOrder": 24.0,
+  "MenuId": null,
+  "AllowsPartialReversal": false,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": true,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:JOURNAL_PREPAYMENT",
+  "IdSup": "document_type:JOURNAL_SHEET",
+  "Active": true,
+  "IsElement": true,
+  "Code": "PPAY",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Prepayment",
+   "et": "Ettemaks"
+  },
+  "Description": {
+   "en": "Prepayment",
+   "et": "Ettemaks"
+  },
+  "SortOrder": 25.0,
+  "MenuId": null,
+  "AllowsPartialReversal": false,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:REVALUATION_SHEET",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "REVS",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Revaluation sheet",
+   "et": "Ümberhindluse aruanne"
+  },
+  "Description": {
+   "en": "Revaluation sheet",
+   "et": "Ümberhindluse aruanne"
+  },
+  "SortOrder": 26.0,
+  "MenuId": null,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:REVALUATION_JOURNAL",
+  "IdSup": "document_type:REVALUATION_SHEET",
+  "Active": true,
+  "IsElement": true,
+  "Code": "REV",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Revaluation journal",
+   "et": "Ümberhindluse lausend"
+  },
+  "Description": {
+   "en": "Revaluation journal",
+   "et": "Ümberhindluse lausend"
+  },
+  "SortOrder": 27.0,
+  "MenuId": null,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:ADVANCE",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "ADV",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Advance",
+   "et": "Ettemaks"
+  },
+  "Description": {
+   "en": "Client's advance",
+   "et": "Ostja ettemaks"
+  },
+  "SortOrder": 29.0,
+  "MenuId": null,
+  "AllowsPartialReversal": false,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:EMPLOYEE_ADVANCE",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "EADV",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Employee advance",
+   "et": "Ettemaks töötajale"
+  },
+  "Description": {
+   "en": "Advance to an employee",
+   "et": "Ettemaks töötajale"
+  },
+  "SortOrder": 30.0,
+  "MenuId": null,
+  "AllowsPartialReversal": false,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:JOURNAL_ADVANCE",
+  "IdSup": "document_type:JOURNAL_SHEET",
+  "Active": true,
+  "IsElement": true,
+  "Code": "ADV",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Advance",
+   "et": "Ettemaks"
+  },
+  "Description": {
+   "en": "Client's advance",
+   "et": "Ostja ettemaks"
+  },
+  "SortOrder": 32.0,
+  "MenuId": null,
+  "AllowsPartialReversal": false,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:JOURNAL_EMPLOYEE_ADVANCE",
+  "IdSup": "document_type:JOURNAL_SHEET",
+  "Active": true,
+  "IsElement": true,
+  "Code": "EADV",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Employee advance",
+   "et": "Ettemaks töötajale"
+  },
+  "Description": {
+   "en": "Advance to an employee",
+   "et": "Ettemaks töötajale"
+  },
+  "SortOrder": 33.0,
+  "MenuId": null,
+  "AllowsPartialReversal": false,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:SALES_CONTRACT_GOODS",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "SCON",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Sales contract, goods",
+   "et": "Müügileping, kaubad"
+  },
+  "Description": {
+   "en": "Sales contract, goods",
+   "et": "Müügileping, kaubad"
+  },
+  "SortOrder": 34.0,
+  "MenuId": null,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": true,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": true,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:PURCHASE_CONTRACT_GOODS",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "PCON",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Purchase contract, goods",
+   "et": "Ostuleping, kaubad"
+  },
+  "Description": {
+   "en": "Purchase contract, goods",
+   "et": "Ostuleping, kaubad"
+  },
+  "SortOrder": 35.0,
+  "MenuId": null,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": true,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": true,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:PURCHASE_OFFER_GOODS",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "RFQ",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Purchase offer, goods",
+   "et": "Hinnapäring, kaubad"
+  },
+  "Description": {
+   "en": "Purchase offer, goods",
+   "et": "Hinnapäring, kaubad"
+  },
+  "SortOrder": 36.0,
+  "MenuId": null,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": true,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:SALES_OFFER_SERVICES",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "QUOS",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Sales offer, services",
+   "et": "Pakkumine, teenused"
+  },
+  "Description": {
+   "en": "Sales offer, services",
+   "et": "Pakkumine, teenused"
+  },
+  "SortOrder": 37.0,
+  "MenuId": null,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": true,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:REPAIR_INTAKE",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "RIN",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Repair intake",
+   "et": "Remonti vastuvõtt"
+  },
+  "Description": {
+   "en": "Repair intake",
+   "et": "Remonti vastuvõtt"
+  },
+  "SortOrder": 37.01,
+  "MenuId": null,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": true,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false,
+  "StartsRepair": true
+ },
+ {
+  "Key": "document_type:REPAIR_OFFER",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "ROF",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Repair offer",
+   "et": "Remondipakkumine"
+  },
+  "Description": {
+   "en": "Repair offer",
+   "et": "Remondipakkumine"
+  },
+  "SortOrder": 37.02,
+  "MenuId": null,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": true,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false,
+  "CanBeAccepted": true
+ },
+ {
+  "Key": "document_type:PURCHASE_OFFER_SERVICES",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "RFQS",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Purchase offer, services",
+   "et": "Hinnapäring, teenused"
+  },
+  "Description": {
+   "en": "Purchase offer, services",
+   "et": "Hinnapäring, teenused"
+  },
+  "SortOrder": 38.0,
+  "MenuId": null,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": true,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:SALES_CONTRACT_SERVICES",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "SCONS",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Sales contract, services",
+   "et": "Teenuse osutamise leping"
+  },
+  "Description": {
+   "en": "Sales contract, services",
+   "et": "Teenuse osutamise leping"
+  },
+  "SortOrder": 39.0,
+  "MenuId": null,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": true,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": true,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:PURCHASE_CONTRACT_SERVICES",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "PCONS",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Purchase contract, services",
+   "et": "Ostetud teenuste leping"
+  },
+  "Description": {
+   "en": "Purchase contract, services",
+   "et": "Ostetud teenuste leping"
+  },
+  "SortOrder": 40.0,
+  "MenuId": null,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": true,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": true,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:RECURRING_DEPRECIATION_SHEET",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "DEPR",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Recurring depreciation sheet",
+   "et": "Korduv kulumikava"
+  },
+  "Description": null,
+  "SortOrder": 41.0,
+  "MenuId": null,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:RECURRING_JOURNAL_SHEET",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "JVR",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Recurring journal sheet",
+   "et": "Korduv memoriaalorder"
+  },
+  "Description": null,
+  "SortOrder": 42.0,
+  "MenuId": null,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:RECURRING_REVALUATION_SHEET",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "REVR",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Recurring revaluation sheet",
+   "et": "Korduv ümberhindluse aruanne"
+  },
+  "Description": null,
+  "SortOrder": 43.0,
+  "MenuId": null,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:GENERAL_JOURNAL_ENTRY",
+  "IdSup": "document_type:JOURNAL_SHEET",
+  "Active": true,
+  "IsElement": true,
+  "Code": "JV",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "General journal entry",
+   "et": "Üldlausend"
+  },
+  "Description": {
+   "en": "General journal entry",
+   "et": "Üldlausend"
+  },
+  "SortOrder": 44.0,
+  "MenuId": null,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:POS_RECEIPT",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "RCPT",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Point-of-sale receipt",
+   "et": "Kassatšekk"
+  },
+  "Description": {
+   "en": "Point-of-sale receipt",
+   "et": "Kassatšekk"
+  },
+  "SortOrder": 45.0,
+  "MenuId": null,
+  "AllowsPartialReversal": true,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": true,
+  "SellsProducedProduct": true
+ },
+ {
+  "Key": "document_type:GOODS_TRANSFER_FROM_STAFF",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "DNSC",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Goods transfer, staff to cost centre",
+   "et": "Liikumine töötajalt kulukohta"
+  },
+  "Description": {
+   "en": "Goods transfer, staff to cost centre",
+   "et": "Liikumine töötajalt kulukohta"
+  },
+  "SortOrder": 46.0,
+  "MenuId": null,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:GOODS_TRANSFER_TO_CLIENT",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "DNCC",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Goods transfer, cost centre to client",
+   "et": "Tarne kulukohast ostjale"
+  },
+  "Description": {
+   "en": "Goods transfer, cost centre to client",
+   "et": "Tarne kulukohast ostjale"
+  },
+  "SortOrder": 47.0,
+  "MenuId": null,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:GOODS_TRANSFER_FROM_CLIENT",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "DNKC",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Goods transfer, client to cost centre",
+   "et": "Tagastus ostjalt kulukohta"
+  },
+  "Description": {
+   "en": "Goods transfer, client to cost centre",
+   "et": "Tagastus ostjalt kulukohta"
+  },
+  "SortOrder": 48.0,
+  "MenuId": null,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:POS_CONTRACT",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "POSC",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Point-of-sale contract",
+   "et": "Müügikoha leping"
+  },
+  "Description": {
+   "en": "Point-of-sale contract",
+   "et": "Müügikoha leping"
+  },
+  "SortOrder": 49.0,
+  "MenuId": null,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": true,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": true,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:POS_MONEY_IN",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "POSR",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Point-of-sale receipt of money",
+   "et": "Laekumine müügikohas"
+  },
+  "Description": {
+   "en": "Point-of-sale receipt of money",
+   "et": "Laekumine müügikohas"
+  },
+  "SortOrder": 50.0,
+  "MenuId": null,
+  "AllowsPartialReversal": true,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:POS_MONEY_OUT",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "POSP",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Point-of-sale payment",
+   "et": "Väljamakse müügikohas"
+  },
+  "Description": {
+   "en": "Point-of-sale payment",
+   "et": "Väljamakse müügikohas"
+  },
+  "SortOrder": 51.0,
+  "MenuId": null,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:POS_GOODS_IN",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "POSIN",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Point-of-sale goods in",
+   "et": "Vastuvõtt müügikohas"
+  },
+  "Description": {
+   "en": "Point-of-sale goods in",
+   "et": "Vastuvõtt müügikohas"
+  },
+  "SortOrder": 52.0,
+  "MenuId": null,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:POS_GOODS_OUT",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "POSOUT",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Point-of-sale goods out",
+   "et": "Väljastus müügikohast"
+  },
+  "Description": {
+   "en": "Point-of-sale goods out",
+   "et": "Väljastus müügikohast"
+  },
+  "SortOrder": 53.0,
+  "MenuId": null,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:WAGE_PAYMENT",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "PAYW",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Wage payment",
+   "et": "Palga väljamakse"
+  },
+  "Description": {
+   "en": "Wage payment",
+   "et": "Palga väljamakse"
+  },
+  "SortOrder": 56.0,
+  "MenuId": null,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:RENT_PAYMENT",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "PAYR",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Rent payment",
+   "et": "Rendimakse"
+  },
+  "Description": {
+   "en": "Rent payment",
+   "et": "Rendimakse"
+  },
+  "SortOrder": 57.0,
+  "MenuId": null,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:CUSTOMS_DECLARATION",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "CUS",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Customs declaration",
+   "et": "Tollideklaratsioon"
+  },
+  "Description": {
+   "en": "Customs declaration",
+   "et": "Tollideklaratsioon"
+  },
+  "SortOrder": 58.0,
+  "MenuId": null,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:CUSTOMS_DECLARATION_ASSETS",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "CUSA",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Customs declaration, assets",
+   "et": "Põhivara tollideklaratsioon"
+  },
+  "Description": {
+   "en": "Customs declaration, assets",
+   "et": "Põhivara tollideklaratsioon"
+  },
+  "SortOrder": 59.0,
+  "MenuId": null,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:POS_REVERSAL",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "RRET",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Point-of-sale reversal",
+   "et": "Kassamüügi tühistamine"
+  },
+  "Description": {
+   "en": "Point-of-sale reversal",
+   "et": "Kassamüügi tühistamine"
+  },
+  "SortOrder": 60.0,
+  "MenuId": null,
+  "IsReversal": true,
+  "ReversedDocumentTypeId": "document_type:POS_RECEIPT",
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:POS_REFUND",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "POSREF",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Point-of-sale refund",
+   "et": "Raha tagastus müügikohas"
+  },
+  "Description": {
+   "en": "Point-of-sale refund",
+   "et": "Raha tagastus müügikohas"
+  },
+  "SortOrder": 62.0,
+  "MenuId": null,
+  "IsReversal": true,
+  "ReversedDocumentTypeId": "document_type:POS_MONEY_IN",
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:POS_MONEY_FROM_STAFF",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "POSRS",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Point-of-sale receipt from staff",
+   "et": "Töötaja laekumine müügikohas"
+  },
+  "Description": {
+   "en": "Point-of-sale receipt from staff",
+   "et": "Töötaja laekumine müügikohas"
+  },
+  "SortOrder": 63.0,
+  "MenuId": null,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:GOODS_OUT_TO_STAFF",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "SOUT",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Goods out to staff",
+   "et": "Väljastus töötajale"
+  },
+  "Description": {
+   "en": "Goods out to staff",
+   "et": "Väljastus töötajale"
+  },
+  "SortOrder": 65.0,
+  "MenuId": null,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:GOODS_TRANSFER_STAFF_TO_CLIENT",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "DNSK",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Goods transfer, staff to client",
+   "et": "Tarne töötajalt ostjale"
+  },
+  "Description": {
+   "en": "Goods transfer, staff to client",
+   "et": "Tarne töötajalt ostjale"
+  },
+  "SortOrder": 66.0,
+  "MenuId": null,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:GOODS_IN_FROM_STAFF",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "SIN",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Goods in from staff",
+   "et": "Vastuvõtt töötajalt"
+  },
+  "Description": {
+   "en": "Goods in from staff",
+   "et": "Vastuvõtt töötajalt"
+  },
+  "SortOrder": 67.0,
+  "MenuId": null,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:REVERSAL_PAYMENT",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "RPAY",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Reversal of payment",
+   "et": "Väljamakse tühistamine"
+  },
+  "SortOrder": 15.0,
+  "IsReversal": true,
+  "ReversedDocumentTypeId": "document_type:PAYMENT",
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:REVERSAL_RECEIPT",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "RREC",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Reversal of receipt",
+   "et": "Laekumise tühistamine"
+  },
+  "SortOrder": 16.0,
+  "IsReversal": true,
+  "ReversedDocumentTypeId": "document_type:RECEIPT",
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:REVERSAL_PREPAYMENT",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "RPPAY",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Reversal of prepayment",
+   "et": "Ettemaksu tühistamine"
+  },
+  "SortOrder": 17.0,
+  "IsReversal": true,
+  "ReversedDocumentTypeId": "document_type:PREPAYMENT",
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:REVERSAL_DEPRECIATION_JOURNAL",
+  "IdSup": "document_type:REVERSAL_DEPRECIATION_SHEET",
+  "Active": true,
+  "IsElement": true,
+  "Code": "RDEP",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Reversal of depreciation journal",
+   "et": "Kulumi lausendi tühistamine"
+  },
+  "SortOrder": 21.0,
+  "IsReversal": true,
+  "ReversedDocumentTypeId": "document_type:DEPRECIATION_JOURNAL",
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:REVERSAL_JOURNAL_PAYMENT",
+  "IdSup": "document_type:REVERSAL_JOURNAL_SHEET",
+  "Active": true,
+  "IsElement": true,
+  "Code": "RPAYJ",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Reversal of payment",
+   "et": "Väljamakse tühistamine"
+  },
+  "SortOrder": 23.0,
+  "IsReversal": true,
+  "ReversedDocumentTypeId": "document_type:JOURNAL_PAYMENT",
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:REVERSAL_JOURNAL_RECEIPT",
+  "IdSup": "document_type:REVERSAL_JOURNAL_SHEET",
+  "Active": true,
+  "IsElement": true,
+  "Code": "RRECJ",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Reversal of receipt",
+   "et": "Laekumise tühistamine"
+  },
+  "SortOrder": 24.0,
+  "IsReversal": true,
+  "ReversedDocumentTypeId": "document_type:JOURNAL_RECEIPT",
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:REVERSAL_JOURNAL_PREPAYMENT",
+  "IdSup": "document_type:REVERSAL_JOURNAL_SHEET",
+  "Active": true,
+  "IsElement": true,
+  "Code": "RPPAYJ",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Reversal of prepayment",
+   "et": "Ettemaksu tühistamine"
+  },
+  "SortOrder": 25.0,
+  "IsReversal": true,
+  "ReversedDocumentTypeId": "document_type:JOURNAL_PREPAYMENT",
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:REVERSAL_ADVANCE",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "RADV",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Reversal of advance",
+   "et": "Ettemaksu tühistamine"
+  },
+  "SortOrder": 29.0,
+  "IsReversal": true,
+  "ReversedDocumentTypeId": "document_type:ADVANCE",
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:REVERSAL_EMPLOYEE_ADVANCE",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "READV",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Reversal of employee advance",
+   "et": "Töötaja ettemaksu tühistamine"
+  },
+  "SortOrder": 30.0,
+  "IsReversal": true,
+  "ReversedDocumentTypeId": "document_type:EMPLOYEE_ADVANCE",
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:REVERSAL_JOURNAL_ADVANCE",
+  "IdSup": "document_type:REVERSAL_JOURNAL_SHEET",
+  "Active": true,
+  "IsElement": true,
+  "Code": "RADVJ",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Reversal of advance",
+   "et": "Ettemaksu tühistamine"
+  },
+  "SortOrder": 32.0,
+  "IsReversal": true,
+  "ReversedDocumentTypeId": "document_type:JOURNAL_ADVANCE",
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:REVERSAL_JOURNAL_EMPLOYEE_ADVANCE",
+  "IdSup": "document_type:REVERSAL_JOURNAL_SHEET",
+  "Active": true,
+  "IsElement": false,
+  "Code": "READVJ",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Reversal of employee advance",
+   "et": "Töötaja ettemaksu tühistamine"
+  },
+  "SortOrder": 33.0,
+  "IsReversal": true,
+  "ReversedDocumentTypeId": "document_type:JOURNAL_EMPLOYEE_ADVANCE",
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:PRODUCTION",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "PRD",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Production",
+   "et": "Tootmine"
+  },
+  "Description": {
+   "en": "Production",
+   "et": "Tootmine"
+  },
+  "SortOrder": 90.0,
+  "MenuId": null,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": false,
+  "AllowsPartialReversal": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:UNIT_SPLIT",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "UNS",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Unit split",
+   "et": "Ühiku teisendus"
+  },
+  "Description": {
+   "en": "Unit split",
+   "et": "Ühiku teisendus"
+  },
+  "SortOrder": 92.0,
+  "MenuId": null,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": false,
+  "AllowsPartialReversal": true,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:REVERSAL_UNIT_SPLIT",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "RUNS",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Reversal of unit split",
+   "et": "Ühiku teisenduse tühistamine"
+  },
+  "Description": {
+   "en": "Reversal of unit split",
+   "et": "Ühiku teisenduse tühistamine"
+  },
+  "SortOrder": 93.0,
+  "MenuId": null,
+  "IsReversal": true,
+  "ReversedDocumentTypeId": "document_type:UNIT_SPLIT",
+  "NeverPosted": false,
+  "AllowsPartialReversal": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:REVERSAL_JOURNAL_SHEET",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "RJVSJ",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Reversal of journal sheet",
+   "et": "Pearaamatulehe tühistamine"
+  },
+  "SortOrder": 222.0,
+  "IsReversal": true,
+  "ReversedDocumentTypeId": "document_type:JOURNAL_SHEET",
+  "NeverPosted": false,
+  "Description": {
+   "en": "Reversal of journal sheet",
+   "et": "Pearaamatulehe tühistamine"
+  },
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:REVERSAL_DEPRECIATION_SHEET",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "RDEPSJ",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Reversal of depreciation sheet",
+   "et": "Amortisatsioonilehe tühistamine"
+  },
+  "SortOrder": 220.0,
+  "IsReversal": true,
+  "ReversedDocumentTypeId": "document_type:DEPRECIATION_SHEET",
+  "NeverPosted": false,
+  "Description": {
+   "en": "Reversal of depreciation sheet",
+   "et": "Amortisatsioonilehe tühistamine"
+  },
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:REVERSAL_GENERAL_JOURNAL_ENTRY",
+  "IdSup": "document_type:REVERSAL_JOURNAL_SHEET",
+  "Active": true,
+  "IsElement": true,
+  "Code": "RJVJ",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Reversal of general journal entry",
+   "et": "Üldkande tühistamine"
+  },
+  "SortOrder": 244.0,
+  "IsReversal": true,
+  "ReversedDocumentTypeId": "document_type:GENERAL_JOURNAL_ENTRY",
+  "NeverPosted": false,
+  "Description": {
+   "en": "Reversal of general journal entry",
+   "et": "Üldkande tühistamine"
+  },
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:RECURRING_JOURNAL_PAYMENT",
+  "IdSup": "document_type:RECURRING_JOURNAL_SHEET",
+  "Active": true,
+  "IsElement": true,
+  "Code": "PAYRR",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Payment",
+   "et": "Väljamakse"
+  },
+  "Description": {
+   "en": "Payment",
+   "et": "Väljamakse"
+  },
+  "SortOrder": 123.0,
+  "MenuId": null,
+  "AllowsPartialReversal": false,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": true,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:REVERSAL_RECURRING_JOURNAL_PAYMENT",
+  "IdSup": "document_type:REVERSAL_RECURRING_JOURNAL_SHEET",
+  "Active": true,
+  "IsElement": true,
+  "Code": "RPAYRJ",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Reversal of payment",
+   "et": "Väljamakse tühistamine"
+  },
+  "SortOrder": 123.0,
+  "IsReversal": true,
+  "ReversedDocumentTypeId": "document_type:RECURRING_JOURNAL_PAYMENT",
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:RECURRING_JOURNAL_RECEIPT",
+  "IdSup": "document_type:RECURRING_JOURNAL_SHEET",
+  "Active": true,
+  "IsElement": true,
+  "Code": "RECR",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Receipt",
+   "et": "Laekumine"
+  },
+  "Description": {
+   "en": "Receipt",
+   "et": "Laekumine"
+  },
+  "SortOrder": 124.0,
+  "MenuId": null,
+  "AllowsPartialReversal": false,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": true,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:REVERSAL_RECURRING_JOURNAL_RECEIPT",
+  "IdSup": "document_type:REVERSAL_RECURRING_JOURNAL_SHEET",
+  "Active": true,
+  "IsElement": true,
+  "Code": "RRECRJ",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Reversal of receipt",
+   "et": "Laekumise tühistamine"
+  },
+  "SortOrder": 124.0,
+  "IsReversal": true,
+  "ReversedDocumentTypeId": "document_type:RECURRING_JOURNAL_RECEIPT",
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:RECURRING_JOURNAL_PREPAYMENT",
+  "IdSup": "document_type:RECURRING_JOURNAL_SHEET",
+  "Active": true,
+  "IsElement": true,
+  "Code": "PPAYR",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Prepayment",
+   "et": "Ettemaks"
+  },
+  "Description": {
+   "en": "Prepayment",
+   "et": "Ettemaks"
+  },
+  "SortOrder": 125.0,
+  "MenuId": null,
+  "AllowsPartialReversal": false,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:REVERSAL_RECURRING_JOURNAL_PREPAYMENT",
+  "IdSup": "document_type:REVERSAL_RECURRING_JOURNAL_SHEET",
+  "Active": true,
+  "IsElement": true,
+  "Code": "RPPAYRJ",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Reversal of prepayment",
+   "et": "Ettemaksu tühistamine"
+  },
+  "SortOrder": 125.0,
+  "IsReversal": true,
+  "ReversedDocumentTypeId": "document_type:RECURRING_JOURNAL_PREPAYMENT",
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:RECURRING_JOURNAL_ADVANCE",
+  "IdSup": "document_type:RECURRING_JOURNAL_SHEET",
+  "Active": true,
+  "IsElement": true,
+  "Code": "ADVR",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Advance",
+   "et": "Ettemaks"
+  },
+  "Description": {
+   "en": "Client's advance",
+   "et": "Ostja ettemaks"
+  },
+  "SortOrder": 132.0,
+  "MenuId": null,
+  "AllowsPartialReversal": false,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:REVERSAL_RECURRING_JOURNAL_ADVANCE",
+  "IdSup": "document_type:REVERSAL_RECURRING_JOURNAL_SHEET",
+  "Active": true,
+  "IsElement": true,
+  "Code": "RADVRJ",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Reversal of advance",
+   "et": "Ettemaksu tühistamine"
+  },
+  "SortOrder": 132.0,
+  "IsReversal": true,
+  "ReversedDocumentTypeId": "document_type:RECURRING_JOURNAL_ADVANCE",
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:RECURRING_JOURNAL_EMPLOYEE_ADVANCE",
+  "IdSup": "document_type:RECURRING_JOURNAL_SHEET",
+  "Active": true,
+  "IsElement": true,
+  "Code": "EADVR",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Employee advance",
+   "et": "Ettemaks töötajale"
+  },
+  "Description": {
+   "en": "Advance to an employee",
+   "et": "Ettemaks töötajale"
+  },
+  "SortOrder": 133.0,
+  "MenuId": null,
+  "AllowsPartialReversal": false,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:REVERSAL_RECURRING_JOURNAL_EMPLOYEE_ADVANCE",
+  "IdSup": "document_type:REVERSAL_RECURRING_JOURNAL_SHEET",
+  "Active": true,
+  "IsElement": false,
+  "Code": "READVRJ",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Reversal of employee advance",
+   "et": "Töötaja ettemaksu tühistamine"
+  },
+  "SortOrder": 133.0,
+  "IsReversal": true,
+  "ReversedDocumentTypeId": "document_type:RECURRING_JOURNAL_EMPLOYEE_ADVANCE",
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:RECURRING_GENERAL_JOURNAL_ENTRY",
+  "IdSup": "document_type:RECURRING_JOURNAL_SHEET",
+  "Active": true,
+  "IsElement": true,
+  "Code": "JVRR",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "General journal entry",
+   "et": "Üldlausend"
+  },
+  "Description": {
+   "en": "General journal entry",
+   "et": "Üldlausend"
+  },
+  "SortOrder": 144.0,
+  "MenuId": null,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:REVERSAL_RECURRING_GENERAL_JOURNAL_ENTRY",
+  "IdSup": "document_type:REVERSAL_RECURRING_JOURNAL_SHEET",
+  "Active": true,
+  "IsElement": true,
+  "Code": "RJVRJ",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Reversal of general journal entry",
+   "et": "Üldkande tühistamine"
+  },
+  "SortOrder": 344.0,
+  "IsReversal": true,
+  "ReversedDocumentTypeId": "document_type:RECURRING_GENERAL_JOURNAL_ENTRY",
+  "NeverPosted": false,
+  "Description": {
+   "en": "Reversal of general journal entry",
+   "et": "Üldkande tühistamine"
+  },
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:REVERSAL_RECURRING_JOURNAL_SHEET",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "RJVRJR",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Reversal of journal sheet",
+   "et": "Pearaamatulehe tühistamine"
+  },
+  "SortOrder": 322.0,
+  "IsReversal": true,
+  "ReversedDocumentTypeId": "document_type:RECURRING_JOURNAL_SHEET",
+  "NeverPosted": false,
+  "Description": {
+   "en": "Reversal of journal sheet",
+   "et": "Pearaamatulehe tühistamine"
+  },
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:RECURRING_DEPRECIATION_JOURNAL",
+  "IdSup": "document_type:RECURRING_DEPRECIATION_SHEET",
+  "Active": true,
+  "IsElement": true,
+  "Code": "DEPRR",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Depreciation journal",
+   "et": "Kulumi lausend"
+  },
+  "Description": {
+   "en": "Depreciation journal",
+   "et": "Kulumi lausend"
+  },
+  "SortOrder": 121.0,
+  "MenuId": null,
+  "AllowsPartialReversal": false,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:REVERSAL_RECURRING_DEPRECIATION_JOURNAL",
+  "IdSup": "document_type:REVERSAL_RECURRING_DEPRECIATION_SHEET",
+  "Active": true,
+  "IsElement": true,
+  "Code": "RDEPRJ",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Reversal of depreciation journal",
+   "et": "Kulumi lausendi tühistamine"
+  },
+  "SortOrder": 121.0,
+  "IsReversal": true,
+  "ReversedDocumentTypeId": "document_type:RECURRING_DEPRECIATION_JOURNAL",
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:REVERSAL_RECURRING_DEPRECIATION_SHEET",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "RDEPRJR",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Reversal of depreciation sheet",
+   "et": "Amortisatsioonilehe tühistamine"
+  },
+  "SortOrder": 320.0,
+  "IsReversal": true,
+  "ReversedDocumentTypeId": "document_type:RECURRING_DEPRECIATION_SHEET",
+  "NeverPosted": false,
+  "Description": {
+   "en": "Reversal of depreciation sheet",
+   "et": "Amortisatsioonilehe tühistamine"
+  },
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:RECURRING_REVALUATION_JOURNAL",
+  "IdSup": "document_type:RECURRING_REVALUATION_SHEET",
+  "Active": true,
+  "IsElement": true,
+  "Code": "REVRR",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Revaluation journal",
+   "et": "Ümberhindluse lausend"
+  },
+  "Description": {
+   "en": "Revaluation journal",
+   "et": "Ümberhindluse lausend"
+  },
+  "SortOrder": 127.0,
+  "MenuId": null,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:PURCHASE_REQUEST",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "PRQ",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Purchase request",
+   "et": "Ostusoov"
+  },
+  "Description": {
+   "en": "Purchase request",
+   "et": "Ostusoov"
+  },
+  "SortOrder": 19.1,
+  "MenuId": null,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": true,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": true,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:PURCHASE_ORDER",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "POR",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Purchase order",
+   "et": "Ostutellimus"
+  },
+  "Description": {
+   "en": "Purchase order",
+   "et": "Ostutellimus"
+  },
+  "SortOrder": 19.2,
+  "MenuId": null,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": true,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": true,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:SALES_ORDER",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "SOR",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Sales order",
+   "et": "Müügitellimus"
+  },
+  "Description": {
+   "en": "Sales order",
+   "et": "Müügitellimus"
+  },
+  "SortOrder": 19.3,
+  "MenuId": null,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": true,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false,
+  "ProducedOnProductionScreen": true
+ },
+ {
+  "Key": "document_type:POS_ORDER",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "PSO",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Point-of-sale order",
+   "et": "Müügipunkti tellimus"
+  },
+  "Description": {
+   "en": "Point-of-sale order",
+   "et": "Müügipunkti tellimus"
+  },
+  "SortOrder": 19.310000000000002,
+  "MenuId": null,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": true,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false,
+  "SendsToProduction": true,
+  "ProductionDocumentTypeId": "document_type:PRODUCTION"
+ },
+ {
+  "Key": "document_type:DISASSEMBLY",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "DIS",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Disassembly",
+   "et": "Lahtivõtmine"
+  },
+  "Description": {
+   "en": "Disassembly",
+   "et": "Lahtivõtmine"
+  },
+  "SortOrder": 90.5,
+  "MenuId": null,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": false,
+  "AllowsPartialReversal": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false,
+  "ProductionDocumentTypeId": null
+ },
+ {
+  "Key": "document_type:REVERSAL_CUSTOMS_DECLARATION",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "RCUS",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Reversal of customs declaration",
+   "et": "Tühistamine: Tollideklaratsioon"
+  },
+  "Description": {
+   "en": "Reversal of customs declaration",
+   "et": "Tühistamine: Tollideklaratsioon"
+  },
+  "SortOrder": 58.5,
+  "MenuId": null,
+  "IsReversal": true,
+  "ReversedDocumentTypeId": "document_type:CUSTOMS_DECLARATION",
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false,
+  "AllowsPartialReversal": false
+ },
+ {
+  "Key": "document_type:REVERSAL_CUSTOMS_DECLARATION_ASSETS",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "RCUSA",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Reversal of customs declaration, assets",
+   "et": "Tühistamine: Põhivara tollideklaratsioon"
+  },
+  "Description": {
+   "en": "Reversal of customs declaration, assets",
+   "et": "Tühistamine: Põhivara tollideklaratsioon"
+  },
+  "SortOrder": 59.5,
+  "MenuId": null,
+  "IsReversal": true,
+  "ReversedDocumentTypeId": "document_type:CUSTOMS_DECLARATION_ASSETS",
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false,
+  "AllowsPartialReversal": false
+ },
+ {
+  "Key": "document_type:REVERSAL_GOODS_TRANSFER",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "RDN",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Reversal of goods transfer note",
+   "et": "Tühistamine: Liikumisdokument"
+  },
+  "Description": {
+   "en": "Reversal of goods transfer note",
+   "et": "Tühistamine: Liikumisdokument"
+  },
+  "SortOrder": 14.5,
+  "MenuId": null,
+  "IsReversal": true,
+  "ReversedDocumentTypeId": "document_type:GOODS_TRANSFER",
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false,
+  "AllowsPartialReversal": false
+ },
+ {
+  "Key": "document_type:REVERSAL_GOODS_TRANSFER_TO_STAFF",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "RDNS",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Reversal of goods transfer, cost centre to staff",
+   "et": "Tühistamine: Liikumine kulukohast töötajale"
+  },
+  "Description": {
+   "en": "Reversal of goods transfer, cost centre to staff",
+   "et": "Tühistamine: Liikumine kulukohast töötajale"
+  },
+  "SortOrder": 18.5,
+  "MenuId": null,
+  "IsReversal": true,
+  "ReversedDocumentTypeId": "document_type:GOODS_TRANSFER_TO_STAFF",
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false,
+  "AllowsPartialReversal": false
+ },
+ {
+  "Key": "document_type:REVERSAL_GOODS_TRANSFER_FROM_STAFF",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "RDNSC",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Reversal of goods transfer, staff to cost centre",
+   "et": "Tühistamine: Liikumine töötajalt kulukohta"
+  },
+  "Description": {
+   "en": "Reversal of goods transfer, staff to cost centre",
+   "et": "Tühistamine: Liikumine töötajalt kulukohta"
+  },
+  "SortOrder": 46.5,
+  "MenuId": null,
+  "IsReversal": true,
+  "ReversedDocumentTypeId": "document_type:GOODS_TRANSFER_FROM_STAFF",
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false,
+  "AllowsPartialReversal": false
+ },
+ {
+  "Key": "document_type:REVERSAL_GOODS_TRANSFER_TO_CLIENT",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "RDNCC",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Reversal of goods transfer, cost centre to client",
+   "et": "Tühistamine: Tarne kulukohast ostjale"
+  },
+  "Description": {
+   "en": "Reversal of goods transfer, cost centre to client",
+   "et": "Tühistamine: Tarne kulukohast ostjale"
+  },
+  "SortOrder": 47.5,
+  "MenuId": null,
+  "IsReversal": true,
+  "ReversedDocumentTypeId": "document_type:GOODS_TRANSFER_TO_CLIENT",
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false,
+  "AllowsPartialReversal": false
+ },
+ {
+  "Key": "document_type:REVERSAL_GOODS_TRANSFER_FROM_CLIENT",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "RDNKC",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Reversal of goods transfer, client to cost centre",
+   "et": "Tühistamine: Tagastus ostjalt kulukohta"
+  },
+  "Description": {
+   "en": "Reversal of goods transfer, client to cost centre",
+   "et": "Tühistamine: Tagastus ostjalt kulukohta"
+  },
+  "SortOrder": 48.5,
+  "MenuId": null,
+  "IsReversal": true,
+  "ReversedDocumentTypeId": "document_type:GOODS_TRANSFER_FROM_CLIENT",
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false,
+  "AllowsPartialReversal": false
+ },
+ {
+  "Key": "document_type:REVERSAL_GOODS_TRANSFER_STAFF_TO_CLIENT",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "RDNSK",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Reversal of goods transfer, staff to client",
+   "et": "Tühistamine: Tarne töötajalt ostjale"
+  },
+  "Description": {
+   "en": "Reversal of goods transfer, staff to client",
+   "et": "Tühistamine: Tarne töötajalt ostjale"
+  },
+  "SortOrder": 66.5,
+  "MenuId": null,
+  "IsReversal": true,
+  "ReversedDocumentTypeId": "document_type:GOODS_TRANSFER_STAFF_TO_CLIENT",
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false,
+  "AllowsPartialReversal": false
+ }
+]

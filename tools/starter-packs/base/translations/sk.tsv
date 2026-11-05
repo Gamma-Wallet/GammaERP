@@ -1,0 +1,442 @@
+# The base names in Slovak, keyed by the English name (Gamma's translations), for the packs in Slovak.
+# en	sk
+Base	Sídlo
+Cash desk	Pokladnica
+Bank	Banka
+Point of sale	Predajné miesto
+Warehouse	Sklad
+Office	Kancelária
+Tax number	IČ DPH
+Owner	Majiteľ
+Name	Názov
+Currency	Mena
+Trade name	Obchodný názov
+Address	Adresa
+Phone	Telefón
+E-mail	E-mail
+Website	Webová stránka
+Logo	Logo
+Authorised person	Oprávnená osoba
+Account	Účet
+Negative stock allowed (cost centres)	Povolená záporná zásoba (nákladové strediská)
+Negative stock allowed (partners)	Povolená záporná zásoba (partneri)
+Negative stock allowed (employees)	Povolená záporná zásoba (zamestnanci)
+cost centres	strediská
+partners	partneri
+employees	zamestnanci
+Hold timeout (minutes)	Čas uzamknutia dokladu (minúty)
+ALL	ALL
+EUR	EUR
+USD	USD
+GBP	GBP
+CAD	CAD
+CHF	CHF
+Company book	Účtovná evidencia
+Tax book	Daňová evidencia
+Straight-line	Rovnomerné
+Straight-line depreciation	Rovnomerné odpisovanie
+Remaining value	Zostatková cena
+Depreciation on the remaining value	Odpisovanie zo zostatkovej ceny
+Assets	Dlhodobý majetok
+Land	Pozemky
+Buildings	Stavby
+Office equipment	Kancelárska technika
+Vehicles	Dopravné prostriedky
+Computer equipment	Výpočtová technika
+Furniture and fittings	Nábytok a vybavenie
+Intangible assets	Dlhodobý nehmotný majetok
+Sales	Predaj
+Sales invoices	Vystavené faktúry
+Purchases	Nákup
+Purchase invoices	Prijaté faktúry
+Goods transfers	Presuny tovaru
+Goods transfer note	Prevodka
+Offers	Ponuky
+Journal	Denník
+Contracts	Zmluvy
+Recurring journal	Opakovaný denník
+Reversals	Storná
+Sales invoice, goods	Faktúra za predaj tovaru
+Credit note, goods sold	Dobropis k predaju tovaru
+Sales invoice, services	Faktúra za služby
+Credit note, services sold	Dobropis k poskytnutým službám
+Purchase invoice, goods	Prijatá faktúra za tovar
+Credit note, goods bought	Prijatý dobropis za tovar
+Purchase invoice, services	Prijatá faktúra za služby
+Credit note, services bought	Prijatý dobropis za služby
+Payment	Výdavok
+Receipt	Príjem
+Prepayment	Platba vopred
+Goods transfer, cost centre to staff	Presun zo strediska na zamestnanca
+Sales offer, goods	Ponuka tovaru
+Depreciation sheet	Odpisový plán
+Depreciation journal	Zaúčtovanie odpisov
+Journal sheet	Interný doklad
+Revaluation sheet	Prehľad precenenia
+Revaluation journal	Zaúčtovanie precenenia
+Advance	Preddavok
+Client's advance	Preddavok od odberateľa
+Employee advance	Preddavok zamestnancovi
+Advance to an employee	Preddavok zamestnancovi
+Sales contract, goods	Kúpna zmluva (predaj tovaru)
+Purchase contract, goods	Kúpna zmluva (nákup tovaru)
+Purchase offer, goods	Dopyt na tovar
+Sales offer, services	Ponuka služieb
+Purchase offer, services	Dopyt na služby
+Sales contract, services	Zmluva o poskytovaní služieb
+Purchase contract, services	Zmluva o odbere služieb
+Recurring depreciation sheet	Opakovaný odpisový plán
+Recurring journal sheet	Opakovaný interný doklad
+Recurring revaluation sheet	Opakovaný prehľad precenenia
+General journal entry	Všeobecný účtovný zápis
+Point-of-sale receipt	Pokladničný doklad
+Goods transfer, staff to cost centre	Presun zo zamestnanca na stredisko
+Goods transfer, cost centre to client	Presun zo strediska k odberateľovi
+Goods transfer, client to cost centre	Presun od odberateľa na stredisko
+Point-of-sale contract	Zmluva predajného miesta
+Point-of-sale receipt of money	Príjem na predajnom mieste
+Point-of-sale payment	Výdavok na predajnom mieste
+Point-of-sale goods in	Príjemka na predajnom mieste
+Point-of-sale goods out	Výdajka z predajného miesta
+Wage payment	Výplata miezd
+Rent payment	Platba nájomného
+Customs declaration	Colné vyhlásenie
+Customs declaration, assets	Colné vyhlásenie k majetku
+Point-of-sale refund	Vrátenie peňazí na predajnom mieste
+Point-of-sale receipt from staff	Príjem od zamestnanca na predajnom mieste
+Goods out to staff	Výdaj zamestnancovi
+Goods transfer, staff to client	Presun zo zamestnanca k odberateľovi
+Goods in from staff	Príjem od zamestnanca
+Reversal of payment	Storno výdavku
+Reversal of receipt	Storno príjmu
+Reversal of prepayment	Storno platby vopred
+Reversal of depreciation journal	Storno zaúčtovania odpisov
+Reversal of advance	Storno preddavku
+Reversal of employee advance	Storno preddavku zamestnancovi
+End date	Dátum ukončenia
+Offer valid until	Platnosť ponuky
+Start date	Dátum začatia
+External number	Externé číslo
+Contract number	Číslo zmluvy
+Invoice number	Číslo faktúry
+Carrier	Dopravca
+Linked invoice	Súvisiaca faktúra
+Purchase invoice	Prijatá faktúra
+Last payment date	Dátum poslednej platby
+Accounts	Účty
+Products / services	Výrobky / služby
+Client / supplier / third party	Odberateľ / dodávateľ / tretia osoba
+Staff	Zamestnanci
+Financial documents	Účtovné doklady
+Transaction value	Suma riadku
+Transaction discount	Zľava riadku
+Transaction VAT	DPH riadku
+Asset's remaining value	Zostatková cena majetku
+Transaction debit	Má dať riadku
+Transaction credit	Dal riadku
+Transaction value with VAT	Suma riadku s DPH
+Non-current asset accounts	Účty dlhodobého majetku
+Inventory accounts	Účty zásob
+Expense accounts	Nákladové účty
+Income accounts	Výnosové účty
+All accounts	Všetky účty
+table	tabuľka
+specified element	určený prvok
+empty element	prázdny prvok
+line reference	odkaz na riadok
+line configuration	nastavenie riadkov
+document reference	odkaz na doklad
+document configuration	nastavenie dokladov
+scenario configuration	nastavenie predkontácie
+depreciation scenario configuration	nastavenie predkontácie odpisov
+depreciation scenario	predkontácia odpisov
+Transaction amount	Suma riadku
+Finance	Účtovníctvo
+Administrator	Správca
+Financier	Účtovník
+Warehouse keeper	Skladník
+Driver	Vodič
+Worker	Robotník
+Clients	Odberatelia
+Suppliers	Dodávatelia
+Unknown	Neznámy
+Person	Fyzická osoba
+SME	MSP
+LTD	s.r.o.
+Cash	Hotovosť
+Unpaid	Neuhradené
+Credit card	Platobná karta
+Products	Výrobky
+Services	Služby
+Goods	Tovar
+Service	Služba
+Asset	Majetok
+Items	Položky
+Transactions	Riadky
+Journal lines	Riadky interného dokladu
+Depreciation lines	Riadky odpisov
+Revaluation lines	Riadky precenenia
+Item	Položka
+Fixed asset	Dlhodobý majetok
+Service item	Položka (služba)
+Supplier	Dodávateľ
+Client	Odberateľ
+Cash desk account	Účet pokladnice
+Bank account	Bankový účet
+Depreciation	Odpis
+Revaluation	Precenenie
+Fixed asset (service)	Dlhodobý majetok (služba)
+Combined item	Zložená položka
+Customs	Clo
+Transport	Doprava
+Customs agency	Colný deklarant
+Customs, assets	Clo k majetku
+Transport, assets	Doprava majetku
+Customs agency, assets	Colný deklarant k majetku
+Piece	Kus
+kg	kg
+Hour	Hodina
+Day	Deň
+Month	Mesiac
+Year	Rok
+g	g
+cm	cm
+m	m
+mm	mm
+km	km
+Standard	Štandardná
+Weight	Hmotnosť
+Time	Čas
+Length	Dĺžka
+Seller	Predavač
+IT	IT
+Consultant	Konzultant
+VAT 20%	DPH 20%
+VAT 0%	DPH 0%
+Hall	Sála
+Table	Stôl
+Counter	Výčap
+Production	Výroba
+Reversal of production	Storno výroby
+Unit split	Prevod mernej jednotky
+Reversal of unit split	Storno prevodu mernej jednotky
+Raw material used	Spotrebovaný materiál
+Produced item	Vyrobený výrobok
+Waste	Strata
+Account ledger	Karta účtu
+Administration	Správa
+Chart of accounts	Účtový rozvrh
+Client and supplier ledger	Karta odberateľov a dodávateľov
+Client statistics	Štatistiky zákazníkov
+Clients and suppliers	Odberatelia a dodávatelia
+Configuration	Nastavenia
+Convert stock between units	Previesť zásobu na inú jednotku
+Cost centre ledger	Karta nákladového strediska
+Cost centres	Nákladové strediská
+Currencies and exchange rates	Meny a výmenné kurzy
+Document types	Typy dokladov
+Documents	Doklady
+Employees	Zamestnanci
+Files	Súbory
+Financial reports	Finančné výkazy
+Item movements	Pohyby položky
+Menu	Ponuka
+Menu access	Prístup k ponuke
+Operations	Operácie
+Orders to produce	Zákazky na výrobu
+Payment methods	Spôsoby platby
+Posting scenarios	Scenáre zaúčtovania
+Print templates	Tlačové šablóny
+Products and services	Produkty a služby
+Recipes	Receptúry
+Registers	Číselníky
+Reports	Zostavy
+Rights	Oprávnenia
+Sale menus	Predajné menu
+Point-of-sale settings	Nastavenia predajného miesta
+Shows	Predstavenia
+Purchases from the group	Nákupy od skupiny
+Barcode	Čiarový kód
+Sale prices	Predajné ceny
+Sales and purchases by line	Predaje a nákupy podľa riadkov
+Stock	Zásoba
+Stock and sales	Sklad a predaj
+Trial balance	Obratová súvaha
+Unit conversions	Prevody jednotiek
+Units of measure	Merné jednotky
+Users	Používatelia
+VAT books	Evidencia DPH
+VAT groups	Skupiny DPH
+VAT return	Daňové priznanie k DPH
+VAT return boxes	Riadky daňového priznania k DPH
+Company of the group	Spoločnosť skupiny
+Restaurant / café	Reštaurácia / kaviareň
+Shop	Obchod
+Till	Pokladňa
+Cinema / theatre	Kino / divadlo
+Auditorium	Sála
+Row	Rad
+Seat	Sedadlo
+Hotel	Hotel
+Floor	Poschodie
+Room	Izba
+Beds	Lôžka
+Position X	Pozícia X
+Seats	Miesta
+Position Y	Pozícia Y
+Reversal of journal sheet	Storno účtovného listu
+Reversal of depreciation sheet	Storno odpisového listu
+Reversal of general journal entry	Storno všeobecného zápisu
+Open the point of sale	Otvoriť predajné miesto
+Stock and production	Sklad a výroba
+Accounting setup	Nastavenia účtovníctva
+Fixed assets	Dlhodobý majetok
+Currencies and payments	Meny a platby
+Company	Spoločnosť
+Users and rights	Používatelia a práva
+System settings	Nastavenia systému
+Types and categories	Typy a kategórie
+VAT	DPH
+Financial	Finančné
+Sale prices by partner	Predajné ceny podľa partnera
+Sale menu categories	Kategórie predajných ponúk
+Scenario lines	Riadky scenárov
+Unbalanced scenarios	Nevyrovnané scenáre
+Remaining asset value	Zostatková hodnota majetku
+VAT return box rules	Pravidlá riadkov daňového priznania DPH
+VAT return by boxes	Daňové priznanie DPH po riadkoch
+Payment methods by cost centre	Spôsoby platby podľa nákladového strediska
+Users and roles	Používatelia a roly
+Document flows	Toky dokladov
+Chart types and categories	Typy a kategórie účtovej osnovy
+Balance sheet	Súvaha
+Profit and loss	Výkaz ziskov a strát
+Balance sheet lines	Riadky súvahy
+Profit and loss lines	Riadky výkazu ziskov a strát
+City	Mesto
+Staff ledger	Karta zamestnanca
+Sales and purchases by client	Predaj a nákup podľa klienta
+Sales and purchases by cost centre	Predaj a nákup podľa nákladového strediska
+Transfers	Presuny
+Document totals	Súčty dokladov
+Purchase price history	História nákupných cien
+Depreciation books	Odpisové knihy
+Depreciation methods	Metódy odpisovania
+Depreciation scenarios	Scenáre odpisov
+Depreciation scenario lines	Riadky scenárov odpisov
+Serial numbers	Sériové čísla
+User activity	Aktivita používateľov
+Dashboard	Prehľad
+Dashboard items	Položky prehľadu
+Clients owe us	Pohľadávky od klientov
+We owe suppliers	Záväzky voči dodávateľom
+Drafts waiting	Čakajúce koncepty
+Sales and purchases by month	Predaje a nákupy podľa mesiacov
+VAT by month	DPH podľa mesiacov
+Top clients	Najlepší klienti
+Top suppliers	Najlepší dodávatelia
+Top products	Najlepšie produkty
+Sales by cost centre	Predaje podľa nákladových stredísk
+Migration	Migrácia
+Migration steps	Kroky migrácie
+Warehouses, banks, cash desks and places	Sklady, banky, pokladnice a miesta
+Client and supplier categories	Kategórie klientov a dodávateľov
+Product categories	Kategórie produktov
+Units	Jednotky
+Exchange rates	Výmenné kurzy
+Next document numbers	Ďalšie čísla dokladov
+Opening balances: clients and suppliers	Počiatočné zostatky: klienti a dodávatelia
+Opening balances: banks, cash desks and staff	Počiatočné zostatky: banky, pokladnice a zamestnanci
+Opening balances: the chart	Počiatočné zostatky: účtová osnova
+Posting groups	Účtovacie skupiny
+Document categories	Kategórie dokladov
+Opening balances: stock	Počiatočné zostatky: zásoby
+Opening balances: fixed assets	Počiatočné zostatky: dlhodobý majetok
+VAT groups of document types	Skupiny DPH typov dokladov
+Closed periods	Uzavreté obdobia
+Transaction types	Typy transakcií
+Transaction scopes	Rozsahy transakcií
+Transaction categories	Kategórie transakcií
+Transaction types of document types	Typy transakcií typov dokladov
+General client	Všeobecný klient
+Transaction asset cost	Obstarávacia cena majetku
+Transaction asset depreciation	Odpisy majetku
+Transaction asset book value	Účtovná hodnota majetku
+Sales by waiter	Predaj podľa čašníka
+Ageing	Starnutie pohľadávok
+Open invoices	Otvorené faktúry
+Overdue from clients	Po splatnosti od klientov
+Overdue to suppliers	Po splatnosti dodávateľom
+Gross profit	Hrubý zisk
+Gross profit by cost centre	Hrubý zisk podľa nákladového strediska
+Top combined products	Najlepšie kombinované produkty
+Close the year	Uzavrieť rok
+Invoice run	Fakturácia zmlúv
+Renewals	Obnovenia
+CRM	CRM
+Opportunities	Príležitosti
+Pipeline	Predajný lievik
+Forecast	Prognóza
+Opportunity stages	Fázy príležitostí
+Sales opportunities	Predajné príležitosti
+Opportunity	Príležitosť
+Qualify	Kvalifikácia
+Propose	Ponuka
+Negotiate	Vyjednávanie
+Won	Získané
+Lost	Stratené
+Leads	Potenciálni zákazníci
+Orders	Objednávky
+Purchase request	Požiadavka na nákup
+Purchase order	Nákupná objednávka
+Sales order	Predajná objednávka
+Approvals	Schválenia
+Approval limits	Limity schválenia
+Bank statements	Bankové výpisy
+Bank statement formats	Formáty bankových výpisov
+Date, text, reference, amount	Dátum, text, odkaz, suma
+Lots	Šarže
+Shifts	Zmeny
+Production point	Výrobné miesto
+Production point display	Displej výrobného miesta
+Production routes	Výrobné trasy
+Point-of-sale order	Objednávka predajného miesta
+Repairs	Opravy
+Repair intake	Príjem na opravu
+Repair offer	Ponuka opravy
+Technician	Technik
+Received	Prijaté
+Offer given	Ponuka odovzdaná
+Accepted	Prijatá
+Ready	Hotovo
+Collected	Vyzdvihnuté
+Refused	Odmietnutá
+Item	Položka
+Brand and model	Značka a model
+Serial number or plate	Sériové číslo alebo EČV
+Accessories left	Ponechané príslušenstvo
+Defect described	Opísaná chyba
+Come back on	Vráťte sa dňa
+Repair board	Tabuľa opráv
+Repair stages	Fázy opravy
+Repair shop	Opravovňa
+Roles	Roly
+Account mapping	Mapovanie účtov
+Waiter	Čašník
+Cashier	Pokladník
+Disassembly	Demontáž
+Product taken apart	Demontovaný výrobok
+Recovered component	Získaná súčasť
+Disassembly waste	Strata pri demontáži
+Point-of-sale reversal	Storno pokladničného predaja
+Reversal of customs declaration	Storno: Colné vyhlásenie
+Reversal of customs declaration, assets	Storno: Colné vyhlásenie k majetku
+Reversal of goods transfer note	Storno: Prevodka
+Reversal of goods transfer, cost centre to staff	Storno: Presun zo strediska na zamestnanca
+Reversal of goods transfer, staff to cost centre	Storno: Presun zo zamestnanca na stredisko
+Reversal of goods transfer, cost centre to client	Storno: Presun zo strediska k odberateľovi
+Reversal of goods transfer, client to cost centre	Storno: Presun od odberateľa na stredisko
+Reversal of goods transfer, staff to client	Storno: Presun zo zamestnanca k odberateľovi
+Opportunity types and categories	Typy a kategórie príležitostí
+Opportunities and documents	Príležitosti a doklady
+Skins	Vzhľady

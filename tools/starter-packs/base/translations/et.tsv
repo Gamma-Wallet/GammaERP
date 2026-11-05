@@ -1,0 +1,442 @@
+# The base names in Estonian, keyed by the English name (Gamma's translations), for the packs in Estonian.
+# en	et
+Base	Peakontor
+Cash desk	Kassa
+Bank	Pank
+Point of sale	Müügikoht
+Warehouse	Ladu
+Office	Kontor
+Tax number	KMKR number
+Owner	Omanik
+Name	Ärinimi
+Currency	Valuuta
+Trade name	Kaubanimi
+Address	Aadress
+Phone	Telefon
+E-mail	E-post
+Website	Veebileht
+Logo	Logo
+Authorised person	Volitatud isik
+Account	Konto
+Negative stock allowed (cost centres)	Negatiivne laoseis lubatud (kulukohad)
+Negative stock allowed (partners)	Negatiivne laoseis lubatud (partnerid)
+Negative stock allowed (employees)	Negatiivne laoseis lubatud (töötajad)
+cost centres	kulukohad
+partners	partnerid
+employees	töötajad
+Hold timeout (minutes)	Dokumendi lukustusaeg (minutid)
+ALL	ALL
+EUR	EUR
+USD	USD
+GBP	GBP
+CAD	CAD
+CHF	CHF
+Company book	Raamatupidamise kulum
+Tax book	Maksuarvestuse kulum
+Straight-line	Lineaarne
+Straight-line depreciation	Lineaarne kulum
+Remaining value	Jääkväärtus
+Depreciation on the remaining value	Kulum jääkväärtuselt
+Assets	Põhivara
+Land	Maa
+Buildings	Ehitised
+Office equipment	Kontoritehnika
+Vehicles	Transpordivahendid
+Computer equipment	Arvutustehnika
+Furniture and fittings	Inventar
+Intangible assets	Immateriaalne põhivara
+Sales	Müük
+Sales invoices	Müügiarved
+Purchases	Ostud
+Purchase invoices	Ostuarved
+Goods transfers	Laoliikumised
+Goods transfer note	Liikumisdokument
+Offers	Pakkumised
+Journal	Lausendid
+Contracts	Lepingud
+Recurring journal	Korduvad lausendid
+Reversals	Tühistamised
+Sales invoice, goods	Müügiarve, kaubad
+Credit note, goods sold	Kreeditarve, müüdud kaubad
+Sales invoice, services	Müügiarve, teenused
+Credit note, services sold	Kreeditarve, osutatud teenused
+Purchase invoice, goods	Ostuarve, kaubad
+Credit note, goods bought	Ostu kreeditarve, kaubad
+Purchase invoice, services	Ostuarve, teenused
+Credit note, services bought	Ostu kreeditarve, teenused
+Payment	Väljamakse
+Receipt	Laekumine
+Prepayment	Ettemaks
+Goods transfer, cost centre to staff	Liikumine kulukohast töötajale
+Sales offer, goods	Pakkumine, kaubad
+Depreciation sheet	Kulumikava
+Depreciation journal	Kulumi lausend
+Journal sheet	Memoriaalorder
+Revaluation sheet	Ümberhindluse aruanne
+Revaluation journal	Ümberhindluse lausend
+Advance	Ettemaks
+Client's advance	Ostja ettemaks
+Employee advance	Ettemaks töötajale
+Advance to an employee	Ettemaks töötajale
+Sales contract, goods	Müügileping, kaubad
+Purchase contract, goods	Ostuleping, kaubad
+Purchase offer, goods	Hinnapäring, kaubad
+Sales offer, services	Pakkumine, teenused
+Purchase offer, services	Hinnapäring, teenused
+Sales contract, services	Teenuse osutamise leping
+Purchase contract, services	Ostetud teenuste leping
+Recurring depreciation sheet	Korduv kulumikava
+Recurring journal sheet	Korduv memoriaalorder
+Recurring revaluation sheet	Korduv ümberhindluse aruanne
+General journal entry	Üldlausend
+Point-of-sale receipt	Kassatšekk
+Goods transfer, staff to cost centre	Liikumine töötajalt kulukohta
+Goods transfer, cost centre to client	Tarne kulukohast ostjale
+Goods transfer, client to cost centre	Tagastus ostjalt kulukohta
+Point-of-sale contract	Müügikoha leping
+Point-of-sale receipt of money	Laekumine müügikohas
+Point-of-sale payment	Väljamakse müügikohas
+Point-of-sale goods in	Vastuvõtt müügikohas
+Point-of-sale goods out	Väljastus müügikohast
+Wage payment	Palga väljamakse
+Rent payment	Rendimakse
+Customs declaration	Tollideklaratsioon
+Customs declaration, assets	Põhivara tollideklaratsioon
+Point-of-sale refund	Raha tagastus müügikohas
+Point-of-sale receipt from staff	Töötaja laekumine müügikohas
+Goods out to staff	Väljastus töötajale
+Goods transfer, staff to client	Tarne töötajalt ostjale
+Goods in from staff	Vastuvõtt töötajalt
+Reversal of payment	Väljamakse tühistamine
+Reversal of receipt	Laekumise tühistamine
+Reversal of prepayment	Ettemaksu tühistamine
+Reversal of depreciation journal	Kulumi lausendi tühistamine
+Reversal of advance	Ettemaksu tühistamine
+Reversal of employee advance	Töötaja ettemaksu tühistamine
+End date	Lõppkuupäev
+Offer valid until	Pakkumine kehtib kuni
+Start date	Alguskuupäev
+External number	Väline number
+Contract number	Lepingu number
+Invoice number	Arve number
+Carrier	Vedaja
+Linked invoice	Seotud arve
+Purchase invoice	Ostuarve
+Last payment date	Viimase makse kuupäev
+Accounts	Kontod
+Products / services	Tooted / teenused
+Client / supplier / third party	Ostja / tarnija / kolmas isik
+Staff	Personal
+Financial documents	Algdokumendid
+Transaction value	Rea summa
+Transaction discount	Rea allahindlus
+Transaction VAT	Rea käibemaks
+Asset's remaining value	Vara jääkväärtus
+Transaction debit	Rea deebet
+Transaction credit	Rea kreedit
+Transaction value with VAT	Rea summa käibemaksuga
+Non-current asset accounts	Põhivara kontod
+Inventory accounts	Varude kontod
+Expense accounts	Kulukontod
+Income accounts	Tulukontod
+All accounts	Kõik kontod
+table	tabel
+specified element	määratud element
+empty element	tühi element
+line reference	reaviide
+line configuration	rea seadistused
+document reference	dokumendiviide
+document configuration	dokumendi seadistused
+scenario configuration	kontomalli seadistused
+depreciation scenario configuration	kulumi kontomalli seadistused
+depreciation scenario	kulumi kontomall
+Transaction amount	Rea summa
+Finance	Raamatupidamine
+Administrator	Administraator
+Financier	Raamatupidaja
+Warehouse keeper	Laotöötaja
+Driver	Autojuht
+Worker	Tööline
+Clients	Ostjad
+Suppliers	Tarnijad
+Unknown	Tundmatu
+Person	Eraisik
+SME	VKE
+LTD	OÜ
+Cash	Sularaha
+Unpaid	Tasumata
+Credit card	Pangakaart
+Products	Tooted
+Services	Teenused
+Goods	Kaubad
+Service	Teenus
+Asset	Põhivara objekt
+Items	Artiklid
+Transactions	Read
+Journal lines	Lausendi read
+Depreciation lines	Kulumi read
+Revaluation lines	Ümberhindluse read
+Item	Artikkel
+Fixed asset	Põhivara objekt
+Service item	Artikkel (teenus)
+Supplier	Tarnija
+Client	Ostja
+Cash desk account	Kassakonto
+Bank account	Pangakonto
+Depreciation	Kulum
+Revaluation	Ümberhindlus
+Fixed asset (service)	Põhivara (teenus)
+Combined item	Komplekt
+Customs	Toll
+Transport	Vedu
+Customs agency	Tolliagent
+Customs, assets	Põhivara toll
+Transport, assets	Põhivara vedu
+Customs agency, assets	Tolliagent, põhivara
+Piece	Tükk
+kg	kg
+Hour	Tund
+Day	Päev
+Month	Kuu
+Year	Aasta
+g	g
+cm	cm
+m	m
+mm	mm
+km	km
+Standard	Standardne
+Weight	Kaal
+Time	Aeg
+Length	Pikkus
+Seller	Müüja
+IT	IT
+Consultant	Konsultant
+VAT 20%	Käibemaks 20%
+VAT 0%	Käibemaks 0%
+Hall	Saal
+Table	Laud
+Counter	Lett
+Production	Tootmine
+Reversal of production	Tootmise tühistamine
+Unit split	Ühiku teisendus
+Reversal of unit split	Ühiku teisenduse tühistamine
+Raw material used	Kasutatud tooraine
+Produced item	Toodetud toode
+Waste	Kadu
+Account ledger	Konto kaart
+Administration	Haldus
+Chart of accounts	Kontoplaan
+Client and supplier ledger	Klientide ja tarnijate kaart
+Client statistics	Klientide statistika
+Clients and suppliers	Kliendid ja tarnijad
+Configuration	Seadistus
+Convert stock between units	Teisenda laoseis teise ühikusse
+Cost centre ledger	Kulukoha kaart
+Cost centres	Kulukohad
+Currencies and exchange rates	Valuutad ja vahetuskursid
+Document types	Dokumendiliigid
+Documents	Dokumendid
+Employees	Töötajad
+Files	Failid
+Financial reports	Finantsaruanded
+Item movements	Artikli liikumised
+Menu	Menüü
+Menu access	Juurdepääs menüüle
+Operations	Toimingud
+Orders to produce	Toodetavad tellimused
+Payment methods	Makseviisid
+Posting scenarios	Kirjendamise stsenaariumid
+Print templates	Prindimallid
+Products and services	Tooted ja teenused
+Recipes	Retseptid
+Registers	Registrid
+Reports	Aruanded
+Rights	Õigused
+Sale menus	Müügimenüüd
+Point-of-sale settings	Müügikoha seaded
+Shows	Etendused
+Purchases from the group	Ostud kontsernilt
+Barcode	Vöötkood
+Sale prices	Müügihinnad
+Sales and purchases by line	Müük ja ost ridade kaupa
+Stock	Laoseis
+Stock and sales	Ladu ja müük
+Trial balance	Käibeandmik
+Unit conversions	Ühikute teisendused
+Units of measure	Mõõtühikud
+Users	Kasutajad
+VAT books	Käibemaksuraamatud
+VAT groups	Käibemaksurühmad
+VAT return	Käibedeklaratsioon
+VAT return boxes	Käibedeklaratsiooni lahtrid
+Company of the group	Kontserni ettevõte
+Restaurant / café	Restoran / kohvik
+Shop	Kauplus
+Till	Kassa
+Cinema / theatre	Kino / teater
+Auditorium	Saal
+Row	Rida
+Seat	Koht
+Hotel	Hotell
+Floor	Korrus
+Room	Tuba
+Beds	Voodid
+Position X	Asukoht X
+Seats	Kohad
+Position Y	Asukoht Y
+Reversal of journal sheet	Pearaamatulehe tühistamine
+Reversal of depreciation sheet	Amortisatsioonilehe tühistamine
+Reversal of general journal entry	Üldkande tühistamine
+Open the point of sale	Ava müügikoht
+Stock and production	Ladu ja tootmine
+Accounting setup	Raamatupidamise seaded
+Fixed assets	Põhivara
+Currencies and payments	Valuutad ja maksed
+Company	Ettevõte
+Users and rights	Kasutajad ja õigused
+System settings	Süsteemi seaded
+Types and categories	Tüübid ja kategooriad
+VAT	Käibemaks
+Financial	Finants
+Sale prices by partner	Müügihinnad partneri järgi
+Sale menu categories	Müügimenüü kategooriad
+Scenario lines	Stsenaariumide read
+Unbalanced scenarios	Tasakaalustamata stsenaariumid
+Remaining asset value	Vara jääkväärtus
+VAT return box rules	Käibedeklaratsiooni lahtrite reeglid
+VAT return by boxes	Käibedeklaratsioon lahtrite kaupa
+Payment methods by cost centre	Makseviisid kulukoha järgi
+Users and roles	Kasutajad ja rollid
+Document flows	Dokumendivood
+Chart types and categories	Kontoplaani tüübid ja kategooriad
+Balance sheet	Bilanss
+Profit and loss	Kasumiaruanne
+Balance sheet lines	Bilansi read
+Profit and loss lines	Kasumiaruande read
+City	Linn
+Staff ledger	Töötaja konto
+Sales and purchases by client	Müük ja ost kliendi järgi
+Sales and purchases by cost centre	Müük ja ost kulukoha järgi
+Transfers	Ülekanded
+Document totals	Dokumentide kogusummad
+Purchase price history	Ostuhindade ajalugu
+Depreciation books	Amortisatsiooniraamatud
+Depreciation methods	Amortisatsioonimeetodid
+Depreciation scenarios	Amortisatsiooni stsenaariumid
+Depreciation scenario lines	Amortisatsiooni stsenaariumide read
+Serial numbers	Seerianumbrid
+User activity	Kasutajate tegevus
+Dashboard	Töölaud
+Dashboard items	Töölaua üksused
+Clients owe us	Kliendid võlgnevad meile
+We owe suppliers	Võlgneme tarnijatele
+Drafts waiting	Ootel mustandid
+Sales and purchases by month	Müük ja ost kuude kaupa
+VAT by month	Käibemaks kuude kaupa
+Top clients	Parimad kliendid
+Top suppliers	Parimad tarnijad
+Top products	Parimad tooted
+Sales by cost centre	Müük kulukeskuste kaupa
+Migration	Migratsioon
+Migration steps	Migratsiooni sammud
+Warehouses, banks, cash desks and places	Laod, pangad, kassad ja kohad
+Client and supplier categories	Klientide ja tarnijate kategooriad
+Product categories	Tootekategooriad
+Units	Ühikud
+Exchange rates	Vahetuskursid
+Next document numbers	Järgmised dokumendinumbrid
+Opening balances: clients and suppliers	Algsaldod: kliendid ja tarnijad
+Opening balances: banks, cash desks and staff	Algsaldod: pangad, kassad ja personal
+Opening balances: the chart	Algsaldod: kontoplaan
+Posting groups	Kirjendusgrupid
+Document categories	Dokumendikategooriad
+Opening balances: stock	Algsaldod: varud
+Opening balances: fixed assets	Algsaldod: põhivara
+VAT groups of document types	Dokumenditüüpide käibemaksugrupid
+Closed periods	Suletud perioodid
+Transaction types	Tehingutüübid
+Transaction scopes	Tehingute ulatused
+Transaction categories	Tehingukategooriad
+Transaction types of document types	Dokumenditüüpide tehingutüübid
+General client	Üldklient
+Transaction asset cost	Vara soetusmaksumus
+Transaction asset depreciation	Vara kulum
+Transaction asset book value	Vara bilansiline väärtus
+Sales by waiter	Müük teenindaja kaupa
+Ageing	Võlgade vanus
+Open invoices	Avatud arved
+Overdue from clients	Klientide tähtaja ületanud
+Overdue to suppliers	Tarnijate tähtaja ületanud
+Gross profit	Brutokasum
+Gross profit by cost centre	Brutokasum kulukoha järgi
+Top combined products	Enimmüüdud komplektid
+Close the year	Sulge aasta
+Invoice run	Lepingute arveldus
+Renewals	Pikendamised
+CRM	CRM
+Opportunities	Võimalused
+Pipeline	Müügilehter
+Forecast	Prognoos
+Opportunity stages	Võimaluste etapid
+Sales opportunities	Müügivõimalused
+Opportunity	Võimalus
+Qualify	Hindamine
+Propose	Pakkumine
+Negotiate	Läbirääkimised
+Won	Võidetud
+Lost	Kaotatud
+Leads	Müügivihjed
+Orders	Tellimused
+Purchase request	Ostusoov
+Purchase order	Ostutellimus
+Sales order	Müügitellimus
+Approvals	Kinnitused
+Approval limits	Kinnituspiirid
+Bank statements	Pangaväljavõtted
+Bank statement formats	Pangaväljavõtete vormingud
+Date, text, reference, amount	Kuupäev, tekst, viide, summa
+Lots	Partiid
+Shifts	Vahetused
+Production point	Tootmispunkt
+Production point display	Tootmispunkti ekraan
+Production routes	Tootmisteed
+Point-of-sale order	Müügipunkti tellimus
+Repairs	Remondid
+Repair intake	Remonti vastuvõtt
+Repair offer	Remondipakkumine
+Technician	Tehnik
+Received	Vastu võetud
+Offer given	Pakkumine antud
+Accepted	Aktsepteeritud
+Ready	Valmis
+Collected	Ära viidud
+Refused	Keeldutud
+Item	Ese
+Brand and model	Mark ja mudel
+Serial number or plate	Seerianumber või number
+Accessories left	Jäetud tarvikud
+Defect described	Kirjeldatud rike
+Come back on	Tule tagasi
+Repair board	Remonditahvel
+Repair stages	Remondi etapid
+Repair shop	Remonditöökoda
+Roles	Rollid
+Account mapping	Kontode vastavus
+Waiter	Kelner
+Cashier	Kassapidaja
+Disassembly	Lahtivõtmine
+Product taken apart	Lahtivõetud toode
+Recovered component	Taastatud komponent
+Disassembly waste	Lahtivõtmise kadu
+Point-of-sale reversal	Kassamüügi tühistamine
+Reversal of customs declaration	Tühistamine: Tollideklaratsioon
+Reversal of customs declaration, assets	Tühistamine: Põhivara tollideklaratsioon
+Reversal of goods transfer note	Tühistamine: Liikumisdokument
+Reversal of goods transfer, cost centre to staff	Tühistamine: Liikumine kulukohast töötajale
+Reversal of goods transfer, staff to cost centre	Tühistamine: Liikumine töötajalt kulukohta
+Reversal of goods transfer, cost centre to client	Tühistamine: Tarne kulukohast ostjale
+Reversal of goods transfer, client to cost centre	Tühistamine: Tagastus ostjalt kulukohta
+Reversal of goods transfer, staff to client	Tühistamine: Tarne töötajalt ostjale
+Opportunity types and categories	Võimaluste tüübid ja kategooriad
+Opportunities and documents	Võimalused ja dokumendid
+Skins	Kujundused

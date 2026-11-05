@@ -1,0 +1,23 @@
+[
+ {
+  "Key": "inter_payment_method_document_type:1",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:RECEIPT",
+  "PaymentMethodId": "payment_method:CASH"
+ },
+ {
+  "Key": "inter_payment_method_document_type:2",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:POS_MONEY_IN",
+  "PaymentMethodId": "payment_method:CASH"
+ },
+ {
+  "Key": "inter_payment_method_document_type:3",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:REVERSAL_RECEIPT",
+  "PaymentMethodId": "payment_method:CASH"
+ }
+]

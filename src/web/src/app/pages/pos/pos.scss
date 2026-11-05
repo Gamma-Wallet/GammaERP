@@ -1,0 +1,578 @@
+// The touch point of sale: full screen, big targets, the ERP's dark top bar. Every size reads a token (the POS values are set on app-pos in
+// styles/_tokens.scss), so a POS skin reaches the targets.
+:host {
+  display: grid;
+  grid-template-rows: auto 1fr;
+  min-height: 100vh;
+  background: var(--canvas);
+  color: var(--ink);
+  font-size: var(--text-m);
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.bar {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+  min-height: var(--topbar-h);
+  padding: 0 var(--space-4);
+  background: var(--topbar);
+  color: var(--topbar-ink);
+}
+
+.mark {
+  display: block;
+  height: 26px;
+  width: auto;
+}
+
+.place {
+  font-size: var(--text-l);
+}
+
+.views {
+  display: flex;
+  gap: var(--space-1);
+  margin-left: var(--space-4);
+}
+
+.views button,
+.exit {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-2);
+  min-height: var(--control-h);
+  padding: 0 var(--space-4);
+  border: 0;
+  border-radius: var(--radius);
+  background: transparent;
+  color: var(--topbar-muted);
+  font: 500 var(--text-m) var(--font-text);
+  cursor: pointer;
+
+  &:hover {
+    background: var(--topbar-hover);
+    color: var(--topbar-ink);
+  }
+
+  &.current {
+    background: var(--topbar-hover);
+    color: var(--topbar-ink);
+  }
+}
+
+.who {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-2);
+  color: var(--topbar-muted);
+}
+
+.spacer {
+  flex: 1;
+}
+
+main {
+  display: grid;
+  align-content: start;
+  gap: var(--space-3);
+  min-width: 0;
+  padding: var(--space-4);
+
+  &.wide {
+    grid-template-columns: minmax(0, 1fr) minmax(320px, 400px);
+    align-items: stretch;
+    gap: var(--space-4);
+  }
+}
+
+.message {
+  display: flex;
+  grid-column: 1 / -1;
+  align-items: center;
+  gap: var(--space-2);
+  margin: 0;
+  padding: var(--space-3);
+  border-radius: var(--radius);
+  background: var(--critical-bg);
+  color: var(--critical);
+}
+
+.muted {
+  color: var(--muted);
+}
+
+.card {
+  display: grid;
+  gap: var(--space-3);
+  max-width: 560px;
+  padding: var(--space-5);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-l);
+  background: var(--surface);
+
+  h1 {
+    margin: 0;
+    font: 600 var(--title-m) var(--font-title);
+  }
+
+  p {
+    margin: 0;
+  }
+}
+
+.center {
+  justify-self: center;
+  margin-top: 8vh;
+  text-align: center;
+}
+
+// ---------- Floor plan ----------
+
+.floor-head {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--space-2);
+
+  h1 {
+    margin: 0;
+    font: 600 var(--title-m) var(--font-title);
+  }
+}
+
+.halls,
+.categories,
+.methods,
+.parties {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-2);
+}
+
+.halls button,
+.categories button,
+.methods button,
+.parties button,
+.toggle {
+  min-height: var(--control-h);
+  padding: 0 var(--space-5);
+  border: 1px solid var(--line-strong);
+  border-radius: var(--radius-pill);
+  background: var(--surface);
+  color: var(--ink);
+  font: 500 var(--text-m) var(--font-text);
+  cursor: pointer;
+
+  &.current,
+  &.on {
+    border-color: var(--primary);
+    background: var(--primary);
+    color: var(--primary-ink);
+  }
+}
+
+.plan {
+  position: relative;
+  min-height: 480px;
+  overflow: auto;
+  border: 1px solid var(--line);
+  border-radius: var(--radius-l);
+  background: var(--surface-2);
+  touch-action: pan-y;
+
+  &.arranging {
+    touch-action: none;
+    background-image: radial-gradient(var(--line-strong) 1px, transparent 1px);
+    background-size: 24px 24px;
+
+    .table {
+      cursor: grab;
+      outline: 2px dashed var(--line-strong);
+    }
+  }
+}
+
+.table {
+  position: absolute;
+  display: grid;
+  align-content: center;
+  justify-items: center;
+  gap: 2px;
+  width: calc(var(--touch-h) * 2);
+  height: calc(var(--touch-h) * 2);
+  padding: var(--space-2);
+  border: 1px solid var(--line-strong);
+  border-radius: var(--radius-l);
+  background: var(--surface);
+  color: var(--ink);
+  font-family: var(--font-text);
+  cursor: pointer;
+
+  .name {
+    font-weight: 600;
+    font-size: var(--text-l);
+  }
+
+  .free,
+  .waiters {
+    color: var(--muted);
+    font-size: var(--text-s);
+    text-align: center;
+  }
+
+  .amount {
+    font: 600 var(--title-s) var(--font-title);
+  }
+
+  &.busy {
+    border-color: var(--warning);
+    background: var(--warning-bg);
+  }
+
+  &.mine {
+    border-width: 3px;
+  }
+}
+
+// ---------- Order ----------
+
+.menu {
+  display: grid;
+  align-content: start;
+  gap: var(--space-3);
+  min-width: 0;
+}
+
+.scan {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+  padding: var(--space-2) var(--space-3);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: var(--surface);
+
+  input {
+    flex: 1;
+    min-height: var(--control-h);
+    border: 0;
+    outline: 0;
+    background: transparent;
+    font-size: 1.25rem;
+  }
+}
+
+.products {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: var(--space-3);
+}
+
+.product {
+  display: grid;
+  align-content: space-between;
+  gap: var(--space-2);
+  min-height: calc(var(--touch-h) * 1.625);
+  padding: var(--space-3);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-l);
+  background: var(--surface);
+  color: var(--ink);
+  text-align: left;
+  font-family: var(--font-text);
+  cursor: pointer;
+
+  .name {
+    font-weight: 600;
+    font-size: var(--text-m);
+  }
+
+  .price {
+    color: var(--ink-2);
+    font-size: var(--text-l);
+  }
+
+  &:active {
+    background: var(--chosen);
+  }
+
+  &:disabled {
+    opacity: 0.5;
+    cursor: default;
+  }
+}
+
+.ticket {
+  display: grid;
+  grid-template-rows: auto auto 1fr auto auto;
+  gap: var(--space-3);
+  min-height: calc(100vh - 92px);
+  padding: var(--space-4);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-l);
+  background: var(--surface);
+
+  header {
+    display: flex;
+    align-items: center;
+    gap: var(--space-2);
+  }
+
+  h1 {
+    margin: 0;
+    font: 600 var(--title-m) var(--font-title);
+  }
+}
+
+.back,
+.qty button {
+  display: grid;
+  place-items: center;
+  width: var(--control-h);
+  height: var(--control-h);
+  border: 1px solid var(--line-strong);
+  border-radius: var(--radius);
+  background: var(--surface);
+  color: var(--ink);
+  cursor: pointer;
+}
+
+.earlier {
+  display: flex;
+  justify-content: space-between;
+  padding: var(--space-3);
+  border-radius: var(--radius);
+  background: var(--warning-bg);
+}
+
+.shift, .card {
+  dl {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    gap: var(--space-1) var(--space-4);
+    margin: var(--space-3) 0;
+    text-align: left;
+  }
+
+  dd {
+    margin: 0;
+    font-variant-numeric: tabular-nums;
+  }
+
+  label {
+    display: grid;
+    gap: var(--space-1);
+    margin-bottom: var(--space-3);
+    text-align: left;
+  }
+}
+
+.lot-choice {
+  position: fixed;
+  inset: 20% 16px auto;
+  z-index: 20;
+  display: grid;
+  gap: var(--space-2);
+  max-width: 420px;
+  margin: 0 auto;
+  padding: var(--space-4);
+  border-radius: var(--radius-l);
+  background: var(--surface);
+  box-shadow: var(--shadow-pop);
+}
+
+.lines {
+  display: grid;
+  align-content: start;
+  gap: var(--space-2);
+  margin: 0;
+  padding: 0;
+  overflow: auto;
+  list-style: none;
+
+  li {
+    display: grid;
+    grid-template-columns: 1fr auto 72px;
+    align-items: center;
+    gap: var(--space-2);
+  }
+
+  .empty {
+    display: block;
+    padding: var(--space-4) 0;
+    text-align: center;
+  }
+
+  .value {
+    text-align: right;
+  }
+}
+
+.qty {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-2);
+
+  strong {
+    min-width: 24px;
+    text-align: center;
+  }
+}
+
+.total {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  padding-top: var(--space-3);
+  border-top: 1px solid var(--line);
+
+  strong {
+    font: 600 var(--title-m) var(--font-title);
+  }
+}
+
+.actions {
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: 1fr;
+  gap: var(--space-3);
+}
+
+// ---------- Pay, money in / out ----------
+
+.pay {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(300px, 380px);
+  gap: var(--space-4);
+  align-items: start;
+}
+
+.bills,
+.cash,
+.unpaid {
+  display: grid;
+  gap: var(--space-3);
+  padding: var(--space-4);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-l);
+  background: var(--surface);
+
+  h1,
+  h2 {
+    margin: 0;
+    font: 600 var(--title-m) var(--font-title);
+  }
+
+  h2 {
+    font-size: var(--title-s);
+  }
+
+  ul {
+    display: grid;
+    gap: var(--space-2);
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  label {
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    align-items: center;
+    gap: var(--space-3);
+    min-height: var(--control-h);
+    padding: 0 var(--space-3);
+    border: 1px solid var(--line);
+    border-radius: var(--radius);
+  }
+
+  input[type='checkbox'] {
+    width: 24px;
+    height: 24px;
+  }
+}
+
+.reason {
+  grid-template-columns: auto 1fr;
+
+  .control {
+    min-height: var(--control-h);
+  }
+}
+
+.readout {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  padding: var(--space-3);
+  border-radius: var(--radius);
+  background: var(--surface-2);
+
+  strong {
+    font: 600 var(--title-l) var(--font-title);
+  }
+
+  &.short strong {
+    color: var(--critical);
+    font-size: var(--title-s);
+  }
+}
+
+.keypad {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: var(--space-2);
+
+  button {
+    display: grid;
+    place-items: center;
+    min-height: var(--touch-h);
+    border: 1px solid var(--line-strong);
+    border-radius: var(--radius);
+    background: var(--surface);
+    color: var(--ink);
+    font: 600 var(--title-s) var(--font-text);
+    cursor: pointer;
+
+    &:active {
+      background: var(--chosen);
+    }
+  }
+}
+
+.unpaid table {
+  width: 100%;
+  border-collapse: collapse;
+
+  th,
+  td {
+    height: var(--control-h);
+    padding: 0 var(--space-3);
+    border-bottom: 1px solid var(--line);
+    text-align: left;
+  }
+
+  th {
+    color: var(--muted);
+    font-weight: 500;
+    font-size: var(--text-s);
+  }
+
+  .num {
+    text-align: right;
+    font-variant-numeric: tabular-nums;
+  }
+}
+
+@media (max-width: 900px) {
+  main.wide,
+  .pay {
+    grid-template-columns: 1fr;
+  }
+
+  .views button span {
+    display: none;
+  }
+}

@@ -1,0 +1,442 @@
+# The base names in Slovenian, keyed by the English name (Gamma's translations), for the packs in Slovenian.
+# en	sl
+Base	Sedež
+Cash desk	Blagajna
+Bank	Banka
+Point of sale	Prodajno mesto
+Warehouse	Skladišče
+Office	Pisarna
+Tax number	Davčna številka
+Owner	Lastnik
+Name	Firma
+Currency	Valuta
+Trade name	Tržno ime
+Address	Naslov
+Phone	Telefon
+E-mail	E-pošta
+Website	Spletna stran
+Logo	Logotip
+Authorised person	Pooblaščena oseba
+Account	Konto
+Negative stock allowed (cost centres)	Dovoljena negativna zaloga (stroškovna mesta)
+Negative stock allowed (partners)	Dovoljena negativna zaloga (partnerji)
+Negative stock allowed (employees)	Dovoljena negativna zaloga (zaposleni)
+cost centres	stroškovna mesta
+partners	partnerji
+employees	zaposleni
+Hold timeout (minutes)	Čas zaklepa dokumenta (minute)
+ALL	ALL
+EUR	EUR
+USD	USD
+GBP	GBP
+CAD	CAD
+CHF	CHF
+Company book	Računovodska evidenca
+Tax book	Davčna evidenca
+Straight-line	Enakomerna
+Straight-line depreciation	Enakomerna amortizacija
+Remaining value	Neodpisana vrednost
+Depreciation on the remaining value	Amortizacija od neodpisane vrednosti
+Assets	Osnovna sredstva
+Land	Zemljišča
+Buildings	Zgradbe
+Office equipment	Pisarniška oprema
+Vehicles	Prevozna sredstva
+Computer equipment	Računalniška oprema
+Furniture and fittings	Pohištvo in oprema
+Intangible assets	Neopredmetena sredstva
+Sales	Prodaja
+Sales invoices	Izdani računi
+Purchases	Nabava
+Purchase invoices	Prejeti računi
+Goods transfers	Prenosi blaga
+Goods transfer note	Prenosnica
+Offers	Ponudbe
+Journal	Temeljnica
+Contracts	Pogodbe
+Recurring journal	Ponavljajoče se temeljnice
+Reversals	Stornacije
+Sales invoice, goods	Račun za prodajo blaga
+Credit note, goods sold	Dobropis za prodano blago
+Sales invoice, services	Račun za storitve
+Credit note, services sold	Dobropis za opravljene storitve
+Purchase invoice, goods	Prejeti račun za blago
+Credit note, goods bought	Prejeti dobropis za blago
+Purchase invoice, services	Prejeti račun za storitve
+Credit note, services bought	Prejeti dobropis za storitve
+Payment	Izplačilo
+Receipt	Vplačilo
+Prepayment	Plačilo vnaprej
+Goods transfer, cost centre to staff	Prenos s stroškovnega mesta na zaposlenega
+Sales offer, goods	Ponudba blaga
+Depreciation sheet	Načrt amortizacije
+Depreciation journal	Knjiženje amortizacije
+Journal sheet	Temeljnica
+Revaluation sheet	Pregled prevrednotenja
+Revaluation journal	Knjiženje prevrednotenja
+Advance	Predujem
+Client's advance	Predujem kupca
+Employee advance	Predujem zaposlenemu
+Advance to an employee	Predujem zaposlenemu
+Sales contract, goods	Kupoprodajna pogodba (prodaja blaga)
+Purchase contract, goods	Kupoprodajna pogodba (nabava blaga)
+Purchase offer, goods	Povpraševanje po blagu
+Sales offer, services	Ponudba storitev
+Purchase offer, services	Povpraševanje po storitvah
+Sales contract, services	Pogodba o opravljanju storitev
+Purchase contract, services	Pogodba o prejetih storitvah
+Recurring depreciation sheet	Ponavljajoči se načrt amortizacije
+Recurring journal sheet	Ponavljajoča se temeljnica
+Recurring revaluation sheet	Ponavljajoči se pregled prevrednotenja
+General journal entry	Splošno knjiženje
+Point-of-sale receipt	Blagajniški račun
+Goods transfer, staff to cost centre	Prenos z zaposlenega na stroškovno mesto
+Goods transfer, cost centre to client	Dobava s stroškovnega mesta kupcu
+Goods transfer, client to cost centre	Vračilo kupca na stroškovno mesto
+Point-of-sale contract	Pogodba prodajnega mesta
+Point-of-sale receipt of money	Vplačilo na prodajnem mestu
+Point-of-sale payment	Izplačilo na prodajnem mestu
+Point-of-sale goods in	Prevzem na prodajnem mestu
+Point-of-sale goods out	Izdaja s prodajnega mesta
+Wage payment	Izplačilo plač
+Rent payment	Plačilo najemnine
+Customs declaration	Carinska deklaracija
+Customs declaration, assets	Carinska deklaracija za osnovna sredstva
+Point-of-sale refund	Vračilo denarja na prodajnem mestu
+Point-of-sale receipt from staff	Vplačilo zaposlenega na prodajnem mestu
+Goods out to staff	Izdaja zaposlenemu
+Goods transfer, staff to client	Dobava od zaposlenega kupcu
+Goods in from staff	Prevzem od zaposlenega
+Reversal of payment	Storno izplačila
+Reversal of receipt	Storno vplačila
+Reversal of prepayment	Storno plačila vnaprej
+Reversal of depreciation journal	Storno knjiženja amortizacije
+Reversal of advance	Storno predujma
+Reversal of employee advance	Storno predujma zaposlenemu
+End date	Datum konca
+Offer valid until	Ponudba velja do
+Start date	Datum začetka
+External number	Zunanja številka
+Contract number	Številka pogodbe
+Invoice number	Številka računa
+Carrier	Prevoznik
+Linked invoice	Povezani račun
+Purchase invoice	Prejeti račun
+Last payment date	Datum zadnjega plačila
+Accounts	Konti
+Products / services	Proizvodi / storitve
+Client / supplier / third party	Kupec / dobavitelj / tretja oseba
+Staff	Osebje
+Financial documents	Knjigovodske listine
+Transaction value	Znesek postavke
+Transaction discount	Popust postavke
+Transaction VAT	DDV postavke
+Asset's remaining value	Neodpisana vrednost sredstva
+Transaction debit	Breme postavke
+Transaction credit	Dobro postavke
+Transaction value with VAT	Znesek postavke z DDV
+Non-current asset accounts	Konti dolgoročnih sredstev
+Inventory accounts	Konti zalog
+Expense accounts	Konti stroškov
+Income accounts	Konti prihodkov
+All accounts	Vsi konti
+table	tabela
+specified element	določen element
+empty element	prazen element
+line reference	sklic na postavko
+line configuration	nastavitve postavk
+document reference	sklic na dokument
+document configuration	nastavitve dokumentov
+scenario configuration	nastavitve kontiranja
+depreciation scenario configuration	nastavitve kontiranja amortizacije
+depreciation scenario	kontiranje amortizacije
+Transaction amount	Znesek postavke
+Finance	Računovodstvo
+Administrator	Skrbnik
+Financier	Računovodja
+Warehouse keeper	Skladiščnik
+Driver	Voznik
+Worker	Delavec
+Clients	Kupci
+Suppliers	Dobavitelji
+Unknown	Neznan
+Person	Fizična oseba
+SME	MSP
+LTD	d.o.o.
+Cash	Gotovina
+Unpaid	Neplačano
+Credit card	Plačilna kartica
+Products	Proizvodi
+Services	Storitve
+Goods	Blago
+Service	Storitev
+Asset	Osnovno sredstvo
+Items	Artikli
+Transactions	Postavke
+Journal lines	Postavke temeljnice
+Depreciation lines	Postavke amortizacije
+Revaluation lines	Postavke prevrednotenja
+Item	Artikel
+Fixed asset	Osnovno sredstvo
+Service item	Artikel (storitev)
+Supplier	Dobavitelj
+Client	Kupec
+Cash desk account	Konto blagajne
+Bank account	Bančni račun
+Depreciation	Amortizacija
+Revaluation	Prevrednotenje
+Fixed asset (service)	Osnovno sredstvo (storitev)
+Combined item	Sestavljeni artikel
+Customs	Carina
+Transport	Prevoz
+Customs agency	Carinski zastopnik
+Customs, assets	Carina za osnovna sredstva
+Transport, assets	Prevoz osnovnih sredstev
+Customs agency, assets	Carinski zastopnik za osnovna sredstva
+Piece	Kos
+kg	kg
+Hour	Ura
+Day	Dan
+Month	Mesec
+Year	Leto
+g	g
+cm	cm
+m	m
+mm	mm
+km	km
+Standard	Standardna
+Weight	Teža
+Time	Čas
+Length	Dolžina
+Seller	Prodajalec
+IT	IT
+Consultant	Svetovalec
+VAT 20%	DDV 20%
+VAT 0%	DDV 0%
+Hall	Dvorana
+Table	Miza
+Counter	Točilni pult
+Production	Proizvodnja
+Reversal of production	Storno proizvodnje
+Unit split	Pretvorba merske enote
+Reversal of unit split	Storno pretvorbe merske enote
+Raw material used	Porabljena surovina
+Produced item	Izdelan izdelek
+Waste	Kalo
+Account ledger	Kartica konta
+Administration	Upravljanje
+Chart of accounts	Kontni načrt
+Client and supplier ledger	Kartica kupcev in dobaviteljev
+Client statistics	Statistika kupcev
+Clients and suppliers	Kupci in dobavitelji
+Configuration	Nastavitve
+Convert stock between units	Pretvori zalogo v drugo enoto
+Cost centre ledger	Kartica stroškovnega mesta
+Cost centres	Stroškovna mesta
+Currencies and exchange rates	Valute in menjalni tečaji
+Document types	Vrste dokumentov
+Documents	Dokumenti
+Employees	Zaposleni
+Files	Datoteke
+Financial reports	Finančna poročila
+Item movements	Gibanja artikla
+Menu	Meni
+Menu access	Dostop do menija
+Operations	Operacije
+Orders to produce	Naročila za proizvodnjo
+Payment methods	Načini plačila
+Posting scenarios	Scenariji knjiženja
+Print templates	Predloge za tiskanje
+Products and services	Izdelki in storitve
+Recipes	Recepture
+Registers	Šifranti
+Reports	Poročila
+Rights	Pravice
+Sale menus	Prodajni meniji
+Point-of-sale settings	Nastavitve prodajnega mesta
+Shows	Predstave
+Purchases from the group	Nakupi od skupine
+Barcode	Črtna koda
+Sale prices	Prodajne cene
+Sales and purchases by line	Prodaja in nabava po vrsticah
+Stock	Zaloga
+Stock and sales	Zaloga in prodaja
+Trial balance	Bruto bilanca
+Unit conversions	Pretvorbe enot
+Units of measure	Merske enote
+Users	Uporabniki
+VAT books	Knjige DDV
+VAT groups	Skupine DDV
+VAT return	Obračun DDV
+VAT return boxes	Polja obračuna DDV
+Company of the group	Družba skupine
+Restaurant / café	Restavracija / kavarna
+Shop	Trgovina
+Till	Blagajna
+Cinema / theatre	Kino / gledališče
+Auditorium	Dvorana
+Row	Vrsta
+Seat	Sedež
+Hotel	Hotel
+Floor	Nadstropje
+Room	Soba
+Beds	Postelje
+Position X	Položaj X
+Seats	Sedeži
+Position Y	Položaj Y
+Reversal of journal sheet	Storno knjigovodskega lista
+Reversal of depreciation sheet	Storno lista amortizacije
+Reversal of general journal entry	Storno splošnega knjiženja
+Open the point of sale	Odpri prodajno mesto
+Stock and production	Zaloge in proizvodnja
+Accounting setup	Računovodske nastavitve
+Fixed assets	Osnovna sredstva
+Currencies and payments	Valute in plačila
+Company	Podjetje
+Users and rights	Uporabniki in pravice
+System settings	Sistemske nastavitve
+Types and categories	Vrste in kategorije
+VAT	DDV
+Financial	Finančno
+Sale prices by partner	Prodajne cene po partnerju
+Sale menu categories	Kategorije prodajnih menijev
+Scenario lines	Vrstice scenarijev
+Unbalanced scenarios	Neuravnoteženi scenariji
+Remaining asset value	Preostala vrednost sredstva
+VAT return box rules	Pravila polj obračuna DDV
+VAT return by boxes	Obračun DDV po poljih
+Payment methods by cost centre	Načini plačila po stroškovnem mestu
+Users and roles	Uporabniki in vloge
+Document flows	Tokovi dokumentov
+Chart types and categories	Vrste in kategorije kontnega načrta
+Balance sheet	Bilanca
+Profit and loss	Izkaz poslovnega izida
+Balance sheet lines	Vrstice bilance
+Profit and loss lines	Vrstice izkaza poslovnega izida
+City	Mesto
+Staff ledger	Kartica zaposlenega
+Sales and purchases by client	Prodaja in nabava po strankah
+Sales and purchases by cost centre	Prodaja in nabava po stroškovnih mestih
+Transfers	Prenosi
+Document totals	Seštevki dokumentov
+Purchase price history	Zgodovina nabavnih cen
+Depreciation books	Knjige amortizacije
+Depreciation methods	Metode amortizacije
+Depreciation scenarios	Scenariji amortizacije
+Depreciation scenario lines	Vrstice scenarijev amortizacije
+Serial numbers	Serijske številke
+User activity	Dejavnost uporabnikov
+Dashboard	Nadzorna plošča
+Dashboard items	Elementi nadzorne plošče
+Clients owe us	Terjatve do strank
+We owe suppliers	Obveznosti do dobaviteljev
+Drafts waiting	Osnutki na čakanju
+Sales and purchases by month	Prodaja in nabava po mesecih
+VAT by month	DDV po mesecih
+Top clients	Najboljše stranke
+Top suppliers	Najboljši dobavitelji
+Top products	Najboljši izdelki
+Sales by cost centre	Prodaja po stroškovnih mestih
+Migration	Migracija
+Migration steps	Koraki migracije
+Warehouses, banks, cash desks and places	Skladišča, banke, blagajne in mesta
+Client and supplier categories	Kategorije strank in dobaviteljev
+Product categories	Kategorije izdelkov
+Units	Enote
+Exchange rates	Menjalni tečaji
+Next document numbers	Naslednje številke dokumentov
+Opening balances: clients and suppliers	Začetna stanja: stranke in dobavitelji
+Opening balances: banks, cash desks and staff	Začetna stanja: banke, blagajne in osebje
+Opening balances: the chart	Začetna stanja: kontni načrt
+Posting groups	Knjižne skupine
+Document categories	Kategorije dokumentov
+Opening balances: stock	Začetna stanja: zaloge
+Opening balances: fixed assets	Začetna stanja: osnovna sredstva
+VAT groups of document types	Skupine DDV vrst dokumentov
+Closed periods	Zaprta obdobja
+Transaction types	Vrste transakcij
+Transaction scopes	Obsegi transakcij
+Transaction categories	Kategorije transakcij
+Transaction types of document types	Vrste transakcij vrst dokumentov
+General client	Splošna stranka
+Transaction asset cost	Nabavna vrednost sredstva
+Transaction asset depreciation	Amortizacija sredstva
+Transaction asset book value	Knjigovodska vrednost sredstva
+Sales by waiter	Prodaja po natakarju
+Ageing	Starostna struktura
+Open invoices	Odprti računi
+Overdue from clients	Zapadlo od strank
+Overdue to suppliers	Zapadlo dobaviteljem
+Gross profit	Bruto dobiček
+Gross profit by cost centre	Bruto dobiček po stroškovnem mestu
+Top combined products	Najboljši sestavljeni izdelki
+Close the year	Zapri leto
+Invoice run	Fakturiranje pogodb
+Renewals	Podaljšanja
+CRM	CRM
+Opportunities	Priložnosti
+Pipeline	Prodajni lijak
+Forecast	Napoved
+Opportunity stages	Faze priložnosti
+Sales opportunities	Prodajne priložnosti
+Opportunity	Priložnost
+Qualify	Kvalifikacija
+Propose	Ponudba
+Negotiate	Pogajanja
+Won	Dobljeno
+Lost	Izgubljeno
+Leads	Potencialne stranke
+Orders	Naročila
+Purchase request	Nabavna zahteva
+Purchase order	Nabavno naročilo
+Sales order	Prodajno naročilo
+Approvals	Odobritve
+Approval limits	Omejitve odobritev
+Bank statements	Bančni izpiski
+Bank statement formats	Oblike bančnih izpiskov
+Date, text, reference, amount	Datum, besedilo, sklic, znesek
+Lots	Serije
+Shifts	Izmene
+Production point	Proizvodna točka
+Production point display	Zaslon proizvodne točke
+Production routes	Proizvodne poti
+Point-of-sale order	Naročilo prodajnega mesta
+Repairs	Popravila
+Repair intake	Sprejem v popravilo
+Repair offer	Ponudba za popravilo
+Technician	Tehnik
+Received	Prejeto
+Offer given	Ponudba dana
+Accepted	Sprejeta
+Ready	Pripravljeno
+Collected	Prevzeto
+Refused	Zavrnjena
+Item	Artikel
+Brand and model	Znamka in model
+Serial number or plate	Serijska številka ali registrska
+Accessories left	Puščena dodatna oprema
+Defect described	Opisana napaka
+Come back on	Vrnite se
+Repair board	Tabla popravil
+Repair stages	Faze popravila
+Repair shop	Servis
+Roles	Vloge
+Account mapping	Preslikava kontov
+Waiter	Natakar
+Cashier	Blagajnik
+Disassembly	Razstavljanje
+Product taken apart	Razstavljen izdelek
+Recovered component	Vrnjena sestavina
+Disassembly waste	Kalo pri razstavljanju
+Point-of-sale reversal	Storno prodajnega mesta
+Reversal of customs declaration	Storno: Carinska deklaracija
+Reversal of customs declaration, assets	Storno: Carinska deklaracija za osnovna sredstva
+Reversal of goods transfer note	Storno: Prenosnica
+Reversal of goods transfer, cost centre to staff	Storno: Prenos s stroškovnega mesta na zaposlenega
+Reversal of goods transfer, staff to cost centre	Storno: Prenos z zaposlenega na stroškovno mesto
+Reversal of goods transfer, cost centre to client	Storno: Dobava s stroškovnega mesta kupcu
+Reversal of goods transfer, client to cost centre	Storno: Vračilo kupca na stroškovno mesto
+Reversal of goods transfer, staff to client	Storno: Dobava od zaposlenega kupcu
+Opportunity types and categories	Vrste in kategorije priložnosti
+Opportunities and documents	Priložnosti in dokumenti
+Skins	Teme

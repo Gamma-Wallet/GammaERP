@@ -1,0 +1,34 @@
+[
+ {
+  "Key": "depreciation_book:COMPANY",
+  "IdSup": null,
+  "Active": true,
+  "Name": {
+   "en": "Company book",
+   "mk": "Сметководствена книга"
+  },
+  "Description": {
+   "en": "Company book",
+   "mk": "Сметководствена книга"
+  },
+  "MethodId": "depreciation_method:STRAIGHT_LINE",
+  "ChartCategoryId": "chart_category:STATUTORY",
+  "Posts": true
+ },
+ {
+  "Key": "depreciation_book:TAX",
+  "IdSup": null,
+  "Active": true,
+  "Name": {
+   "en": "Tax book",
+   "mk": "Даночна книга"
+  },
+  "Description": {
+   "en": "Tax book",
+   "mk": "Даночна книга"
+  },
+  "MethodId": "depreciation_method:STRAIGHT_LINE",
+  "ChartCategoryId": "chart_category:STATUTORY",
+  "Posts": false
+ }
+]

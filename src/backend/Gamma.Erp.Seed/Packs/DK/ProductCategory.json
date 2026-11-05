@@ -1,0 +1,122 @@
+[
+ {
+  "Key": "product_category:PRODUCT",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "PRODUCT",
+  "Name": {
+   "en": "Products",
+   "da": "Produkter"
+  },
+  "SortOrder": 10
+ },
+ {
+  "Key": "product_category:SERVICE",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "SERVICE",
+  "Name": {
+   "en": "Services",
+   "da": "Tjenesteydelser"
+  },
+  "SortOrder": 20
+ },
+ {
+  "Key": "product_category:ASSET",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "ASSET",
+  "Name": {
+   "en": "Assets",
+   "da": "Anlægsaktiver"
+  },
+  "SortOrder": 30
+ },
+ {
+  "Key": "product_category:LAND",
+  "IdSup": "product_category:ASSET",
+  "Active": true,
+  "IsElement": true,
+  "Code": "LAND",
+  "Name": {
+   "en": "Land",
+   "da": "Grunde"
+  },
+  "SortOrder": 10
+ },
+ {
+  "Key": "product_category:BUILDINGS",
+  "IdSup": "product_category:ASSET",
+  "Active": true,
+  "IsElement": true,
+  "Code": "BUILDINGS",
+  "Name": {
+   "en": "Buildings",
+   "da": "Bygninger"
+  },
+  "SortOrder": 20
+ },
+ {
+  "Key": "product_category:OFFICE",
+  "IdSup": "product_category:ASSET",
+  "Active": true,
+  "IsElement": true,
+  "Code": "OFFICE",
+  "Name": {
+   "en": "Office equipment",
+   "da": "Kontorudstyr"
+  },
+  "SortOrder": 30
+ },
+ {
+  "Key": "product_category:VEHICLES",
+  "IdSup": "product_category:ASSET",
+  "Active": true,
+  "IsElement": true,
+  "Code": "VEHICLES",
+  "Name": {
+   "en": "Vehicles",
+   "da": "Transportmidler"
+  },
+  "SortOrder": 40
+ },
+ {
+  "Key": "product_category:COMPUTERS",
+  "IdSup": "product_category:ASSET",
+  "Active": true,
+  "IsElement": true,
+  "Code": "COMPUTERS",
+  "Name": {
+   "en": "Computer equipment",
+   "da": "It-udstyr"
+  },
+  "SortOrder": 50
+ },
+ {
+  "Key": "product_category:FURNITURE",
+  "IdSup": "product_category:ASSET",
+  "Active": true,
+  "IsElement": true,
+  "Code": "FURNITURE",
+  "Name": {
+   "en": "Furniture and fittings",
+   "da": "Inventar"
+  },
+  "SortOrder": 60
+ },
+ {
+  "Key": "product_category:INTANGIBLE",
+  "IdSup": "product_category:ASSET",
+  "Active": true,
+  "IsElement": true,
+  "Code": "INTANGIBLE",
+  "Name": {
+   "en": "Intangible assets",
+   "da": "Immaterielle anlægsaktiver"
+  },
+  "SortOrder": 70
+ }
+]

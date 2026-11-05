@@ -1,0 +1,2926 @@
+[
+ {
+  "Key": "document_type:SALES_INVOICE_GOODS",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "ИФС",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Sales invoice, goods",
+   "mk": "Излезна фактура за стоки"
+  },
+  "Description": {
+   "en": "Sales invoice, goods",
+   "mk": "Излезна фактура за стоки"
+  },
+  "SortOrder": 5.0,
+  "MenuId": null,
+  "AllowsPartialReversal": true,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": false,
+  "HoldsOpenItem": true,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": true
+ },
+ {
+  "Key": "document_type:CREDIT_NOTE_GOODS_SOLD",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "ОДС",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Credit note, goods sold",
+   "mk": "Одобрение за продадени стоки"
+  },
+  "Description": {
+   "en": "Credit note, goods sold",
+   "mk": "Одобрение за продадени стоки"
+  },
+  "SortOrder": 6.0,
+  "MenuId": null,
+  "IsReversal": true,
+  "ReversedDocumentTypeId": "document_type:SALES_INVOICE_GOODS",
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:SALES_INVOICE_SERVICES",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "ИФУ",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Sales invoice, services",
+   "mk": "Излезна фактура за услуги"
+  },
+  "Description": {
+   "en": "Sales invoice, services",
+   "mk": "Излезна фактура за услуги"
+  },
+  "SortOrder": 7.0,
+  "MenuId": null,
+  "AllowsPartialReversal": true,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": false,
+  "HoldsOpenItem": true,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": true
+ },
+ {
+  "Key": "document_type:CREDIT_NOTE_SERVICES_SOLD",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "ОДУ",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Credit note, services sold",
+   "mk": "Одобрение за извршени услуги"
+  },
+  "Description": {
+   "en": "Credit note, services sold",
+   "mk": "Одобрение за извршени услуги"
+  },
+  "SortOrder": 8.0,
+  "MenuId": null,
+  "IsReversal": true,
+  "ReversedDocumentTypeId": "document_type:SALES_INVOICE_SERVICES",
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:PURCHASE_INVOICE_GOODS",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "ВФС",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Purchase invoice, goods",
+   "mk": "Влезна фактура за стоки"
+  },
+  "Description": {
+   "en": "Purchase invoice, goods",
+   "mk": "Влезна фактура за стоки"
+  },
+  "SortOrder": 9.0,
+  "MenuId": null,
+  "AllowsPartialReversal": true,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": false,
+  "HoldsOpenItem": true,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:CREDIT_NOTE_GOODS_BOUGHT",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "ВОС",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Credit note, goods bought",
+   "mk": "Одобрение за набавени стоки"
+  },
+  "Description": {
+   "en": "Credit note, goods bought",
+   "mk": "Одобрение за набавени стоки"
+  },
+  "SortOrder": 11.0,
+  "MenuId": null,
+  "IsReversal": true,
+  "ReversedDocumentTypeId": "document_type:PURCHASE_INVOICE_GOODS",
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:PURCHASE_INVOICE_SERVICES",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "ВФУ",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Purchase invoice, services",
+   "mk": "Влезна фактура за услуги"
+  },
+  "Description": {
+   "en": "Purchase invoice, services",
+   "mk": "Влезна фактура за услуги"
+  },
+  "SortOrder": 12.0,
+  "MenuId": null,
+  "AllowsPartialReversal": true,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": false,
+  "HoldsOpenItem": true,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:CREDIT_NOTE_SERVICES_BOUGHT",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "ВОУ",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Credit note, services bought",
+   "mk": "Одобрение за набавени услуги"
+  },
+  "Description": {
+   "en": "Credit note, services bought",
+   "mk": "Одобрение за набавени услуги"
+  },
+  "SortOrder": 13.0,
+  "MenuId": null,
+  "IsReversal": true,
+  "ReversedDocumentTypeId": "document_type:PURCHASE_INVOICE_SERVICES",
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:GOODS_TRANSFER",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "ИСП",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Goods transfer note",
+   "mk": "Испратница"
+  },
+  "Description": {
+   "en": "Goods transfer note",
+   "mk": "Испратница"
+  },
+  "SortOrder": 14.0,
+  "MenuId": null,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:PAYMENT",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "ПЛ",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Payment",
+   "mk": "Плаќање"
+  },
+  "Description": {
+   "en": "Payment",
+   "mk": "Плаќање"
+  },
+  "SortOrder": 15.0,
+  "MenuId": null,
+  "AllowsPartialReversal": false,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": true,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:RECEIPT",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "НП",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Receipt",
+   "mk": "Наплата"
+  },
+  "Description": {
+   "en": "Receipt",
+   "mk": "Наплата"
+  },
+  "SortOrder": 16.0,
+  "MenuId": null,
+  "AllowsPartialReversal": false,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": true,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:PREPAYMENT",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "АП",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Prepayment",
+   "mk": "Авансно плаќање"
+  },
+  "Description": {
+   "en": "Prepayment",
+   "mk": "Авансно плаќање"
+  },
+  "SortOrder": 17.0,
+  "MenuId": null,
+  "AllowsPartialReversal": false,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:GOODS_TRANSFER_TO_STAFF",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "ИСВ",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Goods transfer, cost centre to staff",
+   "mk": "Пренос од место на трошок до вработен"
+  },
+  "Description": {
+   "en": "Goods transfer, cost centre to staff",
+   "mk": "Пренос од место на трошок до вработен"
+  },
+  "SortOrder": 18.0,
+  "MenuId": null,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:SALES_OFFER_GOODS",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "ПОС",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Sales offer, goods",
+   "mk": "Понуда за продажба на стоки"
+  },
+  "Description": {
+   "en": "Sales offer, goods",
+   "mk": "Понуда за продажба на стоки"
+  },
+  "SortOrder": 19.0,
+  "MenuId": null,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": true,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:DEPRECIATION_SHEET",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "ЛАМ",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Depreciation sheet",
+   "mk": "Лист за амортизација"
+  },
+  "Description": {
+   "en": "Depreciation sheet",
+   "mk": "Лист за амортизација"
+  },
+  "SortOrder": 20.0,
+  "MenuId": null,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:DEPRECIATION_JOURNAL",
+  "IdSup": "document_type:DEPRECIATION_SHEET",
+  "Active": true,
+  "IsElement": true,
+  "Code": "НАМ",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Depreciation journal",
+   "mk": "Налог за амортизација"
+  },
+  "Description": {
+   "en": "Depreciation journal",
+   "mk": "Налог за амортизација"
+  },
+  "SortOrder": 21.0,
+  "MenuId": null,
+  "AllowsPartialReversal": false,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:JOURNAL_SHEET",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "НК",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Journal sheet",
+   "mk": "Налог за книжење"
+  },
+  "Description": {
+   "en": "Journal sheet",
+   "mk": "Налог за книжење"
+  },
+  "SortOrder": 22.0,
+  "MenuId": null,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:JOURNAL_PAYMENT",
+  "IdSup": "document_type:JOURNAL_SHEET",
+  "Active": true,
+  "IsElement": true,
+  "Code": "ПЛ",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Payment",
+   "mk": "Плаќање"
+  },
+  "Description": {
+   "en": "Payment",
+   "mk": "Плаќање"
+  },
+  "SortOrder": 23.0,
+  "MenuId": null,
+  "AllowsPartialReversal": false,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": true,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:JOURNAL_RECEIPT",
+  "IdSup": "document_type:JOURNAL_SHEET",
+  "Active": true,
+  "IsElement": true,
+  "Code": "НП",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Receipt",
+   "mk": "Наплата"
+  },
+  "Description": {
+   "en": "Receipt",
+   "mk": "Наплата"
+  },
+  "SortOrder": 24.0,
+  "MenuId": null,
+  "AllowsPartialReversal": false,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": true,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:JOURNAL_PREPAYMENT",
+  "IdSup": "document_type:JOURNAL_SHEET",
+  "Active": true,
+  "IsElement": true,
+  "Code": "АП",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Prepayment",
+   "mk": "Авансно плаќање"
+  },
+  "Description": {
+   "en": "Prepayment",
+   "mk": "Авансно плаќање"
+  },
+  "SortOrder": 25.0,
+  "MenuId": null,
+  "AllowsPartialReversal": false,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:REVALUATION_SHEET",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "ЛРВ",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Revaluation sheet",
+   "mk": "Лист за ревалоризација"
+  },
+  "Description": {
+   "en": "Revaluation sheet",
+   "mk": "Лист за ревалоризација"
+  },
+  "SortOrder": 26.0,
+  "MenuId": null,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:REVALUATION_JOURNAL",
+  "IdSup": "document_type:REVALUATION_SHEET",
+  "Active": true,
+  "IsElement": true,
+  "Code": "НРВ",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Revaluation journal",
+   "mk": "Налог за ревалоризација"
+  },
+  "Description": {
+   "en": "Revaluation journal",
+   "mk": "Налог за ревалоризација"
+  },
+  "SortOrder": 27.0,
+  "MenuId": null,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:ADVANCE",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "АВ",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Advance",
+   "mk": "Аванс"
+  },
+  "Description": {
+   "en": "Client's advance",
+   "mk": "Аванс од купувач"
+  },
+  "SortOrder": 29.0,
+  "MenuId": null,
+  "AllowsPartialReversal": false,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:EMPLOYEE_ADVANCE",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "АВВ",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Employee advance",
+   "mk": "Аванс на вработен"
+  },
+  "Description": {
+   "en": "Advance to an employee",
+   "mk": "Аванс на вработен"
+  },
+  "SortOrder": 30.0,
+  "MenuId": null,
+  "AllowsPartialReversal": false,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:JOURNAL_ADVANCE",
+  "IdSup": "document_type:JOURNAL_SHEET",
+  "Active": true,
+  "IsElement": true,
+  "Code": "АВ",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Advance",
+   "mk": "Аванс"
+  },
+  "Description": {
+   "en": "Client's advance",
+   "mk": "Аванс од купувач"
+  },
+  "SortOrder": 32.0,
+  "MenuId": null,
+  "AllowsPartialReversal": false,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:JOURNAL_EMPLOYEE_ADVANCE",
+  "IdSup": "document_type:JOURNAL_SHEET",
+  "Active": true,
+  "IsElement": true,
+  "Code": "АВВ",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Employee advance",
+   "mk": "Аванс на вработен"
+  },
+  "Description": {
+   "en": "Advance to an employee",
+   "mk": "Аванс на вработен"
+  },
+  "SortOrder": 33.0,
+  "MenuId": null,
+  "AllowsPartialReversal": false,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:SALES_CONTRACT_GOODS",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "ДПС",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Sales contract, goods",
+   "mk": "Договор за продажба на стоки"
+  },
+  "Description": {
+   "en": "Sales contract, goods",
+   "mk": "Договор за продажба на стоки"
+  },
+  "SortOrder": 34.0,
+  "MenuId": null,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": true,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": true,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:PURCHASE_CONTRACT_GOODS",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "ДНС",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Purchase contract, goods",
+   "mk": "Договор за набавка на стоки"
+  },
+  "Description": {
+   "en": "Purchase contract, goods",
+   "mk": "Договор за набавка на стоки"
+  },
+  "SortOrder": 35.0,
+  "MenuId": null,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": true,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": true,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:PURCHASE_OFFER_GOODS",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "БПС",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Purchase offer, goods",
+   "mk": "Барање за понуда за стоки"
+  },
+  "Description": {
+   "en": "Purchase offer, goods",
+   "mk": "Барање за понуда за стоки"
+  },
+  "SortOrder": 36.0,
+  "MenuId": null,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": true,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:SALES_OFFER_SERVICES",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "ПОУ",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Sales offer, services",
+   "mk": "Понуда за услуги"
+  },
+  "Description": {
+   "en": "Sales offer, services",
+   "mk": "Понуда за услуги"
+  },
+  "SortOrder": 37.0,
+  "MenuId": null,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": true,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:REPAIR_INTAKE",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "RIN",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Repair intake",
+   "mk": "Прием за поправка"
+  },
+  "Description": {
+   "en": "Repair intake",
+   "mk": "Прием за поправка"
+  },
+  "SortOrder": 37.01,
+  "MenuId": null,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": true,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false,
+  "StartsRepair": true
+ },
+ {
+  "Key": "document_type:REPAIR_OFFER",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "ROF",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Repair offer",
+   "mk": "Понуда за поправка"
+  },
+  "Description": {
+   "en": "Repair offer",
+   "mk": "Понуда за поправка"
+  },
+  "SortOrder": 37.02,
+  "MenuId": null,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": true,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false,
+  "CanBeAccepted": true
+ },
+ {
+  "Key": "document_type:PURCHASE_OFFER_SERVICES",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "БПУ",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Purchase offer, services",
+   "mk": "Барање за понуда за услуги"
+  },
+  "Description": {
+   "en": "Purchase offer, services",
+   "mk": "Барање за понуда за услуги"
+  },
+  "SortOrder": 38.0,
+  "MenuId": null,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": true,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:SALES_CONTRACT_SERVICES",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "ДПУ",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Sales contract, services",
+   "mk": "Договор за услуги"
+  },
+  "Description": {
+   "en": "Sales contract, services",
+   "mk": "Договор за услуги"
+  },
+  "SortOrder": 39.0,
+  "MenuId": null,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": true,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": true,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:PURCHASE_CONTRACT_SERVICES",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "ДНУ",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Purchase contract, services",
+   "mk": "Договор за набавка на услуги"
+  },
+  "Description": {
+   "en": "Purchase contract, services",
+   "mk": "Договор за набавка на услуги"
+  },
+  "SortOrder": 40.0,
+  "MenuId": null,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": true,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": true,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:RECURRING_DEPRECIATION_SHEET",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "ЛАМП",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Recurring depreciation sheet",
+   "mk": "Периодичен лист за амортизација"
+  },
+  "Description": null,
+  "SortOrder": 41.0,
+  "MenuId": null,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:RECURRING_JOURNAL_SHEET",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "НКП",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Recurring journal sheet",
+   "mk": "Периодичен налог за книжење"
+  },
+  "Description": null,
+  "SortOrder": 42.0,
+  "MenuId": null,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:RECURRING_REVALUATION_SHEET",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "ЛРВП",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Recurring revaluation sheet",
+   "mk": "Периодичен лист за ревалоризација"
+  },
+  "Description": null,
+  "SortOrder": 43.0,
+  "MenuId": null,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:GENERAL_JOURNAL_ENTRY",
+  "IdSup": "document_type:JOURNAL_SHEET",
+  "Active": true,
+  "IsElement": true,
+  "Code": "ОНК",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "General journal entry",
+   "mk": "Општ налог за книжење"
+  },
+  "Description": {
+   "en": "General journal entry",
+   "mk": "Општ налог за книжење"
+  },
+  "SortOrder": 44.0,
+  "MenuId": null,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:POS_RECEIPT",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "ФС",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Point-of-sale receipt",
+   "mk": "Фискална сметка"
+  },
+  "Description": {
+   "en": "Point-of-sale receipt",
+   "mk": "Фискална сметка"
+  },
+  "SortOrder": 45.0,
+  "MenuId": null,
+  "AllowsPartialReversal": true,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": true,
+  "SellsProducedProduct": true
+ },
+ {
+  "Key": "document_type:GOODS_TRANSFER_FROM_STAFF",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "ИСВМ",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Goods transfer, staff to cost centre",
+   "mk": "Пренос од вработен до место на трошок"
+  },
+  "Description": {
+   "en": "Goods transfer, staff to cost centre",
+   "mk": "Пренос од вработен до место на трошок"
+  },
+  "SortOrder": 46.0,
+  "MenuId": null,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:GOODS_TRANSFER_TO_CLIENT",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "ИСК",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Goods transfer, cost centre to client",
+   "mk": "Пренос од место на трошок до купувач"
+  },
+  "Description": {
+   "en": "Goods transfer, cost centre to client",
+   "mk": "Пренос од место на трошок до купувач"
+  },
+  "SortOrder": 47.0,
+  "MenuId": null,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:GOODS_TRANSFER_FROM_CLIENT",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "ИСКМ",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Goods transfer, client to cost centre",
+   "mk": "Пренос од купувач до место на трошок"
+  },
+  "Description": {
+   "en": "Goods transfer, client to cost centre",
+   "mk": "Пренос од купувач до место на трошок"
+  },
+  "SortOrder": 48.0,
+  "MenuId": null,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:POS_CONTRACT",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "ДПМ",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Point-of-sale contract",
+   "mk": "Договор на продажно место"
+  },
+  "Description": {
+   "en": "Point-of-sale contract",
+   "mk": "Договор на продажно место"
+  },
+  "SortOrder": 49.0,
+  "MenuId": null,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": true,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": true,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:POS_MONEY_IN",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "НПМ",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Point-of-sale receipt of money",
+   "mk": "Наплата на продажно место"
+  },
+  "Description": {
+   "en": "Point-of-sale receipt of money",
+   "mk": "Наплата на продажно место"
+  },
+  "SortOrder": 50.0,
+  "MenuId": null,
+  "AllowsPartialReversal": true,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:POS_MONEY_OUT",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "ПЛМ",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Point-of-sale payment",
+   "mk": "Плаќање на продажно место"
+  },
+  "Description": {
+   "en": "Point-of-sale payment",
+   "mk": "Плаќање на продажно место"
+  },
+  "SortOrder": 51.0,
+  "MenuId": null,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:POS_GOODS_IN",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "ПРМ",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Point-of-sale goods in",
+   "mk": "Прием на продажно место"
+  },
+  "Description": {
+   "en": "Point-of-sale goods in",
+   "mk": "Прием на продажно место"
+  },
+  "SortOrder": 52.0,
+  "MenuId": null,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:POS_GOODS_OUT",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "ИЗМ",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Point-of-sale goods out",
+   "mk": "Издавање од продажно место"
+  },
+  "Description": {
+   "en": "Point-of-sale goods out",
+   "mk": "Издавање од продажно место"
+  },
+  "SortOrder": 53.0,
+  "MenuId": null,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:WAGE_PAYMENT",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "ИПЛ",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Wage payment",
+   "mk": "Исплата на плати"
+  },
+  "Description": {
+   "en": "Wage payment",
+   "mk": "Исплата на плати"
+  },
+  "SortOrder": 56.0,
+  "MenuId": null,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:RENT_PAYMENT",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "ПЗК",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Rent payment",
+   "mk": "Плаќање на закупнина"
+  },
+  "Description": {
+   "en": "Rent payment",
+   "mk": "Плаќање на закупнина"
+  },
+  "SortOrder": 57.0,
+  "MenuId": null,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:CUSTOMS_DECLARATION",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "ЦД",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Customs declaration",
+   "mk": "Царинска декларација"
+  },
+  "Description": {
+   "en": "Customs declaration",
+   "mk": "Царинска декларација"
+  },
+  "SortOrder": 58.0,
+  "MenuId": null,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:CUSTOMS_DECLARATION_ASSETS",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "ЦДО",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Customs declaration, assets",
+   "mk": "Царинска декларација за основни средства"
+  },
+  "Description": {
+   "en": "Customs declaration, assets",
+   "mk": "Царинска декларација за основни средства"
+  },
+  "SortOrder": 59.0,
+  "MenuId": null,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:POS_REVERSAL",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "ПВФ",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Point-of-sale reversal",
+   "mk": "Сторно на продажно место"
+  },
+  "Description": {
+   "en": "Point-of-sale reversal",
+   "mk": "Сторно на продажно место"
+  },
+  "SortOrder": 60.0,
+  "MenuId": null,
+  "IsReversal": true,
+  "ReversedDocumentTypeId": "document_type:POS_RECEIPT",
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:POS_REFUND",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "ВПМ",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Point-of-sale refund",
+   "mk": "Враќање пари на продажно место"
+  },
+  "Description": {
+   "en": "Point-of-sale refund",
+   "mk": "Враќање пари на продажно место"
+  },
+  "SortOrder": 62.0,
+  "MenuId": null,
+  "IsReversal": true,
+  "ReversedDocumentTypeId": "document_type:POS_MONEY_IN",
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:POS_MONEY_FROM_STAFF",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "НПВ",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Point-of-sale receipt from staff",
+   "mk": "Наплата од вработен на продажно место"
+  },
+  "Description": {
+   "en": "Point-of-sale receipt from staff",
+   "mk": "Наплата од вработен на продажно место"
+  },
+  "SortOrder": 63.0,
+  "MenuId": null,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:GOODS_OUT_TO_STAFF",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "ИЗВ",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Goods out to staff",
+   "mk": "Издавање на вработен"
+  },
+  "Description": {
+   "en": "Goods out to staff",
+   "mk": "Издавање на вработен"
+  },
+  "SortOrder": 65.0,
+  "MenuId": null,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:GOODS_TRANSFER_STAFF_TO_CLIENT",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "ИСВК",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Goods transfer, staff to client",
+   "mk": "Пренос од вработен до купувач"
+  },
+  "Description": {
+   "en": "Goods transfer, staff to client",
+   "mk": "Пренос од вработен до купувач"
+  },
+  "SortOrder": 66.0,
+  "MenuId": null,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:GOODS_IN_FROM_STAFF",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "ПРВ",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Goods in from staff",
+   "mk": "Прием од вработен"
+  },
+  "Description": {
+   "en": "Goods in from staff",
+   "mk": "Прием од вработен"
+  },
+  "SortOrder": 67.0,
+  "MenuId": null,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:REVERSAL_PAYMENT",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "СПЛ",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Reversal of payment",
+   "mk": "Сторно плаќање"
+  },
+  "SortOrder": 15.0,
+  "IsReversal": true,
+  "ReversedDocumentTypeId": "document_type:PAYMENT",
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:REVERSAL_RECEIPT",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "СНП",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Reversal of receipt",
+   "mk": "Сторно наплата"
+  },
+  "SortOrder": 16.0,
+  "IsReversal": true,
+  "ReversedDocumentTypeId": "document_type:RECEIPT",
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:REVERSAL_PREPAYMENT",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "САП",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Reversal of prepayment",
+   "mk": "Сторно авансно плаќање"
+  },
+  "SortOrder": 17.0,
+  "IsReversal": true,
+  "ReversedDocumentTypeId": "document_type:PREPAYMENT",
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:REVERSAL_DEPRECIATION_JOURNAL",
+  "IdSup": "document_type:REVERSAL_DEPRECIATION_SHEET",
+  "Active": true,
+  "IsElement": true,
+  "Code": "СНАМ",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Reversal of depreciation journal",
+   "mk": "Сторно налог за амортизација"
+  },
+  "SortOrder": 21.0,
+  "IsReversal": true,
+  "ReversedDocumentTypeId": "document_type:DEPRECIATION_JOURNAL",
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:REVERSAL_JOURNAL_PAYMENT",
+  "IdSup": "document_type:REVERSAL_JOURNAL_SHEET",
+  "Active": true,
+  "IsElement": true,
+  "Code": "СПЛН",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Reversal of payment",
+   "mk": "Сторно плаќање"
+  },
+  "SortOrder": 23.0,
+  "IsReversal": true,
+  "ReversedDocumentTypeId": "document_type:JOURNAL_PAYMENT",
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:REVERSAL_JOURNAL_RECEIPT",
+  "IdSup": "document_type:REVERSAL_JOURNAL_SHEET",
+  "Active": true,
+  "IsElement": true,
+  "Code": "СНПН",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Reversal of receipt",
+   "mk": "Сторно наплата"
+  },
+  "SortOrder": 24.0,
+  "IsReversal": true,
+  "ReversedDocumentTypeId": "document_type:JOURNAL_RECEIPT",
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:REVERSAL_JOURNAL_PREPAYMENT",
+  "IdSup": "document_type:REVERSAL_JOURNAL_SHEET",
+  "Active": true,
+  "IsElement": true,
+  "Code": "САПН",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Reversal of prepayment",
+   "mk": "Сторно авансно плаќање"
+  },
+  "SortOrder": 25.0,
+  "IsReversal": true,
+  "ReversedDocumentTypeId": "document_type:JOURNAL_PREPAYMENT",
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:REVERSAL_ADVANCE",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "САВ",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Reversal of advance",
+   "mk": "Сторно аванс"
+  },
+  "SortOrder": 29.0,
+  "IsReversal": true,
+  "ReversedDocumentTypeId": "document_type:ADVANCE",
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:REVERSAL_EMPLOYEE_ADVANCE",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "САВВ",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Reversal of employee advance",
+   "mk": "Сторно аванс на вработен"
+  },
+  "SortOrder": 30.0,
+  "IsReversal": true,
+  "ReversedDocumentTypeId": "document_type:EMPLOYEE_ADVANCE",
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:REVERSAL_JOURNAL_ADVANCE",
+  "IdSup": "document_type:REVERSAL_JOURNAL_SHEET",
+  "Active": true,
+  "IsElement": true,
+  "Code": "САВН",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Reversal of advance",
+   "mk": "Сторно аванс"
+  },
+  "SortOrder": 32.0,
+  "IsReversal": true,
+  "ReversedDocumentTypeId": "document_type:JOURNAL_ADVANCE",
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:REVERSAL_JOURNAL_EMPLOYEE_ADVANCE",
+  "IdSup": "document_type:REVERSAL_JOURNAL_SHEET",
+  "Active": true,
+  "IsElement": false,
+  "Code": "САВВН",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Reversal of employee advance",
+   "mk": "Сторно аванс на вработен"
+  },
+  "SortOrder": 33.0,
+  "IsReversal": true,
+  "ReversedDocumentTypeId": "document_type:JOURNAL_EMPLOYEE_ADVANCE",
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:PRODUCTION",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "ПРО",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Production",
+   "mk": "Производство"
+  },
+  "Description": {
+   "en": "Production",
+   "mk": "Производство"
+  },
+  "SortOrder": 90.0,
+  "MenuId": null,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": false,
+  "AllowsPartialReversal": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:UNIT_SPLIT",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "ПЕМ",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Unit split",
+   "mk": "Претворање на мерна единица"
+  },
+  "Description": {
+   "en": "Unit split",
+   "mk": "Претворање на мерна единица"
+  },
+  "SortOrder": 92.0,
+  "MenuId": null,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": false,
+  "AllowsPartialReversal": true,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:REVERSAL_UNIT_SPLIT",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "СПЕМ",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Reversal of unit split",
+   "mk": "Сторно претворање на мерна единица"
+  },
+  "Description": {
+   "en": "Reversal of unit split",
+   "mk": "Сторно претворање на мерна единица"
+  },
+  "SortOrder": 93.0,
+  "MenuId": null,
+  "IsReversal": true,
+  "ReversedDocumentTypeId": "document_type:UNIT_SPLIT",
+  "NeverPosted": false,
+  "AllowsPartialReversal": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:REVERSAL_JOURNAL_SHEET",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "СНКН",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Reversal of journal sheet",
+   "mk": "Сторно на сметководствен лист"
+  },
+  "SortOrder": 222.0,
+  "IsReversal": true,
+  "ReversedDocumentTypeId": "document_type:JOURNAL_SHEET",
+  "NeverPosted": false,
+  "Description": {
+   "en": "Reversal of journal sheet",
+   "mk": "Сторно на сметководствен лист"
+  },
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:REVERSAL_DEPRECIATION_SHEET",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "СЛАМН",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Reversal of depreciation sheet",
+   "mk": "Сторно на амортизационен лист"
+  },
+  "SortOrder": 220.0,
+  "IsReversal": true,
+  "ReversedDocumentTypeId": "document_type:DEPRECIATION_SHEET",
+  "NeverPosted": false,
+  "Description": {
+   "en": "Reversal of depreciation sheet",
+   "mk": "Сторно на амортизационен лист"
+  },
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:REVERSAL_GENERAL_JOURNAL_ENTRY",
+  "IdSup": "document_type:REVERSAL_JOURNAL_SHEET",
+  "Active": true,
+  "IsElement": true,
+  "Code": "СОНКН",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Reversal of general journal entry",
+   "mk": "Сторно на општо книжење"
+  },
+  "SortOrder": 244.0,
+  "IsReversal": true,
+  "ReversedDocumentTypeId": "document_type:GENERAL_JOURNAL_ENTRY",
+  "NeverPosted": false,
+  "Description": {
+   "en": "Reversal of general journal entry",
+   "mk": "Сторно на општо книжење"
+  },
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:RECURRING_JOURNAL_PAYMENT",
+  "IdSup": "document_type:RECURRING_JOURNAL_SHEET",
+  "Active": true,
+  "IsElement": true,
+  "Code": "ПЛП",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Payment",
+   "mk": "Плаќање"
+  },
+  "Description": {
+   "en": "Payment",
+   "mk": "Плаќање"
+  },
+  "SortOrder": 123.0,
+  "MenuId": null,
+  "AllowsPartialReversal": false,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": true,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:REVERSAL_RECURRING_JOURNAL_PAYMENT",
+  "IdSup": "document_type:REVERSAL_RECURRING_JOURNAL_SHEET",
+  "Active": true,
+  "IsElement": true,
+  "Code": "СПЛПН",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Reversal of payment",
+   "mk": "Сторно плаќање"
+  },
+  "SortOrder": 123.0,
+  "IsReversal": true,
+  "ReversedDocumentTypeId": "document_type:RECURRING_JOURNAL_PAYMENT",
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:RECURRING_JOURNAL_RECEIPT",
+  "IdSup": "document_type:RECURRING_JOURNAL_SHEET",
+  "Active": true,
+  "IsElement": true,
+  "Code": "НПП",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Receipt",
+   "mk": "Наплата"
+  },
+  "Description": {
+   "en": "Receipt",
+   "mk": "Наплата"
+  },
+  "SortOrder": 124.0,
+  "MenuId": null,
+  "AllowsPartialReversal": false,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": true,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:REVERSAL_RECURRING_JOURNAL_RECEIPT",
+  "IdSup": "document_type:REVERSAL_RECURRING_JOURNAL_SHEET",
+  "Active": true,
+  "IsElement": true,
+  "Code": "СНППН",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Reversal of receipt",
+   "mk": "Сторно наплата"
+  },
+  "SortOrder": 124.0,
+  "IsReversal": true,
+  "ReversedDocumentTypeId": "document_type:RECURRING_JOURNAL_RECEIPT",
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:RECURRING_JOURNAL_PREPAYMENT",
+  "IdSup": "document_type:RECURRING_JOURNAL_SHEET",
+  "Active": true,
+  "IsElement": true,
+  "Code": "АПП",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Prepayment",
+   "mk": "Авансно плаќање"
+  },
+  "Description": {
+   "en": "Prepayment",
+   "mk": "Авансно плаќање"
+  },
+  "SortOrder": 125.0,
+  "MenuId": null,
+  "AllowsPartialReversal": false,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:REVERSAL_RECURRING_JOURNAL_PREPAYMENT",
+  "IdSup": "document_type:REVERSAL_RECURRING_JOURNAL_SHEET",
+  "Active": true,
+  "IsElement": true,
+  "Code": "САППН",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Reversal of prepayment",
+   "mk": "Сторно авансно плаќање"
+  },
+  "SortOrder": 125.0,
+  "IsReversal": true,
+  "ReversedDocumentTypeId": "document_type:RECURRING_JOURNAL_PREPAYMENT",
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:RECURRING_JOURNAL_ADVANCE",
+  "IdSup": "document_type:RECURRING_JOURNAL_SHEET",
+  "Active": true,
+  "IsElement": true,
+  "Code": "АВП",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Advance",
+   "mk": "Аванс"
+  },
+  "Description": {
+   "en": "Client's advance",
+   "mk": "Аванс од купувач"
+  },
+  "SortOrder": 132.0,
+  "MenuId": null,
+  "AllowsPartialReversal": false,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:REVERSAL_RECURRING_JOURNAL_ADVANCE",
+  "IdSup": "document_type:REVERSAL_RECURRING_JOURNAL_SHEET",
+  "Active": true,
+  "IsElement": true,
+  "Code": "САВПН",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Reversal of advance",
+   "mk": "Сторно аванс"
+  },
+  "SortOrder": 132.0,
+  "IsReversal": true,
+  "ReversedDocumentTypeId": "document_type:RECURRING_JOURNAL_ADVANCE",
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:RECURRING_JOURNAL_EMPLOYEE_ADVANCE",
+  "IdSup": "document_type:RECURRING_JOURNAL_SHEET",
+  "Active": true,
+  "IsElement": true,
+  "Code": "АВВП",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Employee advance",
+   "mk": "Аванс на вработен"
+  },
+  "Description": {
+   "en": "Advance to an employee",
+   "mk": "Аванс на вработен"
+  },
+  "SortOrder": 133.0,
+  "MenuId": null,
+  "AllowsPartialReversal": false,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:REVERSAL_RECURRING_JOURNAL_EMPLOYEE_ADVANCE",
+  "IdSup": "document_type:REVERSAL_RECURRING_JOURNAL_SHEET",
+  "Active": true,
+  "IsElement": false,
+  "Code": "САВВПН",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Reversal of employee advance",
+   "mk": "Сторно аванс на вработен"
+  },
+  "SortOrder": 133.0,
+  "IsReversal": true,
+  "ReversedDocumentTypeId": "document_type:RECURRING_JOURNAL_EMPLOYEE_ADVANCE",
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:RECURRING_GENERAL_JOURNAL_ENTRY",
+  "IdSup": "document_type:RECURRING_JOURNAL_SHEET",
+  "Active": true,
+  "IsElement": true,
+  "Code": "ОНКП",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "General journal entry",
+   "mk": "Општ налог за книжење"
+  },
+  "Description": {
+   "en": "General journal entry",
+   "mk": "Општ налог за книжење"
+  },
+  "SortOrder": 144.0,
+  "MenuId": null,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:REVERSAL_RECURRING_GENERAL_JOURNAL_ENTRY",
+  "IdSup": "document_type:REVERSAL_RECURRING_JOURNAL_SHEET",
+  "Active": true,
+  "IsElement": true,
+  "Code": "СОНКПН",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Reversal of general journal entry",
+   "mk": "Сторно на општо книжење"
+  },
+  "SortOrder": 344.0,
+  "IsReversal": true,
+  "ReversedDocumentTypeId": "document_type:RECURRING_GENERAL_JOURNAL_ENTRY",
+  "NeverPosted": false,
+  "Description": {
+   "en": "Reversal of general journal entry",
+   "mk": "Сторно на општо книжење"
+  },
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:REVERSAL_RECURRING_JOURNAL_SHEET",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "СНКПН",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Reversal of journal sheet",
+   "mk": "Сторно на сметководствен лист"
+  },
+  "SortOrder": 322.0,
+  "IsReversal": true,
+  "ReversedDocumentTypeId": "document_type:RECURRING_JOURNAL_SHEET",
+  "NeverPosted": false,
+  "Description": {
+   "en": "Reversal of journal sheet",
+   "mk": "Сторно на сметководствен лист"
+  },
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:RECURRING_DEPRECIATION_JOURNAL",
+  "IdSup": "document_type:RECURRING_DEPRECIATION_SHEET",
+  "Active": true,
+  "IsElement": true,
+  "Code": "НАМП",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Depreciation journal",
+   "mk": "Налог за амортизација"
+  },
+  "Description": {
+   "en": "Depreciation journal",
+   "mk": "Налог за амортизација"
+  },
+  "SortOrder": 121.0,
+  "MenuId": null,
+  "AllowsPartialReversal": false,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:REVERSAL_RECURRING_DEPRECIATION_JOURNAL",
+  "IdSup": "document_type:REVERSAL_RECURRING_DEPRECIATION_SHEET",
+  "Active": true,
+  "IsElement": true,
+  "Code": "СНАМПН",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Reversal of depreciation journal",
+   "mk": "Сторно налог за амортизација"
+  },
+  "SortOrder": 121.0,
+  "IsReversal": true,
+  "ReversedDocumentTypeId": "document_type:RECURRING_DEPRECIATION_JOURNAL",
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:REVERSAL_RECURRING_DEPRECIATION_SHEET",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "СЛАМПН",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Reversal of depreciation sheet",
+   "mk": "Сторно на амортизационен лист"
+  },
+  "SortOrder": 320.0,
+  "IsReversal": true,
+  "ReversedDocumentTypeId": "document_type:RECURRING_DEPRECIATION_SHEET",
+  "NeverPosted": false,
+  "Description": {
+   "en": "Reversal of depreciation sheet",
+   "mk": "Сторно на амортизационен лист"
+  },
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:RECURRING_REVALUATION_JOURNAL",
+  "IdSup": "document_type:RECURRING_REVALUATION_SHEET",
+  "Active": true,
+  "IsElement": true,
+  "Code": "НРВП",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Revaluation journal",
+   "mk": "Налог за ревалоризација"
+  },
+  "Description": {
+   "en": "Revaluation journal",
+   "mk": "Налог за ревалоризација"
+  },
+  "SortOrder": 127.0,
+  "MenuId": null,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:PURCHASE_REQUEST",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "PRQ",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Purchase request",
+   "mk": "Барање за набавка"
+  },
+  "Description": {
+   "en": "Purchase request",
+   "mk": "Барање за набавка"
+  },
+  "SortOrder": 19.1,
+  "MenuId": null,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": true,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": true,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:PURCHASE_ORDER",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "POR",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Purchase order",
+   "mk": "Нарачка за набавка"
+  },
+  "Description": {
+   "en": "Purchase order",
+   "mk": "Нарачка за набавка"
+  },
+  "SortOrder": 19.2,
+  "MenuId": null,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": true,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": true,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:SALES_ORDER",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "SOR",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Sales order",
+   "mk": "Нарачка за продажба"
+  },
+  "Description": {
+   "en": "Sales order",
+   "mk": "Нарачка за продажба"
+  },
+  "SortOrder": 19.3,
+  "MenuId": null,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": true,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false,
+  "ProducedOnProductionScreen": true
+ },
+ {
+  "Key": "document_type:POS_ORDER",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "PSO",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Point-of-sale order",
+   "mk": "Нарачка на продажно место"
+  },
+  "Description": {
+   "en": "Point-of-sale order",
+   "mk": "Нарачка на продажно место"
+  },
+  "SortOrder": 19.310000000000002,
+  "MenuId": null,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": true,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false,
+  "SendsToProduction": true,
+  "ProductionDocumentTypeId": "document_type:PRODUCTION"
+ },
+ {
+  "Key": "document_type:DISASSEMBLY",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "ДЕМ",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Disassembly",
+   "mk": "Расклопување"
+  },
+  "Description": {
+   "en": "Disassembly",
+   "mk": "Расклопување"
+  },
+  "SortOrder": 90.5,
+  "MenuId": null,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": false,
+  "AllowsPartialReversal": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false,
+  "ProductionDocumentTypeId": null
+ },
+ {
+  "Key": "document_type:REVERSAL_CUSTOMS_DECLARATION",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "СЦД",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Reversal of customs declaration",
+   "mk": "Сторно: Царинска декларација"
+  },
+  "Description": {
+   "en": "Reversal of customs declaration",
+   "mk": "Сторно: Царинска декларација"
+  },
+  "SortOrder": 58.5,
+  "MenuId": null,
+  "IsReversal": true,
+  "ReversedDocumentTypeId": "document_type:CUSTOMS_DECLARATION",
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false,
+  "AllowsPartialReversal": false
+ },
+ {
+  "Key": "document_type:REVERSAL_CUSTOMS_DECLARATION_ASSETS",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "СЦДО",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Reversal of customs declaration, assets",
+   "mk": "Сторно: Царинска декларација за основни средства"
+  },
+  "Description": {
+   "en": "Reversal of customs declaration, assets",
+   "mk": "Сторно: Царинска декларација за основни средства"
+  },
+  "SortOrder": 59.5,
+  "MenuId": null,
+  "IsReversal": true,
+  "ReversedDocumentTypeId": "document_type:CUSTOMS_DECLARATION_ASSETS",
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false,
+  "AllowsPartialReversal": false
+ },
+ {
+  "Key": "document_type:REVERSAL_GOODS_TRANSFER",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "СИСП",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Reversal of goods transfer note",
+   "mk": "Сторно: Испратница"
+  },
+  "Description": {
+   "en": "Reversal of goods transfer note",
+   "mk": "Сторно: Испратница"
+  },
+  "SortOrder": 14.5,
+  "MenuId": null,
+  "IsReversal": true,
+  "ReversedDocumentTypeId": "document_type:GOODS_TRANSFER",
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false,
+  "AllowsPartialReversal": false
+ },
+ {
+  "Key": "document_type:REVERSAL_GOODS_TRANSFER_TO_STAFF",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "СИСВ",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Reversal of goods transfer, cost centre to staff",
+   "mk": "Сторно: Пренос од место на трошок до вработен"
+  },
+  "Description": {
+   "en": "Reversal of goods transfer, cost centre to staff",
+   "mk": "Сторно: Пренос од место на трошок до вработен"
+  },
+  "SortOrder": 18.5,
+  "MenuId": null,
+  "IsReversal": true,
+  "ReversedDocumentTypeId": "document_type:GOODS_TRANSFER_TO_STAFF",
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false,
+  "AllowsPartialReversal": false
+ },
+ {
+  "Key": "document_type:REVERSAL_GOODS_TRANSFER_FROM_STAFF",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "СИСВМ",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Reversal of goods transfer, staff to cost centre",
+   "mk": "Сторно: Пренос од вработен до место на трошок"
+  },
+  "Description": {
+   "en": "Reversal of goods transfer, staff to cost centre",
+   "mk": "Сторно: Пренос од вработен до место на трошок"
+  },
+  "SortOrder": 46.5,
+  "MenuId": null,
+  "IsReversal": true,
+  "ReversedDocumentTypeId": "document_type:GOODS_TRANSFER_FROM_STAFF",
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false,
+  "AllowsPartialReversal": false
+ },
+ {
+  "Key": "document_type:REVERSAL_GOODS_TRANSFER_TO_CLIENT",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "СИСК",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Reversal of goods transfer, cost centre to client",
+   "mk": "Сторно: Пренос од место на трошок до купувач"
+  },
+  "Description": {
+   "en": "Reversal of goods transfer, cost centre to client",
+   "mk": "Сторно: Пренос од место на трошок до купувач"
+  },
+  "SortOrder": 47.5,
+  "MenuId": null,
+  "IsReversal": true,
+  "ReversedDocumentTypeId": "document_type:GOODS_TRANSFER_TO_CLIENT",
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false,
+  "AllowsPartialReversal": false
+ },
+ {
+  "Key": "document_type:REVERSAL_GOODS_TRANSFER_FROM_CLIENT",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "СИСКМ",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Reversal of goods transfer, client to cost centre",
+   "mk": "Сторно: Пренос од купувач до место на трошок"
+  },
+  "Description": {
+   "en": "Reversal of goods transfer, client to cost centre",
+   "mk": "Сторно: Пренос од купувач до место на трошок"
+  },
+  "SortOrder": 48.5,
+  "MenuId": null,
+  "IsReversal": true,
+  "ReversedDocumentTypeId": "document_type:GOODS_TRANSFER_FROM_CLIENT",
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false,
+  "AllowsPartialReversal": false
+ },
+ {
+  "Key": "document_type:REVERSAL_GOODS_TRANSFER_STAFF_TO_CLIENT",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "СИСВК",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Reversal of goods transfer, staff to client",
+   "mk": "Сторно: Пренос од вработен до купувач"
+  },
+  "Description": {
+   "en": "Reversal of goods transfer, staff to client",
+   "mk": "Сторно: Пренос од вработен до купувач"
+  },
+  "SortOrder": 66.5,
+  "MenuId": null,
+  "IsReversal": true,
+  "ReversedDocumentTypeId": "document_type:GOODS_TRANSFER_STAFF_TO_CLIENT",
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false,
+  "AllowsPartialReversal": false
+ },
+ {
+  "IdSup": null,
+  "Active": true,
+  "Key": "document_type:OPENING_STOCK",
+  "IsElement": false,
+  "Code": "CGJ",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Opening stock",
+   "mk": "Opening stock"
+  },
+  "Description": null,
+  "SortOrder": 99.0,
+  "MenuId": null,
+  "AllowsPartialReversal": false,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": false
+ },
+ {
+  "IdSup": null,
+  "Active": true,
+  "Key": "document_type:OPENING_STOCK_REVERSAL",
+  "IsElement": false,
+  "Code": "KCGJ",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Reversal of opening stock",
+   "mk": "Reversal of opening stock"
+  },
+  "Description": null,
+  "SortOrder": 99.0,
+  "MenuId": null,
+  "AllowsPartialReversal": false,
+  "IsReversal": true,
+  "ReversedDocumentTypeId": "document_type:OPENING_STOCK",
+  "NeverPosted": false
+ }
+]

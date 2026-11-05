@@ -1,0 +1,408 @@
+[
+ {
+  "Key": "document_type_info:1",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "document_type:SALES_CONTRACT_GOODS",
+  "Name": {
+   "en": "End date",
+   "lt": "Pabaigos data"
+  },
+  "Description": null,
+  "Required": false,
+  "Kind": 4,
+  "SortOrder": 4.0,
+  "ElementsId": "elements:1",
+  "IsFile": false
+ },
+ {
+  "Key": "document_type_info:2",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "document_type:PURCHASE_OFFER_SERVICES",
+  "Name": {
+   "en": "Offer valid until",
+   "lt": "Pasiūlymas galioja iki"
+  },
+  "Description": {
+   "en": "Offer valid until",
+   "lt": "Pasiūlymas galioja iki"
+  },
+  "Required": true,
+  "Kind": 4,
+  "SortOrder": 6.0,
+  "ElementsId": "elements:1",
+  "IsFile": false
+ },
+ {
+  "Key": "document_type_info:3",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "document_type:SALES_CONTRACT_SERVICES",
+  "Name": {
+   "en": "End date",
+   "lt": "Pabaigos data"
+  },
+  "Description": null,
+  "Required": false,
+  "Kind": 4,
+  "SortOrder": 7.0,
+  "ElementsId": "elements:1",
+  "IsFile": false
+ },
+ {
+  "Key": "document_type_info:4",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "document_type:SALES_CONTRACT_GOODS",
+  "Name": {
+   "en": "Start date",
+   "lt": "Pradžios data"
+  },
+  "Description": {
+   "en": "Start date",
+   "lt": "Pradžios data"
+  },
+  "Required": false,
+  "Kind": 4,
+  "SortOrder": 8.0,
+  "ElementsId": "elements:1",
+  "IsFile": false
+ },
+ {
+  "Key": "document_type_info:5",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "document_type:SALES_CONTRACT_SERVICES",
+  "Name": {
+   "en": "Start date",
+   "lt": "Pradžios data"
+  },
+  "Description": {
+   "en": "Start date",
+   "lt": "Pradžios data"
+  },
+  "Required": false,
+  "Kind": 4,
+  "SortOrder": 9.0,
+  "ElementsId": "elements:1",
+  "IsFile": false
+ },
+ {
+  "Key": "document_type_info:6",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "document_type:PURCHASE_CONTRACT_GOODS",
+  "Name": {
+   "en": "Start date",
+   "lt": "Pradžios data"
+  },
+  "Description": {
+   "en": "Start date",
+   "lt": "Pradžios data"
+  },
+  "Required": false,
+  "Kind": 4,
+  "SortOrder": 10.0,
+  "ElementsId": "elements:1",
+  "IsFile": false
+ },
+ {
+  "Key": "document_type_info:7",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "document_type:PURCHASE_CONTRACT_GOODS",
+  "Name": {
+   "en": "End date",
+   "lt": "Pabaigos data"
+  },
+  "Description": {
+   "en": "End date",
+   "lt": "Pabaigos data"
+  },
+  "Required": false,
+  "Kind": 4,
+  "SortOrder": 11.0,
+  "ElementsId": "elements:1",
+  "IsFile": false
+ },
+ {
+  "Key": "document_type_info:8",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "document_type:PURCHASE_CONTRACT_SERVICES",
+  "Name": {
+   "en": "Start date",
+   "lt": "Pradžios data"
+  },
+  "Description": {
+   "en": "Start date",
+   "lt": "Pradžios data"
+  },
+  "Required": false,
+  "Kind": 4,
+  "SortOrder": 12.0,
+  "ElementsId": "elements:1",
+  "IsFile": false
+ },
+ {
+  "Key": "document_type_info:9",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "document_type:PURCHASE_CONTRACT_SERVICES",
+  "Name": {
+   "en": "End date",
+   "lt": "Pabaigos data"
+  },
+  "Description": {
+   "en": "End date",
+   "lt": "Pabaigos data"
+  },
+  "Required": false,
+  "Kind": 4,
+  "SortOrder": 13.0,
+  "ElementsId": "elements:1",
+  "IsFile": false
+ },
+ {
+  "Key": "document_type_info:18",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "document_type:POS_CONTRACT",
+  "Name": {
+   "en": "Start date",
+   "lt": "Pradžios data"
+  },
+  "Description": null,
+  "Required": false,
+  "Kind": 4,
+  "SortOrder": 22.0,
+  "ElementsId": "elements:1",
+  "IsFile": false
+ },
+ {
+  "Key": "document_type_info:19",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "document_type:POS_CONTRACT",
+  "Name": {
+   "en": "End date",
+   "lt": "Pabaigos data"
+  },
+  "Description": null,
+  "Required": false,
+  "Kind": 4,
+  "SortOrder": 23.0,
+  "ElementsId": "elements:1",
+  "IsFile": false
+ },
+ {
+  "Key": "document_type_info:20",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "document_type:POS_RECEIPT",
+  "Name": {
+   "en": "Contract number",
+   "lt": "Sutarties numeris"
+  },
+  "Description": {
+   "en": "Contract number",
+   "lt": "Sutarties numeris"
+  },
+  "Required": false,
+  "Kind": 1,
+  "SortOrder": 24.0,
+  "ElementsId": "elements:1",
+  "IsFile": false
+ },
+ {
+  "Key": "document_type_info:22",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "document_type:GOODS_TRANSFER",
+  "Name": {
+   "en": "Carrier",
+   "lt": "Vežėjas"
+  },
+  "Description": {
+   "en": "Carrier",
+   "lt": "Vežėjas"
+  },
+  "Required": false,
+  "Kind": 9,
+  "SortOrder": 26.0,
+  "ElementsId": "elements:147",
+  "IsFile": false
+ },
+ {
+  "Key": "document_type_info:25",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "document_type:CUSTOMS_DECLARATION",
+  "Name": {
+   "en": "Purchase invoice",
+   "lt": "Gauta sąskaita faktūra"
+  },
+  "Description": {
+   "en": "Purchase invoice",
+   "lt": "Gauta sąskaita faktūra"
+  },
+  "Required": false,
+  "Kind": 9,
+  "SortOrder": 32.0,
+  "ElementsId": "elements:150",
+  "IsFile": false
+ },
+ {
+  "Key": "document_type_info:26",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "document_type:CUSTOMS_DECLARATION_ASSETS",
+  "Name": {
+   "en": "Purchase invoice",
+   "lt": "Gauta sąskaita faktūra"
+  },
+  "Description": {
+   "en": "Purchase invoice",
+   "lt": "Gauta sąskaita faktūra"
+  },
+  "Required": false,
+  "Kind": 9,
+  "SortOrder": 33.0,
+  "ElementsId": "elements:160",
+  "IsFile": false
+ },
+ {
+  "Key": "document_type_info:27",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "document_type:POS_CONTRACT",
+  "Name": {
+   "en": "Last payment date",
+   "lt": "Paskutinio mokėjimo data"
+  },
+  "Description": {
+   "en": "Last payment date",
+   "lt": "Paskutinio mokėjimo data"
+  },
+  "Required": false,
+  "Kind": 4,
+  "SortOrder": 34.0,
+  "ElementsId": "elements:1",
+  "IsFile": false
+ },
+ {
+  "Key": "document_type_info:REPAIR_ITEM",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "document_type:REPAIR_INTAKE",
+  "Name": {
+   "en": "Item",
+   "lt": "Prekė"
+  },
+  "Description": {
+   "en": "Item",
+   "lt": "Prekė"
+  },
+  "Required": false,
+  "Kind": 1,
+  "SortOrder": 1.0,
+  "ElementsId": "elements:1",
+  "IsFile": false
+ },
+ {
+  "Key": "document_type_info:REPAIR_MODEL",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "document_type:REPAIR_INTAKE",
+  "Name": {
+   "en": "Brand and model",
+   "lt": "Markė ir modelis"
+  },
+  "Description": {
+   "en": "Brand and model",
+   "lt": "Markė ir modelis"
+  },
+  "Required": false,
+  "Kind": 1,
+  "SortOrder": 2.0,
+  "ElementsId": "elements:1",
+  "IsFile": false
+ },
+ {
+  "Key": "document_type_info:REPAIR_SERIAL",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "document_type:REPAIR_INTAKE",
+  "Name": {
+   "en": "Serial number or plate",
+   "lt": "Serijos numeris arba valstybinis numeris"
+  },
+  "Description": {
+   "en": "Serial number or plate",
+   "lt": "Serijos numeris arba valstybinis numeris"
+  },
+  "Required": false,
+  "Kind": 1,
+  "SortOrder": 3.0,
+  "ElementsId": "elements:1",
+  "IsFile": false
+ },
+ {
+  "Key": "document_type_info:REPAIR_ACCESSORIES",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "document_type:REPAIR_INTAKE",
+  "Name": {
+   "en": "Accessories left",
+   "lt": "Palikti priedai"
+  },
+  "Description": {
+   "en": "Accessories left",
+   "lt": "Palikti priedai"
+  },
+  "Required": false,
+  "Kind": 1,
+  "SortOrder": 4.0,
+  "ElementsId": "elements:1",
+  "IsFile": false
+ },
+ {
+  "Key": "document_type_info:REPAIR_DEFECT",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "document_type:REPAIR_INTAKE",
+  "Name": {
+   "en": "Defect described",
+   "lt": "Aprašytas gedimas"
+  },
+  "Description": {
+   "en": "Defect described",
+   "lt": "Aprašytas gedimas"
+  },
+  "Required": false,
+  "Kind": 1,
+  "SortOrder": 5.0,
+  "ElementsId": "elements:1",
+  "IsFile": false
+ },
+ {
+  "Key": "document_type_info:REPAIR_BACK",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "document_type:REPAIR_INTAKE",
+  "Name": {
+   "en": "Come back on",
+   "lt": "Grįžti"
+  },
+  "Description": {
+   "en": "Come back on",
+   "lt": "Grįžti"
+  },
+  "Required": false,
+  "Kind": 4,
+  "SortOrder": 6.0,
+  "ElementsId": "elements:1",
+  "IsFile": false
+ }
+]

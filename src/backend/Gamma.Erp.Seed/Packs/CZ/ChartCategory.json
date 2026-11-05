@@ -1,0 +1,15 @@
+[
+ {
+  "Key": "chart_category:STATUTORY",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "SUO",
+  "Name": {
+   "en": "Chart of accounts (SUO)",
+   "cs": "Směrná účtová osnova (vyhl. 500/2002 Sb.)"
+  },
+  "IsStatutory": true,
+  "SortOrder": 10
+ }
+]

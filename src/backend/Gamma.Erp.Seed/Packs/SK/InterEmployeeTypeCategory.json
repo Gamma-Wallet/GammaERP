@@ -1,0 +1,37 @@
+[
+ {
+  "Key": "inter_employee_type_category:1",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "employee_type:ADMINISTRATOR",
+  "CategoryId": "employee_category:STAFF"
+ },
+ {
+  "Key": "inter_employee_type_category:2",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "employee_type:FINANCIER",
+  "CategoryId": "employee_category:FINANCE"
+ },
+ {
+  "Key": "inter_employee_type_category:3",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "employee_type:WAREHOUSE",
+  "CategoryId": "employee_category:STAFF"
+ },
+ {
+  "Key": "inter_employee_type_category:4",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "employee_type:DRIVER",
+  "CategoryId": "employee_category:STAFF"
+ },
+ {
+  "Key": "inter_employee_type_category:5",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "employee_type:WORKER",
+  "CategoryId": "employee_category:STAFF"
+ }
+]

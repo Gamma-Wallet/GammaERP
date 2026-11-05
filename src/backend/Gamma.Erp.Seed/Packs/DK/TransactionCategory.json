@@ -1,0 +1,66 @@
+[
+ {
+  "Key": "transaction_category:LINES",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "LINES",
+  "Name": {
+   "en": "Transactions",
+   "da": "Linjer"
+  },
+  "Description": {
+   "en": "Transactions",
+   "da": "Linjer"
+  },
+  "SortOrder": 2.0
+ },
+ {
+  "Key": "transaction_category:JOURNAL_LINES",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "JOURNAL_LINES",
+  "Name": {
+   "en": "Journal lines",
+   "da": "Posteringslinjer"
+  },
+  "Description": {
+   "en": "Journal lines",
+   "da": "Posteringslinjer"
+  },
+  "SortOrder": 10.0
+ },
+ {
+  "Key": "transaction_category:DEPRECIATION_LINES",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "DEPRECIATION_LINES",
+  "Name": {
+   "en": "Depreciation lines",
+   "da": "Afskrivningslinjer"
+  },
+  "Description": {
+   "en": "Depreciation lines",
+   "da": "Afskrivningslinjer"
+  },
+  "SortOrder": 11.0
+ },
+ {
+  "Key": "transaction_category:REVALUATION_LINES",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "REVALUATION_LINES",
+  "Name": {
+   "en": "Revaluation lines",
+   "da": "Opskrivningslinjer"
+  },
+  "Description": {
+   "en": "Revaluation lines",
+   "da": "Opskrivningslinjer"
+  },
+  "SortOrder": 12.0
+ }
+]

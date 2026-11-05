@@ -1,0 +1,47 @@
+[
+ {
+  "Key": "payment_method:CASH",
+  "IdSup": null,
+  "Active": true,
+  "Code": "CASH",
+  "Name": {
+   "en": "Cash",
+   "hu": "Készpénz"
+  },
+  "Description": {
+   "en": "Cash",
+   "hu": "Készpénz"
+  },
+  "IsCash": true
+ },
+ {
+  "Key": "payment_method:UNPAID",
+  "IdSup": null,
+  "Active": true,
+  "Code": "UNPAID",
+  "Name": {
+   "en": "Unpaid",
+   "hu": "Kifizetetlen"
+  },
+  "Description": {
+   "en": "Unpaid",
+   "hu": "Kifizetetlen"
+  },
+  "IsCash": false
+ },
+ {
+  "Key": "payment_method:CREDIT_CARD",
+  "IdSup": null,
+  "Active": true,
+  "Code": "CREDIT_CARD",
+  "Name": {
+   "en": "Credit card",
+   "hu": "Bankkártya"
+  },
+  "Description": {
+   "en": "Credit card",
+   "hu": "Bankkártya"
+  },
+  "IsCash": false
+ }
+]

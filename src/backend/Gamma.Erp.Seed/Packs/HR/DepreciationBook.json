@@ -1,0 +1,34 @@
+[
+ {
+  "Key": "depreciation_book:COMPANY",
+  "IdSup": null,
+  "Active": true,
+  "Name": {
+   "en": "Company book",
+   "hr": "Računovodstvena evidencija"
+  },
+  "Description": {
+   "en": "Company book",
+   "hr": "Računovodstvena evidencija"
+  },
+  "MethodId": "depreciation_method:STRAIGHT_LINE",
+  "ChartCategoryId": "chart_category:STATUTORY",
+  "Posts": true
+ },
+ {
+  "Key": "depreciation_book:TAX",
+  "IdSup": null,
+  "Active": true,
+  "Name": {
+   "en": "Tax book",
+   "hr": "Porezna evidencija"
+  },
+  "Description": {
+   "en": "Tax book",
+   "hr": "Porezna evidencija"
+  },
+  "MethodId": "depreciation_method:STRAIGHT_LINE",
+  "ChartCategoryId": "chart_category:STATUTORY",
+  "Posts": false
+ }
+]

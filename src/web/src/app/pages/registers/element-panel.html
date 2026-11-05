@@ -1,0 +1,174 @@
+<header>
+  <div class="title">
+    <h2>{{ title() }}</h2>
+    @if (element()?.code && !isNew()) { <span class="muted figures">{{ element()!.code }}</span> }
+  </div>
+  <button uiButton variant="quiet" [iconOnly]="true" [attr.aria-label]="'Close' | t" (click)="closed.emit()"><ui-icon name="close" /></button>
+</header>
+
+<ui-tabs class="tabs" [tabs]="tabs()" [active]="tab()" (activeChange)="showTab($event)" [ariaLabel]="'Row' | t" />
+
+<div class="body">
+  @if (message()) {
+    <p class="message" role="alert"><ui-icon name="critical" [size]="16" />{{ message() }}</p>
+  }
+  @if (loading()) {
+    <p class="muted">{{ 'Loading…' | t }}</p>
+  } @else if (element(); as e) {
+    @switch (tab()) {
+      @case ('details') {
+        <div class="grid">
+          <ui-field [label]="'Code' | t" [error]="errors()['code'] ?? null" [hint]="'Empty: the type\'s next code' | t">
+            <input uiInput [value]="e.code ?? ''" [disabled]="!canWrite()" (input)="update({ code: $any($event.target).value || null })" />
+          </ui-field>
+          <ui-field [label]="'Type' | t" [required]="true" [error]="errors()['typeId'] ?? null">
+            <ui-select [options]="typeOptions()" [value]="e.typeId || null" [disabled]="!canWrite()" (valueChange)="changeType($event)" />
+          </ui-field>
+          <ui-field class="wide" [label]="'Under' | t" [hint]="'Empty: at the top. A row of this list it belongs under, e.g. cm under m, a warehouse under its company' | t"
+            [error]="errors()['idSup'] ?? null">
+            <ui-select [options]="parentOptions()" [searchable]="true" [value]="e.idSup ?? null" [disabled]="!canWrite()" [placeholder]="'At the top' | t"
+              (search)="findParents($event)" (valueChange)="update({ idSup: $event })" />
+          </ui-field>
+          <ui-field class="wide" [label]="'Name' | t" [required]="true" [error]="errors()['name'] ?? null">
+            <ui-translated-input [label]="'Name' | t" [value]="e.name" [disabled]="!canWrite()" [invalid]="!!errors()['name']" (valueChange)="update({ name: $event ?? {} })" />
+          </ui-field>
+          <ui-field class="wide" [label]="'Description' | t" [error]="errors()['description'] ?? null">
+            <ui-translated-input [label]="'Description' | t" [multiline]="true" [value]="e.description" [disabled]="!canWrite()"
+              (valueChange)="update({ description: $event })" />
+          </ui-field>
+          <ui-field class="wide" [label]="'Categories' | t" [required]="true" [error]="errors()['categoryIds'] ?? null" [hint]="'The row is listed in each' | t">
+            <ui-select [multiple]="true" [options]="categoryOptions()" [values]="e.categoryIds" [disabled]="!canWrite()" (valuesChange)="update({ categoryIds: $event })" />
+          </ui-field>
+          @if (register().key === 'products') {
+            <ui-field class="wide" [label]="'VAT group' | t" [hint]="'What its lines start with. Empty: its type\'s' | t">
+              <ui-select [options]="vatOptions()" [value]="e.defaultVatGroupId ?? null" [disabled]="!canWrite()" (valueChange)="update({ defaultVatGroupId: $event })" />
+            </ui-field>
+            <ui-checkbox class="wide" [checked]="!!e.isComposite" [disabled]="!canWrite()" (checkedChange)="update({ isComposite: $event })">{{ 'Composite: a sale takes the ingredients of its recipe instead of the product' | t }}</ui-checkbox>
+          }
+          @if (register().key === 'opportunities') {
+            <app-opportunity-fields [value]="e.opportunity" [disabled]="!canWrite()" (changed)="update({ opportunity: $event })" />
+          }
+          @if (register().key === 'partners') {
+            <ui-field [label]="'Payment days' | t" [hint]="'An invoice falls due this long after its date' | t">
+              <input uiInput type="number" min="0" [value]="e.paymentDays ?? ''" [disabled]="!canWrite()" (input)="update({ paymentDays: $any($event.target).value === '' ? null : +$any($event.target).value })" />
+            </ui-field>
+          }
+        </div>
+        @if (properties().length) {
+          <h3>{{ 'Properties' | t }}</h3>
+          <ui-property-form [properties]="properties()" [values]="e.values" [languages]="languages()" [lookupOptions]="lookups()"
+            [disabled]="!canWrite()" (valuesChange)="update({ values: $event })" (lookupSearch)="onLookupSearch($event)" (fileChosen)="onFile($event)" />
+        }
+      }
+      @case ('access') {
+        <p class="muted">{{ 'Nobody chosen: everyone with the right to the category sees the row. Otherwise only these users and roles do.' | t }}</p>
+        <div class="grid">
+          <ui-field class="wide" [label]="'Users' | t">
+            <ui-select [multiple]="true" [options]="userOptions()" [values]="e.accessUserIds" [disabled]="!canWrite()" (valuesChange)="update({ accessUserIds: $event })" />
+          </ui-field>
+          <ui-field class="wide" [label]="'Roles' | t">
+            <ui-select [multiple]="true" [options]="roleOptions()" [values]="e.accessRoleIds" [disabled]="!canWrite()" (valuesChange)="update({ accessRoleIds: $event })" />
+          </ui-field>
+        </div>
+      }
+      @case ('documents') {
+        @if (linked() === null) {
+          <p class="muted">{{ 'Loading…' | t }}</p>
+        } @else if (!linked()!.length) {
+          <p class="muted">{{ 'No documents are linked to this opportunity yet. Choose it on an offer, an order or a contract.' | t }}</p>
+        } @else {
+          <ul class="linked">
+            @for (d of linked(); track d.id) {
+              <li>
+                @if (d.categoryId) { <a [routerLink]="['/documents', d.categoryId, d.id]">{{ d.code || '—' }}</a> } @else { <span>{{ d.code || '—' }}</span> }
+                <span class="muted">{{ d.type }} · {{ day(d.date) }} · {{ d.posted ? ('Posted' | t) : ('Draft' | t) }}</span>
+              </li>
+            }
+          </ul>
+        }
+      }
+      @case ('history') {
+        @if (history() === null) {
+          <p class="muted">{{ 'Loading…' | t }}</p>
+        } @else if (!versions().length) {
+          <p class="muted">{{ 'No earlier versions: the row is as it was first saved.' | t }}</p>
+        } @else {
+          <ol class="versions">
+            @for (v of versions(); track v.id) {
+              <li>
+                <span class="when figures">{{ v.when }}</span>
+                <span class="was">{{ v.code }} {{ v.name }}</span>
+                <span class="changes">
+                  @for (c of v.changed; track c) { <ui-status kind="info">{{ '{0} changed' | t: (c) }}</ui-status> } @empty { <span class="muted">{{ 'Properties or links changed' | t }}</span> }
+                </span>
+              </li>
+            }
+          </ol>
+        }
+      }
+      @case ('pos') {
+        <app-pos-setup [element]="e" [types]="types()" [till]="isTill()" />
+      }
+      @case ('units') {
+        <app-product-units mode="product" [id]="e.id!" [scopes]="scopes()" />
+      }
+      @case ('places') {
+        <p class="muted">{{ 'The cost centres the user may work at; they choose one when they sign in (one only: it is taken straight away).' | t }}</p>
+        <ui-field [label]="'Cost centres' | t">
+          <ui-select [multiple]="true" [options]="placeOptions()" [values]="places()" (valuesChange)="places.set($event)" />
+        </ui-field>
+        <div><button uiButton variant="primary" (click)="savePlaces()">{{ 'Save' | t }}</button></div>
+      }
+      @case ('login') {
+        <div class="grid">
+          <ui-field class="wide" [label]="'User name' | t" hint="3 to 64 letters, digits, dots, dashes or underscores; unique" [error]="errors()['username'] || null">
+            <div class="inline">
+              <input uiInput autocomplete="off" [value]="username()" (input)="username.set($any($event.target).value)" />
+              <button uiButton [disabled]="!username().trim()" (click)="setUsername()">{{ 'Set' | t }}</button>
+            </div>
+          </ui-field>
+          <ui-field class="wide" [label]="'E-mail address' | t" [hint]="'Where a forgotten password\'s code goes' | t" [error]="errors()['email'] || null">
+            <div class="inline">
+              <input uiInput type="email" autocomplete="off" [value]="email()" (input)="email.set($any($event.target).value)" />
+              <button uiButton (click)="setEmail()">{{ 'Set' | t }}</button>
+            </div>
+          </ui-field>
+          <ui-field class="wide" [label]="'New password' | t" [hint]="'At least 12 characters; only its hash is kept' | t" [error]="errors()['new'] || null">
+            <div class="inline">
+              <input uiInput type="password" autocomplete="new-password" [value]="password()" (input)="password.set($any($event.target).value)" />
+              <button uiButton [disabled]="!password()" (click)="setPassword()">{{ 'Set' | t }}</button>
+            </div>
+          </ui-field>
+          <div class="wide tokens">
+            <h3>{{ 'Claude tokens' | t }}</h3>
+            <p class="muted">{{ tokensNote }}</p>
+            <table [attr.aria-label]="'Claude tokens' | t">
+              <thead><tr><th>{{ 'Name' | t }}</th><th>{{ 'Starts with' | t }}</th><th>{{ 'Made' | t }}</th><th>{{ 'Last used' | t }}</th><th></th></tr></thead>
+              <tbody>
+                @for (k of userTokens(); track k.id) {
+                  <tr>
+                    <td>{{ k.name }}</td><td><code>{{ k.prefix }}…</code></td><td>{{ day(k.createdOn) }}</td><td>{{ k.lastUsedOn ? day(k.lastUsedOn) : ('Never' | t) }}</td>
+                    <td class="end"><button uiButton variant="quiet" size="small" (click)="revokeToken(k)">{{ 'Switch off' | t }}</button></td>
+                  </tr>
+                } @empty {
+                  <tr><td colspan="5" class="muted">{{ 'No tokens.' | t }}</td></tr>
+                }
+              </tbody>
+            </table>
+          </div>
+        </div>
+      }
+    }
+  }
+</div>
+
+@if (element() && canWrite() && tab() !== 'history' && tab() !== 'login' && tab() !== 'places' && tab() !== 'pos') {
+  <footer>
+    @if (!isNew()) {
+      <button uiButton variant="danger" (click)="switchOff()">{{ 'Switch off…' | t }}</button>
+    }
+    <span class="spacer"></span>
+    <button uiButton variant="quiet" (click)="closed.emit()">{{ 'Cancel' | t }}</button>
+    <button uiButton variant="primary" [disabled]="saving()" (click)="save()">{{ saving() ? ('Saving…' | t) : ('Save' | t) }}</button>
+  </footer>
+}

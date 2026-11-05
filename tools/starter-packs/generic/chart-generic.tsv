@@ -1,0 +1,182 @@
+# Gamma's generic chart of accounts, on the IAS 1 captions (statement of financial position; profit or loss by nature): 1 non-current
+# assets, 2 current assets, 3 equity, 4 liabilities, 5 income, 6 purchases and cost of sales, 7 expenses, 8 income tax. Not an official chart:
+# the packs of countries that prescribe none (or whose common chart is under copyright) take it, its names translated into the country's
+# language (generic/<lang>.tsv, keyed by the English name). Cyprus's chart is the same in Greek.
+# code	English
+1	Non-current assets
+11	Property, plant and equipment
+1101	Land
+1102	Buildings
+1103	Plant and machinery
+1104	Vehicles
+1105	Furniture and fittings
+1106	Computer equipment
+1107	Assets under construction
+12	Accumulated depreciation, property, plant and equipment
+1202	Buildings
+1203	Plant and machinery
+1204	Vehicles
+1205	Furniture and fittings
+1206	Computer equipment
+13	Intangible assets
+1301	Goodwill
+1302	Software
+1303	Trademarks and licences
+14	Accumulated amortisation, intangible assets
+1402	Software
+1403	Trademarks and licences
+15	Investment property
+1501	Investment property
+16	Financial assets
+1601	Investments in subsidiaries
+1602	Investments in associates
+1603	Other investments
+1604	Long-term loans receivable
+17	Deferred tax
+1701	Deferred tax assets
+2	Current assets
+20	Inventories
+2001	Goods for resale
+2002	Raw materials
+2003	Consumables
+2004	Finished goods
+2005	Work in progress
+22	Trade receivables
+2201	Trade debtors
+2202	Foreign debtors
+2203	Cheques receivable
+2209	Allowance for doubtful debts
+23	Other receivables
+2301	Prepayments
+2302	Advances to suppliers
+2303	Advances to employees
+2304	Deposits paid
+2305	Other debtors
+24	Tax receivables
+2401	Input VAT
+2402	VAT recoverable
+2403	Provisional tax paid
+28	Cash and cash equivalents
+2801	Cash in hand
+2802	Cash in hand, foreign currency
+2803	Bank current account
+2804	Bank account, foreign currency
+2805	Fixed deposits
+2806	Cash in transit
+3	Equity
+30	Share capital
+3001	Share capital
+3002	Share premium
+31	Reserves
+3101	Revaluation reserve
+3102	Other reserves
+32	Retained earnings
+3201	Retained earnings
+3202	Profit or loss for the year
+4	Liabilities
+40	Non-current liabilities
+4001	Long-term bank loans
+4002	Lease liabilities
+4003	Shareholder loans
+4004	Deferred tax liabilities
+4005	Provisions
+41	Trade payables
+4101	Trade creditors
+4102	Foreign creditors
+4103	Cheques payable
+4104	Advances from customers
+42	Other payables
+4201	Accrued expenses
+4202	Deferred income
+4203	Wages payable
+4204	Social insurance payable
+4205	Health insurance contributions payable
+4206	Other creditors
+4207	Dividends payable
+43	Current borrowings
+4301	Bank overdrafts
+4302	Short-term bank loans
+44	Tax payables
+4401	Output VAT
+4402	VAT payable
+4403	Income tax payable
+4404	Employee income tax payable
+4405	Other taxes payable
+5	Income
+50	Revenue
+5001	Sales of goods
+5002	Services rendered
+5003	Sales of products
+5004	Sales returns and discounts
+51	Other income
+5101	Rental income
+5102	Grants
+5103	Gain on disposal of property, plant and equipment
+5104	Sundry income
+52	Finance income
+5201	Interest income
+5202	Dividend income
+5203	Exchange gains
+6	Purchases and cost of sales
+60	Purchases
+6001	Purchases of goods
+6002	Purchases of raw materials
+6003	Purchases of consumables
+6004	Purchase returns and discounts
+6005	Carriage and customs on purchases
+61	Change in inventories
+6101	Change in inventories of goods
+6102	Change in inventories of raw materials
+7	Expenses
+70	Staff costs
+7001	Wages and salaries
+7002	Employer's social insurance
+7003	Employer's health insurance contributions
+7004	Other employer contributions
+7005	Other staff costs
+71	Premises
+7101	Rent
+7102	Electricity
+7103	Water
+7104	Repairs and maintenance
+7105	Insurance
+72	Administrative expenses
+7201	Telecommunications
+7202	Postage
+7203	Stationery
+7204	Audit fees
+7205	Professional fees
+7206	Subscriptions
+7207	Annual company fees
+73	Selling expenses
+7301	Advertising
+7302	Carriage on sales
+7303	Commissions
+7304	Travel
+74	Vehicle expenses
+7401	Fuel
+7402	Vehicle licences and insurance
+7403	Vehicle repairs
+75	Finance costs
+7501	Interest expense
+7502	Bank charges
+7503	Exchange losses
+7504	Lease interest
+76	Depreciation and amortisation
+7601	Buildings
+7602	Plant and machinery
+7603	Vehicles
+7604	Furniture and fittings
+7605	Computer equipment
+7606	Intangible assets
+77	Other expenses
+7701	Bad debts
+7702	Loss on disposal of property, plant and equipment
+7703	Non-recoverable VAT
+7704	Sundry expenses
+7705	Inventory losses and waste
+8	Income tax
+80	Taxation
+8001	Corporation tax
+8002	Other taxes on profit
+8003	Deferred tax

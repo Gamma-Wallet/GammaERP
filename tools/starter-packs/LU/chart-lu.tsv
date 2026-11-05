@@ -1,0 +1,1034 @@
+# Luxembourg's chart of accounts: the plan comptable normalisé (PCN), annex of the règlement grand-ducal du 12 septembre 2019 (Mémorial A
+# n° 631, 23 September 2019), https://lbrcontent.public.lu/dam-assets/code-legal/legislation/rcs/fr/rgd-2019-09-12.pdf ; the classes are
+# named as in its article 3. Names in French only.
+# code	French	English (reference, left empty)
+1	Comptes de capitaux propres, de provisions et de dettes financières	
+10	Capital souscrit ou dotation des succursales et compte de l’exploitant	
+101	Capital souscrit	
+102	Capital souscrit non appelé	
+103	Capital souscrit appelé et non versé	
+104	Capital des entreprises individuelles, des sociétés de personnes et assimilées	
+105	Dotation des succursales	
+11	Primes d’émission et primes assimilées	
+111	Primes d’émission	
+112	Primes de fusion	
+113	Primes d’apport	
+114	Primes de conversion d’obligations en actions	
+115	Apport en capitaux propres non rémunéré par des titres	
+12	Réserves de réévaluation	
+122	Réserves de mise en équivalence	
+123	Plus-values sur écarts de conversion immunisées	
+128	Autres réserves de réévaluation	
+13	Réserves	
+131	Réserve légale	
+132	Réserve pour actions propres ou parts propres	
+133	Réserves statutaires	
+138	Autres réserves, y compris la réserve de juste valeur	
+1381	Autres réserves disponibles	
+1382	Autres réserves non disponibles	
+13821	Réserve pour l’impôt sur la fortune (IF)	
+13822	Réserves en application de la juste valeur	
+13823	Plus-values immunisées	
+138231	Plus-values immunisées à réinvestir	
+138232	Plus-values immunisées réinvesties	
+13828	Réserves non disponibles non visées ci-dessus	
+14	Résultats	
+141	Résultats reportés	
+1411	Résultats reportés en instance d’affectation	
+1412	Résultats reportés (affectés)	
+142	Résultat de l’exercice	
+15	Acomptes sur dividendes	
+16	Subventions d’investissement en capital	
+161	Subventions sur immobilisations incorporelles	
+1611	Frais de développement	
+1612	Concessions, brevets, licences, marques, ainsi que droits et valeurs similaires s’ils ont été	
+16121	acquis à titre onéreux	
+16122	créés par l’entreprise elle-même	
+1613	Fonds de commerce, dans la mesure où il a été acquis à titre onéreux	
+162	Subventions sur immobilisations corporelles	
+1621	Subventions sur terrains, aménagements et constructions	
+1622	Subventions sur installations techniques et machines	
+1623	Subventions sur autres installations, outillage et mobilier (y compris matériel roulant)	
+168	Autres subventions d’investissement en capital	
+18	Provisions	
+181	Provisions pour pensions et obligations similaires	
+182	Provisions pour impôts	
+183	Provisions pour impôts différés	
+188	Autres provisions	
+1881	Provisions d’exploitation	
+1882	Provisions financières	
+19	Emprunts obligataires et dettes envers les établissements de crédit	
+192	Emprunts obligataires convertibles	
+1921	dont la durée résiduelle est inférieure ou égale à un an	
+1922	dont la durée résiduelle est supérieure à un an	
+193	Emprunts obligataires non convertibles	
+1931	dont la durée résiduelle est inférieure ou égale à un an	
+1932	dont la durée résiduelle est supérieure à un an	
+194	Dettes envers des établissements de crédit	
+1941	dont la durée résiduelle est inférieure ou égale à un an	
+1942	dont la durée résiduelle est supérieure à un an	
+1061	Prélèvements privés de l’exploitant ou des co-exploitants	
+10611	Prélèvements en numéraire (train de vie)	
+10612	Prélèvements en nature de marchandises, de produits finis et services (au prix de revient)	
+10613	Part personnelle des frais de maladie	
+10614	Primes d’assurances privées	
+106141	Vie	
+106142	Accident	
+106143	Incendie	
+106144	Responsabilité civile	
+106145	Multirisques	
+106148	Autres primes d’assurances privées	
+10615	Cotisations	
+106151	Assurances sociales (assurance dépendance)	
+106152	Allocations familiales	
+106153	Cotisations pour mutuelles	
+106154	Caisse de décès, médico-chirurgicale, Prestaplus	
+106158	Autres cotisations	
+10616	Prélèvements en nature (quote-part privée dans les frais généraux)	
+106161	Salaires	
+106162	Loyer	
+106163	Chauffage, gaz, électricité	
+106164	Eau	
+106165	Téléphone	
+106166	Voiture	
+106168	Autres prélèvements en nature	
+10617	Acquisitions	
+106171	Mobilier privé	
+106172	Voiture privée	
+106173	Titres privés	
+106174	Immeubles privés	
+106178	Autres acquisitions	
+10618	Impôts	
+106181	Impôt sur le revenu payé (IRPP)	
+106183	Impôt commercial communal (ICC) – arriérés payés	
+106188	Autres impôts	
+10619	Prélèvements privés particuliers	
+106191	Réparations aux immeubles privés	
+106192	Placements sur comptes financiers privés	
+106193	Remboursements de dettes privées	
+106194	Dons et dotations aux enfants	
+106195	Droits de succession et droits de mutation par décès	
+106198	Autres prélèvements privés particuliers	
+1062	Suppléments d’apports privés de l’exploitant ou des co- exploitants	
+10621	Héritage ou donation	
+10622	Avoirs privés	
+10623	Emprunts privés	
+10624	Cessions	
+106241	Mobilier privé	
+106242	Voiture privée	
+106243	Titres privés	
+106244	Immeubles privés	
+106248	Autres cessions	
+10625	Loyers encaissés	
+10626	Salaires ou rentes touchés	
+10627	Allocations familiales reçues	
+10628	Remboursements d’impôts	
+106281	Impôt sur le revenu (IRPP)	
+106284	Impôt commercial communal (ICC)	
+106288	Autres remboursements d’impôts	
+10629	Quote-part professionnelle de frais privés	
+2	Comptes de frais d'établissement et d'actifs immobilisés	
+20	Frais d’établissement et frais assimilés	
+201	Frais de constitution et de premier établissement	
+203	Frais d’augmentation de capital et d’opérations diverses (fusions, scissions, transformations)	
+204	Frais d’émission d’emprunts	
+208	Autres frais assimilés	
+21	Immobilisations incorporelles	
+211	Frais de développement	
+212	Concessions, brevets, licences, marques ainsi que droits et valeurs similaires	
+2121	acquis à titre onéreux (hors fonds de commerce)	
+21211	Concessions	
+21212	Brevets	
+21213	Licences informatiques	
+21214	Marques et franchises	
+21215	Droits et valeurs similaires	
+212151	Droits d’auteur et de reproduction	
+212152	Quotas d’émission de gaz à effet de serre et assimilés	
+212158	Autres droits et valeurs similaires acquis à titre onéreux	
+2122	créés par l’entreprise elle-même	
+21221	Concessions	
+21222	Brevets	
+21223	Licences informatiques	
+21224	Marques et franchises	
+21225	Droits et valeurs similaires	
+212251	Droits d’auteur et de reproduction	
+212258	Autres droits et valeurs similaires créés par l’entreprise elle-même	
+213	Fonds de commerce, dans la mesure où il a été acquis à titre onéreux	
+214	Acomptes versés et immobilisations incorporelles en cours	
+22	Immobilisations corporelles	
+221	Terrains, aménagements et constructions	
+2211	Terrains	
+22111	Terrains au Luxembourg	
+221111	Terrains bâtis	
+221112	Droits immobiliers et assimilés	
+221118	Autres terrains	
+22112	Terrains à l’étranger	
+2212	Agencements et aménagements de terrains	
+22121	Agencements et aménagements de terrains au Luxembourg	
+22122	Agencements et aménagements de terrains à l’étranger	
+2213	Constructions / Bâtiments	
+22131	Constructions / Bâtiments au Luxembourg	
+221311	Constructions / Bâtiments résidentiels	
+221312	Constructions / Bâtiments non résidentiels	
+221313	Constructions / Bâtiments à usage mixte	
+221318	Autres constructions / bâtiments	
+22132	Constructions / Bâtiments à l’étranger	
+2214	Agencements et aménagements de constructions / bâtiments	
+22141	Agencements et aménagements de constructions / bâtiments au Luxembourg	
+22142	Agencements et aménagements de constructions / bâtiments à l’étranger	
+2215	Immeubles de placement	
+22151	Immeubles de placement au Luxembourg	
+22152	Immeubles de placement à l’étranger	
+222	Installations techniques et machines	
+2221	Installations techniques	
+2222	Machines	
+223	Autres installations, outillage et mobilier (y compris matériel roulant)	
+2231	Equipement de transport et de manutention	
+2232	Véhicules de transport	
+2233	Outillage	
+2234	Mobilier	
+2235	Matériel informatique	
+2236	Cheptel	
+2237	Emballages récupérables	
+2238	Autres installations	
+224	Acomptes versés et immobilisations corporelles en cours	
+2241	Terrains, aménagements et constructions	
+22411	Terrains, aménagements et constructions au Luxembourg	
+22412	Terrains, aménagements et constructions à l’étranger	
+2242	Installations techniques et machines	
+2243	Autres installations, outillage et mobilier (y compris matériel roulant)	
+23	Immobilisations financières	
+231	Parts dans des entreprises liées	
+232	Créances sur des entreprises liées	
+233	Participations	
+234	Créances sur des entreprises avec lesquelles l’entreprise a un lien de participation	
+235	Titres ayant le caractère d’immobilisations	
+2351	Titres immobilisés (droit de propriété)	
+23511	Actions ou parts sociales	
+235111	Actions cotées	
+235112	Actions non cotées	
+23518	Autres titres immobilisés (droit de propriété)	
+2352	Titres immobilisés (droit de créance)	
+23521	Obligations	
+23528	Autres titres immobilisés (droit de créance)	
+2353	Parts d’OPC	
+2358	Autres titres ayant le caractère d’immobilisations	
+236	Prêts, dépôts et créances immobilisés	
+2361	Prêts	
+2362	Dépôts et cautionnements versés	
+2363	Créances immobilisées	
+3	Comptes de stocks et d'en-cours	
+30	Stocks de matières premières et consommables	
+301	Stocks de matières premières	
+303	Stocks de matières et fournitures consommables	
+304	Stocks d’emballages	
+31	Stocks de produits en cours de fabrication et commandes en cours	
+311	Stocks de produits en cours de fabrication	
+312	Commandes en cours – produits	
+313	Commandes en cours – prestations de services	
+314	Immeubles en construction	
+315	Acomptes reçus déduits des stocks de produits en cours de fabrication et commandes en cours	
+32	Stocks de produits	
+321	Stocks de produits finis	
+322	Stocks de produits intermédiaires	
+323	Stocks de produits résiduels (déchets, rebuts, matières de récupération)	
+36	Stocks de marchandises et d’autres biens destinés à la revente	
+361	Stocks de marchandises	
+362	Stocks de terrains destinés à la revente	
+3621	Stocks de terrains au Luxembourg	
+3622	Stocks de terrains à l’étranger	
+363	Stocks d’immeubles destinés à la revente	
+3631	Stocks d’immeubles au Luxembourg	
+3632	Stocks d’immeubles à l’étranger	
+37	Acomptes versés sur stocks	
+4	Comptes de tiers	
+40	Créances résultant de ventes et prestations de services	
+401	Créances résultant de ventes et prestations de services dont la durée résiduelle est inférieure ou égale à un an	
+4011	Clients	
+4012	Clients – Effets à recevoir	
+4013	Clients douteux ou litigieux	
+4014	Clients – Factures à établir	
+4015	Clients créditeurs	
+4019	Corrections de valeur	
+402	Créances résultant de ventes et prestations de services dont la durée résiduelle est supérieure à un an	
+4021	Clients	
+4025	Clients créditeurs	
+4029	Corrections de valeur	
+41	Créances sur des entreprises liées et sur des entreprises avec lesquelles l’entreprise a un lien de participation	
+411	Créances sur des entreprises liées	
+4111	Créances sur des entreprises liées dont la durée résiduelle est inférieure ou égale à un an	
+41111	Ventes et prestations de services	
+41112	Prêts et avances	
+41118	Autres créances	
+41119	Corrections de valeur	
+4112	Créances sur des entreprises liées dont la durée résiduelle est supérieure à un an	
+41121	Ventes et prestations de services	
+41122	Prêts et avances	
+41128	Autres créances	
+41129	Corrections de valeur	
+412	Créances sur des entreprises avec lesquelles l’entreprise a un lien de participation	
+4121	Créances sur des entreprises avec lesquelles l’entreprise a un lien de participation dont la durée résiduelle est inférieure ou égale à un an	
+41211	Ventes et prestations de services	
+41212	Prêts et avances	
+41218	Autres créances	
+41219	Corrections de valeur	
+4122	Créances sur des entreprises avec lesquelles l’entreprise a un lien de participation dont la durée résiduelle est supérieure à un an	
+41221	Ventes et prestations de services	
+41222	Prêts et avances	
+41228	Autres créances	
+41229	Corrections de valeur	
+42	Autres créances	
+421	Autres créances dont la durée résiduelle est inférieure ou égale à un an	
+4211	Personnel – Avances et acomptes	
+42111	Avances et acomptes	
+42119	Corrections de valeur	
+4212	Créances sur associés ou actionnaires (autres qu’entreprises liées)	
+4213	État – Subventions à recevoir	
+42131	Subventions d’investissement	
+42132	Subventions d’exploitation	
+42138	Autres subventions	
+4214	Administration des Contributions Directes (ACD)	
+42141	Impôt sur le revenu des collectivités (IRC)	
+42142	Impôt commercial communal (ICC)	
+42143	Impôt sur la fortune (IF)	
+42144	Retenue d’impôt sur traitements et salaires (RTS)	
+42145	Retenue d’impôt sur revenus de capitaux mobiliers	
+42146	Retenue d’impôt sur les tantièmes	
+42148	ACD – Autres créances	
+4215	Administration des Douanes et Accises (ADA)	
+4216	Administration de l’Enregistrement, des Domaines et de la TVA (AED)	
+42161	Taxe sur la valeur ajoutée (TVA)	
+421611	TVA en amont	
+421612	TVA à recevoir	
+421613	TVA acomptes versés	
+421618	TVA – Autres créances	
+42162	Impôts indirects	
+421621	Droits d’enregistrement	
+421622	Taxe d’abonnement	
+421628	Autres impôts indirects	
+42168	AED – Autres créances	
+4217	Créances sur la sécurité sociale et autres organismes sociaux	
+42171	Centre Commun de Sécurité Sociale (CCSS)	
+42172	Organismes étrangers de sécurité sociale	
+42178	Autres organismes sociaux	
+4218	Créances diverses	
+42181	Impôts étrangers	
+421811	TVA étrangères	
+421818	Autres impôts étrangers	
+42187	Instruments financiers dérivés	
+42188	Autres créances diverses	
+42189	Corrections de valeur	
+422	Autres créances dont la durée résiduelle est supérieure à un an	
+4221	Personnel – Avances et acomptes	
+4222	Créances sur associés ou actionnaires (autres qu’entreprises liées)	
+4223	État – Subventions à recevoir	
+42231	Subventions d’investissement	
+42232	Subventions d’exploitation	
+42238	Autres subventions	
+4228	Créances diverses	
+42287	Instruments financiers dérivés	
+42288	Autres créances diverses	
+42289	Corrections de valeur	
+43	Acomptes reçus sur commandes, dans la mesure où ils ne sont pas déduits des stocks de façon distincte	
+431	Acomptes reçus dont la durée résiduelle est inférieure ou égale à un an	
+4311	Acomptes reçus sur commandes	
+4312	Stocks de produits en cours de fabrication et commandes en cours déduits des acomptes reçus	
+432	Acomptes reçus dont la durée résiduelle est supérieure à un an	
+4321	Acomptes reçus sur commandes	
+4322	Stocks de produits en cours de fabrication et commandes en cours déduits des acomptes reçus	
+44	Dettes sur achats et prestations de services et dettes représentées par des effets de commerce	
+441	Dettes sur achats et prestations de services	
+4411	Dettes sur achats et prestations de services dont la durée résiduelle est inférieure ou égale à un an	
+44111	Fournisseurs	
+44112	Fournisseurs – Factures non parvenues	
+44113	Fournisseurs débiteurs	
+4412	Dettes sur achats et prestations de services dont la durée résiduelle est supérieure à un an	
+44121	Fournisseurs	
+44123	Fournisseurs débiteurs	
+442	Dettes représentées par des effets de commerce – Effets à payer	
+4421	Effets à payer dont la durée résiduelle est inférieure ou égale à un an	
+4422	Effets à payer dont la durée résiduelle est supérieure à un an	
+45	Dettes envers des entreprises liées et des entreprises avec lesquelles l’entreprise a un lien de participation	
+451	Dettes envers des entreprises liées	
+4511	Dettes envers des entreprises liées dont la durée résiduelle est inférieure ou égale à un an	
+45111	Achats et prestations de services	
+45112	Emprunts et avances	
+45118	Autres dettes	
+4512	Dettes envers des entreprises liées dont la durée résiduelle est supérieure à un an	
+45121	Achats et prestations de services	
+45122	Emprunts et avances	
+45128	Autres dettes	
+452	Dettes envers des entreprises avec lesquelles l’entreprise a un lien de participation	
+4521	Dettes envers des entreprises avec lesquelles l’entreprise a un lien de participation dont la durée résiduelle est inférieure ou égale à un an	
+45211	Achats et prestations de services	
+45212	Emprunts et avances	
+45218	Autres dettes	
+4522	Dettes envers des entreprises avec lesquelles l’entreprise a un lien de participation dont la durée résiduelle est supérieure à un an	
+45221	Achats et prestations de services	
+45222	Emprunts et avances	
+45228	Autres dettes	
+46	Dettes fiscales et dettes au titre de la sécurité sociale	
+461	Dettes fiscales	
+4611	Administrations communales	
+4612	Administration des Contributions Directes (ACD)	
+46121	Impôt sur le revenu des collectivités (IRC)	
+461211	IRC – charge fiscale estimée	
+461212	IRC – dette fiscale à payer	
+46122	Impôt commercial communal (ICC)	
+461221	ICC – charge fiscale estimée	
+461222	ICC – dette fiscale à payer	
+46123	Impôt sur la fortune (IF)	
+461231	IF – charge fiscale estimée	
+461232	IF – dette fiscale à payer	
+46124	Retenue d’impôt sur traitements et salaires (RTS)	
+46125	Retenue d’impôt sur revenus de capitaux mobiliers	
+46126	Retenue d’impôt sur les tantièmes	
+46128	ACD – Autres dettes	
+4613	Administration des Douanes et Accises (ADA)	
+4614	Administration de l’Enregistrement, des Domaines et de la TVA (AED)	
+46141	Taxe sur la valeur ajoutée (TVA)	
+461411	TVA en aval	
+461412	TVA à payer	
+461413	TVA acomptes reçus	
+461418	TVA – Autres dettes	
+46142	Impôts indirects	
+461421	Droits d’enregistrement	
+461422	Taxe d’abonnement	
+461428	Autres impôts indirects	
+46148	AED – Autres dettes	
+4615	Administrations fiscales étrangères	
+46151	TVA étrangères	
+46158	Autres impôts étrangers	
+462	Dettes au titre de la sécurité sociale et autres organismes sociaux	
+4621	Centre Commun de Sécurité Sociale (CCSS)	
+4622	Organismes étrangers de sécurité sociale	
+4628	Autres organismes sociaux	
+47	Autres dettes	
+471	Autres dettes dont la durée résiduelle est inférieure ou égale à un an	
+4711	Dépôts et cautionnements reçus	
+4712	Dettes envers associés et actionnaires (autres qu’entreprises liées)	
+4713	Dettes envers administrateurs, gérants, commissaires et organes assimilés	
+4714	Dettes envers le personnel	
+4715	État – Quotas d’émission de gaz à effet de serre et assimilés à restituer ou à acquérir	
+4716	Emprunts et dettes assimilées	
+47161	Autres emprunts	
+47162	Dettes de leasing	
+47163	Rentes viagères	
+47168	Autres dettes assimilées	
+4717	Instruments financiers dérivés	
+4718	Autres dettes diverses	
+472	Autres dettes dont la durée résiduelle est supérieure à un an	
+4721	Dépôts et cautionnements reçus	
+4722	Dettes envers associés et actionnaires (autres qu’entreprises liées)	
+4723	Dettes envers administrateurs, gérants, commissaires et organes assimilés	
+4724	Dettes envers le personnel	
+4726	Emprunts et dettes assimilées	
+47261	Autres emprunts	
+47262	Dettes de leasing	
+47263	Rentes viagères	
+47268	Autres dettes assimilées	
+4727	Instruments financiers dérivés	
+4728	Autres dettes diverses	
+48	Comptes de régularisation	
+481	Charges à reporter (sur un ou plusieurs exercices)	
+482	Produits à reporter (sur un ou plusieurs exercices)	
+483	État – Quotas d’émission de gaz à effet de serre et assimilés alloués	
+484	Comptes transitoires ou d’attente – Actif	
+485	Comptes transitoires ou d’attente – Passif	
+486	Comptes de liaison (succursales) – Actif	
+487	Comptes de liaison (succursales) – Passif	
+5	Comptes financiers	
+50	Valeurs mobilières	
+501	Parts dans des entreprises liées	
+502	Actions propres ou parts propres	
+503	Parts dans des entreprises avec lesquelles l’entreprise a un lien de participation	
+508	Autres valeurs mobilières	
+5081	Actions – Titres cotés	
+5082	Actions – Titres non cotés	
+5083	Obligations et autres titres de créance émis par l’entreprise et rachetés par elle	
+5084	Obligations – Titres cotés	
+5085	Obligations – Titres non cotés	
+5088	Autres valeurs mobilières diverses	
+51	Avoirs en banques, en comptes de chèques postaux, chèques et encaisse	
+513	Banques et comptes chèques postaux (CCP)	
+5131	Banques et CCP : avoirs	
+5132	Banques et CCP : découverts	
+516	Caisse	
+517	Virements internes	
+5171	Virements internes : solde débiteur	
+5172	Virements internes : solde créditeur	
+518	Autres avoirs	
+6	Comptes de charges	
+60	Consommation de marchandises, de matières premières et consommables	
+601	Achats de matières premières	
+603	Achats de matières et fournitures consommables	
+6031	Combustibles, gaz, eau et électricité (incorporés aux ouvrages et produits)	
+60311	Combustibles solides	
+60312	Combustibles liquides	
+60313	Gaz	
+60314	Eau et eaux usées	
+60315	Électricité	
+6032	Produits d’entretien	
+6033	Fournitures et petit équipement d’atelier, d’usine et de magasin	
+6034	Vêtements professionnels	
+6035	Fournitures administratives et de bureau	
+6036	Carburants	
+6037	Lubrifiants	
+6038	Autres fournitures consommables	
+604	Achats d’emballages	
+606	Achats de marchandises et d’autres biens destinés à la revente	
+6061	Achats de marchandises	
+6062	Achats de terrains destinés à la revente	
+6063	Achats d’immeubles destinés à la revente	
+607	Variation des stocks	
+6071	Variation des stocks de matières premières	
+6073	Variation des stocks de matières et fournitures consommables	
+6074	Variation des stocks d’emballages	
+6076	Variation des stocks de marchandises et d’autres biens destinés à la revente	
+60761	Marchandises	
+60762	Terrains destinés à la revente	
+60763	Immeubles destinés à la revente	
+608	Achats incorporés aux ouvrages et produits	
+6081	Prestations de services incorporées aux ouvrages et produits	
+60811	Travail à façon	
+60812	Recherche et développement	
+60813	Frais d’architectes et d’ingénieurs	
+60814	Sous-traitance incorporée aux ouvrages et produits	
+6082	Autres achats de matériel incorporés aux ouvrages et produits	
+6083	Achats de quotas d’émission de gaz à effet de serre et assimilés	
+6088	Autres achats incorporés aux ouvrages et produits	
+609	Rabais, remises et ristournes (RRR) obtenus et non directement déduits des achats	
+6091	RRR sur achats de matières premières	
+6093	RRR sur achats de matières et fournitures consommables	
+6094	RRR sur achats d’emballages	
+6096	RRR sur achats de marchandises et d’autres biens destinés à la revente	
+6098	RRR sur achats incorporés aux ouvrages et produits	
+6099	RRR non affectés	
+61	Autres charges externes	
+611	Loyers et charges locatives	
+6111	Locations et leasing opérationnel immobiliers	
+61111	Terrains	
+61112	Constructions / Bâtiments	
+6112	Locations et leasing opérationnel mobiliers	
+61123	Matériel roulant	
+61128	Autres	
+6113	Charges locatives et de copropriété	
+6114	Leasing financier immobilier	
+6115	Leasing financier mobilier	
+61153	Matériel roulant	
+61158	Autres	
+612	Sous-traitance, entretiens, réparations et maintenance	
+6121	Sous-traitance générale (non incorporée aux ouvrages et produits)	
+6122	Entretien, réparations et maintenance	
+61221	Constructions / Bâtiments	
+61223	Matériel roulant	
+61228	Autres	
+613	Rémunérations d’intermédiaires et honoraires	
+6131	Commissions et courtages	
+6132	Services informatiques	
+6133	Services bancaires et assimilés	
+61332	Frais sur émission d’emprunts	
+61333	Frais de comptes et commissions bancaires (y compris droits de garde sur titres)	
+61334	Frais sur moyens de paiements électroniques	
+61336	Rémunérations d’affacturage	
+61338	Autres services bancaires et assimilés (hors intérêts et frais assimilés)	
+6134	Honoraires	
+61341	Honoraires juridiques, de contentieux et assimilés	
+61342	Honoraires comptables, fiscaux, d’audit et assimilés	
+61348	Autres honoraires	
+6135	Frais d’actes notariés et assimilés	
+6138	Autres rémunérations d’intermédiaires et honoraires	
+614	Primes d’assurance	
+6141	Assurance sur biens de l’actif	
+61411	Constructions / Bâtiments	
+61412	Matériel roulant	
+61418	Autres	
+6142	Assurance sur biens pris en location	
+6143	Assurance-transport	
+6144	Assurance risque d’exploitation	
+6145	Assurance insolvabilité clients	
+6146	Assurance responsabilité civile	
+6148	Autres assurances	
+615	Frais de marketing et de communication	
+6151	Frais de marketing et de publicité	
+61511	Annonces et insertions	
+61512	Échantillons	
+61513	Foires et expositions	
+61514	Cadeaux à la clientèle	
+61515	Catalogues et imprimés et publications	
+61516	Dons courants	
+61517	Sponsoring	
+61518	Autres achats de services publicitaires	
+6152	Frais de déplacements et de représentation	
+61521	Voyages et déplacements	
+615211	Direction (le cas échéant, exploitant et associés)	
+615212	Personnel	
+61522	Frais de déménagement de l’entreprise	
+61523	Missions	
+61524	Réceptions et frais de représentation	
+6153	Frais postaux et de télécommunication	
+61531	Frais postaux	
+61532	Frais de télécommunication	
+616	Transports de biens et transports collectifs du personnel	
+6161	Transports sur achats	
+6162	Transports sur ventes	
+6165	Transports collectifs du personnel	
+6168	Autres transports	
+617	Personnel extérieur à l’entreprise	
+6171	Personnel intérimaire	
+6172	Personnel prêté à l’entreprise	
+618	Charges externes diverses	
+6181	Documentation	
+6182	Frais de formation, colloques, séminaires, conférences	
+6183	Élimination des déchets industriels et non industriels	
+6184	Combustibles, gaz, eau et électricité (non incorporés aux ouvrages et produits)	
+61841	Combustibles solides	
+61842	Combustibles liquides (mazout, carburants, etc.)	
+61843	Gaz	
+61844	Eau et eaux usées	
+61845	Électricité	
+6185	Fournitures et petit équipement (non incorporés aux ouvrages et produits)	
+61851	Fournitures administratives et de bureau	
+61852	Petit équipement	
+61853	Vêtements professionnels	
+61854	Produits d’entretien	
+61858	Autres	
+6186	Frais de surveillance et de gardiennage	
+6187	Cotisations aux associations professionnelles	
+6188	Autres charges externes diverses	
+619	Rabais, remises et ristournes (RRR) obtenus et non directement déduits des autres charges externes	
+62	Frais de personnel	
+621	Rémunérations des salariés	
+6211	Salaires bruts	
+62111	Salaires de base	
+62112	Suppléments pour travail	
+621121	Dimanche	
+621122	Jours fériés légaux	
+621123	Heures supplémentaires	
+621128	Autres suppléments	
+62114	Gratifications, primes et commissions	
+62115	Avantages en nature	
+62116	Indemnités de licenciement	
+62117	Trimestre de faveur	
+6218	Autres avantages	
+6219	Remboursements sur salaires	
+622	Autre personnel	
+6221	Étudiants	
+6222	Salaires occasionnels	
+6228	Autres	
+623	Charges sociales (part patronale)	
+6231	Charges sociales couvrant les pensions	
+6232	Autres charges sociales (y inclus maladie, accident, etc.)	
+624	Autres frais de personnel	
+6241	Pensions complémentaires	
+62411	Primes à des fonds de pensions extérieurs	
+62412	Variations sur provisions pour pensions complémentaires	
+62413	Retenue d’impôt sur pension complémentaire	
+62414	Prime d’assurance insolvabilité	
+62415	Pensions complémentaires versées par l’employeur	
+6248	Autres frais de personnel non visés ci-dessus	
+63	Dotations aux corrections de valeur (DCV) et ajustements de juste valeur (AJV) sur frais d’établissement, sur immobilisations incorporelles et corporelles et sur actifs circulants (hors valeurs mobilières)	
+631	DCV sur frais d’établissement et frais assimilés	
+6311	DCV sur frais de constitution et de premier établissement	
+6313	DCV sur frais d’augmentation de capital et d’opérations diverses (fusions, scissions, transformations)	
+6314	DCV sur frais d’émission d’emprunts	
+6318	DCV sur autres frais assimilés	
+632	DCV sur immobilisations incorporelles	
+6321	DCV sur frais de développement	
+6322	DCV sur concessions, brevets, licences, marques ainsi que droits et valeurs similaires	
+6323	DCV sur fonds de commerce dans la mesure où il a été acquis à titre onéreux	
+6324	DCV sur acomptes versés et immobilisations incorporelles en cours	
+633	DCV sur immobilisations corporelles et AJV sur immeubles de placement	
+6331	DCV sur terrains, aménagements et constructions et AJV sur immeubles de placement	
+63311	DCV sur terrains	
+63312	DCV sur agencements et aménagements de terrains	
+63313	DCV sur constructions / bâtiments	
+63314	DCV sur agencements et aménagements de constructions / bâtiments	
+63315	AJV sur immeubles de placement	
+6332	DCV sur installations techniques et machines	
+6333	DCV sur autres installations, outillage et mobilier (y compris matériel roulant)	
+6334	DCV sur acomptes versés et immobilisations corporelles en cours	
+634	DCV sur stocks	
+6341	DCV sur stocks de matières premières et consommables	
+6342	DCV sur stocks de produits en cours de fabrication et commandes en cours	
+6343	DCV sur stocks de produits	
+6344	DCV sur stocks de marchandises et d’autres biens destinés à la revente	
+6345	DCV sur acomptes versés sur stocks	
+635	DCV et AJV sur créances de l’actif circulant	
+6351	DCV sur créances résultant de ventes et prestations de services	
+6352	DCV sur créances sur des entreprises liées et sur des entreprises avec lesquelles l’entreprise a un lien de participation	
+6353	DCV sur autres créances	
+6354	AJV sur créances de l’actif circulant	
+64	Autres charges d’exploitation	
+641	Redevances pour concessions, brevets, licences, marques, droits et valeurs similaires	
+6411	Concessions	
+6412	Brevets	
+6413	Licences informatiques	
+6414	Marques et franchises	
+6415	Droits et valeurs similaires	
+64151	Droits d’auteur et de reproduction	
+64158	Autres droits et valeurs similaires	
+642	Indemnités, dommages et intérêts	
+643	Jetons de présence, tantièmes et rémunérations assimilées	
+6431	Jetons de présence	
+6432	Tantièmes	
+6438	Autres rémunérations assimilées	
+644	Moins-values de cession d’immobilisations incorporelles et corporelles	
+6441	Moins-values de cession d’immobilisations incorporelles	
+64411	Valeur comptable d’immobilisations incorporelles cédées	
+64412	Produits de cession d’immobilisations incorporelles	
+6442	Moins-values de cession d’immobilisations corporelles	
+64421	Valeur comptable d’immobilisations corporelles cédées	
+64422	Produits de cession d’immobilisations corporelles	
+645	Pertes sur créances irrécouvrables	
+6451	Créances résultant de ventes et de prestations de services	
+6452	Créances sur des entreprises liées	
+6453	Créances sur des entreprises avec lesquelles l’entreprise a un lien de participation	
+6454	Autres créances	
+646	Impôts, taxes et versements assimilés	
+6461	Impôt foncier	
+6462	TVA non récupérable	
+6463	Droits sur les marchandises en provenance de l’étranger	
+6464	Droits d’accises à la production et taxe de consommation	
+6465	Droits d’enregistrement et de timbre, droits d’hypothèques	
+64651	Droits d’enregistrement	
+64658	Autres droits d’enregistrement et de timbre, droits d’hypothèques	
+6466	Taxes sur les véhicules	
+6467	Taxe de cabaretage	
+6468	Autres droits et taxes	
+647	Dotations aux plus-values immunisées	
+648	Autres charges d’exploitation diverses	
+6481	Amendes, sanctions et pénalités	
+6488	Charges d’exploitation diverses	
+649	Dotations aux provisions	
+6491	Dotations aux provisions pour impôts	
+6492	Dotations aux provisions d’exploitation	
+65	Charges financières	
+651	Dotations aux corrections de valeur (DCV) et ajustements de juste valeur (AJV) sur immobilisations financières	
+6511	DCV sur immobilisations financières	
+65111	DCV sur parts dans des entreprises liées	
+65112	DCV sur créances sur des entreprises liées	
+65113	DCV sur participations	
+65114	DCV sur créances sur des entreprises avec lesquelles l’entreprise a un lien de participation	
+65115	DCV sur titres ayant le caractère d’immobilisations	
+65116	DCV sur prêts, dépôts et créances immobilisés	
+6512	AJV sur immobilisations financières	
+652	Charges et moins-values de cession d’immobilisations financières	
+6521	Charges des immobilisations financières	
+65211	Parts dans des entreprises liées	
+65212	Créances sur des entreprises liées	
+65213	Participations	
+65214	Créances sur des entreprises avec lesquelles l’entreprise a un lien de participation	
+65215	Titres ayant le caractère d’immobilisations	
+65216	Prêts, dépôts et créances immobilisés	
+6522	Moins-values de cession d’immobilisations financières	
+65221	Parts dans des entreprises liées	
+652211	Valeur comptable de parts cédées dans des entreprises liées	
+652212	Produits de cession de parts dans des entreprises liées	
+65222	Créances sur des entreprises liées	
+652221	Valeur comptable de créances cédées sur des entreprises liées	
+652222	Produits de cession de créances sur des entreprises liées	
+65223	Participations	
+652231	Valeur comptable de participations cédées	
+652232	Produits de cession de participations	
+65224	Créances sur des entreprises avec lesquelles l’entreprise a un lien de participation	
+652241	Valeur comptable de créances cédées sur des entreprises avec lesquelles l’entreprise a un lien de participation	
+652242	Produits de cession de créances sur des entreprises avec lesquelles l’entreprise a un lien de participation	
+65225	Titres ayant le caractère d’immobilisations	
+652251	Valeur comptable de titres cédés ayant le caractère d’immobilisations	
+652252	Produits de cession de titres ayant le caractère d’immobilisations	
+65226	Prêts, dépôts et créances immobilisés	
+652261	Valeur comptable de prêts, dépôts et créances immobilisés cédés	
+652262	Produits de cession de prêts, dépôts et créances immobilisés	
+653	Dotations aux corrections de valeur (DCV) et ajustements de juste valeur (AJV) sur valeurs mobilières	
+6531	DCV sur valeurs mobilières	
+65311	DCV sur parts dans des entreprises liées	
+65312	DCV sur actions propres ou parts propres	
+65313	DCV sur parts dans des entreprises avec lesquelles l’entreprise a un lien de participation	
+65318	DCV sur autres valeurs mobilières	
+6532	AJV sur valeurs mobilières	
+654	Moins-values de cession de créances de l’actif circulant et de valeurs mobilières	
+6541	Moins-values de cession de créances de l’actif circulant	
+65411	sur des entreprises liées	
+65412	sur des entreprises avec lesquelles l’entreprise a un lien de participation	
+65413	sur autres créances de l’actif circulant	
+6542	Moins-values de cession de valeurs mobilières	
+65421	Parts dans des entreprises liées	
+65422	Actions propres ou parts propres	
+65423	Parts dans des entreprises avec lesquelles l’entreprise a un lien de participation	
+65428	Autres valeurs mobilières	
+655	Intérêts et escomptes	
+6551	Intérêts sur emprunts obligataires	
+65511	Intérêts sur emprunts obligataires – entreprises liées	
+65512	Intérêts sur emprunts obligataires – autres	
+6552	Intérêts bancaires et assimilés	
+65521	Intérêts sur comptes bancaires	
+65522	Intérêts bancaires sur opérations de financement	
+65523	Intérêts sur leasings financiers	
+655231	Intérêts sur leasings financiers – entreprises liées	
+655232	Intérêts sur leasings financiers – autres	
+6553	Intérêts sur dettes commerciales	
+6554	Intérêts sur des entreprises liées et sur des entreprises avec lesquelles l’entreprise a un lien de participation	
+65541	Intérêts sur des entreprises liées	
+65542	Intérêts sur des entreprises avec lesquelles l’entreprise a un lien de participation	
+6555	Escomptes et frais sur effets de commerce	
+65551	Escomptes et frais sur effets de commerce – entreprises liées	
+65552	Escomptes et frais sur effets de commerce – autres	
+6556	Escomptes accordés	
+65561	Escomptes accordés – entreprises liées	
+65562	Escomptes accordés – autres	
+6558	Intérêts sur autres emprunts et dettes	
+65581	Intérêts sur autres emprunts et dettes – entreprises liées	
+65582	Intérêts sur autres emprunts et dettes – autres	
+656	Pertes de change	
+6561	Pertes de change – entreprises liées	
+6562	Pertes de change – autres	
+657	Quote-part dans la perte des entreprises mises en équivalence	
+658	Autres charges financières	
+6581	Autres charges financières – entreprises liées	
+6582	Autres charges financières – autres	
+659	Dotations aux provisions financières	
+6591	Dotations aux provisions financières – entreprises liées	
+6592	Dotations aux provisions financières – autres	
+67	Impôts sur le résultat	
+671	Impôt sur le revenu des collectivités (IRC)	
+6711	IRC – exercice courant	
+6712	IRC – exercices antérieurs	
+672	Impôt commercial communal (ICC)	
+6721	ICC – exercice courant	
+6722	ICC – exercices antérieurs	
+673	Impôts étrangers sur le résultat	
+6731	Retenues d’impôt à la source	
+6732	Impôts supportés par les établissements stables	
+67321	Exercice courant	
+67322	Exercices antérieurs	
+6733	Impôts supportés par les entreprises non résidentes	
+6738	Autres impôts étrangers sur le résultat	
+679	Dotations aux provisions pour impôts différés	
+68	Autres impôts ne figurant pas sous les postes ci-dessus	
+681	Impôt sur la fortune (IF)	
+6811	IF – exercice courant	
+6812	IF – exercices antérieurs	
+682	Taxe d’abonnement	
+683	Impôts étrangers	
+688	Autres impôts	
+7	Comptes de produits	
+70	Montant net du chiffre d’affaires	
+702	Ventes de produits	
+7021	Ventes de produits finis	
+7022	Ventes de produits intermédiaires	
+7023	Ventes de produits résiduels	
+7029	Ventes de produits en cours de fabrication	
+703	Prestations de services	
+7031	Redevances pour concessions, brevets, licences, marques, droits et valeurs similaires	
+70311	Concessions	
+70313	Licences informatiques	
+70314	Marques et franchises	
+70315	Droits et valeurs similaires	
+703151	Droits d’auteur et de reproduction	
+703158	Autres droits et valeurs similaires	
+7032	Revenus de location	
+70321	Revenus de location immobilière	
+70322	Revenus de location mobilière	
+7033	Prestations de services non visées ci-dessus	
+7039	Prestations de services en cours de réalisation	
+704	Ventes d’emballages	
+705	Commissions et courtages obtenus	
+706	Ventes de marchandises et d’autres biens destinés à la revente	
+7061	Ventes de marchandises	
+7062	Ventes de terrains destinés à la revente	
+7063	Ventes d’immeubles destinés à la revente	
+708	Autres éléments du chiffre d’affaires	
+709	Rabais, remises et ristournes (RRR) accordés et non directement déduits des ventes	
+7092	RRR sur ventes de produits	
+7093	RRR sur prestations de services	
+7094	RRR sur ventes d’emballages	
+7095	RRR sur commissions et courtages	
+7096	RRR sur ventes de marchandises et d’autres biens destinés à la revente	
+7098	RRR sur autres éléments du chiffre d’affaires	
+71	Variation des stocks de produits et d’en-cours de fabrication	
+711	Variation des stocks de produits en cours de fabrication et de commandes en cours	
+7111	Variation des stocks de produits en cours de fabrication	
+7112	Variation des stocks : commandes en cours – produits	
+7113	Variation des stocks : commandes en cours – prestations de services	
+7114	Variation des stocks : immeubles en construction	
+712	Variation des stocks de produits	
+7121	Variation des stocks de produits finis	
+7122	Variation des stocks de produits intermédiaires	
+7123	Variation des stocks de produits résiduels	
+72	Production immobilisée	
+721	Immobilisations incorporelles	
+7211	Frais de développement	
+7212	Concessions, brevets, licences, marques, droits et valeurs similaires	
+72121	Concessions	
+72122	Brevets	
+72123	Licences informatiques	
+72124	Marques et franchises	
+72125	Droits et valeurs similaires	
+721251	Droits d’auteur et de reproduction	
+721258	Autres droits et valeurs similaires	
+722	Immobilisations corporelles	
+7221	Terrains, aménagements et constructions	
+7222	Installations techniques et machines	
+7223	Autres installations, outillage et mobilier (y compris matériel roulant)	
+73	Reprises de corrections de valeur (RCV) et ajustements de juste valeur (AJV) sur immobilisations incorporelles et corporelles et sur actifs circulants (hors valeurs mobilières)	
+732	RCV sur immobilisations incorporelles	
+7321	RCV sur frais de développement	
+7322	RCV sur concessions, brevets, licences, marques ainsi que droits et valeurs similaires	
+7324	RCV sur acomptes versés et immobilisations incorporelles en cours	
+733	RCV sur immobilisations corporelles et AJV sur immeubles de placement	
+7331	RCV sur terrains, aménagements et constructions et AJV sur immeubles de placement	
+73311	RCV sur terrains	
+73312	RCV sur agencements et aménagements de terrains	
+73313	RCV sur constructions / bâtiments	
+73314	RCV sur agencements et aménagements de constructions / bâtiments	
+73315	AJV sur immeubles de placement	
+7332	RCV sur installations techniques et machines	
+7333	RCV sur autres installations, outillage et mobilier (y compris matériel roulant)	
+7334	RCV sur acomptes versés et immobilisations corporelles en cours	
+734	RCV sur stocks	
+7341	RCV sur stocks de matières premières et consommables	
+7342	RCV sur stocks de produits en cours de fabrication et commandes en cours	
+7343	RCV sur stocks de produits	
+7344	RCV sur stocks de marchandises et autres biens destinés à la revente	
+7345	RCV sur acomptes versés sur stocks	
+735	RCV et AJV sur créances de l’actif circulant	
+7351	RCV sur créances résultant de ventes et prestations de services	
+7352	RCV sur créances sur des entreprises liées et sur des entreprises avec lesquelles l’entreprise a un lien de participation	
+7353	RCV sur autres créances	
+7354	AJV sur créances de l’actif circulant	
+74	Autres produits d’exploitation	
+741	Redevances, perçues à titre accessoire, pour concessions, brevets, licences, marques, droits et valeurs similaires	
+7411	Concessions	
+7412	Brevets	
+7413	Licences informatiques	
+7414	Marques et franchises	
+7415	Droits et valeurs similaires	
+74151	Droits d’auteur et de reproduction	
+74158	Autres droits et valeurs similaires	
+742	Revenus de location à titre accessoire	
+7421	Revenus de location immobilière	
+7422	Revenus de location mobilière	
+743	Jetons de présence, tantièmes et rémunérations assimilées	
+744	Plus-values de cession d’immobilisations incorporelles et corporelles	
+7441	Plus-values de cession d’immobilisations incorporelles	
+74411	Valeur comptable d’immobilisations incorporelles cédées	
+74412	Produits de cession d’immobilisations incorporelles	
+7442	Plus-values de cession d’immobilisations corporelles	
+74421	Valeur comptable d’immobilisations corporelles cédées	
+74422	Produits de cession d’immobilisations corporelles	
+745	Subventions d’exploitation	
+7451	Subventions sur produits	
+7452	Bonifications d’intérêt	
+7453	Indemnités compensatoires	
+7454	Subventions destinées à promouvoir l’emploi	
+7458	Autres subventions d’exploitation	
+746	Avantages en nature	
+747	Reprises de plus-values immunisées et de subventions d’investissement en capital	
+7471	Plus-values immunisées non réinvesties	
+7472	Plus-values immunisées réinvesties	
+7473	Subventions d’investissement en capital	
+748	Autres produits d’exploitation divers	
+7481	Indemnités d’assurance	
+7488	Produits d’exploitation divers	
+749	Reprises de provisions	
+7491	Reprises de provisions pour impôts	
+7492	Reprises de provisions d’exploitation	
+75	Produits financiers	
+751	Reprises de corrections de valeur (RCV) et ajustements de juste valeur (AJV) sur immobilisations financières	
+7511	RCV sur immobilisations financières	
+75111	RCV sur parts dans des entreprises liées	
+75112	RCV sur créances sur des entreprises liées	
+75113	RCV sur participations	
+75114	RCV sur créances sur des entreprises avec lesquelles l’entreprise a un lien de participation	
+75115	RCV sur titres ayant le caractère d’immobilisations	
+75116	RCV sur prêts, dépôts et créances immobilisés	
+7512	AJV sur immobilisations financières	
+752	Revenus et plus-values de cession d’immobilisations financières	
+7521	Revenus des immobilisations financières	
+75211	Parts dans des entreprises liées	
+75212	Créances sur des entreprises liées	
+75213	Participations	
+75214	Créances sur des entreprises avec lesquelles l’entreprise a un lien de participation	
+75215	Titres ayant le caractère d’immobilisations	
+75216	Prêts, dépôts et créances immobilisés	
+7522	Plus-values de cession d’immobilisations financières	
+75221	Parts dans des entreprises liées	
+752211	Valeur comptable de parts cédées dans des entreprises liées	
+752212	Produits de cession de parts dans des entreprises liées	
+75222	Créances sur des entreprises liées	
+752221	Valeur comptable de créances cédées sur des entreprises liées	
+752222	Produits de cession de créances sur des entreprises liées	
+75223	Participations	
+752231	Valeur comptable de participations cédées	
+752232	Produits de cession de participations	
+75224	Créances sur des entreprises avec lesquelles l’entreprise a un lien de participation	
+752241	Valeur comptable de créances cédées sur des entreprises avec lesquelles l’entreprise a un lien de participation	
+752242	Produits de cession de créances sur des entreprises avec lesquelles l’entreprise a un lien de participation	
+75225	Titres ayant le caractère d’immobilisations	
+752251	Valeur comptable de titres cédés ayant le caractère d’immobilisations	
+752252	Produits de cession de titres ayant le caractère d’immobilisations	
+75226	Prêts, dépôts et créances immobilisés	
+752261	Valeur comptable de prêts, dépôts et créances immobilisés cédés	
+752262	Produits de cession de prêts, dépôts et créances immobilisés	
+753	Reprises de corrections de valeur (RCV) et ajustements de juste valeur (AJV) sur valeurs mobilières	
+7531	RCV sur valeurs mobilières	
+75311	RCV sur parts dans des entreprises liées	
+75312	RCV sur actions propres ou parts propres	
+75313	RCV sur parts dans des entreprises avec lesquelles l’entreprise a un lien de participation	
+75318	RCV sur autres valeurs mobilières	
+7532	AJV sur valeurs mobilières	
+754	Plus-values de cession de créances de l’actif circulant et de valeurs mobilières ainsi qu’autres produits de valeurs mobilières	
+7541	Plus-values de cession de créances de l’actif circulant	
+75411	sur des entreprises liées	
+75412	sur des entreprises avec lesquelles l’entreprise a un lien de participation	
+75413	sur autres créances de l’actif circulant	
+7542	Plus-values de cession de valeurs mobilières	
+75421	Parts dans des entreprises liées	
+75422	Actions propres ou parts propres	
+75423	Parts dans des entreprises avec lesquelles l’entreprise a un lien de participation	
+75428	Autres valeurs mobilières	
+7548	Autres produits de valeurs mobilières	
+75481	Parts dans des entreprises liées	
+75482	Actions propres ou parts propres	
+75483	Parts dans des entreprises avec lesquelles l’entreprise a un lien de participation	
+75488	Autres valeurs mobilières	
+755	Autres intérêts de l’actif circulant et escomptes	
+7552	Intérêts bancaires et assimilés	
+75521	Intérêts sur comptes bancaires	
+75523	Intérêts sur leasings financiers	
+755231	Intérêts sur leasings financiers – entreprises liées	
+755232	Intérêts sur leasings financiers – autres	
+7553	Intérêts sur créances commerciales	
+7554	Intérêts sur des entreprises liées et sur des entreprises avec lesquelles l’entreprise a un lien de participation	
+75541	Intérêts sur des entreprises liées	
+75542	Intérêts sur des entreprises avec lesquelles l’entreprise a un lien de participation	
+7555	Escomptes d’effets de commerce	
+75551	Escomptes d’effets de commerce – entreprises liées	
+75552	Escomptes d’effets de commerce – autres	
+7556	Escomptes obtenus	
+75561	Escomptes obtenus – entreprises liées	
+75562	Escomptes obtenus – autres	
+7558	Intérêts sur autres créances	
+75581	Intérêts sur autres créances – entreprises liées	
+75582	Intérêts sur autres créances – autres	
+756	Gains de change	
+7561	Gains de change – entreprises liées	
+7562	Gains de change – autres	
+757	Quote-part dans le bénéfice des entreprises mises en équivalence	
+758	Autres produits financiers	
+7581	Autres produits financiers – entreprises liées	
+7582	Autres produits financiers – autres	
+759	Reprises de provisions financières	
+7591	Reprises de provisions financières – entreprises liées	
+7592	Reprises de provisions financières – autres	
+77	Régularisations d’impôts sur le résultat	
+771	Régularisations d’impôt sur le revenu des collectivités (IRC)	
+772	Régularisations d’impôt commercial communal (ICC)	
+773	Régularisations d’impôts étrangers sur le résultat	
+779	Reprises de provisions pour impôts différés	
+78	Régularisations d’autres impôts ne figurant pas sous les postes ci-dessus	
+781	Régularisations d’impôt sur la fortune (IF)	
+782	Régularisations de taxe d’abonnement	
+783	Régularisations d’impôts étrangers	
+788	Régularisations d’autres impôts	

@@ -1,0 +1,442 @@
+# The base names in Finnish, keyed by the English name (Gamma's translations), for the packs in Finnish.
+# en	fi
+Base	Pääkonttori
+Cash desk	Kassa
+Bank	Pankki
+Point of sale	Myyntipiste
+Warehouse	Varasto
+Office	Toimisto
+Tax number	Y-tunnus
+Owner	Omistaja
+Name	Toiminimi
+Currency	Valuutta
+Trade name	Aputoiminimi
+Address	Osoite
+Phone	Puhelin
+E-mail	Sähköposti
+Website	Verkkosivusto
+Logo	Logo
+Authorised person	Valtuutettu henkilö
+Account	Tili
+Negative stock allowed (cost centres)	Negatiivinen saldo sallittu (kustannuspaikat)
+Negative stock allowed (partners)	Negatiivinen saldo sallittu (kumppanit)
+Negative stock allowed (employees)	Negatiivinen saldo sallittu (työntekijät)
+cost centres	kustannuspaikat
+partners	asiakkaat ja toimittajat
+employees	työntekijät
+Hold timeout (minutes)	Tositteen lukitusaika (minuuttia)
+ALL	ALL
+EUR	EUR
+USD	USD
+GBP	GBP
+CAD	CAD
+CHF	CHF
+Company book	Kirjanpidon poistot
+Tax book	Verotuksen poistot
+Straight-line	Tasapoisto
+Straight-line depreciation	Tasapoisto
+Remaining value	Menojäännös
+Depreciation on the remaining value	Menojäännöspoisto
+Assets	Pysyvät vastaavat
+Land	Maa-alueet
+Buildings	Rakennukset
+Office equipment	Toimistolaitteet
+Vehicles	Kuljetusvälineet
+Computer equipment	Tietokoneet
+Furniture and fittings	Kalusteet
+Intangible assets	Aineettomat hyödykkeet
+Sales	Myynti
+Sales invoices	Myyntilaskut
+Purchases	Ostot
+Purchase invoices	Ostolaskut
+Goods transfers	Varastosiirrot
+Goods transfer note	Siirtotosite
+Offers	Tarjoukset
+Journal	Muistiotositteet
+Contracts	Sopimukset
+Recurring journal	Toistuvat tositteet
+Reversals	Peruutukset
+Sales invoice, goods	Myyntilasku, tavarat
+Credit note, goods sold	Hyvityslasku, myydyt tavarat
+Sales invoice, services	Myyntilasku, palvelut
+Credit note, services sold	Hyvityslasku, myydyt palvelut
+Purchase invoice, goods	Ostolasku, tavarat
+Credit note, goods bought	Ostohyvityslasku, tavarat
+Purchase invoice, services	Ostolasku, palvelut
+Credit note, services bought	Ostohyvityslasku, palvelut
+Payment	Maksu
+Receipt	Suoritus
+Prepayment	Ennakkomaksu
+Goods transfer, cost centre to staff	Siirto kustannuspaikalta työntekijälle
+Sales offer, goods	Tarjous, tavarat
+Depreciation sheet	Poistosuunnitelma
+Depreciation journal	Poistojen kirjaus
+Journal sheet	Muistiotosite
+Revaluation sheet	Arvonkorotuserittely
+Revaluation journal	Arvonkorotuksen kirjaus
+Advance	Ennakko
+Client's advance	Asiakkaan ennakko
+Employee advance	Ennakko työntekijälle
+Advance to an employee	Ennakko työntekijälle
+Sales contract, goods	Myyntisopimus, tavarat
+Purchase contract, goods	Ostosopimus, tavarat
+Purchase offer, goods	Tarjouspyyntö, tavarat
+Sales offer, services	Tarjous, palvelut
+Purchase offer, services	Tarjouspyyntö, palvelut
+Sales contract, services	Palvelusopimus
+Purchase contract, services	Sopimus ostetuista palveluista
+Recurring depreciation sheet	Toistuva poistosuunnitelma
+Recurring journal sheet	Toistuva muistiotosite
+Recurring revaluation sheet	Toistuva arvonkorotuserittely
+General journal entry	Yleinen kirjaus
+Point-of-sale receipt	Kassakuitti
+Goods transfer, staff to cost centre	Siirto työntekijältä kustannuspaikalle
+Goods transfer, cost centre to client	Toimitus kustannuspaikalta asiakkaalle
+Goods transfer, client to cost centre	Palautus asiakkaalta kustannuspaikalle
+Point-of-sale contract	Myyntipisteen sopimus
+Point-of-sale receipt of money	Suoritus myyntipisteessä
+Point-of-sale payment	Maksu myyntipisteessä
+Point-of-sale goods in	Vastaanotto myyntipisteeseen
+Point-of-sale goods out	Luovutus myyntipisteestä
+Wage payment	Palkanmaksu
+Rent payment	Vuokranmaksu
+Customs declaration	Tulli-ilmoitus
+Customs declaration, assets	Tulli-ilmoitus käyttöomaisuudesta
+Point-of-sale refund	Rahan palautus myyntipisteessä
+Point-of-sale receipt from staff	Työntekijän suoritus myyntipisteessä
+Goods out to staff	Luovutus työntekijälle
+Goods transfer, staff to client	Toimitus työntekijältä asiakkaalle
+Goods in from staff	Vastaanotto työntekijältä
+Reversal of payment	Maksun peruutus
+Reversal of receipt	Suorituksen peruutus
+Reversal of prepayment	Ennakkomaksun peruutus
+Reversal of depreciation journal	Poistojen kirjauksen peruutus
+Reversal of advance	Ennakon peruutus
+Reversal of employee advance	Työntekijän ennakon peruutus
+End date	Päättymispäivä
+Offer valid until	Tarjous voimassa
+Start date	Alkamispäivä
+External number	Ulkoinen numero
+Contract number	Sopimusnumero
+Invoice number	Laskun numero
+Carrier	Kuljetusliike
+Linked invoice	Liittyvä lasku
+Purchase invoice	Ostolasku
+Last payment date	Viimeisen maksun päivä
+Accounts	Tilit
+Products / services	Tuotteet / palvelut
+Client / supplier / third party	Asiakas / toimittaja / kolmas osapuoli
+Staff	Henkilöstö
+Financial documents	Tositteet
+Transaction value	Rivin summa
+Transaction discount	Rivin alennus
+Transaction VAT	Rivin arvonlisävero
+Asset's remaining value	Hyödykkeen menojäännös
+Transaction debit	Rivin debet
+Transaction credit	Rivin kredit
+Transaction value with VAT	Rivin verollinen summa
+Non-current asset accounts	Pysyvien vastaavien tilit
+Inventory accounts	Varastotilit
+Expense accounts	Kulutilit
+Income accounts	Tuottotilit
+All accounts	Kaikki tilit
+table	taulu
+specified element	määritetty elementti
+empty element	tyhjä elementti
+line reference	riviviittaus
+line configuration	riviasetukset
+document reference	tositeviittaus
+document configuration	tositeasetukset
+scenario configuration	tiliöintiasetukset
+depreciation scenario configuration	poistojen tiliöintiasetukset
+depreciation scenario	poistojen tiliöinti
+Transaction amount	Rivin summa
+Finance	Taloushallinto
+Administrator	Pääkäyttäjä
+Financier	Kirjanpitäjä
+Warehouse keeper	Varastotyöntekijä
+Driver	Kuljettaja
+Worker	Työntekijä
+Clients	Asiakkaat
+Suppliers	Toimittajat
+Unknown	Tuntematon
+Person	Yksityishenkilö
+SME	PK-yritys
+LTD	Oy
+Cash	Käteinen
+Unpaid	Maksamatta
+Credit card	Maksukortti
+Products	Tuotteet
+Services	Palvelut
+Goods	Kauppatavarat
+Service	Palvelu
+Asset	Käyttöomaisuushyödyke
+Items	Nimikkeet
+Transactions	Rivit
+Journal lines	Tositerivit
+Depreciation lines	Poistorivit
+Revaluation lines	Arvonkorotusrivit
+Item	Nimike
+Fixed asset	Käyttöomaisuushyödyke
+Service item	Nimike (palvelu)
+Supplier	Toimittaja
+Client	Asiakas
+Cash desk account	Kassatili
+Bank account	Pankkitili
+Depreciation	Poisto
+Revaluation	Arvonkorotus
+Fixed asset (service)	Käyttöomaisuus (palvelu)
+Combined item	Rakennenimike
+Customs	Tulli
+Transport	Rahti
+Customs agency	Tulliasiamies
+Customs, assets	Tulli käyttöomaisuudesta
+Transport, assets	Käyttöomaisuuden rahti
+Customs agency, assets	Tulliasiamies, käyttöomaisuus
+Piece	Kappale
+kg	kg
+Hour	Tunti
+Day	Päivä
+Month	Kuukausi
+Year	Vuosi
+g	g
+cm	cm
+m	m
+mm	mm
+km	km
+Standard	Vakio
+Weight	Paino
+Time	Aika
+Length	Pituus
+Seller	Myyjä
+IT	IT
+Consultant	Konsultti
+VAT 20%	ALV 20%
+VAT 0%	ALV 0%
+Hall	Sali
+Table	Pöytä
+Counter	Tiski
+Production	Valmistus
+Reversal of production	Valmistuksen peruutus
+Unit split	Yksikön muunto
+Reversal of unit split	Yksikön muunnon peruutus
+Raw material used	Käytetty raaka-aine
+Produced item	Valmistettu tuote
+Waste	Hukka
+Account ledger	Tilikortti
+Administration	Hallinta
+Chart of accounts	Tilikartta
+Client and supplier ledger	Asiakas- ja toimittajakortti
+Client statistics	Asiakastilastot
+Clients and suppliers	Asiakkaat ja toimittajat
+Configuration	Asetukset
+Convert stock between units	Muunna varasto toiseen yksikköön
+Cost centre ledger	Kustannuspaikkakortti
+Cost centres	Kustannuspaikat
+Currencies and exchange rates	Valuutat ja valuuttakurssit
+Document types	Asiakirjatyypit
+Documents	Asiakirjat
+Employees	Työntekijät
+Files	Tiedostot
+Financial reports	Talousraportit
+Item movements	Nimiketapahtumat
+Menu	Valikko
+Menu access	Valikon käyttöoikeus
+Operations	Toiminnot
+Orders to produce	Valmistettavat tilaukset
+Payment methods	Maksutavat
+Posting scenarios	Kirjausskenaariot
+Print templates	Tulostuspohjat
+Products and services	Tuotteet ja palvelut
+Recipes	Reseptit
+Registers	Perustiedot
+Reports	Raportit
+Rights	Oikeudet
+Sale menus	Myyntivalikot
+Point-of-sale settings	Myyntipisteen asetukset
+Shows	Näytökset
+Purchases from the group	Ostot konsernilta
+Barcode	Viivakoodi
+Sale prices	Myyntihinnat
+Sales and purchases by line	Myynnit ja ostot riveittäin
+Stock	Varasto
+Stock and sales	Varasto ja myynti
+Trial balance	Saldoluettelo
+Unit conversions	Yksikkömuunnokset
+Units of measure	Mittayksiköt
+Users	Käyttäjät
+VAT books	ALV-kirjat
+VAT groups	ALV-ryhmät
+VAT return	ALV-ilmoitus
+VAT return boxes	ALV-ilmoituksen kentät
+Company of the group	Konserniyhtiö
+Restaurant / café	Ravintola / kahvila
+Shop	Myymälä
+Till	Kassa
+Cinema / theatre	Elokuvateatteri / teatteri
+Auditorium	Sali
+Row	Rivi
+Seat	Paikka
+Hotel	Hotelli
+Floor	Kerros
+Room	Huone
+Beds	Vuoteet
+Position X	Sijainti X
+Seats	Paikat
+Position Y	Sijainti Y
+Reversal of journal sheet	Tositelehden peruutus
+Reversal of depreciation sheet	Poistolehden peruutus
+Reversal of general journal entry	Yleisen kirjauksen peruutus
+Open the point of sale	Avaa myyntipiste
+Stock and production	Varasto ja tuotanto
+Accounting setup	Kirjanpidon asetukset
+Fixed assets	Käyttöomaisuus
+Currencies and payments	Valuutat ja maksut
+Company	Yritys
+Users and rights	Käyttäjät ja oikeudet
+System settings	Järjestelmän asetukset
+Types and categories	Tyypit ja luokat
+VAT	ALV
+Financial	Talous
+Sale prices by partner	Myyntihinnat kumppanin mukaan
+Sale menu categories	Myyntivalikon luokat
+Scenario lines	Skenaarioiden rivit
+Unbalanced scenarios	Tasapainottamattomat skenaariot
+Remaining asset value	Omaisuuden jäännösarvo
+VAT return box rules	ALV-ilmoituksen kenttien säännöt
+VAT return by boxes	ALV-ilmoitus kentittäin
+Payment methods by cost centre	Maksutavat kustannuspaikoittain
+Users and roles	Käyttäjät ja roolit
+Document flows	Asiakirjavirrat
+Chart types and categories	Tilikartan tyypit ja luokat
+Balance sheet	Tase
+Profit and loss	Tuloslaskelma
+Balance sheet lines	Taseen rivit
+Profit and loss lines	Tuloslaskelman rivit
+City	Kaupunki
+Staff ledger	Henkilöstön tili
+Sales and purchases by client	Myynti ja osto asiakkaittain
+Sales and purchases by cost centre	Myynti ja osto kustannuspaikoittain
+Transfers	Siirrot
+Document totals	Asiakirjojen summat
+Purchase price history	Ostohintahistoria
+Depreciation books	Poistokirjat
+Depreciation methods	Poistomenetelmät
+Depreciation scenarios	Poistoskenaariot
+Depreciation scenario lines	Poistoskenaarioiden rivit
+Serial numbers	Sarjanumerot
+User activity	Käyttäjien toiminta
+Dashboard	Koontinäyttö
+Dashboard items	Koontinäytön kohteet
+Clients owe us	Asiakkaiden velat meille
+We owe suppliers	Velat toimittajille
+Drafts waiting	Odottavat luonnokset
+Sales and purchases by month	Myynti ja ostot kuukausittain
+VAT by month	ALV kuukausittain
+Top clients	Parhaat asiakkaat
+Top suppliers	Parhaat toimittajat
+Top products	Parhaat tuotteet
+Sales by cost centre	Myynti kustannuspaikoittain
+Migration	Siirto
+Migration steps	Siirron vaiheet
+Warehouses, banks, cash desks and places	Varastot, pankit, kassat ja paikat
+Client and supplier categories	Asiakas- ja toimittajaluokat
+Product categories	Tuoteluokat
+Units	Yksiköt
+Exchange rates	Valuuttakurssit
+Next document numbers	Seuraavat asiakirjanumerot
+Opening balances: clients and suppliers	Avaussaldot: asiakkaat ja toimittajat
+Opening balances: banks, cash desks and staff	Avaussaldot: pankit, kassat ja henkilöstö
+Opening balances: the chart	Avaussaldot: tilikartta
+Posting groups	Kirjausryhmät
+Document categories	Asiakirjaluokat
+Opening balances: stock	Avaussaldot: varasto
+Opening balances: fixed assets	Avaussaldot: käyttöomaisuus
+VAT groups of document types	Asiakirjatyyppien ALV-ryhmät
+Closed periods	Suljetut kaudet
+Transaction types	Tapahtumatyypit
+Transaction scopes	Tapahtumien alueet
+Transaction categories	Tapahtumaluokat
+Transaction types of document types	Asiakirjatyyppien tapahtumatyypit
+General client	Yleisasiakas
+Transaction asset cost	Hyödykkeen hankintameno
+Transaction asset depreciation	Hyödykkeen poistot
+Transaction asset book value	Hyödykkeen kirjanpitoarvo
+Sales by waiter	Myynti tarjoilijoittain
+Ageing	Ikäjakauma
+Open invoices	Avoimet laskut
+Overdue from clients	Erääntyneet asiakkailta
+Overdue to suppliers	Erääntyneet toimittajille
+Gross profit	Bruttokate
+Gross profit by cost centre	Bruttokate kustannuspaikoittain
+Top combined products	Parhaat yhdistelmätuotteet
+Close the year	Päätä vuosi
+Invoice run	Sopimuslaskutus
+Renewals	Uusinnat
+CRM	CRM
+Opportunities	Myyntimahdollisuudet
+Pipeline	Myyntiputki
+Forecast	Ennuste
+Opportunity stages	Mahdollisuuksien vaiheet
+Sales opportunities	Myyntimahdollisuudet
+Opportunity	Mahdollisuus
+Qualify	Arviointi
+Propose	Tarjous
+Negotiate	Neuvottelu
+Won	Voitettu
+Lost	Hävitty
+Leads	Liidit
+Orders	Tilaukset
+Purchase request	Ostopyyntö
+Purchase order	Ostotilaus
+Sales order	Myyntitilaus
+Approvals	Hyväksynnät
+Approval limits	Hyväksymisrajat
+Bank statements	Tiliotteet
+Bank statement formats	Tiliotemuodot
+Date, text, reference, amount	Päivä, teksti, viite, summa
+Lots	Erät
+Shifts	Vuorot
+Production point	Tuotantopiste
+Production point display	Tuotantopisteen näyttö
+Production routes	Tuotantoreitit
+Point-of-sale order	Myyntipisteen tilaus
+Repairs	Korjaukset
+Repair intake	Korjauksen vastaanotto
+Repair offer	Korjaustarjous
+Technician	Teknikko
+Received	Vastaanotettu
+Offer given	Tarjous annettu
+Accepted	Hyväksytty
+Ready	Valmis
+Collected	Noudettu
+Refused	Hylätty
+Item	Tuote
+Brand and model	Merkki ja malli
+Serial number or plate	Sarjanumero tai rekisterikilpi
+Accessories left	Jätetyt lisävarusteet
+Defect described	Kuvattu vika
+Come back on	Palaa
+Repair board	Korjaustaulu
+Repair stages	Korjausvaiheet
+Repair shop	Korjaamo
+Roles	Roolit
+Account mapping	Tilien vastaavuus
+Waiter	Tarjoilija
+Cashier	Kassanhoitaja
+Disassembly	Purku
+Product taken apart	Purettu tuote
+Recovered component	Talteen otettu osa
+Disassembly waste	Purkuhävikki
+Point-of-sale reversal	Kassamyynnin peruutus
+Reversal of customs declaration	Peruutus: Tulli-ilmoitus
+Reversal of customs declaration, assets	Peruutus: Tulli-ilmoitus käyttöomaisuudesta
+Reversal of goods transfer note	Peruutus: Siirtotosite
+Reversal of goods transfer, cost centre to staff	Peruutus: Siirto kustannuspaikalta työntekijälle
+Reversal of goods transfer, staff to cost centre	Peruutus: Siirto työntekijältä kustannuspaikalle
+Reversal of goods transfer, cost centre to client	Peruutus: Toimitus kustannuspaikalta asiakkaalle
+Reversal of goods transfer, client to cost centre	Peruutus: Palautus asiakkaalta kustannuspaikalle
+Reversal of goods transfer, staff to client	Peruutus: Toimitus työntekijältä asiakkaalle
+Opportunity types and categories	Mahdollisuuksien tyypit ja luokat
+Opportunities and documents	Mahdollisuudet ja asiakirjat
+Skins	Teemat

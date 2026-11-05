@@ -1,0 +1,307 @@
+{
+  "country": "AT",
+  "language": "de",
+  "currency": "EUR",
+  "sources": [
+    "Chart: Gamma's generic chart on the IAS 1 captions, in German (Austria's Einheitskontenrahmen is not reproduced; UGB §§ 224, 231 set only the statements)",
+    "VAT: UStG 1994 § 10: 20 % standard, 13 % and 10 % reduced, 0 %",
+    "Depreciation: EStG 1988 § 7, § 8: buildings 2.5 % (business use), cars 8 years (§ 8 (6)); other assets over their useful life (computers 4 years, furniture and machinery 10 years, as commonly taken)"
+  ],
+  "uncertain": [
+    "The chart is not official.",
+    "Lives other than buildings and cars are common practice, to be checked."
+  ],
+  "chart": {
+    "generic": true,
+    "category": {
+      "code": "GAMMA",
+      "name": "Kontenplan (Gamma, nach IAS 1)"
+    },
+    "types": [
+      {
+        "code": "1",
+        "name": "Klasse 1 – Anlagevermögen",
+        "prefixes": [
+          "1"
+        ],
+        "roles": [
+          "fixed_assets"
+        ]
+      },
+      {
+        "code": "2",
+        "name": "Klasse 2 – Umlaufvermögen",
+        "prefixes": [
+          "2"
+        ],
+        "roles": []
+      },
+      {
+        "code": "3",
+        "name": "Klasse 3 – Eigenkapital",
+        "prefixes": [
+          "3"
+        ],
+        "roles": []
+      },
+      {
+        "code": "4",
+        "name": "Klasse 4 – Verbindlichkeiten",
+        "prefixes": [
+          "4"
+        ],
+        "roles": []
+      },
+      {
+        "code": "5",
+        "name": "Klasse 5 – Erträge",
+        "prefixes": [
+          "5"
+        ],
+        "roles": [
+          "income"
+        ]
+      },
+      {
+        "code": "6",
+        "name": "Klasse 6 – Wareneinkauf und Materialaufwand",
+        "prefixes": [
+          "6"
+        ],
+        "roles": [
+          "inventories"
+        ]
+      },
+      {
+        "code": "7",
+        "name": "Klasse 7 – Aufwendungen",
+        "prefixes": [
+          "7"
+        ],
+        "roles": [
+          "expenses"
+        ]
+      },
+      {
+        "code": "8",
+        "name": "Klasse 8 – Steuern vom Einkommen und vom Ertrag",
+        "prefixes": [
+          "8"
+        ],
+        "roles": []
+      }
+    ]
+  },
+  "roles": {
+    "clients": "2201",
+    "output_vat": "4401",
+    "suppliers": "4101",
+    "input_vat": "2401",
+    "employee_advances": "2303",
+    "goods_sales": "5001",
+    "goods_purchases": "6001",
+    "client_advances": "4104",
+    "supplier_prepayments": "2302",
+    "wages_payable": "4203",
+    "rent_expense": "7101",
+    "services_sales": "5002",
+    "services_purchases": "7205",
+    "asset_assets": "1103",
+    "asset_land": "1101",
+    "asset_buildings": "1102",
+    "asset_office": "1105",
+    "asset_vehicles": "1104",
+    "asset_computers": "1106",
+    "asset_furniture": "1105",
+    "asset_intangible": "1302",
+    "production": "2005",
+    "waste": "7705"
+  },
+  "cash_account": "2801",
+  "bank_account": "2803",
+  "services_account": "5002",
+  "vat": [
+    {
+      "rate": 20,
+      "name": "USt 20%",
+      "en": "VAT 20%",
+      "standard": true
+    },
+    {
+      "rate": 13,
+      "name": "USt 13%",
+      "en": "VAT 13%",
+      "standard": true
+    },
+    {
+      "rate": 10,
+      "name": "USt 10%",
+      "en": "VAT 10%",
+      "standard": true
+    },
+    {
+      "rate": 0,
+      "name": "USt 0% / steuerfrei",
+      "en": "VAT 0% / exempt",
+      "standard": false
+    }
+  ],
+  "depreciation": {
+    "assets": [
+      120,
+      10,
+      "7602",
+      "1203"
+    ],
+    "land": [
+      null,
+      0,
+      null,
+      null
+    ],
+    "buildings": [
+      480,
+      2.5,
+      "7601",
+      "1202"
+    ],
+    "office": [
+      120,
+      10,
+      "7604",
+      "1205"
+    ],
+    "vehicles": [
+      96,
+      12.5,
+      "7603",
+      "1204"
+    ],
+    "computers": [
+      48,
+      25,
+      "7605",
+      "1206"
+    ],
+    "furniture": [
+      120,
+      10,
+      "7604",
+      "1205"
+    ],
+    "intangible": [
+      48,
+      25,
+      "7606",
+      "1402"
+    ]
+  },
+  "document_codes": {
+    "PURCHASE_REQUEST": "PRQ",
+    "PURCHASE_ORDER": "POR",
+    "SALES_ORDER": "SOR",
+    "REPAIR_INTAKE": "RIN",
+    "REPAIR_OFFER": "ROF",
+    "POS_ORDER": "PSO",
+    "SALES_INVOICE_GOODS": "RE",
+    "CREDIT_NOTE_GOODS_SOLD": "GS",
+    "SALES_INVOICE_SERVICES": "RED",
+    "CREDIT_NOTE_SERVICES_SOLD": "GSD",
+    "PURCHASE_INVOICE_GOODS": "ER",
+    "CREDIT_NOTE_GOODS_BOUGHT": "EG",
+    "PURCHASE_INVOICE_SERVICES": "ERD",
+    "CREDIT_NOTE_SERVICES_BOUGHT": "EGD",
+    "GOODS_TRANSFER": "UL",
+    "PAYMENT": "ZA",
+    "RECEIPT": "ZE",
+    "PREPAYMENT": "VZ",
+    "GOODS_TRANSFER_TO_STAFF": "ULM",
+    "SALES_OFFER_GOODS": "AN",
+    "DEPRECIATION_SHEET": "AFP",
+    "DEPRECIATION_JOURNAL": "AFA",
+    "JOURNAL_SHEET": "BB",
+    "JOURNAL_PAYMENT": "ZA",
+    "JOURNAL_RECEIPT": "ZE",
+    "JOURNAL_PREPAYMENT": "VZ",
+    "REVALUATION_SHEET": "NBP",
+    "REVALUATION_JOURNAL": "NB",
+    "ADVANCE": "AZ",
+    "EMPLOYEE_ADVANCE": "VSM",
+    "JOURNAL_ADVANCE": "AZ",
+    "JOURNAL_EMPLOYEE_ADVANCE": "VSM",
+    "SALES_CONTRACT_GOODS": "KVV",
+    "PURCHASE_CONTRACT_GOODS": "KVE",
+    "PURCHASE_OFFER_GOODS": "ANF",
+    "SALES_OFFER_SERVICES": "AND",
+    "PURCHASE_OFFER_SERVICES": "ANFD",
+    "SALES_CONTRACT_SERVICES": "DLV",
+    "PURCHASE_CONTRACT_SERVICES": "DLE",
+    "RECURRING_DEPRECIATION_SHEET": "AFPW",
+    "RECURRING_JOURNAL_SHEET": "BBW",
+    "RECURRING_REVALUATION_SHEET": "NBPW",
+    "GENERAL_JOURNAL_ENTRY": "AB",
+    "POS_RECEIPT": "KB",
+    "GOODS_TRANSFER_FROM_STAFF": "ULK",
+    "GOODS_TRANSFER_TO_CLIENT": "LS",
+    "GOODS_TRANSFER_FROM_CLIENT": "RN",
+    "POS_CONTRACT": "VKV",
+    "POS_MONEY_IN": "KEI",
+    "POS_MONEY_OUT": "KAU",
+    "POS_GOODS_IN": "WEV",
+    "POS_GOODS_OUT": "WAV",
+    "WAGE_PAYMENT": "LZ",
+    "RENT_PAYMENT": "MZ",
+    "CUSTOMS_DECLARATION": "ZOLL",
+    "CUSTOMS_DECLARATION_ASSETS": "ZOLLA",
+    "POS_REVERSAL": "KBR",
+    "POS_REFUND": "KER",
+    "POS_MONEY_FROM_STAFF": "KEM",
+    "GOODS_OUT_TO_STAFF": "WAM",
+    "GOODS_TRANSFER_STAFF_TO_CLIENT": "LSM",
+    "GOODS_IN_FROM_STAFF": "WEM",
+    "REVERSAL_PAYMENT": "SZA",
+    "REVERSAL_RECEIPT": "SZE",
+    "REVERSAL_PREPAYMENT": "SVZ",
+    "REVERSAL_DEPRECIATION_JOURNAL": "SAFA",
+    "REVERSAL_JOURNAL_PAYMENT": "SZAJ",
+    "REVERSAL_JOURNAL_RECEIPT": "SZEJ",
+    "REVERSAL_JOURNAL_PREPAYMENT": "SVZJ",
+    "REVERSAL_ADVANCE": "SAZ",
+    "REVERSAL_EMPLOYEE_ADVANCE": "SVSM",
+    "REVERSAL_JOURNAL_ADVANCE": "SAZJ",
+    "REVERSAL_JOURNAL_EMPLOYEE_ADVANCE": "SVSMJ",
+    "PRODUCTION": "PRD",
+    "UNIT_SPLIT": "EUM",
+    "REVERSAL_UNIT_SPLIT": "SEUM",
+    "REVERSAL_JOURNAL_SHEET": "SBBJ",
+    "REVERSAL_DEPRECIATION_SHEET": "SAFPJ",
+    "REVERSAL_GENERAL_JOURNAL_ENTRY": "SABJ",
+    "RECURRING_JOURNAL_PAYMENT": "ZAW",
+    "REVERSAL_RECURRING_JOURNAL_PAYMENT": "SZAWJ",
+    "RECURRING_JOURNAL_RECEIPT": "ZEW",
+    "REVERSAL_RECURRING_JOURNAL_RECEIPT": "SZEWJ",
+    "RECURRING_JOURNAL_PREPAYMENT": "VZW",
+    "REVERSAL_RECURRING_JOURNAL_PREPAYMENT": "SVZWJ",
+    "RECURRING_JOURNAL_ADVANCE": "AZW",
+    "REVERSAL_RECURRING_JOURNAL_ADVANCE": "SAZWJ",
+    "RECURRING_JOURNAL_EMPLOYEE_ADVANCE": "VSMW",
+    "REVERSAL_RECURRING_JOURNAL_EMPLOYEE_ADVANCE": "SVSMWJ",
+    "RECURRING_GENERAL_JOURNAL_ENTRY": "ABW",
+    "REVERSAL_RECURRING_GENERAL_JOURNAL_ENTRY": "SABWJ",
+    "REVERSAL_RECURRING_JOURNAL_SHEET": "SBBWJ",
+    "RECURRING_DEPRECIATION_JOURNAL": "AFAW",
+    "REVERSAL_RECURRING_DEPRECIATION_JOURNAL": "SAFAWJ",
+    "REVERSAL_RECURRING_DEPRECIATION_SHEET": "SAFPWJ",
+    "RECURRING_REVALUATION_JOURNAL": "NBW",
+    "DISASSEMBLY": "DEM",
+    "REVERSAL_CUSTOMS_DECLARATION": "SZOLL",
+    "REVERSAL_CUSTOMS_DECLARATION_ASSETS": "SZOLLA",
+    "REVERSAL_GOODS_TRANSFER": "SUL",
+    "REVERSAL_GOODS_TRANSFER_TO_STAFF": "SULM",
+    "REVERSAL_GOODS_TRANSFER_FROM_STAFF": "SULK",
+    "REVERSAL_GOODS_TRANSFER_TO_CLIENT": "SLS",
+    "REVERSAL_GOODS_TRANSFER_FROM_CLIENT": "SRN",
+    "REVERSAL_GOODS_TRANSFER_STAFF_TO_CLIENT": "SLSM"
+  },
+  "document_descriptions": {}
+}

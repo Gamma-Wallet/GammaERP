@@ -1,0 +1,54 @@
+[
+ {
+  "Key": "vat_group:MK_18",
+  "IdSup": null,
+  "Active": true,
+  "Code": null,
+  "Name": {
+   "en": "VAT 18%",
+   "mk": "ДДВ 18%"
+  },
+  "Description": null,
+  "Rate": 18.0,
+  "Depreciation": false
+ },
+ {
+  "Key": "vat_group:MK_10",
+  "IdSup": null,
+  "Active": true,
+  "Code": null,
+  "Name": {
+   "en": "VAT 10%",
+   "mk": "ДДВ 10%"
+  },
+  "Description": null,
+  "Rate": 10.0,
+  "Depreciation": false
+ },
+ {
+  "Key": "vat_group:MK_5",
+  "IdSup": null,
+  "Active": true,
+  "Code": null,
+  "Name": {
+   "en": "VAT 5%",
+   "mk": "ДДВ 5%"
+  },
+  "Description": null,
+  "Rate": 5.0,
+  "Depreciation": false
+ },
+ {
+  "Key": "vat_group:MK_0",
+  "IdSup": null,
+  "Active": true,
+  "Code": null,
+  "Name": {
+   "en": "VAT 0% / exempt",
+   "mk": "ДДВ 0% / ослободено"
+  },
+  "Description": null,
+  "Rate": 0.0,
+  "Depreciation": false
+ }
+]

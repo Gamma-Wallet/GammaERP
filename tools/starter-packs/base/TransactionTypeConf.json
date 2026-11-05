@@ -1,0 +1,202 @@
+[
+ {
+  "Key": "transaction_type_conf:1",
+  "IdSup": null,
+  "Active": true,
+  "TransactionTypeId": "transaction_type:ACCOUNT",
+  "ElementsId": "elements:2",
+  "StockDirection": 0
+ },
+ {
+  "Key": "transaction_type_conf:2",
+  "IdSup": null,
+  "Active": true,
+  "TransactionTypeId": "transaction_type:ITEM",
+  "ElementsId": "elements:3",
+  "StockDirection": 1
+ },
+ {
+  "Key": "transaction_type_conf:3",
+  "IdSup": null,
+  "Active": true,
+  "TransactionTypeId": "transaction_type:FIXED_ASSET",
+  "ElementsId": "elements:4",
+  "StockDirection": 1
+ },
+ {
+  "Key": "transaction_type_conf:4",
+  "IdSup": null,
+  "Active": true,
+  "TransactionTypeId": "transaction_type:SERVICE_ITEM",
+  "ElementsId": "elements:5",
+  "StockDirection": 0
+ },
+ {
+  "Key": "transaction_type_conf:5",
+  "IdSup": null,
+  "Active": true,
+  "TransactionTypeId": "transaction_type:SUPPLIER",
+  "ElementsId": "elements:6",
+  "StockDirection": 0
+ },
+ {
+  "Key": "transaction_type_conf:6",
+  "IdSup": null,
+  "Active": true,
+  "TransactionTypeId": "transaction_type:STAFF",
+  "ElementsId": "elements:7",
+  "StockDirection": 0
+ },
+ {
+  "Key": "transaction_type_conf:7",
+  "IdSup": null,
+  "Active": true,
+  "TransactionTypeId": "transaction_type:CLIENT",
+  "ElementsId": "elements:8",
+  "StockDirection": 0
+ },
+ {
+  "Key": "transaction_type_conf:8",
+  "IdSup": null,
+  "Active": true,
+  "TransactionTypeId": "transaction_type:CASH_DESK_ACCOUNT",
+  "ElementsId": "elements:74",
+  "StockDirection": 0
+ },
+ {
+  "Key": "transaction_type_conf:9",
+  "IdSup": null,
+  "Active": true,
+  "TransactionTypeId": "transaction_type:BANK_ACCOUNT",
+  "ElementsId": "elements:142",
+  "StockDirection": 0
+ },
+ {
+  "Key": "transaction_type_conf:10",
+  "IdSup": null,
+  "Active": true,
+  "TransactionTypeId": "transaction_type:DEPRECIATION",
+  "ElementsId": "elements:29",
+  "StockDirection": 0
+ },
+ {
+  "Key": "transaction_type_conf:11",
+  "IdSup": null,
+  "Active": true,
+  "TransactionTypeId": "transaction_type:FIXED_ASSET_SERVICE",
+  "ElementsId": "elements:128",
+  "StockDirection": 0
+ },
+ {
+  "Key": "transaction_type_conf:12",
+  "IdSup": null,
+  "Active": true,
+  "TransactionTypeId": "transaction_type:CUSTOMS",
+  "ElementsId": "elements:151",
+  "StockDirection": 0
+ },
+ {
+  "Key": "transaction_type_conf:13",
+  "IdSup": null,
+  "Active": true,
+  "TransactionTypeId": "transaction_type:TRANSPORT",
+  "ElementsId": "elements:152",
+  "StockDirection": 0
+ },
+ {
+  "Key": "transaction_type_conf:14",
+  "IdSup": null,
+  "Active": true,
+  "TransactionTypeId": "transaction_type:CUSTOMS_AGENCY",
+  "ElementsId": "elements:153",
+  "StockDirection": 0
+ },
+ {
+  "Key": "transaction_type_conf:15",
+  "IdSup": null,
+  "Active": true,
+  "TransactionTypeId": "transaction_type:CUSTOMS_ASSETS",
+  "ElementsId": "elements:156",
+  "StockDirection": 0
+ },
+ {
+  "Key": "transaction_type_conf:16",
+  "IdSup": null,
+  "Active": true,
+  "TransactionTypeId": "transaction_type:TRANSPORT_ASSETS",
+  "ElementsId": "elements:157",
+  "StockDirection": 0
+ },
+ {
+  "Key": "transaction_type_conf:17",
+  "IdSup": null,
+  "Active": true,
+  "TransactionTypeId": "transaction_type:CUSTOMS_AGENCY_ASSETS",
+  "ElementsId": "elements:158",
+  "StockDirection": 0
+ },
+ {
+  "Key": "transaction_type_conf:18",
+  "IdSup": null,
+  "Active": true,
+  "TransactionTypeId": "transaction_type:CUSTOMS_AGENCY_ASSETS",
+  "ElementsId": "elements:159",
+  "StockDirection": 0
+ },
+ {
+  "Key": "transaction_type_conf:production:RAW_MATERIAL",
+  "IdSup": null,
+  "Active": true,
+  "TransactionTypeId": "transaction_type:RAW_MATERIAL",
+  "ElementsId": "elements:3",
+  "StockDirection": 2
+ },
+ {
+  "Key": "transaction_type_conf:production:PRODUCED_ITEM",
+  "IdSup": null,
+  "Active": true,
+  "TransactionTypeId": "transaction_type:PRODUCED_ITEM",
+  "ElementsId": "elements:3",
+  "StockDirection": 3
+ },
+ {
+  "Key": "transaction_type_conf:production:WASTE",
+  "IdSup": null,
+  "Active": true,
+  "TransactionTypeId": "transaction_type:WASTE",
+  "ElementsId": "elements:3",
+  "StockDirection": 4
+ },
+ {
+  "Key": "transaction_type_conf:disassembly:DISASSEMBLED_ITEM",
+  "IdSup": null,
+  "Active": true,
+  "TransactionTypeId": "transaction_type:DISASSEMBLED_ITEM",
+  "ElementsId": "elements:3",
+  "StockDirection": 2
+ },
+ {
+  "Key": "transaction_type_conf:disassembly:RECOVERED_PART",
+  "IdSup": null,
+  "Active": true,
+  "TransactionTypeId": "transaction_type:RECOVERED_PART",
+  "ElementsId": "elements:3",
+  "StockDirection": 3
+ },
+ {
+  "Key": "transaction_type_conf:disassembly:DISASSEMBLY_WASTE",
+  "IdSup": null,
+  "Active": true,
+  "TransactionTypeId": "transaction_type:DISASSEMBLY_WASTE",
+  "ElementsId": "elements:3",
+  "StockDirection": 5
+ },
+ {
+  "Key": "transaction_type_conf:revaluation",
+  "IdSup": null,
+  "Active": true,
+  "TransactionTypeId": "transaction_type:REVALUATION",
+  "ElementsId": "elements:2",
+  "StockDirection": 0
+ }
+]

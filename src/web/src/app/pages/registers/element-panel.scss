@@ -1,0 +1,133 @@
+:host {
+  display: flex;
+  flex-direction: column;
+  min-height: 0;
+  border-left: 1px solid var(--line);
+  background: var(--surface);
+}
+
+header {
+  display: flex;
+  align-items: flex-start;
+  gap: var(--space-3);
+  padding: var(--space-4) var(--space-4) var(--space-2) var(--space-5);
+}
+
+.title {
+  flex: 1;
+  min-width: 0;
+
+  h2 {
+    overflow: hidden;
+    font-size: var(--title-m);
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  span {
+    font-size: var(--text-s);
+  }
+}
+
+.tabs {
+  padding: 0 var(--space-5);
+}
+
+.body {
+  display: grid;
+  flex: 1;
+  align-content: start;
+  gap: var(--space-4);
+  min-height: 0;
+  padding: var(--space-4) var(--space-5) var(--space-5);
+  overflow-y: auto;
+
+  > p {
+    margin: 0;
+  }
+}
+
+h3 {
+  padding-top: var(--space-3);
+  border-top: 1px solid var(--line);
+  font-size: var(--title-s);
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: var(--space-4);
+}
+
+.wide {
+  grid-column: 1 / -1;
+}
+
+// In a narrow panel the property form is one column.
+ui-property-form {
+  grid-template-columns: minmax(0, 1fr);
+}
+
+.message {
+  display: flex;
+  align-items: flex-start;
+  gap: var(--space-2);
+  padding: var(--space-3);
+  border-radius: var(--radius);
+  background: var(--critical-bg);
+  color: var(--critical);
+}
+
+.inline {
+  display: flex;
+  gap: var(--space-2);
+}
+
+.versions {
+  display: grid;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+
+  li {
+    display: grid;
+    gap: var(--space-1);
+    padding: var(--space-3) 0;
+    border-bottom: 1px solid var(--line);
+  }
+
+  .when {
+    color: var(--muted);
+    font-size: var(--text-s);
+  }
+
+  .changes {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--space-1);
+  }
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+  padding: var(--space-3) var(--space-5);
+  border-top: 1px solid var(--line);
+
+  .spacer {
+    flex: 1;
+  }
+}
+
+.linked { display: grid; gap: var(--space-2); margin: 0; padding: 0; list-style: none; }
+.linked li { display: flex; flex-wrap: wrap; gap: var(--space-3); align-items: baseline; }
+
+.tokens { display: grid; gap: var(--space-2); }
+.tokens h3 { margin: var(--space-2) 0 0; font-size: var(--text-m); }
+.tokens .muted { margin: 0; color: var(--muted); }
+.tokens table { width: 100%; border-collapse: collapse; font-size: var(--text-s); }
+.tokens th, .tokens td { padding: 6px var(--space-2); border-bottom: 1px solid var(--line); text-align: left; }
+.tokens th { color: var(--muted); font-size: var(--text-xs); font-weight: 600; }
+.tokens .end { text-align: right; }
+.tokens code { font-family: ui-monospace, Menlo, Consolas, monospace; }

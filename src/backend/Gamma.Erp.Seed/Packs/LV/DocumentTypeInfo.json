@@ -1,0 +1,408 @@
+[
+ {
+  "Key": "document_type_info:1",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "document_type:SALES_CONTRACT_GOODS",
+  "Name": {
+   "en": "End date",
+   "lv": "Beigu datums"
+  },
+  "Description": null,
+  "Required": false,
+  "Kind": 4,
+  "SortOrder": 4.0,
+  "ElementsId": "elements:1",
+  "IsFile": false
+ },
+ {
+  "Key": "document_type_info:2",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "document_type:PURCHASE_OFFER_SERVICES",
+  "Name": {
+   "en": "Offer valid until",
+   "lv": "Piedāvājums derīgs līdz"
+  },
+  "Description": {
+   "en": "Offer valid until",
+   "lv": "Piedāvājums derīgs līdz"
+  },
+  "Required": true,
+  "Kind": 4,
+  "SortOrder": 6.0,
+  "ElementsId": "elements:1",
+  "IsFile": false
+ },
+ {
+  "Key": "document_type_info:3",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "document_type:SALES_CONTRACT_SERVICES",
+  "Name": {
+   "en": "End date",
+   "lv": "Beigu datums"
+  },
+  "Description": null,
+  "Required": false,
+  "Kind": 4,
+  "SortOrder": 7.0,
+  "ElementsId": "elements:1",
+  "IsFile": false
+ },
+ {
+  "Key": "document_type_info:4",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "document_type:SALES_CONTRACT_GOODS",
+  "Name": {
+   "en": "Start date",
+   "lv": "Sākuma datums"
+  },
+  "Description": {
+   "en": "Start date",
+   "lv": "Sākuma datums"
+  },
+  "Required": false,
+  "Kind": 4,
+  "SortOrder": 8.0,
+  "ElementsId": "elements:1",
+  "IsFile": false
+ },
+ {
+  "Key": "document_type_info:5",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "document_type:SALES_CONTRACT_SERVICES",
+  "Name": {
+   "en": "Start date",
+   "lv": "Sākuma datums"
+  },
+  "Description": {
+   "en": "Start date",
+   "lv": "Sākuma datums"
+  },
+  "Required": false,
+  "Kind": 4,
+  "SortOrder": 9.0,
+  "ElementsId": "elements:1",
+  "IsFile": false
+ },
+ {
+  "Key": "document_type_info:6",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "document_type:PURCHASE_CONTRACT_GOODS",
+  "Name": {
+   "en": "Start date",
+   "lv": "Sākuma datums"
+  },
+  "Description": {
+   "en": "Start date",
+   "lv": "Sākuma datums"
+  },
+  "Required": false,
+  "Kind": 4,
+  "SortOrder": 10.0,
+  "ElementsId": "elements:1",
+  "IsFile": false
+ },
+ {
+  "Key": "document_type_info:7",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "document_type:PURCHASE_CONTRACT_GOODS",
+  "Name": {
+   "en": "End date",
+   "lv": "Beigu datums"
+  },
+  "Description": {
+   "en": "End date",
+   "lv": "Beigu datums"
+  },
+  "Required": false,
+  "Kind": 4,
+  "SortOrder": 11.0,
+  "ElementsId": "elements:1",
+  "IsFile": false
+ },
+ {
+  "Key": "document_type_info:8",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "document_type:PURCHASE_CONTRACT_SERVICES",
+  "Name": {
+   "en": "Start date",
+   "lv": "Sākuma datums"
+  },
+  "Description": {
+   "en": "Start date",
+   "lv": "Sākuma datums"
+  },
+  "Required": false,
+  "Kind": 4,
+  "SortOrder": 12.0,
+  "ElementsId": "elements:1",
+  "IsFile": false
+ },
+ {
+  "Key": "document_type_info:9",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "document_type:PURCHASE_CONTRACT_SERVICES",
+  "Name": {
+   "en": "End date",
+   "lv": "Beigu datums"
+  },
+  "Description": {
+   "en": "End date",
+   "lv": "Beigu datums"
+  },
+  "Required": false,
+  "Kind": 4,
+  "SortOrder": 13.0,
+  "ElementsId": "elements:1",
+  "IsFile": false
+ },
+ {
+  "Key": "document_type_info:18",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "document_type:POS_CONTRACT",
+  "Name": {
+   "en": "Start date",
+   "lv": "Sākuma datums"
+  },
+  "Description": null,
+  "Required": false,
+  "Kind": 4,
+  "SortOrder": 22.0,
+  "ElementsId": "elements:1",
+  "IsFile": false
+ },
+ {
+  "Key": "document_type_info:19",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "document_type:POS_CONTRACT",
+  "Name": {
+   "en": "End date",
+   "lv": "Beigu datums"
+  },
+  "Description": null,
+  "Required": false,
+  "Kind": 4,
+  "SortOrder": 23.0,
+  "ElementsId": "elements:1",
+  "IsFile": false
+ },
+ {
+  "Key": "document_type_info:20",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "document_type:POS_RECEIPT",
+  "Name": {
+   "en": "Contract number",
+   "lv": "Līguma numurs"
+  },
+  "Description": {
+   "en": "Contract number",
+   "lv": "Līguma numurs"
+  },
+  "Required": false,
+  "Kind": 1,
+  "SortOrder": 24.0,
+  "ElementsId": "elements:1",
+  "IsFile": false
+ },
+ {
+  "Key": "document_type_info:22",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "document_type:GOODS_TRANSFER",
+  "Name": {
+   "en": "Carrier",
+   "lv": "Pārvadātājs"
+  },
+  "Description": {
+   "en": "Carrier",
+   "lv": "Pārvadātājs"
+  },
+  "Required": false,
+  "Kind": 9,
+  "SortOrder": 26.0,
+  "ElementsId": "elements:147",
+  "IsFile": false
+ },
+ {
+  "Key": "document_type_info:25",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "document_type:CUSTOMS_DECLARATION",
+  "Name": {
+   "en": "Purchase invoice",
+   "lv": "Saņemtais rēķins"
+  },
+  "Description": {
+   "en": "Purchase invoice",
+   "lv": "Saņemtais rēķins"
+  },
+  "Required": false,
+  "Kind": 9,
+  "SortOrder": 32.0,
+  "ElementsId": "elements:150",
+  "IsFile": false
+ },
+ {
+  "Key": "document_type_info:26",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "document_type:CUSTOMS_DECLARATION_ASSETS",
+  "Name": {
+   "en": "Purchase invoice",
+   "lv": "Saņemtais rēķins"
+  },
+  "Description": {
+   "en": "Purchase invoice",
+   "lv": "Saņemtais rēķins"
+  },
+  "Required": false,
+  "Kind": 9,
+  "SortOrder": 33.0,
+  "ElementsId": "elements:160",
+  "IsFile": false
+ },
+ {
+  "Key": "document_type_info:27",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "document_type:POS_CONTRACT",
+  "Name": {
+   "en": "Last payment date",
+   "lv": "Pēdējā maksājuma datums"
+  },
+  "Description": {
+   "en": "Last payment date",
+   "lv": "Pēdējā maksājuma datums"
+  },
+  "Required": false,
+  "Kind": 4,
+  "SortOrder": 34.0,
+  "ElementsId": "elements:1",
+  "IsFile": false
+ },
+ {
+  "Key": "document_type_info:REPAIR_ITEM",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "document_type:REPAIR_INTAKE",
+  "Name": {
+   "en": "Item",
+   "lv": "Prece"
+  },
+  "Description": {
+   "en": "Item",
+   "lv": "Prece"
+  },
+  "Required": false,
+  "Kind": 1,
+  "SortOrder": 1.0,
+  "ElementsId": "elements:1",
+  "IsFile": false
+ },
+ {
+  "Key": "document_type_info:REPAIR_MODEL",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "document_type:REPAIR_INTAKE",
+  "Name": {
+   "en": "Brand and model",
+   "lv": "Marka un modelis"
+  },
+  "Description": {
+   "en": "Brand and model",
+   "lv": "Marka un modelis"
+  },
+  "Required": false,
+  "Kind": 1,
+  "SortOrder": 2.0,
+  "ElementsId": "elements:1",
+  "IsFile": false
+ },
+ {
+  "Key": "document_type_info:REPAIR_SERIAL",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "document_type:REPAIR_INTAKE",
+  "Name": {
+   "en": "Serial number or plate",
+   "lv": "Sērijas numurs vai numurzīme"
+  },
+  "Description": {
+   "en": "Serial number or plate",
+   "lv": "Sērijas numurs vai numurzīme"
+  },
+  "Required": false,
+  "Kind": 1,
+  "SortOrder": 3.0,
+  "ElementsId": "elements:1",
+  "IsFile": false
+ },
+ {
+  "Key": "document_type_info:REPAIR_ACCESSORIES",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "document_type:REPAIR_INTAKE",
+  "Name": {
+   "en": "Accessories left",
+   "lv": "Atstātie piederumi"
+  },
+  "Description": {
+   "en": "Accessories left",
+   "lv": "Atstātie piederumi"
+  },
+  "Required": false,
+  "Kind": 1,
+  "SortOrder": 4.0,
+  "ElementsId": "elements:1",
+  "IsFile": false
+ },
+ {
+  "Key": "document_type_info:REPAIR_DEFECT",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "document_type:REPAIR_INTAKE",
+  "Name": {
+   "en": "Defect described",
+   "lv": "Aprakstītais defekts"
+  },
+  "Description": {
+   "en": "Defect described",
+   "lv": "Aprakstītais defekts"
+  },
+  "Required": false,
+  "Kind": 1,
+  "SortOrder": 5.0,
+  "ElementsId": "elements:1",
+  "IsFile": false
+ },
+ {
+  "Key": "document_type_info:REPAIR_BACK",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "document_type:REPAIR_INTAKE",
+  "Name": {
+   "en": "Come back on",
+   "lv": "Atgriezties"
+  },
+  "Description": {
+   "en": "Come back on",
+   "lv": "Atgriezties"
+  },
+  "Required": false,
+  "Kind": 4,
+  "SortOrder": 6.0,
+  "ElementsId": "elements:1",
+  "IsFile": false
+ }
+]

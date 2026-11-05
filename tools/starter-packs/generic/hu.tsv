@@ -1,0 +1,179 @@
+# Gamma's generic chart (chart-generic.tsv) in Hungarian, by account code. Gamma's translations.
+# code	hu
+1	Befektetett eszközök
+11	Tárgyi eszközök
+1101	Földterület
+1102	Épületek
+1103	Műszaki berendezések, gépek
+1104	Járművek
+1105	Bútorok és berendezések
+1106	Számítástechnikai eszközök
+1107	Beruházások
+12	Tárgyi eszközök halmozott értékcsökkenése
+1202	Épületek halmozott értékcsökkenése
+1203	Műszaki berendezések, gépek halmozott értékcsökkenése
+1204	Járművek halmozott értékcsökkenése
+1205	Bútorok és berendezések halmozott értékcsökkenése
+1206	Számítástechnikai eszközök halmozott értékcsökkenése
+13	Immateriális javak
+1301	Üzleti vagy cégérték
+1302	Szoftverek
+1303	Védjegyek és licencek
+14	Immateriális javak halmozott értékcsökkenése
+1402	Szoftverek halmozott értékcsökkenése
+1403	Védjegyek és licencek halmozott értékcsökkenése
+15	Befektetési célú ingatlanok
+1501	Befektetési célú ingatlanok
+16	Befektetett pénzügyi eszközök
+1601	Részesedés kapcsolt vállalkozásban
+1602	Részesedés társult vállalkozásban
+1603	Egyéb befektetések
+1604	Tartósan adott kölcsönök
+17	Halasztott adó
+1701	Halasztott adókövetelés
+2	Forgóeszközök
+20	Készletek
+2001	Áruk
+2002	Alapanyagok
+2003	Segédanyagok
+2004	Késztermékek
+2005	Befejezetlen termelés
+22	Vevőkövetelések
+2201	Belföldi vevők
+2202	Külföldi vevők
+2203	Behajtásra átadott csekkek
+2209	Vevőkövetelések értékvesztése
+23	Egyéb követelések
+2301	Aktív időbeli elhatárolások
+2302	Szállítóknak adott előlegek
+2303	Munkavállalóknak adott előlegek
+2304	Adott óvadékok
+2305	Egyéb követelések
+24	Adókövetelések
+2401	Előzetesen felszámított ÁFA
+2402	Visszaigényelhető ÁFA
+2403	Adóelőleg
+28	Pénzeszközök
+2801	Pénztár
+2802	Valutapénztár
+2803	Elszámolási betétszámla
+2804	Devizaszámla
+2805	Lekötött betétek
+2806	Átvezetési számla
+3	Saját tőke
+30	Jegyzett tőke
+3001	Jegyzett tőke
+3002	Tőketartalék
+31	Tartalékok
+3101	Értékelési tartalék
+3102	Egyéb tartalékok
+32	Eredménytartalék
+3201	Eredménytartalék
+3202	Adózott eredmény
+4	Kötelezettségek
+40	Hosszú lejáratú kötelezettségek
+4001	Hosszú lejáratú bankhitelek
+4002	Lízingkötelezettségek
+4003	Tagi kölcsönök
+4004	Halasztott adókötelezettség
+4005	Céltartalékok
+41	Szállítói kötelezettségek
+4101	Belföldi szállítók
+4102	Külföldi szállítók
+4103	Fizetendő váltók
+4104	Vevőktől kapott előlegek
+42	Egyéb kötelezettségek
+4201	Passzív időbeli elhatárolás (költségek)
+4202	Passzív időbeli elhatárolás (bevételek)
+4203	Fizetendő bérek
+4204	Fizetendő társadalombiztosítási járulékok
+4205	Fizetendő egészségbiztosítási járulékok
+4206	Egyéb kötelezettségek
+4207	Fizetendő osztalék
+43	Rövid lejáratú hitelek
+4301	Folyószámlahitel
+4302	Rövid lejáratú bankhitelek
+44	Adókötelezettségek
+4401	Fizetendő ÁFA
+4402	ÁFA elszámolási számla
+4403	Fizetendő társasági adó
+4404	Fizetendő személyi jövedelemadó
+4405	Egyéb fizetendő adók
+5	Bevételek
+50	Értékesítés nettó árbevétele
+5001	Áruk értékesítése
+5002	Szolgáltatások értékesítése
+5003	Saját termékek értékesítése
+5004	Engedmények és visszáruk
+51	Egyéb bevételek
+5101	Bérleti díj bevétel
+5102	Támogatások
+5103	Tárgyi eszközök értékesítésének nyeresége
+5104	Egyéb bevételek
+52	Pénzügyi műveletek bevételei
+5201	Kapott kamatok
+5202	Kapott osztalék
+5203	Árfolyamnyereség
+6	Beszerzések és az értékesítés költsége
+60	Beszerzések
+6001	Árubeszerzés
+6002	Alapanyag-beszerzés
+6003	Segédanyag-beszerzés
+6004	Beszerzési engedmények és visszáruk
+6005	Beszerzési fuvar és vám
+61	Készletváltozás
+6101	Árukészlet változása
+6102	Alapanyagkészlet változása
+7	Költségek és ráfordítások
+70	Személyi jellegű ráfordítások
+7001	Bérköltség
+7002	Munkáltatói társadalombiztosítási járulék
+7003	Munkáltatói egészségbiztosítási járulék
+7004	Egyéb munkáltatói hozzájárulások
+7005	Egyéb személyi jellegű kifizetések
+71	Ingatlanköltségek
+7101	Bérleti díj
+7102	Villamos energia
+7103	Víz
+7104	Javítás és karbantartás
+7105	Biztosítás
+72	Igazgatási költségek
+7201	Telekommunikáció
+7202	Postaköltség
+7203	Irodaszer
+7204	Könyvvizsgálati díj
+7205	Szakértői díjak
+7206	Tagdíjak és előfizetések
+7207	Társasági díjak
+73	Értékesítési költségek
+7301	Reklám
+7302	Kiszállítási fuvar
+7303	Jutalékok
+7304	Utazási költségek
+74	Gépjárműköltségek
+7401	Üzemanyag
+7402	Gépjárműadó és biztosítás
+7403	Gépjárműjavítás
+75	Pénzügyi műveletek ráfordításai
+7501	Fizetett kamatok
+7502	Bankköltségek
+7503	Árfolyamveszteség
+7504	Lízingkamatok
+76	Értékcsökkenési leírás
+7601	Épületek értékcsökkenése
+7602	Gépek értékcsökkenése
+7603	Járművek értékcsökkenése
+7604	Bútorok és berendezések értékcsökkenése
+7605	Számítástechnikai eszközök értékcsökkenése
+7606	Immateriális javak értékcsökkenése
+77	Egyéb ráfordítások
+7701	Behajthatatlan követelések
+7702	Tárgyi eszközök értékesítésének vesztesége
+7703	Le nem vonható ÁFA
+7704	Egyéb ráfordítások
+7705	Készlethiány és selejt
+8	Nyereségadók
+80	Adók
+8001	Társasági adó
+8002	Egyéb nyereségadók
+8003	Halasztott adó

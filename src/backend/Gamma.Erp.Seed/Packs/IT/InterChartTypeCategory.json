@@ -1,0 +1,72 @@
+[
+ {
+  "Key": "inter_chart_type_category:ATT",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "chart_type:ATT",
+  "CategoryId": "chart_category:STATUTORY"
+ },
+ {
+  "Key": "inter_chart_type_category:PN",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "chart_type:PN",
+  "CategoryId": "chart_category:STATUTORY"
+ },
+ {
+  "Key": "inter_chart_type_category:PAS",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "chart_type:PAS",
+  "CategoryId": "chart_category:STATUTORY"
+ },
+ {
+  "Key": "inter_chart_type_category:RIC",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "chart_type:RIC",
+  "CategoryId": "chart_category:STATUTORY"
+ },
+ {
+  "Key": "inter_chart_type_category:COS",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "chart_type:COS",
+  "CategoryId": "chart_category:STATUTORY"
+ },
+ {
+  "Key": "inter_chart_type_category:FIN",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "chart_type:FIN",
+  "CategoryId": "chart_category:STATUTORY"
+ },
+ {
+  "Key": "inter_chart_type_category:STR",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "chart_type:STR",
+  "CategoryId": "chart_category:STATUTORY"
+ },
+ {
+  "Key": "inter_chart_type_category:IMP",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "chart_type:IMP",
+  "CategoryId": "chart_category:STATUTORY"
+ },
+ {
+  "Key": "inter_chart_type_category:RIE",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "chart_type:RIE",
+  "CategoryId": "chart_category:STATUTORY"
+ },
+ {
+  "Key": "inter_chart_type_category:ORD",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "chart_type:ORD",
+  "CategoryId": "chart_category:STATUTORY"
+ }
+]

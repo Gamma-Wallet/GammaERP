@@ -1,0 +1,67 @@
+[
+ {
+  "Key": "vat_group:IT_22",
+  "IdSup": null,
+  "Active": true,
+  "Code": null,
+  "Name": {
+   "en": "VAT 22%",
+   "it": "IVA 22%"
+  },
+  "Description": null,
+  "Rate": 22.0,
+  "Depreciation": false
+ },
+ {
+  "Key": "vat_group:IT_10",
+  "IdSup": null,
+  "Active": true,
+  "Code": null,
+  "Name": {
+   "en": "VAT 10%",
+   "it": "IVA 10%"
+  },
+  "Description": null,
+  "Rate": 10.0,
+  "Depreciation": false
+ },
+ {
+  "Key": "vat_group:IT_5",
+  "IdSup": null,
+  "Active": true,
+  "Code": null,
+  "Name": {
+   "en": "VAT 5%",
+   "it": "IVA 5%"
+  },
+  "Description": null,
+  "Rate": 5.0,
+  "Depreciation": false
+ },
+ {
+  "Key": "vat_group:IT_4",
+  "IdSup": null,
+  "Active": true,
+  "Code": null,
+  "Name": {
+   "en": "VAT 4%",
+   "it": "IVA 4%"
+  },
+  "Description": null,
+  "Rate": 4.0,
+  "Depreciation": false
+ },
+ {
+  "Key": "vat_group:IT_0",
+  "IdSup": null,
+  "Active": true,
+  "Code": null,
+  "Name": {
+   "en": "Exempt / not taxable",
+   "it": "Esente / non imponibile"
+  },
+  "Description": null,
+  "Rate": 0.0,
+  "Depreciation": false
+ }
+]

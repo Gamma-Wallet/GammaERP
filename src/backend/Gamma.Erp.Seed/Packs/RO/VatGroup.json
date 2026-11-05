@@ -1,0 +1,41 @@
+[
+ {
+  "Key": "vat_group:RO_21",
+  "IdSup": null,
+  "Active": true,
+  "Code": null,
+  "Name": {
+   "en": "VAT 21%",
+   "ro": "TVA 21%"
+  },
+  "Description": null,
+  "Rate": 21.0,
+  "Depreciation": false
+ },
+ {
+  "Key": "vat_group:RO_11",
+  "IdSup": null,
+  "Active": true,
+  "Code": null,
+  "Name": {
+   "en": "VAT 11%",
+   "ro": "TVA 11%"
+  },
+  "Description": null,
+  "Rate": 11.0,
+  "Depreciation": false
+ },
+ {
+  "Key": "vat_group:RO_0",
+  "IdSup": null,
+  "Active": true,
+  "Code": null,
+  "Name": {
+   "en": "VAT 0% / exempt",
+   "ro": "TVA 0% / scutit"
+  },
+  "Description": null,
+  "Rate": 0.0,
+  "Depreciation": false
+ }
+]

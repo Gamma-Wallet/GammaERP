@@ -1,0 +1,142 @@
+[
+ {
+  "Key": "chart_type:0",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "0",
+  "CodeStart": 0,
+  "CodeEnd": 99999,
+  "CodeCurrent": 0,
+  "Name": {
+   "mk": "Класа 0 – Нетековни средства"
+  },
+  "SortOrder": 10
+ },
+ {
+  "Key": "chart_type:1",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "1",
+  "CodeStart": 0,
+  "CodeEnd": 99999,
+  "CodeCurrent": 0,
+  "Name": {
+   "mk": "Класа 1 – Парични средства, хартии од вредност, краткорочни побарувања и платени трошоци за идни периоди и пресметани приходи"
+  },
+  "SortOrder": 20
+ },
+ {
+  "Key": "chart_type:2",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "2",
+  "CodeStart": 0,
+  "CodeEnd": 99999,
+  "CodeCurrent": 0,
+  "Name": {
+   "mk": "Класа 2 – Обврски, резервирања за трошоци и ризици, одложени плаќања и приходи за идни периоди"
+  },
+  "SortOrder": 30
+ },
+ {
+  "Key": "chart_type:3",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "3",
+  "CodeStart": 0,
+  "CodeEnd": 99999,
+  "CodeCurrent": 0,
+  "Name": {
+   "mk": "Класа 3 – Залихи на суровини, материјали, резервни делови и ситен инвентар"
+  },
+  "SortOrder": 40
+ },
+ {
+  "Key": "chart_type:4",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "4",
+  "CodeStart": 0,
+  "CodeEnd": 99999,
+  "CodeCurrent": 0,
+  "Name": {
+   "mk": "Класа 4 – Трошоци и расходи од работењето"
+  },
+  "SortOrder": 50
+ },
+ {
+  "Key": "chart_type:5",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "5",
+  "CodeStart": 0,
+  "CodeEnd": 99999,
+  "CodeCurrent": 0,
+  "Name": {
+   "mk": "Класа 5 – Слободна (за интерна употреба- погонски пресметки и други потреби)"
+  },
+  "SortOrder": 60
+ },
+ {
+  "Key": "chart_type:6",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "6",
+  "CodeStart": 0,
+  "CodeEnd": 99999,
+  "CodeCurrent": 0,
+  "Name": {
+   "mk": "Класа 6 – Залихи на производство, готови производи и стоки, биолошки средства и нетековни средства кои се чуваат за продажба и прекинато работење"
+  },
+  "SortOrder": 70
+ },
+ {
+  "Key": "chart_type:7",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "7",
+  "CodeStart": 0,
+  "CodeEnd": 99999,
+  "CodeCurrent": 0,
+  "Name": {
+   "mk": "Класа 7 – Покривање на расходи и приходи"
+  },
+  "SortOrder": 80
+ },
+ {
+  "Key": "chart_type:8",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "8",
+  "CodeStart": 0,
+  "CodeEnd": 99999,
+  "CodeCurrent": 0,
+  "Name": {
+   "mk": "Класа 8 – Резултати од работењето"
+  },
+  "SortOrder": 90
+ },
+ {
+  "Key": "chart_type:9",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "9",
+  "CodeStart": 0,
+  "CodeEnd": 99999,
+  "CodeCurrent": 0,
+  "Name": {
+   "mk": "Класа 9 – Капитал, резерви и вонбилансна евиденција"
+  },
+  "SortOrder": 100
+ }
+]

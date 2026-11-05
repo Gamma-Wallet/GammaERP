@@ -1,0 +1,142 @@
+[
+ {
+  "Key": "depreciation_scenario_conf:assets:0",
+  "IdSup": null,
+  "Active": true,
+  "DepreciationScenarioId": "depreciation_scenario:assets",
+  "ChartId": "chart:7602",
+  "ChartName": "Avskrivningar på maskiner och tekniska anläggningar",
+  "Side": false,
+  "SideValue": "Debit"
+ },
+ {
+  "Key": "depreciation_scenario_conf:assets:1",
+  "IdSup": null,
+  "Active": true,
+  "DepreciationScenarioId": "depreciation_scenario:assets",
+  "ChartId": "chart:1203",
+  "ChartName": "Ackumulerade avskrivningar på maskiner och tekniska anläggningar",
+  "Side": true,
+  "SideValue": "Credit"
+ },
+ {
+  "Key": "depreciation_scenario_conf:buildings:0",
+  "IdSup": null,
+  "Active": true,
+  "DepreciationScenarioId": "depreciation_scenario:buildings",
+  "ChartId": "chart:7601",
+  "ChartName": "Avskrivningar på byggnader",
+  "Side": false,
+  "SideValue": "Debit"
+ },
+ {
+  "Key": "depreciation_scenario_conf:buildings:1",
+  "IdSup": null,
+  "Active": true,
+  "DepreciationScenarioId": "depreciation_scenario:buildings",
+  "ChartId": "chart:1202",
+  "ChartName": "Ackumulerade avskrivningar på byggnader",
+  "Side": true,
+  "SideValue": "Credit"
+ },
+ {
+  "Key": "depreciation_scenario_conf:office:0",
+  "IdSup": null,
+  "Active": true,
+  "DepreciationScenarioId": "depreciation_scenario:office",
+  "ChartId": "chart:7604",
+  "ChartName": "Avskrivningar på inventarier",
+  "Side": false,
+  "SideValue": "Debit"
+ },
+ {
+  "Key": "depreciation_scenario_conf:office:1",
+  "IdSup": null,
+  "Active": true,
+  "DepreciationScenarioId": "depreciation_scenario:office",
+  "ChartId": "chart:1205",
+  "ChartName": "Ackumulerade avskrivningar på inventarier",
+  "Side": true,
+  "SideValue": "Credit"
+ },
+ {
+  "Key": "depreciation_scenario_conf:vehicles:0",
+  "IdSup": null,
+  "Active": true,
+  "DepreciationScenarioId": "depreciation_scenario:vehicles",
+  "ChartId": "chart:7603",
+  "ChartName": "Avskrivningar på fordon",
+  "Side": false,
+  "SideValue": "Debit"
+ },
+ {
+  "Key": "depreciation_scenario_conf:vehicles:1",
+  "IdSup": null,
+  "Active": true,
+  "DepreciationScenarioId": "depreciation_scenario:vehicles",
+  "ChartId": "chart:1204",
+  "ChartName": "Ackumulerade avskrivningar på fordon",
+  "Side": true,
+  "SideValue": "Credit"
+ },
+ {
+  "Key": "depreciation_scenario_conf:computers:0",
+  "IdSup": null,
+  "Active": true,
+  "DepreciationScenarioId": "depreciation_scenario:computers",
+  "ChartId": "chart:7605",
+  "ChartName": "Avskrivningar på datorer",
+  "Side": false,
+  "SideValue": "Debit"
+ },
+ {
+  "Key": "depreciation_scenario_conf:computers:1",
+  "IdSup": null,
+  "Active": true,
+  "DepreciationScenarioId": "depreciation_scenario:computers",
+  "ChartId": "chart:1206",
+  "ChartName": "Ackumulerade avskrivningar på datorer",
+  "Side": true,
+  "SideValue": "Credit"
+ },
+ {
+  "Key": "depreciation_scenario_conf:furniture:0",
+  "IdSup": null,
+  "Active": true,
+  "DepreciationScenarioId": "depreciation_scenario:furniture",
+  "ChartId": "chart:7604",
+  "ChartName": "Avskrivningar på inventarier",
+  "Side": false,
+  "SideValue": "Debit"
+ },
+ {
+  "Key": "depreciation_scenario_conf:furniture:1",
+  "IdSup": null,
+  "Active": true,
+  "DepreciationScenarioId": "depreciation_scenario:furniture",
+  "ChartId": "chart:1205",
+  "ChartName": "Ackumulerade avskrivningar på inventarier",
+  "Side": true,
+  "SideValue": "Credit"
+ },
+ {
+  "Key": "depreciation_scenario_conf:intangible:0",
+  "IdSup": null,
+  "Active": true,
+  "DepreciationScenarioId": "depreciation_scenario:intangible",
+  "ChartId": "chart:7606",
+  "ChartName": "Avskrivningar på immateriella anläggningstillgångar",
+  "Side": false,
+  "SideValue": "Debit"
+ },
+ {
+  "Key": "depreciation_scenario_conf:intangible:1",
+  "IdSup": null,
+  "Active": true,
+  "DepreciationScenarioId": "depreciation_scenario:intangible",
+  "ChartId": "chart:1402",
+  "ChartName": "Ackumulerade avskrivningar på programvara",
+  "Side": true,
+  "SideValue": "Credit"
+ }
+]

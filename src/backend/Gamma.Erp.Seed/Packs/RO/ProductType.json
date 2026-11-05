@@ -1,0 +1,45 @@
+[
+ {
+  "Key": "product_type:GOODS",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "GOODS",
+  "Name": {
+   "en": "Goods",
+   "ro": "Mărfuri"
+  },
+  "SortOrder": 10,
+  "TracksLot": false,
+  "RefusesExpired": true
+ },
+ {
+  "Key": "product_type:SERVICE",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "SERVICE",
+  "Name": {
+   "en": "Service",
+   "ro": "Serviciu"
+  },
+  "SortOrder": 20,
+  "TracksLot": false,
+  "RefusesExpired": true
+ },
+ {
+  "Key": "product_type:ASSET",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "ASSET",
+  "Name": {
+   "en": "Asset",
+   "ro": "Imobilizare"
+  },
+  "SortOrder": 30,
+  "TracksLot": false,
+  "RefusesExpired": true,
+  "FixedAsset": true
+ }
+]

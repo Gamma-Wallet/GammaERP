@@ -1,0 +1,57 @@
+[
+ {
+  "Key": "unit_category:STANDARD",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "STANDARD",
+  "Name": {
+   "en": "Standard",
+   "cs": "Standardní"
+  },
+  "Description": null,
+  "SortOrder": 2.0
+ },
+ {
+  "Key": "unit_category:WEIGHT",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "WEIGHT",
+  "Name": {
+   "en": "Weight",
+   "cs": "Hmotnost"
+  },
+  "Description": null,
+  "SortOrder": 2.0
+ },
+ {
+  "Key": "unit_category:TIME",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "TIME",
+  "Name": {
+   "en": "Time",
+   "cs": "Čas"
+  },
+  "Description": null,
+  "SortOrder": 3.0
+ },
+ {
+  "Key": "unit_category:LENGTH",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "LENGTH",
+  "Name": {
+   "en": "Length",
+   "cs": "Délka"
+  },
+  "Description": {
+   "en": "Length",
+   "cs": "Délka"
+  },
+  "SortOrder": 4.0
+ }
+]

@@ -1,0 +1,78 @@
+[
+ {
+  "Key": "unit_type:STANDARD",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "STANDARD",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Standard",
+   "el": "Τυποποιημένη"
+  },
+  "Description": {
+   "en": "Standard",
+   "el": "Τυποποιημένη"
+  },
+  "SortOrder": 2.0
+ },
+ {
+  "Key": "unit_type:WEIGHT",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "WEIGHT",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Weight",
+   "el": "Βάρος"
+  },
+  "Description": {
+   "en": "Weight",
+   "el": "Βάρος"
+  },
+  "SortOrder": 2.0
+ },
+ {
+  "Key": "unit_type:TIME",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "TIME",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Time",
+   "el": "Χρόνος"
+  },
+  "Description": {
+   "en": "Time",
+   "el": "Χρόνος"
+  },
+  "SortOrder": 3.0
+ },
+ {
+  "Key": "unit_type:LENGTH",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "LENGTH",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Length",
+   "el": "Μήκος"
+  },
+  "Description": {
+   "en": "Length",
+   "el": "Μήκος"
+  },
+  "SortOrder": 5.0
+ }
+]

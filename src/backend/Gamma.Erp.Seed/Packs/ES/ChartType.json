@@ -1,0 +1,128 @@
+[
+ {
+  "Key": "chart_type:1",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "1",
+  "CodeStart": 0,
+  "CodeEnd": 99999,
+  "CodeCurrent": 0,
+  "Name": {
+   "es": "Grupo 1 – Financiación básica"
+  },
+  "SortOrder": 10
+ },
+ {
+  "Key": "chart_type:2",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "2",
+  "CodeStart": 0,
+  "CodeEnd": 99999,
+  "CodeCurrent": 0,
+  "Name": {
+   "es": "Grupo 2 – Activo no corriente"
+  },
+  "SortOrder": 20
+ },
+ {
+  "Key": "chart_type:3",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "3",
+  "CodeStart": 0,
+  "CodeEnd": 99999,
+  "CodeCurrent": 0,
+  "Name": {
+   "es": "Grupo 3 – Existencias"
+  },
+  "SortOrder": 30
+ },
+ {
+  "Key": "chart_type:4",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "4",
+  "CodeStart": 0,
+  "CodeEnd": 99999,
+  "CodeCurrent": 0,
+  "Name": {
+   "es": "Grupo 4 – Acreedores y deudores por operaciones comerciales"
+  },
+  "SortOrder": 40
+ },
+ {
+  "Key": "chart_type:5",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "5",
+  "CodeStart": 0,
+  "CodeEnd": 99999,
+  "CodeCurrent": 0,
+  "Name": {
+   "es": "Grupo 5 – Cuentas financieras"
+  },
+  "SortOrder": 50
+ },
+ {
+  "Key": "chart_type:6",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "6",
+  "CodeStart": 0,
+  "CodeEnd": 99999,
+  "CodeCurrent": 0,
+  "Name": {
+   "es": "Grupo 6 – Compras y gastos"
+  },
+  "SortOrder": 60
+ },
+ {
+  "Key": "chart_type:7",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "7",
+  "CodeStart": 0,
+  "CodeEnd": 99999,
+  "CodeCurrent": 0,
+  "Name": {
+   "es": "Grupo 7 – Ventas e ingresos"
+  },
+  "SortOrder": 70
+ },
+ {
+  "Key": "chart_type:8",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "8",
+  "CodeStart": 0,
+  "CodeEnd": 99999,
+  "CodeCurrent": 0,
+  "Name": {
+   "es": "Grupo 8 – Gastos imputados al patrimonio neto"
+  },
+  "SortOrder": 80
+ },
+ {
+  "Key": "chart_type:9",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "9",
+  "CodeStart": 0,
+  "CodeEnd": 99999,
+  "CodeCurrent": 0,
+  "Name": {
+   "es": "Grupo 9 – Ingresos imputados al patrimonio neto"
+  },
+  "SortOrder": 90
+ }
+]

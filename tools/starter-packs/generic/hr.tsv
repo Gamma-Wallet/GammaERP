@@ -1,0 +1,179 @@
+# Gamma's generic chart (chart-generic.tsv) in Croatian, by account code. Gamma's translations.
+# code	hr
+1	Dugotrajna imovina
+11	Materijalna imovina
+1101	Zemljišta
+1102	Građevinski objekti
+1103	Postrojenja i oprema
+1104	Prijevozna sredstva
+1105	Uredski namještaj i inventar
+1106	Računalna oprema
+1107	Materijalna imovina u pripremi
+12	Akumulirana amortizacija materijalne imovine
+1202	Akumulirana amortizacija građevinskih objekata
+1203	Akumulirana amortizacija postrojenja i opreme
+1204	Akumulirana amortizacija prijevoznih sredstava
+1205	Akumulirana amortizacija namještaja i inventara
+1206	Akumulirana amortizacija računalne opreme
+13	Nematerijalna imovina
+1301	Goodwill
+1302	Računalni programi
+1303	Zaštitni znakovi i licencije
+14	Akumulirana amortizacija nematerijalne imovine
+1402	Akumulirana amortizacija računalnih programa
+1403	Akumulirana amortizacija zaštitnih znakova i licencija
+15	Ulaganja u nekretnine
+1501	Ulaganja u nekretnine
+16	Dugotrajna financijska imovina
+1601	Udjeli u ovisnim društvima
+1602	Udjeli u pridruženim društvima
+1603	Ostala ulaganja
+1604	Dugoročni dani zajmovi
+17	Odgođeni porez
+1701	Odgođena porezna imovina
+2	Kratkotrajna imovina
+20	Zalihe
+2001	Trgovačka roba
+2002	Sirovine
+2003	Pomoćni materijal
+2004	Gotovi proizvodi
+2005	Proizvodnja u tijeku
+22	Potraživanja od kupaca
+2201	Kupci u zemlji
+2202	Kupci u inozemstvu
+2203	Čekovi za naplatu
+2209	Ispravak vrijednosti potraživanja
+23	Ostala potraživanja
+2301	Plaćeni troškovi budućeg razdoblja
+2302	Predujmovi dobavljačima
+2303	Predujmovi zaposlenicima
+2304	Dani depoziti
+2305	Ostala potraživanja
+24	Potraživanja za poreze
+2401	Pretporez
+2402	Potraživanja za povrat PDV-a
+2403	Predujmovi poreza na dobit
+28	Novac
+2801	Blagajna
+2802	Devizna blagajna
+2803	Žiro račun
+2804	Devizni račun
+2805	Oročeni depoziti
+2806	Novac na putu
+3	Kapital i rezerve
+30	Temeljni kapital
+3001	Temeljni kapital
+3002	Kapitalne rezerve
+31	Rezerve
+3101	Revalorizacijske rezerve
+3102	Ostale rezerve
+32	Zadržana dobit
+3201	Zadržana dobit
+3202	Dobit ili gubitak tekuće godine
+4	Obveze
+40	Dugoročne obveze
+4001	Dugoročni bankovni krediti
+4002	Obveze za najmove
+4003	Zajmovi od članova društva
+4004	Odgođena porezna obveza
+4005	Rezerviranja
+41	Obveze prema dobavljačima
+4101	Dobavljači u zemlji
+4102	Dobavljači u inozemstvu
+4103	Obveze po mjenicama
+4104	Primljeni predujmovi od kupaca
+42	Ostale obveze
+4201	Obračunati troškovi
+4202	Odgođeni prihodi
+4203	Obveze za plaće
+4204	Obveze za doprinose za mirovinsko osiguranje
+4205	Obveze za doprinose za zdravstveno osiguranje
+4206	Ostale obveze
+4207	Obveze za dividende
+43	Kratkoročni krediti
+4301	Prekoračenja po računu
+4302	Kratkoročni bankovni krediti
+44	Obveze za poreze
+4401	Obveza za PDV
+4402	PDV za uplatu
+4403	Obveza za porez na dobit
+4404	Obveza za porez na dohodak
+4405	Ostale porezne obveze
+5	Prihodi
+50	Prihodi od prodaje
+5001	Prihodi od prodaje robe
+5002	Prihodi od usluga
+5003	Prihodi od prodaje proizvoda
+5004	Povrati i popusti na prodaju
+51	Ostali poslovni prihodi
+5101	Prihodi od najma
+5102	Potpore
+5103	Dobit od prodaje dugotrajne imovine
+5104	Ostali prihodi
+52	Financijski prihodi
+5201	Prihodi od kamata
+5202	Prihodi od dividendi
+5203	Pozitivne tečajne razlike
+6	Nabava i trošak prodanog
+60	Nabava
+6001	Nabava robe
+6002	Nabava sirovina
+6003	Nabava materijala
+6004	Povrati i popusti na nabavu
+6005	Prijevoz i carine pri nabavi
+61	Promjena zaliha
+6101	Promjena zaliha robe
+6102	Promjena zaliha sirovina
+7	Rashodi
+70	Troškovi osoblja
+7001	Plaće
+7002	Doprinosi na plaće
+7003	Doprinosi za zdravstveno osiguranje
+7004	Ostali doprinosi poslodavca
+7005	Ostali troškovi osoblja
+71	Troškovi prostora
+7101	Najamnina
+7102	Električna energija
+7103	Voda
+7104	Popravci i održavanje
+7105	Osiguranje
+72	Administrativni troškovi
+7201	Telekomunikacije
+7202	Poštanski troškovi
+7203	Uredski materijal
+7204	Revizija
+7205	Savjetodavne usluge
+7206	Članarine i pretplate
+7207	Naknade društva
+73	Troškovi prodaje
+7301	Promidžba
+7302	Prijevoz pri prodaji
+7303	Provizije
+7304	Službena putovanja
+74	Troškovi vozila
+7401	Gorivo
+7402	Registracija i osiguranje vozila
+7403	Popravci vozila
+75	Financijski rashodi
+7501	Rashodi od kamata
+7502	Bankovne naknade
+7503	Negativne tečajne razlike
+7504	Kamate na najmove
+76	Amortizacija
+7601	Amortizacija građevinskih objekata
+7602	Amortizacija postrojenja i opreme
+7603	Amortizacija prijevoznih sredstava
+7604	Amortizacija namještaja i inventara
+7605	Amortizacija računalne opreme
+7606	Amortizacija nematerijalne imovine
+77	Ostali rashodi
+7701	Otpisana potraživanja
+7702	Gubitak od prodaje dugotrajne imovine
+7703	Nepriznati pretporez
+7704	Ostali rashodi
+7705	Manjkovi i otpis zaliha
+8	Porez na dobit
+80	Porezi
+8001	Porez na dobit
+8002	Ostali porezi na dobit
+8003	Odgođeni porez

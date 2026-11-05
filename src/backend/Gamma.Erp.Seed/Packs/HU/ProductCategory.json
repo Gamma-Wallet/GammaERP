@@ -1,0 +1,122 @@
+[
+ {
+  "Key": "product_category:PRODUCT",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "PRODUCT",
+  "Name": {
+   "en": "Products",
+   "hu": "Termékek"
+  },
+  "SortOrder": 10
+ },
+ {
+  "Key": "product_category:SERVICE",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "SERVICE",
+  "Name": {
+   "en": "Services",
+   "hu": "Szolgáltatások"
+  },
+  "SortOrder": 20
+ },
+ {
+  "Key": "product_category:ASSET",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "ASSET",
+  "Name": {
+   "en": "Assets",
+   "hu": "Befektetett eszközök"
+  },
+  "SortOrder": 30
+ },
+ {
+  "Key": "product_category:LAND",
+  "IdSup": "product_category:ASSET",
+  "Active": true,
+  "IsElement": true,
+  "Code": "LAND",
+  "Name": {
+   "en": "Land",
+   "hu": "Földterület"
+  },
+  "SortOrder": 10
+ },
+ {
+  "Key": "product_category:BUILDINGS",
+  "IdSup": "product_category:ASSET",
+  "Active": true,
+  "IsElement": true,
+  "Code": "BUILDINGS",
+  "Name": {
+   "en": "Buildings",
+   "hu": "Épületek"
+  },
+  "SortOrder": 20
+ },
+ {
+  "Key": "product_category:OFFICE",
+  "IdSup": "product_category:ASSET",
+  "Active": true,
+  "IsElement": true,
+  "Code": "OFFICE",
+  "Name": {
+   "en": "Office equipment",
+   "hu": "Irodai berendezések"
+  },
+  "SortOrder": 30
+ },
+ {
+  "Key": "product_category:VEHICLES",
+  "IdSup": "product_category:ASSET",
+  "Active": true,
+  "IsElement": true,
+  "Code": "VEHICLES",
+  "Name": {
+   "en": "Vehicles",
+   "hu": "Járművek"
+  },
+  "SortOrder": 40
+ },
+ {
+  "Key": "product_category:COMPUTERS",
+  "IdSup": "product_category:ASSET",
+  "Active": true,
+  "IsElement": true,
+  "Code": "COMPUTERS",
+  "Name": {
+   "en": "Computer equipment",
+   "hu": "Számítástechnikai eszközök"
+  },
+  "SortOrder": 50
+ },
+ {
+  "Key": "product_category:FURNITURE",
+  "IdSup": "product_category:ASSET",
+  "Active": true,
+  "IsElement": true,
+  "Code": "FURNITURE",
+  "Name": {
+   "en": "Furniture and fittings",
+   "hu": "Bútorok és berendezések"
+  },
+  "SortOrder": 60
+ },
+ {
+  "Key": "product_category:INTANGIBLE",
+  "IdSup": "product_category:ASSET",
+  "Active": true,
+  "IsElement": true,
+  "Code": "INTANGIBLE",
+  "Name": {
+   "en": "Intangible assets",
+   "hu": "Immateriális javak"
+  },
+  "SortOrder": 70
+ }
+]

@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <!-- The logic, on the models only: the generic entity service (categories, types, properties, elements, history, access, visibility),
+       then documents, transactions, posting, stock and balances, depreciation. -->
+  <PropertyGroup>
+    <RootNamespace>Gamma.Erp.Services</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="PDFsharp-MigraDoc" />
+    <PackageReference Include="MailKit" />
+    <PackageReference Include="ClosedXML" />
+    <!-- DejaVu Sans (Bitstream Vera licence, changes public domain; Fonts/LICENSE-DejaVu.txt): Latin with ë ç, Greek, Cyrillic. -->
+    <EmbeddedResource Include="Printing\Fonts\*.ttf" LogicalName="Fonts.%(Filename)%(Extension)" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Gamma.Erp.Persistence\Gamma.Erp.Persistence.csproj" />
+  </ItemGroup>
+</Project>

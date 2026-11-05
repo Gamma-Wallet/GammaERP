@@ -1,0 +1,14 @@
+[
+ {
+  "Key": "chart_category:STATUTORY",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "IFRS",
+  "Name": {
+   "en": "Chart of accounts (IAS 1 captions)"
+  },
+  "IsStatutory": true,
+  "SortOrder": 10
+ }
+]

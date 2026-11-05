@@ -1,0 +1,9 @@
+[
+ {
+  "Key": "inter_document_type_transaction_type_payment_method:1",
+  "IdSup": null,
+  "Active": true,
+  "PaymentMethodDocumentTypeId": "inter_payment_method_document_type:1",
+  "TransactionTypeId": "transaction_type:CASH_DESK_ACCOUNT"
+ }
+]

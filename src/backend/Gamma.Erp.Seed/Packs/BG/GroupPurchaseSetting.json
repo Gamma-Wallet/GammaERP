@@ -1,0 +1,20 @@
+[
+ {
+  "Key": "group_purchase_setting:GOODS",
+  "IdSup": null,
+  "Active": true,
+  "Code": "GOODS",
+  "SaleTypeId": "document_type:SALES_INVOICE_GOODS",
+  "PurchaseTypeId": "document_type:PURCHASE_INVOICE_GOODS",
+  "WarehouseId": null
+ },
+ {
+  "Key": "group_purchase_setting:SERVICES",
+  "IdSup": null,
+  "Active": true,
+  "Code": "SERVICES",
+  "SaleTypeId": "document_type:SALES_INVOICE_SERVICES",
+  "PurchaseTypeId": "document_type:PURCHASE_INVOICE_SERVICES",
+  "WarehouseId": null
+ }
+]

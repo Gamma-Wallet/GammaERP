@@ -1,0 +1,30 @@
+[
+ {
+  "Key": "depreciation_method:STRAIGHT_LINE",
+  "IdSup": null,
+  "Active": true,
+  "Name": {
+   "en": "Straight-line",
+   "pt": "Quotas constantes"
+  },
+  "Description": {
+   "en": "Straight-line depreciation",
+   "pt": "Depreciação em quotas constantes"
+  },
+  "Formula": "(VF/DT)*DK"
+ },
+ {
+  "Key": "depreciation_method:REMAINING_VALUE",
+  "IdSup": null,
+  "Active": true,
+  "Name": {
+   "en": "Remaining value",
+   "pt": "Valor residual"
+  },
+  "Description": {
+   "en": "Depreciation on the remaining value",
+   "pt": "Depreciação sobre o valor residual"
+  },
+  "Formula": "((VF*PD*((1-PD)^YK))/365)*DK"
+ }
+]

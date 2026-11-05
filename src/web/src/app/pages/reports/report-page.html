@@ -1,0 +1,64 @@
+@if (def(); as d) {
+  <div class="head">
+    <h1>{{ title() }}</h1>
+    <div class="exports">
+      @if (d.xlsx) { <button uiButton [disabled]="!view()" (click)="download('xlsx')"><ui-icon name="table" />{{ 'Excel' | t }}</button> }
+      @if (d.pdf) {
+        <div class="pdf">
+          <button uiButton [disabled]="!view()" (click)="download('pdf')"><ui-icon name="printer" />{{ 'PDF' | t }}</button>
+        </div>
+      }
+    </div>
+  </div>
+
+  <section class="filters">
+    @for (f of d.filters; track f) {
+      @if (f === 'day') {
+        <ui-field [label]="'At' | t"><input uiInput type="date" [value]="values().to ?? ''" (input)="set('to', $any($event.target).value)" /></ui-field>
+      } @else if (f === 'period') {
+        <ui-field [label]="'From' | t"><input uiInput type="date" [value]="values().from ?? ''" (input)="set('from', $any($event.target).value)" /></ui-field>
+        <ui-field [label]="'Up to' | t"><input uiInput type="date" [value]="values().to ?? ''" (input)="set('to', $any($event.target).value)" /></ui-field>
+      } @else if (isMulti(f)) {
+        <ui-field class="wide" [label]="label(f)" [required]="d.required.includes(f)">
+          <ui-select [multiple]="true" [options]="options()[f] ?? []" [values]="many(f)" (valuesChange)="set(f, $event)" />
+        </ui-field>
+      } @else {
+        <ui-field class="wide" [label]="label(f)" [required]="d.required.includes(f)">
+          <ui-select [options]="options()[f] ?? []" [searchable]="true" [value]="one(f)" (valueChange)="set(f, $event)" />
+        </ui-field>
+      }
+    }
+    <div class="run"><button uiButton variant="primary" [disabled]="!canRun() || loading()" (click)="run()">{{ loading() ? ('Loading…' | t) : ('Show' | t) }}</button></div>
+  </section>
+
+  @if (message()) { <p class="message" role="alert"><ui-icon name="critical" [size]="16" />{{ message() }}</p> }
+
+  @if (view(); as v) {
+    @if (v.figures?.length) {
+      <section class="kpis">
+        @for (f of v.figures; track f.label) { <ui-kpi [label]="f.label" [value]="f.value" [caption]="f.caption ?? null" /> }
+      </section>
+    }
+    @if (v.chart; as c) { <ui-chart [title]="c.title" [spec]="c.spec" [height]="240" /> }
+    <ui-table class="table" [columns]="d.columns" [rows]="v.rows" [pageSize]="100" [footer]="v.footer ?? null" [ariaLabel]="title()"
+      [emptyText]="'Nothing in this period.' | t" (rowClick)="openRow($event)" />
+    @if (report() === 'partner-statistics' && !partner()) { <p class="muted">{{ 'Choose a partner to see their months and products.' | t }}</p> }
+  } @else if (!loading()) {
+    <p class="muted">{{ canRun() ? ('Choose the filters and press Show.' | t) : ('Fill in the required filters, then press Show.' | t) }}</p>
+  }
+
+  @if (partner(); as p) {
+    <section class="partner">
+      <h2>{{ p.name }}</h2>
+      <div class="kpis">
+        <ui-kpi [label]="'Balance' | t" [value]="money(p.balance)" />
+        <ui-kpi [label]="'First document' | t" [value]="day(p.firstDocument) || '—'" />
+        <ui-kpi [label]="'Last document' | t" [value]="day(p.lastDocument) || '—'" />
+      </div>
+      @if (partnerChart(); as spec) { <ui-chart [title]="'Documents by month' | t" [subtitle]="'Value with VAT, per document category' | t" [spec]="spec" [height]="240" /> }
+      <ui-table [columns]="productColumns" [rows]="productRows()" [pageSize]="20" [ariaLabel]="'Top products' | t" [emptyText]="'No products.' | t" />
+    </section>
+  }
+} @else {
+  <p class="muted pad">{{ 'There is no such report.' | t }}</p>
+}

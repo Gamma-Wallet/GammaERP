@@ -1,0 +1,38 @@
+[
+ {
+  "Key": "partner_category:CLIENTS",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "CLIENTS",
+  "Name": {
+   "en": "Clients",
+   "lv": "Pircēji"
+  },
+  "SortOrder": 10
+ },
+ {
+  "Key": "partner_category:SUPPLIERS",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "SUPPLIERS",
+  "Name": {
+   "en": "Suppliers",
+   "lv": "Piegādātāji"
+  },
+  "SortOrder": 20
+ },
+ {
+  "Key": "partner_category:LEADS",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "LEADS",
+  "Name": {
+   "en": "Leads",
+   "lv": "Potenciālie klienti"
+  },
+  "SortOrder": 3.0
+ }
+]

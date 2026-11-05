@@ -1,0 +1,122 @@
+[
+ {
+  "Key": "product_category:PRODUCT",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "PRODUCT",
+  "Name": {
+   "en": "Products",
+   "fr": "Produits"
+  },
+  "SortOrder": 10
+ },
+ {
+  "Key": "product_category:SERVICE",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "SERVICE",
+  "Name": {
+   "en": "Services",
+   "fr": "Services"
+  },
+  "SortOrder": 20
+ },
+ {
+  "Key": "product_category:ASSET",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "ASSET",
+  "Name": {
+   "en": "Assets",
+   "fr": "Immobilisations"
+  },
+  "SortOrder": 30
+ },
+ {
+  "Key": "product_category:LAND",
+  "IdSup": "product_category:ASSET",
+  "Active": true,
+  "IsElement": true,
+  "Code": "LAND",
+  "Name": {
+   "en": "Land",
+   "fr": "Terrains"
+  },
+  "SortOrder": 10
+ },
+ {
+  "Key": "product_category:BUILDINGS",
+  "IdSup": "product_category:ASSET",
+  "Active": true,
+  "IsElement": true,
+  "Code": "BUILDINGS",
+  "Name": {
+   "en": "Buildings",
+   "fr": "Constructions"
+  },
+  "SortOrder": 20
+ },
+ {
+  "Key": "product_category:OFFICE",
+  "IdSup": "product_category:ASSET",
+  "Active": true,
+  "IsElement": true,
+  "Code": "OFFICE",
+  "Name": {
+   "en": "Office equipment",
+   "fr": "Matériel de bureau"
+  },
+  "SortOrder": 30
+ },
+ {
+  "Key": "product_category:VEHICLES",
+  "IdSup": "product_category:ASSET",
+  "Active": true,
+  "IsElement": true,
+  "Code": "VEHICLES",
+  "Name": {
+   "en": "Vehicles",
+   "fr": "Matériel de transport"
+  },
+  "SortOrder": 40
+ },
+ {
+  "Key": "product_category:COMPUTERS",
+  "IdSup": "product_category:ASSET",
+  "Active": true,
+  "IsElement": true,
+  "Code": "COMPUTERS",
+  "Name": {
+   "en": "Computer equipment",
+   "fr": "Matériel informatique"
+  },
+  "SortOrder": 50
+ },
+ {
+  "Key": "product_category:FURNITURE",
+  "IdSup": "product_category:ASSET",
+  "Active": true,
+  "IsElement": true,
+  "Code": "FURNITURE",
+  "Name": {
+   "en": "Furniture and fittings",
+   "fr": "Mobilier"
+  },
+  "SortOrder": 60
+ },
+ {
+  "Key": "product_category:INTANGIBLE",
+  "IdSup": "product_category:ASSET",
+  "Active": true,
+  "IsElement": true,
+  "Code": "INTANGIBLE",
+  "Name": {
+   "en": "Intangible assets",
+   "fr": "Immobilisations incorporelles"
+  },
+  "SortOrder": 70
+ }
+]

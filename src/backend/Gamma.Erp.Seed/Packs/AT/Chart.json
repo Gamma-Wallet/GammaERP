@@ -1,0 +1,2126 @@
+[
+ {
+  "Key": "chart:1",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "1",
+  "Name": {
+   "en": "Non-current assets",
+   "de": "Anlagevermögen"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:11",
+  "IdSup": "chart:1",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "11",
+  "Name": {
+   "en": "Property, plant and equipment",
+   "de": "Sachanlagen"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:1101",
+  "IdSup": "chart:11",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "1101",
+  "Name": {
+   "en": "Land",
+   "de": "Grundstücke"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:1102",
+  "IdSup": "chart:11",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "1102",
+  "Name": {
+   "en": "Buildings",
+   "de": "Gebäude"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:1103",
+  "IdSup": "chart:11",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "1103",
+  "Name": {
+   "en": "Plant and machinery",
+   "de": "Technische Anlagen und Maschinen"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:1104",
+  "IdSup": "chart:11",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "1104",
+  "Name": {
+   "en": "Vehicles",
+   "de": "Fahrzeuge"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:1105",
+  "IdSup": "chart:11",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "1105",
+  "Name": {
+   "en": "Furniture and fittings",
+   "de": "Betriebs- und Geschäftsausstattung"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:1106",
+  "IdSup": "chart:11",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "1106",
+  "Name": {
+   "en": "Computer equipment",
+   "de": "EDV-Anlagen"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:1107",
+  "IdSup": "chart:11",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "1107",
+  "Name": {
+   "en": "Assets under construction",
+   "de": "Anlagen im Bau"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:12",
+  "IdSup": "chart:1",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "12",
+  "Name": {
+   "en": "Accumulated depreciation, property, plant and equipment",
+   "de": "Kumulierte Abschreibungen auf Sachanlagen"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:1202",
+  "IdSup": "chart:12",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "1202",
+  "Name": {
+   "en": "Buildings",
+   "de": "Kumulierte Abschreibungen auf Gebäude"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:1203",
+  "IdSup": "chart:12",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "1203",
+  "Name": {
+   "en": "Plant and machinery",
+   "de": "Kumulierte Abschreibungen auf technische Anlagen und Maschinen"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:1204",
+  "IdSup": "chart:12",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "1204",
+  "Name": {
+   "en": "Vehicles",
+   "de": "Kumulierte Abschreibungen auf Fahrzeuge"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:1205",
+  "IdSup": "chart:12",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "1205",
+  "Name": {
+   "en": "Furniture and fittings",
+   "de": "Kumulierte Abschreibungen auf Betriebs- und Geschäftsausstattung"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:1206",
+  "IdSup": "chart:12",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "1206",
+  "Name": {
+   "en": "Computer equipment",
+   "de": "Kumulierte Abschreibungen auf EDV-Anlagen"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:13",
+  "IdSup": "chart:1",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "13",
+  "Name": {
+   "en": "Intangible assets",
+   "de": "Immaterielle Vermögensgegenstände"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:1301",
+  "IdSup": "chart:13",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "1301",
+  "Name": {
+   "en": "Goodwill",
+   "de": "Geschäfts- oder Firmenwert"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:1302",
+  "IdSup": "chart:13",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "1302",
+  "Name": {
+   "en": "Software",
+   "de": "Software"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:1303",
+  "IdSup": "chart:13",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "1303",
+  "Name": {
+   "en": "Trademarks and licences",
+   "de": "Marken und Lizenzen"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:14",
+  "IdSup": "chart:1",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "14",
+  "Name": {
+   "en": "Accumulated amortisation, intangible assets",
+   "de": "Kumulierte Abschreibungen auf immaterielle Vermögensgegenstände"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:1402",
+  "IdSup": "chart:14",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "1402",
+  "Name": {
+   "en": "Software",
+   "de": "Kumulierte Abschreibungen auf Software"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:1403",
+  "IdSup": "chart:14",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "1403",
+  "Name": {
+   "en": "Trademarks and licences",
+   "de": "Kumulierte Abschreibungen auf Marken und Lizenzen"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:15",
+  "IdSup": "chart:1",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "15",
+  "Name": {
+   "en": "Investment property",
+   "de": "Als Finanzinvestition gehaltene Immobilien"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:1501",
+  "IdSup": "chart:15",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "1501",
+  "Name": {
+   "en": "Investment property",
+   "de": "Als Finanzinvestition gehaltene Immobilien"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:16",
+  "IdSup": "chart:1",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "16",
+  "Name": {
+   "en": "Financial assets",
+   "de": "Finanzanlagen"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:1601",
+  "IdSup": "chart:16",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "1601",
+  "Name": {
+   "en": "Investments in subsidiaries",
+   "de": "Anteile an verbundenen Unternehmen"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:1602",
+  "IdSup": "chart:16",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "1602",
+  "Name": {
+   "en": "Investments in associates",
+   "de": "Beteiligungen an assoziierten Unternehmen"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:1603",
+  "IdSup": "chart:16",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "1603",
+  "Name": {
+   "en": "Other investments",
+   "de": "Sonstige Finanzanlagen"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:1604",
+  "IdSup": "chart:16",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "1604",
+  "Name": {
+   "en": "Long-term loans receivable",
+   "de": "Langfristige Ausleihungen"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:17",
+  "IdSup": "chart:1",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "17",
+  "Name": {
+   "en": "Deferred tax",
+   "de": "Latente Steuern"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:1701",
+  "IdSup": "chart:17",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "1701",
+  "Name": {
+   "en": "Deferred tax assets",
+   "de": "Aktive latente Steuern"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:2",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "2",
+  "Name": {
+   "en": "Current assets",
+   "de": "Umlaufvermögen"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:20",
+  "IdSup": "chart:2",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "20",
+  "Name": {
+   "en": "Inventories",
+   "de": "Vorräte"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:2001",
+  "IdSup": "chart:20",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "2001",
+  "Name": {
+   "en": "Goods for resale",
+   "de": "Handelswaren"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:2002",
+  "IdSup": "chart:20",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "2002",
+  "Name": {
+   "en": "Raw materials",
+   "de": "Rohstoffe"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:2003",
+  "IdSup": "chart:20",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "2003",
+  "Name": {
+   "en": "Consumables",
+   "de": "Hilfs- und Betriebsstoffe"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:2004",
+  "IdSup": "chart:20",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "2004",
+  "Name": {
+   "en": "Finished goods",
+   "de": "Fertige Erzeugnisse"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:2005",
+  "IdSup": "chart:20",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "2005",
+  "Name": {
+   "en": "Work in progress",
+   "de": "Unfertige Erzeugnisse"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:22",
+  "IdSup": "chart:2",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "22",
+  "Name": {
+   "en": "Trade receivables",
+   "de": "Forderungen aus Lieferungen und Leistungen"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:2201",
+  "IdSup": "chart:22",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "2201",
+  "Name": {
+   "en": "Trade debtors",
+   "de": "Forderungen aus Lieferungen und Leistungen"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:2202",
+  "IdSup": "chart:22",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "2202",
+  "Name": {
+   "en": "Foreign debtors",
+   "de": "Forderungen gegen ausländische Kunden"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:2203",
+  "IdSup": "chart:22",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "2203",
+  "Name": {
+   "en": "Cheques receivable",
+   "de": "Schecks"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:2209",
+  "IdSup": "chart:22",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "2209",
+  "Name": {
+   "en": "Allowance for doubtful debts",
+   "de": "Wertberichtigungen auf Forderungen"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:23",
+  "IdSup": "chart:2",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "23",
+  "Name": {
+   "en": "Other receivables",
+   "de": "Sonstige Forderungen"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:2301",
+  "IdSup": "chart:23",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "2301",
+  "Name": {
+   "en": "Prepayments",
+   "de": "Aktive Rechnungsabgrenzung"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:2302",
+  "IdSup": "chart:23",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "2302",
+  "Name": {
+   "en": "Advances to suppliers",
+   "de": "Geleistete Anzahlungen"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:2303",
+  "IdSup": "chart:23",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "2303",
+  "Name": {
+   "en": "Advances to employees",
+   "de": "Vorschüsse an Mitarbeiter"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:2304",
+  "IdSup": "chart:23",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "2304",
+  "Name": {
+   "en": "Deposits paid",
+   "de": "Geleistete Kautionen"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:2305",
+  "IdSup": "chart:23",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "2305",
+  "Name": {
+   "en": "Other debtors",
+   "de": "Sonstige Vermögensgegenstände"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:24",
+  "IdSup": "chart:2",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "24",
+  "Name": {
+   "en": "Tax receivables",
+   "de": "Steuerforderungen"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:2401",
+  "IdSup": "chart:24",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "2401",
+  "Name": {
+   "en": "Input VAT",
+   "de": "Vorsteuer"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:2402",
+  "IdSup": "chart:24",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "2402",
+  "Name": {
+   "en": "VAT recoverable",
+   "de": "Umsatzsteuerforderungen"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:2403",
+  "IdSup": "chart:24",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "2403",
+  "Name": {
+   "en": "Provisional tax paid",
+   "de": "Steuervorauszahlungen"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:28",
+  "IdSup": "chart:2",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "28",
+  "Name": {
+   "en": "Cash and cash equivalents",
+   "de": "Liquide Mittel"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:2801",
+  "IdSup": "chart:28",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "2801",
+  "Name": {
+   "en": "Cash in hand",
+   "de": "Kasse"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:2802",
+  "IdSup": "chart:28",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "2802",
+  "Name": {
+   "en": "Cash in hand, foreign currency",
+   "de": "Kasse in Fremdwährung"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:2803",
+  "IdSup": "chart:28",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "2803",
+  "Name": {
+   "en": "Bank current account",
+   "de": "Bank"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:2804",
+  "IdSup": "chart:28",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "2804",
+  "Name": {
+   "en": "Bank account, foreign currency",
+   "de": "Bank in Fremdwährung"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:2805",
+  "IdSup": "chart:28",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "2805",
+  "Name": {
+   "en": "Fixed deposits",
+   "de": "Festgelder"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:2806",
+  "IdSup": "chart:28",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "2806",
+  "Name": {
+   "en": "Cash in transit",
+   "de": "Geldtransit"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:3",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "3",
+  "Name": {
+   "en": "Equity",
+   "de": "Eigenkapital"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:30",
+  "IdSup": "chart:3",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "30",
+  "Name": {
+   "en": "Share capital",
+   "de": "Gezeichnetes Kapital"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:3001",
+  "IdSup": "chart:30",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "3001",
+  "Name": {
+   "en": "Share capital",
+   "de": "Gezeichnetes Kapital"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:3002",
+  "IdSup": "chart:30",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "3002",
+  "Name": {
+   "en": "Share premium",
+   "de": "Kapitalrücklage"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:31",
+  "IdSup": "chart:3",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "31",
+  "Name": {
+   "en": "Reserves",
+   "de": "Rücklagen"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:3101",
+  "IdSup": "chart:31",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "3101",
+  "Name": {
+   "en": "Revaluation reserve",
+   "de": "Neubewertungsrücklage"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:3102",
+  "IdSup": "chart:31",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "3102",
+  "Name": {
+   "en": "Other reserves",
+   "de": "Andere Gewinnrücklagen"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:32",
+  "IdSup": "chart:3",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "32",
+  "Name": {
+   "en": "Retained earnings",
+   "de": "Gewinnvortrag"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:3201",
+  "IdSup": "chart:32",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "3201",
+  "Name": {
+   "en": "Retained earnings",
+   "de": "Gewinn- oder Verlustvortrag"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:3202",
+  "IdSup": "chart:32",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "3202",
+  "Name": {
+   "en": "Profit or loss for the year",
+   "de": "Jahresüberschuss oder Jahresfehlbetrag"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:4",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "4",
+  "Name": {
+   "en": "Liabilities",
+   "de": "Verbindlichkeiten"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:40",
+  "IdSup": "chart:4",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "40",
+  "Name": {
+   "en": "Non-current liabilities",
+   "de": "Langfristige Verbindlichkeiten"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:4001",
+  "IdSup": "chart:40",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "4001",
+  "Name": {
+   "en": "Long-term bank loans",
+   "de": "Langfristige Bankdarlehen"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:4002",
+  "IdSup": "chart:40",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "4002",
+  "Name": {
+   "en": "Lease liabilities",
+   "de": "Leasingverbindlichkeiten"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:4003",
+  "IdSup": "chart:40",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "4003",
+  "Name": {
+   "en": "Shareholder loans",
+   "de": "Gesellschafterdarlehen"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:4004",
+  "IdSup": "chart:40",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "4004",
+  "Name": {
+   "en": "Deferred tax liabilities",
+   "de": "Passive latente Steuern"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:4005",
+  "IdSup": "chart:40",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "4005",
+  "Name": {
+   "en": "Provisions",
+   "de": "Rückstellungen"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:41",
+  "IdSup": "chart:4",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "41",
+  "Name": {
+   "en": "Trade payables",
+   "de": "Verbindlichkeiten aus Lieferungen und Leistungen"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:4101",
+  "IdSup": "chart:41",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "4101",
+  "Name": {
+   "en": "Trade creditors",
+   "de": "Verbindlichkeiten aus Lieferungen und Leistungen"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:4102",
+  "IdSup": "chart:41",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "4102",
+  "Name": {
+   "en": "Foreign creditors",
+   "de": "Verbindlichkeiten gegenüber ausländischen Lieferanten"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:4103",
+  "IdSup": "chart:41",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "4103",
+  "Name": {
+   "en": "Cheques payable",
+   "de": "Wechselverbindlichkeiten"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:4104",
+  "IdSup": "chart:41",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "4104",
+  "Name": {
+   "en": "Advances from customers",
+   "de": "Erhaltene Anzahlungen"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:42",
+  "IdSup": "chart:4",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "42",
+  "Name": {
+   "en": "Other payables",
+   "de": "Sonstige Verbindlichkeiten"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:4201",
+  "IdSup": "chart:42",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "4201",
+  "Name": {
+   "en": "Accrued expenses",
+   "de": "Passive Rechnungsabgrenzung (Aufwand)"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:4202",
+  "IdSup": "chart:42",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "4202",
+  "Name": {
+   "en": "Deferred income",
+   "de": "Passive Rechnungsabgrenzung (Ertrag)"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:4203",
+  "IdSup": "chart:42",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "4203",
+  "Name": {
+   "en": "Wages payable",
+   "de": "Verbindlichkeiten aus Lohn und Gehalt"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:4204",
+  "IdSup": "chart:42",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "4204",
+  "Name": {
+   "en": "Social insurance payable",
+   "de": "Verbindlichkeiten im Rahmen der sozialen Sicherheit"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:4205",
+  "IdSup": "chart:42",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "4205",
+  "Name": {
+   "en": "Health insurance contributions payable",
+   "de": "Verbindlichkeiten gegenüber Krankenkassen"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:4206",
+  "IdSup": "chart:42",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "4206",
+  "Name": {
+   "en": "Other creditors",
+   "de": "Sonstige Verbindlichkeiten"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:4207",
+  "IdSup": "chart:42",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "4207",
+  "Name": {
+   "en": "Dividends payable",
+   "de": "Verbindlichkeiten aus Ausschüttungen"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:43",
+  "IdSup": "chart:4",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "43",
+  "Name": {
+   "en": "Current borrowings",
+   "de": "Kurzfristige Finanzverbindlichkeiten"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:4301",
+  "IdSup": "chart:43",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "4301",
+  "Name": {
+   "en": "Bank overdrafts",
+   "de": "Kontokorrentkredite"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:4302",
+  "IdSup": "chart:43",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "4302",
+  "Name": {
+   "en": "Short-term bank loans",
+   "de": "Kurzfristige Bankdarlehen"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:44",
+  "IdSup": "chart:4",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "44",
+  "Name": {
+   "en": "Tax payables",
+   "de": "Steuerverbindlichkeiten"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:4401",
+  "IdSup": "chart:44",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "4401",
+  "Name": {
+   "en": "Output VAT",
+   "de": "Umsatzsteuer"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:4402",
+  "IdSup": "chart:44",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "4402",
+  "Name": {
+   "en": "VAT payable",
+   "de": "Umsatzsteuer-Zahllast"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:4403",
+  "IdSup": "chart:44",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "4403",
+  "Name": {
+   "en": "Income tax payable",
+   "de": "Ertragsteuerverbindlichkeiten"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:4404",
+  "IdSup": "chart:44",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "4404",
+  "Name": {
+   "en": "Employee income tax payable",
+   "de": "Lohnsteuerverbindlichkeiten"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:4405",
+  "IdSup": "chart:44",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "4405",
+  "Name": {
+   "en": "Other taxes payable",
+   "de": "Sonstige Steuerverbindlichkeiten"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:5",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "5",
+  "Name": {
+   "en": "Income",
+   "de": "Erträge"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:50",
+  "IdSup": "chart:5",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "50",
+  "Name": {
+   "en": "Revenue",
+   "de": "Umsatzerlöse"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:5001",
+  "IdSup": "chart:50",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "5001",
+  "Name": {
+   "en": "Sales of goods",
+   "de": "Erlöse aus Warenverkauf"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:5002",
+  "IdSup": "chart:50",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "5002",
+  "Name": {
+   "en": "Services rendered",
+   "de": "Erlöse aus Dienstleistungen"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:5003",
+  "IdSup": "chart:50",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "5003",
+  "Name": {
+   "en": "Sales of products",
+   "de": "Erlöse aus eigenen Erzeugnissen"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:5004",
+  "IdSup": "chart:50",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "5004",
+  "Name": {
+   "en": "Sales returns and discounts",
+   "de": "Erlösschmälerungen"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:51",
+  "IdSup": "chart:5",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "51",
+  "Name": {
+   "en": "Other income",
+   "de": "Sonstige betriebliche Erträge"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:5101",
+  "IdSup": "chart:51",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "5101",
+  "Name": {
+   "en": "Rental income",
+   "de": "Mieterträge"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:5102",
+  "IdSup": "chart:51",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "5102",
+  "Name": {
+   "en": "Grants",
+   "de": "Zuschüsse"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:5103",
+  "IdSup": "chart:51",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "5103",
+  "Name": {
+   "en": "Gain on disposal of property, plant and equipment",
+   "de": "Erträge aus dem Abgang von Sachanlagen"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:5104",
+  "IdSup": "chart:51",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "5104",
+  "Name": {
+   "en": "Sundry income",
+   "de": "Übrige sonstige Erträge"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:52",
+  "IdSup": "chart:5",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "52",
+  "Name": {
+   "en": "Finance income",
+   "de": "Finanzerträge"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:5201",
+  "IdSup": "chart:52",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "5201",
+  "Name": {
+   "en": "Interest income",
+   "de": "Zinserträge"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:5202",
+  "IdSup": "chart:52",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "5202",
+  "Name": {
+   "en": "Dividend income",
+   "de": "Beteiligungserträge"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:5203",
+  "IdSup": "chart:52",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "5203",
+  "Name": {
+   "en": "Exchange gains",
+   "de": "Kursgewinne"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:6",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "6",
+  "Name": {
+   "en": "Purchases and cost of sales",
+   "de": "Wareneinkauf und Materialaufwand"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:60",
+  "IdSup": "chart:6",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "60",
+  "Name": {
+   "en": "Purchases",
+   "de": "Einkauf"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:6001",
+  "IdSup": "chart:60",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "6001",
+  "Name": {
+   "en": "Purchases of goods",
+   "de": "Wareneingang"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:6002",
+  "IdSup": "chart:60",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "6002",
+  "Name": {
+   "en": "Purchases of raw materials",
+   "de": "Einkauf von Rohstoffen"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:6003",
+  "IdSup": "chart:60",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "6003",
+  "Name": {
+   "en": "Purchases of consumables",
+   "de": "Einkauf von Hilfs- und Betriebsstoffen"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:6004",
+  "IdSup": "chart:60",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "6004",
+  "Name": {
+   "en": "Purchase returns and discounts",
+   "de": "Erhaltene Skonti und Nachlässe"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:6005",
+  "IdSup": "chart:60",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "6005",
+  "Name": {
+   "en": "Carriage and customs on purchases",
+   "de": "Bezugsnebenkosten"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:61",
+  "IdSup": "chart:6",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "61",
+  "Name": {
+   "en": "Change in inventories",
+   "de": "Bestandsveränderungen"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:6101",
+  "IdSup": "chart:61",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "6101",
+  "Name": {
+   "en": "Change in inventories of goods",
+   "de": "Bestandsveränderungen Waren"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:6102",
+  "IdSup": "chart:61",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "6102",
+  "Name": {
+   "en": "Change in inventories of raw materials",
+   "de": "Bestandsveränderungen Rohstoffe"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:7",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "7",
+  "Name": {
+   "en": "Expenses",
+   "de": "Aufwendungen"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:70",
+  "IdSup": "chart:7",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "70",
+  "Name": {
+   "en": "Staff costs",
+   "de": "Personalaufwand"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:7001",
+  "IdSup": "chart:70",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "7001",
+  "Name": {
+   "en": "Wages and salaries",
+   "de": "Löhne und Gehälter"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:7002",
+  "IdSup": "chart:70",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "7002",
+  "Name": {
+   "en": "Employer's social insurance",
+   "de": "Arbeitgeberanteil zur Sozialversicherung"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:7003",
+  "IdSup": "chart:70",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "7003",
+  "Name": {
+   "en": "Employer's health insurance contributions",
+   "de": "Arbeitgeberanteil zur Krankenversicherung"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:7004",
+  "IdSup": "chart:70",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "7004",
+  "Name": {
+   "en": "Other employer contributions",
+   "de": "Sonstige Arbeitgeberbeiträge"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:7005",
+  "IdSup": "chart:70",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "7005",
+  "Name": {
+   "en": "Other staff costs",
+   "de": "Sonstiger Personalaufwand"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:71",
+  "IdSup": "chart:7",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "71",
+  "Name": {
+   "en": "Premises",
+   "de": "Raumkosten"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:7101",
+  "IdSup": "chart:71",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "7101",
+  "Name": {
+   "en": "Rent",
+   "de": "Miete"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:7102",
+  "IdSup": "chart:71",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "7102",
+  "Name": {
+   "en": "Electricity",
+   "de": "Strom"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:7103",
+  "IdSup": "chart:71",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "7103",
+  "Name": {
+   "en": "Water",
+   "de": "Wasser"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:7104",
+  "IdSup": "chart:71",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "7104",
+  "Name": {
+   "en": "Repairs and maintenance",
+   "de": "Instandhaltung"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:7105",
+  "IdSup": "chart:71",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "7105",
+  "Name": {
+   "en": "Insurance",
+   "de": "Versicherungen"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:72",
+  "IdSup": "chart:7",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "72",
+  "Name": {
+   "en": "Administrative expenses",
+   "de": "Verwaltungskosten"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:7201",
+  "IdSup": "chart:72",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "7201",
+  "Name": {
+   "en": "Telecommunications",
+   "de": "Telekommunikation"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:7202",
+  "IdSup": "chart:72",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "7202",
+  "Name": {
+   "en": "Postage",
+   "de": "Porto"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:7203",
+  "IdSup": "chart:72",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "7203",
+  "Name": {
+   "en": "Stationery",
+   "de": "Büromaterial"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:7204",
+  "IdSup": "chart:72",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "7204",
+  "Name": {
+   "en": "Audit fees",
+   "de": "Abschlussprüfung"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:7205",
+  "IdSup": "chart:72",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "7205",
+  "Name": {
+   "en": "Professional fees",
+   "de": "Rechts- und Beratungskosten"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:7206",
+  "IdSup": "chart:72",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "7206",
+  "Name": {
+   "en": "Subscriptions",
+   "de": "Beiträge"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:7207",
+  "IdSup": "chart:72",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "7207",
+  "Name": {
+   "en": "Annual company fees",
+   "de": "Gebühren der Gesellschaft"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:73",
+  "IdSup": "chart:7",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "73",
+  "Name": {
+   "en": "Selling expenses",
+   "de": "Vertriebskosten"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:7301",
+  "IdSup": "chart:73",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "7301",
+  "Name": {
+   "en": "Advertising",
+   "de": "Werbung"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:7302",
+  "IdSup": "chart:73",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "7302",
+  "Name": {
+   "en": "Carriage on sales",
+   "de": "Ausgangsfrachten"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:7303",
+  "IdSup": "chart:73",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "7303",
+  "Name": {
+   "en": "Commissions",
+   "de": "Provisionen"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:7304",
+  "IdSup": "chart:73",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "7304",
+  "Name": {
+   "en": "Travel",
+   "de": "Reisekosten"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:74",
+  "IdSup": "chart:7",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "74",
+  "Name": {
+   "en": "Vehicle expenses",
+   "de": "Fahrzeugkosten"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:7401",
+  "IdSup": "chart:74",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "7401",
+  "Name": {
+   "en": "Fuel",
+   "de": "Kraftstoff"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:7402",
+  "IdSup": "chart:74",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "7402",
+  "Name": {
+   "en": "Vehicle licences and insurance",
+   "de": "Kfz-Steuer und Kfz-Versicherung"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:7403",
+  "IdSup": "chart:74",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "7403",
+  "Name": {
+   "en": "Vehicle repairs",
+   "de": "Kfz-Reparaturen"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:75",
+  "IdSup": "chart:7",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "75",
+  "Name": {
+   "en": "Finance costs",
+   "de": "Finanzaufwendungen"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:7501",
+  "IdSup": "chart:75",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "7501",
+  "Name": {
+   "en": "Interest expense",
+   "de": "Zinsaufwendungen"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:7502",
+  "IdSup": "chart:75",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "7502",
+  "Name": {
+   "en": "Bank charges",
+   "de": "Bankgebühren"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:7503",
+  "IdSup": "chart:75",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "7503",
+  "Name": {
+   "en": "Exchange losses",
+   "de": "Kursverluste"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:7504",
+  "IdSup": "chart:75",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "7504",
+  "Name": {
+   "en": "Lease interest",
+   "de": "Leasingzinsen"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:76",
+  "IdSup": "chart:7",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "76",
+  "Name": {
+   "en": "Depreciation and amortisation",
+   "de": "Abschreibungen"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:7601",
+  "IdSup": "chart:76",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "7601",
+  "Name": {
+   "en": "Buildings",
+   "de": "Abschreibungen auf Gebäude"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:7602",
+  "IdSup": "chart:76",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "7602",
+  "Name": {
+   "en": "Plant and machinery",
+   "de": "Abschreibungen auf technische Anlagen und Maschinen"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:7603",
+  "IdSup": "chart:76",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "7603",
+  "Name": {
+   "en": "Vehicles",
+   "de": "Abschreibungen auf Fahrzeuge"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:7604",
+  "IdSup": "chart:76",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "7604",
+  "Name": {
+   "en": "Furniture and fittings",
+   "de": "Abschreibungen auf Betriebs- und Geschäftsausstattung"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:7605",
+  "IdSup": "chart:76",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "7605",
+  "Name": {
+   "en": "Computer equipment",
+   "de": "Abschreibungen auf EDV-Anlagen"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:7606",
+  "IdSup": "chart:76",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "7606",
+  "Name": {
+   "en": "Intangible assets",
+   "de": "Abschreibungen auf immaterielle Vermögensgegenstände"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:77",
+  "IdSup": "chart:7",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "77",
+  "Name": {
+   "en": "Other expenses",
+   "de": "Sonstige Aufwendungen"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:7701",
+  "IdSup": "chart:77",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "7701",
+  "Name": {
+   "en": "Bad debts",
+   "de": "Forderungsverluste"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:7702",
+  "IdSup": "chart:77",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "7702",
+  "Name": {
+   "en": "Loss on disposal of property, plant and equipment",
+   "de": "Verluste aus dem Abgang von Sachanlagen"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:7703",
+  "IdSup": "chart:77",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "7703",
+  "Name": {
+   "en": "Non-recoverable VAT",
+   "de": "Nicht abziehbare Vorsteuer"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:7704",
+  "IdSup": "chart:77",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "7704",
+  "Name": {
+   "en": "Sundry expenses",
+   "de": "Übrige sonstige Aufwendungen"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:7705",
+  "IdSup": "chart:77",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "7705",
+  "Name": {
+   "en": "Inventory losses and waste",
+   "de": "Bestandsverluste und Schwund"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:8",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "chart_type:8",
+  "Code": "8",
+  "Name": {
+   "en": "Income tax",
+   "de": "Steuern vom Einkommen und vom Ertrag"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:80",
+  "IdSup": "chart:8",
+  "Active": true,
+  "TypeId": "chart_type:8",
+  "Code": "80",
+  "Name": {
+   "en": "Taxation",
+   "de": "Ertragsteuern"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:8001",
+  "IdSup": "chart:80",
+  "Active": true,
+  "TypeId": "chart_type:8",
+  "Code": "8001",
+  "Name": {
+   "en": "Corporation tax",
+   "de": "Körperschaftsteuer"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:8002",
+  "IdSup": "chart:80",
+  "Active": true,
+  "TypeId": "chart_type:8",
+  "Code": "8002",
+  "Name": {
+   "en": "Other taxes on profit",
+   "de": "Sonstige Steuern vom Ertrag"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:8003",
+  "IdSup": "chart:80",
+  "Active": true,
+  "TypeId": "chart_type:8",
+  "Code": "8003",
+  "Name": {
+   "en": "Deferred tax",
+   "de": "Latente Steuern"
+  },
+  "IsComposite": false
+ }
+]

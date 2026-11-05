@@ -1,0 +1,62 @@
+[
+ {
+  "Key": "opportunity_stage:QUALIFY",
+  "IdSup": null,
+  "Active": true,
+  "Name": {
+   "en": "Qualify",
+   "pt": "Qualificação"
+  },
+  "Chance": 10.0,
+  "SortOrder": 10.0,
+  "Outcome": 0
+ },
+ {
+  "Key": "opportunity_stage:PROPOSE",
+  "IdSup": null,
+  "Active": true,
+  "Name": {
+   "en": "Propose",
+   "pt": "Proposta"
+  },
+  "Chance": 40.0,
+  "SortOrder": 20.0,
+  "Outcome": 0
+ },
+ {
+  "Key": "opportunity_stage:NEGOTIATE",
+  "IdSup": null,
+  "Active": true,
+  "Name": {
+   "en": "Negotiate",
+   "pt": "Negociação"
+  },
+  "Chance": 70.0,
+  "SortOrder": 30.0,
+  "Outcome": 0
+ },
+ {
+  "Key": "opportunity_stage:WON",
+  "IdSup": null,
+  "Active": true,
+  "Name": {
+   "en": "Won",
+   "pt": "Ganha"
+  },
+  "Chance": 100.0,
+  "SortOrder": 40.0,
+  "Outcome": 1
+ },
+ {
+  "Key": "opportunity_stage:LOST",
+  "IdSup": null,
+  "Active": true,
+  "Name": {
+   "en": "Lost",
+   "pt": "Perdida"
+  },
+  "Chance": 0.0,
+  "SortOrder": 50.0,
+  "Outcome": 2
+ }
+]

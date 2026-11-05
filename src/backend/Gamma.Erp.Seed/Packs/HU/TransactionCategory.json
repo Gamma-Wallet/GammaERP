@@ -1,0 +1,66 @@
+[
+ {
+  "Key": "transaction_category:LINES",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "LINES",
+  "Name": {
+   "en": "Transactions",
+   "hu": "Tételek"
+  },
+  "Description": {
+   "en": "Transactions",
+   "hu": "Tételek"
+  },
+  "SortOrder": 2.0
+ },
+ {
+  "Key": "transaction_category:JOURNAL_LINES",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "JOURNAL_LINES",
+  "Name": {
+   "en": "Journal lines",
+   "hu": "Könyvelési tételek"
+  },
+  "Description": {
+   "en": "Journal lines",
+   "hu": "Könyvelési tételek"
+  },
+  "SortOrder": 10.0
+ },
+ {
+  "Key": "transaction_category:DEPRECIATION_LINES",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "DEPRECIATION_LINES",
+  "Name": {
+   "en": "Depreciation lines",
+   "hu": "Értékcsökkenési tételek"
+  },
+  "Description": {
+   "en": "Depreciation lines",
+   "hu": "Értékcsökkenési tételek"
+  },
+  "SortOrder": 11.0
+ },
+ {
+  "Key": "transaction_category:REVALUATION_LINES",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "REVALUATION_LINES",
+  "Name": {
+   "en": "Revaluation lines",
+   "hu": "Átértékelési tételek"
+  },
+  "Description": {
+   "en": "Revaluation lines",
+   "hu": "Átértékelési tételek"
+  },
+  "SortOrder": 12.0
+ }
+]

@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+  <!-- The ASP.NET Core host: REST /api/v1 over the services, OpenAPI, sign-in with OpenIddict (OpenID Connect, code + PKCE), the request's
+       context (tenant, user, roles, node) from the token and the database. -->
+  <PropertyGroup>
+    <RootNamespace>Gamma.Erp.Api</RootNamespace>
+    <UserSecretsId>gamma-erp-api</UserSecretsId>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.OpenApi" />
+    <PackageReference Include="Scalar.AspNetCore" />
+    <PackageReference Include="OpenIddict.AspNetCore" />
+    <PackageReference Include="OpenIddict.EntityFrameworkCore" />
+    <PackageReference Include="ModelContextProtocol.AspNetCore" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" PrivateAssets="all" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Auth\gamma-logo-white.png" LogicalName="gamma-logo-white.png" />
+    <EmbeddedResource Include="i18n\*.json" LogicalName="i18n.%(Filename).json" />
+    <!-- The user guide (.md at the repository's root), read by Claude through the MCP server as gamma-erp://guide/<path>. -->
+    <EmbeddedResource Include="..\..\..\.md\**\*.md" LogicalName="guide/%(RecursiveDir)%(Filename)%(Extension)" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Gamma.Erp.Services\Gamma.Erp.Services.csproj" />
+    <ProjectReference Include="..\Gamma.Erp.Migrations\Gamma.Erp.Migrations.csproj" />
+    <ProjectReference Include="..\Gamma.Erp.Seed\Gamma.Erp.Seed.csproj" />
+  </ItemGroup>
+</Project>

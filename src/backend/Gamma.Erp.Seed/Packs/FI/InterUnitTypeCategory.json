@@ -1,0 +1,30 @@
+[
+ {
+  "Key": "inter_unit_type_category:1",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "unit_type:STANDARD",
+  "CategoryId": "unit_category:STANDARD"
+ },
+ {
+  "Key": "inter_unit_type_category:2",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "unit_type:WEIGHT",
+  "CategoryId": "unit_category:WEIGHT"
+ },
+ {
+  "Key": "inter_unit_type_category:3",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "unit_type:TIME",
+  "CategoryId": "unit_category:TIME"
+ },
+ {
+  "Key": "inter_unit_type_category:4",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "unit_type:LENGTH",
+  "CategoryId": "unit_category:LENGTH"
+ }
+]

@@ -1,0 +1,418 @@
+[
+ {
+  "Key": "migration_item:CHART",
+  "IdSup": null,
+  "Active": true,
+  "Code": "CHART",
+  "Name": {
+   "en": "Chart of accounts",
+   "da": "Kontoplan"
+  },
+  "Kind": "Elements",
+  "Entity": "charts",
+  "Requires": null,
+  "OffsetAccount": null,
+  "DocumentTypeId": null,
+  "SortOrder": 0.1
+ },
+ {
+  "Key": "migration_item:VAT_GROUPS",
+  "IdSup": null,
+  "Active": true,
+  "Code": "VAT_GROUPS",
+  "Name": {
+   "en": "VAT groups",
+   "da": "Momsgrupper"
+  },
+  "Kind": "VatGroups",
+  "Entity": null,
+  "Requires": null,
+  "OffsetAccount": null,
+  "DocumentTypeId": null,
+  "SortOrder": 0.15
+ },
+ {
+  "Key": "migration_item:DOCUMENT_CATEGORIES",
+  "IdSup": null,
+  "Active": true,
+  "Code": "DOCUMENT_CATEGORIES",
+  "Name": {
+   "en": "Document categories",
+   "da": "Bilagskategorier"
+  },
+  "Kind": "Categories",
+  "Entity": "documents",
+  "Requires": null,
+  "OffsetAccount": null,
+  "DocumentTypeId": null,
+  "SortOrder": 0.2
+ },
+ {
+  "Key": "migration_item:LINE_CATEGORIES",
+  "IdSup": null,
+  "Active": true,
+  "Code": "LINE_CATEGORIES",
+  "Name": {
+   "en": "Transaction categories",
+   "da": "Transaktionskategorier"
+  },
+  "Kind": "Categories",
+  "Entity": "transactions",
+  "Requires": "DOCUMENT_TYPES",
+  "OffsetAccount": null,
+  "DocumentTypeId": null,
+  "SortOrder": 0.21
+ },
+ {
+  "Key": "migration_item:LINE_TYPES",
+  "IdSup": null,
+  "Active": true,
+  "Code": "LINE_TYPES",
+  "Name": {
+   "en": "Transaction types",
+   "da": "Transaktionstyper"
+  },
+  "Kind": "Types",
+  "Entity": "transactions",
+  "Requires": "LINE_CATEGORIES",
+  "OffsetAccount": null,
+  "DocumentTypeId": null,
+  "SortOrder": 0.22
+ },
+ {
+  "Key": "migration_item:LINE_KINDS",
+  "IdSup": null,
+  "Active": true,
+  "Code": "LINE_KINDS",
+  "Name": {
+   "en": "Transaction types of document types",
+   "da": "Transaktionstyper for bilagstyper"
+  },
+  "Kind": "LineKinds",
+  "Entity": null,
+  "Requires": "DOCUMENT_TYPES,LINE_TYPES",
+  "OffsetAccount": null,
+  "DocumentTypeId": null,
+  "SortOrder": 0.23
+ },
+ {
+  "Key": "migration_item:DOCUMENT_VAT_GROUPS",
+  "IdSup": null,
+  "Active": true,
+  "Code": "DOCUMENT_VAT_GROUPS",
+  "Name": {
+   "en": "VAT groups of document types",
+   "da": "Momsgrupper for bilagstyper"
+  },
+  "Kind": "DocumentVat",
+  "Entity": null,
+  "Requires": "DOCUMENT_TYPES,VAT_GROUPS",
+  "OffsetAccount": null,
+  "DocumentTypeId": null,
+  "SortOrder": 0.24
+ },
+ {
+  "Key": "migration_item:VAT_RETURN_BOXES",
+  "IdSup": null,
+  "Active": true,
+  "Code": "VAT_RETURN_BOXES",
+  "Name": {
+   "en": "VAT return boxes",
+   "da": "Felter i momsangivelsen"
+  },
+  "Kind": "VatBoxes",
+  "Entity": null,
+  "Requires": null,
+  "OffsetAccount": null,
+  "DocumentTypeId": null,
+  "SortOrder": 0.25
+ },
+ {
+  "Key": "migration_item:VAT_RETURN_BOX_RULES",
+  "IdSup": null,
+  "Active": true,
+  "Code": "VAT_RETURN_BOX_RULES",
+  "Name": {
+   "en": "VAT return box rules",
+   "da": "Regler for momsangivelsens felter"
+  },
+  "Kind": "VatRules",
+  "Entity": null,
+  "Requires": "VAT_RETURN_BOXES,VAT_GROUPS,DOCUMENT_TYPES,LINE_TYPES",
+  "OffsetAccount": null,
+  "DocumentTypeId": null,
+  "SortOrder": 0.26
+ },
+ {
+  "Key": "migration_item:DOCUMENT_TYPES",
+  "IdSup": null,
+  "Active": true,
+  "Code": "DOCUMENT_TYPES",
+  "Name": {
+   "en": "Document types",
+   "da": "Dokumenttyper"
+  },
+  "Kind": "DocumentTypes",
+  "Entity": "documents",
+  "Requires": "DOCUMENT_CATEGORIES",
+  "OffsetAccount": null,
+  "DocumentTypeId": null,
+  "SortOrder": 0.3
+ },
+ {
+  "Key": "migration_item:POSTING_GROUPS",
+  "IdSup": null,
+  "Active": true,
+  "Code": "POSTING_GROUPS",
+  "Name": {
+   "en": "Posting groups",
+   "da": "Bogføringsgrupper"
+  },
+  "Kind": "PostingGroups",
+  "Entity": null,
+  "Requires": "CHART,LINE_KINDS",
+  "OffsetAccount": null,
+  "DocumentTypeId": null,
+  "SortOrder": 0.4
+ },
+ {
+  "Key": "migration_item:COST_CENTERS",
+  "IdSup": null,
+  "Active": true,
+  "Code": "COST_CENTERS",
+  "Name": {
+   "en": "Warehouses, banks, cash desks and places",
+   "da": "Lagre, banker, kasser og steder"
+  },
+  "Kind": "Elements",
+  "Entity": "cost-centers",
+  "Requires": "CHART",
+  "SortOrder": 1.0,
+  "OffsetAccount": null,
+  "DocumentTypeId": null
+ },
+ {
+  "Key": "migration_item:PARTNER_CATEGORIES",
+  "IdSup": null,
+  "Active": true,
+  "Code": "PARTNER_CATEGORIES",
+  "Name": {
+   "en": "Client and supplier categories",
+   "da": "Kunde- og leverandørkategorier"
+  },
+  "Kind": "Categories",
+  "Entity": "partners",
+  "Requires": null,
+  "SortOrder": 2.0,
+  "OffsetAccount": null,
+  "DocumentTypeId": null
+ },
+ {
+  "Key": "migration_item:PRODUCT_CATEGORIES",
+  "IdSup": null,
+  "Active": true,
+  "Code": "PRODUCT_CATEGORIES",
+  "Name": {
+   "en": "Product categories",
+   "da": "Produktkategorier"
+  },
+  "Kind": "Categories",
+  "Entity": "products",
+  "Requires": null,
+  "SortOrder": 3.0,
+  "OffsetAccount": null,
+  "DocumentTypeId": null
+ },
+ {
+  "Key": "migration_item:UNITS",
+  "IdSup": null,
+  "Active": true,
+  "Code": "UNITS",
+  "Name": {
+   "en": "Units",
+   "da": "Enheder"
+  },
+  "Kind": "Elements",
+  "Entity": "units",
+  "Requires": null,
+  "SortOrder": 4.0,
+  "OffsetAccount": null,
+  "DocumentTypeId": null
+ },
+ {
+  "Key": "migration_item:PARTNERS",
+  "IdSup": null,
+  "Active": true,
+  "Code": "PARTNERS",
+  "Name": {
+   "en": "Clients and suppliers",
+   "da": "Kunder og leverandører"
+  },
+  "Kind": "Elements",
+  "Entity": "partners",
+  "Requires": "PARTNER_CATEGORIES",
+  "SortOrder": 5.0,
+  "OffsetAccount": null,
+  "DocumentTypeId": null
+ },
+ {
+  "Key": "migration_item:PRODUCTS",
+  "IdSup": null,
+  "Active": true,
+  "Code": "PRODUCTS",
+  "Name": {
+   "en": "Products and services",
+   "da": "Varer og ydelser"
+  },
+  "Kind": "Elements",
+  "Entity": "products",
+  "Requires": "PRODUCT_CATEGORIES,UNITS,VAT_GROUPS",
+  "SortOrder": 6.0,
+  "OffsetAccount": null,
+  "DocumentTypeId": null
+ },
+ {
+  "Key": "migration_item:PRICES",
+  "IdSup": null,
+  "Active": true,
+  "Code": "PRICES",
+  "Name": {
+   "en": "Sale prices",
+   "da": "Salgspriser"
+  },
+  "Kind": "Prices",
+  "Entity": null,
+  "Requires": "PARTNER_CATEGORIES,PRODUCTS",
+  "SortOrder": 7.0,
+  "OffsetAccount": null,
+  "DocumentTypeId": null
+ },
+ {
+  "Key": "migration_item:STAFF",
+  "IdSup": null,
+  "Active": true,
+  "Code": "STAFF",
+  "Name": {
+   "en": "Staff",
+   "da": "Personale"
+  },
+  "Kind": "Elements",
+  "Entity": "employees",
+  "Requires": null,
+  "SortOrder": 8.0,
+  "OffsetAccount": null,
+  "DocumentTypeId": null
+ },
+ {
+  "Key": "migration_item:RATES",
+  "IdSup": null,
+  "Active": true,
+  "Code": "RATES",
+  "Name": {
+   "en": "Exchange rates",
+   "da": "Valutakurser"
+  },
+  "Kind": "Rates",
+  "Entity": null,
+  "Requires": null,
+  "SortOrder": 9.0,
+  "OffsetAccount": null,
+  "DocumentTypeId": null
+ },
+ {
+  "Key": "migration_item:NUMBERS",
+  "IdSup": null,
+  "Active": true,
+  "Code": "NUMBERS",
+  "Name": {
+   "en": "Next document numbers",
+   "da": "Næste bilagsnumre"
+  },
+  "Kind": "Numbers",
+  "Entity": null,
+  "Requires": "DOCUMENT_TYPES",
+  "SortOrder": 10.0,
+  "OffsetAccount": null,
+  "DocumentTypeId": null
+ },
+ {
+  "Key": "migration_item:OPENING_PARTNERS",
+  "IdSup": null,
+  "Active": true,
+  "Code": "OPENING_PARTNERS",
+  "Name": {
+   "en": "Opening balances: clients and suppliers",
+   "da": "Åbningssaldi: kunder og leverandører"
+  },
+  "Kind": "Opening",
+  "Entity": "CLIENT,SUPPLIER",
+  "Requires": "PARTNERS,POSTING_GROUPS,VAT_GROUPS",
+  "OffsetAccount": null,
+  "DocumentTypeId": "document_type:GENERAL_JOURNAL_ENTRY",
+  "SortOrder": 11.0
+ },
+ {
+  "Key": "migration_item:OPENING_CASH",
+  "IdSup": null,
+  "Active": true,
+  "Code": "OPENING_CASH",
+  "Name": {
+   "en": "Opening balances: banks, cash desks and staff",
+   "da": "Åbningssaldi: banker, kasser og personale"
+  },
+  "Kind": "Opening",
+  "Entity": "BANK_ACCOUNT,CASH_DESK_ACCOUNT,STAFF",
+  "Requires": "COST_CENTERS,POSTING_GROUPS,VAT_GROUPS",
+  "OffsetAccount": null,
+  "DocumentTypeId": "document_type:GENERAL_JOURNAL_ENTRY",
+  "SortOrder": 12.0
+ },
+ {
+  "Key": "migration_item:OPENING_STOCK",
+  "IdSup": null,
+  "Active": true,
+  "Code": "OPENING_STOCK",
+  "Name": {
+   "en": "Opening balances: stock",
+   "da": "Åbningssaldi: lager"
+  },
+  "Kind": "OpeningStock",
+  "Entity": "ITEM",
+  "Requires": "COST_CENTERS,PRODUCTS,POSTING_GROUPS,VAT_GROUPS",
+  "OffsetAccount": null,
+  "DocumentTypeId": null,
+  "SortOrder": 13.0
+ },
+ {
+  "Key": "migration_item:OPENING_ASSETS",
+  "IdSup": null,
+  "Active": true,
+  "Code": "OPENING_ASSETS",
+  "Name": {
+   "en": "Opening balances: fixed assets",
+   "da": "Åbningssaldi: anlægsaktiver"
+  },
+  "Kind": "OpeningAssets",
+  "Entity": "ACCOUNT",
+  "Requires": "PRODUCTS,POSTING_GROUPS,VAT_GROUPS",
+  "OffsetAccount": null,
+  "DocumentTypeId": "document_type:GENERAL_JOURNAL_ENTRY",
+  "SortOrder": 14.0
+ },
+ {
+  "Key": "migration_item:OPENING_CHART",
+  "IdSup": null,
+  "Active": true,
+  "Code": "OPENING_CHART",
+  "Name": {
+   "en": "Opening balances: the chart",
+   "da": "Åbningssaldi: kontoplanen"
+  },
+  "Kind": "Opening",
+  "Entity": "ACCOUNT",
+  "Requires": "OPENING_PARTNERS,OPENING_CASH,OPENING_STOCK,OPENING_ASSETS",
+  "OffsetAccount": null,
+  "DocumentTypeId": "document_type:GENERAL_JOURNAL_ENTRY",
+  "SortOrder": 20.0
+ }
+]

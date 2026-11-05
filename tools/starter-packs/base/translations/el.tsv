@@ -1,0 +1,18 @@
+# The base names in Greek that names.tsv has no row for, keyed by the English name.
+# en	el
+1 to 12; January when empty	1 έως 12· Ιανουάριος αν μείνει κενό
+Fiscal year starts (month)	Το οικονομικό έτος αρχίζει (μήνας)
+Fixed assets, assets	Πάγια, περιουσιακά στοιχεία
+Fixed assets, buildings	Πάγια, κτίρια
+Fixed assets, computers	Πάγια, υπολογιστές
+Fixed assets, furniture	Πάγια, έπιπλα
+Fixed assets, intangible	Πάγια, άυλα
+Fixed assets, land	Πάγια, γη
+Fixed assets, office	Πάγια, γραφείο
+Fixed assets, vehicles	Πάγια, οχήματα
+Transaction stock cost	Κόστος αποθέματος συναλλαγής
+Disassembly	Αποσυναρμολόγηση
+Product taken apart	Προϊόν που αποσυναρμολογήθηκε
+Recovered component	Ανακτημένο συστατικό
+Disassembly waste	Φύρα αποσυναρμολόγησης
+Point-of-sale reversal	Αντιλογισμός λιανικής

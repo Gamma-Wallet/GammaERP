@@ -1,0 +1,62 @@
+[
+ {
+  "Key": "employee_type:ADMINISTRATOR",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "ADMINISTRATOR",
+  "Name": {
+   "en": "Administrator",
+   "et": "Administraator"
+  },
+  "SortOrder": 10
+ },
+ {
+  "Key": "employee_type:FINANCIER",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "FINANCIER",
+  "Name": {
+   "en": "Financier",
+   "et": "Raamatupidaja"
+  },
+  "SortOrder": 20
+ },
+ {
+  "Key": "employee_type:WAREHOUSE",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "WAREHOUSE",
+  "Name": {
+   "en": "Warehouse keeper",
+   "et": "Laotöötaja"
+  },
+  "SortOrder": 30
+ },
+ {
+  "Key": "employee_type:DRIVER",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "DRIVER",
+  "Name": {
+   "en": "Driver",
+   "et": "Autojuht"
+  },
+  "SortOrder": 40
+ },
+ {
+  "Key": "employee_type:WORKER",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "WORKER",
+  "Name": {
+   "en": "Worker",
+   "et": "Tööline"
+  },
+  "SortOrder": 50
+ }
+]

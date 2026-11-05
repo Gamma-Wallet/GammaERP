@@ -1,0 +1,57 @@
+[
+ {
+  "Key": "unit_category:STANDARD",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "STANDARD",
+  "Name": {
+   "en": "Standard",
+   "it": "Standard"
+  },
+  "Description": null,
+  "SortOrder": 2.0
+ },
+ {
+  "Key": "unit_category:WEIGHT",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "WEIGHT",
+  "Name": {
+   "en": "Weight",
+   "it": "Peso"
+  },
+  "Description": null,
+  "SortOrder": 2.0
+ },
+ {
+  "Key": "unit_category:TIME",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "TIME",
+  "Name": {
+   "en": "Time",
+   "it": "Tempo"
+  },
+  "Description": null,
+  "SortOrder": 3.0
+ },
+ {
+  "Key": "unit_category:LENGTH",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "LENGTH",
+  "Name": {
+   "en": "Length",
+   "it": "Lunghezza"
+  },
+  "Description": {
+   "en": "Length",
+   "it": "Lunghezza"
+  },
+  "SortOrder": 4.0
+ }
+]

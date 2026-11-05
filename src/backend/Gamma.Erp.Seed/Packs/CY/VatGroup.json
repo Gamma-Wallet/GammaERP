@@ -1,0 +1,67 @@
+[
+ {
+  "Key": "vat_group:CY_19",
+  "IdSup": null,
+  "Active": true,
+  "Code": null,
+  "Name": {
+   "en": "VAT 19%",
+   "el": "ΦΠΑ 19%"
+  },
+  "Description": null,
+  "Rate": 19.0,
+  "Depreciation": false
+ },
+ {
+  "Key": "vat_group:CY_9",
+  "IdSup": null,
+  "Active": true,
+  "Code": null,
+  "Name": {
+   "en": "VAT 9%",
+   "el": "ΦΠΑ 9%"
+  },
+  "Description": null,
+  "Rate": 9.0,
+  "Depreciation": false
+ },
+ {
+  "Key": "vat_group:CY_5",
+  "IdSup": null,
+  "Active": true,
+  "Code": null,
+  "Name": {
+   "en": "VAT 5%",
+   "el": "ΦΠΑ 5%"
+  },
+  "Description": null,
+  "Rate": 5.0,
+  "Depreciation": false
+ },
+ {
+  "Key": "vat_group:CY_3",
+  "IdSup": null,
+  "Active": true,
+  "Code": null,
+  "Name": {
+   "en": "VAT 3%",
+   "el": "ΦΠΑ 3%"
+  },
+  "Description": null,
+  "Rate": 3.0,
+  "Depreciation": false
+ },
+ {
+  "Key": "vat_group:CY_0",
+  "IdSup": null,
+  "Active": true,
+  "Code": null,
+  "Name": {
+   "en": "VAT 0% / exempt",
+   "el": "ΦΠΑ 0% / απαλλαγή"
+  },
+  "Description": null,
+  "Rate": 0.0,
+  "Depreciation": false
+ }
+]

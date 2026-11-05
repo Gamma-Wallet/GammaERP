@@ -1,0 +1,2810 @@
+[
+ {
+  "Key": "inter_document_type_transaction_type:1",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:SALES_OFFER_GOODS",
+  "TransactionTypeId": "transaction_type:ITEM",
+  "ElementDebitValueElementsId": null,
+  "ElementCreditValueElementsId": null
+ },
+ {
+  "Key": "inter_document_type_transaction_type:2",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:SALES_OFFER_GOODS",
+  "TransactionTypeId": "transaction_type:FIXED_ASSET",
+  "ElementDebitValueElementsId": null,
+  "ElementCreditValueElementsId": null
+ },
+ {
+  "Key": "inter_document_type_transaction_type:3",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:SALES_OFFER_GOODS",
+  "TransactionTypeId": "transaction_type:SERVICE_ITEM",
+  "ElementDebitValueElementsId": null,
+  "ElementCreditValueElementsId": null
+ },
+ {
+  "Key": "inter_document_type_transaction_type:4",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:SALES_INVOICE_GOODS",
+  "TransactionTypeId": "transaction_type:ITEM",
+  "ElementDebitValueElementsId": null,
+  "ElementCreditValueElementsId": null
+ },
+ {
+  "Key": "inter_document_type_transaction_type:5",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:SALES_INVOICE_GOODS",
+  "TransactionTypeId": "transaction_type:FIXED_ASSET",
+  "ElementDebitValueElementsId": null,
+  "ElementCreditValueElementsId": null
+ },
+ {
+  "Key": "inter_document_type_transaction_type:6",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:SALES_INVOICE_GOODS",
+  "TransactionTypeId": "transaction_type:ACCOUNT",
+  "ElementDebitValueElementsId": null,
+  "ElementCreditValueElementsId": null
+ },
+ {
+  "Key": "inter_document_type_transaction_type:7",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:CREDIT_NOTE_GOODS_SOLD",
+  "TransactionTypeId": "transaction_type:ACCOUNT",
+  "ElementDebitValueElementsId": null,
+  "ElementCreditValueElementsId": null
+ },
+ {
+  "Key": "inter_document_type_transaction_type:8",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:CREDIT_NOTE_GOODS_SOLD",
+  "TransactionTypeId": "transaction_type:ITEM",
+  "ElementDebitValueElementsId": null,
+  "ElementCreditValueElementsId": null
+ },
+ {
+  "Key": "inter_document_type_transaction_type:9",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:CREDIT_NOTE_GOODS_SOLD",
+  "TransactionTypeId": "transaction_type:FIXED_ASSET",
+  "ElementDebitValueElementsId": null,
+  "ElementCreditValueElementsId": null
+ },
+ {
+  "Key": "inter_document_type_transaction_type:10",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:SALES_INVOICE_SERVICES",
+  "TransactionTypeId": "transaction_type:ACCOUNT",
+  "ElementDebitValueElementsId": null,
+  "ElementCreditValueElementsId": null
+ },
+ {
+  "Key": "inter_document_type_transaction_type:11",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:SALES_INVOICE_SERVICES",
+  "TransactionTypeId": "transaction_type:ITEM",
+  "ElementDebitValueElementsId": null,
+  "ElementCreditValueElementsId": null
+ },
+ {
+  "Key": "inter_document_type_transaction_type:12",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:SALES_INVOICE_SERVICES",
+  "TransactionTypeId": "transaction_type:FIXED_ASSET",
+  "ElementDebitValueElementsId": null,
+  "ElementCreditValueElementsId": null
+ },
+ {
+  "Key": "inter_document_type_transaction_type:13",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:SALES_INVOICE_SERVICES",
+  "TransactionTypeId": "transaction_type:SERVICE_ITEM",
+  "ElementDebitValueElementsId": null,
+  "ElementCreditValueElementsId": null
+ },
+ {
+  "Key": "inter_document_type_transaction_type:14",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:CREDIT_NOTE_SERVICES_SOLD",
+  "TransactionTypeId": "transaction_type:ACCOUNT",
+  "ElementDebitValueElementsId": null,
+  "ElementCreditValueElementsId": null
+ },
+ {
+  "Key": "inter_document_type_transaction_type:15",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:CREDIT_NOTE_SERVICES_SOLD",
+  "TransactionTypeId": "transaction_type:ITEM",
+  "ElementDebitValueElementsId": null,
+  "ElementCreditValueElementsId": null
+ },
+ {
+  "Key": "inter_document_type_transaction_type:16",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:CREDIT_NOTE_SERVICES_SOLD",
+  "TransactionTypeId": "transaction_type:FIXED_ASSET",
+  "ElementDebitValueElementsId": null,
+  "ElementCreditValueElementsId": null
+ },
+ {
+  "Key": "inter_document_type_transaction_type:17",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:CREDIT_NOTE_SERVICES_SOLD",
+  "TransactionTypeId": "transaction_type:SERVICE_ITEM",
+  "ElementDebitValueElementsId": null,
+  "ElementCreditValueElementsId": null
+ },
+ {
+  "Key": "inter_document_type_transaction_type:18",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:PURCHASE_INVOICE_GOODS",
+  "TransactionTypeId": "transaction_type:ACCOUNT",
+  "ElementDebitValueElementsId": null,
+  "ElementCreditValueElementsId": null
+ },
+ {
+  "Key": "inter_document_type_transaction_type:19",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:PURCHASE_INVOICE_GOODS",
+  "TransactionTypeId": "transaction_type:ITEM",
+  "ElementDebitValueElementsId": null,
+  "ElementCreditValueElementsId": null
+ },
+ {
+  "Key": "inter_document_type_transaction_type:20",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:PURCHASE_INVOICE_GOODS",
+  "TransactionTypeId": "transaction_type:FIXED_ASSET",
+  "ElementDebitValueElementsId": null,
+  "ElementCreditValueElementsId": null
+ },
+ {
+  "Key": "inter_document_type_transaction_type:21",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:CREDIT_NOTE_GOODS_BOUGHT",
+  "TransactionTypeId": "transaction_type:ACCOUNT",
+  "ElementDebitValueElementsId": null,
+  "ElementCreditValueElementsId": null
+ },
+ {
+  "Key": "inter_document_type_transaction_type:22",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:CREDIT_NOTE_GOODS_BOUGHT",
+  "TransactionTypeId": "transaction_type:ITEM",
+  "ElementDebitValueElementsId": null,
+  "ElementCreditValueElementsId": null
+ },
+ {
+  "Key": "inter_document_type_transaction_type:23",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:CREDIT_NOTE_GOODS_BOUGHT",
+  "TransactionTypeId": "transaction_type:FIXED_ASSET",
+  "ElementDebitValueElementsId": null,
+  "ElementCreditValueElementsId": null
+ },
+ {
+  "Key": "inter_document_type_transaction_type:24",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:PURCHASE_INVOICE_SERVICES",
+  "TransactionTypeId": "transaction_type:ACCOUNT",
+  "ElementDebitValueElementsId": null,
+  "ElementCreditValueElementsId": null
+ },
+ {
+  "Key": "inter_document_type_transaction_type:25",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:PURCHASE_INVOICE_SERVICES",
+  "TransactionTypeId": "transaction_type:ITEM",
+  "ElementDebitValueElementsId": null,
+  "ElementCreditValueElementsId": null
+ },
+ {
+  "Key": "inter_document_type_transaction_type:26",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:PURCHASE_INVOICE_SERVICES",
+  "TransactionTypeId": "transaction_type:FIXED_ASSET",
+  "ElementDebitValueElementsId": null,
+  "ElementCreditValueElementsId": null
+ },
+ {
+  "Key": "inter_document_type_transaction_type:27",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:PURCHASE_INVOICE_SERVICES",
+  "TransactionTypeId": "transaction_type:SERVICE_ITEM",
+  "ElementDebitValueElementsId": null,
+  "ElementCreditValueElementsId": null
+ },
+ {
+  "Key": "inter_document_type_transaction_type:28",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:CREDIT_NOTE_SERVICES_BOUGHT",
+  "TransactionTypeId": "transaction_type:ACCOUNT",
+  "ElementDebitValueElementsId": null,
+  "ElementCreditValueElementsId": null
+ },
+ {
+  "Key": "inter_document_type_transaction_type:29",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:CREDIT_NOTE_SERVICES_BOUGHT",
+  "TransactionTypeId": "transaction_type:ITEM",
+  "ElementDebitValueElementsId": null,
+  "ElementCreditValueElementsId": null
+ },
+ {
+  "Key": "inter_document_type_transaction_type:30",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:CREDIT_NOTE_SERVICES_BOUGHT",
+  "TransactionTypeId": "transaction_type:FIXED_ASSET",
+  "ElementDebitValueElementsId": null,
+  "ElementCreditValueElementsId": null
+ },
+ {
+  "Key": "inter_document_type_transaction_type:31",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:CREDIT_NOTE_SERVICES_BOUGHT",
+  "TransactionTypeId": "transaction_type:SERVICE_ITEM",
+  "ElementDebitValueElementsId": null,
+  "ElementCreditValueElementsId": null
+ },
+ {
+  "Key": "inter_document_type_transaction_type:32",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:GOODS_TRANSFER",
+  "TransactionTypeId": "transaction_type:ITEM",
+  "ElementDebitValueElementsId": null,
+  "ElementCreditValueElementsId": null
+ },
+ {
+  "Key": "inter_document_type_transaction_type:33",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:GOODS_TRANSFER",
+  "TransactionTypeId": "transaction_type:FIXED_ASSET",
+  "ElementDebitValueElementsId": null,
+  "ElementCreditValueElementsId": null
+ },
+ {
+  "Key": "inter_document_type_transaction_type:34",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:PAYMENT",
+  "TransactionTypeId": "transaction_type:ACCOUNT",
+  "ElementDebitValueElementsId": null,
+  "ElementCreditValueElementsId": null
+ },
+ {
+  "Key": "inter_document_type_transaction_type:35",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:PREPAYMENT",
+  "TransactionTypeId": "transaction_type:ACCOUNT",
+  "ElementDebitValueElementsId": null,
+  "ElementCreditValueElementsId": null
+ },
+ {
+  "Key": "inter_document_type_transaction_type:36",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:RECEIPT",
+  "TransactionTypeId": "transaction_type:ACCOUNT",
+  "ElementDebitValueElementsId": null,
+  "ElementCreditValueElementsId": null
+ },
+ {
+  "Key": "inter_document_type_transaction_type:37",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:RECEIPT",
+  "TransactionTypeId": "transaction_type:CASH_DESK_ACCOUNT",
+  "ElementDebitValueElementsId": null,
+  "ElementCreditValueElementsId": null
+ },
+ {
+  "Key": "inter_document_type_transaction_type:38",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:PREPAYMENT",
+  "TransactionTypeId": "transaction_type:CASH_DESK_ACCOUNT",
+  "ElementDebitValueElementsId": null,
+  "ElementCreditValueElementsId": null
+ },
+ {
+  "Key": "inter_document_type_transaction_type:39",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:PAYMENT",
+  "TransactionTypeId": "transaction_type:CASH_DESK_ACCOUNT",
+  "ElementDebitValueElementsId": null,
+  "ElementCreditValueElementsId": null
+ },
+ {
+  "Key": "inter_document_type_transaction_type:40",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:PAYMENT",
+  "TransactionTypeId": "transaction_type:BANK_ACCOUNT",
+  "ElementDebitValueElementsId": null,
+  "ElementCreditValueElementsId": null
+ },
+ {
+  "Key": "inter_document_type_transaction_type:41",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:PAYMENT",
+  "TransactionTypeId": "transaction_type:CLIENT",
+  "ElementDebitValueElementsId": null,
+  "ElementCreditValueElementsId": null
+ },
+ {
+  "Key": "inter_document_type_transaction_type:42",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:PAYMENT",
+  "TransactionTypeId": "transaction_type:SUPPLIER",
+  "ElementDebitValueElementsId": null,
+  "ElementCreditValueElementsId": null
+ },
+ {
+  "Key": "inter_document_type_transaction_type:43",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:PAYMENT",
+  "TransactionTypeId": "transaction_type:STAFF",
+  "ElementDebitValueElementsId": null,
+  "ElementCreditValueElementsId": null
+ },
+ {
+  "Key": "inter_document_type_transaction_type:44",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:RECEIPT",
+  "TransactionTypeId": "transaction_type:BANK_ACCOUNT",
+  "ElementDebitValueElementsId": null,
+  "ElementCreditValueElementsId": null
+ },
+ {
+  "Key": "inter_document_type_transaction_type:45",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:RECEIPT",
+  "TransactionTypeId": "transaction_type:CLIENT",
+  "ElementDebitValueElementsId": null,
+  "ElementCreditValueElementsId": null
+ },
+ {
+  "Key": "inter_document_type_transaction_type:46",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:RECEIPT",
+  "TransactionTypeId": "transaction_type:SUPPLIER",
+  "ElementDebitValueElementsId": null,
+  "ElementCreditValueElementsId": null
+ },
+ {
+  "Key": "inter_document_type_transaction_type:47",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:RECEIPT",
+  "TransactionTypeId": "transaction_type:STAFF",
+  "ElementDebitValueElementsId": null,
+  "ElementCreditValueElementsId": null
+ },
+ {
+  "Key": "inter_document_type_transaction_type:48",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:PREPAYMENT",
+  "TransactionTypeId": "transaction_type:BANK_ACCOUNT",
+  "ElementDebitValueElementsId": null,
+  "ElementCreditValueElementsId": null
+ },
+ {
+  "Key": "inter_document_type_transaction_type:49",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:PREPAYMENT",
+  "TransactionTypeId": "transaction_type:SUPPLIER",
+  "ElementDebitValueElementsId": null,
+  "ElementCreditValueElementsId": null
+ },
+ {
+  "Key": "inter_document_type_transaction_type:50",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:ADVANCE",
+  "TransactionTypeId": "transaction_type:ACCOUNT",
+  "ElementDebitValueElementsId": null,
+  "ElementCreditValueElementsId": null
+ },
+ {
+  "Key": "inter_document_type_transaction_type:51",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:ADVANCE",
+  "TransactionTypeId": "transaction_type:CLIENT",
+  "ElementDebitValueElementsId": null,
+  "ElementCreditValueElementsId": null
+ },
+ {
+  "Key": "inter_document_type_transaction_type:52",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:ADVANCE",
+  "TransactionTypeId": "transaction_type:CASH_DESK_ACCOUNT",
+  "ElementDebitValueElementsId": null,
+  "ElementCreditValueElementsId": null
+ },
+ {
+  "Key": "inter_document_type_transaction_type:53",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:ADVANCE",
+  "TransactionTypeId": "transaction_type:BANK_ACCOUNT",
+  "ElementDebitValueElementsId": null,
+  "ElementCreditValueElementsId": null
+ },
+ {
+  "Key": "inter_document_type_transaction_type:54",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:EMPLOYEE_ADVANCE",
+  "TransactionTypeId": "transaction_type:ACCOUNT",
+  "ElementDebitValueElementsId": null,
+  "ElementCreditValueElementsId": null
+ },
+ {
+  "Key": "inter_document_type_transaction_type:55",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:EMPLOYEE_ADVANCE",
+  "TransactionTypeId": "transaction_type:CASH_DESK_ACCOUNT",
+  "ElementDebitValueElementsId": null,
+  "ElementCreditValueElementsId": null
+ },
+ {
+  "Key": "inter_document_type_transaction_type:56",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:EMPLOYEE_ADVANCE",
+  "TransactionTypeId": "transaction_type:BANK_ACCOUNT",
+  "ElementDebitValueElementsId": null,
+  "ElementCreditValueElementsId": null
+ },
+ {
+  "Key": "inter_document_type_transaction_type:57",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:EMPLOYEE_ADVANCE",
+  "TransactionTypeId": "transaction_type:STAFF",
+  "ElementDebitValueElementsId": null,
+  "ElementCreditValueElementsId": null
+ },
+ {
+  "Key": "inter_document_type_transaction_type:58",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:JOURNAL_PAYMENT",
+  "TransactionTypeId": "transaction_type:ACCOUNT",
+  "ElementDebitValueElementsId": null,
+  "ElementCreditValueElementsId": null
+ },
+ {
+  "Key": "inter_document_type_transaction_type:59",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:JOURNAL_PAYMENT",
+  "TransactionTypeId": "transaction_type:SUPPLIER",
+  "ElementDebitValueElementsId": "elements:178",
+  "ElementCreditValueElementsId": "elements:179"
+ },
+ {
+  "Key": "inter_document_type_transaction_type:60",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:JOURNAL_PAYMENT",
+  "TransactionTypeId": "transaction_type:CASH_DESK_ACCOUNT",
+  "ElementDebitValueElementsId": "elements:178",
+  "ElementCreditValueElementsId": "elements:179"
+ },
+ {
+  "Key": "inter_document_type_transaction_type:61",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:JOURNAL_PAYMENT",
+  "TransactionTypeId": "transaction_type:BANK_ACCOUNT",
+  "ElementDebitValueElementsId": "elements:178",
+  "ElementCreditValueElementsId": "elements:179"
+ },
+ {
+  "Key": "inter_document_type_transaction_type:62",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:JOURNAL_RECEIPT",
+  "TransactionTypeId": "transaction_type:ACCOUNT",
+  "ElementDebitValueElementsId": null,
+  "ElementCreditValueElementsId": null
+ },
+ {
+  "Key": "inter_document_type_transaction_type:63",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:JOURNAL_RECEIPT",
+  "TransactionTypeId": "transaction_type:CLIENT",
+  "ElementDebitValueElementsId": "elements:178",
+  "ElementCreditValueElementsId": "elements:179"
+ },
+ {
+  "Key": "inter_document_type_transaction_type:64",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:JOURNAL_RECEIPT",
+  "TransactionTypeId": "transaction_type:CASH_DESK_ACCOUNT",
+  "ElementDebitValueElementsId": "elements:178",
+  "ElementCreditValueElementsId": "elements:179"
+ },
+ {
+  "Key": "inter_document_type_transaction_type:65",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:JOURNAL_RECEIPT",
+  "TransactionTypeId": "transaction_type:BANK_ACCOUNT",
+  "ElementDebitValueElementsId": "elements:178",
+  "ElementCreditValueElementsId": "elements:179"
+ },
+ {
+  "Key": "inter_document_type_transaction_type:66",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:JOURNAL_PREPAYMENT",
+  "TransactionTypeId": "transaction_type:ACCOUNT",
+  "ElementDebitValueElementsId": null,
+  "ElementCreditValueElementsId": null
+ },
+ {
+  "Key": "inter_document_type_transaction_type:67",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:JOURNAL_ADVANCE",
+  "TransactionTypeId": "transaction_type:ACCOUNT",
+  "ElementDebitValueElementsId": null,
+  "ElementCreditValueElementsId": null
+ },
+ {
+  "Key": "inter_document_type_transaction_type:68",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:JOURNAL_ADVANCE",
+  "TransactionTypeId": "transaction_type:CASH_DESK_ACCOUNT",
+  "ElementDebitValueElementsId": "elements:178",
+  "ElementCreditValueElementsId": "elements:179"
+ },
+ {
+  "Key": "inter_document_type_transaction_type:69",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:JOURNAL_ADVANCE",
+  "TransactionTypeId": "transaction_type:BANK_ACCOUNT",
+  "ElementDebitValueElementsId": "elements:178",
+  "ElementCreditValueElementsId": "elements:179"
+ },
+ {
+  "Key": "inter_document_type_transaction_type:70",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:JOURNAL_ADVANCE",
+  "TransactionTypeId": "transaction_type:CLIENT",
+  "ElementDebitValueElementsId": "elements:178",
+  "ElementCreditValueElementsId": "elements:179"
+ },
+ {
+  "Key": "inter_document_type_transaction_type:71",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:JOURNAL_EMPLOYEE_ADVANCE",
+  "TransactionTypeId": "transaction_type:ACCOUNT",
+  "ElementDebitValueElementsId": null,
+  "ElementCreditValueElementsId": null
+ },
+ {
+  "Key": "inter_document_type_transaction_type:72",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:JOURNAL_EMPLOYEE_ADVANCE",
+  "TransactionTypeId": "transaction_type:CASH_DESK_ACCOUNT",
+  "ElementDebitValueElementsId": "elements:178",
+  "ElementCreditValueElementsId": "elements:179"
+ },
+ {
+  "Key": "inter_document_type_transaction_type:73",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:JOURNAL_EMPLOYEE_ADVANCE",
+  "TransactionTypeId": "transaction_type:BANK_ACCOUNT",
+  "ElementDebitValueElementsId": "elements:178",
+  "ElementCreditValueElementsId": "elements:179"
+ },
+ {
+  "Key": "inter_document_type_transaction_type:74",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:JOURNAL_EMPLOYEE_ADVANCE",
+  "TransactionTypeId": "transaction_type:STAFF",
+  "ElementDebitValueElementsId": "elements:178",
+  "ElementCreditValueElementsId": "elements:179"
+ },
+ {
+  "Key": "inter_document_type_transaction_type:75",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:SALES_CONTRACT_GOODS",
+  "TransactionTypeId": "transaction_type:ITEM",
+  "ElementDebitValueElementsId": null,
+  "ElementCreditValueElementsId": null
+ },
+ {
+  "Key": "inter_document_type_transaction_type:76",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:SALES_CONTRACT_GOODS",
+  "TransactionTypeId": "transaction_type:SERVICE_ITEM",
+  "ElementDebitValueElementsId": null,
+  "ElementCreditValueElementsId": null
+ },
+ {
+  "Key": "inter_document_type_transaction_type:77",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:PURCHASE_CONTRACT_GOODS",
+  "TransactionTypeId": "transaction_type:ITEM",
+  "ElementDebitValueElementsId": null,
+  "ElementCreditValueElementsId": null
+ },
+ {
+  "Key": "inter_document_type_transaction_type:78",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:PURCHASE_CONTRACT_GOODS",
+  "TransactionTypeId": "transaction_type:SERVICE_ITEM",
+  "ElementDebitValueElementsId": null,
+  "ElementCreditValueElementsId": null
+ },
+ {
+  "Key": "inter_document_type_transaction_type:79",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:PURCHASE_OFFER_GOODS",
+  "TransactionTypeId": "transaction_type:ITEM",
+  "ElementDebitValueElementsId": null,
+  "ElementCreditValueElementsId": null
+ },
+ {
+  "Key": "inter_document_type_transaction_type:80",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:PURCHASE_OFFER_GOODS",
+  "TransactionTypeId": "transaction_type:FIXED_ASSET",
+  "ElementDebitValueElementsId": null,
+  "ElementCreditValueElementsId": null
+ },
+ {
+  "Key": "inter_document_type_transaction_type:81",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:PURCHASE_OFFER_GOODS",
+  "TransactionTypeId": "transaction_type:SERVICE_ITEM",
+  "ElementDebitValueElementsId": null,
+  "ElementCreditValueElementsId": null
+ },
+ {
+  "Key": "inter_document_type_transaction_type:82",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:PURCHASE_OFFER_GOODS",
+  "TransactionTypeId": "transaction_type:ACCOUNT",
+  "ElementDebitValueElementsId": null,
+  "ElementCreditValueElementsId": null
+ },
+ {
+  "Key": "inter_document_type_transaction_type:83",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:SALES_OFFER_SERVICES",
+  "TransactionTypeId": "transaction_type:ITEM",
+  "ElementDebitValueElementsId": null,
+  "ElementCreditValueElementsId": null
+ },
+ {
+  "Key": "inter_document_type_transaction_type:84",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:SALES_OFFER_SERVICES",
+  "TransactionTypeId": "transaction_type:SERVICE_ITEM",
+  "ElementDebitValueElementsId": null,
+  "ElementCreditValueElementsId": null
+ },
+ {
+  "Key": "inter_document_type_transaction_type:85",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:PURCHASE_OFFER_SERVICES",
+  "TransactionTypeId": "transaction_type:ITEM",
+  "ElementDebitValueElementsId": null,
+  "ElementCreditValueElementsId": null
+ },
+ {
+  "Key": "inter_document_type_transaction_type:86",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:PURCHASE_OFFER_SERVICES",
+  "TransactionTypeId": "transaction_type:SERVICE_ITEM",
+  "ElementDebitValueElementsId": null,
+  "ElementCreditValueElementsId": null
+ },
+ {
+  "Key": "inter_document_type_transaction_type:87",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:PURCHASE_OFFER_SERVICES",
+  "TransactionTypeId": "transaction_type:ACCOUNT",
+  "ElementDebitValueElementsId": null,
+  "ElementCreditValueElementsId": null
+ },
+ {
+  "Key": "inter_document_type_transaction_type:88",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:SALES_OFFER_SERVICES",
+  "TransactionTypeId": "transaction_type:ACCOUNT",
+  "ElementDebitValueElementsId": null,
+  "ElementCreditValueElementsId": null
+ },
+ {
+  "Key": "inter_document_type_transaction_type:89",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:SALES_OFFER_GOODS",
+  "TransactionTypeId": "transaction_type:ACCOUNT",
+  "ElementDebitValueElementsId": null,
+  "ElementCreditValueElementsId": null
+ },
+ {
+  "Key": "inter_document_type_transaction_type:90",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:JOURNAL_PREPAYMENT",
+  "TransactionTypeId": "transaction_type:CASH_DESK_ACCOUNT",
+  "ElementDebitValueElementsId": "elements:178",
+  "ElementCreditValueElementsId": "elements:179"
+ },
+ {
+  "Key": "inter_document_type_transaction_type:91",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:JOURNAL_PREPAYMENT",
+  "TransactionTypeId": "transaction_type:BANK_ACCOUNT",
+  "ElementDebitValueElementsId": "elements:178",
+  "ElementCreditValueElementsId": "elements:179"
+ },
+ {
+  "Key": "inter_document_type_transaction_type:92",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:JOURNAL_PREPAYMENT",
+  "TransactionTypeId": "transaction_type:SUPPLIER",
+  "ElementDebitValueElementsId": "elements:178",
+  "ElementCreditValueElementsId": "elements:179"
+ },
+ {
+  "Key": "inter_document_type_transaction_type:93",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:GENERAL_JOURNAL_ENTRY",
+  "TransactionTypeId": "transaction_type:ACCOUNT",
+  "ElementDebitValueElementsId": null,
+  "ElementCreditValueElementsId": null
+ },
+ {
+  "Key": "inter_document_type_transaction_type:94",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:GENERAL_JOURNAL_ENTRY",
+  "TransactionTypeId": "transaction_type:SUPPLIER",
+  "ElementDebitValueElementsId": "elements:178",
+  "ElementCreditValueElementsId": "elements:179"
+ },
+ {
+  "Key": "inter_document_type_transaction_type:95",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:GENERAL_JOURNAL_ENTRY",
+  "TransactionTypeId": "transaction_type:CLIENT",
+  "ElementDebitValueElementsId": "elements:178",
+  "ElementCreditValueElementsId": "elements:179"
+ },
+ {
+  "Key": "inter_document_type_transaction_type:96",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:GENERAL_JOURNAL_ENTRY",
+  "TransactionTypeId": "transaction_type:CASH_DESK_ACCOUNT",
+  "ElementDebitValueElementsId": "elements:178",
+  "ElementCreditValueElementsId": "elements:179"
+ },
+ {
+  "Key": "inter_document_type_transaction_type:97",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:GENERAL_JOURNAL_ENTRY",
+  "TransactionTypeId": "transaction_type:BANK_ACCOUNT",
+  "ElementDebitValueElementsId": "elements:178",
+  "ElementCreditValueElementsId": "elements:179"
+ },
+ {
+  "Key": "inter_document_type_transaction_type:98",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:GENERAL_JOURNAL_ENTRY",
+  "TransactionTypeId": "transaction_type:STAFF",
+  "ElementDebitValueElementsId": "elements:178",
+  "ElementCreditValueElementsId": "elements:179"
+ },
+ {
+  "Key": "inter_document_type_transaction_type:99",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:SALES_CONTRACT_GOODS",
+  "TransactionTypeId": "transaction_type:ACCOUNT",
+  "ElementDebitValueElementsId": null,
+  "ElementCreditValueElementsId": null
+ },
+ {
+  "Key": "inter_document_type_transaction_type:100",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:SALES_CONTRACT_GOODS",
+  "TransactionTypeId": "transaction_type:FIXED_ASSET",
+  "ElementDebitValueElementsId": null,
+  "ElementCreditValueElementsId": null
+ },
+ {
+  "Key": "inter_document_type_transaction_type:101",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:PURCHASE_CONTRACT_GOODS",
+  "TransactionTypeId": "transaction_type:ACCOUNT",
+  "ElementDebitValueElementsId": null,
+  "ElementCreditValueElementsId": null
+ },
+ {
+  "Key": "inter_document_type_transaction_type:102",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:PURCHASE_CONTRACT_GOODS",
+  "TransactionTypeId": "transaction_type:FIXED_ASSET",
+  "ElementDebitValueElementsId": null,
+  "ElementCreditValueElementsId": null
+ },
+ {
+  "Key": "inter_document_type_transaction_type:103",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:SALES_CONTRACT_SERVICES",
+  "TransactionTypeId": "transaction_type:SERVICE_ITEM",
+  "ElementDebitValueElementsId": null,
+  "ElementCreditValueElementsId": null
+ },
+ {
+  "Key": "inter_document_type_transaction_type:104",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:SALES_CONTRACT_SERVICES",
+  "TransactionTypeId": "transaction_type:ITEM",
+  "ElementDebitValueElementsId": null,
+  "ElementCreditValueElementsId": null
+ },
+ {
+  "Key": "inter_document_type_transaction_type:105",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:SALES_CONTRACT_SERVICES",
+  "TransactionTypeId": "transaction_type:ACCOUNT",
+  "ElementDebitValueElementsId": null,
+  "ElementCreditValueElementsId": null
+ },
+ {
+  "Key": "inter_document_type_transaction_type:106",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:SALES_CONTRACT_SERVICES",
+  "TransactionTypeId": "transaction_type:FIXED_ASSET",
+  "ElementDebitValueElementsId": null,
+  "ElementCreditValueElementsId": null
+ },
+ {
+  "Key": "inter_document_type_transaction_type:107",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:PURCHASE_CONTRACT_SERVICES",
+  "TransactionTypeId": "transaction_type:SERVICE_ITEM",
+  "ElementDebitValueElementsId": null,
+  "ElementCreditValueElementsId": null
+ },
+ {
+  "Key": "inter_document_type_transaction_type:108",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:PURCHASE_CONTRACT_SERVICES",
+  "TransactionTypeId": "transaction_type:ITEM",
+  "ElementDebitValueElementsId": null,
+  "ElementCreditValueElementsId": null
+ },
+ {
+  "Key": "inter_document_type_transaction_type:109",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:PURCHASE_CONTRACT_SERVICES",
+  "TransactionTypeId": "transaction_type:ACCOUNT",
+  "ElementDebitValueElementsId": null,
+  "ElementCreditValueElementsId": null
+ },
+ {
+  "Key": "inter_document_type_transaction_type:110",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:PURCHASE_CONTRACT_SERVICES",
+  "TransactionTypeId": "transaction_type:FIXED_ASSET",
+  "ElementDebitValueElementsId": null,
+  "ElementCreditValueElementsId": null
+ },
+ {
+  "Key": "inter_document_type_transaction_type:111",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:POS_RECEIPT",
+  "TransactionTypeId": "transaction_type:SERVICE_ITEM",
+  "ElementDebitValueElementsId": null,
+  "ElementCreditValueElementsId": null
+ },
+ {
+  "Key": "inter_document_type_transaction_type:112",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:POS_RECEIPT",
+  "TransactionTypeId": "transaction_type:ITEM",
+  "ElementDebitValueElementsId": null,
+  "ElementCreditValueElementsId": null
+ },
+ {
+  "Key": "inter_document_type_transaction_type:113",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:GOODS_TRANSFER_TO_STAFF",
+  "TransactionTypeId": "transaction_type:FIXED_ASSET_SERVICE",
+  "ElementDebitValueElementsId": null,
+  "ElementCreditValueElementsId": null
+ },
+ {
+  "Key": "inter_document_type_transaction_type:114",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:GOODS_TRANSFER_FROM_STAFF",
+  "TransactionTypeId": "transaction_type:FIXED_ASSET_SERVICE",
+  "ElementDebitValueElementsId": null,
+  "ElementCreditValueElementsId": null
+ },
+ {
+  "Key": "inter_document_type_transaction_type:115",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:GOODS_TRANSFER_TO_CLIENT",
+  "TransactionTypeId": "transaction_type:FIXED_ASSET_SERVICE",
+  "ElementDebitValueElementsId": null,
+  "ElementCreditValueElementsId": null
+ },
+ {
+  "Key": "inter_document_type_transaction_type:116",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:GOODS_TRANSFER_FROM_CLIENT",
+  "TransactionTypeId": "transaction_type:FIXED_ASSET_SERVICE",
+  "ElementDebitValueElementsId": null,
+  "ElementCreditValueElementsId": null
+ },
+ {
+  "Key": "inter_document_type_transaction_type:117",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:DEPRECIATION_JOURNAL",
+  "TransactionTypeId": "transaction_type:ACCOUNT",
+  "ElementDebitValueElementsId": null,
+  "ElementCreditValueElementsId": null
+ },
+ {
+  "Key": "inter_document_type_transaction_type:118",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:REVALUATION_JOURNAL",
+  "TransactionTypeId": "transaction_type:REVALUATION",
+  "ElementDebitValueElementsId": null,
+  "ElementCreditValueElementsId": null
+ },
+ {
+  "Key": "inter_document_type_transaction_type:119",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:POS_CONTRACT",
+  "TransactionTypeId": "transaction_type:ITEM",
+  "ElementDebitValueElementsId": null,
+  "ElementCreditValueElementsId": null
+ },
+ {
+  "Key": "inter_document_type_transaction_type:120",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:POS_CONTRACT",
+  "TransactionTypeId": "transaction_type:SERVICE_ITEM",
+  "ElementDebitValueElementsId": null,
+  "ElementCreditValueElementsId": null
+ },
+ {
+  "Key": "inter_document_type_transaction_type:121",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:POS_MONEY_IN",
+  "TransactionTypeId": "transaction_type:CASH_DESK_ACCOUNT",
+  "ElementDebitValueElementsId": null,
+  "ElementCreditValueElementsId": null
+ },
+ {
+  "Key": "inter_document_type_transaction_type:122",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:POS_MONEY_OUT",
+  "TransactionTypeId": "transaction_type:CASH_DESK_ACCOUNT",
+  "ElementDebitValueElementsId": null,
+  "ElementCreditValueElementsId": null
+ },
+ {
+  "Key": "inter_document_type_transaction_type:123",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:POS_GOODS_IN",
+  "TransactionTypeId": "transaction_type:FIXED_ASSET",
+  "ElementDebitValueElementsId": null,
+  "ElementCreditValueElementsId": null
+ },
+ {
+  "Key": "inter_document_type_transaction_type:124",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:POS_GOODS_IN",
+  "TransactionTypeId": "transaction_type:ITEM",
+  "ElementDebitValueElementsId": null,
+  "ElementCreditValueElementsId": null
+ },
+ {
+  "Key": "inter_document_type_transaction_type:125",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:POS_GOODS_OUT",
+  "TransactionTypeId": "transaction_type:ITEM",
+  "ElementDebitValueElementsId": null,
+  "ElementCreditValueElementsId": null
+ },
+ {
+  "Key": "inter_document_type_transaction_type:126",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:POS_GOODS_OUT",
+  "TransactionTypeId": "transaction_type:FIXED_ASSET",
+  "ElementDebitValueElementsId": null,
+  "ElementCreditValueElementsId": null
+ },
+ {
+  "Key": "inter_document_type_transaction_type:127",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:GOODS_TRANSFER_TO_STAFF",
+  "TransactionTypeId": "transaction_type:ITEM",
+  "ElementDebitValueElementsId": null,
+  "ElementCreditValueElementsId": null
+ },
+ {
+  "Key": "inter_document_type_transaction_type:128",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:WAGE_PAYMENT",
+  "TransactionTypeId": "transaction_type:CASH_DESK_ACCOUNT",
+  "ElementDebitValueElementsId": null,
+  "ElementCreditValueElementsId": null
+ },
+ {
+  "Key": "inter_document_type_transaction_type:129",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:WAGE_PAYMENT",
+  "TransactionTypeId": "transaction_type:BANK_ACCOUNT",
+  "ElementDebitValueElementsId": null,
+  "ElementCreditValueElementsId": null
+ },
+ {
+  "Key": "inter_document_type_transaction_type:130",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:RENT_PAYMENT",
+  "TransactionTypeId": "transaction_type:CASH_DESK_ACCOUNT",
+  "ElementDebitValueElementsId": null,
+  "ElementCreditValueElementsId": null
+ },
+ {
+  "Key": "inter_document_type_transaction_type:131",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:RENT_PAYMENT",
+  "TransactionTypeId": "transaction_type:BANK_ACCOUNT",
+  "ElementDebitValueElementsId": null,
+  "ElementCreditValueElementsId": null
+ },
+ {
+  "Key": "inter_document_type_transaction_type:132",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:GENERAL_JOURNAL_ENTRY",
+  "TransactionTypeId": "transaction_type:FIXED_ASSET",
+  "ElementDebitValueElementsId": null,
+  "ElementCreditValueElementsId": null
+ },
+ {
+  "Key": "inter_document_type_transaction_type:133",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:DEPRECIATION_JOURNAL",
+  "TransactionTypeId": "transaction_type:DEPRECIATION",
+  "ElementDebitValueElementsId": null,
+  "ElementCreditValueElementsId": null
+ },
+ {
+  "Key": "inter_document_type_transaction_type:134",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:CUSTOMS_DECLARATION",
+  "TransactionTypeId": "transaction_type:CUSTOMS",
+  "ElementDebitValueElementsId": null,
+  "ElementCreditValueElementsId": null
+ },
+ {
+  "Key": "inter_document_type_transaction_type:135",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:CUSTOMS_DECLARATION",
+  "TransactionTypeId": "transaction_type:TRANSPORT",
+  "ElementDebitValueElementsId": null,
+  "ElementCreditValueElementsId": null
+ },
+ {
+  "Key": "inter_document_type_transaction_type:136",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:CUSTOMS_DECLARATION",
+  "TransactionTypeId": "transaction_type:CUSTOMS_AGENCY",
+  "ElementDebitValueElementsId": null,
+  "ElementCreditValueElementsId": null
+ },
+ {
+  "Key": "inter_document_type_transaction_type:137",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:CUSTOMS_DECLARATION_ASSETS",
+  "TransactionTypeId": "transaction_type:CUSTOMS_ASSETS",
+  "ElementDebitValueElementsId": null,
+  "ElementCreditValueElementsId": null
+ },
+ {
+  "Key": "inter_document_type_transaction_type:138",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:CUSTOMS_DECLARATION_ASSETS",
+  "TransactionTypeId": "transaction_type:TRANSPORT_ASSETS",
+  "ElementDebitValueElementsId": null,
+  "ElementCreditValueElementsId": null
+ },
+ {
+  "Key": "inter_document_type_transaction_type:139",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:CUSTOMS_DECLARATION_ASSETS",
+  "TransactionTypeId": "transaction_type:CUSTOMS_AGENCY_ASSETS",
+  "ElementDebitValueElementsId": null,
+  "ElementCreditValueElementsId": null
+ },
+ {
+  "Key": "inter_document_type_transaction_type:140",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:POS_REVERSAL",
+  "TransactionTypeId": "transaction_type:ITEM",
+  "ElementDebitValueElementsId": null,
+  "ElementCreditValueElementsId": null
+ },
+ {
+  "Key": "inter_document_type_transaction_type:141",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:POS_REFUND",
+  "TransactionTypeId": "transaction_type:CASH_DESK_ACCOUNT",
+  "ElementDebitValueElementsId": null,
+  "ElementCreditValueElementsId": null
+ },
+ {
+  "Key": "inter_document_type_transaction_type:142",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:POS_REVERSAL",
+  "TransactionTypeId": "transaction_type:SERVICE_ITEM",
+  "ElementDebitValueElementsId": null,
+  "ElementCreditValueElementsId": null
+ },
+ {
+  "Key": "inter_document_type_transaction_type:143",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:POS_MONEY_FROM_STAFF",
+  "TransactionTypeId": "transaction_type:CASH_DESK_ACCOUNT",
+  "ElementDebitValueElementsId": null,
+  "ElementCreditValueElementsId": null
+ },
+ {
+  "Key": "inter_document_type_transaction_type:144",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:GOODS_TRANSFER_TO_CLIENT",
+  "TransactionTypeId": "transaction_type:ITEM",
+  "ElementDebitValueElementsId": null,
+  "ElementCreditValueElementsId": null
+ },
+ {
+  "Key": "inter_document_type_transaction_type:145",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:GOODS_OUT_TO_STAFF",
+  "TransactionTypeId": "transaction_type:ITEM",
+  "ElementDebitValueElementsId": null,
+  "ElementCreditValueElementsId": null
+ },
+ {
+  "Key": "inter_document_type_transaction_type:146",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:GOODS_TRANSFER_STAFF_TO_CLIENT",
+  "TransactionTypeId": "transaction_type:ITEM",
+  "ElementDebitValueElementsId": null,
+  "ElementCreditValueElementsId": null
+ },
+ {
+  "Key": "inter_document_type_transaction_type:147",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:GOODS_IN_FROM_STAFF",
+  "TransactionTypeId": "transaction_type:ITEM",
+  "ElementDebitValueElementsId": null,
+  "ElementCreditValueElementsId": null
+ },
+ {
+  "Key": "inter_document_type_transaction_type:148",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:GOODS_TRANSFER_FROM_CLIENT",
+  "TransactionTypeId": "transaction_type:ITEM",
+  "ElementDebitValueElementsId": null,
+  "ElementCreditValueElementsId": null
+ },
+ {
+  "Key": "inter_document_type_transaction_type:149",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:REVERSAL_PAYMENT",
+  "TransactionTypeId": "transaction_type:ACCOUNT",
+  "ElementDebitValueElementsId": null,
+  "ElementCreditValueElementsId": null
+ },
+ {
+  "Key": "inter_document_type_transaction_type:150",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:REVERSAL_PAYMENT",
+  "TransactionTypeId": "transaction_type:CASH_DESK_ACCOUNT",
+  "ElementDebitValueElementsId": null,
+  "ElementCreditValueElementsId": null
+ },
+ {
+  "Key": "inter_document_type_transaction_type:151",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:REVERSAL_PAYMENT",
+  "TransactionTypeId": "transaction_type:BANK_ACCOUNT",
+  "ElementDebitValueElementsId": null,
+  "ElementCreditValueElementsId": null
+ },
+ {
+  "Key": "inter_document_type_transaction_type:152",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:REVERSAL_PAYMENT",
+  "TransactionTypeId": "transaction_type:CLIENT",
+  "ElementDebitValueElementsId": null,
+  "ElementCreditValueElementsId": null
+ },
+ {
+  "Key": "inter_document_type_transaction_type:153",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:REVERSAL_PAYMENT",
+  "TransactionTypeId": "transaction_type:SUPPLIER",
+  "ElementDebitValueElementsId": null,
+  "ElementCreditValueElementsId": null
+ },
+ {
+  "Key": "inter_document_type_transaction_type:154",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:REVERSAL_PAYMENT",
+  "TransactionTypeId": "transaction_type:STAFF",
+  "ElementDebitValueElementsId": null,
+  "ElementCreditValueElementsId": null
+ },
+ {
+  "Key": "inter_document_type_transaction_type:155",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:REVERSAL_RECEIPT",
+  "TransactionTypeId": "transaction_type:ACCOUNT",
+  "ElementDebitValueElementsId": null,
+  "ElementCreditValueElementsId": null
+ },
+ {
+  "Key": "inter_document_type_transaction_type:156",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:REVERSAL_RECEIPT",
+  "TransactionTypeId": "transaction_type:CASH_DESK_ACCOUNT",
+  "ElementDebitValueElementsId": null,
+  "ElementCreditValueElementsId": null
+ },
+ {
+  "Key": "inter_document_type_transaction_type:157",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:REVERSAL_RECEIPT",
+  "TransactionTypeId": "transaction_type:BANK_ACCOUNT",
+  "ElementDebitValueElementsId": null,
+  "ElementCreditValueElementsId": null
+ },
+ {
+  "Key": "inter_document_type_transaction_type:158",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:REVERSAL_RECEIPT",
+  "TransactionTypeId": "transaction_type:CLIENT",
+  "ElementDebitValueElementsId": null,
+  "ElementCreditValueElementsId": null
+ },
+ {
+  "Key": "inter_document_type_transaction_type:159",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:REVERSAL_RECEIPT",
+  "TransactionTypeId": "transaction_type:SUPPLIER",
+  "ElementDebitValueElementsId": null,
+  "ElementCreditValueElementsId": null
+ },
+ {
+  "Key": "inter_document_type_transaction_type:160",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:REVERSAL_RECEIPT",
+  "TransactionTypeId": "transaction_type:STAFF",
+  "ElementDebitValueElementsId": null,
+  "ElementCreditValueElementsId": null
+ },
+ {
+  "Key": "inter_document_type_transaction_type:161",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:REVERSAL_PREPAYMENT",
+  "TransactionTypeId": "transaction_type:ACCOUNT",
+  "ElementDebitValueElementsId": null,
+  "ElementCreditValueElementsId": null
+ },
+ {
+  "Key": "inter_document_type_transaction_type:162",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:REVERSAL_PREPAYMENT",
+  "TransactionTypeId": "transaction_type:CASH_DESK_ACCOUNT",
+  "ElementDebitValueElementsId": null,
+  "ElementCreditValueElementsId": null
+ },
+ {
+  "Key": "inter_document_type_transaction_type:163",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:REVERSAL_PREPAYMENT",
+  "TransactionTypeId": "transaction_type:BANK_ACCOUNT",
+  "ElementDebitValueElementsId": null,
+  "ElementCreditValueElementsId": null
+ },
+ {
+  "Key": "inter_document_type_transaction_type:164",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:REVERSAL_PREPAYMENT",
+  "TransactionTypeId": "transaction_type:SUPPLIER",
+  "ElementDebitValueElementsId": null,
+  "ElementCreditValueElementsId": null
+ },
+ {
+  "Key": "inter_document_type_transaction_type:165",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:REVERSAL_DEPRECIATION_JOURNAL",
+  "TransactionTypeId": "transaction_type:ACCOUNT",
+  "ElementDebitValueElementsId": null,
+  "ElementCreditValueElementsId": null
+ },
+ {
+  "Key": "inter_document_type_transaction_type:166",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:REVERSAL_DEPRECIATION_JOURNAL",
+  "TransactionTypeId": "transaction_type:DEPRECIATION",
+  "ElementDebitValueElementsId": null,
+  "ElementCreditValueElementsId": null
+ },
+ {
+  "Key": "inter_document_type_transaction_type:167",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:REVERSAL_JOURNAL_PAYMENT",
+  "TransactionTypeId": "transaction_type:ACCOUNT",
+  "ElementDebitValueElementsId": null,
+  "ElementCreditValueElementsId": null
+ },
+ {
+  "Key": "inter_document_type_transaction_type:168",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:REVERSAL_JOURNAL_PAYMENT",
+  "TransactionTypeId": "transaction_type:SUPPLIER",
+  "ElementDebitValueElementsId": "elements:178",
+  "ElementCreditValueElementsId": "elements:179"
+ },
+ {
+  "Key": "inter_document_type_transaction_type:169",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:REVERSAL_JOURNAL_PAYMENT",
+  "TransactionTypeId": "transaction_type:CASH_DESK_ACCOUNT",
+  "ElementDebitValueElementsId": "elements:178",
+  "ElementCreditValueElementsId": "elements:179"
+ },
+ {
+  "Key": "inter_document_type_transaction_type:170",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:REVERSAL_JOURNAL_PAYMENT",
+  "TransactionTypeId": "transaction_type:BANK_ACCOUNT",
+  "ElementDebitValueElementsId": "elements:178",
+  "ElementCreditValueElementsId": "elements:179"
+ },
+ {
+  "Key": "inter_document_type_transaction_type:171",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:REVERSAL_JOURNAL_RECEIPT",
+  "TransactionTypeId": "transaction_type:ACCOUNT",
+  "ElementDebitValueElementsId": null,
+  "ElementCreditValueElementsId": null
+ },
+ {
+  "Key": "inter_document_type_transaction_type:172",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:REVERSAL_JOURNAL_RECEIPT",
+  "TransactionTypeId": "transaction_type:CLIENT",
+  "ElementDebitValueElementsId": "elements:178",
+  "ElementCreditValueElementsId": "elements:179"
+ },
+ {
+  "Key": "inter_document_type_transaction_type:173",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:REVERSAL_JOURNAL_RECEIPT",
+  "TransactionTypeId": "transaction_type:CASH_DESK_ACCOUNT",
+  "ElementDebitValueElementsId": "elements:178",
+  "ElementCreditValueElementsId": "elements:179"
+ },
+ {
+  "Key": "inter_document_type_transaction_type:174",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:REVERSAL_JOURNAL_RECEIPT",
+  "TransactionTypeId": "transaction_type:BANK_ACCOUNT",
+  "ElementDebitValueElementsId": "elements:178",
+  "ElementCreditValueElementsId": "elements:179"
+ },
+ {
+  "Key": "inter_document_type_transaction_type:175",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:REVERSAL_JOURNAL_PREPAYMENT",
+  "TransactionTypeId": "transaction_type:ACCOUNT",
+  "ElementDebitValueElementsId": null,
+  "ElementCreditValueElementsId": null
+ },
+ {
+  "Key": "inter_document_type_transaction_type:176",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:REVERSAL_JOURNAL_PREPAYMENT",
+  "TransactionTypeId": "transaction_type:CASH_DESK_ACCOUNT",
+  "ElementDebitValueElementsId": "elements:178",
+  "ElementCreditValueElementsId": "elements:179"
+ },
+ {
+  "Key": "inter_document_type_transaction_type:177",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:REVERSAL_JOURNAL_PREPAYMENT",
+  "TransactionTypeId": "transaction_type:BANK_ACCOUNT",
+  "ElementDebitValueElementsId": "elements:178",
+  "ElementCreditValueElementsId": "elements:179"
+ },
+ {
+  "Key": "inter_document_type_transaction_type:178",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:REVERSAL_JOURNAL_PREPAYMENT",
+  "TransactionTypeId": "transaction_type:SUPPLIER",
+  "ElementDebitValueElementsId": "elements:178",
+  "ElementCreditValueElementsId": "elements:179"
+ },
+ {
+  "Key": "inter_document_type_transaction_type:179",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:REVERSAL_ADVANCE",
+  "TransactionTypeId": "transaction_type:ACCOUNT",
+  "ElementDebitValueElementsId": null,
+  "ElementCreditValueElementsId": null
+ },
+ {
+  "Key": "inter_document_type_transaction_type:180",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:REVERSAL_ADVANCE",
+  "TransactionTypeId": "transaction_type:CLIENT",
+  "ElementDebitValueElementsId": null,
+  "ElementCreditValueElementsId": null
+ },
+ {
+  "Key": "inter_document_type_transaction_type:181",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:REVERSAL_ADVANCE",
+  "TransactionTypeId": "transaction_type:CASH_DESK_ACCOUNT",
+  "ElementDebitValueElementsId": null,
+  "ElementCreditValueElementsId": null
+ },
+ {
+  "Key": "inter_document_type_transaction_type:182",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:REVERSAL_ADVANCE",
+  "TransactionTypeId": "transaction_type:BANK_ACCOUNT",
+  "ElementDebitValueElementsId": null,
+  "ElementCreditValueElementsId": null
+ },
+ {
+  "Key": "inter_document_type_transaction_type:183",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:REVERSAL_EMPLOYEE_ADVANCE",
+  "TransactionTypeId": "transaction_type:ACCOUNT",
+  "ElementDebitValueElementsId": null,
+  "ElementCreditValueElementsId": null
+ },
+ {
+  "Key": "inter_document_type_transaction_type:184",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:REVERSAL_EMPLOYEE_ADVANCE",
+  "TransactionTypeId": "transaction_type:CASH_DESK_ACCOUNT",
+  "ElementDebitValueElementsId": null,
+  "ElementCreditValueElementsId": null
+ },
+ {
+  "Key": "inter_document_type_transaction_type:185",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:REVERSAL_EMPLOYEE_ADVANCE",
+  "TransactionTypeId": "transaction_type:BANK_ACCOUNT",
+  "ElementDebitValueElementsId": null,
+  "ElementCreditValueElementsId": null
+ },
+ {
+  "Key": "inter_document_type_transaction_type:186",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:REVERSAL_EMPLOYEE_ADVANCE",
+  "TransactionTypeId": "transaction_type:STAFF",
+  "ElementDebitValueElementsId": null,
+  "ElementCreditValueElementsId": null
+ },
+ {
+  "Key": "inter_document_type_transaction_type:187",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:REVERSAL_JOURNAL_ADVANCE",
+  "TransactionTypeId": "transaction_type:ACCOUNT",
+  "ElementDebitValueElementsId": null,
+  "ElementCreditValueElementsId": null
+ },
+ {
+  "Key": "inter_document_type_transaction_type:188",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:REVERSAL_JOURNAL_ADVANCE",
+  "TransactionTypeId": "transaction_type:CASH_DESK_ACCOUNT",
+  "ElementDebitValueElementsId": "elements:178",
+  "ElementCreditValueElementsId": "elements:179"
+ },
+ {
+  "Key": "inter_document_type_transaction_type:189",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:REVERSAL_JOURNAL_ADVANCE",
+  "TransactionTypeId": "transaction_type:BANK_ACCOUNT",
+  "ElementDebitValueElementsId": "elements:178",
+  "ElementCreditValueElementsId": "elements:179"
+ },
+ {
+  "Key": "inter_document_type_transaction_type:190",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:REVERSAL_JOURNAL_ADVANCE",
+  "TransactionTypeId": "transaction_type:CLIENT",
+  "ElementDebitValueElementsId": "elements:178",
+  "ElementCreditValueElementsId": "elements:179"
+ },
+ {
+  "Key": "inter_document_type_transaction_type:191",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:REVERSAL_JOURNAL_EMPLOYEE_ADVANCE",
+  "TransactionTypeId": "transaction_type:ACCOUNT",
+  "ElementDebitValueElementsId": null,
+  "ElementCreditValueElementsId": null
+ },
+ {
+  "Key": "inter_document_type_transaction_type:192",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:REVERSAL_JOURNAL_EMPLOYEE_ADVANCE",
+  "TransactionTypeId": "transaction_type:CASH_DESK_ACCOUNT",
+  "ElementDebitValueElementsId": "elements:178",
+  "ElementCreditValueElementsId": "elements:179"
+ },
+ {
+  "Key": "inter_document_type_transaction_type:193",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:REVERSAL_JOURNAL_EMPLOYEE_ADVANCE",
+  "TransactionTypeId": "transaction_type:BANK_ACCOUNT",
+  "ElementDebitValueElementsId": "elements:178",
+  "ElementCreditValueElementsId": "elements:179"
+ },
+ {
+  "Key": "inter_document_type_transaction_type:194",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:REVERSAL_JOURNAL_EMPLOYEE_ADVANCE",
+  "TransactionTypeId": "transaction_type:STAFF",
+  "ElementDebitValueElementsId": "elements:178",
+  "ElementCreditValueElementsId": "elements:179"
+ },
+ {
+  "Key": "inter_document_type_transaction_type:production:PRODUCTION:RAW_MATERIAL",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:PRODUCTION",
+  "TransactionTypeId": "transaction_type:RAW_MATERIAL",
+  "ElementDebitValueElementsId": null,
+  "ElementCreditValueElementsId": null
+ },
+ {
+  "Key": "inter_document_type_transaction_type:production:PRODUCTION:PRODUCED_ITEM",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:PRODUCTION",
+  "TransactionTypeId": "transaction_type:PRODUCED_ITEM",
+  "ElementDebitValueElementsId": null,
+  "ElementCreditValueElementsId": null
+ },
+ {
+  "Key": "inter_document_type_transaction_type:production:PRODUCTION:WASTE",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:PRODUCTION",
+  "TransactionTypeId": "transaction_type:WASTE",
+  "ElementDebitValueElementsId": null,
+  "ElementCreditValueElementsId": null
+ },
+ {
+  "Key": "inter_document_type_transaction_type:production:UNIT_SPLIT:RAW_MATERIAL",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:UNIT_SPLIT",
+  "TransactionTypeId": "transaction_type:RAW_MATERIAL",
+  "ElementDebitValueElementsId": null,
+  "ElementCreditValueElementsId": null
+ },
+ {
+  "Key": "inter_document_type_transaction_type:production:UNIT_SPLIT:PRODUCED_ITEM",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:UNIT_SPLIT",
+  "TransactionTypeId": "transaction_type:PRODUCED_ITEM",
+  "ElementDebitValueElementsId": null,
+  "ElementCreditValueElementsId": null
+ },
+ {
+  "Key": "inter_document_type_transaction_type:production:REVERSAL_UNIT_SPLIT:RAW_MATERIAL",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:REVERSAL_UNIT_SPLIT",
+  "TransactionTypeId": "transaction_type:RAW_MATERIAL",
+  "ElementDebitValueElementsId": null,
+  "ElementCreditValueElementsId": null
+ },
+ {
+  "Key": "inter_document_type_transaction_type:production:REVERSAL_UNIT_SPLIT:PRODUCED_ITEM",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:REVERSAL_UNIT_SPLIT",
+  "TransactionTypeId": "transaction_type:PRODUCED_ITEM",
+  "ElementDebitValueElementsId": null,
+  "ElementCreditValueElementsId": null
+ },
+ {
+  "Key": "inter_document_type_transaction_type:journal-reversal:93:REVERSAL_GENERAL_JOURNAL_ENTRY",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:REVERSAL_GENERAL_JOURNAL_ENTRY",
+  "TransactionTypeId": "transaction_type:ACCOUNT",
+  "ElementDebitValueElementsId": null,
+  "ElementCreditValueElementsId": null
+ },
+ {
+  "Key": "inter_document_type_transaction_type:journal-reversal:94:REVERSAL_GENERAL_JOURNAL_ENTRY",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:REVERSAL_GENERAL_JOURNAL_ENTRY",
+  "TransactionTypeId": "transaction_type:SUPPLIER",
+  "ElementDebitValueElementsId": "elements:178",
+  "ElementCreditValueElementsId": "elements:179"
+ },
+ {
+  "Key": "inter_document_type_transaction_type:journal-reversal:95:REVERSAL_GENERAL_JOURNAL_ENTRY",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:REVERSAL_GENERAL_JOURNAL_ENTRY",
+  "TransactionTypeId": "transaction_type:CLIENT",
+  "ElementDebitValueElementsId": "elements:178",
+  "ElementCreditValueElementsId": "elements:179"
+ },
+ {
+  "Key": "inter_document_type_transaction_type:journal-reversal:96:REVERSAL_GENERAL_JOURNAL_ENTRY",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:REVERSAL_GENERAL_JOURNAL_ENTRY",
+  "TransactionTypeId": "transaction_type:CASH_DESK_ACCOUNT",
+  "ElementDebitValueElementsId": "elements:178",
+  "ElementCreditValueElementsId": "elements:179"
+ },
+ {
+  "Key": "inter_document_type_transaction_type:journal-reversal:97:REVERSAL_GENERAL_JOURNAL_ENTRY",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:REVERSAL_GENERAL_JOURNAL_ENTRY",
+  "TransactionTypeId": "transaction_type:BANK_ACCOUNT",
+  "ElementDebitValueElementsId": "elements:178",
+  "ElementCreditValueElementsId": "elements:179"
+ },
+ {
+  "Key": "inter_document_type_transaction_type:journal-reversal:98:REVERSAL_GENERAL_JOURNAL_ENTRY",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:REVERSAL_GENERAL_JOURNAL_ENTRY",
+  "TransactionTypeId": "transaction_type:STAFF",
+  "ElementDebitValueElementsId": "elements:178",
+  "ElementCreditValueElementsId": "elements:179"
+ },
+ {
+  "Key": "inter_document_type_transaction_type:journal-reversal:132:REVERSAL_GENERAL_JOURNAL_ENTRY",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:REVERSAL_GENERAL_JOURNAL_ENTRY",
+  "TransactionTypeId": "transaction_type:FIXED_ASSET",
+  "ElementDebitValueElementsId": null,
+  "ElementCreditValueElementsId": null
+ },
+ {
+  "Key": "inter_document_type_transaction_type:recurring:58:RECURRING_JOURNAL_PAYMENT",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:RECURRING_JOURNAL_PAYMENT",
+  "TransactionTypeId": "transaction_type:ACCOUNT",
+  "ElementDebitValueElementsId": null,
+  "ElementCreditValueElementsId": null
+ },
+ {
+  "Key": "inter_document_type_transaction_type:recurring:59:RECURRING_JOURNAL_PAYMENT",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:RECURRING_JOURNAL_PAYMENT",
+  "TransactionTypeId": "transaction_type:SUPPLIER",
+  "ElementDebitValueElementsId": "elements:178",
+  "ElementCreditValueElementsId": "elements:179"
+ },
+ {
+  "Key": "inter_document_type_transaction_type:recurring:60:RECURRING_JOURNAL_PAYMENT",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:RECURRING_JOURNAL_PAYMENT",
+  "TransactionTypeId": "transaction_type:CASH_DESK_ACCOUNT",
+  "ElementDebitValueElementsId": "elements:178",
+  "ElementCreditValueElementsId": "elements:179"
+ },
+ {
+  "Key": "inter_document_type_transaction_type:recurring:61:RECURRING_JOURNAL_PAYMENT",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:RECURRING_JOURNAL_PAYMENT",
+  "TransactionTypeId": "transaction_type:BANK_ACCOUNT",
+  "ElementDebitValueElementsId": "elements:178",
+  "ElementCreditValueElementsId": "elements:179"
+ },
+ {
+  "Key": "inter_document_type_transaction_type:recurring:62:RECURRING_JOURNAL_RECEIPT",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:RECURRING_JOURNAL_RECEIPT",
+  "TransactionTypeId": "transaction_type:ACCOUNT",
+  "ElementDebitValueElementsId": null,
+  "ElementCreditValueElementsId": null
+ },
+ {
+  "Key": "inter_document_type_transaction_type:recurring:63:RECURRING_JOURNAL_RECEIPT",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:RECURRING_JOURNAL_RECEIPT",
+  "TransactionTypeId": "transaction_type:CLIENT",
+  "ElementDebitValueElementsId": "elements:178",
+  "ElementCreditValueElementsId": "elements:179"
+ },
+ {
+  "Key": "inter_document_type_transaction_type:recurring:64:RECURRING_JOURNAL_RECEIPT",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:RECURRING_JOURNAL_RECEIPT",
+  "TransactionTypeId": "transaction_type:CASH_DESK_ACCOUNT",
+  "ElementDebitValueElementsId": "elements:178",
+  "ElementCreditValueElementsId": "elements:179"
+ },
+ {
+  "Key": "inter_document_type_transaction_type:recurring:65:RECURRING_JOURNAL_RECEIPT",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:RECURRING_JOURNAL_RECEIPT",
+  "TransactionTypeId": "transaction_type:BANK_ACCOUNT",
+  "ElementDebitValueElementsId": "elements:178",
+  "ElementCreditValueElementsId": "elements:179"
+ },
+ {
+  "Key": "inter_document_type_transaction_type:recurring:66:RECURRING_JOURNAL_PREPAYMENT",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:RECURRING_JOURNAL_PREPAYMENT",
+  "TransactionTypeId": "transaction_type:ACCOUNT",
+  "ElementDebitValueElementsId": null,
+  "ElementCreditValueElementsId": null
+ },
+ {
+  "Key": "inter_document_type_transaction_type:recurring:67:RECURRING_JOURNAL_ADVANCE",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:RECURRING_JOURNAL_ADVANCE",
+  "TransactionTypeId": "transaction_type:ACCOUNT",
+  "ElementDebitValueElementsId": null,
+  "ElementCreditValueElementsId": null
+ },
+ {
+  "Key": "inter_document_type_transaction_type:recurring:68:RECURRING_JOURNAL_ADVANCE",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:RECURRING_JOURNAL_ADVANCE",
+  "TransactionTypeId": "transaction_type:CASH_DESK_ACCOUNT",
+  "ElementDebitValueElementsId": "elements:178",
+  "ElementCreditValueElementsId": "elements:179"
+ },
+ {
+  "Key": "inter_document_type_transaction_type:recurring:69:RECURRING_JOURNAL_ADVANCE",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:RECURRING_JOURNAL_ADVANCE",
+  "TransactionTypeId": "transaction_type:BANK_ACCOUNT",
+  "ElementDebitValueElementsId": "elements:178",
+  "ElementCreditValueElementsId": "elements:179"
+ },
+ {
+  "Key": "inter_document_type_transaction_type:recurring:70:RECURRING_JOURNAL_ADVANCE",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:RECURRING_JOURNAL_ADVANCE",
+  "TransactionTypeId": "transaction_type:CLIENT",
+  "ElementDebitValueElementsId": "elements:178",
+  "ElementCreditValueElementsId": "elements:179"
+ },
+ {
+  "Key": "inter_document_type_transaction_type:recurring:71:RECURRING_JOURNAL_EMPLOYEE_ADVANCE",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:RECURRING_JOURNAL_EMPLOYEE_ADVANCE",
+  "TransactionTypeId": "transaction_type:ACCOUNT",
+  "ElementDebitValueElementsId": null,
+  "ElementCreditValueElementsId": null
+ },
+ {
+  "Key": "inter_document_type_transaction_type:recurring:72:RECURRING_JOURNAL_EMPLOYEE_ADVANCE",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:RECURRING_JOURNAL_EMPLOYEE_ADVANCE",
+  "TransactionTypeId": "transaction_type:CASH_DESK_ACCOUNT",
+  "ElementDebitValueElementsId": "elements:178",
+  "ElementCreditValueElementsId": "elements:179"
+ },
+ {
+  "Key": "inter_document_type_transaction_type:recurring:73:RECURRING_JOURNAL_EMPLOYEE_ADVANCE",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:RECURRING_JOURNAL_EMPLOYEE_ADVANCE",
+  "TransactionTypeId": "transaction_type:BANK_ACCOUNT",
+  "ElementDebitValueElementsId": "elements:178",
+  "ElementCreditValueElementsId": "elements:179"
+ },
+ {
+  "Key": "inter_document_type_transaction_type:recurring:74:RECURRING_JOURNAL_EMPLOYEE_ADVANCE",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:RECURRING_JOURNAL_EMPLOYEE_ADVANCE",
+  "TransactionTypeId": "transaction_type:STAFF",
+  "ElementDebitValueElementsId": "elements:178",
+  "ElementCreditValueElementsId": "elements:179"
+ },
+ {
+  "Key": "inter_document_type_transaction_type:recurring:90:RECURRING_JOURNAL_PREPAYMENT",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:RECURRING_JOURNAL_PREPAYMENT",
+  "TransactionTypeId": "transaction_type:CASH_DESK_ACCOUNT",
+  "ElementDebitValueElementsId": "elements:178",
+  "ElementCreditValueElementsId": "elements:179"
+ },
+ {
+  "Key": "inter_document_type_transaction_type:recurring:91:RECURRING_JOURNAL_PREPAYMENT",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:RECURRING_JOURNAL_PREPAYMENT",
+  "TransactionTypeId": "transaction_type:BANK_ACCOUNT",
+  "ElementDebitValueElementsId": "elements:178",
+  "ElementCreditValueElementsId": "elements:179"
+ },
+ {
+  "Key": "inter_document_type_transaction_type:recurring:92:RECURRING_JOURNAL_PREPAYMENT",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:RECURRING_JOURNAL_PREPAYMENT",
+  "TransactionTypeId": "transaction_type:SUPPLIER",
+  "ElementDebitValueElementsId": "elements:178",
+  "ElementCreditValueElementsId": "elements:179"
+ },
+ {
+  "Key": "inter_document_type_transaction_type:recurring:93:RECURRING_GENERAL_JOURNAL_ENTRY",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:RECURRING_GENERAL_JOURNAL_ENTRY",
+  "TransactionTypeId": "transaction_type:ACCOUNT",
+  "ElementDebitValueElementsId": null,
+  "ElementCreditValueElementsId": null
+ },
+ {
+  "Key": "inter_document_type_transaction_type:recurring:94:RECURRING_GENERAL_JOURNAL_ENTRY",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:RECURRING_GENERAL_JOURNAL_ENTRY",
+  "TransactionTypeId": "transaction_type:SUPPLIER",
+  "ElementDebitValueElementsId": "elements:178",
+  "ElementCreditValueElementsId": "elements:179"
+ },
+ {
+  "Key": "inter_document_type_transaction_type:recurring:95:RECURRING_GENERAL_JOURNAL_ENTRY",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:RECURRING_GENERAL_JOURNAL_ENTRY",
+  "TransactionTypeId": "transaction_type:CLIENT",
+  "ElementDebitValueElementsId": "elements:178",
+  "ElementCreditValueElementsId": "elements:179"
+ },
+ {
+  "Key": "inter_document_type_transaction_type:recurring:96:RECURRING_GENERAL_JOURNAL_ENTRY",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:RECURRING_GENERAL_JOURNAL_ENTRY",
+  "TransactionTypeId": "transaction_type:CASH_DESK_ACCOUNT",
+  "ElementDebitValueElementsId": "elements:178",
+  "ElementCreditValueElementsId": "elements:179"
+ },
+ {
+  "Key": "inter_document_type_transaction_type:recurring:97:RECURRING_GENERAL_JOURNAL_ENTRY",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:RECURRING_GENERAL_JOURNAL_ENTRY",
+  "TransactionTypeId": "transaction_type:BANK_ACCOUNT",
+  "ElementDebitValueElementsId": "elements:178",
+  "ElementCreditValueElementsId": "elements:179"
+ },
+ {
+  "Key": "inter_document_type_transaction_type:recurring:98:RECURRING_GENERAL_JOURNAL_ENTRY",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:RECURRING_GENERAL_JOURNAL_ENTRY",
+  "TransactionTypeId": "transaction_type:STAFF",
+  "ElementDebitValueElementsId": "elements:178",
+  "ElementCreditValueElementsId": "elements:179"
+ },
+ {
+  "Key": "inter_document_type_transaction_type:recurring:117:RECURRING_DEPRECIATION_JOURNAL",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:RECURRING_DEPRECIATION_JOURNAL",
+  "TransactionTypeId": "transaction_type:ACCOUNT",
+  "ElementDebitValueElementsId": null,
+  "ElementCreditValueElementsId": null
+ },
+ {
+  "Key": "inter_document_type_transaction_type:recurring:118:RECURRING_REVALUATION_JOURNAL",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:RECURRING_REVALUATION_JOURNAL",
+  "TransactionTypeId": "transaction_type:REVALUATION",
+  "ElementDebitValueElementsId": null,
+  "ElementCreditValueElementsId": null
+ },
+ {
+  "Key": "inter_document_type_transaction_type:recurring:132:RECURRING_GENERAL_JOURNAL_ENTRY",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:RECURRING_GENERAL_JOURNAL_ENTRY",
+  "TransactionTypeId": "transaction_type:FIXED_ASSET",
+  "ElementDebitValueElementsId": null,
+  "ElementCreditValueElementsId": null
+ },
+ {
+  "Key": "inter_document_type_transaction_type:recurring:133:RECURRING_DEPRECIATION_JOURNAL",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:RECURRING_DEPRECIATION_JOURNAL",
+  "TransactionTypeId": "transaction_type:DEPRECIATION",
+  "ElementDebitValueElementsId": null,
+  "ElementCreditValueElementsId": null
+ },
+ {
+  "Key": "inter_document_type_transaction_type:recurring:165:REVERSAL_RECURRING_DEPRECIATION_JOURNAL",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:REVERSAL_RECURRING_DEPRECIATION_JOURNAL",
+  "TransactionTypeId": "transaction_type:ACCOUNT",
+  "ElementDebitValueElementsId": null,
+  "ElementCreditValueElementsId": null
+ },
+ {
+  "Key": "inter_document_type_transaction_type:recurring:166:REVERSAL_RECURRING_DEPRECIATION_JOURNAL",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:REVERSAL_RECURRING_DEPRECIATION_JOURNAL",
+  "TransactionTypeId": "transaction_type:DEPRECIATION",
+  "ElementDebitValueElementsId": null,
+  "ElementCreditValueElementsId": null
+ },
+ {
+  "Key": "inter_document_type_transaction_type:recurring:167:REVERSAL_RECURRING_JOURNAL_PAYMENT",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:REVERSAL_RECURRING_JOURNAL_PAYMENT",
+  "TransactionTypeId": "transaction_type:ACCOUNT",
+  "ElementDebitValueElementsId": null,
+  "ElementCreditValueElementsId": null
+ },
+ {
+  "Key": "inter_document_type_transaction_type:recurring:168:REVERSAL_RECURRING_JOURNAL_PAYMENT",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:REVERSAL_RECURRING_JOURNAL_PAYMENT",
+  "TransactionTypeId": "transaction_type:SUPPLIER",
+  "ElementDebitValueElementsId": "elements:178",
+  "ElementCreditValueElementsId": "elements:179"
+ },
+ {
+  "Key": "inter_document_type_transaction_type:recurring:169:REVERSAL_RECURRING_JOURNAL_PAYMENT",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:REVERSAL_RECURRING_JOURNAL_PAYMENT",
+  "TransactionTypeId": "transaction_type:CASH_DESK_ACCOUNT",
+  "ElementDebitValueElementsId": "elements:178",
+  "ElementCreditValueElementsId": "elements:179"
+ },
+ {
+  "Key": "inter_document_type_transaction_type:recurring:170:REVERSAL_RECURRING_JOURNAL_PAYMENT",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:REVERSAL_RECURRING_JOURNAL_PAYMENT",
+  "TransactionTypeId": "transaction_type:BANK_ACCOUNT",
+  "ElementDebitValueElementsId": "elements:178",
+  "ElementCreditValueElementsId": "elements:179"
+ },
+ {
+  "Key": "inter_document_type_transaction_type:recurring:171:REVERSAL_RECURRING_JOURNAL_RECEIPT",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:REVERSAL_RECURRING_JOURNAL_RECEIPT",
+  "TransactionTypeId": "transaction_type:ACCOUNT",
+  "ElementDebitValueElementsId": null,
+  "ElementCreditValueElementsId": null
+ },
+ {
+  "Key": "inter_document_type_transaction_type:recurring:172:REVERSAL_RECURRING_JOURNAL_RECEIPT",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:REVERSAL_RECURRING_JOURNAL_RECEIPT",
+  "TransactionTypeId": "transaction_type:CLIENT",
+  "ElementDebitValueElementsId": "elements:178",
+  "ElementCreditValueElementsId": "elements:179"
+ },
+ {
+  "Key": "inter_document_type_transaction_type:recurring:173:REVERSAL_RECURRING_JOURNAL_RECEIPT",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:REVERSAL_RECURRING_JOURNAL_RECEIPT",
+  "TransactionTypeId": "transaction_type:CASH_DESK_ACCOUNT",
+  "ElementDebitValueElementsId": "elements:178",
+  "ElementCreditValueElementsId": "elements:179"
+ },
+ {
+  "Key": "inter_document_type_transaction_type:recurring:174:REVERSAL_RECURRING_JOURNAL_RECEIPT",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:REVERSAL_RECURRING_JOURNAL_RECEIPT",
+  "TransactionTypeId": "transaction_type:BANK_ACCOUNT",
+  "ElementDebitValueElementsId": "elements:178",
+  "ElementCreditValueElementsId": "elements:179"
+ },
+ {
+  "Key": "inter_document_type_transaction_type:recurring:175:REVERSAL_RECURRING_JOURNAL_PREPAYMENT",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:REVERSAL_RECURRING_JOURNAL_PREPAYMENT",
+  "TransactionTypeId": "transaction_type:ACCOUNT",
+  "ElementDebitValueElementsId": null,
+  "ElementCreditValueElementsId": null
+ },
+ {
+  "Key": "inter_document_type_transaction_type:recurring:176:REVERSAL_RECURRING_JOURNAL_PREPAYMENT",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:REVERSAL_RECURRING_JOURNAL_PREPAYMENT",
+  "TransactionTypeId": "transaction_type:CASH_DESK_ACCOUNT",
+  "ElementDebitValueElementsId": "elements:178",
+  "ElementCreditValueElementsId": "elements:179"
+ },
+ {
+  "Key": "inter_document_type_transaction_type:recurring:177:REVERSAL_RECURRING_JOURNAL_PREPAYMENT",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:REVERSAL_RECURRING_JOURNAL_PREPAYMENT",
+  "TransactionTypeId": "transaction_type:BANK_ACCOUNT",
+  "ElementDebitValueElementsId": "elements:178",
+  "ElementCreditValueElementsId": "elements:179"
+ },
+ {
+  "Key": "inter_document_type_transaction_type:recurring:178:REVERSAL_RECURRING_JOURNAL_PREPAYMENT",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:REVERSAL_RECURRING_JOURNAL_PREPAYMENT",
+  "TransactionTypeId": "transaction_type:SUPPLIER",
+  "ElementDebitValueElementsId": "elements:178",
+  "ElementCreditValueElementsId": "elements:179"
+ },
+ {
+  "Key": "inter_document_type_transaction_type:recurring:187:REVERSAL_RECURRING_JOURNAL_ADVANCE",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:REVERSAL_RECURRING_JOURNAL_ADVANCE",
+  "TransactionTypeId": "transaction_type:ACCOUNT",
+  "ElementDebitValueElementsId": null,
+  "ElementCreditValueElementsId": null
+ },
+ {
+  "Key": "inter_document_type_transaction_type:recurring:188:REVERSAL_RECURRING_JOURNAL_ADVANCE",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:REVERSAL_RECURRING_JOURNAL_ADVANCE",
+  "TransactionTypeId": "transaction_type:CASH_DESK_ACCOUNT",
+  "ElementDebitValueElementsId": "elements:178",
+  "ElementCreditValueElementsId": "elements:179"
+ },
+ {
+  "Key": "inter_document_type_transaction_type:recurring:189:REVERSAL_RECURRING_JOURNAL_ADVANCE",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:REVERSAL_RECURRING_JOURNAL_ADVANCE",
+  "TransactionTypeId": "transaction_type:BANK_ACCOUNT",
+  "ElementDebitValueElementsId": "elements:178",
+  "ElementCreditValueElementsId": "elements:179"
+ },
+ {
+  "Key": "inter_document_type_transaction_type:recurring:190:REVERSAL_RECURRING_JOURNAL_ADVANCE",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:REVERSAL_RECURRING_JOURNAL_ADVANCE",
+  "TransactionTypeId": "transaction_type:CLIENT",
+  "ElementDebitValueElementsId": "elements:178",
+  "ElementCreditValueElementsId": "elements:179"
+ },
+ {
+  "Key": "inter_document_type_transaction_type:recurring:191:REVERSAL_RECURRING_JOURNAL_EMPLOYEE_ADVANCE",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:REVERSAL_RECURRING_JOURNAL_EMPLOYEE_ADVANCE",
+  "TransactionTypeId": "transaction_type:ACCOUNT",
+  "ElementDebitValueElementsId": null,
+  "ElementCreditValueElementsId": null
+ },
+ {
+  "Key": "inter_document_type_transaction_type:recurring:192:REVERSAL_RECURRING_JOURNAL_EMPLOYEE_ADVANCE",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:REVERSAL_RECURRING_JOURNAL_EMPLOYEE_ADVANCE",
+  "TransactionTypeId": "transaction_type:CASH_DESK_ACCOUNT",
+  "ElementDebitValueElementsId": "elements:178",
+  "ElementCreditValueElementsId": "elements:179"
+ },
+ {
+  "Key": "inter_document_type_transaction_type:recurring:193:REVERSAL_RECURRING_JOURNAL_EMPLOYEE_ADVANCE",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:REVERSAL_RECURRING_JOURNAL_EMPLOYEE_ADVANCE",
+  "TransactionTypeId": "transaction_type:BANK_ACCOUNT",
+  "ElementDebitValueElementsId": "elements:178",
+  "ElementCreditValueElementsId": "elements:179"
+ },
+ {
+  "Key": "inter_document_type_transaction_type:recurring:194:REVERSAL_RECURRING_JOURNAL_EMPLOYEE_ADVANCE",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:REVERSAL_RECURRING_JOURNAL_EMPLOYEE_ADVANCE",
+  "TransactionTypeId": "transaction_type:STAFF",
+  "ElementDebitValueElementsId": "elements:178",
+  "ElementCreditValueElementsId": "elements:179"
+ },
+ {
+  "Key": "inter_document_type_transaction_type:recurring:journal-reversal:93:REVERSAL_GENERAL_JOURNAL_ENTRY:REVERSAL_RECURRING_GENERAL_JOURNAL_ENTRY",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:REVERSAL_RECURRING_GENERAL_JOURNAL_ENTRY",
+  "TransactionTypeId": "transaction_type:ACCOUNT",
+  "ElementDebitValueElementsId": null,
+  "ElementCreditValueElementsId": null
+ },
+ {
+  "Key": "inter_document_type_transaction_type:recurring:journal-reversal:94:REVERSAL_GENERAL_JOURNAL_ENTRY:REVERSAL_RECURRING_GENERAL_JOURNAL_ENTRY",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:REVERSAL_RECURRING_GENERAL_JOURNAL_ENTRY",
+  "TransactionTypeId": "transaction_type:SUPPLIER",
+  "ElementDebitValueElementsId": "elements:178",
+  "ElementCreditValueElementsId": "elements:179"
+ },
+ {
+  "Key": "inter_document_type_transaction_type:recurring:journal-reversal:95:REVERSAL_GENERAL_JOURNAL_ENTRY:REVERSAL_RECURRING_GENERAL_JOURNAL_ENTRY",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:REVERSAL_RECURRING_GENERAL_JOURNAL_ENTRY",
+  "TransactionTypeId": "transaction_type:CLIENT",
+  "ElementDebitValueElementsId": "elements:178",
+  "ElementCreditValueElementsId": "elements:179"
+ },
+ {
+  "Key": "inter_document_type_transaction_type:recurring:journal-reversal:96:REVERSAL_GENERAL_JOURNAL_ENTRY:REVERSAL_RECURRING_GENERAL_JOURNAL_ENTRY",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:REVERSAL_RECURRING_GENERAL_JOURNAL_ENTRY",
+  "TransactionTypeId": "transaction_type:CASH_DESK_ACCOUNT",
+  "ElementDebitValueElementsId": "elements:178",
+  "ElementCreditValueElementsId": "elements:179"
+ },
+ {
+  "Key": "inter_document_type_transaction_type:recurring:journal-reversal:97:REVERSAL_GENERAL_JOURNAL_ENTRY:REVERSAL_RECURRING_GENERAL_JOURNAL_ENTRY",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:REVERSAL_RECURRING_GENERAL_JOURNAL_ENTRY",
+  "TransactionTypeId": "transaction_type:BANK_ACCOUNT",
+  "ElementDebitValueElementsId": "elements:178",
+  "ElementCreditValueElementsId": "elements:179"
+ },
+ {
+  "Key": "inter_document_type_transaction_type:recurring:journal-reversal:98:REVERSAL_GENERAL_JOURNAL_ENTRY:REVERSAL_RECURRING_GENERAL_JOURNAL_ENTRY",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:REVERSAL_RECURRING_GENERAL_JOURNAL_ENTRY",
+  "TransactionTypeId": "transaction_type:STAFF",
+  "ElementDebitValueElementsId": "elements:178",
+  "ElementCreditValueElementsId": "elements:179"
+ },
+ {
+  "Key": "inter_document_type_transaction_type:recurring:journal-reversal:132:REVERSAL_GENERAL_JOURNAL_ENTRY:REVERSAL_RECURRING_GENERAL_JOURNAL_ENTRY",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:REVERSAL_RECURRING_GENERAL_JOURNAL_ENTRY",
+  "TransactionTypeId": "transaction_type:FIXED_ASSET",
+  "ElementDebitValueElementsId": null,
+  "ElementCreditValueElementsId": null
+ },
+ {
+  "Key": "inter_document_type_transaction_type:79:PURCHASE_REQUEST",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:PURCHASE_REQUEST",
+  "TransactionTypeId": "transaction_type:ITEM",
+  "ElementDebitValueElementsId": null,
+  "ElementCreditValueElementsId": null
+ },
+ {
+  "Key": "inter_document_type_transaction_type:80:PURCHASE_REQUEST",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:PURCHASE_REQUEST",
+  "TransactionTypeId": "transaction_type:FIXED_ASSET",
+  "ElementDebitValueElementsId": null,
+  "ElementCreditValueElementsId": null
+ },
+ {
+  "Key": "inter_document_type_transaction_type:81:PURCHASE_REQUEST",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:PURCHASE_REQUEST",
+  "TransactionTypeId": "transaction_type:SERVICE_ITEM",
+  "ElementDebitValueElementsId": null,
+  "ElementCreditValueElementsId": null
+ },
+ {
+  "Key": "inter_document_type_transaction_type:82:PURCHASE_REQUEST",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:PURCHASE_REQUEST",
+  "TransactionTypeId": "transaction_type:ACCOUNT",
+  "ElementDebitValueElementsId": null,
+  "ElementCreditValueElementsId": null
+ },
+ {
+  "Key": "inter_document_type_transaction_type:79:PURCHASE_ORDER",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:PURCHASE_ORDER",
+  "TransactionTypeId": "transaction_type:ITEM",
+  "ElementDebitValueElementsId": null,
+  "ElementCreditValueElementsId": null
+ },
+ {
+  "Key": "inter_document_type_transaction_type:80:PURCHASE_ORDER",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:PURCHASE_ORDER",
+  "TransactionTypeId": "transaction_type:FIXED_ASSET",
+  "ElementDebitValueElementsId": null,
+  "ElementCreditValueElementsId": null
+ },
+ {
+  "Key": "inter_document_type_transaction_type:81:PURCHASE_ORDER",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:PURCHASE_ORDER",
+  "TransactionTypeId": "transaction_type:SERVICE_ITEM",
+  "ElementDebitValueElementsId": null,
+  "ElementCreditValueElementsId": null
+ },
+ {
+  "Key": "inter_document_type_transaction_type:82:PURCHASE_ORDER",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:PURCHASE_ORDER",
+  "TransactionTypeId": "transaction_type:ACCOUNT",
+  "ElementDebitValueElementsId": null,
+  "ElementCreditValueElementsId": null
+ },
+ {
+  "Key": "inter_document_type_transaction_type:1:SALES_ORDER",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:SALES_ORDER",
+  "TransactionTypeId": "transaction_type:ITEM",
+  "ElementDebitValueElementsId": null,
+  "ElementCreditValueElementsId": null
+ },
+ {
+  "Key": "inter_document_type_transaction_type:2:SALES_ORDER",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:SALES_ORDER",
+  "TransactionTypeId": "transaction_type:FIXED_ASSET",
+  "ElementDebitValueElementsId": null,
+  "ElementCreditValueElementsId": null
+ },
+ {
+  "Key": "inter_document_type_transaction_type:3:SALES_ORDER",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:SALES_ORDER",
+  "TransactionTypeId": "transaction_type:SERVICE_ITEM",
+  "ElementDebitValueElementsId": null,
+  "ElementCreditValueElementsId": null
+ },
+ {
+  "Key": "inter_document_type_transaction_type:89:SALES_ORDER",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:SALES_ORDER",
+  "TransactionTypeId": "transaction_type:ACCOUNT",
+  "ElementDebitValueElementsId": null,
+  "ElementCreditValueElementsId": null
+ },
+ {
+  "Key": "inter_document_type_transaction_type:1:POS_ORDER",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:POS_ORDER",
+  "TransactionTypeId": "transaction_type:ITEM",
+  "ElementDebitValueElementsId": null,
+  "ElementCreditValueElementsId": null
+ },
+ {
+  "Key": "inter_document_type_transaction_type:2:POS_ORDER",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:POS_ORDER",
+  "TransactionTypeId": "transaction_type:FIXED_ASSET",
+  "ElementDebitValueElementsId": null,
+  "ElementCreditValueElementsId": null
+ },
+ {
+  "Key": "inter_document_type_transaction_type:3:POS_ORDER",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:POS_ORDER",
+  "TransactionTypeId": "transaction_type:SERVICE_ITEM",
+  "ElementDebitValueElementsId": null,
+  "ElementCreditValueElementsId": null
+ },
+ {
+  "Key": "inter_document_type_transaction_type:89:POS_ORDER",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:POS_ORDER",
+  "TransactionTypeId": "transaction_type:ACCOUNT",
+  "ElementDebitValueElementsId": null,
+  "ElementCreditValueElementsId": null
+ },
+ {
+  "Key": "inter_document_type_transaction_type:83:REPAIR_INTAKE",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:REPAIR_INTAKE",
+  "TransactionTypeId": "transaction_type:ITEM",
+  "ElementDebitValueElementsId": null,
+  "ElementCreditValueElementsId": null
+ },
+ {
+  "Key": "inter_document_type_transaction_type:83:REPAIR_OFFER",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:REPAIR_OFFER",
+  "TransactionTypeId": "transaction_type:ITEM",
+  "ElementDebitValueElementsId": null,
+  "ElementCreditValueElementsId": null
+ },
+ {
+  "Key": "inter_document_type_transaction_type:84:REPAIR_INTAKE",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:REPAIR_INTAKE",
+  "TransactionTypeId": "transaction_type:SERVICE_ITEM",
+  "ElementDebitValueElementsId": null,
+  "ElementCreditValueElementsId": null
+ },
+ {
+  "Key": "inter_document_type_transaction_type:84:REPAIR_OFFER",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:REPAIR_OFFER",
+  "TransactionTypeId": "transaction_type:SERVICE_ITEM",
+  "ElementDebitValueElementsId": null,
+  "ElementCreditValueElementsId": null
+ },
+ {
+  "Key": "inter_document_type_transaction_type:88:REPAIR_INTAKE",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:REPAIR_INTAKE",
+  "TransactionTypeId": "transaction_type:ACCOUNT",
+  "ElementDebitValueElementsId": null,
+  "ElementCreditValueElementsId": null
+ },
+ {
+  "Key": "inter_document_type_transaction_type:88:REPAIR_OFFER",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:REPAIR_OFFER",
+  "TransactionTypeId": "transaction_type:ACCOUNT",
+  "ElementDebitValueElementsId": null,
+  "ElementCreditValueElementsId": null
+ },
+ {
+  "Key": "inter_document_type_transaction_type:disassembly:DISASSEMBLY:DISASSEMBLED_ITEM",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:DISASSEMBLY",
+  "TransactionTypeId": "transaction_type:DISASSEMBLED_ITEM",
+  "ElementDebitValueElementsId": null,
+  "ElementCreditValueElementsId": null
+ },
+ {
+  "Key": "inter_document_type_transaction_type:disassembly:DISASSEMBLY:RECOVERED_PART",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:DISASSEMBLY",
+  "TransactionTypeId": "transaction_type:RECOVERED_PART",
+  "ElementDebitValueElementsId": null,
+  "ElementCreditValueElementsId": null
+ },
+ {
+  "Key": "inter_document_type_transaction_type:disassembly:DISASSEMBLY:DISASSEMBLY_WASTE",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:DISASSEMBLY",
+  "TransactionTypeId": "transaction_type:DISASSEMBLY_WASTE",
+  "ElementDebitValueElementsId": null,
+  "ElementCreditValueElementsId": null
+ },
+ {
+  "Key": "inter_document_type_transaction_type:reversals:REVERSAL_CUSTOMS_DECLARATION:CUSTOMS",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:REVERSAL_CUSTOMS_DECLARATION",
+  "TransactionTypeId": "transaction_type:CUSTOMS",
+  "ElementDebitValueElementsId": null,
+  "ElementCreditValueElementsId": null
+ },
+ {
+  "Key": "inter_document_type_transaction_type:reversals:REVERSAL_CUSTOMS_DECLARATION:TRANSPORT",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:REVERSAL_CUSTOMS_DECLARATION",
+  "TransactionTypeId": "transaction_type:TRANSPORT",
+  "ElementDebitValueElementsId": null,
+  "ElementCreditValueElementsId": null
+ },
+ {
+  "Key": "inter_document_type_transaction_type:reversals:REVERSAL_CUSTOMS_DECLARATION:CUSTOMS_AGENCY",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:REVERSAL_CUSTOMS_DECLARATION",
+  "TransactionTypeId": "transaction_type:CUSTOMS_AGENCY",
+  "ElementDebitValueElementsId": null,
+  "ElementCreditValueElementsId": null
+ },
+ {
+  "Key": "inter_document_type_transaction_type:reversals:REVERSAL_CUSTOMS_DECLARATION_ASSETS:CUSTOMS_ASSETS",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:REVERSAL_CUSTOMS_DECLARATION_ASSETS",
+  "TransactionTypeId": "transaction_type:CUSTOMS_ASSETS",
+  "ElementDebitValueElementsId": null,
+  "ElementCreditValueElementsId": null
+ },
+ {
+  "Key": "inter_document_type_transaction_type:reversals:REVERSAL_CUSTOMS_DECLARATION_ASSETS:TRANSPORT_ASSETS",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:REVERSAL_CUSTOMS_DECLARATION_ASSETS",
+  "TransactionTypeId": "transaction_type:TRANSPORT_ASSETS",
+  "ElementDebitValueElementsId": null,
+  "ElementCreditValueElementsId": null
+ },
+ {
+  "Key": "inter_document_type_transaction_type:reversals:REVERSAL_CUSTOMS_DECLARATION_ASSETS:CUSTOMS_AGENCY_ASSETS",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:REVERSAL_CUSTOMS_DECLARATION_ASSETS",
+  "TransactionTypeId": "transaction_type:CUSTOMS_AGENCY_ASSETS",
+  "ElementDebitValueElementsId": null,
+  "ElementCreditValueElementsId": null
+ },
+ {
+  "Key": "inter_document_type_transaction_type:reversals:REVERSAL_GOODS_TRANSFER:ITEM",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:REVERSAL_GOODS_TRANSFER",
+  "TransactionTypeId": "transaction_type:ITEM",
+  "ElementDebitValueElementsId": null,
+  "ElementCreditValueElementsId": null
+ },
+ {
+  "Key": "inter_document_type_transaction_type:reversals:REVERSAL_GOODS_TRANSFER:FIXED_ASSET",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:REVERSAL_GOODS_TRANSFER",
+  "TransactionTypeId": "transaction_type:FIXED_ASSET",
+  "ElementDebitValueElementsId": null,
+  "ElementCreditValueElementsId": null
+ },
+ {
+  "Key": "inter_document_type_transaction_type:reversals:REVERSAL_GOODS_TRANSFER_TO_STAFF:FIXED_ASSET_SERVICE",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:REVERSAL_GOODS_TRANSFER_TO_STAFF",
+  "TransactionTypeId": "transaction_type:FIXED_ASSET_SERVICE",
+  "ElementDebitValueElementsId": null,
+  "ElementCreditValueElementsId": null
+ },
+ {
+  "Key": "inter_document_type_transaction_type:reversals:REVERSAL_GOODS_TRANSFER_TO_STAFF:ITEM",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:REVERSAL_GOODS_TRANSFER_TO_STAFF",
+  "TransactionTypeId": "transaction_type:ITEM",
+  "ElementDebitValueElementsId": null,
+  "ElementCreditValueElementsId": null
+ },
+ {
+  "Key": "inter_document_type_transaction_type:reversals:REVERSAL_GOODS_TRANSFER_FROM_STAFF:FIXED_ASSET_SERVICE",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:REVERSAL_GOODS_TRANSFER_FROM_STAFF",
+  "TransactionTypeId": "transaction_type:FIXED_ASSET_SERVICE",
+  "ElementDebitValueElementsId": null,
+  "ElementCreditValueElementsId": null
+ },
+ {
+  "Key": "inter_document_type_transaction_type:reversals:REVERSAL_GOODS_TRANSFER_TO_CLIENT:FIXED_ASSET_SERVICE",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:REVERSAL_GOODS_TRANSFER_TO_CLIENT",
+  "TransactionTypeId": "transaction_type:FIXED_ASSET_SERVICE",
+  "ElementDebitValueElementsId": null,
+  "ElementCreditValueElementsId": null
+ },
+ {
+  "Key": "inter_document_type_transaction_type:reversals:REVERSAL_GOODS_TRANSFER_TO_CLIENT:ITEM",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:REVERSAL_GOODS_TRANSFER_TO_CLIENT",
+  "TransactionTypeId": "transaction_type:ITEM",
+  "ElementDebitValueElementsId": null,
+  "ElementCreditValueElementsId": null
+ },
+ {
+  "Key": "inter_document_type_transaction_type:reversals:REVERSAL_GOODS_TRANSFER_FROM_CLIENT:FIXED_ASSET_SERVICE",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:REVERSAL_GOODS_TRANSFER_FROM_CLIENT",
+  "TransactionTypeId": "transaction_type:FIXED_ASSET_SERVICE",
+  "ElementDebitValueElementsId": null,
+  "ElementCreditValueElementsId": null
+ },
+ {
+  "Key": "inter_document_type_transaction_type:reversals:REVERSAL_GOODS_TRANSFER_FROM_CLIENT:ITEM",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:REVERSAL_GOODS_TRANSFER_FROM_CLIENT",
+  "TransactionTypeId": "transaction_type:ITEM",
+  "ElementDebitValueElementsId": null,
+  "ElementCreditValueElementsId": null
+ },
+ {
+  "Key": "inter_document_type_transaction_type:reversals:REVERSAL_GOODS_TRANSFER_STAFF_TO_CLIENT:ITEM",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:REVERSAL_GOODS_TRANSFER_STAFF_TO_CLIENT",
+  "TransactionTypeId": "transaction_type:ITEM",
+  "ElementDebitValueElementsId": null,
+  "ElementCreditValueElementsId": null
+ },
+ {
+  "Key": "inter_document_type_transaction_type:pos_bank:POS_MONEY_IN:BANK_ACCOUNT",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:POS_MONEY_IN",
+  "TransactionTypeId": "transaction_type:BANK_ACCOUNT",
+  "ElementDebitValueElementsId": null,
+  "ElementCreditValueElementsId": null
+ },
+ {
+  "Key": "inter_document_type_transaction_type:pos_bank:POS_REFUND:BANK_ACCOUNT",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:POS_REFUND",
+  "TransactionTypeId": "transaction_type:BANK_ACCOUNT",
+  "ElementDebitValueElementsId": null,
+  "ElementCreditValueElementsId": null
+ },
+ {
+  "IdSup": null,
+  "Active": true,
+  "Key": "inter_document_type_transaction_type:OPENING_STOCK",
+  "DocumentTypeId": "document_type:OPENING_STOCK",
+  "TransactionTypeId": "transaction_type:ITEM",
+  "ElementDebitValueElementsId": null,
+  "ElementCreditValueElementsId": null
+ },
+ {
+  "IdSup": null,
+  "Active": true,
+  "Key": "inter_document_type_transaction_type:OPENING_STOCK_REVERSAL",
+  "DocumentTypeId": "document_type:OPENING_STOCK_REVERSAL",
+  "TransactionTypeId": "transaction_type:ITEM",
+  "ElementDebitValueElementsId": null,
+  "ElementCreditValueElementsId": null
+ }
+]

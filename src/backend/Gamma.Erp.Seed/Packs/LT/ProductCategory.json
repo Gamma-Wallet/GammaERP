@@ -1,0 +1,122 @@
+[
+ {
+  "Key": "product_category:PRODUCT",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "PRODUCT",
+  "Name": {
+   "en": "Products",
+   "lt": "Produktai"
+  },
+  "SortOrder": 10
+ },
+ {
+  "Key": "product_category:SERVICE",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "SERVICE",
+  "Name": {
+   "en": "Services",
+   "lt": "Paslaugos"
+  },
+  "SortOrder": 20
+ },
+ {
+  "Key": "product_category:ASSET",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "ASSET",
+  "Name": {
+   "en": "Assets",
+   "lt": "Ilgalaikis turtas"
+  },
+  "SortOrder": 30
+ },
+ {
+  "Key": "product_category:LAND",
+  "IdSup": "product_category:ASSET",
+  "Active": true,
+  "IsElement": true,
+  "Code": "LAND",
+  "Name": {
+   "en": "Land",
+   "lt": "Žemė"
+  },
+  "SortOrder": 10
+ },
+ {
+  "Key": "product_category:BUILDINGS",
+  "IdSup": "product_category:ASSET",
+  "Active": true,
+  "IsElement": true,
+  "Code": "BUILDINGS",
+  "Name": {
+   "en": "Buildings",
+   "lt": "Pastatai"
+  },
+  "SortOrder": 20
+ },
+ {
+  "Key": "product_category:OFFICE",
+  "IdSup": "product_category:ASSET",
+  "Active": true,
+  "IsElement": true,
+  "Code": "OFFICE",
+  "Name": {
+   "en": "Office equipment",
+   "lt": "Biuro įranga"
+  },
+  "SortOrder": 30
+ },
+ {
+  "Key": "product_category:VEHICLES",
+  "IdSup": "product_category:ASSET",
+  "Active": true,
+  "IsElement": true,
+  "Code": "VEHICLES",
+  "Name": {
+   "en": "Vehicles",
+   "lt": "Transporto priemonės"
+  },
+  "SortOrder": 40
+ },
+ {
+  "Key": "product_category:COMPUTERS",
+  "IdSup": "product_category:ASSET",
+  "Active": true,
+  "IsElement": true,
+  "Code": "COMPUTERS",
+  "Name": {
+   "en": "Computer equipment",
+   "lt": "Kompiuterinė įranga"
+  },
+  "SortOrder": 50
+ },
+ {
+  "Key": "product_category:FURNITURE",
+  "IdSup": "product_category:ASSET",
+  "Active": true,
+  "IsElement": true,
+  "Code": "FURNITURE",
+  "Name": {
+   "en": "Furniture and fittings",
+   "lt": "Baldai ir inventorius"
+  },
+  "SortOrder": 60
+ },
+ {
+  "Key": "product_category:INTANGIBLE",
+  "IdSup": "product_category:ASSET",
+  "Active": true,
+  "IsElement": true,
+  "Code": "INTANGIBLE",
+  "Name": {
+   "en": "Intangible assets",
+   "lt": "Nematerialusis turtas"
+  },
+  "SortOrder": 70
+ }
+]

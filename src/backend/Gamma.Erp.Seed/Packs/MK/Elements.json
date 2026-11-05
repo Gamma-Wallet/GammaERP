@@ -1,0 +1,2594 @@
+[
+ {
+  "Key": "elements:1",
+  "Active": true,
+  "ElementsTypeId": "elements_type:3",
+  "Name": {
+   "sq": ""
+  },
+  "Table": null,
+  "CategoryId": null,
+  "TypeId": null,
+  "RecordId": null
+ },
+ {
+  "Key": "elements:2",
+  "Active": true,
+  "ElementsTypeId": "elements_type:5",
+  "Name": {
+   "en": "Accounts",
+   "mk": "Сметки"
+  },
+  "Table": "tbl_chart",
+  "CategoryId": "chart_category:STATUTORY",
+  "TypeId": null,
+  "RecordId": null
+ },
+ {
+  "Key": "elements:3",
+  "Active": true,
+  "ElementsTypeId": "elements_type:5",
+  "Name": {
+   "en": "Products / services",
+   "mk": "Производи / услуги"
+  },
+  "Table": "tbl_product",
+  "CategoryId": "product_category:PRODUCT",
+  "TypeId": null,
+  "RecordId": null
+ },
+ {
+  "Key": "elements:4",
+  "Active": true,
+  "ElementsTypeId": "elements_type:5",
+  "Name": {
+   "en": "Products / services",
+   "mk": "Производи / услуги"
+  },
+  "Table": "tbl_product",
+  "CategoryId": "product_category:ASSET",
+  "TypeId": null,
+  "RecordId": null
+ },
+ {
+  "Key": "elements:5",
+  "Active": true,
+  "ElementsTypeId": "elements_type:5",
+  "Name": {
+   "en": "Products / services",
+   "mk": "Производи / услуги"
+  },
+  "Table": "tbl_product",
+  "CategoryId": "product_category:SERVICE",
+  "TypeId": null,
+  "RecordId": null
+ },
+ {
+  "Key": "elements:6",
+  "Active": true,
+  "ElementsTypeId": "elements_type:5",
+  "Name": {
+   "en": "Client / supplier / third party",
+   "mk": "Купувач / добавувач / трето лице"
+  },
+  "Table": "tbl_partner",
+  "CategoryId": "partner_category:SUPPLIERS",
+  "TypeId": null,
+  "RecordId": null
+ },
+ {
+  "Key": "elements:7",
+  "Active": true,
+  "ElementsTypeId": "elements_type:5",
+  "Name": {
+   "en": "Staff",
+   "mk": "Персонал"
+  },
+  "Table": "tbl_employee",
+  "CategoryId": null,
+  "TypeId": null,
+  "RecordId": null
+ },
+ {
+  "Key": "elements:8",
+  "Active": true,
+  "ElementsTypeId": "elements_type:5",
+  "Name": {
+   "en": "Client / supplier / third party",
+   "mk": "Купувач / добавувач / трето лице"
+  },
+  "Table": "tbl_partner",
+  "CategoryId": "partner_category:CLIENTS",
+  "TypeId": null,
+  "RecordId": null
+ },
+ {
+  "Key": "elements:9",
+  "Active": true,
+  "ElementsTypeId": "elements_type:7",
+  "Name": {
+   "en": "Client / supplier / third party",
+   "mk": "Купувач / добавувач / трето лице"
+  },
+  "Table": "tbl_partner",
+  "CategoryId": "partner_category:CLIENTS",
+  "TypeId": null,
+  "RecordId": null
+ },
+ {
+  "Key": "elements:10",
+  "Active": true,
+  "ElementsTypeId": "elements_type:7",
+  "Name": {
+   "en": "cost centres",
+   "mk": "места на трошоци"
+  },
+  "Table": "tbl_cost_center",
+  "CategoryId": null,
+  "TypeId": null,
+  "RecordId": null
+ },
+ {
+  "Key": "elements:11",
+  "Active": true,
+  "ElementsTypeId": "elements_type:7",
+  "Name": {
+   "en": "Client / supplier / third party",
+   "mk": "Купувач / добавувач / трето лице"
+  },
+  "Table": "tbl_partner",
+  "CategoryId": null,
+  "TypeId": null,
+  "RecordId": null
+ },
+ {
+  "Key": "elements:12",
+  "Active": true,
+  "ElementsTypeId": "elements_type:7",
+  "Name": {
+   "en": "cost centres",
+   "mk": "места на трошоци"
+  },
+  "Table": "tbl_cost_center",
+  "CategoryId": null,
+  "TypeId": null,
+  "RecordId": null
+ },
+ {
+  "Key": "elements:13",
+  "Active": true,
+  "ElementsTypeId": "elements_type:7",
+  "Name": {
+   "en": "Client / supplier / third party",
+   "mk": "Купувач / добавувач / трето лице"
+  },
+  "Table": "tbl_partner",
+  "CategoryId": null,
+  "TypeId": null,
+  "RecordId": null
+ },
+ {
+  "Key": "elements:14",
+  "Active": true,
+  "ElementsTypeId": "elements_type:7",
+  "Name": {
+   "en": "Client / supplier / third party",
+   "mk": "Купувач / добавувач / трето лице"
+  },
+  "Table": "tbl_partner",
+  "CategoryId": "partner_category:SUPPLIERS",
+  "TypeId": null,
+  "RecordId": null
+ },
+ {
+  "Key": "elements:15",
+  "Active": true,
+  "ElementsTypeId": "elements_type:7",
+  "Name": {
+   "en": "cost centres",
+   "mk": "места на трошоци"
+  },
+  "Table": "tbl_cost_center",
+  "CategoryId": null,
+  "TypeId": null,
+  "RecordId": null
+ },
+ {
+  "Key": "elements:16",
+  "Active": true,
+  "ElementsTypeId": "elements_type:7",
+  "Name": {
+   "en": "Client / supplier / third party",
+   "mk": "Купувач / добавувач / трето лице"
+  },
+  "Table": "tbl_partner",
+  "CategoryId": "partner_category:SUPPLIERS",
+  "TypeId": null,
+  "RecordId": null
+ },
+ {
+  "Key": "elements:17",
+  "Active": true,
+  "ElementsTypeId": "elements_type:7",
+  "Name": {
+   "en": "cost centres",
+   "mk": "места на трошоци"
+  },
+  "Table": "tbl_cost_center",
+  "CategoryId": null,
+  "TypeId": null,
+  "RecordId": null
+ },
+ {
+  "Key": "elements:18",
+  "Active": true,
+  "ElementsTypeId": "elements_type:7",
+  "Name": {
+   "en": "cost centres",
+   "mk": "места на трошоци"
+  },
+  "Table": "tbl_cost_center",
+  "CategoryId": null,
+  "TypeId": null,
+  "RecordId": null
+ },
+ {
+  "Key": "elements:19",
+  "Active": true,
+  "ElementsTypeId": "elements_type:2",
+  "Name": {
+   "en": "Client / supplier / third party",
+   "mk": "Купувач / добавувач / трето лице"
+  },
+  "Table": "tbl_partner",
+  "CategoryId": "partner_category:SUPPLIERS",
+  "TypeId": "partner_type:PERSON",
+  "RecordId": null
+ },
+ {
+  "Key": "elements:20",
+  "Active": true,
+  "ElementsTypeId": "elements_type:7",
+  "Name": {
+   "en": "cost centres",
+   "mk": "места на трошоци"
+  },
+  "Table": "tbl_cost_center",
+  "CategoryId": "cost_center_category:COMPANIES",
+  "TypeId": "cost_center_type:COMPANY",
+  "RecordId": null
+ },
+ {
+  "Key": "elements:21",
+  "Active": true,
+  "ElementsTypeId": "elements_type:7",
+  "Name": {
+   "en": "cost centres",
+   "mk": "места на трошоци"
+  },
+  "Table": "tbl_cost_center",
+  "CategoryId": "cost_center_category:COMPANIES",
+  "TypeId": "cost_center_type:COMPANY",
+  "RecordId": null
+ },
+ {
+  "Key": "elements:22",
+  "Active": true,
+  "ElementsTypeId": "elements_type:7",
+  "Name": {
+   "en": "Client / supplier / third party",
+   "mk": "Купувач / добавувач / трето лице"
+  },
+  "Table": "tbl_partner",
+  "CategoryId": "partner_category:SUPPLIERS",
+  "TypeId": null,
+  "RecordId": null
+ },
+ {
+  "Key": "elements:23",
+  "Active": true,
+  "ElementsTypeId": "elements_type:7",
+  "Name": {
+   "en": "cost centres",
+   "mk": "места на трошоци"
+  },
+  "Table": "tbl_cost_center",
+  "CategoryId": "cost_center_category:COMPANIES",
+  "TypeId": "cost_center_type:COMPANY",
+  "RecordId": null
+ },
+ {
+  "Key": "elements:24",
+  "Active": true,
+  "ElementsTypeId": "elements_type:7",
+  "Name": {
+   "en": "Client / supplier / third party",
+   "mk": "Купувач / добавувач / трето лице"
+  },
+  "Table": "tbl_partner",
+  "CategoryId": "partner_category:SUPPLIERS",
+  "TypeId": null,
+  "RecordId": null
+ },
+ {
+  "Key": "elements:25",
+  "Active": true,
+  "ElementsTypeId": "elements_type:7",
+  "Name": {
+   "en": "cost centres",
+   "mk": "места на трошоци"
+  },
+  "Table": "tbl_cost_center",
+  "CategoryId": "cost_center_category:COMPANIES",
+  "TypeId": null,
+  "RecordId": null
+ },
+ {
+  "Key": "elements:26",
+  "Active": true,
+  "ElementsTypeId": "elements_type:7",
+  "Name": {
+   "en": "Client / supplier / third party",
+   "mk": "Купувач / добавувач / трето лице"
+  },
+  "Table": "tbl_partner",
+  "CategoryId": "partner_category:SUPPLIERS",
+  "TypeId": null,
+  "RecordId": null
+ },
+ {
+  "Key": "elements:27",
+  "Active": true,
+  "ElementsTypeId": "elements_type:7",
+  "Name": {
+   "en": "cost centres",
+   "mk": "места на трошоци"
+  },
+  "Table": "tbl_cost_center",
+  "CategoryId": null,
+  "TypeId": null,
+  "RecordId": null
+ },
+ {
+  "Key": "elements:28",
+  "Active": true,
+  "ElementsTypeId": "elements_type:7",
+  "Name": {
+   "en": "Client / supplier / third party",
+   "mk": "Купувач / добавувач / трето лице"
+  },
+  "Table": "tbl_partner",
+  "CategoryId": "partner_category:CLIENTS",
+  "TypeId": null,
+  "RecordId": null
+ },
+ {
+  "Key": "elements:29",
+  "Active": true,
+  "ElementsTypeId": "elements_type:5",
+  "Name": {
+   "en": "Products / services",
+   "mk": "Производи / услуги"
+  },
+  "Table": "tbl_product",
+  "CategoryId": "product_category:ASSET",
+  "TypeId": null,
+  "RecordId": null
+ },
+ {
+  "Key": "elements:30",
+  "Active": true,
+  "ElementsTypeId": "elements_type:7",
+  "Name": {
+   "en": "Accounts",
+   "mk": "Сметки"
+  },
+  "Table": "tbl_chart",
+  "CategoryId": "chart_category:STATUTORY",
+  "TypeId": null,
+  "RecordId": null
+ },
+ {
+  "Key": "elements:31",
+  "Active": true,
+  "ElementsTypeId": "elements_type:7",
+  "Name": {
+   "en": "Accounts",
+   "mk": "Сметки"
+  },
+  "Table": "tbl_chart",
+  "CategoryId": "chart_category:STATUTORY",
+  "TypeId": null,
+  "RecordId": null
+ },
+ {
+  "Key": "elements:32",
+  "Active": true,
+  "ElementsTypeId": "elements_type:7",
+  "Name": {
+   "en": "Client / supplier / third party",
+   "mk": "Купувач / добавувач / трето лице"
+  },
+  "Table": "tbl_partner",
+  "CategoryId": "partner_category:CLIENTS",
+  "TypeId": null,
+  "RecordId": null
+ },
+ {
+  "Key": "elements:33",
+  "Active": true,
+  "ElementsTypeId": "elements_type:7",
+  "Name": {
+   "en": "Client / supplier / third party",
+   "mk": "Купувач / добавувач / трето лице"
+  },
+  "Table": "tbl_partner",
+  "CategoryId": "partner_category:SUPPLIERS",
+  "TypeId": null,
+  "RecordId": null
+ },
+ {
+  "Key": "elements:34",
+  "Active": true,
+  "ElementsTypeId": "elements_type:7",
+  "Name": {
+   "en": "Client / supplier / third party",
+   "mk": "Купувач / добавувач / трето лице"
+  },
+  "Table": "tbl_partner",
+  "CategoryId": "partner_category:SUPPLIERS",
+  "TypeId": null,
+  "RecordId": null
+ },
+ {
+  "Key": "elements:35",
+  "Active": true,
+  "ElementsTypeId": "elements_type:7",
+  "Name": {
+   "en": "Client / supplier / third party",
+   "mk": "Купувач / добавувач / трето лице"
+  },
+  "Table": "tbl_partner",
+  "CategoryId": "partner_category:CLIENTS",
+  "TypeId": null,
+  "RecordId": null
+ },
+ {
+  "Key": "elements:36",
+  "Active": true,
+  "ElementsTypeId": "elements_type:7",
+  "Name": {
+   "en": "Client / supplier / third party",
+   "mk": "Купувач / добавувач / трето лице"
+  },
+  "Table": "tbl_partner",
+  "CategoryId": "partner_category:SUPPLIERS",
+  "TypeId": null,
+  "RecordId": null
+ },
+ {
+  "Key": "elements:37",
+  "Active": true,
+  "ElementsTypeId": "elements_type:8",
+  "Name": {
+   "en": "Client / supplier / third party",
+   "mk": "Купувач / добавувач / трето лице"
+  },
+  "Table": "tbl_partner",
+  "CategoryId": "partner_category:SUPPLIERS",
+  "TypeId": null,
+  "RecordId": null
+ },
+ {
+  "Key": "elements:38",
+  "Active": true,
+  "ElementsTypeId": "elements_type:8",
+  "Name": {
+   "en": "cost centres",
+   "mk": "места на трошоци"
+  },
+  "Table": "tbl_cost_center",
+  "CategoryId": null,
+  "TypeId": null,
+  "RecordId": null
+ },
+ {
+  "Key": "elements:39",
+  "Active": true,
+  "ElementsTypeId": "elements_type:8",
+  "Name": {
+   "en": "cost centres",
+   "mk": "места на трошоци"
+  },
+  "Table": "tbl_cost_center",
+  "CategoryId": null,
+  "TypeId": null,
+  "RecordId": null
+ },
+ {
+  "Key": "elements:40",
+  "Active": true,
+  "ElementsTypeId": "elements_type:8",
+  "Name": {
+   "en": "cost centres",
+   "mk": "места на трошоци"
+  },
+  "Table": "tbl_cost_center",
+  "CategoryId": null,
+  "TypeId": null,
+  "RecordId": null
+ },
+ {
+  "Key": "elements:41",
+  "Active": true,
+  "ElementsTypeId": "elements_type:8",
+  "Name": {
+   "en": "cost centres",
+   "mk": "места на трошоци"
+  },
+  "Table": "tbl_cost_center",
+  "CategoryId": null,
+  "TypeId": null,
+  "RecordId": null
+ },
+ {
+  "Key": "elements:42",
+  "Active": true,
+  "ElementsTypeId": "elements_type:8",
+  "Name": {
+   "en": "cost centres",
+   "mk": "места на трошоци"
+  },
+  "Table": "tbl_cost_center",
+  "CategoryId": null,
+  "TypeId": null,
+  "RecordId": null
+ },
+ {
+  "Key": "elements:43",
+  "Active": true,
+  "ElementsTypeId": "elements_type:8",
+  "Name": {
+   "en": "cost centres",
+   "mk": "места на трошоци"
+  },
+  "Table": "tbl_cost_center",
+  "CategoryId": null,
+  "TypeId": null,
+  "RecordId": null
+ },
+ {
+  "Key": "elements:44",
+  "Active": true,
+  "ElementsTypeId": "elements_type:8",
+  "Name": {
+   "en": "cost centres",
+   "mk": "места на трошоци"
+  },
+  "Table": "tbl_cost_center",
+  "CategoryId": null,
+  "TypeId": null,
+  "RecordId": null
+ },
+ {
+  "Key": "elements:45",
+  "Active": true,
+  "ElementsTypeId": "elements_type:8",
+  "Name": {
+   "en": "cost centres",
+   "mk": "места на трошоци"
+  },
+  "Table": "tbl_cost_center",
+  "CategoryId": null,
+  "TypeId": null,
+  "RecordId": null
+ },
+ {
+  "Key": "elements:46",
+  "Active": true,
+  "ElementsTypeId": "elements_type:7",
+  "Name": {
+   "en": "cost centres",
+   "mk": "места на трошоци"
+  },
+  "Table": "tbl_cost_center",
+  "CategoryId": "cost_center_category:COMPANIES",
+  "TypeId": null,
+  "RecordId": null
+ },
+ {
+  "Key": "elements:47",
+  "Active": true,
+  "ElementsTypeId": "elements_type:7",
+  "Name": {
+   "en": "Client / supplier / third party",
+   "mk": "Купувач / добавувач / трето лице"
+  },
+  "Table": "tbl_partner",
+  "CategoryId": "partner_category:SUPPLIERS",
+  "TypeId": null,
+  "RecordId": null
+ },
+ {
+  "Key": "elements:48",
+  "Active": true,
+  "ElementsTypeId": "elements_type:7",
+  "Name": {
+   "en": "Client / supplier / third party",
+   "mk": "Купувач / добавувач / трето лице"
+  },
+  "Table": "tbl_partner",
+  "CategoryId": "partner_category:CLIENTS",
+  "TypeId": null,
+  "RecordId": null
+ },
+ {
+  "Key": "elements:49",
+  "Active": true,
+  "ElementsTypeId": "elements_type:2",
+  "Name": {
+   "en": "Currency",
+   "mk": "Валута"
+  },
+  "Table": "tbl_currency",
+  "CategoryId": null,
+  "TypeId": null,
+  "RecordId": "currency:ALL"
+ },
+ {
+  "Key": "elements:50",
+  "Active": true,
+  "ElementsTypeId": "elements_type:2",
+  "Name": {
+   "en": "Currency",
+   "mk": "Валута"
+  },
+  "Table": "tbl_currency",
+  "CategoryId": null,
+  "TypeId": null,
+  "RecordId": "currency:ALL"
+ },
+ {
+  "Key": "elements:51",
+  "Active": true,
+  "ElementsTypeId": "elements_type:7",
+  "Name": {
+   "en": "cost centres",
+   "mk": "места на трошоци"
+  },
+  "Table": "tbl_cost_center",
+  "CategoryId": "cost_center_category:COMPANIES",
+  "TypeId": "cost_center_type:CASH_DESK",
+  "RecordId": null
+ },
+ {
+  "Key": "elements:52",
+  "Active": true,
+  "ElementsTypeId": "elements_type:7",
+  "Name": {
+   "en": "cost centres",
+   "mk": "места на трошоци"
+  },
+  "Table": "tbl_cost_center",
+  "CategoryId": "cost_center_category:COMPANIES",
+  "TypeId": "cost_center_type:CASH_DESK",
+  "RecordId": null
+ },
+ {
+  "Key": "elements:53",
+  "Active": true,
+  "ElementsTypeId": "elements_type:7",
+  "Name": {
+   "en": "cost centres",
+   "mk": "места на трошоци"
+  },
+  "Table": "tbl_cost_center",
+  "CategoryId": null,
+  "TypeId": null,
+  "RecordId": null
+ },
+ {
+  "Key": "elements:54",
+  "Active": true,
+  "ElementsTypeId": "elements_type:7",
+  "Name": {
+   "en": "cost centres",
+   "mk": "места на трошоци"
+  },
+  "Table": "tbl_cost_center",
+  "CategoryId": null,
+  "TypeId": null,
+  "RecordId": null
+ },
+ {
+  "Key": "elements:55",
+  "Active": true,
+  "ElementsTypeId": "elements_type:7",
+  "Name": {
+   "en": "cost centres",
+   "mk": "места на трошоци"
+  },
+  "Table": "tbl_cost_center",
+  "CategoryId": "cost_center_category:COMPANIES",
+  "TypeId": "cost_center_type:CASH_DESK",
+  "RecordId": null
+ },
+ {
+  "Key": "elements:56",
+  "Active": true,
+  "ElementsTypeId": "elements_type:7",
+  "Name": {
+   "en": "cost centres",
+   "mk": "места на трошоци"
+  },
+  "Table": "tbl_cost_center",
+  "CategoryId": "cost_center_category:COMPANIES",
+  "TypeId": "cost_center_type:CASH_DESK",
+  "RecordId": null
+ },
+ {
+  "Key": "elements:57",
+  "Active": true,
+  "ElementsTypeId": "elements_type:7",
+  "Name": {
+   "en": "cost centres",
+   "mk": "места на трошоци"
+  },
+  "Table": "tbl_cost_center",
+  "CategoryId": "cost_center_category:COMPANIES",
+  "TypeId": "cost_center_type:CASH_DESK",
+  "RecordId": null
+ },
+ {
+  "Key": "elements:58",
+  "Active": true,
+  "ElementsTypeId": "elements_type:7",
+  "Name": {
+   "en": "cost centres",
+   "mk": "места на трошоци"
+  },
+  "Table": "tbl_cost_center",
+  "CategoryId": "cost_center_category:COMPANIES",
+  "TypeId": null,
+  "RecordId": null
+ },
+ {
+  "Key": "elements:59",
+  "Active": true,
+  "ElementsTypeId": "elements_type:7",
+  "Name": {
+   "en": "Client / supplier / third party",
+   "mk": "Купувач / добавувач / трето лице"
+  },
+  "Table": "tbl_partner",
+  "CategoryId": "partner_category:SUPPLIERS",
+  "TypeId": null,
+  "RecordId": null
+ },
+ {
+  "Key": "elements:60",
+  "Active": true,
+  "ElementsTypeId": "elements_type:7",
+  "Name": {
+   "en": "cost centres",
+   "mk": "места на трошоци"
+  },
+  "Table": "tbl_cost_center",
+  "CategoryId": "cost_center_category:COMPANIES",
+  "TypeId": "cost_center_type:COMPANY",
+  "RecordId": null
+ },
+ {
+  "Key": "elements:61",
+  "Active": true,
+  "ElementsTypeId": "elements_type:7",
+  "Name": {
+   "en": "Client / supplier / third party",
+   "mk": "Купувач / добавувач / трето лице"
+  },
+  "Table": "tbl_partner",
+  "CategoryId": "partner_category:CLIENTS",
+  "TypeId": null,
+  "RecordId": null
+ },
+ {
+  "Key": "elements:62",
+  "Active": true,
+  "ElementsTypeId": "elements_type:7",
+  "Name": {
+   "en": "cost centres",
+   "mk": "места на трошоци"
+  },
+  "Table": "tbl_cost_center",
+  "CategoryId": "cost_center_category:COMPANIES",
+  "TypeId": "cost_center_type:CASH_DESK",
+  "RecordId": null
+ },
+ {
+  "Key": "elements:63",
+  "Active": true,
+  "ElementsTypeId": "elements_type:7",
+  "Name": {
+   "en": "Staff",
+   "mk": "Персонал"
+  },
+  "Table": "tbl_employee",
+  "CategoryId": "employee_category:STAFF",
+  "TypeId": null,
+  "RecordId": null
+ },
+ {
+  "Key": "elements:64",
+  "Active": true,
+  "ElementsTypeId": "elements_type:7",
+  "Name": {
+   "en": "Client / supplier / third party",
+   "mk": "Купувач / добавувач / трето лице"
+  },
+  "Table": "tbl_partner",
+  "CategoryId": "partner_category:CLIENTS",
+  "TypeId": null,
+  "RecordId": null
+ },
+ {
+  "Key": "elements:65",
+  "Active": true,
+  "ElementsTypeId": "elements_type:7",
+  "Name": {
+   "en": "cost centres",
+   "mk": "места на трошоци"
+  },
+  "Table": "tbl_cost_center",
+  "CategoryId": "cost_center_category:COMPANIES",
+  "TypeId": "cost_center_type:COMPANY",
+  "RecordId": null
+ },
+ {
+  "Key": "elements:66",
+  "Active": true,
+  "ElementsTypeId": "elements_type:7",
+  "Name": {
+   "en": "Client / supplier / third party",
+   "mk": "Купувач / добавувач / трето лице"
+  },
+  "Table": "tbl_partner",
+  "CategoryId": "partner_category:CLIENTS",
+  "TypeId": null,
+  "RecordId": null
+ },
+ {
+  "Key": "elements:67",
+  "Active": true,
+  "ElementsTypeId": "elements_type:7",
+  "Name": {
+   "en": "cost centres",
+   "mk": "места на трошоци"
+  },
+  "Table": "tbl_cost_center",
+  "CategoryId": "cost_center_category:COMPANIES",
+  "TypeId": "cost_center_type:COMPANY",
+  "RecordId": null
+ },
+ {
+  "Key": "elements:68",
+  "Active": true,
+  "ElementsTypeId": "elements_type:7",
+  "Name": {
+   "en": "cost centres",
+   "mk": "места на трошоци"
+  },
+  "Table": "tbl_cost_center",
+  "CategoryId": "cost_center_category:COMPANIES",
+  "TypeId": "cost_center_type:CASH_DESK",
+  "RecordId": null
+ },
+ {
+  "Key": "elements:69",
+  "Active": true,
+  "ElementsTypeId": "elements_type:7",
+  "Name": {
+   "en": "cost centres",
+   "mk": "места на трошоци"
+  },
+  "Table": "tbl_cost_center",
+  "CategoryId": "cost_center_category:COMPANIES",
+  "TypeId": "cost_center_type:CASH_DESK",
+  "RecordId": null
+ },
+ {
+  "Key": "elements:70",
+  "Active": true,
+  "ElementsTypeId": "elements_type:7",
+  "Name": {
+   "en": "Staff",
+   "mk": "Персонал"
+  },
+  "Table": "tbl_employee",
+  "CategoryId": "employee_category:STAFF",
+  "TypeId": null,
+  "RecordId": null
+ },
+ {
+  "Key": "elements:71",
+  "Active": true,
+  "ElementsTypeId": "elements_type:7",
+  "Name": {
+   "en": "cost centres",
+   "mk": "места на трошоци"
+  },
+  "Table": "tbl_cost_center",
+  "CategoryId": "cost_center_category:COMPANIES",
+  "TypeId": "cost_center_type:COMPANY",
+  "RecordId": null
+ },
+ {
+  "Key": "elements:72",
+  "Active": true,
+  "ElementsTypeId": "elements_type:7",
+  "Name": {
+   "en": "Client / supplier / third party",
+   "mk": "Купувач / добавувач / трето лице"
+  },
+  "Table": "tbl_partner",
+  "CategoryId": "partner_category:CLIENTS",
+  "TypeId": null,
+  "RecordId": null
+ },
+ {
+  "Key": "elements:73",
+  "Active": true,
+  "ElementsTypeId": "elements_type:7",
+  "Name": {
+   "en": "cost centres",
+   "mk": "места на трошоци"
+  },
+  "Table": "tbl_cost_center",
+  "CategoryId": "cost_center_category:COMPANIES",
+  "TypeId": "cost_center_type:COMPANY",
+  "RecordId": null
+ },
+ {
+  "Key": "elements:74",
+  "Active": true,
+  "ElementsTypeId": "elements_type:5",
+  "Name": {
+   "en": "cost centres",
+   "mk": "места на трошоци"
+  },
+  "Table": "tbl_cost_center",
+  "CategoryId": "cost_center_category:COMPANIES",
+  "TypeId": "cost_center_type:CASH_DESK",
+  "RecordId": null
+ },
+ {
+  "Key": "elements:75",
+  "Active": true,
+  "ElementsTypeId": "elements_type:7",
+  "Name": {
+   "en": "cost centres",
+   "mk": "места на трошоци"
+  },
+  "Table": "tbl_cost_center",
+  "CategoryId": "cost_center_category:COMPANIES",
+  "TypeId": "cost_center_type:COMPANY",
+  "RecordId": null
+ },
+ {
+  "Key": "elements:76",
+  "Active": true,
+  "ElementsTypeId": "elements_type:7",
+  "Name": {
+   "en": "cost centres",
+   "mk": "места на трошоци"
+  },
+  "Table": "tbl_cost_center",
+  "CategoryId": "cost_center_category:COMPANIES",
+  "TypeId": "cost_center_type:COMPANY",
+  "RecordId": null
+ },
+ {
+  "Key": "elements:77",
+  "Active": true,
+  "ElementsTypeId": "elements_type:8",
+  "Name": {
+   "en": "cost centres",
+   "mk": "места на трошоци"
+  },
+  "Table": "tbl_cost_center",
+  "CategoryId": "cost_center_category:COMPANIES",
+  "TypeId": "cost_center_type:CASH_DESK",
+  "RecordId": null
+ },
+ {
+  "Key": "elements:78",
+  "Active": true,
+  "ElementsTypeId": "elements_type:8",
+  "Name": {
+   "en": "cost centres",
+   "mk": "места на трошоци"
+  },
+  "Table": "tbl_cost_center",
+  "CategoryId": "cost_center_category:COMPANIES",
+  "TypeId": null,
+  "RecordId": null
+ },
+ {
+  "Key": "elements:79",
+  "Active": true,
+  "ElementsTypeId": "elements_type:8",
+  "Name": {
+   "en": "cost centres",
+   "mk": "места на трошоци"
+  },
+  "Table": "tbl_cost_center",
+  "CategoryId": "cost_center_category:COMPANIES",
+  "TypeId": null,
+  "RecordId": null
+ },
+ {
+  "Key": "elements:80",
+  "Active": true,
+  "ElementsTypeId": "elements_type:8",
+  "Name": {
+   "en": "cost centres",
+   "mk": "места на трошоци"
+  },
+  "Table": "tbl_cost_center",
+  "CategoryId": "cost_center_category:COMPANIES",
+  "TypeId": null,
+  "RecordId": null
+ },
+ {
+  "Key": "elements:81",
+  "Active": true,
+  "ElementsTypeId": "elements_type:8",
+  "Name": {
+   "en": "cost centres",
+   "mk": "места на трошоци"
+  },
+  "Table": "tbl_cost_center",
+  "CategoryId": "cost_center_category:COMPANIES",
+  "TypeId": null,
+  "RecordId": null
+ },
+ {
+  "Key": "elements:82",
+  "Active": true,
+  "ElementsTypeId": "elements_type:8",
+  "Name": {
+   "en": "cost centres",
+   "mk": "места на трошоци"
+  },
+  "Table": "tbl_cost_center",
+  "CategoryId": "cost_center_category:COMPANIES",
+  "TypeId": null,
+  "RecordId": null
+ },
+ {
+  "Key": "elements:83",
+  "Active": true,
+  "ElementsTypeId": "elements_type:8",
+  "Name": {
+   "en": "cost centres",
+   "mk": "места на трошоци"
+  },
+  "Table": "tbl_cost_center",
+  "CategoryId": "cost_center_category:COMPANIES",
+  "TypeId": null,
+  "RecordId": null
+ },
+ {
+  "Key": "elements:84",
+  "Active": true,
+  "ElementsTypeId": "elements_type:8",
+  "Name": {
+   "en": "cost centres",
+   "mk": "места на трошоци"
+  },
+  "Table": "tbl_cost_center",
+  "CategoryId": "cost_center_category:COMPANIES",
+  "TypeId": null,
+  "RecordId": null
+ },
+ {
+  "Key": "elements:85",
+  "Active": true,
+  "ElementsTypeId": "elements_type:8",
+  "Name": {
+   "en": "cost centres",
+   "mk": "места на трошоци"
+  },
+  "Table": "tbl_cost_center",
+  "CategoryId": "cost_center_category:COMPANIES",
+  "TypeId": null,
+  "RecordId": null
+ },
+ {
+  "Key": "elements:86",
+  "Active": true,
+  "ElementsTypeId": "elements_type:8",
+  "Name": {
+   "en": "cost centres",
+   "mk": "места на трошоци"
+  },
+  "Table": "tbl_cost_center",
+  "CategoryId": "cost_center_category:COMPANIES",
+  "TypeId": null,
+  "RecordId": null
+ },
+ {
+  "Key": "elements:87",
+  "Active": true,
+  "ElementsTypeId": "elements_type:8",
+  "Name": {
+   "en": "cost centres",
+   "mk": "места на трошоци"
+  },
+  "Table": "tbl_cost_center",
+  "CategoryId": "cost_center_category:COMPANIES",
+  "TypeId": null,
+  "RecordId": null
+ },
+ {
+  "Key": "elements:88",
+  "Active": true,
+  "ElementsTypeId": "elements_type:8",
+  "Name": {
+   "en": "cost centres",
+   "mk": "места на трошоци"
+  },
+  "Table": "tbl_cost_center",
+  "CategoryId": "cost_center_category:COMPANIES",
+  "TypeId": null,
+  "RecordId": null
+ },
+ {
+  "Key": "elements:89",
+  "Active": true,
+  "ElementsTypeId": "elements_type:8",
+  "Name": {
+   "en": "cost centres",
+   "mk": "места на трошоци"
+  },
+  "Table": "tbl_cost_center",
+  "CategoryId": "cost_center_category:COMPANIES",
+  "TypeId": null,
+  "RecordId": null
+ },
+ {
+  "Key": "elements:90",
+  "Active": true,
+  "ElementsTypeId": "elements_type:8",
+  "Name": {
+   "en": "cost centres",
+   "mk": "места на трошоци"
+  },
+  "Table": "tbl_cost_center",
+  "CategoryId": "cost_center_category:COMPANIES",
+  "TypeId": null,
+  "RecordId": null
+ },
+ {
+  "Key": "elements:91",
+  "Active": true,
+  "ElementsTypeId": "elements_type:8",
+  "Name": {
+   "en": "cost centres",
+   "mk": "места на трошоци"
+  },
+  "Table": "tbl_cost_center",
+  "CategoryId": "cost_center_category:COMPANIES",
+  "TypeId": null,
+  "RecordId": null
+ },
+ {
+  "Key": "elements:92",
+  "Active": true,
+  "ElementsTypeId": "elements_type:8",
+  "Name": {
+   "en": "cost centres",
+   "mk": "места на трошоци"
+  },
+  "Table": "tbl_cost_center",
+  "CategoryId": "cost_center_category:COMPANIES",
+  "TypeId": null,
+  "RecordId": null
+ },
+ {
+  "Key": "elements:93",
+  "Active": true,
+  "ElementsTypeId": "elements_type:8",
+  "Name": {
+   "en": "cost centres",
+   "mk": "места на трошоци"
+  },
+  "Table": "tbl_cost_center",
+  "CategoryId": "cost_center_category:COMPANIES",
+  "TypeId": null,
+  "RecordId": null
+ },
+ {
+  "Key": "elements:94",
+  "Active": true,
+  "ElementsTypeId": "elements_type:8",
+  "Name": {
+   "en": "cost centres",
+   "mk": "места на трошоци"
+  },
+  "Table": "tbl_cost_center",
+  "CategoryId": "cost_center_category:COMPANIES",
+  "TypeId": null,
+  "RecordId": null
+ },
+ {
+  "Key": "elements:95",
+  "Active": true,
+  "ElementsTypeId": "elements_type:8",
+  "Name": {
+   "en": "cost centres",
+   "mk": "места на трошоци"
+  },
+  "Table": "tbl_cost_center",
+  "CategoryId": "cost_center_category:COMPANIES",
+  "TypeId": null,
+  "RecordId": null
+ },
+ {
+  "Key": "elements:96",
+  "Active": true,
+  "ElementsTypeId": "elements_type:8",
+  "Name": {
+   "en": "cost centres",
+   "mk": "места на трошоци"
+  },
+  "Table": "tbl_cost_center",
+  "CategoryId": "cost_center_category:COMPANIES",
+  "TypeId": null,
+  "RecordId": null
+ },
+ {
+  "Key": "elements:97",
+  "Active": true,
+  "ElementsTypeId": "elements_type:8",
+  "Name": {
+   "en": "cost centres",
+   "mk": "места на трошоци"
+  },
+  "Table": "tbl_cost_center",
+  "CategoryId": "cost_center_category:COMPANIES",
+  "TypeId": null,
+  "RecordId": null
+ },
+ {
+  "Key": "elements:98",
+  "Active": true,
+  "ElementsTypeId": "elements_type:8",
+  "Name": {
+   "en": "cost centres",
+   "mk": "места на трошоци"
+  },
+  "Table": "tbl_cost_center",
+  "CategoryId": "cost_center_category:COMPANIES",
+  "TypeId": null,
+  "RecordId": null
+ },
+ {
+  "Key": "elements:99",
+  "Active": true,
+  "ElementsTypeId": "elements_type:8",
+  "Name": {
+   "en": "cost centres",
+   "mk": "места на трошоци"
+  },
+  "Table": "tbl_cost_center",
+  "CategoryId": "cost_center_category:COMPANIES",
+  "TypeId": null,
+  "RecordId": null
+ },
+ {
+  "Key": "elements:100",
+  "Active": true,
+  "ElementsTypeId": "elements_type:8",
+  "Name": {
+   "en": "cost centres",
+   "mk": "места на трошоци"
+  },
+  "Table": "tbl_cost_center",
+  "CategoryId": "cost_center_category:COMPANIES",
+  "TypeId": null,
+  "RecordId": null
+ },
+ {
+  "Key": "elements:101",
+  "Active": true,
+  "ElementsTypeId": "elements_type:8",
+  "Name": {
+   "en": "cost centres",
+   "mk": "места на трошоци"
+  },
+  "Table": "tbl_cost_center",
+  "CategoryId": "cost_center_category:COMPANIES",
+  "TypeId": null,
+  "RecordId": null
+ },
+ {
+  "Key": "elements:102",
+  "Active": true,
+  "ElementsTypeId": "elements_type:8",
+  "Name": {
+   "en": "cost centres",
+   "mk": "места на трошоци"
+  },
+  "Table": "tbl_cost_center",
+  "CategoryId": "cost_center_category:COMPANIES",
+  "TypeId": null,
+  "RecordId": null
+ },
+ {
+  "Key": "elements:103",
+  "Active": true,
+  "ElementsTypeId": "elements_type:8",
+  "Name": {
+   "en": "cost centres",
+   "mk": "места на трошоци"
+  },
+  "Table": "tbl_cost_center",
+  "CategoryId": "cost_center_category:COMPANIES",
+  "TypeId": null,
+  "RecordId": null
+ },
+ {
+  "Key": "elements:104",
+  "Active": true,
+  "ElementsTypeId": "elements_type:8",
+  "Name": {
+   "en": "cost centres",
+   "mk": "места на трошоци"
+  },
+  "Table": "tbl_cost_center",
+  "CategoryId": "cost_center_category:COMPANIES",
+  "TypeId": null,
+  "RecordId": null
+ },
+ {
+  "Key": "elements:105",
+  "Active": true,
+  "ElementsTypeId": "elements_type:8",
+  "Name": {
+   "en": "cost centres",
+   "mk": "места на трошоци"
+  },
+  "Table": "tbl_cost_center",
+  "CategoryId": "cost_center_category:COMPANIES",
+  "TypeId": null,
+  "RecordId": null
+ },
+ {
+  "Key": "elements:106",
+  "Active": true,
+  "ElementsTypeId": "elements_type:8",
+  "Name": {
+   "en": "cost centres",
+   "mk": "места на трошоци"
+  },
+  "Table": "tbl_cost_center",
+  "CategoryId": "cost_center_category:COMPANIES",
+  "TypeId": null,
+  "RecordId": null
+ },
+ {
+  "Key": "elements:107",
+  "Active": true,
+  "ElementsTypeId": "elements_type:8",
+  "Name": {
+   "en": "cost centres",
+   "mk": "места на трошоци"
+  },
+  "Table": "tbl_cost_center",
+  "CategoryId": "cost_center_category:COMPANIES",
+  "TypeId": "cost_center_type:CASH_DESK",
+  "RecordId": null
+ },
+ {
+  "Key": "elements:108",
+  "Active": true,
+  "ElementsTypeId": "elements_type:8",
+  "Name": {
+   "en": "Accounts",
+   "mk": "Сметки"
+  },
+  "Table": "tbl_chart",
+  "CategoryId": "chart_category:STATUTORY",
+  "TypeId": null,
+  "RecordId": null
+ },
+ {
+  "Key": "elements:109",
+  "Active": true,
+  "ElementsTypeId": "elements_type:8",
+  "Name": {
+   "en": "Accounts",
+   "mk": "Сметки"
+  },
+  "Table": "tbl_chart",
+  "CategoryId": "chart_category:STATUTORY",
+  "TypeId": null,
+  "RecordId": null
+ },
+ {
+  "Key": "elements:110",
+  "Active": true,
+  "ElementsTypeId": "elements_type:8",
+  "Name": {
+   "en": "Accounts",
+   "mk": "Сметки"
+  },
+  "Table": "tbl_chart",
+  "CategoryId": "chart_category:STATUTORY",
+  "TypeId": null,
+  "RecordId": null
+ },
+ {
+  "Key": "elements:111",
+  "Active": true,
+  "ElementsTypeId": "elements_type:8",
+  "Name": {
+   "en": "Accounts",
+   "mk": "Сметки"
+  },
+  "Table": "tbl_chart",
+  "CategoryId": "chart_category:STATUTORY",
+  "TypeId": null,
+  "RecordId": null
+ },
+ {
+  "Key": "elements:112",
+  "Active": true,
+  "ElementsTypeId": "elements_type:8",
+  "Name": {
+   "en": "Accounts",
+   "mk": "Сметки"
+  },
+  "Table": "tbl_chart",
+  "CategoryId": "chart_category:STATUTORY",
+  "TypeId": null,
+  "RecordId": null
+ },
+ {
+  "Key": "elements:113",
+  "Active": true,
+  "ElementsTypeId": "elements_type:8",
+  "Name": {
+   "en": "Accounts",
+   "mk": "Сметки"
+  },
+  "Table": "tbl_chart",
+  "CategoryId": "chart_category:STATUTORY",
+  "TypeId": null,
+  "RecordId": null
+ },
+ {
+  "Key": "elements:114",
+  "Active": true,
+  "ElementsTypeId": "elements_type:8",
+  "Name": {
+   "en": "Client / supplier / third party",
+   "mk": "Купувач / добавувач / трето лице"
+  },
+  "Table": "tbl_partner",
+  "CategoryId": "partner_category:CLIENTS",
+  "TypeId": null,
+  "RecordId": null
+ },
+ {
+  "Key": "elements:115",
+  "Active": true,
+  "ElementsTypeId": "elements_type:8",
+  "Name": {
+   "en": "Client / supplier / third party",
+   "mk": "Купувач / добавувач / трето лице"
+  },
+  "Table": "tbl_partner",
+  "CategoryId": "partner_category:SUPPLIERS",
+  "TypeId": null,
+  "RecordId": null
+ },
+ {
+  "Key": "elements:116",
+  "Active": true,
+  "ElementsTypeId": "elements_type:8",
+  "Name": {
+   "en": "Client / supplier / third party",
+   "mk": "Купувач / добавувач / трето лице"
+  },
+  "Table": "tbl_partner",
+  "CategoryId": "partner_category:CLIENTS",
+  "TypeId": null,
+  "RecordId": null
+ },
+ {
+  "Key": "elements:117",
+  "Active": true,
+  "ElementsTypeId": "elements_type:8",
+  "Name": {
+   "en": "Staff",
+   "mk": "Персонал"
+  },
+  "Table": "tbl_employee",
+  "CategoryId": "employee_category:STAFF",
+  "TypeId": null,
+  "RecordId": null
+ },
+ {
+  "Key": "elements:118",
+  "Active": true,
+  "ElementsTypeId": "elements_type:8",
+  "Name": {
+   "en": "Client / supplier / third party",
+   "mk": "Купувач / добавувач / трето лице"
+  },
+  "Table": "tbl_partner",
+  "CategoryId": "partner_category:SUPPLIERS",
+  "TypeId": null,
+  "RecordId": null
+ },
+ {
+  "Key": "elements:119",
+  "Active": true,
+  "ElementsTypeId": "elements_type:8",
+  "Name": {
+   "en": "Client / supplier / third party",
+   "mk": "Купувач / добавувач / трето лице"
+  },
+  "Table": "tbl_partner",
+  "CategoryId": "partner_category:CLIENTS",
+  "TypeId": null,
+  "RecordId": null
+ },
+ {
+  "Key": "elements:120",
+  "Active": true,
+  "ElementsTypeId": "elements_type:8",
+  "Name": {
+   "en": "Staff",
+   "mk": "Персонал"
+  },
+  "Table": "tbl_employee",
+  "CategoryId": "employee_category:STAFF",
+  "TypeId": null,
+  "RecordId": null
+ },
+ {
+  "Key": "elements:121",
+  "Active": true,
+  "ElementsTypeId": "elements_type:7",
+  "Name": {
+   "en": "cost centres",
+   "mk": "места на трошоци"
+  },
+  "Table": "tbl_cost_center",
+  "CategoryId": "cost_center_category:COMPANIES",
+  "TypeId": "cost_center_type:COMPANY",
+  "RecordId": null
+ },
+ {
+  "Key": "elements:122",
+  "Active": true,
+  "ElementsTypeId": "elements_type:7",
+  "Name": {
+   "en": "cost centres",
+   "mk": "места на трошоци"
+  },
+  "Table": "tbl_cost_center",
+  "CategoryId": "cost_center_category:COMPANIES",
+  "TypeId": null,
+  "RecordId": null
+ },
+ {
+  "Key": "elements:123",
+  "Active": true,
+  "ElementsTypeId": "elements_type:7",
+  "Name": {
+   "en": "Staff",
+   "mk": "Персонал"
+  },
+  "Table": "tbl_employee",
+  "CategoryId": null,
+  "TypeId": null,
+  "RecordId": null
+ },
+ {
+  "Key": "elements:124",
+  "Active": true,
+  "ElementsTypeId": "elements_type:7",
+  "Name": {
+   "en": "Client / supplier / third party",
+   "mk": "Купувач / добавувач / трето лице"
+  },
+  "Table": "tbl_partner",
+  "CategoryId": "partner_category:CLIENTS",
+  "TypeId": null,
+  "RecordId": null
+ },
+ {
+  "Key": "elements:125",
+  "Active": true,
+  "ElementsTypeId": "elements_type:7",
+  "Name": {
+   "en": "Client / supplier / third party",
+   "mk": "Купувач / добавувач / трето лице"
+  },
+  "Table": "tbl_partner",
+  "CategoryId": "partner_category:SUPPLIERS",
+  "TypeId": null,
+  "RecordId": null
+ },
+ {
+  "Key": "elements:126",
+  "Active": true,
+  "ElementsTypeId": "elements_type:7",
+  "Name": {
+   "en": "Client / supplier / third party",
+   "mk": "Купувач / добавувач / трето лице"
+  },
+  "Table": "tbl_partner",
+  "CategoryId": "partner_category:CLIENTS",
+  "TypeId": null,
+  "RecordId": null
+ },
+ {
+  "Key": "elements:127",
+  "Active": true,
+  "ElementsTypeId": "elements_type:7",
+  "Name": {
+   "en": "cost centres",
+   "mk": "места на трошоци"
+  },
+  "Table": "tbl_cost_center",
+  "CategoryId": "cost_center_category:COMPANIES",
+  "TypeId": null,
+  "RecordId": null
+ },
+ {
+  "Key": "elements:128",
+  "Active": true,
+  "ElementsTypeId": "elements_type:5",
+  "Name": {
+   "en": "Products / services",
+   "mk": "Производи / услуги"
+  },
+  "Table": "tbl_product",
+  "CategoryId": "product_category:ASSET",
+  "TypeId": null,
+  "RecordId": null
+ },
+ {
+  "Key": "elements:129",
+  "Active": true,
+  "ElementsTypeId": "elements_type:7",
+  "Name": {
+   "en": "Staff",
+   "mk": "Персонал"
+  },
+  "Table": "tbl_employee",
+  "CategoryId": null,
+  "TypeId": null,
+  "RecordId": null
+ },
+ {
+  "Key": "elements:130",
+  "Active": true,
+  "ElementsTypeId": "elements_type:7",
+  "Name": {
+   "en": "cost centres",
+   "mk": "места на трошоци"
+  },
+  "Table": "tbl_cost_center",
+  "CategoryId": "cost_center_category:COMPANIES",
+  "TypeId": null,
+  "RecordId": null
+ },
+ {
+  "Key": "elements:131",
+  "Active": true,
+  "ElementsTypeId": "elements_type:7",
+  "Name": {
+   "en": "Client / supplier / third party",
+   "mk": "Купувач / добавувач / трето лице"
+  },
+  "Table": "tbl_partner",
+  "CategoryId": "partner_category:CLIENTS",
+  "TypeId": null,
+  "RecordId": null
+ },
+ {
+  "Key": "elements:132",
+  "Active": true,
+  "ElementsTypeId": "elements_type:7",
+  "Name": {
+   "en": "cost centres",
+   "mk": "места на трошоци"
+  },
+  "Table": "tbl_cost_center",
+  "CategoryId": "cost_center_category:COMPANIES",
+  "TypeId": null,
+  "RecordId": null
+ },
+ {
+  "Key": "elements:133",
+  "Active": true,
+  "ElementsTypeId": "elements_type:7",
+  "Name": {
+   "en": "Client / supplier / third party",
+   "mk": "Купувач / добавувач / трето лице"
+  },
+  "Table": "tbl_partner",
+  "CategoryId": "partner_category:CLIENTS",
+  "TypeId": null,
+  "RecordId": null
+ },
+ {
+  "Key": "elements:134",
+  "Active": true,
+  "ElementsTypeId": "elements_type:7",
+  "Name": {
+   "en": "cost centres",
+   "mk": "места на трошоци"
+  },
+  "Table": "tbl_cost_center",
+  "CategoryId": "cost_center_category:COMPANIES",
+  "TypeId": null,
+  "RecordId": null
+ },
+ {
+  "Key": "elements:135",
+  "Active": true,
+  "ElementsTypeId": "elements_type:2",
+  "Name": {
+   "en": "Staff",
+   "mk": "Персонал"
+  },
+  "Table": "tbl_employee",
+  "CategoryId": "employee_category:STAFF",
+  "TypeId": null,
+  "RecordId": null
+ },
+ {
+  "Key": "elements:136",
+  "Active": true,
+  "ElementsTypeId": "elements_type:7",
+  "Name": {
+   "en": "cost centres",
+   "mk": "места на трошоци"
+  },
+  "Table": "tbl_cost_center",
+  "CategoryId": null,
+  "TypeId": null,
+  "RecordId": null
+ },
+ {
+  "Key": "elements:137",
+  "Active": true,
+  "ElementsTypeId": "elements_type:7",
+  "Name": {
+   "en": "cost centres",
+   "mk": "места на трошоци"
+  },
+  "Table": "tbl_cost_center",
+  "CategoryId": "cost_center_category:COMPANIES",
+  "TypeId": "cost_center_type:POINT_OF_SALE",
+  "RecordId": null
+ },
+ {
+  "Key": "elements:138",
+  "Active": true,
+  "ElementsTypeId": "elements_type:7",
+  "Name": {
+   "en": "Client / supplier / third party",
+   "mk": "Купувач / добавувач / трето лице"
+  },
+  "Table": "tbl_partner",
+  "CategoryId": "partner_category:CLIENTS",
+  "TypeId": null,
+  "RecordId": null
+ },
+ {
+  "Key": "elements:139",
+  "Active": true,
+  "ElementsTypeId": "elements_type:7",
+  "Name": {
+   "en": "Staff",
+   "mk": "Персонал"
+  },
+  "Table": "tbl_employee",
+  "CategoryId": "employee_category:STAFF",
+  "TypeId": "employee_type:WORKER",
+  "RecordId": null
+ },
+ {
+  "Key": "elements:140",
+  "Active": true,
+  "ElementsTypeId": "elements_type:7",
+  "Name": {
+   "en": "Staff",
+   "mk": "Персонал"
+  },
+  "Table": "tbl_employee",
+  "CategoryId": "employee_category:STAFF",
+  "TypeId": "employee_type:WORKER",
+  "RecordId": null
+ },
+ {
+  "Key": "elements:141",
+  "Active": true,
+  "ElementsTypeId": "elements_type:7",
+  "Name": {
+   "en": "Staff",
+   "mk": "Персонал"
+  },
+  "Table": "tbl_employee",
+  "CategoryId": "employee_category:STAFF",
+  "TypeId": "employee_type:WORKER",
+  "RecordId": null
+ },
+ {
+  "Key": "elements:142",
+  "Active": true,
+  "ElementsTypeId": "elements_type:5",
+  "Name": {
+   "en": "cost centres",
+   "mk": "места на трошоци"
+  },
+  "Table": "tbl_cost_center",
+  "CategoryId": "cost_center_category:COMPANIES",
+  "TypeId": "cost_center_type:BANK",
+  "RecordId": null
+ },
+ {
+  "Key": "elements:143",
+  "Active": true,
+  "ElementsTypeId": "elements_type:7",
+  "Name": {
+   "en": "cost centres",
+   "mk": "места на трошоци"
+  },
+  "Table": "tbl_cost_center",
+  "CategoryId": "cost_center_category:COMPANIES",
+  "TypeId": null,
+  "RecordId": null
+ },
+ {
+  "Key": "elements:144",
+  "Active": true,
+  "ElementsTypeId": "elements_type:7",
+  "Name": {
+   "en": "cost centres",
+   "mk": "места на трошоци"
+  },
+  "Table": "tbl_cost_center",
+  "CategoryId": "cost_center_category:COMPANIES",
+  "TypeId": null,
+  "RecordId": null
+ },
+ {
+  "Key": "elements:145",
+  "Active": true,
+  "ElementsTypeId": "elements_type:7",
+  "Name": {
+   "en": "Staff",
+   "mk": "Персонал"
+  },
+  "Table": "tbl_employee",
+  "CategoryId": "employee_category:STAFF",
+  "TypeId": "employee_type:WORKER",
+  "RecordId": null
+ },
+ {
+  "Key": "elements:146",
+  "Active": true,
+  "ElementsTypeId": "elements_type:7",
+  "Name": {
+   "en": "Client / supplier / third party",
+   "mk": "Купувач / добавувач / трето лице"
+  },
+  "Table": "tbl_partner",
+  "CategoryId": "partner_category:SUPPLIERS",
+  "TypeId": null,
+  "RecordId": null
+ },
+ {
+  "Key": "elements:147",
+  "Active": true,
+  "ElementsTypeId": "elements_type:2",
+  "Name": {
+   "en": "Staff",
+   "mk": "Персонал"
+  },
+  "Table": "tbl_employee",
+  "CategoryId": "employee_category:STAFF",
+  "TypeId": "employee_type:WORKER",
+  "RecordId": null
+ },
+ {
+  "Key": "elements:148",
+  "Active": true,
+  "ElementsTypeId": "elements_type:7",
+  "Name": {
+   "en": "cost centres",
+   "mk": "места на трошоци"
+  },
+  "Table": "tbl_cost_center",
+  "CategoryId": "cost_center_category:COMPANIES",
+  "TypeId": null,
+  "RecordId": null
+ },
+ {
+  "Key": "elements:149",
+  "Active": true,
+  "ElementsTypeId": "elements_type:7",
+  "Name": {
+   "en": "cost centres",
+   "mk": "места на трошоци"
+  },
+  "Table": "tbl_cost_center",
+  "CategoryId": "cost_center_category:COMPANIES",
+  "TypeId": null,
+  "RecordId": null
+ },
+ {
+  "Key": "elements:150",
+  "Active": true,
+  "ElementsTypeId": "elements_type:2",
+  "Name": {
+   "en": "Financial documents",
+   "mk": "Сметководствени документи"
+  },
+  "Table": "tbl_document",
+  "CategoryId": "document_category:PURCHASES",
+  "TypeId": "document_type:PURCHASE_INVOICE_SERVICES",
+  "RecordId": null
+ },
+ {
+  "Key": "elements:151",
+  "Active": true,
+  "ElementsTypeId": "elements_type:5",
+  "Name": {
+   "en": "Products / services",
+   "mk": "Производи / услуги"
+  },
+  "Table": "tbl_product",
+  "CategoryId": "product_category:PRODUCT",
+  "TypeId": null,
+  "RecordId": null
+ },
+ {
+  "Key": "elements:152",
+  "Active": true,
+  "ElementsTypeId": "elements_type:5",
+  "Name": {
+   "en": "Products / services",
+   "mk": "Производи / услуги"
+  },
+  "Table": "tbl_product",
+  "CategoryId": "product_category:PRODUCT",
+  "TypeId": null,
+  "RecordId": null
+ },
+ {
+  "Key": "elements:153",
+  "Active": true,
+  "ElementsTypeId": "elements_type:5",
+  "Name": {
+   "en": "Products / services",
+   "mk": "Производи / услуги"
+  },
+  "Table": "tbl_product",
+  "CategoryId": "product_category:PRODUCT",
+  "TypeId": null,
+  "RecordId": null
+ },
+ {
+  "Key": "elements:154",
+  "Active": true,
+  "ElementsTypeId": "elements_type:7",
+  "Name": {
+   "en": "Client / supplier / third party",
+   "mk": "Купувач / добавувач / трето лице"
+  },
+  "Table": "tbl_partner",
+  "CategoryId": "partner_category:SUPPLIERS",
+  "TypeId": null,
+  "RecordId": null
+ },
+ {
+  "Key": "elements:155",
+  "Active": true,
+  "ElementsTypeId": "elements_type:7",
+  "Name": {
+   "en": "cost centres",
+   "mk": "места на трошоци"
+  },
+  "Table": "tbl_cost_center",
+  "CategoryId": "cost_center_category:COMPANIES",
+  "TypeId": null,
+  "RecordId": null
+ },
+ {
+  "Key": "elements:156",
+  "Active": true,
+  "ElementsTypeId": "elements_type:5",
+  "Name": {
+   "en": "Products / services",
+   "mk": "Производи / услуги"
+  },
+  "Table": "tbl_product",
+  "CategoryId": "product_category:ASSET",
+  "TypeId": null,
+  "RecordId": null
+ },
+ {
+  "Key": "elements:157",
+  "Active": true,
+  "ElementsTypeId": "elements_type:5",
+  "Name": {
+   "en": "Products / services",
+   "mk": "Производи / услуги"
+  },
+  "Table": "tbl_product",
+  "CategoryId": "product_category:ASSET",
+  "TypeId": null,
+  "RecordId": null
+ },
+ {
+  "Key": "elements:158",
+  "Active": true,
+  "ElementsTypeId": "elements_type:5",
+  "Name": {
+   "en": "Products / services",
+   "mk": "Производи / услуги"
+  },
+  "Table": "tbl_product",
+  "CategoryId": "product_category:ASSET",
+  "TypeId": null,
+  "RecordId": null
+ },
+ {
+  "Key": "elements:159",
+  "Active": true,
+  "ElementsTypeId": "elements_type:5",
+  "Name": {
+   "en": "Products / services",
+   "mk": "Производи / услуги"
+  },
+  "Table": "tbl_product",
+  "CategoryId": "product_category:ASSET",
+  "TypeId": null,
+  "RecordId": null
+ },
+ {
+  "Key": "elements:160",
+  "Active": true,
+  "ElementsTypeId": "elements_type:2",
+  "Name": {
+   "en": "Financial documents",
+   "mk": "Сметководствени документи"
+  },
+  "Table": "tbl_document",
+  "CategoryId": "document_category:PURCHASES",
+  "TypeId": "document_type:PURCHASE_INVOICE_GOODS",
+  "RecordId": null
+ },
+ {
+  "Key": "elements:161",
+  "Active": true,
+  "ElementsTypeId": "elements_type:7",
+  "Name": {
+   "en": "Client / supplier / third party",
+   "mk": "Купувач / добавувач / трето лице"
+  },
+  "Table": "tbl_partner",
+  "CategoryId": "partner_category:SUPPLIERS",
+  "TypeId": null,
+  "RecordId": null
+ },
+ {
+  "Key": "elements:162",
+  "Active": true,
+  "ElementsTypeId": "elements_type:7",
+  "Name": {
+   "en": "cost centres",
+   "mk": "места на трошоци"
+  },
+  "Table": "tbl_cost_center",
+  "CategoryId": "cost_center_category:COMPANIES",
+  "TypeId": null,
+  "RecordId": null
+ },
+ {
+  "Key": "elements:163",
+  "Active": true,
+  "ElementsTypeId": "elements_type:7",
+  "Name": {
+   "en": "Client / supplier / third party",
+   "mk": "Купувач / добавувач / трето лице"
+  },
+  "Table": "tbl_partner",
+  "CategoryId": "partner_category:CLIENTS",
+  "TypeId": null,
+  "RecordId": null
+ },
+ {
+  "Key": "elements:164",
+  "Active": true,
+  "ElementsTypeId": "elements_type:7",
+  "Name": {
+   "en": "Client / supplier / third party",
+   "mk": "Купувач / добавувач / трето лице"
+  },
+  "Table": "tbl_partner",
+  "CategoryId": "partner_category:CLIENTS",
+  "TypeId": null,
+  "RecordId": null
+ },
+ {
+  "Key": "elements:165",
+  "Active": true,
+  "ElementsTypeId": "elements_type:7",
+  "Name": {
+   "en": "Client / supplier / third party",
+   "mk": "Купувач / добавувач / трето лице"
+  },
+  "Table": "tbl_partner",
+  "CategoryId": "partner_category:CLIENTS",
+  "TypeId": null,
+  "RecordId": null
+ },
+ {
+  "Key": "elements:166",
+  "Active": true,
+  "ElementsTypeId": "elements_type:7",
+  "Name": {
+   "en": "cost centres",
+   "mk": "места на трошоци"
+  },
+  "Table": "tbl_cost_center",
+  "CategoryId": "cost_center_category:COMPANIES",
+  "TypeId": "cost_center_type:POINT_OF_SALE",
+  "RecordId": null
+ },
+ {
+  "Key": "elements:167",
+  "Active": true,
+  "ElementsTypeId": "elements_type:7",
+  "Name": {
+   "en": "Staff",
+   "mk": "Персонал"
+  },
+  "Table": "tbl_employee",
+  "CategoryId": "employee_category:STAFF",
+  "TypeId": "employee_type:WORKER",
+  "RecordId": null
+ },
+ {
+  "Key": "elements:168",
+  "Active": true,
+  "ElementsTypeId": "elements_type:7",
+  "Name": {
+   "en": "cost centres",
+   "mk": "места на трошоци"
+  },
+  "Table": "tbl_cost_center",
+  "CategoryId": "cost_center_category:COMPANIES",
+  "TypeId": null,
+  "RecordId": null
+ },
+ {
+  "Key": "elements:169",
+  "Active": true,
+  "ElementsTypeId": "elements_type:7",
+  "Name": {
+   "en": "Client / supplier / third party",
+   "mk": "Купувач / добавувач / трето лице"
+  },
+  "Table": "tbl_partner",
+  "CategoryId": "partner_category:SUPPLIERS",
+  "TypeId": null,
+  "RecordId": null
+ },
+ {
+  "Key": "elements:170",
+  "Active": true,
+  "ElementsTypeId": "elements_type:7",
+  "Name": {
+   "en": "Staff",
+   "mk": "Персонал"
+  },
+  "Table": "tbl_employee",
+  "CategoryId": "employee_category:STAFF",
+  "TypeId": "employee_type:WORKER",
+  "RecordId": null
+ },
+ {
+  "Key": "elements:171",
+  "Active": true,
+  "ElementsTypeId": "elements_type:7",
+  "Name": {
+   "en": "Staff",
+   "mk": "Персонал"
+  },
+  "Table": "tbl_employee",
+  "CategoryId": "employee_category:STAFF",
+  "TypeId": "employee_type:WORKER",
+  "RecordId": null
+ },
+ {
+  "Key": "elements:172",
+  "Active": true,
+  "ElementsTypeId": "elements_type:7",
+  "Name": {
+   "en": "Staff",
+   "mk": "Персонал"
+  },
+  "Table": "tbl_employee",
+  "CategoryId": "employee_category:STAFF",
+  "TypeId": "employee_type:WORKER",
+  "RecordId": null
+ },
+ {
+  "Key": "elements:173",
+  "Active": true,
+  "ElementsTypeId": "elements_type:7",
+  "Name": {
+   "en": "Client / supplier / third party",
+   "mk": "Купувач / добавувач / трето лице"
+  },
+  "Table": "tbl_partner",
+  "CategoryId": "partner_category:CLIENTS",
+  "TypeId": null,
+  "RecordId": null
+ },
+ {
+  "Key": "elements:174",
+  "Active": true,
+  "ElementsTypeId": "elements_type:11",
+  "Name": {
+   "en": "Transaction value",
+   "mk": "Вредност на ставката"
+  },
+  "Table": "tbl_transaction",
+  "Record": "value_lcu",
+  "Code": 1
+ },
+ {
+  "Key": "elements:175",
+  "Active": true,
+  "ElementsTypeId": "elements_type:11",
+  "Name": {
+   "en": "Transaction discount",
+   "mk": "Попуст на ставката"
+  },
+  "Table": "tbl_transaction",
+  "Record": "discount_lcu",
+  "Code": 2
+ },
+ {
+  "Key": "elements:176",
+  "Active": true,
+  "ElementsTypeId": "elements_type:11",
+  "Name": {
+   "en": "Transaction VAT",
+   "mk": "ДДВ на ставката"
+  },
+  "Table": "tbl_transaction",
+  "Record": "vat_lcu",
+  "Code": 3
+ },
+ {
+  "Key": "elements:177",
+  "Active": true,
+  "ElementsTypeId": "elements_type:11",
+  "Name": {
+   "en": "Asset's remaining value",
+   "mk": "Сегашна вредност на средството"
+  },
+  "Table": null,
+  "Record": null,
+  "Code": 4
+ },
+ {
+  "Key": "elements:178",
+  "Active": true,
+  "ElementsTypeId": "elements_type:11",
+  "Name": {
+   "en": "Transaction debit",
+   "mk": "Должи на ставката"
+  },
+  "Table": "tbl_transaction",
+  "Record": "debit",
+  "Code": 5
+ },
+ {
+  "Key": "elements:179",
+  "Active": true,
+  "ElementsTypeId": "elements_type:11",
+  "Name": {
+   "en": "Transaction credit",
+   "mk": "Побарува на ставката"
+  },
+  "Table": "tbl_transaction",
+  "Record": "credit",
+  "Code": 6
+ },
+ {
+  "Key": "elements:180",
+  "Active": true,
+  "ElementsTypeId": "elements_type:11",
+  "Name": {
+   "en": "Transaction value with VAT",
+   "mk": "Вредност на ставката со ДДВ"
+  },
+  "Table": "tbl_transaction",
+  "Record": "value_vat_lcu",
+  "Code": 7
+ },
+ {
+  "Key": "elements:181",
+  "Active": true,
+  "ElementsTypeId": "elements_type:1",
+  "Name": {
+   "en": "Accounts",
+   "mk": "Сметки"
+  },
+  "Table": "tbl_chart"
+ },
+ {
+  "Key": "elements:chart_class:fixed_assets",
+  "Active": true,
+  "ElementsTypeId": "elements_type:1",
+  "Name": {
+   "mk": "Класа 0 – Нетековни средства"
+  },
+  "Table": "tbl_chart",
+  "TypeId": "chart_type:0"
+ },
+ {
+  "Key": "elements:chart_class:inventories",
+  "Active": true,
+  "ElementsTypeId": "elements_type:1",
+  "Name": {
+   "mk": "Класа 6 – Залихи на производство, готови производи и стоки, биолошки средства и нетековни средства кои се чуваат за продажба и прекинато работење"
+  },
+  "Table": "tbl_chart",
+  "TypeId": "chart_type:6"
+ },
+ {
+  "Key": "elements:chart_class:expenses",
+  "Active": true,
+  "ElementsTypeId": "elements_type:1",
+  "Name": {
+   "mk": "Класа 4 – Трошоци и расходи од работењето"
+  },
+  "Table": "tbl_chart",
+  "TypeId": "chart_type:4"
+ },
+ {
+  "Key": "elements:chart_class:income",
+  "Active": true,
+  "ElementsTypeId": "elements_type:1",
+  "Name": {
+   "mk": "Класа 7 – Покривање на расходи и приходи"
+  },
+  "Table": "tbl_chart",
+  "TypeId": "chart_type:7"
+ },
+ {
+  "Key": "elements:chart_all",
+  "Active": true,
+  "ElementsTypeId": "elements_type:1",
+  "Name": {
+   "en": "All accounts",
+   "mk": "Сите сметки"
+  },
+  "Table": "tbl_chart"
+ },
+ {
+  "Key": "elements:187",
+  "Active": true,
+  "ElementsTypeId": "elements_type:9",
+  "Name": {
+   "en": "Assets",
+   "mk": "Основни средства"
+  },
+  "Table": "tbl_product",
+  "CategoryId": "product_category:ASSET"
+ },
+ {
+  "Key": "elements:188",
+  "Active": true,
+  "ElementsTypeId": "elements_type:9",
+  "Name": {
+   "en": "Land",
+   "mk": "Земјишта"
+  },
+  "Table": "tbl_product",
+  "CategoryId": "product_category:LAND"
+ },
+ {
+  "Key": "elements:189",
+  "Active": true,
+  "ElementsTypeId": "elements_type:9",
+  "Name": {
+   "en": "Buildings",
+   "mk": "Градежни објекти"
+  },
+  "Table": "tbl_product",
+  "CategoryId": "product_category:BUILDINGS"
+ },
+ {
+  "Key": "elements:190",
+  "Active": true,
+  "ElementsTypeId": "elements_type:9",
+  "Name": {
+   "en": "Office equipment",
+   "mk": "Канцелариска опрема"
+  },
+  "Table": "tbl_product",
+  "CategoryId": "product_category:OFFICE"
+ },
+ {
+  "Key": "elements:191",
+  "Active": true,
+  "ElementsTypeId": "elements_type:9",
+  "Name": {
+   "en": "Vehicles",
+   "mk": "Транспортни средства"
+  },
+  "Table": "tbl_product",
+  "CategoryId": "product_category:VEHICLES"
+ },
+ {
+  "Key": "elements:192",
+  "Active": true,
+  "ElementsTypeId": "elements_type:9",
+  "Name": {
+   "en": "Computer equipment",
+   "mk": "Компјутерска опрема"
+  },
+  "Table": "tbl_product",
+  "CategoryId": "product_category:COMPUTERS"
+ },
+ {
+  "Key": "elements:193",
+  "Active": true,
+  "ElementsTypeId": "elements_type:9",
+  "Name": {
+   "en": "Furniture and fittings",
+   "mk": "Мебел и инвентар"
+  },
+  "Table": "tbl_product",
+  "CategoryId": "product_category:FURNITURE"
+ },
+ {
+  "Key": "elements:194",
+  "Active": true,
+  "ElementsTypeId": "elements_type:9",
+  "Name": {
+   "en": "Intangible assets",
+   "mk": "Нематеријални средства"
+  },
+  "Table": "tbl_product",
+  "CategoryId": "product_category:INTANGIBLE"
+ },
+ {
+  "Key": "elements:195",
+  "Active": true,
+  "ElementsTypeId": "elements_type:11",
+  "Name": {
+   "en": "Transaction stock cost"
+  },
+  "Table": "tbl_transaction",
+  "Record": "cost_lcu",
+  "Code": 8
+ },
+ {
+  "Key": "elements:asset_cost",
+  "Active": true,
+  "ElementsTypeId": "elements_type:11",
+  "Name": {
+   "en": "Transaction asset cost",
+   "mk": "Набавна вредност на средството"
+  },
+  "Table": "tbl_transaction",
+  "Record": "asset_cost_lcu",
+  "Code": 9
+ },
+ {
+  "Key": "elements:asset_depreciated",
+  "Active": true,
+  "ElementsTypeId": "elements_type:11",
+  "Name": {
+   "en": "Transaction asset depreciation",
+   "mk": "Амортизација на средството"
+  },
+  "Table": "tbl_transaction",
+  "Record": "asset_depreciated_lcu",
+  "Code": 10
+ },
+ {
+  "Key": "elements:asset_book_value",
+  "Active": true,
+  "ElementsTypeId": "elements_type:11",
+  "Name": {
+   "en": "Transaction asset book value",
+   "mk": "Книговодствена вредност на средството"
+  },
+  "Table": "tbl_transaction",
+  "Record": "asset_book_value_lcu",
+  "Code": 11
+ },
+ {
+  "Key": "elements:register_product",
+  "Active": true,
+  "ElementsTypeId": "elements_type:1",
+  "Name": {
+   "en": "Products and services",
+   "mk": "Производи и услуги"
+  },
+  "Table": "tbl_product",
+  "CategoryId": null,
+  "TypeId": null,
+  "RecordId": null
+ },
+ {
+  "Key": "elements:register_unit",
+  "Active": true,
+  "ElementsTypeId": "elements_type:1",
+  "Name": {
+   "en": "Units of measure",
+   "mk": "Мерни единици"
+  },
+  "Table": "tbl_unit",
+  "CategoryId": null,
+  "TypeId": null,
+  "RecordId": null
+ },
+ {
+  "Key": "elements:register_opportunity",
+  "Active": true,
+  "ElementsTypeId": "elements_type:1",
+  "Name": {
+   "en": "Opportunities",
+   "mk": "Можности"
+  },
+  "Table": "tbl_opportunity",
+  "CategoryId": null,
+  "TypeId": null,
+  "RecordId": null
+ },
+ {
+  "Key": "elements:register_user",
+  "Active": true,
+  "ElementsTypeId": "elements_type:1",
+  "Name": {
+   "en": "Users",
+   "mk": "Корисници"
+  },
+  "Table": "tbl_user",
+  "CategoryId": null,
+  "TypeId": null,
+  "RecordId": null
+ },
+ {
+  "Key": "elements:register_document",
+  "Active": true,
+  "ElementsTypeId": "elements_type:1",
+  "Name": {
+   "en": "Documents",
+   "mk": "Документи"
+  },
+  "Table": "tbl_document",
+  "CategoryId": null,
+  "TypeId": null,
+  "RecordId": null
+ }
+]

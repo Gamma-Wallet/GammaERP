@@ -1,0 +1,492 @@
+[
+ {
+  "Key": "partner_type_info:UNKNOWN_TAX_NUMBER",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "partner_type:UNKNOWN",
+  "Name": {
+   "en": "Tax number",
+   "it": "Partita IVA"
+  },
+  "Description": {
+   "en": "Tax number",
+   "it": "Partita IVA"
+  },
+  "Required": false,
+  "Kind": 1,
+  "SortOrder": 1.0,
+  "ElementsId": null,
+  "IsFile": false,
+  "Code": "TAX_NUMBER"
+ },
+ {
+  "Key": "partner_type_info:UNKNOWN_CITY",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "partner_type:UNKNOWN",
+  "Name": {
+   "en": "City",
+   "it": "Città"
+  },
+  "Description": {
+   "en": "City",
+   "it": "Città"
+  },
+  "Required": false,
+  "Kind": 1,
+  "SortOrder": 2.0,
+  "ElementsId": null,
+  "IsFile": false,
+  "Code": "CITY"
+ },
+ {
+  "Key": "partner_type_info:UNKNOWN_ADDRESS",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "partner_type:UNKNOWN",
+  "Name": {
+   "en": "Address",
+   "it": "Indirizzo"
+  },
+  "Description": {
+   "en": "Address",
+   "it": "Indirizzo"
+  },
+  "Required": false,
+  "Kind": 1,
+  "SortOrder": 3.0,
+  "ElementsId": null,
+  "IsFile": false
+ },
+ {
+  "Key": "partner_type_info:UNKNOWN_PHONE",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "partner_type:UNKNOWN",
+  "Name": {
+   "en": "Phone",
+   "it": "Telefono"
+  },
+  "Description": {
+   "en": "Phone",
+   "it": "Telefono"
+  },
+  "Required": false,
+  "Kind": 1,
+  "SortOrder": 4.0,
+  "ElementsId": null,
+  "IsFile": false,
+  "Code": "PHONE"
+ },
+ {
+  "Key": "partner_type_info:UNKNOWN_EMAIL",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "partner_type:UNKNOWN",
+  "Name": {
+   "en": "E-mail",
+   "it": "E-mail"
+  },
+  "Description": {
+   "en": "E-mail",
+   "it": "E-mail"
+  },
+  "Required": false,
+  "Kind": 1,
+  "SortOrder": 5.0,
+  "ElementsId": null,
+  "IsFile": false
+ },
+ {
+  "Key": "partner_type_info:PERSON_TAX_NUMBER",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "partner_type:PERSON",
+  "Name": {
+   "en": "Tax number",
+   "it": "Partita IVA"
+  },
+  "Description": {
+   "en": "Tax number",
+   "it": "Partita IVA"
+  },
+  "Required": false,
+  "Kind": 1,
+  "SortOrder": 1.0,
+  "ElementsId": null,
+  "IsFile": false,
+  "Code": "TAX_NUMBER"
+ },
+ {
+  "Key": "partner_type_info:PERSON_CITY",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "partner_type:PERSON",
+  "Name": {
+   "en": "City",
+   "it": "Città"
+  },
+  "Description": {
+   "en": "City",
+   "it": "Città"
+  },
+  "Required": false,
+  "Kind": 1,
+  "SortOrder": 2.0,
+  "ElementsId": null,
+  "IsFile": false,
+  "Code": "CITY"
+ },
+ {
+  "Key": "partner_type_info:PERSON_ADDRESS",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "partner_type:PERSON",
+  "Name": {
+   "en": "Address",
+   "it": "Indirizzo"
+  },
+  "Description": {
+   "en": "Address",
+   "it": "Indirizzo"
+  },
+  "Required": false,
+  "Kind": 1,
+  "SortOrder": 3.0,
+  "ElementsId": null,
+  "IsFile": false
+ },
+ {
+  "Key": "partner_type_info:PERSON_PHONE",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "partner_type:PERSON",
+  "Name": {
+   "en": "Phone",
+   "it": "Telefono"
+  },
+  "Description": {
+   "en": "Phone",
+   "it": "Telefono"
+  },
+  "Required": false,
+  "Kind": 1,
+  "SortOrder": 4.0,
+  "ElementsId": null,
+  "IsFile": false,
+  "Code": "PHONE"
+ },
+ {
+  "Key": "partner_type_info:PERSON_EMAIL",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "partner_type:PERSON",
+  "Name": {
+   "en": "E-mail",
+   "it": "E-mail"
+  },
+  "Description": {
+   "en": "E-mail",
+   "it": "E-mail"
+  },
+  "Required": false,
+  "Kind": 1,
+  "SortOrder": 5.0,
+  "ElementsId": null,
+  "IsFile": false
+ },
+ {
+  "Key": "partner_type_info:SME_TAX_NUMBER",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "partner_type:SME",
+  "Name": {
+   "en": "Tax number",
+   "it": "Partita IVA"
+  },
+  "Description": {
+   "en": "Tax number",
+   "it": "Partita IVA"
+  },
+  "Required": false,
+  "Kind": 1,
+  "SortOrder": 1.0,
+  "ElementsId": null,
+  "IsFile": false,
+  "Code": "TAX_NUMBER"
+ },
+ {
+  "Key": "partner_type_info:SME_CITY",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "partner_type:SME",
+  "Name": {
+   "en": "City",
+   "it": "Città"
+  },
+  "Description": {
+   "en": "City",
+   "it": "Città"
+  },
+  "Required": false,
+  "Kind": 1,
+  "SortOrder": 2.0,
+  "ElementsId": null,
+  "IsFile": false,
+  "Code": "CITY"
+ },
+ {
+  "Key": "partner_type_info:SME_ADDRESS",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "partner_type:SME",
+  "Name": {
+   "en": "Address",
+   "it": "Indirizzo"
+  },
+  "Description": {
+   "en": "Address",
+   "it": "Indirizzo"
+  },
+  "Required": false,
+  "Kind": 1,
+  "SortOrder": 3.0,
+  "ElementsId": null,
+  "IsFile": false
+ },
+ {
+  "Key": "partner_type_info:SME_PHONE",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "partner_type:SME",
+  "Name": {
+   "en": "Phone",
+   "it": "Telefono"
+  },
+  "Description": {
+   "en": "Phone",
+   "it": "Telefono"
+  },
+  "Required": false,
+  "Kind": 1,
+  "SortOrder": 4.0,
+  "ElementsId": null,
+  "IsFile": false,
+  "Code": "PHONE"
+ },
+ {
+  "Key": "partner_type_info:SME_EMAIL",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "partner_type:SME",
+  "Name": {
+   "en": "E-mail",
+   "it": "E-mail"
+  },
+  "Description": {
+   "en": "E-mail",
+   "it": "E-mail"
+  },
+  "Required": false,
+  "Kind": 1,
+  "SortOrder": 5.0,
+  "ElementsId": null,
+  "IsFile": false
+ },
+ {
+  "Key": "partner_type_info:LTD_TAX_NUMBER",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "partner_type:LTD",
+  "Name": {
+   "en": "Tax number",
+   "it": "Partita IVA"
+  },
+  "Description": {
+   "en": "Tax number",
+   "it": "Partita IVA"
+  },
+  "Required": false,
+  "Kind": 1,
+  "SortOrder": 1.0,
+  "ElementsId": null,
+  "IsFile": false,
+  "Code": "TAX_NUMBER"
+ },
+ {
+  "Key": "partner_type_info:LTD_CITY",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "partner_type:LTD",
+  "Name": {
+   "en": "City",
+   "it": "Città"
+  },
+  "Description": {
+   "en": "City",
+   "it": "Città"
+  },
+  "Required": false,
+  "Kind": 1,
+  "SortOrder": 2.0,
+  "ElementsId": null,
+  "IsFile": false,
+  "Code": "CITY"
+ },
+ {
+  "Key": "partner_type_info:LTD_ADDRESS",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "partner_type:LTD",
+  "Name": {
+   "en": "Address",
+   "it": "Indirizzo"
+  },
+  "Description": {
+   "en": "Address",
+   "it": "Indirizzo"
+  },
+  "Required": false,
+  "Kind": 1,
+  "SortOrder": 3.0,
+  "ElementsId": null,
+  "IsFile": false
+ },
+ {
+  "Key": "partner_type_info:LTD_PHONE",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "partner_type:LTD",
+  "Name": {
+   "en": "Phone",
+   "it": "Telefono"
+  },
+  "Description": {
+   "en": "Phone",
+   "it": "Telefono"
+  },
+  "Required": false,
+  "Kind": 1,
+  "SortOrder": 4.0,
+  "ElementsId": null,
+  "IsFile": false,
+  "Code": "PHONE"
+ },
+ {
+  "Key": "partner_type_info:LTD_EMAIL",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "partner_type:LTD",
+  "Name": {
+   "en": "E-mail",
+   "it": "E-mail"
+  },
+  "Description": {
+   "en": "E-mail",
+   "it": "E-mail"
+  },
+  "Required": false,
+  "Kind": 1,
+  "SortOrder": 5.0,
+  "ElementsId": null,
+  "IsFile": false
+ },
+ {
+  "Key": "partner_type_info:GROUP_COMPANY_TAX_NUMBER",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "partner_type:GROUP_COMPANY",
+  "Name": {
+   "en": "Tax number",
+   "it": "Partita IVA"
+  },
+  "Description": {
+   "en": "Tax number",
+   "it": "Partita IVA"
+  },
+  "Required": false,
+  "Kind": 1,
+  "SortOrder": 1.0,
+  "ElementsId": null,
+  "IsFile": false,
+  "Code": "TAX_NUMBER"
+ },
+ {
+  "Key": "partner_type_info:GROUP_COMPANY_CITY",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "partner_type:GROUP_COMPANY",
+  "Name": {
+   "en": "City",
+   "it": "Città"
+  },
+  "Description": {
+   "en": "City",
+   "it": "Città"
+  },
+  "Required": false,
+  "Kind": 1,
+  "SortOrder": 2.0,
+  "ElementsId": null,
+  "IsFile": false,
+  "Code": "CITY"
+ },
+ {
+  "Key": "partner_type_info:GROUP_COMPANY_ADDRESS",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "partner_type:GROUP_COMPANY",
+  "Name": {
+   "en": "Address",
+   "it": "Indirizzo"
+  },
+  "Description": {
+   "en": "Address",
+   "it": "Indirizzo"
+  },
+  "Required": false,
+  "Kind": 1,
+  "SortOrder": 3.0,
+  "ElementsId": null,
+  "IsFile": false
+ },
+ {
+  "Key": "partner_type_info:GROUP_COMPANY_PHONE",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "partner_type:GROUP_COMPANY",
+  "Name": {
+   "en": "Phone",
+   "it": "Telefono"
+  },
+  "Description": {
+   "en": "Phone",
+   "it": "Telefono"
+  },
+  "Required": false,
+  "Kind": 1,
+  "SortOrder": 4.0,
+  "ElementsId": null,
+  "IsFile": false,
+  "Code": "PHONE"
+ },
+ {
+  "Key": "partner_type_info:GROUP_COMPANY_EMAIL",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "partner_type:GROUP_COMPANY",
+  "Name": {
+   "en": "E-mail",
+   "it": "E-mail"
+  },
+  "Description": {
+   "en": "E-mail",
+   "it": "E-mail"
+  },
+  "Required": false,
+  "Kind": 1,
+  "SortOrder": 5.0,
+  "ElementsId": null,
+  "IsFile": false
+ }
+]

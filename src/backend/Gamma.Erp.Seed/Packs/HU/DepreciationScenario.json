@@ -1,0 +1,226 @@
+[
+ {
+  "Key": "depreciation_scenario:assets",
+  "IdSup": null,
+  "Active": true,
+  "Name": {
+   "en": "Assets",
+   "hu": "Befektetett eszközök"
+  },
+  "DepreciationBookId": "depreciation_book:COMPANY",
+  "ElementsId": "elements:187",
+  "Months": 84,
+  "LinearPercentage": 14.5,
+  "DecliningPercentage": 0
+ },
+ {
+  "Key": "depreciation_scenario:assets:tax",
+  "IdSup": null,
+  "Active": true,
+  "Name": {
+   "en": "Assets",
+   "hu": "Befektetett eszközök"
+  },
+  "DepreciationBookId": "depreciation_book:TAX",
+  "ElementsId": "elements:187",
+  "Months": 84,
+  "LinearPercentage": 14.5,
+  "DecliningPercentage": 0
+ },
+ {
+  "Key": "depreciation_scenario:land",
+  "IdSup": null,
+  "Active": true,
+  "Name": {
+   "en": "Land",
+   "hu": "Földterület"
+  },
+  "DepreciationBookId": "depreciation_book:COMPANY",
+  "ElementsId": "elements:188",
+  "Months": null,
+  "LinearPercentage": 0,
+  "DecliningPercentage": 0
+ },
+ {
+  "Key": "depreciation_scenario:land:tax",
+  "IdSup": null,
+  "Active": true,
+  "Name": {
+   "en": "Land",
+   "hu": "Földterület"
+  },
+  "DepreciationBookId": "depreciation_book:TAX",
+  "ElementsId": "elements:188",
+  "Months": null,
+  "LinearPercentage": 0,
+  "DecliningPercentage": 0
+ },
+ {
+  "Key": "depreciation_scenario:buildings",
+  "IdSup": null,
+  "Active": true,
+  "Name": {
+   "en": "Buildings",
+   "hu": "Épületek"
+  },
+  "DepreciationBookId": "depreciation_book:COMPANY",
+  "ElementsId": "elements:189",
+  "Months": 400,
+  "LinearPercentage": 3,
+  "DecliningPercentage": 0
+ },
+ {
+  "Key": "depreciation_scenario:buildings:tax",
+  "IdSup": null,
+  "Active": true,
+  "Name": {
+   "en": "Buildings",
+   "hu": "Épületek"
+  },
+  "DepreciationBookId": "depreciation_book:TAX",
+  "ElementsId": "elements:189",
+  "Months": 400,
+  "LinearPercentage": 3,
+  "DecliningPercentage": 0
+ },
+ {
+  "Key": "depreciation_scenario:office",
+  "IdSup": null,
+  "Active": true,
+  "Name": {
+   "en": "Office equipment",
+   "hu": "Irodai berendezések"
+  },
+  "DepreciationBookId": "depreciation_book:COMPANY",
+  "ElementsId": "elements:190",
+  "Months": 84,
+  "LinearPercentage": 14.5,
+  "DecliningPercentage": 0
+ },
+ {
+  "Key": "depreciation_scenario:office:tax",
+  "IdSup": null,
+  "Active": true,
+  "Name": {
+   "en": "Office equipment",
+   "hu": "Irodai berendezések"
+  },
+  "DepreciationBookId": "depreciation_book:TAX",
+  "ElementsId": "elements:190",
+  "Months": 84,
+  "LinearPercentage": 14.5,
+  "DecliningPercentage": 0
+ },
+ {
+  "Key": "depreciation_scenario:vehicles",
+  "IdSup": null,
+  "Active": true,
+  "Name": {
+   "en": "Vehicles",
+   "hu": "Járművek"
+  },
+  "DepreciationBookId": "depreciation_book:COMPANY",
+  "ElementsId": "elements:191",
+  "Months": 60,
+  "LinearPercentage": 20,
+  "DecliningPercentage": 0
+ },
+ {
+  "Key": "depreciation_scenario:vehicles:tax",
+  "IdSup": null,
+  "Active": true,
+  "Name": {
+   "en": "Vehicles",
+   "hu": "Járművek"
+  },
+  "DepreciationBookId": "depreciation_book:TAX",
+  "ElementsId": "elements:191",
+  "Months": 60,
+  "LinearPercentage": 20,
+  "DecliningPercentage": 0
+ },
+ {
+  "Key": "depreciation_scenario:computers",
+  "IdSup": null,
+  "Active": true,
+  "Name": {
+   "en": "Computer equipment",
+   "hu": "Számítástechnikai eszközök"
+  },
+  "DepreciationBookId": "depreciation_book:COMPANY",
+  "ElementsId": "elements:192",
+  "Months": 36,
+  "LinearPercentage": 33,
+  "DecliningPercentage": 0
+ },
+ {
+  "Key": "depreciation_scenario:computers:tax",
+  "IdSup": null,
+  "Active": true,
+  "Name": {
+   "en": "Computer equipment",
+   "hu": "Számítástechnikai eszközök"
+  },
+  "DepreciationBookId": "depreciation_book:TAX",
+  "ElementsId": "elements:192",
+  "Months": 36,
+  "LinearPercentage": 33,
+  "DecliningPercentage": 0
+ },
+ {
+  "Key": "depreciation_scenario:furniture",
+  "IdSup": null,
+  "Active": true,
+  "Name": {
+   "en": "Furniture and fittings",
+   "hu": "Bútorok és berendezések"
+  },
+  "DepreciationBookId": "depreciation_book:COMPANY",
+  "ElementsId": "elements:193",
+  "Months": 84,
+  "LinearPercentage": 14.5,
+  "DecliningPercentage": 0
+ },
+ {
+  "Key": "depreciation_scenario:furniture:tax",
+  "IdSup": null,
+  "Active": true,
+  "Name": {
+   "en": "Furniture and fittings",
+   "hu": "Bútorok és berendezések"
+  },
+  "DepreciationBookId": "depreciation_book:TAX",
+  "ElementsId": "elements:193",
+  "Months": 84,
+  "LinearPercentage": 14.5,
+  "DecliningPercentage": 0
+ },
+ {
+  "Key": "depreciation_scenario:intangible",
+  "IdSup": null,
+  "Active": true,
+  "Name": {
+   "en": "Intangible assets",
+   "hu": "Immateriális javak"
+  },
+  "DepreciationBookId": "depreciation_book:COMPANY",
+  "ElementsId": "elements:194",
+  "Months": 36,
+  "LinearPercentage": 33,
+  "DecliningPercentage": 0
+ },
+ {
+  "Key": "depreciation_scenario:intangible:tax",
+  "IdSup": null,
+  "Active": true,
+  "Name": {
+   "en": "Intangible assets",
+   "hu": "Immateriális javak"
+  },
+  "DepreciationBookId": "depreciation_book:TAX",
+  "ElementsId": "elements:194",
+  "Months": 36,
+  "LinearPercentage": 33,
+  "DecliningPercentage": 0
+ }
+]

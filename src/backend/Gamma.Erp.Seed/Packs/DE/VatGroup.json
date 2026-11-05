@@ -1,0 +1,41 @@
+[
+ {
+  "Key": "vat_group:DE_19",
+  "IdSup": null,
+  "Active": true,
+  "Code": null,
+  "Name": {
+   "en": "VAT 19%",
+   "de": "USt 19%"
+  },
+  "Description": null,
+  "Rate": 19.0,
+  "Depreciation": false
+ },
+ {
+  "Key": "vat_group:DE_7",
+  "IdSup": null,
+  "Active": true,
+  "Code": null,
+  "Name": {
+   "en": "VAT 7%",
+   "de": "USt 7%"
+  },
+  "Description": null,
+  "Rate": 7.0,
+  "Depreciation": false
+ },
+ {
+  "Key": "vat_group:DE_0",
+  "IdSup": null,
+  "Active": true,
+  "Code": null,
+  "Name": {
+   "en": "VAT 0% / exempt",
+   "de": "USt 0% / steuerfrei"
+  },
+  "Description": null,
+  "Rate": 0.0,
+  "Depreciation": false
+ }
+]

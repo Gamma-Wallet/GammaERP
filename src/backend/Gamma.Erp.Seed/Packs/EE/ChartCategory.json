@@ -1,0 +1,15 @@
+[
+ {
+  "Key": "chart_category:STATUTORY",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "GAMMA",
+  "Name": {
+   "en": "Chart of accounts (GAMMA)",
+   "et": "Kontoplaan (Gamma, IAS 1 järgi)"
+  },
+  "IsStatutory": true,
+  "SortOrder": 10
+ }
+]

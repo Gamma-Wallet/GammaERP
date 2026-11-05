@@ -1,0 +1,1241 @@
+[
+ {
+  "Key": "inter_chart_category:1",
+  "IdSup": null,
+  "Active": true,
+  "ElementId": "chart:1",
+  "CategoryId": "chart_category:STATUTORY"
+ },
+ {
+  "Key": "inter_chart_category:11",
+  "IdSup": null,
+  "Active": true,
+  "ElementId": "chart:11",
+  "CategoryId": "chart_category:STATUTORY"
+ },
+ {
+  "Key": "inter_chart_category:1101",
+  "IdSup": null,
+  "Active": true,
+  "ElementId": "chart:1101",
+  "CategoryId": "chart_category:STATUTORY"
+ },
+ {
+  "Key": "inter_chart_category:1102",
+  "IdSup": null,
+  "Active": true,
+  "ElementId": "chart:1102",
+  "CategoryId": "chart_category:STATUTORY"
+ },
+ {
+  "Key": "inter_chart_category:1103",
+  "IdSup": null,
+  "Active": true,
+  "ElementId": "chart:1103",
+  "CategoryId": "chart_category:STATUTORY"
+ },
+ {
+  "Key": "inter_chart_category:1104",
+  "IdSup": null,
+  "Active": true,
+  "ElementId": "chart:1104",
+  "CategoryId": "chart_category:STATUTORY"
+ },
+ {
+  "Key": "inter_chart_category:1105",
+  "IdSup": null,
+  "Active": true,
+  "ElementId": "chart:1105",
+  "CategoryId": "chart_category:STATUTORY"
+ },
+ {
+  "Key": "inter_chart_category:1106",
+  "IdSup": null,
+  "Active": true,
+  "ElementId": "chart:1106",
+  "CategoryId": "chart_category:STATUTORY"
+ },
+ {
+  "Key": "inter_chart_category:1107",
+  "IdSup": null,
+  "Active": true,
+  "ElementId": "chart:1107",
+  "CategoryId": "chart_category:STATUTORY"
+ },
+ {
+  "Key": "inter_chart_category:12",
+  "IdSup": null,
+  "Active": true,
+  "ElementId": "chart:12",
+  "CategoryId": "chart_category:STATUTORY"
+ },
+ {
+  "Key": "inter_chart_category:1202",
+  "IdSup": null,
+  "Active": true,
+  "ElementId": "chart:1202",
+  "CategoryId": "chart_category:STATUTORY"
+ },
+ {
+  "Key": "inter_chart_category:1203",
+  "IdSup": null,
+  "Active": true,
+  "ElementId": "chart:1203",
+  "CategoryId": "chart_category:STATUTORY"
+ },
+ {
+  "Key": "inter_chart_category:1204",
+  "IdSup": null,
+  "Active": true,
+  "ElementId": "chart:1204",
+  "CategoryId": "chart_category:STATUTORY"
+ },
+ {
+  "Key": "inter_chart_category:1205",
+  "IdSup": null,
+  "Active": true,
+  "ElementId": "chart:1205",
+  "CategoryId": "chart_category:STATUTORY"
+ },
+ {
+  "Key": "inter_chart_category:1206",
+  "IdSup": null,
+  "Active": true,
+  "ElementId": "chart:1206",
+  "CategoryId": "chart_category:STATUTORY"
+ },
+ {
+  "Key": "inter_chart_category:13",
+  "IdSup": null,
+  "Active": true,
+  "ElementId": "chart:13",
+  "CategoryId": "chart_category:STATUTORY"
+ },
+ {
+  "Key": "inter_chart_category:1301",
+  "IdSup": null,
+  "Active": true,
+  "ElementId": "chart:1301",
+  "CategoryId": "chart_category:STATUTORY"
+ },
+ {
+  "Key": "inter_chart_category:1302",
+  "IdSup": null,
+  "Active": true,
+  "ElementId": "chart:1302",
+  "CategoryId": "chart_category:STATUTORY"
+ },
+ {
+  "Key": "inter_chart_category:1303",
+  "IdSup": null,
+  "Active": true,
+  "ElementId": "chart:1303",
+  "CategoryId": "chart_category:STATUTORY"
+ },
+ {
+  "Key": "inter_chart_category:14",
+  "IdSup": null,
+  "Active": true,
+  "ElementId": "chart:14",
+  "CategoryId": "chart_category:STATUTORY"
+ },
+ {
+  "Key": "inter_chart_category:1402",
+  "IdSup": null,
+  "Active": true,
+  "ElementId": "chart:1402",
+  "CategoryId": "chart_category:STATUTORY"
+ },
+ {
+  "Key": "inter_chart_category:1403",
+  "IdSup": null,
+  "Active": true,
+  "ElementId": "chart:1403",
+  "CategoryId": "chart_category:STATUTORY"
+ },
+ {
+  "Key": "inter_chart_category:15",
+  "IdSup": null,
+  "Active": true,
+  "ElementId": "chart:15",
+  "CategoryId": "chart_category:STATUTORY"
+ },
+ {
+  "Key": "inter_chart_category:1501",
+  "IdSup": null,
+  "Active": true,
+  "ElementId": "chart:1501",
+  "CategoryId": "chart_category:STATUTORY"
+ },
+ {
+  "Key": "inter_chart_category:16",
+  "IdSup": null,
+  "Active": true,
+  "ElementId": "chart:16",
+  "CategoryId": "chart_category:STATUTORY"
+ },
+ {
+  "Key": "inter_chart_category:1601",
+  "IdSup": null,
+  "Active": true,
+  "ElementId": "chart:1601",
+  "CategoryId": "chart_category:STATUTORY"
+ },
+ {
+  "Key": "inter_chart_category:1602",
+  "IdSup": null,
+  "Active": true,
+  "ElementId": "chart:1602",
+  "CategoryId": "chart_category:STATUTORY"
+ },
+ {
+  "Key": "inter_chart_category:1603",
+  "IdSup": null,
+  "Active": true,
+  "ElementId": "chart:1603",
+  "CategoryId": "chart_category:STATUTORY"
+ },
+ {
+  "Key": "inter_chart_category:1604",
+  "IdSup": null,
+  "Active": true,
+  "ElementId": "chart:1604",
+  "CategoryId": "chart_category:STATUTORY"
+ },
+ {
+  "Key": "inter_chart_category:17",
+  "IdSup": null,
+  "Active": true,
+  "ElementId": "chart:17",
+  "CategoryId": "chart_category:STATUTORY"
+ },
+ {
+  "Key": "inter_chart_category:1701",
+  "IdSup": null,
+  "Active": true,
+  "ElementId": "chart:1701",
+  "CategoryId": "chart_category:STATUTORY"
+ },
+ {
+  "Key": "inter_chart_category:2",
+  "IdSup": null,
+  "Active": true,
+  "ElementId": "chart:2",
+  "CategoryId": "chart_category:STATUTORY"
+ },
+ {
+  "Key": "inter_chart_category:20",
+  "IdSup": null,
+  "Active": true,
+  "ElementId": "chart:20",
+  "CategoryId": "chart_category:STATUTORY"
+ },
+ {
+  "Key": "inter_chart_category:2001",
+  "IdSup": null,
+  "Active": true,
+  "ElementId": "chart:2001",
+  "CategoryId": "chart_category:STATUTORY"
+ },
+ {
+  "Key": "inter_chart_category:2002",
+  "IdSup": null,
+  "Active": true,
+  "ElementId": "chart:2002",
+  "CategoryId": "chart_category:STATUTORY"
+ },
+ {
+  "Key": "inter_chart_category:2003",
+  "IdSup": null,
+  "Active": true,
+  "ElementId": "chart:2003",
+  "CategoryId": "chart_category:STATUTORY"
+ },
+ {
+  "Key": "inter_chart_category:2004",
+  "IdSup": null,
+  "Active": true,
+  "ElementId": "chart:2004",
+  "CategoryId": "chart_category:STATUTORY"
+ },
+ {
+  "Key": "inter_chart_category:2005",
+  "IdSup": null,
+  "Active": true,
+  "ElementId": "chart:2005",
+  "CategoryId": "chart_category:STATUTORY"
+ },
+ {
+  "Key": "inter_chart_category:22",
+  "IdSup": null,
+  "Active": true,
+  "ElementId": "chart:22",
+  "CategoryId": "chart_category:STATUTORY"
+ },
+ {
+  "Key": "inter_chart_category:2201",
+  "IdSup": null,
+  "Active": true,
+  "ElementId": "chart:2201",
+  "CategoryId": "chart_category:STATUTORY"
+ },
+ {
+  "Key": "inter_chart_category:2202",
+  "IdSup": null,
+  "Active": true,
+  "ElementId": "chart:2202",
+  "CategoryId": "chart_category:STATUTORY"
+ },
+ {
+  "Key": "inter_chart_category:2203",
+  "IdSup": null,
+  "Active": true,
+  "ElementId": "chart:2203",
+  "CategoryId": "chart_category:STATUTORY"
+ },
+ {
+  "Key": "inter_chart_category:2209",
+  "IdSup": null,
+  "Active": true,
+  "ElementId": "chart:2209",
+  "CategoryId": "chart_category:STATUTORY"
+ },
+ {
+  "Key": "inter_chart_category:23",
+  "IdSup": null,
+  "Active": true,
+  "ElementId": "chart:23",
+  "CategoryId": "chart_category:STATUTORY"
+ },
+ {
+  "Key": "inter_chart_category:2301",
+  "IdSup": null,
+  "Active": true,
+  "ElementId": "chart:2301",
+  "CategoryId": "chart_category:STATUTORY"
+ },
+ {
+  "Key": "inter_chart_category:2302",
+  "IdSup": null,
+  "Active": true,
+  "ElementId": "chart:2302",
+  "CategoryId": "chart_category:STATUTORY"
+ },
+ {
+  "Key": "inter_chart_category:2303",
+  "IdSup": null,
+  "Active": true,
+  "ElementId": "chart:2303",
+  "CategoryId": "chart_category:STATUTORY"
+ },
+ {
+  "Key": "inter_chart_category:2304",
+  "IdSup": null,
+  "Active": true,
+  "ElementId": "chart:2304",
+  "CategoryId": "chart_category:STATUTORY"
+ },
+ {
+  "Key": "inter_chart_category:2305",
+  "IdSup": null,
+  "Active": true,
+  "ElementId": "chart:2305",
+  "CategoryId": "chart_category:STATUTORY"
+ },
+ {
+  "Key": "inter_chart_category:24",
+  "IdSup": null,
+  "Active": true,
+  "ElementId": "chart:24",
+  "CategoryId": "chart_category:STATUTORY"
+ },
+ {
+  "Key": "inter_chart_category:2401",
+  "IdSup": null,
+  "Active": true,
+  "ElementId": "chart:2401",
+  "CategoryId": "chart_category:STATUTORY"
+ },
+ {
+  "Key": "inter_chart_category:2402",
+  "IdSup": null,
+  "Active": true,
+  "ElementId": "chart:2402",
+  "CategoryId": "chart_category:STATUTORY"
+ },
+ {
+  "Key": "inter_chart_category:2403",
+  "IdSup": null,
+  "Active": true,
+  "ElementId": "chart:2403",
+  "CategoryId": "chart_category:STATUTORY"
+ },
+ {
+  "Key": "inter_chart_category:28",
+  "IdSup": null,
+  "Active": true,
+  "ElementId": "chart:28",
+  "CategoryId": "chart_category:STATUTORY"
+ },
+ {
+  "Key": "inter_chart_category:2801",
+  "IdSup": null,
+  "Active": true,
+  "ElementId": "chart:2801",
+  "CategoryId": "chart_category:STATUTORY"
+ },
+ {
+  "Key": "inter_chart_category:2802",
+  "IdSup": null,
+  "Active": true,
+  "ElementId": "chart:2802",
+  "CategoryId": "chart_category:STATUTORY"
+ },
+ {
+  "Key": "inter_chart_category:2803",
+  "IdSup": null,
+  "Active": true,
+  "ElementId": "chart:2803",
+  "CategoryId": "chart_category:STATUTORY"
+ },
+ {
+  "Key": "inter_chart_category:2804",
+  "IdSup": null,
+  "Active": true,
+  "ElementId": "chart:2804",
+  "CategoryId": "chart_category:STATUTORY"
+ },
+ {
+  "Key": "inter_chart_category:2805",
+  "IdSup": null,
+  "Active": true,
+  "ElementId": "chart:2805",
+  "CategoryId": "chart_category:STATUTORY"
+ },
+ {
+  "Key": "inter_chart_category:2806",
+  "IdSup": null,
+  "Active": true,
+  "ElementId": "chart:2806",
+  "CategoryId": "chart_category:STATUTORY"
+ },
+ {
+  "Key": "inter_chart_category:3",
+  "IdSup": null,
+  "Active": true,
+  "ElementId": "chart:3",
+  "CategoryId": "chart_category:STATUTORY"
+ },
+ {
+  "Key": "inter_chart_category:30",
+  "IdSup": null,
+  "Active": true,
+  "ElementId": "chart:30",
+  "CategoryId": "chart_category:STATUTORY"
+ },
+ {
+  "Key": "inter_chart_category:3001",
+  "IdSup": null,
+  "Active": true,
+  "ElementId": "chart:3001",
+  "CategoryId": "chart_category:STATUTORY"
+ },
+ {
+  "Key": "inter_chart_category:3002",
+  "IdSup": null,
+  "Active": true,
+  "ElementId": "chart:3002",
+  "CategoryId": "chart_category:STATUTORY"
+ },
+ {
+  "Key": "inter_chart_category:31",
+  "IdSup": null,
+  "Active": true,
+  "ElementId": "chart:31",
+  "CategoryId": "chart_category:STATUTORY"
+ },
+ {
+  "Key": "inter_chart_category:3101",
+  "IdSup": null,
+  "Active": true,
+  "ElementId": "chart:3101",
+  "CategoryId": "chart_category:STATUTORY"
+ },
+ {
+  "Key": "inter_chart_category:3102",
+  "IdSup": null,
+  "Active": true,
+  "ElementId": "chart:3102",
+  "CategoryId": "chart_category:STATUTORY"
+ },
+ {
+  "Key": "inter_chart_category:32",
+  "IdSup": null,
+  "Active": true,
+  "ElementId": "chart:32",
+  "CategoryId": "chart_category:STATUTORY"
+ },
+ {
+  "Key": "inter_chart_category:3201",
+  "IdSup": null,
+  "Active": true,
+  "ElementId": "chart:3201",
+  "CategoryId": "chart_category:STATUTORY"
+ },
+ {
+  "Key": "inter_chart_category:3202",
+  "IdSup": null,
+  "Active": true,
+  "ElementId": "chart:3202",
+  "CategoryId": "chart_category:STATUTORY"
+ },
+ {
+  "Key": "inter_chart_category:4",
+  "IdSup": null,
+  "Active": true,
+  "ElementId": "chart:4",
+  "CategoryId": "chart_category:STATUTORY"
+ },
+ {
+  "Key": "inter_chart_category:40",
+  "IdSup": null,
+  "Active": true,
+  "ElementId": "chart:40",
+  "CategoryId": "chart_category:STATUTORY"
+ },
+ {
+  "Key": "inter_chart_category:4001",
+  "IdSup": null,
+  "Active": true,
+  "ElementId": "chart:4001",
+  "CategoryId": "chart_category:STATUTORY"
+ },
+ {
+  "Key": "inter_chart_category:4002",
+  "IdSup": null,
+  "Active": true,
+  "ElementId": "chart:4002",
+  "CategoryId": "chart_category:STATUTORY"
+ },
+ {
+  "Key": "inter_chart_category:4003",
+  "IdSup": null,
+  "Active": true,
+  "ElementId": "chart:4003",
+  "CategoryId": "chart_category:STATUTORY"
+ },
+ {
+  "Key": "inter_chart_category:4004",
+  "IdSup": null,
+  "Active": true,
+  "ElementId": "chart:4004",
+  "CategoryId": "chart_category:STATUTORY"
+ },
+ {
+  "Key": "inter_chart_category:4005",
+  "IdSup": null,
+  "Active": true,
+  "ElementId": "chart:4005",
+  "CategoryId": "chart_category:STATUTORY"
+ },
+ {
+  "Key": "inter_chart_category:41",
+  "IdSup": null,
+  "Active": true,
+  "ElementId": "chart:41",
+  "CategoryId": "chart_category:STATUTORY"
+ },
+ {
+  "Key": "inter_chart_category:4101",
+  "IdSup": null,
+  "Active": true,
+  "ElementId": "chart:4101",
+  "CategoryId": "chart_category:STATUTORY"
+ },
+ {
+  "Key": "inter_chart_category:4102",
+  "IdSup": null,
+  "Active": true,
+  "ElementId": "chart:4102",
+  "CategoryId": "chart_category:STATUTORY"
+ },
+ {
+  "Key": "inter_chart_category:4103",
+  "IdSup": null,
+  "Active": true,
+  "ElementId": "chart:4103",
+  "CategoryId": "chart_category:STATUTORY"
+ },
+ {
+  "Key": "inter_chart_category:4104",
+  "IdSup": null,
+  "Active": true,
+  "ElementId": "chart:4104",
+  "CategoryId": "chart_category:STATUTORY"
+ },
+ {
+  "Key": "inter_chart_category:42",
+  "IdSup": null,
+  "Active": true,
+  "ElementId": "chart:42",
+  "CategoryId": "chart_category:STATUTORY"
+ },
+ {
+  "Key": "inter_chart_category:4201",
+  "IdSup": null,
+  "Active": true,
+  "ElementId": "chart:4201",
+  "CategoryId": "chart_category:STATUTORY"
+ },
+ {
+  "Key": "inter_chart_category:4202",
+  "IdSup": null,
+  "Active": true,
+  "ElementId": "chart:4202",
+  "CategoryId": "chart_category:STATUTORY"
+ },
+ {
+  "Key": "inter_chart_category:4203",
+  "IdSup": null,
+  "Active": true,
+  "ElementId": "chart:4203",
+  "CategoryId": "chart_category:STATUTORY"
+ },
+ {
+  "Key": "inter_chart_category:4204",
+  "IdSup": null,
+  "Active": true,
+  "ElementId": "chart:4204",
+  "CategoryId": "chart_category:STATUTORY"
+ },
+ {
+  "Key": "inter_chart_category:4205",
+  "IdSup": null,
+  "Active": true,
+  "ElementId": "chart:4205",
+  "CategoryId": "chart_category:STATUTORY"
+ },
+ {
+  "Key": "inter_chart_category:4206",
+  "IdSup": null,
+  "Active": true,
+  "ElementId": "chart:4206",
+  "CategoryId": "chart_category:STATUTORY"
+ },
+ {
+  "Key": "inter_chart_category:4207",
+  "IdSup": null,
+  "Active": true,
+  "ElementId": "chart:4207",
+  "CategoryId": "chart_category:STATUTORY"
+ },
+ {
+  "Key": "inter_chart_category:43",
+  "IdSup": null,
+  "Active": true,
+  "ElementId": "chart:43",
+  "CategoryId": "chart_category:STATUTORY"
+ },
+ {
+  "Key": "inter_chart_category:4301",
+  "IdSup": null,
+  "Active": true,
+  "ElementId": "chart:4301",
+  "CategoryId": "chart_category:STATUTORY"
+ },
+ {
+  "Key": "inter_chart_category:4302",
+  "IdSup": null,
+  "Active": true,
+  "ElementId": "chart:4302",
+  "CategoryId": "chart_category:STATUTORY"
+ },
+ {
+  "Key": "inter_chart_category:44",
+  "IdSup": null,
+  "Active": true,
+  "ElementId": "chart:44",
+  "CategoryId": "chart_category:STATUTORY"
+ },
+ {
+  "Key": "inter_chart_category:4401",
+  "IdSup": null,
+  "Active": true,
+  "ElementId": "chart:4401",
+  "CategoryId": "chart_category:STATUTORY"
+ },
+ {
+  "Key": "inter_chart_category:4402",
+  "IdSup": null,
+  "Active": true,
+  "ElementId": "chart:4402",
+  "CategoryId": "chart_category:STATUTORY"
+ },
+ {
+  "Key": "inter_chart_category:4403",
+  "IdSup": null,
+  "Active": true,
+  "ElementId": "chart:4403",
+  "CategoryId": "chart_category:STATUTORY"
+ },
+ {
+  "Key": "inter_chart_category:4404",
+  "IdSup": null,
+  "Active": true,
+  "ElementId": "chart:4404",
+  "CategoryId": "chart_category:STATUTORY"
+ },
+ {
+  "Key": "inter_chart_category:4405",
+  "IdSup": null,
+  "Active": true,
+  "ElementId": "chart:4405",
+  "CategoryId": "chart_category:STATUTORY"
+ },
+ {
+  "Key": "inter_chart_category:5",
+  "IdSup": null,
+  "Active": true,
+  "ElementId": "chart:5",
+  "CategoryId": "chart_category:STATUTORY"
+ },
+ {
+  "Key": "inter_chart_category:50",
+  "IdSup": null,
+  "Active": true,
+  "ElementId": "chart:50",
+  "CategoryId": "chart_category:STATUTORY"
+ },
+ {
+  "Key": "inter_chart_category:5001",
+  "IdSup": null,
+  "Active": true,
+  "ElementId": "chart:5001",
+  "CategoryId": "chart_category:STATUTORY"
+ },
+ {
+  "Key": "inter_chart_category:5002",
+  "IdSup": null,
+  "Active": true,
+  "ElementId": "chart:5002",
+  "CategoryId": "chart_category:STATUTORY"
+ },
+ {
+  "Key": "inter_chart_category:5003",
+  "IdSup": null,
+  "Active": true,
+  "ElementId": "chart:5003",
+  "CategoryId": "chart_category:STATUTORY"
+ },
+ {
+  "Key": "inter_chart_category:5004",
+  "IdSup": null,
+  "Active": true,
+  "ElementId": "chart:5004",
+  "CategoryId": "chart_category:STATUTORY"
+ },
+ {
+  "Key": "inter_chart_category:51",
+  "IdSup": null,
+  "Active": true,
+  "ElementId": "chart:51",
+  "CategoryId": "chart_category:STATUTORY"
+ },
+ {
+  "Key": "inter_chart_category:5101",
+  "IdSup": null,
+  "Active": true,
+  "ElementId": "chart:5101",
+  "CategoryId": "chart_category:STATUTORY"
+ },
+ {
+  "Key": "inter_chart_category:5102",
+  "IdSup": null,
+  "Active": true,
+  "ElementId": "chart:5102",
+  "CategoryId": "chart_category:STATUTORY"
+ },
+ {
+  "Key": "inter_chart_category:5103",
+  "IdSup": null,
+  "Active": true,
+  "ElementId": "chart:5103",
+  "CategoryId": "chart_category:STATUTORY"
+ },
+ {
+  "Key": "inter_chart_category:5104",
+  "IdSup": null,
+  "Active": true,
+  "ElementId": "chart:5104",
+  "CategoryId": "chart_category:STATUTORY"
+ },
+ {
+  "Key": "inter_chart_category:52",
+  "IdSup": null,
+  "Active": true,
+  "ElementId": "chart:52",
+  "CategoryId": "chart_category:STATUTORY"
+ },
+ {
+  "Key": "inter_chart_category:5201",
+  "IdSup": null,
+  "Active": true,
+  "ElementId": "chart:5201",
+  "CategoryId": "chart_category:STATUTORY"
+ },
+ {
+  "Key": "inter_chart_category:5202",
+  "IdSup": null,
+  "Active": true,
+  "ElementId": "chart:5202",
+  "CategoryId": "chart_category:STATUTORY"
+ },
+ {
+  "Key": "inter_chart_category:5203",
+  "IdSup": null,
+  "Active": true,
+  "ElementId": "chart:5203",
+  "CategoryId": "chart_category:STATUTORY"
+ },
+ {
+  "Key": "inter_chart_category:6",
+  "IdSup": null,
+  "Active": true,
+  "ElementId": "chart:6",
+  "CategoryId": "chart_category:STATUTORY"
+ },
+ {
+  "Key": "inter_chart_category:60",
+  "IdSup": null,
+  "Active": true,
+  "ElementId": "chart:60",
+  "CategoryId": "chart_category:STATUTORY"
+ },
+ {
+  "Key": "inter_chart_category:6001",
+  "IdSup": null,
+  "Active": true,
+  "ElementId": "chart:6001",
+  "CategoryId": "chart_category:STATUTORY"
+ },
+ {
+  "Key": "inter_chart_category:6002",
+  "IdSup": null,
+  "Active": true,
+  "ElementId": "chart:6002",
+  "CategoryId": "chart_category:STATUTORY"
+ },
+ {
+  "Key": "inter_chart_category:6003",
+  "IdSup": null,
+  "Active": true,
+  "ElementId": "chart:6003",
+  "CategoryId": "chart_category:STATUTORY"
+ },
+ {
+  "Key": "inter_chart_category:6004",
+  "IdSup": null,
+  "Active": true,
+  "ElementId": "chart:6004",
+  "CategoryId": "chart_category:STATUTORY"
+ },
+ {
+  "Key": "inter_chart_category:6005",
+  "IdSup": null,
+  "Active": true,
+  "ElementId": "chart:6005",
+  "CategoryId": "chart_category:STATUTORY"
+ },
+ {
+  "Key": "inter_chart_category:61",
+  "IdSup": null,
+  "Active": true,
+  "ElementId": "chart:61",
+  "CategoryId": "chart_category:STATUTORY"
+ },
+ {
+  "Key": "inter_chart_category:6101",
+  "IdSup": null,
+  "Active": true,
+  "ElementId": "chart:6101",
+  "CategoryId": "chart_category:STATUTORY"
+ },
+ {
+  "Key": "inter_chart_category:6102",
+  "IdSup": null,
+  "Active": true,
+  "ElementId": "chart:6102",
+  "CategoryId": "chart_category:STATUTORY"
+ },
+ {
+  "Key": "inter_chart_category:7",
+  "IdSup": null,
+  "Active": true,
+  "ElementId": "chart:7",
+  "CategoryId": "chart_category:STATUTORY"
+ },
+ {
+  "Key": "inter_chart_category:70",
+  "IdSup": null,
+  "Active": true,
+  "ElementId": "chart:70",
+  "CategoryId": "chart_category:STATUTORY"
+ },
+ {
+  "Key": "inter_chart_category:7001",
+  "IdSup": null,
+  "Active": true,
+  "ElementId": "chart:7001",
+  "CategoryId": "chart_category:STATUTORY"
+ },
+ {
+  "Key": "inter_chart_category:7002",
+  "IdSup": null,
+  "Active": true,
+  "ElementId": "chart:7002",
+  "CategoryId": "chart_category:STATUTORY"
+ },
+ {
+  "Key": "inter_chart_category:7003",
+  "IdSup": null,
+  "Active": true,
+  "ElementId": "chart:7003",
+  "CategoryId": "chart_category:STATUTORY"
+ },
+ {
+  "Key": "inter_chart_category:7004",
+  "IdSup": null,
+  "Active": true,
+  "ElementId": "chart:7004",
+  "CategoryId": "chart_category:STATUTORY"
+ },
+ {
+  "Key": "inter_chart_category:7005",
+  "IdSup": null,
+  "Active": true,
+  "ElementId": "chart:7005",
+  "CategoryId": "chart_category:STATUTORY"
+ },
+ {
+  "Key": "inter_chart_category:71",
+  "IdSup": null,
+  "Active": true,
+  "ElementId": "chart:71",
+  "CategoryId": "chart_category:STATUTORY"
+ },
+ {
+  "Key": "inter_chart_category:7101",
+  "IdSup": null,
+  "Active": true,
+  "ElementId": "chart:7101",
+  "CategoryId": "chart_category:STATUTORY"
+ },
+ {
+  "Key": "inter_chart_category:7102",
+  "IdSup": null,
+  "Active": true,
+  "ElementId": "chart:7102",
+  "CategoryId": "chart_category:STATUTORY"
+ },
+ {
+  "Key": "inter_chart_category:7103",
+  "IdSup": null,
+  "Active": true,
+  "ElementId": "chart:7103",
+  "CategoryId": "chart_category:STATUTORY"
+ },
+ {
+  "Key": "inter_chart_category:7104",
+  "IdSup": null,
+  "Active": true,
+  "ElementId": "chart:7104",
+  "CategoryId": "chart_category:STATUTORY"
+ },
+ {
+  "Key": "inter_chart_category:7105",
+  "IdSup": null,
+  "Active": true,
+  "ElementId": "chart:7105",
+  "CategoryId": "chart_category:STATUTORY"
+ },
+ {
+  "Key": "inter_chart_category:72",
+  "IdSup": null,
+  "Active": true,
+  "ElementId": "chart:72",
+  "CategoryId": "chart_category:STATUTORY"
+ },
+ {
+  "Key": "inter_chart_category:7201",
+  "IdSup": null,
+  "Active": true,
+  "ElementId": "chart:7201",
+  "CategoryId": "chart_category:STATUTORY"
+ },
+ {
+  "Key": "inter_chart_category:7202",
+  "IdSup": null,
+  "Active": true,
+  "ElementId": "chart:7202",
+  "CategoryId": "chart_category:STATUTORY"
+ },
+ {
+  "Key": "inter_chart_category:7203",
+  "IdSup": null,
+  "Active": true,
+  "ElementId": "chart:7203",
+  "CategoryId": "chart_category:STATUTORY"
+ },
+ {
+  "Key": "inter_chart_category:7204",
+  "IdSup": null,
+  "Active": true,
+  "ElementId": "chart:7204",
+  "CategoryId": "chart_category:STATUTORY"
+ },
+ {
+  "Key": "inter_chart_category:7205",
+  "IdSup": null,
+  "Active": true,
+  "ElementId": "chart:7205",
+  "CategoryId": "chart_category:STATUTORY"
+ },
+ {
+  "Key": "inter_chart_category:7206",
+  "IdSup": null,
+  "Active": true,
+  "ElementId": "chart:7206",
+  "CategoryId": "chart_category:STATUTORY"
+ },
+ {
+  "Key": "inter_chart_category:7207",
+  "IdSup": null,
+  "Active": true,
+  "ElementId": "chart:7207",
+  "CategoryId": "chart_category:STATUTORY"
+ },
+ {
+  "Key": "inter_chart_category:73",
+  "IdSup": null,
+  "Active": true,
+  "ElementId": "chart:73",
+  "CategoryId": "chart_category:STATUTORY"
+ },
+ {
+  "Key": "inter_chart_category:7301",
+  "IdSup": null,
+  "Active": true,
+  "ElementId": "chart:7301",
+  "CategoryId": "chart_category:STATUTORY"
+ },
+ {
+  "Key": "inter_chart_category:7302",
+  "IdSup": null,
+  "Active": true,
+  "ElementId": "chart:7302",
+  "CategoryId": "chart_category:STATUTORY"
+ },
+ {
+  "Key": "inter_chart_category:7303",
+  "IdSup": null,
+  "Active": true,
+  "ElementId": "chart:7303",
+  "CategoryId": "chart_category:STATUTORY"
+ },
+ {
+  "Key": "inter_chart_category:7304",
+  "IdSup": null,
+  "Active": true,
+  "ElementId": "chart:7304",
+  "CategoryId": "chart_category:STATUTORY"
+ },
+ {
+  "Key": "inter_chart_category:74",
+  "IdSup": null,
+  "Active": true,
+  "ElementId": "chart:74",
+  "CategoryId": "chart_category:STATUTORY"
+ },
+ {
+  "Key": "inter_chart_category:7401",
+  "IdSup": null,
+  "Active": true,
+  "ElementId": "chart:7401",
+  "CategoryId": "chart_category:STATUTORY"
+ },
+ {
+  "Key": "inter_chart_category:7402",
+  "IdSup": null,
+  "Active": true,
+  "ElementId": "chart:7402",
+  "CategoryId": "chart_category:STATUTORY"
+ },
+ {
+  "Key": "inter_chart_category:7403",
+  "IdSup": null,
+  "Active": true,
+  "ElementId": "chart:7403",
+  "CategoryId": "chart_category:STATUTORY"
+ },
+ {
+  "Key": "inter_chart_category:75",
+  "IdSup": null,
+  "Active": true,
+  "ElementId": "chart:75",
+  "CategoryId": "chart_category:STATUTORY"
+ },
+ {
+  "Key": "inter_chart_category:7501",
+  "IdSup": null,
+  "Active": true,
+  "ElementId": "chart:7501",
+  "CategoryId": "chart_category:STATUTORY"
+ },
+ {
+  "Key": "inter_chart_category:7502",
+  "IdSup": null,
+  "Active": true,
+  "ElementId": "chart:7502",
+  "CategoryId": "chart_category:STATUTORY"
+ },
+ {
+  "Key": "inter_chart_category:7503",
+  "IdSup": null,
+  "Active": true,
+  "ElementId": "chart:7503",
+  "CategoryId": "chart_category:STATUTORY"
+ },
+ {
+  "Key": "inter_chart_category:7504",
+  "IdSup": null,
+  "Active": true,
+  "ElementId": "chart:7504",
+  "CategoryId": "chart_category:STATUTORY"
+ },
+ {
+  "Key": "inter_chart_category:76",
+  "IdSup": null,
+  "Active": true,
+  "ElementId": "chart:76",
+  "CategoryId": "chart_category:STATUTORY"
+ },
+ {
+  "Key": "inter_chart_category:7601",
+  "IdSup": null,
+  "Active": true,
+  "ElementId": "chart:7601",
+  "CategoryId": "chart_category:STATUTORY"
+ },
+ {
+  "Key": "inter_chart_category:7602",
+  "IdSup": null,
+  "Active": true,
+  "ElementId": "chart:7602",
+  "CategoryId": "chart_category:STATUTORY"
+ },
+ {
+  "Key": "inter_chart_category:7603",
+  "IdSup": null,
+  "Active": true,
+  "ElementId": "chart:7603",
+  "CategoryId": "chart_category:STATUTORY"
+ },
+ {
+  "Key": "inter_chart_category:7604",
+  "IdSup": null,
+  "Active": true,
+  "ElementId": "chart:7604",
+  "CategoryId": "chart_category:STATUTORY"
+ },
+ {
+  "Key": "inter_chart_category:7605",
+  "IdSup": null,
+  "Active": true,
+  "ElementId": "chart:7605",
+  "CategoryId": "chart_category:STATUTORY"
+ },
+ {
+  "Key": "inter_chart_category:7606",
+  "IdSup": null,
+  "Active": true,
+  "ElementId": "chart:7606",
+  "CategoryId": "chart_category:STATUTORY"
+ },
+ {
+  "Key": "inter_chart_category:77",
+  "IdSup": null,
+  "Active": true,
+  "ElementId": "chart:77",
+  "CategoryId": "chart_category:STATUTORY"
+ },
+ {
+  "Key": "inter_chart_category:7701",
+  "IdSup": null,
+  "Active": true,
+  "ElementId": "chart:7701",
+  "CategoryId": "chart_category:STATUTORY"
+ },
+ {
+  "Key": "inter_chart_category:7702",
+  "IdSup": null,
+  "Active": true,
+  "ElementId": "chart:7702",
+  "CategoryId": "chart_category:STATUTORY"
+ },
+ {
+  "Key": "inter_chart_category:7703",
+  "IdSup": null,
+  "Active": true,
+  "ElementId": "chart:7703",
+  "CategoryId": "chart_category:STATUTORY"
+ },
+ {
+  "Key": "inter_chart_category:7704",
+  "IdSup": null,
+  "Active": true,
+  "ElementId": "chart:7704",
+  "CategoryId": "chart_category:STATUTORY"
+ },
+ {
+  "Key": "inter_chart_category:7705",
+  "IdSup": null,
+  "Active": true,
+  "ElementId": "chart:7705",
+  "CategoryId": "chart_category:STATUTORY"
+ },
+ {
+  "Key": "inter_chart_category:8",
+  "IdSup": null,
+  "Active": true,
+  "ElementId": "chart:8",
+  "CategoryId": "chart_category:STATUTORY"
+ },
+ {
+  "Key": "inter_chart_category:80",
+  "IdSup": null,
+  "Active": true,
+  "ElementId": "chart:80",
+  "CategoryId": "chart_category:STATUTORY"
+ },
+ {
+  "Key": "inter_chart_category:8001",
+  "IdSup": null,
+  "Active": true,
+  "ElementId": "chart:8001",
+  "CategoryId": "chart_category:STATUTORY"
+ },
+ {
+  "Key": "inter_chart_category:8002",
+  "IdSup": null,
+  "Active": true,
+  "ElementId": "chart:8002",
+  "CategoryId": "chart_category:STATUTORY"
+ },
+ {
+  "Key": "inter_chart_category:8003",
+  "IdSup": null,
+  "Active": true,
+  "ElementId": "chart:8003",
+  "CategoryId": "chart_category:STATUTORY"
+ }
+]

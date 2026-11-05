@@ -1,0 +1,15 @@
+[
+ {
+  "Key": "chart_category:STATUTORY",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "PCG",
+  "Name": {
+   "en": "Chart of accounts (PCG)",
+   "fr": "Plan comptable général (ANC 2014-03)"
+  },
+  "IsStatutory": true,
+  "SortOrder": 10
+ }
+]

@@ -1,0 +1,309 @@
+{
+  "country": "BE",
+  "language": "fr",
+  "currency": "EUR",
+  "sources": [
+    "Chart: PCMN (royal decree of 21 October 2018), Commission des normes comptables, see chart-be.tsv",
+    "VAT: Code de la TVA: 21 % normal, 12 % and 6 % reduced, 0 %",
+    "Depreciation: straight-line over useful lives accepted by the tax administration (commonly cited rates)",
+    "Document codes: as France's (French)"
+  ],
+  "uncertain": [
+    "Belgium has three languages; this pack is in French. A Dutch pack (same chart, Dutch names from the CNC's Dutch text) is to be added.",
+    "Rates used (to be checked): buildings 3 %, machinery and furniture 10 %, rolling stock 20 %, computers and software 33.33 %.",
+    "Purchases of goods post to 604 Achats de marchandises (the PCMN's periodic method).",
+    "The PCMN leaves class 61 to the company: Gamma adds 610 Loyers et charges locatives for rent paid (rent_expense)."
+  ],
+  "chart": {
+    "file": "chart-be.tsv",
+    "category": {
+      "code": "PCMN",
+      "name": "Plan comptable minimum normalisé (AR 21/10/2018)"
+    },
+    "types": [
+      {
+        "code": "1",
+        "name": "Classe 1 – Fonds propres, provisions pour risques et charges et dettes à plus d’un an",
+        "prefixes": [
+          "1"
+        ],
+        "roles": []
+      },
+      {
+        "code": "2",
+        "name": "Classe 2 – Frais d'établissement, actifs immobilisés et créances à plus d'un an",
+        "prefixes": [
+          "2"
+        ],
+        "roles": [
+          "fixed_assets"
+        ]
+      },
+      {
+        "code": "3",
+        "name": "Classe 3 – Stocks et commandes en cours d'exécution",
+        "prefixes": [
+          "3"
+        ],
+        "roles": []
+      },
+      {
+        "code": "4",
+        "name": "Classe 4 – Créances et dettes à un an au plus",
+        "prefixes": [
+          "4"
+        ],
+        "roles": []
+      },
+      {
+        "code": "5",
+        "name": "Classe 5 – Placements de trésorerie et valeurs disponibles",
+        "prefixes": [
+          "5"
+        ],
+        "roles": []
+      },
+      {
+        "code": "6",
+        "name": "Classe 6 – Charges",
+        "prefixes": [
+          "6"
+        ],
+        "roles": [
+          "inventories",
+          "expenses"
+        ]
+      },
+      {
+        "code": "7",
+        "name": "Classe 7 – Produits",
+        "prefixes": [
+          "7"
+        ],
+        "roles": [
+          "income"
+        ]
+      },
+      {
+        "code": "0",
+        "name": "Classe 0 – Droits et engagements hors bilan",
+        "prefixes": [
+          "0"
+        ],
+        "roles": []
+      }
+    ]
+  },
+  "roles": {
+    "clients": "400",
+    "output_vat": "451",
+    "suppliers": "440",
+    "input_vat": "411",
+    "employee_advances": "416",
+    "goods_sales": "700",
+    "goods_purchases": "604",
+    "client_advances": "46",
+    "supplier_prepayments": "406",
+    "wages_payable": "455",
+    "rent_expense": "610",
+    "services_sales": "700",
+    "services_purchases": "602",
+    "asset_assets": "2300",
+    "asset_land": "220",
+    "asset_buildings": "2210",
+    "asset_office": "2400",
+    "asset_vehicles": "2400",
+    "asset_computers": "2400",
+    "asset_furniture": "2400",
+    "asset_intangible": "2110",
+    "production": "320",
+    "waste": "643"
+  },
+  "cash_account": "570",
+  "bank_account": "550",
+  "services_account": "700",
+  "vat": [
+    {
+      "rate": 21,
+      "name": "TVA 21%",
+      "en": "VAT 21%",
+      "standard": true
+    },
+    {
+      "rate": 12,
+      "name": "TVA 12%",
+      "en": "VAT 12%",
+      "standard": true
+    },
+    {
+      "rate": 6,
+      "name": "TVA 6%",
+      "en": "VAT 6%",
+      "standard": true
+    },
+    {
+      "rate": 0,
+      "name": "TVA 0% / exonéré",
+      "en": "VAT 0% / exempt",
+      "standard": false
+    }
+  ],
+  "depreciation": {
+    "assets": [
+      120,
+      10,
+      "6302",
+      "2309"
+    ],
+    "land": [
+      null,
+      0,
+      null,
+      null
+    ],
+    "buildings": [
+      400,
+      3,
+      "6302",
+      "2219"
+    ],
+    "office": [
+      120,
+      10,
+      "6302",
+      "2409"
+    ],
+    "vehicles": [
+      60,
+      20,
+      "6302",
+      "2409"
+    ],
+    "computers": [
+      36,
+      33.33,
+      "6302",
+      "2409"
+    ],
+    "furniture": [
+      120,
+      10,
+      "6302",
+      "2409"
+    ],
+    "intangible": [
+      36,
+      33.33,
+      "6301",
+      "2119"
+    ]
+  },
+  "document_codes": {
+    "PURCHASE_REQUEST": "PRQ",
+    "PURCHASE_ORDER": "POR",
+    "SALES_ORDER": "SOR",
+    "REPAIR_INTAKE": "RIN",
+    "REPAIR_OFFER": "ROF",
+    "POS_ORDER": "PSO",
+    "SALES_INVOICE_GOODS": "FA",
+    "CREDIT_NOTE_GOODS_SOLD": "AV",
+    "SALES_INVOICE_SERVICES": "FAS",
+    "CREDIT_NOTE_SERVICES_SOLD": "AVS",
+    "PURCHASE_INVOICE_GOODS": "FF",
+    "CREDIT_NOTE_GOODS_BOUGHT": "AF",
+    "PURCHASE_INVOICE_SERVICES": "FFS",
+    "CREDIT_NOTE_SERVICES_BOUGHT": "AFS",
+    "GOODS_TRANSFER": "BT",
+    "PAYMENT": "DEC",
+    "RECEIPT": "ENC",
+    "PREPAYMENT": "DAN",
+    "GOODS_TRANSFER_TO_STAFF": "BTP",
+    "SALES_OFFER_GOODS": "DV",
+    "DEPRECIATION_SHEET": "TAM",
+    "DEPRECIATION_JOURNAL": "EAM",
+    "JOURNAL_SHEET": "OD",
+    "JOURNAL_PAYMENT": "DEC",
+    "JOURNAL_RECEIPT": "ENC",
+    "JOURNAL_PREPAYMENT": "DAN",
+    "REVALUATION_SHEET": "TRE",
+    "REVALUATION_JOURNAL": "ERE",
+    "ADVANCE": "AVA",
+    "EMPLOYEE_ADVANCE": "AVP",
+    "JOURNAL_ADVANCE": "AVA",
+    "JOURNAL_EMPLOYEE_ADVANCE": "AVP",
+    "SALES_CONTRACT_GOODS": "CVM",
+    "PURCHASE_CONTRACT_GOODS": "CAM",
+    "PURCHASE_OFFER_GOODS": "DDM",
+    "SALES_OFFER_SERVICES": "DVS",
+    "PURCHASE_OFFER_SERVICES": "DDS",
+    "SALES_CONTRACT_SERVICES": "CPS",
+    "PURCHASE_CONTRACT_SERVICES": "CAS",
+    "RECURRING_DEPRECIATION_SHEET": "TAMP",
+    "RECURRING_JOURNAL_SHEET": "ODP",
+    "RECURRING_REVALUATION_SHEET": "TREP",
+    "GENERAL_JOURNAL_ENTRY": "EG",
+    "POS_RECEIPT": "TK",
+    "GOODS_TRANSFER_FROM_STAFF": "BTPC",
+    "GOODS_TRANSFER_TO_CLIENT": "BTCL",
+    "GOODS_TRANSFER_FROM_CLIENT": "BTLC",
+    "POS_CONTRACT": "CPV",
+    "POS_MONEY_IN": "ENCPV",
+    "POS_MONEY_OUT": "DECPV",
+    "POS_GOODS_IN": "ENTPV",
+    "POS_GOODS_OUT": "SORPV",
+    "WAGE_PAYMENT": "SAL",
+    "RENT_PAYMENT": "LOY",
+    "CUSTOMS_DECLARATION": "DD",
+    "CUSTOMS_DECLARATION_ASSETS": "DDI",
+    "POS_REVERSAL": "TKR",
+    "POS_REFUND": "REMPV",
+    "POS_MONEY_FROM_STAFF": "ENCPP",
+    "GOODS_OUT_TO_STAFF": "SORP",
+    "GOODS_TRANSFER_STAFF_TO_CLIENT": "BTPK",
+    "GOODS_IN_FROM_STAFF": "ENTP",
+    "REVERSAL_PAYMENT": "ADEC",
+    "REVERSAL_RECEIPT": "AENC",
+    "REVERSAL_PREPAYMENT": "ADAN",
+    "REVERSAL_DEPRECIATION_JOURNAL": "AEAM",
+    "REVERSAL_JOURNAL_PAYMENT": "ADECJ",
+    "REVERSAL_JOURNAL_RECEIPT": "AENCJ",
+    "REVERSAL_JOURNAL_PREPAYMENT": "ADANJ",
+    "REVERSAL_ADVANCE": "AAVA",
+    "REVERSAL_EMPLOYEE_ADVANCE": "AAVP",
+    "REVERSAL_JOURNAL_ADVANCE": "AAVAJ",
+    "REVERSAL_JOURNAL_EMPLOYEE_ADVANCE": "AAVPJ",
+    "PRODUCTION": "PRD",
+    "UNIT_SPLIT": "CVU",
+    "REVERSAL_UNIT_SPLIT": "ACVU",
+    "REVERSAL_JOURNAL_SHEET": "AODJ",
+    "REVERSAL_DEPRECIATION_SHEET": "ATAMJ",
+    "REVERSAL_GENERAL_JOURNAL_ENTRY": "AEGJ",
+    "RECURRING_JOURNAL_PAYMENT": "DECP",
+    "REVERSAL_RECURRING_JOURNAL_PAYMENT": "ADECPJ",
+    "RECURRING_JOURNAL_RECEIPT": "ENCP",
+    "REVERSAL_RECURRING_JOURNAL_RECEIPT": "AENCPJ",
+    "RECURRING_JOURNAL_PREPAYMENT": "DANP",
+    "REVERSAL_RECURRING_JOURNAL_PREPAYMENT": "ADANPJ",
+    "RECURRING_JOURNAL_ADVANCE": "AVAP",
+    "REVERSAL_RECURRING_JOURNAL_ADVANCE": "AAVAPJ",
+    "RECURRING_JOURNAL_EMPLOYEE_ADVANCE": "AVPP",
+    "REVERSAL_RECURRING_JOURNAL_EMPLOYEE_ADVANCE": "AAVPPJ",
+    "RECURRING_GENERAL_JOURNAL_ENTRY": "EGP",
+    "REVERSAL_RECURRING_GENERAL_JOURNAL_ENTRY": "AEGPJ",
+    "REVERSAL_RECURRING_JOURNAL_SHEET": "AODPJ",
+    "RECURRING_DEPRECIATION_JOURNAL": "EAMP",
+    "REVERSAL_RECURRING_DEPRECIATION_JOURNAL": "AEAMPJ",
+    "REVERSAL_RECURRING_DEPRECIATION_SHEET": "ATAMPJ",
+    "RECURRING_REVALUATION_JOURNAL": "EREP",
+    "DISASSEMBLY": "DMT",
+    "REVERSAL_CUSTOMS_DECLARATION": "ADD",
+    "REVERSAL_CUSTOMS_DECLARATION_ASSETS": "ADDI",
+    "REVERSAL_GOODS_TRANSFER": "ABT",
+    "REVERSAL_GOODS_TRANSFER_TO_STAFF": "ABTP",
+    "REVERSAL_GOODS_TRANSFER_FROM_STAFF": "ABTPC",
+    "REVERSAL_GOODS_TRANSFER_TO_CLIENT": "ABTCL",
+    "REVERSAL_GOODS_TRANSFER_FROM_CLIENT": "ABTLC",
+    "REVERSAL_GOODS_TRANSFER_STAFF_TO_CLIENT": "ABTPK"
+  },
+  "document_descriptions": {}
+}

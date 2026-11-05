@@ -1,0 +1,66 @@
+[
+ {
+  "Key": "transaction_category:LINES",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "LINES",
+  "Name": {
+   "en": "Transactions",
+   "mk": "Ставки"
+  },
+  "Description": {
+   "en": "Transactions",
+   "mk": "Ставки"
+  },
+  "SortOrder": 2.0
+ },
+ {
+  "Key": "transaction_category:JOURNAL_LINES",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "JOURNAL_LINES",
+  "Name": {
+   "en": "Journal lines",
+   "mk": "Ставки на налог"
+  },
+  "Description": {
+   "en": "Journal lines",
+   "mk": "Ставки на налог"
+  },
+  "SortOrder": 10.0
+ },
+ {
+  "Key": "transaction_category:DEPRECIATION_LINES",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "DEPRECIATION_LINES",
+  "Name": {
+   "en": "Depreciation lines",
+   "mk": "Ставки на амортизација"
+  },
+  "Description": {
+   "en": "Depreciation lines",
+   "mk": "Ставки на амортизација"
+  },
+  "SortOrder": 11.0
+ },
+ {
+  "Key": "transaction_category:REVALUATION_LINES",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "REVALUATION_LINES",
+  "Name": {
+   "en": "Revaluation lines",
+   "mk": "Ставки на ревалоризација"
+  },
+  "Description": {
+   "en": "Revaluation lines",
+   "mk": "Ставки на ревалоризација"
+  },
+  "SortOrder": 12.0
+ }
+]

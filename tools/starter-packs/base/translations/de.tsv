@@ -1,0 +1,442 @@
+# The base names in German, keyed by the English name (Gamma's translations), for the packs in German (Germany, Austria).
+# en	de
+Base	Hauptsitz
+Cash desk	Kasse
+Bank	Bank
+Point of sale	Verkaufsstelle
+Warehouse	Lager
+Office	Büro
+Tax number	Steuernummer
+Owner	Inhaber
+Name	Firma
+Currency	Währung
+Trade name	Handelsname
+Address	Anschrift
+Phone	Telefon
+E-mail	E-Mail
+Website	Website
+Logo	Logo
+Authorised person	Bevollmächtigte Person
+Account	Konto
+Negative stock allowed (cost centres)	Negativer Bestand erlaubt (Kostenstellen)
+Negative stock allowed (partners)	Negativer Bestand erlaubt (Partner)
+Negative stock allowed (employees)	Negativer Bestand erlaubt (Mitarbeiter)
+cost centres	Kostenstellen
+partners	Geschäftspartner
+employees	Mitarbeiter
+Hold timeout (minutes)	Sperrdauer des Belegs (Minuten)
+ALL	ALL
+EUR	EUR
+USD	USD
+GBP	GBP
+CAD	CAD
+CHF	CHF
+Company book	Handelsbilanz
+Tax book	Steuerbilanz
+Straight-line	Linear
+Straight-line depreciation	Lineare Abschreibung
+Remaining value	Restbuchwert
+Depreciation on the remaining value	Abschreibung vom Restbuchwert
+Assets	Anlagevermögen
+Land	Grundstücke
+Buildings	Gebäude
+Office equipment	Büroausstattung
+Vehicles	Fahrzeuge
+Computer equipment	EDV-Anlagen
+Furniture and fittings	Betriebs- und Geschäftsausstattung
+Intangible assets	Immaterielle Vermögensgegenstände
+Sales	Verkauf
+Sales invoices	Ausgangsrechnungen
+Purchases	Einkauf
+Purchase invoices	Eingangsrechnungen
+Goods transfers	Warenumlagerungen
+Goods transfer note	Umlagerungsschein
+Offers	Angebote
+Journal	Journal
+Contracts	Verträge
+Recurring journal	Wiederkehrende Buchungen
+Reversals	Stornos
+Sales invoice, goods	Rechnung über Waren
+Credit note, goods sold	Gutschrift über verkaufte Waren
+Sales invoice, services	Rechnung über Dienstleistungen
+Credit note, services sold	Gutschrift über erbrachte Dienstleistungen
+Purchase invoice, goods	Eingangsrechnung über Waren
+Credit note, goods bought	Eingangsgutschrift über Waren
+Purchase invoice, services	Eingangsrechnung über Dienstleistungen
+Credit note, services bought	Eingangsgutschrift über Dienstleistungen
+Payment	Zahlungsausgang
+Receipt	Zahlungseingang
+Prepayment	Vorauszahlung
+Goods transfer, cost centre to staff	Umlagerung von Kostenstelle an Mitarbeiter
+Sales offer, goods	Angebot über Waren
+Depreciation sheet	Abschreibungsplan
+Depreciation journal	Abschreibungsbuchung
+Journal sheet	Buchungsbeleg
+Revaluation sheet	Neubewertungsplan
+Revaluation journal	Neubewertungsbuchung
+Advance	Anzahlung
+Client's advance	Anzahlung des Kunden
+Employee advance	Vorschuss an Mitarbeiter
+Advance to an employee	Vorschuss an einen Mitarbeiter
+Sales contract, goods	Kaufvertrag (Verkauf von Waren)
+Purchase contract, goods	Kaufvertrag (Einkauf von Waren)
+Purchase offer, goods	Anfrage über Waren
+Sales offer, services	Angebot über Dienstleistungen
+Purchase offer, services	Anfrage über Dienstleistungen
+Sales contract, services	Dienstleistungsvertrag
+Purchase contract, services	Vertrag über bezogene Dienstleistungen
+Recurring depreciation sheet	Wiederkehrender Abschreibungsplan
+Recurring journal sheet	Wiederkehrender Buchungsbeleg
+Recurring revaluation sheet	Wiederkehrender Neubewertungsplan
+General journal entry	Allgemeine Buchung
+Point-of-sale receipt	Kassenbon
+Goods transfer, staff to cost centre	Umlagerung von Mitarbeiter an Kostenstelle
+Goods transfer, cost centre to client	Lieferung von Kostenstelle an Kunden
+Goods transfer, client to cost centre	Rücknahme vom Kunden an Kostenstelle
+Point-of-sale contract	Vertrag der Verkaufsstelle
+Point-of-sale receipt of money	Einzahlung an der Verkaufsstelle
+Point-of-sale payment	Auszahlung an der Verkaufsstelle
+Point-of-sale goods in	Wareneingang an der Verkaufsstelle
+Point-of-sale goods out	Warenausgang an der Verkaufsstelle
+Wage payment	Lohnzahlung
+Rent payment	Mietzahlung
+Customs declaration	Zollanmeldung
+Customs declaration, assets	Zollanmeldung für Anlagegüter
+Point-of-sale refund	Erstattung an der Verkaufsstelle
+Point-of-sale receipt from staff	Einzahlung durch Mitarbeiter an der Verkaufsstelle
+Goods out to staff	Warenausgang an Mitarbeiter
+Goods transfer, staff to client	Lieferung von Mitarbeiter an Kunden
+Goods in from staff	Wareneingang von Mitarbeiter
+Reversal of payment	Storno Zahlungsausgang
+Reversal of receipt	Storno Zahlungseingang
+Reversal of prepayment	Storno Vorauszahlung
+Reversal of depreciation journal	Storno Abschreibungsbuchung
+Reversal of advance	Storno Anzahlung
+Reversal of employee advance	Storno Vorschuss an Mitarbeiter
+End date	Enddatum
+Offer valid until	Angebot gültig bis
+Start date	Startdatum
+External number	Externe Nummer
+Contract number	Vertragsnummer
+Invoice number	Rechnungsnummer
+Carrier	Spediteur
+Linked invoice	Zugehörige Rechnung
+Purchase invoice	Eingangsrechnung
+Last payment date	Datum der letzten Zahlung
+Accounts	Konten
+Products / services	Erzeugnisse / Dienstleistungen
+Client / supplier / third party	Kunde / Lieferant / Dritter
+Staff	Personal
+Financial documents	Buchhaltungsbelege
+Transaction value	Betrag der Position
+Transaction discount	Rabatt der Position
+Transaction VAT	Umsatzsteuer der Position
+Asset's remaining value	Restbuchwert des Anlageguts
+Transaction debit	Soll der Position
+Transaction credit	Haben der Position
+Transaction value with VAT	Bruttobetrag der Position
+Non-current asset accounts	Konten des Anlagevermögens
+Inventory accounts	Konten der Vorräte
+Expense accounts	Aufwandskonten
+Income accounts	Ertragskonten
+All accounts	Alle Konten
+table	Tabelle
+specified element	bestimmtes Element
+empty element	leeres Element
+line reference	Positionsverweis
+line configuration	Positionseinstellungen
+document reference	Belegverweis
+document configuration	Belegeinstellungen
+scenario configuration	Kontierungseinstellungen
+depreciation scenario configuration	Kontierungseinstellungen der Abschreibung
+depreciation scenario	Abschreibungskontierung
+Transaction amount	Betrag der Position
+Finance	Buchhaltung
+Administrator	Administrator
+Financier	Buchhalter
+Warehouse keeper	Lagerist
+Driver	Fahrer
+Worker	Arbeiter
+Clients	Kunden
+Suppliers	Lieferanten
+Unknown	Unbekannt
+Person	Natürliche Person
+SME	KMU
+LTD	GmbH
+Cash	Bar
+Unpaid	Offen
+Credit card	Kreditkarte
+Products	Erzeugnisse
+Services	Dienstleistungen
+Goods	Waren
+Service	Dienstleistung
+Asset	Anlagegut
+Items	Artikel
+Transactions	Positionen
+Journal lines	Buchungszeilen
+Depreciation lines	Abschreibungszeilen
+Revaluation lines	Neubewertungszeilen
+Item	Artikel
+Fixed asset	Anlagegut
+Service item	Artikel (Dienstleistung)
+Supplier	Lieferant
+Client	Kunde
+Cash desk account	Kassenkonto
+Bank account	Bankkonto
+Depreciation	Abschreibung
+Revaluation	Neubewertung
+Fixed asset (service)	Anlagegut (Dienstleistung)
+Combined item	Stückliste
+Customs	Zoll
+Transport	Transport
+Customs agency	Zollagent
+Customs, assets	Zoll auf Anlagegüter
+Transport, assets	Transport von Anlagegütern
+Customs agency, assets	Zollagent für Anlagegüter
+Piece	Stück
+kg	kg
+Hour	Stunde
+Day	Tag
+Month	Monat
+Year	Jahr
+g	g
+cm	cm
+m	m
+mm	mm
+km	km
+Standard	Standard
+Weight	Gewicht
+Time	Zeit
+Length	Länge
+Seller	Verkäufer
+IT	IT
+Consultant	Berater
+VAT 20%	USt 20%
+VAT 0%	USt 0%
+Hall	Saal
+Table	Tisch
+Counter	Theke
+Production	Produktion
+Reversal of production	Storno Produktion
+Unit split	Einheitenumrechnung
+Reversal of unit split	Storno Einheitenumrechnung
+Raw material used	Verbrauchter Rohstoff
+Produced item	Hergestelltes Erzeugnis
+Waste	Schwund
+Account ledger	Kontoblatt
+Administration	Verwaltung
+Chart of accounts	Kontenplan
+Client and supplier ledger	Kunden- und Lieferantenkonto
+Client statistics	Kundenstatistik
+Clients and suppliers	Kunden und Lieferanten
+Configuration	Konfiguration
+Convert stock between units	Bestand in eine andere Einheit umrechnen
+Cost centre ledger	Kostenstellenkonto
+Cost centres	Kostenstellen
+Currencies and exchange rates	Währungen und Wechselkurse
+Document types	Belegarten
+Documents	Belege
+Employees	Mitarbeiter
+Files	Dateien
+Financial reports	Finanzberichte
+Item movements	Artikelbewegungen
+Menu	Menü
+Menu access	Menüzugriff
+Operations	Vorgänge
+Orders to produce	Zu produzierende Aufträge
+Payment methods	Zahlungsarten
+Posting scenarios	Buchungsszenarien
+Print templates	Druckvorlagen
+Products and services	Produkte und Dienstleistungen
+Recipes	Rezepturen
+Registers	Stammdaten
+Reports	Berichte
+Rights	Berechtigungen
+Sale menus	Verkaufsmenüs
+Point-of-sale settings	Einstellungen der Verkaufsstelle
+Shows	Vorstellungen
+Purchases from the group	Einkäufe von der Gruppe
+Barcode	Strichcode
+Sale prices	Verkaufspreise
+Sales and purchases by line	Verkäufe und Einkäufe nach Zeilen
+Stock	Bestand
+Stock and sales	Lager und Verkauf
+Trial balance	Summen- und Saldenliste
+Unit conversions	Einheitenumrechnungen
+Units of measure	Maßeinheiten
+Users	Benutzer
+VAT books	Umsatzsteuerbücher
+VAT groups	Umsatzsteuergruppen
+VAT return	Umsatzsteuervoranmeldung
+VAT return boxes	Kennzahlen der Umsatzsteuervoranmeldung
+Company of the group	Konzerngesellschaft
+Restaurant / café	Restaurant / Café
+Shop	Geschäft
+Till	Kasse
+Cinema / theatre	Kino / Theater
+Auditorium	Saal
+Row	Reihe
+Seat	Platz
+Hotel	Hotel
+Floor	Etage
+Room	Zimmer
+Beds	Betten
+Position X	Position X
+Seats	Plätze
+Position Y	Position Y
+Reversal of journal sheet	Storno des Buchungsblatts
+Reversal of depreciation sheet	Storno des Abschreibungsblatts
+Reversal of general journal entry	Storno der allgemeinen Buchung
+Open the point of sale	Verkaufsstelle öffnen
+Stock and production	Lager und Produktion
+Accounting setup	Buchhaltungseinstellungen
+Fixed assets	Anlagevermögen
+Currencies and payments	Währungen und Zahlungen
+Company	Unternehmen
+Users and rights	Benutzer und Rechte
+System settings	Systemeinstellungen
+Types and categories	Typen und Kategorien
+VAT	MwSt.
+Financial	Finanzen
+Sale prices by partner	Verkaufspreise nach Partner
+Sale menu categories	Kategorien der Verkaufsmenüs
+Scenario lines	Szenariozeilen
+Unbalanced scenarios	Unausgeglichene Szenarien
+Remaining asset value	Restbuchwert des Anlageguts
+VAT return box rules	Regeln der USt-Erklärungsfelder
+VAT return by boxes	USt-Erklärung nach Feldern
+Payment methods by cost centre	Zahlungsarten nach Kostenstelle
+Users and roles	Benutzer und Rollen
+Document flows	Belegflüsse
+Chart types and categories	Typen und Kategorien des Kontenplans
+Balance sheet	Bilanz
+Profit and loss	Gewinn und Verlust
+Balance sheet lines	Bilanzzeilen
+Profit and loss lines	GuV-Zeilen
+City	Stadt
+Staff ledger	Personalkonto
+Sales and purchases by client	Verkäufe und Einkäufe nach Kunde
+Sales and purchases by cost centre	Verkäufe und Einkäufe nach Kostenstelle
+Transfers	Umbuchungen
+Document totals	Belegsummen
+Purchase price history	Einkaufspreisverlauf
+Depreciation books	Abschreibungsbücher
+Depreciation methods	Abschreibungsmethoden
+Depreciation scenarios	Abschreibungsszenarien
+Depreciation scenario lines	Zeilen der Abschreibungsszenarien
+Serial numbers	Seriennummern
+User activity	Benutzeraktivität
+Dashboard	Übersicht
+Dashboard items	Übersichtselemente
+Clients owe us	Forderungen an Kunden
+We owe suppliers	Verbindlichkeiten an Lieferanten
+Drafts waiting	Wartende Entwürfe
+Sales and purchases by month	Verkäufe und Einkäufe nach Monat
+VAT by month	USt. nach Monat
+Top clients	Top-Kunden
+Top suppliers	Top-Lieferanten
+Top products	Top-Produkte
+Sales by cost centre	Verkäufe nach Kostenstelle
+Migration	Migration
+Migration steps	Migrationsschritte
+Warehouses, banks, cash desks and places	Lager, Banken, Kassen und Orte
+Client and supplier categories	Kunden- und Lieferantenkategorien
+Product categories	Produktkategorien
+Units	Einheiten
+Exchange rates	Wechselkurse
+Next document numbers	Nächste Belegnummern
+Opening balances: clients and suppliers	Eröffnungssalden: Kunden und Lieferanten
+Opening balances: banks, cash desks and staff	Eröffnungssalden: Banken, Kassen und Personal
+Opening balances: the chart	Eröffnungssalden: Kontenplan
+Posting groups	Buchungsgruppen
+Document categories	Belegkategorien
+Opening balances: stock	Eröffnungssalden: Lager
+Opening balances: fixed assets	Eröffnungssalden: Anlagen
+VAT groups of document types	USt.-Gruppen der Belegarten
+Closed periods	Abgeschlossene Perioden
+Transaction types	Transaktionsarten
+Transaction scopes	Transaktionsbereiche
+Transaction categories	Transaktionskategorien
+Transaction types of document types	Transaktionsarten der Belegarten
+General client	Allgemeiner Kunde
+Transaction asset cost	Anschaffungskosten des Anlageguts
+Transaction asset depreciation	Abschreibung des Anlageguts
+Transaction asset book value	Buchwert des Anlageguts
+Sales by waiter	Umsatz nach Kellner
+Ageing	Altersstruktur
+Open invoices	Offene Rechnungen
+Overdue from clients	Überfällig von Kunden
+Overdue to suppliers	Überfällig an Lieferanten
+Gross profit	Bruttogewinn
+Gross profit by cost centre	Bruttogewinn nach Kostenstelle
+Top combined products	Top-Kombiprodukte
+Close the year	Jahr abschließen
+Invoice run	Vertragsabrechnung
+Renewals	Verlängerungen
+CRM	CRM
+Opportunities	Verkaufschancen
+Pipeline	Vertriebspipeline
+Forecast	Prognose
+Opportunity stages	Phasen der Verkaufschancen
+Sales opportunities	Vertriebschancen
+Opportunity	Verkaufschance
+Qualify	Qualifizierung
+Propose	Angebot
+Negotiate	Verhandlung
+Won	Gewonnen
+Lost	Verloren
+Leads	Interessenten
+Orders	Aufträge
+Purchase request	Bestellanforderung
+Purchase order	Bestellung
+Sales order	Kundenauftrag
+Approvals	Freigaben
+Approval limits	Freigabegrenzen
+Bank statements	Kontoauszüge
+Bank statement formats	Kontoauszugsformate
+Date, text, reference, amount	Datum, Text, Referenz, Betrag
+Lots	Chargen
+Shifts	Schichten
+Production point	Produktionsstelle
+Production point display	Anzeige der Produktionsstelle
+Production routes	Produktionswege
+Point-of-sale order	Kassenbestellung
+Repairs	Reparaturen
+Repair intake	Reparaturannahme
+Repair offer	Reparaturangebot
+Technician	Techniker
+Received	Eingegangen
+Offer given	Angebot abgegeben
+Accepted	Angenommen
+Ready	Fertig
+Collected	Abgeholt
+Refused	Abgelehnt
+Item	Artikel
+Brand and model	Marke und Modell
+Serial number or plate	Seriennummer oder Kennzeichen
+Accessories left	Hinterlassenes Zubehör
+Defect described	Beschriebener Mangel
+Come back on	Wiederkommen am
+Repair board	Reparaturtafel
+Repair stages	Reparaturphasen
+Repair shop	Reparaturwerkstatt
+Roles	Rollen
+Account mapping	Kontenzuordnung
+Waiter	Kellner
+Cashier	Kassierer
+Disassembly	Demontage
+Product taken apart	Zerlegtes Produkt
+Recovered component	Zurückgewonnene Komponente
+Disassembly waste	Demontageverlust
+Point-of-sale reversal	Storno Kassenverkauf
+Reversal of customs declaration	Storno: Zollanmeldung
+Reversal of customs declaration, assets	Storno: Zollanmeldung für Anlagegüter
+Reversal of goods transfer note	Storno: Umlagerungsschein
+Reversal of goods transfer, cost centre to staff	Storno: Umlagerung von Kostenstelle an Mitarbeiter
+Reversal of goods transfer, staff to cost centre	Storno: Umlagerung von Mitarbeiter an Kostenstelle
+Reversal of goods transfer, cost centre to client	Storno: Lieferung von Kostenstelle an Kunden
+Reversal of goods transfer, client to cost centre	Storno: Rücknahme vom Kunden an Kostenstelle
+Reversal of goods transfer, staff to client	Storno: Lieferung von Mitarbeiter an Kunden
+Opportunity types and categories	Arten und Kategorien der Verkaufschancen
+Opportunities and documents	Verkaufschancen und Belege
+Skins	Designs

@@ -1,0 +1,2126 @@
+[
+ {
+  "Key": "chart:1",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "1",
+  "Name": {
+   "en": "Non-current assets",
+   "nl": "Vaste activa"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:11",
+  "IdSup": "chart:1",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "11",
+  "Name": {
+   "en": "Property, plant and equipment",
+   "nl": "Materiële vaste activa"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:1101",
+  "IdSup": "chart:11",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "1101",
+  "Name": {
+   "en": "Land",
+   "nl": "Terreinen"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:1102",
+  "IdSup": "chart:11",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "1102",
+  "Name": {
+   "en": "Buildings",
+   "nl": "Gebouwen"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:1103",
+  "IdSup": "chart:11",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "1103",
+  "Name": {
+   "en": "Plant and machinery",
+   "nl": "Machines en installaties"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:1104",
+  "IdSup": "chart:11",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "1104",
+  "Name": {
+   "en": "Vehicles",
+   "nl": "Vervoermiddelen"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:1105",
+  "IdSup": "chart:11",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "1105",
+  "Name": {
+   "en": "Furniture and fittings",
+   "nl": "Inventaris"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:1106",
+  "IdSup": "chart:11",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "1106",
+  "Name": {
+   "en": "Computer equipment",
+   "nl": "Computerapparatuur"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:1107",
+  "IdSup": "chart:11",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "1107",
+  "Name": {
+   "en": "Assets under construction",
+   "nl": "Activa in aanbouw"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:12",
+  "IdSup": "chart:1",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "12",
+  "Name": {
+   "en": "Accumulated depreciation, property, plant and equipment",
+   "nl": "Cumulatieve afschrijvingen materiële vaste activa"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:1202",
+  "IdSup": "chart:12",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "1202",
+  "Name": {
+   "en": "Buildings",
+   "nl": "Cumulatieve afschrijvingen gebouwen"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:1203",
+  "IdSup": "chart:12",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "1203",
+  "Name": {
+   "en": "Plant and machinery",
+   "nl": "Cumulatieve afschrijvingen machines en installaties"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:1204",
+  "IdSup": "chart:12",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "1204",
+  "Name": {
+   "en": "Vehicles",
+   "nl": "Cumulatieve afschrijvingen vervoermiddelen"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:1205",
+  "IdSup": "chart:12",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "1205",
+  "Name": {
+   "en": "Furniture and fittings",
+   "nl": "Cumulatieve afschrijvingen inventaris"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:1206",
+  "IdSup": "chart:12",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "1206",
+  "Name": {
+   "en": "Computer equipment",
+   "nl": "Cumulatieve afschrijvingen computerapparatuur"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:13",
+  "IdSup": "chart:1",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "13",
+  "Name": {
+   "en": "Intangible assets",
+   "nl": "Immateriële vaste activa"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:1301",
+  "IdSup": "chart:13",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "1301",
+  "Name": {
+   "en": "Goodwill",
+   "nl": "Goodwill"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:1302",
+  "IdSup": "chart:13",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "1302",
+  "Name": {
+   "en": "Software",
+   "nl": "Software"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:1303",
+  "IdSup": "chart:13",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "1303",
+  "Name": {
+   "en": "Trademarks and licences",
+   "nl": "Merken en licenties"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:14",
+  "IdSup": "chart:1",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "14",
+  "Name": {
+   "en": "Accumulated amortisation, intangible assets",
+   "nl": "Cumulatieve afschrijvingen immateriële vaste activa"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:1402",
+  "IdSup": "chart:14",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "1402",
+  "Name": {
+   "en": "Software",
+   "nl": "Cumulatieve afschrijvingen software"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:1403",
+  "IdSup": "chart:14",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "1403",
+  "Name": {
+   "en": "Trademarks and licences",
+   "nl": "Cumulatieve afschrijvingen merken en licenties"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:15",
+  "IdSup": "chart:1",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "15",
+  "Name": {
+   "en": "Investment property",
+   "nl": "Vastgoedbeleggingen"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:1501",
+  "IdSup": "chart:15",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "1501",
+  "Name": {
+   "en": "Investment property",
+   "nl": "Vastgoedbeleggingen"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:16",
+  "IdSup": "chart:1",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "16",
+  "Name": {
+   "en": "Financial assets",
+   "nl": "Financiële vaste activa"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:1601",
+  "IdSup": "chart:16",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "1601",
+  "Name": {
+   "en": "Investments in subsidiaries",
+   "nl": "Deelnemingen in groepsmaatschappijen"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:1602",
+  "IdSup": "chart:16",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "1602",
+  "Name": {
+   "en": "Investments in associates",
+   "nl": "Deelnemingen in geassocieerde deelnemingen"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:1603",
+  "IdSup": "chart:16",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "1603",
+  "Name": {
+   "en": "Other investments",
+   "nl": "Overige effecten"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:1604",
+  "IdSup": "chart:16",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "1604",
+  "Name": {
+   "en": "Long-term loans receivable",
+   "nl": "Langlopende vorderingen"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:17",
+  "IdSup": "chart:1",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "17",
+  "Name": {
+   "en": "Deferred tax",
+   "nl": "Latente belastingen"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:1701",
+  "IdSup": "chart:17",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "1701",
+  "Name": {
+   "en": "Deferred tax assets",
+   "nl": "Latente belastingvorderingen"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:2",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "2",
+  "Name": {
+   "en": "Current assets",
+   "nl": "Vlottende activa"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:20",
+  "IdSup": "chart:2",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "20",
+  "Name": {
+   "en": "Inventories",
+   "nl": "Voorraden"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:2001",
+  "IdSup": "chart:20",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "2001",
+  "Name": {
+   "en": "Goods for resale",
+   "nl": "Handelsgoederen"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:2002",
+  "IdSup": "chart:20",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "2002",
+  "Name": {
+   "en": "Raw materials",
+   "nl": "Grondstoffen"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:2003",
+  "IdSup": "chart:20",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "2003",
+  "Name": {
+   "en": "Consumables",
+   "nl": "Hulpstoffen"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:2004",
+  "IdSup": "chart:20",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "2004",
+  "Name": {
+   "en": "Finished goods",
+   "nl": "Gereed product"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:2005",
+  "IdSup": "chart:20",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "2005",
+  "Name": {
+   "en": "Work in progress",
+   "nl": "Onderhanden werk"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:22",
+  "IdSup": "chart:2",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "22",
+  "Name": {
+   "en": "Trade receivables",
+   "nl": "Handelsdebiteuren"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:2201",
+  "IdSup": "chart:22",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "2201",
+  "Name": {
+   "en": "Trade debtors",
+   "nl": "Debiteuren"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:2202",
+  "IdSup": "chart:22",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "2202",
+  "Name": {
+   "en": "Foreign debtors",
+   "nl": "Buitenlandse debiteuren"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:2203",
+  "IdSup": "chart:22",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "2203",
+  "Name": {
+   "en": "Cheques receivable",
+   "nl": "Te ontvangen cheques"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:2209",
+  "IdSup": "chart:22",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "2209",
+  "Name": {
+   "en": "Allowance for doubtful debts",
+   "nl": "Voorziening dubieuze debiteuren"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:23",
+  "IdSup": "chart:2",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "23",
+  "Name": {
+   "en": "Other receivables",
+   "nl": "Overige vorderingen"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:2301",
+  "IdSup": "chart:23",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "2301",
+  "Name": {
+   "en": "Prepayments",
+   "nl": "Vooruitbetaalde kosten"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:2302",
+  "IdSup": "chart:23",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "2302",
+  "Name": {
+   "en": "Advances to suppliers",
+   "nl": "Vooruitbetaald aan leveranciers"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:2303",
+  "IdSup": "chart:23",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "2303",
+  "Name": {
+   "en": "Advances to employees",
+   "nl": "Voorschotten aan personeel"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:2304",
+  "IdSup": "chart:23",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "2304",
+  "Name": {
+   "en": "Deposits paid",
+   "nl": "Waarborgsommen"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:2305",
+  "IdSup": "chart:23",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "2305",
+  "Name": {
+   "en": "Other debtors",
+   "nl": "Overige vorderingen"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:24",
+  "IdSup": "chart:2",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "24",
+  "Name": {
+   "en": "Tax receivables",
+   "nl": "Belastingvorderingen"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:2401",
+  "IdSup": "chart:24",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "2401",
+  "Name": {
+   "en": "Input VAT",
+   "nl": "Te vorderen btw (voorbelasting)"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:2402",
+  "IdSup": "chart:24",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "2402",
+  "Name": {
+   "en": "VAT recoverable",
+   "nl": "Te ontvangen btw"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:2403",
+  "IdSup": "chart:24",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "2403",
+  "Name": {
+   "en": "Provisional tax paid",
+   "nl": "Vooruitbetaalde belastingen"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:28",
+  "IdSup": "chart:2",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "28",
+  "Name": {
+   "en": "Cash and cash equivalents",
+   "nl": "Liquide middelen"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:2801",
+  "IdSup": "chart:28",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "2801",
+  "Name": {
+   "en": "Cash in hand",
+   "nl": "Kas"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:2802",
+  "IdSup": "chart:28",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "2802",
+  "Name": {
+   "en": "Cash in hand, foreign currency",
+   "nl": "Kas in vreemde valuta"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:2803",
+  "IdSup": "chart:28",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "2803",
+  "Name": {
+   "en": "Bank current account",
+   "nl": "Bank"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:2804",
+  "IdSup": "chart:28",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "2804",
+  "Name": {
+   "en": "Bank account, foreign currency",
+   "nl": "Bank in vreemde valuta"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:2805",
+  "IdSup": "chart:28",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "2805",
+  "Name": {
+   "en": "Fixed deposits",
+   "nl": "Deposito's"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:2806",
+  "IdSup": "chart:28",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "2806",
+  "Name": {
+   "en": "Cash in transit",
+   "nl": "Kruisposten"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:3",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "3",
+  "Name": {
+   "en": "Equity",
+   "nl": "Eigen vermogen"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:30",
+  "IdSup": "chart:3",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "30",
+  "Name": {
+   "en": "Share capital",
+   "nl": "Geplaatst kapitaal"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:3001",
+  "IdSup": "chart:30",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "3001",
+  "Name": {
+   "en": "Share capital",
+   "nl": "Geplaatst kapitaal"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:3002",
+  "IdSup": "chart:30",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "3002",
+  "Name": {
+   "en": "Share premium",
+   "nl": "Agioreserve"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:31",
+  "IdSup": "chart:3",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "31",
+  "Name": {
+   "en": "Reserves",
+   "nl": "Reserves"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:3101",
+  "IdSup": "chart:31",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "3101",
+  "Name": {
+   "en": "Revaluation reserve",
+   "nl": "Herwaarderingsreserve"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:3102",
+  "IdSup": "chart:31",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "3102",
+  "Name": {
+   "en": "Other reserves",
+   "nl": "Overige reserves"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:32",
+  "IdSup": "chart:3",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "32",
+  "Name": {
+   "en": "Retained earnings",
+   "nl": "Onverdeelde winst"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:3201",
+  "IdSup": "chart:32",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "3201",
+  "Name": {
+   "en": "Retained earnings",
+   "nl": "Onverdeelde winst"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:3202",
+  "IdSup": "chart:32",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "3202",
+  "Name": {
+   "en": "Profit or loss for the year",
+   "nl": "Resultaat boekjaar"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:4",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "4",
+  "Name": {
+   "en": "Liabilities",
+   "nl": "Schulden"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:40",
+  "IdSup": "chart:4",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "40",
+  "Name": {
+   "en": "Non-current liabilities",
+   "nl": "Langlopende schulden"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:4001",
+  "IdSup": "chart:40",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "4001",
+  "Name": {
+   "en": "Long-term bank loans",
+   "nl": "Langlopende bankleningen"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:4002",
+  "IdSup": "chart:40",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "4002",
+  "Name": {
+   "en": "Lease liabilities",
+   "nl": "Leaseverplichtingen"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:4003",
+  "IdSup": "chart:40",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "4003",
+  "Name": {
+   "en": "Shareholder loans",
+   "nl": "Leningen van aandeelhouders"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:4004",
+  "IdSup": "chart:40",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "4004",
+  "Name": {
+   "en": "Deferred tax liabilities",
+   "nl": "Latente belastingverplichtingen"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:4005",
+  "IdSup": "chart:40",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "4005",
+  "Name": {
+   "en": "Provisions",
+   "nl": "Voorzieningen"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:41",
+  "IdSup": "chart:4",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "41",
+  "Name": {
+   "en": "Trade payables",
+   "nl": "Handelscrediteuren"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:4101",
+  "IdSup": "chart:41",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "4101",
+  "Name": {
+   "en": "Trade creditors",
+   "nl": "Crediteuren"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:4102",
+  "IdSup": "chart:41",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "4102",
+  "Name": {
+   "en": "Foreign creditors",
+   "nl": "Buitenlandse crediteuren"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:4103",
+  "IdSup": "chart:41",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "4103",
+  "Name": {
+   "en": "Cheques payable",
+   "nl": "Te betalen wissels"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:4104",
+  "IdSup": "chart:41",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "4104",
+  "Name": {
+   "en": "Advances from customers",
+   "nl": "Vooruitontvangen van afnemers"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:42",
+  "IdSup": "chart:4",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "42",
+  "Name": {
+   "en": "Other payables",
+   "nl": "Overige schulden"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:4201",
+  "IdSup": "chart:42",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "4201",
+  "Name": {
+   "en": "Accrued expenses",
+   "nl": "Nog te betalen kosten"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:4202",
+  "IdSup": "chart:42",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "4202",
+  "Name": {
+   "en": "Deferred income",
+   "nl": "Vooruitontvangen opbrengsten"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:4203",
+  "IdSup": "chart:42",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "4203",
+  "Name": {
+   "en": "Wages payable",
+   "nl": "Te betalen lonen"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:4204",
+  "IdSup": "chart:42",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "4204",
+  "Name": {
+   "en": "Social insurance payable",
+   "nl": "Te betalen sociale lasten"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:4205",
+  "IdSup": "chart:42",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "4205",
+  "Name": {
+   "en": "Health insurance contributions payable",
+   "nl": "Te betalen zorgverzekeringspremies"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:4206",
+  "IdSup": "chart:42",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "4206",
+  "Name": {
+   "en": "Other creditors",
+   "nl": "Overige schulden"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:4207",
+  "IdSup": "chart:42",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "4207",
+  "Name": {
+   "en": "Dividends payable",
+   "nl": "Te betalen dividend"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:43",
+  "IdSup": "chart:4",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "43",
+  "Name": {
+   "en": "Current borrowings",
+   "nl": "Kortlopende leningen"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:4301",
+  "IdSup": "chart:43",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "4301",
+  "Name": {
+   "en": "Bank overdrafts",
+   "nl": "Rekening-courant krediet"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:4302",
+  "IdSup": "chart:43",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "4302",
+  "Name": {
+   "en": "Short-term bank loans",
+   "nl": "Kortlopende bankleningen"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:44",
+  "IdSup": "chart:4",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "44",
+  "Name": {
+   "en": "Tax payables",
+   "nl": "Belastingschulden"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:4401",
+  "IdSup": "chart:44",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "4401",
+  "Name": {
+   "en": "Output VAT",
+   "nl": "Af te dragen btw"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:4402",
+  "IdSup": "chart:44",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "4402",
+  "Name": {
+   "en": "VAT payable",
+   "nl": "Te betalen btw"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:4403",
+  "IdSup": "chart:44",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "4403",
+  "Name": {
+   "en": "Income tax payable",
+   "nl": "Te betalen vennootschapsbelasting"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:4404",
+  "IdSup": "chart:44",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "4404",
+  "Name": {
+   "en": "Employee income tax payable",
+   "nl": "Te betalen loonheffing"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:4405",
+  "IdSup": "chart:44",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "4405",
+  "Name": {
+   "en": "Other taxes payable",
+   "nl": "Overige te betalen belastingen"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:5",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "5",
+  "Name": {
+   "en": "Income",
+   "nl": "Opbrengsten"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:50",
+  "IdSup": "chart:5",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "50",
+  "Name": {
+   "en": "Revenue",
+   "nl": "Netto-omzet"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:5001",
+  "IdSup": "chart:50",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "5001",
+  "Name": {
+   "en": "Sales of goods",
+   "nl": "Omzet handelsgoederen"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:5002",
+  "IdSup": "chart:50",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "5002",
+  "Name": {
+   "en": "Services rendered",
+   "nl": "Omzet diensten"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:5003",
+  "IdSup": "chart:50",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "5003",
+  "Name": {
+   "en": "Sales of products",
+   "nl": "Omzet eigen producten"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:5004",
+  "IdSup": "chart:50",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "5004",
+  "Name": {
+   "en": "Sales returns and discounts",
+   "nl": "Retouren en kortingen op omzet"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:51",
+  "IdSup": "chart:5",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "51",
+  "Name": {
+   "en": "Other income",
+   "nl": "Overige bedrijfsopbrengsten"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:5101",
+  "IdSup": "chart:51",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "5101",
+  "Name": {
+   "en": "Rental income",
+   "nl": "Huuropbrengsten"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:5102",
+  "IdSup": "chart:51",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "5102",
+  "Name": {
+   "en": "Grants",
+   "nl": "Subsidies"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:5103",
+  "IdSup": "chart:51",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "5103",
+  "Name": {
+   "en": "Gain on disposal of property, plant and equipment",
+   "nl": "Boekwinst op materiële vaste activa"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:5104",
+  "IdSup": "chart:51",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "5104",
+  "Name": {
+   "en": "Sundry income",
+   "nl": "Diverse opbrengsten"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:52",
+  "IdSup": "chart:5",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "52",
+  "Name": {
+   "en": "Finance income",
+   "nl": "Financiële baten"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:5201",
+  "IdSup": "chart:52",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "5201",
+  "Name": {
+   "en": "Interest income",
+   "nl": "Rentebaten"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:5202",
+  "IdSup": "chart:52",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "5202",
+  "Name": {
+   "en": "Dividend income",
+   "nl": "Dividendopbrengsten"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:5203",
+  "IdSup": "chart:52",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "5203",
+  "Name": {
+   "en": "Exchange gains",
+   "nl": "Koerswinsten"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:6",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "6",
+  "Name": {
+   "en": "Purchases and cost of sales",
+   "nl": "Inkoop en kostprijs van de omzet"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:60",
+  "IdSup": "chart:6",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "60",
+  "Name": {
+   "en": "Purchases",
+   "nl": "Inkopen"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:6001",
+  "IdSup": "chart:60",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "6001",
+  "Name": {
+   "en": "Purchases of goods",
+   "nl": "Inkoop handelsgoederen"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:6002",
+  "IdSup": "chart:60",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "6002",
+  "Name": {
+   "en": "Purchases of raw materials",
+   "nl": "Inkoop grondstoffen"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:6003",
+  "IdSup": "chart:60",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "6003",
+  "Name": {
+   "en": "Purchases of consumables",
+   "nl": "Inkoop hulpstoffen"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:6004",
+  "IdSup": "chart:60",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "6004",
+  "Name": {
+   "en": "Purchase returns and discounts",
+   "nl": "Retouren en kortingen op inkoop"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:6005",
+  "IdSup": "chart:60",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "6005",
+  "Name": {
+   "en": "Carriage and customs on purchases",
+   "nl": "Inkoopkosten en invoerrechten"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:61",
+  "IdSup": "chart:6",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "61",
+  "Name": {
+   "en": "Change in inventories",
+   "nl": "Voorraadmutaties"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:6101",
+  "IdSup": "chart:61",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "6101",
+  "Name": {
+   "en": "Change in inventories of goods",
+   "nl": "Voorraadmutatie handelsgoederen"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:6102",
+  "IdSup": "chart:61",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "6102",
+  "Name": {
+   "en": "Change in inventories of raw materials",
+   "nl": "Voorraadmutatie grondstoffen"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:7",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "7",
+  "Name": {
+   "en": "Expenses",
+   "nl": "Kosten"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:70",
+  "IdSup": "chart:7",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "70",
+  "Name": {
+   "en": "Staff costs",
+   "nl": "Personeelskosten"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:7001",
+  "IdSup": "chart:70",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "7001",
+  "Name": {
+   "en": "Wages and salaries",
+   "nl": "Lonen en salarissen"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:7002",
+  "IdSup": "chart:70",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "7002",
+  "Name": {
+   "en": "Employer's social insurance",
+   "nl": "Sociale lasten werkgever"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:7003",
+  "IdSup": "chart:70",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "7003",
+  "Name": {
+   "en": "Employer's health insurance contributions",
+   "nl": "Werkgeversbijdrage zorgverzekering"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:7004",
+  "IdSup": "chart:70",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "7004",
+  "Name": {
+   "en": "Other employer contributions",
+   "nl": "Overige werkgeversbijdragen"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:7005",
+  "IdSup": "chart:70",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "7005",
+  "Name": {
+   "en": "Other staff costs",
+   "nl": "Overige personeelskosten"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:71",
+  "IdSup": "chart:7",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "71",
+  "Name": {
+   "en": "Premises",
+   "nl": "Huisvestingskosten"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:7101",
+  "IdSup": "chart:71",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "7101",
+  "Name": {
+   "en": "Rent",
+   "nl": "Huur"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:7102",
+  "IdSup": "chart:71",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "7102",
+  "Name": {
+   "en": "Electricity",
+   "nl": "Elektriciteit"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:7103",
+  "IdSup": "chart:71",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "7103",
+  "Name": {
+   "en": "Water",
+   "nl": "Water"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:7104",
+  "IdSup": "chart:71",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "7104",
+  "Name": {
+   "en": "Repairs and maintenance",
+   "nl": "Onderhoud en reparaties"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:7105",
+  "IdSup": "chart:71",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "7105",
+  "Name": {
+   "en": "Insurance",
+   "nl": "Verzekeringen"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:72",
+  "IdSup": "chart:7",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "72",
+  "Name": {
+   "en": "Administrative expenses",
+   "nl": "Algemene kosten"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:7201",
+  "IdSup": "chart:72",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "7201",
+  "Name": {
+   "en": "Telecommunications",
+   "nl": "Telefoon en internet"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:7202",
+  "IdSup": "chart:72",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "7202",
+  "Name": {
+   "en": "Postage",
+   "nl": "Porti"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:7203",
+  "IdSup": "chart:72",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "7203",
+  "Name": {
+   "en": "Stationery",
+   "nl": "Kantoorbenodigdheden"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:7204",
+  "IdSup": "chart:72",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "7204",
+  "Name": {
+   "en": "Audit fees",
+   "nl": "Accountantskosten"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:7205",
+  "IdSup": "chart:72",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "7205",
+  "Name": {
+   "en": "Professional fees",
+   "nl": "Advieskosten"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:7206",
+  "IdSup": "chart:72",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "7206",
+  "Name": {
+   "en": "Subscriptions",
+   "nl": "Contributies en abonnementen"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:7207",
+  "IdSup": "chart:72",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "7207",
+  "Name": {
+   "en": "Annual company fees",
+   "nl": "Kosten van de vennootschap"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:73",
+  "IdSup": "chart:7",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "73",
+  "Name": {
+   "en": "Selling expenses",
+   "nl": "Verkoopkosten"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:7301",
+  "IdSup": "chart:73",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "7301",
+  "Name": {
+   "en": "Advertising",
+   "nl": "Reclame"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:7302",
+  "IdSup": "chart:73",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "7302",
+  "Name": {
+   "en": "Carriage on sales",
+   "nl": "Vrachtkosten verkoop"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:7303",
+  "IdSup": "chart:73",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "7303",
+  "Name": {
+   "en": "Commissions",
+   "nl": "Provisies"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:7304",
+  "IdSup": "chart:73",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "7304",
+  "Name": {
+   "en": "Travel",
+   "nl": "Reiskosten"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:74",
+  "IdSup": "chart:7",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "74",
+  "Name": {
+   "en": "Vehicle expenses",
+   "nl": "Autokosten"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:7401",
+  "IdSup": "chart:74",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "7401",
+  "Name": {
+   "en": "Fuel",
+   "nl": "Brandstof"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:7402",
+  "IdSup": "chart:74",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "7402",
+  "Name": {
+   "en": "Vehicle licences and insurance",
+   "nl": "Motorrijtuigenbelasting en verzekering"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:7403",
+  "IdSup": "chart:74",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "7403",
+  "Name": {
+   "en": "Vehicle repairs",
+   "nl": "Reparaties auto's"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:75",
+  "IdSup": "chart:7",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "75",
+  "Name": {
+   "en": "Finance costs",
+   "nl": "Financiële lasten"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:7501",
+  "IdSup": "chart:75",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "7501",
+  "Name": {
+   "en": "Interest expense",
+   "nl": "Rentelasten"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:7502",
+  "IdSup": "chart:75",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "7502",
+  "Name": {
+   "en": "Bank charges",
+   "nl": "Bankkosten"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:7503",
+  "IdSup": "chart:75",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "7503",
+  "Name": {
+   "en": "Exchange losses",
+   "nl": "Koersverliezen"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:7504",
+  "IdSup": "chart:75",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "7504",
+  "Name": {
+   "en": "Lease interest",
+   "nl": "Leaserente"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:76",
+  "IdSup": "chart:7",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "76",
+  "Name": {
+   "en": "Depreciation and amortisation",
+   "nl": "Afschrijvingen"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:7601",
+  "IdSup": "chart:76",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "7601",
+  "Name": {
+   "en": "Buildings",
+   "nl": "Afschrijving gebouwen"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:7602",
+  "IdSup": "chart:76",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "7602",
+  "Name": {
+   "en": "Plant and machinery",
+   "nl": "Afschrijving machines en installaties"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:7603",
+  "IdSup": "chart:76",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "7603",
+  "Name": {
+   "en": "Vehicles",
+   "nl": "Afschrijving vervoermiddelen"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:7604",
+  "IdSup": "chart:76",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "7604",
+  "Name": {
+   "en": "Furniture and fittings",
+   "nl": "Afschrijving inventaris"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:7605",
+  "IdSup": "chart:76",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "7605",
+  "Name": {
+   "en": "Computer equipment",
+   "nl": "Afschrijving computerapparatuur"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:7606",
+  "IdSup": "chart:76",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "7606",
+  "Name": {
+   "en": "Intangible assets",
+   "nl": "Afschrijving immateriële vaste activa"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:77",
+  "IdSup": "chart:7",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "77",
+  "Name": {
+   "en": "Other expenses",
+   "nl": "Overige kosten"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:7701",
+  "IdSup": "chart:77",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "7701",
+  "Name": {
+   "en": "Bad debts",
+   "nl": "Oninbare vorderingen"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:7702",
+  "IdSup": "chart:77",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "7702",
+  "Name": {
+   "en": "Loss on disposal of property, plant and equipment",
+   "nl": "Boekverlies op materiële vaste activa"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:7703",
+  "IdSup": "chart:77",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "7703",
+  "Name": {
+   "en": "Non-recoverable VAT",
+   "nl": "Niet-aftrekbare btw"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:7704",
+  "IdSup": "chart:77",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "7704",
+  "Name": {
+   "en": "Sundry expenses",
+   "nl": "Diverse kosten"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:7705",
+  "IdSup": "chart:77",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "7705",
+  "Name": {
+   "en": "Inventory losses and waste",
+   "nl": "Voorraadverliezen en derving"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:8",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "chart_type:8",
+  "Code": "8",
+  "Name": {
+   "en": "Income tax",
+   "nl": "Belastingen"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:80",
+  "IdSup": "chart:8",
+  "Active": true,
+  "TypeId": "chart_type:8",
+  "Code": "80",
+  "Name": {
+   "en": "Taxation",
+   "nl": "Belasting over de winst"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:8001",
+  "IdSup": "chart:80",
+  "Active": true,
+  "TypeId": "chart_type:8",
+  "Code": "8001",
+  "Name": {
+   "en": "Corporation tax",
+   "nl": "Vennootschapsbelasting"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:8002",
+  "IdSup": "chart:80",
+  "Active": true,
+  "TypeId": "chart_type:8",
+  "Code": "8002",
+  "Name": {
+   "en": "Other taxes on profit",
+   "nl": "Overige winstbelastingen"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:8003",
+  "IdSup": "chart:80",
+  "Active": true,
+  "TypeId": "chart_type:8",
+  "Code": "8003",
+  "Name": {
+   "en": "Deferred tax",
+   "nl": "Latente belastingen"
+  },
+  "IsComposite": false
+ }
+]

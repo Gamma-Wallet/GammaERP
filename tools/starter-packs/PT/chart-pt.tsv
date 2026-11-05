@@ -1,0 +1,499 @@
+# Portugal's chart of accounts: the Código de Contas of the SNC (Portaria n.º 218/2015, Diário da República n.º 142/2015, Série I), the
+# companies' (base) accounts, as informador.pt reproduces the Portaria; the variants of the non-profit and public sectors are left out.
+# Names in Portuguese only. # code	Portuguese	English (reference, left empty)
+1	Meios financeiros líquidos	
+11	Caixa	
+12	Depósitos à ordem	
+13	Outros depósitos bancários	
+14	Outros instrumentos financeiros	
+141	Derivados	
+1411	Potencialmente favoráveis	
+1412	Potencialmente desfavoráveis	
+142	Instrumentos financeiros detidos para negociação	
+1421	Ativos financeiros	
+1422	Passivos financeiros	
+143	Outros ativos e passivos financeiros	
+1431	Outros ativos financeiros	
+1432	Outros passivos financeiros	
+2	Contas a receber e a pagar	
+21	Clientes	
+211	Clientes c/c	
+2111	Clientes gerais	
+2112	Clientes — empresa-mãe	
+2113	Clientes — empresas subsidiárias	
+2114	Clientes — empresas associadas	
+2115	Clientes — empreendimentos conjuntos	
+2116	Clientes — outras partes relacionadas	
+212	Clientes — títulos a receber	
+2121	Clientes gerais	
+2122	Clientes — empresa-mãe	
+2123	Clientes — empresas subsidiárias	
+2124	Clientes — empresas associadas	
+2125	Clientes — empreendimentos conjuntos	
+2126	Clientes — outras partes relacionadas	
+218	Adiantamentos de clientes	
+219	Perdas por imparidade acumuladas	
+22	Fornecedores	
+221	Fornecedores c/c	
+2211	Fornecedores gerais	
+2212	Fornecedores — empresa-mãe	
+2213	Fornecedores — empresas subsidiárias	
+2214	Fornecedores — empresas associadas	
+2215	Fornecedores — empreendimentos conjuntos	
+2216	Fornecedores — outras partes relacionadas	
+222	Fornecedores — títulos a pagar	
+2221	Fornecedores gerais	
+2222	Fornecedores — empresa-mãe	
+2223	Fornecedores — empresas subsidiárias	
+2224	Fornecedores — empresas associadas	
+2225	Fornecedores — empreendimentos conjuntos	
+2226	Fornecedores — outras partes relacionadas	
+225	Faturas em receção e conferência	
+228	Adiantamentos a fornecedores	
+229	Perdas por imparidade acumuladas	
+23	Pessoal	
+231	Remunerações a pagar	
+2311	Aos órgãos sociais	
+2312	Ao pessoal	
+232	Adiantamentos	
+2321	Aos órgãos sociais	
+2322	Ao pessoal	
+237	Cauções	
+2371	Dos órgãos sociais	
+2372	Do pessoal	
+238	Outras operações	
+2381	Com os órgãos sociais	
+2382	Com o pessoal	
+239	Perdas por imparidade acumuladas	
+24	Estado e outros entes públicos	
+241	Imposto sobre o rendimento	
+242	Retenção de impostos sobre rendimentos	
+243	Imposto sobre o valor acrescentado (IVA)	
+2431	IVA — Suportado	
+2432	IVA — Dedutível	
+2433	IVA — Liquidado	
+2434	IVA — Regularizações	
+2435	IVA — Apuramento	
+2436	IVA — A pagar	
+2437	IVA — A recuperar	
+2438	IVA — Reembolsos pedidos	
+2439	IVA — Liquidações oficiosas	
+244	Outros impostos	
+245	Contribuições para a Segurança Social	
+246	Tributos das autarquias locais	
+248	Outras tributações	
+25	Financiamentos obtidos	
+251	Instituições de crédito e sociedades financeiras	
+2511	Empréstimos bancários	
+2512	Descobertos bancários	
+2513	Locações financeiras	
+252	Mercado de valores mobiliários	
+2521	Empréstimos por obrigações	
+253	Participantes de capital	
+2531	Empresa-mãe — Suprimentos e outros mútuos	
+2532	Outros participantes — Suprimentos e outros mútuos	
+254	Subsidiárias, associadas e empreendimentos conjuntos	
+258	Outros financiadores	
+26	Acionistas/sócios	
+261	Acionistas c/ subscrição	
+262	Quotas não liberadas	
+263	Adiantamentos por conta de lucros	
+264	Resultados atribuídos	
+265	Lucros disponíveis	
+266	Empréstimos concedidos — empresa-mãe	
+268	Outras operações	
+269	Perdas por imparidade acumuladas	
+27	Outras contas a receber e a pagar	
+271	Fornecedores de investimentos	
+2711	Fornecedores de investimentos — contas gerais	
+2712	Faturas em receção e conferência	
+2713	Adiantamentos a fornecedores de investimentos	
+272	Devedores e credores por acréscimos (periodização económica)	
+2721	Devedores por acréscimos de rendimentos	
+2722	Credores por acréscimos de gastos	
+273	Benefícios pós-emprego	
+274	Impostos diferidos	
+2741	Ativos por impostos diferidos	
+2742	Passivos por impostos diferidos	
+275	Credores por subscrições não liberadas	
+276	Adiantamentos por conta de vendas	
+278	Outros devedores e credores	
+279	Perdas por imparidade acumuladas	
+28	Diferimentos	
+281	Gastos a reconhecer	
+282	Rendimentos a reconhecer	
+29	Provisões	
+291	Impostos	
+292	Garantias a clientes	
+293	Processos judiciais em curso	
+294	Acidentes de trabalho e doenças profissionais	
+295	Matérias ambientais	
+296	Contratos onerosos	
+297	Reestruturação	
+298	Outras provisões	
+3	Inventários e ativos biológicos	
+31	Compras	
+311	Mercadorias	
+312	Matérias-primas, subsidiárias e de consumo	
+313	Ativos biológicos	
+317	Devoluções de compras	
+318	Descontos e abatimentos em compras	
+32	Mercadorias	
+325	Mercadorias em trânsito	
+326	Mercadorias em poder de terceiros	
+329	Perdas por imparidade acumuladas	
+33	Matérias-primas, subsidiárias e de consumo	
+331	Matérias-primas	
+332	Matérias subsidiárias	
+333	Embalagens	
+334	Materiais diversos	
+335	Matérias em trânsito	
+339	Perdas por imparidade acumuladas	
+34	Produtos acabados e intermédios	
+346	Produtos em poder de terceiros	
+349	Perdas por imparidade acumuladas	
+35	Subprodutos, desperdícios, resíduos e refugos	
+351	Subprodutos	
+352	Desperdícios, resíduos e refugos	
+359	Perdas por imparidade acumuladas	
+36	Produtos e trabalhos em curso	
+37	Ativos biológicos	
+371	Consumíveis	
+3711	Animais	
+3712	Plantas	
+372	De produção	
+3721	Animais	
+3722	Plantas	
+38	Reclassificação e regularização de inventários	
+382	Mercadorias	
+383	Matérias-primas, subsidiárias e de consumo	
+384	Produtos acabados e intermédios	
+385	Subprodutos, desperdícios, resíduos e refugos	
+386	Produtos e trabalhos em curso	
+387	Ativos biológicos	
+39	Adiantamentos por conta de compras	
+4	Investimentos	
+41	Investimentos financeiros	
+411	Investimentos em subsidiárias	
+4111	Participações de capital — método da equivalência patrimonial	
+4112	Participações de capital — outros métodos	
+4113	Empréstimos concedidos	
+412	Investimentos em associadas	
+4121	Participações de capital — método da equivalência patrimonial	
+4122	Participações de capital — outros métodos	
+4123	Empréstimos concedidos	
+413	Investimentos em entidades conjuntamente controladas	
+4131	Participações de capital — método da equivalência patrimonial	
+4132	Participações de capital — outros métodos	
+4133	Empréstimos concedidos	
+414	Investimentos noutras empresas	
+4141	Participações de capital	
+4142	Empréstimos concedidos	
+415	Outros investimentos financeiros	
+4151	Detidos até à maturidade	
+4158	Outros	
+419	Perdas por imparidade acumuladas	
+42	Propriedades de investimento	
+421	Terrenos e recursos naturais	
+422	Edifícios e outras construções	
+426	Outras propriedades de investimento	
+428	Depreciações acumuladas	
+429	Perdas por imparidade acumuladas	
+43	Ativos fixos tangíveis	
+431	Terrenos e recursos naturais	
+432	Edifícios e outras construções	
+433	Equipamento básico	
+434	Equipamento de transporte	
+435	Equipamento administrativo	
+436	Equipamentos biológicos	
+437	Outros ativos fixos tangíveis	
+438	Depreciações acumuladas	
+439	Perdas por imparidade acumuladas	
+44	Ativos intangíveis	
+441	Goodwill	
+442	Projetos de desenvolvimento	
+443	Programas de computador	
+444	Propriedade industrial	
+446	Outros ativos intangíveis	
+448	Amortizações acumuladas	
+449	Perdas por imparidade acumuladas	
+45	Investimentos em curso	
+451	Investimentos financeiros em curso	
+452	Propriedades de investimento em curso	
+453	Ativos fixos tangíveis em curso	
+454	Ativos intangíveis em curso	
+455	Adiantamentos por conta de investimentos	
+459	Perdas por imparidade acumuladas	
+46	Ativos não correntes detidos para venda	
+469	Perdas por imparidade acumuladas	
+5	Capital, reservas e resultados transitados	
+51	Capital subscrito	
+52	Ações (quotas) próprias	
+521	Valor nominal	
+522	Descontos e prémios	
+53	Outros instrumentos de capital próprio	
+54	Prémios de emissão	
+55	Reservas	
+551	Reservas legais	
+552	Outras reservas	
+56	Resultados transitados	
+57	Ajustamentos em ativos financeiros	
+571	Relacionados com o método da equivalência patrimonial	
+5711	Ajustamentos de transição	
+5712	Lucros não atribuídos	
+5713	Decorrentes de outras variações nos capitais próprios das participadas	
+579	Outros	
+58	Excedentes de revalorização de ativos fixos tangíveis e intangíveis	
+581	Reavaliações decorrentes de diplomas legais	
+5811	Antes de imposto sobre o rendimento	
+5812	Impostos diferidos	
+589	Outros excedentes	
+5891	Antes de imposto sobre o rendimento	
+5892	Impostos diferidos	
+59	Outras variações no capital próprio	
+591	Diferenças de conversão de demonstrações financeiras	
+592	Ajustamentos por impostos diferidos	
+593	Subsídios	
+594	Doações	
+599	Outras	
+6	Gastos	
+61	Custo dos inventários vendidos e das matérias consumidas	
+611	Mercadorias	
+612	Matérias-primas, subsidiárias e de consumo	
+613	Ativos biológicos (compras)	
+62	Fornecimentos e serviços externos	
+621	Subcontratos	
+622	Serviços especializados	
+6221	Trabalhos especializados	
+6222	Publicidade e propaganda	
+6223	Vigilância e segurança	
+6224	Honorários	
+6225	Comissões	
+6226	Conservação e reparação	
+6228	Outros	
+623	Materiais	
+6231	Ferramentas e utensílios de desgaste rápido	
+6232	Livros e documentação técnica	
+6233	Material de escritório	
+6234	Artigos para oferta	
+6238	Outros	
+624	Energia e fluidos	
+6241	Eletricidade	
+6242	Combustíveis	
+6243	Água	
+6248	Outros	
+625	Deslocações, estadas e transportes	
+6251	Deslocações e estadas	
+6252	Transportes de pessoal	
+6253	Transportes de mercadorias	
+6258	Outros	
+626	Serviços diversos	
+6261	Rendas e alugueres	
+6262	Comunicação	
+6263	Seguros	
+6264	Royalties	
+6265	Contencioso e notariado	
+6266	Despesas de representação	
+6267	Limpeza, higiene e conforto	
+6268	Outros serviços	
+63	Gastos com o pessoal	
+631	Remunerações dos órgãos sociais	
+632	Remunerações do pessoal	
+633	Benefícios pós-emprego	
+6331	Prémios para pensões	
+6332	Outros benefícios	
+634	Indemnizações	
+635	Encargos sobre remunerações	
+636	Seguros de acidentes no trabalho e doenças profissionais	
+637	Gastos de ação social	
+638	Outros gastos com o pessoal	
+64	Gastos de depreciação e de amortização	
+641	Propriedades de investimento	
+642	Ativos fixos tangíveis	
+643	Ativos intangíveis	
+65	Perdas por imparidade	
+651	Em dívidas a receber	
+6511	Clientes	
+6512	Outros devedores	
+652	Em inventários	
+653	Em investimentos financeiros	
+654	Em propriedades de investimento	
+655	Em ativos fixos tangíveis	
+656	Em ativos intangíveis	
+657	Em investimentos em curso	
+658	Em ativos não correntes detidos para venda	
+66	Perdas por reduções de justo valor	
+661	Em instrumentos financeiros	
+662	Em investimentos financeiros	
+663	Em propriedades de investimento	
+664	Em ativos biológicos	
+67	Provisões do período	
+671	Impostos	
+672	Garantias a clientes	
+673	Processos judiciais em curso	
+674	Acidentes no trabalho e doenças profissionais	
+675	Matérias ambientais	
+676	Contratos onerosos	
+677	Reestruturação	
+678	Outras provisões	
+68	Outros gastos	
+681	Impostos	
+6812	Impostos indiretos	
+6813	Taxas	
+682	Descontos de pronto pagamento concedidos	
+683	Dívidas incobráveis	
+684	Perdas em inventários	
+6841	Sinistros	
+6842	Quebras	
+6848	Outras perdas	
+685	Gastos em subsidiárias, associadas e empreendimentos conjuntos	
+6851	Cobertura de prejuízos	
+6852	Aplicação do método da equivalência patrimonial	
+6853	Alienações	
+6858	Outros gastos	
+686	Gastos nos restantes investimentos financeiros	
+6861	Cobertura de prejuízos	
+6862	Alienações	
+6863	Diferenças de câmbio desfavoráveis	
+6868	Outros gastos	
+687	Gastos em investimentos não financeiros	
+6871	Alienações	
+6872	Sinistros	
+6873	Abates	
+6874	Gastos em propriedades de investimento	
+6878	Outros gastos	
+688	Outros	
+6881	Correções relativas a períodos anteriores	
+6882	Donativos	
+6883	Quotizações	
+6884	Ofertas e amostras de inventários	
+6885	Insuficiência da estimativa para impostos	
+6886	Perdas em instrumentos financeiros	
+6887	Diferenças de câmbio desfavoráveis	
+6888	Outros não especificados	
+69	Gastos de financiamento	
+691	Juros suportados	
+6911	Juros de financiamentos obtidos	
+6918	Outros juros	
+692	Diferenças de câmbio desfavoráveis	
+6921	Relativas a financiamentos obtidos	
+6928	Outras	
+698	Outros gastos de financiamento	
+6981	Relativos a financiamentos obtidos	
+6988	Outros	
+7	Rendimentos	
+71	Vendas	
+711	Mercadorias	
+712	Produtos acabados e intermédios	
+713	Subprodutos, desperdícios, resíduos e refugos	
+714	Ativos biológicos	
+716	IVA das vendas com imposto incluído	
+717	Devoluções de vendas	
+718	Descontos e abatimentos em vendas	
+72	Prestações de serviços	
+721	Serviço A	
+722	Serviço B	
+725	Serviços secundários	
+726	IVA dos serviços com imposto incluído	
+728	Descontos e abatimentos	
+73	Variações nos inventários da produção	
+731	Produtos acabados e intermédios	
+732	Subprodutos, desperdícios, resíduos e refugos	
+733	Produtos e trabalhos em curso	
+734	Ativos biológicos	
+74	Trabalhos para a própria entidade	
+741	Ativos fixos tangíveis	
+742	Ativos intangíveis	
+743	Propriedades de investimento	
+744	Ativos por gastos diferidos	
+75	Subsídios à exploração	
+751	Subsídios das entidades públicas	
+752	Subsídios de outras entidades	
+76	Reversões	
+761	De depreciações e de amortizações	
+7611	Propriedades de investimento	
+7612	Ativos fixos tangíveis	
+7613	Ativos intangíveis	
+762	De perdas por imparidade	
+7621	Em dívidas a receber	
+76211	Clientes	
+76212	Outros devedores	
+7622	Em inventários	
+7623	Em investimentos financeiros	
+7624	Em propriedades de investimento	
+7625	Em ativos fixos tangíveis	
+7626	Em ativos intangíveis	
+7627	Em investimentos em curso	
+7628	Em ativos não correntes detidos para venda	
+763	De provisões	
+7631	Impostos	
+7632	Garantias a clientes	
+7633	Processos judiciais em curso	
+7634	Acidentes no trabalho e doenças profissionais	
+7635	Matérias ambientais	
+7636	Contratos onerosos	
+7637	Reestruturação	
+7638	Outras provisões	
+77	Ganhos por aumentos de justo valor	
+771	Em instrumentos financeiros	
+772	Em investimentos financeiros	
+773	Em propriedades de investimento	
+774	Em ativos biológicos	
+78	Outros rendimentos	
+781	Rendimentos suplementares	
+7811	Serviços sociais	
+7812	Aluguer de equipamento	
+7813	Estudos, projetos e assistência tecnológica	
+7814	Royalties	
+7815	Desempenho de cargos sociais noutras empresas	
+7816	Outros rendimentos suplementares	
+782	Descontos de pronto pagamento obtidos	
+783	Recuperação de dívidas a receber	
+784	Ganhos em inventários	
+7841	Sinistros	
+7842	Sobras	
+7848	Outros ganhos	
+785	Rendimentos em subsidiárias, associadas e empreendimentos conjuntos	
+7851	Aplicação do método da equivalência patrimonial	
+7852	Alienações	
+7858	Outros rendimentos	
+786	Rendimentos nos restantes ativos financeiros	
+7861	Diferenças de câmbio favoráveis	
+7862	Alienações	
+7868	Outros rendimentos	
+787	Rendimentos em investimentos não financeiros	
+7871	Alienações	
+7872	Sinistros	
+7873	Rendas e outros rendimentos em propriedades de investimento	
+7878	Outros rendimentos	
+788	Outros	
+7881	Correções relativas a períodos anteriores	
+7882	Excesso da estimativa para impostos	
+7883	Imputação de subsídios para investimentos	
+7884	Ganhos em outros instrumentos financeiros	
+7885	Restituição de impostos	
+7887	Diferenças de câmbio favoráveis	
+7888	Outros não especificados	
+79	Juros, dividendos e outros rendimentos similares	
+791	Juros obtidos	
+7911	De depósitos	
+7912	De outras aplicações de meios financeiros líquidos	
+7913	De financiamentos concedidos a associadas e empreendimentos conjuntos	
+7914	De financiamentos concedidos a subsidiárias	
+7915	De financiamentos obtidos	
+7918	De outros financiamentos concedidos	
+792	Dividendos obtidos	
+7921	De aplicações de meios financeiros líquidos	
+7922	De associadas e empreendimentos conjuntos	
+7923	De subsidiárias	
+7928	Outras	
+793	Diferenças de câmbio favoráveis	
+798	Outros rendimentos similares	
+8	Resultados	
+81	Resultado líquido do período	
+811	Resultado antes de impostos	
+812	Imposto sobre o rendimento do período	
+8121	Imposto estimado para o período	
+8122	Imposto diferido	
+818	Resultado líquido	
+89	Dividendos antecipados	

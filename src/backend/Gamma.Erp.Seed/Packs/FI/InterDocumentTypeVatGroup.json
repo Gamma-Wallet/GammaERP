@@ -1,0 +1,219 @@
+[
+ {
+  "Key": "inter_document_type_vat_group:1:25.5",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:SALES_INVOICE_GOODS",
+  "VatGroupId": "vat_group:FI_25.5"
+ },
+ {
+  "Key": "inter_document_type_vat_group:1:14",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:SALES_INVOICE_GOODS",
+  "VatGroupId": "vat_group:FI_14"
+ },
+ {
+  "Key": "inter_document_type_vat_group:1:10",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:SALES_INVOICE_GOODS",
+  "VatGroupId": "vat_group:FI_10"
+ },
+ {
+  "Key": "inter_document_type_vat_group:2:0",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:PAYMENT",
+  "VatGroupId": "vat_group:FI_0"
+ },
+ {
+  "Key": "inter_document_type_vat_group:3:0",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:RECEIPT",
+  "VatGroupId": "vat_group:FI_0"
+ },
+ {
+  "Key": "inter_document_type_vat_group:4:0",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:PREPAYMENT",
+  "VatGroupId": "vat_group:FI_0"
+ },
+ {
+  "Key": "inter_document_type_vat_group:5:0",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:POS_MONEY_IN",
+  "VatGroupId": "vat_group:FI_0"
+ },
+ {
+  "Key": "inter_document_type_vat_group:6:0",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:POS_MONEY_OUT",
+  "VatGroupId": "vat_group:FI_0"
+ },
+ {
+  "Key": "inter_document_type_vat_group:7:0",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:WAGE_PAYMENT",
+  "VatGroupId": "vat_group:FI_0"
+ },
+ {
+  "Key": "inter_document_type_vat_group:8:0",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:RENT_PAYMENT",
+  "VatGroupId": "vat_group:FI_0"
+ },
+ {
+  "Key": "inter_document_type_vat_group:9:0",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:POS_REFUND",
+  "VatGroupId": "vat_group:FI_0"
+ },
+ {
+  "Key": "inter_document_type_vat_group:10:0",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:POS_MONEY_FROM_STAFF",
+  "VatGroupId": "vat_group:FI_0"
+ },
+ {
+  "Key": "inter_document_type_vat_group:11:0",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:GOODS_TRANSFER",
+  "VatGroupId": "vat_group:FI_0"
+ },
+ {
+  "Key": "inter_document_type_vat_group:12:0",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:GOODS_OUT_TO_STAFF",
+  "VatGroupId": "vat_group:FI_0"
+ },
+ {
+  "Key": "inter_document_type_vat_group:13:0",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:GOODS_TRANSFER_STAFF_TO_CLIENT",
+  "VatGroupId": "vat_group:FI_0"
+ },
+ {
+  "Key": "inter_document_type_vat_group:14:0",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:GOODS_IN_FROM_STAFF",
+  "VatGroupId": "vat_group:FI_0"
+ },
+ {
+  "Key": "inter_document_type_vat_group:15:0",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:GOODS_TRANSFER_TO_STAFF",
+  "VatGroupId": "vat_group:FI_0"
+ },
+ {
+  "Key": "inter_document_type_vat_group:16:0",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:GOODS_TRANSFER_TO_CLIENT",
+  "VatGroupId": "vat_group:FI_0"
+ },
+ {
+  "Key": "inter_document_type_vat_group:17:0",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:GOODS_TRANSFER_FROM_CLIENT",
+  "VatGroupId": "vat_group:FI_0"
+ },
+ {
+  "Key": "inter_document_type_vat_group:18:0",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:REVERSAL_PAYMENT",
+  "VatGroupId": "vat_group:FI_0"
+ },
+ {
+  "Key": "inter_document_type_vat_group:19:0",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:REVERSAL_RECEIPT",
+  "VatGroupId": "vat_group:FI_0"
+ },
+ {
+  "Key": "inter_document_type_vat_group:20:0",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:REVERSAL_PREPAYMENT",
+  "VatGroupId": "vat_group:FI_0"
+ },
+ {
+  "Key": "interdocumenttypevatgroup:production:PRODUCTION:0:0",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:PRODUCTION",
+  "VatGroupId": "vat_group:FI_0"
+ },
+ {
+  "Key": "interdocumenttypevatgroup:production:UNIT_SPLIT:0:0",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:UNIT_SPLIT",
+  "VatGroupId": "vat_group:FI_0"
+ },
+ {
+  "Key": "interdocumenttypevatgroup:production:REVERSAL_UNIT_SPLIT:0:0",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:REVERSAL_UNIT_SPLIT",
+  "VatGroupId": "vat_group:FI_0"
+ },
+ {
+  "Key": "interdocumenttypevatgroup:disassembly:DISASSEMBLY:0:0",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:DISASSEMBLY",
+  "VatGroupId": "vat_group:FI_0"
+ },
+ {
+  "Key": "inter_document_type_vat_group:11:reversal:0",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:REVERSAL_GOODS_TRANSFER",
+  "VatGroupId": "vat_group:FI_0"
+ },
+ {
+  "Key": "inter_document_type_vat_group:15:reversal:0",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:REVERSAL_GOODS_TRANSFER_TO_STAFF",
+  "VatGroupId": "vat_group:FI_0"
+ },
+ {
+  "Key": "inter_document_type_vat_group:16:reversal:0",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:REVERSAL_GOODS_TRANSFER_TO_CLIENT",
+  "VatGroupId": "vat_group:FI_0"
+ },
+ {
+  "Key": "inter_document_type_vat_group:17:reversal:0",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:REVERSAL_GOODS_TRANSFER_FROM_CLIENT",
+  "VatGroupId": "vat_group:FI_0"
+ },
+ {
+  "Key": "inter_document_type_vat_group:13:reversal:0",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:REVERSAL_GOODS_TRANSFER_STAFF_TO_CLIENT",
+  "VatGroupId": "vat_group:FI_0"
+ }
+]

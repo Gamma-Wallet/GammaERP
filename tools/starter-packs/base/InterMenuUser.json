@@ -1,0 +1,42 @@
+[
+ {
+  "Key": "inter_menu_user:PRODUCTION_POINT",
+  "IdSup": null,
+  "Active": true,
+  "MenuId": "menu:PRODUCTION_DISPLAY",
+  "UserId": null,
+  "RoleId": "user_category:PRODUCTION_POINT"
+ },
+ {
+  "Key": "inter_menu_user:TECHNICIAN",
+  "IdSup": null,
+  "Active": true,
+  "MenuId": "menu:REPAIR_BOARD",
+  "UserId": null,
+  "RoleId": "user_category:TECHNICIAN"
+ },
+ {
+  "Key": "inter_menu_user:WAITER:POINT_OF_SALE",
+  "IdSup": null,
+  "Active": true,
+  "MenuId": "menu:POINT_OF_SALE",
+  "UserId": null,
+  "RoleId": "user_category:WAITER"
+ },
+ {
+  "Key": "inter_menu_user:CASHIER:POINT_OF_SALE",
+  "IdSup": null,
+  "Active": true,
+  "MenuId": "menu:POINT_OF_SALE",
+  "UserId": null,
+  "RoleId": "user_category:CASHIER"
+ },
+ {
+  "Key": "inter_menu_user:CASHIER:POS_SHIFTS",
+  "IdSup": null,
+  "Active": true,
+  "MenuId": "menu:POS_SHIFTS",
+  "UserId": null,
+  "RoleId": "user_category:CASHIER"
+ }
+]

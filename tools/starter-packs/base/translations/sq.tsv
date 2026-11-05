@@ -1,0 +1,18 @@
+# The base names in Albanian that names.tsv has no row for, keyed by the English name.
+# en	sq
+1 to 12; January when empty	1 deri 12; janar kur është bosh
+Fiscal year starts (month)	Viti financiar fillon (muaji)
+Fixed assets, assets	Aktive afatgjata, aktive
+Fixed assets, buildings	Aktive afatgjata, ndërtesa
+Fixed assets, computers	Aktive afatgjata, kompjuterë
+Fixed assets, furniture	Aktive afatgjata, mobilje
+Fixed assets, intangible	Aktive afatgjata, jomateriale
+Fixed assets, land	Aktive afatgjata, toka
+Fixed assets, office	Aktive afatgjata, zyrë
+Fixed assets, vehicles	Aktive afatgjata, mjete transporti
+Transaction stock cost	Kosto e gjendjes së veprimit
+Disassembly	Çmontim
+Product taken apart	Produkt i çmontuar
+Recovered component	Përbërës i rikuperuar
+Disassembly waste	Firo çmontimi
+Point-of-sale reversal	Faturë stornimi POS

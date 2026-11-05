@@ -1,0 +1,54 @@
+[
+ {
+  "Key": "vat_group:HU_27",
+  "IdSup": null,
+  "Active": true,
+  "Code": null,
+  "Name": {
+   "en": "VAT 27%",
+   "hu": "ÁFA 27%"
+  },
+  "Description": null,
+  "Rate": 27.0,
+  "Depreciation": false
+ },
+ {
+  "Key": "vat_group:HU_18",
+  "IdSup": null,
+  "Active": true,
+  "Code": null,
+  "Name": {
+   "en": "VAT 18%",
+   "hu": "ÁFA 18%"
+  },
+  "Description": null,
+  "Rate": 18.0,
+  "Depreciation": false
+ },
+ {
+  "Key": "vat_group:HU_5",
+  "IdSup": null,
+  "Active": true,
+  "Code": null,
+  "Name": {
+   "en": "VAT 5%",
+   "hu": "ÁFA 5%"
+  },
+  "Description": null,
+  "Rate": 5.0,
+  "Depreciation": false
+ },
+ {
+  "Key": "vat_group:HU_0",
+  "IdSup": null,
+  "Active": true,
+  "Code": null,
+  "Name": {
+   "en": "VAT 0% / exempt",
+   "hu": "ÁFA 0% / mentes"
+  },
+  "Description": null,
+  "Rate": 0.0,
+  "Depreciation": false
+ }
+]

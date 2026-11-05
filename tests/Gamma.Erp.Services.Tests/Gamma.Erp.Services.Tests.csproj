@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <!-- The services' rules on a real PostgreSQL (Testcontainers), on the example organisation and the Albanian pack. -->
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <IsPackable>false</IsPackable>
+    <NoWarn>$(NoWarn);CA1707;CA1515;CA2007</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="xunit.v3" />
+    <PackageReference Include="AwesomeAssertions" />
+    <PackageReference Include="Testcontainers.PostgreSql" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\backend\Gamma.Erp.Migrations\Gamma.Erp.Migrations.csproj" />
+    <ProjectReference Include="..\..\src\backend\Gamma.Erp.Seed\Gamma.Erp.Seed.csproj" />
+    <ProjectReference Include="..\..\src\backend\Gamma.Erp.Services\Gamma.Erp.Services.csproj" />
+  </ItemGroup>
+</Project>

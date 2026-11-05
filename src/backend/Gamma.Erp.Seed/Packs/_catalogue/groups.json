@@ -1,0 +1,21 @@
+{
+  "chart": {
+    "models": ["ChartCategory", "ChartType", "InterChartTypeCategory", "Chart", "InterChartCategory", "ChartAssetsLiabilities", "ChartProfitLoss"],
+    "requires": []
+  },
+  "documents": {
+    "models": ["DocumentCategory", "DocumentType", "DocumentTypeConfFrom", "DocumentTypeConfTo", "DocumentTypeInfo", "InterDocumentTypeCategory",
+      "InterDocumentTypeTransactionCategory", "InterDocumentTypeTransactionType", "InterDocumentTypeTransactionTypePaymentMethod", "InterDocumentTypeVatGroup",
+      "InterPaymentMethodDocumentType", "DocumentTypeFlow", "DashboardItem", "MigrationItem", "GroupPurchaseSetting", "PointOfSaleSetting", "TransactionFill", "TransactionTypeConfFrom", "TransactionTypeConfTo", "VatReturnBox",
+      "VatReturnBoxRule"],
+    "requires": []
+  },
+  "posting": {
+    "models": ["Scenario", "ScenarioConf"],
+    "requires": ["chart", "documents"]
+  },
+  "depreciation": {
+    "models": ["DepreciationMethod", "DepreciationBook", "DepreciationScenario", "DepreciationScenarioConf"],
+    "requires": ["chart"]
+  }
+}

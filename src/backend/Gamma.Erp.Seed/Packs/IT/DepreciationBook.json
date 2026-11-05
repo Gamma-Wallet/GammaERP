@@ -1,0 +1,34 @@
+[
+ {
+  "Key": "depreciation_book:COMPANY",
+  "IdSup": null,
+  "Active": true,
+  "Name": {
+   "en": "Company book",
+   "it": "Libro civilistico"
+  },
+  "Description": {
+   "en": "Company book",
+   "it": "Libro civilistico"
+  },
+  "MethodId": "depreciation_method:STRAIGHT_LINE",
+  "ChartCategoryId": "chart_category:STATUTORY",
+  "Posts": true
+ },
+ {
+  "Key": "depreciation_book:TAX",
+  "IdSup": null,
+  "Active": true,
+  "Name": {
+   "en": "Tax book",
+   "it": "Libro fiscale"
+  },
+  "Description": {
+   "en": "Tax book",
+   "it": "Libro fiscale"
+  },
+  "MethodId": "depreciation_method:STRAIGHT_LINE",
+  "ChartCategoryId": "chart_category:STATUTORY",
+  "Posts": false
+ }
+]

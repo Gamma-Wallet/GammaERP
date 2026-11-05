@@ -1,0 +1,87 @@
+@for (p of shown(); track p.id) {
+  <ui-field [class.wide]="wide(p)" [label]="nameOf(p)" [hint]="hintOf(p)" [error]="errorOf(p)" [required]="p.required">
+    @switch (p.kind) {
+      @case (Kind.Text) {
+        @if (languages().length === 1) {
+          <input uiInput [value]="textOf(p, languages()[0])" [disabled]="disabled()"
+            (input)="setText(p, languages()[0], $any($event.target).value)" (blur)="touch(p)" />
+        } @else {
+          <div class="languages">
+            @for (language of languages(); track language) {
+              <label class="language">
+                <span>{{ language }}</span>
+                <input class="control" [value]="textOf(p, language)" [disabled]="disabled()"
+                  [attr.aria-label]="nameOf(p) + ' (' + language + ')'" (input)="setText(p, language, $any($event.target).value)"
+                  (blur)="touch(p)" />
+              </label>
+            }
+          </div>
+        }
+      }
+      @case (Kind.Number) {
+        <input uiInput [numeric]="true" inputmode="decimal" [value]="raw(p)" [disabled]="disabled()"
+          (input)="set(p, $any($event.target).value)" (blur)="touch(p)" />
+      }
+      @case (Kind.Date) {
+        <input uiInput type="date" [value]="raw(p)" [disabled]="disabled()" (input)="set(p, $any($event.target).value)"
+          (blur)="touch(p)" />
+      }
+      @case (Kind.DateTime) {
+        <input uiInput type="datetime-local" [value]="toLocalInput(values()[p.id])" [disabled]="disabled()"
+          (input)="set(p, $any($event.target).value)" (blur)="touch(p)" />
+      }
+      @case (Kind.List) {
+        <ui-select [options]="choicesOf(p)" [value]="one(p)" [disabled]="disabled()"
+          (valueChange)="set(p, $event); touch(p)" />
+      }
+      @case (Kind.MultiList) {
+        <ui-select [multiple]="true" [options]="choicesOf(p)" [values]="many(p)" [disabled]="disabled()"
+          (valuesChange)="set(p, $event); touch(p)" />
+      }
+      @case (Kind.ActivatingList) {
+        <div class="checks" role="group" [attr.aria-label]="nameOf(p)">
+          @for (choice of choicesOf(p); track choice.value) {
+            <ui-checkbox [checked]="isPicked(p, choice.value)" [disabled]="disabled()" (checkedChange)="pick(p, choice.value, $event)">
+              {{ choice.label }}
+            </ui-checkbox>
+          }
+        </div>
+      }
+      @case (Kind.Lookup) {
+        <ui-select [options]="lookupOf(p)" [searchable]="true" [value]="one(p)"
+          [disabled]="disabled()" (valueChange)="set(p, $event); touch(p)" (search)="lookupSearch.emit({ property: p, query: $event })" />
+      }
+      @case (Kind.Location) {
+        <div class="pair">
+          <input class="control number" inputmode="decimal" [placeholder]="text.ui.latitude" [attr.aria-label]="text.ui.latitude"
+            [value]="part(p, 'lat')" [disabled]="disabled()" (input)="setLocation(p, 'lat', $any($event.target).value)"
+            (blur)="touch(p)" />
+          <input class="control number" inputmode="decimal" [placeholder]="text.ui.longitude" [attr.aria-label]="text.ui.longitude"
+            [value]="part(p, 'lng')" [disabled]="disabled()" (input)="setLocation(p, 'lng', $any($event.target).value)"
+            (blur)="touch(p)" />
+        </div>
+      }
+      @case (Kind.MultiText) {
+        <div class="list">
+          @for (item of texts(p); track $index; let i = $index) {
+            <div class="row">
+              <input class="control" [value]="itemText(item)" [disabled]="disabled()" [attr.aria-label]="nameOf(p) + ' ' + (i + 1)"
+                (input)="setTextAt(p, i, $any($event.target).value)" (blur)="touch(p)" />
+              <button uiButton variant="quiet" [iconOnly]="true" [disabled]="disabled()" [attr.aria-label]="text.ui.remove"
+                (click)="removeText(p, i)"><ui-icon name="trash" /></button>
+            </div>
+          }
+          <div><button uiButton size="small" [disabled]="disabled()" (click)="addText(p)"><ui-icon name="plus" [size]="14" />{{ text.ui.add }}</button></div>
+        </div>
+      }
+      @case (Kind.Photo) {
+        <div class="photo">
+          <ui-icon name="image" />
+          <span class="path">{{ raw(p) }}</span>
+          <button uiButton size="small" [disabled]="disabled()" (click)="file.click()">{{ text.ui.chooseFile }}</button>
+          <input #file type="file" accept="image/*" (change)="chooseFile(p, file)" />
+        </div>
+      }
+    }
+  </ui-field>
+}

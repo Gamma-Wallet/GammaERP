@@ -1,0 +1,2280 @@
+[
+ {
+  "Key": "menu:DASHBOARD",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "DASHBOARD",
+  "Name": {
+   "en": "Dashboard",
+   "it": "Cruscotto"
+  },
+  "SortOrder": 10,
+  "Screen": "dashboard",
+  "Parameter": null,
+  "DocumentCategoryId": null,
+  "Icon": "pie-chart",
+  "AdminOnly": false
+ },
+ {
+  "Key": "menu:DOCUMENTS",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "DOCUMENTS",
+  "Name": {
+   "en": "Documents",
+   "it": "Documenti"
+  },
+  "SortOrder": 20,
+  "Screen": null,
+  "Parameter": null,
+  "DocumentCategoryId": null,
+  "Icon": "file-text",
+  "AdminOnly": false
+ },
+ {
+  "Key": "menu:DOCUMENTS_SALES",
+  "IdSup": "menu:DOCUMENTS",
+  "Active": true,
+  "IsElement": true,
+  "Code": "DOCUMENTS_SALES",
+  "Name": {
+   "en": "Sales",
+   "it": "Vendite"
+  },
+  "SortOrder": 10,
+  "Screen": "documents",
+  "Parameter": null,
+  "DocumentCategoryId": "document_category:SALES",
+  "Icon": "receipt",
+  "AdminOnly": false
+ },
+ {
+  "Key": "menu:DOCUMENTS_PURCHASES",
+  "IdSup": "menu:DOCUMENTS",
+  "Active": true,
+  "IsElement": true,
+  "Code": "DOCUMENTS_PURCHASES",
+  "Name": {
+   "en": "Purchases",
+   "it": "Acquisti"
+  },
+  "SortOrder": 20,
+  "Screen": "documents",
+  "Parameter": null,
+  "DocumentCategoryId": "document_category:PURCHASES",
+  "Icon": "cart",
+  "AdminOnly": false
+ },
+ {
+  "Key": "menu:DOCUMENTS_TRANSFERS",
+  "IdSup": "menu:DOCUMENTS",
+  "Active": true,
+  "IsElement": true,
+  "Code": "DOCUMENTS_TRANSFERS",
+  "Name": {
+   "en": "Goods transfers",
+   "it": "Trasferimenti merci"
+  },
+  "SortOrder": 30,
+  "Screen": "documents",
+  "Parameter": null,
+  "DocumentCategoryId": "document_category:TRANSFERS",
+  "Icon": "truck",
+  "AdminOnly": false
+ },
+ {
+  "Key": "menu:DOCUMENTS_PRODUCTION",
+  "IdSup": "menu:DOCUMENTS",
+  "Active": true,
+  "IsElement": true,
+  "Code": "DOCUMENTS_PRODUCTION",
+  "Name": {
+   "en": "Production",
+   "it": "Produzione"
+  },
+  "SortOrder": 40,
+  "Screen": "documents",
+  "Parameter": null,
+  "DocumentCategoryId": "document_category:PRODUCTION",
+  "Icon": "factory",
+  "AdminOnly": false
+ },
+ {
+  "Key": "menu:DOCUMENTS_CASH_DESK",
+  "IdSup": "menu:DOCUMENTS",
+  "Active": true,
+  "IsElement": true,
+  "Code": "DOCUMENTS_CASH_DESK",
+  "Name": {
+   "en": "Cash desk",
+   "it": "Cassa"
+  },
+  "SortOrder": 50,
+  "Screen": "documents",
+  "Parameter": null,
+  "DocumentCategoryId": "document_category:CASH_DESK",
+  "Icon": "wallet",
+  "AdminOnly": false
+ },
+ {
+  "Key": "menu:DOCUMENTS_BANK",
+  "IdSup": "menu:DOCUMENTS",
+  "Active": true,
+  "IsElement": true,
+  "Code": "DOCUMENTS_BANK",
+  "Name": {
+   "en": "Bank",
+   "it": "Banca"
+  },
+  "SortOrder": 60,
+  "Screen": "documents",
+  "Parameter": null,
+  "DocumentCategoryId": "document_category:BANK",
+  "Icon": "bank",
+  "AdminOnly": false
+ },
+ {
+  "Key": "menu:DOCUMENTS_OFFERS",
+  "IdSup": "menu:DOCUMENTS",
+  "Active": true,
+  "IsElement": true,
+  "Code": "DOCUMENTS_OFFERS",
+  "Name": {
+   "en": "Offers",
+   "it": "Preventivi"
+  },
+  "SortOrder": 70,
+  "Screen": "documents",
+  "Parameter": null,
+  "DocumentCategoryId": "document_category:OFFERS",
+  "Icon": "tag",
+  "AdminOnly": false
+ },
+ {
+  "Key": "menu:DOCUMENTS_ORDERS",
+  "IdSup": "menu:DOCUMENTS",
+  "Active": true,
+  "IsElement": true,
+  "Code": "DOCUMENTS_ORDERS",
+  "Name": {
+   "en": "Orders",
+   "it": "Ordini"
+  },
+  "SortOrder": 80,
+  "Screen": "documents",
+  "Parameter": null,
+  "DocumentCategoryId": "document_category:ORDERS",
+  "Icon": "list",
+  "AdminOnly": false
+ },
+ {
+  "Key": "menu:DOCUMENTS_REPAIRS",
+  "IdSup": "menu:DOCUMENTS",
+  "Active": true,
+  "IsElement": true,
+  "Code": "DOCUMENTS_REPAIRS",
+  "Name": {
+   "en": "Repairs",
+   "it": "Riparazioni"
+  },
+  "SortOrder": 90,
+  "Screen": "documents",
+  "Parameter": null,
+  "DocumentCategoryId": "document_category:REPAIRS",
+  "Icon": "settings",
+  "AdminOnly": false
+ },
+ {
+  "Key": "menu:DOCUMENTS_CONTRACTS",
+  "IdSup": "menu:DOCUMENTS",
+  "Active": true,
+  "IsElement": true,
+  "Code": "DOCUMENTS_CONTRACTS",
+  "Name": {
+   "en": "Contracts",
+   "it": "Contratti"
+  },
+  "SortOrder": 100,
+  "Screen": "documents",
+  "Parameter": null,
+  "DocumentCategoryId": "document_category:CONTRACTS",
+  "Icon": "handshake",
+  "AdminOnly": false
+ },
+ {
+  "Key": "menu:DOCUMENTS_JOURNAL",
+  "IdSup": "menu:DOCUMENTS",
+  "Active": true,
+  "IsElement": true,
+  "Code": "DOCUMENTS_JOURNAL",
+  "Name": {
+   "en": "Journal",
+   "it": "Prima nota"
+  },
+  "SortOrder": 110,
+  "Screen": "documents",
+  "Parameter": null,
+  "DocumentCategoryId": "document_category:JOURNAL",
+  "Icon": "book",
+  "AdminOnly": false
+ },
+ {
+  "Key": "menu:DOCUMENTS_RECURRING_JOURNAL",
+  "IdSup": "menu:DOCUMENTS",
+  "Active": true,
+  "IsElement": true,
+  "Code": "DOCUMENTS_RECURRING_JOURNAL",
+  "Name": {
+   "en": "Recurring journal",
+   "it": "Prima nota ricorrente"
+  },
+  "SortOrder": 120,
+  "Screen": "documents",
+  "Parameter": null,
+  "DocumentCategoryId": "document_category:RECURRING_JOURNAL",
+  "Icon": "repeat",
+  "AdminOnly": false
+ },
+ {
+  "Key": "menu:DOCUMENTS_REVERSALS",
+  "IdSup": "menu:DOCUMENTS",
+  "Active": true,
+  "IsElement": true,
+  "Code": "DOCUMENTS_REVERSALS",
+  "Name": {
+   "en": "Reversals",
+   "it": "Storni"
+  },
+  "SortOrder": 130,
+  "Screen": "documents",
+  "Parameter": null,
+  "DocumentCategoryId": "document_category:REVERSALS",
+  "Icon": "undo",
+  "AdminOnly": false
+ },
+ {
+  "Key": "menu:CRM",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "CRM",
+  "Name": {
+   "en": "CRM",
+   "it": "CRM"
+  },
+  "SortOrder": 30,
+  "Screen": null,
+  "Parameter": null,
+  "DocumentCategoryId": null,
+  "Icon": "users",
+  "AdminOnly": false
+ },
+ {
+  "Key": "menu:OPPORTUNITIES",
+  "IdSup": "menu:CRM",
+  "Active": true,
+  "IsElement": true,
+  "Code": "OPPORTUNITIES",
+  "Name": {
+   "en": "Opportunities",
+   "it": "Opportunità"
+  },
+  "SortOrder": 10,
+  "Screen": "entities",
+  "Parameter": "opportunities",
+  "DocumentCategoryId": null,
+  "Icon": "handshake",
+  "AdminOnly": false
+ },
+ {
+  "Key": "menu:PIPELINE",
+  "IdSup": "menu:CRM",
+  "Active": true,
+  "IsElement": true,
+  "Code": "PIPELINE",
+  "Name": {
+   "en": "Pipeline",
+   "it": "Pipeline"
+  },
+  "SortOrder": 20,
+  "Screen": "opportunity-board",
+  "Parameter": null,
+  "DocumentCategoryId": null,
+  "Icon": "trending-up",
+  "AdminOnly": false
+ },
+ {
+  "Key": "menu:OPPORTUNITY_FORECAST",
+  "IdSup": "menu:CRM",
+  "Active": true,
+  "IsElement": true,
+  "Code": "OPPORTUNITY_FORECAST",
+  "Name": {
+   "en": "Forecast",
+   "it": "Previsione"
+  },
+  "SortOrder": 30,
+  "Screen": "report",
+  "Parameter": "opportunity-forecast",
+  "DocumentCategoryId": null,
+  "Icon": "trending-up",
+  "AdminOnly": false
+ },
+ {
+  "Key": "menu:OPPORTUNITY_DOCUMENTS",
+  "IdSup": "menu:CRM",
+  "Active": true,
+  "IsElement": true,
+  "Code": "OPPORTUNITY_DOCUMENTS",
+  "Name": {
+   "en": "Opportunities and documents",
+   "it": "Opportunità e documenti"
+  },
+  "SortOrder": 40,
+  "Screen": "report",
+  "Parameter": "opportunity-documents",
+  "DocumentCategoryId": null,
+  "Icon": "list",
+  "AdminOnly": false
+ },
+ {
+  "Key": "menu:OPPORTUNITY_STAGES",
+  "IdSup": "menu:CRM",
+  "Active": true,
+  "IsElement": true,
+  "Code": "OPPORTUNITY_STAGES",
+  "Name": {
+   "en": "Opportunity stages",
+   "it": "Fasi delle opportunità"
+  },
+  "SortOrder": 50,
+  "Screen": "config",
+  "Parameter": "opportunity-stages",
+  "DocumentCategoryId": null,
+  "Icon": "settings",
+  "AdminOnly": false
+ },
+ {
+  "Key": "menu:SETUP_OPPORTUNITIES",
+  "IdSup": "menu:CRM",
+  "Active": true,
+  "IsElement": true,
+  "Code": "SETUP_OPPORTUNITIES",
+  "Name": {
+   "en": "Opportunity types and categories",
+   "it": "Tipi e categorie delle opportunità"
+  },
+  "SortOrder": 60,
+  "Screen": "setup",
+  "Parameter": "opportunities",
+  "DocumentCategoryId": null,
+  "Icon": "folder",
+  "AdminOnly": false
+ },
+ {
+  "Key": "menu:CONTRACTS_AREA",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "CONTRACTS_AREA",
+  "Name": {
+   "en": "Contracts",
+   "it": "Contratti"
+  },
+  "SortOrder": 40,
+  "Screen": null,
+  "Parameter": null,
+  "DocumentCategoryId": null,
+  "Icon": "handshake",
+  "AdminOnly": false
+ },
+ {
+  "Key": "menu:INVOICE_RUN",
+  "IdSup": "menu:CONTRACTS_AREA",
+  "Active": true,
+  "IsElement": true,
+  "Code": "INVOICE_RUN",
+  "Name": {
+   "en": "Invoice run",
+   "it": "Fatturazione contratti"
+  },
+  "SortOrder": 10,
+  "Screen": "invoice-run",
+  "Parameter": null,
+  "DocumentCategoryId": null,
+  "Icon": "repeat",
+  "AdminOnly": false
+ },
+ {
+  "Key": "menu:RENEWALS",
+  "IdSup": "menu:CONTRACTS_AREA",
+  "Active": true,
+  "IsElement": true,
+  "Code": "RENEWALS",
+  "Name": {
+   "en": "Renewals",
+   "it": "Rinnovi"
+  },
+  "SortOrder": 20,
+  "Screen": "renewals",
+  "Parameter": null,
+  "DocumentCategoryId": null,
+  "Icon": "calendar",
+  "AdminOnly": false
+ },
+ {
+  "Key": "menu:BANK_STATEMENTS",
+  "IdSup": "menu:DOCUMENTS",
+  "Active": true,
+  "IsElement": true,
+  "Code": "BANK_STATEMENTS",
+  "Name": {
+   "en": "Bank statements",
+   "it": "Estratti conto"
+  },
+  "SortOrder": 140,
+  "Screen": "bank-statements",
+  "Parameter": null,
+  "DocumentCategoryId": null,
+  "Icon": "coins",
+  "AdminOnly": false
+ },
+ {
+  "Key": "menu:APPROVALS",
+  "IdSup": "menu:DOCUMENTS",
+  "Active": true,
+  "IsElement": true,
+  "Code": "APPROVALS",
+  "Name": {
+   "en": "Approvals",
+   "it": "Approvazioni"
+  },
+  "SortOrder": 150,
+  "Screen": "approvals",
+  "Parameter": null,
+  "DocumentCategoryId": null,
+  "Icon": "check",
+  "AdminOnly": false
+ },
+ {
+  "Key": "menu:PARTNERS",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "PARTNERS",
+  "Name": {
+   "en": "Clients and suppliers",
+   "it": "Clienti e fornitori"
+  },
+  "SortOrder": 50,
+  "Screen": "entities",
+  "Parameter": "partners",
+  "DocumentCategoryId": null,
+  "Icon": "users",
+  "AdminOnly": false
+ },
+ {
+  "Key": "menu:REPAIRS_AREA",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "REPAIRS_AREA",
+  "Name": {
+   "en": "Repairs",
+   "it": "Riparazioni"
+  },
+  "SortOrder": 60,
+  "Screen": null,
+  "Parameter": null,
+  "DocumentCategoryId": null,
+  "Icon": "settings",
+  "AdminOnly": false
+ },
+ {
+  "Key": "menu:REPAIR_BOARD",
+  "IdSup": "menu:REPAIRS_AREA",
+  "Active": true,
+  "IsElement": true,
+  "Code": "REPAIR_BOARD",
+  "Name": {
+   "en": "Repair board",
+   "it": "Tabellone riparazioni"
+  },
+  "SortOrder": 10,
+  "Screen": "repairs",
+  "Parameter": null,
+  "DocumentCategoryId": null,
+  "Icon": "grid",
+  "AdminOnly": false
+ },
+ {
+  "Key": "menu:REPAIR_STAGES",
+  "IdSup": "menu:REPAIRS_AREA",
+  "Active": true,
+  "IsElement": true,
+  "Code": "REPAIR_STAGES",
+  "Name": {
+   "en": "Repair stages",
+   "it": "Fasi di riparazione"
+  },
+  "SortOrder": 20,
+  "Screen": "config",
+  "Parameter": "repair-stages",
+  "DocumentCategoryId": null,
+  "Icon": "settings",
+  "AdminOnly": false
+ },
+ {
+  "Key": "menu:POS",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "POS",
+  "Name": {
+   "en": "Point of sale",
+   "it": "Punto vendita"
+  },
+  "SortOrder": 70,
+  "Screen": null,
+  "Parameter": null,
+  "DocumentCategoryId": null,
+  "Icon": "shop",
+  "AdminOnly": false
+ },
+ {
+  "Key": "menu:POINT_OF_SALE",
+  "IdSup": "menu:POS",
+  "Active": true,
+  "IsElement": true,
+  "Code": "POINT_OF_SALE",
+  "Name": {
+   "en": "Open the point of sale",
+   "it": "Apri il punto vendita"
+  },
+  "SortOrder": 10,
+  "Screen": "pos",
+  "Parameter": "sme",
+  "DocumentCategoryId": null,
+  "Icon": "shop",
+  "AdminOnly": false
+ },
+ {
+  "Key": "menu:PRODUCTION_DISPLAY",
+  "IdSup": "menu:POS",
+  "Active": true,
+  "IsElement": true,
+  "Code": "PRODUCTION_DISPLAY",
+  "Name": {
+   "en": "Production point display",
+   "it": "Schermo del punto di produzione"
+  },
+  "SortOrder": 20,
+  "Screen": "production-display",
+  "Parameter": null,
+  "DocumentCategoryId": null,
+  "Icon": "factory",
+  "AdminOnly": false
+ },
+ {
+  "Key": "menu:PRODUCTION_ROUTES",
+  "IdSup": "menu:POS",
+  "Active": true,
+  "IsElement": true,
+  "Code": "PRODUCTION_ROUTES",
+  "Name": {
+   "en": "Production routes",
+   "it": "Percorsi di produzione"
+  },
+  "SortOrder": 30,
+  "Screen": "config",
+  "Parameter": "production-routes",
+  "DocumentCategoryId": null,
+  "Icon": "route",
+  "AdminOnly": false
+ },
+ {
+  "Key": "menu:POS_SHIFTS",
+  "IdSup": "menu:POS",
+  "Active": true,
+  "IsElement": true,
+  "Code": "POS_SHIFTS",
+  "Name": {
+   "en": "Shifts",
+   "it": "Turni"
+  },
+  "SortOrder": 40,
+  "Screen": "pos-shifts",
+  "Parameter": null,
+  "DocumentCategoryId": null,
+  "Icon": "receipt",
+  "AdminOnly": false
+ },
+ {
+  "Key": "menu:POS_SETTINGS",
+  "IdSup": "menu:POS",
+  "Active": true,
+  "IsElement": true,
+  "Code": "POS_SETTINGS",
+  "Name": {
+   "en": "Point-of-sale settings",
+   "it": "Impostazioni del punto vendita"
+  },
+  "SortOrder": 50,
+  "Screen": "config",
+  "Parameter": "point-of-sale-settings",
+  "DocumentCategoryId": null,
+  "Icon": "settings",
+  "AdminOnly": false
+ },
+ {
+  "Key": "menu:POS_SHOWS",
+  "IdSup": "menu:POS",
+  "Active": true,
+  "IsElement": true,
+  "Code": "POS_SHOWS",
+  "Name": {
+   "en": "Shows",
+   "it": "Spettacoli"
+  },
+  "SortOrder": 60,
+  "Screen": "config",
+  "Parameter": "pos-shows",
+  "DocumentCategoryId": null,
+  "Icon": "calendar",
+  "AdminOnly": false
+ },
+ {
+  "Key": "menu:PRODUCTS_AREA",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "PRODUCTS_AREA",
+  "Name": {
+   "en": "Products and services",
+   "it": "Prodotti e servizi"
+  },
+  "SortOrder": 80,
+  "Screen": null,
+  "Parameter": null,
+  "DocumentCategoryId": null,
+  "Icon": "package",
+  "AdminOnly": false
+ },
+ {
+  "Key": "menu:PRODUCTS",
+  "IdSup": "menu:PRODUCTS_AREA",
+  "Active": true,
+  "IsElement": true,
+  "Code": "PRODUCTS",
+  "Name": {
+   "en": "Products and services",
+   "it": "Prodotti e servizi"
+  },
+  "SortOrder": 10,
+  "Screen": "entities",
+  "Parameter": "products",
+  "DocumentCategoryId": null,
+  "Icon": "package",
+  "AdminOnly": false
+ },
+ {
+  "Key": "menu:SALE_PRICES",
+  "IdSup": "menu:PRODUCTS_AREA",
+  "Active": true,
+  "IsElement": true,
+  "Code": "SALE_PRICES",
+  "Name": {
+   "en": "Sale prices",
+   "it": "Prezzi di vendita"
+  },
+  "SortOrder": 20,
+  "Screen": "config",
+  "Parameter": "sale-prices",
+  "DocumentCategoryId": null,
+  "Icon": "tag",
+  "AdminOnly": false
+ },
+ {
+  "Key": "menu:SALE_PRICE_TYPES",
+  "IdSup": "menu:PRODUCTS_AREA",
+  "Active": true,
+  "IsElement": true,
+  "Code": "SALE_PRICE_TYPES",
+  "Name": {
+   "en": "Sale prices by partner",
+   "it": "Prezzi di vendita per partner"
+  },
+  "SortOrder": 30,
+  "Screen": "config",
+  "Parameter": "sale-price-types",
+  "DocumentCategoryId": null,
+  "Icon": "tag",
+  "AdminOnly": false
+ },
+ {
+  "Key": "menu:SALE_MENUS",
+  "IdSup": "menu:PRODUCTS_AREA",
+  "Active": true,
+  "IsElement": true,
+  "Code": "SALE_MENUS",
+  "Name": {
+   "en": "Sale menus",
+   "it": "Menu di vendita"
+  },
+  "SortOrder": 40,
+  "Screen": "config",
+  "Parameter": "sale-menus",
+  "DocumentCategoryId": null,
+  "Icon": "menu",
+  "AdminOnly": false
+ },
+ {
+  "Key": "menu:SALE_MENU_CATEGORIES",
+  "IdSup": "menu:PRODUCTS_AREA",
+  "Active": true,
+  "IsElement": true,
+  "Code": "SALE_MENU_CATEGORIES",
+  "Name": {
+   "en": "Sale menu categories",
+   "it": "Categorie dei menu di vendita"
+  },
+  "SortOrder": 50,
+  "Screen": "config",
+  "Parameter": "sale-menu-categories",
+  "DocumentCategoryId": null,
+  "Icon": "menu",
+  "AdminOnly": false
+ },
+ {
+  "Key": "menu:UNITS",
+  "IdSup": "menu:PRODUCTS_AREA",
+  "Active": true,
+  "IsElement": true,
+  "Code": "UNITS",
+  "Name": {
+   "en": "Units of measure",
+   "it": "Unità di misura"
+  },
+  "SortOrder": 60,
+  "Screen": "entities",
+  "Parameter": "units",
+  "DocumentCategoryId": null,
+  "Icon": "ruler",
+  "AdminOnly": false
+ },
+ {
+  "Key": "menu:UNIT_CONVERSIONS",
+  "IdSup": "menu:PRODUCTS_AREA",
+  "Active": true,
+  "IsElement": true,
+  "Code": "UNIT_CONVERSIONS",
+  "Name": {
+   "en": "Unit conversions",
+   "it": "Conversioni tra unità"
+  },
+  "SortOrder": 70,
+  "Screen": "config",
+  "Parameter": "unit-conversions",
+  "DocumentCategoryId": null,
+  "Icon": "ruler",
+  "AdminOnly": false
+ },
+ {
+  "Key": "menu:STOCK_AREA",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "STOCK_AREA",
+  "Name": {
+   "en": "Stock and production",
+   "it": "Magazzino e produzione"
+  },
+  "SortOrder": 90,
+  "Screen": null,
+  "Parameter": null,
+  "DocumentCategoryId": null,
+  "Icon": "factory",
+  "AdminOnly": false
+ },
+ {
+  "Key": "menu:ORDERS_TO_PRODUCE",
+  "IdSup": "menu:STOCK_AREA",
+  "Active": true,
+  "IsElement": true,
+  "Code": "ORDERS_TO_PRODUCE",
+  "Name": {
+   "en": "Orders to produce",
+   "it": "Ordini da produrre"
+  },
+  "SortOrder": 10,
+  "Screen": "production",
+  "Parameter": null,
+  "DocumentCategoryId": null,
+  "Icon": "factory",
+  "AdminOnly": false
+ },
+ {
+  "Key": "menu:LOTS",
+  "IdSup": "menu:STOCK_AREA",
+  "Active": true,
+  "IsElement": true,
+  "Code": "LOTS",
+  "Name": {
+   "en": "Lots",
+   "it": "Lotti"
+  },
+  "SortOrder": 20,
+  "Screen": "lots",
+  "Parameter": null,
+  "DocumentCategoryId": null,
+  "Icon": "list",
+  "AdminOnly": false
+ },
+ {
+  "Key": "menu:SERIAL_NUMBERS",
+  "IdSup": "menu:STOCK_AREA",
+  "Active": true,
+  "IsElement": true,
+  "Code": "SERIAL_NUMBERS",
+  "Name": {
+   "en": "Serial numbers",
+   "it": "Numeri di serie"
+  },
+  "SortOrder": 30,
+  "Screen": "serials",
+  "Parameter": null,
+  "DocumentCategoryId": null,
+  "Icon": "list",
+  "AdminOnly": false
+ },
+ {
+  "Key": "menu:RECIPES",
+  "IdSup": "menu:STOCK_AREA",
+  "Active": true,
+  "IsElement": true,
+  "Code": "RECIPES",
+  "Name": {
+   "en": "Recipes",
+   "it": "Ricette"
+  },
+  "SortOrder": 40,
+  "Screen": "config",
+  "Parameter": "product-recipes",
+  "DocumentCategoryId": null,
+  "Icon": "chef-hat",
+  "AdminOnly": false
+ },
+ {
+  "Key": "menu:CONVERT_STOCK",
+  "IdSup": "menu:STOCK_AREA",
+  "Active": true,
+  "IsElement": true,
+  "Code": "CONVERT_STOCK",
+  "Name": {
+   "en": "Convert stock between units",
+   "it": "Conversione delle giacenze tra unità"
+  },
+  "SortOrder": 50,
+  "Screen": "stock-convert",
+  "Parameter": null,
+  "DocumentCategoryId": null,
+  "Icon": "scale",
+  "AdminOnly": false
+ },
+ {
+  "Key": "menu:ACCOUNTING_SETUP",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "ACCOUNTING_SETUP",
+  "Name": {
+   "en": "Accounting setup",
+   "it": "Impostazioni contabili"
+  },
+  "SortOrder": 100,
+  "Screen": null,
+  "Parameter": null,
+  "DocumentCategoryId": null,
+  "Icon": "book-open",
+  "AdminOnly": false
+ },
+ {
+  "Key": "menu:CHART",
+  "IdSup": "menu:ACCOUNTING_SETUP",
+  "Active": true,
+  "IsElement": true,
+  "Code": "CHART",
+  "Name": {
+   "en": "Chart of accounts",
+   "it": "Piano dei conti"
+  },
+  "SortOrder": 10,
+  "Screen": "entities",
+  "Parameter": "charts",
+  "DocumentCategoryId": null,
+  "Icon": "list",
+  "AdminOnly": false
+ },
+ {
+  "Key": "menu:BALANCE_SHEET_LINES",
+  "IdSup": "menu:ACCOUNTING_SETUP",
+  "Active": true,
+  "IsElement": true,
+  "Code": "BALANCE_SHEET_LINES",
+  "Name": {
+   "en": "Balance sheet lines",
+   "it": "Righe dello stato patrimoniale"
+  },
+  "SortOrder": 20,
+  "Screen": "config",
+  "Parameter": "balance-sheet-lines",
+  "DocumentCategoryId": null,
+  "Icon": "list",
+  "AdminOnly": false
+ },
+ {
+  "Key": "menu:PROFIT_LOSS_LINES",
+  "IdSup": "menu:ACCOUNTING_SETUP",
+  "Active": true,
+  "IsElement": true,
+  "Code": "PROFIT_LOSS_LINES",
+  "Name": {
+   "en": "Profit and loss lines",
+   "it": "Righe del conto economico"
+  },
+  "SortOrder": 30,
+  "Screen": "config",
+  "Parameter": "profit-loss-lines",
+  "DocumentCategoryId": null,
+  "Icon": "list",
+  "AdminOnly": false
+ },
+ {
+  "Key": "menu:SETUP_CHARTS",
+  "IdSup": "menu:ACCOUNTING_SETUP",
+  "Active": true,
+  "IsElement": true,
+  "Code": "SETUP_CHARTS",
+  "Name": {
+   "en": "Chart types and categories",
+   "it": "Tipi e categorie del piano"
+  },
+  "SortOrder": 40,
+  "Screen": "setup",
+  "Parameter": "charts",
+  "DocumentCategoryId": null,
+  "Icon": "folder",
+  "AdminOnly": false
+ },
+ {
+  "Key": "menu:POSTING_SCENARIOS",
+  "IdSup": "menu:ACCOUNTING_SETUP",
+  "Active": true,
+  "IsElement": true,
+  "Code": "POSTING_SCENARIOS",
+  "Name": {
+   "en": "Posting scenarios",
+   "it": "Scenari di contabilizzazione"
+  },
+  "SortOrder": 50,
+  "Screen": "config",
+  "Parameter": "scenarios",
+  "DocumentCategoryId": null,
+  "Icon": "git-branch",
+  "AdminOnly": false
+ },
+ {
+  "Key": "menu:SCENARIO_LINES",
+  "IdSup": "menu:ACCOUNTING_SETUP",
+  "Active": true,
+  "IsElement": true,
+  "Code": "SCENARIO_LINES",
+  "Name": {
+   "en": "Scenario lines",
+   "it": "Righe degli scenari"
+  },
+  "SortOrder": 60,
+  "Screen": "config",
+  "Parameter": "scenario-lines",
+  "DocumentCategoryId": null,
+  "Icon": "rows",
+  "AdminOnly": false
+ },
+ {
+  "Key": "menu:UNBALANCED_SCENARIOS",
+  "IdSup": "menu:ACCOUNTING_SETUP",
+  "Active": true,
+  "IsElement": true,
+  "Code": "UNBALANCED_SCENARIOS",
+  "Name": {
+   "en": "Unbalanced scenarios",
+   "it": "Scenari non bilanciati"
+  },
+  "SortOrder": 70,
+  "Screen": "report",
+  "Parameter": "unbalanced-scenarios",
+  "DocumentCategoryId": null,
+  "Icon": "scale",
+  "AdminOnly": false
+ },
+ {
+  "Key": "menu:CHART_MAPPINGS",
+  "IdSup": "menu:ACCOUNTING_SETUP",
+  "Active": true,
+  "IsElement": true,
+  "Code": "CHART_MAPPINGS",
+  "Name": {
+   "en": "Account mapping",
+   "it": "Corrispondenza dei conti"
+  },
+  "SortOrder": 80,
+  "Screen": "config",
+  "Parameter": "chart-mappings",
+  "DocumentCategoryId": null,
+  "Icon": "git-branch",
+  "AdminOnly": false
+ },
+ {
+  "Key": "menu:YEAR_CLOSING",
+  "IdSup": "menu:ACCOUNTING_SETUP",
+  "Active": true,
+  "IsElement": true,
+  "Code": "YEAR_CLOSING",
+  "Name": {
+   "en": "Close the year",
+   "it": "Chiudi l'esercizio"
+  },
+  "SortOrder": 90,
+  "Screen": "year-closing",
+  "Parameter": null,
+  "DocumentCategoryId": null,
+  "Icon": "key",
+  "AdminOnly": false
+ },
+ {
+  "Key": "menu:CLOSED_PERIODS",
+  "IdSup": "menu:ACCOUNTING_SETUP",
+  "Active": true,
+  "IsElement": true,
+  "Code": "CLOSED_PERIODS",
+  "Name": {
+   "en": "Closed periods",
+   "it": "Periodi chiusi"
+  },
+  "SortOrder": 100,
+  "Screen": "config",
+  "Parameter": "closed-periods",
+  "DocumentCategoryId": null,
+  "Icon": "key",
+  "AdminOnly": false
+ },
+ {
+  "Key": "menu:VAT_GROUPS",
+  "IdSup": "menu:ACCOUNTING_SETUP",
+  "Active": true,
+  "IsElement": true,
+  "Code": "VAT_GROUPS",
+  "Name": {
+   "en": "VAT groups",
+   "it": "Gruppi IVA"
+  },
+  "SortOrder": 110,
+  "Screen": "config",
+  "Parameter": "vat-groups",
+  "DocumentCategoryId": null,
+  "Icon": "percent",
+  "AdminOnly": false
+ },
+ {
+  "Key": "menu:VAT_RETURN_BOXES",
+  "IdSup": "menu:ACCOUNTING_SETUP",
+  "Active": true,
+  "IsElement": true,
+  "Code": "VAT_RETURN_BOXES",
+  "Name": {
+   "en": "VAT return boxes",
+   "it": "Righi della dichiarazione IVA"
+  },
+  "SortOrder": 120,
+  "Screen": "config",
+  "Parameter": "vat-return-boxes",
+  "DocumentCategoryId": null,
+  "Icon": "grid",
+  "AdminOnly": false
+ },
+ {
+  "Key": "menu:VAT_RETURN_BOX_RULES",
+  "IdSup": "menu:ACCOUNTING_SETUP",
+  "Active": true,
+  "IsElement": true,
+  "Code": "VAT_RETURN_BOX_RULES",
+  "Name": {
+   "en": "VAT return box rules",
+   "it": "Regole dei righi della dichiarazione"
+  },
+  "SortOrder": 130,
+  "Screen": "config",
+  "Parameter": "vat-return-box-rules",
+  "DocumentCategoryId": null,
+  "Icon": "grid",
+  "AdminOnly": false
+ },
+ {
+  "Key": "menu:FIXED_ASSETS",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "FIXED_ASSETS",
+  "Name": {
+   "en": "Fixed assets",
+   "it": "Immobilizzazioni"
+  },
+  "SortOrder": 110,
+  "Screen": null,
+  "Parameter": null,
+  "DocumentCategoryId": null,
+  "Icon": "trending-down",
+  "AdminOnly": false
+ },
+ {
+  "Key": "menu:DEPRECIATION",
+  "IdSup": "menu:FIXED_ASSETS",
+  "Active": true,
+  "IsElement": true,
+  "Code": "DEPRECIATION",
+  "Name": {
+   "en": "Depreciation",
+   "it": "Ammortamento"
+  },
+  "SortOrder": 10,
+  "Screen": "depreciation",
+  "Parameter": null,
+  "DocumentCategoryId": null,
+  "Icon": "trending-down",
+  "AdminOnly": false
+ },
+ {
+  "Key": "menu:DEPRECIATION_BOOKS",
+  "IdSup": "menu:FIXED_ASSETS",
+  "Active": true,
+  "IsElement": true,
+  "Code": "DEPRECIATION_BOOKS",
+  "Name": {
+   "en": "Depreciation books",
+   "it": "Libri degli ammortamenti"
+  },
+  "SortOrder": 20,
+  "Screen": "config",
+  "Parameter": "depreciation-books",
+  "DocumentCategoryId": null,
+  "Icon": "book-open",
+  "AdminOnly": false
+ },
+ {
+  "Key": "menu:DEPRECIATION_METHODS",
+  "IdSup": "menu:FIXED_ASSETS",
+  "Active": true,
+  "IsElement": true,
+  "Code": "DEPRECIATION_METHODS",
+  "Name": {
+   "en": "Depreciation methods",
+   "it": "Metodi di ammortamento"
+  },
+  "SortOrder": 30,
+  "Screen": "config",
+  "Parameter": "depreciation-methods",
+  "DocumentCategoryId": null,
+  "Icon": "list",
+  "AdminOnly": false
+ },
+ {
+  "Key": "menu:DEPRECIATION_SCENARIOS",
+  "IdSup": "menu:FIXED_ASSETS",
+  "Active": true,
+  "IsElement": true,
+  "Code": "DEPRECIATION_SCENARIOS",
+  "Name": {
+   "en": "Depreciation scenarios",
+   "it": "Scenari di ammortamento"
+  },
+  "SortOrder": 40,
+  "Screen": "config",
+  "Parameter": "depreciation-scenarios",
+  "DocumentCategoryId": null,
+  "Icon": "git-branch",
+  "AdminOnly": false
+ },
+ {
+  "Key": "menu:DEPRECIATION_SCENARIO_LINES",
+  "IdSup": "menu:FIXED_ASSETS",
+  "Active": true,
+  "IsElement": true,
+  "Code": "DEPRECIATION_SCENARIO_LINES",
+  "Name": {
+   "en": "Depreciation scenario lines",
+   "it": "Righe degli scenari di ammortamento"
+  },
+  "SortOrder": 50,
+  "Screen": "config",
+  "Parameter": "depreciation-scenario-lines",
+  "DocumentCategoryId": null,
+  "Icon": "rows",
+  "AdminOnly": false
+ },
+ {
+  "Key": "menu:ASSET_VALUE",
+  "IdSup": "menu:FIXED_ASSETS",
+  "Active": true,
+  "IsElement": true,
+  "Code": "ASSET_VALUE",
+  "Name": {
+   "en": "Remaining asset value",
+   "it": "Valore residuo del cespite"
+  },
+  "SortOrder": 60,
+  "Screen": "asset-value",
+  "Parameter": null,
+  "DocumentCategoryId": null,
+  "Icon": "coins",
+  "AdminOnly": false
+ },
+ {
+  "Key": "menu:CURRENCIES_AREA",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "CURRENCIES_AREA",
+  "Name": {
+   "en": "Currencies and payments",
+   "it": "Valute e pagamenti"
+  },
+  "SortOrder": 120,
+  "Screen": null,
+  "Parameter": null,
+  "DocumentCategoryId": null,
+  "Icon": "coins",
+  "AdminOnly": false
+ },
+ {
+  "Key": "menu:CURRENCIES",
+  "IdSup": "menu:CURRENCIES_AREA",
+  "Active": true,
+  "IsElement": true,
+  "Code": "CURRENCIES",
+  "Name": {
+   "en": "Currencies and exchange rates",
+   "it": "Valute e tassi di cambio"
+  },
+  "SortOrder": 10,
+  "Screen": "currencies",
+  "Parameter": null,
+  "DocumentCategoryId": null,
+  "Icon": "coins",
+  "AdminOnly": false
+ },
+ {
+  "Key": "menu:PAYMENT_METHODS",
+  "IdSup": "menu:CURRENCIES_AREA",
+  "Active": true,
+  "IsElement": true,
+  "Code": "PAYMENT_METHODS",
+  "Name": {
+   "en": "Payment methods",
+   "it": "Metodi di pagamento"
+  },
+  "SortOrder": 20,
+  "Screen": "config",
+  "Parameter": "payment-methods",
+  "DocumentCategoryId": null,
+  "Icon": "credit-card",
+  "AdminOnly": false
+ },
+ {
+  "Key": "menu:BANK_STATEMENT_FORMATS",
+  "IdSup": "menu:CURRENCIES_AREA",
+  "Active": true,
+  "IsElement": true,
+  "Code": "BANK_STATEMENT_FORMATS",
+  "Name": {
+   "en": "Bank statement formats",
+   "it": "Formati estratti conto"
+  },
+  "SortOrder": 30,
+  "Screen": "config",
+  "Parameter": "bank-statement-formats",
+  "DocumentCategoryId": null,
+  "Icon": "coins",
+  "AdminOnly": false
+ },
+ {
+  "Key": "menu:PAYMENT_METHOD_COST_CENTERS",
+  "IdSup": "menu:CURRENCIES_AREA",
+  "Active": true,
+  "IsElement": true,
+  "Code": "PAYMENT_METHOD_COST_CENTERS",
+  "Name": {
+   "en": "Payment methods by cost centre",
+   "it": "Metodi di pagamento per centro di costo"
+  },
+  "SortOrder": 40,
+  "Screen": "config",
+  "Parameter": "payment-method-cost-centers",
+  "DocumentCategoryId": null,
+  "Icon": "credit-card",
+  "AdminOnly": false
+ },
+ {
+  "Key": "menu:REPORTS",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "REPORTS",
+  "Name": {
+   "en": "Reports",
+   "it": "Report"
+  },
+  "SortOrder": 130,
+  "Screen": null,
+  "Parameter": null,
+  "DocumentCategoryId": null,
+  "Icon": "bar-chart",
+  "AdminOnly": false
+ },
+ {
+  "Key": "menu:DASHBOARD_ITEMS",
+  "IdSup": "menu:REPORTS",
+  "Active": true,
+  "IsElement": true,
+  "Code": "DASHBOARD_ITEMS",
+  "Name": {
+   "en": "Dashboard items",
+   "it": "Elementi del cruscotto"
+  },
+  "SortOrder": 10,
+  "Screen": "config",
+  "Parameter": "dashboard-items",
+  "DocumentCategoryId": null,
+  "Icon": "list",
+  "AdminOnly": false
+ },
+ {
+  "Key": "menu:FINANCIAL_REPORTS",
+  "IdSup": "menu:REPORTS",
+  "Active": true,
+  "IsElement": false,
+  "Code": "FINANCIAL_REPORTS",
+  "Name": {
+   "en": "Financial",
+   "it": "Finanziari"
+  },
+  "SortOrder": 20,
+  "Screen": null,
+  "Parameter": null,
+  "DocumentCategoryId": null,
+  "Icon": "pie-chart",
+  "AdminOnly": false
+ },
+ {
+  "Key": "menu:BALANCE_SHEET",
+  "IdSup": "menu:FINANCIAL_REPORTS",
+  "Active": true,
+  "IsElement": true,
+  "Code": "BALANCE_SHEET",
+  "Name": {
+   "en": "Balance sheet",
+   "it": "Stato patrimoniale"
+  },
+  "SortOrder": 10,
+  "Screen": "report",
+  "Parameter": "balance-sheet",
+  "DocumentCategoryId": null,
+  "Icon": "scale",
+  "AdminOnly": false
+ },
+ {
+  "Key": "menu:PROFIT_LOSS",
+  "IdSup": "menu:FINANCIAL_REPORTS",
+  "Active": true,
+  "IsElement": true,
+  "Code": "PROFIT_LOSS",
+  "Name": {
+   "en": "Profit and loss",
+   "it": "Conto economico"
+  },
+  "SortOrder": 20,
+  "Screen": "report",
+  "Parameter": "profit-loss",
+  "DocumentCategoryId": null,
+  "Icon": "trending-up",
+  "AdminOnly": false
+ },
+ {
+  "Key": "menu:TRIAL_BALANCE",
+  "IdSup": "menu:FINANCIAL_REPORTS",
+  "Active": true,
+  "IsElement": true,
+  "Code": "TRIAL_BALANCE",
+  "Name": {
+   "en": "Trial balance",
+   "it": "Bilancio di verifica"
+  },
+  "SortOrder": 30,
+  "Screen": "report",
+  "Parameter": "trial-balance",
+  "DocumentCategoryId": null,
+  "Icon": "scale",
+  "AdminOnly": false
+ },
+ {
+  "Key": "menu:LEDGER",
+  "IdSup": "menu:FINANCIAL_REPORTS",
+  "Active": true,
+  "IsElement": true,
+  "Code": "LEDGER",
+  "Name": {
+   "en": "Account ledger",
+   "it": "Partitario del conto"
+  },
+  "SortOrder": 40,
+  "Screen": "report",
+  "Parameter": "ledger",
+  "DocumentCategoryId": null,
+  "Icon": "book-open",
+  "AdminOnly": false
+ },
+ {
+  "Key": "menu:AGEING",
+  "IdSup": "menu:FINANCIAL_REPORTS",
+  "Active": true,
+  "IsElement": true,
+  "Code": "AGEING",
+  "Name": {
+   "en": "Ageing",
+   "it": "Scadenzario"
+  },
+  "SortOrder": 50,
+  "Screen": "report",
+  "Parameter": "ageing",
+  "DocumentCategoryId": null,
+  "Icon": "calendar",
+  "AdminOnly": false
+ },
+ {
+  "Key": "menu:OPEN_ITEMS",
+  "IdSup": "menu:FINANCIAL_REPORTS",
+  "Active": true,
+  "IsElement": true,
+  "Code": "OPEN_ITEMS",
+  "Name": {
+   "en": "Open invoices",
+   "it": "Fatture aperte"
+  },
+  "SortOrder": 60,
+  "Screen": "report",
+  "Parameter": "open-items",
+  "DocumentCategoryId": null,
+  "Icon": "receipt",
+  "AdminOnly": false
+ },
+ {
+  "Key": "menu:PARTNER_LEDGER",
+  "IdSup": "menu:FINANCIAL_REPORTS",
+  "Active": true,
+  "IsElement": true,
+  "Code": "PARTNER_LEDGER",
+  "Name": {
+   "en": "Client and supplier ledger",
+   "it": "Partitario clienti e fornitori"
+  },
+  "SortOrder": 70,
+  "Screen": "report",
+  "Parameter": "partner-ledger",
+  "DocumentCategoryId": null,
+  "Icon": "book-open",
+  "AdminOnly": false
+ },
+ {
+  "Key": "menu:STAFF_LEDGER",
+  "IdSup": "menu:FINANCIAL_REPORTS",
+  "Active": true,
+  "IsElement": true,
+  "Code": "STAFF_LEDGER",
+  "Name": {
+   "en": "Staff ledger",
+   "it": "Partitario del personale"
+  },
+  "SortOrder": 80,
+  "Screen": "report",
+  "Parameter": "staff-ledger",
+  "DocumentCategoryId": null,
+  "Icon": "book-open",
+  "AdminOnly": false
+ },
+ {
+  "Key": "menu:COST_CENTER_LEDGER",
+  "IdSup": "menu:FINANCIAL_REPORTS",
+  "Active": true,
+  "IsElement": true,
+  "Code": "COST_CENTER_LEDGER",
+  "Name": {
+   "en": "Cost centre ledger",
+   "it": "Partitario del centro di costo"
+  },
+  "SortOrder": 90,
+  "Screen": "report",
+  "Parameter": "cost-center-ledger",
+  "DocumentCategoryId": null,
+  "Icon": "book-open",
+  "AdminOnly": false
+ },
+ {
+  "Key": "menu:VAT_REPORTS",
+  "IdSup": "menu:REPORTS",
+  "Active": true,
+  "IsElement": false,
+  "Code": "VAT_REPORTS",
+  "Name": {
+   "en": "VAT",
+   "it": "IVA"
+  },
+  "SortOrder": 30,
+  "Screen": null,
+  "Parameter": null,
+  "DocumentCategoryId": null,
+  "Icon": "percent",
+  "AdminOnly": false
+ },
+ {
+  "Key": "menu:VAT_REGISTER",
+  "IdSup": "menu:VAT_REPORTS",
+  "Active": true,
+  "IsElement": true,
+  "Code": "VAT_REGISTER",
+  "Name": {
+   "en": "VAT books",
+   "it": "Registri IVA"
+  },
+  "SortOrder": 10,
+  "Screen": "report",
+  "Parameter": "vat-register",
+  "DocumentCategoryId": null,
+  "Icon": "percent",
+  "AdminOnly": false
+ },
+ {
+  "Key": "menu:VAT_RETURN",
+  "IdSup": "menu:VAT_REPORTS",
+  "Active": true,
+  "IsElement": true,
+  "Code": "VAT_RETURN",
+  "Name": {
+   "en": "VAT return",
+   "it": "Dichiarazione IVA"
+  },
+  "SortOrder": 20,
+  "Screen": "report",
+  "Parameter": "vat-return",
+  "DocumentCategoryId": null,
+  "Icon": "percent",
+  "AdminOnly": false
+ },
+ {
+  "Key": "menu:VAT_RETURN_FORM",
+  "IdSup": "menu:VAT_REPORTS",
+  "Active": true,
+  "IsElement": true,
+  "Code": "VAT_RETURN_FORM",
+  "Name": {
+   "en": "VAT return by boxes",
+   "it": "Dichiarazione IVA per righi"
+  },
+  "SortOrder": 30,
+  "Screen": "report",
+  "Parameter": "vat-return-form",
+  "DocumentCategoryId": null,
+  "Icon": "grid",
+  "AdminOnly": false
+ },
+ {
+  "Key": "menu:STOCK_REPORTS",
+  "IdSup": "menu:REPORTS",
+  "Active": true,
+  "IsElement": false,
+  "Code": "STOCK_REPORTS",
+  "Name": {
+   "en": "Stock and sales",
+   "it": "Magazzino e vendite"
+  },
+  "SortOrder": 40,
+  "Screen": null,
+  "Parameter": null,
+  "DocumentCategoryId": null,
+  "Icon": "boxes",
+  "AdminOnly": false
+ },
+ {
+  "Key": "menu:STOCK",
+  "IdSup": "menu:STOCK_REPORTS",
+  "Active": true,
+  "IsElement": true,
+  "Code": "STOCK",
+  "Name": {
+   "en": "Stock",
+   "it": "Giacenze"
+  },
+  "SortOrder": 10,
+  "Screen": "report",
+  "Parameter": "stock",
+  "DocumentCategoryId": null,
+  "Icon": "boxes",
+  "AdminOnly": false
+ },
+ {
+  "Key": "menu:ITEM_TRACKING",
+  "IdSup": "menu:STOCK_REPORTS",
+  "Active": true,
+  "IsElement": true,
+  "Code": "ITEM_TRACKING",
+  "Name": {
+   "en": "Item movements",
+   "it": "Movimenti dell'articolo"
+  },
+  "SortOrder": 20,
+  "Screen": "report",
+  "Parameter": "item-tracking",
+  "DocumentCategoryId": null,
+  "Icon": "route",
+  "AdminOnly": false
+ },
+ {
+  "Key": "menu:DOCUMENT_LINES",
+  "IdSup": "menu:STOCK_REPORTS",
+  "Active": true,
+  "IsElement": true,
+  "Code": "DOCUMENT_LINES",
+  "Name": {
+   "en": "Sales and purchases by line",
+   "it": "Vendite e acquisti per riga"
+  },
+  "SortOrder": 30,
+  "Screen": "report",
+  "Parameter": "lines",
+  "DocumentCategoryId": null,
+  "Icon": "table",
+  "AdminOnly": false
+ },
+ {
+  "Key": "menu:LINES_BY_USER",
+  "IdSup": "menu:STOCK_REPORTS",
+  "Active": true,
+  "IsElement": true,
+  "Code": "LINES_BY_USER",
+  "Name": {
+   "en": "Sales by waiter",
+   "it": "Vendite per cameriere"
+  },
+  "SortOrder": 40,
+  "Screen": "report",
+  "Parameter": "lines-by-user",
+  "DocumentCategoryId": null,
+  "Icon": "table",
+  "AdminOnly": false
+ },
+ {
+  "Key": "menu:LINES_BY_PARTNER",
+  "IdSup": "menu:STOCK_REPORTS",
+  "Active": true,
+  "IsElement": true,
+  "Code": "LINES_BY_PARTNER",
+  "Name": {
+   "en": "Sales and purchases by client",
+   "it": "Vendite e acquisti per cliente"
+  },
+  "SortOrder": 50,
+  "Screen": "report",
+  "Parameter": "lines-by-partner",
+  "DocumentCategoryId": null,
+  "Icon": "table",
+  "AdminOnly": false
+ },
+ {
+  "Key": "menu:LINES_BY_COST_CENTER",
+  "IdSup": "menu:STOCK_REPORTS",
+  "Active": true,
+  "IsElement": true,
+  "Code": "LINES_BY_COST_CENTER",
+  "Name": {
+   "en": "Sales and purchases by cost centre",
+   "it": "Vendite e acquisti per centro di costo"
+  },
+  "SortOrder": 60,
+  "Screen": "report",
+  "Parameter": "lines-by-cost-center",
+  "DocumentCategoryId": null,
+  "Icon": "table",
+  "AdminOnly": false
+ },
+ {
+  "Key": "menu:TRANSFERS_REPORT",
+  "IdSup": "menu:STOCK_REPORTS",
+  "Active": true,
+  "IsElement": true,
+  "Code": "TRANSFERS_REPORT",
+  "Name": {
+   "en": "Transfers",
+   "it": "Trasferimenti"
+  },
+  "SortOrder": 70,
+  "Screen": "report",
+  "Parameter": "transfers",
+  "DocumentCategoryId": null,
+  "Icon": "route",
+  "AdminOnly": false
+ },
+ {
+  "Key": "menu:PURCHASE_PRICES",
+  "IdSup": "menu:STOCK_REPORTS",
+  "Active": true,
+  "IsElement": true,
+  "Code": "PURCHASE_PRICES",
+  "Name": {
+   "en": "Purchase price history",
+   "it": "Storico dei prezzi di acquisto"
+  },
+  "SortOrder": 80,
+  "Screen": "report",
+  "Parameter": "purchase-prices",
+  "DocumentCategoryId": null,
+  "Icon": "trending-up",
+  "AdminOnly": false
+ },
+ {
+  "Key": "menu:DOCUMENT_TOTALS",
+  "IdSup": "menu:STOCK_REPORTS",
+  "Active": true,
+  "IsElement": true,
+  "Code": "DOCUMENT_TOTALS",
+  "Name": {
+   "en": "Document totals",
+   "it": "Totali dei documenti"
+  },
+  "SortOrder": 90,
+  "Screen": "report",
+  "Parameter": "document-totals",
+  "DocumentCategoryId": null,
+  "Icon": "list",
+  "AdminOnly": false
+ },
+ {
+  "Key": "menu:CONTRACTS_REPORT",
+  "IdSup": "menu:STOCK_REPORTS",
+  "Active": true,
+  "IsElement": true,
+  "Code": "CONTRACTS_REPORT",
+  "Name": {
+   "en": "Contracts",
+   "it": "Contratti"
+  },
+  "SortOrder": 100,
+  "Screen": "report",
+  "Parameter": "contracts",
+  "DocumentCategoryId": null,
+  "Icon": "file-text",
+  "AdminOnly": false
+ },
+ {
+  "Key": "menu:PARTNER_STATISTICS",
+  "IdSup": "menu:STOCK_REPORTS",
+  "Active": true,
+  "IsElement": true,
+  "Code": "PARTNER_STATISTICS",
+  "Name": {
+   "en": "Client statistics",
+   "it": "Statistiche dei clienti"
+  },
+  "SortOrder": 110,
+  "Screen": "report",
+  "Parameter": "partner-statistics",
+  "DocumentCategoryId": null,
+  "Icon": "trending-up",
+  "AdminOnly": false
+ },
+ {
+  "Key": "menu:COMPANY",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "COMPANY",
+  "Name": {
+   "en": "Company",
+   "it": "Azienda"
+  },
+  "SortOrder": 140,
+  "Screen": null,
+  "Parameter": null,
+  "DocumentCategoryId": null,
+  "Icon": "building",
+  "AdminOnly": false
+ },
+ {
+  "Key": "menu:COST_CENTERS",
+  "IdSup": "menu:COMPANY",
+  "Active": true,
+  "IsElement": true,
+  "Code": "COST_CENTERS",
+  "Name": {
+   "en": "Cost centres",
+   "it": "Centri di costo"
+  },
+  "SortOrder": 10,
+  "Screen": "entities",
+  "Parameter": "cost-centers",
+  "DocumentCategoryId": null,
+  "Icon": "building",
+  "AdminOnly": false
+ },
+ {
+  "Key": "menu:EMPLOYEES",
+  "IdSup": "menu:COMPANY",
+  "Active": true,
+  "IsElement": true,
+  "Code": "EMPLOYEES",
+  "Name": {
+   "en": "Employees",
+   "it": "Dipendenti"
+  },
+  "SortOrder": 20,
+  "Screen": "entities",
+  "Parameter": "employees",
+  "DocumentCategoryId": null,
+  "Icon": "id-card",
+  "AdminOnly": false
+ },
+ {
+  "Key": "menu:GROUP_PURCHASES",
+  "IdSup": "menu:COMPANY",
+  "Active": true,
+  "IsElement": true,
+  "Code": "GROUP_PURCHASES",
+  "Name": {
+   "en": "Purchases from the group",
+   "it": "Acquisti dal gruppo"
+  },
+  "SortOrder": 30,
+  "Screen": "config",
+  "Parameter": "group-purchase-settings",
+  "DocumentCategoryId": null,
+  "Icon": "cart",
+  "AdminOnly": false
+ },
+ {
+  "Key": "menu:FILES",
+  "IdSup": "menu:COMPANY",
+  "Active": true,
+  "IsElement": true,
+  "Code": "FILES",
+  "Name": {
+   "en": "Files",
+   "it": "File"
+  },
+  "SortOrder": 40,
+  "Screen": "files",
+  "Parameter": null,
+  "DocumentCategoryId": null,
+  "Icon": "folder",
+  "AdminOnly": false
+ },
+ {
+  "Key": "menu:USERS_AREA",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "USERS_AREA",
+  "Name": {
+   "en": "Users and rights",
+   "it": "Utenti e permessi"
+  },
+  "SortOrder": 150,
+  "Screen": null,
+  "Parameter": null,
+  "DocumentCategoryId": null,
+  "Icon": "shield",
+  "AdminOnly": false
+ },
+ {
+  "Key": "menu:USERS",
+  "IdSup": "menu:USERS_AREA",
+  "Active": true,
+  "IsElement": true,
+  "Code": "USERS",
+  "Name": {
+   "en": "Users",
+   "it": "Utenti"
+  },
+  "SortOrder": 10,
+  "Screen": "entities",
+  "Parameter": "users",
+  "DocumentCategoryId": null,
+  "Icon": "user",
+  "AdminOnly": false
+ },
+ {
+  "Key": "menu:USER_RIGHTS",
+  "IdSup": "menu:USERS_AREA",
+  "Active": true,
+  "IsElement": true,
+  "Code": "USER_RIGHTS",
+  "Name": {
+   "en": "Rights",
+   "it": "Permessi"
+  },
+  "SortOrder": 20,
+  "Screen": "rights",
+  "Parameter": null,
+  "DocumentCategoryId": null,
+  "Icon": "key",
+  "AdminOnly": true
+ },
+ {
+  "Key": "menu:ROLES",
+  "IdSup": "menu:USERS_AREA",
+  "Active": true,
+  "IsElement": true,
+  "Code": "ROLES",
+  "Name": {
+   "en": "Roles",
+   "it": "Ruoli"
+  },
+  "SortOrder": 30,
+  "Screen": "config",
+  "Parameter": "user-roles",
+  "DocumentCategoryId": null,
+  "Icon": "key",
+  "AdminOnly": true
+ },
+ {
+  "Key": "menu:APPROVAL_LIMITS",
+  "IdSup": "menu:USERS_AREA",
+  "Active": true,
+  "IsElement": true,
+  "Code": "APPROVAL_LIMITS",
+  "Name": {
+   "en": "Approval limits",
+   "it": "Limiti di approvazione"
+  },
+  "SortOrder": 40,
+  "Screen": "config",
+  "Parameter": "approval-limits",
+  "DocumentCategoryId": null,
+  "Icon": "key",
+  "AdminOnly": false
+ },
+ {
+  "Key": "menu:USER_ACTIVITY",
+  "IdSup": "menu:USERS_AREA",
+  "Active": true,
+  "IsElement": true,
+  "Code": "USER_ACTIVITY",
+  "Name": {
+   "en": "User activity",
+   "it": "Attività degli utenti"
+  },
+  "SortOrder": 50,
+  "Screen": "user-activity",
+  "Parameter": null,
+  "DocumentCategoryId": null,
+  "Icon": "list",
+  "AdminOnly": false
+ },
+ {
+  "Key": "menu:SYSTEM_SETTINGS",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "SYSTEM_SETTINGS",
+  "Name": {
+   "en": "System settings",
+   "it": "Impostazioni di sistema"
+  },
+  "SortOrder": 160,
+  "Screen": null,
+  "Parameter": null,
+  "DocumentCategoryId": null,
+  "Icon": "settings",
+  "AdminOnly": false
+ },
+ {
+  "Key": "menu:MIGRATION",
+  "IdSup": "menu:SYSTEM_SETTINGS",
+  "Active": true,
+  "IsElement": true,
+  "Code": "MIGRATION",
+  "Name": {
+   "en": "Migration",
+   "it": "Migrazione"
+  },
+  "SortOrder": 10,
+  "Screen": "migration",
+  "Parameter": null,
+  "DocumentCategoryId": null,
+  "Icon": "database",
+  "AdminOnly": false
+ },
+ {
+  "Key": "menu:DOCUMENT_TYPES",
+  "IdSup": "menu:SYSTEM_SETTINGS",
+  "Active": true,
+  "IsElement": true,
+  "Code": "DOCUMENT_TYPES",
+  "Name": {
+   "en": "Document types",
+   "it": "Tipi di documento"
+  },
+  "SortOrder": 20,
+  "Screen": "document-types",
+  "Parameter": null,
+  "DocumentCategoryId": null,
+  "Icon": "file-cog",
+  "AdminOnly": false
+ },
+ {
+  "Key": "menu:MIGRATION_ITEMS",
+  "IdSup": "menu:SYSTEM_SETTINGS",
+  "Active": true,
+  "IsElement": true,
+  "Code": "MIGRATION_ITEMS",
+  "Name": {
+   "en": "Migration steps",
+   "it": "Passi della migrazione"
+  },
+  "SortOrder": 30,
+  "Screen": "config",
+  "Parameter": "migration-items",
+  "DocumentCategoryId": null,
+  "Icon": "list",
+  "AdminOnly": false
+ },
+ {
+  "Key": "menu:LINE_TYPES",
+  "IdSup": "menu:SYSTEM_SETTINGS",
+  "Active": true,
+  "IsElement": true,
+  "Code": "LINE_TYPES",
+  "Name": {
+   "en": "Transaction types",
+   "it": "Tipi di transazione"
+  },
+  "SortOrder": 40,
+  "Screen": "entities",
+  "Parameter": "transactions",
+  "DocumentCategoryId": null,
+  "Icon": "rows",
+  "AdminOnly": false
+ },
+ {
+  "Key": "menu:LINE_SCOPES",
+  "IdSup": "menu:SYSTEM_SETTINGS",
+  "Active": true,
+  "IsElement": true,
+  "Code": "LINE_SCOPES",
+  "Name": {
+   "en": "Transaction scopes",
+   "it": "Ambiti delle transazioni"
+  },
+  "SortOrder": 50,
+  "Screen": "config",
+  "Parameter": "transaction-type-scopes",
+  "DocumentCategoryId": null,
+  "Icon": "rows",
+  "AdminOnly": false
+ },
+ {
+  "Key": "menu:DOCUMENT_FLOWS",
+  "IdSup": "menu:SYSTEM_SETTINGS",
+  "Active": true,
+  "IsElement": true,
+  "Code": "DOCUMENT_FLOWS",
+  "Name": {
+   "en": "Document flows",
+   "it": "Flussi dei documenti"
+  },
+  "SortOrder": 60,
+  "Screen": "config",
+  "Parameter": "document-type-flows",
+  "DocumentCategoryId": null,
+  "Icon": "repeat",
+  "AdminOnly": false
+ },
+ {
+  "Key": "menu:TYPES_AND_CATEGORIES",
+  "IdSup": "menu:SYSTEM_SETTINGS",
+  "Active": true,
+  "IsElement": false,
+  "Code": "TYPES_AND_CATEGORIES",
+  "Name": {
+   "en": "Types and categories",
+   "it": "Tipi e categorie"
+  },
+  "SortOrder": 70,
+  "Screen": null,
+  "Parameter": null,
+  "DocumentCategoryId": null,
+  "Icon": "folder",
+  "AdminOnly": false
+ },
+ {
+  "Key": "menu:SETUP_PARTNERS",
+  "IdSup": "menu:TYPES_AND_CATEGORIES",
+  "Active": true,
+  "IsElement": true,
+  "Code": "SETUP_PARTNERS",
+  "Name": {
+   "en": "Clients and suppliers",
+   "it": "Clienti e fornitori"
+  },
+  "SortOrder": 10,
+  "Screen": "setup",
+  "Parameter": "partners",
+  "DocumentCategoryId": null,
+  "Icon": "users",
+  "AdminOnly": false
+ },
+ {
+  "Key": "menu:SETUP_EMPLOYEES",
+  "IdSup": "menu:TYPES_AND_CATEGORIES",
+  "Active": true,
+  "IsElement": true,
+  "Code": "SETUP_EMPLOYEES",
+  "Name": {
+   "en": "Employees",
+   "it": "Dipendenti"
+  },
+  "SortOrder": 20,
+  "Screen": "setup",
+  "Parameter": "employees",
+  "DocumentCategoryId": null,
+  "Icon": "id-card",
+  "AdminOnly": false
+ },
+ {
+  "Key": "menu:SETUP_PRODUCTS",
+  "IdSup": "menu:TYPES_AND_CATEGORIES",
+  "Active": true,
+  "IsElement": true,
+  "Code": "SETUP_PRODUCTS",
+  "Name": {
+   "en": "Products and services",
+   "it": "Prodotti e servizi"
+  },
+  "SortOrder": 30,
+  "Screen": "setup",
+  "Parameter": "products",
+  "DocumentCategoryId": null,
+  "Icon": "package",
+  "AdminOnly": false
+ },
+ {
+  "Key": "menu:SETUP_COST_CENTERS",
+  "IdSup": "menu:TYPES_AND_CATEGORIES",
+  "Active": true,
+  "IsElement": true,
+  "Code": "SETUP_COST_CENTERS",
+  "Name": {
+   "en": "Cost centres",
+   "it": "Centri di costo"
+  },
+  "SortOrder": 40,
+  "Screen": "setup",
+  "Parameter": "cost-centers",
+  "DocumentCategoryId": null,
+  "Icon": "building",
+  "AdminOnly": false
+ },
+ {
+  "Key": "menu:SETUP_UNITS",
+  "IdSup": "menu:TYPES_AND_CATEGORIES",
+  "Active": true,
+  "IsElement": true,
+  "Code": "SETUP_UNITS",
+  "Name": {
+   "en": "Units of measure",
+   "it": "Unità di misura"
+  },
+  "SortOrder": 50,
+  "Screen": "setup",
+  "Parameter": "units",
+  "DocumentCategoryId": null,
+  "Icon": "ruler",
+  "AdminOnly": false
+ },
+ {
+  "Key": "menu:SETUP_USERS",
+  "IdSup": "menu:TYPES_AND_CATEGORIES",
+  "Active": true,
+  "IsElement": true,
+  "Code": "SETUP_USERS",
+  "Name": {
+   "en": "Users and roles",
+   "it": "Utenti e ruoli"
+  },
+  "SortOrder": 60,
+  "Screen": "setup",
+  "Parameter": "users",
+  "DocumentCategoryId": null,
+  "Icon": "user",
+  "AdminOnly": false
+ },
+ {
+  "Key": "menu:TEMPLATES",
+  "IdSup": "menu:SYSTEM_SETTINGS",
+  "Active": true,
+  "IsElement": true,
+  "Code": "TEMPLATES",
+  "Name": {
+   "en": "Print templates",
+   "it": "Modelli di stampa"
+  },
+  "SortOrder": 80,
+  "Screen": "config",
+  "Parameter": "templates",
+  "DocumentCategoryId": null,
+  "Icon": "printer",
+  "AdminOnly": false
+ },
+ {
+  "Key": "menu:SKINS",
+  "IdSup": "menu:SYSTEM_SETTINGS",
+  "Active": true,
+  "IsElement": true,
+  "Code": "SKINS",
+  "Name": {
+   "en": "Skins",
+   "it": "Temi grafici"
+  },
+  "SortOrder": 90,
+  "Screen": "skins",
+  "Parameter": null,
+  "DocumentCategoryId": null,
+  "Icon": "palette",
+  "AdminOnly": true
+ },
+ {
+  "Key": "menu:MENU",
+  "IdSup": "menu:SYSTEM_SETTINGS",
+  "Active": true,
+  "IsElement": true,
+  "Code": "MENU",
+  "Name": {
+   "en": "Menu",
+   "it": "Menu"
+  },
+  "SortOrder": 100,
+  "Screen": "config",
+  "Parameter": "menus",
+  "DocumentCategoryId": null,
+  "Icon": "menu",
+  "AdminOnly": true
+ }
+]

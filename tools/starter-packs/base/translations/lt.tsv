@@ -1,0 +1,442 @@
+# The base names in Lithuanian, keyed by the English name (Gamma's translations), for the packs in Lithuanian.
+# en	lt
+Base	Buveinė
+Cash desk	Kasa
+Bank	Bankas
+Point of sale	Pardavimo vieta
+Warehouse	Sandėlis
+Office	Biuras
+Tax number	PVM mokėtojo kodas
+Owner	Savininkas
+Name	Pavadinimas
+Currency	Valiuta
+Trade name	Prekinis pavadinimas
+Address	Adresas
+Phone	Telefonas
+E-mail	El. paštas
+Website	Interneto svetainė
+Logo	Logotipas
+Authorised person	Įgaliotas asmuo
+Account	Sąskaita
+Negative stock allowed (cost centres)	Leidžiamas neigiamas likutis (išlaidų centrai)
+Negative stock allowed (partners)	Leidžiamas neigiamas likutis (partneriai)
+Negative stock allowed (employees)	Leidžiamas neigiamas likutis (darbuotojai)
+cost centres	išlaidų centrai
+partners	partneriai
+employees	darbuotojai
+Hold timeout (minutes)	Dokumento užrakinimo laikas (minutės)
+ALL	ALL
+EUR	EUR
+USD	USD
+GBP	GBP
+CAD	CAD
+CHF	CHF
+Company book	Finansinės apskaitos nusidėvėjimas
+Tax book	Mokestinis nusidėvėjimas
+Straight-line	Tiesinis
+Straight-line depreciation	Tiesinis nusidėvėjimo metodas
+Remaining value	Likutinė vertė
+Depreciation on the remaining value	Nusidėvėjimas nuo likutinės vertės
+Assets	Ilgalaikis turtas
+Land	Žemė
+Buildings	Pastatai
+Office equipment	Biuro įranga
+Vehicles	Transporto priemonės
+Computer equipment	Kompiuterinė įranga
+Furniture and fittings	Baldai ir inventorius
+Intangible assets	Nematerialusis turtas
+Sales	Pardavimai
+Sales invoices	Išrašytos sąskaitos faktūros
+Purchases	Pirkimai
+Purchase invoices	Gautos sąskaitos faktūros
+Goods transfers	Prekių perkėlimai
+Goods transfer note	Važtaraštis
+Offers	Pasiūlymai
+Journal	Memorialiniai orderiai
+Contracts	Sutartys
+Recurring journal	Periodiniai įrašai
+Reversals	Storno operacijos
+Sales invoice, goods	PVM sąskaita faktūra, prekės
+Credit note, goods sold	Kreditinė sąskaita, parduotos prekės
+Sales invoice, services	PVM sąskaita faktūra, paslaugos
+Credit note, services sold	Kreditinė sąskaita, suteiktos paslaugos
+Purchase invoice, goods	Gauta sąskaita faktūra, prekės
+Credit note, goods bought	Gauta kreditinė sąskaita, prekės
+Purchase invoice, services	Gauta sąskaita faktūra, paslaugos
+Credit note, services bought	Gauta kreditinė sąskaita, paslaugos
+Payment	Išmoka
+Receipt	Įmoka
+Prepayment	Išankstinis mokėjimas
+Goods transfer, cost centre to staff	Perkėlimas iš išlaidų centro darbuotojui
+Sales offer, goods	Pasiūlymas, prekės
+Depreciation sheet	Nusidėvėjimo žiniaraštis
+Depreciation journal	Nusidėvėjimo įrašas
+Journal sheet	Memorialinis orderis
+Revaluation sheet	Perkainojimo žiniaraštis
+Revaluation journal	Perkainojimo įrašas
+Advance	Avansas
+Client's advance	Pirkėjo avansas
+Employee advance	Avansas darbuotojui
+Advance to an employee	Avansas darbuotojui
+Sales contract, goods	Pardavimo sutartis, prekės
+Purchase contract, goods	Pirkimo sutartis, prekės
+Purchase offer, goods	Kainų užklausa, prekės
+Sales offer, services	Pasiūlymas, paslaugos
+Purchase offer, services	Kainų užklausa, paslaugos
+Sales contract, services	Paslaugų teikimo sutartis
+Purchase contract, services	Paslaugų pirkimo sutartis
+Recurring depreciation sheet	Periodinis nusidėvėjimo žiniaraštis
+Recurring journal sheet	Periodinis memorialinis orderis
+Recurring revaluation sheet	Periodinis perkainojimo žiniaraštis
+General journal entry	Bendrasis įrašas
+Point-of-sale receipt	Kasos čekis
+Goods transfer, staff to cost centre	Perkėlimas iš darbuotojo į išlaidų centrą
+Goods transfer, cost centre to client	Pristatymas iš išlaidų centro pirkėjui
+Goods transfer, client to cost centre	Grąžinimas iš pirkėjo į išlaidų centrą
+Point-of-sale contract	Pardavimo vietos sutartis
+Point-of-sale receipt of money	Įmoka pardavimo vietoje
+Point-of-sale payment	Išmoka pardavimo vietoje
+Point-of-sale goods in	Priėmimas pardavimo vietoje
+Point-of-sale goods out	Išdavimas iš pardavimo vietos
+Wage payment	Darbo užmokesčio išmoka
+Rent payment	Nuomos mokėjimas
+Customs declaration	Muitinės deklaracija
+Customs declaration, assets	Ilgalaikio turto muitinės deklaracija
+Point-of-sale refund	Pinigų grąžinimas pardavimo vietoje
+Point-of-sale receipt from staff	Darbuotojo įmoka pardavimo vietoje
+Goods out to staff	Išdavimas darbuotojui
+Goods transfer, staff to client	Pristatymas iš darbuotojo pirkėjui
+Goods in from staff	Priėmimas iš darbuotojo
+Reversal of payment	Išmokos storno
+Reversal of receipt	Įmokos storno
+Reversal of prepayment	Išankstinio mokėjimo storno
+Reversal of depreciation journal	Nusidėvėjimo įrašo storno
+Reversal of advance	Avanso storno
+Reversal of employee advance	Darbuotojo avanso storno
+End date	Pabaigos data
+Offer valid until	Pasiūlymas galioja iki
+Start date	Pradžios data
+External number	Išorinis numeris
+Contract number	Sutarties numeris
+Invoice number	Sąskaitos numeris
+Carrier	Vežėjas
+Linked invoice	Susieta sąskaita
+Purchase invoice	Gauta sąskaita faktūra
+Last payment date	Paskutinio mokėjimo data
+Accounts	Sąskaitos
+Products / services	Produktai / paslaugos
+Client / supplier / third party	Pirkėjas / tiekėjas / trečiasis asmuo
+Staff	Personalas
+Financial documents	Apskaitos dokumentai
+Transaction value	Eilutės suma
+Transaction discount	Eilutės nuolaida
+Transaction VAT	Eilutės PVM
+Asset's remaining value	Turto likutinė vertė
+Transaction debit	Eilutės debetas
+Transaction credit	Eilutės kreditas
+Transaction value with VAT	Eilutės suma su PVM
+Non-current asset accounts	Ilgalaikio turto sąskaitos
+Inventory accounts	Atsargų sąskaitos
+Expense accounts	Sąnaudų sąskaitos
+Income accounts	Pajamų sąskaitos
+All accounts	Visos sąskaitos
+table	lentelė
+specified element	nurodytas elementas
+empty element	tuščias elementas
+line reference	nuoroda į eilutę
+line configuration	eilučių nustatymai
+document reference	nuoroda į dokumentą
+document configuration	dokumentų nustatymai
+scenario configuration	kontavimo nustatymai
+depreciation scenario configuration	nusidėvėjimo kontavimo nustatymai
+depreciation scenario	nusidėvėjimo kontavimas
+Transaction amount	Eilutės suma
+Finance	Apskaita
+Administrator	Administratorius
+Financier	Buhalteris
+Warehouse keeper	Sandėlininkas
+Driver	Vairuotojas
+Worker	Darbininkas
+Clients	Pirkėjai
+Suppliers	Tiekėjai
+Unknown	Nežinomas
+Person	Fizinis asmuo
+SME	MVĮ
+LTD	UAB
+Cash	Grynieji pinigai
+Unpaid	Neapmokėta
+Credit card	Mokėjimo kortelė
+Products	Produktai
+Services	Paslaugos
+Goods	Prekės
+Service	Paslauga
+Asset	Ilgalaikio turto vienetas
+Items	Prekių kortelės
+Transactions	Eilutės
+Journal lines	Memorialinio orderio eilutės
+Depreciation lines	Nusidėvėjimo eilutės
+Revaluation lines	Perkainojimo eilutės
+Item	Prekės kortelė
+Fixed asset	Ilgalaikio turto vienetas
+Service item	Paslaugos kortelė
+Supplier	Tiekėjas
+Client	Pirkėjas
+Cash desk account	Kasos sąskaita
+Bank account	Banko sąskaita
+Depreciation	Nusidėvėjimas
+Revaluation	Perkainojimas
+Fixed asset (service)	Ilgalaikis turtas (paslauga)
+Combined item	Komplektas
+Customs	Muitinė
+Transport	Transportas
+Customs agency	Muitinės tarpininkas
+Customs, assets	Ilgalaikio turto muitinė
+Transport, assets	Ilgalaikio turto transportas
+Customs agency, assets	Muitinės tarpininkas, ilgalaikis turtas
+Piece	Vienetas
+kg	kg
+Hour	Valanda
+Day	Diena
+Month	Mėnuo
+Year	Metai
+g	g
+cm	cm
+m	m
+mm	mm
+km	km
+Standard	Standartinis
+Weight	Svoris
+Time	Laikas
+Length	Ilgis
+Seller	Pardavėjas
+IT	IT
+Consultant	Konsultantas
+VAT 20%	PVM 20%
+VAT 0%	PVM 0%
+Hall	Salė
+Table	Stalas
+Counter	Baras
+Production	Gamyba
+Reversal of production	Gamybos storno
+Unit split	Matavimo vieneto keitimas
+Reversal of unit split	Matavimo vieneto keitimo storno
+Raw material used	Sunaudota žaliava
+Produced item	Pagamintas produktas
+Waste	Nuostoliai
+Account ledger	Sąskaitos kortelė
+Administration	Administravimas
+Chart of accounts	Sąskaitų planas
+Client and supplier ledger	Klientų ir tiekėjų kortelė
+Client statistics	Klientų statistika
+Clients and suppliers	Klientai ir tiekėjai
+Configuration	Nustatymai
+Convert stock between units	Perskaičiuoti atsargas į kitą vienetą
+Cost centre ledger	Išlaidų centro kortelė
+Cost centres	Išlaidų centrai
+Currencies and exchange rates	Valiutos ir valiutų kursai
+Document types	Dokumentų tipai
+Documents	Dokumentai
+Employees	Darbuotojai
+Files	Failai
+Financial reports	Finansinės ataskaitos
+Item movements	Prekės judėjimas
+Menu	Meniu
+Menu access	Prieiga prie meniu
+Operations	Operacijos
+Orders to produce	Gamybos užsakymai
+Payment methods	Mokėjimo būdai
+Posting scenarios	Registravimo scenarijai
+Print templates	Spausdinimo šablonai
+Products and services	Produktai ir paslaugos
+Recipes	Receptūros
+Registers	Registrai
+Reports	Ataskaitos
+Rights	Teisės
+Sale menus	Pardavimo meniu
+Point-of-sale settings	Pardavimo vietos nustatymai
+Shows	Seansai
+Purchases from the group	Pirkimai iš grupės
+Barcode	Brūkšninis kodas
+Sale prices	Pardavimo kainos
+Sales and purchases by line	Pardavimai ir pirkimai pagal eilutes
+Stock	Atsargos
+Stock and sales	Atsargos ir pardavimai
+Trial balance	Bandomasis balansas
+Unit conversions	Vienetų perskaičiavimai
+Units of measure	Matavimo vienetai
+Users	Naudotojai
+VAT books	PVM registrai
+VAT groups	PVM grupės
+VAT return	PVM deklaracija
+VAT return boxes	PVM deklaracijos laukeliai
+Company of the group	Grupės įmonė
+Restaurant / café	Restoranas / kavinė
+Shop	Parduotuvė
+Till	Kasa
+Cinema / theatre	Kino teatras / teatras
+Auditorium	Salė
+Row	Eilė
+Seat	Vieta
+Hotel	Viešbutis
+Floor	Aukštas
+Room	Kambarys
+Beds	Lovos
+Position X	Padėtis X
+Seats	Vietos
+Position Y	Padėtis Y
+Reversal of journal sheet	Apskaitos lapo atšaukimas
+Reversal of depreciation sheet	Nusidėvėjimo lapo atšaukimas
+Reversal of general journal entry	Bendrojo įrašo atšaukimas
+Open the point of sale	Atidaryti pardavimo vietą
+Stock and production	Atsargos ir gamyba
+Accounting setup	Apskaitos nustatymai
+Fixed assets	Ilgalaikis turtas
+Currencies and payments	Valiutos ir mokėjimai
+Company	Įmonė
+Users and rights	Vartotojai ir teisės
+System settings	Sistemos nustatymai
+Types and categories	Tipai ir kategorijos
+VAT	PVM
+Financial	Finansinės
+Sale prices by partner	Pardavimo kainos pagal partnerį
+Sale menu categories	Pardavimo meniu kategorijos
+Scenario lines	Scenarijų eilutės
+Unbalanced scenarios	Nesubalansuoti scenarijai
+Remaining asset value	Likutinė turto vertė
+VAT return box rules	PVM deklaracijos laukelių taisyklės
+VAT return by boxes	PVM deklaracija pagal laukelius
+Payment methods by cost centre	Mokėjimo būdai pagal išlaidų centrą
+Users and roles	Vartotojai ir rolės
+Document flows	Dokumentų srautai
+Chart types and categories	Sąskaitų plano tipai ir kategorijos
+Balance sheet	Balansas
+Profit and loss	Pelnas ir nuostoliai
+Balance sheet lines	Balanso eilutės
+Profit and loss lines	Pelno ir nuostolių eilutės
+City	Miestas
+Staff ledger	Darbuotojo kortelė
+Sales and purchases by client	Pardavimai ir pirkimai pagal klientą
+Sales and purchases by cost centre	Pardavimai ir pirkimai pagal išlaidų centrą
+Transfers	Perkėlimai
+Document totals	Dokumentų sumos
+Purchase price history	Pirkimo kainų istorija
+Depreciation books	Nusidėvėjimo knygos
+Depreciation methods	Nusidėvėjimo metodai
+Depreciation scenarios	Nusidėvėjimo scenarijai
+Depreciation scenario lines	Nusidėvėjimo scenarijų eilutės
+Serial numbers	Serijos numeriai
+User activity	Naudotojų veikla
+Dashboard	Skydelis
+Dashboard items	Skydelio elementai
+Clients owe us	Klientų skolos mums
+We owe suppliers	Skolos tiekėjams
+Drafts waiting	Laukiantys juodraščiai
+Sales and purchases by month	Pardavimai ir pirkimai pagal mėnesius
+VAT by month	PVM pagal mėnesius
+Top clients	Geriausi klientai
+Top suppliers	Geriausi tiekėjai
+Top products	Geriausi produktai
+Sales by cost centre	Pardavimai pagal išlaidų centrus
+Migration	Migravimas
+Migration steps	Migravimo žingsniai
+Warehouses, banks, cash desks and places	Sandėliai, bankai, kasos ir vietos
+Client and supplier categories	Klientų ir tiekėjų kategorijos
+Product categories	Produktų kategorijos
+Units	Vienetai
+Exchange rates	Valiutų kursai
+Next document numbers	Kiti dokumentų numeriai
+Opening balances: clients and suppliers	Pradiniai likučiai: klientai ir tiekėjai
+Opening balances: banks, cash desks and staff	Pradiniai likučiai: bankai, kasos ir personalas
+Opening balances: the chart	Pradiniai likučiai: sąskaitų planas
+Posting groups	Registravimo grupės
+Document categories	Dokumentų kategorijos
+Opening balances: stock	Pradiniai likučiai: atsargos
+Opening balances: fixed assets	Pradiniai likučiai: ilgalaikis turtas
+VAT groups of document types	Dokumentų tipų PVM grupės
+Closed periods	Uždaryti laikotarpiai
+Transaction types	Operacijų tipai
+Transaction scopes	Operacijų sritys
+Transaction categories	Operacijų kategorijos
+Transaction types of document types	Dokumentų tipų operacijų tipai
+General client	Bendras klientas
+Transaction asset cost	Turto savikaina
+Transaction asset depreciation	Turto nusidėvėjimas
+Transaction asset book value	Turto balansinė vertė
+Sales by waiter	Pardavimai pagal padavėją
+Ageing	Skolų senėjimas
+Open invoices	Atviros sąskaitos
+Overdue from clients	Pradelsta iš klientų
+Overdue to suppliers	Pradelsta tiekėjams
+Gross profit	Bendrasis pelnas
+Gross profit by cost centre	Bendrasis pelnas pagal išlaidų centrą
+Top combined products	Populiariausi sudėtiniai produktai
+Close the year	Uždaryti metus
+Invoice run	Sutarčių sąskaitos
+Renewals	Atnaujinimai
+CRM	CRM
+Opportunities	Galimybės
+Pipeline	Pardavimų piltuvas
+Forecast	Prognozė
+Opportunity stages	Galimybių etapai
+Sales opportunities	Pardavimų galimybės
+Opportunity	Galimybė
+Qualify	Vertinimas
+Propose	Pasiūlymas
+Negotiate	Derybos
+Won	Laimėta
+Lost	Prarasta
+Leads	Potencialūs klientai
+Orders	Užsakymai
+Purchase request	Pirkimo prašymas
+Purchase order	Pirkimo užsakymas
+Sales order	Pardavimo užsakymas
+Approvals	Patvirtinimai
+Approval limits	Patvirtinimo ribos
+Bank statements	Banko išrašai
+Bank statement formats	Banko išrašų formatai
+Date, text, reference, amount	Data, tekstas, nuoroda, suma
+Lots	Partijos
+Shifts	Pamainos
+Production point	Gamybos taškas
+Production point display	Gamybos taško ekranas
+Production routes	Gamybos maršrutai
+Point-of-sale order	Pardavimo taško užsakymas
+Repairs	Remontai
+Repair intake	Priėmimas remontui
+Repair offer	Remonto pasiūlymas
+Technician	Technikas
+Received	Gauta
+Offer given	Pasiūlymas pateiktas
+Accepted	Priimtas
+Ready	Paruošta
+Collected	Atsiimta
+Refused	Atmestas
+Item	Prekė
+Brand and model	Markė ir modelis
+Serial number or plate	Serijos numeris arba valstybinis numeris
+Accessories left	Palikti priedai
+Defect described	Aprašytas gedimas
+Come back on	Grįžti
+Repair board	Remonto lenta
+Repair stages	Remonto etapai
+Repair shop	Remonto dirbtuvės
+Roles	Vaidmenys
+Account mapping	Sąskaitų atitiktis
+Waiter	Padavėjas
+Cashier	Kasininkas
+Disassembly	Išardymas
+Product taken apart	Išardytas gaminys
+Recovered component	Atgauta sudedamoji dalis
+Disassembly waste	Išardymo nuostoliai
+Point-of-sale reversal	Kasos pardavimo atšaukimas
+Reversal of customs declaration	Atšaukimas: Muitinės deklaracija
+Reversal of customs declaration, assets	Atšaukimas: Ilgalaikio turto muitinės deklaracija
+Reversal of goods transfer note	Atšaukimas: Važtaraštis
+Reversal of goods transfer, cost centre to staff	Atšaukimas: Perkėlimas iš išlaidų centro darbuotojui
+Reversal of goods transfer, staff to cost centre	Atšaukimas: Perkėlimas iš darbuotojo į išlaidų centrą
+Reversal of goods transfer, cost centre to client	Atšaukimas: Pristatymas iš išlaidų centro pirkėjui
+Reversal of goods transfer, client to cost centre	Atšaukimas: Grąžinimas iš pirkėjo į išlaidų centrą
+Reversal of goods transfer, staff to client	Atšaukimas: Pristatymas iš darbuotojo pirkėjui
+Opportunity types and categories	Galimybių tipai ir kategorijos
+Opportunities and documents	Galimybės ir dokumentai
+Skins	Temos

@@ -1,0 +1,323 @@
+{
+  "country": "MK",
+  "language": "mk",
+  "currency": "MKD",
+  "sources": [
+    "Chart: rulebook on the chart of accounts for companies, Службен весник 174/2011 (Public Revenue Office), see chart-mk.tsv",
+    "VAT: Law on VAT: 18 % standard, 10 % (from 2021) and 5 % reduced, 0 % (PwC, KPMG tax card 2025)",
+    "Document codes: Macedonian abbreviations (Gamma's); names in Macedonian (base/translations/mk.tsv)"
+  ],
+  "uncertain": [
+    "Depreciation rates (buildings 2.5 %, vehicles and computers 25 %, equipment and furniture 20 %, intangibles 20 %) are the commonly cited maximums; the rulebook on depreciation was not found online and should be checked.",
+    "Purchases of goods post to 660 Стоки на залиха (perpetual inventory) until cost of goods sold is built."
+  ],
+  "chart": {
+    "file": "chart-mk.tsv",
+    "category": {
+      "code": "СП",
+      "name": "Сметковен план (Сл. весник 174/2011)"
+    },
+    "types": [
+      {
+        "code": "0",
+        "name": "Класа 0 – Нетековни средства",
+        "prefixes": [
+          "0"
+        ],
+        "roles": [
+          "fixed_assets"
+        ]
+      },
+      {
+        "code": "1",
+        "name": "Класа 1 – Парични средства, хартии од вредност, краткорочни побарувања и платени трошоци за идни периоди и пресметани приходи",
+        "prefixes": [
+          "1"
+        ],
+        "roles": []
+      },
+      {
+        "code": "2",
+        "name": "Класа 2 – Обврски, резервирања за трошоци и ризици, одложени плаќања и приходи за идни периоди",
+        "prefixes": [
+          "2"
+        ],
+        "roles": []
+      },
+      {
+        "code": "3",
+        "name": "Класа 3 – Залихи на суровини, материјали, резервни делови и ситен инвентар",
+        "prefixes": [
+          "3"
+        ],
+        "roles": []
+      },
+      {
+        "code": "4",
+        "name": "Класа 4 – Трошоци и расходи од работењето",
+        "prefixes": [
+          "4"
+        ],
+        "roles": [
+          "expenses"
+        ]
+      },
+      {
+        "code": "5",
+        "name": "Класа 5 – Слободна (за интерна употреба- погонски пресметки и други потреби)",
+        "prefixes": [
+          "5"
+        ],
+        "roles": []
+      },
+      {
+        "code": "6",
+        "name": "Класа 6 – Залихи на производство, готови производи и стоки, биолошки средства и нетековни средства кои се чуваат за продажба и прекинато работење",
+        "prefixes": [
+          "6"
+        ],
+        "roles": [
+          "inventories"
+        ]
+      },
+      {
+        "code": "7",
+        "name": "Класа 7 – Покривање на расходи и приходи",
+        "prefixes": [
+          "7"
+        ],
+        "roles": [
+          "income"
+        ]
+      },
+      {
+        "code": "8",
+        "name": "Класа 8 – Резултати од работењето",
+        "prefixes": [
+          "8"
+        ],
+        "roles": []
+      },
+      {
+        "code": "9",
+        "name": "Класа 9 – Капитал, резерви и вонбилансна евиденција",
+        "prefixes": [
+          "9"
+        ],
+        "roles": []
+      }
+    ]
+  },
+  "roles": {
+    "clients": "120",
+    "output_vat": "230",
+    "suppliers": "220",
+    "input_vat": "130",
+    "employee_advances": "145",
+    "goods_sales": "741",
+    "goods_purchases": "660",
+    "client_advances": "222",
+    "supplier_prepayments": "122",
+    "wages_payable": "240",
+    "rent_expense": "414",
+    "services_sales": "740",
+    "services_purchases": "419",
+    "asset_assets": "012",
+    "asset_land": "010",
+    "asset_buildings": "011",
+    "asset_office": "013",
+    "asset_vehicles": "013",
+    "asset_computers": "012",
+    "asset_furniture": "013",
+    "asset_intangible": "003",
+    "production": "600",
+    "waste": "464"
+  },
+  "cash_account": "102",
+  "bank_account": "100",
+  "services_account": "740",
+  "vat": [
+    {
+      "rate": 18,
+      "name": "ДДВ 18%",
+      "en": "VAT 18%",
+      "standard": true
+    },
+    {
+      "rate": 10,
+      "name": "ДДВ 10%",
+      "en": "VAT 10%",
+      "standard": true
+    },
+    {
+      "rate": 5,
+      "name": "ДДВ 5%",
+      "en": "VAT 5%",
+      "standard": true
+    },
+    {
+      "rate": 0,
+      "name": "ДДВ 0% / ослободено",
+      "en": "VAT 0% / exempt",
+      "standard": false
+    }
+  ],
+  "depreciation": {
+    "assets": [
+      60,
+      20,
+      "432",
+      "019"
+    ],
+    "land": [
+      null,
+      0,
+      null,
+      null
+    ],
+    "buildings": [
+      480,
+      2.5,
+      "432",
+      "019"
+    ],
+    "office": [
+      60,
+      20,
+      "432",
+      "019"
+    ],
+    "vehicles": [
+      48,
+      25,
+      "432",
+      "019"
+    ],
+    "computers": [
+      48,
+      25,
+      "432",
+      "019"
+    ],
+    "furniture": [
+      60,
+      20,
+      "432",
+      "019"
+    ],
+    "intangible": [
+      60,
+      20,
+      "432",
+      "009"
+    ]
+  },
+  "document_codes": {
+    "PURCHASE_REQUEST": "PRQ",
+    "PURCHASE_ORDER": "POR",
+    "SALES_ORDER": "SOR",
+    "REPAIR_INTAKE": "RIN",
+    "REPAIR_OFFER": "ROF",
+    "POS_ORDER": "PSO",
+    "SALES_INVOICE_GOODS": "ИФС",
+    "CREDIT_NOTE_GOODS_SOLD": "ОДС",
+    "SALES_INVOICE_SERVICES": "ИФУ",
+    "CREDIT_NOTE_SERVICES_SOLD": "ОДУ",
+    "PURCHASE_INVOICE_GOODS": "ВФС",
+    "CREDIT_NOTE_GOODS_BOUGHT": "ВОС",
+    "PURCHASE_INVOICE_SERVICES": "ВФУ",
+    "CREDIT_NOTE_SERVICES_BOUGHT": "ВОУ",
+    "GOODS_TRANSFER": "ИСП",
+    "PAYMENT": "ПЛ",
+    "RECEIPT": "НП",
+    "PREPAYMENT": "АП",
+    "GOODS_TRANSFER_TO_STAFF": "ИСВ",
+    "SALES_OFFER_GOODS": "ПОС",
+    "DEPRECIATION_SHEET": "ЛАМ",
+    "DEPRECIATION_JOURNAL": "НАМ",
+    "JOURNAL_SHEET": "НК",
+    "JOURNAL_PAYMENT": "ПЛ",
+    "JOURNAL_RECEIPT": "НП",
+    "JOURNAL_PREPAYMENT": "АП",
+    "REVALUATION_SHEET": "ЛРВ",
+    "REVALUATION_JOURNAL": "НРВ",
+    "ADVANCE": "АВ",
+    "EMPLOYEE_ADVANCE": "АВВ",
+    "JOURNAL_ADVANCE": "АВ",
+    "JOURNAL_EMPLOYEE_ADVANCE": "АВВ",
+    "SALES_CONTRACT_GOODS": "ДПС",
+    "PURCHASE_CONTRACT_GOODS": "ДНС",
+    "PURCHASE_OFFER_GOODS": "БПС",
+    "SALES_OFFER_SERVICES": "ПОУ",
+    "PURCHASE_OFFER_SERVICES": "БПУ",
+    "SALES_CONTRACT_SERVICES": "ДПУ",
+    "PURCHASE_CONTRACT_SERVICES": "ДНУ",
+    "RECURRING_DEPRECIATION_SHEET": "ЛАМП",
+    "RECURRING_JOURNAL_SHEET": "НКП",
+    "RECURRING_REVALUATION_SHEET": "ЛРВП",
+    "GENERAL_JOURNAL_ENTRY": "ОНК",
+    "POS_RECEIPT": "ФС",
+    "GOODS_TRANSFER_FROM_STAFF": "ИСВМ",
+    "GOODS_TRANSFER_TO_CLIENT": "ИСК",
+    "GOODS_TRANSFER_FROM_CLIENT": "ИСКМ",
+    "POS_CONTRACT": "ДПМ",
+    "POS_MONEY_IN": "НПМ",
+    "POS_MONEY_OUT": "ПЛМ",
+    "POS_GOODS_IN": "ПРМ",
+    "POS_GOODS_OUT": "ИЗМ",
+    "WAGE_PAYMENT": "ИПЛ",
+    "RENT_PAYMENT": "ПЗК",
+    "CUSTOMS_DECLARATION": "ЦД",
+    "CUSTOMS_DECLARATION_ASSETS": "ЦДО",
+    "POS_REVERSAL": "ПВФ",
+    "POS_REFUND": "ВПМ",
+    "POS_MONEY_FROM_STAFF": "НПВ",
+    "GOODS_OUT_TO_STAFF": "ИЗВ",
+    "GOODS_TRANSFER_STAFF_TO_CLIENT": "ИСВК",
+    "GOODS_IN_FROM_STAFF": "ПРВ",
+    "REVERSAL_PAYMENT": "СПЛ",
+    "REVERSAL_RECEIPT": "СНП",
+    "REVERSAL_PREPAYMENT": "САП",
+    "REVERSAL_DEPRECIATION_JOURNAL": "СНАМ",
+    "REVERSAL_JOURNAL_PAYMENT": "СПЛН",
+    "REVERSAL_JOURNAL_RECEIPT": "СНПН",
+    "REVERSAL_JOURNAL_PREPAYMENT": "САПН",
+    "REVERSAL_ADVANCE": "САВ",
+    "REVERSAL_EMPLOYEE_ADVANCE": "САВВ",
+    "REVERSAL_JOURNAL_ADVANCE": "САВН",
+    "REVERSAL_JOURNAL_EMPLOYEE_ADVANCE": "САВВН",
+    "PRODUCTION": "ПРО",
+    "UNIT_SPLIT": "ПЕМ",
+    "REVERSAL_UNIT_SPLIT": "СПЕМ",
+    "REVERSAL_JOURNAL_SHEET": "СНКН",
+    "REVERSAL_DEPRECIATION_SHEET": "СЛАМН",
+    "REVERSAL_GENERAL_JOURNAL_ENTRY": "СОНКН",
+    "RECURRING_JOURNAL_PAYMENT": "ПЛП",
+    "REVERSAL_RECURRING_JOURNAL_PAYMENT": "СПЛПН",
+    "RECURRING_JOURNAL_RECEIPT": "НПП",
+    "REVERSAL_RECURRING_JOURNAL_RECEIPT": "СНППН",
+    "RECURRING_JOURNAL_PREPAYMENT": "АПП",
+    "REVERSAL_RECURRING_JOURNAL_PREPAYMENT": "САППН",
+    "RECURRING_JOURNAL_ADVANCE": "АВП",
+    "REVERSAL_RECURRING_JOURNAL_ADVANCE": "САВПН",
+    "RECURRING_JOURNAL_EMPLOYEE_ADVANCE": "АВВП",
+    "REVERSAL_RECURRING_JOURNAL_EMPLOYEE_ADVANCE": "САВВПН",
+    "RECURRING_GENERAL_JOURNAL_ENTRY": "ОНКП",
+    "REVERSAL_RECURRING_GENERAL_JOURNAL_ENTRY": "СОНКПН",
+    "REVERSAL_RECURRING_JOURNAL_SHEET": "СНКПН",
+    "RECURRING_DEPRECIATION_JOURNAL": "НАМП",
+    "REVERSAL_RECURRING_DEPRECIATION_JOURNAL": "СНАМПН",
+    "REVERSAL_RECURRING_DEPRECIATION_SHEET": "СЛАМПН",
+    "RECURRING_REVALUATION_JOURNAL": "НРВП",
+    "DISASSEMBLY": "ДЕМ",
+    "REVERSAL_CUSTOMS_DECLARATION": "СЦД",
+    "REVERSAL_CUSTOMS_DECLARATION_ASSETS": "СЦДО",
+    "REVERSAL_GOODS_TRANSFER": "СИСП",
+    "REVERSAL_GOODS_TRANSFER_TO_STAFF": "СИСВ",
+    "REVERSAL_GOODS_TRANSFER_FROM_STAFF": "СИСВМ",
+    "REVERSAL_GOODS_TRANSFER_TO_CLIENT": "СИСК",
+    "REVERSAL_GOODS_TRANSFER_FROM_CLIENT": "СИСКМ",
+    "REVERSAL_GOODS_TRANSFER_STAFF_TO_CLIENT": "СИСВК"
+  },
+  "document_descriptions": {}
+}

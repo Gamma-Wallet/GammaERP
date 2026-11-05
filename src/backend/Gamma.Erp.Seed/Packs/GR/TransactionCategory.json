@@ -1,0 +1,66 @@
+[
+ {
+  "Key": "transaction_category:LINES",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "LINES",
+  "Name": {
+   "en": "Transactions",
+   "el": "Γραμμές"
+  },
+  "Description": {
+   "en": "Transactions",
+   "el": "Γραμμές"
+  },
+  "SortOrder": 2.0
+ },
+ {
+  "Key": "transaction_category:JOURNAL_LINES",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "JOURNAL_LINES",
+  "Name": {
+   "en": "Journal lines",
+   "el": "Γραμμές ημερολογίου"
+  },
+  "Description": {
+   "en": "Journal lines",
+   "el": "Γραμμές ημερολογίου"
+  },
+  "SortOrder": 10.0
+ },
+ {
+  "Key": "transaction_category:DEPRECIATION_LINES",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "DEPRECIATION_LINES",
+  "Name": {
+   "en": "Depreciation lines",
+   "el": "Γραμμές αποσβέσεων"
+  },
+  "Description": {
+   "en": "Depreciation lines",
+   "el": "Γραμμές αποσβέσεων"
+  },
+  "SortOrder": 11.0
+ },
+ {
+  "Key": "transaction_category:REVALUATION_LINES",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "REVALUATION_LINES",
+  "Name": {
+   "en": "Revaluation lines",
+   "el": "Γραμμές αναπροσαρμογής"
+  },
+  "Description": {
+   "en": "Revaluation lines",
+   "el": "Γραμμές αναπροσαρμογής"
+  },
+  "SortOrder": 12.0
+ }
+]

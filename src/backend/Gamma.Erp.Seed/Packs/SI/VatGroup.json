@@ -1,0 +1,54 @@
+[
+ {
+  "Key": "vat_group:SI_22",
+  "IdSup": null,
+  "Active": true,
+  "Code": null,
+  "Name": {
+   "en": "VAT 22%",
+   "sl": "DDV 22%"
+  },
+  "Description": null,
+  "Rate": 22.0,
+  "Depreciation": false
+ },
+ {
+  "Key": "vat_group:SI_9.5",
+  "IdSup": null,
+  "Active": true,
+  "Code": null,
+  "Name": {
+   "en": "VAT 9.5%",
+   "sl": "DDV 9,5%"
+  },
+  "Description": null,
+  "Rate": 9.5,
+  "Depreciation": false
+ },
+ {
+  "Key": "vat_group:SI_5",
+  "IdSup": null,
+  "Active": true,
+  "Code": null,
+  "Name": {
+   "en": "VAT 5%",
+   "sl": "DDV 5%"
+  },
+  "Description": null,
+  "Rate": 5.0,
+  "Depreciation": false
+ },
+ {
+  "Key": "vat_group:SI_0",
+  "IdSup": null,
+  "Active": true,
+  "Code": null,
+  "Name": {
+   "en": "VAT 0% / exempt",
+   "sl": "DDV 0% / oproščeno"
+  },
+  "Description": null,
+  "Rate": 0.0,
+  "Depreciation": false
+ }
+]

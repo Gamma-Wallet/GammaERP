@@ -1,0 +1,806 @@
+[
+ {
+  "Key": "document_type_conf_from:1",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:SALES_INVOICE_GOODS",
+  "ElementsId": "elements:10",
+  "ProductValueElementsId": "elements:195",
+  "CostLayers": 1
+ },
+ {
+  "Key": "document_type_conf_from:2",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:CREDIT_NOTE_GOODS_SOLD",
+  "ElementsId": "elements:11",
+  "BalanceValueElementsId": "elements:180",
+  "CostLayers": 0
+ },
+ {
+  "Key": "document_type_conf_from:3",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:SALES_INVOICE_SERVICES",
+  "ElementsId": "elements:12",
+  "ProductValueElementsId": "elements:195",
+  "CostLayers": 1
+ },
+ {
+  "Key": "document_type_conf_from:4",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:CREDIT_NOTE_SERVICES_SOLD",
+  "ElementsId": "elements:13",
+  "BalanceValueElementsId": "elements:180",
+  "CostLayers": 0
+ },
+ {
+  "Key": "document_type_conf_from:5",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:PURCHASE_INVOICE_GOODS",
+  "ElementsId": "elements:14",
+  "BalanceValueElementsId": "elements:180",
+  "CostLayers": 0
+ },
+ {
+  "Key": "document_type_conf_from:6",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:CREDIT_NOTE_GOODS_BOUGHT",
+  "ElementsId": "elements:15",
+  "CostLayers": 5,
+  "ProductValueElementsId": "elements:195"
+ },
+ {
+  "Key": "document_type_conf_from:7",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:PURCHASE_INVOICE_SERVICES",
+  "ElementsId": "elements:16",
+  "BalanceValueElementsId": "elements:180",
+  "CostLayers": 0
+ },
+ {
+  "Key": "document_type_conf_from:8",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:CREDIT_NOTE_SERVICES_BOUGHT",
+  "ElementsId": "elements:17",
+  "CostLayers": 5,
+  "ProductValueElementsId": "elements:195"
+ },
+ {
+  "Key": "document_type_conf_from:9",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:GOODS_TRANSFER",
+  "ElementsId": "elements:18",
+  "CostLayers": 1
+ },
+ {
+  "Key": "document_type_conf_from:10",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:PAYMENT",
+  "ElementsId": "elements:121",
+  "BalanceValueElementsId": "elements:180",
+  "CostLayers": 0
+ },
+ {
+  "Key": "document_type_conf_from:11",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:RECEIPT",
+  "ElementsId": "elements:126",
+  "BalanceValueElementsId": "elements:180",
+  "CostLayers": 0
+ },
+ {
+  "Key": "document_type_conf_from:12",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:PREPAYMENT",
+  "ElementsId": "elements:51",
+  "BalanceValueElementsId": "elements:180",
+  "CostLayers": 0
+ },
+ {
+  "Key": "document_type_conf_from:13",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:GOODS_TRANSFER_TO_STAFF",
+  "ElementsId": "elements:122",
+  "CostLayers": 1
+ },
+ {
+  "Key": "document_type_conf_from:14",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:SALES_OFFER_GOODS",
+  "ElementsId": "elements:27",
+  "CostLayers": 0
+ },
+ {
+  "Key": "document_type_conf_from:15",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:REVALUATION_SHEET",
+  "ElementsId": "elements:30",
+  "CostLayers": 0
+ },
+ {
+  "Key": "document_type_conf_from:16",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:REVALUATION_JOURNAL",
+  "ElementsId": "elements:31",
+  "CostLayers": 0
+ },
+ {
+  "Key": "document_type_conf_from:17",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:JOURNAL_PAYMENT",
+  "ElementsId": "elements:55",
+  "CostLayers": 0
+ },
+ {
+  "Key": "document_type_conf_from:18",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:JOURNAL_RECEIPT",
+  "ElementsId": "elements:32",
+  "CostLayers": 0
+ },
+ {
+  "Key": "document_type_conf_from:19",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:JOURNAL_PREPAYMENT",
+  "ElementsId": "elements:56",
+  "CostLayers": 0
+ },
+ {
+  "Key": "document_type_conf_from:20",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:JOURNAL_ADVANCE",
+  "ElementsId": "elements:35",
+  "CostLayers": 0
+ },
+ {
+  "Key": "document_type_conf_from:21",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:JOURNAL_EMPLOYEE_ADVANCE",
+  "ElementsId": "elements:57",
+  "CostLayers": 0
+ },
+ {
+  "Key": "document_type_conf_from:22",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:EMPLOYEE_ADVANCE",
+  "ElementsId": "elements:52",
+  "BalanceValueElementsId": "elements:180",
+  "CostLayers": 0
+ },
+ {
+  "Key": "document_type_conf_from:23",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:ADVANCE",
+  "ElementsId": "elements:64",
+  "BalanceValueElementsId": "elements:180",
+  "CostLayers": 0
+ },
+ {
+  "Key": "document_type_conf_from:24",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:SALES_CONTRACT_GOODS",
+  "ElementsId": "elements:46",
+  "CostLayers": 0
+ },
+ {
+  "Key": "document_type_conf_from:25",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:PURCHASE_CONTRACT_GOODS",
+  "ElementsId": "elements:47",
+  "BalanceValueElementsId": "elements:180",
+  "CostLayers": 0
+ },
+ {
+  "Key": "document_type_conf_from:26",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:PURCHASE_OFFER_GOODS",
+  "ElementsId": "elements:125",
+  "BalanceValueElementsId": "elements:180",
+  "CostLayers": 0
+ },
+ {
+  "Key": "document_type_conf_from:27",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:SALES_OFFER_SERVICES",
+  "ElementsId": "elements:53",
+  "CostLayers": 0
+ },
+ {
+  "Key": "document_type_conf_from:28",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:PURCHASE_OFFER_SERVICES",
+  "ElementsId": "elements:125",
+  "CostLayers": 0
+ },
+ {
+  "Key": "document_type_conf_from:29",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:SALES_CONTRACT_SERVICES",
+  "ElementsId": "elements:58",
+  "CostLayers": 0
+ },
+ {
+  "Key": "document_type_conf_from:30",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:PURCHASE_CONTRACT_SERVICES",
+  "ElementsId": "elements:59",
+  "BalanceValueElementsId": "elements:180",
+  "CostLayers": 0
+ },
+ {
+  "Key": "document_type_conf_from:31",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:GENERAL_JOURNAL_ENTRY",
+  "ElementsId": "elements:75",
+  "CostLayers": 0
+ },
+ {
+  "Key": "document_type_conf_from:32",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:GOODS_TRANSFER_FROM_STAFF",
+  "ElementsId": "elements:129",
+  "BalanceValueElementsId": "elements:180",
+  "CostLayers": 0
+ },
+ {
+  "Key": "document_type_conf_from:33",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:GOODS_TRANSFER_TO_CLIENT",
+  "ElementsId": "elements:130",
+  "CostLayers": 1
+ },
+ {
+  "Key": "document_type_conf_from:34",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:GOODS_TRANSFER_FROM_CLIENT",
+  "ElementsId": "elements:131",
+  "BalanceValueElementsId": "elements:180",
+  "CostLayers": 1
+ },
+ {
+  "Key": "document_type_conf_from:35",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:POS_CONTRACT",
+  "ElementsId": "elements:137",
+  "CostLayers": 0
+ },
+ {
+  "Key": "document_type_conf_from:36",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:POS_MONEY_IN",
+  "ElementsId": "elements:138",
+  "BalanceValueElementsId": "elements:180",
+  "CostLayers": 0
+ },
+ {
+  "Key": "document_type_conf_from:37",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:POS_GOODS_IN",
+  "ElementsId": "elements:140",
+  "BalanceValueElementsId": "elements:180",
+  "CostLayers": 1
+ },
+ {
+  "Key": "document_type_conf_from:38",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:WAGE_PAYMENT",
+  "ElementsId": "elements:143",
+  "BalanceValueElementsId": "elements:180",
+  "CostLayers": 0
+ },
+ {
+  "Key": "document_type_conf_from:39",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:RENT_PAYMENT",
+  "ElementsId": "elements:144",
+  "BalanceValueElementsId": "elements:180",
+  "CostLayers": 0
+ },
+ {
+  "Key": "document_type_conf_from:40",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:DEPRECIATION_JOURNAL",
+  "ElementsId": "elements:148",
+  "CostLayers": 0
+ },
+ {
+  "Key": "document_type_conf_from:41",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:CUSTOMS_DECLARATION",
+  "ElementsId": "elements:154",
+  "BalanceValueElementsId": "elements:180",
+  "CostLayers": 0
+ },
+ {
+  "Key": "document_type_conf_from:42",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:CUSTOMS_DECLARATION_ASSETS",
+  "ElementsId": "elements:161",
+  "BalanceValueElementsId": "elements:180",
+  "CostLayers": 0
+ },
+ {
+  "Key": "document_type_conf_from:43",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:POS_REVERSAL",
+  "ElementsId": "elements:164",
+  "BalanceValueElementsId": "elements:180",
+  "CostLayers": 0
+ },
+ {
+  "Key": "document_type_conf_from:44",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:POS_MONEY_FROM_STAFF",
+  "ElementsId": "elements:167",
+  "BalanceValueElementsId": "elements:180",
+  "CostLayers": 0
+ },
+ {
+  "Key": "document_type_conf_from:45",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:GOODS_TRANSFER_STAFF_TO_CLIENT",
+  "ElementsId": "elements:170",
+  "BalanceValueElementsId": "elements:180",
+  "CostLayers": 1
+ },
+ {
+  "Key": "document_type_conf_from:46",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:GOODS_IN_FROM_STAFF",
+  "ElementsId": "elements:171",
+  "BalanceValueElementsId": "elements:180",
+  "CostLayers": 1
+ },
+ {
+  "Key": "document_type_conf_from:47",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:REVERSAL_PAYMENT",
+  "ElementsId": "elements:26",
+  "BalanceValueElementsId": "elements:180",
+  "CostLayers": 0
+ },
+ {
+  "Key": "document_type_conf_from:48",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:REVERSAL_RECEIPT",
+  "ElementsId": "elements:127",
+  "CostLayers": 0
+ },
+ {
+  "Key": "document_type_conf_from:49",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:REVERSAL_PREPAYMENT",
+  "ElementsId": "elements:36",
+  "BalanceValueElementsId": "elements:180",
+  "CostLayers": 0
+ },
+ {
+  "Key": "document_type_conf_from:50",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:REVERSAL_DEPRECIATION_JOURNAL",
+  "ElementsId": "elements:149",
+  "CostLayers": 0
+ },
+ {
+  "Key": "document_type_conf_from:51",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:REVERSAL_JOURNAL_PAYMENT",
+  "ElementsId": "elements:33",
+  "CostLayers": 0
+ },
+ {
+  "Key": "document_type_conf_from:52",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:REVERSAL_JOURNAL_RECEIPT",
+  "ElementsId": "elements:68",
+  "CostLayers": 0
+ },
+ {
+  "Key": "document_type_conf_from:53",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:REVERSAL_JOURNAL_PREPAYMENT",
+  "ElementsId": "elements:34",
+  "CostLayers": 0
+ },
+ {
+  "Key": "document_type_conf_from:54",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:REVERSAL_ADVANCE",
+  "ElementsId": "elements:62",
+  "CostLayers": 0
+ },
+ {
+  "Key": "document_type_conf_from:55",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:REVERSAL_EMPLOYEE_ADVANCE",
+  "ElementsId": "elements:63",
+  "BalanceValueElementsId": "elements:180",
+  "CostLayers": 0
+ },
+ {
+  "Key": "document_type_conf_from:56",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:REVERSAL_JOURNAL_ADVANCE",
+  "ElementsId": "elements:69",
+  "CostLayers": 0
+ },
+ {
+  "Key": "document_type_conf_from:57",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:REVERSAL_JOURNAL_EMPLOYEE_ADVANCE",
+  "ElementsId": "elements:70",
+  "CostLayers": 0
+ },
+ {
+  "Key": "document_type_conf_from:pos_receipt",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:POS_RECEIPT",
+  "ElementsId": "elements:10",
+  "ProductValueElementsId": "elements:195",
+  "CostLayers": 1
+ },
+ {
+  "Key": "documenttypeconffrom:production:PRODUCTION:0",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:PRODUCTION",
+  "ElementsId": "elements:18",
+  "CostLayers": 1,
+  "ProductValueElementsId": "elements:195"
+ },
+ {
+  "Key": "documenttypeconffrom:production:UNIT_SPLIT:0",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:UNIT_SPLIT",
+  "ElementsId": "elements:18",
+  "CostLayers": 1,
+  "ProductValueElementsId": "elements:195"
+ },
+ {
+  "Key": "documenttypeconffrom:production:REVERSAL_UNIT_SPLIT:0",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:REVERSAL_UNIT_SPLIT",
+  "ElementsId": "elements:18",
+  "CostLayers": 5,
+  "ProductValueElementsId": "elements:195"
+ },
+ {
+  "Key": "document_type_conf_from:place:POS_GOODS_OUT",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:POS_GOODS_OUT",
+  "ElementsId": "elements:10",
+  "CostLayers": 1
+ },
+ {
+  "Key": "document_type_conf_from:place:GOODS_OUT_TO_STAFF",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:GOODS_OUT_TO_STAFF",
+  "ElementsId": "elements:10",
+  "CostLayers": 1
+ },
+ {
+  "Key": "document_type_conf_from:journal-reversal:31:REVERSAL_GENERAL_JOURNAL_ENTRY",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:REVERSAL_GENERAL_JOURNAL_ENTRY",
+  "ElementsId": "elements:75",
+  "CostLayers": 0
+ },
+ {
+  "Key": "document_type_conf_from:recurring:16:RECURRING_REVALUATION_JOURNAL",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:RECURRING_REVALUATION_JOURNAL",
+  "ElementsId": "elements:31",
+  "CostLayers": 0
+ },
+ {
+  "Key": "document_type_conf_from:recurring:17:RECURRING_JOURNAL_PAYMENT",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:RECURRING_JOURNAL_PAYMENT",
+  "ElementsId": "elements:55",
+  "CostLayers": 0
+ },
+ {
+  "Key": "document_type_conf_from:recurring:18:RECURRING_JOURNAL_RECEIPT",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:RECURRING_JOURNAL_RECEIPT",
+  "ElementsId": "elements:32",
+  "CostLayers": 0
+ },
+ {
+  "Key": "document_type_conf_from:recurring:19:RECURRING_JOURNAL_PREPAYMENT",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:RECURRING_JOURNAL_PREPAYMENT",
+  "ElementsId": "elements:56",
+  "CostLayers": 0
+ },
+ {
+  "Key": "document_type_conf_from:recurring:20:RECURRING_JOURNAL_ADVANCE",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:RECURRING_JOURNAL_ADVANCE",
+  "ElementsId": "elements:35",
+  "CostLayers": 0
+ },
+ {
+  "Key": "document_type_conf_from:recurring:21:RECURRING_JOURNAL_EMPLOYEE_ADVANCE",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:RECURRING_JOURNAL_EMPLOYEE_ADVANCE",
+  "ElementsId": "elements:57",
+  "CostLayers": 0
+ },
+ {
+  "Key": "document_type_conf_from:recurring:31:RECURRING_GENERAL_JOURNAL_ENTRY",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:RECURRING_GENERAL_JOURNAL_ENTRY",
+  "ElementsId": "elements:75",
+  "CostLayers": 0
+ },
+ {
+  "Key": "document_type_conf_from:recurring:40:RECURRING_DEPRECIATION_JOURNAL",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:RECURRING_DEPRECIATION_JOURNAL",
+  "ElementsId": "elements:148",
+  "CostLayers": 0
+ },
+ {
+  "Key": "document_type_conf_from:recurring:50:REVERSAL_RECURRING_DEPRECIATION_JOURNAL",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:REVERSAL_RECURRING_DEPRECIATION_JOURNAL",
+  "ElementsId": "elements:149",
+  "CostLayers": 0
+ },
+ {
+  "Key": "document_type_conf_from:recurring:51:REVERSAL_RECURRING_JOURNAL_PAYMENT",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:REVERSAL_RECURRING_JOURNAL_PAYMENT",
+  "ElementsId": "elements:33",
+  "CostLayers": 0
+ },
+ {
+  "Key": "document_type_conf_from:recurring:52:REVERSAL_RECURRING_JOURNAL_RECEIPT",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:REVERSAL_RECURRING_JOURNAL_RECEIPT",
+  "ElementsId": "elements:68",
+  "CostLayers": 0
+ },
+ {
+  "Key": "document_type_conf_from:recurring:53:REVERSAL_RECURRING_JOURNAL_PREPAYMENT",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:REVERSAL_RECURRING_JOURNAL_PREPAYMENT",
+  "ElementsId": "elements:34",
+  "CostLayers": 0
+ },
+ {
+  "Key": "document_type_conf_from:recurring:56:REVERSAL_RECURRING_JOURNAL_ADVANCE",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:REVERSAL_RECURRING_JOURNAL_ADVANCE",
+  "ElementsId": "elements:69",
+  "CostLayers": 0
+ },
+ {
+  "Key": "document_type_conf_from:recurring:57:REVERSAL_RECURRING_JOURNAL_EMPLOYEE_ADVANCE",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:REVERSAL_RECURRING_JOURNAL_EMPLOYEE_ADVANCE",
+  "ElementsId": "elements:70",
+  "CostLayers": 0
+ },
+ {
+  "Key": "document_type_conf_from:recurring:journal-reversal:31:REVERSAL_GENERAL_JOURNAL_ENTRY:REVERSAL_RECURRING_GENERAL_JOURNAL_ENTRY",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:REVERSAL_RECURRING_GENERAL_JOURNAL_ENTRY",
+  "ElementsId": "elements:75",
+  "CostLayers": 0
+ },
+ {
+  "Key": "document_type_conf_from:26:PURCHASE_REQUEST",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:PURCHASE_REQUEST",
+  "ElementsId": "elements:125",
+  "BalanceValueElementsId": "elements:180",
+  "CostLayers": 0
+ },
+ {
+  "Key": "document_type_conf_from:26:PURCHASE_ORDER",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:PURCHASE_ORDER",
+  "ElementsId": "elements:125",
+  "BalanceValueElementsId": "elements:180",
+  "CostLayers": 0
+ },
+ {
+  "Key": "document_type_conf_from:14:SALES_ORDER",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:SALES_ORDER",
+  "ElementsId": "elements:27",
+  "CostLayers": 0
+ },
+ {
+  "Key": "document_type_conf_from:14:POS_ORDER",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:POS_ORDER",
+  "ElementsId": "elements:27",
+  "CostLayers": 0
+ },
+ {
+  "Key": "document_type_conf_from:27:REPAIR_INTAKE",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:REPAIR_INTAKE",
+  "ElementsId": "elements:53",
+  "CostLayers": 0
+ },
+ {
+  "Key": "document_type_conf_from:27:REPAIR_OFFER",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:REPAIR_OFFER",
+  "ElementsId": "elements:53",
+  "CostLayers": 0
+ },
+ {
+  "Key": "documenttypeconffrom:disassembly:DISASSEMBLY:0",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:DISASSEMBLY",
+  "ElementsId": "elements:18",
+  "CostLayers": 1,
+  "ProductValueElementsId": "elements:195"
+ },
+ {
+  "Key": "document_type_conf_from:41:reversal",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:REVERSAL_CUSTOMS_DECLARATION",
+  "ElementsId": "elements:154",
+  "BalanceValueElementsId": "elements:180",
+  "CostLayers": 0
+ },
+ {
+  "Key": "document_type_conf_from:42:reversal",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:REVERSAL_CUSTOMS_DECLARATION_ASSETS",
+  "ElementsId": "elements:161",
+  "BalanceValueElementsId": "elements:180",
+  "CostLayers": 0
+ },
+ {
+  "Key": "document_type_conf_from:9:reversal",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:REVERSAL_GOODS_TRANSFER",
+  "ElementsId": "elements:18",
+  "CostLayers": 5
+ },
+ {
+  "Key": "document_type_conf_from:13:reversal",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:REVERSAL_GOODS_TRANSFER_TO_STAFF",
+  "ElementsId": "elements:122",
+  "CostLayers": 5
+ },
+ {
+  "Key": "document_type_conf_from:32:reversal",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:REVERSAL_GOODS_TRANSFER_FROM_STAFF",
+  "ElementsId": "elements:129",
+  "BalanceValueElementsId": "elements:180",
+  "CostLayers": 0
+ },
+ {
+  "Key": "document_type_conf_from:33:reversal",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:REVERSAL_GOODS_TRANSFER_TO_CLIENT",
+  "ElementsId": "elements:130",
+  "CostLayers": 5
+ },
+ {
+  "Key": "document_type_conf_from:34:reversal",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:REVERSAL_GOODS_TRANSFER_FROM_CLIENT",
+  "ElementsId": "elements:131",
+  "BalanceValueElementsId": "elements:180",
+  "CostLayers": 5
+ },
+ {
+  "Key": "document_type_conf_from:45:reversal",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:REVERSAL_GOODS_TRANSFER_STAFF_TO_CLIENT",
+  "ElementsId": "elements:170",
+  "BalanceValueElementsId": "elements:180",
+  "CostLayers": 5
+ },
+ {
+  "IdSup": null,
+  "Active": true,
+  "Key": "document_type_conf_from:OPENING_STOCK_REVERSAL",
+  "DocumentTypeId": "document_type:OPENING_STOCK_REVERSAL",
+  "ElementsId": "elements:136",
+  "ProductValueElementsId": "elements:195",
+  "CostLayers": 5
+ }
+]

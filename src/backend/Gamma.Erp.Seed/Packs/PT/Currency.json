@@ -1,0 +1,156 @@
+[
+ {
+  "Key": "currency:ALL",
+  "IdSup": null,
+  "Active": true,
+  "Code": "ALL",
+  "Name": {
+   "en": "ALL",
+   "pt": "ALL"
+  },
+  "IsBase": false
+ },
+ {
+  "Key": "currency:EUR",
+  "IdSup": null,
+  "Active": true,
+  "Code": "EUR",
+  "Name": {
+   "en": "EUR",
+   "pt": "EUR"
+  },
+  "IsBase": true
+ },
+ {
+  "Key": "currency:USD",
+  "IdSup": null,
+  "Active": true,
+  "Code": "USD",
+  "Name": {
+   "en": "USD",
+   "pt": "USD"
+  },
+  "IsBase": false
+ },
+ {
+  "Key": "currency:GBP",
+  "IdSup": null,
+  "Active": true,
+  "Code": "GBP",
+  "Name": {
+   "en": "GBP",
+   "pt": "GBP"
+  },
+  "IsBase": false
+ },
+ {
+  "Key": "currency:CAD",
+  "IdSup": null,
+  "Active": true,
+  "Code": "CAD",
+  "Name": {
+   "en": "CAD",
+   "pt": "CAD"
+  },
+  "IsBase": false
+ },
+ {
+  "Key": "currency:CHF",
+  "IdSup": null,
+  "Active": true,
+  "Code": "CHF",
+  "Name": {
+   "en": "CHF",
+   "pt": "CHF"
+  },
+  "IsBase": false
+ },
+ {
+  "Key": "currency:MKD",
+  "IdSup": null,
+  "Active": true,
+  "Code": "MKD",
+  "Name": {
+   "en": "MKD",
+   "pt": "MKD"
+  },
+  "IsBase": false
+ },
+ {
+  "Key": "currency:BGN",
+  "IdSup": null,
+  "Active": true,
+  "Code": "BGN",
+  "Name": {
+   "en": "BGN",
+   "pt": "BGN"
+  },
+  "IsBase": false
+ },
+ {
+  "Key": "currency:CZK",
+  "IdSup": null,
+  "Active": true,
+  "Code": "CZK",
+  "Name": {
+   "en": "CZK",
+   "pt": "CZK"
+  },
+  "IsBase": false
+ },
+ {
+  "Key": "currency:DKK",
+  "IdSup": null,
+  "Active": true,
+  "Code": "DKK",
+  "Name": {
+   "en": "DKK",
+   "pt": "DKK"
+  },
+  "IsBase": false
+ },
+ {
+  "Key": "currency:HUF",
+  "IdSup": null,
+  "Active": true,
+  "Code": "HUF",
+  "Name": {
+   "en": "HUF",
+   "pt": "HUF"
+  },
+  "IsBase": false
+ },
+ {
+  "Key": "currency:PLN",
+  "IdSup": null,
+  "Active": true,
+  "Code": "PLN",
+  "Name": {
+   "en": "PLN",
+   "pt": "PLN"
+  },
+  "IsBase": false
+ },
+ {
+  "Key": "currency:RON",
+  "IdSup": null,
+  "Active": true,
+  "Code": "RON",
+  "Name": {
+   "en": "RON",
+   "pt": "RON"
+  },
+  "IsBase": false
+ },
+ {
+  "Key": "currency:SEK",
+  "IdSup": null,
+  "Active": true,
+  "Code": "SEK",
+  "Name": {
+   "en": "SEK",
+   "pt": "SEK"
+  },
+  "IsBase": false
+ }
+]

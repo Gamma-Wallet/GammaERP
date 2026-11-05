@@ -1,0 +1,139 @@
+[
+ {
+  "Key": "user_category:ADMINISTRATOR",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "ADMINISTRATOR",
+  "Name": {
+   "en": "Administrator",
+   "es": "Administrador"
+  },
+  "SortOrder": 10,
+  "IsAdministrator": true
+ },
+ {
+  "Key": "user_category:FINANCE",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "FINANCE",
+  "Name": {
+   "en": "Finance",
+   "es": "Administración"
+  },
+  "SortOrder": 20
+ },
+ {
+  "Key": "user_category:SELLER",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "SELLER",
+  "Name": {
+   "en": "Seller",
+   "es": "Vendedor"
+  },
+  "SortOrder": 30
+ },
+ {
+  "Key": "user_category:WAREHOUSE",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "WAREHOUSE",
+  "Name": {
+   "en": "Warehouse keeper",
+   "es": "Mozo de almacén"
+  },
+  "SortOrder": 40
+ },
+ {
+  "Key": "user_category:IT",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "IT",
+  "Name": {
+   "en": "IT",
+   "es": "Informática"
+  },
+  "SortOrder": 50
+ },
+ {
+  "Key": "user_category:CONSULTANT",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "CONSULTANT",
+  "Name": {
+   "en": "Consultant",
+   "es": "Consultor"
+  },
+  "SortOrder": 60
+ },
+ {
+  "Key": "user_category:PRODUCTION_POINT",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "PRODUCTION_POINT",
+  "Name": {
+   "en": "Production point",
+   "es": "Punto de producción"
+  },
+  "SortOrder": 70
+ },
+ {
+  "Key": "user_category:TECHNICIAN",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "TECHNICIAN",
+  "Name": {
+   "en": "Technician",
+   "es": "Técnico"
+  },
+  "SortOrder": 80
+ },
+ {
+  "Key": "user_category:WAITER",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "WAITER",
+  "Name": {
+   "en": "Waiter",
+   "es": "Camarero"
+  },
+  "SortOrder": 90
+ },
+ {
+  "Key": "user_category:CASHIER",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "CASHIER",
+  "Name": {
+   "en": "Cashier",
+   "es": "Cajero"
+  },
+  "SortOrder": 100
+ },
+ {
+  "Key": "user_category:USERS",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "USERS",
+  "Name": {
+   "en": "Users",
+   "es": "Usuarios"
+  },
+  "SortOrder": 5,
+  "Description": {
+   "en": "Users",
+   "es": "Usuarios"
+  }
+ }
+]

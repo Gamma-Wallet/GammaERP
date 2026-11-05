@@ -1,0 +1,78 @@
+[
+ {
+  "Key": "unit_type:STANDARD",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "STANDARD",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Standard",
+   "hr": "Standardna"
+  },
+  "Description": {
+   "en": "Standard",
+   "hr": "Standardna"
+  },
+  "SortOrder": 2.0
+ },
+ {
+  "Key": "unit_type:WEIGHT",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "WEIGHT",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Weight",
+   "hr": "Masa"
+  },
+  "Description": {
+   "en": "Weight",
+   "hr": "Masa"
+  },
+  "SortOrder": 2.0
+ },
+ {
+  "Key": "unit_type:TIME",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "TIME",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Time",
+   "hr": "Vrijeme"
+  },
+  "Description": {
+   "en": "Time",
+   "hr": "Vrijeme"
+  },
+  "SortOrder": 3.0
+ },
+ {
+  "Key": "unit_type:LENGTH",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "LENGTH",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Length",
+   "hr": "Duljina"
+  },
+  "Description": {
+   "en": "Length",
+   "hr": "Duljina"
+  },
+  "SortOrder": 5.0
+ }
+]

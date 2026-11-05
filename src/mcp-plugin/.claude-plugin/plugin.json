@@ -1,0 +1,9 @@
+{
+  "name": "gamma-erp",
+  "version": "1.0.0",
+  "description": "Work in Gamma ERP from Claude Code: the ERP's MCP server (signed in with your personal Claude token) and a skill on how the ERP works.",
+  "author": { "name": "Gamma Wallet Ltd" },
+  "homepage": "https://www.gamma-wallet.com",
+  "license": "AGPL-3.0-only",
+  "keywords": ["erp", "accounting", "invoices", "point-of-sale"]
+}

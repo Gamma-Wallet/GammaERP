@@ -1,0 +1,15 @@
+[
+ {
+  "Key": "chart_category:STATUTORY",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "GAMMA",
+  "Name": {
+   "en": "Chart of accounts (GAMMA)",
+   "pl": "Plan kont (Gamma, wg MSR 1)"
+  },
+  "IsStatutory": true,
+  "SortOrder": 10
+ }
+]

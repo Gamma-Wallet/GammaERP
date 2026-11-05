@@ -1,0 +1,15 @@
+[
+ {
+  "Key": "opportunity_category:SALES",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "SALES",
+  "Name": {
+   "en": "Sales opportunities",
+   "da": "Salgsmuligheder"
+  },
+  "Description": null,
+  "SortOrder": 1.0
+ }
+]

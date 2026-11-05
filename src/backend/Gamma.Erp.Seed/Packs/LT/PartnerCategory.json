@@ -1,0 +1,38 @@
+[
+ {
+  "Key": "partner_category:CLIENTS",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "CLIENTS",
+  "Name": {
+   "en": "Clients",
+   "lt": "Pirkėjai"
+  },
+  "SortOrder": 10
+ },
+ {
+  "Key": "partner_category:SUPPLIERS",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "SUPPLIERS",
+  "Name": {
+   "en": "Suppliers",
+   "lt": "Tiekėjai"
+  },
+  "SortOrder": 20
+ },
+ {
+  "Key": "partner_category:LEADS",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "LEADS",
+  "Name": {
+   "en": "Leads",
+   "lt": "Potencialūs klientai"
+  },
+  "SortOrder": 3.0
+ }
+]

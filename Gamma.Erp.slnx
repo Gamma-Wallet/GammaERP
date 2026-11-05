@@ -1,0 +1,18 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/backend/Gamma.Erp.Models/Gamma.Erp.Models.csproj" />
+    <Project Path="src/backend/Gamma.Erp.Persistence/Gamma.Erp.Persistence.csproj" />
+    <Project Path="src/backend/Gamma.Erp.Migrations/Gamma.Erp.Migrations.csproj" />
+    <Project Path="src/backend/Gamma.Erp.Seed/Gamma.Erp.Seed.csproj" />
+    <Project Path="src/backend/Gamma.Erp.Services/Gamma.Erp.Services.csproj" />
+    <Project Path="src/backend/Gamma.Erp.Api/Gamma.Erp.Api.csproj" />
+  </Folder>
+  <Folder Name="/tools/">
+    <Project Path="tools/Gamma.Erp.DevSeed/Gamma.Erp.DevSeed.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/Gamma.Erp.Persistence.Tests/Gamma.Erp.Persistence.Tests.csproj" />
+    <Project Path="tests/Gamma.Erp.Services.Tests/Gamma.Erp.Services.Tests.csproj" />
+    <Project Path="tests/Gamma.Erp.Api.Tests/Gamma.Erp.Api.Tests.csproj" />
+  </Folder>
+</Solution>

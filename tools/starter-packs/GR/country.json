@@ -1,0 +1,317 @@
+{
+  "country": "GR",
+  "language": "el",
+  "currency": "EUR",
+  "sources": [
+    "Chart: Greek Accounting Standards chart (ΕΛΠ, Law 4308/2014), https://www.taxheaven.gr/log-sxedioelp",
+    "VAT: 24 % standard, 13 % and 6 % reduced, 0 % (Code of VAT, Law 2859/2000 as amended)",
+    "Depreciation: Law 4172/2013 art. 24 (passenger vehicles 16 %, AADE circular E.2206/2020)",
+    "Document kinds: myDATA invoice types of the AADE (in each type's description)"
+  ],
+  "uncertain": [
+    "Buildings 4 %, machinery 10 %, computers and software 20 %, intangibles and other assets 10 % are from the law's table as recalled; the current table (ΦΕΚ Α' 167/2013 as amended) should be checked.",
+    "Vehicles take the passenger rate (16 %); goods vehicles are 12 %, zero- and low-emission ones higher.",
+    "The reduced island rates (17 %, 9 %, 4 % on some Aegean islands) are not included.",
+    "Purchases of goods post to 20.02 (Αγορές εμπορευμάτων χρήσης, the ΕΛΠ's periodic method)."
+  ],
+  "chart": {
+    "file": "chart-gr.tsv",
+    "category": {
+      "code": "ΕΛΠ",
+      "name": "Λογιστικό σχέδιο ΕΛΠ (ν. 4308/2014)"
+    },
+    "types": [
+      {
+        "code": "1",
+        "name": "Ομάδα 1 – Ενσώματα και άυλα μη κυκλοφορούντα (πάγια) περιουσιακά στοιχεία",
+        "prefixes": [
+          "1"
+        ],
+        "roles": [
+          "fixed_assets"
+        ]
+      },
+      {
+        "code": "2",
+        "name": "Ομάδα 2 – Αποθέματα",
+        "prefixes": [
+          "2"
+        ],
+        "roles": [
+          "inventories"
+        ]
+      },
+      {
+        "code": "3",
+        "name": "Ομάδα 3 – Χρηματοοικονομικά και λοιπά περιουσιακά στοιχεία",
+        "prefixes": [
+          "3"
+        ],
+        "roles": []
+      },
+      {
+        "code": "4",
+        "name": "Ομάδα 4 – Καθαρή θέση",
+        "prefixes": [
+          "4"
+        ],
+        "roles": []
+      },
+      {
+        "code": "5",
+        "name": "Ομάδα 5 – Υποχρεώσεις",
+        "prefixes": [
+          "5"
+        ],
+        "roles": []
+      },
+      {
+        "code": "6",
+        "name": "Ομάδα 6 – Έξοδα και ζημιές",
+        "prefixes": [
+          "6"
+        ],
+        "roles": [
+          "expenses"
+        ]
+      },
+      {
+        "code": "7",
+        "name": "Ομάδα 7 – Έσοδα και κέρδη",
+        "prefixes": [
+          "7"
+        ],
+        "roles": [
+          "income"
+        ]
+      },
+      {
+        "code": "8",
+        "name": "Ομάδα 8 – Ιδιοπαραγωγή, υποκαταστήματα και αποτελέσματα περιόδου",
+        "prefixes": [
+          "8"
+        ],
+        "roles": []
+      }
+    ]
+  },
+  "roles": {
+    "clients": "30.01.01",
+    "output_vat": "54.02.01",
+    "suppliers": "50.01",
+    "input_vat": "54.02.02",
+    "employee_advances": "32.02",
+    "goods_sales": "70.01.01",
+    "goods_purchases": "20.02",
+    "client_advances": "30.01.03",
+    "supplier_prepayments": "50.03.03",
+    "wages_payable": "53.03",
+    "rent_expense": "64.05.01",
+    "services_sales": "70.07.01",
+    "services_purchases": "64.01.01",
+    "asset_assets": "13.01",
+    "asset_land": "10.01",
+    "asset_buildings": "12.01",
+    "asset_office": "15.01",
+    "asset_vehicles": "14.01",
+    "asset_computers": "15.01",
+    "asset_furniture": "15.01",
+    "asset_intangible": "18.03.01",
+    "production": "23.02",
+    "waste": "67.03"
+  },
+  "cash_account": "38.01",
+  "bank_account": "38.02",
+  "services_account": "70.07.01",
+  "vat": [
+    {
+      "rate": 24,
+      "name": "ΦΠΑ 24%",
+      "en": "VAT 24%",
+      "standard": true
+    },
+    {
+      "rate": 13,
+      "name": "ΦΠΑ 13%",
+      "en": "VAT 13%",
+      "standard": true
+    },
+    {
+      "rate": 6,
+      "name": "ΦΠΑ 6%",
+      "en": "VAT 6%",
+      "standard": true
+    },
+    {
+      "rate": 0,
+      "name": "ΦΠΑ 0% / απαλλαγή",
+      "en": "VAT 0% / exempt",
+      "standard": false
+    }
+  ],
+  "depreciation": {
+    "assets": [
+      120,
+      10,
+      "66.03",
+      "13.02"
+    ],
+    "land": [
+      null,
+      0,
+      null,
+      null
+    ],
+    "buildings": [
+      300,
+      4,
+      "66.02",
+      "12.02"
+    ],
+    "office": [
+      120,
+      10,
+      "66.05",
+      "15.02"
+    ],
+    "vehicles": [
+      75,
+      16,
+      "66.04",
+      "14.02"
+    ],
+    "computers": [
+      60,
+      20,
+      "66.05",
+      "15.02"
+    ],
+    "furniture": [
+      120,
+      10,
+      "66.05",
+      "15.02"
+    ],
+    "intangible": [
+      120,
+      10,
+      "66.08",
+      "18.03.02"
+    ]
+  },
+  "document_codes": {
+    "PURCHASE_REQUEST": "PRQ",
+    "PURCHASE_ORDER": "POR",
+    "SALES_ORDER": "SOR",
+    "REPAIR_INTAKE": "RIN",
+    "REPAIR_OFFER": "ROF",
+    "POS_ORDER": "PSO",
+    "SALES_INVOICE_GOODS": "ΤΠ",
+    "CREDIT_NOTE_GOODS_SOLD": "ΠΤ",
+    "SALES_INVOICE_SERVICES": "ΤΠΥ",
+    "CREDIT_NOTE_SERVICES_SOLD": "ΠΤΥ",
+    "PURCHASE_INVOICE_GOODS": "ΤΑ",
+    "CREDIT_NOTE_GOODS_BOUGHT": "ΠΤΑ",
+    "PURCHASE_INVOICE_SERVICES": "ΤΑΥ",
+    "CREDIT_NOTE_SERVICES_BOUGHT": "ΠΤΑΥ",
+    "GOODS_TRANSFER": "ΔΑ",
+    "PAYMENT": "ΠΛΗ",
+    "RECEIPT": "ΕΙΣ",
+    "PREPAYMENT": "ΠΡΠ",
+    "GOODS_TRANSFER_TO_STAFF": "ΔΑΠ",
+    "SALES_OFFER_GOODS": "ΠΡΣ",
+    "DEPRECIATION_SHEET": "ΦΑΠ",
+    "DEPRECIATION_JOURNAL": "ΑΠ",
+    "JOURNAL_SHEET": "ΦΗΜ",
+    "JOURNAL_PAYMENT": "ΠΛΗ",
+    "JOURNAL_RECEIPT": "ΕΙΣ",
+    "JOURNAL_PREPAYMENT": "ΠΡΠ",
+    "REVALUATION_SHEET": "ΦΑΝ",
+    "REVALUATION_JOURNAL": "ΑΝ",
+    "ADVANCE": "ΠΡΚ",
+    "EMPLOYEE_ADVANCE": "ΠΡΚΥ",
+    "JOURNAL_ADVANCE": "ΠΡΚ",
+    "JOURNAL_EMPLOYEE_ADVANCE": "ΠΡΚΥ",
+    "SALES_CONTRACT_GOODS": "ΣΠ",
+    "PURCHASE_CONTRACT_GOODS": "ΣΑ",
+    "PURCHASE_OFFER_GOODS": "ΑΠΡ",
+    "SALES_OFFER_SERVICES": "ΠΡΣΥ",
+    "PURCHASE_OFFER_SERVICES": "ΑΠΡΥ",
+    "SALES_CONTRACT_SERVICES": "ΣΠΥ",
+    "PURCHASE_CONTRACT_SERVICES": "ΣΑΥ",
+    "RECURRING_DEPRECIATION_SHEET": "ΦΑΠΕ",
+    "RECURRING_JOURNAL_SHEET": "ΦΗΜΕ",
+    "RECURRING_REVALUATION_SHEET": "ΦΑΝΕ",
+    "GENERAL_JOURNAL_ENTRY": "ΓΕ",
+    "POS_RECEIPT": "ΑΛΠ",
+    "GOODS_TRANSFER_FROM_STAFF": "ΔΑΠΚ",
+    "GOODS_TRANSFER_TO_CLIENT": "ΔΑΚΠ",
+    "GOODS_TRANSFER_FROM_CLIENT": "ΔΑΠΛ",
+    "POS_CONTRACT": "ΣΣΠ",
+    "POS_MONEY_IN": "ΕΙΣΣΠ",
+    "POS_MONEY_OUT": "ΠΛΗΣΠ",
+    "POS_GOODS_IN": "ΔΕΣΠ",
+    "POS_GOODS_OUT": "ΔΕΞΣΠ",
+    "WAGE_PAYMENT": "ΠΛΜ",
+    "RENT_PAYMENT": "ΠΛΕ",
+    "CUSTOMS_DECLARATION": "ΤΔ",
+    "CUSTOMS_DECLARATION_ASSETS": "ΤΔΠ",
+    "POS_REVERSAL": "ΠΣΛ",
+    "POS_REFUND": "ΕΠΣΠ",
+    "POS_MONEY_FROM_STAFF": "ΕΙΣΠΡ",
+    "GOODS_OUT_TO_STAFF": "ΔΕΞΠ",
+    "GOODS_TRANSFER_STAFF_TO_CLIENT": "ΔΑΠΠ",
+    "GOODS_IN_FROM_STAFF": "ΔΕΠ",
+    "REVERSAL_PAYMENT": "ΑΠΛΗ",
+    "REVERSAL_RECEIPT": "ΑΕΙΣ",
+    "REVERSAL_PREPAYMENT": "ΑΠΡΠ",
+    "REVERSAL_DEPRECIATION_JOURNAL": "ΑΑΠ",
+    "REVERSAL_JOURNAL_PAYMENT": "ΑΠΛΗΗ",
+    "REVERSAL_JOURNAL_RECEIPT": "ΑΕΙΣΗ",
+    "REVERSAL_JOURNAL_PREPAYMENT": "ΑΠΡΠΗ",
+    "REVERSAL_ADVANCE": "ΑΠΡΚ",
+    "REVERSAL_EMPLOYEE_ADVANCE": "ΑΠΡΚΥ",
+    "REVERSAL_JOURNAL_ADVANCE": "ΑΠΡΚΗ",
+    "REVERSAL_JOURNAL_EMPLOYEE_ADVANCE": "ΑΠΡΚΥΗ",
+    "PRODUCTION": "ΠΑΡ",
+    "UNIT_SPLIT": "ΜΜΜ",
+    "REVERSAL_UNIT_SPLIT": "ΑΜΜΜ",
+    "REVERSAL_JOURNAL_SHEET": "ΑΦΗΜΗ",
+    "REVERSAL_DEPRECIATION_SHEET": "ΑΦΑΠΗ",
+    "REVERSAL_GENERAL_JOURNAL_ENTRY": "ΑΓΕΗ",
+    "RECURRING_JOURNAL_PAYMENT": "ΠΛΗΕ",
+    "REVERSAL_RECURRING_JOURNAL_PAYMENT": "ΑΠΛΗΕΗ",
+    "RECURRING_JOURNAL_RECEIPT": "ΕΙΣΕ",
+    "REVERSAL_RECURRING_JOURNAL_RECEIPT": "ΑΕΙΣΕΗ",
+    "RECURRING_JOURNAL_PREPAYMENT": "ΠΡΠΕ",
+    "REVERSAL_RECURRING_JOURNAL_PREPAYMENT": "ΑΠΡΠΕΗ",
+    "RECURRING_JOURNAL_ADVANCE": "ΠΡΚΕ",
+    "REVERSAL_RECURRING_JOURNAL_ADVANCE": "ΑΠΡΚΕΗ",
+    "RECURRING_JOURNAL_EMPLOYEE_ADVANCE": "ΠΡΚΥΕ",
+    "REVERSAL_RECURRING_JOURNAL_EMPLOYEE_ADVANCE": "ΑΠΡΚΥΕΗ",
+    "RECURRING_GENERAL_JOURNAL_ENTRY": "ΓΕΕ",
+    "REVERSAL_RECURRING_GENERAL_JOURNAL_ENTRY": "ΑΓΕΕΗ",
+    "REVERSAL_RECURRING_JOURNAL_SHEET": "ΑΦΗΜΕΗ",
+    "RECURRING_DEPRECIATION_JOURNAL": "ΑΠΕ",
+    "REVERSAL_RECURRING_DEPRECIATION_JOURNAL": "ΑΑΠΕΗ",
+    "REVERSAL_RECURRING_DEPRECIATION_SHEET": "ΑΦΑΠΕΗ",
+    "RECURRING_REVALUATION_JOURNAL": "ΑΝΕ",
+    "DISASSEMBLY": "ΑΠΣ",
+    "REVERSAL_CUSTOMS_DECLARATION": "ΑΤΔ",
+    "REVERSAL_CUSTOMS_DECLARATION_ASSETS": "ΑΤΔΠ",
+    "REVERSAL_GOODS_TRANSFER": "ΑΔΑ",
+    "REVERSAL_GOODS_TRANSFER_TO_STAFF": "ΑΔΑΠ",
+    "REVERSAL_GOODS_TRANSFER_FROM_STAFF": "ΑΔΑΠΚ",
+    "REVERSAL_GOODS_TRANSFER_TO_CLIENT": "ΑΔΑΚΠ",
+    "REVERSAL_GOODS_TRANSFER_FROM_CLIENT": "ΑΔΑΠΛ",
+    "REVERSAL_GOODS_TRANSFER_STAFF_TO_CLIENT": "ΑΔΑΠΠ"
+  },
+  "document_descriptions": {
+    "SALES_INVOICE_GOODS": "myDATA 1.1",
+    "SALES_INVOICE_SERVICES": "myDATA 2.1",
+    "CREDIT_NOTE_GOODS_SOLD": "myDATA 5.1",
+    "CREDIT_NOTE_SERVICES_SOLD": "myDATA 5.1",
+    "POS_RECEIPT": "myDATA 11.1",
+    "POS_REVERSAL": "myDATA 11.4"
+  }
+}

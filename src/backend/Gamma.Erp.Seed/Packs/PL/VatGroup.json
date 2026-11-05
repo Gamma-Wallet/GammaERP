@@ -1,0 +1,54 @@
+[
+ {
+  "Key": "vat_group:PL_23",
+  "IdSup": null,
+  "Active": true,
+  "Code": null,
+  "Name": {
+   "en": "VAT 23%",
+   "pl": "VAT 23%"
+  },
+  "Description": null,
+  "Rate": 23.0,
+  "Depreciation": false
+ },
+ {
+  "Key": "vat_group:PL_8",
+  "IdSup": null,
+  "Active": true,
+  "Code": null,
+  "Name": {
+   "en": "VAT 8%",
+   "pl": "VAT 8%"
+  },
+  "Description": null,
+  "Rate": 8.0,
+  "Depreciation": false
+ },
+ {
+  "Key": "vat_group:PL_5",
+  "IdSup": null,
+  "Active": true,
+  "Code": null,
+  "Name": {
+   "en": "VAT 5%",
+   "pl": "VAT 5%"
+  },
+  "Description": null,
+  "Rate": 5.0,
+  "Depreciation": false
+ },
+ {
+  "Key": "vat_group:PL_0",
+  "IdSup": null,
+  "Active": true,
+  "Code": null,
+  "Name": {
+   "en": "VAT 0% / exempt",
+   "pl": "VAT 0% / zw."
+  },
+  "Description": null,
+  "Rate": 0.0,
+  "Depreciation": false
+ }
+]

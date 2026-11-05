@@ -1,0 +1,786 @@
+[
+ {
+  "Key": "inter_document_type_category:1",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "document_type:SALES_INVOICE_GOODS",
+  "CategoryId": "document_category:SALES"
+ },
+ {
+  "Key": "inter_document_type_category:2",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "document_type:SALES_INVOICE_SERVICES",
+  "CategoryId": "document_category:SALES"
+ },
+ {
+  "Key": "inter_document_type_category:3",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "document_type:PURCHASE_INVOICE_GOODS",
+  "CategoryId": "document_category:PURCHASES"
+ },
+ {
+  "Key": "inter_document_type_category:4",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "document_type:PURCHASE_INVOICE_SERVICES",
+  "CategoryId": "document_category:PURCHASES"
+ },
+ {
+  "Key": "inter_document_type_category:5",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "document_type:GOODS_TRANSFER",
+  "CategoryId": "document_category:TRANSFERS"
+ },
+ {
+  "Key": "inter_document_type_category:6",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "document_type:PAYMENT",
+  "CategoryId": "document_category:CASH_DESK"
+ },
+ {
+  "Key": "inter_document_type_category:7",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "document_type:RECEIPT",
+  "CategoryId": "document_category:CASH_DESK"
+ },
+ {
+  "Key": "inter_document_type_category:8",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "document_type:PREPAYMENT",
+  "CategoryId": "document_category:CASH_DESK"
+ },
+ {
+  "Key": "inter_document_type_category:9",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "document_type:PAYMENT",
+  "CategoryId": "document_category:BANK"
+ },
+ {
+  "Key": "inter_document_type_category:10",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "document_type:RECEIPT",
+  "CategoryId": "document_category:BANK"
+ },
+ {
+  "Key": "inter_document_type_category:11",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "document_type:PREPAYMENT",
+  "CategoryId": "document_category:BANK"
+ },
+ {
+  "Key": "inter_document_type_category:12",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "document_type:GOODS_TRANSFER_TO_STAFF",
+  "CategoryId": "document_category:TRANSFERS"
+ },
+ {
+  "Key": "inter_document_type_category:13",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "document_type:SALES_OFFER_GOODS",
+  "CategoryId": "document_category:OFFERS"
+ },
+ {
+  "Key": "inter_document_type_category:14",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "document_type:DEPRECIATION_SHEET",
+  "CategoryId": "document_category:JOURNAL"
+ },
+ {
+  "Key": "inter_document_type_category:15",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "document_type:DEPRECIATION_JOURNAL",
+  "CategoryId": "document_category:JOURNAL"
+ },
+ {
+  "Key": "inter_document_type_category:16",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "document_type:JOURNAL_SHEET",
+  "CategoryId": "document_category:JOURNAL"
+ },
+ {
+  "Key": "inter_document_type_category:17",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "document_type:ADVANCE",
+  "CategoryId": "document_category:BANK"
+ },
+ {
+  "Key": "inter_document_type_category:18",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "document_type:EMPLOYEE_ADVANCE",
+  "CategoryId": "document_category:BANK"
+ },
+ {
+  "Key": "inter_document_type_category:19",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "document_type:ADVANCE",
+  "CategoryId": "document_category:CASH_DESK"
+ },
+ {
+  "Key": "inter_document_type_category:20",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "document_type:EMPLOYEE_ADVANCE",
+  "CategoryId": "document_category:CASH_DESK"
+ },
+ {
+  "Key": "inter_document_type_category:21",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "document_type:SALES_CONTRACT_GOODS",
+  "CategoryId": "document_category:CONTRACTS"
+ },
+ {
+  "Key": "inter_document_type_category:22",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "document_type:PURCHASE_CONTRACT_GOODS",
+  "CategoryId": "document_category:CONTRACTS"
+ },
+ {
+  "Key": "inter_document_type_category:23",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "document_type:PURCHASE_OFFER_GOODS",
+  "CategoryId": "document_category:OFFERS"
+ },
+ {
+  "Key": "inter_document_type_category:24",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "document_type:SALES_CONTRACT_SERVICES",
+  "CategoryId": "document_category:CONTRACTS"
+ },
+ {
+  "Key": "inter_document_type_category:25",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "document_type:PURCHASE_CONTRACT_SERVICES",
+  "CategoryId": "document_category:CONTRACTS"
+ },
+ {
+  "Key": "inter_document_type_category:26",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "document_type:SALES_OFFER_SERVICES",
+  "CategoryId": "document_category:OFFERS"
+ },
+ {
+  "Key": "inter_document_type_category:27",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "document_type:PURCHASE_OFFER_SERVICES",
+  "CategoryId": "document_category:OFFERS"
+ },
+ {
+  "Key": "inter_document_type_category:28",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "document_type:RECURRING_DEPRECIATION_SHEET",
+  "CategoryId": "document_category:RECURRING_JOURNAL"
+ },
+ {
+  "Key": "inter_document_type_category:29",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "document_type:RECURRING_JOURNAL_SHEET",
+  "CategoryId": "document_category:RECURRING_JOURNAL"
+ },
+ {
+  "Key": "inter_document_type_category:30",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "document_type:RECURRING_REVALUATION_SHEET",
+  "CategoryId": "document_category:RECURRING_JOURNAL"
+ },
+ {
+  "Key": "inter_document_type_category:31",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "document_type:GENERAL_JOURNAL_ENTRY",
+  "CategoryId": "document_category:JOURNAL"
+ },
+ {
+  "Key": "inter_document_type_category:32",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "document_type:JOURNAL_PAYMENT",
+  "CategoryId": "document_category:JOURNAL"
+ },
+ {
+  "Key": "inter_document_type_category:33",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "document_type:JOURNAL_RECEIPT",
+  "CategoryId": "document_category:JOURNAL"
+ },
+ {
+  "Key": "inter_document_type_category:34",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "document_type:JOURNAL_PREPAYMENT",
+  "CategoryId": "document_category:JOURNAL"
+ },
+ {
+  "Key": "inter_document_type_category:35",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "document_type:JOURNAL_ADVANCE",
+  "CategoryId": "document_category:JOURNAL"
+ },
+ {
+  "Key": "inter_document_type_category:36",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "document_type:JOURNAL_EMPLOYEE_ADVANCE",
+  "CategoryId": "document_category:JOURNAL"
+ },
+ {
+  "Key": "inter_document_type_category:37",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "document_type:REVALUATION_SHEET",
+  "CategoryId": "document_category:JOURNAL"
+ },
+ {
+  "Key": "inter_document_type_category:38",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "document_type:REVALUATION_JOURNAL",
+  "CategoryId": "document_category:JOURNAL"
+ },
+ {
+  "Key": "inter_document_type_category:39",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "document_type:POS_RECEIPT",
+  "CategoryId": "document_category:SALES"
+ },
+ {
+  "Key": "inter_document_type_category:40",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "document_type:GOODS_TRANSFER_FROM_STAFF",
+  "CategoryId": "document_category:TRANSFERS"
+ },
+ {
+  "Key": "inter_document_type_category:41",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "document_type:GOODS_TRANSFER_TO_CLIENT",
+  "CategoryId": "document_category:TRANSFERS"
+ },
+ {
+  "Key": "inter_document_type_category:42",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "document_type:GOODS_TRANSFER_FROM_CLIENT",
+  "CategoryId": "document_category:TRANSFERS"
+ },
+ {
+  "Key": "inter_document_type_category:43",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "document_type:POS_CONTRACT",
+  "CategoryId": "document_category:CONTRACTS"
+ },
+ {
+  "Key": "inter_document_type_category:44",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "document_type:POS_MONEY_IN",
+  "CategoryId": "document_category:CASH_DESK"
+ },
+ {
+  "Key": "inter_document_type_category:45",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "document_type:POS_MONEY_OUT",
+  "CategoryId": "document_category:CASH_DESK"
+ },
+ {
+  "Key": "inter_document_type_category:46",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "document_type:POS_GOODS_IN",
+  "CategoryId": "document_category:TRANSFERS"
+ },
+ {
+  "Key": "inter_document_type_category:47",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "document_type:POS_GOODS_OUT",
+  "CategoryId": "document_category:TRANSFERS"
+ },
+ {
+  "Key": "inter_document_type_category:48",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "document_type:WAGE_PAYMENT",
+  "CategoryId": "document_category:CASH_DESK"
+ },
+ {
+  "Key": "inter_document_type_category:49",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "document_type:RENT_PAYMENT",
+  "CategoryId": "document_category:CASH_DESK"
+ },
+ {
+  "Key": "inter_document_type_category:50",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "document_type:CUSTOMS_DECLARATION",
+  "CategoryId": "document_category:PURCHASES"
+ },
+ {
+  "Key": "inter_document_type_category:51",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "document_type:CUSTOMS_DECLARATION_ASSETS",
+  "CategoryId": "document_category:PURCHASES"
+ },
+ {
+  "Key": "inter_document_type_category:52",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "document_type:POS_REVERSAL",
+  "CategoryId": "document_category:SALES"
+ },
+ {
+  "Key": "inter_document_type_category:53",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "document_type:POS_REFUND",
+  "CategoryId": "document_category:CASH_DESK"
+ },
+ {
+  "Key": "inter_document_type_category:54",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "document_type:POS_MONEY_FROM_STAFF",
+  "CategoryId": "document_category:CASH_DESK"
+ },
+ {
+  "Key": "inter_document_type_category:55",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "document_type:GOODS_OUT_TO_STAFF",
+  "CategoryId": "document_category:TRANSFERS"
+ },
+ {
+  "Key": "inter_document_type_category:56",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "document_type:GOODS_TRANSFER_STAFF_TO_CLIENT",
+  "CategoryId": "document_category:TRANSFERS"
+ },
+ {
+  "Key": "inter_document_type_category:57",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "document_type:GOODS_IN_FROM_STAFF",
+  "CategoryId": "document_category:TRANSFERS"
+ },
+ {
+  "Key": "inter_document_type_category:58",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "document_type:CREDIT_NOTE_GOODS_BOUGHT",
+  "CategoryId": "document_category:REVERSALS"
+ },
+ {
+  "Key": "inter_document_type_category:59",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "document_type:CREDIT_NOTE_SERVICES_BOUGHT",
+  "CategoryId": "document_category:REVERSALS"
+ },
+ {
+  "Key": "inter_document_type_category:60",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "document_type:CREDIT_NOTE_GOODS_SOLD",
+  "CategoryId": "document_category:REVERSALS"
+ },
+ {
+  "Key": "inter_document_type_category:61",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "document_type:CREDIT_NOTE_SERVICES_SOLD",
+  "CategoryId": "document_category:REVERSALS"
+ },
+ {
+  "Key": "inter_document_type_category:62",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "document_type:REVERSAL_PAYMENT",
+  "CategoryId": "document_category:REVERSALS"
+ },
+ {
+  "Key": "inter_document_type_category:63",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "document_type:REVERSAL_RECEIPT",
+  "CategoryId": "document_category:REVERSALS"
+ },
+ {
+  "Key": "inter_document_type_category:64",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "document_type:REVERSAL_PREPAYMENT",
+  "CategoryId": "document_category:REVERSALS"
+ },
+ {
+  "Key": "inter_document_type_category:65",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "document_type:REVERSAL_DEPRECIATION_JOURNAL",
+  "CategoryId": "document_category:REVERSALS"
+ },
+ {
+  "Key": "inter_document_type_category:66",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "document_type:REVERSAL_JOURNAL_PAYMENT",
+  "CategoryId": "document_category:REVERSALS"
+ },
+ {
+  "Key": "inter_document_type_category:67",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "document_type:REVERSAL_JOURNAL_RECEIPT",
+  "CategoryId": "document_category:REVERSALS"
+ },
+ {
+  "Key": "inter_document_type_category:68",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "document_type:REVERSAL_JOURNAL_PREPAYMENT",
+  "CategoryId": "document_category:REVERSALS"
+ },
+ {
+  "Key": "inter_document_type_category:69",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "document_type:REVERSAL_ADVANCE",
+  "CategoryId": "document_category:REVERSALS"
+ },
+ {
+  "Key": "inter_document_type_category:70",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "document_type:REVERSAL_EMPLOYEE_ADVANCE",
+  "CategoryId": "document_category:REVERSALS"
+ },
+ {
+  "Key": "inter_document_type_category:71",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "document_type:REVERSAL_JOURNAL_ADVANCE",
+  "CategoryId": "document_category:REVERSALS"
+ },
+ {
+  "Key": "inter_document_type_category:72",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "document_type:REVERSAL_JOURNAL_EMPLOYEE_ADVANCE",
+  "CategoryId": "document_category:REVERSALS"
+ },
+ {
+  "Key": "inter_document_type_category:production:PRODUCTION",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "document_type:PRODUCTION",
+  "CategoryId": "document_category:PRODUCTION"
+ },
+ {
+  "Key": "inter_document_type_category:production:UNIT_SPLIT",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "document_type:UNIT_SPLIT",
+  "CategoryId": "document_category:PRODUCTION"
+ },
+ {
+  "Key": "inter_document_type_category:production:REVERSAL_UNIT_SPLIT",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "document_type:REVERSAL_UNIT_SPLIT",
+  "CategoryId": "document_category:REVERSALS"
+ },
+ {
+  "Key": "inter_document_type_category:journal-reversal:REVERSAL_JOURNAL_SHEET",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "document_type:REVERSAL_JOURNAL_SHEET",
+  "CategoryId": "document_category:REVERSALS"
+ },
+ {
+  "Key": "inter_document_type_category:journal-reversal:REVERSAL_DEPRECIATION_SHEET",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "document_type:REVERSAL_DEPRECIATION_SHEET",
+  "CategoryId": "document_category:REVERSALS"
+ },
+ {
+  "Key": "inter_document_type_category:journal-reversal:REVERSAL_GENERAL_JOURNAL_ENTRY",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "document_type:REVERSAL_GENERAL_JOURNAL_ENTRY",
+  "CategoryId": "document_category:REVERSALS"
+ },
+ {
+  "Key": "inter_document_type_category:recurring:RECURRING_JOURNAL_PAYMENT",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "document_type:RECURRING_JOURNAL_PAYMENT",
+  "CategoryId": "document_category:RECURRING_JOURNAL"
+ },
+ {
+  "Key": "inter_document_type_category:recurring:REVERSAL_RECURRING_JOURNAL_PAYMENT",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "document_type:REVERSAL_RECURRING_JOURNAL_PAYMENT",
+  "CategoryId": "document_category:REVERSALS"
+ },
+ {
+  "Key": "inter_document_type_category:recurring:RECURRING_JOURNAL_RECEIPT",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "document_type:RECURRING_JOURNAL_RECEIPT",
+  "CategoryId": "document_category:RECURRING_JOURNAL"
+ },
+ {
+  "Key": "inter_document_type_category:recurring:REVERSAL_RECURRING_JOURNAL_RECEIPT",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "document_type:REVERSAL_RECURRING_JOURNAL_RECEIPT",
+  "CategoryId": "document_category:REVERSALS"
+ },
+ {
+  "Key": "inter_document_type_category:recurring:RECURRING_JOURNAL_PREPAYMENT",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "document_type:RECURRING_JOURNAL_PREPAYMENT",
+  "CategoryId": "document_category:RECURRING_JOURNAL"
+ },
+ {
+  "Key": "inter_document_type_category:recurring:REVERSAL_RECURRING_JOURNAL_PREPAYMENT",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "document_type:REVERSAL_RECURRING_JOURNAL_PREPAYMENT",
+  "CategoryId": "document_category:REVERSALS"
+ },
+ {
+  "Key": "inter_document_type_category:recurring:RECURRING_JOURNAL_ADVANCE",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "document_type:RECURRING_JOURNAL_ADVANCE",
+  "CategoryId": "document_category:RECURRING_JOURNAL"
+ },
+ {
+  "Key": "inter_document_type_category:recurring:REVERSAL_RECURRING_JOURNAL_ADVANCE",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "document_type:REVERSAL_RECURRING_JOURNAL_ADVANCE",
+  "CategoryId": "document_category:REVERSALS"
+ },
+ {
+  "Key": "inter_document_type_category:recurring:RECURRING_JOURNAL_EMPLOYEE_ADVANCE",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "document_type:RECURRING_JOURNAL_EMPLOYEE_ADVANCE",
+  "CategoryId": "document_category:RECURRING_JOURNAL"
+ },
+ {
+  "Key": "inter_document_type_category:recurring:REVERSAL_RECURRING_JOURNAL_EMPLOYEE_ADVANCE",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "document_type:REVERSAL_RECURRING_JOURNAL_EMPLOYEE_ADVANCE",
+  "CategoryId": "document_category:REVERSALS"
+ },
+ {
+  "Key": "inter_document_type_category:recurring:RECURRING_GENERAL_JOURNAL_ENTRY",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "document_type:RECURRING_GENERAL_JOURNAL_ENTRY",
+  "CategoryId": "document_category:RECURRING_JOURNAL"
+ },
+ {
+  "Key": "inter_document_type_category:recurring:REVERSAL_RECURRING_GENERAL_JOURNAL_ENTRY",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "document_type:REVERSAL_RECURRING_GENERAL_JOURNAL_ENTRY",
+  "CategoryId": "document_category:REVERSALS"
+ },
+ {
+  "Key": "inter_document_type_category:recurring:REVERSAL_RECURRING_JOURNAL_SHEET",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "document_type:REVERSAL_RECURRING_JOURNAL_SHEET",
+  "CategoryId": "document_category:REVERSALS"
+ },
+ {
+  "Key": "inter_document_type_category:recurring:RECURRING_DEPRECIATION_JOURNAL",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "document_type:RECURRING_DEPRECIATION_JOURNAL",
+  "CategoryId": "document_category:RECURRING_JOURNAL"
+ },
+ {
+  "Key": "inter_document_type_category:recurring:REVERSAL_RECURRING_DEPRECIATION_JOURNAL",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "document_type:REVERSAL_RECURRING_DEPRECIATION_JOURNAL",
+  "CategoryId": "document_category:REVERSALS"
+ },
+ {
+  "Key": "inter_document_type_category:recurring:REVERSAL_RECURRING_DEPRECIATION_SHEET",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "document_type:REVERSAL_RECURRING_DEPRECIATION_SHEET",
+  "CategoryId": "document_category:REVERSALS"
+ },
+ {
+  "Key": "inter_document_type_category:recurring:RECURRING_REVALUATION_JOURNAL",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "document_type:RECURRING_REVALUATION_JOURNAL",
+  "CategoryId": "document_category:RECURRING_JOURNAL"
+ },
+ {
+  "Key": "inter_document_type_category:23:PURCHASE_REQUEST",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "document_type:PURCHASE_REQUEST",
+  "CategoryId": "document_category:ORDERS"
+ },
+ {
+  "Key": "inter_document_type_category:23:PURCHASE_ORDER",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "document_type:PURCHASE_ORDER",
+  "CategoryId": "document_category:ORDERS"
+ },
+ {
+  "Key": "inter_document_type_category:13:SALES_ORDER",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "document_type:SALES_ORDER",
+  "CategoryId": "document_category:ORDERS"
+ },
+ {
+  "Key": "inter_document_type_category:13:POS_ORDER",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "document_type:POS_ORDER",
+  "CategoryId": "document_category:ORDERS"
+ },
+ {
+  "Key": "inter_document_type_category:26:REPAIR_INTAKE",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "document_type:REPAIR_INTAKE",
+  "CategoryId": "document_category:REPAIRS"
+ },
+ {
+  "Key": "inter_document_type_category:26:REPAIR_OFFER",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "document_type:REPAIR_OFFER",
+  "CategoryId": "document_category:REPAIRS"
+ },
+ {
+  "Key": "inter_document_type_category:disassembly:DISASSEMBLY",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "document_type:DISASSEMBLY",
+  "CategoryId": "document_category:PRODUCTION"
+ },
+ {
+  "Key": "inter_document_type_category:reversals:REVERSAL_CUSTOMS_DECLARATION",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "document_type:REVERSAL_CUSTOMS_DECLARATION",
+  "CategoryId": "document_category:REVERSALS"
+ },
+ {
+  "Key": "inter_document_type_category:reversals:REVERSAL_CUSTOMS_DECLARATION_ASSETS",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "document_type:REVERSAL_CUSTOMS_DECLARATION_ASSETS",
+  "CategoryId": "document_category:REVERSALS"
+ },
+ {
+  "Key": "inter_document_type_category:reversals:REVERSAL_GOODS_TRANSFER",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "document_type:REVERSAL_GOODS_TRANSFER",
+  "CategoryId": "document_category:REVERSALS"
+ },
+ {
+  "Key": "inter_document_type_category:reversals:REVERSAL_GOODS_TRANSFER_TO_STAFF",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "document_type:REVERSAL_GOODS_TRANSFER_TO_STAFF",
+  "CategoryId": "document_category:REVERSALS"
+ },
+ {
+  "Key": "inter_document_type_category:reversals:REVERSAL_GOODS_TRANSFER_FROM_STAFF",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "document_type:REVERSAL_GOODS_TRANSFER_FROM_STAFF",
+  "CategoryId": "document_category:REVERSALS"
+ },
+ {
+  "Key": "inter_document_type_category:reversals:REVERSAL_GOODS_TRANSFER_TO_CLIENT",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "document_type:REVERSAL_GOODS_TRANSFER_TO_CLIENT",
+  "CategoryId": "document_category:REVERSALS"
+ },
+ {
+  "Key": "inter_document_type_category:reversals:REVERSAL_GOODS_TRANSFER_FROM_CLIENT",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "document_type:REVERSAL_GOODS_TRANSFER_FROM_CLIENT",
+  "CategoryId": "document_category:REVERSALS"
+ },
+ {
+  "Key": "inter_document_type_category:reversals:REVERSAL_GOODS_TRANSFER_STAFF_TO_CLIENT",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "document_type:REVERSAL_GOODS_TRANSFER_STAFF_TO_CLIENT",
+  "CategoryId": "document_category:REVERSALS"
+ },
+ {
+  "IdSup": null,
+  "Active": true,
+  "Key": "inter_document_type_category:OPENING_STOCK",
+  "TypeId": "document_type:OPENING_STOCK",
+  "CategoryId": "document_category:TRANSFERS"
+ },
+ {
+  "IdSup": null,
+  "Active": true,
+  "Key": "inter_document_type_category:OPENING_STOCK_REVERSAL",
+  "TypeId": "document_type:OPENING_STOCK_REVERSAL",
+  "CategoryId": "document_category:REVERSALS"
+ }
+]

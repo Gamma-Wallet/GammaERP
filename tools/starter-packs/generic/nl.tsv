@@ -1,0 +1,179 @@
+# Gamma's generic chart (chart-generic.tsv) in Dutch, by account code. Gamma's translations.
+# code	nl
+1	Vaste activa
+11	Materiële vaste activa
+1101	Terreinen
+1102	Gebouwen
+1103	Machines en installaties
+1104	Vervoermiddelen
+1105	Inventaris
+1106	Computerapparatuur
+1107	Activa in aanbouw
+12	Cumulatieve afschrijvingen materiële vaste activa
+1202	Cumulatieve afschrijvingen gebouwen
+1203	Cumulatieve afschrijvingen machines en installaties
+1204	Cumulatieve afschrijvingen vervoermiddelen
+1205	Cumulatieve afschrijvingen inventaris
+1206	Cumulatieve afschrijvingen computerapparatuur
+13	Immateriële vaste activa
+1301	Goodwill
+1302	Software
+1303	Merken en licenties
+14	Cumulatieve afschrijvingen immateriële vaste activa
+1402	Cumulatieve afschrijvingen software
+1403	Cumulatieve afschrijvingen merken en licenties
+15	Vastgoedbeleggingen
+1501	Vastgoedbeleggingen
+16	Financiële vaste activa
+1601	Deelnemingen in groepsmaatschappijen
+1602	Deelnemingen in geassocieerde deelnemingen
+1603	Overige effecten
+1604	Langlopende vorderingen
+17	Latente belastingen
+1701	Latente belastingvorderingen
+2	Vlottende activa
+20	Voorraden
+2001	Handelsgoederen
+2002	Grondstoffen
+2003	Hulpstoffen
+2004	Gereed product
+2005	Onderhanden werk
+22	Handelsdebiteuren
+2201	Debiteuren
+2202	Buitenlandse debiteuren
+2203	Te ontvangen cheques
+2209	Voorziening dubieuze debiteuren
+23	Overige vorderingen
+2301	Vooruitbetaalde kosten
+2302	Vooruitbetaald aan leveranciers
+2303	Voorschotten aan personeel
+2304	Waarborgsommen
+2305	Overige vorderingen
+24	Belastingvorderingen
+2401	Te vorderen btw (voorbelasting)
+2402	Te ontvangen btw
+2403	Vooruitbetaalde belastingen
+28	Liquide middelen
+2801	Kas
+2802	Kas in vreemde valuta
+2803	Bank
+2804	Bank in vreemde valuta
+2805	Deposito's
+2806	Kruisposten
+3	Eigen vermogen
+30	Geplaatst kapitaal
+3001	Geplaatst kapitaal
+3002	Agioreserve
+31	Reserves
+3101	Herwaarderingsreserve
+3102	Overige reserves
+32	Onverdeelde winst
+3201	Onverdeelde winst
+3202	Resultaat boekjaar
+4	Schulden
+40	Langlopende schulden
+4001	Langlopende bankleningen
+4002	Leaseverplichtingen
+4003	Leningen van aandeelhouders
+4004	Latente belastingverplichtingen
+4005	Voorzieningen
+41	Handelscrediteuren
+4101	Crediteuren
+4102	Buitenlandse crediteuren
+4103	Te betalen wissels
+4104	Vooruitontvangen van afnemers
+42	Overige schulden
+4201	Nog te betalen kosten
+4202	Vooruitontvangen opbrengsten
+4203	Te betalen lonen
+4204	Te betalen sociale lasten
+4205	Te betalen zorgverzekeringspremies
+4206	Overige schulden
+4207	Te betalen dividend
+43	Kortlopende leningen
+4301	Rekening-courant krediet
+4302	Kortlopende bankleningen
+44	Belastingschulden
+4401	Af te dragen btw
+4402	Te betalen btw
+4403	Te betalen vennootschapsbelasting
+4404	Te betalen loonheffing
+4405	Overige te betalen belastingen
+5	Opbrengsten
+50	Netto-omzet
+5001	Omzet handelsgoederen
+5002	Omzet diensten
+5003	Omzet eigen producten
+5004	Retouren en kortingen op omzet
+51	Overige bedrijfsopbrengsten
+5101	Huuropbrengsten
+5102	Subsidies
+5103	Boekwinst op materiële vaste activa
+5104	Diverse opbrengsten
+52	Financiële baten
+5201	Rentebaten
+5202	Dividendopbrengsten
+5203	Koerswinsten
+6	Inkoop en kostprijs van de omzet
+60	Inkopen
+6001	Inkoop handelsgoederen
+6002	Inkoop grondstoffen
+6003	Inkoop hulpstoffen
+6004	Retouren en kortingen op inkoop
+6005	Inkoopkosten en invoerrechten
+61	Voorraadmutaties
+6101	Voorraadmutatie handelsgoederen
+6102	Voorraadmutatie grondstoffen
+7	Kosten
+70	Personeelskosten
+7001	Lonen en salarissen
+7002	Sociale lasten werkgever
+7003	Werkgeversbijdrage zorgverzekering
+7004	Overige werkgeversbijdragen
+7005	Overige personeelskosten
+71	Huisvestingskosten
+7101	Huur
+7102	Elektriciteit
+7103	Water
+7104	Onderhoud en reparaties
+7105	Verzekeringen
+72	Algemene kosten
+7201	Telefoon en internet
+7202	Porti
+7203	Kantoorbenodigdheden
+7204	Accountantskosten
+7205	Advieskosten
+7206	Contributies en abonnementen
+7207	Kosten van de vennootschap
+73	Verkoopkosten
+7301	Reclame
+7302	Vrachtkosten verkoop
+7303	Provisies
+7304	Reiskosten
+74	Autokosten
+7401	Brandstof
+7402	Motorrijtuigenbelasting en verzekering
+7403	Reparaties auto's
+75	Financiële lasten
+7501	Rentelasten
+7502	Bankkosten
+7503	Koersverliezen
+7504	Leaserente
+76	Afschrijvingen
+7601	Afschrijving gebouwen
+7602	Afschrijving machines en installaties
+7603	Afschrijving vervoermiddelen
+7604	Afschrijving inventaris
+7605	Afschrijving computerapparatuur
+7606	Afschrijving immateriële vaste activa
+77	Overige kosten
+7701	Oninbare vorderingen
+7702	Boekverlies op materiële vaste activa
+7703	Niet-aftrekbare btw
+7704	Diverse kosten
+7705	Voorraadverliezen en derving
+8	Belastingen
+80	Belasting over de winst
+8001	Vennootschapsbelasting
+8002	Overige winstbelastingen
+8003	Latente belastingen

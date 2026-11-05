@@ -1,0 +1,14 @@
+[
+ {
+  "Key": "partner:GENERAL",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "partner_type:UNKNOWN",
+  "Code": "GENERAL",
+  "Name": {
+   "en": "General client"
+  },
+  "Description": null,
+  "IsComposite": false
+ }
+]

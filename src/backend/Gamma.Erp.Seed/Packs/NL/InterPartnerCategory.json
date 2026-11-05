@@ -1,0 +1,9 @@
+[
+ {
+  "Key": "inter_partner_category:GENERAL",
+  "IdSup": null,
+  "Active": true,
+  "ElementId": "partner:GENERAL",
+  "CategoryId": "partner_category:CLIENTS"
+ }
+]

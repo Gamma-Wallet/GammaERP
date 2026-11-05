@@ -1,0 +1,35 @@
+[
+ {
+  "Key": "partner_category:CLIENTS",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "CLIENTS",
+  "Name": {
+   "en": "Clients"
+  },
+  "SortOrder": 10
+ },
+ {
+  "Key": "partner_category:SUPPLIERS",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "SUPPLIERS",
+  "Name": {
+   "en": "Suppliers"
+  },
+  "SortOrder": 20
+ },
+ {
+  "Key": "partner_category:LEADS",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "LEADS",
+  "Name": {
+   "en": "Leads"
+  },
+  "SortOrder": 3.0
+ }
+]

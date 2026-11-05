@@ -1,0 +1,30 @@
+[
+ {
+  "Key": "depreciation_method:STRAIGHT_LINE",
+  "IdSup": null,
+  "Active": true,
+  "Name": {
+   "en": "Straight-line",
+   "nl": "Lineair"
+  },
+  "Description": {
+   "en": "Straight-line depreciation",
+   "nl": "Lineaire afschrijving"
+  },
+  "Formula": "(VF/DT)*DK"
+ },
+ {
+  "Key": "depreciation_method:REMAINING_VALUE",
+  "IdSup": null,
+  "Active": true,
+  "Name": {
+   "en": "Remaining value",
+   "nl": "Boekwaarde"
+  },
+  "Description": {
+   "en": "Depreciation on the remaining value",
+   "nl": "Afschrijving op de boekwaarde"
+  },
+  "Formula": "((VF*PD*((1-PD)^YK))/365)*DK"
+ }
+]

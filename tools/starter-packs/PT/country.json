@@ -1,0 +1,309 @@
+{
+  "country": "PT",
+  "language": "pt",
+  "currency": "EUR",
+  "sources": [
+    "Chart: Código de Contas of the SNC, Portaria n.º 218/2015 (companies), https://informador.pt/legislacao/lexit/codigos/outros-diplomas/sistema-de-normalizacao-contabilistica-snc/codigo-de-contas/portaria-n-o-218-2015-de-23-de-julho/2-codigo-de-contas/",
+    "VAT: Código do IVA, mainland rates 23 % normal, 13 % intermediate, 6 % reduced, 0 % (exempt)",
+    "Depreciation: Decreto Regulamentar n.º 25/2009 (tables of maximum rates)",
+    "Document codes: the SAF-T (PT) / AT document types where one exists (FT invoice, FS simplified invoice, NC credit note, RG receipt, GT transport guide, OR quote)"
+  ],
+  "uncertain": [
+    "Depreciation rates used (to be checked against the tables): commercial buildings 2 %, basic and administrative equipment and furniture 12.5 %, vehicles 25 %, computers and software 33.33 %.",
+    "Madeira (22/12/4 %) and the Azores (16/9/4 %) have their own IVA rates; not included.",
+    "Purchases of goods post to 311 Compras — Mercadorias (the SNC's purchases account), transferred to inventory 32 by the company."
+  ],
+  "chart": {
+    "file": "chart-pt.tsv",
+    "category": {
+      "code": "SNC",
+      "name": "Código de Contas do SNC (Portaria 218/2015)"
+    },
+    "types": [
+      {
+        "code": "1",
+        "name": "Classe 1 – Meios financeiros líquidos",
+        "prefixes": [
+          "1"
+        ],
+        "roles": []
+      },
+      {
+        "code": "2",
+        "name": "Classe 2 – Contas a receber e a pagar",
+        "prefixes": [
+          "2"
+        ],
+        "roles": []
+      },
+      {
+        "code": "3",
+        "name": "Classe 3 – Inventários e ativos biológicos",
+        "prefixes": [
+          "3"
+        ],
+        "roles": [
+          "inventories"
+        ]
+      },
+      {
+        "code": "4",
+        "name": "Classe 4 – Investimentos",
+        "prefixes": [
+          "4"
+        ],
+        "roles": [
+          "fixed_assets"
+        ]
+      },
+      {
+        "code": "5",
+        "name": "Classe 5 – Capital, reservas e resultados transitados",
+        "prefixes": [
+          "5"
+        ],
+        "roles": []
+      },
+      {
+        "code": "6",
+        "name": "Classe 6 – Gastos",
+        "prefixes": [
+          "6"
+        ],
+        "roles": [
+          "expenses"
+        ]
+      },
+      {
+        "code": "7",
+        "name": "Classe 7 – Rendimentos",
+        "prefixes": [
+          "7"
+        ],
+        "roles": [
+          "income"
+        ]
+      },
+      {
+        "code": "8",
+        "name": "Classe 8 – Resultados",
+        "prefixes": [
+          "8"
+        ],
+        "roles": []
+      }
+    ]
+  },
+  "roles": {
+    "clients": "2111",
+    "output_vat": "2433",
+    "suppliers": "2211",
+    "input_vat": "2432",
+    "employee_advances": "2322",
+    "goods_sales": "711",
+    "goods_purchases": "311",
+    "client_advances": "218",
+    "supplier_prepayments": "228",
+    "wages_payable": "2312",
+    "rent_expense": "6261",
+    "services_sales": "721",
+    "services_purchases": "6268",
+    "asset_assets": "433",
+    "asset_land": "431",
+    "asset_buildings": "432",
+    "asset_office": "435",
+    "asset_vehicles": "434",
+    "asset_computers": "435",
+    "asset_furniture": "435",
+    "asset_intangible": "443",
+    "production": "36",
+    "waste": "6842"
+  },
+  "cash_account": "11",
+  "bank_account": "12",
+  "services_account": "721",
+  "vat": [
+    {
+      "rate": 23,
+      "name": "IVA 23%",
+      "en": "VAT 23%",
+      "standard": true
+    },
+    {
+      "rate": 13,
+      "name": "IVA 13%",
+      "en": "VAT 13%",
+      "standard": true
+    },
+    {
+      "rate": 6,
+      "name": "IVA 6%",
+      "en": "VAT 6%",
+      "standard": true
+    },
+    {
+      "rate": 0,
+      "name": "IVA 0% / isento",
+      "en": "VAT 0% / exempt",
+      "standard": false
+    }
+  ],
+  "depreciation": {
+    "assets": [
+      96,
+      12.5,
+      "642",
+      "438"
+    ],
+    "land": [
+      null,
+      0,
+      null,
+      null
+    ],
+    "buildings": [
+      600,
+      2,
+      "642",
+      "438"
+    ],
+    "office": [
+      96,
+      12.5,
+      "642",
+      "438"
+    ],
+    "vehicles": [
+      48,
+      25,
+      "642",
+      "438"
+    ],
+    "computers": [
+      36,
+      33.33,
+      "642",
+      "438"
+    ],
+    "furniture": [
+      96,
+      12.5,
+      "642",
+      "438"
+    ],
+    "intangible": [
+      36,
+      33.33,
+      "643",
+      "448"
+    ]
+  },
+  "document_codes": {
+    "PURCHASE_REQUEST": "PRQ",
+    "PURCHASE_ORDER": "POR",
+    "SALES_ORDER": "SOR",
+    "REPAIR_INTAKE": "RIN",
+    "REPAIR_OFFER": "ROF",
+    "POS_ORDER": "PSO",
+    "SALES_INVOICE_GOODS": "FT",
+    "CREDIT_NOTE_GOODS_SOLD": "NC",
+    "SALES_INVOICE_SERVICES": "FTS",
+    "CREDIT_NOTE_SERVICES_SOLD": "NCS",
+    "PURCHASE_INVOICE_GOODS": "FC",
+    "CREDIT_NOTE_GOODS_BOUGHT": "NCC",
+    "PURCHASE_INVOICE_SERVICES": "FCS",
+    "CREDIT_NOTE_SERVICES_BOUGHT": "NCCS",
+    "GOODS_TRANSFER": "GT",
+    "PAYMENT": "PAG",
+    "RECEIPT": "RG",
+    "PREPAYMENT": "PAN",
+    "GOODS_TRANSFER_TO_STAFF": "GTC",
+    "SALES_OFFER_GOODS": "OR",
+    "DEPRECIATION_SHEET": "MDP",
+    "DEPRECIATION_JOURNAL": "LDP",
+    "JOURNAL_SHEET": "FL",
+    "JOURNAL_PAYMENT": "PAG",
+    "JOURNAL_RECEIPT": "RG",
+    "JOURNAL_PREPAYMENT": "PAN",
+    "REVALUATION_SHEET": "MRV",
+    "REVALUATION_JOURNAL": "LRV",
+    "ADVANCE": "ADT",
+    "EMPLOYEE_ADVANCE": "ADC",
+    "JOURNAL_ADVANCE": "ADT",
+    "JOURNAL_EMPLOYEE_ADVANCE": "ADC",
+    "SALES_CONTRACT_GOODS": "CVM",
+    "PURCHASE_CONTRACT_GOODS": "CCM",
+    "PURCHASE_OFFER_GOODS": "POM",
+    "SALES_OFFER_SERVICES": "ORS",
+    "PURCHASE_OFFER_SERVICES": "POS",
+    "SALES_CONTRACT_SERVICES": "CPS",
+    "PURCHASE_CONTRACT_SERVICES": "CCS",
+    "RECURRING_DEPRECIATION_SHEET": "MDPP",
+    "RECURRING_JOURNAL_SHEET": "FLP",
+    "RECURRING_REVALUATION_SHEET": "MRVP",
+    "GENERAL_JOURNAL_ENTRY": "LG",
+    "POS_RECEIPT": "FS",
+    "GOODS_TRANSFER_FROM_STAFF": "GTCC",
+    "GOODS_TRANSFER_TO_CLIENT": "GTCL",
+    "GOODS_TRANSFER_FROM_CLIENT": "GTLC",
+    "POS_CONTRACT": "CPV",
+    "POS_MONEY_IN": "RGPV",
+    "POS_MONEY_OUT": "PAGPV",
+    "POS_GOODS_IN": "ENTPV",
+    "POS_GOODS_OUT": "SAIPV",
+    "WAGE_PAYMENT": "SAL",
+    "RENT_PAYMENT": "REN",
+    "CUSTOMS_DECLARATION": "DA",
+    "CUSTOMS_DECLARATION_ASSETS": "DAF",
+    "POS_REVERSAL": "NCPV",
+    "POS_REFUND": "REMPV",
+    "POS_MONEY_FROM_STAFF": "RGPC",
+    "GOODS_OUT_TO_STAFF": "SAIC",
+    "GOODS_TRANSFER_STAFF_TO_CLIENT": "GTCK",
+    "GOODS_IN_FROM_STAFF": "ENTC",
+    "REVERSAL_PAYMENT": "APAG",
+    "REVERSAL_RECEIPT": "ARG",
+    "REVERSAL_PREPAYMENT": "APAN",
+    "REVERSAL_DEPRECIATION_JOURNAL": "ALDP",
+    "REVERSAL_JOURNAL_PAYMENT": "APAGJ",
+    "REVERSAL_JOURNAL_RECEIPT": "ARGJ",
+    "REVERSAL_JOURNAL_PREPAYMENT": "APANJ",
+    "REVERSAL_ADVANCE": "AADT",
+    "REVERSAL_EMPLOYEE_ADVANCE": "AADC",
+    "REVERSAL_JOURNAL_ADVANCE": "AADTJ",
+    "REVERSAL_JOURNAL_EMPLOYEE_ADVANCE": "AADCJ",
+    "PRODUCTION": "PRD",
+    "UNIT_SPLIT": "CUM",
+    "REVERSAL_UNIT_SPLIT": "ACUM",
+    "REVERSAL_JOURNAL_SHEET": "AFLJ",
+    "REVERSAL_DEPRECIATION_SHEET": "AMDPJ",
+    "REVERSAL_GENERAL_JOURNAL_ENTRY": "ALGJ",
+    "RECURRING_JOURNAL_PAYMENT": "PAGP",
+    "REVERSAL_RECURRING_JOURNAL_PAYMENT": "APAGPJ",
+    "RECURRING_JOURNAL_RECEIPT": "RGP",
+    "REVERSAL_RECURRING_JOURNAL_RECEIPT": "ARGPJ",
+    "RECURRING_JOURNAL_PREPAYMENT": "PANP",
+    "REVERSAL_RECURRING_JOURNAL_PREPAYMENT": "APANPJ",
+    "RECURRING_JOURNAL_ADVANCE": "ADTP",
+    "REVERSAL_RECURRING_JOURNAL_ADVANCE": "AADTPJ",
+    "RECURRING_JOURNAL_EMPLOYEE_ADVANCE": "ADCP",
+    "REVERSAL_RECURRING_JOURNAL_EMPLOYEE_ADVANCE": "AADCPJ",
+    "RECURRING_GENERAL_JOURNAL_ENTRY": "LGP",
+    "REVERSAL_RECURRING_GENERAL_JOURNAL_ENTRY": "ALGPJ",
+    "REVERSAL_RECURRING_JOURNAL_SHEET": "AFLPJ",
+    "RECURRING_DEPRECIATION_JOURNAL": "LDPP",
+    "REVERSAL_RECURRING_DEPRECIATION_JOURNAL": "ALDPPJ",
+    "REVERSAL_RECURRING_DEPRECIATION_SHEET": "AMDPPJ",
+    "RECURRING_REVALUATION_JOURNAL": "LRVP",
+    "DISASSEMBLY": "DSM",
+    "REVERSAL_CUSTOMS_DECLARATION": "ADA",
+    "REVERSAL_CUSTOMS_DECLARATION_ASSETS": "ADAF",
+    "REVERSAL_GOODS_TRANSFER": "AGT",
+    "REVERSAL_GOODS_TRANSFER_TO_STAFF": "AGTC",
+    "REVERSAL_GOODS_TRANSFER_FROM_STAFF": "AGTCC",
+    "REVERSAL_GOODS_TRANSFER_TO_CLIENT": "AGTCL",
+    "REVERSAL_GOODS_TRANSFER_FROM_CLIENT": "AGTLC",
+    "REVERSAL_GOODS_TRANSFER_STAFF_TO_CLIENT": "AGTCK"
+  },
+  "document_descriptions": {}
+}

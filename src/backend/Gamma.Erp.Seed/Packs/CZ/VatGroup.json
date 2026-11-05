@@ -1,0 +1,41 @@
+[
+ {
+  "Key": "vat_group:CZ_21",
+  "IdSup": null,
+  "Active": true,
+  "Code": null,
+  "Name": {
+   "en": "VAT 21%",
+   "cs": "DPH 21%"
+  },
+  "Description": null,
+  "Rate": 21.0,
+  "Depreciation": false
+ },
+ {
+  "Key": "vat_group:CZ_12",
+  "IdSup": null,
+  "Active": true,
+  "Code": null,
+  "Name": {
+   "en": "VAT 12%",
+   "cs": "DPH 12%"
+  },
+  "Description": null,
+  "Rate": 12.0,
+  "Depreciation": false
+ },
+ {
+  "Key": "vat_group:CZ_0",
+  "IdSup": null,
+  "Active": true,
+  "Code": null,
+  "Name": {
+   "en": "VAT 0% / exempt",
+   "cs": "DPH 0% / osvobozeno"
+  },
+  "Description": null,
+  "Rate": 0.0,
+  "Depreciation": false
+ }
+]

@@ -1,0 +1,206 @@
+[
+ {
+  "Key": "document_category:SALES",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "SALES",
+  "Name": {
+   "en": "Sales",
+   "lv": "Pārdošana"
+  },
+  "Description": {
+   "en": "Sales invoices",
+   "lv": "Izrakstītie rēķini"
+  },
+  "SortOrder": 3.0
+ },
+ {
+  "Key": "document_category:PURCHASES",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "PURCHASES",
+  "Name": {
+   "en": "Purchases",
+   "lv": "Iepirkumi"
+  },
+  "Description": {
+   "en": "Purchase invoices",
+   "lv": "Saņemtie rēķini"
+  },
+  "SortOrder": 4.0
+ },
+ {
+  "Key": "document_category:TRANSFERS",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "TRANSFERS",
+  "Name": {
+   "en": "Goods transfers",
+   "lv": "Preču pārvietošana"
+  },
+  "Description": {
+   "en": "Goods transfer note",
+   "lv": "Pavadzīme"
+  },
+  "SortOrder": 5.0
+ },
+ {
+  "Key": "document_category:CASH_DESK",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "CASH_DESK",
+  "Name": {
+   "en": "Cash desk",
+   "lv": "Kase"
+  },
+  "Description": {
+   "en": "Cash desk",
+   "lv": "Kase"
+  },
+  "SortOrder": 6.0
+ },
+ {
+  "Key": "document_category:BANK",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "BANK",
+  "Name": {
+   "en": "Bank",
+   "lv": "Banka"
+  },
+  "Description": {
+   "en": "Bank",
+   "lv": "Banka"
+  },
+  "SortOrder": 7.0
+ },
+ {
+  "Key": "document_category:OFFERS",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "OFFERS",
+  "Name": {
+   "en": "Offers",
+   "lv": "Piedāvājumi"
+  },
+  "Description": {
+   "en": "Offers",
+   "lv": "Piedāvājumi"
+  },
+  "SortOrder": 9.0
+ },
+ {
+  "Key": "document_category:JOURNAL",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "JOURNAL",
+  "Name": {
+   "en": "Journal",
+   "lv": "Memoriālie orderi"
+  },
+  "Description": {
+   "en": "Journal",
+   "lv": "Memoriālie orderi"
+  },
+  "SortOrder": 8.0
+ },
+ {
+  "Key": "document_category:CONTRACTS",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "CONTRACTS",
+  "Name": {
+   "en": "Contracts",
+   "lv": "Līgumi"
+  },
+  "Description": {
+   "en": "Contracts",
+   "lv": "Līgumi"
+  },
+  "SortOrder": 10.0
+ },
+ {
+  "Key": "document_category:RECURRING_JOURNAL",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "RECURRING_JOURNAL",
+  "Name": {
+   "en": "Recurring journal",
+   "lv": "Periodiskie ieraksti"
+  },
+  "Description": {
+   "en": "Recurring journal",
+   "lv": "Periodiskie ieraksti"
+  },
+  "SortOrder": 11.0
+ },
+ {
+  "Key": "document_category:REVERSALS",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "REVERSALS",
+  "Name": {
+   "en": "Reversals",
+   "lv": "Stornēšana"
+  },
+  "SortOrder": 100
+ },
+ {
+  "Key": "document_category:PRODUCTION",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "PRODUCTION",
+  "Name": {
+   "en": "Production",
+   "lv": "Ražošana"
+  },
+  "Description": {
+   "en": "Production",
+   "lv": "Ražošana"
+  },
+  "SortOrder": 11.0
+ },
+ {
+  "Key": "document_category:ORDERS",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "ORDERS",
+  "Name": {
+   "en": "Orders",
+   "lv": "Pasūtījumi"
+  },
+  "Description": {
+   "en": "Orders",
+   "lv": "Pasūtījumi"
+  },
+  "SortOrder": 9.0
+ },
+ {
+  "Key": "document_category:REPAIRS",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "REPAIRS",
+  "Name": {
+   "en": "Repairs",
+   "lv": "Remonti"
+  },
+  "Description": {
+   "en": "Repairs",
+   "lv": "Remonti"
+  },
+  "SortOrder": 9.5
+ }
+]

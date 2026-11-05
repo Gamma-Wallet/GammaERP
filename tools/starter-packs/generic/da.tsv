@@ -1,0 +1,179 @@
+# Gamma's generic chart (chart-generic.tsv) in Danish, by account code. Gamma's translations.
+# code	da
+1	Anlægsaktiver
+11	Materielle anlægsaktiver
+1101	Grunde
+1102	Bygninger
+1103	Produktionsanlæg og maskiner
+1104	Transportmidler
+1105	Inventar
+1106	It-udstyr
+1107	Anlæg under opførelse
+12	Akkumulerede afskrivninger, materielle anlægsaktiver
+1202	Akkumulerede afskrivninger, bygninger
+1203	Akkumulerede afskrivninger, produktionsanlæg og maskiner
+1204	Akkumulerede afskrivninger, transportmidler
+1205	Akkumulerede afskrivninger, inventar
+1206	Akkumulerede afskrivninger, it-udstyr
+13	Immaterielle anlægsaktiver
+1301	Goodwill
+1302	Software
+1303	Varemærker og licenser
+14	Akkumulerede afskrivninger, immaterielle anlægsaktiver
+1402	Akkumulerede afskrivninger, software
+1403	Akkumulerede afskrivninger, varemærker og licenser
+15	Investeringsejendomme
+1501	Investeringsejendomme
+16	Finansielle anlægsaktiver
+1601	Kapitalandele i dattervirksomheder
+1602	Kapitalandele i associerede virksomheder
+1603	Andre værdipapirer og kapitalandele
+1604	Langfristede tilgodehavender
+17	Udskudt skat
+1701	Udskudte skatteaktiver
+2	Omsætningsaktiver
+20	Varebeholdninger
+2001	Handelsvarer
+2002	Råvarer
+2003	Hjælpematerialer
+2004	Færdigvarer
+2005	Varer under fremstilling
+22	Tilgodehavender fra salg og tjenesteydelser
+2201	Debitorer
+2202	Udenlandske debitorer
+2203	Checks til indløsning
+2209	Nedskrivning på debitorer
+23	Andre tilgodehavender
+2301	Periodeafgrænsningsposter
+2302	Forudbetalinger til leverandører
+2303	Forskud til medarbejdere
+2304	Deposita
+2305	Andre tilgodehavender
+24	Skattetilgodehavender
+2401	Købsmoms
+2402	Momstilgodehavende
+2403	Betalt acontoskat
+28	Likvide beholdninger
+2801	Kasse
+2802	Kasse i fremmed valuta
+2803	Bank
+2804	Bank i fremmed valuta
+2805	Tidsindskud
+2806	Penge undervejs
+3	Egenkapital
+30	Selskabskapital
+3001	Selskabskapital
+3002	Overkurs ved emission
+31	Reserver
+3101	Reserve for opskrivninger
+3102	Andre reserver
+32	Overført resultat
+3201	Overført resultat
+3202	Årets resultat
+4	Gældsforpligtelser
+40	Langfristede gældsforpligtelser
+4001	Langfristede banklån
+4002	Leasingforpligtelser
+4003	Lån fra kapitalejere
+4004	Udskudt skat
+4005	Hensatte forpligtelser
+41	Leverandører af varer og tjenesteydelser
+4101	Kreditorer
+4102	Udenlandske kreditorer
+4103	Vekselgæld
+4104	Forudbetalinger fra kunder
+42	Anden gæld
+4201	Skyldige omkostninger
+4202	Forudbetalte indtægter
+4203	Skyldig løn
+4204	Skyldige sociale bidrag
+4205	Skyldige sundhedsbidrag
+4206	Anden gæld
+4207	Skyldigt udbytte
+43	Kortfristet gæld til kreditinstitutter
+4301	Kassekredit
+4302	Kortfristede banklån
+44	Skyldige skatter og afgifter
+4401	Salgsmoms
+4402	Skyldig moms
+4403	Skyldig selskabsskat
+4404	Skyldig A-skat
+4405	Andre skyldige skatter
+5	Indtægter
+50	Nettoomsætning
+5001	Salg af varer
+5002	Salg af tjenesteydelser
+5003	Salg af egne produkter
+5004	Rabatter og returneringer
+51	Andre driftsindtægter
+5101	Lejeindtægter
+5102	Tilskud
+5103	Avance ved salg af anlægsaktiver
+5104	Øvrige indtægter
+52	Finansielle indtægter
+5201	Renteindtægter
+5202	Udbytte
+5203	Valutakursgevinster
+6	Vareforbrug
+60	Varekøb
+6001	Køb af handelsvarer
+6002	Køb af råvarer
+6003	Køb af hjælpematerialer
+6004	Rabatter og returneringer på køb
+6005	Fragt og told ved køb
+61	Lagerændringer
+6101	Ændring i lager af handelsvarer
+6102	Ændring i lager af råvarer
+7	Omkostninger
+70	Personaleomkostninger
+7001	Lønninger
+7002	Arbejdsgiverbidrag til social sikring
+7003	Arbejdsgiverbidrag til sundhedsforsikring
+7004	Andre arbejdsgiverbidrag
+7005	Andre personaleomkostninger
+71	Lokaleomkostninger
+7101	Husleje
+7102	El
+7103	Vand
+7104	Reparation og vedligeholdelse
+7105	Forsikringer
+72	Administrationsomkostninger
+7201	Telefon og internet
+7202	Porto
+7203	Kontorartikler
+7204	Revisorhonorar
+7205	Rådgivning
+7206	Kontingenter og abonnementer
+7207	Selskabets gebyrer
+73	Salgsomkostninger
+7301	Reklame
+7302	Fragt ved salg
+7303	Provisioner
+7304	Rejseomkostninger
+74	Bilomkostninger
+7401	Brændstof
+7402	Vægtafgift og forsikring
+7403	Reparation af biler
+75	Finansielle omkostninger
+7501	Renteudgifter
+7502	Gebyrer til bank
+7503	Valutakurstab
+7504	Leasingrenter
+76	Afskrivninger
+7601	Afskrivninger, bygninger
+7602	Afskrivninger, produktionsanlæg og maskiner
+7603	Afskrivninger, transportmidler
+7604	Afskrivninger, inventar
+7605	Afskrivninger, it-udstyr
+7606	Afskrivninger, immaterielle anlægsaktiver
+77	Andre omkostninger
+7701	Tab på debitorer
+7702	Tab ved salg af anlægsaktiver
+7703	Ikke-fradragsberettiget moms
+7704	Øvrige omkostninger
+7705	Lagersvind og spild
+8	Skat af årets resultat
+80	Skatter
+8001	Selskabsskat
+8002	Andre skatter af resultatet
+8003	Udskudt skat

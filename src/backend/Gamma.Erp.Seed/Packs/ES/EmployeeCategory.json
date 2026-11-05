@@ -1,0 +1,26 @@
+[
+ {
+  "Key": "employee_category:FINANCE",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "FINANCE",
+  "Name": {
+   "en": "Finance",
+   "es": "Administración"
+  },
+  "SortOrder": 10
+ },
+ {
+  "Key": "employee_category:STAFF",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "STAFF",
+  "Name": {
+   "en": "Staff",
+   "es": "Personal"
+  },
+  "SortOrder": 20
+ }
+]

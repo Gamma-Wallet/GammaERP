@@ -1,0 +1,2884 @@
+[
+ {
+  "Key": "document_type:SALES_INVOICE_GOODS",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "FV",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Sales invoice, goods",
+   "es": "Factura de venta de mercaderías"
+  },
+  "Description": {
+   "en": "Sales invoice, goods",
+   "es": "Factura de venta de mercaderías"
+  },
+  "SortOrder": 5.0,
+  "MenuId": null,
+  "AllowsPartialReversal": true,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": false,
+  "HoldsOpenItem": true,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": true
+ },
+ {
+  "Key": "document_type:CREDIT_NOTE_GOODS_SOLD",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "FRV",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Credit note, goods sold",
+   "es": "Factura rectificativa de venta de mercaderías"
+  },
+  "Description": {
+   "en": "Credit note, goods sold",
+   "es": "Factura rectificativa de venta de mercaderías"
+  },
+  "SortOrder": 6.0,
+  "MenuId": null,
+  "IsReversal": true,
+  "ReversedDocumentTypeId": "document_type:SALES_INVOICE_GOODS",
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:SALES_INVOICE_SERVICES",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "FS",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Sales invoice, services",
+   "es": "Factura de prestación de servicios"
+  },
+  "Description": {
+   "en": "Sales invoice, services",
+   "es": "Factura de prestación de servicios"
+  },
+  "SortOrder": 7.0,
+  "MenuId": null,
+  "AllowsPartialReversal": true,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": false,
+  "HoldsOpenItem": true,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": true
+ },
+ {
+  "Key": "document_type:CREDIT_NOTE_SERVICES_SOLD",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "FRS",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Credit note, services sold",
+   "es": "Factura rectificativa de servicios prestados"
+  },
+  "Description": {
+   "en": "Credit note, services sold",
+   "es": "Factura rectificativa de servicios prestados"
+  },
+  "SortOrder": 8.0,
+  "MenuId": null,
+  "IsReversal": true,
+  "ReversedDocumentTypeId": "document_type:SALES_INVOICE_SERVICES",
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:PURCHASE_INVOICE_GOODS",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "FC",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Purchase invoice, goods",
+   "es": "Factura de compra de mercaderías"
+  },
+  "Description": {
+   "en": "Purchase invoice, goods",
+   "es": "Factura de compra de mercaderías"
+  },
+  "SortOrder": 9.0,
+  "MenuId": null,
+  "AllowsPartialReversal": true,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": false,
+  "HoldsOpenItem": true,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:CREDIT_NOTE_GOODS_BOUGHT",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "FRC",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Credit note, goods bought",
+   "es": "Factura rectificativa de compra de mercaderías"
+  },
+  "Description": {
+   "en": "Credit note, goods bought",
+   "es": "Factura rectificativa de compra de mercaderías"
+  },
+  "SortOrder": 11.0,
+  "MenuId": null,
+  "IsReversal": true,
+  "ReversedDocumentTypeId": "document_type:PURCHASE_INVOICE_GOODS",
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:PURCHASE_INVOICE_SERVICES",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "FCS",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Purchase invoice, services",
+   "es": "Factura de servicios recibidos"
+  },
+  "Description": {
+   "en": "Purchase invoice, services",
+   "es": "Factura de servicios recibidos"
+  },
+  "SortOrder": 12.0,
+  "MenuId": null,
+  "AllowsPartialReversal": true,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": false,
+  "HoldsOpenItem": true,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:CREDIT_NOTE_SERVICES_BOUGHT",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "FRCS",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Credit note, services bought",
+   "es": "Factura rectificativa de servicios recibidos"
+  },
+  "Description": {
+   "en": "Credit note, services bought",
+   "es": "Factura rectificativa de servicios recibidos"
+  },
+  "SortOrder": 13.0,
+  "MenuId": null,
+  "IsReversal": true,
+  "ReversedDocumentTypeId": "document_type:PURCHASE_INVOICE_SERVICES",
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:GOODS_TRANSFER",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "ALB",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Goods transfer note",
+   "es": "Albarán de traspaso"
+  },
+  "Description": {
+   "en": "Goods transfer note",
+   "es": "Albarán de traspaso"
+  },
+  "SortOrder": 14.0,
+  "MenuId": null,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:PAYMENT",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "PAG",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Payment",
+   "es": "Pago"
+  },
+  "Description": {
+   "en": "Payment",
+   "es": "Pago"
+  },
+  "SortOrder": 15.0,
+  "MenuId": null,
+  "AllowsPartialReversal": false,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": true,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:RECEIPT",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "COB",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Receipt",
+   "es": "Cobro"
+  },
+  "Description": {
+   "en": "Receipt",
+   "es": "Cobro"
+  },
+  "SortOrder": 16.0,
+  "MenuId": null,
+  "AllowsPartialReversal": false,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": true,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:PREPAYMENT",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "PAN",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Prepayment",
+   "es": "Pago anticipado"
+  },
+  "Description": {
+   "en": "Prepayment",
+   "es": "Pago anticipado"
+  },
+  "SortOrder": 17.0,
+  "MenuId": null,
+  "AllowsPartialReversal": false,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:GOODS_TRANSFER_TO_STAFF",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "ALBP",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Goods transfer, cost centre to staff",
+   "es": "Traspaso de centro de coste a personal"
+  },
+  "Description": {
+   "en": "Goods transfer, cost centre to staff",
+   "es": "Traspaso de centro de coste a personal"
+  },
+  "SortOrder": 18.0,
+  "MenuId": null,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:SALES_OFFER_GOODS",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "PRV",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Sales offer, goods",
+   "es": "Presupuesto de venta de mercaderías"
+  },
+  "Description": {
+   "en": "Sales offer, goods",
+   "es": "Presupuesto de venta de mercaderías"
+  },
+  "SortOrder": 19.0,
+  "MenuId": null,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": true,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:DEPRECIATION_SHEET",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "HAM",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Depreciation sheet",
+   "es": "Hoja de amortizaciones"
+  },
+  "Description": {
+   "en": "Depreciation sheet",
+   "es": "Hoja de amortizaciones"
+  },
+  "SortOrder": 20.0,
+  "MenuId": null,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:DEPRECIATION_JOURNAL",
+  "IdSup": "document_type:DEPRECIATION_SHEET",
+  "Active": true,
+  "IsElement": true,
+  "Code": "AAM",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Depreciation journal",
+   "es": "Asiento de amortización"
+  },
+  "Description": {
+   "en": "Depreciation journal",
+   "es": "Asiento de amortización"
+  },
+  "SortOrder": 21.0,
+  "MenuId": null,
+  "AllowsPartialReversal": false,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:JOURNAL_SHEET",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "HAS",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Journal sheet",
+   "es": "Hoja de asientos"
+  },
+  "Description": {
+   "en": "Journal sheet",
+   "es": "Hoja de asientos"
+  },
+  "SortOrder": 22.0,
+  "MenuId": null,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:JOURNAL_PAYMENT",
+  "IdSup": "document_type:JOURNAL_SHEET",
+  "Active": true,
+  "IsElement": true,
+  "Code": "PAG",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Payment",
+   "es": "Pago"
+  },
+  "Description": {
+   "en": "Payment",
+   "es": "Pago"
+  },
+  "SortOrder": 23.0,
+  "MenuId": null,
+  "AllowsPartialReversal": false,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": true,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:JOURNAL_RECEIPT",
+  "IdSup": "document_type:JOURNAL_SHEET",
+  "Active": true,
+  "IsElement": true,
+  "Code": "COB",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Receipt",
+   "es": "Cobro"
+  },
+  "Description": {
+   "en": "Receipt",
+   "es": "Cobro"
+  },
+  "SortOrder": 24.0,
+  "MenuId": null,
+  "AllowsPartialReversal": false,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": true,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:JOURNAL_PREPAYMENT",
+  "IdSup": "document_type:JOURNAL_SHEET",
+  "Active": true,
+  "IsElement": true,
+  "Code": "PAN",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Prepayment",
+   "es": "Pago anticipado"
+  },
+  "Description": {
+   "en": "Prepayment",
+   "es": "Pago anticipado"
+  },
+  "SortOrder": 25.0,
+  "MenuId": null,
+  "AllowsPartialReversal": false,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:REVALUATION_SHEET",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "HRV",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Revaluation sheet",
+   "es": "Hoja de revalorizaciones"
+  },
+  "Description": {
+   "en": "Revaluation sheet",
+   "es": "Hoja de revalorizaciones"
+  },
+  "SortOrder": 26.0,
+  "MenuId": null,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:REVALUATION_JOURNAL",
+  "IdSup": "document_type:REVALUATION_SHEET",
+  "Active": true,
+  "IsElement": true,
+  "Code": "ARV",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Revaluation journal",
+   "es": "Asiento de revalorización"
+  },
+  "Description": {
+   "en": "Revaluation journal",
+   "es": "Asiento de revalorización"
+  },
+  "SortOrder": 27.0,
+  "MenuId": null,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:ADVANCE",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "ANT",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Advance",
+   "es": "Anticipo"
+  },
+  "Description": {
+   "en": "Client's advance",
+   "es": "Anticipo de cliente"
+  },
+  "SortOrder": 29.0,
+  "MenuId": null,
+  "AllowsPartialReversal": false,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:EMPLOYEE_ADVANCE",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "ANE",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Employee advance",
+   "es": "Anticipo a empleado"
+  },
+  "Description": {
+   "en": "Advance to an employee",
+   "es": "Anticipo a un empleado"
+  },
+  "SortOrder": 30.0,
+  "MenuId": null,
+  "AllowsPartialReversal": false,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:JOURNAL_ADVANCE",
+  "IdSup": "document_type:JOURNAL_SHEET",
+  "Active": true,
+  "IsElement": true,
+  "Code": "ANT",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Advance",
+   "es": "Anticipo"
+  },
+  "Description": {
+   "en": "Client's advance",
+   "es": "Anticipo de cliente"
+  },
+  "SortOrder": 32.0,
+  "MenuId": null,
+  "AllowsPartialReversal": false,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:JOURNAL_EMPLOYEE_ADVANCE",
+  "IdSup": "document_type:JOURNAL_SHEET",
+  "Active": true,
+  "IsElement": true,
+  "Code": "ANE",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Employee advance",
+   "es": "Anticipo a empleado"
+  },
+  "Description": {
+   "en": "Advance to an employee",
+   "es": "Anticipo a un empleado"
+  },
+  "SortOrder": 33.0,
+  "MenuId": null,
+  "AllowsPartialReversal": false,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:SALES_CONTRACT_GOODS",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "CVM",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Sales contract, goods",
+   "es": "Contrato de venta de mercaderías"
+  },
+  "Description": {
+   "en": "Sales contract, goods",
+   "es": "Contrato de venta de mercaderías"
+  },
+  "SortOrder": 34.0,
+  "MenuId": null,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": true,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": true,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:PURCHASE_CONTRACT_GOODS",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "CCM",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Purchase contract, goods",
+   "es": "Contrato de compra de mercaderías"
+  },
+  "Description": {
+   "en": "Purchase contract, goods",
+   "es": "Contrato de compra de mercaderías"
+  },
+  "SortOrder": 35.0,
+  "MenuId": null,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": true,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": true,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:PURCHASE_OFFER_GOODS",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "SPM",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Purchase offer, goods",
+   "es": "Solicitud de presupuesto de mercaderías"
+  },
+  "Description": {
+   "en": "Purchase offer, goods",
+   "es": "Solicitud de presupuesto de mercaderías"
+  },
+  "SortOrder": 36.0,
+  "MenuId": null,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": true,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:SALES_OFFER_SERVICES",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "PRS",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Sales offer, services",
+   "es": "Presupuesto de servicios"
+  },
+  "Description": {
+   "en": "Sales offer, services",
+   "es": "Presupuesto de servicios"
+  },
+  "SortOrder": 37.0,
+  "MenuId": null,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": true,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:REPAIR_INTAKE",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "RIN",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Repair intake",
+   "es": "Recepción de reparación"
+  },
+  "Description": {
+   "en": "Repair intake",
+   "es": "Recepción de reparación"
+  },
+  "SortOrder": 37.01,
+  "MenuId": null,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": true,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false,
+  "StartsRepair": true
+ },
+ {
+  "Key": "document_type:REPAIR_OFFER",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "ROF",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Repair offer",
+   "es": "Oferta de reparación"
+  },
+  "Description": {
+   "en": "Repair offer",
+   "es": "Oferta de reparación"
+  },
+  "SortOrder": 37.02,
+  "MenuId": null,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": true,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false,
+  "CanBeAccepted": true
+ },
+ {
+  "Key": "document_type:PURCHASE_OFFER_SERVICES",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "SPS",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Purchase offer, services",
+   "es": "Solicitud de presupuesto de servicios"
+  },
+  "Description": {
+   "en": "Purchase offer, services",
+   "es": "Solicitud de presupuesto de servicios"
+  },
+  "SortOrder": 38.0,
+  "MenuId": null,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": true,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:SALES_CONTRACT_SERVICES",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "CVS",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Sales contract, services",
+   "es": "Contrato de prestación de servicios"
+  },
+  "Description": {
+   "en": "Sales contract, services",
+   "es": "Contrato de prestación de servicios"
+  },
+  "SortOrder": 39.0,
+  "MenuId": null,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": true,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": true,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:PURCHASE_CONTRACT_SERVICES",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "CCS",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Purchase contract, services",
+   "es": "Contrato de servicios recibidos"
+  },
+  "Description": {
+   "en": "Purchase contract, services",
+   "es": "Contrato de servicios recibidos"
+  },
+  "SortOrder": 40.0,
+  "MenuId": null,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": true,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": true,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:RECURRING_DEPRECIATION_SHEET",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "HAMP",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Recurring depreciation sheet",
+   "es": "Hoja de amortizaciones periódica"
+  },
+  "Description": null,
+  "SortOrder": 41.0,
+  "MenuId": null,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:RECURRING_JOURNAL_SHEET",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "HASP",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Recurring journal sheet",
+   "es": "Hoja de asientos periódica"
+  },
+  "Description": null,
+  "SortOrder": 42.0,
+  "MenuId": null,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:RECURRING_REVALUATION_SHEET",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "HRVP",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Recurring revaluation sheet",
+   "es": "Hoja de revalorizaciones periódica"
+  },
+  "Description": null,
+  "SortOrder": 43.0,
+  "MenuId": null,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:GENERAL_JOURNAL_ENTRY",
+  "IdSup": "document_type:JOURNAL_SHEET",
+  "Active": true,
+  "IsElement": true,
+  "Code": "AG",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "General journal entry",
+   "es": "Asiento general"
+  },
+  "Description": {
+   "en": "General journal entry",
+   "es": "Asiento general"
+  },
+  "SortOrder": 44.0,
+  "MenuId": null,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:POS_RECEIPT",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "FSI",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Point-of-sale receipt",
+   "es": "Factura simplificada (ticket)"
+  },
+  "Description": {
+   "en": "Point-of-sale receipt",
+   "es": "Factura simplificada (ticket)"
+  },
+  "SortOrder": 45.0,
+  "MenuId": null,
+  "AllowsPartialReversal": true,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": true,
+  "SellsProducedProduct": true
+ },
+ {
+  "Key": "document_type:GOODS_TRANSFER_FROM_STAFF",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "ALBPC",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Goods transfer, staff to cost centre",
+   "es": "Traspaso de personal a centro de coste"
+  },
+  "Description": {
+   "en": "Goods transfer, staff to cost centre",
+   "es": "Traspaso de personal a centro de coste"
+  },
+  "SortOrder": 46.0,
+  "MenuId": null,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:GOODS_TRANSFER_TO_CLIENT",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "ALBCL",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Goods transfer, cost centre to client",
+   "es": "Traspaso de centro de coste a cliente"
+  },
+  "Description": {
+   "en": "Goods transfer, cost centre to client",
+   "es": "Traspaso de centro de coste a cliente"
+  },
+  "SortOrder": 47.0,
+  "MenuId": null,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:GOODS_TRANSFER_FROM_CLIENT",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "ALBCC",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Goods transfer, client to cost centre",
+   "es": "Traspaso de cliente a centro de coste"
+  },
+  "Description": {
+   "en": "Goods transfer, client to cost centre",
+   "es": "Traspaso de cliente a centro de coste"
+  },
+  "SortOrder": 48.0,
+  "MenuId": null,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:POS_CONTRACT",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "CPV",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Point-of-sale contract",
+   "es": "Contrato del punto de venta"
+  },
+  "Description": {
+   "en": "Point-of-sale contract",
+   "es": "Contrato del punto de venta"
+  },
+  "SortOrder": 49.0,
+  "MenuId": null,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": true,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": true,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:POS_MONEY_IN",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "COBPV",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Point-of-sale receipt of money",
+   "es": "Cobro en punto de venta"
+  },
+  "Description": {
+   "en": "Point-of-sale receipt of money",
+   "es": "Cobro en punto de venta"
+  },
+  "SortOrder": 50.0,
+  "MenuId": null,
+  "AllowsPartialReversal": true,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:POS_MONEY_OUT",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "PAGPV",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Point-of-sale payment",
+   "es": "Pago en punto de venta"
+  },
+  "Description": {
+   "en": "Point-of-sale payment",
+   "es": "Pago en punto de venta"
+  },
+  "SortOrder": 51.0,
+  "MenuId": null,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:POS_GOODS_IN",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "ENTPV",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Point-of-sale goods in",
+   "es": "Entrada en punto de venta"
+  },
+  "Description": {
+   "en": "Point-of-sale goods in",
+   "es": "Entrada en punto de venta"
+  },
+  "SortOrder": 52.0,
+  "MenuId": null,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:POS_GOODS_OUT",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "SALPV",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Point-of-sale goods out",
+   "es": "Salida del punto de venta"
+  },
+  "Description": {
+   "en": "Point-of-sale goods out",
+   "es": "Salida del punto de venta"
+  },
+  "SortOrder": 53.0,
+  "MenuId": null,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:WAGE_PAYMENT",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "NOM",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Wage payment",
+   "es": "Pago de nóminas"
+  },
+  "Description": {
+   "en": "Wage payment",
+   "es": "Pago de nóminas"
+  },
+  "SortOrder": 56.0,
+  "MenuId": null,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:RENT_PAYMENT",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "ALQ",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Rent payment",
+   "es": "Pago de alquiler"
+  },
+  "Description": {
+   "en": "Rent payment",
+   "es": "Pago de alquiler"
+  },
+  "SortOrder": 57.0,
+  "MenuId": null,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:CUSTOMS_DECLARATION",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "DUA",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Customs declaration",
+   "es": "DUA de importación"
+  },
+  "Description": {
+   "en": "Customs declaration",
+   "es": "DUA de importación"
+  },
+  "SortOrder": 58.0,
+  "MenuId": null,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:CUSTOMS_DECLARATION_ASSETS",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "DUAI",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Customs declaration, assets",
+   "es": "DUA de importación de inmovilizado"
+  },
+  "Description": {
+   "en": "Customs declaration, assets",
+   "es": "DUA de importación de inmovilizado"
+  },
+  "SortOrder": 59.0,
+  "MenuId": null,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:POS_REVERSAL",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "FSIR",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Point-of-sale reversal",
+   "es": "Anulación de punto de venta"
+  },
+  "Description": {
+   "en": "Point-of-sale reversal",
+   "es": "Anulación de punto de venta"
+  },
+  "SortOrder": 60.0,
+  "MenuId": null,
+  "IsReversal": true,
+  "ReversedDocumentTypeId": "document_type:POS_RECEIPT",
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:POS_REFUND",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "REMPV",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Point-of-sale refund",
+   "es": "Reembolso en punto de venta"
+  },
+  "Description": {
+   "en": "Point-of-sale refund",
+   "es": "Reembolso en punto de venta"
+  },
+  "SortOrder": 62.0,
+  "MenuId": null,
+  "IsReversal": true,
+  "ReversedDocumentTypeId": "document_type:POS_MONEY_IN",
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:POS_MONEY_FROM_STAFF",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "COBPP",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Point-of-sale receipt from staff",
+   "es": "Cobro de personal en punto de venta"
+  },
+  "Description": {
+   "en": "Point-of-sale receipt from staff",
+   "es": "Cobro de personal en punto de venta"
+  },
+  "SortOrder": 63.0,
+  "MenuId": null,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:GOODS_OUT_TO_STAFF",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "SALP",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Goods out to staff",
+   "es": "Salida a personal"
+  },
+  "Description": {
+   "en": "Goods out to staff",
+   "es": "Salida a personal"
+  },
+  "SortOrder": 65.0,
+  "MenuId": null,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:GOODS_TRANSFER_STAFF_TO_CLIENT",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "ALBPK",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Goods transfer, staff to client",
+   "es": "Traspaso de personal a cliente"
+  },
+  "Description": {
+   "en": "Goods transfer, staff to client",
+   "es": "Traspaso de personal a cliente"
+  },
+  "SortOrder": 66.0,
+  "MenuId": null,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:GOODS_IN_FROM_STAFF",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "ENTP",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Goods in from staff",
+   "es": "Entrada de personal"
+  },
+  "Description": {
+   "en": "Goods in from staff",
+   "es": "Entrada de personal"
+  },
+  "SortOrder": 67.0,
+  "MenuId": null,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:REVERSAL_PAYMENT",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "APAG",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Reversal of payment",
+   "es": "Anulación de pago"
+  },
+  "SortOrder": 15.0,
+  "IsReversal": true,
+  "ReversedDocumentTypeId": "document_type:PAYMENT",
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:REVERSAL_RECEIPT",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "ACOB",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Reversal of receipt",
+   "es": "Anulación de cobro"
+  },
+  "SortOrder": 16.0,
+  "IsReversal": true,
+  "ReversedDocumentTypeId": "document_type:RECEIPT",
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:REVERSAL_PREPAYMENT",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "APAN",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Reversal of prepayment",
+   "es": "Anulación de pago anticipado"
+  },
+  "SortOrder": 17.0,
+  "IsReversal": true,
+  "ReversedDocumentTypeId": "document_type:PREPAYMENT",
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:REVERSAL_DEPRECIATION_JOURNAL",
+  "IdSup": "document_type:REVERSAL_DEPRECIATION_SHEET",
+  "Active": true,
+  "IsElement": true,
+  "Code": "AAAM",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Reversal of depreciation journal",
+   "es": "Anulación de asiento de amortización"
+  },
+  "SortOrder": 21.0,
+  "IsReversal": true,
+  "ReversedDocumentTypeId": "document_type:DEPRECIATION_JOURNAL",
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:REVERSAL_JOURNAL_PAYMENT",
+  "IdSup": "document_type:REVERSAL_JOURNAL_SHEET",
+  "Active": true,
+  "IsElement": true,
+  "Code": "APAGJ",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Reversal of payment",
+   "es": "Anulación de pago"
+  },
+  "SortOrder": 23.0,
+  "IsReversal": true,
+  "ReversedDocumentTypeId": "document_type:JOURNAL_PAYMENT",
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:REVERSAL_JOURNAL_RECEIPT",
+  "IdSup": "document_type:REVERSAL_JOURNAL_SHEET",
+  "Active": true,
+  "IsElement": true,
+  "Code": "ACOBJ",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Reversal of receipt",
+   "es": "Anulación de cobro"
+  },
+  "SortOrder": 24.0,
+  "IsReversal": true,
+  "ReversedDocumentTypeId": "document_type:JOURNAL_RECEIPT",
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:REVERSAL_JOURNAL_PREPAYMENT",
+  "IdSup": "document_type:REVERSAL_JOURNAL_SHEET",
+  "Active": true,
+  "IsElement": true,
+  "Code": "APANJ",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Reversal of prepayment",
+   "es": "Anulación de pago anticipado"
+  },
+  "SortOrder": 25.0,
+  "IsReversal": true,
+  "ReversedDocumentTypeId": "document_type:JOURNAL_PREPAYMENT",
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:REVERSAL_ADVANCE",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "AANT",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Reversal of advance",
+   "es": "Anulación de anticipo"
+  },
+  "SortOrder": 29.0,
+  "IsReversal": true,
+  "ReversedDocumentTypeId": "document_type:ADVANCE",
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:REVERSAL_EMPLOYEE_ADVANCE",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "AANE",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Reversal of employee advance",
+   "es": "Anulación de anticipo a empleado"
+  },
+  "SortOrder": 30.0,
+  "IsReversal": true,
+  "ReversedDocumentTypeId": "document_type:EMPLOYEE_ADVANCE",
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:REVERSAL_JOURNAL_ADVANCE",
+  "IdSup": "document_type:REVERSAL_JOURNAL_SHEET",
+  "Active": true,
+  "IsElement": true,
+  "Code": "AANTJ",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Reversal of advance",
+   "es": "Anulación de anticipo"
+  },
+  "SortOrder": 32.0,
+  "IsReversal": true,
+  "ReversedDocumentTypeId": "document_type:JOURNAL_ADVANCE",
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:REVERSAL_JOURNAL_EMPLOYEE_ADVANCE",
+  "IdSup": "document_type:REVERSAL_JOURNAL_SHEET",
+  "Active": true,
+  "IsElement": false,
+  "Code": "AANEJ",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Reversal of employee advance",
+   "es": "Anulación de anticipo a empleado"
+  },
+  "SortOrder": 33.0,
+  "IsReversal": true,
+  "ReversedDocumentTypeId": "document_type:JOURNAL_EMPLOYEE_ADVANCE",
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:PRODUCTION",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "PRD",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Production",
+   "es": "Producción"
+  },
+  "Description": {
+   "en": "Production",
+   "es": "Producción"
+  },
+  "SortOrder": 90.0,
+  "MenuId": null,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": false,
+  "AllowsPartialReversal": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:UNIT_SPLIT",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "CUM",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Unit split",
+   "es": "Conversión de unidad"
+  },
+  "Description": {
+   "en": "Unit split",
+   "es": "Conversión de unidad"
+  },
+  "SortOrder": 92.0,
+  "MenuId": null,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": false,
+  "AllowsPartialReversal": true,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:REVERSAL_UNIT_SPLIT",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "ACUM",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Reversal of unit split",
+   "es": "Anulación de conversión de unidad"
+  },
+  "Description": {
+   "en": "Reversal of unit split",
+   "es": "Anulación de conversión de unidad"
+  },
+  "SortOrder": 93.0,
+  "MenuId": null,
+  "IsReversal": true,
+  "ReversedDocumentTypeId": "document_type:UNIT_SPLIT",
+  "NeverPosted": false,
+  "AllowsPartialReversal": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:REVERSAL_JOURNAL_SHEET",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "AHASJ",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Reversal of journal sheet",
+   "es": "Anulación de hoja contable"
+  },
+  "SortOrder": 222.0,
+  "IsReversal": true,
+  "ReversedDocumentTypeId": "document_type:JOURNAL_SHEET",
+  "NeverPosted": false,
+  "Description": {
+   "en": "Reversal of journal sheet",
+   "es": "Anulación de hoja contable"
+  },
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:REVERSAL_DEPRECIATION_SHEET",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "AHAMJ",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Reversal of depreciation sheet",
+   "es": "Anulación de hoja de amortización"
+  },
+  "SortOrder": 220.0,
+  "IsReversal": true,
+  "ReversedDocumentTypeId": "document_type:DEPRECIATION_SHEET",
+  "NeverPosted": false,
+  "Description": {
+   "en": "Reversal of depreciation sheet",
+   "es": "Anulación de hoja de amortización"
+  },
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:REVERSAL_GENERAL_JOURNAL_ENTRY",
+  "IdSup": "document_type:REVERSAL_JOURNAL_SHEET",
+  "Active": true,
+  "IsElement": true,
+  "Code": "AAGJ",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Reversal of general journal entry",
+   "es": "Anulación de asiento general"
+  },
+  "SortOrder": 244.0,
+  "IsReversal": true,
+  "ReversedDocumentTypeId": "document_type:GENERAL_JOURNAL_ENTRY",
+  "NeverPosted": false,
+  "Description": {
+   "en": "Reversal of general journal entry",
+   "es": "Anulación de asiento general"
+  },
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:RECURRING_JOURNAL_PAYMENT",
+  "IdSup": "document_type:RECURRING_JOURNAL_SHEET",
+  "Active": true,
+  "IsElement": true,
+  "Code": "PAGP",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Payment",
+   "es": "Pago"
+  },
+  "Description": {
+   "en": "Payment",
+   "es": "Pago"
+  },
+  "SortOrder": 123.0,
+  "MenuId": null,
+  "AllowsPartialReversal": false,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": true,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:REVERSAL_RECURRING_JOURNAL_PAYMENT",
+  "IdSup": "document_type:REVERSAL_RECURRING_JOURNAL_SHEET",
+  "Active": true,
+  "IsElement": true,
+  "Code": "APAGPJ",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Reversal of payment",
+   "es": "Anulación de pago"
+  },
+  "SortOrder": 123.0,
+  "IsReversal": true,
+  "ReversedDocumentTypeId": "document_type:RECURRING_JOURNAL_PAYMENT",
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:RECURRING_JOURNAL_RECEIPT",
+  "IdSup": "document_type:RECURRING_JOURNAL_SHEET",
+  "Active": true,
+  "IsElement": true,
+  "Code": "COBP",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Receipt",
+   "es": "Cobro"
+  },
+  "Description": {
+   "en": "Receipt",
+   "es": "Cobro"
+  },
+  "SortOrder": 124.0,
+  "MenuId": null,
+  "AllowsPartialReversal": false,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": true,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:REVERSAL_RECURRING_JOURNAL_RECEIPT",
+  "IdSup": "document_type:REVERSAL_RECURRING_JOURNAL_SHEET",
+  "Active": true,
+  "IsElement": true,
+  "Code": "ACOBPJ",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Reversal of receipt",
+   "es": "Anulación de cobro"
+  },
+  "SortOrder": 124.0,
+  "IsReversal": true,
+  "ReversedDocumentTypeId": "document_type:RECURRING_JOURNAL_RECEIPT",
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:RECURRING_JOURNAL_PREPAYMENT",
+  "IdSup": "document_type:RECURRING_JOURNAL_SHEET",
+  "Active": true,
+  "IsElement": true,
+  "Code": "PANP",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Prepayment",
+   "es": "Pago anticipado"
+  },
+  "Description": {
+   "en": "Prepayment",
+   "es": "Pago anticipado"
+  },
+  "SortOrder": 125.0,
+  "MenuId": null,
+  "AllowsPartialReversal": false,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:REVERSAL_RECURRING_JOURNAL_PREPAYMENT",
+  "IdSup": "document_type:REVERSAL_RECURRING_JOURNAL_SHEET",
+  "Active": true,
+  "IsElement": true,
+  "Code": "APANPJ",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Reversal of prepayment",
+   "es": "Anulación de pago anticipado"
+  },
+  "SortOrder": 125.0,
+  "IsReversal": true,
+  "ReversedDocumentTypeId": "document_type:RECURRING_JOURNAL_PREPAYMENT",
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:RECURRING_JOURNAL_ADVANCE",
+  "IdSup": "document_type:RECURRING_JOURNAL_SHEET",
+  "Active": true,
+  "IsElement": true,
+  "Code": "ANTP",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Advance",
+   "es": "Anticipo"
+  },
+  "Description": {
+   "en": "Client's advance",
+   "es": "Anticipo de cliente"
+  },
+  "SortOrder": 132.0,
+  "MenuId": null,
+  "AllowsPartialReversal": false,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:REVERSAL_RECURRING_JOURNAL_ADVANCE",
+  "IdSup": "document_type:REVERSAL_RECURRING_JOURNAL_SHEET",
+  "Active": true,
+  "IsElement": true,
+  "Code": "AANTPJ",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Reversal of advance",
+   "es": "Anulación de anticipo"
+  },
+  "SortOrder": 132.0,
+  "IsReversal": true,
+  "ReversedDocumentTypeId": "document_type:RECURRING_JOURNAL_ADVANCE",
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:RECURRING_JOURNAL_EMPLOYEE_ADVANCE",
+  "IdSup": "document_type:RECURRING_JOURNAL_SHEET",
+  "Active": true,
+  "IsElement": true,
+  "Code": "ANEP",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Employee advance",
+   "es": "Anticipo a empleado"
+  },
+  "Description": {
+   "en": "Advance to an employee",
+   "es": "Anticipo a un empleado"
+  },
+  "SortOrder": 133.0,
+  "MenuId": null,
+  "AllowsPartialReversal": false,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:REVERSAL_RECURRING_JOURNAL_EMPLOYEE_ADVANCE",
+  "IdSup": "document_type:REVERSAL_RECURRING_JOURNAL_SHEET",
+  "Active": true,
+  "IsElement": false,
+  "Code": "AANEPJ",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Reversal of employee advance",
+   "es": "Anulación de anticipo a empleado"
+  },
+  "SortOrder": 133.0,
+  "IsReversal": true,
+  "ReversedDocumentTypeId": "document_type:RECURRING_JOURNAL_EMPLOYEE_ADVANCE",
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:RECURRING_GENERAL_JOURNAL_ENTRY",
+  "IdSup": "document_type:RECURRING_JOURNAL_SHEET",
+  "Active": true,
+  "IsElement": true,
+  "Code": "AGP",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "General journal entry",
+   "es": "Asiento general"
+  },
+  "Description": {
+   "en": "General journal entry",
+   "es": "Asiento general"
+  },
+  "SortOrder": 144.0,
+  "MenuId": null,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:REVERSAL_RECURRING_GENERAL_JOURNAL_ENTRY",
+  "IdSup": "document_type:REVERSAL_RECURRING_JOURNAL_SHEET",
+  "Active": true,
+  "IsElement": true,
+  "Code": "AAGPJ",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Reversal of general journal entry",
+   "es": "Anulación de asiento general"
+  },
+  "SortOrder": 344.0,
+  "IsReversal": true,
+  "ReversedDocumentTypeId": "document_type:RECURRING_GENERAL_JOURNAL_ENTRY",
+  "NeverPosted": false,
+  "Description": {
+   "en": "Reversal of general journal entry",
+   "es": "Anulación de asiento general"
+  },
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:REVERSAL_RECURRING_JOURNAL_SHEET",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "AHASPJ",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Reversal of journal sheet",
+   "es": "Anulación de hoja contable"
+  },
+  "SortOrder": 322.0,
+  "IsReversal": true,
+  "ReversedDocumentTypeId": "document_type:RECURRING_JOURNAL_SHEET",
+  "NeverPosted": false,
+  "Description": {
+   "en": "Reversal of journal sheet",
+   "es": "Anulación de hoja contable"
+  },
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:RECURRING_DEPRECIATION_JOURNAL",
+  "IdSup": "document_type:RECURRING_DEPRECIATION_SHEET",
+  "Active": true,
+  "IsElement": true,
+  "Code": "AAMP",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Depreciation journal",
+   "es": "Asiento de amortización"
+  },
+  "Description": {
+   "en": "Depreciation journal",
+   "es": "Asiento de amortización"
+  },
+  "SortOrder": 121.0,
+  "MenuId": null,
+  "AllowsPartialReversal": false,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:REVERSAL_RECURRING_DEPRECIATION_JOURNAL",
+  "IdSup": "document_type:REVERSAL_RECURRING_DEPRECIATION_SHEET",
+  "Active": true,
+  "IsElement": true,
+  "Code": "AAAMPJ",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Reversal of depreciation journal",
+   "es": "Anulación de asiento de amortización"
+  },
+  "SortOrder": 121.0,
+  "IsReversal": true,
+  "ReversedDocumentTypeId": "document_type:RECURRING_DEPRECIATION_JOURNAL",
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:REVERSAL_RECURRING_DEPRECIATION_SHEET",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "AHAMPJ",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Reversal of depreciation sheet",
+   "es": "Anulación de hoja de amortización"
+  },
+  "SortOrder": 320.0,
+  "IsReversal": true,
+  "ReversedDocumentTypeId": "document_type:RECURRING_DEPRECIATION_SHEET",
+  "NeverPosted": false,
+  "Description": {
+   "en": "Reversal of depreciation sheet",
+   "es": "Anulación de hoja de amortización"
+  },
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:RECURRING_REVALUATION_JOURNAL",
+  "IdSup": "document_type:RECURRING_REVALUATION_SHEET",
+  "Active": true,
+  "IsElement": true,
+  "Code": "ARVP",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Revaluation journal",
+   "es": "Asiento de revalorización"
+  },
+  "Description": {
+   "en": "Revaluation journal",
+   "es": "Asiento de revalorización"
+  },
+  "SortOrder": 127.0,
+  "MenuId": null,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:PURCHASE_REQUEST",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "PRQ",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Purchase request",
+   "es": "Solicitud de compra"
+  },
+  "Description": {
+   "en": "Purchase request",
+   "es": "Solicitud de compra"
+  },
+  "SortOrder": 19.1,
+  "MenuId": null,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": true,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": true,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:PURCHASE_ORDER",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "POR",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Purchase order",
+   "es": "Pedido de compra"
+  },
+  "Description": {
+   "en": "Purchase order",
+   "es": "Pedido de compra"
+  },
+  "SortOrder": 19.2,
+  "MenuId": null,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": true,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": true,
+  "SellsAssets": false
+ },
+ {
+  "Key": "document_type:SALES_ORDER",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "SOR",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Sales order",
+   "es": "Pedido de venta"
+  },
+  "Description": {
+   "en": "Sales order",
+   "es": "Pedido de venta"
+  },
+  "SortOrder": 19.3,
+  "MenuId": null,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": true,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false,
+  "ProducedOnProductionScreen": true
+ },
+ {
+  "Key": "document_type:POS_ORDER",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "PSO",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Point-of-sale order",
+   "es": "Pedido del punto de venta"
+  },
+  "Description": {
+   "en": "Point-of-sale order",
+   "es": "Pedido del punto de venta"
+  },
+  "SortOrder": 19.310000000000002,
+  "MenuId": null,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": true,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false,
+  "SendsToProduction": true,
+  "ProductionDocumentTypeId": "document_type:PRODUCTION"
+ },
+ {
+  "Key": "document_type:DISASSEMBLY",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "DSM",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Disassembly",
+   "es": "Desmontaje"
+  },
+  "Description": {
+   "en": "Disassembly",
+   "es": "Desmontaje"
+  },
+  "SortOrder": 90.5,
+  "MenuId": null,
+  "IsReversal": false,
+  "ReversedDocumentTypeId": null,
+  "NeverPosted": false,
+  "AllowsPartialReversal": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false,
+  "ProductionDocumentTypeId": null
+ },
+ {
+  "Key": "document_type:REVERSAL_CUSTOMS_DECLARATION",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "ADUA",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Reversal of customs declaration",
+   "es": "Anulación: DUA de importación"
+  },
+  "Description": {
+   "en": "Reversal of customs declaration",
+   "es": "Anulación: DUA de importación"
+  },
+  "SortOrder": 58.5,
+  "MenuId": null,
+  "IsReversal": true,
+  "ReversedDocumentTypeId": "document_type:CUSTOMS_DECLARATION",
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false,
+  "AllowsPartialReversal": false
+ },
+ {
+  "Key": "document_type:REVERSAL_CUSTOMS_DECLARATION_ASSETS",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "ADUAI",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Reversal of customs declaration, assets",
+   "es": "Anulación: DUA de importación de inmovilizado"
+  },
+  "Description": {
+   "en": "Reversal of customs declaration, assets",
+   "es": "Anulación: DUA de importación de inmovilizado"
+  },
+  "SortOrder": 59.5,
+  "MenuId": null,
+  "IsReversal": true,
+  "ReversedDocumentTypeId": "document_type:CUSTOMS_DECLARATION_ASSETS",
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false,
+  "AllowsPartialReversal": false
+ },
+ {
+  "Key": "document_type:REVERSAL_GOODS_TRANSFER",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "AALB",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Reversal of goods transfer note",
+   "es": "Anulación: Albarán de traspaso"
+  },
+  "Description": {
+   "en": "Reversal of goods transfer note",
+   "es": "Anulación: Albarán de traspaso"
+  },
+  "SortOrder": 14.5,
+  "MenuId": null,
+  "IsReversal": true,
+  "ReversedDocumentTypeId": "document_type:GOODS_TRANSFER",
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false,
+  "AllowsPartialReversal": false
+ },
+ {
+  "Key": "document_type:REVERSAL_GOODS_TRANSFER_TO_STAFF",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "AALBP",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Reversal of goods transfer, cost centre to staff",
+   "es": "Anulación: Traspaso de centro de coste a personal"
+  },
+  "Description": {
+   "en": "Reversal of goods transfer, cost centre to staff",
+   "es": "Anulación: Traspaso de centro de coste a personal"
+  },
+  "SortOrder": 18.5,
+  "MenuId": null,
+  "IsReversal": true,
+  "ReversedDocumentTypeId": "document_type:GOODS_TRANSFER_TO_STAFF",
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false,
+  "AllowsPartialReversal": false
+ },
+ {
+  "Key": "document_type:REVERSAL_GOODS_TRANSFER_FROM_STAFF",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "AALBPC",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Reversal of goods transfer, staff to cost centre",
+   "es": "Anulación: Traspaso de personal a centro de coste"
+  },
+  "Description": {
+   "en": "Reversal of goods transfer, staff to cost centre",
+   "es": "Anulación: Traspaso de personal a centro de coste"
+  },
+  "SortOrder": 46.5,
+  "MenuId": null,
+  "IsReversal": true,
+  "ReversedDocumentTypeId": "document_type:GOODS_TRANSFER_FROM_STAFF",
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false,
+  "AllowsPartialReversal": false
+ },
+ {
+  "Key": "document_type:REVERSAL_GOODS_TRANSFER_TO_CLIENT",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "AALBCL",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Reversal of goods transfer, cost centre to client",
+   "es": "Anulación: Traspaso de centro de coste a cliente"
+  },
+  "Description": {
+   "en": "Reversal of goods transfer, cost centre to client",
+   "es": "Anulación: Traspaso de centro de coste a cliente"
+  },
+  "SortOrder": 47.5,
+  "MenuId": null,
+  "IsReversal": true,
+  "ReversedDocumentTypeId": "document_type:GOODS_TRANSFER_TO_CLIENT",
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false,
+  "AllowsPartialReversal": false
+ },
+ {
+  "Key": "document_type:REVERSAL_GOODS_TRANSFER_FROM_CLIENT",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "AALBCC",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Reversal of goods transfer, client to cost centre",
+   "es": "Anulación: Traspaso de cliente a centro de coste"
+  },
+  "Description": {
+   "en": "Reversal of goods transfer, client to cost centre",
+   "es": "Anulación: Traspaso de cliente a centro de coste"
+  },
+  "SortOrder": 48.5,
+  "MenuId": null,
+  "IsReversal": true,
+  "ReversedDocumentTypeId": "document_type:GOODS_TRANSFER_FROM_CLIENT",
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false,
+  "AllowsPartialReversal": false
+ },
+ {
+  "Key": "document_type:REVERSAL_GOODS_TRANSFER_STAFF_TO_CLIENT",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": false,
+  "Code": "AALBPK",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Reversal of goods transfer, staff to client",
+   "es": "Anulación: Traspaso de personal a cliente"
+  },
+  "Description": {
+   "en": "Reversal of goods transfer, staff to client",
+   "es": "Anulación: Traspaso de personal a cliente"
+  },
+  "SortOrder": 66.5,
+  "MenuId": null,
+  "IsReversal": true,
+  "ReversedDocumentTypeId": "document_type:GOODS_TRANSFER_STAFF_TO_CLIENT",
+  "NeverPosted": false,
+  "HoldsOpenItem": false,
+  "PaysOpenItems": false,
+  "BillsByPlan": false,
+  "NeedsApproval": false,
+  "SellsAssets": false,
+  "AllowsPartialReversal": false
+ }
+]

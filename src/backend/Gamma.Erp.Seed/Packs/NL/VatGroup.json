@@ -1,0 +1,41 @@
+[
+ {
+  "Key": "vat_group:NL_21",
+  "IdSup": null,
+  "Active": true,
+  "Code": null,
+  "Name": {
+   "en": "VAT 21%",
+   "nl": "Btw 21%"
+  },
+  "Description": null,
+  "Rate": 21.0,
+  "Depreciation": false
+ },
+ {
+  "Key": "vat_group:NL_9",
+  "IdSup": null,
+  "Active": true,
+  "Code": null,
+  "Name": {
+   "en": "VAT 9%",
+   "nl": "Btw 9%"
+  },
+  "Description": null,
+  "Rate": 9.0,
+  "Depreciation": false
+ },
+ {
+  "Key": "vat_group:NL_0",
+  "IdSup": null,
+  "Active": true,
+  "Code": null,
+  "Name": {
+   "en": "VAT 0% / exempt",
+   "nl": "Btw 0% / vrijgesteld"
+  },
+  "Description": null,
+  "Rate": 0.0,
+  "Depreciation": false
+ }
+]

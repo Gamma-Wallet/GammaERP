@@ -1,0 +1,399 @@
+# Albania's chart of accounts in the structure of the general accounting plan (PKP) as used under the national standards (SKK, Law 25/2018).
+# Source: the chart of the Alpha accounting program ("Plani llogarive Alpha", https://www.slideshare.net/slideshow/plani-llogarive-alpha/46788440),
+# checked against "Lista e llogarive kontabel" (https://kupdf.net/download/lista-e-llogarive-kontabel_58cc6a16dc0d606529c3469b_pdf). The SKK
+# do not publish a chart; this is the common one. Names in Albanian as in the source (obvious typos corrected), English added by Gamma.
+# Uncertain points: 68132 repeats 68131's name in the source (read as "for distribution and sales", as 6412/6442/68152 are); 35 (goods) has no
+# sub-accounts in the source and is used as an account; 4631/4632, 4661/4662 and 460 have no group above them in the source.
+# A row's parent is the longest code that starts its own; an account with accounts under it is a group (never posted to).
+# code	Albanian	English
+1	Kapitali	Equity
+101	Kapitali i paguar	Paid-in capital
+102	Kapitali i nënshkruar i papaguar	Subscribed capital unpaid
+103	Aksione të thesarit	Treasury shares
+104	Prime të lidhura me kapitalin	Share premium
+105	Zbritje të lidhura me kapitalin	Capital discounts
+106	Rezerva nga rivlerësimi	Revaluation reserve
+107	Rezerva të tjera	Other reserves
+1071	Rezerva ligjore	Legal reserve
+1073	Rezerva statutore	Statutory reserve
+1078	Rezerva të tjera	Other reserves
+108	Fitimi/Humbja e pashpërndarë	Retained earnings
+109	Rezultati i ushtrimit	Profit or loss for the year
+2	Aktivet afatgjata	Non-current assets
+20	AA jomateriale	Intangible assets
+201	Emri i mirë	Goodwill
+203	Shpenzime të zhvillimit	Development costs
+205	Koncesione dhe të drejta të ngjashme, licensa	Concessions, similar rights and licences
+208	Të tjera AA jomateriale	Other intangible assets
+21	AA materiale	Tangible assets
+211	Toka	Land
+212	Ndërtesa	Buildings
+213	Instalime teknike, makineri, pajisje, instrumente dhe vegla pune	Plant, machinery, equipment and tools
+215	Mjete transporti	Vehicles
+218	Të tjera AA materiale	Other tangible assets
+2181	Mobilje dhe pajisje zyre	Furniture and office equipment
+2182	Pajisje informative	IT equipment
+2188	Të tjera	Other
+23	AA në proces	Assets under construction
+231	AA materiale në proces	Tangible assets under construction
+232	AA jomateriale në proces	Intangible assets under development
+24	AA biologjike	Biological assets
+25	AA të mbajtura për shitje	Non-current assets held for sale
+26	AA financiare	Financial assets
+261	Aksione të shoqërive të kontrolluara	Shares in subsidiaries
+262	Aksione të shoqërive të lidhura	Shares in associates
+263	Aksione të tjera dhe letra me vlerë	Other shares and securities
+265	Huadhënie afatgjatë	Long-term loans given
+268	Të drejta të tjera afatgjatë	Other long-term receivables
+280	Amortizimi i AA jomateriale	Amortisation of intangible assets
+2801	Për emrin e mirë	Goodwill
+2803	Për shpenzimet e zhvillimit	Development costs
+2805	Për koncesione, patenta, licensa e të ngjashme	Concessions, patents, licences
+2808	Për të tjera AA jomateriale	Other intangible assets
+281	Amortizimi i AA materiale	Depreciation of tangible assets
+2812	Për ndërtesat	Buildings
+2813	Për instalime teknike, makineri, pajisje, instrumente e vegla	Plant, machinery, equipment and tools
+2815	Për mjetet e transportit	Vehicles
+2818	Për të tjera AA materiale	Other tangible assets
+284	Amortizimi i AA biologjike	Depreciation of biological assets
+29	Zhvlerësimi i AA	Impairment of non-current assets
+290	Për AA jomateriale	Intangible assets
+2901	Për emrin e mirë	Goodwill
+2903	Për shpenzimet e zhvillimit	Development costs
+2905	Për koncesione, patenta, licensa dhe të ngjashme	Concessions, patents, licences
+2908	Për të tjera AA jomateriale	Other intangible assets
+291	Për AA materiale	Tangible assets
+2911	Për tokat	Land
+2912	Për ndërtesat	Buildings
+2913	Për instalimet teknike, makineri, pajisje, instrumente e vegla	Plant, machinery, equipment and tools
+2915	Për mjetet e transportit	Vehicles
+2918	Për të tjera AA materiale	Other tangible assets
+293	Për AA në proces	Assets under construction
+294	Për AA biologjike	Biological assets
+296	Për investimet financiare afatgjata	Long-term financial investments
+2961	Aksione të shoqërive të kontrolluara	Shares in subsidiaries
+2962	Aksione të shoqërive të lidhura	Shares in associates
+2963	Të tjera aksione ose letra me vlerë	Other shares or securities
+2965	Huadhënie afatgjatë	Long-term loans given
+2968	Të drejta të tjera afatgjata	Other long-term receivables
+3	Inventarët	Inventories
+31	Materiale	Materials
+311	Materiale të para	Raw materials
+312	Materiale të tjera	Other materials
+3123	Materiale ndihmëse	Auxiliary materials
+3124	Lëndë djegëse	Fuel
+3125	Pjesë ndërrimi	Spare parts
+3126	Materiale ambalazhimi	Packaging materials
+3127	Materiale të tjera	Other materials
+32	Inventari i imët dhe ambalazhet	Small tools and packaging
+326	Ambalazh i kthyeshëm (qarkullues)	Returnable packaging
+327	Inventar i imët	Small tools
+33	Prodhimi në proces	Work in progress
+331	Prodhimi në proces	Production in progress
+332	Punime në proces	Works in progress
+333	Shërbime në proces	Services in progress
+34	Produkte	Products
+341	Produkte të gatshëm	Finished products
+342	Produkte të ndërmjetëm	Intermediate products
+347	Nënprodukte dhe produkte mbeturinë	By-products and scrap
+35	Mallra	Goods for resale
+36	Aktive biologjike (afatshkurtra)	Biological assets (current)
+37	Inventar i pambërritur ose tek të tretët	Inventory in transit or held by third parties
+371	Materiale të para	Raw materials
+372	Materiale të tjera	Other materials
+374	Produkte të gatshëm	Finished products
+375	Mallra (dhe produkte) për shitje	Goods (and products) for sale
+376	Gjë e gjallë	Livestock
+38	Diferenca nga çmimet e magazinimit	Inventory price differences
+39	Zhvlerësimi i inventarëve	Impairment of inventories
+391	Zhvlerësimi i materialeve të para	Raw materials
+392	Zhvlerësimi i materialeve të tjera	Other materials
+393	Zhvlerësimi i prodhimeve në proces	Work in progress
+394	Zhvlerësimi i produkteve të gatshëm	Finished products
+395	Zhvlerësimi i mallrave (dhe produkteve) për shitje	Goods (and products) for sale
+4	Të tretët	Third parties
+40	Detyrime tregtare	Trade payables
+401	Furnitorë për mallra, produkte e shërbime	Suppliers of goods, products and services
+403	Premtim pagesa të pagueshme	Notes payable
+404	Furnitorë për aktivet afatgjata	Suppliers of non-current assets
+408	Furnitorë për fatura të pambërritura	Suppliers, invoices not yet received
+409	Parapagime të marra	Advances received
+41	Të drejta tregtare	Trade receivables
+411	Klientë për mallra, produkte e shërbime	Clients for goods, products and services
+413	Premtim pagesa të arkëtueshme	Notes receivable
+414	Klientë për aktivet afatgjata	Clients for non-current assets
+416	Të drejta për t'u arkëtuar nga proceset gjyqësore	Receivables in litigation
+418	Parapagime të dhëna	Advances given
+42	Detyrime ndaj personelit	Payables to staff
+421	Paga dhe shpërblime	Wages and bonuses
+423	Paradhënie për punonjësit	Advances to employees
+427	Personeli - detyrime të kërkuara	Staff, other amounts due
+43	Detyrime për sigurime shoqërore	Social security payables
+431	Sigurime shoqërore dhe shëndetësore	Social and health insurance
+437	Organizma të tjera shoqërore	Other social bodies
+438	Detyrime të tjera	Other payables
+44	Shteti për tatime dhe taksa	State, taxes and duties
+441	Akciza	Excise
+442	Tatim mbi të ardhurat personale	Personal income tax
+443	Tatime të tjera për punonjësit	Other employee taxes
+444	Tatim mbi fitimin	Corporate income tax
+445	TVSH	VAT
+4453	Shteti - TVSH për t'u paguar	VAT to pay
+4454	Shteti - TVSH për t'u marrë	VAT to recover
+4456	Shteti - TVSH e zbritshme	Input VAT (deductible)
+4457	Shteti - TVSH e pagueshme	Output VAT (payable)
+4458	Shteti - TVSH për t'u rregulluar	VAT to be regularised
+447	Të tjera tatime për t'u paguar dhe për t'u kthyer	Other taxes payable and recoverable
+448	Tatime të shtyra	Deferred taxes
+449	Tatimi në burim	Withholding tax
+45	Të drejta dhe detyrime ndaj palëve të lidhura	Related parties
+451	Të drejta dhe detyrime ndaj pjesëtarëve të tjerë të grupit	Group companies
+455	Të drejta dhe detyrime ndaj ortakëve dhe aksionerëve	Partners and shareholders
+456	Të drejta ndaj pronarëve për kapitalin e nënshkruar	Owners, subscribed capital called
+457	Dividentë për t'u paguar	Dividends payable
+460	Qira financiare	Finance leases
+461	Huamarrje afatshkurtra	Short-term borrowings
+4611	Bankat	Banks
+4612	Të tjerë tituj	Other instruments
+4631	Provizionet afatshkurtra	Short-term provisions
+4632	Provizionet afatgjata	Long-term provisions
+464	Detyrime për blerjet e letrave me vlerë	Payables for securities bought
+465	Të drejta për t'u arkëtuar nga shitjet e letrave me vlerë	Receivables for securities sold
+4661	Grante afatshkurtra	Short-term grants
+4662	Grante afatgjata	Long-term grants
+467	Debitorë të tjerë, kreditorë të tjerë	Other debtors and creditors
+46701	Shitës	Sellers
+46702	Furnizues	Suppliers
+468	Huamarrjet afatgjata	Long-term borrowings
+4681	Bankat	Banks
+4682	Obligacionet	Bonds
+46821	Primi i obligacionit	Bond premium
+46822	Zbritja e obligacionit	Bond discount
+469	Huadhënie afatshkurtra	Short-term loans given
+47	Llogari të përkohshme ose në pritje	Suspense accounts
+476	Diferenca konvertimi - aktive	Translation differences, assets
+477	Diferenca konvertimi - pasive	Translation differences, liabilities
+48	Të ardhura dhe shpenzime të llogaritura	Accruals and deferrals
+481	Shpenzime të llogaritura	Accrued expenses
+483	Interesa aktive të llogaritura	Accrued interest receivable
+484	Interesa pasive të llogaritura	Accrued interest payable
+486	Shpenzime të periudhave të ardhshme	Prepaid expenses
+487	Të ardhura të llogaritura	Accrued income
+488	Të ardhura të periudhave të ardhshme	Deferred income
+49	Zhvlerësim i të drejtave dhe detyrimeve	Impairment of receivables and payables
+490	Zhvlerësim i detyrimeve	Payables
+4901	Për furnitorët e mallrave, produkteve dhe shërbimeve	Suppliers of goods, products and services
+4903	Për premtim pagesa të pagueshme	Notes payable
+4904	Për furnitorët e aktiveve afatgjata	Suppliers of non-current assets
+4908	Për furnitorë për fatura të pambërritura	Suppliers, invoices not yet received
+491	Zhvlerësim i të drejtave	Receivables
+4911	Për klientët e mallrave, produkteve dhe shërbimeve	Clients for goods, products and services
+4913	Për premtim pagesa të arkëtueshme	Notes receivable
+4914	Për klientët e aktiveve afatgjata	Clients for non-current assets
+4916	Për të drejta për t'u arkëtuar nga proceset gjyqësore	Receivables in litigation
+4918	Për parapagime të dhëna	Advances given
+5	Likuiditetet	Cash and cash equivalents
+50	Letra me vlerë afatshkurtra	Short-term securities
+503	Letra me vlerë të pjesëmarrjes	Equity securities
+504	Letra me vlerë të huave	Debt securities
+51	Banka dhe institucione të tjera financiare	Banks and other financial institutions
+511	Vlera monetare në tranzit	Cash in transit
+5111	Vlera monetare në tranzit, në lekë	Cash in transit, lek
+5114	Vlera monetare në tranzit, në monedha të huaja	Cash in transit, foreign currency
+512	Vlera monetare në bankë	Cash at bank
+5121	Vlera monetare në bankë, në lekë	Cash at bank, lek
+5124	Vlera monetare në bankë, në monedha të huaja	Cash at bank, foreign currency
+519	Llogari bankare të zbuluara (overdrafte)	Bank overdrafts
+53	Vlera në arkë	Cash on hand
+531	Vlera monetare në arkë	Cash in hand
+5311	Vlera monetare në arkë, në lekë	Cash in hand, lek
+5314	Vlera monetare në arkë, në monedha të huaja	Cash in hand, foreign currency
+532	Vlera të tjera në arkë	Other values on hand
+5321	Pulla tatimore	Tax stamps
+5322	Bileta	Tickets
+5328	Vlera të tjera	Other values
+540	Hua që konsiderohen likuide	Loans treated as liquid
+5401	Hua në lekë	In lek
+5404	Hua në monedhë të huaj	In foreign currency
+541	Hua të dhëna	Loans given
+5411	Hua në lekë	In lek
+5414	Hua në monedha të huaja	In foreign currency
+542	Hua të marra	Loans received
+5421	Hua në lekë	In lek
+5424	Hua në monedha të huaja	In foreign currency
+543	Letra me vlerë të blera (të mbajtura deri në maturim)	Securities held to maturity
+5431	Në lekë	In lek
+5434	Në monedha të huaja	In foreign currency
+544	Letra me vlerë të borxhit, të emetuara	Debt securities issued
+5441	Në lekë	In lek
+5444	Në monedha të huaja	In foreign currency
+547	Letra të tjera për tregtim	Other trading securities
+5471	Letra me vlerë në lekë	In lek
+5472	Letra me vlerë në monedha të huaja	In foreign currency
+551	Derivatët	Derivatives
+5511	Vlera pozitive (aktivet)	Positive value (assets)
+5512	Vlera negative (detyrimet)	Negative value (liabilities)
+552	Instrumente financiare primare për tregtim	Primary financial instruments for trading
+559	Aktive të tjera financiare për tregtim	Other financial assets for trading
+58	Xhirime të brendshme	Internal transfers
+581	Xhirime të brendshme	Internal transfers
+59	Zhvlerësimi i aktiveve financiare	Impairment of financial assets
+590	Zhvlerësimi i letrave me vlerë	Securities
+5903	Aksionet	Shares
+5905	Obligacionet	Bonds
+599	Zhvlerësime të tjera për aktivet financiare	Other financial assets
+6	Shpenzimet	Expenses
+60	Blerje/shpenzime të konsumuara	Purchases and consumption
+601	Blerje materialesh të para e të tjera	Purchases of raw and other materials
+6011	Blerje materiale të para	Raw materials
+6012	Blerje materiale të tjera	Other materials
+60123	Materiale ndihmëse	Auxiliary materials
+60124	Lëndë djegëse	Fuel
+60125	Pjesë ndërrimi	Spare parts
+60126	Materiale ambalazhimi	Packaging materials
+60127	Materiale të tjera	Other materials
+602	Blerje objekte inventari	Purchases of small tools and packaging
+6026	Ambalazh i kthyeshëm (qarkullues)	Returnable packaging
+6027	Inventar i imët	Small tools
+603	Ndryshim gjendje inventari	Change in inventories
+6034	Ndryshim gjendje prodhim produktesh	Change in products
+604	Blerje energji, avull, ujë	Energy, steam and water
+6041	Për prodhimin, magazinën	Production and warehouse
+6042	Për shitjet	Sales units
+6043	Për administratën	Administration
+605	Blerje/shpenzime mallrash, shërbimesh	Purchases of goods and services
+606	Blerje/shpenzime aktive biologjike	Purchases of biological assets
+607	Blerje tek të tretët (të pambërritura)	Purchases in transit
+608	Blerje/shpenzime të tjera	Other purchases
+609	Zbritje financiare nga furnitori	Discounts from suppliers
+61	Shërbime nga të tretët	External services
+611	Trajtime të përgjithshme	Subcontracting
+613	Qira	Rent
+6131	Qira për prodhimin, magazinimin	Production and warehouse
+6132	Qira për njësitë e shitjes e të shpërndarjes	Sales and distribution units
+6133	Qira për administratën	Administration
+615	Mirëmbajtje dhe riparime	Maintenance and repairs
+6151	Për prodhimin, magazinimin	Production and warehouse
+6152	Për njësitë e shitjes, të shpërndarjes	Sales and distribution units
+6153	Për administratën	Administration
+616	Sigurime	Insurance
+6161	Sigurime mallra, magazina, njësi prodhimi	Goods, warehouses, production
+6162	Sigurime njësi shitje, shpërndarje, marketing	Sales, distribution, marketing
+6163	Sigurime njësi administrative	Administration
+617	Kërkime dhe studime	Research and studies
+618	Të tjera	Other
+62	Shërbime të tjera	Other services
+621	Personel jashtë njësisë	External staff
+6211	Për furnizimin e prodhimin	Supply and production
+6212	Për shpërndarjen e shitjet	Distribution and sales
+6213	Për administratën	Administration
+622	Komisione të ndërmjetësve dhe honorare	Intermediaries' commissions and fees
+623	Shpenzime për koncesione, patenta, licensa dhe të ngjashme	Concessions, patents and licences
+624	Publicitet, reklama	Advertising
+625	Transferime, udhëtime, dieta	Travel and allowances
+6251	Për furnizimin	Supply
+6252	Për shpërndarjen	Distribution
+6253	Për administratën	Administration
+626	Shpenzime postare dhe telekomunikimi	Postage and telecommunications
+627	Shpenzime transporti	Transport
+6271	Për blerjet	Purchases
+6272	Për shitjet	Sales
+6276	Për personelin	Staff
+628	Shpenzime për shërbimet bankare	Bank charges
+63	Tatime dhe taksa	Taxes and duties
+632	Taksa, tarifa doganore	Customs duties
+633	Akciza	Excise
+634	Taksa dhe tarifa vendore	Local taxes and fees
+635	Taksa e regjistrimit	Registration tax
+638	Tatime të tjera	Other taxes
+64	Shpenzime për personelin	Staff costs
+641	Pagat dhe shpërblimet e personelit	Wages and bonuses
+6411	Për personelin e furnizimit, prodhimit	Supply and production staff
+6412	Për personelin e shpërndarjes, shitjes	Distribution and sales staff
+6413	Për personelin e administratës	Administration staff
+644	Sigurimet shoqërore dhe shëndetësore	Social and health insurance
+6441	Për personelin e furnizimit, prodhimit	Supply and production staff
+6442	Për personelin e shpërndarjes, shitjes	Distribution and sales staff
+6443	Për personelin e administratës	Administration staff
+645	Kontribute dhe kuota të tjera për personelin	Other staff contributions
+648	Shpenzime të tjera për personelin	Other staff costs
+65	Shpenzime të tjera të veçanta korente	Other operating expenses
+653	Subvencione të dhëna	Subsidies given
+654	Shpenzime për pritje dhe përfaqësime	Entertainment and representation
+657	Gjoba dhe dëmshpërblime	Fines and damages
+658	Shpenzime të tjera korente	Other current expenses
+66	Shpenzime financiare	Financial expenses
+661	Nga shoqëritë e kontrolluara	From subsidiaries
+662	Nga shoqëritë e lidhura	From associates
+664	Humbje nga rivlerësimi i letrave me vlerë	Losses on revaluing securities
+665	Humbje nga shitja e letrave me vlerë	Losses on selling securities
+667	Shpenzime për interesa	Interest expense
+668	Shpenzime financiare të tjera	Other financial expenses
+669	Humbje nga këmbimet dhe përkthimet valutore	Foreign exchange losses
+66901	Humbje nga azhurnimi i arkës/bankës	Losses on revaluing cash and bank
+67	Shpenzime të tjera jo korente	Other non-current expenses
+672	Vlera kontabël e aktiveve afatgjata të shitura	Carrying amount of non-current assets sold
+677	Humbje nga gabime të lejuara në ushtrimet e mëparshme	Prior-period errors, losses
+68	Zhvlerësime dhe amortizim	Depreciation, amortisation and impairment
+680	Shpenzim amortizimi i AA jomateriale	Amortisation of intangible assets
+6801	Për emrin e mirë	Goodwill
+6803	Për shpenzimet e zhvillimit	Development costs
+6805	Për koncesione, patenta, licensa e të ngjashme	Concessions, patents, licences
+6808	Për të tjera AA jomateriale	Other intangible assets
+681	Amortizimet e aktiveve afatgjata	Depreciation of tangible assets
+6812	Shpenzim amortizimi për ndërtesat	Buildings
+68121	Për ndërtesë prodhimi, magazine	Production and warehouse buildings
+68122	Për ndërtesë njësi shitjeje	Sales buildings
+68123	Për ndërtesë administrative	Administration buildings
+6813	Për instalime teknike, makineri, pajisje, instrumente e vegla	Plant, machinery, equipment and tools
+68131	Për prodhimin, magazinimin	Production and warehouse
+68132	Për shpërndarjen, shitjen	Distribution and sales
+68133	Për administratën	Administration
+6815	Shpenzim amortizimi për mjetet e transportit	Vehicles
+68151	Për mjetet e transportit të prodhimit e furnizimit	Production and supply vehicles
+68152	Për mjetet e transportit të shpërndarjes e shitjes	Distribution and sales vehicles
+68153	Për mjetet e transportit të administratës	Administration vehicles
+6818	Për të tjera AA materiale	Other tangible assets
+686	Provizione për zhvlerësimin e aktiveve financiare	Impairment of financial assets
+687	Shpenzime të tjera (përfshihen humbjet nga rivlerësimi i aktiveve)	Other expenses (incl. revaluation losses)
+69	Tatimi mbi fitimin	Income tax expense
+7	Të ardhurat	Income
+701	Shitje e produkteve të gatshëm	Sales of finished products
+702	Shitje e produkteve të ndërmjetëm	Sales of intermediate products
+703	Shitje e nënprodukteve	Sales of by-products
+704	Shitje e punimeve dhe e shërbimeve	Sales of works and services
+705	Shitje mallrash	Sales of goods
+706	Shitje aktive biologjike	Sales of biological assets
+707	Shitje materialesh e furniturash	Sales of materials and supplies
+7071	Shitje materiale të para e ndihmëse	Raw and auxiliary materials
+70711	Shitje materiale të para	Raw materials
+70712	Shitje materiale ndihmëse	Auxiliary materials
+7072	Shitje objekte inventari	Small tools
+708	Të ardhura nga shitje të tjera	Other sales income
+7081	Qira	Rent
+7082	Komisione	Commissions
+7083	Transport për të tretët	Transport for third parties
+7088	Të tjera	Other
+71	Ndryshimi i gjendjes së prodhimit në proces e produkteve	Change in work in progress and products
+72	Prodhimi i aktiveve afatgjata	Own work capitalised
+721	Prodhimi i AA jomateriale	Intangible assets
+722	Prodhimi i AA materiale	Tangible assets
+73	Të ardhura nga grantet	Grant income
+75	Të ardhura të tjera korente	Other operating income
+76	Të ardhura financiare	Financial income
+761	Nga shoqëritë e kontrolluara	From subsidiaries
+762	Nga shoqëritë e lidhura	From associates
+763	Të ardhura nga dividentët	Dividend income
+764	Fitim nga rivlerësimi i letrave me vlerë	Gains on revaluing securities
+765	Fitim nga shitja e letrave me vlerë	Gains on selling securities
+767	Të ardhura nga interesat	Interest income
+768	Të ardhura të tjera financiare	Other financial income
+769	Fitim nga këmbimet valutore	Foreign exchange gains
+76901	Fitime nga azhurnimi i arkës/bankës	Gains on revaluing cash and bank
+77	Të ardhura të tjera jo korente	Other non-current income
+771	Të ardhura nga rivlerësimi	Revaluation gains
+772	Të ardhura nga shitja e aktiveve afatgjata	Proceeds from sales of non-current assets
+777	Fitime nga gabime të lejuara në ushtrimet e mëparshme	Prior-period errors, gains
+8	Llogari jashtë bilancit	Off-balance-sheet accounts
+890	Bilanci i çeljes	Opening balance
+891	Bilanci i mbylljes	Closing balance

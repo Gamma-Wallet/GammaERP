@@ -1,0 +1,423 @@
+[
+ {
+  "Key": "cost_center_type:BASE",
+  "IdSup": "cost_center_type:COMPANY",
+  "Active": true,
+  "IsElement": true,
+  "Code": "BASE",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Base",
+   "lt": "Buveinė"
+  },
+  "Description": {
+   "en": "Base",
+   "lt": "Buveinė"
+  },
+  "SortOrder": 2.0,
+  "TakesBankStatements": false
+ },
+ {
+  "Key": "cost_center_type:CASH_DESK",
+  "IdSup": "cost_center_type:COMPANY",
+  "Active": true,
+  "IsElement": true,
+  "Code": "CASH_DESK",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Cash desk",
+   "lt": "Kasa"
+  },
+  "Description": {
+   "en": "Cash desk",
+   "lt": "Kasa"
+  },
+  "SortOrder": 3.0,
+  "TakesBankStatements": false
+ },
+ {
+  "Key": "cost_center_type:BANK",
+  "IdSup": "cost_center_type:COMPANY",
+  "Active": true,
+  "IsElement": true,
+  "Code": "BANK",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Bank",
+   "lt": "Bankas"
+  },
+  "Description": {
+   "en": "Bank",
+   "lt": "Bankas"
+  },
+  "SortOrder": 4.0,
+  "TakesBankStatements": true
+ },
+ {
+  "Key": "cost_center_type:POINT_OF_SALE",
+  "IdSup": "cost_center_type:COMPANY",
+  "Active": true,
+  "IsElement": false,
+  "Code": "POINT_OF_SALE",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Point of sale",
+   "lt": "Pardavimo vieta"
+  },
+  "Description": {
+   "en": "Point of sale",
+   "lt": "Pardavimo vieta"
+  },
+  "SortOrder": 6.0,
+  "TakesBankStatements": false
+ },
+ {
+  "Key": "cost_center_type:WAREHOUSE",
+  "IdSup": "cost_center_type:COMPANY",
+  "Active": true,
+  "IsElement": true,
+  "Code": "WAREHOUSE",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Warehouse",
+   "lt": "Sandėlis"
+  },
+  "Description": {
+   "en": "Warehouse",
+   "lt": "Sandėlis"
+  },
+  "SortOrder": 7.0,
+  "TakesBankStatements": false
+ },
+ {
+  "Key": "cost_center_type:OFFICE",
+  "IdSup": "cost_center_type:COMPANY",
+  "Active": true,
+  "IsElement": true,
+  "Code": "OFFICE",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Office",
+   "lt": "Biuras"
+  },
+  "Description": {
+   "en": "Office",
+   "lt": "Biuras"
+  },
+  "SortOrder": 8.0,
+  "TakesBankStatements": false
+ },
+ {
+  "Key": "cost_center_type:PRODUCTION_POINT",
+  "IdSup": "cost_center_type:COMPANY",
+  "Active": true,
+  "IsElement": true,
+  "Code": "PRODUCTION_POINT",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Production point",
+   "lt": "Gamybos taškas"
+  },
+  "Description": {
+   "en": "Production point",
+   "lt": "Gamybos taškas"
+  },
+  "SortOrder": 8.5,
+  "TakesBankStatements": false,
+  "IsProductionPoint": true
+ },
+ {
+  "Key": "cost_center_type:HALL",
+  "IdSup": "cost_center_type:POS_RESTAURANT",
+  "Active": true,
+  "IsElement": true,
+  "Code": "HALL",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Hall",
+   "lt": "Salė"
+  },
+  "Description": {
+   "en": "Hall",
+   "lt": "Salė"
+  },
+  "SortOrder": 6.1,
+  "TakesBankStatements": false
+ },
+ {
+  "Key": "cost_center_type:TABLE",
+  "IdSup": "cost_center_type:HALL",
+  "Active": true,
+  "IsElement": true,
+  "Code": "TABLE",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Table",
+   "lt": "Stalas"
+  },
+  "Description": {
+   "en": "Table",
+   "lt": "Stalas"
+  },
+  "SortOrder": 6.2,
+  "TakesBankStatements": false
+ },
+ {
+  "Key": "cost_center_type:COUNTER",
+  "IdSup": "cost_center_type:POS_RESTAURANT",
+  "Active": true,
+  "IsElement": true,
+  "Code": "COUNTER",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Counter",
+   "lt": "Baras"
+  },
+  "Description": {
+   "en": "Counter",
+   "lt": "Baras"
+  },
+  "SortOrder": 6.3,
+  "TakesBankStatements": false
+ },
+ {
+  "Key": "cost_center_type:POS_RESTAURANT",
+  "IdSup": "cost_center_type:POINT_OF_SALE",
+  "Active": true,
+  "IsElement": true,
+  "Code": "POS_RESTAURANT",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Restaurant / café",
+   "lt": "Restoranas / kavinė"
+  },
+  "Description": {
+   "en": "Restaurant / café",
+   "lt": "Restoranas / kavinė"
+  },
+  "SortOrder": 6.01,
+  "TakesBankStatements": false
+ },
+ {
+  "Key": "cost_center_type:POS_SHOP",
+  "IdSup": "cost_center_type:POINT_OF_SALE",
+  "Active": true,
+  "IsElement": true,
+  "Code": "POS_SHOP",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Shop",
+   "lt": "Parduotuvė"
+  },
+  "Description": {
+   "en": "Shop",
+   "lt": "Parduotuvė"
+  },
+  "SortOrder": 6.02,
+  "TakesBankStatements": false
+ },
+ {
+  "Key": "cost_center_type:POS_REPAIRS",
+  "IdSup": "cost_center_type:POINT_OF_SALE",
+  "Active": true,
+  "IsElement": true,
+  "Code": "POS_REPAIRS",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Repair shop",
+   "lt": "Remonto dirbtuvės"
+  },
+  "Description": {
+   "en": "Repair shop",
+   "lt": "Remonto dirbtuvės"
+  },
+  "SortOrder": 6.05,
+  "TakesBankStatements": false
+ },
+ {
+  "Key": "cost_center_type:TILL",
+  "IdSup": "cost_center_type:POS_SHOP",
+  "Active": true,
+  "IsElement": true,
+  "Code": "TILL",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Till",
+   "lt": "Kasa"
+  },
+  "Description": {
+   "en": "Till",
+   "lt": "Kasa"
+  },
+  "SortOrder": 6.21,
+  "TakesBankStatements": false
+ },
+ {
+  "Key": "cost_center_type:POS_EVENTS",
+  "IdSup": "cost_center_type:POINT_OF_SALE",
+  "Active": true,
+  "IsElement": true,
+  "Code": "POS_EVENTS",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Cinema / theatre",
+   "lt": "Kino teatras / teatras"
+  },
+  "Description": {
+   "en": "Cinema / theatre",
+   "lt": "Kino teatras / teatras"
+  },
+  "SortOrder": 6.03,
+  "TakesBankStatements": false
+ },
+ {
+  "Key": "cost_center_type:AUDITORIUM",
+  "IdSup": "cost_center_type:POS_EVENTS",
+  "Active": true,
+  "IsElement": true,
+  "Code": "AUDITORIUM",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Auditorium",
+   "lt": "Salė"
+  },
+  "Description": {
+   "en": "Auditorium",
+   "lt": "Salė"
+  },
+  "SortOrder": 6.31,
+  "TakesBankStatements": false
+ },
+ {
+  "Key": "cost_center_type:SEAT_ROW",
+  "IdSup": "cost_center_type:AUDITORIUM",
+  "Active": true,
+  "IsElement": true,
+  "Code": "SEAT_ROW",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Row",
+   "lt": "Eilė"
+  },
+  "Description": {
+   "en": "Row",
+   "lt": "Eilė"
+  },
+  "SortOrder": 6.32,
+  "TakesBankStatements": false
+ },
+ {
+  "Key": "cost_center_type:SEAT",
+  "IdSup": "cost_center_type:SEAT_ROW",
+  "Active": true,
+  "IsElement": true,
+  "Code": "SEAT",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Seat",
+   "lt": "Vieta"
+  },
+  "Description": {
+   "en": "Seat",
+   "lt": "Vieta"
+  },
+  "SortOrder": 6.33,
+  "TakesBankStatements": false
+ },
+ {
+  "Key": "cost_center_type:POS_STAYS",
+  "IdSup": "cost_center_type:POINT_OF_SALE",
+  "Active": true,
+  "IsElement": true,
+  "Code": "POS_STAYS",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Hotel",
+   "lt": "Viešbutis"
+  },
+  "Description": {
+   "en": "Hotel",
+   "lt": "Viešbutis"
+  },
+  "SortOrder": 6.04,
+  "TakesBankStatements": false
+ },
+ {
+  "Key": "cost_center_type:FLOOR",
+  "IdSup": "cost_center_type:POS_STAYS",
+  "Active": true,
+  "IsElement": true,
+  "Code": "FLOOR",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Floor",
+   "lt": "Aukštas"
+  },
+  "Description": {
+   "en": "Floor",
+   "lt": "Aukštas"
+  },
+  "SortOrder": 6.41,
+  "TakesBankStatements": false
+ },
+ {
+  "Key": "cost_center_type:ROOM",
+  "IdSup": "cost_center_type:FLOOR",
+  "Active": true,
+  "IsElement": true,
+  "Code": "ROOM",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Room",
+   "lt": "Kambarys"
+  },
+  "Description": {
+   "en": "Room",
+   "lt": "Kambarys"
+  },
+  "SortOrder": 6.42,
+  "TakesBankStatements": false
+ }
+]

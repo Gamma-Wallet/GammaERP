@@ -1,0 +1,423 @@
+[
+ {
+  "Key": "cost_center_type:BASE",
+  "IdSup": "cost_center_type:COMPANY",
+  "Active": true,
+  "IsElement": true,
+  "Code": "BASE",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Base",
+   "hu": "Székhely"
+  },
+  "Description": {
+   "en": "Base",
+   "hu": "Székhely"
+  },
+  "SortOrder": 2.0,
+  "TakesBankStatements": false
+ },
+ {
+  "Key": "cost_center_type:CASH_DESK",
+  "IdSup": "cost_center_type:COMPANY",
+  "Active": true,
+  "IsElement": true,
+  "Code": "CASH_DESK",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Cash desk",
+   "hu": "Pénztár"
+  },
+  "Description": {
+   "en": "Cash desk",
+   "hu": "Pénztár"
+  },
+  "SortOrder": 3.0,
+  "TakesBankStatements": false
+ },
+ {
+  "Key": "cost_center_type:BANK",
+  "IdSup": "cost_center_type:COMPANY",
+  "Active": true,
+  "IsElement": true,
+  "Code": "BANK",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Bank",
+   "hu": "Bank"
+  },
+  "Description": {
+   "en": "Bank",
+   "hu": "Bank"
+  },
+  "SortOrder": 4.0,
+  "TakesBankStatements": true
+ },
+ {
+  "Key": "cost_center_type:POINT_OF_SALE",
+  "IdSup": "cost_center_type:COMPANY",
+  "Active": true,
+  "IsElement": false,
+  "Code": "POINT_OF_SALE",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Point of sale",
+   "hu": "Értékesítési pont"
+  },
+  "Description": {
+   "en": "Point of sale",
+   "hu": "Értékesítési pont"
+  },
+  "SortOrder": 6.0,
+  "TakesBankStatements": false
+ },
+ {
+  "Key": "cost_center_type:WAREHOUSE",
+  "IdSup": "cost_center_type:COMPANY",
+  "Active": true,
+  "IsElement": true,
+  "Code": "WAREHOUSE",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Warehouse",
+   "hu": "Raktár"
+  },
+  "Description": {
+   "en": "Warehouse",
+   "hu": "Raktár"
+  },
+  "SortOrder": 7.0,
+  "TakesBankStatements": false
+ },
+ {
+  "Key": "cost_center_type:OFFICE",
+  "IdSup": "cost_center_type:COMPANY",
+  "Active": true,
+  "IsElement": true,
+  "Code": "OFFICE",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Office",
+   "hu": "Iroda"
+  },
+  "Description": {
+   "en": "Office",
+   "hu": "Iroda"
+  },
+  "SortOrder": 8.0,
+  "TakesBankStatements": false
+ },
+ {
+  "Key": "cost_center_type:PRODUCTION_POINT",
+  "IdSup": "cost_center_type:COMPANY",
+  "Active": true,
+  "IsElement": true,
+  "Code": "PRODUCTION_POINT",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Production point",
+   "hu": "Termelési pont"
+  },
+  "Description": {
+   "en": "Production point",
+   "hu": "Termelési pont"
+  },
+  "SortOrder": 8.5,
+  "TakesBankStatements": false,
+  "IsProductionPoint": true
+ },
+ {
+  "Key": "cost_center_type:HALL",
+  "IdSup": "cost_center_type:POS_RESTAURANT",
+  "Active": true,
+  "IsElement": true,
+  "Code": "HALL",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Hall",
+   "hu": "Terem"
+  },
+  "Description": {
+   "en": "Hall",
+   "hu": "Terem"
+  },
+  "SortOrder": 6.1,
+  "TakesBankStatements": false
+ },
+ {
+  "Key": "cost_center_type:TABLE",
+  "IdSup": "cost_center_type:HALL",
+  "Active": true,
+  "IsElement": true,
+  "Code": "TABLE",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Table",
+   "hu": "Asztal"
+  },
+  "Description": {
+   "en": "Table",
+   "hu": "Asztal"
+  },
+  "SortOrder": 6.2,
+  "TakesBankStatements": false
+ },
+ {
+  "Key": "cost_center_type:COUNTER",
+  "IdSup": "cost_center_type:POS_RESTAURANT",
+  "Active": true,
+  "IsElement": true,
+  "Code": "COUNTER",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Counter",
+   "hu": "Pult"
+  },
+  "Description": {
+   "en": "Counter",
+   "hu": "Pult"
+  },
+  "SortOrder": 6.3,
+  "TakesBankStatements": false
+ },
+ {
+  "Key": "cost_center_type:POS_RESTAURANT",
+  "IdSup": "cost_center_type:POINT_OF_SALE",
+  "Active": true,
+  "IsElement": true,
+  "Code": "POS_RESTAURANT",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Restaurant / café",
+   "hu": "Étterem / kávézó"
+  },
+  "Description": {
+   "en": "Restaurant / café",
+   "hu": "Étterem / kávézó"
+  },
+  "SortOrder": 6.01,
+  "TakesBankStatements": false
+ },
+ {
+  "Key": "cost_center_type:POS_SHOP",
+  "IdSup": "cost_center_type:POINT_OF_SALE",
+  "Active": true,
+  "IsElement": true,
+  "Code": "POS_SHOP",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Shop",
+   "hu": "Bolt"
+  },
+  "Description": {
+   "en": "Shop",
+   "hu": "Bolt"
+  },
+  "SortOrder": 6.02,
+  "TakesBankStatements": false
+ },
+ {
+  "Key": "cost_center_type:POS_REPAIRS",
+  "IdSup": "cost_center_type:POINT_OF_SALE",
+  "Active": true,
+  "IsElement": true,
+  "Code": "POS_REPAIRS",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Repair shop",
+   "hu": "Szerviz"
+  },
+  "Description": {
+   "en": "Repair shop",
+   "hu": "Szerviz"
+  },
+  "SortOrder": 6.05,
+  "TakesBankStatements": false
+ },
+ {
+  "Key": "cost_center_type:TILL",
+  "IdSup": "cost_center_type:POS_SHOP",
+  "Active": true,
+  "IsElement": true,
+  "Code": "TILL",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Till",
+   "hu": "Pénztár"
+  },
+  "Description": {
+   "en": "Till",
+   "hu": "Pénztár"
+  },
+  "SortOrder": 6.21,
+  "TakesBankStatements": false
+ },
+ {
+  "Key": "cost_center_type:POS_EVENTS",
+  "IdSup": "cost_center_type:POINT_OF_SALE",
+  "Active": true,
+  "IsElement": true,
+  "Code": "POS_EVENTS",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Cinema / theatre",
+   "hu": "Mozi / színház"
+  },
+  "Description": {
+   "en": "Cinema / theatre",
+   "hu": "Mozi / színház"
+  },
+  "SortOrder": 6.03,
+  "TakesBankStatements": false
+ },
+ {
+  "Key": "cost_center_type:AUDITORIUM",
+  "IdSup": "cost_center_type:POS_EVENTS",
+  "Active": true,
+  "IsElement": true,
+  "Code": "AUDITORIUM",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Auditorium",
+   "hu": "Terem"
+  },
+  "Description": {
+   "en": "Auditorium",
+   "hu": "Terem"
+  },
+  "SortOrder": 6.31,
+  "TakesBankStatements": false
+ },
+ {
+  "Key": "cost_center_type:SEAT_ROW",
+  "IdSup": "cost_center_type:AUDITORIUM",
+  "Active": true,
+  "IsElement": true,
+  "Code": "SEAT_ROW",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Row",
+   "hu": "Sor"
+  },
+  "Description": {
+   "en": "Row",
+   "hu": "Sor"
+  },
+  "SortOrder": 6.32,
+  "TakesBankStatements": false
+ },
+ {
+  "Key": "cost_center_type:SEAT",
+  "IdSup": "cost_center_type:SEAT_ROW",
+  "Active": true,
+  "IsElement": true,
+  "Code": "SEAT",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Seat",
+   "hu": "Ülőhely"
+  },
+  "Description": {
+   "en": "Seat",
+   "hu": "Ülőhely"
+  },
+  "SortOrder": 6.33,
+  "TakesBankStatements": false
+ },
+ {
+  "Key": "cost_center_type:POS_STAYS",
+  "IdSup": "cost_center_type:POINT_OF_SALE",
+  "Active": true,
+  "IsElement": true,
+  "Code": "POS_STAYS",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Hotel",
+   "hu": "Szálloda"
+  },
+  "Description": {
+   "en": "Hotel",
+   "hu": "Szálloda"
+  },
+  "SortOrder": 6.04,
+  "TakesBankStatements": false
+ },
+ {
+  "Key": "cost_center_type:FLOOR",
+  "IdSup": "cost_center_type:POS_STAYS",
+  "Active": true,
+  "IsElement": true,
+  "Code": "FLOOR",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Floor",
+   "hu": "Emelet"
+  },
+  "Description": {
+   "en": "Floor",
+   "hu": "Emelet"
+  },
+  "SortOrder": 6.41,
+  "TakesBankStatements": false
+ },
+ {
+  "Key": "cost_center_type:ROOM",
+  "IdSup": "cost_center_type:FLOOR",
+  "Active": true,
+  "IsElement": true,
+  "Code": "ROOM",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Room",
+   "hu": "Szoba"
+  },
+  "Description": {
+   "en": "Room",
+   "hu": "Szoba"
+  },
+  "SortOrder": 6.42,
+  "TakesBankStatements": false
+ }
+]

@@ -1,0 +1,4358 @@
+[
+ {
+  "Key": "chart:00",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "chart_type:ATT",
+  "Code": "00",
+  "Name": {
+   "en": "Amounts due from shareholders",
+   "it": "Crediti verso soci per versamenti ancora dovuti"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:00.001",
+  "IdSup": "chart:00",
+  "Active": true,
+  "TypeId": "chart_type:ATT",
+  "Code": "00.001",
+  "Name": {
+   "en": "Shareholders, contributions due",
+   "it": "Soci c/conferimenti"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:00.002",
+  "IdSup": "chart:00",
+  "Active": true,
+  "TypeId": "chart_type:ATT",
+  "Code": "00.002",
+  "Name": {
+   "en": "Shareholders, restoration of capital",
+   "it": "Soci c/reintegro"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:00.003",
+  "IdSup": "chart:00",
+  "Active": true,
+  "TypeId": "chart_type:ATT",
+  "Code": "00.003",
+  "Name": {
+   "en": "Shareholders, drawings",
+   "it": "Soci c/prelevamenti"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:01",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "chart_type:ATT",
+  "Code": "01",
+  "Name": {
+   "en": "Intangible assets",
+   "it": "Immobilizzazioni immateriali"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:01.000",
+  "IdSup": "chart:01",
+  "Active": true,
+  "TypeId": "chart_type:ATT",
+  "Code": "01.000",
+  "Name": {
+   "en": "Start-up costs",
+   "it": "Costi d'impianto"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:01.001",
+  "IdSup": "chart:01",
+  "Active": true,
+  "TypeId": "chart_type:ATT",
+  "Code": "01.001",
+  "Name": {
+   "en": "Expansion costs",
+   "it": "Costi di ampliamento"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:01.002",
+  "IdSup": "chart:01",
+  "Active": true,
+  "TypeId": "chart_type:ATT",
+  "Code": "01.002",
+  "Name": {
+   "en": "Advertising costs to amortise",
+   "it": "Costi di pubblicità da ammortizzare"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:01.005",
+  "IdSup": "chart:01",
+  "Active": true,
+  "TypeId": "chart_type:ATT",
+  "Code": "01.005",
+  "Name": {
+   "en": "Software",
+   "it": "Software"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:01.006",
+  "IdSup": "chart:01",
+  "Active": true,
+  "TypeId": "chart_type:ATT",
+  "Code": "01.006",
+  "Name": {
+   "en": "Trademarks",
+   "it": "Marchi"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:01.009",
+  "IdSup": "chart:01",
+  "Active": true,
+  "TypeId": "chart_type:ATT",
+  "Code": "01.009",
+  "Name": {
+   "en": "Goodwill",
+   "it": "Avviamento"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:01.011",
+  "IdSup": "chart:01",
+  "Active": true,
+  "TypeId": "chart_type:ATT",
+  "Code": "01.011",
+  "Name": {
+   "en": "Advances on intangible assets",
+   "it": "Acconti su immobilizzazioni immateriali"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:01.012",
+  "IdSup": "chart:01",
+  "Active": true,
+  "TypeId": "chart_type:ATT",
+  "Code": "01.012",
+  "Name": {
+   "en": "Multi-year charges to amortise",
+   "it": "Oneri pluriennali da ammortizzare"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:01.020",
+  "IdSup": "chart:01",
+  "Active": true,
+  "TypeId": "chart_type:ATT",
+  "Code": "01.020",
+  "Name": {
+   "en": "Accumulated amortisation, start-up costs",
+   "it": "Fondo ammortamento costi d'impianto"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:01.021",
+  "IdSup": "chart:01",
+  "Active": true,
+  "TypeId": "chart_type:ATT",
+  "Code": "01.021",
+  "Name": {
+   "en": "Accumulated amortisation, expansion costs",
+   "it": "Fondo ammortamento costi di ampliamento"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:01.022",
+  "IdSup": "chart:01",
+  "Active": true,
+  "TypeId": "chart_type:ATT",
+  "Code": "01.022",
+  "Name": {
+   "en": "Accumulated amortisation, advertising costs",
+   "it": "Fondo ammortamento costi di pubblicità"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:01.025",
+  "IdSup": "chart:01",
+  "Active": true,
+  "TypeId": "chart_type:ATT",
+  "Code": "01.025",
+  "Name": {
+   "en": "Accumulated amortisation, software",
+   "it": "Fondo ammortamento software"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:01.026",
+  "IdSup": "chart:01",
+  "Active": true,
+  "TypeId": "chart_type:ATT",
+  "Code": "01.026",
+  "Name": {
+   "en": "Accumulated amortisation, trademarks",
+   "it": "Fondo ammortamento marchi"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:01.029",
+  "IdSup": "chart:01",
+  "Active": true,
+  "TypeId": "chart_type:ATT",
+  "Code": "01.029",
+  "Name": {
+   "en": "Accumulated amortisation, goodwill",
+   "it": "Fondo ammortamento avviamento"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:01.030",
+  "IdSup": "chart:01",
+  "Active": true,
+  "TypeId": "chart_type:ATT",
+  "Code": "01.030",
+  "Name": {
+   "en": "Accumulated amortisation, multi-year charges",
+   "it": "Fondo ammortamento oneri pluriennali da ammortizzare"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:02",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "chart_type:ATT",
+  "Code": "02",
+  "Name": {
+   "en": "Tangible assets",
+   "it": "Immobilizzazioni materiali"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:02.000",
+  "IdSup": "chart:02",
+  "Active": true,
+  "TypeId": "chart_type:ATT",
+  "Code": "02.000",
+  "Name": {
+   "en": "Land",
+   "it": "Terreni"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:02.002",
+  "IdSup": "chart:02",
+  "Active": true,
+  "TypeId": "chart_type:ATT",
+  "Code": "02.002",
+  "Name": {
+   "en": "Buildings",
+   "it": "Fabbricati"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:02.005",
+  "IdSup": "chart:02",
+  "Active": true,
+  "TypeId": "chart_type:ATT",
+  "Code": "02.005",
+  "Name": {
+   "en": "Commercial equipment",
+   "it": "Attrezzature commerciali"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:02.006",
+  "IdSup": "chart:02",
+  "Active": true,
+  "TypeId": "chart_type:ATT",
+  "Code": "02.006",
+  "Name": {
+   "en": "Office machines",
+   "it": "Macchine d'ufficio"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:02.007",
+  "IdSup": "chart:02",
+  "Active": true,
+  "TypeId": "chart_type:ATT",
+  "Code": "02.007",
+  "Name": {
+   "en": "Computers",
+   "it": "Elaboratori elettronici"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:02.008",
+  "IdSup": "chart:02",
+  "Active": true,
+  "TypeId": "chart_type:ATT",
+  "Code": "02.008",
+  "Name": {
+   "en": "Furniture and fittings",
+   "it": "Arredamento"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:02.009",
+  "IdSup": "chart:02",
+  "Active": true,
+  "TypeId": "chart_type:ATT",
+  "Code": "02.009",
+  "Name": {
+   "en": "Vehicles",
+   "it": "Automezzi"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:02.010",
+  "IdSup": "chart:02",
+  "Active": true,
+  "TypeId": "chart_type:ATT",
+  "Code": "02.010",
+  "Name": {
+   "en": "Durable packaging",
+   "it": "Imballaggi durevoli"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:02.017",
+  "IdSup": "chart:02",
+  "Active": true,
+  "TypeId": "chart_type:ATT",
+  "Code": "02.017",
+  "Name": {
+   "en": "Tangible assets under construction",
+   "it": "Immobilizzazioni materiali in corso"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:02.018",
+  "IdSup": "chart:02",
+  "Active": true,
+  "TypeId": "chart_type:ATT",
+  "Code": "02.018",
+  "Name": {
+   "en": "Advances on tangible assets",
+   "it": "Acconti su immobilizzazioni materiali"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:02.020",
+  "IdSup": "chart:02",
+  "Active": true,
+  "TypeId": "chart_type:ATT",
+  "Code": "02.020",
+  "Name": {
+   "en": "Accumulated depreciation, buildings",
+   "it": "Fondo ammortamento fabbricati"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:02.023",
+  "IdSup": "chart:02",
+  "Active": true,
+  "TypeId": "chart_type:ATT",
+  "Code": "02.023",
+  "Name": {
+   "en": "Accumulated depreciation, commercial equipment",
+   "it": "Fondo ammortamento attrezzature commerciali"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:02.024",
+  "IdSup": "chart:02",
+  "Active": true,
+  "TypeId": "chart_type:ATT",
+  "Code": "02.024",
+  "Name": {
+   "en": "Accumulated depreciation, office machines",
+   "it": "Fondo ammortamento macchine d'ufficio"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:02.025",
+  "IdSup": "chart:02",
+  "Active": true,
+  "TypeId": "chart_type:ATT",
+  "Code": "02.025",
+  "Name": {
+   "en": "Accumulated depreciation, computers",
+   "it": "Fondo ammortamento elaboratori elettronici"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:02.026",
+  "IdSup": "chart:02",
+  "Active": true,
+  "TypeId": "chart_type:ATT",
+  "Code": "02.026",
+  "Name": {
+   "en": "Accumulated depreciation, furniture",
+   "it": "Fondo ammortamento arredamento"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:02.027",
+  "IdSup": "chart:02",
+  "Active": true,
+  "TypeId": "chart_type:ATT",
+  "Code": "02.027",
+  "Name": {
+   "en": "Accumulated depreciation, vehicles",
+   "it": "Fondo ammortamento automezzi"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:02.028",
+  "IdSup": "chart:02",
+  "Active": true,
+  "TypeId": "chart_type:ATT",
+  "Code": "02.028",
+  "Name": {
+   "en": "Accumulated depreciation, durable packaging",
+   "it": "Fondo ammortamento imballaggi durevoli"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:02.030",
+  "IdSup": "chart:02",
+  "Active": true,
+  "TypeId": "chart_type:ATT",
+  "Code": "02.030",
+  "Name": {
+   "en": "Impairment, buildings",
+   "it": "Fondo svalutazione fabbricati"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:02.032",
+  "IdSup": "chart:02",
+  "Active": true,
+  "TypeId": "chart_type:ATT",
+  "Code": "02.032",
+  "Name": {
+   "en": "Impairment, vehicles",
+   "it": "Fondo svalutazione automezzi"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:03",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "chart_type:ATT",
+  "Code": "03",
+  "Name": {
+   "en": "Financial fixed assets",
+   "it": "Immobilizzazioni finanziarie"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:03.003",
+  "IdSup": "chart:03",
+  "Active": true,
+  "TypeId": "chart_type:ATT",
+  "Code": "03.003",
+  "Name": {
+   "en": "Other shareholdings",
+   "it": "Partecipazioni diverse"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:03.009",
+  "IdSup": "chart:03",
+  "Active": true,
+  "TypeId": "chart_type:ATT",
+  "Code": "03.009",
+  "Name": {
+   "en": "Loans granted",
+   "it": "Mutui attivi"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:04",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "chart_type:ATT",
+  "Code": "04",
+  "Name": {
+   "en": "Inventories",
+   "it": "Rimanenze"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:04.000",
+  "IdSup": "chart:04",
+  "Active": true,
+  "TypeId": "chart_type:ATT",
+  "Code": "04.000",
+  "Name": {
+   "en": "Goods",
+   "it": "Merci"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:04.001",
+  "IdSup": "chart:04",
+  "Active": true,
+  "TypeId": "chart_type:ATT",
+  "Code": "04.001",
+  "Name": {
+   "en": "Packaging",
+   "it": "Imballaggi"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:04.002",
+  "IdSup": "chart:04",
+  "Active": true,
+  "TypeId": "chart_type:ATT",
+  "Code": "04.002",
+  "Name": {
+   "en": "Consumables",
+   "it": "Materiali di consumo"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:04.003",
+  "IdSup": "chart:04",
+  "Active": true,
+  "TypeId": "chart_type:ATT",
+  "Code": "04.003",
+  "Name": {
+   "en": "Raw materials",
+   "it": "Materie prime"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:04.004",
+  "IdSup": "chart:04",
+  "Active": true,
+  "TypeId": "chart_type:ATT",
+  "Code": "04.004",
+  "Name": {
+   "en": "Auxiliary materials",
+   "it": "Materie sussidiarie"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:04.005",
+  "IdSup": "chart:04",
+  "Active": true,
+  "TypeId": "chart_type:ATT",
+  "Code": "04.005",
+  "Name": {
+   "en": "Work in progress",
+   "it": "Prodotti in lavorazione"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:04.006",
+  "IdSup": "chart:04",
+  "Active": true,
+  "TypeId": "chart_type:ATT",
+  "Code": "04.006",
+  "Name": {
+   "en": "Semi-finished products",
+   "it": "Semilavorati"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:04.007",
+  "IdSup": "chart:04",
+  "Active": true,
+  "TypeId": "chart_type:ATT",
+  "Code": "04.007",
+  "Name": {
+   "en": "Contract work in progress",
+   "it": "Lavori in corso su ordinazione"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:04.008",
+  "IdSup": "chart:04",
+  "Active": true,
+  "TypeId": "chart_type:ATT",
+  "Code": "04.008",
+  "Name": {
+   "en": "Finished products",
+   "it": "Prodotti finiti"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:04.009",
+  "IdSup": "chart:04",
+  "Active": true,
+  "TypeId": "chart_type:ATT",
+  "Code": "04.009",
+  "Name": {
+   "en": "Advances to suppliers",
+   "it": "Anticipi a fornitori"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:05",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "chart_type:ATT",
+  "Code": "05",
+  "Name": {
+   "en": "Trade receivables",
+   "it": "Crediti commerciali"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:05.000",
+  "IdSup": "chart:05",
+  "Active": true,
+  "TypeId": "chart_type:ATT",
+  "Code": "05.000",
+  "Name": {
+   "en": "Trade receivables, clients",
+   "it": "Crediti v/clienti"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:05.001",
+  "IdSup": "chart:05",
+  "Active": true,
+  "TypeId": "chart_type:ATT",
+  "Code": "05.001",
+  "Name": {
+   "en": "Trade receivables, foreign clients",
+   "it": "Crediti v/clienti esteri"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:05.002",
+  "IdSup": "chart:05",
+  "Active": true,
+  "TypeId": "chart_type:ATT",
+  "Code": "05.002",
+  "Name": {
+   "en": "Clients, expenses advanced",
+   "it": "Clienti c/spese anticipate"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:05.003",
+  "IdSup": "chart:05",
+  "Active": true,
+  "TypeId": "chart_type:ATT",
+  "Code": "05.003",
+  "Name": {
+   "en": "Clients, invoices to issue",
+   "it": "Clienti c/fatture da emettere"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:05.004",
+  "IdSup": "chart:05",
+  "Active": true,
+  "TypeId": "chart_type:ATT",
+  "Code": "05.004",
+  "Name": {
+   "en": "Unpaid receivables",
+   "it": "Crediti insoluti"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:05.008",
+  "IdSup": "chart:05",
+  "Active": true,
+  "TypeId": "chart_type:ATT",
+  "Code": "05.008",
+  "Name": {
+   "en": "Receivables to settle",
+   "it": "Crediti da liquidare"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:05.009",
+  "IdSup": "chart:05",
+  "Active": true,
+  "TypeId": "chart_type:ATT",
+  "Code": "05.009",
+  "Name": {
+   "en": "Default interest receivable",
+   "it": "Crediti per interessi di mora"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:05.010",
+  "IdSup": "chart:05",
+  "Active": true,
+  "TypeId": "chart_type:ATT",
+  "Code": "05.010",
+  "Name": {
+   "en": "Bills receivable",
+   "it": "Cambiali attive"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:05.011",
+  "IdSup": "chart:05",
+  "Active": true,
+  "TypeId": "chart_type:ATT",
+  "Code": "05.011",
+  "Name": {
+   "en": "Bills discounted",
+   "it": "Cambiali allo sconto"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:05.012",
+  "IdSup": "chart:05",
+  "Active": true,
+  "TypeId": "chart_type:ATT",
+  "Code": "05.012",
+  "Name": {
+   "en": "Bills for collection",
+   "it": "Cambiali all'incasso"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:05.013",
+  "IdSup": "chart:05",
+  "Active": true,
+  "TypeId": "chart_type:ATT",
+  "Code": "05.013",
+  "Name": {
+   "en": "Bills unpaid and protested",
+   "it": "Effetti insoluti e protestati"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:05.100",
+  "IdSup": "chart:05",
+  "Active": true,
+  "TypeId": "chart_type:ATT",
+  "Code": "05.100",
+  "Name": {
+   "en": "Allowance for doubtful receivables",
+   "it": "Fondo svalutazione crediti"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:05.101",
+  "IdSup": "chart:05",
+  "Active": true,
+  "TypeId": "chart_type:ATT",
+  "Code": "05.101",
+  "Name": {
+   "en": "Receivables risk provision",
+   "it": "Fondo rischi su crediti"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:05.102",
+  "IdSup": "chart:05",
+  "Active": true,
+  "TypeId": "chart_type:ATT",
+  "Code": "05.102",
+  "Name": {
+   "en": "Default interest risk provision",
+   "it": "Fondo rischi su crediti per interessi di mora"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:06",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "chart_type:ATT",
+  "Code": "06",
+  "Name": {
+   "en": "Other receivables",
+   "it": "Altri crediti"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:06.001",
+  "IdSup": "chart:06",
+  "Active": true,
+  "TypeId": "chart_type:ATT",
+  "Code": "06.001",
+  "Name": {
+   "en": "Input VAT",
+   "it": "Iva a credito"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:06.011",
+  "IdSup": "chart:06",
+  "Active": true,
+  "TypeId": "chart_type:ATT",
+  "Code": "06.011",
+  "Name": {
+   "en": "Tax payments on account",
+   "it": "Erario c/acconto imposte"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:06.011.01",
+  "IdSup": "chart:06.011",
+  "Active": true,
+  "TypeId": "chart_type:ATT",
+  "Code": "06.011.01",
+  "Name": {
+   "en": "IRAP paid on account",
+   "it": "Erario c/acconto Irap"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:06.011.02",
+  "IdSup": "chart:06.011",
+  "Active": true,
+  "TypeId": "chart_type:ATT",
+  "Code": "06.011.02",
+  "Name": {
+   "en": "IRES paid on account",
+   "it": "Erario c/acconto Ires"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:06.011.03",
+  "IdSup": "chart:06.011",
+  "Active": true,
+  "TypeId": "chart_type:ATT",
+  "Code": "06.011.03",
+  "Name": {
+   "en": "VAT paid on account",
+   "it": "Erario c/acconto Iva"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:06.011.04",
+  "IdSup": "chart:06.011",
+  "Active": true,
+  "TypeId": "chart_type:ATT",
+  "Code": "06.011.04",
+  "Name": {
+   "en": "Severance substitute tax paid on account",
+   "it": "Erario c/acconto imposta sostitutiva Tfr"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:06.015",
+  "IdSup": "chart:06",
+  "Active": true,
+  "TypeId": "chart_type:ATT",
+  "Code": "06.015",
+  "Name": {
+   "en": "Tax receivables",
+   "it": "Crediti v/Erario per imposte"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:06.015.01",
+  "IdSup": "chart:06.015",
+  "Active": true,
+  "TypeId": "chart_type:ATT",
+  "Code": "06.015.01",
+  "Name": {
+   "en": "IRAP receivable",
+   "it": "Crediti v/Erario per Irap"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:06.015.02",
+  "IdSup": "chart:06.015",
+  "Active": true,
+  "TypeId": "chart_type:ATT",
+  "Code": "06.015.02",
+  "Name": {
+   "en": "IRES receivable",
+   "it": "Crediti v/Erario per Ires"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:06.015.03",
+  "IdSup": "chart:06.015",
+  "Active": true,
+  "TypeId": "chart_type:ATT",
+  "Code": "06.015.03",
+  "Name": {
+   "en": "VAT receivable",
+   "it": "Crediti v/Erario per Iva"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:06.025",
+  "IdSup": "chart:06",
+  "Active": true,
+  "TypeId": "chart_type:ATT",
+  "Code": "06.025",
+  "Name": {
+   "en": "Shareholders, withholding suffered",
+   "it": "Soci c/ritenute subite"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:06.030",
+  "IdSup": "chart:06",
+  "Active": true,
+  "TypeId": "chart_type:ATT",
+  "Code": "06.030",
+  "Name": {
+   "en": "Deferred tax assets",
+   "it": "Crediti v/Erario per imposte anticipate"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:06.051",
+  "IdSup": "chart:06",
+  "Active": true,
+  "TypeId": "chart_type:ATT",
+  "Code": "06.051",
+  "Name": {
+   "en": "Advances to employees",
+   "it": "Dipendenti c/anticipi"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:06.052",
+  "IdSup": "chart:06",
+  "Active": true,
+  "TypeId": "chart_type:ATT",
+  "Code": "06.052",
+  "Name": {
+   "en": "Deposits paid",
+   "it": "Crediti per cauzioni"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:06.053",
+  "IdSup": "chart:06",
+  "Active": true,
+  "TypeId": "chart_type:ATT",
+  "Code": "06.053",
+  "Name": {
+   "en": "Social security refunds due",
+   "it": "Istituti previdenziali c/rimborsi"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:06.054",
+  "IdSup": "chart:06",
+  "Active": true,
+  "TypeId": "chart_type:ATT",
+  "Code": "06.054",
+  "Name": {
+   "en": "Social security receivables",
+   "it": "Crediti v/Istituti previdenziali"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:06.055",
+  "IdSup": "chart:06",
+  "Active": true,
+  "TypeId": "chart_type:ATT",
+  "Code": "06.055",
+  "Name": {
+   "en": "Sundry receivables",
+   "it": "Crediti diversi"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:06.055.01",
+  "IdSup": "chart:06.055",
+  "Active": true,
+  "TypeId": "chart_type:ATT",
+  "Code": "06.055.01",
+  "Name": {
+   "en": "Suppliers, expenses advanced",
+   "it": "Fornitori c/spese anticipate"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:06.055.02",
+  "IdSup": "chart:06.055",
+  "Active": true,
+  "TypeId": "chart_type:ATT",
+  "Code": "06.055.02",
+  "Name": {
+   "en": "Suppliers, deposits",
+   "it": "Fornitori c/caparre"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:06.058",
+  "IdSup": "chart:06",
+  "Active": true,
+  "TypeId": "chart_type:ATT",
+  "Code": "06.058",
+  "Name": {
+   "en": "Factor receivables",
+   "it": "Crediti v/factor"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:06.059",
+  "IdSup": "chart:06",
+  "Active": true,
+  "TypeId": "chart_type:ATT",
+  "Code": "06.059",
+  "Name": {
+   "en": "Grants receivable",
+   "it": "Ente concedente c/contributi"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:07",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "chart_type:ATT",
+  "Code": "07",
+  "Name": {
+   "en": "Current financial assets",
+   "it": "Attività finanziarie che non costituiscono immobilizzazioni"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:07.008",
+  "IdSup": "chart:07",
+  "Active": true,
+  "TypeId": "chart_type:ATT",
+  "Code": "07.008",
+  "Name": {
+   "en": "Bonds",
+   "it": "Titoli obbligazionari"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:07.009",
+  "IdSup": "chart:07",
+  "Active": true,
+  "TypeId": "chart_type:ATT",
+  "Code": "07.009",
+  "Name": {
+   "en": "Government securities",
+   "it": "Titoli di Stato"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:07.010",
+  "IdSup": "chart:07",
+  "Active": true,
+  "TypeId": "chart_type:ATT",
+  "Code": "07.010",
+  "Name": {
+   "en": "Treasury bills",
+   "it": "Bot"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:07.015",
+  "IdSup": "chart:07",
+  "Active": true,
+  "TypeId": "chart_type:ATT",
+  "Code": "07.015",
+  "Name": {
+   "en": "Securities impairment",
+   "it": "Fondo svalutazione titoli"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:08",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "chart_type:ATT",
+  "Code": "08",
+  "Name": {
+   "en": "Cash and cash equivalents",
+   "it": "Disponibilità liquide"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:08.000",
+  "IdSup": "chart:08",
+  "Active": true,
+  "TypeId": "chart_type:ATT",
+  "Code": "08.000",
+  "Name": {
+   "en": "Bank X current account",
+   "it": "Banca X c/c"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:08.001",
+  "IdSup": "chart:08",
+  "Active": true,
+  "TypeId": "chart_type:ATT",
+  "Code": "08.001",
+  "Name": {
+   "en": "Bank Y current account",
+   "it": "Banca Y c/c"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:08.010",
+  "IdSup": "chart:08",
+  "Active": true,
+  "TypeId": "chart_type:ATT",
+  "Code": "08.010",
+  "Name": {
+   "en": "Bank current accounts",
+   "it": "Banche c/c attivi"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:08.100",
+  "IdSup": "chart:08",
+  "Active": true,
+  "TypeId": "chart_type:ATT",
+  "Code": "08.100",
+  "Name": {
+   "en": "Postal current account",
+   "it": "C/c postale"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:08.200",
+  "IdSup": "chart:08",
+  "Active": true,
+  "TypeId": "chart_type:ATT",
+  "Code": "08.200",
+  "Name": {
+   "en": "Cheques",
+   "it": "Assegni"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:08.202",
+  "IdSup": "chart:08",
+  "Active": true,
+  "TypeId": "chart_type:ATT",
+  "Code": "08.202",
+  "Name": {
+   "en": "Cash in hand",
+   "it": "Denaro in cassa"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:08.203",
+  "IdSup": "chart:08",
+  "Active": true,
+  "TypeId": "chart_type:ATT",
+  "Code": "08.203",
+  "Name": {
+   "en": "Revenue stamps",
+   "it": "Valori bollati"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:08.204",
+  "IdSup": "chart:08",
+  "Active": true,
+  "TypeId": "chart_type:ATT",
+  "Code": "08.204",
+  "Name": {
+   "en": "Other cash items",
+   "it": "Altri valori in cassa"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:08.205",
+  "IdSup": "chart:08",
+  "Active": true,
+  "TypeId": "chart_type:ATT",
+  "Code": "08.205",
+  "Name": {
+   "en": "Coupons",
+   "it": "Cedole"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:09",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "chart_type:ATT",
+  "Code": "09",
+  "Name": {
+   "en": "Accrued income and prepaid expenses",
+   "it": "Ratei e risconti attivi"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:09.000",
+  "IdSup": "chart:09",
+  "Active": true,
+  "TypeId": "chart_type:ATT",
+  "Code": "09.000",
+  "Name": {
+   "en": "Accrued income",
+   "it": "Ratei attivi"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:09.001",
+  "IdSup": "chart:09",
+  "Active": true,
+  "TypeId": "chart_type:ATT",
+  "Code": "09.001",
+  "Name": {
+   "en": "Prepaid expenses",
+   "it": "Risconti attivi"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:10",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "chart_type:PN",
+  "Code": "10",
+  "Name": {
+   "en": "Equity",
+   "it": "Patrimonio netto"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:10.000",
+  "IdSup": "chart:10",
+  "Active": true,
+  "TypeId": "chart_type:PN",
+  "Code": "10.000",
+  "Name": {
+   "en": "Share capital",
+   "it": "Capitale sociale"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:10.001",
+  "IdSup": "chart:10",
+  "Active": true,
+  "TypeId": "chart_type:PN",
+  "Code": "10.001",
+  "Name": {
+   "en": "Shareholders' capital contributions",
+   "it": "Soci c/versamenti in c/capitale"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:10.400",
+  "IdSup": "chart:10",
+  "Active": true,
+  "TypeId": "chart_type:PN",
+  "Code": "10.400",
+  "Name": {
+   "en": "Legal reserve",
+   "it": "Riserva legale"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:10.450",
+  "IdSup": "chart:10",
+  "Active": true,
+  "TypeId": "chart_type:PN",
+  "Code": "10.450",
+  "Name": {
+   "en": "Voluntary reserve",
+   "it": "Riserva volontaria"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:10.500",
+  "IdSup": "chart:10",
+  "Active": true,
+  "TypeId": "chart_type:PN",
+  "Code": "10.500",
+  "Name": {
+   "en": "Retained earnings",
+   "it": "Utili portati a nuovo"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:10.501",
+  "IdSup": "chart:10",
+  "Active": true,
+  "TypeId": "chart_type:PN",
+  "Code": "10.501",
+  "Name": {
+   "en": "Losses carried forward",
+   "it": "Perdite a nuovo"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:10.600",
+  "IdSup": "chart:10",
+  "Active": true,
+  "TypeId": "chart_type:PN",
+  "Code": "10.600",
+  "Name": {
+   "en": "Profit for the year",
+   "it": "Utile d'esercizio"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:10.602",
+  "IdSup": "chart:10",
+  "Active": true,
+  "TypeId": "chart_type:PN",
+  "Code": "10.602",
+  "Name": {
+   "en": "Loss for the year",
+   "it": "Perdita d'esercizio"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:20",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "chart_type:PAS",
+  "Code": "20",
+  "Name": {
+   "en": "Provisions for risks and charges",
+   "it": "Fondi per rischi ed oneri"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:20.001",
+  "IdSup": "chart:20",
+  "Active": true,
+  "TypeId": "chart_type:PAS",
+  "Code": "20.001",
+  "Name": {
+   "en": "Tax provision",
+   "it": "Fondo per imposte"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:20.001.01",
+  "IdSup": "chart:20.001",
+  "Active": true,
+  "TypeId": "chart_type:PAS",
+  "Code": "20.001.01",
+  "Name": {
+   "en": "Tax risk provision",
+   "it": "Fondo per rischi imposte"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:20.001.02",
+  "IdSup": "chart:20.001",
+  "Active": true,
+  "TypeId": "chart_type:PAS",
+  "Code": "20.001.02",
+  "Name": {
+   "en": "Deferred tax liabilities",
+   "it": "Fondo per imposte differite"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:20.003",
+  "IdSup": "chart:20",
+  "Active": true,
+  "TypeId": "chart_type:PAS",
+  "Code": "20.003",
+  "Name": {
+   "en": "Civil liability provision",
+   "it": "Fondo responsabilità civile"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:20.008",
+  "IdSup": "chart:20",
+  "Active": true,
+  "TypeId": "chart_type:PAS",
+  "Code": "20.008",
+  "Name": {
+   "en": "Cyclical maintenance provision",
+   "it": "Fondo per manutenzioni cicliche"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:20.009",
+  "IdSup": "chart:20",
+  "Active": true,
+  "TypeId": "chart_type:PAS",
+  "Code": "20.009",
+  "Name": {
+   "en": "Warranty provision",
+   "it": "Fondo per interventi di garanzia"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:20.010",
+  "IdSup": "chart:20",
+  "Active": true,
+  "TypeId": "chart_type:PAS",
+  "Code": "20.010",
+  "Name": {
+   "en": "Discount vouchers and prize competitions provision",
+   "it": "Fondo per buoni sconto e concorsi a premio"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:21",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "chart_type:PAS",
+  "Code": "21",
+  "Name": {
+   "en": "Employee severance (TFR)",
+   "it": "Trattamento di fine rapporto di lavoro subordinato"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:21.000",
+  "IdSup": "chart:21",
+  "Active": true,
+  "TypeId": "chart_type:PAS",
+  "Code": "21.000",
+  "Name": {
+   "en": "Severance payable",
+   "it": "Debiti per Tfr"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:22",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "chart_type:PAS",
+  "Code": "22",
+  "Name": {
+   "en": "Financial liabilities",
+   "it": "Debiti finanziari"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:22.050",
+  "IdSup": "chart:22",
+  "Active": true,
+  "TypeId": "chart_type:PAS",
+  "Code": "22.050",
+  "Name": {
+   "en": "Shareholder loans",
+   "it": "Soci c/finanziamenti"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:22.102",
+  "IdSup": "chart:22",
+  "Active": true,
+  "TypeId": "chart_type:PAS",
+  "Code": "22.102",
+  "Name": {
+   "en": "Bank loans",
+   "it": "Sovvenzioni bancarie"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:22.103",
+  "IdSup": "chart:22",
+  "Active": true,
+  "TypeId": "chart_type:PAS",
+  "Code": "22.103",
+  "Name": {
+   "en": "Bank overdrafts",
+   "it": "Banche c/c passivi"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:22.104",
+  "IdSup": "chart:22",
+  "Active": true,
+  "TypeId": "chart_type:PAS",
+  "Code": "22.104",
+  "Name": {
+   "en": "Bank advances",
+   "it": "Banche c/anticipazioni"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:22.105",
+  "IdSup": "chart:22",
+  "Active": true,
+  "TypeId": "chart_type:PAS",
+  "Code": "22.105",
+  "Name": {
+   "en": "Banks, Ri.Ba. for collection",
+   "it": "Banche c/Ri.Ba. all'incasso"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:22.106",
+  "IdSup": "chart:22",
+  "Active": true,
+  "TypeId": "chart_type:PAS",
+  "Code": "22.106",
+  "Name": {
+   "en": "Banks, bills for collection",
+   "it": "Banche c/cambiali all'incasso"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:22.108",
+  "IdSup": "chart:22",
+  "Active": true,
+  "TypeId": "chart_type:PAS",
+  "Code": "22.108",
+  "Name": {
+   "en": "Mortgages and loans",
+   "it": "Mutui passivi"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:22.108.01",
+  "IdSup": "chart:22.108",
+  "Active": true,
+  "TypeId": "chart_type:PAS",
+  "Code": "22.108.01",
+  "Name": {
+   "en": "Mortgage loans",
+   "it": "Mutui ipotecari"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:22.108.02",
+  "IdSup": "chart:22.108",
+  "Active": true,
+  "TypeId": "chart_type:PAS",
+  "Code": "22.108.02",
+  "Name": {
+   "en": "Unsecured loans",
+   "it": "Mutui non ipotecari"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:22.112",
+  "IdSup": "chart:22",
+  "Active": true,
+  "TypeId": "chart_type:PAS",
+  "Code": "22.112",
+  "Name": {
+   "en": "Bank Z current account",
+   "it": "Banca Z c/c"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:23",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "chart_type:PAS",
+  "Code": "23",
+  "Name": {
+   "en": "Trade payables",
+   "it": "Debiti commerciali"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:23.000",
+  "IdSup": "chart:23",
+  "Active": true,
+  "TypeId": "chart_type:PAS",
+  "Code": "23.000",
+  "Name": {
+   "en": "Trade payables, suppliers",
+   "it": "Debiti v/fornitori"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:23.001",
+  "IdSup": "chart:23",
+  "Active": true,
+  "TypeId": "chart_type:PAS",
+  "Code": "23.001",
+  "Name": {
+   "en": "Trade payables, foreign suppliers",
+   "it": "Debiti v/fornitori esteri"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:23.003",
+  "IdSup": "chart:23",
+  "Active": true,
+  "TypeId": "chart_type:PAS",
+  "Code": "23.003",
+  "Name": {
+   "en": "Suppliers, invoices to receive",
+   "it": "Fornitori c/fatture da ricevere"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:23.004",
+  "IdSup": "chart:23",
+  "Active": true,
+  "TypeId": "chart_type:PAS",
+  "Code": "23.004",
+  "Name": {
+   "en": "Clients, advances received",
+   "it": "Clienti c/anticipi"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:23.005",
+  "IdSup": "chart:23",
+  "Active": true,
+  "TypeId": "chart_type:PAS",
+  "Code": "23.005",
+  "Name": {
+   "en": "Clients, deposits received",
+   "it": "Clienti c/caparre"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:23.006",
+  "IdSup": "chart:23",
+  "Active": true,
+  "TypeId": "chart_type:PAS",
+  "Code": "23.006",
+  "Name": {
+   "en": "Bills payable",
+   "it": "Cambiali passive"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:23.007",
+  "IdSup": "chart:23",
+  "Active": true,
+  "TypeId": "chart_type:PAS",
+  "Code": "23.007",
+  "Name": {
+   "en": "Payables to settle",
+   "it": "Debiti da liquidare"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:24",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "chart_type:PAS",
+  "Code": "24",
+  "Name": {
+   "en": "Other payables",
+   "it": "Altri debiti"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:24.000",
+  "IdSup": "chart:24",
+  "Active": true,
+  "TypeId": "chart_type:PAS",
+  "Code": "24.000",
+  "Name": {
+   "en": "Output VAT",
+   "it": "Iva a debito"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:24.001",
+  "IdSup": "chart:24",
+  "Active": true,
+  "TypeId": "chart_type:PAS",
+  "Code": "24.001",
+  "Name": {
+   "en": "Payables to the tax authority",
+   "it": "Debiti v/Erario"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:24.002",
+  "IdSup": "chart:24",
+  "Active": true,
+  "TypeId": "chart_type:PAS",
+  "Code": "24.002",
+  "Name": {
+   "en": "Withholding tax to pay",
+   "it": "Erario c/ritenute da versare"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:24.003",
+  "IdSup": "chart:24",
+  "Active": true,
+  "TypeId": "chart_type:PAS",
+  "Code": "24.003",
+  "Name": {
+   "en": "Taxes payable",
+   "it": "Debiti v/Erario per imposte"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:24.003.01",
+  "IdSup": "chart:24.003",
+  "Active": true,
+  "TypeId": "chart_type:PAS",
+  "Code": "24.003.01",
+  "Name": {
+   "en": "IRAP payable",
+   "it": "Debiti v/Erario per Irap"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:24.003.02",
+  "IdSup": "chart:24.003",
+  "Active": true,
+  "TypeId": "chart_type:PAS",
+  "Code": "24.003.02",
+  "Name": {
+   "en": "IRES payable",
+   "it": "Debiti v/Erario per Ires"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:24.003.03",
+  "IdSup": "chart:24.003",
+  "Active": true,
+  "TypeId": "chart_type:PAS",
+  "Code": "24.003.03",
+  "Name": {
+   "en": "VAT payable",
+   "it": "Debiti v/Erario per Iva"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:24.003.04",
+  "IdSup": "chart:24.003",
+  "Active": true,
+  "TypeId": "chart_type:PAS",
+  "Code": "24.003.04",
+  "Name": {
+   "en": "Severance substitute tax payable",
+   "it": "Debiti v/Erario per imposta sostitutiva Tfr"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:24.004",
+  "IdSup": "chart:24",
+  "Active": true,
+  "TypeId": "chart_type:PAS",
+  "Code": "24.004",
+  "Name": {
+   "en": "Withholdings payable",
+   "it": "Debiti v/Erario per ritenute"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:24.005",
+  "IdSup": "chart:24",
+  "Active": true,
+  "TypeId": "chart_type:PAS",
+  "Code": "24.005",
+  "Name": {
+   "en": "Social security payable",
+   "it": "Debiti v/Istituti previdenziali"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:24.006",
+  "IdSup": "chart:24",
+  "Active": true,
+  "TypeId": "chart_type:PAS",
+  "Code": "24.006",
+  "Name": {
+   "en": "Wages payable",
+   "it": "Dipendenti c/retribuzioni"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:24.007",
+  "IdSup": "chart:24",
+  "Active": true,
+  "TypeId": "chart_type:PAS",
+  "Code": "24.007",
+  "Name": {
+   "en": "Severance due to employees",
+   "it": "Dipendenti c/liquidazioni"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:24.008",
+  "IdSup": "chart:24",
+  "Active": true,
+  "TypeId": "chart_type:PAS",
+  "Code": "24.008",
+  "Name": {
+   "en": "Deposits received",
+   "it": "Debiti per cauzioni"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:24.009",
+  "IdSup": "chart:24",
+  "Active": true,
+  "TypeId": "chart_type:PAS",
+  "Code": "24.009",
+  "Name": {
+   "en": "Factor payables",
+   "it": "Debiti v/factor"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:24.010",
+  "IdSup": "chart:24",
+  "Active": true,
+  "TypeId": "chart_type:PAS",
+  "Code": "24.010",
+  "Name": {
+   "en": "Dividends payable",
+   "it": "Soci c/utili"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:24.012",
+  "IdSup": "chart:24",
+  "Active": true,
+  "TypeId": "chart_type:PAS",
+  "Code": "24.012",
+  "Name": {
+   "en": "Shareholders, refunds due",
+   "it": "Soci c/rimborsi"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:24.013",
+  "IdSup": "chart:24",
+  "Active": true,
+  "TypeId": "chart_type:PAS",
+  "Code": "24.013",
+  "Name": {
+   "en": "Shareholders, liquidation due",
+   "it": "Soci c/liquidazione"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:24.040",
+  "IdSup": "chart:24",
+  "Active": true,
+  "TypeId": "chart_type:PAS",
+  "Code": "24.040",
+  "Name": {
+   "en": "Sundry payables",
+   "it": "Debiti diversi"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:25",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "chart_type:PAS",
+  "Code": "25",
+  "Name": {
+   "en": "Accrued expenses and deferred income",
+   "it": "Ratei e risconti passivi"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:25.000",
+  "IdSup": "chart:25",
+  "Active": true,
+  "TypeId": "chart_type:PAS",
+  "Code": "25.000",
+  "Name": {
+   "en": "Accrued expenses",
+   "it": "Ratei passivi"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:25.001",
+  "IdSup": "chart:25",
+  "Active": true,
+  "TypeId": "chart_type:PAS",
+  "Code": "25.001",
+  "Name": {
+   "en": "Deferred income",
+   "it": "Risconti passivi"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:30",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "chart_type:RIC",
+  "Code": "30",
+  "Name": {
+   "en": "Revenue from sales and services",
+   "it": "Ricavi delle vendite e delle prestazioni"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:30.009",
+  "IdSup": "chart:30",
+  "Active": true,
+  "TypeId": "chart_type:RIC",
+  "Code": "30.009",
+  "Name": {
+   "en": "Retail sales",
+   "it": "Vendite al minuto"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:30.010",
+  "IdSup": "chart:30",
+  "Active": true,
+  "TypeId": "chart_type:RIC",
+  "Code": "30.010",
+  "Name": {
+   "en": "Sales of goods",
+   "it": "Vendite di merci"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:30.011",
+  "IdSup": "chart:30",
+  "Active": true,
+  "TypeId": "chart_type:RIC",
+  "Code": "30.011",
+  "Name": {
+   "en": "Export sales",
+   "it": "Vendite estero"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:30.012",
+  "IdSup": "chart:30",
+  "Active": true,
+  "TypeId": "chart_type:RIC",
+  "Code": "30.012",
+  "Name": {
+   "en": "Packaging costs recharged",
+   "it": "Rimborsi spese di imballo"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:30.013",
+  "IdSup": "chart:30",
+  "Active": true,
+  "TypeId": "chart_type:RIC",
+  "Code": "30.013",
+  "Name": {
+   "en": "Selling costs recharged",
+   "it": "Rimborsi spese di vendita"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:30.014",
+  "IdSup": "chart:30",
+  "Active": true,
+  "TypeId": "chart_type:RIC",
+  "Code": "30.014",
+  "Name": {
+   "en": "Transport costs recharged",
+   "it": "Rimborsi spese di trasporto"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:30.015",
+  "IdSup": "chart:30",
+  "Active": true,
+  "TypeId": "chart_type:RIC",
+  "Code": "30.015",
+  "Name": {
+   "en": "Sales returns",
+   "it": "Resi su vendite"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:30.016",
+  "IdSup": "chart:30",
+  "Active": true,
+  "TypeId": "chart_type:RIC",
+  "Code": "30.016",
+  "Name": {
+   "en": "Discounts allowed",
+   "it": "Ribassi e abbuoni passivi"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:30.017",
+  "IdSup": "chart:30",
+  "Active": true,
+  "TypeId": "chart_type:RIC",
+  "Code": "30.017",
+  "Name": {
+   "en": "Rebates to clients",
+   "it": "Premi a clienti"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:31",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "chart_type:RIC",
+  "Code": "31",
+  "Name": {
+   "en": "Change in work in progress and finished products",
+   "it": "Variazioni delle rimanenze di prodotti in corso di lavorazione, semilavorati, finiti e dei lavori in corso su ordinazione"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:31.000",
+  "IdSup": "chart:31",
+  "Active": true,
+  "TypeId": "chart_type:RIC",
+  "Code": "31.000",
+  "Name": {
+   "en": "Change in work in progress",
+   "it": "Variazioni rimanenze prodotti in lavorazione"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:31.001",
+  "IdSup": "chart:31",
+  "Active": true,
+  "TypeId": "chart_type:RIC",
+  "Code": "31.001",
+  "Name": {
+   "en": "Change in semi-finished products",
+   "it": "Variazioni rimanenze semilavorati"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:31.002",
+  "IdSup": "chart:31",
+  "Active": true,
+  "TypeId": "chart_type:RIC",
+  "Code": "31.002",
+  "Name": {
+   "en": "Change in finished products",
+   "it": "Variazioni rimanenze prodotti finiti"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:31.003",
+  "IdSup": "chart:31",
+  "Active": true,
+  "TypeId": "chart_type:RIC",
+  "Code": "31.003",
+  "Name": {
+   "en": "Change in contract work in progress",
+   "it": "Variazioni lavori in corso su ordinazione"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:32",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "chart_type:RIC",
+  "Code": "32",
+  "Name": {
+   "en": "Own work capitalised",
+   "it": "Incrementi di immobilizzazioni per lavori interni"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:32.000",
+  "IdSup": "chart:32",
+  "Active": true,
+  "TypeId": "chart_type:RIC",
+  "Code": "32.000",
+  "Name": {
+   "en": "Own construction",
+   "it": "Costruzioni interne"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:34",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "chart_type:RIC",
+  "Code": "34",
+  "Name": {
+   "en": "Other revenue and income",
+   "it": "Altri ricavi e proventi"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:34.001",
+  "IdSup": "chart:34",
+  "Active": true,
+  "TypeId": "chart_type:RIC",
+  "Code": "34.001",
+  "Name": {
+   "en": "Rental income",
+   "it": "Fitti attivi"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:34.002",
+  "IdSup": "chart:34",
+  "Active": true,
+  "TypeId": "chart_type:RIC",
+  "Code": "34.002",
+  "Name": {
+   "en": "Sundry costs recharged",
+   "it": "Rimborsi spese varie"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:34.005",
+  "IdSup": "chart:34",
+  "Active": true,
+  "TypeId": "chart_type:RIC",
+  "Code": "34.005",
+  "Name": {
+   "en": "Rounding gains",
+   "it": "Arrotondamenti attivi"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:34.006",
+  "IdSup": "chart:34",
+  "Active": true,
+  "TypeId": "chart_type:RIC",
+  "Code": "34.006",
+  "Name": {
+   "en": "Ordinary capital gains",
+   "it": "Plusvalenze ordinarie"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:34.007",
+  "IdSup": "chart:34",
+  "Active": true,
+  "TypeId": "chart_type:RIC",
+  "Code": "34.007",
+  "Name": {
+   "en": "Ordinary contingent gains",
+   "it": "Sopravvenienze attive ordinarie"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:34.010",
+  "IdSup": "chart:34",
+  "Active": true,
+  "TypeId": "chart_type:RIC",
+  "Code": "34.010",
+  "Name": {
+   "en": "Sundry income",
+   "it": "Proventi vari"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:34.100",
+  "IdSup": "chart:34",
+  "Active": true,
+  "TypeId": "chart_type:RIC",
+  "Code": "34.100",
+  "Name": {
+   "en": "Operating grants",
+   "it": "Contributi in c/esercizio"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:35",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "chart_type:RIC",
+  "Code": "35",
+  "Name": {
+   "en": "Services rendered",
+   "it": "Prestazioni di servizi"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:35.000",
+  "IdSup": "chart:35",
+  "Active": true,
+  "TypeId": "chart_type:RIC",
+  "Code": "35.000",
+  "Name": {
+   "en": "Revenue from services",
+   "it": "Ricavi per prestazioni di servizi"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:40",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "chart_type:COS",
+  "Code": "40",
+  "Name": {
+   "en": "Purchases of materials and goods",
+   "it": "Costi per acquisti di materie prime, sussidiarie, di consumo e di merci"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:40.009",
+  "IdSup": "chart:40",
+  "Active": true,
+  "TypeId": "chart_type:COS",
+  "Code": "40.009",
+  "Name": {
+   "en": "Goods contributed",
+   "it": "Apporti di merci"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:40.010",
+  "IdSup": "chart:40",
+  "Active": true,
+  "TypeId": "chart_type:COS",
+  "Code": "40.010",
+  "Name": {
+   "en": "Purchases of goods",
+   "it": "Acquisti merci"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:40.011",
+  "IdSup": "chart:40",
+  "Active": true,
+  "TypeId": "chart_type:COS",
+  "Code": "40.011",
+  "Name": {
+   "en": "Purchases from abroad",
+   "it": "Acquisti estero"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:40.012",
+  "IdSup": "chart:40",
+  "Active": true,
+  "TypeId": "chart_type:COS",
+  "Code": "40.012",
+  "Name": {
+   "en": "Purchases of packaging",
+   "it": "Acquisti imballaggi"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:40.013",
+  "IdSup": "chart:40",
+  "Active": true,
+  "TypeId": "chart_type:COS",
+  "Code": "40.013",
+  "Name": {
+   "en": "Purchases of consumables",
+   "it": "Acquisti materiali di consumo"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:40.014",
+  "IdSup": "chart:40",
+  "Active": true,
+  "TypeId": "chart_type:COS",
+  "Code": "40.014",
+  "Name": {
+   "en": "Packaging costs",
+   "it": "Spese di imballo"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:40.015",
+  "IdSup": "chart:40",
+  "Active": true,
+  "TypeId": "chart_type:COS",
+  "Code": "40.015",
+  "Name": {
+   "en": "Purchase returns",
+   "it": "Resi su acquisti"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:40.016",
+  "IdSup": "chart:40",
+  "Active": true,
+  "TypeId": "chart_type:COS",
+  "Code": "40.016",
+  "Name": {
+   "en": "Discounts received",
+   "it": "Ribassi e abbuoni attivi"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:40.017",
+  "IdSup": "chart:40",
+  "Active": true,
+  "TypeId": "chart_type:COS",
+  "Code": "40.017",
+  "Name": {
+   "en": "Rebates from suppliers",
+   "it": "Premi da fornitori"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:41",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "chart_type:COS",
+  "Code": "41",
+  "Name": {
+   "en": "Services",
+   "it": "Costi per servizi"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:41.000",
+  "IdSup": "chart:41",
+  "Active": true,
+  "TypeId": "chart_type:COS",
+  "Code": "41.000",
+  "Name": {
+   "en": "Services received",
+   "it": "Costi prestazioni servizi"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:41.001",
+  "IdSup": "chart:41",
+  "Active": true,
+  "TypeId": "chart_type:COS",
+  "Code": "41.001",
+  "Name": {
+   "en": "Professional fees",
+   "it": "Spese per consulenze professionali"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:41.002",
+  "IdSup": "chart:41",
+  "Active": true,
+  "TypeId": "chart_type:COS",
+  "Code": "41.002",
+  "Name": {
+   "en": "Commissions paid",
+   "it": "Provvigioni passive"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:41.003",
+  "IdSup": "chart:41",
+  "Active": true,
+  "TypeId": "chart_type:COS",
+  "Code": "41.003",
+  "Name": {
+   "en": "Collaborators",
+   "it": "Spese per collaborazioni"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:41.006",
+  "IdSup": "chart:41",
+  "Active": true,
+  "TypeId": "chart_type:COS",
+  "Code": "41.006",
+  "Name": {
+   "en": "Transport",
+   "it": "Costi di trasporto"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:41.007",
+  "IdSup": "chart:41",
+  "Active": true,
+  "TypeId": "chart_type:COS",
+  "Code": "41.007",
+  "Name": {
+   "en": "Electricity",
+   "it": "Costi per energia elettrica"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:41.008",
+  "IdSup": "chart:41",
+  "Active": true,
+  "TypeId": "chart_type:COS",
+  "Code": "41.008",
+  "Name": {
+   "en": "Gas and water",
+   "it": "Costi per gas e acqua"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:41.009",
+  "IdSup": "chart:41",
+  "Active": true,
+  "TypeId": "chart_type:COS",
+  "Code": "41.009",
+  "Name": {
+   "en": "Maintenance and repairs",
+   "it": "Manutenzioni e riparazioni"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:41.010",
+  "IdSup": "chart:41",
+  "Active": true,
+  "TypeId": "chart_type:COS",
+  "Code": "41.010",
+  "Name": {
+   "en": "Advertising",
+   "it": "Costi di pubblicità"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:41.011",
+  "IdSup": "chart:41",
+  "Active": true,
+  "TypeId": "chart_type:COS",
+  "Code": "41.011",
+  "Name": {
+   "en": "Insurance",
+   "it": "Costi di assicurazione"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:41.012",
+  "IdSup": "chart:41",
+  "Active": true,
+  "TypeId": "chart_type:COS",
+  "Code": "41.012",
+  "Name": {
+   "en": "Telephone",
+   "it": "Spese telefoniche"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:41.013",
+  "IdSup": "chart:41",
+  "Active": true,
+  "TypeId": "chart_type:COS",
+  "Code": "41.013",
+  "Name": {
+   "en": "Postage",
+   "it": "Spese postali"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:41.016",
+  "IdSup": "chart:41",
+  "Active": true,
+  "TypeId": "chart_type:COS",
+  "Code": "41.016",
+  "Name": {
+   "en": "Collection costs",
+   "it": "Spese di incasso"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:41.017",
+  "IdSup": "chart:41",
+  "Active": true,
+  "TypeId": "chart_type:COS",
+  "Code": "41.017",
+  "Name": {
+   "en": "Bank charges",
+   "it": "Commissioni bancarie"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:41.019",
+  "IdSup": "chart:41",
+  "Active": true,
+  "TypeId": "chart_type:COS",
+  "Code": "41.019",
+  "Name": {
+   "en": "Incidental purchase costs",
+   "it": "Spese accessorie di acquisto"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:41.020",
+  "IdSup": "chart:41",
+  "Active": true,
+  "TypeId": "chart_type:COS",
+  "Code": "41.020",
+  "Name": {
+   "en": "CONAI environmental contribution",
+   "it": "Contributo ambientale Conai"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:41.031",
+  "IdSup": "chart:41",
+  "Active": true,
+  "TypeId": "chart_type:COS",
+  "Code": "41.031",
+  "Name": {
+   "en": "Recruitment",
+   "it": "Costi di ricerca e selezione del personale"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:41.032",
+  "IdSup": "chart:41",
+  "Active": true,
+  "TypeId": "chart_type:COS",
+  "Code": "41.032",
+  "Name": {
+   "en": "Staff training",
+   "it": "Costi di addestramento del personale"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:41.033",
+  "IdSup": "chart:41",
+  "Active": true,
+  "TypeId": "chart_type:COS",
+  "Code": "41.033",
+  "Name": {
+   "en": "Professional development",
+   "it": "Costi per l'aggiornamento professionale"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:41.034",
+  "IdSup": "chart:41",
+  "Active": true,
+  "TypeId": "chart_type:COS",
+  "Code": "41.034",
+  "Name": {
+   "en": "Staff education",
+   "it": "Costi per la formazione del personale"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:42",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "chart_type:COS",
+  "Code": "42",
+  "Name": {
+   "en": "Use of third-party assets",
+   "it": "Costi per godimento di beni di terzi"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:42.001",
+  "IdSup": "chart:42",
+  "Active": true,
+  "TypeId": "chart_type:COS",
+  "Code": "42.001",
+  "Name": {
+   "en": "Rent",
+   "it": "Fitti passivi"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:42.002",
+  "IdSup": "chart:42",
+  "Active": true,
+  "TypeId": "chart_type:COS",
+  "Code": "42.002",
+  "Name": {
+   "en": "Lease payments",
+   "it": "Canoni di leasing"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:43",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "chart_type:COS",
+  "Code": "43",
+  "Name": {
+   "en": "Staff costs",
+   "it": "Costi per il personale"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:43.001",
+  "IdSup": "chart:43",
+  "Active": true,
+  "TypeId": "chart_type:COS",
+  "Code": "43.001",
+  "Name": {
+   "en": "Wages and salaries",
+   "it": "Retribuzioni"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:43.002",
+  "IdSup": "chart:43",
+  "Active": true,
+  "TypeId": "chart_type:COS",
+  "Code": "43.002",
+  "Name": {
+   "en": "Social security contributions",
+   "it": "Oneri sociali"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:43.003",
+  "IdSup": "chart:43",
+  "Active": true,
+  "TypeId": "chart_type:COS",
+  "Code": "43.003",
+  "Name": {
+   "en": "Severance (TFR)",
+   "it": "Trattamento di fine rapporto"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:43.008",
+  "IdSup": "chart:43",
+  "Active": true,
+  "TypeId": "chart_type:COS",
+  "Code": "43.008",
+  "Name": {
+   "en": "Other staff costs",
+   "it": "Costi diversi per il personale"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:44",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "chart_type:COS",
+  "Code": "44",
+  "Name": {
+   "en": "Amortisation of intangible assets",
+   "it": "Ammortamenti immobilizzazioni immateriali"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:44.000",
+  "IdSup": "chart:44",
+  "Active": true,
+  "TypeId": "chart_type:COS",
+  "Code": "44.000",
+  "Name": {
+   "en": "Start-up costs",
+   "it": "Ammortamento costi d'impianto"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:44.001",
+  "IdSup": "chart:44",
+  "Active": true,
+  "TypeId": "chart_type:COS",
+  "Code": "44.001",
+  "Name": {
+   "en": "Expansion costs",
+   "it": "Ammortamento costi di ampliamento"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:44.002",
+  "IdSup": "chart:44",
+  "Active": true,
+  "TypeId": "chart_type:COS",
+  "Code": "44.002",
+  "Name": {
+   "en": "Advertising costs",
+   "it": "Ammortamento costi di pubblicità"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:44.005",
+  "IdSup": "chart:44",
+  "Active": true,
+  "TypeId": "chart_type:COS",
+  "Code": "44.005",
+  "Name": {
+   "en": "Software",
+   "it": "Ammortamento software"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:44.006",
+  "IdSup": "chart:44",
+  "Active": true,
+  "TypeId": "chart_type:COS",
+  "Code": "44.006",
+  "Name": {
+   "en": "Trademarks",
+   "it": "Ammortamento marchi"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:44.009",
+  "IdSup": "chart:44",
+  "Active": true,
+  "TypeId": "chart_type:COS",
+  "Code": "44.009",
+  "Name": {
+   "en": "Goodwill",
+   "it": "Ammortamento avviamento"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:44.010",
+  "IdSup": "chart:44",
+  "Active": true,
+  "TypeId": "chart_type:COS",
+  "Code": "44.010",
+  "Name": {
+   "en": "Multi-year charges",
+   "it": "Ammortamento oneri pluriennali da ammortizzare"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:45",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "chart_type:COS",
+  "Code": "45",
+  "Name": {
+   "en": "Depreciation of tangible assets",
+   "it": "Ammortamenti immobilizzazioni materiali"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:45.002",
+  "IdSup": "chart:45",
+  "Active": true,
+  "TypeId": "chart_type:COS",
+  "Code": "45.002",
+  "Name": {
+   "en": "Buildings",
+   "it": "Ammortamento fabbricati"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:45.005",
+  "IdSup": "chart:45",
+  "Active": true,
+  "TypeId": "chart_type:COS",
+  "Code": "45.005",
+  "Name": {
+   "en": "Commercial equipment",
+   "it": "Ammortamento attrezzature commerciali"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:45.006",
+  "IdSup": "chart:45",
+  "Active": true,
+  "TypeId": "chart_type:COS",
+  "Code": "45.006",
+  "Name": {
+   "en": "Office machines",
+   "it": "Ammortamento macchine d'ufficio"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:45.007",
+  "IdSup": "chart:45",
+  "Active": true,
+  "TypeId": "chart_type:COS",
+  "Code": "45.007",
+  "Name": {
+   "en": "Computers",
+   "it": "Ammortamento elaboratori elettronici"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:45.008",
+  "IdSup": "chart:45",
+  "Active": true,
+  "TypeId": "chart_type:COS",
+  "Code": "45.008",
+  "Name": {
+   "en": "Furniture and fittings",
+   "it": "Ammortamento arredamento"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:45.009",
+  "IdSup": "chart:45",
+  "Active": true,
+  "TypeId": "chart_type:COS",
+  "Code": "45.009",
+  "Name": {
+   "en": "Vehicles",
+   "it": "Ammortamento automezzi"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:45.010",
+  "IdSup": "chart:45",
+  "Active": true,
+  "TypeId": "chart_type:COS",
+  "Code": "45.010",
+  "Name": {
+   "en": "Durable packaging",
+   "it": "Ammortamento imballaggi durevoli"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:46",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "chart_type:COS",
+  "Code": "46",
+  "Name": {
+   "en": "Write-downs",
+   "it": "Svalutazioni"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:46.000",
+  "IdSup": "chart:46",
+  "Active": true,
+  "TypeId": "chart_type:COS",
+  "Code": "46.000",
+  "Name": {
+   "en": "Intangible assets",
+   "it": "Svalutazione immobilizzazioni immateriali"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:46.100",
+  "IdSup": "chart:46",
+  "Active": true,
+  "TypeId": "chart_type:COS",
+  "Code": "46.100",
+  "Name": {
+   "en": "Tangible assets",
+   "it": "Svalutazione immobilizzazioni materiali"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:46.400",
+  "IdSup": "chart:46",
+  "Active": true,
+  "TypeId": "chart_type:COS",
+  "Code": "46.400",
+  "Name": {
+   "en": "Receivables",
+   "it": "Svalutazioni crediti"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:46.405",
+  "IdSup": "chart:46",
+  "Active": true,
+  "TypeId": "chart_type:COS",
+  "Code": "46.405",
+  "Name": {
+   "en": "Default interest receivable",
+   "it": "Svalutazione crediti per interessi di mora"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:47",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "chart_type:COS",
+  "Code": "47",
+  "Name": {
+   "en": "Change in inventories of materials and goods",
+   "it": "Variazioni delle rimanenze di materie prime, sussidiarie, di consumo e merci"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:47.002",
+  "IdSup": "chart:47",
+  "Active": true,
+  "TypeId": "chart_type:COS",
+  "Code": "47.002",
+  "Name": {
+   "en": "Consumables",
+   "it": "Variazioni rimanenze materiali di consumo"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:47.003",
+  "IdSup": "chart:47",
+  "Active": true,
+  "TypeId": "chart_type:COS",
+  "Code": "47.003",
+  "Name": {
+   "en": "Raw materials",
+   "it": "Variazioni rimanenze materie prime"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:47.004",
+  "IdSup": "chart:47",
+  "Active": true,
+  "TypeId": "chart_type:COS",
+  "Code": "47.004",
+  "Name": {
+   "en": "Auxiliary materials",
+   "it": "Variazioni rimanenze materie sussidiarie"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:47.010",
+  "IdSup": "chart:47",
+  "Active": true,
+  "TypeId": "chart_type:COS",
+  "Code": "47.010",
+  "Name": {
+   "en": "Goods",
+   "it": "Variazioni rimanenze merci"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:47.011",
+  "IdSup": "chart:47",
+  "Active": true,
+  "TypeId": "chart_type:COS",
+  "Code": "47.011",
+  "Name": {
+   "en": "Packaging",
+   "it": "Variazioni rimanenze imballaggi"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:48",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "chart_type:COS",
+  "Code": "48",
+  "Name": {
+   "en": "Provisions for risks",
+   "it": "Accantonamenti per rischi"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:48.001",
+  "IdSup": "chart:48",
+  "Active": true,
+  "TypeId": "chart_type:COS",
+  "Code": "48.001",
+  "Name": {
+   "en": "Tax risks",
+   "it": "Accantonamento per rischi imposte"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:48.002",
+  "IdSup": "chart:48",
+  "Active": true,
+  "TypeId": "chart_type:COS",
+  "Code": "48.002",
+  "Name": {
+   "en": "Civil liability",
+   "it": "Accantonamento per responsabilità civile"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:48.100",
+  "IdSup": "chart:48",
+  "Active": true,
+  "TypeId": "chart_type:COS",
+  "Code": "48.100",
+  "Name": {
+   "en": "Sundry risks",
+   "it": "Accantonamento rischi vari"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:49",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "chart_type:COS",
+  "Code": "49",
+  "Name": {
+   "en": "Other provisions",
+   "it": "Altri accantonamenti"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:49.001",
+  "IdSup": "chart:49",
+  "Active": true,
+  "TypeId": "chart_type:COS",
+  "Code": "49.001",
+  "Name": {
+   "en": "Cyclical maintenance",
+   "it": "Accantonamento per manutenzioni cicliche"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:49.002",
+  "IdSup": "chart:49",
+  "Active": true,
+  "TypeId": "chart_type:COS",
+  "Code": "49.002",
+  "Name": {
+   "en": "Warranty",
+   "it": "Accantonamento per interventi di garanzia"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:49.003",
+  "IdSup": "chart:49",
+  "Active": true,
+  "TypeId": "chart_type:COS",
+  "Code": "49.003",
+  "Name": {
+   "en": "Discount vouchers and prize competitions",
+   "it": "Accantonamento per buoni sconto e concorsi a premio"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:50",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "chart_type:COS",
+  "Code": "50",
+  "Name": {
+   "en": "Other operating charges",
+   "it": "Oneri diversi di gestione"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:50.001",
+  "IdSup": "chart:50",
+  "Active": true,
+  "TypeId": "chart_type:COS",
+  "Code": "50.001",
+  "Name": {
+   "en": "Taxes and duties",
+   "it": "Oneri tributari"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:50.002",
+  "IdSup": "chart:50",
+  "Active": true,
+  "TypeId": "chart_type:COS",
+  "Code": "50.002",
+  "Name": {
+   "en": "Bad debts",
+   "it": "Perdite su crediti"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:50.004",
+  "IdSup": "chart:50",
+  "Active": true,
+  "TypeId": "chart_type:COS",
+  "Code": "50.004",
+  "Name": {
+   "en": "Non-deductible VAT",
+   "it": "Iva indetraibile"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:50.006",
+  "IdSup": "chart:50",
+  "Active": true,
+  "TypeId": "chart_type:COS",
+  "Code": "50.006",
+  "Name": {
+   "en": "Rounding losses",
+   "it": "Arrotondamenti passivi"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:50.007",
+  "IdSup": "chart:50",
+  "Active": true,
+  "TypeId": "chart_type:COS",
+  "Code": "50.007",
+  "Name": {
+   "en": "Gifts to clients",
+   "it": "Omaggi a clienti"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:50.008",
+  "IdSup": "chart:50",
+  "Active": true,
+  "TypeId": "chart_type:COS",
+  "Code": "50.008",
+  "Name": {
+   "en": "Stamp duty",
+   "it": "Imposta di bollo"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:50.009",
+  "IdSup": "chart:50",
+  "Active": true,
+  "TypeId": "chart_type:COS",
+  "Code": "50.009",
+  "Name": {
+   "en": "Ordinary capital losses",
+   "it": "Minusvalenze ordinarie"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:50.010",
+  "IdSup": "chart:50",
+  "Active": true,
+  "TypeId": "chart_type:COS",
+  "Code": "50.010",
+  "Name": {
+   "en": "Ordinary contingent losses",
+   "it": "Sopravvenienze passive ordinarie"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:50.011",
+  "IdSup": "chart:50",
+  "Active": true,
+  "TypeId": "chart_type:COS",
+  "Code": "50.011",
+  "Name": {
+   "en": "Sundry expenses",
+   "it": "Spese varie"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:60",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "chart_type:FIN",
+  "Code": "60",
+  "Name": {
+   "en": "Financial income",
+   "it": "Proventi finanziari"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:60.010",
+  "IdSup": "chart:60",
+  "Active": true,
+  "TypeId": "chart_type:FIN",
+  "Code": "60.010",
+  "Name": {
+   "en": "Interest on securities",
+   "it": "Interessi su titoli"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:60.011",
+  "IdSup": "chart:60",
+  "Active": true,
+  "TypeId": "chart_type:FIN",
+  "Code": "60.011",
+  "Name": {
+   "en": "Gains on securities",
+   "it": "Utili su titoli"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:60.020",
+  "IdSup": "chart:60",
+  "Active": true,
+  "TypeId": "chart_type:FIN",
+  "Code": "60.020",
+  "Name": {
+   "en": "Bank interest income",
+   "it": "Interessi attivi bancari"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:60.021",
+  "IdSup": "chart:60",
+  "Active": true,
+  "TypeId": "chart_type:FIN",
+  "Code": "60.021",
+  "Name": {
+   "en": "Postal interest income",
+   "it": "Interessi attivi postali"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:60.022",
+  "IdSup": "chart:60",
+  "Active": true,
+  "TypeId": "chart_type:FIN",
+  "Code": "60.022",
+  "Name": {
+   "en": "Interest on loans granted",
+   "it": "Interessi attivi su mutui"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:60.023",
+  "IdSup": "chart:60",
+  "Active": true,
+  "TypeId": "chart_type:FIN",
+  "Code": "60.023",
+  "Name": {
+   "en": "Interest from clients",
+   "it": "Interessi attivi da clienti"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:60.024",
+  "IdSup": "chart:60",
+  "Active": true,
+  "TypeId": "chart_type:FIN",
+  "Code": "60.024",
+  "Name": {
+   "en": "Default interest income",
+   "it": "Interessi attivi di mora"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:60.025",
+  "IdSup": "chart:60",
+  "Active": true,
+  "TypeId": "chart_type:FIN",
+  "Code": "60.025",
+  "Name": {
+   "en": "Cash discounts received",
+   "it": "Sconti attivi da fornitori"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:60.026",
+  "IdSup": "chart:60",
+  "Active": true,
+  "TypeId": "chart_type:FIN",
+  "Code": "60.026",
+  "Name": {
+   "en": "Sundry financial income",
+   "it": "Proventi finanziari diversi"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:60.027",
+  "IdSup": "chart:60",
+  "Active": true,
+  "TypeId": "chart_type:FIN",
+  "Code": "60.027",
+  "Name": {
+   "en": "Interest from shareholders",
+   "it": "Interessi attivi da soci"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:60.028",
+  "IdSup": "chart:60",
+  "Active": true,
+  "TypeId": "chart_type:FIN",
+  "Code": "60.028",
+  "Name": {
+   "en": "Exchange gains",
+   "it": "Utili su cambi"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:60.029",
+  "IdSup": "chart:60",
+  "Active": true,
+  "TypeId": "chart_type:FIN",
+  "Code": "60.029",
+  "Name": {
+   "en": "Interest income",
+   "it": "Interessi attivi"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:60.100",
+  "IdSup": "chart:60",
+  "Active": true,
+  "TypeId": "chart_type:FIN",
+  "Code": "60.100",
+  "Name": {
+   "en": "Income from shareholdings",
+   "it": "Utili su partecipazioni"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:61",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "chart_type:FIN",
+  "Code": "61",
+  "Name": {
+   "en": "Financial charges",
+   "it": "Oneri finanziari"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:61.000",
+  "IdSup": "chart:61",
+  "Active": true,
+  "TypeId": "chart_type:FIN",
+  "Code": "61.000",
+  "Name": {
+   "en": "Bank interest expense",
+   "it": "Interessi passivi bancari"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:61.001",
+  "IdSup": "chart:61",
+  "Active": true,
+  "TypeId": "chart_type:FIN",
+  "Code": "61.001",
+  "Name": {
+   "en": "Loan interest expense",
+   "it": "Interessi passivi su mutui"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:61.002",
+  "IdSup": "chart:61",
+  "Active": true,
+  "TypeId": "chart_type:FIN",
+  "Code": "61.002",
+  "Name": {
+   "en": "Interest on bank loans",
+   "it": "Interessi passivi su sovvenzioni"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:61.003",
+  "IdSup": "chart:61",
+  "Active": true,
+  "TypeId": "chart_type:FIN",
+  "Code": "61.003",
+  "Name": {
+   "en": "Interest to the tax authority",
+   "it": "Interessi passivi v/Erario"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:61.004",
+  "IdSup": "chart:61",
+  "Active": true,
+  "TypeId": "chart_type:FIN",
+  "Code": "61.004",
+  "Name": {
+   "en": "Interest to suppliers",
+   "it": "Interessi passivi v/fornitori"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:61.005",
+  "IdSup": "chart:61",
+  "Active": true,
+  "TypeId": "chart_type:FIN",
+  "Code": "61.005",
+  "Name": {
+   "en": "Default interest expense",
+   "it": "Interessi passivi di mora"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:61.010",
+  "IdSup": "chart:61",
+  "Active": true,
+  "TypeId": "chart_type:FIN",
+  "Code": "61.010",
+  "Name": {
+   "en": "Losses on securities",
+   "it": "Perdite su titoli"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:61.011",
+  "IdSup": "chart:61",
+  "Active": true,
+  "TypeId": "chart_type:FIN",
+  "Code": "61.011",
+  "Name": {
+   "en": "Exchange losses",
+   "it": "Perdite su cambi"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:61.015",
+  "IdSup": "chart:61",
+  "Active": true,
+  "TypeId": "chart_type:FIN",
+  "Code": "61.015",
+  "Name": {
+   "en": "Bank discount charges",
+   "it": "Sconti passivi bancari"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:61.016",
+  "IdSup": "chart:61",
+  "Active": true,
+  "TypeId": "chart_type:FIN",
+  "Code": "61.016",
+  "Name": {
+   "en": "Cash discounts allowed",
+   "it": "Sconti passivi a clienti"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:61.017",
+  "IdSup": "chart:61",
+  "Active": true,
+  "TypeId": "chart_type:FIN",
+  "Code": "61.017",
+  "Name": {
+   "en": "Sundry financial charges",
+   "it": "Oneri finanziari diversi"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:61.018",
+  "IdSup": "chart:61",
+  "Active": true,
+  "TypeId": "chart_type:FIN",
+  "Code": "61.018",
+  "Name": {
+   "en": "Factoring interest",
+   "it": "Interessi passivi su factoring"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:61.030",
+  "IdSup": "chart:61",
+  "Active": true,
+  "TypeId": "chart_type:FIN",
+  "Code": "61.030",
+  "Name": {
+   "en": "Losses on shareholdings",
+   "it": "Perdite su partecipazioni"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:61.103",
+  "IdSup": "chart:61",
+  "Active": true,
+  "TypeId": "chart_type:FIN",
+  "Code": "61.103",
+  "Name": {
+   "en": "Interest to shareholders",
+   "it": "Interessi passivi v/soci"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:62",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "chart_type:FIN",
+  "Code": "62",
+  "Name": {
+   "en": "Revaluation of financial assets",
+   "it": "Rivalutazioni di attività finanziarie"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:62.000",
+  "IdSup": "chart:62",
+  "Active": true,
+  "TypeId": "chart_type:FIN",
+  "Code": "62.000",
+  "Name": {
+   "en": "Shareholdings",
+   "it": "Rivalutazioni partecipazioni"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:62.010",
+  "IdSup": "chart:62",
+  "Active": true,
+  "TypeId": "chart_type:FIN",
+  "Code": "62.010",
+  "Name": {
+   "en": "Bonds",
+   "it": "Rivalutazioni titoli obbligazionari"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:63",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "chart_type:FIN",
+  "Code": "63",
+  "Name": {
+   "en": "Write-downs of financial assets",
+   "it": "Svalutazioni di attività finanziarie"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:63.000",
+  "IdSup": "chart:63",
+  "Active": true,
+  "TypeId": "chart_type:FIN",
+  "Code": "63.000",
+  "Name": {
+   "en": "Shareholdings",
+   "it": "Svalutazioni partecipazioni"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:63.010",
+  "IdSup": "chart:63",
+  "Active": true,
+  "TypeId": "chart_type:FIN",
+  "Code": "63.010",
+  "Name": {
+   "en": "Bonds",
+   "it": "Svalutazioni titoli obbligazionari"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:65",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "chart_type:STR",
+  "Code": "65",
+  "Name": {
+   "en": "Extraordinary income",
+   "it": "Proventi straordinari"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:65.000",
+  "IdSup": "chart:65",
+  "Active": true,
+  "TypeId": "chart_type:STR",
+  "Code": "65.000",
+  "Name": {
+   "en": "Extraordinary capital gains",
+   "it": "Plusvalenze straordinarie"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:65.002",
+  "IdSup": "chart:65",
+  "Active": true,
+  "TypeId": "chart_type:STR",
+  "Code": "65.002",
+  "Name": {
+   "en": "Extraordinary contingent gains",
+   "it": "Sopravvenienze attive straordinarie"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:65.003",
+  "IdSup": "chart:65",
+  "Active": true,
+  "TypeId": "chart_type:STR",
+  "Code": "65.003",
+  "Name": {
+   "en": "Other extraordinary income",
+   "it": "Altri proventi straordinari"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:66",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "chart_type:STR",
+  "Code": "66",
+  "Name": {
+   "en": "Extraordinary charges",
+   "it": "Oneri straordinari"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:66.000",
+  "IdSup": "chart:66",
+  "Active": true,
+  "TypeId": "chart_type:STR",
+  "Code": "66.000",
+  "Name": {
+   "en": "Extraordinary capital losses",
+   "it": "Minusvalenze straordinarie"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:66.002",
+  "IdSup": "chart:66",
+  "Active": true,
+  "TypeId": "chart_type:STR",
+  "Code": "66.002",
+  "Name": {
+   "en": "Extraordinary contingent losses",
+   "it": "Sopravvenienze passive straordinarie"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:66.005",
+  "IdSup": "chart:66",
+  "Active": true,
+  "TypeId": "chart_type:STR",
+  "Code": "66.005",
+  "Name": {
+   "en": "Prior-year taxes",
+   "it": "Imposte relative a esercizi precedenti"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:67",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "chart_type:IMP",
+  "Code": "67",
+  "Name": {
+   "en": "Income taxes",
+   "it": "Imposte sul reddito"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:67.000",
+  "IdSup": "chart:67",
+  "Active": true,
+  "TypeId": "chart_type:IMP",
+  "Code": "67.000",
+  "Name": {
+   "en": "IRAP for the year",
+   "it": "Irap dell'esercizio"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:67.001",
+  "IdSup": "chart:67",
+  "Active": true,
+  "TypeId": "chart_type:IMP",
+  "Code": "67.001",
+  "Name": {
+   "en": "IRES for the year",
+   "it": "Ires dell'esercizio"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:70",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "chart_type:RIE",
+  "Code": "70",
+  "Name": {
+   "en": "Income statement closing accounts",
+   "it": "Conti riepilogativi del Conto economico"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:70.000",
+  "IdSup": "chart:70",
+  "Active": true,
+  "TypeId": "chart_type:RIE",
+  "Code": "70.000",
+  "Name": {
+   "en": "Income statement",
+   "it": "Conto economico"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:71",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "chart_type:RIE",
+  "Code": "71",
+  "Name": {
+   "en": "Balance sheet closing accounts",
+   "it": "Conti riepilogativi dello Stato patrimoniale"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:71.000",
+  "IdSup": "chart:71",
+  "Active": true,
+  "TypeId": "chart_type:RIE",
+  "Code": "71.000",
+  "Name": {
+   "en": "Opening balance sheet",
+   "it": "Stato patrimoniale iniziale"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:71.001",
+  "IdSup": "chart:71",
+  "Active": true,
+  "TypeId": "chart_type:RIE",
+  "Code": "71.001",
+  "Name": {
+   "en": "Closing balance sheet",
+   "it": "Stato patrimoniale finale"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:71.002",
+  "IdSup": "chart:71",
+  "Active": true,
+  "TypeId": "chart_type:RIE",
+  "Code": "71.002",
+  "Name": {
+   "en": "VAT settlement",
+   "it": "Erario c/Iva"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:71.003",
+  "IdSup": "chart:71",
+  "Active": true,
+  "TypeId": "chart_type:RIE",
+  "Code": "71.003",
+  "Name": {
+   "en": "Social security settlement",
+   "it": "Istituti previdenziali"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:71.004",
+  "IdSup": "chart:71",
+  "Active": true,
+  "TypeId": "chart_type:RIE",
+  "Code": "71.004",
+  "Name": {
+   "en": "Bank settlement",
+   "it": "Banche c/c"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:72",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "chart_type:RIE",
+  "Code": "72",
+  "Name": {
+   "en": "Result accounts",
+   "it": "Conti di risultato"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:72.001",
+  "IdSup": "chart:72",
+  "Active": true,
+  "TypeId": "chart_type:RIE",
+  "Code": "72.001",
+  "Name": {
+   "en": "Securities trading result",
+   "it": "Gestione titoli"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:80",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "chart_type:ORD",
+  "Code": "80",
+  "Name": {
+   "en": "Risks",
+   "it": "Rischi"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:80.000",
+  "IdSup": "chart:80",
+  "Active": true,
+  "TypeId": "chart_type:ORD",
+  "Code": "80.000",
+  "Name": {
+   "en": "Recourse risk on bills discounted",
+   "it": "Rischi di regresso su effetti scontati"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:80.001",
+  "IdSup": "chart:80",
+  "Active": true,
+  "TypeId": "chart_type:ORD",
+  "Code": "80.001",
+  "Name": {
+   "en": "Banks, bills discounted",
+   "it": "Banche c/effetti scontati"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:80.002",
+  "IdSup": "chart:80",
+  "Active": true,
+  "TypeId": "chart_type:ORD",
+  "Code": "80.002",
+  "Name": {
+   "en": "Recourse risk on bills subject to collection",
+   "it": "Rischi di regresso su effetti s.b.f."
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:80.003",
+  "IdSup": "chart:80",
+  "Active": true,
+  "TypeId": "chart_type:ORD",
+  "Code": "80.003",
+  "Name": {
+   "en": "Banks, bills collected subject to collection",
+   "it": "Banche c/effetti incassati s.b.f."
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:81",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "chart_type:ORD",
+  "Code": "81",
+  "Name": {
+   "en": "Commitments",
+   "it": "Impegni"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:81.000",
+  "IdSup": "chart:81",
+  "Active": true,
+  "TypeId": "chart_type:ORD",
+  "Code": "81.000",
+  "Name": {
+   "en": "Goods to receive",
+   "it": "Merci da ricevere"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:81.001",
+  "IdSup": "chart:81",
+  "Active": true,
+  "TypeId": "chart_type:ORD",
+  "Code": "81.001",
+  "Name": {
+   "en": "Suppliers, commitments",
+   "it": "Fornitori c/impegni"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:81.002",
+  "IdSup": "chart:81",
+  "Active": true,
+  "TypeId": "chart_type:ORD",
+  "Code": "81.002",
+  "Name": {
+   "en": "Clients, commitments",
+   "it": "Clienti c/impegni"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:81.003",
+  "IdSup": "chart:81",
+  "Active": true,
+  "TypeId": "chart_type:ORD",
+  "Code": "81.003",
+  "Name": {
+   "en": "Goods to deliver",
+   "it": "Merci da consegnare"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:81.004",
+  "IdSup": "chart:81",
+  "Active": true,
+  "TypeId": "chart_type:ORD",
+  "Code": "81.004",
+  "Name": {
+   "en": "Leased assets",
+   "it": "Beni in leasing"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:81.005",
+  "IdSup": "chart:81",
+  "Active": true,
+  "TypeId": "chart_type:ORD",
+  "Code": "81.005",
+  "Name": {
+   "en": "Lessors",
+   "it": "Creditori per beni in leasing"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:81.006",
+  "IdSup": "chart:81",
+  "Active": true,
+  "TypeId": "chart_type:ORD",
+  "Code": "81.006",
+  "Name": {
+   "en": "Third-party guarantees",
+   "it": "Fideiussioni di terzi"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:81.007",
+  "IdSup": "chart:81",
+  "Active": true,
+  "TypeId": "chart_type:ORD",
+  "Code": "81.007",
+  "Name": {
+   "en": "Guarantee creditors",
+   "it": "Creditori per fideiussioni"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:81.008",
+  "IdSup": "chart:81",
+  "Active": true,
+  "TypeId": "chart_type:ORD",
+  "Code": "81.008",
+  "Name": {
+   "en": "Third-party endorsements",
+   "it": "Avalli di terzi"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:81.009",
+  "IdSup": "chart:81",
+  "Active": true,
+  "TypeId": "chart_type:ORD",
+  "Code": "81.009",
+  "Name": {
+   "en": "Endorsement creditors",
+   "it": "Creditori per avalli"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:81.010",
+  "IdSup": "chart:81",
+  "Active": true,
+  "TypeId": "chart_type:ORD",
+  "Code": "81.010",
+  "Name": {
+   "en": "Guarantee debtors",
+   "it": "Debitori per fideiussioni"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:81.011",
+  "IdSup": "chart:81",
+  "Active": true,
+  "TypeId": "chart_type:ORD",
+  "Code": "81.011",
+  "Name": {
+   "en": "Guarantees given for third parties",
+   "it": "Fideiussioni per c/terzi"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:81.012",
+  "IdSup": "chart:81",
+  "Active": true,
+  "TypeId": "chart_type:ORD",
+  "Code": "81.012",
+  "Name": {
+   "en": "Endorsement debtors",
+   "it": "Debitori per avalli"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:81.013",
+  "IdSup": "chart:81",
+  "Active": true,
+  "TypeId": "chart_type:ORD",
+  "Code": "81.013",
+  "Name": {
+   "en": "Endorsements given for third parties",
+   "it": "Avalli per c/terzi"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:82",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "chart_type:ORD",
+  "Code": "82",
+  "Name": {
+   "en": "Third-party assets",
+   "it": "Beni di terzi"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:82.000",
+  "IdSup": "chart:82",
+  "Active": true,
+  "TypeId": "chart_type:ORD",
+  "Code": "82.000",
+  "Name": {
+   "en": "Third-party assets held",
+   "it": "Beni di terzi in deposito"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:82.001",
+  "IdSup": "chart:82",
+  "Active": true,
+  "TypeId": "chart_type:ORD",
+  "Code": "82.001",
+  "Name": {
+   "en": "Depositors of assets",
+   "it": "Depositanti beni"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:82.002",
+  "IdSup": "chart:82",
+  "Active": true,
+  "TypeId": "chart_type:ORD",
+  "Code": "82.002",
+  "Name": {
+   "en": "Third-party securities as deposit",
+   "it": "Titoli di terzi a cauzione"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:82.003",
+  "IdSup": "chart:82",
+  "Active": true,
+  "TypeId": "chart_type:ORD",
+  "Code": "82.003",
+  "Name": {
+   "en": "Depositors of securities",
+   "it": "Depositanti titoli a cauzione"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:82.004",
+  "IdSup": "chart:82",
+  "Active": true,
+  "TypeId": "chart_type:ORD",
+  "Code": "82.004",
+  "Name": {
+   "en": "Third-party goods held",
+   "it": "Merci di terzi in deposito"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:82.005",
+  "IdSup": "chart:82",
+  "Active": true,
+  "TypeId": "chart_type:ORD",
+  "Code": "82.005",
+  "Name": {
+   "en": "Depositors of goods",
+   "it": "Depositanti merci"
+  },
+  "IsComposite": false
+ }
+]

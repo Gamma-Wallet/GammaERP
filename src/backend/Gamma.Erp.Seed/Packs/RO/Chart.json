@@ -1,0 +1,6811 @@
+[
+ {
+  "Key": "chart:1",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "1",
+  "Name": {
+   "ro": "Conturi de capitaluri, provizioane, împrumuturi şi datorii asimilate"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:10",
+  "IdSup": "chart:1",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "10",
+  "Name": {
+   "ro": "Capital şi rezerve"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:101",
+  "IdSup": "chart:10",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "101",
+  "Name": {
+   "ro": "Capital"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:1011",
+  "IdSup": "chart:101",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "1011",
+  "Name": {
+   "ro": "Capital subscris nevărsat"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:1012",
+  "IdSup": "chart:101",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "1012",
+  "Name": {
+   "ro": "Capital subscris vărsat"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:1015",
+  "IdSup": "chart:101",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "1015",
+  "Name": {
+   "ro": "Patrimoniul regiei"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:1016",
+  "IdSup": "chart:101",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "1016",
+  "Name": {
+   "ro": "Patrimoniul public"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:1017",
+  "IdSup": "chart:101",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "1017",
+  "Name": {
+   "ro": "Patrimoniul privat"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:1018",
+  "IdSup": "chart:101",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "1018",
+  "Name": {
+   "ro": "Patrimoniul institutelor naţionale de cercetare-dezvoltare"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:103",
+  "IdSup": "chart:10",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "103",
+  "Name": {
+   "ro": "Alte elemente de capitaluri proprii"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:1031",
+  "IdSup": "chart:103",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "1031",
+  "Name": {
+   "ro": "Beneficii acordate angajaţilor sub forma instrumentelor de capitaluri proprii P"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:1033",
+  "IdSup": "chart:103",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "1033",
+  "Name": {
+   "ro": "Diferenţe de curs valutar în relaţie cu investiţia netă într-o entitate străină"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:1038",
+  "IdSup": "chart:103",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "1038",
+  "Name": {
+   "ro": "Diferenţe din modificarea valorii juste a activelor financiare disponibile în vederea vânzării şi alte elemente de capitaluri proprii"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:104",
+  "IdSup": "chart:10",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "104",
+  "Name": {
+   "ro": "Prime de capital"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:1041",
+  "IdSup": "chart:104",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "1041",
+  "Name": {
+   "ro": "Prime de emisiune"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:1042",
+  "IdSup": "chart:104",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "1042",
+  "Name": {
+   "ro": "Prime de fuziune/divizare"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:1043",
+  "IdSup": "chart:104",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "1043",
+  "Name": {
+   "ro": "Prime de aport"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:1044",
+  "IdSup": "chart:104",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "1044",
+  "Name": {
+   "ro": "Prime de conversie a obligaţiunilor în acţiuni"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:105",
+  "IdSup": "chart:10",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "105",
+  "Name": {
+   "ro": "Rezerve din reevaluare"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:106",
+  "IdSup": "chart:10",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "106",
+  "Name": {
+   "ro": "Rezerve"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:1061",
+  "IdSup": "chart:106",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "1061",
+  "Name": {
+   "ro": "Rezerve legale"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:1063",
+  "IdSup": "chart:106",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "1063",
+  "Name": {
+   "ro": "Rezerve statutare sau contractuale"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:1068",
+  "IdSup": "chart:106",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "1068",
+  "Name": {
+   "ro": "Alte rezerve"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:107",
+  "IdSup": "chart:10",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "107",
+  "Name": {
+   "ro": "Diferenţe de curs valutar din conversie"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:108",
+  "IdSup": "chart:10",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "108",
+  "Name": {
+   "ro": "Interese care nu controlează"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:1081",
+  "IdSup": "chart:108",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "1081",
+  "Name": {
+   "ro": "Interese care nu controlează - rezultatul exerciţiului financiar"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:1082",
+  "IdSup": "chart:108",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "1082",
+  "Name": {
+   "ro": "Interese care nu controlează - alte capitaluri proprii"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:109",
+  "IdSup": "chart:10",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "109",
+  "Name": {
+   "ro": "Acţiuni proprii"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:1091",
+  "IdSup": "chart:109",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "1091",
+  "Name": {
+   "ro": "Acţiuni proprii deţinute pe termen scurt"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:1092",
+  "IdSup": "chart:109",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "1092",
+  "Name": {
+   "ro": "Acţiuni proprii deţinute pe termen lung"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:1095",
+  "IdSup": "chart:109",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "1095",
+  "Name": {
+   "ro": "Acţiuni proprii reprezentând titluri deţinute de societatea absorbită la societatea absorbantă"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:11",
+  "IdSup": "chart:1",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "11",
+  "Name": {
+   "ro": "Rezultatul reportat"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:117",
+  "IdSup": "chart:11",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "117",
+  "Name": {
+   "ro": "Rezultatul reportat"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:1171",
+  "IdSup": "chart:117",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "1171",
+  "Name": {
+   "ro": "Rezultatul reportat reprezentând profitul nerepartizat sau pierderea neacoperită"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:1172",
+  "IdSup": "chart:117",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "1172",
+  "Name": {
+   "ro": "Rezultatul reportat provenit din adoptarea pentru prima dată a IAS, mai puţin IAS 29"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:1173",
+  "IdSup": "chart:117",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "1173",
+  "Name": {
+   "ro": "Rezultatul reportat provenit din modificările politicilor contabile"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:1174",
+  "IdSup": "chart:117",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "1174",
+  "Name": {
+   "ro": "Rezultatul reportat provenit din corectarea erorilor contabile"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:1175",
+  "IdSup": "chart:117",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "1175",
+  "Name": {
+   "ro": "Rezultatul reportat reprezentând surplusul realizat din rezerve din reevaluare"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:1176",
+  "IdSup": "chart:117",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "1176",
+  "Name": {
+   "ro": "Rezultatul reportat provenit din trecerea la aplicarea reglementărilor contabile conforme cu directivele europene"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:12",
+  "IdSup": "chart:1",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "12",
+  "Name": {
+   "ro": "Rezultatul exerciţiului financiar"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:121",
+  "IdSup": "chart:12",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "121",
+  "Name": {
+   "ro": "Profit sau pierdere"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:129",
+  "IdSup": "chart:12",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "129",
+  "Name": {
+   "ro": "Repartizarea profitului"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:14",
+  "IdSup": "chart:1",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "14",
+  "Name": {
+   "ro": "Câştiguri sau pierderi legate de emiterea, răscumpărarea, vânzarea, cedarea cu titlu gratuit sau anularea instrumentelor de capitaluri proprii"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:141",
+  "IdSup": "chart:14",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "141",
+  "Name": {
+   "ro": "Câştiguri legate de vânzarea sau anularea instrumentelor de capitaluri proprii"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:1411",
+  "IdSup": "chart:141",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "1411",
+  "Name": {
+   "ro": "Câştiguri legate de vânzarea instrumentelor de capitaluri proprii"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:1412",
+  "IdSup": "chart:141",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "1412",
+  "Name": {
+   "ro": "Câştiguri legate de anularea instrumentelor de capitaluri proprii"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:149",
+  "IdSup": "chart:14",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "149",
+  "Name": {
+   "ro": "Pierderi legate de emiterea, răscumpărarea, vânzarea, cedarea cu titlu gratuit sau anularea instrumentelor de capitaluri proprii"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:1491",
+  "IdSup": "chart:149",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "1491",
+  "Name": {
+   "ro": "Pierderi rezultate din vânzarea instrumentelor de capitaluri proprii"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:1495",
+  "IdSup": "chart:149",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "1495",
+  "Name": {
+   "ro": "Pierderi rezultate din reorganizări, care sunt determinate de anularea titlurilor deţinute"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:1498",
+  "IdSup": "chart:149",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "1498",
+  "Name": {
+   "ro": "Alte pierderi legate de instrumentele de capitaluri proprii"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:15",
+  "IdSup": "chart:1",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "15",
+  "Name": {
+   "ro": "Provizioane"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:151",
+  "IdSup": "chart:15",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "151",
+  "Name": {
+   "ro": "Provizioane"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:1511",
+  "IdSup": "chart:151",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "1511",
+  "Name": {
+   "ro": "Provizioane pentru litigii"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:1512",
+  "IdSup": "chart:151",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "1512",
+  "Name": {
+   "ro": "Provizioane pentru garanţii acordate clienţilor"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:1513",
+  "IdSup": "chart:151",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "1513",
+  "Name": {
+   "ro": "Provizioane pentru dezafectare imobilizări corporale şi alte acţiuni similare legate de acestea"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:1514",
+  "IdSup": "chart:151",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "1514",
+  "Name": {
+   "ro": "Provizioane pentru restructurare"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:1515",
+  "IdSup": "chart:151",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "1515",
+  "Name": {
+   "ro": "Provizioane pentru pensii şi obligaţii similare"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:1516",
+  "IdSup": "chart:151",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "1516",
+  "Name": {
+   "ro": "Provizioane pentru impozite"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:1517",
+  "IdSup": "chart:151",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "1517",
+  "Name": {
+   "ro": "Provizioane pentru terminarea contractului de muncă"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:1518",
+  "IdSup": "chart:151",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "1518",
+  "Name": {
+   "ro": "Alte provizioane"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:16",
+  "IdSup": "chart:1",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "16",
+  "Name": {
+   "ro": "Împrumuturi şi datorii asimilate"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:161",
+  "IdSup": "chart:16",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "161",
+  "Name": {
+   "ro": "Împrumuturi din emisiuni de obligaţiuni"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:1614",
+  "IdSup": "chart:161",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "1614",
+  "Name": {
+   "ro": "Împrumuturi externe din emisiuni de obligaţiuni garantate de stat"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:1615",
+  "IdSup": "chart:161",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "1615",
+  "Name": {
+   "ro": "Împrumuturi externe din emisiuni de obligaţiuni garantate de bănci"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:1617",
+  "IdSup": "chart:161",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "1617",
+  "Name": {
+   "ro": "Împrumuturi interne din emisiuni de obligaţiuni garantate de stat"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:1618",
+  "IdSup": "chart:161",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "1618",
+  "Name": {
+   "ro": "Alte împrumuturi din emisiuni de obligaţiuni"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:162",
+  "IdSup": "chart:16",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "162",
+  "Name": {
+   "ro": "Credite bancare pe termen lung"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:1621",
+  "IdSup": "chart:162",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "1621",
+  "Name": {
+   "ro": "Credite bancare pe termen lung"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:1622",
+  "IdSup": "chart:162",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "1622",
+  "Name": {
+   "ro": "Credite bancare pe termen lung nerambursate la scadenţă"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:1623",
+  "IdSup": "chart:162",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "1623",
+  "Name": {
+   "ro": "Credite externe guvernamentale"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:1624",
+  "IdSup": "chart:162",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "1624",
+  "Name": {
+   "ro": "Credite bancare externe garantate de stat"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:1625",
+  "IdSup": "chart:162",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "1625",
+  "Name": {
+   "ro": "Credite bancare externe garantate de bănci"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:1626",
+  "IdSup": "chart:162",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "1626",
+  "Name": {
+   "ro": "Credite de la trezoreria statului"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:1627",
+  "IdSup": "chart:162",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "1627",
+  "Name": {
+   "ro": "Credite bancare interne garantate de stat"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:166",
+  "IdSup": "chart:16",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "166",
+  "Name": {
+   "ro": "Datorii care privesc imobilizările financiare"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:1661",
+  "IdSup": "chart:166",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "1661",
+  "Name": {
+   "ro": "Datorii faţă de entităţile afiliate"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:1663",
+  "IdSup": "chart:166",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "1663",
+  "Name": {
+   "ro": "Datorii faţă de entităţile asociate şi entităţile controlate în comun"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:167",
+  "IdSup": "chart:16",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "167",
+  "Name": {
+   "ro": "Alte împrumuturi şi datorii asimilate"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:168",
+  "IdSup": "chart:16",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "168",
+  "Name": {
+   "ro": "Dobânzi aferente împrumuturilor şi datoriilor asimilate"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:1681",
+  "IdSup": "chart:168",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "1681",
+  "Name": {
+   "ro": "Dobânzi aferente împrumuturilor din emisiuni de obligaţiuni"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:1682",
+  "IdSup": "chart:168",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "1682",
+  "Name": {
+   "ro": "Dobânzi aferente creditelor bancare pe termen lung"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:1685",
+  "IdSup": "chart:168",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "1685",
+  "Name": {
+   "ro": "Dobânzi aferente datoriilor faţă de entităţile afiliate"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:1686",
+  "IdSup": "chart:168",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "1686",
+  "Name": {
+   "ro": "Dobânzi aferente datoriilor faţă de entităţile asociate şi entităţile controlate în comun"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:1687",
+  "IdSup": "chart:168",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "1687",
+  "Name": {
+   "ro": "Dobânzi aferente altor împrumuturi şi datorii asimilate"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:169",
+  "IdSup": "chart:16",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "169",
+  "Name": {
+   "ro": "Prime privind rambursarea obligaţiunilor şi a altor datorii"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:1691",
+  "IdSup": "chart:169",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "1691",
+  "Name": {
+   "ro": "Prime privind rambursarea obligaţiunilor"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:1692",
+  "IdSup": "chart:169",
+  "Active": true,
+  "TypeId": "chart_type:1",
+  "Code": "1692",
+  "Name": {
+   "ro": "Prime privind rambursarea altor datorii"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:2",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "2",
+  "Name": {
+   "ro": "Conturi de imobilizări"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:20",
+  "IdSup": "chart:2",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "20",
+  "Name": {
+   "ro": "IMOBILIZĂRI NECORPORALE"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:201",
+  "IdSup": "chart:20",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "201",
+  "Name": {
+   "ro": "Cheltuieli de constituire"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:203",
+  "IdSup": "chart:20",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "203",
+  "Name": {
+   "ro": "Cheltuieli de dezvoltare"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:205",
+  "IdSup": "chart:20",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "205",
+  "Name": {
+   "ro": "Concesiuni, brevete, licenţe, mărci comerciale, drepturi şi active similare"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:206",
+  "IdSup": "chart:20",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "206",
+  "Name": {
+   "ro": "Active necorporale de explorare şi evaluare a resurselor minerale"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:207",
+  "IdSup": "chart:20",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "207",
+  "Name": {
+   "ro": "Fond comercial"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:2071",
+  "IdSup": "chart:207",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "2071",
+  "Name": {
+   "ro": "Fond comercial pozitiv"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:2075",
+  "IdSup": "chart:207",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "2075",
+  "Name": {
+   "ro": "Fond comercial negativ"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:208",
+  "IdSup": "chart:20",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "208",
+  "Name": {
+   "ro": "Alte imobilizări necorporale"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:21",
+  "IdSup": "chart:2",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "21",
+  "Name": {
+   "ro": "Imobilizări corporale"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:211",
+  "IdSup": "chart:21",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "211",
+  "Name": {
+   "ro": "Terenuri şi amenajări de terenuri"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:2111",
+  "IdSup": "chart:211",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "2111",
+  "Name": {
+   "ro": "Terenuri"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:2112",
+  "IdSup": "chart:211",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "2112",
+  "Name": {
+   "ro": "Amenajări de terenuri"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:212",
+  "IdSup": "chart:21",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "212",
+  "Name": {
+   "ro": "Construcţii"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:213",
+  "IdSup": "chart:21",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "213",
+  "Name": {
+   "ro": "Instalaţii tehnice şi mijloace de transport"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:2131",
+  "IdSup": "chart:213",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "2131",
+  "Name": {
+   "ro": "Echipamente tehnologice (maşini, utilaje şi instalaţii de lucru)"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:2132",
+  "IdSup": "chart:213",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "2132",
+  "Name": {
+   "ro": "Aparate şi instalaţii de măsurare, control şi reglare"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:2133",
+  "IdSup": "chart:213",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "2133",
+  "Name": {
+   "ro": "Mijloace de transport"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:214",
+  "IdSup": "chart:21",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "214",
+  "Name": {
+   "ro": "Mobilier, aparatură birotică, echipamente de protecţie a valorilor umane şi materiale şi alte active corporale"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:215",
+  "IdSup": "chart:21",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "215",
+  "Name": {
+   "ro": "Investiţii imobiliare"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:216",
+  "IdSup": "chart:21",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "216",
+  "Name": {
+   "ro": "Active corporale de explorare şi evaluare a resurselor minerale"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:217",
+  "IdSup": "chart:21",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "217",
+  "Name": {
+   "ro": "Active biologice productive"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:22",
+  "IdSup": "chart:2",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "22",
+  "Name": {
+   "ro": "Imobilizări corporale în curs de aprovizionare"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:223",
+  "IdSup": "chart:22",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "223",
+  "Name": {
+   "ro": "Instalaţii tehnice şi mijloace de transport în curs de aprovizionare"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:224",
+  "IdSup": "chart:22",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "224",
+  "Name": {
+   "ro": "Mobilier, aparatură birotică, echipamente de protecţie a valorilor umane şi materiale şi alte active corporale în curs de aprovizionare"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:227",
+  "IdSup": "chart:22",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "227",
+  "Name": {
+   "ro": "Active biologice productive în curs de aprovizionare"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:23",
+  "IdSup": "chart:2",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "23",
+  "Name": {
+   "ro": "Imobilizări în curs"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:231",
+  "IdSup": "chart:23",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "231",
+  "Name": {
+   "ro": "Imobilizări corporale în curs de execuţie"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:235",
+  "IdSup": "chart:23",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "235",
+  "Name": {
+   "ro": "Investiţii imobiliare în curs de execuţie"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:26",
+  "IdSup": "chart:2",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "26",
+  "Name": {
+   "ro": "Imobilizări financiare"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:261",
+  "IdSup": "chart:26",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "261",
+  "Name": {
+   "ro": "Acţiuni deţinute la entităţile afiliate"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:262",
+  "IdSup": "chart:26",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "262",
+  "Name": {
+   "ro": "Acţiuni deţinute la entităţi asociate"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:263",
+  "IdSup": "chart:26",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "263",
+  "Name": {
+   "ro": "Acţiuni deţinute la entităţi controlate în comun"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:264",
+  "IdSup": "chart:26",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "264",
+  "Name": {
+   "ro": "Titluri puse în echivalenţă"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:265",
+  "IdSup": "chart:26",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "265",
+  "Name": {
+   "ro": "Alte titluri imobilizate"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:266",
+  "IdSup": "chart:26",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "266",
+  "Name": {
+   "ro": "Certificate verzi amânate"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:267",
+  "IdSup": "chart:26",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "267",
+  "Name": {
+   "ro": "Creanţe imobilizate"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:2671",
+  "IdSup": "chart:267",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "2671",
+  "Name": {
+   "ro": "Sume de încasat de la entităţile afiliate"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:2672",
+  "IdSup": "chart:267",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "2672",
+  "Name": {
+   "ro": "Dobânda aferentă sumelor de încasat de la entităţile afiliate"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:2673",
+  "IdSup": "chart:267",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "2673",
+  "Name": {
+   "ro": "Creanţe faţă de entităţile asociate şi entităţile controlate în comun"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:2674",
+  "IdSup": "chart:267",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "2674",
+  "Name": {
+   "ro": "Dobânda aferentă creanţelor faţă de entităţile asociate şi entităţile controlate în comun"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:2675",
+  "IdSup": "chart:267",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "2675",
+  "Name": {
+   "ro": "Împrumuturi acordate pe termen lung"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:2676",
+  "IdSup": "chart:267",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "2676",
+  "Name": {
+   "ro": "Dobânda aferentă împrumuturilor acordate pe termen lung"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:2677",
+  "IdSup": "chart:267",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "2677",
+  "Name": {
+   "ro": "Obligaţiuni achiziţionate cu ocazia emisiunilor efectuate de terţi"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:2678",
+  "IdSup": "chart:267",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "2678",
+  "Name": {
+   "ro": "Alte creanţe imobilizate"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:2679",
+  "IdSup": "chart:267",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "2679",
+  "Name": {
+   "ro": "Dobânzi aferente altor creanţe imobilizate"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:269",
+  "IdSup": "chart:26",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "269",
+  "Name": {
+   "ro": "Vărsăminte de efectuat pentru imobilizări financiare"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:2691",
+  "IdSup": "chart:269",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "2691",
+  "Name": {
+   "ro": "Vărsăminte de efectuat privind acţiunile deţinute la entităţile afiliate"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:2692",
+  "IdSup": "chart:269",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "2692",
+  "Name": {
+   "ro": "Vărsăminte de efectuat privind acţiunile deţinute la entităţi asociate"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:2693",
+  "IdSup": "chart:269",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "2693",
+  "Name": {
+   "ro": "Vărsăminte de efectuat privind acţiunile deţinute la entităţi controlate în comun"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:2695",
+  "IdSup": "chart:269",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "2695",
+  "Name": {
+   "ro": "Vărsăminte de efectuat pentru alte imobilizări financiare"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:28",
+  "IdSup": "chart:2",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "28",
+  "Name": {
+   "ro": "Amortizări privind imobilizările"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:280",
+  "IdSup": "chart:28",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "280",
+  "Name": {
+   "ro": "Amortizări privind imobilizările necorporale"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:2801",
+  "IdSup": "chart:280",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "2801",
+  "Name": {
+   "ro": "Amortizarea cheltuielilor de constituire"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:2803",
+  "IdSup": "chart:280",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "2803",
+  "Name": {
+   "ro": "Amortizarea cheltuielilor de dezvoltare"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:2805",
+  "IdSup": "chart:280",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "2805",
+  "Name": {
+   "ro": "Amortizarea concesiunilor, brevetelor, licenţelor, mărcilor comerciale, drepturilor şi activelor similare"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:2806",
+  "IdSup": "chart:280",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "2806",
+  "Name": {
+   "ro": "Amortizarea activelor necorporale de explorare şi evaluare a resurselor minerale"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:2807",
+  "IdSup": "chart:280",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "2807",
+  "Name": {
+   "ro": "Amortizarea fondului comercial"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:2808",
+  "IdSup": "chart:280",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "2808",
+  "Name": {
+   "ro": "Amortizarea altor imobilizări necorporale"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:281",
+  "IdSup": "chart:28",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "281",
+  "Name": {
+   "ro": "Amortizări privind imobilizările corporale"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:2811",
+  "IdSup": "chart:281",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "2811",
+  "Name": {
+   "ro": "Amortizarea amenajărilor de terenuri"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:2812",
+  "IdSup": "chart:281",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "2812",
+  "Name": {
+   "ro": "Amortizarea construcţiilor"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:2813",
+  "IdSup": "chart:281",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "2813",
+  "Name": {
+   "ro": "Amortizarea instalaţiilor şi mijloacelor de transport"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:2814",
+  "IdSup": "chart:281",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "2814",
+  "Name": {
+   "ro": "Amortizarea altor imobilizări corporale"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:2815",
+  "IdSup": "chart:281",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "2815",
+  "Name": {
+   "ro": "Amortizarea investiţiilor imobiliare"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:2816",
+  "IdSup": "chart:281",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "2816",
+  "Name": {
+   "ro": "Amortizarea activelor corporale de explorare şi evaluare a resurselor minerale"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:2817",
+  "IdSup": "chart:281",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "2817",
+  "Name": {
+   "ro": "Amortizarea activelor biologice productive"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:29",
+  "IdSup": "chart:2",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "29",
+  "Name": {
+   "ro": "Ajustări pentru deprecierea sau pierderea de valoare a imobilizărilor"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:290",
+  "IdSup": "chart:29",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "290",
+  "Name": {
+   "ro": "Ajustări pentru deprecierea imobilizărilor necorporale"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:2903",
+  "IdSup": "chart:290",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "2903",
+  "Name": {
+   "ro": "Ajustări pentru deprecierea cheltuielilor de dezvoltare"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:2905",
+  "IdSup": "chart:290",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "2905",
+  "Name": {
+   "ro": "Ajustări pentru deprecierea concesiunilor,brevetelor,licenţelor,mărcilor comerciale,drepturilor şi activelor similare"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:2906",
+  "IdSup": "chart:290",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "2906",
+  "Name": {
+   "ro": "Ajustări pentru deprecierea activelor necorporale de explorare şi evaluare a resurselor minerale"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:2908",
+  "IdSup": "chart:290",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "2908",
+  "Name": {
+   "ro": "Ajustări pentru deprecierea altor imobilizări necorporale"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:291",
+  "IdSup": "chart:29",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "291",
+  "Name": {
+   "ro": "Ajustări pentru deprecierea imobilizărilor corporale"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:2911",
+  "IdSup": "chart:291",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "2911",
+  "Name": {
+   "ro": "Ajustări pentru deprecierea terenurilor şi amenajărilor de terenuri"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:2912",
+  "IdSup": "chart:291",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "2912",
+  "Name": {
+   "ro": "Ajustări pentru deprecierea construcţiilor"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:2913",
+  "IdSup": "chart:291",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "2913",
+  "Name": {
+   "ro": "Ajustări pentru deprecierea instalaţiilor şi mijloacelor de transport"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:2914",
+  "IdSup": "chart:291",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "2914",
+  "Name": {
+   "ro": "Ajustări pentru deprecierea altor imobilizări corporale"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:2915",
+  "IdSup": "chart:291",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "2915",
+  "Name": {
+   "ro": "Ajustări pentru deprecierea investiţiilor imobiliare"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:2916",
+  "IdSup": "chart:291",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "2916",
+  "Name": {
+   "ro": "Ajustări pentru deprecierea activelor corporale de explorare şi evaluare a resurselor minerale"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:2917",
+  "IdSup": "chart:291",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "2917",
+  "Name": {
+   "ro": "Ajustări pentru deprecierea activelor biologice productive"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:293",
+  "IdSup": "chart:29",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "293",
+  "Name": {
+   "ro": "Ajustări pentru deprecierea imobilizărilor în curs de execuţie"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:2931",
+  "IdSup": "chart:293",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "2931",
+  "Name": {
+   "ro": "Ajustări pentru deprecierea imobilizărilor corporale în curs de execuţie"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:2935",
+  "IdSup": "chart:293",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "2935",
+  "Name": {
+   "ro": "Ajustări pentru deprecierea investiţiilor imobiliare în curs de execuţie"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:296",
+  "IdSup": "chart:29",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "296",
+  "Name": {
+   "ro": "Ajustări pentru pierderea de valoare a imobilizărilor financiare"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:2961",
+  "IdSup": "chart:296",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "2961",
+  "Name": {
+   "ro": "Ajustări pentru pierderea de valoare a acţiunilor deţinute la entităţile afiliate"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:2962",
+  "IdSup": "chart:296",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "2962",
+  "Name": {
+   "ro": "Ajustări pentru pierderea de valoare a acţiunilor deţinute la entităţi asociate şi entităţi controlate în comun"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:2963",
+  "IdSup": "chart:296",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "2963",
+  "Name": {
+   "ro": "Ajustări pentru pierderea de valoare a altor titluri imobilizate"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:2964",
+  "IdSup": "chart:296",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "2964",
+  "Name": {
+   "ro": "Ajustări pentru pierderea de valoare a sumelor de încasat de la entităţile afiliate"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:2965",
+  "IdSup": "chart:296",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "2965",
+  "Name": {
+   "ro": "Ajustări pentru pierderea de valoare a creanţelor faţă de entităţile asociate şi entităţile controlate în comun"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:2966",
+  "IdSup": "chart:296",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "2966",
+  "Name": {
+   "ro": "Ajustări pentru pierderea de valoare a împrumuturilor acordate pe termen lung"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:2968",
+  "IdSup": "chart:296",
+  "Active": true,
+  "TypeId": "chart_type:2",
+  "Code": "2968",
+  "Name": {
+   "ro": "Ajustări pentru pierderea de valoare a altor creanţe imobilizate"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:3",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "3",
+  "Name": {
+   "ro": "Conturi de stocuri şi producţie în curs de execuţie"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:30",
+  "IdSup": "chart:3",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "30",
+  "Name": {
+   "ro": "Stocuri de materii prime şi materiale"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:301",
+  "IdSup": "chart:30",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "301",
+  "Name": {
+   "ro": "Materii prime"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:302",
+  "IdSup": "chart:30",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "302",
+  "Name": {
+   "ro": "Materiale consumabile"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:3021",
+  "IdSup": "chart:302",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "3021",
+  "Name": {
+   "ro": "Materiale auxiliare"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:3022",
+  "IdSup": "chart:302",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "3022",
+  "Name": {
+   "ro": "Combustibili"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:3023",
+  "IdSup": "chart:302",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "3023",
+  "Name": {
+   "ro": "Materiale pentru ambalat"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:3024",
+  "IdSup": "chart:302",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "3024",
+  "Name": {
+   "ro": "Piese de schimb"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:3025",
+  "IdSup": "chart:302",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "3025",
+  "Name": {
+   "ro": "Seminţe şi materiale de plantat"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:3026",
+  "IdSup": "chart:302",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "3026",
+  "Name": {
+   "ro": "Furaje"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:3028",
+  "IdSup": "chart:302",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "3028",
+  "Name": {
+   "ro": "Alte materiale consumabile"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:303",
+  "IdSup": "chart:30",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "303",
+  "Name": {
+   "ro": "Materiale de natura obiectelor de inventar"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:308",
+  "IdSup": "chart:30",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "308",
+  "Name": {
+   "ro": "Diferenţe de preţ la materii prime şi materiale"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:32",
+  "IdSup": "chart:3",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "32",
+  "Name": {
+   "ro": "Stocuri în curs de aprovizionare"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:321",
+  "IdSup": "chart:32",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "321",
+  "Name": {
+   "ro": "Materii prime în curs de aprovizionare"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:322",
+  "IdSup": "chart:32",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "322",
+  "Name": {
+   "ro": "Materiale consumabile în curs de aprovizionare"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:323",
+  "IdSup": "chart:32",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "323",
+  "Name": {
+   "ro": "Materiale de natura obiectelor de inventar în curs de aprovizionare"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:326",
+  "IdSup": "chart:32",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "326",
+  "Name": {
+   "ro": "Active biologice de natura stocurilor în curs de aprovizionare"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:327",
+  "IdSup": "chart:32",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "327",
+  "Name": {
+   "ro": "Mărfuri în curs de aprovizionare"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:328",
+  "IdSup": "chart:32",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "328",
+  "Name": {
+   "ro": "Ambalaje în curs de aprovizionare"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:33",
+  "IdSup": "chart:3",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "33",
+  "Name": {
+   "ro": "Producţie în curs de execuţie"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:331",
+  "IdSup": "chart:33",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "331",
+  "Name": {
+   "ro": "Produse în curs de execuţie"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:332",
+  "IdSup": "chart:33",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "332",
+  "Name": {
+   "ro": "Servicii în curs de execuţie"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:34",
+  "IdSup": "chart:3",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "34",
+  "Name": {
+   "ro": "PRODUSE"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:341",
+  "IdSup": "chart:34",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "341",
+  "Name": {
+   "ro": "Semifabricate"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:345",
+  "IdSup": "chart:34",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "345",
+  "Name": {
+   "ro": "Produse finite"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:346",
+  "IdSup": "chart:34",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "346",
+  "Name": {
+   "ro": "Produse reziduale"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:347",
+  "IdSup": "chart:34",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "347",
+  "Name": {
+   "ro": "Produse agricole"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:348",
+  "IdSup": "chart:34",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "348",
+  "Name": {
+   "ro": "Diferenţe de preţ la produse"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:35",
+  "IdSup": "chart:3",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "35",
+  "Name": {
+   "ro": "STOCURI AFLATE LA TERŢI Plan de conturi cf. OMFP 1802/2014 actualizat 2019 - Editia de buzunar"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:351",
+  "IdSup": "chart:35",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "351",
+  "Name": {
+   "ro": "Materii şi materiale aflate la terţi"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:354",
+  "IdSup": "chart:35",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "354",
+  "Name": {
+   "ro": "Produse aflate la terţi"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:356",
+  "IdSup": "chart:35",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "356",
+  "Name": {
+   "ro": "Active biologice de natura stocurilor aflate la terţi"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:357",
+  "IdSup": "chart:35",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "357",
+  "Name": {
+   "ro": "Mărfuri aflate la terţi"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:358",
+  "IdSup": "chart:35",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "358",
+  "Name": {
+   "ro": "Ambalaje aflate la terţi"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:36",
+  "IdSup": "chart:3",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "36",
+  "Name": {
+   "ro": "Active biologice de natura stocurilor"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:361",
+  "IdSup": "chart:36",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "361",
+  "Name": {
+   "ro": "Active biologice de natura stocurilor"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:368",
+  "IdSup": "chart:36",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "368",
+  "Name": {
+   "ro": "Diferenţe de preţ la active biologice de natura stocurilor"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:37",
+  "IdSup": "chart:3",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "37",
+  "Name": {
+   "ro": "MĂRFURI"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:371",
+  "IdSup": "chart:37",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "371",
+  "Name": {
+   "ro": "Mărfuri"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:378",
+  "IdSup": "chart:37",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "378",
+  "Name": {
+   "ro": "Diferenţe de preţ la mărfuri"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:38",
+  "IdSup": "chart:3",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "38",
+  "Name": {
+   "ro": "Ambalaje"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:381",
+  "IdSup": "chart:38",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "381",
+  "Name": {
+   "ro": "Ambalaje"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:388",
+  "IdSup": "chart:38",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "388",
+  "Name": {
+   "ro": "Diferenţe de preţ la ambalaje"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:39",
+  "IdSup": "chart:3",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "39",
+  "Name": {
+   "ro": "Ajustări pentru deprecierea stocurilor şi producţiei în curs de execuţie"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:391",
+  "IdSup": "chart:39",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "391",
+  "Name": {
+   "ro": "Ajustări pentru deprecierea materiilor prime"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:392",
+  "IdSup": "chart:39",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "392",
+  "Name": {
+   "ro": "Ajustări pentru deprecierea materialelor"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:3921",
+  "IdSup": "chart:392",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "3921",
+  "Name": {
+   "ro": "Ajustări pentru deprecierea materialelor consumabile"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:3922",
+  "IdSup": "chart:392",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "3922",
+  "Name": {
+   "ro": "Ajustări pentru deprecierea materialelor de natura obiectelor de inventar"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:393",
+  "IdSup": "chart:39",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "393",
+  "Name": {
+   "ro": "Ajustări pentru deprecierea producţiei în curs de execuţie"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:394",
+  "IdSup": "chart:39",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "394",
+  "Name": {
+   "ro": "Ajustări pentru deprecierea produselor"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:3941",
+  "IdSup": "chart:394",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "3941",
+  "Name": {
+   "ro": "Ajustări pentru deprecierea semifabricatelor"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:3945",
+  "IdSup": "chart:394",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "3945",
+  "Name": {
+   "ro": "Ajustări pentru deprecierea produselor finite"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:3946",
+  "IdSup": "chart:394",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "3946",
+  "Name": {
+   "ro": "Ajustări pentru deprecierea produselor reziduale"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:3947",
+  "IdSup": "chart:394",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "3947",
+  "Name": {
+   "ro": "Ajustări pentru deprecierea produselor agricole"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:395",
+  "IdSup": "chart:39",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "395",
+  "Name": {
+   "ro": "Ajustări pentru deprecierea stocurilor aflate la terţi"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:3951",
+  "IdSup": "chart:395",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "3951",
+  "Name": {
+   "ro": "Ajustări pentru deprecierea materiilor şi materialelor aflate la terţi"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:3952",
+  "IdSup": "chart:395",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "3952",
+  "Name": {
+   "ro": "Ajustări pentru deprecierea semifabricatelor aflate laterţi"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:3953",
+  "IdSup": "chart:395",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "3953",
+  "Name": {
+   "ro": "Ajustări pentru deprecierea produselor finite aflate la terţi"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:3954",
+  "IdSup": "chart:395",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "3954",
+  "Name": {
+   "ro": "Ajustări pentru deprecierea produselor reziduale aflate la terţi"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:3955",
+  "IdSup": "chart:395",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "3955",
+  "Name": {
+   "ro": "Ajustări pentru deprecierea produselor agricole aflate la terţi"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:3956",
+  "IdSup": "chart:395",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "3956",
+  "Name": {
+   "ro": "Ajustări pentru deprecierea activelor biologice de natura stocurilor aflate la terţi"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:3957",
+  "IdSup": "chart:395",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "3957",
+  "Name": {
+   "ro": "Ajustări pentru deprecierea mărfurilor aflate la terţi"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:3958",
+  "IdSup": "chart:395",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "3958",
+  "Name": {
+   "ro": "Ajustări pentru deprecierea ambalajelor aflate la terţi"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:396",
+  "IdSup": "chart:39",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "396",
+  "Name": {
+   "ro": "Ajustări pentru deprecierea activelor biologice de natura stocurilor"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:397",
+  "IdSup": "chart:39",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "397",
+  "Name": {
+   "ro": "Ajustări pentru deprecierea mărfurilor"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:398",
+  "IdSup": "chart:39",
+  "Active": true,
+  "TypeId": "chart_type:3",
+  "Code": "398",
+  "Name": {
+   "ro": "Ajustări pentru deprecierea ambalajelor"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:4",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "4",
+  "Name": {
+   "ro": "Conturi de terţi"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:40",
+  "IdSup": "chart:4",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "40",
+  "Name": {
+   "ro": "Furnizori şi conturi asimilate"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:401",
+  "IdSup": "chart:40",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "401",
+  "Name": {
+   "ro": "Furnizori"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:403",
+  "IdSup": "chart:40",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "403",
+  "Name": {
+   "ro": "Efecte de plătit"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:404",
+  "IdSup": "chart:40",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "404",
+  "Name": {
+   "ro": "Furnizori de imobilizări"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:405",
+  "IdSup": "chart:40",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "405",
+  "Name": {
+   "ro": "Efecte de plătit pentru imobilizări"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:408",
+  "IdSup": "chart:40",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "408",
+  "Name": {
+   "ro": "Furnizori - facturi nesosite"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:409",
+  "IdSup": "chart:40",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "409",
+  "Name": {
+   "ro": "Furnizori - debitori"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:4091",
+  "IdSup": "chart:409",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "4091",
+  "Name": {
+   "ro": "Furnizori -debitori pentru cumpărări de bunuri de natura stocurilor"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:4092",
+  "IdSup": "chart:409",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "4092",
+  "Name": {
+   "ro": "Furnizori - debitori pentru prestări de servicii"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:4093",
+  "IdSup": "chart:409",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "4093",
+  "Name": {
+   "ro": "Avansuri acordate pentru imobilizări corporale"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:4094",
+  "IdSup": "chart:409",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "4094",
+  "Name": {
+   "ro": "Avansuri acordate pentru imobilizări necorporale"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:41",
+  "IdSup": "chart:4",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "41",
+  "Name": {
+   "ro": "Clienţi şi conturi asimilate"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:411",
+  "IdSup": "chart:41",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "411",
+  "Name": {
+   "ro": "Clienţi"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:4111",
+  "IdSup": "chart:411",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "4111",
+  "Name": {
+   "ro": "Clienţi"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:4118",
+  "IdSup": "chart:411",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "4118",
+  "Name": {
+   "ro": "Clienţi incerţi sau în litigiu"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:413",
+  "IdSup": "chart:41",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "413",
+  "Name": {
+   "ro": "Efecte de primit de la clienţi"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:418",
+  "IdSup": "chart:41",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "418",
+  "Name": {
+   "ro": "Clienţi - facturi de întocmit"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:419",
+  "IdSup": "chart:41",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "419",
+  "Name": {
+   "ro": "Clienţi - creditori"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:42",
+  "IdSup": "chart:4",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "42",
+  "Name": {
+   "ro": "Personal şi conturi asimilate"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:421",
+  "IdSup": "chart:42",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "421",
+  "Name": {
+   "ro": "Personal - salarii datorate"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:423",
+  "IdSup": "chart:42",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "423",
+  "Name": {
+   "ro": "Personal - ajutoare materiale datorate"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:424",
+  "IdSup": "chart:42",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "424",
+  "Name": {
+   "ro": "Prime reprezentând participarea personalului la profit"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:425",
+  "IdSup": "chart:42",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "425",
+  "Name": {
+   "ro": "Avansuri acordate personalului"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:426",
+  "IdSup": "chart:42",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "426",
+  "Name": {
+   "ro": "Drepturi de personal neridicate"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:427",
+  "IdSup": "chart:42",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "427",
+  "Name": {
+   "ro": "Reţineri din salarii datorate terţilor"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:428",
+  "IdSup": "chart:42",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "428",
+  "Name": {
+   "ro": "Alte datorii şi creanţe în legătură cu personalul"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:4281",
+  "IdSup": "chart:428",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "4281",
+  "Name": {
+   "ro": "Alte datorii în legătură cu personalul"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:4282",
+  "IdSup": "chart:428",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "4282",
+  "Name": {
+   "ro": "Alte creanţe în legătură cu personalul"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:43",
+  "IdSup": "chart:4",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "43",
+  "Name": {
+   "ro": "Asigurări sociale, protecţia socială şi conturi asimilate"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:431",
+  "IdSup": "chart:43",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "431",
+  "Name": {
+   "ro": "Asigurări sociale"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:4311",
+  "IdSup": "chart:431",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "4311",
+  "Name": {
+   "ro": "Contribuţia unităţii la asigurările sociale"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:4312",
+  "IdSup": "chart:431",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "4312",
+  "Name": {
+   "ro": "Contribuţia personalului la asigurările sociale"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:4313",
+  "IdSup": "chart:431",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "4313",
+  "Name": {
+   "ro": "Contribuţia angajatorului pentru asigurările sociale de sănătate"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:4314",
+  "IdSup": "chart:431",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "4314",
+  "Name": {
+   "ro": "Contribuţia angajaţilor pentru asigurările sociale de sănătate"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:4315",
+  "IdSup": "chart:431",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "4315",
+  "Name": {
+   "ro": "Contribuția de asigurări sociale"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:4316",
+  "IdSup": "chart:431",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "4316",
+  "Name": {
+   "ro": "Contribuția de asigurări sociale de sănătate"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:4318",
+  "IdSup": "chart:431",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "4318",
+  "Name": {
+   "ro": "Alte contribuții pentru asigurările sociale de sănătate"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:436",
+  "IdSup": "chart:43",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "436",
+  "Name": {
+   "ro": "Contributia asiguratorie pentru munca"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:437",
+  "IdSup": "chart:43",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "437",
+  "Name": {
+   "ro": "Ajutor de şomaj"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:4371",
+  "IdSup": "chart:437",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "4371",
+  "Name": {
+   "ro": "Contribuţia unităţii la fondul de şomaj"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:4372",
+  "IdSup": "chart:437",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "4372",
+  "Name": {
+   "ro": "Contribuţia personalului la fondul de şomaj"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:438",
+  "IdSup": "chart:43",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "438",
+  "Name": {
+   "ro": "Alte datorii şi creanţe sociale"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:4381",
+  "IdSup": "chart:438",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "4381",
+  "Name": {
+   "ro": "Alte datorii sociale"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:4382",
+  "IdSup": "chart:438",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "4382",
+  "Name": {
+   "ro": "Alte creanţe sociale"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:44",
+  "IdSup": "chart:4",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "44",
+  "Name": {
+   "ro": "Bugetul statului, fonduri speciale şi conturi asimilate"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:441",
+  "IdSup": "chart:44",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "441",
+  "Name": {
+   "ro": "Impozitul pe profit/venit"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:4411",
+  "IdSup": "chart:441",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "4411",
+  "Name": {
+   "ro": "Impozitul pe profit"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:4415",
+  "IdSup": "chart:441",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "4415",
+  "Name": {
+   "ro": "Impozitul specific unor activităţi"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:4418",
+  "IdSup": "chart:441",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "4418",
+  "Name": {
+   "ro": "Impozitul pe venit"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:442",
+  "IdSup": "chart:44",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "442",
+  "Name": {
+   "ro": "Taxa pe valoarea adăugată"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:4423",
+  "IdSup": "chart:442",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "4423",
+  "Name": {
+   "ro": "TVA de plată"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:4424",
+  "IdSup": "chart:442",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "4424",
+  "Name": {
+   "ro": "TVA de recuperat"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:4426",
+  "IdSup": "chart:442",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "4426",
+  "Name": {
+   "ro": "TVA deductibilă"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:4427",
+  "IdSup": "chart:442",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "4427",
+  "Name": {
+   "ro": "TVA colectată"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:4428",
+  "IdSup": "chart:442",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "4428",
+  "Name": {
+   "ro": "TVA neexigibilă"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:444",
+  "IdSup": "chart:44",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "444",
+  "Name": {
+   "ro": "Impozitul pe venituri de natura salariilor"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:445",
+  "IdSup": "chart:44",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "445",
+  "Name": {
+   "ro": "Subvenţii"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:4451",
+  "IdSup": "chart:445",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "4451",
+  "Name": {
+   "ro": "Subvenţii guvernamentale"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:4452",
+  "IdSup": "chart:445",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "4452",
+  "Name": {
+   "ro": "Împrumuturi nerambursabile cu caracter de subvenţii"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:4458",
+  "IdSup": "chart:445",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "4458",
+  "Name": {
+   "ro": "Alte sume primite cu caracter de subvenţii"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:446",
+  "IdSup": "chart:44",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "446",
+  "Name": {
+   "ro": "Alte impozite, taxe şi vărsăminte asimilate"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:447",
+  "IdSup": "chart:44",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "447",
+  "Name": {
+   "ro": "Fonduri speciale - taxe şi vărsăminte asimilate"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:448",
+  "IdSup": "chart:44",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "448",
+  "Name": {
+   "ro": "Alte datorii şi creanţe cu bugetul statului"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:4481",
+  "IdSup": "chart:448",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "4481",
+  "Name": {
+   "ro": "Alte datorii faţă de bugetul statului"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:4482",
+  "IdSup": "chart:448",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "4482",
+  "Name": {
+   "ro": "Alte creanţe privind bugetul statului"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:45",
+  "IdSup": "chart:4",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "45",
+  "Name": {
+   "ro": "Grup şi acţionari/asociaţi"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:451",
+  "IdSup": "chart:45",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "451",
+  "Name": {
+   "ro": "Decontări între entităţile afiliate"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:4511",
+  "IdSup": "chart:451",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "4511",
+  "Name": {
+   "ro": "Decontări între entităţile afiliate"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:4518",
+  "IdSup": "chart:451",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "4518",
+  "Name": {
+   "ro": "Dobânzi aferente decontărilor între entităţile afiliate"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:453",
+  "IdSup": "chart:45",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "453",
+  "Name": {
+   "ro": "Decontări cu entităţile asociate şi entităţile controlate în comun"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:4531",
+  "IdSup": "chart:453",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "4531",
+  "Name": {
+   "ro": "Decontări cu entităţile asociate şi entităţile controlate"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:4538",
+  "IdSup": "chart:453",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "4538",
+  "Name": {
+   "ro": "Dobânzi aferente decontărilor cu entităţile asociate şi entităţile controlate în comun"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:455",
+  "IdSup": "chart:45",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "455",
+  "Name": {
+   "ro": "Sume datorate acţionarilor/asociaţilor"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:4551",
+  "IdSup": "chart:455",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "4551",
+  "Name": {
+   "ro": "Acţionari/Asociaţi - conturi curente"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:4558",
+  "IdSup": "chart:455",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "4558",
+  "Name": {
+   "ro": "Acţionari/Asociaţi - dobânzi la conturi curente"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:456",
+  "IdSup": "chart:45",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "456",
+  "Name": {
+   "ro": "Decontări cu acţionarii/asociaţii privind capitalul"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:457",
+  "IdSup": "chart:45",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "457",
+  "Name": {
+   "ro": "Dividende de plată"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:458",
+  "IdSup": "chart:45",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "458",
+  "Name": {
+   "ro": "Decontări din operaţiuni în participaţie"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:4581",
+  "IdSup": "chart:458",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "4581",
+  "Name": {
+   "ro": "Decontări din operaţiuni în participaţie - pasiv"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:4582",
+  "IdSup": "chart:458",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "4582",
+  "Name": {
+   "ro": "Decontări din operaţiuni în participaţie - activ"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:46",
+  "IdSup": "chart:4",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "46",
+  "Name": {
+   "ro": "Debitori şi creditori diverşi"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:461",
+  "IdSup": "chart:46",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "461",
+  "Name": {
+   "ro": "Debitori diverşi"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:462",
+  "IdSup": "chart:46",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "462",
+  "Name": {
+   "ro": "Creditori diverşi"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:463",
+  "IdSup": "chart:46",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "463",
+  "Name": {
+   "ro": "Creante reprezentand dividende repartizate in cursul exercitiului financiar"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:466",
+  "IdSup": "chart:46",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "466",
+  "Name": {
+   "ro": "Decontări din operațiuni de fiducie"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:4661",
+  "IdSup": "chart:466",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "4661",
+  "Name": {
+   "ro": "Datorii din operațiuni de fiducie"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:4662",
+  "IdSup": "chart:466",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "4662",
+  "Name": {
+   "ro": "Creanțe din operațiuni de fiducie"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:47",
+  "IdSup": "chart:4",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "47",
+  "Name": {
+   "ro": "Conturi de subvenţii, regularizare şi asimilate"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:471",
+  "IdSup": "chart:47",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "471",
+  "Name": {
+   "ro": "Cheltuieli înregistrate în avans"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:472",
+  "IdSup": "chart:47",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "472",
+  "Name": {
+   "ro": "Venituri înregistrate în avans"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:473",
+  "IdSup": "chart:47",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "473",
+  "Name": {
+   "ro": "Decontări din operaţiuni în curs de clarificare"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:475",
+  "IdSup": "chart:47",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "475",
+  "Name": {
+   "ro": "Subvenţii pentru investiţii"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:4751",
+  "IdSup": "chart:475",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "4751",
+  "Name": {
+   "ro": "Subvenţii guvernamentale pentru investiţii"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:4752",
+  "IdSup": "chart:475",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "4752",
+  "Name": {
+   "ro": "Împrumuturi nerambursabile cu caracter de subvenţii pentru investiţii"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:4753",
+  "IdSup": "chart:475",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "4753",
+  "Name": {
+   "ro": "Donaţii pentru investiţii"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:4754",
+  "IdSup": "chart:475",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "4754",
+  "Name": {
+   "ro": "Plusuri de inventar de natura imobilizărilor"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:4758",
+  "IdSup": "chart:475",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "4758",
+  "Name": {
+   "ro": "Alte sume primite cu caracter de subvenţii pentru investiţii"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:478",
+  "IdSup": "chart:47",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "478",
+  "Name": {
+   "ro": "Venituri în avans aferente activelor primite prin transfer de la clienţi"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:48",
+  "IdSup": "chart:4",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "48",
+  "Name": {
+   "ro": "Decontări în cadrul unităţii"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:481",
+  "IdSup": "chart:48",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "481",
+  "Name": {
+   "ro": "Decontări între unitate şi subunităţi"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:482",
+  "IdSup": "chart:48",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "482",
+  "Name": {
+   "ro": "Decontări între subunităţi"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:49",
+  "IdSup": "chart:4",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "49",
+  "Name": {
+   "ro": "Ajustări pentru deprecierea creanţelor 490 Ajustari pentru deprecierea creantelor reprezentand avansuri acordate furnizorilor 4901 Ajustari pentru deprecierea creantelor aferente cumpararilor de bunuri de natura stocurilor 4902 Ajustari pentru deprecierea creantelor aferente prestarilor de servicii 4903 Ajustari pentru deprecierea creantelor aferente imobilizarilor corporale 4904 Ajustari pentru deprecierea creantelor aferente imobilizarilor necorporale"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:491",
+  "IdSup": "chart:49",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "491",
+  "Name": {
+   "ro": "Ajustări pentru deprecierea creanţelor - clienţi"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:495",
+  "IdSup": "chart:49",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "495",
+  "Name": {
+   "ro": "Ajustări pentru deprecierea creanţelor - decontări în cadrul grupului şi cu acţionarii/asociaţii"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:496",
+  "IdSup": "chart:49",
+  "Active": true,
+  "TypeId": "chart_type:4",
+  "Code": "496",
+  "Name": {
+   "ro": "Ajustări pentru deprecierea creanţelor - debitori diverşi"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:5",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "5",
+  "Name": {
+   "ro": "Conturi de trezorerie"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:50",
+  "IdSup": "chart:5",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "50",
+  "Name": {
+   "ro": "Investiţii pe termen scurt"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:501",
+  "IdSup": "chart:50",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "501",
+  "Name": {
+   "ro": "Acţiuni deţinute la entităţile afiliate"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:505",
+  "IdSup": "chart:50",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "505",
+  "Name": {
+   "ro": "Obligaţiuni emise şi răscumpărate"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:506",
+  "IdSup": "chart:50",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "506",
+  "Name": {
+   "ro": "Obligaţiuni"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:507",
+  "IdSup": "chart:50",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "507",
+  "Name": {
+   "ro": "Certificate verzi primite"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:508",
+  "IdSup": "chart:50",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "508",
+  "Name": {
+   "ro": "Alte investiţii pe termen scurt şi creanţe asimilate"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:5081",
+  "IdSup": "chart:508",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "5081",
+  "Name": {
+   "ro": "Alte titluri de plasament"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:5088",
+  "IdSup": "chart:508",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "5088",
+  "Name": {
+   "ro": "Dobânzi la obligaţiuni şi titluri de plasament"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:509",
+  "IdSup": "chart:50",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "509",
+  "Name": {
+   "ro": "Vărsăminte de efectuat pentru investiţiile pe termen scurt"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:5091",
+  "IdSup": "chart:509",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "5091",
+  "Name": {
+   "ro": "Vărsăminte de efectuat pentru acţiunile deţinute la entităţile afiliate"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:5092",
+  "IdSup": "chart:509",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "5092",
+  "Name": {
+   "ro": "Vărsăminte de efectuat pentru alte investiţii pe termen scurt"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:51",
+  "IdSup": "chart:5",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "51",
+  "Name": {
+   "ro": "Conturi la bănci"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:511",
+  "IdSup": "chart:51",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "511",
+  "Name": {
+   "ro": "Valori de încasat"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:5112",
+  "IdSup": "chart:511",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "5112",
+  "Name": {
+   "ro": "Cecuri de încasat"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:5113",
+  "IdSup": "chart:511",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "5113",
+  "Name": {
+   "ro": "Efecte de încasat"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:5114",
+  "IdSup": "chart:511",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "5114",
+  "Name": {
+   "ro": "Efecte remise spre scontare"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:512",
+  "IdSup": "chart:51",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "512",
+  "Name": {
+   "ro": "Conturi curente la bănci"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:5121",
+  "IdSup": "chart:512",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "5121",
+  "Name": {
+   "ro": "Conturi la bănci în lei"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:5124",
+  "IdSup": "chart:512",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "5124",
+  "Name": {
+   "ro": "Conturi la bănci în valută"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:5125",
+  "IdSup": "chart:512",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "5125",
+  "Name": {
+   "ro": "Sume în curs de decontare"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:5126",
+  "IdSup": "chart:512",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "5126",
+  "Name": {
+   "ro": "Conturi la bănci în lei - TVA defalcat"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:5127",
+  "IdSup": "chart:512",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "5127",
+  "Name": {
+   "ro": "Conturi la bănci în valută - TVA defalcat"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:518",
+  "IdSup": "chart:51",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "518",
+  "Name": {
+   "ro": "Dobânzi"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:5186",
+  "IdSup": "chart:518",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "5186",
+  "Name": {
+   "ro": "Dobânzi de plătit"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:5187",
+  "IdSup": "chart:518",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "5187",
+  "Name": {
+   "ro": "Dobânzi de încasat"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:519",
+  "IdSup": "chart:51",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "519",
+  "Name": {
+   "ro": "Credite bancare pe termen scurt"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:5191",
+  "IdSup": "chart:519",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "5191",
+  "Name": {
+   "ro": "Credite bancare pe termen scurt"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:5192",
+  "IdSup": "chart:519",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "5192",
+  "Name": {
+   "ro": "Credite bancare pe termen scurt nerambursate la scadenţă"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:5193",
+  "IdSup": "chart:519",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "5193",
+  "Name": {
+   "ro": "Credite externe guvernamentale"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:5194",
+  "IdSup": "chart:519",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "5194",
+  "Name": {
+   "ro": "Credite externe garantate de stat"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:5195",
+  "IdSup": "chart:519",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "5195",
+  "Name": {
+   "ro": "Credite externe garantate de bănci"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:5196",
+  "IdSup": "chart:519",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "5196",
+  "Name": {
+   "ro": "Credite de la Trezoreria Statului"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:5197",
+  "IdSup": "chart:519",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "5197",
+  "Name": {
+   "ro": "Credite interne garantate de stat"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:5198",
+  "IdSup": "chart:519",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "5198",
+  "Name": {
+   "ro": "Dobânzi aferente creditelor bancare pe termen scurt"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:53",
+  "IdSup": "chart:5",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "53",
+  "Name": {
+   "ro": "Casa"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:531",
+  "IdSup": "chart:53",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "531",
+  "Name": {
+   "ro": "Casa"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:5311",
+  "IdSup": "chart:531",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "5311",
+  "Name": {
+   "ro": "Casa în lei"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:5314",
+  "IdSup": "chart:531",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "5314",
+  "Name": {
+   "ro": "Casa în valută"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:532",
+  "IdSup": "chart:53",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "532",
+  "Name": {
+   "ro": "Alte valori"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:5321",
+  "IdSup": "chart:532",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "5321",
+  "Name": {
+   "ro": "Timbre fiscale şi poştale"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:5322",
+  "IdSup": "chart:532",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "5322",
+  "Name": {
+   "ro": "Bilete de tratament şi odihnă"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:5323",
+  "IdSup": "chart:532",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "5323",
+  "Name": {
+   "ro": "Tichete şi bilete de călătorie"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:5328",
+  "IdSup": "chart:532",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "5328",
+  "Name": {
+   "ro": "Alte valori"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:54",
+  "IdSup": "chart:5",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "54",
+  "Name": {
+   "ro": "Acreditive"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:541",
+  "IdSup": "chart:54",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "541",
+  "Name": {
+   "ro": "Acreditive"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:5411",
+  "IdSup": "chart:541",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "5411",
+  "Name": {
+   "ro": "Acreditive în lei"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:5414",
+  "IdSup": "chart:541",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "5414",
+  "Name": {
+   "ro": "Acreditive în valută"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:542",
+  "IdSup": "chart:54",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "542",
+  "Name": {
+   "ro": "Avansuri de trezorerie"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:58",
+  "IdSup": "chart:5",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "58",
+  "Name": {
+   "ro": "Viramente interne"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:581",
+  "IdSup": "chart:58",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "581",
+  "Name": {
+   "ro": "Viramente interne"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:59",
+  "IdSup": "chart:5",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "59",
+  "Name": {
+   "ro": "Ajustări pentru pierderea de valoare a conturilor de trezorerie"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:591",
+  "IdSup": "chart:59",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "591",
+  "Name": {
+   "ro": "Ajustări pentru pierderea de valoare a acţiunilor deţinute la entităţile afiliate"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:595",
+  "IdSup": "chart:59",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "595",
+  "Name": {
+   "ro": "Ajustări pentru pierderea de valoare a obligaţiunilor emise si răscumpărate"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:596",
+  "IdSup": "chart:59",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "596",
+  "Name": {
+   "ro": "Ajustări pentru pierderea de valoare a obligaţiunilor"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:598",
+  "IdSup": "chart:59",
+  "Active": true,
+  "TypeId": "chart_type:5",
+  "Code": "598",
+  "Name": {
+   "ro": "Ajustări pentru pierderea de valoare a altor investiţii pe termen scurt şi creanţe asimilate"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:6",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "6",
+  "Name": {
+   "ro": "Conturi de cheltuieli"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:60",
+  "IdSup": "chart:6",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "60",
+  "Name": {
+   "ro": "Cheltuieli privind stocurile"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:601",
+  "IdSup": "chart:60",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "601",
+  "Name": {
+   "ro": "Cheltuieli cu materiile prime"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:602",
+  "IdSup": "chart:60",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "602",
+  "Name": {
+   "ro": "Cheltuieli cu materialele consumabile"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:6021",
+  "IdSup": "chart:602",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "6021",
+  "Name": {
+   "ro": "Cheltuieli cu materialele auxiliare"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:6022",
+  "IdSup": "chart:602",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "6022",
+  "Name": {
+   "ro": "Cheltuieli privind combustibilii"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:6023",
+  "IdSup": "chart:602",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "6023",
+  "Name": {
+   "ro": "Cheltuieli privind materialele pentru ambalat"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:6024",
+  "IdSup": "chart:602",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "6024",
+  "Name": {
+   "ro": "Cheltuieli privind piesele de schimb"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:6025",
+  "IdSup": "chart:602",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "6025",
+  "Name": {
+   "ro": "Cheltuieli privind seminţele şi materialele de plantat"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:6026",
+  "IdSup": "chart:602",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "6026",
+  "Name": {
+   "ro": "Cheltuieli privind furajele"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:6028",
+  "IdSup": "chart:602",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "6028",
+  "Name": {
+   "ro": "Cheltuieli privind alte materiale consumabile"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:603",
+  "IdSup": "chart:60",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "603",
+  "Name": {
+   "ro": "Cheltuieli privind materialele de natura obiectelor de inventar"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:604",
+  "IdSup": "chart:60",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "604",
+  "Name": {
+   "ro": "Cheltuieli privind materialele nestocate"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:605",
+  "IdSup": "chart:60",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "605",
+  "Name": {
+   "ro": "Cheltuieli privind energia şi apa"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:606",
+  "IdSup": "chart:60",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "606",
+  "Name": {
+   "ro": "Cheltuieli privind activele biologice de natura stocurilor"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:607",
+  "IdSup": "chart:60",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "607",
+  "Name": {
+   "ro": "Cheltuieli privind mărfurile"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:608",
+  "IdSup": "chart:60",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "608",
+  "Name": {
+   "ro": "Cheltuieli privind ambalajele"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:609",
+  "IdSup": "chart:60",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "609",
+  "Name": {
+   "ro": "Reduceri comerciale primite"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:61",
+  "IdSup": "chart:6",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "61",
+  "Name": {
+   "ro": "Cheltuieli cu serviciile executate de terţi"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:611",
+  "IdSup": "chart:61",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "611",
+  "Name": {
+   "ro": "Cheltuieli cu întreţinerea şi reparaţiile"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:612",
+  "IdSup": "chart:61",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "612",
+  "Name": {
+   "ro": "Cheltuieli cu redevenţele, locaţiile de gestiune şi chiriile"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:613",
+  "IdSup": "chart:61",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "613",
+  "Name": {
+   "ro": "Cheltuieli cu primele de asigurare"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:614",
+  "IdSup": "chart:61",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "614",
+  "Name": {
+   "ro": "Cheltuieli cu studiile şi cercetările"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:615",
+  "IdSup": "chart:61",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "615",
+  "Name": {
+   "ro": "Cheltuieli cu pregătirea personalului"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:62",
+  "IdSup": "chart:6",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "62",
+  "Name": {
+   "ro": "Cheltuieli cu alte servicii executate de terţi"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:621",
+  "IdSup": "chart:62",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "621",
+  "Name": {
+   "ro": "Cheltuieli cu colaboratorii"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:622",
+  "IdSup": "chart:62",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "622",
+  "Name": {
+   "ro": "Cheltuieli privind comisioanele şi onorariile"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:623",
+  "IdSup": "chart:62",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "623",
+  "Name": {
+   "ro": "Cheltuieli de protocol, reclamă şi publicitate"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:6231",
+  "IdSup": "chart:623",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "6231",
+  "Name": {
+   "ro": "Cheltuieli de protocol"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:6232",
+  "IdSup": "chart:623",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "6232",
+  "Name": {
+   "ro": "Cheltuieli de reclama si publicitate"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:624",
+  "IdSup": "chart:62",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "624",
+  "Name": {
+   "ro": "Cheltuieli cu transportul de bunuri şi personal"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:625",
+  "IdSup": "chart:62",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "625",
+  "Name": {
+   "ro": "Cheltuieli cu deplasări, detaşări şi transferări"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:626",
+  "IdSup": "chart:62",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "626",
+  "Name": {
+   "ro": "Cheltuieli poştale şi taxe de telecomunicaţii"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:627",
+  "IdSup": "chart:62",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "627",
+  "Name": {
+   "ro": "Cheltuieli cu serviciile bancare şi asimilate"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:628",
+  "IdSup": "chart:62",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "628",
+  "Name": {
+   "ro": "Alte cheltuieli cu serviciile executate de terţi"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:63",
+  "IdSup": "chart:6",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "63",
+  "Name": {
+   "ro": "Cheltuieli cu alte impozite, taxe şi vărsăminte asimilate"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:635",
+  "IdSup": "chart:63",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "635",
+  "Name": {
+   "ro": "Cheltuieli cu alte impozite, taxe şi vărsăminte asimilate"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:64",
+  "IdSup": "chart:6",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "64",
+  "Name": {
+   "ro": "Cheltuieli cu personalul"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:641",
+  "IdSup": "chart:64",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "641",
+  "Name": {
+   "ro": "Cheltuieli cu salariile personalului"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:642",
+  "IdSup": "chart:64",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "642",
+  "Name": {
+   "ro": "Cheltuieli cu avantajele în natură şi tichetele acordate salariaţilor"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:6421",
+  "IdSup": "chart:642",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "6421",
+  "Name": {
+   "ro": "Cheltuieli cu avantajele în natură acordate salariaţilor"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:6422",
+  "IdSup": "chart:642",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "6422",
+  "Name": {
+   "ro": "Cheltuieli cu tichetele acordate salariaţilor"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:643",
+  "IdSup": "chart:64",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "643",
+  "Name": {
+   "ro": "Cheltuieli cu remunerarea în instrumente de capitaluri proprii"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:644",
+  "IdSup": "chart:64",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "644",
+  "Name": {
+   "ro": "Cheltuieli cu primele reprezentând participarea personalului la profit"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:645",
+  "IdSup": "chart:64",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "645",
+  "Name": {
+   "ro": "Cheltuieli privind asigurările şi protecţia socială"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:6451",
+  "IdSup": "chart:645",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "6451",
+  "Name": {
+   "ro": "Cheltuieli privind contribuţia unităţii la asigurările sociale"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:6452",
+  "IdSup": "chart:645",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "6452",
+  "Name": {
+   "ro": "Cheltuieli privind contribuţia unităţii pentru ajutorul de şomaj"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:6453",
+  "IdSup": "chart:645",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "6453",
+  "Name": {
+   "ro": "Cheltuieli privind contribuţia angajatorului pentru asigurările sociale de sănătate"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:6455",
+  "IdSup": "chart:645",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "6455",
+  "Name": {
+   "ro": "Cheltuieli privind contribuţia unităţii la asigurările de viaţă"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:6456",
+  "IdSup": "chart:645",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "6456",
+  "Name": {
+   "ro": "Cheltuieli privind contribuţia unităţii la fondurile de pensii facultative Plan de conturi cf. OMFP 1802/2014 actualizat 2019 - Editia de buzunar"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:6457",
+  "IdSup": "chart:645",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "6457",
+  "Name": {
+   "ro": "Cheltuieli privind contribuţia unităţii la primele de asigurare voluntară de sănătate"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:6458",
+  "IdSup": "chart:645",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "6458",
+  "Name": {
+   "ro": "Alte cheltuieli privind asigurările şi protecţia social"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:646",
+  "IdSup": "chart:64",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "646",
+  "Name": {
+   "ro": "Cheltuieli privind contribuția asiguratorie pentru muncă"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:65",
+  "IdSup": "chart:6",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "65",
+  "Name": {
+   "ro": "Alte cheltuieli de exploatare"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:651",
+  "IdSup": "chart:65",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "651",
+  "Name": {
+   "ro": "Cheltuieli din operațiuni de fiducie"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:655",
+  "IdSup": "chart:65",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "655",
+  "Name": {
+   "ro": "Cheltuieli din reevaluarea imobilizărilor corporale"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:6511",
+  "IdSup": "chart:651",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "6511",
+  "Name": {
+   "ro": "Cheltuieli ocazionate de constituirea fiduciei"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:6512",
+  "IdSup": "chart:651",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "6512",
+  "Name": {
+   "ro": "Cheltuieli din derularea operațiunilor de fiducie"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:6513",
+  "IdSup": "chart:651",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "6513",
+  "Name": {
+   "ro": "Cheltuieli din lichidarea operațiunilor de fiducie"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:652",
+  "IdSup": "chart:65",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "652",
+  "Name": {
+   "ro": "Cheltuieli cu protecția mediului înconjurător"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:654",
+  "IdSup": "chart:65",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "654",
+  "Name": {
+   "ro": "Pierderi din creanțe și debitori diverși"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:658",
+  "IdSup": "chart:65",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "658",
+  "Name": {
+   "ro": "Alte cheltuieli de exploatare"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:6581",
+  "IdSup": "chart:658",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "6581",
+  "Name": {
+   "ro": "Despăgubiri, amenzi şi penalităţi"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:6582",
+  "IdSup": "chart:658",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "6582",
+  "Name": {
+   "ro": "Donaţii acordate"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:6583",
+  "IdSup": "chart:658",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "6583",
+  "Name": {
+   "ro": "Cheltuieli privind activele cedate şi alte operaţiuni de capital"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:6584",
+  "IdSup": "chart:658",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "6584",
+  "Name": {
+   "ro": "Cheltuieli cu sumele sau bunurile acordate ca sponsorizări"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:6586",
+  "IdSup": "chart:658",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "6586",
+  "Name": {
+   "ro": "Cheltuieli reprezentând transferuri şi contribuţii datorate în baza unor acte normative speciale"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:6587",
+  "IdSup": "chart:658",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "6587",
+  "Name": {
+   "ro": "Cheltuieli privind calamităţile şi alte evenimente similare"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:6588",
+  "IdSup": "chart:658",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "6588",
+  "Name": {
+   "ro": "Alte cheltuieli de exploatare"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:66",
+  "IdSup": "chart:6",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "66",
+  "Name": {
+   "ro": "Cheltuieli financiare"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:663",
+  "IdSup": "chart:66",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "663",
+  "Name": {
+   "ro": "Pierderi din creanţe legate de participaţii"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:664",
+  "IdSup": "chart:66",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "664",
+  "Name": {
+   "ro": "Cheltuieli privind investiţiile financiare cedate"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:6641",
+  "IdSup": "chart:664",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "6641",
+  "Name": {
+   "ro": "Cheltuieli privind imobilizările financiare cedate"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:6642",
+  "IdSup": "chart:664",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "6642",
+  "Name": {
+   "ro": "Pierderi din investiţiile pe termen scurt cedate"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:665",
+  "IdSup": "chart:66",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "665",
+  "Name": {
+   "ro": "Cheltuieli din diferenţe de curs valutar monetare exprimate în valută"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:6651",
+  "IdSup": "chart:665",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "6651",
+  "Name": {
+   "ro": "Diferente nefavorabile de curs valutar legate de elementele monetare exprimate in valuta"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:6652",
+  "IdSup": "chart:665",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "6652",
+  "Name": {
+   "ro": "Diferenţe nefavorabile de curs valutar din evaluarea elementelor monetare care fac parte din investitia neta intr-o entitate starina 666 Cheltuieli privind dobanzile 667 Cheltuieli privind sconturile acordate 668 Alte cheltuieli financiare"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:68",
+  "IdSup": "chart:6",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "68",
+  "Name": {
+   "ro": "Cheltuieli cu amortizările, provizioanele şi ajustările pentru depreciere sau pierdere de valoare"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:681",
+  "IdSup": "chart:68",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "681",
+  "Name": {
+   "ro": "Cheltuieli de exploatare privind amortizările, provizioanele şi ajustările pentru depreciere"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:6811",
+  "IdSup": "chart:681",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "6811",
+  "Name": {
+   "ro": "Cheltuieli de exploatare privind amortizarea imobilizărilor"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:6812",
+  "IdSup": "chart:681",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "6812",
+  "Name": {
+   "ro": "Cheltuieli de exploatare privind provizioanele"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:6813",
+  "IdSup": "chart:681",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "6813",
+  "Name": {
+   "ro": "Cheltuieli de exploatare privind ajustările pentru deprecierea imobilizărilor"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:6814",
+  "IdSup": "chart:681",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "6814",
+  "Name": {
+   "ro": "Cheltuieli de exploatare privind ajustările pentru deprecierea activelor circulante"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:6817",
+  "IdSup": "chart:681",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "6817",
+  "Name": {
+   "ro": "Cheltuieli de exploatare privind ajustările pentru deprecierea fondului comercial 6818 Cheltuieli de exploatare privind ajustarile pentru deprecierea creantelor reprezentand avansuri acordate furnizorilor"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:686",
+  "IdSup": "chart:68",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "686",
+  "Name": {
+   "ro": "Cheltuieli financiare privind amortizările, provizioanele şi ajustările pentru pierdere de valoare"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:6861",
+  "IdSup": "chart:686",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "6861",
+  "Name": {
+   "ro": "Cheltuieli privind actualizarea provizioanelor"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:6863",
+  "IdSup": "chart:686",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "6863",
+  "Name": {
+   "ro": "Cheltuieli financiare privind ajustările pentru pierderea de valoare a imobilizărilor financiare"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:6864",
+  "IdSup": "chart:686",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "6864",
+  "Name": {
+   "ro": "Cheltuieli financiare privind ajustările pentru pierderea de valoare a activelor circulante"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:6865",
+  "IdSup": "chart:686",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "6865",
+  "Name": {
+   "ro": "Cheltuieli financiare privind amortizarea diferențelor aferente titlurilor de stat"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:6868",
+  "IdSup": "chart:686",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "6868",
+  "Name": {
+   "ro": "Cheltuieli financiare privind amortizarea primelor de rambursare a obligaţiunilor şi a altor datorii"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:69",
+  "IdSup": "chart:6",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "69",
+  "Name": {
+   "ro": "Cheltuieli cu impozitul pe profit şi alte impozite"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:691",
+  "IdSup": "chart:69",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "691",
+  "Name": {
+   "ro": "Cheltuieli cu impozitul pe profit"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:695",
+  "IdSup": "chart:69",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "695",
+  "Name": {
+   "ro": "Cheltuieli cu impozitul specific unor activitati"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:698",
+  "IdSup": "chart:69",
+  "Active": true,
+  "TypeId": "chart_type:6",
+  "Code": "698",
+  "Name": {
+   "ro": "Cheltuieli cu impozitul pe venit şi cu alte impozite care nu apar în elementele de mai sus"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:7",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "7",
+  "Name": {
+   "ro": "Conturi de venituri"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:70",
+  "IdSup": "chart:7",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "70",
+  "Name": {
+   "ro": "Cifra de afaceri netă"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:701",
+  "IdSup": "chart:70",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "701",
+  "Name": {
+   "ro": "Venituri din vânzarea produselor finite, produselor agricole şi a activelor biologice de natura stocurilor"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:7015",
+  "IdSup": "chart:701",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "7015",
+  "Name": {
+   "ro": "Venituri din vânzarea produselor finite"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:7017",
+  "IdSup": "chart:701",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "7017",
+  "Name": {
+   "ro": "Venituri din vânzarea produselor agricole"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:7018",
+  "IdSup": "chart:701",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "7018",
+  "Name": {
+   "ro": "Venituri din vânzarea activelor biologice de natura stocurilor"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:702",
+  "IdSup": "chart:70",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "702",
+  "Name": {
+   "ro": "Venituri din vânzarea semifabricatelor"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:703",
+  "IdSup": "chart:70",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "703",
+  "Name": {
+   "ro": "Venituri din vânzarea produselor reziduale"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:704",
+  "IdSup": "chart:70",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "704",
+  "Name": {
+   "ro": "Venituri din servicii prestate"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:705",
+  "IdSup": "chart:70",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "705",
+  "Name": {
+   "ro": "Venituri din studii şi cercetări"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:706",
+  "IdSup": "chart:70",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "706",
+  "Name": {
+   "ro": "Venituri din redevenţe, locaţii de gestiune şi chirii"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:707",
+  "IdSup": "chart:70",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "707",
+  "Name": {
+   "ro": "Venituri din vânzarea mărfurilor"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:708",
+  "IdSup": "chart:70",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "708",
+  "Name": {
+   "ro": "Venituri din activităţi diverse"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:709",
+  "IdSup": "chart:70",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "709",
+  "Name": {
+   "ro": "Reduceri comerciale acordate"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:71",
+  "IdSup": "chart:7",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "71",
+  "Name": {
+   "ro": "Venituri aferente costului producţiei în curs de execuţie"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:711",
+  "IdSup": "chart:71",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "711",
+  "Name": {
+   "ro": "Venituri aferente costurilor stocurilor de produse"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:712",
+  "IdSup": "chart:71",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "712",
+  "Name": {
+   "ro": "Venituri aferente costurilor serviciilor în curs de execuţie"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:72",
+  "IdSup": "chart:7",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "72",
+  "Name": {
+   "ro": "Venituri din producţia de imobilizări"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:721",
+  "IdSup": "chart:72",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "721",
+  "Name": {
+   "ro": "Venituri din producţia de imobilizări necorporale"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:722",
+  "IdSup": "chart:72",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "722",
+  "Name": {
+   "ro": "Venituri din producţia de imobilizări corporale"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:725",
+  "IdSup": "chart:72",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "725",
+  "Name": {
+   "ro": "Venituri din producţia de investiţii imobiliare"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:74",
+  "IdSup": "chart:7",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "74",
+  "Name": {
+   "ro": "Venituri din subvenţii de exploatare"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:741",
+  "IdSup": "chart:74",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "741",
+  "Name": {
+   "ro": "Venituri din subvenţii de exploatare"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:7411",
+  "IdSup": "chart:741",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "7411",
+  "Name": {
+   "ro": "Venituri din subvenţii de exploatare aferente cifrei de afaceri"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:7412",
+  "IdSup": "chart:741",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "7412",
+  "Name": {
+   "ro": "Venituri din subvenţii de exploatare pentru materii prime şi materiale"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:7413",
+  "IdSup": "chart:741",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "7413",
+  "Name": {
+   "ro": "Venituri din subvenţii de exploatare pentru alte cheltuieli externe din creanţe şi debitori diverşi investiţia netă intr-o entitate străină"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:7414",
+  "IdSup": "chart:741",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "7414",
+  "Name": {
+   "ro": "Venituri din subvenții de exploatare pentru plata personalului"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:7415",
+  "IdSup": "chart:741",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "7415",
+  "Name": {
+   "ro": "Venituri din subvenții de exploatare pentru asigurări și protecție socială"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:7416",
+  "IdSup": "chart:741",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "7416",
+  "Name": {
+   "ro": "Venituri din subvenții de exploatare pentru alte cheltuieli de exploatare"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:7417",
+  "IdSup": "chart:741",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "7417",
+  "Name": {
+   "ro": "Venituri din subvenții de exploatare în caz de calamități și alte evenimente similare"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:7418",
+  "IdSup": "chart:741",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "7418",
+  "Name": {
+   "ro": "Venituri din subvenții de exploatare pentru dobânda datorată"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:7419",
+  "IdSup": "chart:741",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "7419",
+  "Name": {
+   "ro": "Venituri din subvenții de exploatare aferente altor venituri."
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:75",
+  "IdSup": "chart:7",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "75",
+  "Name": {
+   "ro": "Alte venituri din exploatare"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:751",
+  "IdSup": "chart:75",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "751",
+  "Name": {
+   "ro": "Venituri din operațiuni de fiducie"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:7511",
+  "IdSup": "chart:751",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "7511",
+  "Name": {
+   "ro": "Venituri ocazionate de constituirea fiduciei"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:7512",
+  "IdSup": "chart:751",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "7512",
+  "Name": {
+   "ro": "Venituri din derularea operațiunilor de fiducie"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:7513",
+  "IdSup": "chart:751",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "7513",
+  "Name": {
+   "ro": "Venituri din lichidarea operațiunilor de fiducie."
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:754",
+  "IdSup": "chart:75",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "754",
+  "Name": {
+   "ro": "Venituri din creanţe reactivate şi debitori diverşi"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:755",
+  "IdSup": "chart:75",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "755",
+  "Name": {
+   "ro": "Venituri din reevaluarea imobilizărilor corporale"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:758",
+  "IdSup": "chart:75",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "758",
+  "Name": {
+   "ro": "Alte venituri din exploatare"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:7581",
+  "IdSup": "chart:758",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "7581",
+  "Name": {
+   "ro": "Venituri din despăgubiri, amenzi şi penalităţi"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:7582",
+  "IdSup": "chart:758",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "7582",
+  "Name": {
+   "ro": "Venituri din donaţii primite"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:7583",
+  "IdSup": "chart:758",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "7583",
+  "Name": {
+   "ro": "Venituri din vânzarea activelor şi alte operaţiuni de capital"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:7584",
+  "IdSup": "chart:758",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "7584",
+  "Name": {
+   "ro": "Venituri din subvenţii pentru investiţii"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:7586",
+  "IdSup": "chart:758",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "7586",
+  "Name": {
+   "ro": "Venituri reprezentând transferuri cuvenite în baza unor ac te normative speciale"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:7588",
+  "IdSup": "chart:758",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "7588",
+  "Name": {
+   "ro": "Alte venituri din exploatare"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:76",
+  "IdSup": "chart:7",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "76",
+  "Name": {
+   "ro": "Venituri financiare"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:761",
+  "IdSup": "chart:76",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "761",
+  "Name": {
+   "ro": "Venituri din imobilizări financiare"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:7611",
+  "IdSup": "chart:761",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "7611",
+  "Name": {
+   "ro": "Venituri din acţiuni deţinute la entităţile afiliate"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:7612",
+  "IdSup": "chart:761",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "7612",
+  "Name": {
+   "ro": "Venituri din acţiuni deţinute la entităţi asociate"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:7613",
+  "IdSup": "chart:761",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "7613",
+  "Name": {
+   "ro": "Venituri din acţiuni deţinute la entităţi controlate în comun"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:7615",
+  "IdSup": "chart:761",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "7615",
+  "Name": {
+   "ro": "Venituri din alte imobilizări financiare"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:762",
+  "IdSup": "chart:76",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "762",
+  "Name": {
+   "ro": "Venituri din investiţii financiare pe termen scurt"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:764",
+  "IdSup": "chart:76",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "764",
+  "Name": {
+   "ro": "Venituri din investiţii financiare cedate"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:7641",
+  "IdSup": "chart:764",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "7641",
+  "Name": {
+   "ro": "Venituri din imobilizări financiare cedate"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:7642",
+  "IdSup": "chart:764",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "7642",
+  "Name": {
+   "ro": "Câştiguri din investiţii pe termen scurt cedate"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:765",
+  "IdSup": "chart:76",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "765",
+  "Name": {
+   "ro": "Venituri din diferenţe de curs valutar"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:7651",
+  "IdSup": "chart:765",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "7651",
+  "Name": {
+   "ro": "Diferenţe favorabile de curs valutar legate de elementele monetare exprimate în valută"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:7652",
+  "IdSup": "chart:765",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "7652",
+  "Name": {
+   "ro": "Diferenţe favorabile de curs valutar din evaluarea elementelor monetare care fac parte din investiţia netă într-o entitate străină"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:766",
+  "IdSup": "chart:76",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "766",
+  "Name": {
+   "ro": "Venituri din dobânzi"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:767",
+  "IdSup": "chart:76",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "767",
+  "Name": {
+   "ro": "Venituri din sconturi obţinute"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:768",
+  "IdSup": "chart:76",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "768",
+  "Name": {
+   "ro": "Alte venituri financiare"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:78",
+  "IdSup": "chart:7",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "78",
+  "Name": {
+   "ro": "Venituri din provizioane, amortizări și ajustări pentru depreciere sau pierdere de valoare"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:781",
+  "IdSup": "chart:78",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "781",
+  "Name": {
+   "ro": "Venituri din provizioane şi ajustări pentru depreciere privind activitatea de exploatare"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:7812",
+  "IdSup": "chart:781",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "7812",
+  "Name": {
+   "ro": "Venituri din provizioane"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:7813",
+  "IdSup": "chart:781",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "7813",
+  "Name": {
+   "ro": "Venituri din ajustări pentru deprecierea imobilizărilor"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:7814",
+  "IdSup": "chart:781",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "7814",
+  "Name": {
+   "ro": "Venituri din ajustări pentru deprecierea activelor circulante"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:7815",
+  "IdSup": "chart:781",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "7815",
+  "Name": {
+   "ro": "Venituri din fondul comercial negativ"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:7818",
+  "IdSup": "chart:781",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "7818",
+  "Name": {
+   "ro": "Venituri din ajustari pentru deprecierea creantelor reprezentand avansuri acordate furnizorilor."
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:786",
+  "IdSup": "chart:78",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "786",
+  "Name": {
+   "ro": "Venituri financiare din amortizări și ajustări pentru pierdere de valoare"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:7863",
+  "IdSup": "chart:786",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "7863",
+  "Name": {
+   "ro": "Venituri financiare din ajustări pentru pierderea de valoare a imobilizărilor financiare"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:7864",
+  "IdSup": "chart:786",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "7864",
+  "Name": {
+   "ro": "Venituri financiare din ajustări pentru pierderea de valoare a activelor circulante"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:7865",
+  "IdSup": "chart:786",
+  "Active": true,
+  "TypeId": "chart_type:7",
+  "Code": "7865",
+  "Name": {
+   "ro": "Venituri financiare din amortizarea diferențelor aferente ti tlurilor de stat"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:8",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "chart_type:8",
+  "Code": "8",
+  "Name": {
+   "ro": "Conturi speciale"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:80",
+  "IdSup": "chart:8",
+  "Active": true,
+  "TypeId": "chart_type:8",
+  "Code": "80",
+  "Name": {
+   "ro": "Conturi în afara bilanţului"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:801",
+  "IdSup": "chart:80",
+  "Active": true,
+  "TypeId": "chart_type:8",
+  "Code": "801",
+  "Name": {
+   "ro": "Angajamente acordate"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:8011",
+  "IdSup": "chart:801",
+  "Active": true,
+  "TypeId": "chart_type:8",
+  "Code": "8011",
+  "Name": {
+   "ro": "Giruri şi garanţii acordate"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:8018",
+  "IdSup": "chart:801",
+  "Active": true,
+  "TypeId": "chart_type:8",
+  "Code": "8018",
+  "Name": {
+   "ro": "Alte angajamente acordate"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:802",
+  "IdSup": "chart:80",
+  "Active": true,
+  "TypeId": "chart_type:8",
+  "Code": "802",
+  "Name": {
+   "ro": "Angajamente primite"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:8021",
+  "IdSup": "chart:802",
+  "Active": true,
+  "TypeId": "chart_type:8",
+  "Code": "8021",
+  "Name": {
+   "ro": "Giruri şi garanţii primite"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:8028",
+  "IdSup": "chart:802",
+  "Active": true,
+  "TypeId": "chart_type:8",
+  "Code": "8028",
+  "Name": {
+   "ro": "Alte angajamente primite"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:803",
+  "IdSup": "chart:80",
+  "Active": true,
+  "TypeId": "chart_type:8",
+  "Code": "803",
+  "Name": {
+   "ro": "Alte conturi în afara bilanţului"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:8031",
+  "IdSup": "chart:803",
+  "Active": true,
+  "TypeId": "chart_type:8",
+  "Code": "8031",
+  "Name": {
+   "ro": "Imobilizari corporale primite cu chirie sau in baza altor contracte similare"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:8032",
+  "IdSup": "chart:803",
+  "Active": true,
+  "TypeId": "chart_type:8",
+  "Code": "8032",
+  "Name": {
+   "ro": "Valori materiale primite spre prelucrare sau reparare"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:8033",
+  "IdSup": "chart:803",
+  "Active": true,
+  "TypeId": "chart_type:8",
+  "Code": "8033",
+  "Name": {
+   "ro": "Valori materiale primite în păstrare sau custodie"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:8034",
+  "IdSup": "chart:803",
+  "Active": true,
+  "TypeId": "chart_type:8",
+  "Code": "8034",
+  "Name": {
+   "ro": "Debitori scoşi din activ, urmăriţi în continuare"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:8035",
+  "IdSup": "chart:803",
+  "Active": true,
+  "TypeId": "chart_type:8",
+  "Code": "8035",
+  "Name": {
+   "ro": "Stocuri de natura obiectelor de inventar date în folosinţă"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:8036",
+  "IdSup": "chart:803",
+  "Active": true,
+  "TypeId": "chart_type:8",
+  "Code": "8036",
+  "Name": {
+   "ro": "Redevenţe, locaţii de gestiune, chirii şi alte datorii asimilate"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:8037",
+  "IdSup": "chart:803",
+  "Active": true,
+  "TypeId": "chart_type:8",
+  "Code": "8037",
+  "Name": {
+   "ro": "Efecte scontate neajunse la scadenţă"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:8038",
+  "IdSup": "chart:803",
+  "Active": true,
+  "TypeId": "chart_type:8",
+  "Code": "8038",
+  "Name": {
+   "ro": "Bunuri primite în administrare, concesiune, cu chirie și alte bunuri similare"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:8039",
+  "IdSup": "chart:803",
+  "Active": true,
+  "TypeId": "chart_type:8",
+  "Code": "8039",
+  "Name": {
+   "ro": "Alte valori în afara bilanţului"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:804",
+  "IdSup": "chart:80",
+  "Active": true,
+  "TypeId": "chart_type:8",
+  "Code": "804",
+  "Name": {
+   "ro": "Certificate verzi"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:805",
+  "IdSup": "chart:80",
+  "Active": true,
+  "TypeId": "chart_type:8",
+  "Code": "805",
+  "Name": {
+   "ro": "Dobânzi aferente contractelor de leasing şi altor contracte asimilate, neajunse la scadenţă"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:8051",
+  "IdSup": "chart:805",
+  "Active": true,
+  "TypeId": "chart_type:8",
+  "Code": "8051",
+  "Name": {
+   "ro": "Dobânzi de plătit"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:8052",
+  "IdSup": "chart:805",
+  "Active": true,
+  "TypeId": "chart_type:8",
+  "Code": "8052",
+  "Name": {
+   "ro": "Dobânzi de încasat"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:806",
+  "IdSup": "chart:80",
+  "Active": true,
+  "TypeId": "chart_type:8",
+  "Code": "806",
+  "Name": {
+   "ro": "Certificate de emisii de gaze cu efect de seră"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:807",
+  "IdSup": "chart:80",
+  "Active": true,
+  "TypeId": "chart_type:8",
+  "Code": "807",
+  "Name": {
+   "ro": "Active contingente"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:808",
+  "IdSup": "chart:80",
+  "Active": true,
+  "TypeId": "chart_type:8",
+  "Code": "808",
+  "Name": {
+   "ro": "Datorii contingente"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:809",
+  "IdSup": "chart:80",
+  "Active": true,
+  "TypeId": "chart_type:8",
+  "Code": "809",
+  "Name": {
+   "ro": "Creanţe preluate prin cesionare"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:89",
+  "IdSup": "chart:8",
+  "Active": true,
+  "TypeId": "chart_type:8",
+  "Code": "89",
+  "Name": {
+   "ro": "Bilanţ"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:891",
+  "IdSup": "chart:89",
+  "Active": true,
+  "TypeId": "chart_type:8",
+  "Code": "891",
+  "Name": {
+   "ro": "Bilanţ de deschidere"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:892",
+  "IdSup": "chart:89",
+  "Active": true,
+  "TypeId": "chart_type:8",
+  "Code": "892",
+  "Name": {
+   "ro": "Bilanţ de închidere"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:9",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "chart_type:9",
+  "Code": "9",
+  "Name": {
+   "ro": "Conturi de gestiune"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:90",
+  "IdSup": "chart:9",
+  "Active": true,
+  "TypeId": "chart_type:9",
+  "Code": "90",
+  "Name": {
+   "ro": "Decontări interne"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:901",
+  "IdSup": "chart:90",
+  "Active": true,
+  "TypeId": "chart_type:9",
+  "Code": "901",
+  "Name": {
+   "ro": "Decontări interne privind cheltuielile"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:902",
+  "IdSup": "chart:90",
+  "Active": true,
+  "TypeId": "chart_type:9",
+  "Code": "902",
+  "Name": {
+   "ro": "Decontări interne privind producţia obţinută"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:903",
+  "IdSup": "chart:90",
+  "Active": true,
+  "TypeId": "chart_type:9",
+  "Code": "903",
+  "Name": {
+   "ro": "Decontări interne privind diferenţele de preţ"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:92",
+  "IdSup": "chart:9",
+  "Active": true,
+  "TypeId": "chart_type:9",
+  "Code": "92",
+  "Name": {
+   "ro": "Conturi de calculaţie"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:921",
+  "IdSup": "chart:92",
+  "Active": true,
+  "TypeId": "chart_type:9",
+  "Code": "921",
+  "Name": {
+   "ro": "Cheltuielile activităţii de bază"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:922",
+  "IdSup": "chart:92",
+  "Active": true,
+  "TypeId": "chart_type:9",
+  "Code": "922",
+  "Name": {
+   "ro": "Cheltuielile activităţilor auxiliare"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:923",
+  "IdSup": "chart:92",
+  "Active": true,
+  "TypeId": "chart_type:9",
+  "Code": "923",
+  "Name": {
+   "ro": "Cheltuieli indirecte de producţie"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:924",
+  "IdSup": "chart:92",
+  "Active": true,
+  "TypeId": "chart_type:9",
+  "Code": "924",
+  "Name": {
+   "ro": "Cheltuieli generale de administraţie"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:925",
+  "IdSup": "chart:92",
+  "Active": true,
+  "TypeId": "chart_type:9",
+  "Code": "925",
+  "Name": {
+   "ro": "Cheltuieli de desfacere"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:93",
+  "IdSup": "chart:9",
+  "Active": true,
+  "TypeId": "chart_type:9",
+  "Code": "93",
+  "Name": {
+   "ro": "Costul producţiei"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:931",
+  "IdSup": "chart:93",
+  "Active": true,
+  "TypeId": "chart_type:9",
+  "Code": "931",
+  "Name": {
+   "ro": "Costul producţiei obţinute"
+  },
+  "IsComposite": false
+ },
+ {
+  "Key": "chart:933",
+  "IdSup": "chart:93",
+  "Active": true,
+  "TypeId": "chart_type:9",
+  "Code": "933",
+  "Name": {
+   "ro": "Costul producţiei în curs de execuţie"
+  },
+  "IsComposite": false
+ }
+]

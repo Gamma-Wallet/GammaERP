@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <!-- Starter data: the organisation a new corporate starts with and the configuration packs per country (Packs/<country>/*.json,
+       exported from the old system's generic configuration by tools/starter-packs). -->
+  <PropertyGroup>
+    <RootNamespace>Gamma.Erp.Seed</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Packs\**\*.json" LogicalName="Packs/%(RecursiveDir)%(Filename)%(Extension)" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Gamma.Erp.Persistence\Gamma.Erp.Persistence.csproj" />
+  </ItemGroup>
+</Project>

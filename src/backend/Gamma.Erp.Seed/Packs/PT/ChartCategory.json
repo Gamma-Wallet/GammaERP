@@ -1,0 +1,15 @@
+[
+ {
+  "Key": "chart_category:STATUTORY",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "SNC",
+  "Name": {
+   "en": "Chart of accounts (SNC)",
+   "pt": "Código de Contas do SNC (Portaria 218/2015)"
+  },
+  "IsStatutory": true,
+  "SortOrder": 10
+ }
+]

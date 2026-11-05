@@ -1,0 +1,71 @@
+<div class="wrap" [attr.aria-busy]="loading() || null">
+  <table [attr.aria-label]="ariaLabel()">
+    <thead>
+      <tr>
+        @if (selectable()) {
+          <th scope="col" class="pick">
+            <ui-checkbox [checked]="allChosen()" [indeterminate]="someChosen()" [ariaLabel]="text.ui.selectAll" (checkedChange)="chooseAll($event)" />
+          </th>
+        }
+        @for (column of columns(); track column.key) {
+          <th scope="col" [style.width]="column.width" [class]="alignOf(column)" [attr.aria-sort]="ariaSort(column)">
+            @if (column.sortable) {
+              <button type="button" class="sort" [class.sorted]="sort()?.key === column.key" (click)="sortBy(column)">
+                {{ column.label }}
+                <ui-icon [name]="sort()?.key !== column.key ? 'sort' : sort()!.direction === 'asc' ? 'arrow-up' : 'arrow-down'" [size]="13" />
+              </button>
+            } @else {
+              {{ column.label }}
+            }
+          </th>
+        }
+      </tr>
+    </thead>
+    <tbody>
+      @for (row of shownRows(); track rowId()(row)) {
+        <tr [class.active]="rowId()(row) === activeId()" [class.chosen]="isChosen(row)" (click)="rowClick.emit(row)">
+          @if (selectable()) {
+            <td class="pick" (click)="$event.stopPropagation()">
+              <ui-checkbox [checked]="isChosen(row)" [ariaLabel]="text.ui.selectRow" (checkedChange)="choose(row, $event)" />
+            </td>
+          }
+          @for (column of columns(); track column.key) {
+            <td [class]="alignOf(column)">
+              @if (templates().get(column.key); as template) {
+                <ng-container *ngTemplateOutlet="template; context: { $implicit: row, value: cellText(row, column) }" />
+              } @else {
+                {{ cellText(row, column) }}
+              }
+            </td>
+          }
+        </tr>
+      } @empty {
+        <tr>
+          <td class="empty" [attr.colspan]="columns().length + (selectable() ? 1 : 0)">
+            {{ loading() ? text.ui.loading : (emptyText() ?? text.ui.noRows) }}
+          </td>
+        </tr>
+      }
+    </tbody>
+    @if (footer(); as footer) {
+      <tfoot>
+        <tr>
+          @if (selectable()) { <td></td> }
+          @for (column of columns(); track column.key) { <td [class]="alignOf(column)">{{ footer[column.key] ?? '' }}</td> }
+        </tr>
+      </tfoot>
+    }
+  </table>
+</div>
+@if (pages() > 1) {
+  <nav class="pager" [attr.aria-label]="text.ui.pageOf(page(), pages())">
+    <span class="muted figures">{{ range() }}</span>
+    <button type="button" class="page-button" [disabled]="page() <= 1" [attr.aria-label]="text.ui.previousPage" (click)="goTo(page() - 1)">
+      <ui-icon name="chevron-left" />
+    </button>
+    <span class="figures">{{ text.ui.pageOf(page(), pages()) }}</span>
+    <button type="button" class="page-button" [disabled]="page() >= pages()" [attr.aria-label]="text.ui.nextPage" (click)="goTo(page() + 1)">
+      <ui-icon name="chevron-right" />
+    </button>
+  </nav>
+}

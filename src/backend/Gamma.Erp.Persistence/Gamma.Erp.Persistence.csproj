@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <!-- The database: maps every model of Gamma.Erp.Models to its tbl_ table in PostgreSQL. Adds no models of its own. -->
+  <PropertyGroup>
+    <RootNamespace>Gamma.Erp.Persistence</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" />
+    <PackageReference Include="EFCore.NamingConventions" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" PrivateAssets="all" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Gamma.Erp.Models\Gamma.Erp.Models.csproj" />
+  </ItemGroup>
+</Project>

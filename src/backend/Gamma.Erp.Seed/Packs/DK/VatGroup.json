@@ -1,0 +1,28 @@
+[
+ {
+  "Key": "vat_group:DK_25",
+  "IdSup": null,
+  "Active": true,
+  "Code": null,
+  "Name": {
+   "en": "VAT 25%",
+   "da": "Moms 25%"
+  },
+  "Description": null,
+  "Rate": 25.0,
+  "Depreciation": false
+ },
+ {
+  "Key": "vat_group:DK_0",
+  "IdSup": null,
+  "Active": true,
+  "Code": null,
+  "Name": {
+   "en": "VAT 0% / exempt",
+   "da": "Moms 0% / fritaget"
+  },
+  "Description": null,
+  "Rate": 0.0,
+  "Depreciation": false
+ }
+]

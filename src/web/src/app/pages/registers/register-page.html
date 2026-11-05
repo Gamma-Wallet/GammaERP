@@ -1,0 +1,85 @@
+<div class="head">
+  <h1>{{ title() }}</h1>
+  <div class="actions">
+    @if (register()?.hasElements && canSetUp()) {
+      <button uiButton [variant]="setup() ? 'primary' : 'default'" (click)="setup.set(!setup())">
+        <ui-icon name="settings" />{{ setup() ? ('Back to the list' | t) : ('Set up' | t) }}
+      </button>
+    }
+    @if (!setup() && canWrite()) {
+      <button uiButton variant="primary" (click)="open.set('new')"><ui-icon name="plus" />{{ 'New' | t }}</button>
+    }
+    @if (entity() === 'charts') { <app-migration-file step="CHART" (imported)="reloadSetup()" /> }
+  </div>
+</div>
+
+@if (message()) {
+  <p class="message" role="alert"><ui-icon name="critical" [size]="16" />{{ message() }}</p>
+}
+
+@if (!register()) {
+  <p class="muted pad">{{ 'There is no such register.' | t }}</p>
+} @else if (setup()) {
+  <app-register-setup [register]="register()!" [categories]="categories()" [types]="types()" [scopes]="scopes()" (changed)="reloadSetup()" />
+} @else {
+  <div class="frame" [class.with-panel]="open()">
+    <nav class="categories" [attr.aria-label]="'Categories' | t">
+      <ng-template #branch let-nodes>
+        <ul>
+          @for (node of nodes; track node.id) {
+            <li>
+              <button type="button" class="category" [class.folder]="!node.row.isElement" [class.current]="node.id === categoryId()"
+                [attr.aria-current]="node.id === categoryId() ? 'true' : null" [disabled]="!node.row.isElement" (click)="chooseCategory(node)">
+                <ui-icon [name]="node.row.isElement ? 'folder' : 'chevron-down'" [size]="14" />{{ nameOf(node.row) }}
+              </button>
+              @if (node.children.length) { <ng-container *ngTemplateOutlet="branch; context: { $implicit: node.children }" /> }
+            </li>
+          }
+        </ul>
+      </ng-template>
+      @if (tree().length) {
+        <ng-container *ngTemplateOutlet="branch; context: { $implicit: tree() }" />
+      } @else if (ready()) {
+        <p class="muted">{{ 'No category is open to you.' | t }}</p>
+      }
+      @if (orphans().length) {
+        <p class="muted orphans">{{ (register()?.isUsers ? 'Without a role ({0})' : 'In no category ({0})') | t: orphans().length }}</p>
+        <ul>
+          @for (row of orphans(); track row.id) {
+            <li><button type="button" class="category" (click)="openOrphan(row)"><ui-icon name="user" [size]="14" />{{ orphanName(row) }}</button></li>
+          }
+        </ul>
+      }
+    </nav>
+
+    <section class="list">
+      <div class="filters">
+        <div class="search">
+          <ui-icon name="search" />
+          <input uiInput type="search" [placeholder]="'Search by code or name' | t" [attr.aria-label]="'Search' | t" (input)="onSearch($any($event.target).value)" />
+        </div>
+        @if (typeChips().length > 1) {
+          <ui-chips [chips]="typeChips()" [chosen]="typeIds()" (chosenChange)="chooseTypes($event)" [showAll]="true" [ariaLabel]="'Types' | t" />
+        }
+      </div>
+      @if (rowTree(); as t) {
+        <div class="tree-tools">
+          <button uiButton variant="quiet" size="small" (click)="expandAll(true)">{{ 'Expand all' | t }}</button>
+          <button uiButton variant="quiet" size="small" (click)="expandAll(false)">{{ 'Collapse all' | t }}</button>
+        </div>
+        <ui-tree-table class="table" [columns]="columns" [rows]="t.roots" [(expanded)]="expanded" [loading]="loadingRows()" [activeId]="open()"
+          [ariaLabel]="title()" (rowClick)="open.set($event.id)" [emptyText]="search() || typeIds().length ? 'Nothing matches.' : 'Nothing here yet.'" />
+      } @else {
+        <ui-table class="table" [columns]="columns" [rows]="rows()" [total]="total()" [(page)]="page" [pageSize]="50" [(sort)]="sort"
+          [loading]="loadingRows()" [activeId]="open()" [ariaLabel]="title()" (rowClick)="open.set($event.id)"
+          [emptyText]="category() ? 'Nothing in ' + nameOf(category()!) + ' yet.' : 'Choose a category.'" />
+      }
+    </section>
+
+    @if (open() && categoryId()) {
+      <app-element-panel class="panel" [register]="register()!" [elementId]="open() === 'new' ? null : open()" [categoryId]="categoryId()!"
+        [defaultTypeId]="firstType()" [categories]="categories()" [types]="types()" [scopes]="scopes()"
+        (closed)="open.set(null)" (saved)="onSaved($event)" />
+    }
+  </div>
+}

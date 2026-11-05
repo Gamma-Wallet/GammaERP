@@ -1,0 +1,78 @@
+[
+ {
+  "Key": "unit_type:STANDARD",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "STANDARD",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Standard",
+   "de": "Standard"
+  },
+  "Description": {
+   "en": "Standard",
+   "de": "Standard"
+  },
+  "SortOrder": 2.0
+ },
+ {
+  "Key": "unit_type:WEIGHT",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "WEIGHT",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Weight",
+   "de": "Gewicht"
+  },
+  "Description": {
+   "en": "Weight",
+   "de": "Gewicht"
+  },
+  "SortOrder": 2.0
+ },
+ {
+  "Key": "unit_type:TIME",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "TIME",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Time",
+   "de": "Zeit"
+  },
+  "Description": {
+   "en": "Time",
+   "de": "Zeit"
+  },
+  "SortOrder": 3.0
+ },
+ {
+  "Key": "unit_type:LENGTH",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "LENGTH",
+  "CodeStart": 0,
+  "CodeEnd": 9999,
+  "CodeCurrent": 0,
+  "Name": {
+   "en": "Length",
+   "de": "Länge"
+  },
+  "Description": {
+   "en": "Length",
+   "de": "Länge"
+  },
+  "SortOrder": 5.0
+ }
+]

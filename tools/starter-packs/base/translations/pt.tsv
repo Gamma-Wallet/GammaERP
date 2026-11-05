@@ -1,0 +1,442 @@
+# The base names in Portuguese (Portugal), keyed by the English name (Gamma's translations), for the packs in Portuguese.
+# en	pt
+Base	Sede
+Cash desk	Caixa
+Bank	Banco
+Point of sale	Ponto de venda
+Warehouse	Armazém
+Office	Escritório
+Tax number	NIF
+Owner	Titular
+Name	Denominação
+Currency	Moeda
+Trade name	Nome comercial
+Address	Morada
+Phone	Telefone
+E-mail	Correio eletrónico
+Website	Sítio web
+Logo	Logótipo
+Authorised person	Pessoa autorizada
+Account	Conta
+Negative stock allowed (cost centres)	Existências negativas permitidas (centros de custo)
+Negative stock allowed (partners)	Existências negativas permitidas (parceiros)
+Negative stock allowed (employees)	Existências negativas permitidas (funcionários)
+cost centres	centros de custo
+partners	terceiros
+employees	colaboradores
+Hold timeout (minutes)	Tempo de bloqueio do documento (minutos)
+ALL	ALL
+EUR	EUR
+USD	USD
+GBP	GBP
+CAD	CAD
+CHF	CHF
+Company book	Livro contabilístico
+Tax book	Livro fiscal
+Straight-line	Quotas constantes
+Straight-line depreciation	Depreciação em quotas constantes
+Remaining value	Valor residual
+Depreciation on the remaining value	Depreciação sobre o valor residual
+Assets	Ativos fixos
+Land	Terrenos
+Buildings	Edifícios
+Office equipment	Equipamento administrativo
+Vehicles	Equipamento de transporte
+Computer equipment	Equipamento informático
+Furniture and fittings	Mobiliário
+Intangible assets	Ativos intangíveis
+Sales	Vendas
+Sales invoices	Faturas emitidas
+Purchases	Compras
+Purchase invoices	Faturas recebidas
+Goods transfers	Transferências de mercadorias
+Goods transfer note	Guia de transporte
+Offers	Orçamentos
+Journal	Diário
+Contracts	Contratos
+Recurring journal	Diário periódico
+Reversals	Estornos
+Sales invoice, goods	Fatura de venda de mercadorias
+Credit note, goods sold	Nota de crédito de venda de mercadorias
+Sales invoice, services	Fatura de prestação de serviços
+Credit note, services sold	Nota de crédito de serviços prestados
+Purchase invoice, goods	Fatura de compra de mercadorias
+Credit note, goods bought	Nota de crédito de compra de mercadorias
+Purchase invoice, services	Fatura de serviços adquiridos
+Credit note, services bought	Nota de crédito de serviços adquiridos
+Payment	Pagamento
+Receipt	Recebimento
+Prepayment	Pagamento antecipado
+Goods transfer, cost centre to staff	Guia de centro de custo para colaborador
+Sales offer, goods	Orçamento de venda de mercadorias
+Depreciation sheet	Mapa de depreciações
+Depreciation journal	Lançamento de depreciações
+Journal sheet	Folha de lançamentos
+Revaluation sheet	Mapa de revalorizações
+Revaluation journal	Lançamento de revalorização
+Advance	Adiantamento
+Client's advance	Adiantamento de cliente
+Employee advance	Adiantamento a colaborador
+Advance to an employee	Adiantamento a um colaborador
+Sales contract, goods	Contrato de venda de mercadorias
+Purchase contract, goods	Contrato de compra de mercadorias
+Purchase offer, goods	Pedido de orçamento de mercadorias
+Sales offer, services	Orçamento de serviços
+Purchase offer, services	Pedido de orçamento de serviços
+Sales contract, services	Contrato de prestação de serviços
+Purchase contract, services	Contrato de serviços adquiridos
+Recurring depreciation sheet	Mapa de depreciações periódico
+Recurring journal sheet	Folha de lançamentos periódica
+Recurring revaluation sheet	Mapa de revalorizações periódico
+General journal entry	Lançamento geral
+Point-of-sale receipt	Fatura simplificada
+Goods transfer, staff to cost centre	Guia de colaborador para centro de custo
+Goods transfer, cost centre to client	Guia de centro de custo para cliente
+Goods transfer, client to cost centre	Guia de cliente para centro de custo
+Point-of-sale contract	Contrato do ponto de venda
+Point-of-sale receipt of money	Recebimento no ponto de venda
+Point-of-sale payment	Pagamento no ponto de venda
+Point-of-sale goods in	Entrada no ponto de venda
+Point-of-sale goods out	Saída do ponto de venda
+Wage payment	Pagamento de salários
+Rent payment	Pagamento de renda
+Customs declaration	Declaração aduaneira
+Customs declaration, assets	Declaração aduaneira de ativos fixos
+Point-of-sale refund	Reembolso no ponto de venda
+Point-of-sale receipt from staff	Recebimento de colaborador no ponto de venda
+Goods out to staff	Saída para colaborador
+Goods transfer, staff to client	Guia de colaborador para cliente
+Goods in from staff	Entrada de colaborador
+Reversal of payment	Anulação de pagamento
+Reversal of receipt	Anulação de recebimento
+Reversal of prepayment	Anulação de pagamento antecipado
+Reversal of depreciation journal	Anulação de lançamento de depreciações
+Reversal of advance	Anulação de adiantamento
+Reversal of employee advance	Anulação de adiantamento a colaborador
+End date	Data de fim
+Offer valid until	Validade do orçamento
+Start date	Data de início
+External number	Número externo
+Contract number	Número do contrato
+Invoice number	Número da fatura
+Carrier	Transportador
+Linked invoice	Fatura relacionada
+Purchase invoice	Fatura de compra
+Last payment date	Data do último pagamento
+Accounts	Contas
+Products / services	Produtos / serviços
+Client / supplier / third party	Cliente / fornecedor / terceiro
+Staff	Pessoal
+Financial documents	Documentos contabilísticos
+Transaction value	Valor da linha
+Transaction discount	Desconto da linha
+Transaction VAT	IVA da linha
+Asset's remaining value	Valor líquido do ativo
+Transaction debit	Débito da linha
+Transaction credit	Crédito da linha
+Transaction value with VAT	Valor da linha com IVA
+Non-current asset accounts	Contas de investimentos
+Inventory accounts	Contas de inventários
+Expense accounts	Contas de gastos
+Income accounts	Contas de rendimentos
+All accounts	Todas as contas
+table	tabela
+specified element	elemento específico
+empty element	elemento vazio
+line reference	referência de linha
+line configuration	configuração de linhas
+document reference	referência de documento
+document configuration	configuração de documentos
+scenario configuration	configuração de cenário
+depreciation scenario configuration	configuração de cenário de depreciação
+depreciation scenario	cenário de depreciação
+Transaction amount	Valor da linha
+Finance	Contabilidade
+Administrator	Administrador
+Financier	Contabilista
+Warehouse keeper	Fiel de armazém
+Driver	Motorista
+Worker	Operário
+Clients	Clientes
+Suppliers	Fornecedores
+Unknown	Desconhecido
+Person	Pessoa singular
+SME	PME
+LTD	Lda.
+Cash	Numerário
+Unpaid	Por pagar
+Credit card	Cartão de crédito
+Products	Produtos
+Services	Serviços
+Goods	Mercadorias
+Service	Serviço
+Asset	Ativo fixo
+Items	Artigos
+Transactions	Linhas
+Journal lines	Linhas de lançamento
+Depreciation lines	Linhas de depreciação
+Revaluation lines	Linhas de revalorização
+Item	Artigo
+Fixed asset	Ativo fixo
+Service item	Artigo (serviço)
+Supplier	Fornecedor
+Client	Cliente
+Cash desk account	Conta de caixa
+Bank account	Conta bancária
+Depreciation	Depreciação
+Revaluation	Revalorização
+Fixed asset (service)	Ativo fixo (serviço)
+Combined item	Artigo composto
+Customs	Alfândega
+Transport	Transporte
+Customs agency	Despachante
+Customs, assets	Alfândega de ativos fixos
+Transport, assets	Transporte de ativos fixos
+Customs agency, assets	Despachante de ativos fixos
+Piece	Unidade
+kg	kg
+Hour	Hora
+Day	Dia
+Month	Mês
+Year	Ano
+g	g
+cm	cm
+m	m
+mm	mm
+km	km
+Standard	Padrão
+Weight	Peso
+Time	Tempo
+Length	Comprimento
+Seller	Vendedor
+IT	Informática
+Consultant	Consultor
+VAT 20%	IVA 20%
+VAT 0%	IVA 0%
+Hall	Sala
+Table	Mesa
+Counter	Balcão
+Production	Produção
+Reversal of production	Anulação de produção
+Unit split	Conversão de unidade
+Reversal of unit split	Anulação de conversão de unidade
+Raw material used	Matéria-prima consumida
+Produced item	Produto fabricado
+Waste	Quebra
+Account ledger	Razão da conta
+Administration	Administração
+Chart of accounts	Plano de contas
+Client and supplier ledger	Razão de clientes e fornecedores
+Client statistics	Estatísticas de clientes
+Clients and suppliers	Clientes e fornecedores
+Configuration	Configuração
+Convert stock between units	Converter stock para outra unidade
+Cost centre ledger	Razão do centro de custo
+Cost centres	Centros de custo
+Currencies and exchange rates	Moedas e taxas de câmbio
+Document types	Tipos de documento
+Documents	Documentos
+Employees	Funcionários
+Files	Ficheiros
+Financial reports	Relatórios financeiros
+Item movements	Movimentos do artigo
+Menu	Menu
+Menu access	Acesso ao menu
+Operations	Operações
+Orders to produce	Encomendas a produzir
+Payment methods	Métodos de pagamento
+Posting scenarios	Cenários de lançamento
+Print templates	Modelos de impressão
+Products and services	Produtos e serviços
+Recipes	Receitas
+Registers	Registos
+Reports	Relatórios
+Rights	Permissões
+Sale menus	Menus de venda
+Point-of-sale settings	Definições do ponto de venda
+Shows	Sessões
+Purchases from the group	Compras ao grupo
+Barcode	Código de barras
+Sale prices	Preços de venda
+Sales and purchases by line	Vendas e compras por linha
+Stock	Stock
+Stock and sales	Stock e vendas
+Trial balance	Balancete
+Unit conversions	Conversões de unidades
+Units of measure	Unidades de medida
+Users	Utilizadores
+VAT books	Livros de IVA
+VAT groups	Grupos de IVA
+VAT return	Declaração de IVA
+VAT return boxes	Campos da declaração de IVA
+Company of the group	Empresa do grupo
+Restaurant / café	Restaurante / café
+Shop	Loja
+Till	Caixa
+Cinema / theatre	Cinema / teatro
+Auditorium	Sala
+Row	Fila
+Seat	Lugar
+Hotel	Hotel
+Floor	Andar
+Room	Quarto
+Beds	Camas
+Position X	Posição X
+Seats	Lugares
+Position Y	Posição Y
+Reversal of journal sheet	Estorno da folha contabilística
+Reversal of depreciation sheet	Estorno da folha de amortização
+Reversal of general journal entry	Estorno do lançamento geral
+Open the point of sale	Abrir o ponto de venda
+Stock and production	Stock e produção
+Accounting setup	Definições contabilísticas
+Fixed assets	Ativos fixos
+Currencies and payments	Moedas e pagamentos
+Company	Empresa
+Users and rights	Utilizadores e permissões
+System settings	Definições do sistema
+Types and categories	Tipos e categorias
+VAT	IVA
+Financial	Financeiros
+Sale prices by partner	Preços de venda por parceiro
+Sale menu categories	Categorias dos menus de venda
+Scenario lines	Linhas de cenários
+Unbalanced scenarios	Cenários não equilibrados
+Remaining asset value	Valor residual do ativo
+VAT return box rules	Regras das caixas da declaração de IVA
+VAT return by boxes	Declaração de IVA por caixas
+Payment methods by cost centre	Métodos de pagamento por centro de custo
+Users and roles	Utilizadores e funções
+Document flows	Fluxos de documentos
+Chart types and categories	Tipos e categorias do plano
+Balance sheet	Balanço
+Profit and loss	Demonstração de resultados
+Balance sheet lines	Linhas do balanço
+Profit and loss lines	Linhas da demonstração de resultados
+City	Cidade
+Staff ledger	Razão do pessoal
+Sales and purchases by client	Vendas e compras por cliente
+Sales and purchases by cost centre	Vendas e compras por centro de custo
+Transfers	Transferências
+Document totals	Totais de documentos
+Purchase price history	Histórico de preços de compra
+Depreciation books	Livros de depreciação
+Depreciation methods	Métodos de depreciação
+Depreciation scenarios	Cenários de depreciação
+Depreciation scenario lines	Linhas dos cenários de depreciação
+Serial numbers	Números de série
+User activity	Atividade dos utilizadores
+Dashboard	Painel
+Dashboard items	Elementos do painel
+Clients owe us	Clientes devem-nos
+We owe suppliers	Devemos a fornecedores
+Drafts waiting	Rascunhos em espera
+Sales and purchases by month	Vendas e compras por mês
+VAT by month	IVA por mês
+Top clients	Melhores clientes
+Top suppliers	Melhores fornecedores
+Top products	Melhores produtos
+Sales by cost centre	Vendas por centro de custo
+Migration	Migração
+Migration steps	Passos da migração
+Warehouses, banks, cash desks and places	Armazéns, bancos, caixas e locais
+Client and supplier categories	Categorias de clientes e fornecedores
+Product categories	Categorias de produtos
+Units	Unidades
+Exchange rates	Taxas de câmbio
+Next document numbers	Próximos números de documentos
+Opening balances: clients and suppliers	Saldos de abertura: clientes e fornecedores
+Opening balances: banks, cash desks and staff	Saldos de abertura: bancos, caixas e pessoal
+Opening balances: the chart	Saldos de abertura: plano de contas
+Posting groups	Grupos de lançamento
+Document categories	Categorias de documentos
+Opening balances: stock	Saldos de abertura: stock
+Opening balances: fixed assets	Saldos de abertura: ativos fixos
+VAT groups of document types	Grupos de IVA dos tipos de documento
+Closed periods	Períodos encerrados
+Transaction types	Tipos de transação
+Transaction scopes	Âmbitos de transação
+Transaction categories	Categorias de transação
+Transaction types of document types	Tipos de transação dos tipos de documento
+General client	Cliente geral
+Transaction asset cost	Custo do ativo
+Transaction asset depreciation	Depreciação do ativo
+Transaction asset book value	Valor contabilístico do ativo
+Sales by waiter	Vendas por empregado
+Ageing	Antiguidade de saldos
+Open invoices	Faturas em aberto
+Overdue from clients	Vencido de clientes
+Overdue to suppliers	Vencido a fornecedores
+Gross profit	Lucro bruto
+Gross profit by cost centre	Lucro bruto por centro de custo
+Top combined products	Principais produtos combinados
+Close the year	Fechar o ano
+Invoice run	Faturação de contratos
+Renewals	Renovações
+CRM	CRM
+Opportunities	Oportunidades
+Pipeline	Funil de vendas
+Forecast	Previsão
+Opportunity stages	Fases das oportunidades
+Sales opportunities	Oportunidades de venda
+Opportunity	Oportunidade
+Qualify	Qualificação
+Propose	Proposta
+Negotiate	Negociação
+Won	Ganha
+Lost	Perdida
+Leads	Potenciais clientes
+Orders	Encomendas
+Purchase request	Pedido de compra
+Purchase order	Encomenda de compra
+Sales order	Encomenda de venda
+Approvals	Aprovações
+Approval limits	Limites de aprovação
+Bank statements	Extratos bancários
+Bank statement formats	Formatos de extratos bancários
+Date, text, reference, amount	Data, texto, referência, montante
+Lots	Lotes
+Shifts	Turnos
+Production point	Ponto de produção
+Production point display	Ecrã do ponto de produção
+Production routes	Rotas de produção
+Point-of-sale order	Pedido do ponto de venda
+Repairs	Reparações
+Repair intake	Receção para reparação
+Repair offer	Proposta de reparação
+Technician	Técnico
+Received	Recebido
+Offer given	Proposta entregue
+Accepted	Aceite
+Ready	Pronto
+Collected	Levantado
+Refused	Recusada
+Item	Artigo
+Brand and model	Marca e modelo
+Serial number or plate	Número de série ou matrícula
+Accessories left	Acessórios deixados
+Defect described	Defeito descrito
+Come back on	Voltar em
+Repair board	Quadro de reparações
+Repair stages	Fases de reparação
+Repair shop	Oficina de reparação
+Roles	Funções
+Account mapping	Correspondência de contas
+Waiter	Empregado de mesa
+Cashier	Caixa
+Disassembly	Desmontagem
+Product taken apart	Produto desmontado
+Recovered component	Componente recuperado
+Disassembly waste	Quebra de desmontagem
+Point-of-sale reversal	Anulação de ponto de venda
+Reversal of customs declaration	Anulação: Declaração aduaneira
+Reversal of customs declaration, assets	Anulação: Declaração aduaneira de ativos fixos
+Reversal of goods transfer note	Anulação: Guia de transporte
+Reversal of goods transfer, cost centre to staff	Anulação: Guia de centro de custo para colaborador
+Reversal of goods transfer, staff to cost centre	Anulação: Guia de colaborador para centro de custo
+Reversal of goods transfer, cost centre to client	Anulação: Guia de centro de custo para cliente
+Reversal of goods transfer, client to cost centre	Anulação: Guia de cliente para centro de custo
+Reversal of goods transfer, staff to client	Anulação: Guia de colaborador para cliente
+Opportunity types and categories	Tipos e categorias de oportunidades
+Opportunities and documents	Oportunidades e documentos
+Skins	Temas

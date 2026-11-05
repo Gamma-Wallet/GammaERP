@@ -1,0 +1,34 @@
+[
+ {
+  "Key": "depreciation_book:COMPANY",
+  "IdSup": null,
+  "Active": true,
+  "Name": {
+   "en": "Company book",
+   "fr": "Plan comptable"
+  },
+  "Description": {
+   "en": "Company book",
+   "fr": "Plan comptable"
+  },
+  "MethodId": "depreciation_method:STRAIGHT_LINE",
+  "ChartCategoryId": "chart_category:STATUTORY",
+  "Posts": true
+ },
+ {
+  "Key": "depreciation_book:TAX",
+  "IdSup": null,
+  "Active": true,
+  "Name": {
+   "en": "Tax book",
+   "fr": "Plan fiscal"
+  },
+  "Description": {
+   "en": "Tax book",
+   "fr": "Plan fiscal"
+  },
+  "MethodId": "depreciation_method:STRAIGHT_LINE",
+  "ChartCategoryId": "chart_category:STATUTORY",
+  "Posts": false
+ }
+]

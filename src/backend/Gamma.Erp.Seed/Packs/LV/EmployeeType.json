@@ -1,0 +1,62 @@
+[
+ {
+  "Key": "employee_type:ADMINISTRATOR",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "ADMINISTRATOR",
+  "Name": {
+   "en": "Administrator",
+   "lv": "Administrators"
+  },
+  "SortOrder": 10
+ },
+ {
+  "Key": "employee_type:FINANCIER",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "FINANCIER",
+  "Name": {
+   "en": "Financier",
+   "lv": "Grāmatvedis"
+  },
+  "SortOrder": 20
+ },
+ {
+  "Key": "employee_type:WAREHOUSE",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "WAREHOUSE",
+  "Name": {
+   "en": "Warehouse keeper",
+   "lv": "Noliktavas pārzinis"
+  },
+  "SortOrder": 30
+ },
+ {
+  "Key": "employee_type:DRIVER",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "DRIVER",
+  "Name": {
+   "en": "Driver",
+   "lv": "Autovadītājs"
+  },
+  "SortOrder": 40
+ },
+ {
+  "Key": "employee_type:WORKER",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "WORKER",
+  "Name": {
+   "en": "Worker",
+   "lv": "Strādnieks"
+  },
+  "SortOrder": 50
+ }
+]

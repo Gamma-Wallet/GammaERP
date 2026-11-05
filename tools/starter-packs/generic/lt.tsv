@@ -1,0 +1,179 @@
+# Gamma's generic chart (chart-generic.tsv) in Lithuanian, by account code. Gamma's translations.
+# code	lt
+1	Ilgalaikis turtas
+11	Materialusis turtas
+1101	Žemė
+1102	Pastatai
+1103	Mašinos ir įrenginiai
+1104	Transporto priemonės
+1105	Baldai ir inventorius
+1106	Kompiuterinė įranga
+1107	Nebaigta statyba
+12	Materialiojo turto sukauptas nusidėvėjimas
+1202	Pastatų sukauptas nusidėvėjimas
+1203	Mašinų ir įrenginių sukauptas nusidėvėjimas
+1204	Transporto priemonių sukauptas nusidėvėjimas
+1205	Baldų ir inventoriaus sukauptas nusidėvėjimas
+1206	Kompiuterinės įrangos sukauptas nusidėvėjimas
+13	Nematerialusis turtas
+1301	Prestižas
+1302	Programinė įranga
+1303	Prekių ženklai ir licencijos
+14	Nematerialiojo turto sukaupta amortizacija
+1402	Programinės įrangos sukaupta amortizacija
+1403	Prekių ženklų ir licencijų sukaupta amortizacija
+15	Investicinis turtas
+1501	Investicinis turtas
+16	Ilgalaikis finansinis turtas
+1601	Investicijos į dukterines įmones
+1602	Investicijos į asocijuotąsias įmones
+1603	Kitos investicijos
+1604	Ilgalaikės paskolos
+17	Atidėtasis pelno mokestis
+1701	Atidėtojo pelno mokesčio turtas
+2	Trumpalaikis turtas
+20	Atsargos
+2001	Prekės, skirtos parduoti
+2002	Žaliavos
+2003	Pagalbinės medžiagos
+2004	Pagaminta produkcija
+2005	Nebaigta gamyba
+22	Pirkėjų skolos
+2201	Pirkėjų įsiskolinimas
+2202	Užsienio pirkėjų įsiskolinimas
+2203	Gautini čekiai
+2209	Abejotinų skolų vertės sumažėjimas
+23	Kitos gautinos sumos
+2301	Ateinančių laikotarpių sąnaudos
+2302	Išankstiniai mokėjimai tiekėjams
+2303	Avansai darbuotojams
+2304	Užstatai
+2305	Kitos gautinos sumos
+24	Mokesčių permokos
+2401	Pirkimo PVM
+2402	Grąžintinas PVM
+2403	Mokesčių avansai
+28	Pinigai
+2801	Kasa
+2802	Kasa užsienio valiuta
+2803	Atsiskaitomoji sąskaita
+2804	Sąskaita užsienio valiuta
+2805	Terminuotieji indėliai
+2806	Pinigai kelyje
+3	Nuosavas kapitalas
+30	Įstatinis kapitalas
+3001	Įstatinis kapitalas
+3002	Akcijų priedai
+31	Rezervai
+3101	Perkainojimo rezervas
+3102	Kiti rezervai
+32	Nepaskirstytasis pelnas
+3201	Ankstesnių metų nepaskirstytasis pelnas
+3202	Ataskaitinių metų pelnas arba nuostoliai
+4	Įsipareigojimai
+40	Ilgalaikiai įsipareigojimai
+4001	Ilgalaikės banko paskolos
+4002	Nuomos įsipareigojimai
+4003	Paskolos iš akcininkų
+4004	Atidėtojo pelno mokesčio įsipareigojimai
+4005	Atidėjiniai
+41	Skolos tiekėjams
+4101	Skolos tiekėjams
+4102	Skolos užsienio tiekėjams
+4103	Mokėtini vekseliai
+4104	Gauti išankstiniai apmokėjimai
+42	Kiti mokėtini įsipareigojimai
+4201	Sukauptos sąnaudos
+4202	Ateinančių laikotarpių pajamos
+4203	Mokėtinas darbo užmokestis
+4204	Mokėtinos socialinio draudimo įmokos
+4205	Mokėtinos sveikatos draudimo įmokos
+4206	Kiti mokėtini įsipareigojimai
+4207	Mokėtini dividendai
+43	Trumpalaikės paskolos
+4301	Kredito linija
+4302	Trumpalaikės banko paskolos
+44	Mokesčių įsipareigojimai
+4401	Pardavimo PVM
+4402	Mokėtinas PVM
+4403	Mokėtinas pelno mokestis
+4404	Mokėtinas gyventojų pajamų mokestis
+4405	Kiti mokėtini mokesčiai
+5	Pajamos
+50	Pardavimo pajamos
+5001	Prekių pardavimo pajamos
+5002	Paslaugų pajamos
+5003	Produkcijos pardavimo pajamos
+5004	Pardavimo nuolaidos ir grąžinimai
+51	Kitos veiklos pajamos
+5101	Nuomos pajamos
+5102	Dotacijos
+5103	Ilgalaikio turto perleidimo pelnas
+5104	Kitos pajamos
+52	Finansinės veiklos pajamos
+5201	Palūkanų pajamos
+5202	Dividendų pajamos
+5203	Valiutų kursų pokyčio pelnas
+6	Pirkimai ir parduotų prekių savikaina
+60	Pirkimai
+6001	Prekių pirkimai
+6002	Žaliavų pirkimai
+6003	Medžiagų pirkimai
+6004	Pirkimo nuolaidos ir grąžinimai
+6005	Pirkimų transportas ir muitai
+61	Atsargų pokytis
+6101	Prekių atsargų pokytis
+6102	Žaliavų atsargų pokytis
+7	Sąnaudos
+70	Darbo sąnaudos
+7001	Darbo užmokestis
+7002	Darbdavio socialinio draudimo įmokos
+7003	Darbdavio sveikatos draudimo įmokos
+7004	Kitos darbdavio įmokos
+7005	Kitos darbo sąnaudos
+71	Patalpų sąnaudos
+7101	Nuoma
+7102	Elektra
+7103	Vanduo
+7104	Remontas ir priežiūra
+7105	Draudimas
+72	Administracinės sąnaudos
+7201	Ryšiai
+7202	Pašto paslaugos
+7203	Kanceliarinės prekės
+7204	Auditas
+7205	Konsultacinės paslaugos
+7206	Narystės mokesčiai ir prenumeratos
+7207	Įmonės mokesčiai ir rinkliavos
+73	Pardavimo sąnaudos
+7301	Reklama
+7302	Pardavimo transportas
+7303	Komisiniai
+7304	Komandiruotės
+74	Transporto priemonių sąnaudos
+7401	Degalai
+7402	Transporto priemonių mokesčiai ir draudimas
+7403	Transporto priemonių remontas
+75	Finansinės veiklos sąnaudos
+7501	Palūkanų sąnaudos
+7502	Banko mokesčiai
+7503	Valiutų kursų pokyčio nuostoliai
+7504	Nuomos palūkanos
+76	Nusidėvėjimas ir amortizacija
+7601	Pastatų nusidėvėjimas
+7602	Mašinų ir įrenginių nusidėvėjimas
+7603	Transporto priemonių nusidėvėjimas
+7604	Baldų ir inventoriaus nusidėvėjimas
+7605	Kompiuterinės įrangos nusidėvėjimas
+7606	Nematerialiojo turto amortizacija
+77	Kitos sąnaudos
+7701	Nurašytos skolos
+7702	Ilgalaikio turto perleidimo nuostoliai
+7703	Neatskaitomas PVM
+7704	Kitos sąnaudos
+7705	Atsargų netekimai ir nuostoliai
+8	Pelno mokestis
+80	Mokesčiai
+8001	Pelno mokestis
+8002	Kiti pelno mokesčiai
+8003	Atidėtasis pelno mokestis

@@ -1,0 +1,226 @@
+[
+ {
+  "Key": "depreciation_scenario:assets",
+  "IdSup": null,
+  "Active": true,
+  "Name": {
+   "en": "Assets",
+   "sv": "Anläggningstillgångar"
+  },
+  "DepreciationBookId": "depreciation_book:COMPANY",
+  "ElementsId": "elements:187",
+  "Months": 60,
+  "LinearPercentage": 20,
+  "DecliningPercentage": 0
+ },
+ {
+  "Key": "depreciation_scenario:assets:tax",
+  "IdSup": null,
+  "Active": true,
+  "Name": {
+   "en": "Assets",
+   "sv": "Anläggningstillgångar"
+  },
+  "DepreciationBookId": "depreciation_book:TAX",
+  "ElementsId": "elements:187",
+  "Months": 60,
+  "LinearPercentage": 20,
+  "DecliningPercentage": 0
+ },
+ {
+  "Key": "depreciation_scenario:land",
+  "IdSup": null,
+  "Active": true,
+  "Name": {
+   "en": "Land",
+   "sv": "Mark"
+  },
+  "DepreciationBookId": "depreciation_book:COMPANY",
+  "ElementsId": "elements:188",
+  "Months": null,
+  "LinearPercentage": 0,
+  "DecliningPercentage": 0
+ },
+ {
+  "Key": "depreciation_scenario:land:tax",
+  "IdSup": null,
+  "Active": true,
+  "Name": {
+   "en": "Land",
+   "sv": "Mark"
+  },
+  "DepreciationBookId": "depreciation_book:TAX",
+  "ElementsId": "elements:188",
+  "Months": null,
+  "LinearPercentage": 0,
+  "DecliningPercentage": 0
+ },
+ {
+  "Key": "depreciation_scenario:buildings",
+  "IdSup": null,
+  "Active": true,
+  "Name": {
+   "en": "Buildings",
+   "sv": "Byggnader"
+  },
+  "DepreciationBookId": "depreciation_book:COMPANY",
+  "ElementsId": "elements:189",
+  "Months": 400,
+  "LinearPercentage": 3,
+  "DecliningPercentage": 0
+ },
+ {
+  "Key": "depreciation_scenario:buildings:tax",
+  "IdSup": null,
+  "Active": true,
+  "Name": {
+   "en": "Buildings",
+   "sv": "Byggnader"
+  },
+  "DepreciationBookId": "depreciation_book:TAX",
+  "ElementsId": "elements:189",
+  "Months": 400,
+  "LinearPercentage": 3,
+  "DecliningPercentage": 0
+ },
+ {
+  "Key": "depreciation_scenario:office",
+  "IdSup": null,
+  "Active": true,
+  "Name": {
+   "en": "Office equipment",
+   "sv": "Kontorsutrustning"
+  },
+  "DepreciationBookId": "depreciation_book:COMPANY",
+  "ElementsId": "elements:190",
+  "Months": 60,
+  "LinearPercentage": 20,
+  "DecliningPercentage": 0
+ },
+ {
+  "Key": "depreciation_scenario:office:tax",
+  "IdSup": null,
+  "Active": true,
+  "Name": {
+   "en": "Office equipment",
+   "sv": "Kontorsutrustning"
+  },
+  "DepreciationBookId": "depreciation_book:TAX",
+  "ElementsId": "elements:190",
+  "Months": 60,
+  "LinearPercentage": 20,
+  "DecliningPercentage": 0
+ },
+ {
+  "Key": "depreciation_scenario:vehicles",
+  "IdSup": null,
+  "Active": true,
+  "Name": {
+   "en": "Vehicles",
+   "sv": "Fordon"
+  },
+  "DepreciationBookId": "depreciation_book:COMPANY",
+  "ElementsId": "elements:191",
+  "Months": 60,
+  "LinearPercentage": 20,
+  "DecliningPercentage": 0
+ },
+ {
+  "Key": "depreciation_scenario:vehicles:tax",
+  "IdSup": null,
+  "Active": true,
+  "Name": {
+   "en": "Vehicles",
+   "sv": "Fordon"
+  },
+  "DepreciationBookId": "depreciation_book:TAX",
+  "ElementsId": "elements:191",
+  "Months": 60,
+  "LinearPercentage": 20,
+  "DecliningPercentage": 0
+ },
+ {
+  "Key": "depreciation_scenario:computers",
+  "IdSup": null,
+  "Active": true,
+  "Name": {
+   "en": "Computer equipment",
+   "sv": "Datorer"
+  },
+  "DepreciationBookId": "depreciation_book:COMPANY",
+  "ElementsId": "elements:192",
+  "Months": 60,
+  "LinearPercentage": 20,
+  "DecliningPercentage": 0
+ },
+ {
+  "Key": "depreciation_scenario:computers:tax",
+  "IdSup": null,
+  "Active": true,
+  "Name": {
+   "en": "Computer equipment",
+   "sv": "Datorer"
+  },
+  "DepreciationBookId": "depreciation_book:TAX",
+  "ElementsId": "elements:192",
+  "Months": 60,
+  "LinearPercentage": 20,
+  "DecliningPercentage": 0
+ },
+ {
+  "Key": "depreciation_scenario:furniture",
+  "IdSup": null,
+  "Active": true,
+  "Name": {
+   "en": "Furniture and fittings",
+   "sv": "Inventarier"
+  },
+  "DepreciationBookId": "depreciation_book:COMPANY",
+  "ElementsId": "elements:193",
+  "Months": 60,
+  "LinearPercentage": 20,
+  "DecliningPercentage": 0
+ },
+ {
+  "Key": "depreciation_scenario:furniture:tax",
+  "IdSup": null,
+  "Active": true,
+  "Name": {
+   "en": "Furniture and fittings",
+   "sv": "Inventarier"
+  },
+  "DepreciationBookId": "depreciation_book:TAX",
+  "ElementsId": "elements:193",
+  "Months": 60,
+  "LinearPercentage": 20,
+  "DecliningPercentage": 0
+ },
+ {
+  "Key": "depreciation_scenario:intangible",
+  "IdSup": null,
+  "Active": true,
+  "Name": {
+   "en": "Intangible assets",
+   "sv": "Immateriella anläggningstillgångar"
+  },
+  "DepreciationBookId": "depreciation_book:COMPANY",
+  "ElementsId": "elements:194",
+  "Months": 60,
+  "LinearPercentage": 20,
+  "DecliningPercentage": 0
+ },
+ {
+  "Key": "depreciation_scenario:intangible:tax",
+  "IdSup": null,
+  "Active": true,
+  "Name": {
+   "en": "Intangible assets",
+   "sv": "Immateriella anläggningstillgångar"
+  },
+  "DepreciationBookId": "depreciation_book:TAX",
+  "ElementsId": "elements:194",
+  "Months": 60,
+  "LinearPercentage": 20,
+  "DecliningPercentage": 0
+ }
+]

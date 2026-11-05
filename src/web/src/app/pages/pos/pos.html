@@ -1,0 +1,333 @@
+@if (lotChoice(); as c) {
+  <div class="lot-choice" role="dialog" aria-modal="true" [attr.aria-label]="'Lot' | t">
+    <strong>{{ c.product.name }}</strong>
+    @for (l of c.lots; track l.id) {
+      <button uiButton size="touch" (click)="pickLot(l)">{{ l.lot }} · {{ l.quantity }}{{ l.expiryDate ? ' · ' + date(l.expiryDate) : '' }}</button>
+    }
+    <button uiButton size="touch" (click)="lotChoice.set(null)">{{ 'Cancel' | t }}</button>
+  </div>
+}
+<header class="bar">
+  <img class="mark" src="gamma-logo-white.png" alt="Gamma" />
+  <strong class="place">{{ pointOfSale()?.name ?? ('Point of sale' | t) }}@if (till(); as at) { · {{ at.name }} }</strong>
+  <nav class="views" [attr.aria-label]="'Point of sale' | t">
+    <button type="button" [class.current]="view() === 'floor' || view() === 'order' || view() === home()" (click)="show(home())"><ui-icon name="grid" [size]="20" />@if (home() === 'floor') { {{ 'Tables' | t }} } @else { {{ 'Sale' | t }} }</button>
+    <button type="button" [class.current]="view() === 'unpaid'" (click)="show('unpaid')"><ui-icon name="receipt" [size]="20" />{{ 'Unpaid' | t }}</button>
+    <button type="button" [class.current]="view() === 'cash'" (click)="show('cash')"><ui-icon name="wallet" [size]="20" />{{ 'Money in / out' | t }}</button>
+    <button type="button" [class.current]="view() === 'shift'" (click)="show('shift')"><ui-icon name="receipt" [size]="20" />{{ 'Shift' | t }}</button>
+  </nav>
+  <span class="spacer"></span>
+  <span class="who"><ui-icon name="user" [size]="18" />{{ me()?.name ?? me()?.username }}</span>
+  <button type="button" class="exit" (click)="leave()" [attr.aria-label]="'Leave the point of sale' | t"><ui-icon name="log-out" [size]="20" /></button>
+</header>
+
+<main [class.wide]="view() === 'order' || view() === 'shop'">
+  @if (message()) { <p class="message" role="alert"><ui-icon name="critical" [size]="18" />{{ message() }}</p> }
+
+  @if (!loaded()) {
+    <p class="muted center">{{ 'Opening the point of sale…' | t }}</p>
+  } @else if (!pointOfSale()) {
+    <section class="card center">
+      <h1>{{ 'Choose where you work' | t }}</h1>
+      <p>{{ 'The point of sale opens at the place you work at. Choose your bar or restaurant on the entry page.' | t }}</p>
+      <a uiButton variant="primary" size="touch" routerLink="/choose">{{ 'Choose a place' | t }}</a>
+    </section>
+  } @else if (settings()?.missing?.length) {
+    <section class="card center">
+      <h1>{{ 'This point of sale is not set up yet' | t }}</h1>
+      <p>{{ 'Still to set:' | t }} @for (m of settings()!.missing; track m; let last = $last) { {{ settingNames[m] ?? m }}@if (!last) {, } }.</p>
+      @if (me()?.isAdministrator) {
+        <a uiButton variant="primary" size="touch" routerLink="/config/point-of-sale-settings">{{ 'Open the point-of-sale settings' | t }}</a>
+      } @else {
+        <p class="muted">{{ 'Ask an administrator to set them in Point of sale › Point-of-sale settings.' | t }}</p>
+      }
+    </section>
+  } @else if (settings()?.requiresShift && !shift()) {
+    <section class="card center"><ng-container [ngTemplateOutlet]="noShift" /></section>
+  } @else {
+    @switch (view()) {
+      @case ('shift') {
+        <section class="card shift">
+          @if (shift(); as s) {
+            <h1>{{ 'Shift' | t }}</h1>
+            <p class="muted">{{ 'Opened by {0}' | t : s.openedBy }} · {{ 'Opening cash' | t }} {{ n(s.openingCash) }}</p>
+            @if (shiftSummary(); as x) {
+              <dl>
+                <dt>{{ 'Bills' | t }}</dt><dd>{{ x.bills }}</dd>
+                <dt>{{ 'Sales' | t }}</dt><dd>{{ n(x.sales) }}</dd>
+                @for (p of x.payments; track p.methodId) { <dt>{{ p.method ?? ('Cash desk' | t) }}</dt><dd>{{ n(p.amount) }}</dd> }
+                <dt>{{ 'Money in' | t }}</dt><dd>{{ n(x.moneyIn) }}</dd>
+                <dt>{{ 'Money out' | t }}</dt><dd>{{ n(x.moneyOut) }}</dd>
+              </dl>
+            }
+            <label>{{ 'Counted cash' | t }}<input class="control" type="number" min="0" step="0.01" [value]="countedCash()" (input)="countedCash.set($any($event.target).value)" /></label>
+            <label>{{ 'Note' | t }}<input class="control" [value]="shiftNote()" (input)="shiftNote.set($any($event.target).value)" /></label>
+            <button uiButton size="touch" variant="primary" [disabled]="countedCash() === '' || busy()" (click)="closeShift()">{{ 'Close the shift' | t }}</button>
+          } @else {
+            <ng-container [ngTemplateOutlet]="noShift" />
+          }
+        </section>
+      }
+      @case ('floor') {
+        <div class="floor-head">
+          <div class="halls" role="tablist" [attr.aria-label]="'Halls' | t">
+            @for (h of halls(); track h.id) {
+              <button type="button" role="tab" [attr.aria-selected]="h === hall()" [class.current]="h === hall()" (click)="hallId.set(h.id)">{{ h.name }}</button>
+            }
+          </div>
+          <span class="spacer"></span>
+          <span class="muted">{{ 'Open {0}' | t: (n(openTotal())) }}</span>
+          <button type="button" class="toggle" [class.on]="onlyMine()" [attr.aria-pressed]="onlyMine()" (click)="onlyMine.set(!onlyMine())">{{ 'My tables' | t }}</button>
+          @if (me()?.isAdministrator) {
+            @if (arranging()) {
+              <button uiButton (click)="cancelArrangement()">{{ 'Cancel' | t }}</button>
+              <button uiButton variant="primary" [disabled]="busy()" (click)="saveArrangement()">{{ 'Save the plan' | t }}</button>
+            } @else {
+              <button uiButton variant="quiet" (click)="arranging.set(true)"><ui-icon name="settings" [size]="16" />{{ 'Arrange' | t }}</button>
+            }
+          }
+        </div>
+        @if (arranging()) { <p class="muted">{{ 'Drag the tables to where they stand, then save the plan.' | t }}</p> }
+        @if (tables().length) {
+          <div class="plan" [class.arranging]="arranging()" [style.height.px]="planHeight()" (pointermove)="move($event)" (pointerup)="drop()" (pointercancel)="drop()">
+            @for (t of tables(); track t.place.id) {
+              <button type="button" class="table" [class.busy]="t.place.open > 0" [class.mine]="t.place.waiters.some(w => w.id === me()?.id)"
+                [style.left.px]="t.x" [style.top.px]="t.y" (pointerdown)="grab($event, t.place.id, t.x, t.y)" (click)="openTable(t.place)"
+                [attr.aria-label]="(t.place.name ?? '') + (t.place.open > 0 ? ', open ' + n(t.place.open) : ', free')">
+                <span class="name">{{ t.place.name }}</span>
+                @if (t.place.open > 0) {
+                  <span class="amount">{{ n(t.place.open) }}</span>
+                  <span class="waiters">@for (w of t.place.waiters; track w.id; let last = $last) { {{ w.name }}@if (!last) {, } }</span>
+                } @else {
+                  <span class="free">{{ 'Free' | t }}@if (t.seats) { {{ '· {0} seats' | t: (t.seats) }} }</span>
+                }
+              </button>
+            }
+          </div>
+        } @else {
+          <section class="card center">
+            <p>{{ onlyMine() ? ('You have no open tables.' | t) : ('There are no tables here yet.' | t) }}</p>
+            @if (!onlyMine()) { <p class="muted">{{ 'Add halls and tables below this point of sale in Company › Cost centres.' | t }}</p> }
+          </section>
+        }
+      }
+
+      @case ('events') {
+        <app-pos-events [pointOfSale]="pointOfSale()!.id" [places]="places()" (billed)="payBill($event)" />
+      }
+
+      @case ('stays') {
+        <app-pos-stays [pointOfSale]="pointOfSale()!.id" [places]="places()" (billed)="payBill($event)" />
+      }
+
+      @case ('shop') {
+        <section class="menu" [attr.aria-label]="'Products' | t">
+          <form class="scan" (submit)="$event.preventDefault(); scan(scanBox)">
+            <ui-icon name="search" [size]="22" />
+            <input #scanBox type="text" inputmode="numeric" autocomplete="off" [attr.aria-label]="'Scan a barcode' | t" [placeholder]="'Scan a barcode' | t" />
+          </form>
+          <ng-container *ngTemplateOutlet="menuButtons" />
+        </section>
+        <aside class="ticket" [attr.aria-label]="'Basket' | t">
+          <header><h1>{{ 'Basket' | t }}</h1></header>
+          <ng-container *ngTemplateOutlet="orderLines" />
+          <div class="total"><span>{{ 'To pay, VAT included' | t }}</span><strong>{{ n(orderTotal()) }}</strong></div>
+          <div class="actions">
+            <button uiButton size="touch" [disabled]="!order().length || busy()" (click)="order.set([])">{{ 'Clear' | t }}</button>
+            <button uiButton size="touch" variant="primary" [disabled]="!order().length || busy()" (click)="charge()">{{ busy() ? ('Saving…' | t) : ('Pay' | t) }}</button>
+          </div>
+        </aside>
+      }
+
+      @case ('order') {
+        <section class="menu" [attr.aria-label]="'Menu' | t">
+          <ng-container *ngTemplateOutlet="menuButtons" />
+        </section>
+        <aside class="ticket" [attr.aria-label]="'Order' | t">
+          <header>
+            <button type="button" class="back" (click)="show('floor')" [attr.aria-label]="'Back to the tables' | t"><ui-icon name="chevron-left" [size]="22" /></button>
+            <h1>{{ table()?.name }}</h1>
+          </header>
+          @if (tableBills().length) {
+            <div class="earlier">
+              <span>{{ '{0} open bill(s)' | t: (tableBills().length) }}</span><strong>{{ n(tableOpen()) }}</strong>
+            </div>
+          }
+          @for (o of tableOrders(); track o.id) {
+            <div class="earlier">
+              <span>{{ o.code }}</span><strong>{{ n(o.open) }}</strong>
+              <button uiButton size="small" [disabled]="busy()" (click)="cancelOrder(o)">{{ 'Cancel' | t }}</button>
+            </div>
+          }
+          <ng-container *ngTemplateOutlet="orderLines" />
+          <div class="total"><span>{{ 'This order, VAT included' | t }}</span><strong>{{ n(orderTotal()) }}</strong></div>
+          <div class="actions">
+            <button uiButton size="touch" [disabled]="(!tableBills().length && !tableOrders().length) || busy()" (click)="payTable()">{{ 'Pay {0}' | t: (n(tableOpen())) }}</button>
+            <button uiButton size="touch" variant="primary" [disabled]="!order().length || busy()" (click)="send()">{{ busy() ? ('Sending…' | t) : ('Send' | t) }}</button>
+          </div>
+        </aside>
+      }
+
+      @case ('pay') {
+        <section class="pay">
+          <div class="bills">
+            <h1>{{ 'Pay' | t }}</h1>
+            <ul>
+              @for (b of payBills(); track b.id) {
+                <li>
+                  <label>
+                    <input type="checkbox" [checked]="chosen().has(b.id)" (change)="toggle(b.id)" />
+                    <span>{{ b.code }} · {{ b.table }}</span><strong>{{ n(b.open) }}</strong>
+                  </label>
+                </li>
+              }
+            </ul>
+            <div class="total"><span>{{ 'To pay' | t }}</span><strong>{{ n(due()) }}</strong></div>
+            <div class="methods" role="radiogroup" [attr.aria-label]="'Payment method' | t">
+              @for (m of methods(); track m.id) {
+                <button type="button" role="radio" [attr.aria-checked]="methodId() === m.id" [class.current]="methodId() === m.id" (click)="methodId.set(m.id)">{{ m.name }}</button>
+              }
+            </div>
+          </div>
+          <div class="cash">
+            <div class="readout"><span>{{ 'Received' | t }}</span><strong>{{ received() || '0' }}</strong></div>
+            <div class="readout" [class.short]="received() !== '' && change() === null">
+              <span>{{ 'Change (money back)' | t }}</span><strong>{{ change() === null ? (received() === '' ? '—' : ('Not enough' | t)) : n(change()) }}</strong>
+            </div>
+            <div class="keypad">
+              @for (k of keys; track k) {
+                <button type="button" (click)="press(k, 'received')" [attr.aria-label]="k === 'back' ? 'Delete' : k">
+                  @if (k === 'back') { <ui-icon name="chevron-left" [size]="22" /> } @else { {{ k }} }
+                </button>
+              }
+            </div>
+            <div class="actions">
+              <button uiButton size="touch" (click)="exact()">{{ 'Exact' | t }}</button>
+              <button uiButton size="touch" variant="primary" [disabled]="!chosen().size || busy() || (received() !== '' && change() === null)" (click)="pay()">
+                {{ busy() ? ('Paying…' | t) : ('Pay ' | t) + n(due()) }}
+              </button>
+            </div>
+          </div>
+        </section>
+      }
+
+      @case ('unpaid') {
+        <section class="unpaid">
+          <div class="floor-head">
+            <h1>{{ 'Unpaid bills' | t }}</h1>
+            <span class="spacer"></span>
+            <button type="button" class="toggle" [class.on]="unpaidMine()" [attr.aria-pressed]="unpaidMine()" (click)="unpaidMine.set(!unpaidMine())">{{ 'Only mine' | t }}</button>
+          </div>
+          <table>
+            <thead><tr><th>{{ 'Bill' | t }}</th><th>{{ 'Table' | t }}</th><th>{{ 'Waiter' | t }}</th><th>{{ 'Time' | t }}</th><th class="num">{{ 'Open' | t }}</th><th></th></tr></thead>
+            <tbody>
+              @for (b of unpaidShown(); track b.id) {
+                <tr>
+                  <td>{{ b.code }}</td><td>{{ b.table ?? '—' }}</td><td>{{ (b.createdBy && waiterNames().get(b.createdBy)) || '—' }}</td>
+                  <td>{{ time(b.createdOn) }}</td><td class="num">{{ n(b.open) }}</td>
+                  <td><button uiButton size="small" (click)="startPay([b])">{{ 'Pay' | t }}</button></td>
+                </tr>
+              } @empty {
+                <tr><td colspan="6" class="muted">{{ 'No bill is waiting to be paid.' | t }}</td></tr>
+              }
+            </tbody>
+          </table>
+          @if (unpaidShown().length > 1) {
+            <div class="actions"><button uiButton size="touch" variant="primary" (click)="startPay(unpaidShown())">{{ 'Pay all shown' | t }}</button></div>
+          }
+        </section>
+      }
+
+      @case ('cash') {
+        <section class="pay">
+          <div class="bills">
+            <div class="methods" role="radiogroup" [attr.aria-label]="'Money in or out' | t">
+              <button type="button" role="radio" [attr.aria-checked]="cashKind() === 'in'" [class.current]="cashKind() === 'in'" (click)="chooseCashKind('in')">{{ 'Money in' | t }}</button>
+              <button type="button" role="radio" [attr.aria-checked]="cashKind() === 'out'" [class.current]="cashKind() === 'out'" (click)="chooseCashKind('out')">{{ 'Money out' | t }}</button>
+            </div>
+            @if (cashType(); as t) {
+              <p class="muted">{{ t.form.name }} · {{ settings()?.cashDesk }}</p>
+              <h2>{{ t.form.from ? ('From' | t) : ('To' | t) }} {{ (t.form.from ?? t.form.to)?.name }}</h2>
+              <div class="parties">
+                @for (p of parties(); track p.id) {
+                  <button type="button" [class.current]="partyId() === p.id" (click)="partyId.set(p.id)">{{ p.name || p.code }}</button>
+                } @empty {
+                  <p class="muted">{{ 'There is no one to choose.' | t }}</p>
+                }
+              </div>
+              <label class="reason">{{ 'Reason' | t }} <input class="control" [value]="reason()" (input)="reason.set($any($event.target).value)" [placeholder]="'e.g. ice from the shop' | t" /></label>
+            } @else {
+              <p class="muted">{{ 'No document type is set for money {0}.' | t: (cashKind()) }}</p>
+            }
+          </div>
+          <div class="cash">
+            <div class="readout"><span>{{ 'Amount' | t }}</span><strong>{{ amount() || '0' }}</strong></div>
+            <div class="keypad">
+              @for (k of keys; track k) {
+                <button type="button" (click)="press(k, 'amount')" [attr.aria-label]="k === 'back' ? 'Delete' : k">
+                  @if (k === 'back') { <ui-icon name="chevron-left" [size]="22" /> } @else { {{ k }} }
+                </button>
+              }
+            </div>
+            <div class="actions">
+              <button uiButton size="touch" variant="primary" [disabled]="!cashType() || !partyId() || !(+amount() > 0) || busy()" (click)="recordCash()">
+                {{ 'Record {0}' | t: (cashKind() === 'in' ? 'money in' : 'money out') }}
+              </button>
+            </div>
+          </div>
+        </section>
+      }
+    }
+  }
+</main>
+
+<ng-template #menuButtons>
+          <div class="categories" role="tablist" [attr.aria-label]="'Categories' | t">
+            @for (c of categories(); track c.categoryId) {
+              <button type="button" role="tab" [attr.aria-selected]="c === category()" [class.current]="c === category()" (click)="categoryId.set(c.categoryId)">{{ c.name }}</button>
+            } @empty {
+              <p class="muted">{{ 'No menu is open now. Sale menus are set in Products and services › Sale menus.' | t }}</p>
+            }
+          </div>
+          <div class="products">
+            @for (p of category()?.products ?? []; track p.productId) {
+              <button type="button" class="product" [disabled]="p.price === null" (click)="add(p)">
+                <span class="name">{{ p.name }}</span>
+                <span class="price">{{ p.price === null ? ('No price' | t) : n(gross(p.price, p.productId)) }}</span>
+              </button>
+            }
+          </div>
+</ng-template>
+
+<ng-template #orderLines>
+          <ul class="lines">
+            @for (l of order(); track l.productId + (l.lot ?? '')) {
+              <li>
+                <span class="name">{{ l.name }}@if (l.lot) { <small> · {{ l.lot }}</small> }</span>
+                <span class="qty">
+                  <button type="button" (click)="step(l.productId, -1, l.lot ?? null)" [attr.aria-label]="'One less ' + l.name"><ui-icon name="minus" [size]="18" /></button>
+                  <strong>{{ l.quantity }}</strong>
+                  <button type="button" (click)="step(l.productId, 1, l.lot ?? null)" [attr.aria-label]="'One more ' + l.name"><ui-icon name="plus" [size]="18" /></button>
+                </span>
+                <span class="value">{{ n(gross(l.price * l.quantity, l.productId)) }}</span>
+              </li>
+            } @empty {
+              <li class="muted empty">{{ 'Tap the products to order.' | t }}</li>
+            }
+          </ul>
+</ng-template>
+
+<ng-template #noShift>
+  @if (closedShift(); as c) {
+    <h1>{{ 'Shift closed' | t }}</h1>
+    <dl>
+      <dt>{{ 'Expected cash' | t }}</dt><dd>{{ n(c.shift.expectedCash ?? 0) }}</dd>
+      <dt>{{ 'Counted cash' | t }}</dt><dd>{{ n(c.shift.countedCash ?? 0) }}</dd>
+      <dt>{{ 'Difference' | t }}</dt><dd>{{ n(c.shift.difference ?? 0) }}</dd>
+    </dl>
+  } @else {
+    <h1>{{ 'Open a shift' | t }}</h1>
+  }
+  <label>{{ 'Cash in the drawer' | t }}<input class="control" type="number" min="0" step="0.01" [value]="openingCash()" (input)="openingCash.set($any($event.target).value)" /></label>
+  <button uiButton size="touch" variant="primary" [disabled]="openingCash() === '' || busy()" (click)="openShift()">{{ 'Open the shift' | t }}</button>
+</ng-template>

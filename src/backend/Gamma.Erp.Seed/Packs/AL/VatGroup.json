@@ -1,0 +1,41 @@
+[
+ {
+  "Key": "vat_group:AL_20",
+  "IdSup": null,
+  "Active": true,
+  "Code": null,
+  "Name": {
+   "en": "VAT 20%",
+   "sq": "TVSH 20%"
+  },
+  "Description": null,
+  "Rate": 20.0,
+  "Depreciation": false
+ },
+ {
+  "Key": "vat_group:AL_6",
+  "IdSup": null,
+  "Active": true,
+  "Code": null,
+  "Name": {
+   "en": "VAT 6%",
+   "sq": "TVSH 6%"
+  },
+  "Description": null,
+  "Rate": 6.0,
+  "Depreciation": false
+ },
+ {
+  "Key": "vat_group:AL_0",
+  "IdSup": null,
+  "Active": true,
+  "Code": null,
+  "Name": {
+   "en": "VAT 0%",
+   "sq": "TVSH 0%"
+  },
+  "Description": null,
+  "Rate": 0.0,
+  "Depreciation": false
+ }
+]

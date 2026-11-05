@@ -1,0 +1,574 @@
+[
+ {
+  "Key": "vat_return_box:9",
+  "IdSup": null,
+  "Active": true,
+  "Code": "9",
+  "Name": {
+   "en": "Exempt sales",
+   "sq": "Shitjet e përjashtuara"
+  },
+  "SortOrder": 0.0,
+  "IsInput": false,
+  "Amount": 1
+ },
+ {
+  "Key": "vat_return_box:10",
+  "IdSup": null,
+  "Active": true,
+  "Code": "10",
+  "Name": {
+   "en": "Sales without VAT",
+   "sq": "Shitjet pa TVSH"
+  },
+  "SortOrder": 1.0,
+  "IsInput": false,
+  "Amount": 1
+ },
+ {
+  "Key": "vat_return_box:11",
+  "IdSup": null,
+  "Active": true,
+  "Code": "11",
+  "Name": {
+   "en": "Exports of goods",
+   "sq": "Eksporte mallrash"
+  },
+  "SortOrder": 2.0,
+  "IsInput": false,
+  "Amount": 1
+ },
+ {
+  "Key": "vat_return_box:12",
+  "IdSup": null,
+  "Active": true,
+  "Code": "12",
+  "Name": {
+   "en": "Supplies at 0%",
+   "sq": "Furnizime me 0%"
+  },
+  "SortOrder": 3.0,
+  "IsInput": false,
+  "Amount": 1
+ },
+ {
+  "Key": "vat_return_box:13",
+  "IdSup": null,
+  "Active": true,
+  "Code": "13",
+  "Name": {
+   "en": "Sales at 20%, taxable value",
+   "sq": "Shitje me shkallë 20% – vlera e tatueshme"
+  },
+  "SortOrder": 4.0,
+  "IsInput": false,
+  "Amount": 1
+ },
+ {
+  "Key": "vat_return_box:14",
+  "IdSup": null,
+  "Active": true,
+  "Code": "14",
+  "Name": {
+   "en": "Sales at 20%, VAT",
+   "sq": "Shitje me shkallë 20% – TVSH"
+  },
+  "SortOrder": 5.0,
+  "IsInput": false,
+  "Amount": 2
+ },
+ {
+  "Key": "vat_return_box:15",
+  "IdSup": null,
+  "Active": true,
+  "Code": "15",
+  "Name": {
+   "en": "Sales at 10%, taxable value",
+   "sq": "Shitje me shkallë 10% – vlera e tatueshme"
+  },
+  "SortOrder": 6.0,
+  "IsInput": false,
+  "Amount": 1
+ },
+ {
+  "Key": "vat_return_box:16",
+  "IdSup": null,
+  "Active": true,
+  "Code": "16",
+  "Name": {
+   "en": "Sales at 10%, VAT",
+   "sq": "Shitje me shkallë 10% – TVSH"
+  },
+  "SortOrder": 7.0,
+  "IsInput": false,
+  "Amount": 2
+ },
+ {
+  "Key": "vat_return_box:17",
+  "IdSup": null,
+  "Active": true,
+  "Code": "17",
+  "Name": {
+   "en": "Sales at 6%, taxable value",
+   "sq": "Shitje me shkallë 6% – vlera e tatueshme"
+  },
+  "SortOrder": 8.0,
+  "IsInput": false,
+  "Amount": 1
+ },
+ {
+  "Key": "vat_return_box:18",
+  "IdSup": null,
+  "Active": true,
+  "Code": "18",
+  "Name": {
+   "en": "Sales at 6%, VAT",
+   "sq": "Shitje me shkallë 6% – TVSH"
+  },
+  "SortOrder": 9.0,
+  "IsInput": false,
+  "Amount": 2
+ },
+ {
+  "Key": "vat_return_box:19",
+  "IdSup": null,
+  "Active": true,
+  "Code": "19",
+  "Name": {
+   "en": "Travel agents, profit margin, auctions, taxable value",
+   "sq": "Shitje regjimi agjentëve të udhëtimit/marzhi i fitimit/shitje në ankand – vlera e tatueshme"
+  },
+  "SortOrder": 10.0,
+  "IsInput": false,
+  "Amount": 1
+ },
+ {
+  "Key": "vat_return_box:20",
+  "IdSup": null,
+  "Active": true,
+  "Code": "20",
+  "Name": {
+   "en": "Travel agents, profit margin, auctions, VAT",
+   "sq": "Shitje regjimi agjentëve të udhëtimit/marzhi i fitimit/shitje në ankand – TVSH"
+  },
+  "SortOrder": 11.0,
+  "IsInput": false,
+  "Amount": 2
+ },
+ {
+  "Key": "vat_return_box:21",
+  "IdSup": null,
+  "Active": true,
+  "Code": "21",
+  "Name": {
+   "en": "Self-charged VAT on sales, taxable value",
+   "sq": "Autongarkesë TVSH në shitje – vlera e tatueshme"
+  },
+  "SortOrder": 12.0,
+  "IsInput": false,
+  "Amount": 1
+ },
+ {
+  "Key": "vat_return_box:22",
+  "IdSup": null,
+  "Active": true,
+  "Code": "22",
+  "Name": {
+   "en": "Self-charged VAT on sales, VAT",
+   "sq": "Autongarkesë TVSH në shitje – TVSH"
+  },
+  "SortOrder": 13.0,
+  "IsInput": false,
+  "Amount": 2
+ },
+ {
+  "Key": "vat_return_box:23",
+  "IdSup": null,
+  "Active": true,
+  "Code": "23",
+  "Name": {
+   "en": "Bad debt, taxable value",
+   "sq": "Borxh i keq – vlera e tatueshme"
+  },
+  "SortOrder": 14.0,
+  "IsInput": false,
+  "Amount": 1
+ },
+ {
+  "Key": "vat_return_box:24",
+  "IdSup": null,
+  "Active": true,
+  "Code": "24",
+  "Name": {
+   "en": "Bad debt, VAT",
+   "sq": "Borxh i keq – TVSH"
+  },
+  "SortOrder": 15.0,
+  "IsInput": false,
+  "Amount": 2
+ },
+ {
+  "Key": "vat_return_box:26",
+  "IdSup": null,
+  "Active": true,
+  "Code": "26",
+  "Name": {
+   "en": "Exempt purchases, non-deductible VAT or without VAT",
+   "sq": "Blerje të përjashtuara, me TVSH jo të zbritshme/pa TVSH"
+  },
+  "SortOrder": 16.0,
+  "IsInput": true,
+  "Amount": 1
+ },
+ {
+  "Key": "vat_return_box:27",
+  "IdSup": null,
+  "Active": true,
+  "Code": "27",
+  "Name": {
+   "en": "Domestic investment purchases without VAT",
+   "sq": "Blerje investime brenda vendit pa TVSH"
+  },
+  "SortOrder": 17.0,
+  "IsInput": true,
+  "Amount": 1
+ },
+ {
+  "Key": "vat_return_box:28",
+  "IdSup": null,
+  "Active": true,
+  "Code": "28",
+  "Name": {
+   "en": "Exempt investment imports without VAT",
+   "sq": "Importe të përjashtuara të investimit pa TVSH"
+  },
+  "SortOrder": 18.0,
+  "IsInput": true,
+  "Amount": 1
+ },
+ {
+  "Key": "vat_return_box:29",
+  "IdSup": null,
+  "Active": true,
+  "Code": "29",
+  "Name": {
+   "en": "Exempt imports of goods",
+   "sq": "Importe mallra të përjashtuara"
+  },
+  "SortOrder": 19.0,
+  "IsInput": true,
+  "Amount": 1
+ },
+ {
+  "Key": "vat_return_box:30",
+  "IdSup": null,
+  "Active": true,
+  "Code": "30",
+  "Name": {
+   "en": "Imports of goods at 20%, taxable value",
+   "sq": "Importe mallra me shkallë 20% – vlera e tatueshme"
+  },
+  "SortOrder": 20.0,
+  "IsInput": true,
+  "Amount": 1
+ },
+ {
+  "Key": "vat_return_box:31",
+  "IdSup": null,
+  "Active": true,
+  "Code": "31",
+  "Name": {
+   "en": "Imports of goods at 20%, VAT",
+   "sq": "Importe mallra me shkallë 20% – TVSH"
+  },
+  "SortOrder": 21.0,
+  "IsInput": true,
+  "Amount": 2
+ },
+ {
+  "Key": "vat_return_box:32",
+  "IdSup": null,
+  "Active": true,
+  "Code": "32",
+  "Name": {
+   "en": "Imports of goods at 10%, taxable value",
+   "sq": "Importe mallra me shkallë 10% – vlera e tatueshme"
+  },
+  "SortOrder": 22.0,
+  "IsInput": true,
+  "Amount": 1
+ },
+ {
+  "Key": "vat_return_box:33",
+  "IdSup": null,
+  "Active": true,
+  "Code": "33",
+  "Name": {
+   "en": "Imports of goods at 10%, VAT",
+   "sq": "Importe mallra me shkallë 10% – TVSH"
+  },
+  "SortOrder": 23.0,
+  "IsInput": true,
+  "Amount": 2
+ },
+ {
+  "Key": "vat_return_box:34",
+  "IdSup": null,
+  "Active": true,
+  "Code": "34",
+  "Name": {
+   "en": "Imports of goods at 6%, taxable value",
+   "sq": "Importe mallra me shkallë 6% – vlera e tatueshme"
+  },
+  "SortOrder": 24.0,
+  "IsInput": true,
+  "Amount": 1
+ },
+ {
+  "Key": "vat_return_box:35",
+  "IdSup": null,
+  "Active": true,
+  "Code": "35",
+  "Name": {
+   "en": "Imports of goods at 6%, VAT",
+   "sq": "Importe mallra me shkallë 6% – TVSH"
+  },
+  "SortOrder": 25.0,
+  "IsInput": true,
+  "Amount": 2
+ },
+ {
+  "Key": "vat_return_box:36",
+  "IdSup": null,
+  "Active": true,
+  "Code": "36",
+  "Name": {
+   "en": "Investment imports at 20%, taxable value",
+   "sq": "Importe të investimit me shkallë 20% – vlera e tatueshme"
+  },
+  "SortOrder": 26.0,
+  "IsInput": true,
+  "Amount": 1
+ },
+ {
+  "Key": "vat_return_box:37",
+  "IdSup": null,
+  "Active": true,
+  "Code": "37",
+  "Name": {
+   "en": "Investment imports at 20%, VAT",
+   "sq": "Importe të investimit me shkallë 20% – TVSH"
+  },
+  "SortOrder": 27.0,
+  "IsInput": true,
+  "Amount": 2
+ },
+ {
+  "Key": "vat_return_box:38",
+  "IdSup": null,
+  "Active": true,
+  "Code": "38",
+  "Name": {
+   "en": "From domestic suppliers at 20%, taxable value",
+   "sq": "Nga furnitorë vendës me shkallë 20% – vlera e tatueshme"
+  },
+  "SortOrder": 28.0,
+  "IsInput": true,
+  "Amount": 1
+ },
+ {
+  "Key": "vat_return_box:39",
+  "IdSup": null,
+  "Active": true,
+  "Code": "39",
+  "Name": {
+   "en": "From domestic suppliers at 20%, VAT",
+   "sq": "Nga furnitorë vendës me shkallë 20% – TVSH"
+  },
+  "SortOrder": 29.0,
+  "IsInput": true,
+  "Amount": 2
+ },
+ {
+  "Key": "vat_return_box:40",
+  "IdSup": null,
+  "Active": true,
+  "Code": "40",
+  "Name": {
+   "en": "From domestic suppliers at 10%, taxable value",
+   "sq": "Nga furnitorë vendës me shkallë 10% – vlera e tatueshme"
+  },
+  "SortOrder": 30.0,
+  "IsInput": true,
+  "Amount": 1
+ },
+ {
+  "Key": "vat_return_box:41",
+  "IdSup": null,
+  "Active": true,
+  "Code": "41",
+  "Name": {
+   "en": "From domestic suppliers at 10%, VAT",
+   "sq": "Nga furnitorë vendës me shkallë 10% – TVSH"
+  },
+  "SortOrder": 31.0,
+  "IsInput": true,
+  "Amount": 2
+ },
+ {
+  "Key": "vat_return_box:42",
+  "IdSup": null,
+  "Active": true,
+  "Code": "42",
+  "Name": {
+   "en": "From domestic suppliers at 6%, taxable value",
+   "sq": "Nga furnitorë vendës me shkallë 6% – vlera e tatueshme"
+  },
+  "SortOrder": 32.0,
+  "IsInput": true,
+  "Amount": 1
+ },
+ {
+  "Key": "vat_return_box:43",
+  "IdSup": null,
+  "Active": true,
+  "Code": "43",
+  "Name": {
+   "en": "From domestic suppliers at 6%, VAT",
+   "sq": "Nga furnitorë vendës me shkallë 6% – TVSH"
+  },
+  "SortOrder": 33.0,
+  "IsInput": true,
+  "Amount": 2
+ },
+ {
+  "Key": "vat_return_box:44",
+  "IdSup": null,
+  "Active": true,
+  "Code": "44",
+  "Name": {
+   "en": "Investment from domestic suppliers at 20%, taxable value",
+   "sq": "Të investimit nga furnitorë vendës me shkallë 20% – vlera e tatueshme"
+  },
+  "SortOrder": 34.0,
+  "IsInput": true,
+  "Amount": 1
+ },
+ {
+  "Key": "vat_return_box:45",
+  "IdSup": null,
+  "Active": true,
+  "Code": "45",
+  "Name": {
+   "en": "Investment from domestic suppliers at 20%, VAT",
+   "sq": "Të investimit nga furnitorë vendës me shkallë 20% – TVSH"
+  },
+  "SortOrder": 35.0,
+  "IsInput": true,
+  "Amount": 2
+ },
+ {
+  "Key": "vat_return_box:46",
+  "IdSup": null,
+  "Active": true,
+  "Code": "46",
+  "Name": {
+   "en": "From domestic farmers, taxable value",
+   "sq": "Nga fermerët vendës – vlera e tatueshme"
+  },
+  "SortOrder": 36.0,
+  "IsInput": true,
+  "Amount": 1
+ },
+ {
+  "Key": "vat_return_box:47",
+  "IdSup": null,
+  "Active": true,
+  "Code": "47",
+  "Name": {
+   "en": "From domestic farmers, VAT",
+   "sq": "Nga fermerët vendës – TVSH"
+  },
+  "SortOrder": 37.0,
+  "IsInput": true,
+  "Amount": 2
+ },
+ {
+  "Key": "vat_return_box:48",
+  "IdSup": null,
+  "Active": true,
+  "Code": "48",
+  "Name": {
+   "en": "Self-charged VAT on purchases, deductible, taxable value",
+   "sq": "Autongarkesë TVSH në blerje me të drejtë kreditimi – vlera e tatueshme"
+  },
+  "SortOrder": 38.0,
+  "IsInput": true,
+  "Amount": 1
+ },
+ {
+  "Key": "vat_return_box:49",
+  "IdSup": null,
+  "Active": true,
+  "Code": "49",
+  "Name": {
+   "en": "Self-charged VAT on purchases, deductible, VAT",
+   "sq": "Autongarkesë TVSH në blerje me të drejtë kreditimi – TVSH"
+  },
+  "SortOrder": 39.0,
+  "IsInput": true,
+  "Amount": 2
+ },
+ {
+  "Key": "vat_return_box:50",
+  "IdSup": null,
+  "Active": true,
+  "Code": "50",
+  "Name": {
+   "en": "Adjustments of deductible VAT, taxable value",
+   "sq": "Rregullime të TVSH-së së zbritshme – vlera e tatueshme"
+  },
+  "SortOrder": 40.0,
+  "IsInput": true,
+  "Amount": 1
+ },
+ {
+  "Key": "vat_return_box:51",
+  "IdSup": null,
+  "Active": true,
+  "Code": "51",
+  "Name": {
+   "en": "Adjustments of deductible VAT, VAT",
+   "sq": "Rregullime të TVSH-së së zbritshme – TVSH"
+  },
+  "SortOrder": 41.0,
+  "IsInput": true,
+  "Amount": 2
+ },
+ {
+  "Key": "vat_return_box:52",
+  "IdSup": null,
+  "Active": true,
+  "Code": "52",
+  "Name": {
+   "en": "Bad debt, taxable value",
+   "sq": "Veprime të borxhit të keq – vlera e tatueshme"
+  },
+  "SortOrder": 42.0,
+  "IsInput": true,
+  "Amount": 1
+ },
+ {
+  "Key": "vat_return_box:53",
+  "IdSup": null,
+  "Active": true,
+  "Code": "53",
+  "Name": {
+   "en": "Bad debt, VAT",
+   "sq": "Veprime të borxhit të keq – TVSH"
+  },
+  "SortOrder": 43.0,
+  "IsInput": true,
+  "Amount": 2
+ }
+]

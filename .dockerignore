@@ -1,0 +1,12 @@
+**/bin/
+**/obj/
+**/node_modules/
+**/TestResults/
+.git/
+.vs/
+tests/
+tools/
+deploy/.env
+deploy/certs/
+**/.angular/
+**/dist/

@@ -1,0 +1,226 @@
+[
+ {
+  "Key": "depreciation_scenario:assets",
+  "IdSup": null,
+  "Active": true,
+  "Name": {
+   "en": "Assets",
+   "mk": "Основни средства"
+  },
+  "DepreciationBookId": "depreciation_book:COMPANY",
+  "ElementsId": "elements:187",
+  "Months": 60,
+  "LinearPercentage": 20,
+  "DecliningPercentage": 0
+ },
+ {
+  "Key": "depreciation_scenario:assets:tax",
+  "IdSup": null,
+  "Active": true,
+  "Name": {
+   "en": "Assets",
+   "mk": "Основни средства"
+  },
+  "DepreciationBookId": "depreciation_book:TAX",
+  "ElementsId": "elements:187",
+  "Months": 60,
+  "LinearPercentage": 20,
+  "DecliningPercentage": 0
+ },
+ {
+  "Key": "depreciation_scenario:land",
+  "IdSup": null,
+  "Active": true,
+  "Name": {
+   "en": "Land",
+   "mk": "Земјишта"
+  },
+  "DepreciationBookId": "depreciation_book:COMPANY",
+  "ElementsId": "elements:188",
+  "Months": null,
+  "LinearPercentage": 0,
+  "DecliningPercentage": 0
+ },
+ {
+  "Key": "depreciation_scenario:land:tax",
+  "IdSup": null,
+  "Active": true,
+  "Name": {
+   "en": "Land",
+   "mk": "Земјишта"
+  },
+  "DepreciationBookId": "depreciation_book:TAX",
+  "ElementsId": "elements:188",
+  "Months": null,
+  "LinearPercentage": 0,
+  "DecliningPercentage": 0
+ },
+ {
+  "Key": "depreciation_scenario:buildings",
+  "IdSup": null,
+  "Active": true,
+  "Name": {
+   "en": "Buildings",
+   "mk": "Градежни објекти"
+  },
+  "DepreciationBookId": "depreciation_book:COMPANY",
+  "ElementsId": "elements:189",
+  "Months": 480,
+  "LinearPercentage": 2.5,
+  "DecliningPercentage": 0
+ },
+ {
+  "Key": "depreciation_scenario:buildings:tax",
+  "IdSup": null,
+  "Active": true,
+  "Name": {
+   "en": "Buildings",
+   "mk": "Градежни објекти"
+  },
+  "DepreciationBookId": "depreciation_book:TAX",
+  "ElementsId": "elements:189",
+  "Months": 480,
+  "LinearPercentage": 2.5,
+  "DecliningPercentage": 0
+ },
+ {
+  "Key": "depreciation_scenario:office",
+  "IdSup": null,
+  "Active": true,
+  "Name": {
+   "en": "Office equipment",
+   "mk": "Канцелариска опрема"
+  },
+  "DepreciationBookId": "depreciation_book:COMPANY",
+  "ElementsId": "elements:190",
+  "Months": 60,
+  "LinearPercentage": 20,
+  "DecliningPercentage": 0
+ },
+ {
+  "Key": "depreciation_scenario:office:tax",
+  "IdSup": null,
+  "Active": true,
+  "Name": {
+   "en": "Office equipment",
+   "mk": "Канцелариска опрема"
+  },
+  "DepreciationBookId": "depreciation_book:TAX",
+  "ElementsId": "elements:190",
+  "Months": 60,
+  "LinearPercentage": 20,
+  "DecliningPercentage": 0
+ },
+ {
+  "Key": "depreciation_scenario:vehicles",
+  "IdSup": null,
+  "Active": true,
+  "Name": {
+   "en": "Vehicles",
+   "mk": "Транспортни средства"
+  },
+  "DepreciationBookId": "depreciation_book:COMPANY",
+  "ElementsId": "elements:191",
+  "Months": 48,
+  "LinearPercentage": 25,
+  "DecliningPercentage": 0
+ },
+ {
+  "Key": "depreciation_scenario:vehicles:tax",
+  "IdSup": null,
+  "Active": true,
+  "Name": {
+   "en": "Vehicles",
+   "mk": "Транспортни средства"
+  },
+  "DepreciationBookId": "depreciation_book:TAX",
+  "ElementsId": "elements:191",
+  "Months": 48,
+  "LinearPercentage": 25,
+  "DecliningPercentage": 0
+ },
+ {
+  "Key": "depreciation_scenario:computers",
+  "IdSup": null,
+  "Active": true,
+  "Name": {
+   "en": "Computer equipment",
+   "mk": "Компјутерска опрема"
+  },
+  "DepreciationBookId": "depreciation_book:COMPANY",
+  "ElementsId": "elements:192",
+  "Months": 48,
+  "LinearPercentage": 25,
+  "DecliningPercentage": 0
+ },
+ {
+  "Key": "depreciation_scenario:computers:tax",
+  "IdSup": null,
+  "Active": true,
+  "Name": {
+   "en": "Computer equipment",
+   "mk": "Компјутерска опрема"
+  },
+  "DepreciationBookId": "depreciation_book:TAX",
+  "ElementsId": "elements:192",
+  "Months": 48,
+  "LinearPercentage": 25,
+  "DecliningPercentage": 0
+ },
+ {
+  "Key": "depreciation_scenario:furniture",
+  "IdSup": null,
+  "Active": true,
+  "Name": {
+   "en": "Furniture and fittings",
+   "mk": "Мебел и инвентар"
+  },
+  "DepreciationBookId": "depreciation_book:COMPANY",
+  "ElementsId": "elements:193",
+  "Months": 60,
+  "LinearPercentage": 20,
+  "DecliningPercentage": 0
+ },
+ {
+  "Key": "depreciation_scenario:furniture:tax",
+  "IdSup": null,
+  "Active": true,
+  "Name": {
+   "en": "Furniture and fittings",
+   "mk": "Мебел и инвентар"
+  },
+  "DepreciationBookId": "depreciation_book:TAX",
+  "ElementsId": "elements:193",
+  "Months": 60,
+  "LinearPercentage": 20,
+  "DecliningPercentage": 0
+ },
+ {
+  "Key": "depreciation_scenario:intangible",
+  "IdSup": null,
+  "Active": true,
+  "Name": {
+   "en": "Intangible assets",
+   "mk": "Нематеријални средства"
+  },
+  "DepreciationBookId": "depreciation_book:COMPANY",
+  "ElementsId": "elements:194",
+  "Months": 60,
+  "LinearPercentage": 20,
+  "DecliningPercentage": 0
+ },
+ {
+  "Key": "depreciation_scenario:intangible:tax",
+  "IdSup": null,
+  "Active": true,
+  "Name": {
+   "en": "Intangible assets",
+   "mk": "Нематеријални средства"
+  },
+  "DepreciationBookId": "depreciation_book:TAX",
+  "ElementsId": "elements:194",
+  "Months": 60,
+  "LinearPercentage": 20,
+  "DecliningPercentage": 0
+ }
+]

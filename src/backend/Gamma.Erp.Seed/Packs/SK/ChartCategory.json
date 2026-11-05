@@ -1,0 +1,15 @@
+[
+ {
+  "Key": "chart_category:STATUTORY",
+  "IdSup": null,
+  "Active": true,
+  "IsElement": true,
+  "Code": "RUO",
+  "Name": {
+   "en": "Chart of accounts (RUO)",
+   "sk": "Rámcová účtová osnova (opatrenie MF SR č. 23054/2002-92)"
+  },
+  "IsStatutory": true,
+  "SortOrder": 10
+ }
+]

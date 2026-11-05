@@ -1,0 +1,145 @@
+:host {
+  display: grid;
+  // One column no wider than the page: wide lines scroll inside the grid, never the page.
+  grid-template-columns: minmax(0, 1fr);
+  align-content: start;
+  gap: var(--space-4);
+  padding: var(--space-4) var(--space-6) var(--space-6);
+}
+
+.head {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-3);
+}
+
+.title {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--space-3);
+
+  h1 {
+    font-size: var(--title-l);
+  }
+}
+
+.unsaved {
+  font-size: var(--text-s);
+}
+
+.actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-2);
+}
+
+.message,
+.notice {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+  margin: 0;
+  padding: var(--space-3);
+  border-radius: var(--radius);
+}
+
+.message {
+  background: var(--critical-bg);
+  color: var(--critical);
+}
+
+.notice {
+  background: var(--warning-bg);
+  color: var(--warning);
+}
+
+.header {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: var(--space-4);
+  padding: var(--space-4) var(--space-5);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-l);
+  background: var(--surface);
+
+  .side {
+    grid-column: span 2;
+  }
+
+  .balance {
+    padding: 0;
+    border: 0;
+    background: none;
+    color: var(--muted);
+    font-size: var(--text-xs);
+    text-decoration: none;
+    cursor: pointer;
+
+    &:hover {
+      color: var(--link);
+      text-decoration: underline;
+    }
+  }
+
+  @media (max-width: 1100px) {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+.totals {
+  display: flex;
+  justify-content: flex-end;
+  gap: var(--space-5);
+  padding: var(--space-3) var(--space-5);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-l);
+  background: var(--surface);
+
+  div {
+    display: grid;
+    justify-items: end;
+    gap: 2px;
+  }
+
+  span {
+    color: var(--muted);
+    font-size: var(--text-xs);
+  }
+
+  strong {
+    font-size: var(--text-l);
+    font-weight: 500;
+  }
+
+  .grand strong {
+    font-size: var(--title-s);
+    font-weight: 600;
+  }
+}
+
+.preview {
+  max-height: 520px;
+}
+
+.versions,
+.links {
+  display: grid;
+  gap: var(--space-2);
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+p {
+  margin: 0;
+}
+
+.properties {
+  padding: var(--space-4) var(--space-5);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-l);
+  background: var(--surface);
+}

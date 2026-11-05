@@ -1,0 +1,178 @@
+@if (document(); as d) {
+  <div class="head">
+    <div class="title">
+      <button uiButton variant="quiet" size="small" (click)="back()"><ui-icon name="chevron-left" [size]="14" />{{ 'List' | t }}</button>
+      <h1>{{ title() }}</h1>
+      @switch (state()) {
+        @case ('posted') { <ui-status kind="good">{{ 'Posted' | t }}</ui-status> }
+        @case ('reversal') { <ui-status kind="good">{{ 'Posted' | t }}</ui-status><span class="muted">{{ 'Reversal of {0}' | t: (d.reversedDocumentCode) }}</span> }
+        @case ('draft') { <ui-status kind="info">{{ 'Draft' | t }}</ui-status> }
+        @default { <ui-status kind="info">{{ 'New' | t }}</ui-status> }
+      }
+      @if (dirty() && !readOnly()) { <span class="muted unsaved">{{ 'Not saved' | t }}</span> }
+    </div>
+    <div class="actions">
+      @if (!isNew()) {
+        <button uiButton variant="quiet" [iconOnly]="true" [attr.aria-label]="'Previous document' | t" [disabled]="!neighbours().previous" (click)="go(neighbours().previous)">
+          <ui-icon name="chevron-left" />
+        </button>
+        <button uiButton variant="quiet" [iconOnly]="true" [attr.aria-label]="'Next document' | t" [disabled]="!neighbours().next" (click)="go(neighbours().next)">
+          <ui-icon name="chevron-right" />
+        </button>
+        <button uiButton (click)="print()"><ui-icon name="printer" />{{ 'Print' | t }}</button>
+        <button uiButton (click)="email()">{{ 'E-mail' | t }}</button>
+        <button uiButton (click)="repeat()"><ui-icon name="repeat" />{{ 'Repeat' | t }}</button>
+      }
+      <!-- What this document generates: its reversal when it is a posted bill, and what the configuration lets it make. -->
+      @if (flows().length || canReverse()) {
+        <button uiButton [cdkMenuTriggerFor]="generateMenu"><ui-icon name="plus" />{{ 'Generate' | t }}<ui-icon name="chevron-down" [size]="14" /></button>
+        <ng-template #generateMenu>
+          <div class="menu-panel" cdkMenu>
+            @if (canReverse()) {
+              <button class="menu-item" cdkMenuItem (cdkMenuItemTriggered)="reverse()">{{ 'Reverse…' | t }}</button>
+            }
+            @for (f of flows(); track f.typeId) {
+              <button class="menu-item" cdkMenuItem [attr.title]="f.refused" [class.muted]="f.refused" (cdkMenuItemTriggered)="makeDocument(f)">{{ f.code }} {{ f.name }}</button>
+            }
+          </div>
+        </ng-template>
+      }
+      @if (!readOnly()) {
+        @if (!isNew()) { <button uiButton variant="danger" (click)="switchOff()">{{ 'Switch off…' | t }}</button> }
+        <button uiButton [disabled]="busy()" (click)="save()">{{ 'Save' | t }}</button>
+        <button uiButton variant="primary" [disabled]="busy()" [attr.title]="form()?.neverPosted ? bookNothing : null" (click)="post()">{{ 'Post' | t }}</button>
+      }
+    </div>
+  </div>
+
+  @if (heldByOther()) {
+    <p class="notice" role="status"><ui-icon name="warning" [size]="16" />{{ 'Another user is editing this document. It is open read only until they close it.' | t }}</p>
+  }
+  @if (message()) { <p class="message" role="alert"><ui-icon name="critical" [size]="16" />{{ message() }}</p> }
+
+  <section class="header">
+    <ui-field [label]="'Number' | t" [hint]="'Given on saving' | t">
+      <input uiInput [value]="d.code ?? ''" disabled />
+    </ui-field>
+    <ui-field [label]="'Posting date' | t" [required]="true" [error]="errors()['postingDate'] ?? null">
+      <input uiInput type="date" [value]="d.postingDate ?? ''" [disabled]="readOnly()" (input)="update({ postingDate: $any($event.target).value || null })" />
+    </ui-field>
+    <ui-field [label]="'Document date' | t" [error]="errors()['documentDate'] ?? null">
+      <input uiInput type="date" [value]="d.documentDate ?? ''" [disabled]="readOnly()" (input)="update({ documentDate: $any($event.target).value || null })" />
+    </ui-field>
+    <ui-field [label]="'Their number' | t" [error]="errors()['externalNumber'] ?? null">
+      <input uiInput [value]="d.externalNumber ?? ''" [disabled]="readOnly()" (input)="update({ externalNumber: $any($event.target).value || null })" />
+    </ui-field>
+    @if (form()?.holdsOpenItem) {
+      <ui-field [label]="'Due date' | t" [hint]="'Empty: the date plus the partner\'s payment days' | t" [error]="errors()['dueDate'] ?? null">
+        <input uiInput type="date" [value]="d.dueDate ?? ''" [disabled]="readOnly()" (input)="update({ dueDate: $any($event.target).value || null })" />
+      </ui-field>
+    }
+    @if (form()?.from; as side) {
+      <ui-field class="side" [label]="'From · ' + side.name" [error]="errors()['fromId'] ?? null">
+        <ui-select [options]="sideOptions().from" [searchable]="true" [value]="d.fromId" [disabled]="readOnly()" (search)="searchSide('from', $event)"
+          (valueChange)="pickSide('from', $event)" />
+        @if (balances().from !== null) { <button type="button" class="balance" (click)="openLedger('from')">{{ 'Balance {0}' | t: (balance(balances().from)) }}</button> }
+      </ui-field>
+    }
+    @if (form()?.to; as side) {
+      <ui-field class="side" [label]="'To · ' + side.name" [error]="errors()['toId'] ?? null">
+        <ui-select [options]="sideOptions().to" [searchable]="true" [value]="d.toId" [disabled]="readOnly()" (search)="searchSide('to', $event)"
+          (valueChange)="pickSide('to', $event)" />
+        @if (balances().to !== null) { <button type="button" class="balance" (click)="openLedger('to')">{{ 'Balance {0}' | t: (balance(balances().to)) }}</button> }
+      </ui-field>
+    }
+    @if (form()?.paymentMethods?.length) {
+      <ui-field [label]="'Payment method' | t" [error]="errors()['paymentMethodId'] ?? null">
+        <ui-select [options]="paymentOptions()" [value]="d.paymentMethodId" [disabled]="readOnly()" (valueChange)="update({ paymentMethodId: $event })" />
+      </ui-field>
+    }
+    <ui-field [label]="'Currency' | t">
+      <ui-select [options]="currencyOptions()" [value]="currencyId()" [disabled]="readOnly()" (valueChange)="setCurrency($event)" />
+    </ui-field>
+    @if (foreign()) {
+      <ui-field [label]="'Rate' | t" [hint]="noRate() ? 'No rate for this day: type one, or set it under Currencies' : '1 unit in the own currency'">
+        <input uiInput [numeric]="true" inputmode="decimal" [value]="rate()" [disabled]="readOnly()" (input)="typeRate($any($event.target).value)" />
+      </ui-field>
+    }
+  </section>
+
+  @if (form()?.neverPosted) {
+    <ui-field class="side" [label]="'Opportunity' | t">
+      <ui-select [options]="opportunities()" [searchable]="true" [value]="d.opportunityId ?? null" [disabled]="readOnly()" (valueChange)="update({ opportunityId: $event })" />
+    </ui-field>
+  }
+  @if (form()?.billsByPlan && d.id) {
+    <app-contract-billing [contractId]="d.id" />
+  }
+  @if (properties().length) {
+    <section class="properties" [attr.aria-label]="'Properties' | t">
+      <ui-property-form [properties]="properties()" [values]="d.values" [lookupOptions]="lookups()" [disabled]="readOnly()" (valuesChange)="update({ values: $event })"
+        (lookupSearch)="onLookupSearch($event)" (fileChosen)="onFile($event)" />
+    </section>
+  }
+
+  @if (isNew() && bankLine()) { <p class="muted">{{ 'Bank statement line: {0}' | t : bankLine() }}</p> }
+  <ui-tabs [tabs]="tabs()" [active]="tab()" (activeChange)="showTab($event)" [ariaLabel]="'Document' | t" />
+
+  <!-- Kept alive on the other tabs: its rows are not saved yet. -->
+  @if (isSheet()) {
+    <div [hidden]="tab() !== 'lines'">
+      <app-sheet-grid [types]="journalTypes()" [journals]="journals()" [categoryId]="category()" [readOnly]="readOnly()" (changed)="rowCount.set($event); dirty.set(true)" />
+    </div>
+  }
+
+  @switch (tab()) {
+    @case ('lines') {
+      @if (!isSheet() && form(); as f) {
+        <app-line-grid [form]="f" [lines]="lines()" [readOnly]="readOnly()" [errors]="errors()" [partnerId]="partnerId()" [currencyId]="currencyId()" [date]="d.documentDate ?? d.postingDate ?? null" [fromId]="d.fromId"
+          (linesChange)="setLines($event)" />
+      }
+      @if (!isSheet()) {
+      <section class="totals" [attr.aria-label]="'Totals' | t">
+        <div><span>{{ 'Discount' | t }}</span><strong class="figures">{{ money(totals().discount) }}</strong></div>
+        <div><span>{{ 'Net' | t }}</span><strong class="figures">{{ money(totals().value) }}</strong></div>
+        <div><span>{{ 'VAT' | t }}</span><strong class="figures">{{ money(totals().vat) }}</strong></div>
+        <div class="grand"><span>{{ 'Total' | t }}</span><strong class="figures">{{ money(totals().total) }}</strong></div>
+      </section>
+      }
+    }
+    @case ('posting') {
+      @if (preview() === null) {
+        <p class="muted">{{ 'Loading…' | t }}</p>
+      } @else {
+        <p class="muted">{{ d.posted ? ('The entries this document wrote.' | t) : ('The entries posting would write, from the saved document.' | t) }}</p>
+        <ui-table class="preview" [columns]="previewColumns" [rows]="previewRows()" [pageSize]="1000" [footer]="previewFooter()" [ariaLabel]="'Posting' | t"
+          [emptyText]="'Posting writes no entries for this document.' | t" />
+      }
+    }
+    @case ('history') {
+      @if (history() === null) {
+        <p class="muted">{{ 'Loading…' | t }}</p>
+      } @else if (!history()!.length) {
+        <p class="muted">{{ 'No earlier versions: the document is as it was first saved.' | t }}</p>
+      } @else {
+        <ol class="versions">
+          @for (h of history(); track h.id) { <li><span class="figures">{{ date(h.createdOn) }}</span> {{ '— an earlier version was kept.' | t }}</li> }
+        </ol>
+      }
+    }
+    @case ('links') {
+      <ul class="links">
+        @if (d.reversedDocumentId) {
+          <li><button uiButton variant="quiet" (click)="go(d.reversedDocumentId)">{{ 'Reverses {0}' | t: (d.reversedDocumentCode) }}</button></li>
+        }
+        @for (source of d.createdFromIds; track source) {
+          <li><button uiButton variant="quiet" (click)="go(source)">{{ 'Created from a document' | t }}</button></li>
+        }
+        @for (m of made(); track m.id) {
+          <li><button uiButton variant="quiet" (click)="openMade(m)">{{ m.type }} {{ m.code }}{{ m.posted ? '' : ' (draft)' }}</button></li>
+        }
+      </ul>
+    }
+  }
+} @else if (message()) {
+  <p class="message" role="alert"><ui-icon name="critical" [size]="16" />{{ message() }}</p>
+} @else {
+  <p class="muted">{{ 'Loading…' | t }}</p>
+}

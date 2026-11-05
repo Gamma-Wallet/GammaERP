@@ -1,0 +1,22 @@
+[
+ {
+  "Key": "product_type_info:BARCODE",
+  "IdSup": null,
+  "Active": true,
+  "TypeId": "product_type:GOODS",
+  "Name": {
+   "en": "Barcode",
+   "sk": "Čiarový kód"
+  },
+  "Description": {
+   "en": "Barcode",
+   "sk": "Čiarový kód"
+  },
+  "Required": false,
+  "Kind": 1,
+  "SortOrder": 1.0,
+  "ElementsId": null,
+  "IsFile": false,
+  "Code": "BARCODE"
+ }
+]
