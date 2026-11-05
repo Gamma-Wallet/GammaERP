@@ -7,9 +7,6 @@
     <Project Path="src/backend/Gamma.Erp.Services/Gamma.Erp.Services.csproj" />
     <Project Path="src/backend/Gamma.Erp.Api/Gamma.Erp.Api.csproj" />
   </Folder>
-  <Folder Name="/tools/">
-    <Project Path="tools/Gamma.Erp.DevSeed/Gamma.Erp.DevSeed.csproj" />
-  </Folder>
   <Folder Name="/tests/">
     <Project Path="tests/Gamma.Erp.Persistence.Tests/Gamma.Erp.Persistence.Tests.csproj" />
     <Project Path="tests/Gamma.Erp.Services.Tests/Gamma.Erp.Services.Tests.csproj" />

@@ -38,7 +38,6 @@ How Gamma ERP is built: its projects, its data pattern, and how a request and a 
 | `src/backend/Gamma.Erp.Api` | REST under `/api/v1`, sign-in, set-up, the `create-company` command, translated messages. | Services, Seed, Migrations |
 | `src/web` | The screens (Angular 21 with its own kit in `src/app/ui`). | the API |
 | `tools/starter-packs` | Pack sources (`base/*.json`) and Python scripts. | |
-| `tools/Gamma.Erp.DevSeed` | Fills an empty local database with an example group. | |
 | `tests/` | Persistence, Services and Api test projects. | |
 
 ## The entity pattern
