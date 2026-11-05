@@ -202,7 +202,8 @@ public sealed class EntityService<TCategory, TType, TTypeCategory, TTypeInfo, TC
         await LinkAsync<TTypeCategory>(l => l.TypeId == type.Id, l => l.CategoryId, dto.CategoryIds,
             c => new TTypeCategory { TypeId = type.Id, CategoryId = c, OwnerId = type.OwnerId }, ct).ConfigureAwait(false);
         await PropertiesAsync(type, dto.Properties, ct).ConfigureAwait(false);
-        return (await TypesAsync(ct).ConfigureAwait(false)).First(t => t.Id == type.Id);
+        // A type just switched off is no longer listed (inactive rows are filtered out): it is answered as it was saved.
+        return (await TypesAsync(ct).ConfigureAwait(false)).FirstOrDefault(t => t.Id == type.Id) ?? dto with { Id = type.Id, Active = false };
     }
 
     /// <summary>

@@ -45,4 +45,3 @@ Everything the documentation writers could not confirm or found incomplete, coll
 ## [system-settings/types-and-categories.md](system-settings/types-and-categories.md)
 
 - Lookup scopes are rows of `tbl_elements`. `GET /lookups` lists them, and they have no screen of their own.
-- Found 2026-11-05 with data (MCP `save_register_type` with `switchOff`, the same request as the type editor's Switch off): switching a type off fails. `EntityService.SaveTypeAsync` saves it, then reads it back through `TypesAsync`, whose query filter hides inactive rows, so `First` throws and the save is rolled back; the type stays active. Categories switch off fine.
