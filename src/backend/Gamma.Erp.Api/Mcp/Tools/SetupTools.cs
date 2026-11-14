@@ -22,9 +22,19 @@ namespace Gamma.Erp.Api.Mcp.Tools;
 /// </summary>
 [McpServerToolType]
 public sealed class SetupTools(ErpDbContext db, RequestContext request, Visibility visibility, ConfigurationService configuration, SkinService skins, SetupService setup,
-    AccessService access)
+    AccessService access, Gamma.Erp.Services.Banking.BankProviders bankProviders)
 {
     // ---------- Configuration ----------
+
+    [McpServerTool(Name = "open_banking_status", Title = "Show the company's open banking provider", ReadOnly = true)]
+    [Description("Shows the open banking provider of the company the user works in: the provider, environment (Sandbox or Production), application id, redirect address, how long a bank connection asks for, and whether a private key is set (its fingerprint) and still readable. Never the key itself. Administrators only. The provider and its key are set by an administrator on the screen Currencies and payments › Open banking, or when the company is made; never through Claude, because the key must not pass through a chat.")]
+    public Task<object> OpenBankingStatusAsync(CancellationToken ct = default) =>
+        Erp.Run<object>(async () =>
+        {
+            Erp.NeedsPlace(request);
+            return (object?)await bankProviders.GetAsync(ct).ConfigureAwait(false)
+                ?? new { provider = (string?)null, note = "The company has no open banking provider. An administrator sets it under Currencies and payments › Open banking." };
+        });
 
     [McpServerTool(Name = "read_configuration", Title = "Read configuration rows", ReadOnly = true)]
     [Description("Reads a configuration model's rows (the rules the engine reads: payment methods and their cash desks, point-of-sale settings, VAT groups, scenarios, document type flows, sale prices…), optionally filtered by column = value. Without a model: the list of models. withSchema adds the model's columns, as needed to write a row. For administrators and users with that configuration screen in their menu.")]
@@ -100,7 +110,7 @@ public sealed class SetupTools(ErpDbContext db, RequestContext request, Visibili
     // ---------- Companies and places ----------
 
     [McpServerTool(Name = "add_company_to_group", Title = "Add a company to the group", ReadOnly = false, Destructive = false)]
-    [Description("Adds a company to the group, set up from its country's starter pack (for its activity profile, only the pack groups named) or copied from another company of the group, with its first cash desks and bank accounts. Only an administrator working at the group (corporate). Show the user what will be made and get an explicit yes; then confirm=true. Returns the new company's id and how many configuration rows it got.")]
+    [Description("Adds a company to the group, set up from its country's starter pack (for its activity profile, only the pack groups named) or copied from another company of the group, with its first cash desks and bank accounts. Its open banking provider is not set here (its key must not pass through a chat): tell the user to set it under Currencies and payments › Open banking, or in the New company screen. Only an administrator working at the group (corporate). Show the user what will be made and get an explicit yes; then confirm=true. Returns the new company's id and how many configuration rows it got.")]
     public Task<object> AddCompanyToGroupAsync(
         [Description("True only after the user said yes.")] bool confirm,
         [Description("The company's name.")] string name,

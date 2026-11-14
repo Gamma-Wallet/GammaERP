@@ -47,6 +47,15 @@
           <app-groups-picker [groups]="packGroups()" [value]="model().groups" (valueChange)="set({ groups: $event })" />
         }
         @case (4) {
+          <p class="muted">{{ "The company's own open banking provider: it reads the company's bank accounts so bank statements can be fetched and payments by bank checked at the till. The key is sent once and never shown again." | t }}</p>
+          <ui-checkbox [checked]="model().bankLater" (checkedChange)="set({ bankLater: $event })">
+            {{ 'Set it later (Currencies and payments › Open banking)' | t }}
+          </ui-checkbox>
+          @if (!model().bankLater) {
+            <app-bank-provider-fields [value]="model().bank" [choices]="bankChoices()" (valueChange)="set({ bank: $event })" />
+          }
+        }
+        @case (5) {
           <dl class="review">
             <dt>{{ 'Group' | t }}</dt><dd>{{ corporate()!.name }}</dd>
             <dt>{{ 'Company' | t }}</dt><dd>{{ model().name }} @if (model().code) { ({{ model().code }}) }</dd>
@@ -54,6 +63,8 @@
             <dt>{{ 'Activity' | t }}</dt><dd>{{ activityPath() }} · {{ model().fromCatalogue ? "the activity's configuration" : "the country's full configuration" }}</dd>
             <dt>{{ 'Starts from' | t }}</dt><dd>{{ source() }}</dd>
             <dt>{{ 'Loads' | t }}</dt><dd>@for (g of model().groups; track g; let last = $last) { {{ groupNames[g] ?? g }}@if (!last) {, } }</dd>
+            <dt>{{ 'Open banking' | t }}</dt>
+            <dd>@if (model().bankLater) { {{ 'Set later' | t }} } @else { {{ model().bank.kind }} · {{ model().bank.environment }} · {{ model().bank.applicationId }} · {{ model().bank.keyFileName }} }</dd>
           </dl>
           <p class="muted">{{ 'Everything is made in one go: if anything is refused, nothing is kept. Cash desks, banks and the other places are added afterwards in Company › Cost centres.' | t }}</p>
         }

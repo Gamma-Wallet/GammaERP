@@ -1326,6 +1326,23 @@
   "AdminOnly": false
  },
  {
+  "Key": "menu:OPEN_BANKING",
+  "IdSup": "menu:CURRENCIES_AREA",
+  "Active": true,
+  "IsElement": true,
+  "Code": "OPEN_BANKING",
+  "Name": {
+   "en": "Open banking",
+   "lv": "Atvērtā banku darbība"
+  },
+  "SortOrder": 50,
+  "Screen": "open-banking",
+  "Parameter": null,
+  "DocumentCategoryId": null,
+  "Icon": "bank",
+  "AdminOnly": true
+ },
+ {
   "Key": "menu:REPORTS",
   "IdSup": null,
   "Active": true,

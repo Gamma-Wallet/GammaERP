@@ -59,6 +59,7 @@ Not covered: serial numbers on a reversal (whole or by quantity only); on a shee
 | `list_currencies`, `exchange_rates` | The company's currencies; a currency's rates in a period | no |
 | `set_exchange_rates` | Saves one or many rates (currency, day, rate: one unit in the company's own currency) in one transaction: all or none | yes |
 | `read_configuration` | The configuration models, or a model's rows with filters and its columns; needs that configuration screen | no |
+| `open_banking_status` | The company's open banking provider: provider, environment, application id, return address, days, whether a key is set (fingerprint) and readable. Never the key; Claude never sets it | no |
 | `save_configuration_row` | Saves a configuration row, e.g. payment methods by cost centre, point-of-sale settings, closed periods; administrators | yes |
 | `list_skins`, `use_skin` | The company's skins; puts one in use; administrators | `use_skin` yes |
 

@@ -98,6 +98,11 @@ if (builder.Configuration["DataProtection:KeysFolder"] is { Length: > 0 } keysFo
     builder.Services.AddDataProtection().PersistKeysToFileSystem(new DirectoryInfo(keysFolder)).SetApplicationName("gamma-erp");
 }
 
+// Open banking: the same keys seal each company's provider key and bank sessions (lost keys: the key is entered again).
+builder.Services.AddDataProtection();
+builder.Services.AddSingleton<Gamma.Erp.Services.Banking.ISecretBox, Gamma.Erp.Api.Banking.DataProtectionSecretBox>();
+builder.Services.AddScoped<Gamma.Erp.Services.Banking.BankProviders>();
+
 // A request with a personal token (Bearer GE_…) is signed in by TokenSignIn; every other one by the sign-in page's tokens (OpenIddict).
 builder.Services.AddAuthentication(options =>
     {

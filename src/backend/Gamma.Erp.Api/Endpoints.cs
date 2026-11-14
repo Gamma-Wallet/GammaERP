@@ -42,6 +42,23 @@ public static class Endpoints
         api.MapGet("/setup/activities", () => Seed.ActivityCatalogue.All).WithTags("setup");
         api.MapGet("/setup/countries", () => SetupService.Countries()).WithTags("setup");
         api.MapGet("/setup/groups", () => Seed.StarterPacks.Groups.Select(g => new { name = g.Key, requires = g.Value.Requires })).WithTags("setup");
+        api.MapGet("/setup/bank-providers", () => new
+        {
+            kinds = Gamma.Erp.Services.Banking.BankProviders.Kinds, environments = Gamma.Erp.Services.Banking.BankProviders.Environments,
+            maxAccessDays = Gamma.Erp.Services.Banking.BankProviders.MaxAccessDays,
+        }).WithTags("setup");
+
+        // The company's open banking provider (the founder, 2026-11-14): administrators only; the key is written, never read back.
+        var openBanking = api.MapGroup("/open-banking").WithTags("open banking").RequireAdministrator();
+        openBanking.MapGet("/provider", async (Gamma.Erp.Services.Banking.BankProviders s, CancellationToken ct) =>
+            await s.GetAsync(ct) is { } provider ? Results.Ok(provider) : Results.NoContent());
+        openBanking.MapPut("/provider", (Gamma.Erp.Services.Banking.BankProviders s, Gamma.Erp.Services.Banking.BankProviderInput input, CancellationToken ct) =>
+            s.SaveAsync(input, ct));
+        openBanking.MapDelete("/provider", async (Gamma.Erp.Services.Banking.BankProviders s, CancellationToken ct) =>
+        {
+            await s.SwitchOffAsync(ct);
+            return Results.NoContent();
+        });
 
         MapEntity<Partners.PartnerCategory, Partners.PartnerType, Partners.InterPartnerTypeCategory, Partners.PartnerTypeInfo, Partners.PartnerTypeInfoChoice,
             Partners.Partner, Partners.PartnerInfo, Partners.InterPartnerCategory, Partners.PartnerAccess>(api, "partners");

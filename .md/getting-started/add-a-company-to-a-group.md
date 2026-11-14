@@ -15,12 +15,14 @@ Steps:
 3. **Company:** type the Company name, and a Short code if you want one. Empty makes it from the name.
 4. **Activity:** choose level by level. Tick "Load only what this activity uses" to take the activity's profile. Untick it for the country's full configuration.
 5. **Starting configuration:** choose Start from: The country's starter pack, or Copy of another company. The list offers the companies of your cost centres, never the group itself. Then tick the parts: Chart of accounts, Financial documents, Posting groups, Depreciation. Ticking a part brings what it needs. Unticking takes along what needs it.
-6. **Review:** check it and press **Create the company**.
+6. **Open banking:** the company's own open banking provider: Provider, Banks (Sandbox or Production), Application id, Private key (.pem), Return address, Days a bank connection lasts. Or tick "Set it later". A copied company never gets the source's provider or key. See [Open banking](../currencies-and-payments/open-banking.md).
+7. **Review:** check it and press **Create the company**.
 
 Result, in one transaction:
 
 - A new company under the group, in the category Companies, with its Country and Activity.
 - Its configuration, from the pack or copied. A copy takes new ids and only active rows. A row pointing at something not copied is left out.
+- Its open banking provider, when one was given, with the key sealed.
 - The group and the new company become each other's partners, when both have partner categories.
 - The screen says how many configuration rows were made and goes back to the entry page.
 
@@ -33,12 +35,13 @@ Refused when:
 - `SetupError: the group already has a company <code>.`
 - `SetupError: the company to copy from is not a company of this group.`
 - `SetupError: there is no starter pack for <country>...`, when starting from a pack.
-- A step lacks something: "Choose the country.", "Name the company.", "Choose at least one part to load." The Next button stays off.
+- A step lacks something: "Choose the country.", "Name the company.", "Choose at least one part to load.", "Give the application id.", "Choose the application's private key (.pem file)." The Next button stays off.
+- The open banking fields are refused by the server: see [Open banking](../currencies-and-payments/open-banking.md#set-the-provider). Nothing is made.
 
 API:
 
-- `GET /setup/countries`, `GET /setup/activities`, `GET /setup/groups`
-- `POST /companies`, with header `X-Gamma-Node` set to the group. Body: `name`, `country`, `code`, `activity`, `fromCatalogue`, `groups`, `copyFrom`. The API also takes `cashDesks` and `banks`, which the screen does not send.
+- `GET /setup/countries`, `GET /setup/activities`, `GET /setup/groups`, `GET /setup/bank-providers`
+- `POST /companies`, with header `X-Gamma-Node` set to the group. Body: `name`, `country`, `code`, `activity`, `fromCatalogue`, `groups`, `copyFrom`, `bankProvider` (`kind`, `applicationId`, `privateKey`, `redirectUrl`, `environment`, `accessDays`; null when set later). The API also takes `cashDesks` and `banks`, which the screen does not send.
 
 ### Set up the group's books
 

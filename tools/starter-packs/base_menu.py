@@ -87,6 +87,7 @@ TREE = [
     ('PAYMENT_METHODS', 'CURRENCIES_AREA', 'config', 'payment-methods', 'credit-card', ('Payment methods', 'Mënyrat e pagesës', 'Metodi di pagamento', 'Τρόποι πληρωμής')),
     ('BANK_STATEMENT_FORMATS', 'CURRENCIES_AREA', 'config', 'bank-statement-formats', 'coins', ('Bank statement formats', 'Formatet e pasqyrave bankare', 'Formati estratti conto', 'Μορφές κινήσεων τράπεζας')),
     ('PAYMENT_METHOD_COST_CENTERS', 'CURRENCIES_AREA', 'config', 'payment-method-cost-centers', 'credit-card', ('Payment methods by cost centre', 'Mënyrat e pagesës sipas qendrës së kostos', 'Metodi di pagamento per centro di costo', 'Τρόποι πληρωμής ανά κέντρο κόστους')),
+    ('OPEN_BANKING', 'CURRENCIES_AREA', 'open-banking', None, 'bank', ('Open banking', 'Bankimi i hapur', 'Open banking', 'Ανοιχτή τραπεζική')),
 
     ('REPORTS', None, None, None, 'bar-chart', ('Reports', 'Raporte', 'Report', 'Αναφορές')),
     ('DASHBOARD_ITEMS', 'REPORTS', 'config', 'dashboard-items', 'list', ('Dashboard items', 'Elementet e panelit', 'Elementi del cruscotto', 'Στοιχεία πίνακα ελέγχου')),
@@ -159,7 +160,7 @@ for l in lines:
     if len(parts) == 6 and parts[0].startswith('document_category:') and parts[1] == 'Name':
         category_names[parts[0].split(':', 1)[1]] = parts[2:]
 # Shown only to administrators, and not offered on Rights.
-ADMIN_ONLY = {'USER_RIGHTS', 'MENU', 'ROLES', 'SKINS'}
+ADMIN_ONLY = {'USER_RIGHTS', 'MENU', 'ROLES', 'SKINS', 'OPEN_BANKING'}
 for code, parent, screen, parameter, icon, text in TREE:
     order[parent] = order.get(parent, 0) + 10
     key = f'menu:{code}'

@@ -22,7 +22,7 @@ public sealed record StartUser(string Username, string Password, bool Administra
 /// </summary>
 public sealed record SignUpRequest(string Username, string Password, string Country, string CompanyName, string? CompanyCode = null, string? CorporateName = null,
     string Activity = ActivityCatalogue.General, bool FromCatalogue = true, IReadOnlyCollection<string>? Groups = null, IReadOnlyList<string>? CashDesks = null,
-    IReadOnlyList<string>? Banks = null, IReadOnlyList<StartUser>? Users = null);
+    IReadOnlyList<string>? Banks = null, IReadOnlyList<StartUser>? Users = null, Gamma.Erp.Services.Banking.BankProviderInput? BankProvider = null);
 
 /// <summary>What a sign-up made: the corporate (tenant), the root, the company, the owner, and the configuration rows loaded.</summary>
 public sealed record SignUpResult(Guid TenantId, Guid Root, Guid Company, Guid Owner, int Rows);
@@ -32,7 +32,8 @@ public sealed record SignUpResult(Guid TenantId, Guid Root, Guid Company, Guid O
 /// company of the group (<see cref="CopyFrom"/>), in both cases only the groups named (all when none are).
 /// </summary>
 public sealed record CompanyRequest(string Name, string Country, string? Code = null, string Activity = ActivityCatalogue.General, bool FromCatalogue = true,
-    IReadOnlyCollection<string>? Groups = null, Guid? CopyFrom = null, IReadOnlyList<string>? CashDesks = null, IReadOnlyList<string>? Banks = null);
+    IReadOnlyCollection<string>? Groups = null, Guid? CopyFrom = null, IReadOnlyList<string>? CashDesks = null, IReadOnlyList<string>? Banks = null,
+    Gamma.Erp.Services.Banking.BankProviderInput? BankProvider = null);
 
 /// <summary>What adding a company made: the company and the configuration rows it got.</summary>
 public sealed record CompanyResult(Guid Company, int Rows);
@@ -47,7 +48,9 @@ public sealed record SetupCountry(string Code, string? Currency, IReadOnlyList<s
 /// Sign-up and the guided start: a new corporate with its first company and its users, everything in one transaction, so a sign-up either
 /// makes all of it or nothing; and later companies of a group, from the pack or copied from another company of the group.
 /// </summary>
-public sealed class SetupService(ErpDbContext db)
+/// <para>Each company's open banking provider is asked for when it is made (the founder, 2026-11-14) and may be left out, to be set later under
+/// Configuration › Open banking. It is never copied from another company.</para>
+public sealed class SetupService(ErpDbContext db, Gamma.Erp.Services.Banking.ISecretBox? secrets = null)
 {
     /// <summary>The shortest password accepted.</summary>
     public const int MinPasswordLength = 12;
@@ -82,6 +85,7 @@ public sealed class SetupService(ErpDbContext db)
             ? Organisation.CreateCompany(db, tenantId, setup)
             : Organisation.Create(db, tenantId, request.CorporateName.Trim(), setup.Country, [setup]);
         var rows = Organisation.SetUpCompany(db, organisation, setup);
+        rows += AddBankProvider(request.BankProvider, tenantId, organisation.Companies[setup.Code]);
         if (organisation.Corporate != organisation.Companies[setup.Code])
         {
             // A group keeps its own books too, from the same country's pack.
@@ -217,6 +221,7 @@ public sealed class SetupService(ErpDbContext db)
         var rows = request.CopyFrom is { } source
             ? await CompanyCopy.AddAsync(db, context.TenantId, source, company, request.Groups, ct).ConfigureAwait(false)
             : Organisation.SetUpCompany(db, withCompany, setup);
+        rows += AddBankProvider(request.BankProvider, context.TenantId, company);
         await db.SaveChangesAsync(ct).ConfigureAwait(false);
 
         // The cash desks and bank accounts, of the company's own types (from its pack or copied).
@@ -241,6 +246,19 @@ public sealed class SetupService(ErpDbContext db)
         await db.SaveChangesAsync(ct).ConfigureAwait(false);
         await transaction.CommitAsync(ct).ConfigureAwait(false);
         return new CompanyResult(company, rows);
+    }
+
+    /// <summary>The new company's open banking provider when one was given (checked, the key sealed); saving is the caller's, in the company's transaction.</summary>
+    private int AddBankProvider(Gamma.Erp.Services.Banking.BankProviderInput? input, Guid tenantId, Guid company)
+    {
+        if (input is null)
+        {
+            return 0;
+        }
+
+        var box = secrets ?? throw new InvalidOperationException("This host has no secret box for open banking keys.");
+        db.Add(Gamma.Erp.Services.Banking.BankProviders.Make(input, box, tenantId, company));
+        return 1;
     }
 
     private async Task CheckUsersAsync(List<StartUser> users, CancellationToken ct)

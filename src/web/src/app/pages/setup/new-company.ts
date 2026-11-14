@@ -12,9 +12,12 @@ import { Icon } from '../../ui/icon';
 import { Select, SelectOption } from '../../ui/select';
 import { Toasts } from '../../ui/toast';
 import { Activity, ActivityPicker, COUNTRY_NAMES, GROUP_NAMES, GroupsPicker, PackGroup, SetupApi, SetupCountry, pathOf } from './setup-parts';
+import { BankProviderChoices, BankProviderModel, BankingApi, bankProviderInputOf, bankProviderProblem, emptyBankProvider } from '../../core/banking';
+import { BankProviderFields } from './bank-provider-fields';
 
 // No cash desks or banks here: they are cost centres, set up in the cost-centre register (the founder, 2026-10-31).
-export const COMPANY_STEPS = ['Country', 'Company', 'Activity', 'Starting configuration', 'Review'] as const;
+// Open banking is asked for every new company and may be left for later (the founder, 2026-11-14); it is never copied from another company.
+export const COMPANY_STEPS = ['Country', 'Company', 'Activity', 'Starting configuration', 'Open banking', 'Review'] as const;
 
 /** What the new-company steps collect (CompanyRequest). */
 export interface CompanyModel {
@@ -25,6 +28,9 @@ export interface CompanyModel {
   fromCatalogue: boolean;
   copyFrom: string | null;
   groups: string[];
+  /** Open banking left for later (Currencies and payments › Open banking). */
+  bankLater: boolean;
+  bank: BankProviderModel;
 }
 
 /** Why a step cannot be left yet; null when it can. */
@@ -36,6 +42,8 @@ export function companyProblem(step: number, m: CompanyModel): string | null {
       return m.name.trim() ? null : t('Name the company.');
     case 3:
       return m.groups.length ? null : t('Choose at least one part to load.');
+    case 4:
+      return m.bankLater ? null : bankProviderProblem(m.bank, false);
     default:
       return null;
   }
@@ -44,7 +52,7 @@ export function companyProblem(step: number, m: CompanyModel): string | null {
 export function companyRequestOf(m: CompanyModel): object {
   return {
     name: m.name.trim(), country: m.country, code: m.code.trim() || null, activity: m.activity, fromCatalogue: m.fromCatalogue, groups: m.groups,
-    copyFrom: m.copyFrom,
+    copyFrom: m.copyFrom, bankProvider: m.bankLater ? null : bankProviderInputOf(m.bank),
   };
 }
 
@@ -55,13 +63,14 @@ export function companyRequestOf(m: CompanyModel): object {
  */
 @Component({
   selector: 'app-new-company',
-  imports: [TranslatePipe, ActivityPicker, Button, Checkbox, Field, GroupsPicker, Icon, Input, RouterLink, Select],
+  imports: [TranslatePipe, ActivityPicker, BankProviderFields, Button, Checkbox, Field, GroupsPicker, Icon, Input, RouterLink, Select],
   changeDetection: ChangeDetectionStrategy.OnPush,
   templateUrl: './new-company.html',
   styleUrl: './setup.scss',
 })
 export class NewCompany {
   private readonly api = inject(SetupApi);
+  private readonly banking = inject(BankingApi);
   private readonly http = inject(HttpClient);
   private readonly router = inject(Router);
   private readonly toasts = inject(Toasts);
@@ -83,7 +92,9 @@ export class NewCompany {
   });
 
   protected readonly step = signal(0);
-  protected readonly model = signal<CompanyModel>({ country: null, name: '', code: '', activity: 'GENERAL', fromCatalogue: true, copyFrom: null, groups: [] });
+  protected readonly model = signal<CompanyModel>({ country: null, name: '', code: '', activity: 'GENERAL', fromCatalogue: true, copyFrom: null, groups: [], bankLater: false,
+    bank: emptyBankProvider(window.location.origin) });
+  protected readonly bankChoices = signal<BankProviderChoices | null>(null);
   protected readonly countries = signal<SetupCountry[]>([]);
   protected readonly catalogue = signal<Activity[]>([]);
   protected readonly packGroups = signal<PackGroup[]>([]);
@@ -103,7 +114,8 @@ export class NewCompany {
 
   private async load(): Promise<void> {
     try {
-      const [countries, catalogue, groups] = await Promise.all([this.api.countries(), this.api.activities(), this.api.groups()]);
+      const [countries, catalogue, groups, bankChoices] = await Promise.all([this.api.countries(), this.api.activities(), this.api.groups(), this.banking.choices()]);
+      this.bankChoices.set(bankChoices);
       this.countries.set(countries);
       this.catalogue.set(catalogue);
       this.packGroups.set(groups);

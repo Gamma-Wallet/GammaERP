@@ -28,6 +28,12 @@ docker compose exec -e ERP_ADMIN_PASSWORD='<at least 12 characters, or leave thi
 | `--code` | no | The company's code. Empty: the name's letters and digits, upper case, at most 12. |
 | `--corporate` | no | The name of a group. Makes a group with the company under it. Without it the company is its own root. |
 | `--activity` | no | An activity code. `GENERAL` by default. |
+| `--bank-provider` | no | The company's open banking provider, `EnableBanking`. Without it the company has none and an administrator sets it later under Currencies and payments › Open banking. See [Open banking](../currencies-and-payments/open-banking.md). |
+| `--bank-app-id` | with `--bank-provider` | The company's application id at the provider. |
+| `--bank-key-file` | with `--bank-provider` | The path of the application's `.pem` file. The key is read from the file, never from the command line, and sealed. |
+| `--bank-redirect` | with `--bank-provider` | Where the bank sends people back, e.g. `https://erp.example.com/bank-connected`. |
+| `--bank-environment` | no | `Sandbox` (default) or `Production`. |
+| `--bank-access-days` | no | 1 to 180, 180 by default. |
 
 Countries with a pack: AL, AT, BE, BG, CY, CZ, DE, DK, EE, ES, FI, FR, GR, HR, HU, IE, IT, LT, LU, LV, MK, MT, NL, PL, PT, RO, SE, SI, SK, XK.
 
@@ -42,9 +48,10 @@ Result, all in one database transaction, so it makes everything or nothing:
 - One user type, Staff.
 - Two roles: Administrators, marked as administrator, and Users.
 - The user `OWNER` with this user name and password, in the role Administrators, linked to the root. The password is marked to be changed (`tbl_user.must_change_password`).
+- With `--bank-provider`: the company's open banking provider (`tbl_bank_provider`), the key sealed.
 - The administrator's first Claude token, named "Claude (first)" (`tbl_user_token`, only its hash is kept). See [Claude tokens](../mcp/claude-tokens.md).
 
-The command prints `Company <name> made, <n> configuration rows loaded. <user> is its administrator.`, then:
+The command prints `Company <name> made, <n> configuration rows loaded. <user> is its administrator.`, then `Open banking: not set (…)` or `Open banking: EnableBanking, application <id>, key sealed.`, then:
 
 - `First password: <password>`, only when it made the password itself;
 - `First Claude token: GE_…`, always.
@@ -60,6 +67,7 @@ Refused when (printed as `Refused: ...`, exit code 1):
 - `SetupError: the country is its two-letter ISO code.`
 - `SetupError: there is no starter pack for <country>; copy the configuration from another company.`
 - `SetupError: The catalogue has no activity <code>.`
+- Any reason of [Open banking](../currencies-and-payments/open-banking.md#set-the-provider), for example a key that is not a private key. `--bank-key-file` missing or not a file prints the usage and exits with 2.
 
 An option missing prints the usage line and exits with 2.
 

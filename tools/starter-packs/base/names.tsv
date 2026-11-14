@@ -993,6 +993,7 @@ menu:CURRENCIES	Name	Currencies and exchange rates	Monedha dhe kurse këmbimi	Va
 menu:PAYMENT_METHODS	Name	Payment methods	Mënyrat e pagesës	Metodi di pagamento	Τρόποι πληρωμής
 menu:BANK_STATEMENT_FORMATS	Name	Bank statement formats	Formatet e pasqyrave bankare	Formati estratti conto	Μορφές κινήσεων τράπεζας
 menu:PAYMENT_METHOD_COST_CENTERS	Name	Payment methods by cost centre	Mënyrat e pagesës sipas qendrës së kostos	Metodi di pagamento per centro di costo	Τρόποι πληρωμής ανά κέντρο κόστους
+menu:OPEN_BANKING	Name	Open banking	Bankimi i hapur	Open banking	Ανοιχτή τραπεζική
 menu:REPORTS	Name	Reports	Raporte	Report	Αναφορές
 menu:DASHBOARD_ITEMS	Name	Dashboard items	Elementet e panelit	Elementi del cruscotto	Στοιχεία πίνακα ελέγχου
 menu:FINANCIAL_REPORTS	Name	Financial	Financiare	Finanziari	Οικονομικά

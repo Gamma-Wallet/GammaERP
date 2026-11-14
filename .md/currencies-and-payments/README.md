@@ -8,3 +8,4 @@ Everything under the **Currencies and payments** menu.
 | [payment-methods.md](payment-methods.md) | Payment methods, including whether one counts as cash |
 | [bank-statement-formats.md](bank-statement-formats.md) | How each bank writes its statement file |
 | [payment-methods-by-cost-centre.md](payment-methods-by-cost-centre.md) | Payment methods per cost centre |
+| [open-banking.md](open-banking.md) | The company's own open banking provider, application and key |

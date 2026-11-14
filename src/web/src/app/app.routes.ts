@@ -44,6 +44,7 @@ export const routes: Routes = [
       { path: 'depreciation', loadComponent: () => import('./pages/operations/depreciation').then(m => m.Depreciation), canActivate: [menuScreenGuard] },
       { path: 'opportunity-board', loadComponent: () => import('./pages/operations/opportunity-board').then(m => m.OpportunityBoard), canActivate: [menuScreenGuard] },
       { path: 'bank-statements', loadComponent: () => import('./pages/operations/bank-statements').then(m => m.BankStatements), canActivate: [menuScreenGuard] },
+      { path: 'open-banking', loadComponent: () => import('./pages/config/open-banking').then(m => m.OpenBanking), canActivate: [menuScreenGuard] },
       { path: 'approvals', loadComponent: () => import('./pages/operations/approvals').then(m => m.Approvals), canActivate: [menuScreenGuard] },
       { path: 'invoice-run', loadComponent: () => import('./pages/operations/invoice-run').then(m => m.InvoiceRun), canActivate: [menuScreenGuard] },
       { path: 'renewals', loadComponent: () => import('./pages/operations/renewals').then(m => m.Renewals), canActivate: [menuScreenGuard] },
