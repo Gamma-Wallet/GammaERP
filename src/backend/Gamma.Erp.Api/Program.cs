@@ -105,6 +105,7 @@ builder.Services.AddScoped<Gamma.Erp.Services.Banking.BankProviders>();
 builder.Services.AddHttpClient<Gamma.Erp.Services.Banking.EnableBankingConnector>(c => c.Timeout = TimeSpan.FromSeconds(60));
 builder.Services.AddScoped<Gamma.Erp.Services.Banking.IBankConnector>(sp => sp.GetRequiredService<Gamma.Erp.Services.Banking.EnableBankingConnector>());
 builder.Services.AddScoped<Gamma.Erp.Services.Banking.BankConnections>();
+builder.Services.AddScoped<Gamma.Erp.Services.Banking.BankFeeds>();
 
 // A request with a personal token (Bearer GE_…) is signed in by TokenSignIn; every other one by the sign-in page's tokens (OpenIddict).
 builder.Services.AddAuthentication(options =>

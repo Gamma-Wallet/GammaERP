@@ -1,5 +1,5 @@
 import { HttpClient } from '@angular/common/http';
-import { ChangeDetectionStrategy, Component, inject, input, signal } from '@angular/core';
+import { ChangeDetectionStrategy, Component, inject, input, signal, viewChild } from '@angular/core';
 import { Router } from '@angular/router';
 import { firstValueFrom } from 'rxjs';
 import { errorsOf } from '../../core/entities';
@@ -12,6 +12,7 @@ import { Select, SelectOption } from '../../ui/select';
 import { Dialogs } from '../../ui/dialog';
 import { Toasts } from '../../ui/toast';
 import { BankAccounts } from './bank-accounts';
+import { BankConnection, BankConnectionsApi, BankFetch } from '../../core/banking';
 
 interface Option {
   id: string;
@@ -25,6 +26,9 @@ interface Statement {
   importedOn: string;
   lines: number;
   open: number;
+  fetched: boolean;
+  bankBalance: number | null;
+  bankBalanceDate: string | null;
 }
 
 interface Line {
@@ -38,6 +42,8 @@ interface Line {
   documentCode: string | null;
   documentReversed: boolean;
   ignored: boolean;
+  counterpartyName: string | null;
+  counterpartyIban: string | null;
 }
 
 interface Match {
@@ -77,7 +83,9 @@ interface Choices {
         <tbody>
           @for (l of lines(); track l.id) {
             <tr>
-              <td>{{ date(l.date) }}</td><td>{{ l.text }}</td><td>{{ l.reference }}</td><td class="num">{{ n(l.amount) }}</td>
+              <td>{{ date(l.date) }}</td>
+              <td>{{ l.text }} @if (l.counterpartyName || l.counterpartyIban) { <br /><span class="muted">{{ l.counterpartyName }} {{ l.counterpartyIban }}</span> }</td>
+              <td>{{ l.reference }}</td><td class="num">{{ n(l.amount) }}</td>
               <td>
                 @if (l.documentId) {
                   <button uiButton (click)="show(l)">{{ l.documentCode }}</button>
@@ -111,6 +119,12 @@ interface Choices {
     } @else {
       @if (!busy() && !banks().length) { <p class="muted">{{ 'Add a cost centre of type Bank first.' | t }}</p> }
       <app-bank-accounts (fetch)="fetchFromBank($event)" />
+      @if (fetchedResult(); as f) {
+        <p class="result" role="status">
+          {{ '{0} lines added, {1} already held, {2} pending (they come with a later fetch).' | t: f.added : f.skipped : f.pending }}
+          @if (f.bankBalance !== null) { {{ 'Bank balance on {0}: {1}. Ledger: {2}. Difference: {3}.' | t: date(f.bankBalanceDate ?? f.to) : n(f.bankBalance) : n(f.ledgerBalance) : n(f.bankBalance - f.ledgerBalance) }} }
+        </p>
+      }
       <h2>{{ 'Statements' | t }}</h2>
       <div class="form">
         <ui-field [label]="'Bank' | t" [required]="true"><ui-select [options]="banks()" [value]="bank()" (valueChange)="bank.set($event)" /></ui-field>
@@ -119,11 +133,12 @@ interface Choices {
       </div>
       @if (statements().length) {
         <table>
-          <thead><tr><th>{{ 'Bank' | t }}</th><th>{{ 'File' | t }}</th><th>{{ 'Uploaded' | t }}</th><th class="num">{{ 'Lines' | t }}</th><th class="num">{{ 'To decide' | t }}</th><th></th></tr></thead>
+          <thead><tr><th>{{ 'Bank' | t }}</th><th>{{ 'File' | t }}</th><th>{{ 'Uploaded' | t }}</th><th class="num">{{ 'Lines' | t }}</th><th class="num">{{ 'To decide' | t }}</th><th class="num">{{ 'Bank balance' | t }}</th><th></th></tr></thead>
           <tbody>
             @for (s of statements(); track s.id) {
               <tr>
-                <td>{{ s.bank }}</td><td>{{ s.fileName }}</td><td>{{ date(s.importedOn) }}</td><td class="num">{{ s.lines }}</td><td class="num">{{ s.open }}</td>
+                <td>{{ s.bank }}</td><td>@if (s.fetched) { <span class="muted">{{ 'From the bank' | t }}:</span> } {{ s.fileName }}</td><td>{{ date(s.importedOn) }}</td><td class="num">{{ s.lines }}</td><td class="num">{{ s.open }}</td>
+                <td class="num">@if (s.bankBalance !== null) { {{ n(s.bankBalance) }} <span class="muted">{{ s.bankBalanceDate ? date(s.bankBalanceDate) : '' }}</span> }</td>
                 <td><span class="row-actions"><button uiButton size="small" (click)="open(s.id)">{{ 'Lines' | t }}</button><button uiButton variant="danger" size="small" [disabled]="busy()" (click)="remove(s)">{{ 'Remove' | t }}</button></span></td>
               </tr>
             }
@@ -142,6 +157,9 @@ export class BankStatements {
   private readonly toasts = inject(Toasts);
   private readonly dialogs = inject(Dialogs);
   private readonly base = '/api/v1/bank-statements';
+  private readonly bankApi = inject(BankConnectionsApi);
+  private readonly accounts = viewChild(BankAccounts);
+  protected readonly fetchedResult = signal<BankFetch | null>(null);
 
   /** The statement open (query parameter), so going back from a document returns to it. */
   readonly statement = input<string | null>(null);
@@ -234,9 +252,13 @@ export class BankStatements {
     });
   }
 
-  /** Fetching from the bank comes with phase 3; until then the account's statement is uploaded as a file. */
-  protected fetchFromBank(_: unknown): void {
-    this.message.set(t('Fetching from the bank is not available yet.'));
+  /** Fetches a connected account's booked lines from its bank, started by the person: a new statement decided like an uploaded one. */
+  protected fetchFromBank(account: BankConnection): Promise<void> {
+    return this.run(async () => {
+      this.fetchedResult.set(await this.bankApi.fetch(account.bankId));
+      await this.load();
+      await this.accounts()?.reload();
+    });
   }
 
   protected choose(line: Line): Promise<void> {

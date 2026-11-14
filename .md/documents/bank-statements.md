@@ -45,13 +45,34 @@ Refused when:
 
 API: `GET bank-statements/banks`, `GET bank-statements/formats`, `POST bank-statements/import?bankId=&formatId=` with `file` as a form upload. The answer is `{ id, added, skipped }`.
 
+### Fetch from the bank
+
+For an account connected to its bank (see [Open banking](../currencies-and-payments/open-banking.md#connect-an-account-to-its-bank)).
+
+Steps:
+1. In the Bank accounts table press **Fetch from bank** on the account.
+
+Result: the account's **booked** lines from the last day fetched (the first time: 30 days back) to today become a new statement, named "<bank> <from> – <to>", like an uploaded one, and are decided the same way. A line whose bank id is already held for that bank is skipped; a line without one is skipped by the upload's rule. Pending lines are left out and come with a later fetch. Each line also keeps who paid or was paid and their IBAN, shown under its text. The screen says "x lines added, y already held, z pending" and "Bank balance on <day>: …. Ledger: …. Difference: …." The bank's balance is kept with the statement and shown in the list's Bank balance column; a difference refuses nothing (the founder, 2026-11-14). With nothing new no statement is made, but the last day fetched moves on.
+
+The read is sent with the person's address and browser, so the bank counts it as theirs. Nothing fetches by itself.
+
+Refused when:
+- `NotConfiguredError: the account is not connected to its bank. Connect it on Bank statements.`
+- "The bank's access ended: connect the account again."
+- "The account was connected through a provider the company no longer uses: connect it again."
+- "The server can no longer open the bank session: connect the account again."
+- "The period runs from a day to a later one, not after today, at most 730 days."
+- The provider refuses: "The provider refused (<status>): <its reason>".
+
+API: `POST /api/v1/bank-connections/{bankId}/fetch?from=&to=` (both optional). The answer: `id` (null when nothing new), `from`, `to`, `added`, `skipped`, `pending`, `bankBalance`, `bankBalanceDate`, `ledgerBalance`. `GET /api/v1/bank-connections/{bankId}/ledger-balance?until=` gives the ledger's balance alone. Claude: `fetch_bank_statement`.
+
 ### See statements and lines
 
 Steps:
 1. The screen lists each statement: Bank, File, Uploaded, Lines, To decide. Newest first.
 2. Press **Lines**.
 
-Result: the lines in date order: Date, Text, Reference, Amount, and what was decided.
+Result: the lines in date order: Date, Text (with who paid or was paid, for fetched lines), Reference, Amount, and what was decided. A fetched statement's file name starts with "From the bank".
 
 API: `GET bank-statements`, `GET bank-statements/{id}/lines`.
 

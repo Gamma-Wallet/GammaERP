@@ -344,6 +344,11 @@ public static class Endpoints
             s.FinishAsync(finish, language ?? "en", ct));
         connections.MapPost("/{bankId:guid}/pick/{accountUid}", (Gamma.Erp.Services.Banking.BankConnections s, Guid bankId, string accountUid, string? language, CancellationToken ct) =>
             s.PickAsync(bankId, accountUid, language ?? "en", ct));
+        // Fetched by a person: the read carries their address and browser, so the bank counts it as theirs.
+        connections.MapPost("/{bankId:guid}/fetch", (Gamma.Erp.Services.Banking.BankFeeds s, HttpContext http, Guid bankId, DateOnly? from, DateOnly? to, CancellationToken ct) =>
+            s.FetchAsync(bankId, from, to, Psu(http), ct));
+        connections.MapGet("/{bankId:guid}/ledger-balance", async (Gamma.Erp.Services.Banking.BankFeeds s, Guid bankId, DateOnly until, CancellationToken ct) =>
+            Results.Ok(new { until, balance = await s.LedgerBalanceAsync(bankId, until, ct) }));
         connections.MapPost("/{bankId:guid}/disconnect", (Gamma.Erp.Services.Banking.BankConnections s, Guid bankId, string? language, CancellationToken ct) =>
             s.DisconnectAsync(bankId, language ?? "en", ct));
 
@@ -786,4 +791,8 @@ public static class Endpoints
         group.MapDelete("/{id:guid}", async (HttpContext http, Guid id, CancellationToken ct) => { await Service(http).DeleteElementAsync(id, ct); return Results.NoContent(); });
         group.MapGet("/{id:guid}/history", (HttpContext http, Guid id, CancellationToken ct) => Service(http).HistoryAsync(id, ct));
     }
+
+    /// <summary>The person in front of the screen, sent with a read of the bank.</summary>
+    private static Gamma.Erp.Services.Banking.PsuPresence Psu(HttpContext http) =>
+        new(http.Connection.RemoteIpAddress?.ToString(), http.Request.Headers.UserAgent.ToString() is { Length: > 0 } agent ? agent : null);
 }

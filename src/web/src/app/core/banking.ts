@@ -133,6 +133,19 @@ export interface BankConnection {
   choices: BankAccountChoice[];
 }
 
+/** What a fetch took, and the bank's balance next to the ledger's. */
+export interface BankFetch {
+  id: string | null;
+  from: string;
+  to: string;
+  added: number;
+  skipped: number;
+  pending: number;
+  bankBalance: number | null;
+  bankBalanceDate: string | null;
+  ledgerBalance: number;
+}
+
 /** A bank the company's provider reaches. */
 export interface BankAspsp {
   name: string;
@@ -173,6 +186,11 @@ export class BankConnectionsApi {
 
   pick(bankId: string, uid: string): Promise<BankConnection> {
     return firstValueFrom(this.http.post<BankConnection>(`${this.base}/${bankId}/pick/${encodeURIComponent(uid)}`, null));
+  }
+
+  /** Fetches the account's booked lines from its bank into a new statement (none when nothing is new). */
+  fetch(bankId: string): Promise<BankFetch> {
+    return firstValueFrom(this.http.post<BankFetch>(`${this.base}/${bankId}/fetch`, null));
   }
 
   disconnect(bankId: string): Promise<BankConnection> {

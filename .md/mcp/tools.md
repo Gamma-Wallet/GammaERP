@@ -60,6 +60,10 @@ Not covered: serial numbers on a reversal (whole or by quantity only); on a shee
 | `set_exchange_rates` | Saves one or many rates (currency, day, rate: one unit in the company's own currency) in one transaction: all or none | yes |
 | `read_configuration` | The configuration models, or a model's rows with filters and its columns; needs that configuration screen | no |
 | `open_banking_status` | The company's open banking provider: provider, environment, application id, return address, days, whether a key is set (fingerprint) and readable. Never the key; Claude never sets it | no |
+| `bank_accounts` | The company's bank accounts with IBAN, holder and connection; with a country, the banks the provider reaches there | no |
+| `set_bank_account_iban` | A bank account's IBAN, BIC and holder by hand | yes |
+| `connect_bank_account` | Starts connecting an account: returns the link the user opens to sign in at the bank (Claude never signs in) | yes |
+| `fetch_bank_statement` | A connected account's booked lines into a new statement, with the bank's and the ledger's balance | yes |
 | `save_configuration_row` | Saves a configuration row, e.g. payment methods by cost centre, point-of-sale settings, closed periods; administrators | yes |
 | `list_skins`, `use_skin` | The company's skins; puts one in use; administrators | `use_skin` yes |
 

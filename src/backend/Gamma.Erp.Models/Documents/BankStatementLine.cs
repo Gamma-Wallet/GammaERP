@@ -18,6 +18,14 @@ public sealed class BankStatementLine : Row
     /// <summary>Money in positive, money out negative.</summary>
     public decimal Amount { get; set; }
 
+    /// <summary>The bank's own id of the line (fetched lines): a line with an id already held for the bank is not taken again.</summary>
+    public string? ExternalId { get; set; }
+
+    /// <summary>Who paid (money in) or was paid (money out), as the bank gives it.</summary>
+    public string? CounterpartyName { get; set; }
+
+    public string? CounterpartyIban { get; set; }
+
     /// <summary>The posted document this line was matched to.</summary>
     public Guid? DocumentId { get; set; }
 

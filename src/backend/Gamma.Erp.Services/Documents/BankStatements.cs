@@ -13,9 +13,11 @@ namespace Gamma.Erp.Services.Documents;
 
 public sealed record BankOptionDto(Guid Id, string? Name);
 
-public sealed record BankStatementDto(Guid Id, Guid BankId, string? Bank, string? FileName, DateTimeOffset ImportedOn, int Lines, int Open);
+public sealed record BankStatementDto(Guid Id, Guid BankId, string? Bank, string? FileName, DateTimeOffset ImportedOn, int Lines, int Open, bool Fetched = false,
+    decimal? BankBalance = null, DateOnly? BankBalanceDate = null);
 
-public sealed record BankStatementLineDto(Guid Id, DateOnly Date, string? Text, string? Reference, decimal Amount, Guid? DocumentId, Guid? DocumentCategoryId, string? DocumentCode, bool DocumentReversed, bool Ignored);
+public sealed record BankStatementLineDto(Guid Id, DateOnly Date, string? Text, string? Reference, decimal Amount, Guid? DocumentId, Guid? DocumentCategoryId, string? DocumentCode, bool DocumentReversed, bool Ignored,
+    string? CounterpartyName = null, string? CounterpartyIban = null);
 
 public sealed record BankImportDto(Guid? Id, int Added, int Skipped);
 
@@ -64,7 +66,8 @@ public sealed class BankStatements(ErpDbContext db, RequestContext request, Visi
             .Select(g => new { Id = g.Key, Lines = g.Count(), Open = g.Count(l => l.DocumentId == null && !l.Ignored) }).ToDictionaryAsync(x => x.Id, ct).ConfigureAwait(false);
         var bankIds = statements.Select(s => s.BankId).Distinct().ToList();
         var banks = await db.Set<CostCenter>().AsNoTracking().Where(c => bankIds.Contains(c.Id)).ToDictionaryAsync(c => c.Id, c => c.Name.In(language) ?? c.Code, ct).ConfigureAwait(false);
-        return [.. statements.Select(s => new BankStatementDto(s.Id, s.BankId, banks.GetValueOrDefault(s.BankId), s.FileName, s.CreatedOn, counts.GetValueOrDefault(s.Id)?.Lines ?? 0, counts.GetValueOrDefault(s.Id)?.Open ?? 0))];
+        return [.. statements.Select(s => new BankStatementDto(s.Id, s.BankId, banks.GetValueOrDefault(s.BankId), s.FileName, s.CreatedOn, counts.GetValueOrDefault(s.Id)?.Lines ?? 0, counts.GetValueOrDefault(s.Id)?.Open ?? 0,
+            s.ConnectionId is not null, s.BankBalance, s.BankBalanceDate))];
     }
 
     /// <summary>Reads a file by the format chosen, all or nothing, and keeps the lines not yet held for that bank.</summary>
@@ -135,7 +138,7 @@ public sealed class BankStatements(ErpDbContext db, RequestContext request, Visi
         {
             var document = l.DocumentId is { } d ? documents.GetValueOrDefault(d) : null;
             return new BankStatementLineDto(l.Id, l.LineDate, l.Text, l.Reference, l.Amount, l.DocumentId, document is null ? null : categories.GetValueOrDefault(document.TypeId), document?.Code,
-                document is not null && reversed.Contains(document.Id), l.Ignored);
+                document is not null && reversed.Contains(document.Id), l.Ignored, l.CounterpartyName, l.CounterpartyIban);
         })];
     }
 
