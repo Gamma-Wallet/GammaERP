@@ -102,6 +102,9 @@ if (builder.Configuration["DataProtection:KeysFolder"] is { Length: > 0 } keysFo
 builder.Services.AddDataProtection();
 builder.Services.AddSingleton<Gamma.Erp.Services.Banking.ISecretBox, Gamma.Erp.Api.Banking.DataProtectionSecretBox>();
 builder.Services.AddScoped<Gamma.Erp.Services.Banking.BankProviders>();
+builder.Services.AddHttpClient<Gamma.Erp.Services.Banking.EnableBankingConnector>(c => c.Timeout = TimeSpan.FromSeconds(60));
+builder.Services.AddScoped<Gamma.Erp.Services.Banking.IBankConnector>(sp => sp.GetRequiredService<Gamma.Erp.Services.Banking.EnableBankingConnector>());
+builder.Services.AddScoped<Gamma.Erp.Services.Banking.BankConnections>();
 
 // A request with a personal token (Bearer GE_…) is signed in by TokenSignIn; every other one by the sign-in page's tokens (OpenIddict).
 builder.Services.AddAuthentication(options =>

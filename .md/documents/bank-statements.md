@@ -4,6 +4,10 @@ Upload a bank's file and decide each line by hand: match it to a posted document
 
 **Where:** Documents › Bank statements. **Who:** the Bank statements screen in your menu. File formats: Currencies and payments › Bank statement formats, administrators write them.
 
+## Bank accounts
+
+Above the statements, the **Bank accounts** table lists the company's bank accounts with their IBAN, holder and connection to the bank: type an IBAN, connect an account to its bank, disconnect it. See [Open banking](../currencies-and-payments/open-banking.md#bank-accounts-and-their-connections).
+
 ## File formats
 
 A format says how one bank writes its file (`tbl_bank_statement_format`). The base pack has one: "Date, text, reference, amount": comma separated, one header line, dates as `yyyy-MM-dd`.

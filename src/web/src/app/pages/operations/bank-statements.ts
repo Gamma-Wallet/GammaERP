@@ -11,6 +11,7 @@ import { Icon } from '../../ui/icon';
 import { Select, SelectOption } from '../../ui/select';
 import { Dialogs } from '../../ui/dialog';
 import { Toasts } from '../../ui/toast';
+import { BankAccounts } from './bank-accounts';
 
 interface Option {
   id: string;
@@ -64,7 +65,7 @@ interface Choices {
 /** Bank statements, decided line by line by hand: match a line to a posted document of the bank, write a new one, or ignore it. */
 @Component({
   selector: 'app-bank-statements',
-  imports: [TranslatePipe, Button, Field, Icon, Select],
+  imports: [TranslatePipe, BankAccounts, Button, Field, Icon, Select],
   changeDetection: ChangeDetectionStrategy.OnPush,
   template: `
     <div class="head"><h1>{{ 'Bank statements' | t }}</h1></div>
@@ -109,6 +110,8 @@ interface Choices {
       </table>
     } @else {
       @if (!busy() && !banks().length) { <p class="muted">{{ 'Add a cost centre of type Bank first.' | t }}</p> }
+      <app-bank-accounts (fetch)="fetchFromBank($event)" />
+      <h2>{{ 'Statements' | t }}</h2>
       <div class="form">
         <ui-field [label]="'Bank' | t" [required]="true"><ui-select [options]="banks()" [value]="bank()" (valueChange)="bank.set($event)" /></ui-field>
         <ui-field [label]="'File format' | t" [required]="true"><ui-select [options]="formats()" [value]="format()" (valueChange)="format.set($event)" /></ui-field>
@@ -229,6 +232,11 @@ export class BankStatements {
       await firstValueFrom(this.http.delete(`${this.base}/${statement.id}`));
       await this.load();
     });
+  }
+
+  /** Fetching from the bank comes with phase 3; until then the account's statement is uploaded as a file. */
+  protected fetchFromBank(_: unknown): void {
+    this.message.set(t('Fetching from the bank is not available yet.'));
   }
 
   protected choose(line: Line): Promise<void> {

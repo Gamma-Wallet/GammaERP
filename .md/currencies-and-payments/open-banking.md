@@ -63,6 +63,54 @@ Result: the company has no provider; nothing is deleted.
 
 API: `DELETE /api/v1/open-banking/provider`.
 
+## Bank accounts and their connections
+
+Each bank account cost centre (a type with "Bank accounts: bank statements are uploaded for them") has one row in `tbl_bank_connection`: its identity, and its connection to the bank when it has one. **Where:** Documents › Bank statements, the **Bank accounts** table. **Who:** the Bank statements screen in your menu.
+
+| Column | Meaning |
+|---|---|
+| IBAN, BIC, Holder | Typed by hand (enough for a payment QR code without a connection), or given by the bank when the account is connected. The IBAN is checked (ISO 13616, mod 97) and is one bank account's only in the company. The holder has at most 70 characters. |
+| Currency | From the bank. |
+| Connection | The provider, the bank (`aspsp_name`, `aspsp_country`), personal or business, the bank's session (sealed), the provider's account id, until when (`valid_until`), the last day fetched. |
+
+### Type the IBAN
+
+Steps: press **IBAN** on the account, type the IBAN, BIC and holder, press **Save**.
+
+Refused when: "This is not a valid IBAN."; "Another bank account of the company has this IBAN."; "A BIC has 8 or 11 letters and digits."; the holder is longer than 70; a connected account keeps the IBAN its bank gave ("Disconnect it first to change it").
+
+API: `PUT /api/v1/bank-connections/{bankId}/account` with `iban`, `bic`, `holderName`.
+
+### Connect an account to its bank
+
+Steps:
+1. Press **Connect to bank** on the account.
+2. Choose the country, the bank (the list comes from the provider), and Business account or Personal account. Press **Go to the bank**.
+3. Sign in at the bank and approve.
+4. The bank sends you to the return address, `/bank-connected`, which finishes the connection and says "… is connected to its bank (…) until …". Press **Back to bank statements**.
+
+Result: the account shows "Connected at <bank> · until <date>". The account is the one with the IBAN typed before, or the only one the bank gave. When the bank gave several and no IBAN was typed, the account shows them: press **This one** on the right one. Its IBAN, BIC, holder and currency are filled from the bank where they were empty. 14 days before the end it shows "Connect it again soon"; **Connect again** repeats the steps.
+
+Refused when:
+- `NotConfiguredError: the company has no open banking provider. An administrator sets it under Currencies and payments › Open banking.`
+- "The server can no longer open the provider's key…"
+- "Choose the bank."; "The country is its two-letter code."
+- The provider refuses: "The provider refused (<status>): <its reason>", or "The provider can't be reached: …".
+- On return: "This bank sign-in was not started here, or it is finished already."; "The bank sent no code back: the sign-in was cancelled or refused."; "The bank gave no account with the IBAN …: sign in with the bank and user that hold it." (the bank's session is ended then).
+- "Another bank account of the company has this IBAN."
+
+API: `GET /api/v1/bank-connections`, `GET /api/v1/bank-connections/aspsps?country=`, `POST /api/v1/bank-connections/{bankId}/connect` with `aspspName`, `country`, `psuType` (answer: `url`), `POST /api/v1/bank-connections/finish` with `state`, `code`, `POST /api/v1/bank-connections/{bankId}/pick/{accountUid}`.
+
+### Disconnect
+
+Steps: press **Disconnect** and confirm.
+
+Result: the session is ended at the provider and here. The IBAN, BIC and holder stay.
+
+API: `POST /api/v1/bank-connections/{bankId}/disconnect`.
+
+Every read of the bank (fetching a statement, checking a payment at the till) is started by a person and sent with that person's address and browser, so the bank counts it as theirs and not as a background read, which banks cap at about four a day.
+
 ## Never copied
 
 The provider is not part of a starter pack. A company copied from another company of the group does not get its provider or key: each company enters its own (the founder, 2026-11-14).

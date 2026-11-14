@@ -331,6 +331,22 @@ public static class Endpoints
             return Results.NoContent();
         });
 
+        // Bank accounts and their connections to the bank (the founder, 2026-11-14): connected by a person, who signs in at the bank and comes back to the
+        // return address; nothing reads the bank by itself.
+        var connections = api.MapGroup("/bank-connections").WithTags("open banking").RequireScreen("bank-statements");
+        connections.MapGet("/", (Gamma.Erp.Services.Banking.BankConnections s, string? language, CancellationToken ct) => s.ListAsync(language ?? "en", ct));
+        connections.MapGet("/aspsps", (Gamma.Erp.Services.Banking.BankConnections s, string country, CancellationToken ct) => s.AspspsAsync(country, ct));
+        connections.MapPut("/{bankId:guid}/account", (Gamma.Erp.Services.Banking.BankConnections s, Guid bankId, Gamma.Erp.Services.Banking.BankAccountInput input, string? language,
+            CancellationToken ct) => s.SetAccountAsync(bankId, input, language ?? "en", ct));
+        connections.MapPost("/{bankId:guid}/connect", (Gamma.Erp.Services.Banking.BankConnections s, Guid bankId, Gamma.Erp.Services.Banking.BankConnectStart start, string? language,
+            CancellationToken ct) => s.StartAsync(bankId, start, language ?? "en", ct));
+        connections.MapPost("/finish", (Gamma.Erp.Services.Banking.BankConnections s, Gamma.Erp.Services.Banking.BankConnectFinish finish, string? language, CancellationToken ct) =>
+            s.FinishAsync(finish, language ?? "en", ct));
+        connections.MapPost("/{bankId:guid}/pick/{accountUid}", (Gamma.Erp.Services.Banking.BankConnections s, Guid bankId, string accountUid, string? language, CancellationToken ct) =>
+            s.PickAsync(bankId, accountUid, language ?? "en", ct));
+        connections.MapPost("/{bankId:guid}/disconnect", (Gamma.Erp.Services.Banking.BankConnections s, Guid bankId, string? language, CancellationToken ct) =>
+            s.DisconnectAsync(bankId, language ?? "en", ct));
+
         // Bank statements: uploaded and decided line by line, always by hand.
         var statements = api.MapGroup("/bank-statements").WithTags("documents").RequireScreen("bank-statements");
         statements.MapGet("/", (BankStatements s, string? language, CancellationToken ct) => s.ListAsync(language ?? "en", ct));

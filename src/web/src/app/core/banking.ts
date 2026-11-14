@@ -105,3 +105,77 @@ export class BankingApi {
     return firstValueFrom(this.http.delete('/api/v1/open-banking/provider', { headers: new HttpHeaders() }));
   }
 }
+
+/** An account the bank gave when the person signed in. */
+export interface BankAccountChoice {
+  uid: string;
+  iban: string | null;
+  bic: string | null;
+  currency: string | null;
+  name: string | null;
+}
+
+/** A bank account cost centre with its identity and its connection to the bank. */
+export interface BankConnection {
+  bankId: string;
+  bank: string | null;
+  iban: string | null;
+  bic: string | null;
+  holderName: string | null;
+  currency: string | null;
+  connected: boolean;
+  aspspName: string | null;
+  aspspCountry: string | null;
+  validUntil: string | null;
+  renew: boolean;
+  lastFetchedTo: string | null;
+  pending: boolean;
+  choices: BankAccountChoice[];
+}
+
+/** A bank the company's provider reaches. */
+export interface BankAspsp {
+  name: string;
+  country: string;
+  psuTypes: string[];
+}
+
+/** An IBAN shown in groups of four. */
+export function ibanShown(iban: string | null): string {
+  return (iban ?? '').replace(/(.{4})/g, '$1 ').trim();
+}
+
+@Injectable({ providedIn: 'root' })
+export class BankConnectionsApi {
+  private readonly http = inject(HttpClient);
+  private readonly base = '/api/v1/bank-connections';
+
+  list(): Promise<BankConnection[]> {
+    return firstValueFrom(this.http.get<BankConnection[]>(this.base));
+  }
+
+  setAccount(bankId: string, iban: string, bic: string, holderName: string): Promise<BankConnection> {
+    return firstValueFrom(this.http.put<BankConnection>(`${this.base}/${bankId}/account`, { iban: iban || null, bic: bic || null, holderName: holderName || null }));
+  }
+
+  aspsps(country: string): Promise<BankAspsp[]> {
+    return firstValueFrom(this.http.get<BankAspsp[]>(`${this.base}/aspsps`, { params: { country } }));
+  }
+
+  /** Where the person signs in at the bank. */
+  connect(bankId: string, aspspName: string, country: string, psuType: string): Promise<{ url: string }> {
+    return firstValueFrom(this.http.post<{ url: string }>(`${this.base}/${bankId}/connect`, { aspspName, country, psuType }));
+  }
+
+  finish(state: string, code: string): Promise<BankConnection> {
+    return firstValueFrom(this.http.post<BankConnection>(`${this.base}/finish`, { state, code }));
+  }
+
+  pick(bankId: string, uid: string): Promise<BankConnection> {
+    return firstValueFrom(this.http.post<BankConnection>(`${this.base}/${bankId}/pick/${encodeURIComponent(uid)}`, null));
+  }
+
+  disconnect(bankId: string): Promise<BankConnection> {
+    return firstValueFrom(this.http.post<BankConnection>(`${this.base}/${bankId}/disconnect`, null));
+  }
+}

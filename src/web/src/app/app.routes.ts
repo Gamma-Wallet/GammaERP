@@ -44,6 +44,8 @@ export const routes: Routes = [
       { path: 'depreciation', loadComponent: () => import('./pages/operations/depreciation').then(m => m.Depreciation), canActivate: [menuScreenGuard] },
       { path: 'opportunity-board', loadComponent: () => import('./pages/operations/opportunity-board').then(m => m.OpportunityBoard), canActivate: [menuScreenGuard] },
       { path: 'bank-statements', loadComponent: () => import('./pages/operations/bank-statements').then(m => m.BankStatements), canActivate: [menuScreenGuard] },
+      // The bank's return address: no menu item of its own (the API needs the Bank statements screen).
+      { path: 'bank-connected', loadComponent: () => import('./pages/operations/bank-connected').then(m => m.BankConnected) },
       { path: 'open-banking', loadComponent: () => import('./pages/config/open-banking').then(m => m.OpenBanking), canActivate: [menuScreenGuard] },
       { path: 'approvals', loadComponent: () => import('./pages/operations/approvals').then(m => m.Approvals), canActivate: [menuScreenGuard] },
       { path: 'invoice-run', loadComponent: () => import('./pages/operations/invoice-run').then(m => m.InvoiceRun), canActivate: [menuScreenGuard] },
