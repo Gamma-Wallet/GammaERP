@@ -24,6 +24,8 @@
     <PackageVersion Include="MailKit" Version="4.18.1" />
     <!-- Excel export (MIT). -->
     <PackageVersion Include="ClosedXML" Version="0.105.0" />
+    <!-- The payment QR code at the till (EPC069-12), drawn as SVG on the server. MIT. -->
+    <PackageVersion Include="QRCoder" Version="1.8.1" />
     <!-- The MCP server (Apache-2.0): the official C# SDK. -->
     <PackageVersion Include="ModelContextProtocol.AspNetCore" Version="2.3.0" />
     <!-- Tests (Apache-2.0 / MIT) -->

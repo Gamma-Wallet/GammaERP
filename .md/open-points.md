@@ -45,3 +45,6 @@ Everything the documentation writers could not confirm or found incomplete, coll
 ## [system-settings/types-and-categories.md](system-settings/types-and-categories.md)
 
 - Lookup scopes are rows of `tbl_elements`. `GET /lookups` lists them, and they have no screen of their own.
+- Found 2026-11-14 (open banking, not changed): in every pack the point of sale's receipt of money (`POS_MONEY_IN`) names only Cash on its Payment methods tab, so Credit card is refused there ("the document type does not take this payment method"). Bank transfer (QR) was added to it. Credit card is left for the pack review.
+- Open banking: the bank account's currency is not compared with the bank cost centre's Currency property yet; the QR checks the company's currency only.
+- Open banking: Pay by bank keeps the bank line as the till sent it after Check bank; the server does not read the bank again to confirm it.

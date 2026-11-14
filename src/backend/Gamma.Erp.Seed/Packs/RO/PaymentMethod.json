@@ -12,7 +12,8 @@
    "en": "Cash",
    "ro": "Numerar"
   },
-  "IsCash": true
+  "IsCash": true,
+  "ShowsBankQr": false
  },
  {
   "Key": "payment_method:UNPAID",
@@ -27,7 +28,8 @@
    "en": "Unpaid",
    "ro": "Neplătit"
   },
-  "IsCash": false
+  "IsCash": false,
+  "ShowsBankQr": false
  },
  {
   "Key": "payment_method:CREDIT_CARD",
@@ -42,6 +44,23 @@
    "en": "Credit card",
    "ro": "Card de credit"
   },
-  "IsCash": false
+  "IsCash": false,
+  "ShowsBankQr": false
+ },
+ {
+  "Key": "payment_method:BANK_QR",
+  "IdSup": null,
+  "Active": true,
+  "Code": "BANK_QR",
+  "Name": {
+   "en": "Bank transfer (QR)",
+   "ro": "Transfer bancar (QR)"
+  },
+  "Description": {
+   "en": "The payer scans a QR code with their banking app",
+   "ro": "Plătitorul scanează un cod QR cu aplicația băncii sale"
+  },
+  "IsCash": false,
+  "ShowsBankQr": true
  }
 ]

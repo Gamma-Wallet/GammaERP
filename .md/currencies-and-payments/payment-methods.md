@@ -1,6 +1,6 @@
 # Payment methods
 
-The ways a document can be paid. The starter pack has Cash, Unpaid and Credit card.
+The ways a document can be paid. The starter pack has Cash, Unpaid, Credit card and Bank transfer (QR). Bank transfer (QR) is linked to the point of sale's receipt of money and to the bank receipt.
 
 **Where:** Currencies and payments › Payment methods (`/config/payment-methods`, table `tbl_payment_method`). **Who:** an administrator changes; see [configuration-lists.md](../accounting/configuration-lists.md).
 
@@ -10,6 +10,7 @@ The ways a document can be paid. The starter pack has Cash, Unpaid and Credit ca
 |--------|---------|
 | Code, Name, Description | What people read. |
 | Is cash | What it takes goes in the drawer and is counted when a shift closes. |
+| Shows a bank QR (`shows_bank_qr`) | The till shows a payment QR code for the bank this method's link at the point of sale names, and Check bank. See [Paying](../point-of-sale/paying.md#pay-by-bank-qr-code). |
 
 ### Is cash
 

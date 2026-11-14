@@ -12,7 +12,8 @@
    "en": "Cash",
    "sk": "Hotovosť"
   },
-  "IsCash": true
+  "IsCash": true,
+  "ShowsBankQr": false
  },
  {
   "Key": "payment_method:UNPAID",
@@ -27,7 +28,8 @@
    "en": "Unpaid",
    "sk": "Neuhradené"
   },
-  "IsCash": false
+  "IsCash": false,
+  "ShowsBankQr": false
  },
  {
   "Key": "payment_method:CREDIT_CARD",
@@ -42,6 +44,23 @@
    "en": "Credit card",
    "sk": "Platobná karta"
   },
-  "IsCash": false
+  "IsCash": false,
+  "ShowsBankQr": false
+ },
+ {
+  "Key": "payment_method:BANK_QR",
+  "IdSup": null,
+  "Active": true,
+  "Code": "BANK_QR",
+  "Name": {
+   "en": "Bank transfer (QR)",
+   "sk": "Bankový prevod (QR)"
+  },
+  "Description": {
+   "en": "The payer scans a QR code with their banking app",
+   "sk": "Platiteľ naskenuje QR kód aplikáciou svojej banky"
+  },
+  "IsCash": false,
+  "ShowsBankQr": true
  }
 ]

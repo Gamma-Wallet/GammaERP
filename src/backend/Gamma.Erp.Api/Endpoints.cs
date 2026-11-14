@@ -601,6 +601,15 @@ public static class Endpoints
         posSetup.MapGet("/places", (Gamma.Erp.Services.Pos.PosService s, Guid pointOfSale, string? language, CancellationToken ct) =>
             s.PlacesAsync(pointOfSale, language ?? "en", ct));
         pos.MapGet("/payment-methods", (Gamma.Erp.Services.Pos.PosService s, Guid costCenter, CancellationToken ct) => s.MethodsAtAsync(costCenter, ct));
+
+        // Pay by bank (the founder, 2026-11-14): the QR code for the bank the method's link names, Check bank (one read, by the cashier), and Paid on the
+        // chosen bank line, which posts the receipt and matches that line in the same press.
+        pos.MapGet("/bank-qr", async (Gamma.Erp.Services.Banking.PosBankPayments s, Guid pointOfSale, Guid paymentMethod, decimal amount, string reference, CancellationToken ct) =>
+            await s.QrAsync(pointOfSale, paymentMethod, amount, reference, ct) is { } qr ? Results.Ok(qr) : Results.NoContent());
+        pos.MapPost("/bank-check", (Gamma.Erp.Services.Banking.PosBankPayments s, HttpContext http, Gamma.Erp.Services.Banking.BankCheckRequest check, CancellationToken ct) =>
+            s.CheckAsync(check.PointOfSaleId, check.PaymentMethodId, check.Amount, check.Reference, Psu(http), ct));
+        pos.MapPost("/bills/pay-by-bank", (Gamma.Erp.Services.Pos.PosService s, Gamma.Erp.Services.Banking.PosBankPayments bank, Gamma.Erp.Services.Banking.PayByBankRequest request,
+            CancellationToken ct) => PayByBankAsync(s, bank, request, ct));
         pos.MapGet("/bills/unpaid", (Gamma.Erp.Services.Pos.PosService s, Guid type, Guid? user, Guid? table, Guid? pointOfSale, CancellationToken ct) =>
             s.UnpaidAsync(type, user, table, ct, pointOfSale));
         var stock = api.MapGroup("/stock").WithTags("stock").RequireScreen("stock-convert");
@@ -795,4 +804,32 @@ public static class Endpoints
     /// <summary>The person in front of the screen, sent with a read of the bank.</summary>
     private static Gamma.Erp.Services.Banking.PsuPresence Psu(HttpContext http) =>
         new(http.Connection.RemoteIpAddress?.ToString(), http.Request.Headers.UserAgent.ToString() is { Length: > 0 } agent ? agent : null);
+
+    /// <summary>
+    /// Pays bills with the bank line the cashier chose: checked before anything is posted (one client, so one receipt; the line's amount is the amount
+    /// due; the line not held yet), then the till's usual payment into the bank, then the line kept on the bank's statement, matched to the receipt.
+    /// </summary>
+    private static async Task<IReadOnlyList<Gamma.Erp.Models.Documents.Dto.DocumentDto>> PayByBankAsync(Gamma.Erp.Services.Pos.PosService pos, Gamma.Erp.Services.Banking.PosBankPayments bank,
+        Gamma.Erp.Services.Banking.PayByBankRequest request, CancellationToken ct)
+    {
+        var pay = request.Pay;
+        if (pay.PointOfSaleId is not { } place || pay.PaymentMethodId is not { } method)
+        {
+            throw Gamma.Erp.Services.ValidationException.For("paymentMethodId", "Paying by a bank line needs the point of sale and the payment method.");
+        }
+
+        var open = await pos.UnpaidAsync(pay.BillTypeId, null, pay.TableId, ct);
+        var chosen = pay.All || pay.TableId is not null ? open : [.. open.Where(b => pay.BillIds?.Contains(b.Id) == true)];
+        if (chosen.Count == 0 || chosen.Select(b => b.ClientId).Distinct().Count() != 1)
+        {
+            throw Gamma.Erp.Services.ValidationException.For("billIds", "One bank payment pays the open bills of one client.");
+        }
+
+        var (bankId, _, _) = await bank.BankAsync(place, method, ct);
+        var due = chosen.Sum(b => b.Open);
+        await bank.CheckLineAsync(bankId, request.BankLine, due, ct);
+        var paid = await pos.PayAsync(pay, ct);
+        await bank.KeepAsync(bankId, request.BankLine, paid[0].Id!.Value, due, ct);
+        return paid;
+    }
 }

@@ -10,7 +10,8 @@
   "Description": {
    "en": "Cash"
   },
-  "IsCash": true
+  "IsCash": true,
+  "ShowsBankQr": false
  },
  {
   "Key": "payment_method:UNPAID",
@@ -23,7 +24,8 @@
   "Description": {
    "en": "Unpaid"
   },
-  "IsCash": false
+  "IsCash": false,
+  "ShowsBankQr": false
  },
  {
   "Key": "payment_method:CREDIT_CARD",
@@ -36,6 +38,21 @@
   "Description": {
    "en": "Credit card"
   },
-  "IsCash": false
+  "IsCash": false,
+  "ShowsBankQr": false
+ },
+ {
+  "Key": "payment_method:BANK_QR",
+  "IdSup": null,
+  "Active": true,
+  "Code": "BANK_QR",
+  "Name": {
+   "en": "Bank transfer (QR)"
+  },
+  "Description": {
+   "en": "The payer scans a QR code with their banking app"
+  },
+  "IsCash": false,
+  "ShowsBankQr": true
  }
 ]

@@ -171,6 +171,35 @@ export interface PayBills {
   pointOfSaleId?: string | null;
 }
 
+/** The payment QR code the till shows for a method marked "shows a bank QR" (EPC069-12, euro). */
+export interface BankQr {
+  bankId: string;
+  bank: string | null;
+  iban: string;
+  bic: string | null;
+  holder: string;
+  amount: number;
+  currency: string;
+  reference: string;
+  payload: string;
+  svg: string;
+  /** The bank account is connected: Check bank can read it. */
+  canCheck: boolean;
+}
+
+/** A money-in line from the bank that may be the payment. */
+export interface BankPaymentLine {
+  externalId: string | null;
+  date: string;
+  amount: number;
+  text: string | null;
+  reference: string | null;
+  counterpartyName: string | null;
+  counterpartyIban: string | null;
+  booked: boolean;
+  mentionsReference: boolean;
+}
+
 /** The point-of-sale API: its settings and floor plan, the menus open now, the bills not yet paid and paying them. */
 @Injectable({ providedIn: 'root' })
 export class PosApi {
@@ -297,5 +326,21 @@ export class PosApi {
 
   pay(request: PayBills): Promise<DocumentData[]> {
     return firstValueFrom(this.http.post<DocumentData[]>(`${this.base}/bills/pay`, request));
+  }
+
+  /** The QR code for paying an amount by bank; null when the method shows none. */
+  async bankQr(pointOfSale: string, paymentMethod: string, amount: number, reference: string): Promise<BankQr | null> {
+    const params = { pointOfSale, paymentMethod, amount: amount.toFixed(2), reference };
+    return (await firstValueFrom(this.http.get<BankQr | null>(`${this.base}/bank-qr`, { params }))) ?? null;
+  }
+
+  /** Reads the bank once for the cashier: money-in lines of this amount not yet held, those mentioning the reference first. */
+  bankCheck(pointOfSaleId: string, paymentMethodId: string, amount: number, reference: string): Promise<BankPaymentLine[]> {
+    return firstValueFrom(this.http.post<BankPaymentLine[]>(`${this.base}/bank-check`, { pointOfSaleId, paymentMethodId, amount, reference }));
+  }
+
+  /** Pays with the bank line the cashier chose: the receipt is posted and that line matched to it in the same press. */
+  payByBank(pay: PayBills, bankLine: BankPaymentLine): Promise<DocumentData[]> {
+    return firstValueFrom(this.http.post<DocumentData[]>(`${this.base}/bills/pay-by-bank`, { pay, bankLine }));
   }
 }

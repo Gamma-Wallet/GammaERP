@@ -12,7 +12,8 @@
    "en": "Cash",
    "mk": "Готовина"
   },
-  "IsCash": true
+  "IsCash": true,
+  "ShowsBankQr": false
  },
  {
   "Key": "payment_method:UNPAID",
@@ -27,7 +28,8 @@
    "en": "Unpaid",
    "mk": "Неплатено"
   },
-  "IsCash": false
+  "IsCash": false,
+  "ShowsBankQr": false
  },
  {
   "Key": "payment_method:CREDIT_CARD",
@@ -42,6 +44,23 @@
    "en": "Credit card",
    "mk": "Кредитна картичка"
   },
-  "IsCash": false
+  "IsCash": false,
+  "ShowsBankQr": false
+ },
+ {
+  "Key": "payment_method:BANK_QR",
+  "IdSup": null,
+  "Active": true,
+  "Code": "BANK_QR",
+  "Name": {
+   "en": "Bank transfer (QR)",
+   "mk": "Банкарски трансфер (QR)"
+  },
+  "Description": {
+   "en": "The payer scans a QR code with their banking app",
+   "mk": "Плаќачот скенира QR код со апликацијата на својата банка"
+  },
+  "IsCash": false,
+  "ShowsBankQr": true
  }
 ]

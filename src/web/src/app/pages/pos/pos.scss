@@ -576,3 +576,12 @@ main {
     display: none;
   }
 }
+
+// Pay by bank: the QR code in place of the keypad, then the bank's lines to choose from.
+.bank-qr {
+  align-items: center;
+  text-align: center;
+  .qr { background: #fff; padding: 8px; border-radius: 8px; width: min(260px, 70vw); height: auto; }
+  .bank-lines { list-style: none; padding: 0; margin: 8px 0; width: 100%; text-align: left;
+    li { display: flex; align-items: center; justify-content: space-between; gap: 8px; padding: 6px 0; border-bottom: 1px solid var(--line, #ddd); } }
+}

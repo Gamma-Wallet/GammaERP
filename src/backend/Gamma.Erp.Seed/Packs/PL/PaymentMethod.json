@@ -12,7 +12,8 @@
    "en": "Cash",
    "pl": "Gotówka"
   },
-  "IsCash": true
+  "IsCash": true,
+  "ShowsBankQr": false
  },
  {
   "Key": "payment_method:UNPAID",
@@ -27,7 +28,8 @@
    "en": "Unpaid",
    "pl": "Nieopłacone"
   },
-  "IsCash": false
+  "IsCash": false,
+  "ShowsBankQr": false
  },
  {
   "Key": "payment_method:CREDIT_CARD",
@@ -42,6 +44,23 @@
    "en": "Credit card",
    "pl": "Karta płatnicza"
   },
-  "IsCash": false
+  "IsCash": false,
+  "ShowsBankQr": false
+ },
+ {
+  "Key": "payment_method:BANK_QR",
+  "IdSup": null,
+  "Active": true,
+  "Code": "BANK_QR",
+  "Name": {
+   "en": "Bank transfer (QR)",
+   "pl": "Przelew bankowy (QR)"
+  },
+  "Description": {
+   "en": "The payer scans a QR code with their banking app",
+   "pl": "Płacący skanuje kod QR aplikacją swojego banku"
+  },
+  "IsCash": false,
+  "ShowsBankQr": true
  }
 ]

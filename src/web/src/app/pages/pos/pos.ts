@@ -6,7 +6,8 @@ import { NgTemplateOutlet } from '@angular/common';
 import { Router, RouterLink } from '@angular/router';
 import { DocumentApi, DocumentForm, HeldLot } from '../../core/documents';
 import { EntityApi, LookupOption, REGISTERS, errorsOf } from '../../core/entities';
-import { PosApi, PosBarcode, PosPlace, PosSettings, SaleMenu, UnpaidBill, PosShift, PosShiftSummary } from '../../core/pos';
+import { BankPaymentLine, BankQr, PosApi, PosBarcode, PosPlace, PosSettings, SaleMenu, UnpaidBill, PosShift, PosShiftSummary } from '../../core/pos';
+import { DomSanitizer, SafeUrl } from '@angular/platform-browser';
 import { SessionService } from '../../core/session';
 import { PosEvents } from './pos-events';
 import { PosStays } from './pos-stays';
@@ -140,6 +141,27 @@ export class Pos {
     const allowed = this.allowedMethods();
     return (this.writes().in?.form.paymentMethods ?? []).filter(m => !allowed || allowed.includes(m.id));
   });
+  // Pay by bank (the founder, 2026-11-14): a method that shows a bank QR replaces the keypad with the QR code; Check bank, then Paid on the right line.
+  private readonly sanitizer = inject(DomSanitizer);
+  protected readonly bankQr = signal<BankQr | null>(null);
+  protected readonly bankQrImage = computed<SafeUrl | null>(() => {
+    const qr = this.bankQr();
+    return qr ? this.sanitizer.bypassSecurityTrustUrl(`data:image/svg+xml;charset=utf-8,${encodeURIComponent(qr.svg)}`) : null;
+  });
+  protected readonly bankLines = signal<BankPaymentLine[] | null>(null);
+  /** The chosen bills' codes: the payment's reference. */
+  protected readonly payReference = computed(() => this.payBills().filter(b => this.chosen().has(b.id)).map(b => b.code ?? '').filter(c => c).join(' ').slice(0, 140));
+  private readonly loadBankQr = effect(() => {
+    const [view, method, due, reference, place] = [this.view(), this.methodId(), this.due(), this.payReference(), this.pointOfSale()?.id];
+    untracked(() => {
+      this.bankQr.set(null);
+      this.bankLines.set(null);
+      if (view === 'pay' && method && place && due > 0 && reference) {
+        void this.api.bankQr(place, method, due, reference).then(qr => this.bankQr.set(qr)).catch(error => this.message.set(errorsOf(error).message));
+      }
+    });
+  });
+
   private readonly loadAllowedMethods = effect(() => {
     const place = this.pointOfSale()?.id;
     untracked(() => {
@@ -614,6 +636,44 @@ export class Pos {
         paymentMethodId: this.methodId(), pointOfSaleId: this.pointOfSale()?.id ?? null });
       const change = this.change();
       this.toasts.good(`Paid ${this.n(this.due())}${change ? `; change ${this.n(change)}` : ''}.`);
+      this.show(this.home());
+    } catch (error) {
+      this.message.set(errorsOf(error).message);
+    } finally {
+      this.busy.set(false);
+    }
+  }
+
+  /** Reads the bank once: the money-in lines of the amount due that may be this payment. */
+  protected async checkBank(): Promise<void> {
+    const [qr, method, place] = [this.bankQr(), this.methodId(), this.pointOfSale()?.id];
+    if (!qr || !method || !place) {
+      return;
+    }
+    this.busy.set(true);
+    this.message.set(null);
+    try {
+      this.bankLines.set(await this.api.bankCheck(place, method, qr.amount, qr.reference));
+    } catch (error) {
+      this.message.set(errorsOf(error).message);
+    } finally {
+      this.busy.set(false);
+    }
+  }
+
+  /** Paid on the line the cashier chose: posts the receipt into the bank and matches that line to it. */
+  protected async paidByBank(line: BankPaymentLine): Promise<void> {
+    const settings = this.settings();
+    const ids = this.payBills().filter(b => this.chosen().has(b.id)).map(b => b.id);
+    if (!settings?.billTypeId || !settings.moneyInTypeId || !settings.cashDeskId || ids.length === 0) {
+      return;
+    }
+    this.busy.set(true);
+    this.message.set(null);
+    try {
+      await this.api.payByBank({ billTypeId: settings.billTypeId, paymentTypeId: settings.moneyInTypeId, cashDeskId: settings.cashDeskId, billIds: ids,
+        paymentMethodId: this.methodId(), pointOfSaleId: this.pointOfSale()?.id ?? null }, line);
+      this.toasts.good(t('Paid {0} by bank; the bank line is matched.', this.n(this.due())));
       this.show(this.home());
     } catch (error) {
       this.message.set(errorsOf(error).message);

@@ -19,5 +19,19 @@
   "Active": true,
   "DocumentTypeId": "document_type:REVERSAL_RECEIPT",
   "PaymentMethodId": "payment_method:CASH"
+ },
+ {
+  "Key": "inter_payment_method_document_type:4",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:POS_MONEY_IN",
+  "PaymentMethodId": "payment_method:BANK_QR"
+ },
+ {
+  "Key": "inter_payment_method_document_type:5",
+  "IdSup": null,
+  "Active": true,
+  "DocumentTypeId": "document_type:RECEIPT",
+  "PaymentMethodId": "payment_method:BANK_QR"
  }
 ]

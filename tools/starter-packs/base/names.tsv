@@ -483,6 +483,8 @@ payment_method:UNPAID	Name	Unpaid	Pa pagesë	Non pagato	Απλήρωτο
 payment_method:UNPAID	Description	Unpaid	Pa pagesë	Non pagato	Απλήρωτο
 payment_method:CREDIT_CARD	Name	Credit card	Kartë krediti	Carta di credito	Πιστωτική κάρτα
 payment_method:CREDIT_CARD	Description	Credit card	Kartë krediti	Carta di credito	Πιστωτική κάρτα
+payment_method:BANK_QR	Name	Bank transfer (QR)	Transfertë bankare (QR)	Bonifico (QR)	Τραπεζική μεταφορά (QR)
+payment_method:BANK_QR	Description	The payer scans a QR code with their banking app	Paguesi skanon një kod QR me aplikacionin e bankës	Chi paga inquadra un codice QR con l'app della banca	Ο πληρωτής σαρώνει έναν κωδικό QR με την εφαρμογή της τράπεζας
 product_category:PRODUCT	Name	Products	Produkte	Prodotti	Προϊόντα
 product_category:SERVICE	Name	Services	Shërbime	Servizi	Υπηρεσίες
 product_category:ASSET	Name	Assets	Asete	Beni strumentali	Πάγια

@@ -189,6 +189,35 @@
               }
             </div>
           </div>
+          @if (bankQr(); as qr) {
+          <div class="cash bank-qr">
+            <img class="qr" [src]="bankQrImage()" [alt]="'Payment QR code' | t" width="260" height="260" />
+            <p>{{ qr.holder }}<br />{{ qr.iban }}<br /><strong>{{ qr.currency }} {{ n(qr.amount) }}</strong> · {{ qr.reference }}</p>
+            <p class="muted">{{ 'The customer scans the code with their banking app and pays.' | t }}</p>
+            @if (qr.canCheck) {
+              @if (bankLines(); as lines) {
+                <ul class="bank-lines">
+                  @for (l of lines; track $index) {
+                    <li>
+                      <span>{{ l.counterpartyName ?? ('Unknown payer' | t) }} · {{ n(l.amount) }} · {{ l.text }} @if (!l.booked) { <em>({{ 'pending' | t }})</em> }</span>
+                      <button uiButton size="touch" variant="primary" [disabled]="busy()" (click)="paidByBank(l)">{{ 'Paid' | t }}</button>
+                    </li>
+                  } @empty {
+                    <li class="muted">{{ 'Not in the bank yet. Check again in a moment.' | t }}</li>
+                  }
+                </ul>
+              }
+              <div class="actions">
+                <button uiButton size="touch" [disabled]="busy()" (click)="checkBank()">{{ busy() ? ('Checking…' | t) : ('Check bank' | t) }}</button>
+              </div>
+            } @else {
+              <p class="muted">{{ 'The bank account is not connected: check the bank app, then press Received.' | t }}</p>
+              <div class="actions">
+                <button uiButton size="touch" variant="primary" [disabled]="!chosen().size || busy()" (click)="pay()">{{ 'Received' | t }} {{ n(due()) }}</button>
+              </div>
+            }
+          </div>
+          } @else {
           <div class="cash">
             <div class="readout"><span>{{ 'Received' | t }}</span><strong>{{ received() || '0' }}</strong></div>
             <div class="readout" [class.short]="received() !== '' && change() === null">
@@ -208,6 +237,7 @@
               </button>
             </div>
           </div>
+          }
         </section>
       }
 
