@@ -829,7 +829,7 @@ public static class Endpoints
         var due = chosen.Sum(b => b.Open);
         await bank.CheckLineAsync(bankId, request.BankLine, due, ct);
         var paid = await pos.PayAsync(pay, ct);
-        await bank.KeepAsync(bankId, request.BankLine, paid[0].Id!.Value, due, ct);
+        await bank.KeepAsync(bankId, request.BankLine, paid[0].Id!.Value, ct);
         return paid;
     }
 }

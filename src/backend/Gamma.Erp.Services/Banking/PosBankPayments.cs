@@ -75,7 +75,7 @@ public sealed class PosBankPayments(ErpDbContext db, Visibility visibility, Bank
     public async Task<IReadOnlyList<BankPaymentLine>> CheckAsync(Guid pointOfSaleId, Guid paymentMethodId, decimal amount, string reference, PsuPresence psu, CancellationToken ct)
     {
         var (bankId, _, _) = await BankAsync(pointOfSaleId, paymentMethodId, ct).ConfigureAwait(false);
-        var ready = await connections.ReadyAsync(bankId, ct).ConfigureAwait(false);
+        var ready = await connections.ReadyForPointOfSaleAsync(bankId, ct).ConfigureAwait(false);
         var now = time.GetLocalNow();
         var today = DateOnly.FromDateTime(now.DateTime);
         var lines = new List<BankTransactionInfo>();
@@ -106,7 +106,7 @@ public sealed class PosBankPayments(ErpDbContext db, Visibility visibility, Bank
     /// Keeps a bank line the cashier chose for a till payment, matched to the posted receipt: on the bank's statement of till payments of that day (made when
     /// needed). Refused when the line is held already or its amount is not the receipt's.
     /// </summary>
-    public async Task KeepAsync(Guid bankId, BankPaymentLine line, Guid paymentId, decimal paid, CancellationToken ct)
+    public async Task KeepAsync(Guid bankId, BankPaymentLine line, Guid paymentId, CancellationToken ct)
     {
         ArgumentNullException.ThrowIfNull(line);
         var connection = await db.Set<BankConnection>().AsNoTracking().FirstOrDefaultAsync(c => c.Active && c.BankId == bankId, ct).ConfigureAwait(false)
@@ -125,7 +125,7 @@ public sealed class PosBankPayments(ErpDbContext db, Visibility visibility, Bank
 
         db.Add(new BankStatementLine
         {
-            StatementId = statement.Id, LineDate = line.Date, Amount = paid, Text = Clean(line.Text, 500), Reference = Clean(line.Reference, 200), ExternalId = line.ExternalId,
+            StatementId = statement.Id, LineDate = line.Date, Amount = line.Amount, Text = Clean(line.Text, 500), Reference = Clean(line.Reference, 200), ExternalId = line.ExternalId,
             CounterpartyName = Clean(line.CounterpartyName, 200), CounterpartyIban = BankConnections.Compact(line.CounterpartyIban), DocumentId = paymentId,
             TenantId = connection.TenantId, OwnerId = connection.OwnerId,
         });
@@ -136,7 +136,8 @@ public sealed class PosBankPayments(ErpDbContext db, Visibility visibility, Bank
     public async Task CheckLineAsync(Guid bankId, BankPaymentLine line, decimal due, CancellationToken ct)
     {
         ArgumentNullException.ThrowIfNull(line);
-        if (line.Amount != due || due <= 0)
+        // A bank moves cents: the amount due is compared as the QR code shows it, rounded to cents (a bill's total may carry more decimals).
+        if (due <= 0 || line.Amount != decimal.Round(due, 2, MidpointRounding.AwayFromZero))
         {
             throw ValidationException.For("bankLine", "The bank line's amount is not the amount to pay.");
         }

@@ -204,6 +204,22 @@ public sealed class BankConnections(ErpDbContext db, RequestContext request, Vis
     public async Task<ReadyConnection> ReadyAsync(Guid bankId, CancellationToken ct)
     {
         var (_, row) = await RowAsync(bankId, "en", ct).ConfigureAwait(false);
+        return await ReadyAsync(row, ct).ConfigureAwait(false);
+    }
+
+    /// <summary>
+    /// The same for a till's Check bank: the bank is the one the payment method's link at the point of sale names (PosBankPayments.BankAsync checks the
+    /// point of sale is the request's), so a cashier working at the point of sale reads it without seeing the company's bank accounts.
+    /// </summary>
+    public async Task<ReadyConnection> ReadyForPointOfSaleAsync(Guid bankId, CancellationToken ct)
+    {
+        var company = await CompanyAsync(ct).ConfigureAwait(false);
+        var row = await db.Set<BankConnection>().FirstOrDefaultAsync(c => c.Active && c.BankId == bankId && c.OwnerId == company, ct).ConfigureAwait(false);
+        return await ReadyAsync(row, ct).ConfigureAwait(false);
+    }
+
+    private async Task<ReadyConnection> ReadyAsync(BankConnection? row, CancellationToken ct)
+    {
         if (row?.SessionId is null || row.AccountUid is null)
         {
             throw ValidationException.For("bankId", $"{ErrorCodes.NotConfiguredError}: the account is not connected to its bank. Connect it on Bank statements.");
