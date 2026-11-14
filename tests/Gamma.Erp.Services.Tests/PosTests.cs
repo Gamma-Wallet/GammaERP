@@ -184,17 +184,18 @@ public sealed class PosTests : IAsyncLifetime
         var pos = new PosService(context, visibility, documents, TimeProvider.System);
         var centres = await context.Set<CostCenter>().ToDictionaryAsync(c => c.Code!, ct);
 
-        // The pack's company default names the bill and money types, never a cash desk or a client: those are the company's own.
+        // The pack's company default names the bill and money types and the general client (a till sale goes to the general client by default),
+        // never a cash desk: that is the company's own.
         var fallback = await pos.SettingsAsync(null, "en", ct);
         fallback.BillTypeId.Should().NotBeNull();
         fallback.MoneyInType.Should().Be("Point-of-sale receipt of money");
         fallback.MoneyOutType.Should().Be("Point-of-sale payment");
-        fallback.Missing.Should().BeEquivalentTo("cashDeskId", "walkInClientId");
+        fallback.Missing.Should().BeEquivalentTo("cashDeskId");
 
         var walkIn = new Partner { TypeId = (await context.Set<PartnerType>().SingleAsync(t => t.Code == "UNKNOWN", ct)).Id, Code = "WALKIN", Name = TranslatedText.English("Klient"),
             TenantId = tenantId, OwnerId = company.Corporate };
         context.AddRange(walkIn, new PointOfSaleSetting { PointOfSaleId = centres["BAR"].Id, CashDeskId = centres["CASH"].Id, WalkInClientId = walkIn.Id, TenantId = tenantId,
-            OwnerId = company.Companies["CO"] });
+            OwnerId = company.Companies["CO"], RequiresShift = false }); // bills here are posted without a shift; shifts have their own tests
         // The floor plan: the hall in the bar, the tables in the hall; table 1 has its place on the plan.
         centres["HALL"].IdSup = centres["BAR"].Id;
         centres["T1"].IdSup = centres["HALL"].Id;
@@ -210,7 +211,7 @@ public sealed class PosTests : IAsyncLifetime
         bar.CashDesk.Should().Be("Arka");
         bar.WalkInClient.Should().Be("Klient");
         bar.BillTypeId.Should().Be(fallback.BillTypeId, "an empty column of the bar's own row takes the default's");
-        (await pos.SettingsAsync(null, "en", ct)).Missing.Should().HaveCount(2, "the default stays as it was");
+        (await pos.SettingsAsync(null, "en", ct)).Missing.Should().BeEquivalentTo(["cashDeskId"], "the default stays as it was");
 
         var billCategory = await context.Set<InterDocumentTypeCategory>().Where(l => l.TypeId == bar.BillTypeId).Select(l => l.CategoryId).FirstAsync(ct);
         var goods = await context.Set<ProductCategory>().SingleAsync(c => c.Code == "PRODUCT", ct);
@@ -221,7 +222,7 @@ public sealed class PosTests : IAsyncLifetime
         context.AddRange(beer, supplier, new InterProductCategory { ElementId = beer.Id, CategoryId = goods.Id, TenantId = tenantId, OwnerId = company.Corporate });
         await context.SaveChangesAsync(ct);
         // The founder (2026-10-31): a barcode is a property of the product; a shop reads them with their prices.
-        var barcode = (await context.Set<ProductTypeInfo>().Where(i => i.TypeId == goodsType).ToListAsync(ct)).Single(i => i.Name.In("en") == PosService.BarcodeProperty);
+        var barcode = (await context.Set<ProductTypeInfo>().Where(i => i.TypeId == goodsType).ToListAsync(ct)).Single(i => i.Code == PosService.BarcodeCode);
         context.AddRange(new ProductInfo { ElementId = beer.Id, TypeInfoId = barcode.Id, Value = JsonValue.Create("5901234123457"), TenantId = tenantId, OwnerId = company.Corporate },
             new ProductSalePrice { ProductId = beer.Id, Value = 150, CompanyId = company.Corporate, TenantId = tenantId, OwnerId = company.Corporate });
         await context.SaveChangesAsync(ct);

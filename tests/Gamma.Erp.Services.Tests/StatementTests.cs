@@ -87,7 +87,7 @@ public sealed class StatementTests : IAsyncLifetime
         await PostAsync(Day.AddDays(1), Row(cash, 999, 0), Row(capital, 0, 999));
 
         // At the day: nothing after it, and the two sides meet. Cash 1000 + clients 380 = capital 1000 + earlier 80 + this year 100 + suppliers 200.
-        var sheetNow = await reports.BalanceSheetAsync(Day, "en", ct);
+        var sheetNow = await reports.BalanceSheetAsync(Day, null, "en", ct);
         decimal Amount(string code) => sheetNow.Rows.Single(r => r.Code == code).Amount;
         (sheetNow.Assets, sheetNow.LiabilitiesAndEquity, sheetNow.Difference).Should().Be((1380m, 1380m, 0m));
         (Amount("A23"), Amount("A22"), Amount("P11"), Amount("P12"), Amount("P13"), Amount("P21")).Should().Be((1000m, 380m, 1000m, 80m, 100m, 200m));
@@ -98,19 +98,19 @@ public sealed class StatementTests : IAsyncLifetime
 
         // A client in credit moves to the liabilities, by the balance rule.
         await PostAsync(Day.AddDays(2), Row(cash, 500, 0), Row(receivable, 0, 500));
-        var turned = await reports.BalanceSheetAsync(Day.AddDays(2), "en", ct);
+        var turned = await reports.BalanceSheetAsync(Day.AddDays(2), null, "en", ct);
         turned.Rows.Single(r => r.Code == "A22").Amount.Should().Be(0);
         turned.Rows.Single(r => r.Code == "P21").Amount.Should().Be(320, "suppliers 200 + the client's 120");
         turned.Difference.Should().Be(0);
 
         // Profit and loss of a period, the same period a year before beside it.
-        var pl = await reports.ProfitLossAsync(new DateOnly(2026, 1, 1), new DateOnly(2026, 12, 31), "en", ct);
+        var pl = await reports.ProfitLossAsync(new DateOnly(2026, 1, 1), new DateOnly(2026, 12, 31), null, "en", ct);
         (pl.Rows.Single(r => r.Code == "I").Amount, pl.Rows.Single(r => r.Code == "E").Amount, pl.Result, pl.PreviousResult).Should().Be((300m, 200m, 100m, 80m));
 
         // An account on no line is listed, not dropped: the off-balance class has none.
         var off = Leaf("8");
         await PostAsync(Day, Row(off, 40, 0), Row(capital, 0, 40));
-        var listed = await reports.BalanceSheetAsync(Day, "en", ct);
+        var listed = await reports.BalanceSheetAsync(Day, null, "en", ct);
         listed.Unplaced.Should().ContainSingle().Which.Code.Should().Be(off.Code);
         listed.Difference.Should().Be(-40, "the check shows what is missing");
     }

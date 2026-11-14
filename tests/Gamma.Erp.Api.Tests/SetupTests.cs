@@ -244,12 +244,18 @@ public sealed class SetupTests : IAsyncLifetime
         var ct = TestContext.Current.CancellationToken;
         await using var scope = _api.Services.CreateAsyncScope();
         var setup = scope.ServiceProvider.GetRequiredService<SetupService>();
+        var setupDb = scope.ServiceProvider.GetRequiredService<Gamma.Erp.Persistence.ErpDbContext>();
         var output = new StringWriter();
         string[] args = ["create-company", "--username", "server.owner", "--country", "al", "--company", "Kompani Serveri"];
-        (await CreateCompanyCommand.RunAsync(setup, args, Password, output, ct)).Should().Be(0, output.ToString());
+        (await CreateCompanyCommand.RunAsync(setup, setupDb, args, Password, output, ct)).Should().Be(0, output.ToString());
         (await InDbAsync(db => db.Set<Gamma.Erp.Models.Users.User>().IgnoreQueryFilters().CountAsync(u => u.Username == "server.owner", ct))).Should().Be(1);
-        (await CreateCompanyCommand.RunAsync(setup, args, null, output, ct)).Should().Be(2, "no password, no company");
-        (await CreateCompanyCommand.RunAsync(setup, args, "short", output, ct)).Should().Be(1, "refused, and it says why");
+        (await CreateCompanyCommand.RunAsync(setup, setupDb, ["create-company", "--username", "x", "--country", "al"], Password, output, ct)).Should().Be(2, "no company name: the usage");
+        // No password given: one is made and shown once (the founder, 2026-11-04).
+        string[] generated = ["create-company", "--username", "server.second", "--country", "al", "--company", "Kompani e Dyte"];
+        (await CreateCompanyCommand.RunAsync(setup, setupDb, generated, null, output, ct)).Should().Be(0, output.ToString());
+        output.ToString().Should().Contain("First password:");
+        string[] shortOne = ["create-company", "--username", "server.third", "--country", "al", "--company", "Kompani e Trete"];
+        (await CreateCompanyCommand.RunAsync(setup, setupDb, shortOne, "short", output, ct)).Should().Be(1, "refused, and it says why");
         output.ToString().Should().Contain("Usage").And.Contain("at least 12").And.NotContain(Password);
     }
 

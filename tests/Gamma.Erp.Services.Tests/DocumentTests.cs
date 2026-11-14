@@ -558,7 +558,7 @@ public sealed class DocumentTests : IAsyncLifetime
         (await documents.HolderAsync(invoice.Id!.Value, ct)).Should().Be(_admin, "with no timeout set, a hold lasts until it is released");
 
         var property = (await db.Set<CostCenterTypeInfo>().Where(p => p.Kind == PropertyKind.Number).ToListAsync(ct))
-            .Single(p => p.Name.In("en") == DocumentService.HoldTimeoutProperty);
+            .Single(p => p.Code == DocumentService.HoldTimeoutCode);
         db.Add(new CostCenterInfo { ElementId = _org.Companies["TIRANA"], TypeInfoId = property.Id, Value = JsonValue.Create(30m), OwnerId = _org.Companies["TIRANA"] });
         await db.SaveChangesAsync(ct);
         (await documents.HolderAsync(invoice.Id!.Value, ct)).Should().Be(_admin, "the hold is younger than 30 minutes");
@@ -591,7 +591,7 @@ public sealed class DocumentTests : IAsyncLifetime
         var tirana = _org.Companies["TIRANA"];
         var setting = (await (from p in db.Set<CostCenterTypeInfo>() join e in db.Set<Elements>() on p.ElementsId equals e.Id
                               where p.Kind == PropertyKind.Number && e.Table == table select p).ToListAsync())
-            .Single(p => p.Name.In("en")!.StartsWith(MovementService.NegativeStockProperty, StringComparison.Ordinal));
+            .Single(p => p.Code == MovementService.NegativeStockCode);
         if (allowed is { } value)
         {
             db.Add(new CostCenterInfo { ElementId = tirana, TypeInfoId = setting.Id, Value = JsonValue.Create(value), OwnerId = tirana });
