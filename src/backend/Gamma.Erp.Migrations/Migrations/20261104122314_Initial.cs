@@ -19,6 +19,9 @@ namespace Gamma.Erp.Migrations.Migrations
                 name: "depreciation");
 
             migrationBuilder.EnsureSchema(
+                name: "payments");
+
+            migrationBuilder.EnsureSchema(
                 name: "charts");
 
             migrationBuilder.EnsureSchema(
@@ -47,9 +50,6 @@ namespace Gamma.Erp.Migrations.Migrations
 
             migrationBuilder.EnsureSchema(
                 name: "partners");
-
-            migrationBuilder.EnsureSchema(
-                name: "payments");
 
             migrationBuilder.EnsureSchema(
                 name: "units");
@@ -182,14 +182,111 @@ namespace Gamma.Erp.Migrations.Migrations
                 });
 
             migrationBuilder.CreateTable(
+                name: "tbl_bank_connection",
+                schema: "payments",
+                columns: table => new
+                {
+                    id = table.Column<Guid>(type: "uuid", nullable: false),
+                    bank_id = table.Column<Guid>(type: "uuid", nullable: false),
+                    iban = table.Column<string>(type: "text", nullable: true),
+                    bic = table.Column<string>(type: "text", nullable: true),
+                    holder_name = table.Column<string>(type: "text", nullable: true),
+                    currency = table.Column<string>(type: "text", nullable: true),
+                    provider_id = table.Column<Guid>(type: "uuid", nullable: true),
+                    aspsp_name = table.Column<string>(type: "text", nullable: true),
+                    aspsp_country = table.Column<string>(type: "text", nullable: true),
+                    psu_type = table.Column<string>(type: "text", nullable: true),
+                    session_id = table.Column<string>(type: "text", nullable: true),
+                    account_uid = table.Column<string>(type: "text", nullable: true),
+                    valid_until = table.Column<DateTimeOffset>(type: "timestamp with time zone", nullable: true),
+                    last_fetched_to = table.Column<DateOnly>(type: "date", nullable: true),
+                    pending_state = table.Column<string>(type: "text", nullable: true),
+                    pending_accounts = table.Column<string>(type: "jsonb", nullable: true),
+                    connected_by = table.Column<Guid>(type: "uuid", nullable: true),
+                    connected_on = table.Column<DateTimeOffset>(type: "timestamp with time zone", nullable: true),
+                    tenant_id = table.Column<Guid>(type: "uuid", nullable: false),
+                    owner_id = table.Column<Guid>(type: "uuid", nullable: true),
+                    id_sup = table.Column<Guid>(type: "uuid", nullable: true),
+                    id_change = table.Column<Guid>(type: "uuid", nullable: true),
+                    active = table.Column<bool>(type: "boolean", nullable: false, defaultValue: true),
+                    created_on = table.Column<DateTimeOffset>(type: "timestamp with time zone", nullable: false),
+                    created_by = table.Column<Guid>(type: "uuid", nullable: true)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("pk_tbl_bank_connection", x => x.id);
+                    table.ForeignKey(
+                        name: "fk_tbl_bank_connection_id_change",
+                        column: x => x.id_change,
+                        principalSchema: "payments",
+                        principalTable: "tbl_bank_connection",
+                        principalColumn: "id",
+                        onDelete: ReferentialAction.Restrict);
+                    table.ForeignKey(
+                        name: "fk_tbl_bank_connection_id_sup",
+                        column: x => x.id_sup,
+                        principalSchema: "payments",
+                        principalTable: "tbl_bank_connection",
+                        principalColumn: "id",
+                        onDelete: ReferentialAction.Restrict);
+                });
+
+            migrationBuilder.CreateTable(
+                name: "tbl_bank_provider",
+                schema: "payments",
+                columns: table => new
+                {
+                    id = table.Column<Guid>(type: "uuid", nullable: false),
+                    kind = table.Column<string>(type: "text", nullable: false),
+                    name = table.Column<string>(type: "text", nullable: true),
+                    environment = table.Column<string>(type: "text", nullable: false),
+                    api_base = table.Column<string>(type: "text", nullable: false),
+                    application_id = table.Column<string>(type: "text", nullable: false),
+                    private_key = table.Column<string>(type: "text", nullable: false),
+                    key_fingerprint = table.Column<string>(type: "text", nullable: true),
+                    redirect_url = table.Column<string>(type: "text", nullable: false),
+                    access_days = table.Column<int>(type: "integer", nullable: false),
+                    tenant_id = table.Column<Guid>(type: "uuid", nullable: false),
+                    owner_id = table.Column<Guid>(type: "uuid", nullable: true),
+                    id_sup = table.Column<Guid>(type: "uuid", nullable: true),
+                    id_change = table.Column<Guid>(type: "uuid", nullable: true),
+                    active = table.Column<bool>(type: "boolean", nullable: false, defaultValue: true),
+                    created_on = table.Column<DateTimeOffset>(type: "timestamp with time zone", nullable: false),
+                    created_by = table.Column<Guid>(type: "uuid", nullable: true)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("pk_tbl_bank_provider", x => x.id);
+                    table.ForeignKey(
+                        name: "fk_tbl_bank_provider_id_change",
+                        column: x => x.id_change,
+                        principalSchema: "payments",
+                        principalTable: "tbl_bank_provider",
+                        principalColumn: "id",
+                        onDelete: ReferentialAction.Restrict);
+                    table.ForeignKey(
+                        name: "fk_tbl_bank_provider_id_sup",
+                        column: x => x.id_sup,
+                        principalSchema: "payments",
+                        principalTable: "tbl_bank_provider",
+                        principalColumn: "id",
+                        onDelete: ReferentialAction.Restrict);
+                });
+
+            migrationBuilder.CreateTable(
                 name: "tbl_bank_statement",
                 schema: "documents",
                 columns: table => new
                 {
                     id = table.Column<Guid>(type: "uuid", nullable: false),
                     bank_id = table.Column<Guid>(type: "uuid", nullable: false),
-                    format_id = table.Column<Guid>(type: "uuid", nullable: false),
+                    format_id = table.Column<Guid>(type: "uuid", nullable: true),
                     file_name = table.Column<string>(type: "text", nullable: true),
+                    connection_id = table.Column<Guid>(type: "uuid", nullable: true),
+                    period_from = table.Column<DateOnly>(type: "date", nullable: true),
+                    period_to = table.Column<DateOnly>(type: "date", nullable: true),
+                    bank_balance = table.Column<decimal>(type: "numeric(19,6)", precision: 19, scale: 6, nullable: true),
+                    bank_balance_date = table.Column<DateOnly>(type: "date", nullable: true),
                     tenant_id = table.Column<Guid>(type: "uuid", nullable: false),
                     owner_id = table.Column<Guid>(type: "uuid", nullable: true),
                     id_sup = table.Column<Guid>(type: "uuid", nullable: true),
@@ -201,6 +298,13 @@ namespace Gamma.Erp.Migrations.Migrations
                 constraints: table =>
                 {
                     table.PrimaryKey("pk_tbl_bank_statement", x => x.id);
+                    table.ForeignKey(
+                        name: "fk_tbl_bank_statement_connection_id",
+                        column: x => x.connection_id,
+                        principalSchema: "payments",
+                        principalTable: "tbl_bank_connection",
+                        principalColumn: "id",
+                        onDelete: ReferentialAction.Restrict);
                     table.ForeignKey(
                         name: "fk_tbl_bank_statement_id_change",
                         column: x => x.id_change,
@@ -272,6 +376,9 @@ namespace Gamma.Erp.Migrations.Migrations
                     text = table.Column<string>(type: "text", nullable: true),
                     reference = table.Column<string>(type: "text", nullable: true),
                     amount = table.Column<decimal>(type: "numeric(19,6)", precision: 19, scale: 6, nullable: false),
+                    external_id = table.Column<string>(type: "text", nullable: true),
+                    counterparty_name = table.Column<string>(type: "text", nullable: true),
+                    counterparty_iban = table.Column<string>(type: "text", nullable: true),
                     document_id = table.Column<Guid>(type: "uuid", nullable: true),
                     ignored = table.Column<bool>(type: "boolean", nullable: false),
                     tenant_id = table.Column<Guid>(type: "uuid", nullable: false),
@@ -6147,6 +6254,7 @@ namespace Gamma.Erp.Migrations.Migrations
                     name = table.Column<string>(type: "jsonb", nullable: true),
                     description = table.Column<string>(type: "jsonb", nullable: true),
                     is_cash = table.Column<bool>(type: "boolean", nullable: false),
+                    shows_bank_qr = table.Column<bool>(type: "boolean", nullable: false),
                     tenant_id = table.Column<Guid>(type: "uuid", nullable: false),
                     owner_id = table.Column<Guid>(type: "uuid", nullable: true),
                     id_sup = table.Column<Guid>(type: "uuid", nullable: true),
@@ -10528,10 +10636,88 @@ namespace Gamma.Erp.Migrations.Migrations
                 column: "tenant_id");
 
             migrationBuilder.CreateIndex(
+                name: "ix_tbl_bank_connection_bank_id",
+                schema: "payments",
+                table: "tbl_bank_connection",
+                column: "bank_id");
+
+            migrationBuilder.CreateIndex(
+                name: "ix_tbl_bank_connection_created_by",
+                schema: "payments",
+                table: "tbl_bank_connection",
+                column: "created_by");
+
+            migrationBuilder.CreateIndex(
+                name: "ix_tbl_bank_connection_id_change",
+                schema: "payments",
+                table: "tbl_bank_connection",
+                column: "id_change");
+
+            migrationBuilder.CreateIndex(
+                name: "ix_tbl_bank_connection_id_sup",
+                schema: "payments",
+                table: "tbl_bank_connection",
+                column: "id_sup");
+
+            migrationBuilder.CreateIndex(
+                name: "ix_tbl_bank_connection_owner_id",
+                schema: "payments",
+                table: "tbl_bank_connection",
+                column: "owner_id");
+
+            migrationBuilder.CreateIndex(
+                name: "ix_tbl_bank_connection_provider_id",
+                schema: "payments",
+                table: "tbl_bank_connection",
+                column: "provider_id");
+
+            migrationBuilder.CreateIndex(
+                name: "ix_tbl_bank_connection_tenant_id",
+                schema: "payments",
+                table: "tbl_bank_connection",
+                column: "tenant_id");
+
+            migrationBuilder.CreateIndex(
+                name: "ix_tbl_bank_provider_created_by",
+                schema: "payments",
+                table: "tbl_bank_provider",
+                column: "created_by");
+
+            migrationBuilder.CreateIndex(
+                name: "ix_tbl_bank_provider_id_change",
+                schema: "payments",
+                table: "tbl_bank_provider",
+                column: "id_change");
+
+            migrationBuilder.CreateIndex(
+                name: "ix_tbl_bank_provider_id_sup",
+                schema: "payments",
+                table: "tbl_bank_provider",
+                column: "id_sup");
+
+            migrationBuilder.CreateIndex(
+                name: "ix_tbl_bank_provider_owner_id",
+                schema: "payments",
+                table: "tbl_bank_provider",
+                column: "owner_id");
+
+            migrationBuilder.CreateIndex(
+                name: "ix_tbl_bank_provider_tenant_id",
+                schema: "payments",
+                table: "tbl_bank_provider",
+                column: "tenant_id");
+
+            migrationBuilder.CreateIndex(
                 name: "ix_tbl_bank_statement_bank_id",
                 schema: "documents",
                 table: "tbl_bank_statement",
                 column: "bank_id");
+
+            migrationBuilder.CreateIndex(
+                name: "ix_tbl_bank_statement_connection_id",
+                schema: "documents",
+                table: "tbl_bank_statement",
+                column: "connection_id");
 
             migrationBuilder.CreateIndex(
                 name: "ix_tbl_bank_statement_created_by",
@@ -18654,6 +18840,66 @@ namespace Gamma.Erp.Migrations.Migrations
                 onDelete: ReferentialAction.Restrict);
 
             migrationBuilder.AddForeignKey(
+                name: "fk_tbl_bank_connection_bank_id",
+                schema: "payments",
+                table: "tbl_bank_connection",
+                column: "bank_id",
+                principalSchema: "cost_centers",
+                principalTable: "tbl_cost_center",
+                principalColumn: "id",
+                onDelete: ReferentialAction.Restrict);
+
+            migrationBuilder.AddForeignKey(
+                name: "fk_tbl_bank_connection_owner_id",
+                schema: "payments",
+                table: "tbl_bank_connection",
+                column: "owner_id",
+                principalSchema: "cost_centers",
+                principalTable: "tbl_cost_center",
+                principalColumn: "id",
+                onDelete: ReferentialAction.Restrict);
+
+            migrationBuilder.AddForeignKey(
+                name: "fk_tbl_bank_connection_created_by",
+                schema: "payments",
+                table: "tbl_bank_connection",
+                column: "created_by",
+                principalSchema: "users",
+                principalTable: "tbl_user",
+                principalColumn: "id",
+                onDelete: ReferentialAction.Restrict);
+
+            migrationBuilder.AddForeignKey(
+                name: "fk_tbl_bank_connection_provider_id",
+                schema: "payments",
+                table: "tbl_bank_connection",
+                column: "provider_id",
+                principalSchema: "payments",
+                principalTable: "tbl_bank_provider",
+                principalColumn: "id",
+                onDelete: ReferentialAction.Restrict);
+
+            migrationBuilder.AddForeignKey(
+                name: "fk_tbl_bank_provider_created_by",
+                schema: "payments",
+                table: "tbl_bank_provider",
+                column: "created_by",
+                principalSchema: "users",
+                principalTable: "tbl_user",
+                principalColumn: "id",
+                onDelete: ReferentialAction.Restrict);
+
+            migrationBuilder.AddForeignKey(
+                name: "fk_tbl_bank_provider_owner_id",
+                schema: "payments",
+                table: "tbl_bank_provider",
+                column: "owner_id",
+                principalSchema: "cost_centers",
+                principalTable: "tbl_cost_center",
+                principalColumn: "id",
+                onDelete: ReferentialAction.Restrict);
+
+            migrationBuilder.AddForeignKey(
                 name: "fk_tbl_bank_statement_bank_id",
                 schema: "documents",
                 table: "tbl_bank_statement",
@@ -22194,6 +22440,8 @@ namespace Gamma.Erp.Migrations.Migrations
             RowLevelSecurity.EnableForTenantTable(migrationBuilder, "partners", "tbl_partner_type");
             RowLevelSecurity.EnableForTenantTable(migrationBuilder, "partners", "tbl_partner_type_info");
             RowLevelSecurity.EnableForTenantTable(migrationBuilder, "partners", "tbl_partner_type_info_ch");
+            RowLevelSecurity.EnableForTenantTable(migrationBuilder, "payments", "tbl_bank_connection");
+            RowLevelSecurity.EnableForTenantTable(migrationBuilder, "payments", "tbl_bank_provider");
             RowLevelSecurity.EnableForTenantTable(migrationBuilder, "payments", "tbl_inter_payment_method_document_type");
             RowLevelSecurity.EnableForTenantTable(migrationBuilder, "payments", "tbl_payment_method");
             RowLevelSecurity.EnableForTenantTable(migrationBuilder, "payments", "tbl_vat_group");
@@ -23338,6 +23586,10 @@ namespace Gamma.Erp.Migrations.Migrations
                 schema: "payments");
 
             migrationBuilder.DropTable(
+                name: "tbl_bank_connection",
+                schema: "payments");
+
+            migrationBuilder.DropTable(
                 name: "tbl_bank_statement_format",
                 schema: "documents");
 
@@ -23364,6 +23616,10 @@ namespace Gamma.Erp.Migrations.Migrations
             migrationBuilder.DropTable(
                 name: "tbl_setting_type",
                 schema: "platform");
+
+            migrationBuilder.DropTable(
+                name: "tbl_bank_provider",
+                schema: "payments");
 
             migrationBuilder.DropTable(
                 name: "tbl_chart",

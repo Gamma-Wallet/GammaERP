@@ -3413,9 +3413,22 @@ namespace Gamma.Erp.Migrations.Migrations
                         .HasDefaultValue(true)
                         .HasColumnName("active");
 
+                    b.Property<decimal?>("BankBalance")
+                        .HasPrecision(19, 6)
+                        .HasColumnType("numeric(19,6)")
+                        .HasColumnName("bank_balance");
+
+                    b.Property<DateOnly?>("BankBalanceDate")
+                        .HasColumnType("date")
+                        .HasColumnName("bank_balance_date");
+
                     b.Property<Guid>("BankId")
                         .HasColumnType("uuid")
                         .HasColumnName("bank_id");
+
+                    b.Property<Guid?>("ConnectionId")
+                        .HasColumnType("uuid")
+                        .HasColumnName("connection_id");
 
                     b.Property<Guid?>("CreatedBy")
                         .HasColumnType("uuid")
@@ -3429,7 +3442,7 @@ namespace Gamma.Erp.Migrations.Migrations
                         .HasColumnType("text")
                         .HasColumnName("file_name");
 
-                    b.Property<Guid>("FormatId")
+                    b.Property<Guid?>("FormatId")
                         .HasColumnType("uuid")
                         .HasColumnName("format_id");
 
@@ -3445,6 +3458,14 @@ namespace Gamma.Erp.Migrations.Migrations
                         .HasColumnType("uuid")
                         .HasColumnName("owner_id");
 
+                    b.Property<DateOnly?>("PeriodFrom")
+                        .HasColumnType("date")
+                        .HasColumnName("period_from");
+
+                    b.Property<DateOnly?>("PeriodTo")
+                        .HasColumnType("date")
+                        .HasColumnName("period_to");
+
                     b.Property<Guid>("TenantId")
                         .HasColumnType("uuid")
                         .HasColumnName("tenant_id");
@@ -3454,6 +3475,9 @@ namespace Gamma.Erp.Migrations.Migrations
 
                     b.HasIndex("BankId")
                         .HasDatabaseName("ix_tbl_bank_statement_bank_id");
+
+                    b.HasIndex("ConnectionId")
+                        .HasDatabaseName("ix_tbl_bank_statement_connection_id");
 
                     b.HasIndex("CreatedBy")
                         .HasDatabaseName("ix_tbl_bank_statement_created_by");
@@ -3597,6 +3621,14 @@ namespace Gamma.Erp.Migrations.Migrations
                         .HasColumnType("numeric(19,6)")
                         .HasColumnName("amount");
 
+                    b.Property<string>("CounterpartyIban")
+                        .HasColumnType("text")
+                        .HasColumnName("counterparty_iban");
+
+                    b.Property<string>("CounterpartyName")
+                        .HasColumnType("text")
+                        .HasColumnName("counterparty_name");
+
                     b.Property<Guid?>("CreatedBy")
                         .HasColumnType("uuid")
                         .HasColumnName("created_by");
@@ -3608,6 +3640,10 @@ namespace Gamma.Erp.Migrations.Migrations
                     b.Property<Guid?>("DocumentId")
                         .HasColumnType("uuid")
                         .HasColumnName("document_id");
+
+                    b.Property<string>("ExternalId")
+                        .HasColumnType("text")
+                        .HasColumnName("external_id");
 
                     b.Property<Guid?>("IdChange")
                         .HasColumnType("uuid")
@@ -8191,6 +8227,236 @@ namespace Gamma.Erp.Migrations.Migrations
                     b.ToTable("tbl_partner_type_info_ch", "partners");
                 });
 
+            modelBuilder.Entity("Gamma.Erp.Models.Payments.BankConnection", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .HasColumnType("uuid")
+                        .HasColumnName("id");
+
+                    b.Property<string>("AccountUid")
+                        .HasColumnType("text")
+                        .HasColumnName("account_uid");
+
+                    b.Property<bool>("Active")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("boolean")
+                        .HasDefaultValue(true)
+                        .HasColumnName("active");
+
+                    b.Property<string>("AspspCountry")
+                        .HasColumnType("text")
+                        .HasColumnName("aspsp_country");
+
+                    b.Property<string>("AspspName")
+                        .HasColumnType("text")
+                        .HasColumnName("aspsp_name");
+
+                    b.Property<Guid>("BankId")
+                        .HasColumnType("uuid")
+                        .HasColumnName("bank_id");
+
+                    b.Property<string>("Bic")
+                        .HasColumnType("text")
+                        .HasColumnName("bic");
+
+                    b.Property<Guid?>("ConnectedBy")
+                        .HasColumnType("uuid")
+                        .HasColumnName("connected_by");
+
+                    b.Property<DateTimeOffset?>("ConnectedOn")
+                        .HasColumnType("timestamp with time zone")
+                        .HasColumnName("connected_on");
+
+                    b.Property<Guid?>("CreatedBy")
+                        .HasColumnType("uuid")
+                        .HasColumnName("created_by");
+
+                    b.Property<DateTimeOffset>("CreatedOn")
+                        .HasColumnType("timestamp with time zone")
+                        .HasColumnName("created_on");
+
+                    b.Property<string>("Currency")
+                        .HasColumnType("text")
+                        .HasColumnName("currency");
+
+                    b.Property<string>("HolderName")
+                        .HasColumnType("text")
+                        .HasColumnName("holder_name");
+
+                    b.Property<string>("Iban")
+                        .HasColumnType("text")
+                        .HasColumnName("iban");
+
+                    b.Property<Guid?>("IdChange")
+                        .HasColumnType("uuid")
+                        .HasColumnName("id_change");
+
+                    b.Property<Guid?>("IdSup")
+                        .HasColumnType("uuid")
+                        .HasColumnName("id_sup");
+
+                    b.Property<DateOnly?>("LastFetchedTo")
+                        .HasColumnType("date")
+                        .HasColumnName("last_fetched_to");
+
+                    b.Property<Guid?>("OwnerId")
+                        .HasColumnType("uuid")
+                        .HasColumnName("owner_id");
+
+                    b.Property<string>("PendingAccounts")
+                        .HasColumnType("jsonb")
+                        .HasColumnName("pending_accounts");
+
+                    b.Property<string>("PendingState")
+                        .HasColumnType("text")
+                        .HasColumnName("pending_state");
+
+                    b.Property<Guid?>("ProviderId")
+                        .HasColumnType("uuid")
+                        .HasColumnName("provider_id");
+
+                    b.Property<string>("PsuType")
+                        .HasColumnType("text")
+                        .HasColumnName("psu_type");
+
+                    b.Property<string>("SessionId")
+                        .HasColumnType("text")
+                        .HasColumnName("session_id");
+
+                    b.Property<Guid>("TenantId")
+                        .HasColumnType("uuid")
+                        .HasColumnName("tenant_id");
+
+                    b.Property<DateTimeOffset?>("ValidUntil")
+                        .HasColumnType("timestamp with time zone")
+                        .HasColumnName("valid_until");
+
+                    b.HasKey("Id")
+                        .HasName("pk_tbl_bank_connection");
+
+                    b.HasIndex("BankId")
+                        .HasDatabaseName("ix_tbl_bank_connection_bank_id");
+
+                    b.HasIndex("CreatedBy")
+                        .HasDatabaseName("ix_tbl_bank_connection_created_by");
+
+                    b.HasIndex("IdChange")
+                        .HasDatabaseName("ix_tbl_bank_connection_id_change");
+
+                    b.HasIndex("IdSup")
+                        .HasDatabaseName("ix_tbl_bank_connection_id_sup");
+
+                    b.HasIndex("OwnerId")
+                        .HasDatabaseName("ix_tbl_bank_connection_owner_id");
+
+                    b.HasIndex("ProviderId")
+                        .HasDatabaseName("ix_tbl_bank_connection_provider_id");
+
+                    b.HasIndex("TenantId")
+                        .HasDatabaseName("ix_tbl_bank_connection_tenant_id");
+
+                    b.ToTable("tbl_bank_connection", "payments");
+                });
+
+            modelBuilder.Entity("Gamma.Erp.Models.Payments.BankProvider", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .HasColumnType("uuid")
+                        .HasColumnName("id");
+
+                    b.Property<int>("AccessDays")
+                        .HasColumnType("integer")
+                        .HasColumnName("access_days");
+
+                    b.Property<bool>("Active")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("boolean")
+                        .HasDefaultValue(true)
+                        .HasColumnName("active");
+
+                    b.Property<string>("ApiBase")
+                        .IsRequired()
+                        .HasColumnType("text")
+                        .HasColumnName("api_base");
+
+                    b.Property<string>("ApplicationId")
+                        .IsRequired()
+                        .HasColumnType("text")
+                        .HasColumnName("application_id");
+
+                    b.Property<Guid?>("CreatedBy")
+                        .HasColumnType("uuid")
+                        .HasColumnName("created_by");
+
+                    b.Property<DateTimeOffset>("CreatedOn")
+                        .HasColumnType("timestamp with time zone")
+                        .HasColumnName("created_on");
+
+                    b.Property<string>("Environment")
+                        .IsRequired()
+                        .HasColumnType("text")
+                        .HasColumnName("environment");
+
+                    b.Property<Guid?>("IdChange")
+                        .HasColumnType("uuid")
+                        .HasColumnName("id_change");
+
+                    b.Property<Guid?>("IdSup")
+                        .HasColumnType("uuid")
+                        .HasColumnName("id_sup");
+
+                    b.Property<string>("KeyFingerprint")
+                        .HasColumnType("text")
+                        .HasColumnName("key_fingerprint");
+
+                    b.Property<string>("Kind")
+                        .IsRequired()
+                        .HasColumnType("text")
+                        .HasColumnName("kind");
+
+                    b.Property<string>("Name")
+                        .HasColumnType("text")
+                        .HasColumnName("name");
+
+                    b.Property<Guid?>("OwnerId")
+                        .HasColumnType("uuid")
+                        .HasColumnName("owner_id");
+
+                    b.Property<string>("PrivateKey")
+                        .IsRequired()
+                        .HasColumnType("text")
+                        .HasColumnName("private_key");
+
+                    b.Property<string>("RedirectUrl")
+                        .IsRequired()
+                        .HasColumnType("text")
+                        .HasColumnName("redirect_url");
+
+                    b.Property<Guid>("TenantId")
+                        .HasColumnType("uuid")
+                        .HasColumnName("tenant_id");
+
+                    b.HasKey("Id")
+                        .HasName("pk_tbl_bank_provider");
+
+                    b.HasIndex("CreatedBy")
+                        .HasDatabaseName("ix_tbl_bank_provider_created_by");
+
+                    b.HasIndex("IdChange")
+                        .HasDatabaseName("ix_tbl_bank_provider_id_change");
+
+                    b.HasIndex("IdSup")
+                        .HasDatabaseName("ix_tbl_bank_provider_id_sup");
+
+                    b.HasIndex("OwnerId")
+                        .HasDatabaseName("ix_tbl_bank_provider_owner_id");
+
+                    b.HasIndex("TenantId")
+                        .HasDatabaseName("ix_tbl_bank_provider_tenant_id");
+
+                    b.ToTable("tbl_bank_provider", "payments");
+                });
+
             modelBuilder.Entity("Gamma.Erp.Models.Payments.InterPaymentMethodDocumentType", b =>
                 {
                     b.Property<Guid>("Id")
@@ -8309,6 +8575,10 @@ namespace Gamma.Erp.Migrations.Migrations
                     b.Property<Guid?>("OwnerId")
                         .HasColumnType("uuid")
                         .HasColumnName("owner_id");
+
+                    b.Property<bool>("ShowsBankQr")
+                        .HasColumnType("boolean")
+                        .HasColumnName("shows_bank_qr");
 
                     b.Property<Guid>("TenantId")
                         .HasColumnType("uuid")
@@ -18277,6 +18547,12 @@ namespace Gamma.Erp.Migrations.Migrations
                         .IsRequired()
                         .HasConstraintName("fk_tbl_bank_statement_bank_id");
 
+                    b.HasOne("Gamma.Erp.Models.Payments.BankConnection", null)
+                        .WithMany()
+                        .HasForeignKey("ConnectionId")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .HasConstraintName("fk_tbl_bank_statement_connection_id");
+
                     b.HasOne("Gamma.Erp.Models.Users.User", null)
                         .WithMany()
                         .HasForeignKey("CreatedBy")
@@ -18287,7 +18563,6 @@ namespace Gamma.Erp.Migrations.Migrations
                         .WithMany()
                         .HasForeignKey("FormatId")
                         .OnDelete(DeleteBehavior.Restrict)
-                        .IsRequired()
                         .HasConstraintName("fk_tbl_bank_statement_format_id");
 
                     b.HasOne("Gamma.Erp.Models.Documents.BankStatement", null)
@@ -20426,6 +20701,73 @@ namespace Gamma.Erp.Migrations.Migrations
                         .OnDelete(DeleteBehavior.Restrict)
                         .IsRequired()
                         .HasConstraintName("fk_tbl_partner_type_info_ch_type_info_id");
+                });
+
+            modelBuilder.Entity("Gamma.Erp.Models.Payments.BankConnection", b =>
+                {
+                    b.HasOne("Gamma.Erp.Models.CostCenters.CostCenter", null)
+                        .WithMany()
+                        .HasForeignKey("BankId")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .IsRequired()
+                        .HasConstraintName("fk_tbl_bank_connection_bank_id");
+
+                    b.HasOne("Gamma.Erp.Models.Users.User", null)
+                        .WithMany()
+                        .HasForeignKey("CreatedBy")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .HasConstraintName("fk_tbl_bank_connection_created_by");
+
+                    b.HasOne("Gamma.Erp.Models.Payments.BankConnection", null)
+                        .WithMany()
+                        .HasForeignKey("IdChange")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .HasConstraintName("fk_tbl_bank_connection_id_change");
+
+                    b.HasOne("Gamma.Erp.Models.Payments.BankConnection", null)
+                        .WithMany()
+                        .HasForeignKey("IdSup")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .HasConstraintName("fk_tbl_bank_connection_id_sup");
+
+                    b.HasOne("Gamma.Erp.Models.CostCenters.CostCenter", null)
+                        .WithMany()
+                        .HasForeignKey("OwnerId")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .HasConstraintName("fk_tbl_bank_connection_owner_id");
+
+                    b.HasOne("Gamma.Erp.Models.Payments.BankProvider", null)
+                        .WithMany()
+                        .HasForeignKey("ProviderId")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .HasConstraintName("fk_tbl_bank_connection_provider_id");
+                });
+
+            modelBuilder.Entity("Gamma.Erp.Models.Payments.BankProvider", b =>
+                {
+                    b.HasOne("Gamma.Erp.Models.Users.User", null)
+                        .WithMany()
+                        .HasForeignKey("CreatedBy")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .HasConstraintName("fk_tbl_bank_provider_created_by");
+
+                    b.HasOne("Gamma.Erp.Models.Payments.BankProvider", null)
+                        .WithMany()
+                        .HasForeignKey("IdChange")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .HasConstraintName("fk_tbl_bank_provider_id_change");
+
+                    b.HasOne("Gamma.Erp.Models.Payments.BankProvider", null)
+                        .WithMany()
+                        .HasForeignKey("IdSup")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .HasConstraintName("fk_tbl_bank_provider_id_sup");
+
+                    b.HasOne("Gamma.Erp.Models.CostCenters.CostCenter", null)
+                        .WithMany()
+                        .HasForeignKey("OwnerId")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .HasConstraintName("fk_tbl_bank_provider_owner_id");
                 });
 
             modelBuilder.Entity("Gamma.Erp.Models.Payments.InterPaymentMethodDocumentType", b =>
