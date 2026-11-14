@@ -38,12 +38,18 @@ For a payment method with **Shows a bank QR** ticked (the packs' "Bank transfer 
 Steps:
 1. On the pay screen choose **Bank transfer (QR)**. In place of the keypad the screen shows the payment QR code, the holder, the IBAN, the amount and the reference: the codes of the bills ticked.
 2. The customer scans it with their banking app and pays (in the euro area banks send it as an instant transfer).
-3. When the bank account is connected to its bank: press **Check bank**. The screen lists the bank's money-in lines of that amount from the last hour not yet held, those that mention the reference first, pending ones marked. Press **Paid** on the right line. When nothing shows: "Not in the bank yet. Check again in a moment."
+3. When the bank account is connected to its bank: press **Check bank**. It reads the bank account the payment method's link at this point of sale names, of the same company, so it works for a cashier working at the point of sale, who does not see the company's bank accounts. The screen lists the bank's money-in lines of that amount from the last hour not yet held, those that mention the reference first, pending ones marked. Press **Paid** on the right line. When nothing shows: "Not in the bank yet. Check again in a moment."
 4. When it is not connected: check the bank app by eye and press **Received**.
 
 Result:
 - **Paid:** the receipt is posted into the bank, as for any payment of the method, and that bank line is kept on the bank's statement "Till payments <day>", already matched to the receipt, in the same press (the founder, 2026-11-14, Q2). A later Fetch from bank skips it, since its bank id is held. Finance can Undo the match on Bank statements.
 - **Received:** the receipt is posted into the bank; the bank line is matched later on Bank statements (Q3).
+
+**Amounts in cents.** A bill's total can carry more than two decimals (a price kept without VAT, e.g. 6.36 + 10 % = 6.996). The QR code asks for the amount due rounded to cents (7.00), Check bank looks for that amount, and Paid compares the bank line with it. The receipt pays the bill's open amount (6.996); the bank's statement line keeps the bank's own amount (7.00). See [open points](../open-points.md).
+
+**What the customer does.** They open their banking app, use its "scan to pay" (EPC QR, also called GiroCode), check the payee, amount and reference it filled in, and confirm. In the euro area it usually goes as an instant transfer and is in the bank within seconds. Not every banking app scans these codes; the customer can type the IBAN, amount and reference shown under the code. The ERP cannot start the payment in the customer's bank: that needs a payment initiation licence (not built).
+
+Example (the Pizzeria test, 2026-11-14): bill DC2 at Tavolo 3, one Margherita, to pay 7.00. Bank transfer (QR) showed "Pizzeria Demo Napoli, IT60X0542811101000000123456, EUR 7.00 · DC2". Check bank listed "Cliente Demo QR · 7.00 · Pagamento conto DC2". Paid posted the receipt INCPV1 into the bank BANK0 and kept the line on "Till payments 2026-11-14", matched to INCPV1.
 
 The QR code follows EPC069-12, version 002: BCD, 002, 1 (UTF-8), SCT, BIC, holder (at most 70), IBAN, EUR and the amount, the reference as text (at most 140). Error correction M. Drawn on the server as SVG.
 

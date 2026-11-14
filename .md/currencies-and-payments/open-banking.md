@@ -85,7 +85,7 @@ API: `PUT /api/v1/bank-connections/{bankId}/account` with `iban`, `bic`, `holder
 
 Steps:
 1. Press **Connect to bank** on the account.
-2. Choose the country, the bank (the list comes from the provider), and Business account or Personal account. Press **Go to the bank**.
+2. Choose the country, the bank (the list comes from the provider), and Business account or Personal account. Press **Go to the bank**. The country starts at the company's and the bank at the first of the list: check both (the test bank, Mock ASPSP, is under Finland).
 3. Sign in at the bank and approve.
 4. The bank sends you to the return address, `/bank-connected`, which finishes the connection and says "… is connected to its bank (…) until …". Press **Back to bank statements**.
 
@@ -117,5 +117,7 @@ The provider is not part of a starter pack. A company copied from another compan
 
 ## Related
 
+- [Trying it with the test banks](open-banking-sandbox.md)
+- [Paying at the till by bank](../point-of-sale/paying.md#pay-by-bank-qr-code)
 - [Bank statements](../documents/bank-statements.md)
 - [Payment methods](payment-methods.md)

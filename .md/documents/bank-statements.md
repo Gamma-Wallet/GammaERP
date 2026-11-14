@@ -56,6 +56,10 @@ Result: the account's **booked** lines from the last day fetched (the first time
 
 The read is sent with the person's address and browser, so the bank counts it as theirs. Nothing fetches by itself.
 
+The first fetch reaches 30 days back. For older lines, fetch again with a period (**from** and **to**): lines already held are skipped, so nothing is doubled (tried 2026-11-14: 30 lines from 15 October, then 4 more for 12–14 October).
+
+Do not fetch a day's lines before the till has checked its payments of that day: a line a statement already holds is no longer offered by Check bank.
+
 Refused when:
 - `NotConfiguredError: the account is not connected to its bank. Connect it on Bank statements.`
 - "The bank's access ended: connect the account again."
@@ -72,7 +76,7 @@ Steps:
 1. The screen lists each statement: Bank, File, Uploaded, Lines, To decide. Newest first.
 2. Press **Lines**.
 
-Result: the lines in date order: Date, Text (with who paid or was paid, for fetched lines), Reference, Amount, and what was decided. A fetched statement's file name starts with "From the bank".
+Result: the lines in date order: Date, Text (with who paid or was paid, for fetched lines), Reference, Amount, and what was decided. A fetched statement is named "<bank> <from> – <to>" (e.g. "Mock ASPSP 2026-10-15 – 2026-11-14"); the lines a till kept are on "Till payments <day>", already matched (see [Paying](../point-of-sale/paying.md#pay-by-bank-qr-code)).
 
 API: `GET bank-statements`, `GET bank-statements/{id}/lines`.
 
