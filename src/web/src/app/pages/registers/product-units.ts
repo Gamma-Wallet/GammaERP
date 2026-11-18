@@ -97,7 +97,7 @@ export function unitScope(scopes: readonly LookupScope[]): LookupScope | null {
     .units li.none { border-style: dashed; }
     .grip { display: grid; place-items: center; color: var(--muted); cursor: grab; }
     .name { flex: 1; }
-    .actions { display: flex; gap: 2px; }
+    .actions { display: flex; gap: var(--space-hair); }
     .add { display: flex; align-items: center; gap: var(--space-3); }
     .add ui-select { width: 280px; }
     .spacer { flex: 1; }

@@ -85,7 +85,7 @@ export function cellOf(model: string, schema: ConfigSchema, column: string, valu
     .bar { display: flex; align-items: center; gap: var(--space-3); }
     .search { position: relative; width: 260px; }
     .search ui-icon { position: absolute; top: 10px; left: 10px; color: var(--muted); }
-    .search input { padding-left: 32px; }
+    .search input { padding-left: var(--space-6); }
     .spacer { flex: 1; }
     .message { margin: 0; padding: var(--space-3); border-radius: var(--radius); background: var(--critical-bg); color: var(--critical); }
   `,

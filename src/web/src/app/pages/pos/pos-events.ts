@@ -67,7 +67,7 @@ import { seatRows } from './pos-reserve-logic';
   `,
   styles: `
     :host { display: grid; gap: var(--space-3); grid-column: 1 / -1; }
-    h1 { margin: 0; font-size: 1.5rem; }
+    h1 { margin: 0; font-size: var(--title-l); }
     .muted { color: var(--muted); }
     .message { display: flex; align-items: center; gap: var(--space-2); margin: 0; padding: var(--space-2) var(--space-3); border-radius: var(--radius); background: var(--critical-bg); color: var(--critical); }
     .head, .foot { display: flex; flex-wrap: wrap; align-items: center; gap: var(--space-3); }

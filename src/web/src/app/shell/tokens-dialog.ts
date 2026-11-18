@@ -70,7 +70,7 @@ interface UserToken {
     .made { display: grid; gap: var(--space-2); padding: var(--space-3); border-radius: var(--radius); background: var(--warning-bg); color: var(--ink); }
     code { font-family: ui-monospace, Menlo, Consolas, monospace; font-size: var(--text-s); word-break: break-all; }
     table { width: 100%; border-collapse: collapse; font-size: var(--text-s); }
-    th, td { padding: 6px var(--space-2); border-bottom: 1px solid var(--line); text-align: left; }
+    th, td { padding: var(--space-cell) var(--space-2); border-bottom: 1px solid var(--line); text-align: left; }
     th { color: var(--muted); font-size: var(--text-xs); font-weight: 600; } .end { text-align: right; }
   `,
 })

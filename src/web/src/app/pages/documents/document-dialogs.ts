@@ -85,7 +85,7 @@ export function changedQuantities(lines: readonly Line[], typed: Record<string, 
   styles: `
     .grid { display: grid; gap: var(--space-4); } p { margin: 0; color: var(--ink-2); }
     table { width: 100%; border-collapse: collapse; font-size: var(--text-s); }
-    th, td { padding: 4px var(--space-2); border-bottom: 1px solid var(--line); text-align: left; vertical-align: middle; }
+    th, td { padding: var(--space-1) var(--space-2); border-bottom: 1px solid var(--line); text-align: left; vertical-align: middle; }
     th { height: var(--row-head-h); background: var(--surface-2); color: var(--ink-2); font-size: var(--text-xs); font-weight: 500;
       letter-spacing: 0.01em; }
     .num { text-align: right; } td.num { width: 120px; }

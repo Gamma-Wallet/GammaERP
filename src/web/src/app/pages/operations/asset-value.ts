@@ -25,7 +25,7 @@ import { registerOptions } from './register-options';
     @if (remaining() !== null) { <p class="result">{{ 'Remaining value' | t }} <strong class="figures">{{ n(remaining()!) }}</strong></p> }
   `,
   styleUrl: './operations.scss',
-  styles: `.result { font-size: 1.25rem; }`,
+  styles: `.result { font-size: var(--title-s); }`,
 })
 export class AssetValue {
   private readonly api = inject(OperationsApi);

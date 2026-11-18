@@ -66,7 +66,7 @@ interface Card {
     .docs { font-size: var(--text-xs); color: var(--muted); }
     .board { display: flex; gap: var(--space-3); overflow-x: auto; align-items: flex-start; }
     .column { flex: 0 0 240px; display: grid; gap: var(--space-2); padding: var(--space-3); border: 1px solid var(--line); border-radius: var(--radius-l); background: var(--surface); }
-    h2 { margin: 0; font: 500 var(--title-s) var(--font-title); }
+    h2 { margin: 0; font: 600 var(--title-s) var(--font-title); }
     h2 .muted { font: 400 var(--text-s) var(--font-text); }
     .control.stage { height: var(--control-h-s); padding: 0 var(--space-2); font-size: var(--text-s); }
     .card { display: grid; gap: var(--space-1); padding: var(--space-2); border: 1px solid var(--line); border-radius: var(--radius-s); }

@@ -35,7 +35,7 @@ export interface Tab {
     }
     .tab:hover { color: var(--ink); }
     .tab[aria-selected='true'] { border-bottom-color: var(--ink); color: var(--ink); }
-    .count { padding: 0 6px; border-radius: var(--radius-pill); background: var(--selected); font-size: var(--text-xs); }
+    .count { padding: 0 var(--space-cell); border-radius: var(--radius-pill); background: var(--selected); font-size: var(--text-xs); }
   `,
 })
 export class Tabs {

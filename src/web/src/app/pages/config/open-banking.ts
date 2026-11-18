@@ -49,11 +49,11 @@ import { BankProviderFields } from '../setup/bank-provider-fields';
     }
   `,
   styles: `
-    .head { display: flex; align-items: center; gap: var(--space-3, 12px); }
+    .head { display: flex; align-items: center; gap: var(--space-3); }
     .intro { max-width: 70ch; }
-    .review { display: grid; grid-template-columns: max-content 1fr; gap: 6px 16px; }
-    .card { margin-top: 16px; max-width: 640px; }
-    footer { display: flex; gap: 8px; margin-top: 12px; }
+    .review { display: grid; grid-template-columns: max-content 1fr; gap: var(--space-cell) var(--space-4); }
+    .card { margin-top: var(--space-4); max-width: 640px; }
+    footer { display: flex; gap: var(--space-2); margin-top: var(--space-3); }
     .spacer { flex: 1; }
   `,
 })

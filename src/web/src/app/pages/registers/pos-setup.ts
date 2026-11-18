@@ -110,7 +110,7 @@ export function typesUnder(types: readonly ElementType[], parentType: string | n
   `,
   styles: `
     :host { display: grid; gap: var(--space-3); }
-    h3 { margin: var(--space-2) 0 0; font-size: 1rem; }
+    h3 { margin: var(--space-2) 0 0; font-size: var(--text-l); }
     p { margin: 0; }
     .muted { color: var(--muted); }
     .message { display: flex; align-items: center; gap: var(--space-2); padding: var(--space-2) var(--space-3); border-radius: var(--radius); background: var(--critical-bg);
@@ -120,7 +120,7 @@ export function typesUnder(types: readonly ElementType[], parentType: string | n
     .row .under, .row .kind { width: 180px; }
     .row input { flex: 1; min-width: 140px; }
     .spacer { flex: 1; }
-    .places { display: grid; gap: 2px; margin: 0; padding: 0; list-style: none; }
+    .places { display: grid; gap: var(--space-hair); margin: 0; padding: 0; list-style: none; }
     .places li { padding-block: var(--space-1); border-bottom: 1px solid var(--line); }
     .places li.none { border: 0; }
   `,

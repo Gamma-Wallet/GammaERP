@@ -98,9 +98,9 @@ const REFRESH_MS = 15000;
   styleUrl: './operations.scss',
   styles: `
     .cards { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: var(--space-3); }
-    .ticket { display: grid; gap: var(--space-2); padding: var(--space-3); border: 1px solid var(--line); border-radius: 8px; background: var(--surface); }
+    .ticket { display: grid; gap: var(--space-2); padding: var(--space-3); border: 1px solid var(--line); border-radius: var(--radius); background: var(--surface); }
     .ticket.late { border-color: var(--warning, var(--critical)); border-width: 2px; }
-    .ticket header { display: flex; justify-content: space-between; font-size: var(--title-s); }
+    .ticket header { display: flex; justify-content: space-between; font-size: var(--title-s); font-weight: 600; }
     .ticket p { margin: 0; }
     .ticket ul { display: grid; gap: var(--space-2); margin: 0; padding: 0; list-style: none; }
     .ticket li { display: flex; justify-content: space-between; align-items: center; gap: var(--space-2); }

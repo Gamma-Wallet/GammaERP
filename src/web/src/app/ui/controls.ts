@@ -54,7 +54,7 @@ export class Button {
   styles: `
     :host { display: grid; gap: var(--space-1); align-content: start; min-width: 0; }
     .label { color: var(--ink-2); font-size: var(--text-s); font-weight: 500; }
-    .required { margin-left: 2px; color: var(--critical); }
+    .required { margin-left: var(--space-hair); color: var(--critical); }
     .hint, .error { margin: 0; font-size: var(--text-xs); }
     .hint { color: var(--muted); }
     .error { color: var(--critical); }

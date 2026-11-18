@@ -86,7 +86,7 @@ export class Toasts {
     .toast { display: flex; align-items: flex-start; gap: var(--space-3); padding: var(--space-3) var(--space-3) var(--space-3) var(--space-4);
       border-left: 4px solid var(--muted); border-radius: var(--radius); background: var(--topbar); color: var(--topbar-ink);
       box-shadow: var(--shadow-pop); pointer-events: auto; }
-    .toast ui-icon { margin-top: 2px; }
+    .toast ui-icon { margin-top: var(--space-hair); }
     .good { border-left-color: var(--good-on-dark); }
     .info { border-left-color: var(--brand); }
     .warning { border-left-color: var(--warning-on-dark); }

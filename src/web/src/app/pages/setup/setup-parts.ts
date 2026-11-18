@@ -122,7 +122,7 @@ export class SetupApi {
   styles: `
     :host { display: grid; gap: var(--space-3); }
     .path { display: flex; flex-wrap: wrap; align-items: center; gap: var(--space-1); }
-    .crumb { padding: 2px var(--space-2); border: 0; border-radius: var(--radius-s); background: none; color: var(--link); cursor: pointer; }
+    .crumb { padding: var(--space-hair) var(--space-2); border: 0; border-radius: var(--radius-s); background: none; color: var(--link); cursor: pointer; }
     .crumb.current { color: var(--ink); font-weight: 600; }
     .choices { display: flex; flex-wrap: wrap; gap: var(--space-2); }
     .choice { padding: var(--space-2) var(--space-3); border: 1px solid var(--line-strong); border-radius: var(--radius-pill); background: var(--surface); cursor: pointer; }

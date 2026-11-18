@@ -75,7 +75,7 @@ const DAYS = 14;
   `,
   styles: `
     :host { display: grid; gap: var(--space-3); grid-column: 1 / -1; }
-    h1 { margin: 0; font-size: 1.5rem; }
+    h1 { margin: 0; font-size: var(--title-l); }
     .muted { color: var(--muted); }
     .message { display: flex; align-items: center; gap: var(--space-2); margin: 0; padding: var(--space-2) var(--space-3); border-radius: var(--radius); background: var(--critical-bg); color: var(--critical); }
     .head, .foot { display: flex; flex-wrap: wrap; align-items: center; gap: var(--space-3); }
@@ -85,7 +85,7 @@ const DAYS = 14;
     .grid-wrap { overflow-x: auto; border: 1px solid var(--line); border-radius: var(--radius); background: var(--surface); }
     table { border-collapse: collapse; width: 100%; }
     th { padding: var(--space-2); font-weight: 500; text-align: left; white-space: nowrap; }
-    td { padding: 2px; }
+    td { padding: var(--space-hair); }
     .night { width: 100%; min-width: 40px; height: var(--control-h); border: 1px solid var(--line); border-radius: var(--radius); background: var(--surface-2); font: inherit; cursor: pointer; }
     .night.held { border-color: var(--primary); background: var(--primary); color: var(--primary-ink); }
     .night.held.done { background: var(--line); color: var(--muted); }

@@ -199,7 +199,7 @@ main {
   display: grid;
   align-content: center;
   justify-items: center;
-  gap: 2px;
+  gap: var(--space-hair);
   width: calc(var(--touch-h) * 2);
   height: calc(var(--touch-h) * 2);
   padding: var(--space-2);
@@ -260,7 +260,7 @@ main {
     border: 0;
     outline: 0;
     background: transparent;
-    font-size: 1.25rem;
+    font-size: var(--text-l);
   }
 }
 
@@ -581,7 +581,7 @@ main {
 .bank-qr {
   align-items: center;
   text-align: center;
-  .qr { background: #fff; padding: 8px; border-radius: 8px; width: min(260px, 70vw); height: auto; }
-  .bank-lines { list-style: none; padding: 0; margin: 8px 0; width: 100%; text-align: left;
-    li { display: flex; align-items: center; justify-content: space-between; gap: 8px; padding: 6px 0; border-bottom: 1px solid var(--line, #ddd); } }
+  .qr { background: #fff; padding: var(--space-2); border-radius: var(--radius); width: min(260px, 70vw); height: auto; }
+  .bank-lines { list-style: none; padding: 0; margin: var(--space-2) 0; width: 100%; text-align: left;
+    li { display: flex; align-items: center; justify-content: space-between; gap: var(--space-2); padding: var(--space-cell) 0; border-bottom: 1px solid var(--line, #ddd); } }
 }

@@ -71,7 +71,7 @@ export function foldSlices(categories: readonly string[], values: readonly (numb
 export function chartOption(spec: ChartSpec, theme: ChartTheme): Record<string, unknown> {
   const decimals = spec.decimals ?? 0;
   const format = (v: unknown) => (v === null || v === undefined ? '' : `${formatNumber(v as number, decimals)}${spec.unit ? ` ${spec.unit}` : ''}`);
-  const small = theme.textXs || 12;
+  const small = theme.textXs || 13;
   const text = { color: theme.muted, fontFamily: theme.font, fontSize: small };
   const tooltip = {
     backgroundColor: theme.surface,
@@ -79,7 +79,7 @@ export function chartOption(spec: ChartSpec, theme: ChartTheme): Record<string, 
     borderWidth: 1,
     padding: [8, 12],
     textStyle: { color: theme.ink, fontFamily: theme.font, fontSize: theme.textS || 13 },
-    extraCssText: `box-shadow: ${theme.shadow || '0 8px 24px rgb(0 0 0 / 0.12)'}; border-radius: ${theme.radius || '8px'};`,
+    extraCssText: `box-shadow: ${theme.shadow || '0 8px 24px rgb(0 0 0 / 0.12)'}; border-radius: ${theme.radius || 'var(--radius)'};`,
     valueFormatter: format,
   };
 
@@ -87,7 +87,7 @@ export function chartOption(spec: ChartSpec, theme: ChartTheme): Record<string, 
     const slices = foldSlices(spec.categories, spec.series[0]?.values ?? []);
     return {
       color: theme.series,
-      textStyle: { fontFamily: theme.font },
+      textStyle: { fontFamily: theme.font, fontSize: small },
       tooltip: { ...tooltip, trigger: 'item' },
       legend: { show: slices.length >= 2, bottom: 0, icon: 'circle', itemWidth: 10, itemHeight: 10, textStyle: { ...text, color: theme.ink } },
       series: [{
@@ -110,7 +110,7 @@ export function chartOption(spec: ChartSpec, theme: ChartTheme): Record<string, 
   const stacked = spec.kind === 'stacked-bar';
   return {
     color: theme.series,
-    textStyle: { fontFamily: theme.font },
+    textStyle: { fontFamily: theme.font, fontSize: small },
     grid: { left: 8, right: line && many && series.length <= 4 ? 88 : 16, top: many ? 40 : 16, bottom: 8, containLabel: true },
     legend: { show: many, top: 0, left: 0, icon: line ? 'roundRect' : 'circle', itemWidth: line ? 14 : 10, itemHeight: line ? 3 : 10,
       textStyle: { ...text, color: theme.ink } },

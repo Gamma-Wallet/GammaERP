@@ -71,7 +71,7 @@ interface TableRow {
       border-radius: var(--radius-l); background: var(--surface); }
     header { display: flex; align-items: flex-start; justify-content: space-between; gap: var(--space-3); }
     h3 { font-size: var(--title-s); }
-    p { margin: 2px 0 0; font-size: var(--text-s); }
+    p { margin: var(--space-hair) 0 0; font-size: var(--text-s); }
     .canvas { width: 100%; min-width: 0; }
     .table { max-height: 360px; }
   `,

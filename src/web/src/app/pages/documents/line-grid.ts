@@ -205,7 +205,7 @@ export function draftOf(line: Line): LineDraft {
     table { width: 100%; border-collapse: collapse; font-size: var(--text-s); }
     th { height: var(--row-head-h); padding: 0 var(--space-2); background: var(--surface-2); color: var(--ink-2); font-size: var(--text-xs);
       font-weight: 500; letter-spacing: 0.01em; text-align: left; white-space: nowrap; border-bottom: 1px solid var(--line); }
-    td { padding: 4px var(--space-2); border-bottom: 1px solid var(--line); vertical-align: middle; }
+    td { padding: var(--space-1) var(--space-2); border-bottom: 1px solid var(--line); vertical-align: middle; }
     tr:last-child td { border-bottom: 0; }
     .num { text-align: right; white-space: nowrap; }
     th.num { width: 110px; }
@@ -215,11 +215,11 @@ export function draftOf(line: Line): LineDraft {
     .control.number { min-width: 9ch; }
     .strong { font-weight: 600; }
     tr.invalid td { background: var(--critical-bg); }
-    .error-row td { padding: 2px var(--space-2) var(--space-2) 44px; color: var(--critical); font-size: var(--text-xs); background: var(--critical-bg); }
+    .error-row td { padding: var(--space-hair) var(--space-2) var(--space-2) calc(36px + var(--space-2)); color: var(--critical); font-size: var(--text-xs); background: var(--critical-bg); }
     .empty { height: 64px; color: var(--muted); text-align: center; }
     .add { display: flex; flex-wrap: wrap; gap: var(--space-2); }
-    .lot { display: grid; grid-template-columns: 1fr 1fr; gap: var(--space-1); padding-top: 2px; }
-    .serials { padding: 2px 0 0; border: 0; background: none; color: var(--muted); font-size: var(--text-xs); text-decoration: underline; cursor: pointer; }
+    .lot { display: grid; grid-template-columns: 1fr 1fr; gap: var(--space-1); padding-top: var(--space-hair); }
+    .serials { padding: var(--space-hair) 0 0; border: 0; background: none; color: var(--muted); font-size: var(--text-xs); text-decoration: underline; cursor: pointer; }
     .serials.short { color: var(--critical); }
   `,
 })

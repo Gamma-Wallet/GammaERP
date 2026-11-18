@@ -39,7 +39,7 @@ main {
 
   li {
     counter-increment: step;
-    padding: 4px var(--space-3);
+    padding: var(--space-1) var(--space-3);
     border-radius: var(--radius-pill);
     color: var(--muted);
     font-size: var(--text-s);

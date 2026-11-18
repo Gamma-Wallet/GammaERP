@@ -89,21 +89,21 @@ export function skinFileOf(text: string): SkinFile | string {
   styles: `
     :host { display: grid; gap: var(--space-4); padding: var(--space-5) var(--space-6); align-content: start; }
     .head { display: flex; align-items: center; justify-content: space-between; gap: var(--space-3); flex-wrap: wrap; }
-    h1 { margin: 0; font-family: var(--font-title); font-size: var(--title-l); font-weight: 500; }
-    h2 { margin: 0; font-family: var(--font-title); font-size: var(--title-s); font-weight: 500; }
+    h1 { margin: 0; font-family: var(--font-title); font-size: var(--title-l); font-weight: 600; }
+    h2 { margin: 0; font-family: var(--font-title); font-size: var(--title-s); font-weight: 600; }
     .intro { margin: 0; max-width: 80ch; }
     .muted { color: var(--muted); }
     .picker { display: none; }
     section { display: grid; gap: var(--space-2); }
     .group-head { display: flex; align-items: center; justify-content: space-between; gap: var(--space-3); }
     table { width: 100%; border-collapse: collapse; background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius-l); font-size: var(--text-s); }
-    th, td { padding: 6px var(--space-3); border-bottom: 1px solid var(--line); text-align: left; }
+    th, td { padding: var(--space-cell) var(--space-3); border-bottom: 1px solid var(--line); text-align: left; }
     th { color: var(--muted); font-size: var(--text-xs); font-weight: 600; background: var(--surface-2); }
     .num { text-align: right; } .actions { text-align: right; white-space: nowrap; }
-    .pill { display: inline-flex; align-items: center; gap: 4px; padding: 1px 8px; border-radius: var(--radius-pill); background: var(--good-bg); color: var(--good); font-weight: 600; }
+    .pill { display: inline-flex; align-items: center; gap: var(--space-1); padding: 1px var(--space-2); border-radius: var(--radius-pill); background: var(--good-bg); color: var(--good); font-weight: 600; }
     .message, .warn, .preview { display: flex; align-items: flex-start; gap: var(--space-2); padding: var(--space-2) var(--space-3); border-radius: var(--radius); margin: 0; }
     .message { background: var(--critical-bg); color: var(--critical); }
-    .warn { background: var(--warning-bg); color: var(--ink); } .warn ul { margin: 4px 0 0; padding-left: 1.2em; }
+    .warn { background: var(--warning-bg); color: var(--ink); } .warn ul { margin: var(--space-1) 0 0; padding-left: 1.2em; }
     .preview { background: var(--info-bg); color: var(--ink); align-items: center; }
   `,
 })

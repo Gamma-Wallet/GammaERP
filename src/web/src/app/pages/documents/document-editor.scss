@@ -101,7 +101,7 @@
   div {
     display: grid;
     justify-items: end;
-    gap: 2px;
+    gap: var(--space-hair);
   }
 
   span {

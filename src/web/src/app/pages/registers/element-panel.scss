@@ -127,7 +127,7 @@ footer {
 .tokens h3 { margin: var(--space-2) 0 0; font-size: var(--text-m); }
 .tokens .muted { margin: 0; color: var(--muted); }
 .tokens table { width: 100%; border-collapse: collapse; font-size: var(--text-s); }
-.tokens th, .tokens td { padding: 6px var(--space-2); border-bottom: 1px solid var(--line); text-align: left; }
+.tokens th, .tokens td { padding: var(--space-cell) var(--space-2); border-bottom: 1px solid var(--line); text-align: left; }
 .tokens th { color: var(--muted); font-size: var(--text-xs); font-weight: 600; }
 .tokens .end { text-align: right; }
 .tokens code { font-family: ui-monospace, Menlo, Consolas, monospace; }

@@ -20,12 +20,16 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
+// Every heading is weight 600 (the founder, 2026-11-18); the screens use only 400, 500 and 600.
 h1,
 h2,
-h3 {
+h3,
+h4,
+h5,
+h6 {
   margin: 0;
   font-family: var(--font-title);
-  font-weight: 500;
+  font-weight: 600;
   line-height: 1.2;
 }
 

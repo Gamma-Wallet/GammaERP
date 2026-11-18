@@ -38,7 +38,7 @@ export function languagesOf(): string[] {
     :host { display: grid; gap: var(--space-2); }
     .rows { display: grid; gap: var(--space-2); }
     .row { display: flex; align-items: flex-start; gap: var(--space-2); }
-    .code { flex: none; width: 24px; padding-top: 9px; color: var(--muted); font-size: var(--text-xs); font-weight: 600; text-transform: uppercase; }
+    .code { flex: none; width: 24px; padding-top: var(--space-2); color: var(--muted); font-size: var(--text-xs); font-weight: 600; text-transform: uppercase; }
   `,
 })
 export class TranslatedInput {

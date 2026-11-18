@@ -63,13 +63,15 @@
   // Type (Newsreader has no Greek, so Greek titles fall back to Source Serif 4)
   --font-title: 'Newsreader', 'Source Serif 4', Georgia, serif;
   --font-text: Inter, system-ui, -apple-system, 'Segoe UI', sans-serif;
-  --text-xs: 12px;
+  // Five steps (the founder, 2026-11-18): small 13 (table cells too; nothing is smaller), body 14, large 16, section title 20, page title 28.
+  // text-xs and text-s are both the small step, title-m the section title, so every call site keeps its name.
+  --text-xs: 13px;
   --text-s: 13px;
   --text-m: 14px;
   --text-l: 16px;
-  --title-s: 19px;
-  --title-m: 24px;
-  --title-l: 31px;
+  --title-s: 20px;
+  --title-m: 20px;
+  --title-l: 28px;
   // The KPI card's headline number
   --kpi-value: 28px;
 
@@ -80,9 +82,13 @@
   --space-4: 16px;
   --space-5: 24px;
   --space-6: 32px;
+  // A hairline gap between stacked items, and the padding of a dense table cell
+  --space-hair: 2px;
+  --space-cell: 6px;
+  // Three corner sizes and the pill (the founder, 2026-11-18): small 4 (radius-xs and radius-s), 8, large 12.
   // Checkboxes, tree toggles, small close buttons
   --radius-xs: 4px;
-  --radius-s: 6px;
+  --radius-s: 4px;
   --radius: 8px;
   --radius-l: 12px;
   --radius-pill: 999px;
@@ -107,27 +113,24 @@
   --menu-item-h: 34px;
 }
 
-// The point of sale's variant (Harbour POS): a touch screen at a counter gets bigger text and targets, rounder corners and a step more
-// contrast on secondary text and borders. A plain type selector, so a company's POS skin set on app-pos later overrides it.
+// The point of sale's variant (Harbour POS): a touch screen at a counter gets bigger text and targets and a step more contrast on
+// secondary text and borders; its corners are the ERP's. A plain type selector, so a company's POS skin set on app-pos later overrides it.
 app-pos {
   --muted: #4f5b6a;
   --line: #d3dae2;
   --line-strong: #7a8697;
-  --text-xs: 13px;
-  --text-s: 15px;
+  // Small 14, body 16, large 20, titles 20 and 28
+  --text-xs: 14px;
+  --text-s: 14px;
   --text-m: 16px;
-  --text-l: 18px;
-  --title-s: 21px;
-  --title-m: 26px;
-  --title-l: 32px;
+  --text-l: 20px;
+  --title-s: 20px;
+  --title-m: 20px;
+  --title-l: 28px;
   --space-2: 10px;
   --space-3: 14px;
   --space-4: 20px;
   --space-5: 28px;
-  --radius-xs: 6px;
-  --radius-s: 8px;
-  --radius: 12px;
-  --radius-l: 16px;
   --topbar-h: 60px;
   --control-h: 52px;
   --control-h-s: 40px;

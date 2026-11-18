@@ -96,7 +96,7 @@
 
 .who {
   display: grid;
-  gap: 2px;
+  gap: var(--space-hair);
   padding: var(--space-2) var(--space-3) var(--space-3);
   margin-bottom: var(--space-1);
   border-bottom: 1px solid var(--line);

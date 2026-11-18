@@ -105,7 +105,7 @@ interface Made {
     .board { display: flex; gap: var(--space-3); overflow-x: auto; align-items: flex-start; }
     .column { flex: 0 0 250px; display: grid; gap: var(--space-2); padding: var(--space-3); border: 1px solid var(--line); border-radius: var(--radius-l); }
     .card { display: grid; gap: var(--space-1); padding: var(--space-2); border: 1px solid var(--line); border-radius: var(--radius-s); background: var(--surface); }
-    h2 { margin: 0; font: 500 var(--title-s) var(--font-title); }
+    h2 { margin: 0; font: 600 var(--title-s) var(--font-title); }
     h2 .muted { color: var(--muted); font: 400 var(--text-s) var(--font-text); }
     .link { padding: 0; border: 0; background: none; color: var(--link); text-align: left; text-decoration: underline; cursor: pointer; }
   `,
