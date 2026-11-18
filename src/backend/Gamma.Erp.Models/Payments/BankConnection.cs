@@ -50,6 +50,9 @@ public sealed class BankConnection : Row
     /// <summary>A connection started and not finished yet: the state the bank sends back.</summary>
     public string? PendingState { get; set; }
 
+    /// <summary>What the provider's adapter keeps between the start and the return (e.g. the Bank of Cyprus subscription), sealed by the host; empty otherwise.</summary>
+    public string? PendingSession { get; set; }
+
     /// <summary>The accounts the bank gave when there was more than one to choose from (uid, IBAN, currency, name), until one is chosen.</summary>
     public JsonNode? PendingAccounts { get; set; }
 

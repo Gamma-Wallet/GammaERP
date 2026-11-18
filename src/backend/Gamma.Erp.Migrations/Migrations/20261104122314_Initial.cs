@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using Gamma.Erp.Persistence.Tenancy;
 using Microsoft.EntityFrameworkCore.Migrations;
 
@@ -22330,6 +22330,1040 @@ namespace Gamma.Erp.Migrations.Migrations
                 onDelete: ReferentialAction.Restrict);
 
             // What the model does not hold: the tenant role and row security, and the indexes and constraint with a condition.
+            // Bank notices (2026-11-18): the bank's signed "payment received" messages, and the provider's response secret.
+            migrationBuilder.AddColumn<string>(
+                name: "response_secret",
+                schema: "payments",
+                table: "tbl_bank_provider",
+                type: "text",
+                nullable: true);
+
+            migrationBuilder.CreateTable(
+                name: "tbl_bank_notice",
+                schema: "payments",
+                columns: table => new
+                {
+                    id = table.Column<Guid>(type: "uuid", nullable: false),
+                    kind = table.Column<string>(type: "text", nullable: false),
+                    provider_id = table.Column<Guid>(type: "uuid", nullable: true),
+                    bank_id = table.Column<Guid>(type: "uuid", nullable: true),
+                    external_id = table.Column<string>(type: "text", nullable: false),
+                    message_id = table.Column<string>(type: "text", nullable: true),
+                    amount = table.Column<decimal>(type: "numeric(19,6)", precision: 19, scale: 6, nullable: false),
+                    currency = table.Column<string>(type: "text", nullable: false),
+                    reference = table.Column<string>(type: "text", nullable: true),
+                    provider_reference = table.Column<string>(type: "text", nullable: true),
+                    payer_name = table.Column<string>(type: "text", nullable: true),
+                    payer_iban = table.Column<string>(type: "text", nullable: true),
+                    booked = table.Column<bool>(type: "boolean", nullable: false),
+                    booked_on = table.Column<DateOnly>(type: "date", nullable: false),
+                    received_on = table.Column<DateTimeOffset>(type: "timestamp with time zone", nullable: false),
+                    bank_statement_line_id = table.Column<Guid>(type: "uuid", nullable: true),
+                    tenant_id = table.Column<Guid>(type: "uuid", nullable: false),
+                    owner_id = table.Column<Guid>(type: "uuid", nullable: true),
+                    id_sup = table.Column<Guid>(type: "uuid", nullable: true),
+                    id_change = table.Column<Guid>(type: "uuid", nullable: true),
+                    active = table.Column<bool>(type: "boolean", nullable: false, defaultValue: true),
+                    created_on = table.Column<DateTimeOffset>(type: "timestamp with time zone", nullable: false),
+                    created_by = table.Column<Guid>(type: "uuid", nullable: true)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("pk_tbl_bank_notice", x => x.id);
+                    table.ForeignKey(
+                        name: "fk_tbl_bank_notice_bank_id",
+                        column: x => x.bank_id,
+                        principalSchema: "cost_centers",
+                        principalTable: "tbl_cost_center",
+                        principalColumn: "id",
+                        onDelete: ReferentialAction.Restrict);
+                    table.ForeignKey(
+                        name: "fk_tbl_bank_notice_bank_statement_line_id",
+                        column: x => x.bank_statement_line_id,
+                        principalSchema: "documents",
+                        principalTable: "tbl_bank_statement_line",
+                        principalColumn: "id",
+                        onDelete: ReferentialAction.Restrict);
+                    table.ForeignKey(
+                        name: "fk_tbl_bank_notice_created_by",
+                        column: x => x.created_by,
+                        principalSchema: "users",
+                        principalTable: "tbl_user",
+                        principalColumn: "id",
+                        onDelete: ReferentialAction.Restrict);
+                    table.ForeignKey(
+                        name: "fk_tbl_bank_notice_id_change",
+                        column: x => x.id_change,
+                        principalSchema: "payments",
+                        principalTable: "tbl_bank_notice",
+                        principalColumn: "id",
+                        onDelete: ReferentialAction.Restrict);
+                    table.ForeignKey(
+                        name: "fk_tbl_bank_notice_id_sup",
+                        column: x => x.id_sup,
+                        principalSchema: "payments",
+                        principalTable: "tbl_bank_notice",
+                        principalColumn: "id",
+                        onDelete: ReferentialAction.Restrict);
+                    table.ForeignKey(
+                        name: "fk_tbl_bank_notice_owner_id",
+                        column: x => x.owner_id,
+                        principalSchema: "cost_centers",
+                        principalTable: "tbl_cost_center",
+                        principalColumn: "id",
+                        onDelete: ReferentialAction.Restrict);
+                    table.ForeignKey(
+                        name: "fk_tbl_bank_notice_provider_id",
+                        column: x => x.provider_id,
+                        principalSchema: "payments",
+                        principalTable: "tbl_bank_provider",
+                        principalColumn: "id",
+                        onDelete: ReferentialAction.Restrict);
+                });
+
+            migrationBuilder.CreateIndex(
+                name: "ix_tbl_bank_notice_bank_id",
+                schema: "payments",
+                table: "tbl_bank_notice",
+                column: "bank_id");
+
+            migrationBuilder.CreateIndex(
+                name: "ix_tbl_bank_notice_bank_statement_line_id",
+                schema: "payments",
+                table: "tbl_bank_notice",
+                column: "bank_statement_line_id");
+
+            migrationBuilder.CreateIndex(
+                name: "ix_tbl_bank_notice_created_by",
+                schema: "payments",
+                table: "tbl_bank_notice",
+                column: "created_by");
+
+            migrationBuilder.CreateIndex(
+                name: "ix_tbl_bank_notice_id_change",
+                schema: "payments",
+                table: "tbl_bank_notice",
+                column: "id_change");
+
+            migrationBuilder.CreateIndex(
+                name: "ix_tbl_bank_notice_id_sup",
+                schema: "payments",
+                table: "tbl_bank_notice",
+                column: "id_sup");
+
+            migrationBuilder.CreateIndex(
+                name: "ix_tbl_bank_notice_owner_id",
+                schema: "payments",
+                table: "tbl_bank_notice",
+                column: "owner_id");
+
+            migrationBuilder.CreateIndex(
+                name: "ix_tbl_bank_notice_tenant_id",
+                schema: "payments",
+                table: "tbl_bank_notice",
+                column: "tenant_id");
+
+            migrationBuilder.CreateIndex(
+                name: "ux_bank_notice_provider_external",
+                schema: "payments",
+                table: "tbl_bank_notice",
+                columns: new[] { "provider_id", "external_id" },
+                unique: true,
+                filter: "active AND provider_id IS NOT NULL");
+        
+
+            // Bank of Cyprus (2026-11-18): what a provider's adapter keeps between the start of a connection and the return (the subscription).
+            migrationBuilder.AddColumn<string>(
+                name: "pending_session",
+                schema: "payments",
+                table: "tbl_bank_connection",
+                type: "text",
+                nullable: true);
+
+            // Payment links (2026-11-18): the till's link per bill, Bank of Cyprus payments on the provider, the provider kind of a payment method.
+            migrationBuilder.AddColumn<string>(
+                name: "provider_kind",
+                schema: "payments",
+                table: "tbl_payment_method",
+                type: "text",
+                nullable: true);
+
+            migrationBuilder.AddColumn<int>(
+                name: "payment_link_minutes",
+                schema: "payments",
+                table: "tbl_bank_provider",
+                type: "integer",
+                nullable: false,
+                defaultValue: 0);
+
+            migrationBuilder.AddColumn<string>(
+                name: "payment_return_url",
+                schema: "payments",
+                table: "tbl_bank_provider",
+                type: "text",
+                nullable: true);
+
+            migrationBuilder.AddColumn<bool>(
+                name: "payments_enabled",
+                schema: "payments",
+                table: "tbl_bank_provider",
+                type: "boolean",
+                nullable: false,
+                defaultValue: false);
+
+            migrationBuilder.CreateTable(
+                name: "tbl_payment_link",
+                schema: "payments",
+                columns: table => new
+                {
+                    id = table.Column<Guid>(type: "uuid", nullable: false),
+                    pay_token = table.Column<string>(type: "text", nullable: false),
+                    point_of_sale_id = table.Column<Guid>(type: "uuid", nullable: false),
+                    payment_method_id = table.Column<Guid>(type: "uuid", nullable: false),
+                    bank_id = table.Column<Guid>(type: "uuid", nullable: false),
+                    amount = table.Column<decimal>(type: "numeric(19,6)", precision: 19, scale: 6, nullable: false),
+                    currency = table.Column<string>(type: "text", nullable: false),
+                    reference = table.Column<string>(type: "text", nullable: false),
+                    status = table.Column<string>(type: "text", nullable: false),
+                    method = table.Column<string>(type: "text", nullable: true),
+                    provider_payment_id = table.Column<string>(type: "text", nullable: true),
+                    provider_reference = table.Column<string>(type: "text", nullable: true),
+                    bank_notice_id = table.Column<Guid>(type: "uuid", nullable: true),
+                    expires_on = table.Column<DateTimeOffset>(type: "timestamp with time zone", nullable: false),
+                    paid_on = table.Column<DateTimeOffset>(type: "timestamp with time zone", nullable: true),
+                    tenant_id = table.Column<Guid>(type: "uuid", nullable: false),
+                    owner_id = table.Column<Guid>(type: "uuid", nullable: true),
+                    id_sup = table.Column<Guid>(type: "uuid", nullable: true),
+                    id_change = table.Column<Guid>(type: "uuid", nullable: true),
+                    active = table.Column<bool>(type: "boolean", nullable: false, defaultValue: true),
+                    created_on = table.Column<DateTimeOffset>(type: "timestamp with time zone", nullable: false),
+                    created_by = table.Column<Guid>(type: "uuid", nullable: true)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("pk_tbl_payment_link", x => x.id);
+                    table.ForeignKey(
+                        name: "fk_tbl_payment_link_bank_id",
+                        column: x => x.bank_id,
+                        principalSchema: "cost_centers",
+                        principalTable: "tbl_cost_center",
+                        principalColumn: "id",
+                        onDelete: ReferentialAction.Restrict);
+                    table.ForeignKey(
+                        name: "fk_tbl_payment_link_bank_notice_id",
+                        column: x => x.bank_notice_id,
+                        principalSchema: "payments",
+                        principalTable: "tbl_bank_notice",
+                        principalColumn: "id",
+                        onDelete: ReferentialAction.Restrict);
+                    table.ForeignKey(
+                        name: "fk_tbl_payment_link_created_by",
+                        column: x => x.created_by,
+                        principalSchema: "users",
+                        principalTable: "tbl_user",
+                        principalColumn: "id",
+                        onDelete: ReferentialAction.Restrict);
+                    table.ForeignKey(
+                        name: "fk_tbl_payment_link_id_change",
+                        column: x => x.id_change,
+                        principalSchema: "payments",
+                        principalTable: "tbl_payment_link",
+                        principalColumn: "id",
+                        onDelete: ReferentialAction.Restrict);
+                    table.ForeignKey(
+                        name: "fk_tbl_payment_link_id_sup",
+                        column: x => x.id_sup,
+                        principalSchema: "payments",
+                        principalTable: "tbl_payment_link",
+                        principalColumn: "id",
+                        onDelete: ReferentialAction.Restrict);
+                    table.ForeignKey(
+                        name: "fk_tbl_payment_link_owner_id",
+                        column: x => x.owner_id,
+                        principalSchema: "cost_centers",
+                        principalTable: "tbl_cost_center",
+                        principalColumn: "id",
+                        onDelete: ReferentialAction.Restrict);
+                    table.ForeignKey(
+                        name: "fk_tbl_payment_link_payment_method_id",
+                        column: x => x.payment_method_id,
+                        principalSchema: "payments",
+                        principalTable: "tbl_payment_method",
+                        principalColumn: "id",
+                        onDelete: ReferentialAction.Restrict);
+                    table.ForeignKey(
+                        name: "fk_tbl_payment_link_point_of_sale_id",
+                        column: x => x.point_of_sale_id,
+                        principalSchema: "cost_centers",
+                        principalTable: "tbl_cost_center",
+                        principalColumn: "id",
+                        onDelete: ReferentialAction.Restrict);
+                });
+
+            migrationBuilder.CreateIndex(
+                name: "ix_tbl_payment_link_bank_id",
+                schema: "payments",
+                table: "tbl_payment_link",
+                column: "bank_id");
+
+            migrationBuilder.CreateIndex(
+                name: "ix_tbl_payment_link_bank_notice_id",
+                schema: "payments",
+                table: "tbl_payment_link",
+                column: "bank_notice_id");
+
+            migrationBuilder.CreateIndex(
+                name: "ix_tbl_payment_link_created_by",
+                schema: "payments",
+                table: "tbl_payment_link",
+                column: "created_by");
+
+            migrationBuilder.CreateIndex(
+                name: "ix_tbl_payment_link_id_change",
+                schema: "payments",
+                table: "tbl_payment_link",
+                column: "id_change");
+
+            migrationBuilder.CreateIndex(
+                name: "ix_tbl_payment_link_id_sup",
+                schema: "payments",
+                table: "tbl_payment_link",
+                column: "id_sup");
+
+            migrationBuilder.CreateIndex(
+                name: "ix_tbl_payment_link_owner_id",
+                schema: "payments",
+                table: "tbl_payment_link",
+                column: "owner_id");
+
+            migrationBuilder.CreateIndex(
+                name: "ix_tbl_payment_link_payment_method_id",
+                schema: "payments",
+                table: "tbl_payment_link",
+                column: "payment_method_id");
+
+            migrationBuilder.CreateIndex(
+                name: "ix_tbl_payment_link_point_of_sale_id",
+                schema: "payments",
+                table: "tbl_payment_link",
+                column: "point_of_sale_id");
+
+            migrationBuilder.CreateIndex(
+                name: "ix_tbl_payment_link_tenant_id",
+                schema: "payments",
+                table: "tbl_payment_link",
+                column: "tenant_id");
+
+            migrationBuilder.CreateIndex(
+                name: "ux_payment_link_token",
+                schema: "payments",
+                table: "tbl_payment_link",
+                column: "pay_token",
+                unique: true,
+                filter: "active");
+        
+
+            // Card payments (2026-11-18): the company's JCC gateway, card notices, refunds on payment links.
+            migrationBuilder.AddColumn<decimal>(
+                name: "refunded_amount",
+                schema: "payments",
+                table: "tbl_payment_link",
+                type: "numeric(19,6)",
+                precision: 19,
+                scale: 6,
+                nullable: false,
+                defaultValue: 0m);
+
+            migrationBuilder.AddColumn<Guid>(
+                name: "card_provider_id",
+                schema: "payments",
+                table: "tbl_bank_notice",
+                type: "uuid",
+                nullable: true);
+
+            migrationBuilder.CreateTable(
+                name: "tbl_card_provider",
+                schema: "payments",
+                columns: table => new
+                {
+                    id = table.Column<Guid>(type: "uuid", nullable: false),
+                    kind = table.Column<string>(type: "text", nullable: false),
+                    name = table.Column<string>(type: "text", nullable: true),
+                    environment = table.Column<string>(type: "text", nullable: false),
+                    api_base = table.Column<string>(type: "text", nullable: false),
+                    api_user = table.Column<string>(type: "text", nullable: false),
+                    password = table.Column<string>(type: "text", nullable: false),
+                    callback_key = table.Column<string>(type: "text", nullable: true),
+                    return_url = table.Column<string>(type: "text", nullable: false),
+                    tenant_id = table.Column<Guid>(type: "uuid", nullable: false),
+                    owner_id = table.Column<Guid>(type: "uuid", nullable: true),
+                    id_sup = table.Column<Guid>(type: "uuid", nullable: true),
+                    id_change = table.Column<Guid>(type: "uuid", nullable: true),
+                    active = table.Column<bool>(type: "boolean", nullable: false, defaultValue: true),
+                    created_on = table.Column<DateTimeOffset>(type: "timestamp with time zone", nullable: false),
+                    created_by = table.Column<Guid>(type: "uuid", nullable: true)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("pk_tbl_card_provider", x => x.id);
+                    table.ForeignKey(
+                        name: "fk_tbl_card_provider_created_by",
+                        column: x => x.created_by,
+                        principalSchema: "users",
+                        principalTable: "tbl_user",
+                        principalColumn: "id",
+                        onDelete: ReferentialAction.Restrict);
+                    table.ForeignKey(
+                        name: "fk_tbl_card_provider_id_change",
+                        column: x => x.id_change,
+                        principalSchema: "payments",
+                        principalTable: "tbl_card_provider",
+                        principalColumn: "id",
+                        onDelete: ReferentialAction.Restrict);
+                    table.ForeignKey(
+                        name: "fk_tbl_card_provider_id_sup",
+                        column: x => x.id_sup,
+                        principalSchema: "payments",
+                        principalTable: "tbl_card_provider",
+                        principalColumn: "id",
+                        onDelete: ReferentialAction.Restrict);
+                    table.ForeignKey(
+                        name: "fk_tbl_card_provider_owner_id",
+                        column: x => x.owner_id,
+                        principalSchema: "cost_centers",
+                        principalTable: "tbl_cost_center",
+                        principalColumn: "id",
+                        onDelete: ReferentialAction.Restrict);
+                });
+
+            migrationBuilder.CreateIndex(
+                name: "ux_bank_notice_card_external",
+                schema: "payments",
+                table: "tbl_bank_notice",
+                columns: new[] { "card_provider_id", "external_id" },
+                unique: true,
+                filter: "active AND card_provider_id IS NOT NULL");
+
+            migrationBuilder.CreateIndex(
+                name: "ix_tbl_card_provider_created_by",
+                schema: "payments",
+                table: "tbl_card_provider",
+                column: "created_by");
+
+            migrationBuilder.CreateIndex(
+                name: "ix_tbl_card_provider_id_change",
+                schema: "payments",
+                table: "tbl_card_provider",
+                column: "id_change");
+
+            migrationBuilder.CreateIndex(
+                name: "ix_tbl_card_provider_id_sup",
+                schema: "payments",
+                table: "tbl_card_provider",
+                column: "id_sup");
+
+            migrationBuilder.CreateIndex(
+                name: "ix_tbl_card_provider_owner_id",
+                schema: "payments",
+                table: "tbl_card_provider",
+                column: "owner_id");
+
+            migrationBuilder.CreateIndex(
+                name: "ix_tbl_card_provider_tenant_id",
+                schema: "payments",
+                table: "tbl_card_provider",
+                column: "tenant_id");
+
+            migrationBuilder.AddForeignKey(
+                name: "fk_tbl_bank_notice_card_provider_id",
+                schema: "payments",
+                table: "tbl_bank_notice",
+                column: "card_provider_id",
+                principalSchema: "payments",
+                principalTable: "tbl_card_provider",
+                principalColumn: "id",
+                onDelete: ReferentialAction.Restrict);
+        
+
+            // Tax declaration (2026-11-18): fiscal provider, series and receipts; document types marked Fiscalise.
+            migrationBuilder.AddColumn<bool>(
+                name: "fiscalise",
+                schema: "documents",
+                table: "tbl_document_type",
+                type: "boolean",
+                nullable: false,
+                defaultValue: false);
+
+            migrationBuilder.CreateTable(
+                name: "tbl_fiscal_provider",
+                schema: "payments",
+                columns: table => new
+                {
+                    id = table.Column<Guid>(type: "uuid", nullable: false),
+                    kind = table.Column<string>(type: "text", nullable: false),
+                    name = table.Column<string>(type: "text", nullable: true),
+                    environment = table.Column<string>(type: "text", nullable: false),
+                    api_base = table.Column<string>(type: "text", nullable: false),
+                    issuer_tax_number = table.Column<string>(type: "text", nullable: false),
+                    certificate = table.Column<string>(type: "text", nullable: true),
+                    certificate_number = table.Column<string>(type: "text", nullable: true),
+                    software_code = table.Column<string>(type: "text", nullable: true),
+                    codes = table.Column<string>(type: "jsonb", nullable: true),
+                    tenant_id = table.Column<Guid>(type: "uuid", nullable: false),
+                    owner_id = table.Column<Guid>(type: "uuid", nullable: true),
+                    id_sup = table.Column<Guid>(type: "uuid", nullable: true),
+                    id_change = table.Column<Guid>(type: "uuid", nullable: true),
+                    active = table.Column<bool>(type: "boolean", nullable: false, defaultValue: true),
+                    created_on = table.Column<DateTimeOffset>(type: "timestamp with time zone", nullable: false),
+                    created_by = table.Column<Guid>(type: "uuid", nullable: true)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("pk_tbl_fiscal_provider", x => x.id);
+                    table.ForeignKey(
+                        name: "fk_tbl_fiscal_provider_created_by",
+                        column: x => x.created_by,
+                        principalSchema: "users",
+                        principalTable: "tbl_user",
+                        principalColumn: "id",
+                        onDelete: ReferentialAction.Restrict);
+                    table.ForeignKey(
+                        name: "fk_tbl_fiscal_provider_id_change",
+                        column: x => x.id_change,
+                        principalSchema: "payments",
+                        principalTable: "tbl_fiscal_provider",
+                        principalColumn: "id",
+                        onDelete: ReferentialAction.Restrict);
+                    table.ForeignKey(
+                        name: "fk_tbl_fiscal_provider_id_sup",
+                        column: x => x.id_sup,
+                        principalSchema: "payments",
+                        principalTable: "tbl_fiscal_provider",
+                        principalColumn: "id",
+                        onDelete: ReferentialAction.Restrict);
+                    table.ForeignKey(
+                        name: "fk_tbl_fiscal_provider_owner_id",
+                        column: x => x.owner_id,
+                        principalSchema: "cost_centers",
+                        principalTable: "tbl_cost_center",
+                        principalColumn: "id",
+                        onDelete: ReferentialAction.Restrict);
+                });
+
+            migrationBuilder.CreateTable(
+                name: "tbl_fiscal_series",
+                schema: "payments",
+                columns: table => new
+                {
+                    id = table.Column<Guid>(type: "uuid", nullable: false),
+                    fiscal_provider_id = table.Column<Guid>(type: "uuid", nullable: false),
+                    cost_center_id = table.Column<Guid>(type: "uuid", nullable: false),
+                    series_code = table.Column<string>(type: "text", nullable: false),
+                    document_code = table.Column<string>(type: "text", nullable: false),
+                    device_code = table.Column<string>(type: "text", nullable: true),
+                    unit_code = table.Column<string>(type: "text", nullable: true),
+                    validation_code = table.Column<string>(type: "text", nullable: true),
+                    last_number = table.Column<int>(type: "integer", nullable: false),
+                    last_hash = table.Column<string>(type: "text", nullable: true),
+                    last_issued_on = table.Column<DateTimeOffset>(type: "timestamp with time zone", nullable: true),
+                    tenant_id = table.Column<Guid>(type: "uuid", nullable: false),
+                    owner_id = table.Column<Guid>(type: "uuid", nullable: true),
+                    id_sup = table.Column<Guid>(type: "uuid", nullable: true),
+                    id_change = table.Column<Guid>(type: "uuid", nullable: true),
+                    active = table.Column<bool>(type: "boolean", nullable: false, defaultValue: true),
+                    created_on = table.Column<DateTimeOffset>(type: "timestamp with time zone", nullable: false),
+                    created_by = table.Column<Guid>(type: "uuid", nullable: true)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("pk_tbl_fiscal_series", x => x.id);
+                    table.ForeignKey(
+                        name: "fk_tbl_fiscal_series_cost_center_id",
+                        column: x => x.cost_center_id,
+                        principalSchema: "cost_centers",
+                        principalTable: "tbl_cost_center",
+                        principalColumn: "id",
+                        onDelete: ReferentialAction.Restrict);
+                    table.ForeignKey(
+                        name: "fk_tbl_fiscal_series_created_by",
+                        column: x => x.created_by,
+                        principalSchema: "users",
+                        principalTable: "tbl_user",
+                        principalColumn: "id",
+                        onDelete: ReferentialAction.Restrict);
+                    table.ForeignKey(
+                        name: "fk_tbl_fiscal_series_fiscal_provider_id",
+                        column: x => x.fiscal_provider_id,
+                        principalSchema: "payments",
+                        principalTable: "tbl_fiscal_provider",
+                        principalColumn: "id",
+                        onDelete: ReferentialAction.Restrict);
+                    table.ForeignKey(
+                        name: "fk_tbl_fiscal_series_id_change",
+                        column: x => x.id_change,
+                        principalSchema: "payments",
+                        principalTable: "tbl_fiscal_series",
+                        principalColumn: "id",
+                        onDelete: ReferentialAction.Restrict);
+                    table.ForeignKey(
+                        name: "fk_tbl_fiscal_series_id_sup",
+                        column: x => x.id_sup,
+                        principalSchema: "payments",
+                        principalTable: "tbl_fiscal_series",
+                        principalColumn: "id",
+                        onDelete: ReferentialAction.Restrict);
+                    table.ForeignKey(
+                        name: "fk_tbl_fiscal_series_owner_id",
+                        column: x => x.owner_id,
+                        principalSchema: "cost_centers",
+                        principalTable: "tbl_cost_center",
+                        principalColumn: "id",
+                        onDelete: ReferentialAction.Restrict);
+                });
+
+            migrationBuilder.CreateTable(
+                name: "tbl_fiscal_receipt",
+                schema: "payments",
+                columns: table => new
+                {
+                    id = table.Column<Guid>(type: "uuid", nullable: false),
+                    document_id = table.Column<Guid>(type: "uuid", nullable: false),
+                    fiscal_provider_id = table.Column<Guid>(type: "uuid", nullable: false),
+                    fiscal_series_id = table.Column<Guid>(type: "uuid", nullable: false),
+                    number = table.Column<int>(type: "integer", nullable: true),
+                    hash = table.Column<string>(type: "text", nullable: true),
+                    status = table.Column<string>(type: "text", nullable: false),
+                    authority_code = table.Column<string>(type: "text", nullable: true),
+                    qr_text = table.Column<string>(type: "text", nullable: true),
+                    answer = table.Column<string>(type: "jsonb", nullable: true),
+                    bank_statement_line_id = table.Column<Guid>(type: "uuid", nullable: true),
+                    payment_method_id = table.Column<Guid>(type: "uuid", nullable: true),
+                    payment_reference = table.Column<string>(type: "text", nullable: true),
+                    errors = table.Column<string>(type: "text", nullable: true),
+                    attempts = table.Column<int>(type: "integer", nullable: false),
+                    declared_on = table.Column<DateTimeOffset>(type: "timestamp with time zone", nullable: true),
+                    confirmed_on = table.Column<DateTimeOffset>(type: "timestamp with time zone", nullable: true),
+                    tenant_id = table.Column<Guid>(type: "uuid", nullable: false),
+                    owner_id = table.Column<Guid>(type: "uuid", nullable: true),
+                    id_sup = table.Column<Guid>(type: "uuid", nullable: true),
+                    id_change = table.Column<Guid>(type: "uuid", nullable: true),
+                    active = table.Column<bool>(type: "boolean", nullable: false, defaultValue: true),
+                    created_on = table.Column<DateTimeOffset>(type: "timestamp with time zone", nullable: false),
+                    created_by = table.Column<Guid>(type: "uuid", nullable: true)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("pk_tbl_fiscal_receipt", x => x.id);
+                    table.ForeignKey(
+                        name: "fk_tbl_fiscal_receipt_bank_statement_line_id",
+                        column: x => x.bank_statement_line_id,
+                        principalSchema: "documents",
+                        principalTable: "tbl_bank_statement_line",
+                        principalColumn: "id",
+                        onDelete: ReferentialAction.Restrict);
+                    table.ForeignKey(
+                        name: "fk_tbl_fiscal_receipt_created_by",
+                        column: x => x.created_by,
+                        principalSchema: "users",
+                        principalTable: "tbl_user",
+                        principalColumn: "id",
+                        onDelete: ReferentialAction.Restrict);
+                    table.ForeignKey(
+                        name: "fk_tbl_fiscal_receipt_document_id",
+                        column: x => x.document_id,
+                        principalSchema: "documents",
+                        principalTable: "tbl_document",
+                        principalColumn: "id",
+                        onDelete: ReferentialAction.Restrict);
+                    table.ForeignKey(
+                        name: "fk_tbl_fiscal_receipt_fiscal_provider_id",
+                        column: x => x.fiscal_provider_id,
+                        principalSchema: "payments",
+                        principalTable: "tbl_fiscal_provider",
+                        principalColumn: "id",
+                        onDelete: ReferentialAction.Restrict);
+                    table.ForeignKey(
+                        name: "fk_tbl_fiscal_receipt_fiscal_series_id",
+                        column: x => x.fiscal_series_id,
+                        principalSchema: "payments",
+                        principalTable: "tbl_fiscal_series",
+                        principalColumn: "id",
+                        onDelete: ReferentialAction.Restrict);
+                    table.ForeignKey(
+                        name: "fk_tbl_fiscal_receipt_id_change",
+                        column: x => x.id_change,
+                        principalSchema: "payments",
+                        principalTable: "tbl_fiscal_receipt",
+                        principalColumn: "id",
+                        onDelete: ReferentialAction.Restrict);
+                    table.ForeignKey(
+                        name: "fk_tbl_fiscal_receipt_id_sup",
+                        column: x => x.id_sup,
+                        principalSchema: "payments",
+                        principalTable: "tbl_fiscal_receipt",
+                        principalColumn: "id",
+                        onDelete: ReferentialAction.Restrict);
+                    table.ForeignKey(
+                        name: "fk_tbl_fiscal_receipt_owner_id",
+                        column: x => x.owner_id,
+                        principalSchema: "cost_centers",
+                        principalTable: "tbl_cost_center",
+                        principalColumn: "id",
+                        onDelete: ReferentialAction.Restrict);
+                    table.ForeignKey(
+                        name: "fk_tbl_fiscal_receipt_payment_method_id",
+                        column: x => x.payment_method_id,
+                        principalSchema: "payments",
+                        principalTable: "tbl_payment_method",
+                        principalColumn: "id",
+                        onDelete: ReferentialAction.Restrict);
+                });
+
+            migrationBuilder.CreateIndex(
+                name: "ix_tbl_fiscal_provider_created_by",
+                schema: "payments",
+                table: "tbl_fiscal_provider",
+                column: "created_by");
+
+            migrationBuilder.CreateIndex(
+                name: "ix_tbl_fiscal_provider_id_change",
+                schema: "payments",
+                table: "tbl_fiscal_provider",
+                column: "id_change");
+
+            migrationBuilder.CreateIndex(
+                name: "ix_tbl_fiscal_provider_id_sup",
+                schema: "payments",
+                table: "tbl_fiscal_provider",
+                column: "id_sup");
+
+            migrationBuilder.CreateIndex(
+                name: "ix_tbl_fiscal_provider_owner_id",
+                schema: "payments",
+                table: "tbl_fiscal_provider",
+                column: "owner_id");
+
+            migrationBuilder.CreateIndex(
+                name: "ix_tbl_fiscal_provider_tenant_id",
+                schema: "payments",
+                table: "tbl_fiscal_provider",
+                column: "tenant_id");
+
+            migrationBuilder.CreateIndex(
+                name: "ix_tbl_fiscal_receipt_bank_statement_line_id",
+                schema: "payments",
+                table: "tbl_fiscal_receipt",
+                column: "bank_statement_line_id");
+
+            migrationBuilder.CreateIndex(
+                name: "ix_tbl_fiscal_receipt_created_by",
+                schema: "payments",
+                table: "tbl_fiscal_receipt",
+                column: "created_by");
+
+            migrationBuilder.CreateIndex(
+                name: "ix_tbl_fiscal_receipt_document_id",
+                schema: "payments",
+                table: "tbl_fiscal_receipt",
+                column: "document_id");
+
+            migrationBuilder.CreateIndex(
+                name: "ix_tbl_fiscal_receipt_fiscal_provider_id",
+                schema: "payments",
+                table: "tbl_fiscal_receipt",
+                column: "fiscal_provider_id");
+
+            migrationBuilder.CreateIndex(
+                name: "ix_tbl_fiscal_receipt_fiscal_series_id",
+                schema: "payments",
+                table: "tbl_fiscal_receipt",
+                column: "fiscal_series_id");
+
+            migrationBuilder.CreateIndex(
+                name: "ix_tbl_fiscal_receipt_id_change",
+                schema: "payments",
+                table: "tbl_fiscal_receipt",
+                column: "id_change");
+
+            migrationBuilder.CreateIndex(
+                name: "ix_tbl_fiscal_receipt_id_sup",
+                schema: "payments",
+                table: "tbl_fiscal_receipt",
+                column: "id_sup");
+
+            migrationBuilder.CreateIndex(
+                name: "ix_tbl_fiscal_receipt_owner_id",
+                schema: "payments",
+                table: "tbl_fiscal_receipt",
+                column: "owner_id");
+
+            migrationBuilder.CreateIndex(
+                name: "ix_tbl_fiscal_receipt_payment_method_id",
+                schema: "payments",
+                table: "tbl_fiscal_receipt",
+                column: "payment_method_id");
+
+            migrationBuilder.CreateIndex(
+                name: "ix_tbl_fiscal_receipt_tenant_id",
+                schema: "payments",
+                table: "tbl_fiscal_receipt",
+                column: "tenant_id");
+
+            migrationBuilder.CreateIndex(
+                name: "ix_tbl_fiscal_series_cost_center_id",
+                schema: "payments",
+                table: "tbl_fiscal_series",
+                column: "cost_center_id");
+
+            migrationBuilder.CreateIndex(
+                name: "ix_tbl_fiscal_series_created_by",
+                schema: "payments",
+                table: "tbl_fiscal_series",
+                column: "created_by");
+
+            migrationBuilder.CreateIndex(
+                name: "ix_tbl_fiscal_series_fiscal_provider_id",
+                schema: "payments",
+                table: "tbl_fiscal_series",
+                column: "fiscal_provider_id");
+
+            migrationBuilder.CreateIndex(
+                name: "ix_tbl_fiscal_series_id_change",
+                schema: "payments",
+                table: "tbl_fiscal_series",
+                column: "id_change");
+
+            migrationBuilder.CreateIndex(
+                name: "ix_tbl_fiscal_series_id_sup",
+                schema: "payments",
+                table: "tbl_fiscal_series",
+                column: "id_sup");
+
+            migrationBuilder.CreateIndex(
+                name: "ix_tbl_fiscal_series_owner_id",
+                schema: "payments",
+                table: "tbl_fiscal_series",
+                column: "owner_id");
+
+            migrationBuilder.CreateIndex(
+                name: "ix_tbl_fiscal_series_tenant_id",
+                schema: "payments",
+                table: "tbl_fiscal_series",
+                column: "tenant_id");
+        
+
+            // Gamma Wallet (2026-11-18): the company's connection (retailer access), the payments' Gamma bills, which methods push.
+            migrationBuilder.AddColumn<bool>(
+                name: "pushes_to_wallet",
+                schema: "payments",
+                table: "tbl_payment_method",
+                type: "boolean",
+                nullable: false,
+                defaultValue: false);
+
+            migrationBuilder.CreateTable(
+                name: "tbl_wallet_provider",
+                schema: "payments",
+                columns: table => new
+                {
+                    id = table.Column<Guid>(type: "uuid", nullable: false),
+                    kind = table.Column<string>(type: "text", nullable: false),
+                    api_base = table.Column<string>(type: "text", nullable: false),
+                    token = table.Column<string>(type: "text", nullable: false),
+                    token_fingerprint = table.Column<string>(type: "text", nullable: true),
+                    gamma_business_id = table.Column<string>(type: "text", nullable: true),
+                    business_name = table.Column<string>(type: "text", nullable: true),
+                    currency_code = table.Column<string>(type: "text", nullable: true),
+                    can_claim = table.Column<bool>(type: "boolean", nullable: false),
+                    checked_on = table.Column<DateTimeOffset>(type: "timestamp with time zone", nullable: true),
+                    tenant_id = table.Column<Guid>(type: "uuid", nullable: false),
+                    owner_id = table.Column<Guid>(type: "uuid", nullable: true),
+                    id_sup = table.Column<Guid>(type: "uuid", nullable: true),
+                    id_change = table.Column<Guid>(type: "uuid", nullable: true),
+                    active = table.Column<bool>(type: "boolean", nullable: false, defaultValue: true),
+                    created_on = table.Column<DateTimeOffset>(type: "timestamp with time zone", nullable: false),
+                    created_by = table.Column<Guid>(type: "uuid", nullable: true)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("pk_tbl_wallet_provider", x => x.id);
+                    table.ForeignKey(
+                        name: "fk_tbl_wallet_provider_created_by",
+                        column: x => x.created_by,
+                        principalSchema: "users",
+                        principalTable: "tbl_user",
+                        principalColumn: "id",
+                        onDelete: ReferentialAction.Restrict);
+                    table.ForeignKey(
+                        name: "fk_tbl_wallet_provider_id_change",
+                        column: x => x.id_change,
+                        principalSchema: "payments",
+                        principalTable: "tbl_wallet_provider",
+                        principalColumn: "id",
+                        onDelete: ReferentialAction.Restrict);
+                    table.ForeignKey(
+                        name: "fk_tbl_wallet_provider_id_sup",
+                        column: x => x.id_sup,
+                        principalSchema: "payments",
+                        principalTable: "tbl_wallet_provider",
+                        principalColumn: "id",
+                        onDelete: ReferentialAction.Restrict);
+                    table.ForeignKey(
+                        name: "fk_tbl_wallet_provider_owner_id",
+                        column: x => x.owner_id,
+                        principalSchema: "cost_centers",
+                        principalTable: "tbl_cost_center",
+                        principalColumn: "id",
+                        onDelete: ReferentialAction.Restrict);
+                });
+
+            migrationBuilder.CreateTable(
+                name: "tbl_wallet_bill",
+                schema: "payments",
+                columns: table => new
+                {
+                    id = table.Column<Guid>(type: "uuid", nullable: false),
+                    document_id = table.Column<Guid>(type: "uuid", nullable: false),
+                    wallet_provider_id = table.Column<Guid>(type: "uuid", nullable: false),
+                    reference = table.Column<string>(type: "text", nullable: false),
+                    total = table.Column<decimal>(type: "numeric(19,6)", precision: 19, scale: 6, nullable: false),
+                    currency_code = table.Column<string>(type: "text", nullable: false),
+                    status = table.Column<string>(type: "text", nullable: false),
+                    gamma_bill_id = table.Column<string>(type: "text", nullable: true),
+                    code = table.Column<string>(type: "text", nullable: true),
+                    link = table.Column<string>(type: "text", nullable: true),
+                    sent_on = table.Column<DateTimeOffset>(type: "timestamp with time zone", nullable: true),
+                    claimed_on = table.Column<DateTimeOffset>(type: "timestamp with time zone", nullable: true),
+                    attempts = table.Column<int>(type: "integer", nullable: false),
+                    errors = table.Column<string>(type: "text", nullable: true),
+                    tenant_id = table.Column<Guid>(type: "uuid", nullable: false),
+                    owner_id = table.Column<Guid>(type: "uuid", nullable: true),
+                    id_sup = table.Column<Guid>(type: "uuid", nullable: true),
+                    id_change = table.Column<Guid>(type: "uuid", nullable: true),
+                    active = table.Column<bool>(type: "boolean", nullable: false, defaultValue: true),
+                    created_on = table.Column<DateTimeOffset>(type: "timestamp with time zone", nullable: false),
+                    created_by = table.Column<Guid>(type: "uuid", nullable: true)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("pk_tbl_wallet_bill", x => x.id);
+                    table.ForeignKey(
+                        name: "fk_tbl_wallet_bill_created_by",
+                        column: x => x.created_by,
+                        principalSchema: "users",
+                        principalTable: "tbl_user",
+                        principalColumn: "id",
+                        onDelete: ReferentialAction.Restrict);
+                    table.ForeignKey(
+                        name: "fk_tbl_wallet_bill_document_id",
+                        column: x => x.document_id,
+                        principalSchema: "documents",
+                        principalTable: "tbl_document",
+                        principalColumn: "id",
+                        onDelete: ReferentialAction.Restrict);
+                    table.ForeignKey(
+                        name: "fk_tbl_wallet_bill_id_change",
+                        column: x => x.id_change,
+                        principalSchema: "payments",
+                        principalTable: "tbl_wallet_bill",
+                        principalColumn: "id",
+                        onDelete: ReferentialAction.Restrict);
+                    table.ForeignKey(
+                        name: "fk_tbl_wallet_bill_id_sup",
+                        column: x => x.id_sup,
+                        principalSchema: "payments",
+                        principalTable: "tbl_wallet_bill",
+                        principalColumn: "id",
+                        onDelete: ReferentialAction.Restrict);
+                    table.ForeignKey(
+                        name: "fk_tbl_wallet_bill_owner_id",
+                        column: x => x.owner_id,
+                        principalSchema: "cost_centers",
+                        principalTable: "tbl_cost_center",
+                        principalColumn: "id",
+                        onDelete: ReferentialAction.Restrict);
+                    table.ForeignKey(
+                        name: "fk_tbl_wallet_bill_wallet_provider_id",
+                        column: x => x.wallet_provider_id,
+                        principalSchema: "payments",
+                        principalTable: "tbl_wallet_provider",
+                        principalColumn: "id",
+                        onDelete: ReferentialAction.Restrict);
+                });
+
+            migrationBuilder.CreateIndex(
+                name: "ix_tbl_wallet_bill_created_by",
+                schema: "payments",
+                table: "tbl_wallet_bill",
+                column: "created_by");
+
+            migrationBuilder.CreateIndex(
+                name: "ix_tbl_wallet_bill_document_id",
+                schema: "payments",
+                table: "tbl_wallet_bill",
+                column: "document_id");
+
+            migrationBuilder.CreateIndex(
+                name: "ix_tbl_wallet_bill_id_change",
+                schema: "payments",
+                table: "tbl_wallet_bill",
+                column: "id_change");
+
+            migrationBuilder.CreateIndex(
+                name: "ix_tbl_wallet_bill_id_sup",
+                schema: "payments",
+                table: "tbl_wallet_bill",
+                column: "id_sup");
+
+            migrationBuilder.CreateIndex(
+                name: "ix_tbl_wallet_bill_owner_id",
+                schema: "payments",
+                table: "tbl_wallet_bill",
+                column: "owner_id");
+
+            migrationBuilder.CreateIndex(
+                name: "ix_tbl_wallet_bill_tenant_id",
+                schema: "payments",
+                table: "tbl_wallet_bill",
+                column: "tenant_id");
+
+            migrationBuilder.CreateIndex(
+                name: "ix_tbl_wallet_bill_wallet_provider_id",
+                schema: "payments",
+                table: "tbl_wallet_bill",
+                column: "wallet_provider_id");
+
+            migrationBuilder.CreateIndex(
+                name: "ix_tbl_wallet_provider_created_by",
+                schema: "payments",
+                table: "tbl_wallet_provider",
+                column: "created_by");
+
+            migrationBuilder.CreateIndex(
+                name: "ix_tbl_wallet_provider_id_change",
+                schema: "payments",
+                table: "tbl_wallet_provider",
+                column: "id_change");
+
+            migrationBuilder.CreateIndex(
+                name: "ix_tbl_wallet_provider_id_sup",
+                schema: "payments",
+                table: "tbl_wallet_provider",
+                column: "id_sup");
+
+            migrationBuilder.CreateIndex(
+                name: "ix_tbl_wallet_provider_owner_id",
+                schema: "payments",
+                table: "tbl_wallet_provider",
+                column: "owner_id");
+
+            migrationBuilder.CreateIndex(
+                name: "ix_tbl_wallet_provider_tenant_id",
+                schema: "payments",
+                table: "tbl_wallet_provider",
+                column: "tenant_id");
+        
+
             RowLevelSecurity.CreateTenantRole(migrationBuilder);
             RowLevelSecurity.GrantSchema(migrationBuilder, "charts");
             RowLevelSecurity.GrantSchema(migrationBuilder, "cost_centers");
@@ -22440,7 +23474,15 @@ namespace Gamma.Erp.Migrations.Migrations
             RowLevelSecurity.EnableForTenantTable(migrationBuilder, "partners", "tbl_partner_type");
             RowLevelSecurity.EnableForTenantTable(migrationBuilder, "partners", "tbl_partner_type_info");
             RowLevelSecurity.EnableForTenantTable(migrationBuilder, "partners", "tbl_partner_type_info_ch");
+            RowLevelSecurity.EnableForTenantTable(migrationBuilder, "payments", "tbl_bank_notice");
             RowLevelSecurity.EnableForTenantTable(migrationBuilder, "payments", "tbl_bank_connection");
+            RowLevelSecurity.EnableForTenantTable(migrationBuilder, "payments", "tbl_wallet_bill");
+            RowLevelSecurity.EnableForTenantTable(migrationBuilder, "payments", "tbl_wallet_provider");
+            RowLevelSecurity.EnableForTenantTable(migrationBuilder, "payments", "tbl_fiscal_receipt");
+            RowLevelSecurity.EnableForTenantTable(migrationBuilder, "payments", "tbl_fiscal_series");
+            RowLevelSecurity.EnableForTenantTable(migrationBuilder, "payments", "tbl_fiscal_provider");
+            RowLevelSecurity.EnableForTenantTable(migrationBuilder, "payments", "tbl_card_provider");
+            RowLevelSecurity.EnableForTenantTable(migrationBuilder, "payments", "tbl_payment_link");
             RowLevelSecurity.EnableForTenantTable(migrationBuilder, "payments", "tbl_bank_provider");
             RowLevelSecurity.EnableForTenantTable(migrationBuilder, "payments", "tbl_inter_payment_method_document_type");
             RowLevelSecurity.EnableForTenantTable(migrationBuilder, "payments", "tbl_payment_method");
@@ -22552,6 +23594,103 @@ namespace Gamma.Erp.Migrations.Migrations
         /// <inheritdoc />
         protected override void Down(MigrationBuilder migrationBuilder)
         {
+            migrationBuilder.DropTable(
+                name: "tbl_wallet_bill",
+                schema: "payments");
+
+            migrationBuilder.DropTable(
+                name: "tbl_wallet_provider",
+                schema: "payments");
+
+            migrationBuilder.DropColumn(
+                name: "pushes_to_wallet",
+                schema: "payments",
+                table: "tbl_payment_method");
+        
+
+            migrationBuilder.DropTable(
+                name: "tbl_fiscal_receipt",
+                schema: "payments");
+
+            migrationBuilder.DropTable(
+                name: "tbl_fiscal_series",
+                schema: "payments");
+
+            migrationBuilder.DropTable(
+                name: "tbl_fiscal_provider",
+                schema: "payments");
+
+            migrationBuilder.DropColumn(
+                name: "fiscalise",
+                schema: "documents",
+                table: "tbl_document_type");
+        
+
+            migrationBuilder.DropForeignKey(
+                name: "fk_tbl_bank_notice_card_provider_id",
+                schema: "payments",
+                table: "tbl_bank_notice");
+
+            migrationBuilder.DropTable(
+                name: "tbl_card_provider",
+                schema: "payments");
+
+            migrationBuilder.DropIndex(
+                name: "ux_bank_notice_card_external",
+                schema: "payments",
+                table: "tbl_bank_notice");
+
+            migrationBuilder.DropColumn(
+                name: "refunded_amount",
+                schema: "payments",
+                table: "tbl_payment_link");
+
+            migrationBuilder.DropColumn(
+                name: "card_provider_id",
+                schema: "payments",
+                table: "tbl_bank_notice");
+        
+
+            migrationBuilder.DropTable(
+                name: "tbl_payment_link",
+                schema: "payments");
+
+            migrationBuilder.DropColumn(
+                name: "provider_kind",
+                schema: "payments",
+                table: "tbl_payment_method");
+
+            migrationBuilder.DropColumn(
+                name: "payment_link_minutes",
+                schema: "payments",
+                table: "tbl_bank_provider");
+
+            migrationBuilder.DropColumn(
+                name: "payment_return_url",
+                schema: "payments",
+                table: "tbl_bank_provider");
+
+            migrationBuilder.DropColumn(
+                name: "payments_enabled",
+                schema: "payments",
+                table: "tbl_bank_provider");
+        
+
+            migrationBuilder.DropColumn(
+                name: "pending_session",
+                schema: "payments",
+                table: "tbl_bank_connection");
+
+            migrationBuilder.DropTable(
+                name: "tbl_bank_notice",
+                schema: "payments");
+
+            migrationBuilder.DropColumn(
+                name: "response_secret",
+                schema: "payments",
+                table: "tbl_bank_provider");
+        
+
             migrationBuilder.DropForeignKey(
                 name: "fk_tbl_chart_type_created_by",
                 schema: "charts",

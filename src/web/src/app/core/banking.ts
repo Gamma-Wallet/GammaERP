@@ -29,6 +29,12 @@ export interface BankProvider {
   keyReadable: boolean;
   redirectUrl: string;
   accessDays: number;
+  /** The secret the bank signs its "payment received" messages with is set (never shown). */
+  responseSecretSet: boolean;
+  /** Bank of Cyprus: payments from the ERP's payment link page, where the bank sends the payer back, and how long a link lasts. */
+  paymentsEnabled: boolean;
+  paymentReturnUrl: string | null;
+  paymentLinkMinutes: number;
 }
 
 /** What the open banking fields collect; an empty key keeps the key already set (on a change). */
@@ -40,6 +46,13 @@ export interface BankProviderModel {
   keyFileName: string;
   redirectUrl: string;
   accessDays: number;
+  /** The provider's API address; empty = the provider's own. */
+  apiBase: string;
+  /** The bank's response secret; empty keeps the one set. */
+  responseSecret: string;
+  paymentsEnabled: boolean;
+  paymentReturnUrl: string;
+  paymentLinkMinutes: number;
 }
 
 /** The ERP's own page the bank sends the person back to. */
@@ -48,11 +61,13 @@ export function defaultRedirectUrl(origin: string): string {
 }
 
 export function emptyBankProvider(origin: string): BankProviderModel {
-  return { kind: 'EnableBanking', environment: 'Sandbox', applicationId: '', privateKey: '', keyFileName: '', redirectUrl: defaultRedirectUrl(origin), accessDays: 180 };
+  return { kind: 'EnableBanking', environment: 'Sandbox', applicationId: '', privateKey: '', keyFileName: '', redirectUrl: defaultRedirectUrl(origin), accessDays: 180, apiBase: '', responseSecret: '',
+    paymentsEnabled: false, paymentReturnUrl: `${origin.replace(/\/$/, '')}/pay/bank-return`, paymentLinkMinutes: 20 };
 }
 
 export function bankProviderModelOf(p: BankProvider): BankProviderModel {
-  return { kind: p.kind, environment: p.environment, applicationId: p.applicationId, privateKey: '', keyFileName: '', redirectUrl: p.redirectUrl, accessDays: p.accessDays };
+  return { kind: p.kind, environment: p.environment, applicationId: p.applicationId, privateKey: '', keyFileName: '', redirectUrl: p.redirectUrl, accessDays: p.accessDays, apiBase: p.apiBase,
+    responseSecret: '', paymentsEnabled: p.paymentsEnabled, paymentReturnUrl: p.paymentReturnUrl ?? '', paymentLinkMinutes: p.paymentLinkMinutes };
 }
 
 /** Why the fields can't be saved yet; null when they can. A new provider needs its key; a change may keep the one set. */
@@ -61,10 +76,16 @@ export function bankProviderProblem(m: BankProviderModel, keySet: boolean): stri
     return t('Give the application id.');
   }
   if (!m.privateKey.trim() && !keySet) {
-    return t("Choose the application's private key (.pem file).");
+    return m.kind === 'BankOfCyprus' ? t("Give the Bank of Cyprus app's client secret.") : t("Choose the application's private key (.pem file).");
   }
   if (!/^https?:\/\/\S+$/i.test(m.redirectUrl.trim())) {
     return t('Give the full address the bank sends people back to.');
+  }
+  if (m.apiBase.trim() && !/^https:\/\/\S+$/i.test(m.apiBase.trim())) {
+    return t("The provider's API address is a full https address.");
+  }
+  if (m.responseSecret.trim() && m.responseSecret.trim().length < 16) {
+    return t("The bank's response secret is at least 16 characters.");
   }
   if (!(m.accessDays >= 1 && m.accessDays <= 180)) {
     return t('A bank connection asks for 1 to 180 days.');
@@ -75,8 +96,14 @@ export function bankProviderProblem(m: BankProviderModel, keySet: boolean): stri
 export function bankProviderInputOf(m: BankProviderModel): object {
   return {
     kind: m.kind, applicationId: m.applicationId.trim(), privateKey: m.privateKey.trim() || null, redirectUrl: m.redirectUrl.trim(), environment: m.environment,
-    accessDays: m.accessDays,
+    accessDays: m.accessDays, apiBase: m.apiBase.trim() || null, responseSecret: m.responseSecret.trim() || null,
+    paymentsEnabled: m.kind === 'BankOfCyprus' && m.paymentsEnabled, paymentReturnUrl: m.paymentReturnUrl.trim() || null, paymentLinkMinutes: m.paymentLinkMinutes,
   };
+}
+
+/** The ERP's address the bank sends its signed "payment received" messages to. */
+export function bankResponseUrl(origin: string, providerId: string): string {
+  return `${origin.replace(/\/$/, '')}/api/bank-responses/${providerId}`;
 }
 
 /** Whether a file's text looks like a PEM private key (the server checks it properly). */
@@ -104,6 +131,78 @@ export class BankingApi {
   switchOff(): Promise<unknown> {
     return firstValueFrom(this.http.delete('/api/v1/open-banking/provider', { headers: new HttpHeaders() }));
   }
+
+  /** The company's Gamma Wallet connection; null when it has none. */
+  async walletProvider(): Promise<WalletProvider | null> {
+    return (await firstValueFrom(this.http.get<WalletProvider | null>('/api/v1/gamma-wallet/provider'))) ?? null;
+  }
+
+  saveWalletProvider(token: string, apiBase: string): Promise<WalletProvider> {
+    return firstValueFrom(this.http.put<WalletProvider>('/api/v1/gamma-wallet/provider', { token: token.trim() || null, apiBase: apiBase.trim() || null }));
+  }
+
+  /** The company's card gateway (JCC); null when it has none. */
+  async cardProvider(): Promise<CardProvider | null> {
+    return (await firstValueFrom(this.http.get<CardProvider | null>('/api/v1/open-banking/card-provider'))) ?? null;
+  }
+
+  saveCardProvider(m: CardProviderModel): Promise<CardProvider> {
+    return firstValueFrom(this.http.put<CardProvider>('/api/v1/open-banking/card-provider', {
+      kind: 'Jcc', apiUser: m.apiUser.trim(), password: m.password.trim() || null, callbackKey: m.callbackKey.trim() || null, returnUrl: m.returnUrl.trim(),
+      apiBase: m.apiBase.trim() || null, environment: m.environment,
+    }));
+  }
+
+  switchOffCardProvider(): Promise<unknown> {
+    return firstValueFrom(this.http.delete('/api/v1/open-banking/card-provider', { headers: new HttpHeaders() }));
+  }
+}
+
+/** The company's Gamma Wallet connection as the server shows it: never the token. */
+export interface WalletProvider {
+  id: string;
+  apiBase: string;
+  tokenSet: boolean;
+  tokenFingerprint: string | null;
+  gammaBusinessId: string | null;
+  businessName: string | null;
+  currencyCode: string | null;
+  canClaim: boolean;
+  checkedOn: string | null;
+}
+
+/** The company's JCC merchant account as the server shows it: never the password or the key. */
+export interface CardProvider {
+  id: string;
+  kind: string;
+  name: string | null;
+  environment: string;
+  apiBase: string;
+  apiUser: string;
+  passwordSet: boolean;
+  passwordReadable: boolean;
+  callbackKeySet: boolean;
+  returnUrl: string;
+}
+
+/** What the card payment fields collect; an empty password or key keeps the one set. */
+export interface CardProviderModel {
+  apiUser: string;
+  password: string;
+  callbackKey: string;
+  returnUrl: string;
+  apiBase: string;
+  environment: string;
+}
+
+export function cardProviderModelOf(p: CardProvider | null, origin: string): CardProviderModel {
+  return { apiUser: p?.apiUser ?? '', password: '', callbackKey: '', returnUrl: p?.returnUrl ?? `${origin.replace(/\/$/, '')}/pay/card-return`,
+    apiBase: p?.apiBase ?? '', environment: p?.environment ?? 'Test' };
+}
+
+/** The ERP's address JCC sends its callbacks (with checksum) to. */
+export function cardCallbackUrl(origin: string, providerId: string): string {
+  return `${origin.replace(/\/$/, '')}/api/card-callbacks/${providerId}`;
 }
 
 /** An account the bank gave when the person signed in. */

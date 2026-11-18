@@ -14,11 +14,11 @@ public sealed record BankProviderKind(string Kind, string Name, string ApiBase);
 /// environment, how long a connection asks for, a name and the API address. On a change an empty key keeps the key already set.
 /// </summary>
 public sealed record BankProviderInput(string Kind, string ApplicationId, string? PrivateKey, string? RedirectUrl, string? Environment = null, int? AccessDays = null,
-    string? Name = null, string? ApiBase = null);
+    string? Name = null, string? ApiBase = null, string? ResponseSecret = null, bool? PaymentsEnabled = null, string? PaymentReturnUrl = null, int? PaymentLinkMinutes = null);
 
 /// <summary>A company's provider as shown: never the key, only whether one is set, its fingerprint, and whether the host can still open it.</summary>
 public sealed record BankProviderDto(Guid Id, string Kind, string? Name, string Environment, string ApiBase, string ApplicationId, bool KeySet, string? KeyFingerprint,
-    bool KeyReadable, string RedirectUrl, int AccessDays);
+    bool KeyReadable, string RedirectUrl, int AccessDays, bool ResponseSecretSet = false, bool PaymentsEnabled = false, string? PaymentReturnUrl = null, int PaymentLinkMinutes = 20);
 
 /// <summary>
 /// The company's open banking provider (the founder, 2026-11-14): one per company, entered when the company is made or later by an administrator under
@@ -29,7 +29,12 @@ public sealed class BankProviders(ErpDbContext db, RequestContext request, Visib
     public const int MaxAccessDays = 180;
 
     /// <summary>The adapters the ERP has.</summary>
-    public static IReadOnlyList<BankProviderKind> Kinds { get; } = [new("EnableBanking", "Enable Banking", "https://api.enablebanking.com")];
+    public static IReadOnlyList<BankProviderKind> Kinds { get; } =
+    [
+        new("EnableBanking", "Enable Banking", "https://api.enablebanking.com"),
+        // Bank of Cyprus's own PSD2 API (the founder, 2026-11-18): the application id is the app's client id and the key is its client secret.
+        new(BankOfCyprusConnector.KindName, "Bank of Cyprus", "https://sandbox-apis.bankofcyprus.com/df-boc-org-sb/sb/psd2"),
+    ];
 
     /// <summary>Test banks, or real accounts.</summary>
     public static IReadOnlyList<string> Environments { get; } = ["Sandbox", "Production"];
@@ -90,7 +95,7 @@ public sealed class BankProviders(ErpDbContext db, RequestContext request, Visib
         ArgumentNullException.ThrowIfNull(secrets);
         var set = row.PrivateKey.Length > 0;
         return new BankProviderDto(row.Id, row.Kind, row.Name, row.Environment, row.ApiBase, row.ApplicationId, set, row.KeyFingerprint, set && secrets.Open(row.PrivateKey) is not null,
-            row.RedirectUrl, row.AccessDays);
+            row.RedirectUrl, row.AccessDays, row.ResponseSecret is { Length: > 0 }, row.PaymentsEnabled, row.PaymentReturnUrl, row.PaymentLinkMinutes);
     }
 
     /// <summary>The fingerprint of a key's public half: the first 8 bytes of its SHA-256, in hex pairs.</summary>
@@ -143,7 +148,21 @@ public sealed class BankProviders(ErpDbContext db, RequestContext request, Visib
         }
 
         string? sealedKey = null, fingerprint = null;
-        if (!string.IsNullOrWhiteSpace(input.PrivateKey))
+        if (kind?.Kind == BankOfCyprusConnector.KindName && !string.IsNullOrWhiteSpace(input.PrivateKey))
+        {
+            // Bank of Cyprus: the app's client secret, a text, not a key file.
+            var secret = input.PrivateKey.Trim();
+            if (secret.Length is < 8 or > 200 || secret.Any(char.IsWhiteSpace))
+            {
+                errors["privateKey"] = "The client secret is the Bank of Cyprus app's secret: 8 to 200 characters, no spaces.";
+            }
+            else
+            {
+                (sealedKey, fingerprint) = (secrets.Seal(secret), string.Join(':', SHA256.HashData(System.Text.Encoding.UTF8.GetBytes(secret)).Take(8)
+                    .Select(b => b.ToString("x2", System.Globalization.CultureInfo.InvariantCulture))));
+            }
+        }
+        else if (!string.IsNullOrWhiteSpace(input.PrivateKey))
         {
             try
             {
@@ -165,14 +184,54 @@ public sealed class BankProviders(ErpDbContext db, RequestContext request, Visib
                 errors["privateKey"] = "The private key is not an RSA private key in PEM form (the .pem file the provider gave).";
             }
         }
-        else if (keyRequired || row.PrivateKey.Length == 0)
+        else if (keyRequired || row.PrivateKey.Length == 0 || row.Kind != kind?.Kind)
         {
-            errors["privateKey"] = "Give the application's private key (the .pem file).";
+            // A new provider, or another kind (its key would not fit), needs its own key.
+            errors["privateKey"] = kind?.Kind == BankOfCyprusConnector.KindName ? "Give the Bank of Cyprus app's client secret." : "Give the application's private key (the .pem file).";
+        }
+
+        // The secret the bank signs its "payment received" messages with: the same text is set at the bank. Empty keeps the one set.
+        string? sealedResponse = null;
+        if (!string.IsNullOrWhiteSpace(input.ResponseSecret))
+        {
+            var response = input.ResponseSecret.Trim();
+            if (response.Length is < 16 or > 200)
+            {
+                errors["responseSecret"] = "The bank's response secret is 16 to 200 characters, the same as set at the bank.";
+            }
+            else
+            {
+                sealedResponse = secrets.Seal(response);
+            }
+        }
+
+        // Payments from the ERP's payment link page: Bank of Cyprus only, with the address the bank sends the payer back to (the ERP's /pay/bank-return).
+        var payments = input.PaymentsEnabled ?? row.PaymentsEnabled;
+        var paymentReturn = string.IsNullOrWhiteSpace(input.PaymentReturnUrl) ? row.PaymentReturnUrl : input.PaymentReturnUrl.Trim();
+        var minutes = input.PaymentLinkMinutes ?? row.PaymentLinkMinutes;
+        if (payments && kind?.Kind != BankOfCyprusConnector.KindName)
+        {
+            errors["paymentsEnabled"] = "Payments from the payment link are made through Bank of Cyprus only.";
+        }
+        else if (payments && !Address(paymentReturn, httpAllowed: true))
+        {
+            errors["paymentReturnUrl"] = "Where the bank sends the payer back: the ERP's address and /pay/bank-return, one of the app's redirect URIs at the bank.";
+        }
+
+        if (minutes is < 1 or > 1440)
+        {
+            errors["paymentLinkMinutes"] = "A payment link lasts 1 to 1440 minutes.";
         }
 
         if (errors.Count > 0)
         {
             throw new ValidationException(errors);
+        }
+
+        (row.PaymentsEnabled, row.PaymentReturnUrl, row.PaymentLinkMinutes) = (payments, paymentReturn, minutes);
+        if (sealedResponse is not null)
+        {
+            row.ResponseSecret = sealedResponse;
         }
 
         row.Kind = kind!.Kind;

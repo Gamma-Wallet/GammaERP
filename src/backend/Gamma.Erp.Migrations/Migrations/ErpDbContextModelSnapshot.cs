@@ -4377,6 +4377,10 @@ namespace Gamma.Erp.Migrations.Migrations
                         .HasColumnType("jsonb")
                         .HasColumnName("description");
 
+                    b.Property<bool>("Fiscalise")
+                        .HasColumnType("boolean")
+                        .HasColumnName("fiscalise");
+
                     b.Property<bool>("HoldsOpenItem")
                         .HasColumnType("boolean")
                         .HasColumnName("holds_open_item");
@@ -8304,6 +8308,10 @@ namespace Gamma.Erp.Migrations.Migrations
                         .HasColumnType("jsonb")
                         .HasColumnName("pending_accounts");
 
+                    b.Property<string>("PendingSession")
+                        .HasColumnType("text")
+                        .HasColumnName("pending_session");
+
                     b.Property<string>("PendingState")
                         .HasColumnType("text")
                         .HasColumnName("pending_state");
@@ -8353,6 +8361,147 @@ namespace Gamma.Erp.Migrations.Migrations
                         .HasDatabaseName("ix_tbl_bank_connection_tenant_id");
 
                     b.ToTable("tbl_bank_connection", "payments");
+                });
+
+            modelBuilder.Entity("Gamma.Erp.Models.Payments.BankNotice", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .HasColumnType("uuid")
+                        .HasColumnName("id");
+
+                    b.Property<bool>("Active")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("boolean")
+                        .HasDefaultValue(true)
+                        .HasColumnName("active");
+
+                    b.Property<decimal>("Amount")
+                        .HasPrecision(19, 6)
+                        .HasColumnType("numeric(19,6)")
+                        .HasColumnName("amount");
+
+                    b.Property<Guid?>("BankId")
+                        .HasColumnType("uuid")
+                        .HasColumnName("bank_id");
+
+                    b.Property<Guid?>("BankStatementLineId")
+                        .HasColumnType("uuid")
+                        .HasColumnName("bank_statement_line_id");
+
+                    b.Property<bool>("Booked")
+                        .HasColumnType("boolean")
+                        .HasColumnName("booked");
+
+                    b.Property<DateOnly>("BookedOn")
+                        .HasColumnType("date")
+                        .HasColumnName("booked_on");
+
+                    b.Property<Guid?>("CardProviderId")
+                        .HasColumnType("uuid")
+                        .HasColumnName("card_provider_id");
+
+                    b.Property<Guid?>("CreatedBy")
+                        .HasColumnType("uuid")
+                        .HasColumnName("created_by");
+
+                    b.Property<DateTimeOffset>("CreatedOn")
+                        .HasColumnType("timestamp with time zone")
+                        .HasColumnName("created_on");
+
+                    b.Property<string>("Currency")
+                        .IsRequired()
+                        .HasColumnType("text")
+                        .HasColumnName("currency");
+
+                    b.Property<string>("ExternalId")
+                        .IsRequired()
+                        .HasColumnType("text")
+                        .HasColumnName("external_id");
+
+                    b.Property<Guid?>("IdChange")
+                        .HasColumnType("uuid")
+                        .HasColumnName("id_change");
+
+                    b.Property<Guid?>("IdSup")
+                        .HasColumnType("uuid")
+                        .HasColumnName("id_sup");
+
+                    b.Property<string>("Kind")
+                        .IsRequired()
+                        .HasColumnType("text")
+                        .HasColumnName("kind");
+
+                    b.Property<string>("MessageId")
+                        .HasColumnType("text")
+                        .HasColumnName("message_id");
+
+                    b.Property<Guid?>("OwnerId")
+                        .HasColumnType("uuid")
+                        .HasColumnName("owner_id");
+
+                    b.Property<string>("PayerIban")
+                        .HasColumnType("text")
+                        .HasColumnName("payer_iban");
+
+                    b.Property<string>("PayerName")
+                        .HasColumnType("text")
+                        .HasColumnName("payer_name");
+
+                    b.Property<Guid?>("ProviderId")
+                        .HasColumnType("uuid")
+                        .HasColumnName("provider_id");
+
+                    b.Property<string>("ProviderReference")
+                        .HasColumnType("text")
+                        .HasColumnName("provider_reference");
+
+                    b.Property<DateTimeOffset>("ReceivedOn")
+                        .HasColumnType("timestamp with time zone")
+                        .HasColumnName("received_on");
+
+                    b.Property<string>("Reference")
+                        .HasColumnType("text")
+                        .HasColumnName("reference");
+
+                    b.Property<Guid>("TenantId")
+                        .HasColumnType("uuid")
+                        .HasColumnName("tenant_id");
+
+                    b.HasKey("Id")
+                        .HasName("pk_tbl_bank_notice");
+
+                    b.HasIndex("BankId")
+                        .HasDatabaseName("ix_tbl_bank_notice_bank_id");
+
+                    b.HasIndex("BankStatementLineId")
+                        .HasDatabaseName("ix_tbl_bank_notice_bank_statement_line_id");
+
+                    b.HasIndex("CreatedBy")
+                        .HasDatabaseName("ix_tbl_bank_notice_created_by");
+
+                    b.HasIndex("IdChange")
+                        .HasDatabaseName("ix_tbl_bank_notice_id_change");
+
+                    b.HasIndex("IdSup")
+                        .HasDatabaseName("ix_tbl_bank_notice_id_sup");
+
+                    b.HasIndex("OwnerId")
+                        .HasDatabaseName("ix_tbl_bank_notice_owner_id");
+
+                    b.HasIndex("TenantId")
+                        .HasDatabaseName("ix_tbl_bank_notice_tenant_id");
+
+                    b.HasIndex("CardProviderId", "ExternalId")
+                        .IsUnique()
+                        .HasDatabaseName("ux_bank_notice_card_external")
+                        .HasFilter("active AND card_provider_id IS NOT NULL");
+
+                    b.HasIndex("ProviderId", "ExternalId")
+                        .IsUnique()
+                        .HasDatabaseName("ux_bank_notice_provider_external")
+                        .HasFilter("active AND provider_id IS NOT NULL");
+
+                    b.ToTable("tbl_bank_notice", "payments");
                 });
 
             modelBuilder.Entity("Gamma.Erp.Models.Payments.BankProvider", b =>
@@ -8419,6 +8568,18 @@ namespace Gamma.Erp.Migrations.Migrations
                         .HasColumnType("uuid")
                         .HasColumnName("owner_id");
 
+                    b.Property<int>("PaymentLinkMinutes")
+                        .HasColumnType("integer")
+                        .HasColumnName("payment_link_minutes");
+
+                    b.Property<string>("PaymentReturnUrl")
+                        .HasColumnType("text")
+                        .HasColumnName("payment_return_url");
+
+                    b.Property<bool>("PaymentsEnabled")
+                        .HasColumnType("boolean")
+                        .HasColumnName("payments_enabled");
+
                     b.Property<string>("PrivateKey")
                         .IsRequired()
                         .HasColumnType("text")
@@ -8428,6 +8589,10 @@ namespace Gamma.Erp.Migrations.Migrations
                         .IsRequired()
                         .HasColumnType("text")
                         .HasColumnName("redirect_url");
+
+                    b.Property<string>("ResponseSecret")
+                        .HasColumnType("text")
+                        .HasColumnName("response_secret");
 
                     b.Property<Guid>("TenantId")
                         .HasColumnType("uuid")
@@ -8452,6 +8617,440 @@ namespace Gamma.Erp.Migrations.Migrations
                         .HasDatabaseName("ix_tbl_bank_provider_tenant_id");
 
                     b.ToTable("tbl_bank_provider", "payments");
+                });
+
+            modelBuilder.Entity("Gamma.Erp.Models.Payments.CardProvider", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .HasColumnType("uuid")
+                        .HasColumnName("id");
+
+                    b.Property<bool>("Active")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("boolean")
+                        .HasDefaultValue(true)
+                        .HasColumnName("active");
+
+                    b.Property<string>("ApiBase")
+                        .IsRequired()
+                        .HasColumnType("text")
+                        .HasColumnName("api_base");
+
+                    b.Property<string>("ApiUser")
+                        .IsRequired()
+                        .HasColumnType("text")
+                        .HasColumnName("api_user");
+
+                    b.Property<string>("CallbackKey")
+                        .HasColumnType("text")
+                        .HasColumnName("callback_key");
+
+                    b.Property<Guid?>("CreatedBy")
+                        .HasColumnType("uuid")
+                        .HasColumnName("created_by");
+
+                    b.Property<DateTimeOffset>("CreatedOn")
+                        .HasColumnType("timestamp with time zone")
+                        .HasColumnName("created_on");
+
+                    b.Property<string>("Environment")
+                        .IsRequired()
+                        .HasColumnType("text")
+                        .HasColumnName("environment");
+
+                    b.Property<Guid?>("IdChange")
+                        .HasColumnType("uuid")
+                        .HasColumnName("id_change");
+
+                    b.Property<Guid?>("IdSup")
+                        .HasColumnType("uuid")
+                        .HasColumnName("id_sup");
+
+                    b.Property<string>("Kind")
+                        .IsRequired()
+                        .HasColumnType("text")
+                        .HasColumnName("kind");
+
+                    b.Property<string>("Name")
+                        .HasColumnType("text")
+                        .HasColumnName("name");
+
+                    b.Property<Guid?>("OwnerId")
+                        .HasColumnType("uuid")
+                        .HasColumnName("owner_id");
+
+                    b.Property<string>("Password")
+                        .IsRequired()
+                        .HasColumnType("text")
+                        .HasColumnName("password");
+
+                    b.Property<string>("ReturnUrl")
+                        .IsRequired()
+                        .HasColumnType("text")
+                        .HasColumnName("return_url");
+
+                    b.Property<Guid>("TenantId")
+                        .HasColumnType("uuid")
+                        .HasColumnName("tenant_id");
+
+                    b.HasKey("Id")
+                        .HasName("pk_tbl_card_provider");
+
+                    b.HasIndex("CreatedBy")
+                        .HasDatabaseName("ix_tbl_card_provider_created_by");
+
+                    b.HasIndex("IdChange")
+                        .HasDatabaseName("ix_tbl_card_provider_id_change");
+
+                    b.HasIndex("IdSup")
+                        .HasDatabaseName("ix_tbl_card_provider_id_sup");
+
+                    b.HasIndex("OwnerId")
+                        .HasDatabaseName("ix_tbl_card_provider_owner_id");
+
+                    b.HasIndex("TenantId")
+                        .HasDatabaseName("ix_tbl_card_provider_tenant_id");
+
+                    b.ToTable("tbl_card_provider", "payments");
+                });
+
+            modelBuilder.Entity("Gamma.Erp.Models.Payments.FiscalProvider", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .HasColumnType("uuid")
+                        .HasColumnName("id");
+
+                    b.Property<bool>("Active")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("boolean")
+                        .HasDefaultValue(true)
+                        .HasColumnName("active");
+
+                    b.Property<string>("ApiBase")
+                        .IsRequired()
+                        .HasColumnType("text")
+                        .HasColumnName("api_base");
+
+                    b.Property<string>("Certificate")
+                        .HasColumnType("text")
+                        .HasColumnName("certificate");
+
+                    b.Property<string>("CertificateNumber")
+                        .HasColumnType("text")
+                        .HasColumnName("certificate_number");
+
+                    b.Property<string>("Codes")
+                        .HasColumnType("jsonb")
+                        .HasColumnName("codes");
+
+                    b.Property<Guid?>("CreatedBy")
+                        .HasColumnType("uuid")
+                        .HasColumnName("created_by");
+
+                    b.Property<DateTimeOffset>("CreatedOn")
+                        .HasColumnType("timestamp with time zone")
+                        .HasColumnName("created_on");
+
+                    b.Property<string>("Environment")
+                        .IsRequired()
+                        .HasColumnType("text")
+                        .HasColumnName("environment");
+
+                    b.Property<Guid?>("IdChange")
+                        .HasColumnType("uuid")
+                        .HasColumnName("id_change");
+
+                    b.Property<Guid?>("IdSup")
+                        .HasColumnType("uuid")
+                        .HasColumnName("id_sup");
+
+                    b.Property<string>("IssuerTaxNumber")
+                        .IsRequired()
+                        .HasColumnType("text")
+                        .HasColumnName("issuer_tax_number");
+
+                    b.Property<string>("Kind")
+                        .IsRequired()
+                        .HasColumnType("text")
+                        .HasColumnName("kind");
+
+                    b.Property<string>("Name")
+                        .HasColumnType("text")
+                        .HasColumnName("name");
+
+                    b.Property<Guid?>("OwnerId")
+                        .HasColumnType("uuid")
+                        .HasColumnName("owner_id");
+
+                    b.Property<string>("SoftwareCode")
+                        .HasColumnType("text")
+                        .HasColumnName("software_code");
+
+                    b.Property<Guid>("TenantId")
+                        .HasColumnType("uuid")
+                        .HasColumnName("tenant_id");
+
+                    b.HasKey("Id")
+                        .HasName("pk_tbl_fiscal_provider");
+
+                    b.HasIndex("CreatedBy")
+                        .HasDatabaseName("ix_tbl_fiscal_provider_created_by");
+
+                    b.HasIndex("IdChange")
+                        .HasDatabaseName("ix_tbl_fiscal_provider_id_change");
+
+                    b.HasIndex("IdSup")
+                        .HasDatabaseName("ix_tbl_fiscal_provider_id_sup");
+
+                    b.HasIndex("OwnerId")
+                        .HasDatabaseName("ix_tbl_fiscal_provider_owner_id");
+
+                    b.HasIndex("TenantId")
+                        .HasDatabaseName("ix_tbl_fiscal_provider_tenant_id");
+
+                    b.ToTable("tbl_fiscal_provider", "payments");
+                });
+
+            modelBuilder.Entity("Gamma.Erp.Models.Payments.FiscalReceipt", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .HasColumnType("uuid")
+                        .HasColumnName("id");
+
+                    b.Property<bool>("Active")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("boolean")
+                        .HasDefaultValue(true)
+                        .HasColumnName("active");
+
+                    b.Property<string>("Answer")
+                        .HasColumnType("jsonb")
+                        .HasColumnName("answer");
+
+                    b.Property<int>("Attempts")
+                        .HasColumnType("integer")
+                        .HasColumnName("attempts");
+
+                    b.Property<string>("AuthorityCode")
+                        .HasColumnType("text")
+                        .HasColumnName("authority_code");
+
+                    b.Property<Guid?>("BankStatementLineId")
+                        .HasColumnType("uuid")
+                        .HasColumnName("bank_statement_line_id");
+
+                    b.Property<DateTimeOffset?>("ConfirmedOn")
+                        .HasColumnType("timestamp with time zone")
+                        .HasColumnName("confirmed_on");
+
+                    b.Property<Guid?>("CreatedBy")
+                        .HasColumnType("uuid")
+                        .HasColumnName("created_by");
+
+                    b.Property<DateTimeOffset>("CreatedOn")
+                        .HasColumnType("timestamp with time zone")
+                        .HasColumnName("created_on");
+
+                    b.Property<DateTimeOffset?>("DeclaredOn")
+                        .HasColumnType("timestamp with time zone")
+                        .HasColumnName("declared_on");
+
+                    b.Property<Guid>("DocumentId")
+                        .HasColumnType("uuid")
+                        .HasColumnName("document_id");
+
+                    b.Property<string>("Errors")
+                        .HasColumnType("text")
+                        .HasColumnName("errors");
+
+                    b.Property<Guid>("FiscalProviderId")
+                        .HasColumnType("uuid")
+                        .HasColumnName("fiscal_provider_id");
+
+                    b.Property<Guid>("FiscalSeriesId")
+                        .HasColumnType("uuid")
+                        .HasColumnName("fiscal_series_id");
+
+                    b.Property<string>("Hash")
+                        .HasColumnType("text")
+                        .HasColumnName("hash");
+
+                    b.Property<Guid?>("IdChange")
+                        .HasColumnType("uuid")
+                        .HasColumnName("id_change");
+
+                    b.Property<Guid?>("IdSup")
+                        .HasColumnType("uuid")
+                        .HasColumnName("id_sup");
+
+                    b.Property<int?>("Number")
+                        .HasColumnType("integer")
+                        .HasColumnName("number");
+
+                    b.Property<Guid?>("OwnerId")
+                        .HasColumnType("uuid")
+                        .HasColumnName("owner_id");
+
+                    b.Property<Guid?>("PaymentMethodId")
+                        .HasColumnType("uuid")
+                        .HasColumnName("payment_method_id");
+
+                    b.Property<string>("PaymentReference")
+                        .HasColumnType("text")
+                        .HasColumnName("payment_reference");
+
+                    b.Property<string>("QrText")
+                        .HasColumnType("text")
+                        .HasColumnName("qr_text");
+
+                    b.Property<string>("Status")
+                        .IsRequired()
+                        .HasColumnType("text")
+                        .HasColumnName("status");
+
+                    b.Property<Guid>("TenantId")
+                        .HasColumnType("uuid")
+                        .HasColumnName("tenant_id");
+
+                    b.HasKey("Id")
+                        .HasName("pk_tbl_fiscal_receipt");
+
+                    b.HasIndex("BankStatementLineId")
+                        .HasDatabaseName("ix_tbl_fiscal_receipt_bank_statement_line_id");
+
+                    b.HasIndex("CreatedBy")
+                        .HasDatabaseName("ix_tbl_fiscal_receipt_created_by");
+
+                    b.HasIndex("DocumentId")
+                        .HasDatabaseName("ix_tbl_fiscal_receipt_document_id");
+
+                    b.HasIndex("FiscalProviderId")
+                        .HasDatabaseName("ix_tbl_fiscal_receipt_fiscal_provider_id");
+
+                    b.HasIndex("FiscalSeriesId")
+                        .HasDatabaseName("ix_tbl_fiscal_receipt_fiscal_series_id");
+
+                    b.HasIndex("IdChange")
+                        .HasDatabaseName("ix_tbl_fiscal_receipt_id_change");
+
+                    b.HasIndex("IdSup")
+                        .HasDatabaseName("ix_tbl_fiscal_receipt_id_sup");
+
+                    b.HasIndex("OwnerId")
+                        .HasDatabaseName("ix_tbl_fiscal_receipt_owner_id");
+
+                    b.HasIndex("PaymentMethodId")
+                        .HasDatabaseName("ix_tbl_fiscal_receipt_payment_method_id");
+
+                    b.HasIndex("TenantId")
+                        .HasDatabaseName("ix_tbl_fiscal_receipt_tenant_id");
+
+                    b.ToTable("tbl_fiscal_receipt", "payments");
+                });
+
+            modelBuilder.Entity("Gamma.Erp.Models.Payments.FiscalSeries", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .HasColumnType("uuid")
+                        .HasColumnName("id");
+
+                    b.Property<bool>("Active")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("boolean")
+                        .HasDefaultValue(true)
+                        .HasColumnName("active");
+
+                    b.Property<Guid>("CostCenterId")
+                        .HasColumnType("uuid")
+                        .HasColumnName("cost_center_id");
+
+                    b.Property<Guid?>("CreatedBy")
+                        .HasColumnType("uuid")
+                        .HasColumnName("created_by");
+
+                    b.Property<DateTimeOffset>("CreatedOn")
+                        .HasColumnType("timestamp with time zone")
+                        .HasColumnName("created_on");
+
+                    b.Property<string>("DeviceCode")
+                        .HasColumnType("text")
+                        .HasColumnName("device_code");
+
+                    b.Property<string>("DocumentCode")
+                        .IsRequired()
+                        .HasColumnType("text")
+                        .HasColumnName("document_code");
+
+                    b.Property<Guid>("FiscalProviderId")
+                        .HasColumnType("uuid")
+                        .HasColumnName("fiscal_provider_id");
+
+                    b.Property<Guid?>("IdChange")
+                        .HasColumnType("uuid")
+                        .HasColumnName("id_change");
+
+                    b.Property<Guid?>("IdSup")
+                        .HasColumnType("uuid")
+                        .HasColumnName("id_sup");
+
+                    b.Property<string>("LastHash")
+                        .HasColumnType("text")
+                        .HasColumnName("last_hash");
+
+                    b.Property<DateTimeOffset?>("LastIssuedOn")
+                        .HasColumnType("timestamp with time zone")
+                        .HasColumnName("last_issued_on");
+
+                    b.Property<int>("LastNumber")
+                        .HasColumnType("integer")
+                        .HasColumnName("last_number");
+
+                    b.Property<Guid?>("OwnerId")
+                        .HasColumnType("uuid")
+                        .HasColumnName("owner_id");
+
+                    b.Property<string>("SeriesCode")
+                        .IsRequired()
+                        .HasColumnType("text")
+                        .HasColumnName("series_code");
+
+                    b.Property<Guid>("TenantId")
+                        .HasColumnType("uuid")
+                        .HasColumnName("tenant_id");
+
+                    b.Property<string>("UnitCode")
+                        .HasColumnType("text")
+                        .HasColumnName("unit_code");
+
+                    b.Property<string>("ValidationCode")
+                        .HasColumnType("text")
+                        .HasColumnName("validation_code");
+
+                    b.HasKey("Id")
+                        .HasName("pk_tbl_fiscal_series");
+
+                    b.HasIndex("CostCenterId")
+                        .HasDatabaseName("ix_tbl_fiscal_series_cost_center_id");
+
+                    b.HasIndex("CreatedBy")
+                        .HasDatabaseName("ix_tbl_fiscal_series_created_by");
+
+                    b.HasIndex("FiscalProviderId")
+                        .HasDatabaseName("ix_tbl_fiscal_series_fiscal_provider_id");
+
+                    b.HasIndex("IdChange")
+                        .HasDatabaseName("ix_tbl_fiscal_series_id_change");
+
+                    b.HasIndex("IdSup")
+                        .HasDatabaseName("ix_tbl_fiscal_series_id_sup");
+
+                    b.HasIndex("OwnerId")
+                        .HasDatabaseName("ix_tbl_fiscal_series_owner_id");
+
+                    b.HasIndex("TenantId")
+                        .HasDatabaseName("ix_tbl_fiscal_series_tenant_id");
+
+                    b.ToTable("tbl_fiscal_series", "payments");
                 });
 
             modelBuilder.Entity("Gamma.Erp.Models.Payments.InterPaymentMethodDocumentType", b =>
@@ -8525,6 +9124,146 @@ namespace Gamma.Erp.Migrations.Migrations
                     b.ToTable("tbl_inter_payment_method_document_type", "payments");
                 });
 
+            modelBuilder.Entity("Gamma.Erp.Models.Payments.PaymentLink", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .HasColumnType("uuid")
+                        .HasColumnName("id");
+
+                    b.Property<bool>("Active")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("boolean")
+                        .HasDefaultValue(true)
+                        .HasColumnName("active");
+
+                    b.Property<decimal>("Amount")
+                        .HasPrecision(19, 6)
+                        .HasColumnType("numeric(19,6)")
+                        .HasColumnName("amount");
+
+                    b.Property<Guid>("BankId")
+                        .HasColumnType("uuid")
+                        .HasColumnName("bank_id");
+
+                    b.Property<Guid?>("BankNoticeId")
+                        .HasColumnType("uuid")
+                        .HasColumnName("bank_notice_id");
+
+                    b.Property<Guid?>("CreatedBy")
+                        .HasColumnType("uuid")
+                        .HasColumnName("created_by");
+
+                    b.Property<DateTimeOffset>("CreatedOn")
+                        .HasColumnType("timestamp with time zone")
+                        .HasColumnName("created_on");
+
+                    b.Property<string>("Currency")
+                        .IsRequired()
+                        .HasColumnType("text")
+                        .HasColumnName("currency");
+
+                    b.Property<DateTimeOffset>("ExpiresOn")
+                        .HasColumnType("timestamp with time zone")
+                        .HasColumnName("expires_on");
+
+                    b.Property<Guid?>("IdChange")
+                        .HasColumnType("uuid")
+                        .HasColumnName("id_change");
+
+                    b.Property<Guid?>("IdSup")
+                        .HasColumnType("uuid")
+                        .HasColumnName("id_sup");
+
+                    b.Property<string>("Method")
+                        .HasColumnType("text")
+                        .HasColumnName("method");
+
+                    b.Property<Guid?>("OwnerId")
+                        .HasColumnType("uuid")
+                        .HasColumnName("owner_id");
+
+                    b.Property<DateTimeOffset?>("PaidOn")
+                        .HasColumnType("timestamp with time zone")
+                        .HasColumnName("paid_on");
+
+                    b.Property<string>("PayToken")
+                        .IsRequired()
+                        .HasColumnType("text")
+                        .HasColumnName("pay_token");
+
+                    b.Property<Guid>("PaymentMethodId")
+                        .HasColumnType("uuid")
+                        .HasColumnName("payment_method_id");
+
+                    b.Property<Guid>("PointOfSaleId")
+                        .HasColumnType("uuid")
+                        .HasColumnName("point_of_sale_id");
+
+                    b.Property<string>("ProviderPaymentId")
+                        .HasColumnType("text")
+                        .HasColumnName("provider_payment_id");
+
+                    b.Property<string>("ProviderReference")
+                        .HasColumnType("text")
+                        .HasColumnName("provider_reference");
+
+                    b.Property<string>("Reference")
+                        .IsRequired()
+                        .HasColumnType("text")
+                        .HasColumnName("reference");
+
+                    b.Property<decimal>("RefundedAmount")
+                        .HasPrecision(19, 6)
+                        .HasColumnType("numeric(19,6)")
+                        .HasColumnName("refunded_amount");
+
+                    b.Property<string>("Status")
+                        .IsRequired()
+                        .HasColumnType("text")
+                        .HasColumnName("status");
+
+                    b.Property<Guid>("TenantId")
+                        .HasColumnType("uuid")
+                        .HasColumnName("tenant_id");
+
+                    b.HasKey("Id")
+                        .HasName("pk_tbl_payment_link");
+
+                    b.HasIndex("BankId")
+                        .HasDatabaseName("ix_tbl_payment_link_bank_id");
+
+                    b.HasIndex("BankNoticeId")
+                        .HasDatabaseName("ix_tbl_payment_link_bank_notice_id");
+
+                    b.HasIndex("CreatedBy")
+                        .HasDatabaseName("ix_tbl_payment_link_created_by");
+
+                    b.HasIndex("IdChange")
+                        .HasDatabaseName("ix_tbl_payment_link_id_change");
+
+                    b.HasIndex("IdSup")
+                        .HasDatabaseName("ix_tbl_payment_link_id_sup");
+
+                    b.HasIndex("OwnerId")
+                        .HasDatabaseName("ix_tbl_payment_link_owner_id");
+
+                    b.HasIndex("PayToken")
+                        .IsUnique()
+                        .HasDatabaseName("ux_payment_link_token")
+                        .HasFilter("active");
+
+                    b.HasIndex("PaymentMethodId")
+                        .HasDatabaseName("ix_tbl_payment_link_payment_method_id");
+
+                    b.HasIndex("PointOfSaleId")
+                        .HasDatabaseName("ix_tbl_payment_link_point_of_sale_id");
+
+                    b.HasIndex("TenantId")
+                        .HasDatabaseName("ix_tbl_payment_link_tenant_id");
+
+                    b.ToTable("tbl_payment_link", "payments");
+                });
+
             modelBuilder.Entity("Gamma.Erp.Models.Payments.PaymentMethod", b =>
                 {
                     b.Property<Guid>("Id")
@@ -8572,6 +9311,14 @@ namespace Gamma.Erp.Migrations.Migrations
                     b.Property<Guid?>("OwnerId")
                         .HasColumnType("uuid")
                         .HasColumnName("owner_id");
+
+                    b.Property<string>("ProviderKind")
+                        .HasColumnType("text")
+                        .HasColumnName("provider_kind");
+
+                    b.Property<bool>("PushesToWallet")
+                        .HasColumnType("boolean")
+                        .HasColumnName("pushes_to_wallet");
 
                     b.Property<bool>("ShowsBankQr")
                         .HasColumnType("boolean")
@@ -8847,6 +9594,221 @@ namespace Gamma.Erp.Migrations.Migrations
                         .HasDatabaseName("ix_tbl_vat_return_box_rule_vat_group_id");
 
                     b.ToTable("tbl_vat_return_box_rule", "payments");
+                });
+
+            modelBuilder.Entity("Gamma.Erp.Models.Payments.WalletBill", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .HasColumnType("uuid")
+                        .HasColumnName("id");
+
+                    b.Property<bool>("Active")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("boolean")
+                        .HasDefaultValue(true)
+                        .HasColumnName("active");
+
+                    b.Property<int>("Attempts")
+                        .HasColumnType("integer")
+                        .HasColumnName("attempts");
+
+                    b.Property<DateTimeOffset?>("ClaimedOn")
+                        .HasColumnType("timestamp with time zone")
+                        .HasColumnName("claimed_on");
+
+                    b.Property<string>("Code")
+                        .HasColumnType("text")
+                        .HasColumnName("code");
+
+                    b.Property<Guid?>("CreatedBy")
+                        .HasColumnType("uuid")
+                        .HasColumnName("created_by");
+
+                    b.Property<DateTimeOffset>("CreatedOn")
+                        .HasColumnType("timestamp with time zone")
+                        .HasColumnName("created_on");
+
+                    b.Property<string>("CurrencyCode")
+                        .IsRequired()
+                        .HasColumnType("text")
+                        .HasColumnName("currency_code");
+
+                    b.Property<Guid>("DocumentId")
+                        .HasColumnType("uuid")
+                        .HasColumnName("document_id");
+
+                    b.Property<string>("Errors")
+                        .HasColumnType("text")
+                        .HasColumnName("errors");
+
+                    b.Property<string>("GammaBillId")
+                        .HasColumnType("text")
+                        .HasColumnName("gamma_bill_id");
+
+                    b.Property<Guid?>("IdChange")
+                        .HasColumnType("uuid")
+                        .HasColumnName("id_change");
+
+                    b.Property<Guid?>("IdSup")
+                        .HasColumnType("uuid")
+                        .HasColumnName("id_sup");
+
+                    b.Property<string>("Link")
+                        .HasColumnType("text")
+                        .HasColumnName("link");
+
+                    b.Property<Guid?>("OwnerId")
+                        .HasColumnType("uuid")
+                        .HasColumnName("owner_id");
+
+                    b.Property<string>("Reference")
+                        .IsRequired()
+                        .HasColumnType("text")
+                        .HasColumnName("reference");
+
+                    b.Property<DateTimeOffset?>("SentOn")
+                        .HasColumnType("timestamp with time zone")
+                        .HasColumnName("sent_on");
+
+                    b.Property<string>("Status")
+                        .IsRequired()
+                        .HasColumnType("text")
+                        .HasColumnName("status");
+
+                    b.Property<Guid>("TenantId")
+                        .HasColumnType("uuid")
+                        .HasColumnName("tenant_id");
+
+                    b.Property<decimal>("Total")
+                        .HasPrecision(19, 6)
+                        .HasColumnType("numeric(19,6)")
+                        .HasColumnName("total");
+
+                    b.Property<Guid>("WalletProviderId")
+                        .HasColumnType("uuid")
+                        .HasColumnName("wallet_provider_id");
+
+                    b.HasKey("Id")
+                        .HasName("pk_tbl_wallet_bill");
+
+                    b.HasIndex("CreatedBy")
+                        .HasDatabaseName("ix_tbl_wallet_bill_created_by");
+
+                    b.HasIndex("DocumentId")
+                        .HasDatabaseName("ix_tbl_wallet_bill_document_id");
+
+                    b.HasIndex("IdChange")
+                        .HasDatabaseName("ix_tbl_wallet_bill_id_change");
+
+                    b.HasIndex("IdSup")
+                        .HasDatabaseName("ix_tbl_wallet_bill_id_sup");
+
+                    b.HasIndex("OwnerId")
+                        .HasDatabaseName("ix_tbl_wallet_bill_owner_id");
+
+                    b.HasIndex("TenantId")
+                        .HasDatabaseName("ix_tbl_wallet_bill_tenant_id");
+
+                    b.HasIndex("WalletProviderId")
+                        .HasDatabaseName("ix_tbl_wallet_bill_wallet_provider_id");
+
+                    b.ToTable("tbl_wallet_bill", "payments");
+                });
+
+            modelBuilder.Entity("Gamma.Erp.Models.Payments.WalletProvider", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .HasColumnType("uuid")
+                        .HasColumnName("id");
+
+                    b.Property<bool>("Active")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("boolean")
+                        .HasDefaultValue(true)
+                        .HasColumnName("active");
+
+                    b.Property<string>("ApiBase")
+                        .IsRequired()
+                        .HasColumnType("text")
+                        .HasColumnName("api_base");
+
+                    b.Property<string>("BusinessName")
+                        .HasColumnType("text")
+                        .HasColumnName("business_name");
+
+                    b.Property<bool>("CanClaim")
+                        .HasColumnType("boolean")
+                        .HasColumnName("can_claim");
+
+                    b.Property<DateTimeOffset?>("CheckedOn")
+                        .HasColumnType("timestamp with time zone")
+                        .HasColumnName("checked_on");
+
+                    b.Property<Guid?>("CreatedBy")
+                        .HasColumnType("uuid")
+                        .HasColumnName("created_by");
+
+                    b.Property<DateTimeOffset>("CreatedOn")
+                        .HasColumnType("timestamp with time zone")
+                        .HasColumnName("created_on");
+
+                    b.Property<string>("CurrencyCode")
+                        .HasColumnType("text")
+                        .HasColumnName("currency_code");
+
+                    b.Property<string>("GammaBusinessId")
+                        .HasColumnType("text")
+                        .HasColumnName("gamma_business_id");
+
+                    b.Property<Guid?>("IdChange")
+                        .HasColumnType("uuid")
+                        .HasColumnName("id_change");
+
+                    b.Property<Guid?>("IdSup")
+                        .HasColumnType("uuid")
+                        .HasColumnName("id_sup");
+
+                    b.Property<string>("Kind")
+                        .IsRequired()
+                        .HasColumnType("text")
+                        .HasColumnName("kind");
+
+                    b.Property<Guid?>("OwnerId")
+                        .HasColumnType("uuid")
+                        .HasColumnName("owner_id");
+
+                    b.Property<Guid>("TenantId")
+                        .HasColumnType("uuid")
+                        .HasColumnName("tenant_id");
+
+                    b.Property<string>("Token")
+                        .IsRequired()
+                        .HasColumnType("text")
+                        .HasColumnName("token");
+
+                    b.Property<string>("TokenFingerprint")
+                        .HasColumnType("text")
+                        .HasColumnName("token_fingerprint");
+
+                    b.HasKey("Id")
+                        .HasName("pk_tbl_wallet_provider");
+
+                    b.HasIndex("CreatedBy")
+                        .HasDatabaseName("ix_tbl_wallet_provider_created_by");
+
+                    b.HasIndex("IdChange")
+                        .HasDatabaseName("ix_tbl_wallet_provider_id_change");
+
+                    b.HasIndex("IdSup")
+                        .HasDatabaseName("ix_tbl_wallet_provider_id_sup");
+
+                    b.HasIndex("OwnerId")
+                        .HasDatabaseName("ix_tbl_wallet_provider_owner_id");
+
+                    b.HasIndex("TenantId")
+                        .HasDatabaseName("ix_tbl_wallet_provider_tenant_id");
+
+                    b.ToTable("tbl_wallet_provider", "payments");
                 });
 
             modelBuilder.Entity("Gamma.Erp.Models.Platform.DashboardItem", b =>
@@ -20740,6 +21702,57 @@ namespace Gamma.Erp.Migrations.Migrations
                         .HasConstraintName("fk_tbl_bank_connection_provider_id");
                 });
 
+            modelBuilder.Entity("Gamma.Erp.Models.Payments.BankNotice", b =>
+                {
+                    b.HasOne("Gamma.Erp.Models.CostCenters.CostCenter", null)
+                        .WithMany()
+                        .HasForeignKey("BankId")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .HasConstraintName("fk_tbl_bank_notice_bank_id");
+
+                    b.HasOne("Gamma.Erp.Models.Documents.BankStatementLine", null)
+                        .WithMany()
+                        .HasForeignKey("BankStatementLineId")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .HasConstraintName("fk_tbl_bank_notice_bank_statement_line_id");
+
+                    b.HasOne("Gamma.Erp.Models.Payments.CardProvider", null)
+                        .WithMany()
+                        .HasForeignKey("CardProviderId")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .HasConstraintName("fk_tbl_bank_notice_card_provider_id");
+
+                    b.HasOne("Gamma.Erp.Models.Users.User", null)
+                        .WithMany()
+                        .HasForeignKey("CreatedBy")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .HasConstraintName("fk_tbl_bank_notice_created_by");
+
+                    b.HasOne("Gamma.Erp.Models.Payments.BankNotice", null)
+                        .WithMany()
+                        .HasForeignKey("IdChange")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .HasConstraintName("fk_tbl_bank_notice_id_change");
+
+                    b.HasOne("Gamma.Erp.Models.Payments.BankNotice", null)
+                        .WithMany()
+                        .HasForeignKey("IdSup")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .HasConstraintName("fk_tbl_bank_notice_id_sup");
+
+                    b.HasOne("Gamma.Erp.Models.CostCenters.CostCenter", null)
+                        .WithMany()
+                        .HasForeignKey("OwnerId")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .HasConstraintName("fk_tbl_bank_notice_owner_id");
+
+                    b.HasOne("Gamma.Erp.Models.Payments.BankProvider", null)
+                        .WithMany()
+                        .HasForeignKey("ProviderId")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .HasConstraintName("fk_tbl_bank_notice_provider_id");
+                });
+
             modelBuilder.Entity("Gamma.Erp.Models.Payments.BankProvider", b =>
                 {
                     b.HasOne("Gamma.Erp.Models.Users.User", null)
@@ -20765,6 +21778,161 @@ namespace Gamma.Erp.Migrations.Migrations
                         .HasForeignKey("OwnerId")
                         .OnDelete(DeleteBehavior.Restrict)
                         .HasConstraintName("fk_tbl_bank_provider_owner_id");
+                });
+
+            modelBuilder.Entity("Gamma.Erp.Models.Payments.CardProvider", b =>
+                {
+                    b.HasOne("Gamma.Erp.Models.Users.User", null)
+                        .WithMany()
+                        .HasForeignKey("CreatedBy")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .HasConstraintName("fk_tbl_card_provider_created_by");
+
+                    b.HasOne("Gamma.Erp.Models.Payments.CardProvider", null)
+                        .WithMany()
+                        .HasForeignKey("IdChange")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .HasConstraintName("fk_tbl_card_provider_id_change");
+
+                    b.HasOne("Gamma.Erp.Models.Payments.CardProvider", null)
+                        .WithMany()
+                        .HasForeignKey("IdSup")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .HasConstraintName("fk_tbl_card_provider_id_sup");
+
+                    b.HasOne("Gamma.Erp.Models.CostCenters.CostCenter", null)
+                        .WithMany()
+                        .HasForeignKey("OwnerId")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .HasConstraintName("fk_tbl_card_provider_owner_id");
+                });
+
+            modelBuilder.Entity("Gamma.Erp.Models.Payments.FiscalProvider", b =>
+                {
+                    b.HasOne("Gamma.Erp.Models.Users.User", null)
+                        .WithMany()
+                        .HasForeignKey("CreatedBy")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .HasConstraintName("fk_tbl_fiscal_provider_created_by");
+
+                    b.HasOne("Gamma.Erp.Models.Payments.FiscalProvider", null)
+                        .WithMany()
+                        .HasForeignKey("IdChange")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .HasConstraintName("fk_tbl_fiscal_provider_id_change");
+
+                    b.HasOne("Gamma.Erp.Models.Payments.FiscalProvider", null)
+                        .WithMany()
+                        .HasForeignKey("IdSup")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .HasConstraintName("fk_tbl_fiscal_provider_id_sup");
+
+                    b.HasOne("Gamma.Erp.Models.CostCenters.CostCenter", null)
+                        .WithMany()
+                        .HasForeignKey("OwnerId")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .HasConstraintName("fk_tbl_fiscal_provider_owner_id");
+                });
+
+            modelBuilder.Entity("Gamma.Erp.Models.Payments.FiscalReceipt", b =>
+                {
+                    b.HasOne("Gamma.Erp.Models.Documents.BankStatementLine", null)
+                        .WithMany()
+                        .HasForeignKey("BankStatementLineId")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .HasConstraintName("fk_tbl_fiscal_receipt_bank_statement_line_id");
+
+                    b.HasOne("Gamma.Erp.Models.Users.User", null)
+                        .WithMany()
+                        .HasForeignKey("CreatedBy")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .HasConstraintName("fk_tbl_fiscal_receipt_created_by");
+
+                    b.HasOne("Gamma.Erp.Models.Documents.Document", null)
+                        .WithMany()
+                        .HasForeignKey("DocumentId")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .IsRequired()
+                        .HasConstraintName("fk_tbl_fiscal_receipt_document_id");
+
+                    b.HasOne("Gamma.Erp.Models.Payments.FiscalProvider", null)
+                        .WithMany()
+                        .HasForeignKey("FiscalProviderId")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .IsRequired()
+                        .HasConstraintName("fk_tbl_fiscal_receipt_fiscal_provider_id");
+
+                    b.HasOne("Gamma.Erp.Models.Payments.FiscalSeries", null)
+                        .WithMany()
+                        .HasForeignKey("FiscalSeriesId")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .IsRequired()
+                        .HasConstraintName("fk_tbl_fiscal_receipt_fiscal_series_id");
+
+                    b.HasOne("Gamma.Erp.Models.Payments.FiscalReceipt", null)
+                        .WithMany()
+                        .HasForeignKey("IdChange")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .HasConstraintName("fk_tbl_fiscal_receipt_id_change");
+
+                    b.HasOne("Gamma.Erp.Models.Payments.FiscalReceipt", null)
+                        .WithMany()
+                        .HasForeignKey("IdSup")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .HasConstraintName("fk_tbl_fiscal_receipt_id_sup");
+
+                    b.HasOne("Gamma.Erp.Models.CostCenters.CostCenter", null)
+                        .WithMany()
+                        .HasForeignKey("OwnerId")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .HasConstraintName("fk_tbl_fiscal_receipt_owner_id");
+
+                    b.HasOne("Gamma.Erp.Models.Payments.PaymentMethod", null)
+                        .WithMany()
+                        .HasForeignKey("PaymentMethodId")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .HasConstraintName("fk_tbl_fiscal_receipt_payment_method_id");
+                });
+
+            modelBuilder.Entity("Gamma.Erp.Models.Payments.FiscalSeries", b =>
+                {
+                    b.HasOne("Gamma.Erp.Models.CostCenters.CostCenter", null)
+                        .WithMany()
+                        .HasForeignKey("CostCenterId")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .IsRequired()
+                        .HasConstraintName("fk_tbl_fiscal_series_cost_center_id");
+
+                    b.HasOne("Gamma.Erp.Models.Users.User", null)
+                        .WithMany()
+                        .HasForeignKey("CreatedBy")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .HasConstraintName("fk_tbl_fiscal_series_created_by");
+
+                    b.HasOne("Gamma.Erp.Models.Payments.FiscalProvider", null)
+                        .WithMany()
+                        .HasForeignKey("FiscalProviderId")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .IsRequired()
+                        .HasConstraintName("fk_tbl_fiscal_series_fiscal_provider_id");
+
+                    b.HasOne("Gamma.Erp.Models.Payments.FiscalSeries", null)
+                        .WithMany()
+                        .HasForeignKey("IdChange")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .HasConstraintName("fk_tbl_fiscal_series_id_change");
+
+                    b.HasOne("Gamma.Erp.Models.Payments.FiscalSeries", null)
+                        .WithMany()
+                        .HasForeignKey("IdSup")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .HasConstraintName("fk_tbl_fiscal_series_id_sup");
+
+                    b.HasOne("Gamma.Erp.Models.CostCenters.CostCenter", null)
+                        .WithMany()
+                        .HasForeignKey("OwnerId")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .HasConstraintName("fk_tbl_fiscal_series_owner_id");
                 });
 
             modelBuilder.Entity("Gamma.Erp.Models.Payments.InterPaymentMethodDocumentType", b =>
@@ -20804,6 +21972,60 @@ namespace Gamma.Erp.Migrations.Migrations
                         .HasForeignKey("PaymentMethodId")
                         .OnDelete(DeleteBehavior.Restrict)
                         .HasConstraintName("fk_tbl_inter_payment_method_document_type_payment_method_id");
+                });
+
+            modelBuilder.Entity("Gamma.Erp.Models.Payments.PaymentLink", b =>
+                {
+                    b.HasOne("Gamma.Erp.Models.CostCenters.CostCenter", null)
+                        .WithMany()
+                        .HasForeignKey("BankId")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .IsRequired()
+                        .HasConstraintName("fk_tbl_payment_link_bank_id");
+
+                    b.HasOne("Gamma.Erp.Models.Payments.BankNotice", null)
+                        .WithMany()
+                        .HasForeignKey("BankNoticeId")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .HasConstraintName("fk_tbl_payment_link_bank_notice_id");
+
+                    b.HasOne("Gamma.Erp.Models.Users.User", null)
+                        .WithMany()
+                        .HasForeignKey("CreatedBy")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .HasConstraintName("fk_tbl_payment_link_created_by");
+
+                    b.HasOne("Gamma.Erp.Models.Payments.PaymentLink", null)
+                        .WithMany()
+                        .HasForeignKey("IdChange")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .HasConstraintName("fk_tbl_payment_link_id_change");
+
+                    b.HasOne("Gamma.Erp.Models.Payments.PaymentLink", null)
+                        .WithMany()
+                        .HasForeignKey("IdSup")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .HasConstraintName("fk_tbl_payment_link_id_sup");
+
+                    b.HasOne("Gamma.Erp.Models.CostCenters.CostCenter", null)
+                        .WithMany()
+                        .HasForeignKey("OwnerId")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .HasConstraintName("fk_tbl_payment_link_owner_id");
+
+                    b.HasOne("Gamma.Erp.Models.Payments.PaymentMethod", null)
+                        .WithMany()
+                        .HasForeignKey("PaymentMethodId")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .IsRequired()
+                        .HasConstraintName("fk_tbl_payment_link_payment_method_id");
+
+                    b.HasOne("Gamma.Erp.Models.CostCenters.CostCenter", null)
+                        .WithMany()
+                        .HasForeignKey("PointOfSaleId")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .IsRequired()
+                        .HasConstraintName("fk_tbl_payment_link_point_of_sale_id");
                 });
 
             modelBuilder.Entity("Gamma.Erp.Models.Payments.PaymentMethod", b =>
@@ -20943,6 +22165,74 @@ namespace Gamma.Erp.Migrations.Migrations
                         .HasForeignKey("VatGroupId")
                         .OnDelete(DeleteBehavior.Restrict)
                         .HasConstraintName("fk_tbl_vat_return_box_rule_vat_group_id");
+                });
+
+            modelBuilder.Entity("Gamma.Erp.Models.Payments.WalletBill", b =>
+                {
+                    b.HasOne("Gamma.Erp.Models.Users.User", null)
+                        .WithMany()
+                        .HasForeignKey("CreatedBy")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .HasConstraintName("fk_tbl_wallet_bill_created_by");
+
+                    b.HasOne("Gamma.Erp.Models.Documents.Document", null)
+                        .WithMany()
+                        .HasForeignKey("DocumentId")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .IsRequired()
+                        .HasConstraintName("fk_tbl_wallet_bill_document_id");
+
+                    b.HasOne("Gamma.Erp.Models.Payments.WalletBill", null)
+                        .WithMany()
+                        .HasForeignKey("IdChange")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .HasConstraintName("fk_tbl_wallet_bill_id_change");
+
+                    b.HasOne("Gamma.Erp.Models.Payments.WalletBill", null)
+                        .WithMany()
+                        .HasForeignKey("IdSup")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .HasConstraintName("fk_tbl_wallet_bill_id_sup");
+
+                    b.HasOne("Gamma.Erp.Models.CostCenters.CostCenter", null)
+                        .WithMany()
+                        .HasForeignKey("OwnerId")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .HasConstraintName("fk_tbl_wallet_bill_owner_id");
+
+                    b.HasOne("Gamma.Erp.Models.Payments.WalletProvider", null)
+                        .WithMany()
+                        .HasForeignKey("WalletProviderId")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .IsRequired()
+                        .HasConstraintName("fk_tbl_wallet_bill_wallet_provider_id");
+                });
+
+            modelBuilder.Entity("Gamma.Erp.Models.Payments.WalletProvider", b =>
+                {
+                    b.HasOne("Gamma.Erp.Models.Users.User", null)
+                        .WithMany()
+                        .HasForeignKey("CreatedBy")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .HasConstraintName("fk_tbl_wallet_provider_created_by");
+
+                    b.HasOne("Gamma.Erp.Models.Payments.WalletProvider", null)
+                        .WithMany()
+                        .HasForeignKey("IdChange")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .HasConstraintName("fk_tbl_wallet_provider_id_change");
+
+                    b.HasOne("Gamma.Erp.Models.Payments.WalletProvider", null)
+                        .WithMany()
+                        .HasForeignKey("IdSup")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .HasConstraintName("fk_tbl_wallet_provider_id_sup");
+
+                    b.HasOne("Gamma.Erp.Models.CostCenters.CostCenter", null)
+                        .WithMany()
+                        .HasForeignKey("OwnerId")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .HasConstraintName("fk_tbl_wallet_provider_owner_id");
                 });
 
             modelBuilder.Entity("Gamma.Erp.Models.Platform.DashboardItem", b =>

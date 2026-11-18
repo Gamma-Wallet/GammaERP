@@ -8,6 +8,12 @@ public sealed record BankAspsp(string Name, string Country, IReadOnlyList<string
 /// <summary>An account the bank gave when the person signed in.</summary>
 public sealed record BankAccountInfo(string Uid, string? Iban, string? Bic, string? Currency, string? Name);
 
+/// <summary>
+/// Where the person signs in at the bank, and what the adapter needs back when they return (e.g. the Bank of Cyprus subscription it made); kept sealed on the
+/// connection until then.
+/// </summary>
+public sealed record BankStartInfo(string Url, string? Pending = null);
+
 /// <summary>A session the bank opened: its id, until when, and the accounts it covers.</summary>
 public sealed record BankSessionInfo(string SessionId, DateTimeOffset? ValidUntil, IReadOnlyList<BankAccountInfo> Accounts);
 
@@ -39,11 +45,11 @@ public interface IBankConnector
 
     Task<IReadOnlyList<BankAspsp>> BanksAsync(BankProvider provider, string privateKey, string country, CancellationToken ct);
 
-    /// <summary>Starts a sign-in at the bank; the answer is the address the person opens.</summary>
-    Task<string> StartAsync(BankProvider provider, string privateKey, BankAspsp bank, string psuType, string state, DateTimeOffset validUntil, CancellationToken ct);
+    /// <summary>Starts a sign-in at the bank; the answer is the address the person opens, and what to give back to <see cref="SessionAsync"/>.</summary>
+    Task<BankStartInfo> StartAsync(BankProvider provider, string privateKey, BankAspsp bank, string psuType, string state, DateTimeOffset validUntil, CancellationToken ct);
 
-    /// <summary>Turns the code the bank sent back into a session.</summary>
-    Task<BankSessionInfo> SessionAsync(BankProvider provider, string privateKey, string code, CancellationToken ct);
+    /// <summary>Turns the code the bank sent back into a session; <paramref name="pending"/> is what <see cref="StartAsync"/> asked to keep.</summary>
+    Task<BankSessionInfo> SessionAsync(BankProvider provider, string privateKey, string code, string? pending, CancellationToken ct);
 
     Task<BankBalanceInfo?> BalanceAsync(BankProvider provider, string privateKey, string accountUid, PsuPresence psu, CancellationToken ct);
 

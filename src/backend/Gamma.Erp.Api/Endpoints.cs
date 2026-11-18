@@ -38,6 +38,48 @@ public static class Endpoints
         ArgumentNullException.ThrowIfNull(app);
         var api = app.MapGroup("/api/v1").RequireAuthorization();
 
+        // The bank's signed "payment received" message (confirmation 1, the founder 2026-11-16): no sign-in; the signature is the company's secret. It
+        // only writes a bank notice. Answers 2xx when kept (or already held) so the bank stops retrying, 4xx when refused.
+        app.MapPost("/api/bank-responses/{providerId:guid}", async (Gamma.Erp.Services.Banking.BankNotices s, HttpContext http, Guid providerId, CancellationToken ct) =>
+        {
+            if (http.Request.ContentLength is > Gamma.Erp.Services.Banking.BankNotices.MaxBodyBytes)
+            {
+                return Results.Problem("The message is too large.", statusCode: StatusCodes.Status413PayloadTooLarge);
+            }
+
+            using var reader = new StreamReader(http.Request.Body, System.Text.Encoding.UTF8);
+            var buffer = new char[Gamma.Erp.Services.Banking.BankNotices.MaxBodyBytes + 1];
+            var read = await reader.ReadBlockAsync(buffer, ct);
+            if (read > Gamma.Erp.Services.Banking.BankNotices.MaxBodyBytes)
+            {
+                return Results.Problem("The message is too large.", statusCode: StatusCodes.Status413PayloadTooLarge);
+            }
+
+            var result = await s.ReceiveAsync(providerId, http.Request.Headers["X-Bank-Timestamp"].ToString(), http.Request.Headers["X-Bank-Signature"].ToString(),
+                new string(buffer, 0, read), ct);
+            return result.Kept ? Results.Ok(new { received = true, message = result.Message }) : Results.Problem(result.Message, statusCode: result.Status);
+        }).AllowAnonymous().DisableAntiforgery().WithTags("open banking");
+
+        // JCC's callback (no sign-in; the checksum is the merchant's key): GET with the parameters in the query, or POST as a form. It only writes a card
+        // notice. 200 when taken (JCC stops retrying), 401 for a wrong checksum.
+        async Task<IResult> CardCallback(Gamma.Erp.Services.Banking.PaymentLinks s, HttpContext http, Guid providerId, CancellationToken ct)
+        {
+            var parameters = http.Request.Query.ToDictionary(q => q.Key, q => q.Value.ToString(), StringComparer.Ordinal);
+            if (http.Request.HasFormContentType)
+            {
+                foreach (var f in await http.Request.ReadFormAsync(ct))
+                {
+                    parameters[f.Key] = f.Value.ToString();
+                }
+            }
+
+            var status = await s.CardCallbackAsync(providerId, parameters, ct);
+            return status == 200 ? Results.Ok() : Results.StatusCode(status);
+        }
+
+        app.MapGet("/api/card-callbacks/{providerId:guid}", CardCallback).AllowAnonymous().WithTags("open banking");
+        app.MapPost("/api/card-callbacks/{providerId:guid}", CardCallback).AllowAnonymous().DisableAntiforgery().WithTags("open banking");
+
         // What a new company of a group is started from: the activity catalogue, the countries with a pack, the pack groups. A new customer is made on the server only.
         api.MapGet("/setup/activities", () => Seed.ActivityCatalogue.All).WithTags("setup");
         api.MapGet("/setup/countries", () => SetupService.Countries()).WithTags("setup");
@@ -53,6 +95,30 @@ public static class Endpoints
         openBanking.MapGet("/provider", async (Gamma.Erp.Services.Banking.BankProviders s, CancellationToken ct) =>
             await s.GetAsync(ct) is { } provider ? Results.Ok(provider) : Results.NoContent());
         openBanking.MapPut("/provider", (Gamma.Erp.Services.Banking.BankProviders s, Gamma.Erp.Services.Banking.BankProviderInput input, CancellationToken ct) =>
+            s.SaveAsync(input, ct));
+        // The company's card gateway (JCC; the founder, 2026-11-18): administrators only; the password and callback key are written, never read back.
+        openBanking.MapGet("/card-provider", async (Gamma.Erp.Services.Banking.CardProviders s, CancellationToken ct) =>
+            await s.GetAsync(ct) is { } card ? Results.Ok(card) : Results.NoContent());
+        openBanking.MapPut("/card-provider", (Gamma.Erp.Services.Banking.CardProviders s, Gamma.Erp.Services.Banking.CardProviderInput input, CancellationToken ct) =>
+            s.SaveAsync(input, ct));
+        openBanking.MapDelete("/card-provider", async (Gamma.Erp.Services.Banking.CardProviders s, CancellationToken ct) =>
+        {
+            await s.SwitchOffAsync(ct);
+            return Results.NoContent();
+        });
+        // The company's Gamma Wallet connection (plan 4.5): the retailer's access (GWINT_ token), administrators only; the token is never read back.
+        var walletSetup = api.MapGroup("/gamma-wallet").WithTags("gamma wallet").RequireAdministrator();
+        walletSetup.MapGet("/provider", async (Gamma.Erp.Services.Banking.WalletProviders s, CancellationToken ct) =>
+            await s.GetAsync(ct) is { } provider ? Results.Ok(provider) : Results.NoContent());
+        walletSetup.MapPut("/provider", (Gamma.Erp.Services.Banking.WalletProviders s, Gamma.Erp.Services.Banking.WalletProviderInput input, CancellationToken ct) =>
+            s.SaveAsync(input, ct));
+
+        // The company's tax authority connection (plan 4.3c): administrators only; the certificate is written, never read back.
+        var fiscal = api.MapGroup("/fiscal").WithTags("fiscal").RequireAdministrator();
+        fiscal.MapGet("/kinds", (Gamma.Erp.Services.Banking.FiscalProviders s) => s.Kinds());
+        fiscal.MapGet("/provider", async (Gamma.Erp.Services.Banking.FiscalProviders s, CancellationToken ct) =>
+            await s.GetAsync(ct) is { } provider ? Results.Ok(provider) : Results.NoContent());
+        fiscal.MapPut("/provider", (Gamma.Erp.Services.Banking.FiscalProviders s, Gamma.Erp.Services.Banking.FiscalProviderInput input, CancellationToken ct) =>
             s.SaveAsync(input, ct));
         openBanking.MapDelete("/provider", async (Gamma.Erp.Services.Banking.BankProviders s, CancellationToken ct) =>
         {
@@ -606,10 +672,39 @@ public static class Endpoints
         // chosen bank line, which posts the receipt and matches that line in the same press.
         pos.MapGet("/bank-qr", async (Gamma.Erp.Services.Banking.PosBankPayments s, Guid pointOfSale, Guid paymentMethod, decimal amount, string reference, CancellationToken ct) =>
             await s.QrAsync(pointOfSale, paymentMethod, amount, reference, ct) is { } qr ? Results.Ok(qr) : Results.NoContent());
+        // The bank's own word, without reading the bank: the till asks while the QR code is open (every few seconds) and shows "Bank confirmed".
+        pos.MapGet("/bank-notices", (Gamma.Erp.Services.Banking.PosBankPayments s, Guid pointOfSale, Guid paymentMethod, decimal amount, string reference, CancellationToken ct) =>
+            s.NoticesAsync(pointOfSale, paymentMethod, amount, reference, ct));
+        // Check card (a person's press) and a card refund through the payment link.
+        pos.MapPost("/card-check", (Gamma.Erp.Services.Banking.PosBankPayments s, Gamma.Erp.Services.Banking.BankCheckRequest check, CancellationToken ct) =>
+            s.CheckCardAsync(check.PointOfSaleId, check.PaymentMethodId, check.Amount, check.Reference, ct));
+        pos.MapPost("/card-refund", (Gamma.Erp.Services.Banking.PosBankPayments s, CardRefundRequest refund, CancellationToken ct) =>
+            s.RefundCardAsync(refund.PayToken, refund.Amount, ct));
         pos.MapPost("/bank-check", (Gamma.Erp.Services.Banking.PosBankPayments s, HttpContext http, Gamma.Erp.Services.Banking.BankCheckRequest check, CancellationToken ct) =>
             s.CheckAsync(check.PointOfSaleId, check.PaymentMethodId, check.Amount, check.Reference, Psu(http), ct));
-        pos.MapPost("/bills/pay-by-bank", (Gamma.Erp.Services.Pos.PosService s, Gamma.Erp.Services.Banking.PosBankPayments bank, Gamma.Erp.Services.Banking.PayByBankRequest request,
-            CancellationToken ct) => PayByBankAsync(s, bank, request, ct));
+        pos.MapPost("/bills/pay-by-bank", (Gamma.Erp.Services.Pos.PosService s, Gamma.Erp.Services.Banking.PosBankPayments bank, Gamma.Erp.Services.Banking.FiscalReceipts fiscalReceipts,
+            Gamma.Erp.Services.Banking.GammaWalletBills walletBills, Gamma.Erp.Services.Banking.PayByBankRequest request, CancellationToken ct) =>
+            PayByBankAsync(s, bank, fiscalReceipts, walletBills, request, ct));
+        // The payments' Gamma bills (Waiting, Claimed, Held, Failed), Send again and Check claim (a person's presses).
+        pos.MapGet("/wallet-bills", (Gamma.Erp.Services.Banking.GammaWalletBills s, [Microsoft.AspNetCore.Mvc.FromQuery] Guid[] payment, CancellationToken ct) =>
+            s.OfPaymentsAsync(payment, ct));
+        pos.MapPost("/wallet-bills/{id:guid}/send-again", (Gamma.Erp.Services.Banking.GammaWalletBills s, Guid id, CancellationToken ct) => s.SendAgainAsync(id, ct));
+        pos.MapPost("/wallet-bills/{id:guid}/check-claim", (Gamma.Erp.Services.Banking.GammaWalletBills s, Guid id, CancellationToken ct) => s.CheckClaimAsync(id, ct));
+        // The bills' fiscal receipts (declared, confirmed or refused) and Send again (a person's press).
+        pos.MapGet("/fiscal-receipts", (Gamma.Erp.Services.Banking.FiscalReceipts s, [Microsoft.AspNetCore.Mvc.FromQuery] Guid[] bill, CancellationToken ct) =>
+            s.OfBillsAsync(bill, ct));
+        pos.MapPost("/fiscal-receipts/{id:guid}/send-again", async (Gamma.Erp.Services.Banking.FiscalReceipts s, Gamma.Erp.Services.Banking.GammaWalletBills wallet, Visibility visibility,
+            Guid id, CancellationToken ct) =>
+        {
+            var receipt = await s.SendAgainAsync(id, ct);
+            // The gate opens: a Gamma bill held for this confirmation is sent now.
+            if (receipt.Status == "Confirmed" && await visibility.CompanyAsync(ct) is { } company)
+            {
+                await wallet.ReleaseHeldAsync(company, ct);
+            }
+
+            return receipt;
+        });
         pos.MapGet("/bills/unpaid", (Gamma.Erp.Services.Pos.PosService s, Guid type, Guid? user, Guid? table, Guid? pointOfSale, CancellationToken ct) =>
             s.UnpaidAsync(type, user, table, ct, pointOfSale));
         var stock = api.MapGroup("/stock").WithTags("stock").RequireScreen("stock-convert");
@@ -810,7 +905,7 @@ public static class Endpoints
     /// due; the line not held yet), then the till's usual payment into the bank, then the line kept on the bank's statement, matched to the receipt.
     /// </summary>
     private static async Task<IReadOnlyList<Gamma.Erp.Models.Documents.Dto.DocumentDto>> PayByBankAsync(Gamma.Erp.Services.Pos.PosService pos, Gamma.Erp.Services.Banking.PosBankPayments bank,
-        Gamma.Erp.Services.Banking.PayByBankRequest request, CancellationToken ct)
+        Gamma.Erp.Services.Banking.FiscalReceipts fiscal, Gamma.Erp.Services.Banking.GammaWalletBills wallet, Gamma.Erp.Services.Banking.PayByBankRequest request, CancellationToken ct)
     {
         var pay = request.Pay;
         if (pay.PointOfSaleId is not { } place || pay.PaymentMethodId is not { } method)
@@ -829,7 +924,20 @@ public static class Endpoints
         var due = chosen.Sum(b => b.Open);
         await bank.CheckLineAsync(bankId, request.BankLine, due, ct);
         var paid = await pos.PayAsync(pay, ct);
-        await bank.KeepAsync(bankId, request.BankLine, paid[0].Id!.Value, ct);
+        var lineId = await bank.KeepAsync(bankId, request.BankLine, paid[0].Id!.Value, ct);
+
+        // Confirmation 2 (plan 4.3c): the bills are declared to the tax authority now that the payment is confirmed. A refusal or no answer never undoes
+        // the payment: the receipt shows Send again at the till.
+        await fiscal.DeclareAsync([.. chosen.Select(b => b.Id)], place, method, lineId, request.BankLine.ExternalId, ct);
+
+        // Then Gamma Wallet (plan 4.5): the payment's bill is sent once the gate allows (held while the tax authority has not confirmed). The reference
+        // and total are what the payment link showed, so a customer who paid through it in Gamma Wallet is matched.
+        var reference = string.Join(' ', chosen.Select(b => b.Code).Where(c => !string.IsNullOrEmpty(c)));
+        await wallet.AfterPaidAsync(paid[0].Id!.Value, [.. chosen.Select(b => b.Id)], method, reference.Length > 140 ? reference[..140] : reference,
+            decimal.Round(due, 2, MidpointRounding.AwayFromZero), ct);
         return paid;
     }
 }
+
+/// <summary>A card refund at the till: the payment link's token and the amount to give back.</summary>
+public sealed record CardRefundRequest(string PayToken, decimal Amount);

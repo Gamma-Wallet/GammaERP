@@ -13,7 +13,7 @@ namespace Gamma.Erp.Services.Banking;
 
 /// <summary>The payment QR code a till shows: the bank account, the amount, the bill's code as the reference, the EPC text and its picture (SVG).</summary>
 public sealed record BankQrDto(Guid BankId, string? Bank, string Iban, string? Bic, string Holder, decimal Amount, string Currency, string Reference, string Payload, string Svg,
-    bool CanCheck);
+    bool CanCheck, string? Provider = null);
 
 /// <summary>What Check bank looks for: the method's bank at the point of sale, the amount and the bill's code.</summary>
 public sealed record BankCheckRequest(Guid PointOfSaleId, Guid PaymentMethodId, decimal Amount, string Reference);
@@ -23,7 +23,7 @@ public sealed record PayByBankRequest(Gamma.Erp.Services.Pos.PayBillsRequest Pay
 
 /// <summary>A money-in line from the bank that may be the payment: the newest first, those that mention the reference before the others.</summary>
 public sealed record BankPaymentLine(string? ExternalId, DateOnly Date, decimal Amount, string? Text, string? Reference, string? CounterpartyName, string? CounterpartyIban,
-    bool Booked, bool MentionsReference);
+    bool Booked, bool MentionsReference, string Kind = "bank");
 
 /// <summary>
 /// "Pay by bank" at the till (the founder, 2026-11-14): a payment method marked <see cref="PaymentMethod.ShowsBankQr"/> shows an EPC QR code (EPC069-12,
@@ -31,7 +31,7 @@ public sealed record BankPaymentLine(string? ExternalId, DateOnly Date, decimal 
 /// Check bank (one read of the bank, started by them) and Paid on the right line, which posts the receipt and matches that bank line in the same press.
 /// Without a connection the cashier checks by eye and presses Received; the bank line is then matched later on Bank statements.
 /// </summary>
-public sealed class PosBankPayments(ErpDbContext db, Visibility visibility, BankConnections connections, TimeProvider? clock = null)
+public sealed class PosBankPayments(ErpDbContext db, Visibility visibility, BankConnections connections, PaymentLinks links, RequestContext request, TimeProvider? clock = null)
 {
     /// <summary>How far back Check bank looks.</summary>
     public const int CheckMinutes = 60;
@@ -44,7 +44,9 @@ public sealed class PosBankPayments(ErpDbContext db, Visibility visibility, Bank
     public async Task<BankQrDto?> QrAsync(Guid pointOfSaleId, Guid paymentMethodId, decimal amount, string reference, CancellationToken ct)
     {
         var method = await db.Set<PaymentMethod>().AsNoTracking().FirstOrDefaultAsync(m => m.Id == paymentMethodId && m.Active, ct).ConfigureAwait(false);
-        if (method is not { ShowsBankQr: true })
+        // A method paying through Bank of Cyprus shows the ERP's payment link; a "shows a bank QR" method the EPC transfer QR.
+        var viaLink = PaymentLinks.ByLink(method?.ProviderKind);
+        if (method is null || (!method.ShowsBankQr && !viaLink))
         {
             return null;
         }
@@ -64,6 +66,13 @@ public sealed class PosBankPayments(ErpDbContext db, Visibility visibility, Bank
         var text = Clean(reference, 140) ?? throw ValidationException.For("reference", "The payment needs a reference: the bill's code.");
         var holder = Clean(connection.HolderName, 70) ?? Clean(await CompanyNameAsync(ct).ConfigureAwait(false), 70)
             ?? throw ValidationException.For("holderName", "The bank account has no holder: type it on Bank statements, Bank accounts.");
+        if (viaLink)
+        {
+            var company = await visibility.CompanyAsync(ct).ConfigureAwait(false) ?? throw ValidationException.For("pointOfSaleId", "The point of sale belongs to no company.");
+            var (_, url) = await links.ForTillAsync(request.TenantId, company, pointOfSaleId, paymentMethodId, bankId, amount, Euro, text, method!.ProviderKind!, ct).ConfigureAwait(false);
+            return new BankQrDto(bankId, bank, iban, connection.Bic, holder, amount, Euro, text, url, Svg(url), CanCheck: true, method.ProviderKind);
+        }
+
         var payload = Payload(connection.Bic, holder, iban, amount, text);
         return new BankQrDto(bankId, bank, iban, connection.Bic, holder, amount, Euro, text, payload, Svg(payload), connection.SessionId is not null && connection.AccountUid is not null);
     }
@@ -103,10 +112,47 @@ public sealed class PosBankPayments(ErpDbContext db, Visibility visibility, Bank
     }
 
     /// <summary>
+    /// The bank's own word, without reading the bank (confirmation 1): the notices of the last hour on the method's bank for this amount whose reference
+    /// holds the bill's code, not used by a Paid yet, newest first. The till asks while the QR code is open and shows "Bank confirmed".
+    /// </summary>
+    public async Task<IReadOnlyList<BankPaymentLine>> NoticesAsync(Guid pointOfSaleId, Guid paymentMethodId, decimal amount, string reference, CancellationToken ct)
+    {
+        var (bankId, _, _) = await BankAsync(pointOfSaleId, paymentMethodId, ct).ConfigureAwait(false);
+        var since = time.GetUtcNow().AddMinutes(-CheckMinutes);
+        var text = reference.Trim();
+        if (text.Length == 0)
+        {
+            return [];
+        }
+
+        var notices = await db.Set<BankNotice>().AsNoTracking()
+            .Where(n => n.Active && n.BankId == bankId && n.BankStatementLineId == null && n.Amount == amount && n.ReceivedOn >= since && n.Reference != null)
+            .OrderByDescending(n => n.ReceivedOn).Take(20).ToListAsync(ct).ConfigureAwait(false);
+        return [.. notices.Where(n => n.Reference!.Contains(text, StringComparison.OrdinalIgnoreCase))
+            .Select(n => new BankPaymentLine(n.ExternalId, n.BookedOn, n.Amount, n.Reference, n.ProviderReference ?? n.Reference, n.PayerName, n.PayerIban, n.Booked, true, n.Kind))];
+    }
+
+    /// <summary>Check card (a person's press): reads JCC for this payment's link, then answers the notices as the till's Card paid shows them.</summary>
+    public async Task<IReadOnlyList<BankPaymentLine>> CheckCardAsync(Guid pointOfSaleId, Guid paymentMethodId, decimal amount, string reference, CancellationToken ct)
+    {
+        await BankAsync(pointOfSaleId, paymentMethodId, ct).ConfigureAwait(false);
+        var company = await visibility.CompanyAsync(ct).ConfigureAwait(false) ?? throw ValidationException.For("pointOfSaleId", "The point of sale belongs to no company.");
+        await links.CheckCardAsync(company, pointOfSaleId, paymentMethodId, amount, reference.Trim(), ct).ConfigureAwait(false);
+        return await NoticesAsync(pointOfSaleId, paymentMethodId, amount, reference, ct).ConfigureAwait(false);
+    }
+
+    /// <summary>Refunds (part of) a card payment made through a payment link; the receipt is then reversed as usual.</summary>
+    public async Task<PaymentLinkView> RefundCardAsync(string payToken, decimal amount, CancellationToken ct)
+    {
+        var company = await visibility.CompanyAsync(ct).ConfigureAwait(false) ?? throw ValidationException.For("payToken", "Choose one of the company's nodes.");
+        return await links.RefundAsync(company, payToken, amount, ct).ConfigureAwait(false);
+    }
+
+    /// <summary>
     /// Keeps a bank line the cashier chose for a till payment, matched to the posted receipt: on the bank's statement of till payments of that day (made when
     /// needed). Refused when the line is held already or its amount is not the receipt's.
     /// </summary>
-    public async Task KeepAsync(Guid bankId, BankPaymentLine line, Guid paymentId, CancellationToken ct)
+    public async Task<Guid> KeepAsync(Guid bankId, BankPaymentLine line, Guid paymentId, CancellationToken ct)
     {
         ArgumentNullException.ThrowIfNull(line);
         var connection = await db.Set<BankConnection>().AsNoTracking().FirstOrDefaultAsync(c => c.Active && c.BankId == bankId, ct).ConfigureAwait(false)
@@ -123,13 +169,26 @@ public sealed class PosBankPayments(ErpDbContext db, Visibility visibility, Bank
             db.Add(statement);
         }
 
-        db.Add(new BankStatementLine
+        var kept = new BankStatementLine
         {
             StatementId = statement.Id, LineDate = line.Date, Amount = line.Amount, Text = Clean(line.Text, 500), Reference = Clean(line.Reference, 200), ExternalId = line.ExternalId,
             CounterpartyName = Clean(line.CounterpartyName, 200), CounterpartyIban = BankConnections.Compact(line.CounterpartyIban), DocumentId = paymentId,
             TenantId = connection.TenantId, OwnerId = connection.OwnerId,
-        });
+        };
+        db.Add(kept);
+
+        // The bank's notice of the same line (when there is one) now points at the line it became.
+        if (line.ExternalId is { Length: > 0 } external)
+        {
+            foreach (var notice in await db.Set<BankNotice>().Where(n => n.Active && n.BankId == bankId && n.ExternalId == external && n.BankStatementLineId == null).ToListAsync(ct)
+                .ConfigureAwait(false))
+            {
+                notice.BankStatementLineId = kept.Id;
+            }
+        }
+
         await db.SaveChangesAsync(ct).ConfigureAwait(false);
+        return kept.Id;
     }
 
     /// <summary>Checks a chosen bank line before anything is posted: money in, the amount due, not held for the bank yet.</summary>

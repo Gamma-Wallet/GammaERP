@@ -34,6 +34,9 @@ public sealed class DocumentType : ElementType
     /// <summary>Its documents stay open until payments cover them (invoices).</summary>
     public bool HoldsOpenItem { get; set; }
 
+    /// <summary>Its documents are declared to the tax authority once paid and confirmed (plan 4.3c; data, not code).</summary>
+    public bool Fiscalise { get; set; }
+
     /// <summary>Its documents pay open ones: a line names the code of the document it covers.</summary>
     public bool PaysOpenItems { get; set; }
 

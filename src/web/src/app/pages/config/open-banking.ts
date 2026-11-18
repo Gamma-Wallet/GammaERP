@@ -1,5 +1,7 @@
 import { ChangeDetectionStrategy, Component, computed, inject, signal } from '@angular/core';
-import { BankProvider, BankProviderChoices, BankProviderModel, BankingApi, bankProviderModelOf, bankProviderProblem, emptyBankProvider } from '../../core/banking';
+import { BankProvider, BankProviderChoices, BankProviderModel, BankingApi, CardProvider, CardProviderModel, WalletProvider, bankProviderModelOf, bankProviderProblem, bankResponseUrl,
+  cardCallbackUrl, cardProviderModelOf, emptyBankProvider } from '../../core/banking';
+import { Field, Input } from '../../ui/controls';
 import { errorsOf } from '../../core/entities';
 import { t } from '../../core/i18n';
 import { TranslatePipe } from '../../core/t.pipe';
@@ -16,7 +18,7 @@ import { BankProviderFields } from '../setup/bank-provider-fields';
  */
 @Component({
   selector: 'app-open-banking',
-  imports: [TranslatePipe, BankProviderFields, Button, Icon],
+  imports: [TranslatePipe, BankProviderFields, Button, Icon, Field, Input],
   changeDetection: ChangeDetectionStrategy.OnPush,
   template: `
     <div class="head"><h1>{{ 'Open banking' | t }}</h1></div>
@@ -31,6 +33,9 @@ import { BankProviderFields } from '../setup/bank-provider-fields';
           <dd>@if (p.keyReadable) { {{ 'Set' | t }} ({{ p.keyFingerprint }}) } @else { <strong>{{ 'The server can no longer open the key: choose the .pem file again.' | t }}</strong> }</dd>
           <dt>{{ 'Return address' | t }}</dt><dd>{{ p.redirectUrl }}</dd>
           <dt>{{ 'Days a bank connection lasts' | t }}</dt><dd>{{ p.accessDays }}</dd>
+          <dt>{{ 'API address' | t }}</dt><dd>{{ p.apiBase }}</dd>
+          <dt>{{ 'Bank responses' | t }}</dt>
+          <dd>@if (p.responseSecretSet) { {{ 'Signed messages taken at' | t }} <code>{{ responseUrl(p) }}</code> } @else { {{ 'Not set: the till uses Check bank.' | t }} }</dd>
         </dl>
       } @else {
         <p>{{ 'The company has no open banking provider yet.' | t }}</p>
@@ -38,12 +43,65 @@ import { BankProviderFields } from '../setup/bank-provider-fields';
       <section class="card">
         <h2>{{ current() ? ('Change it' | t) : ('Set it' | t) }}</h2>
         <app-bank-provider-fields [value]="model()" [choices]="choices()" [keySet]="!!current()?.keyReadable" [fingerprint]="current()?.keyFingerprint ?? null"
+          [responseSecretSet]="!!current()?.responseSecretSet"
           (valueChange)="model.set($event)" />
         @if (problem()) { <p class="muted problem">{{ problem() }}</p> }
         <footer>
           @if (current()) { <button uiButton variant="quiet" [disabled]="busy()" (click)="switchOff()">{{ 'Switch off…' | t }}</button> }
           <span class="spacer"></span>
           <button uiButton variant="primary" [disabled]="busy() || !!problem()" (click)="save()">{{ 'Save' | t }}</button>
+        </footer>
+      </section>
+      <section class="card">
+        <h2>{{ 'Gamma Wallet' | t }}</h2>
+        <p class="muted">{{ 'Paid till bills are sent to the Gamma business, so the customer gets the reward: by scanning its QR, or at once when they paid through the payment link in Gamma Wallet. The token is made in Gamma Business, Integrations.' | t }}</p>
+        @if (wallet(); as w) {
+          <dl class="review">
+            <dt>{{ 'Business' | t }}</dt><dd>{{ w.businessName }} · {{ w.currencyCode }} · @if (w.canClaim) { {{ 'rewards on' | t }} } @else { <strong>{{ 'no active reward service' | t }}</strong> }</dd>
+            <dt>{{ 'Token' | t }}</dt><dd>{{ w.tokenFingerprint }}</dd>
+            <dt>{{ 'API address' | t }}</dt><dd>{{ w.apiBase }}</dd>
+          </dl>
+        }
+        <ui-field [label]="'Integration token' | t" [required]="!wallet()?.tokenSet" [hint]="wallet()?.tokenSet ? ('Set. Type a new one only to replace it.' | t) : ('GWINT_ and the rest, from Gamma Business, Integrations.' | t)">
+          <input uiInput type="password" autocomplete="off" [value]="walletToken()" (input)="walletToken.set($any($event.target).value)" />
+        </ui-field>
+        <ui-field [label]="'API address' | t" [hint]="'Empty: Gamma Wallet itself.' | t">
+          <input uiInput [value]="walletApi()" (input)="walletApi.set($any($event.target).value)" />
+        </ui-field>
+        <footer>
+          <span class="spacer"></span>
+          <button uiButton variant="primary" [disabled]="busy() || (!walletToken().trim() && !wallet()?.tokenSet)" (click)="saveWallet()">{{ 'Save' | t }}</button>
+        </footer>
+      </section>
+      <section class="card">
+        <h2>{{ 'Card payments (JCC)' | t }}</h2>
+        <p class="muted">{{ 'The shop takes cards through its own JCC merchant account: a payment method with provider kind Jcc shows the payment link at the till, and its page offers Pay by card.' | t }}</p>
+        @if (card(); as c) {
+          <dl class="review">
+            <dt>{{ 'API user' | t }}</dt><dd>{{ c.apiUser }} · {{ c.environment }}</dd>
+            <dt>{{ 'Password' | t }}</dt><dd>@if (c.passwordReadable) { {{ 'Set' | t }} } @else { <strong>{{ 'Enter it again' | t }}</strong> }</dd>
+            <dt>{{ 'Callbacks' | t }}</dt><dd>@if (c.callbackKeySet) { {{ 'Checked with the key, taken at' | t }} <code>{{ callbackUrl(c) }}</code> } @else { {{ 'No key: callbacks are refused; the till uses Check card.' | t }} }</dd>
+          </dl>
+        }
+        <ui-field [label]="'API user' | t" [required]="true" [hint]="'The merchant API user JCC gave (login-api).' | t">
+          <input uiInput [value]="cardModel().apiUser" (input)="setCard({ apiUser: $any($event.target).value })" />
+        </ui-field>
+        <ui-field [label]="'Password' | t" [required]="!card()?.passwordSet" [hint]="card()?.passwordSet ? ('Set. Type a new one only to replace it.' | t) : ''">
+          <input uiInput type="password" autocomplete="off" [value]="cardModel().password" (input)="setCard({ password: $any($event.target).value })" />
+        </ui-field>
+        <ui-field [label]="'Callback key' | t" [hint]="'The key JCC signs its callbacks with (checksum).' | t">
+          <input uiInput type="password" autocomplete="off" [value]="cardModel().callbackKey" (input)="setCard({ callbackKey: $any($event.target).value })" />
+        </ui-field>
+        <ui-field [label]="'Return address' | t" [required]="true" [hint]="'Where JCC sends the payer back: the ERP address and /pay/card-return.' | t">
+          <input uiInput [value]="cardModel().returnUrl" (input)="setCard({ returnUrl: $any($event.target).value })" />
+        </ui-field>
+        <ui-field [label]="'API address' | t" [hint]="'Empty: JCC test gateway. Another https address only for a copy of the gateway (e.g. a test simulator).' | t">
+          <input uiInput [value]="cardModel().apiBase" (input)="setCard({ apiBase: $any($event.target).value })" />
+        </ui-field>
+        <footer>
+          @if (card()) { <button uiButton variant="quiet" [disabled]="busy()" (click)="switchOffCard()">{{ 'Switch off…' | t }}</button> }
+          <span class="spacer"></span>
+          <button uiButton variant="primary" [disabled]="busy() || !cardModel().apiUser.trim()" (click)="saveCard()">{{ 'Save' | t }}</button>
         </footer>
       </section>
     }
@@ -74,11 +132,82 @@ export class OpenBanking {
     void this.load();
   }
 
+  protected readonly wallet = signal<WalletProvider | null>(null);
+  protected readonly walletToken = signal('');
+  protected readonly walletApi = signal('');
+
+  protected async saveWallet(): Promise<void> {
+    this.busy.set(true);
+    this.message.set(null);
+    try {
+      this.wallet.set(await this.api.saveWalletProvider(this.walletToken(), this.walletApi()));
+      this.walletToken.set('');
+      this.toasts.good(t('Gamma Wallet connected.'));
+    } catch (error) {
+      this.message.set(errorsOf(error).message);
+    } finally {
+      this.busy.set(false);
+    }
+  }
+
+  protected readonly card = signal<CardProvider | null>(null);
+  protected readonly cardModel = signal<CardProviderModel>(cardProviderModelOf(null, window.location.origin));
+
+  protected callbackUrl(c: CardProvider): string {
+    return cardCallbackUrl(window.location.origin, c.id);
+  }
+
+  protected setCard(change: Partial<CardProviderModel>): void {
+    this.cardModel.set({ ...this.cardModel(), ...change });
+  }
+
+  private showCard(card: CardProvider | null): void {
+    this.card.set(card);
+    this.cardModel.set(cardProviderModelOf(card, window.location.origin));
+  }
+
+  protected async saveCard(): Promise<void> {
+    this.busy.set(true);
+    this.message.set(null);
+    try {
+      this.showCard(await this.api.saveCardProvider(this.cardModel()));
+      this.toasts.good(t('Card payments saved.'));
+    } catch (error) {
+      this.message.set(errorsOf(error).message);
+    } finally {
+      this.busy.set(false);
+    }
+  }
+
+  protected async switchOffCard(): Promise<void> {
+    const yes = await this.dialogs.confirm({ title: t('Switch card payments off?'), message: t('The payment link can no longer take cards until a gateway is set again. Nothing is deleted.'),
+      confirmLabel: t('Switch off'), danger: true });
+    if (!yes) {
+      return;
+    }
+    this.busy.set(true);
+    try {
+      await this.api.switchOffCardProvider();
+      this.showCard(null);
+    } catch (error) {
+      this.message.set(errorsOf(error).message);
+    } finally {
+      this.busy.set(false);
+    }
+  }
+
+  protected responseUrl(p: BankProvider): string {
+    return bankResponseUrl(window.location.origin, p.id);
+  }
+
   private async load(): Promise<void> {
     try {
-      const [choices, current] = await Promise.all([this.api.choices(), this.api.provider()]);
+      const [choices, current, card, wallet] = await Promise.all([this.api.choices(), this.api.provider(), this.api.cardProvider(), this.api.walletProvider()]);
+      this.wallet.set(wallet);
+      this.walletApi.set(wallet?.apiBase ?? '');
       this.choices.set(choices);
       this.show(current);
+      this.showCard(card);
     } catch (error) {
       this.message.set(errorsOf(error).message);
     } finally {

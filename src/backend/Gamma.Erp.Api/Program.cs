@@ -104,9 +104,32 @@ builder.Services.AddSingleton<Gamma.Erp.Services.Banking.ISecretBox, Gamma.Erp.A
 builder.Services.AddScoped<Gamma.Erp.Services.Banking.BankProviders>();
 builder.Services.AddHttpClient<Gamma.Erp.Services.Banking.EnableBankingConnector>(c => c.Timeout = TimeSpan.FromSeconds(60));
 builder.Services.AddScoped<Gamma.Erp.Services.Banking.IBankConnector>(sp => sp.GetRequiredService<Gamma.Erp.Services.Banking.EnableBankingConnector>());
+builder.Services.AddHttpClient<Gamma.Erp.Services.Banking.BankOfCyprusConnector>(c => c.Timeout = TimeSpan.FromSeconds(60));
+builder.Services.AddScoped<Gamma.Erp.Services.Banking.IBankConnector>(sp => sp.GetRequiredService<Gamma.Erp.Services.Banking.BankOfCyprusConnector>());
 builder.Services.AddScoped<Gamma.Erp.Services.Banking.BankConnections>();
 builder.Services.AddScoped<Gamma.Erp.Services.Banking.BankFeeds>();
 builder.Services.AddScoped<Gamma.Erp.Services.Banking.PosBankPayments>();
+builder.Services.AddScoped<Gamma.Erp.Services.Banking.BankNotices>();
+builder.Services.AddScoped<Gamma.Erp.Services.Banking.PaymentLinks>();
+builder.Services.AddHttpClient<Gamma.Erp.Services.Banking.JccConnector>(c => c.Timeout = TimeSpan.FromSeconds(60));
+builder.Services.AddScoped<Gamma.Erp.Services.Banking.CardProviders>();
+// The tax authorities (plan 4.3c): one adapter per country; the company's fiscal provider row says which one it uses.
+builder.Services.AddHttpClient<Gamma.Erp.Services.Banking.GreeceMyDataAdapter>(c => c.Timeout = TimeSpan.FromSeconds(30));
+builder.Services.AddHttpClient<Gamma.Erp.Services.Banking.CyprusMyDataAdapter>(c => c.Timeout = TimeSpan.FromSeconds(30));
+builder.Services.AddScoped<Gamma.Erp.Services.Banking.IFiscalAdapter>(sp => sp.GetRequiredService<Gamma.Erp.Services.Banking.GreeceMyDataAdapter>());
+builder.Services.AddScoped<Gamma.Erp.Services.Banking.IFiscalAdapter>(sp => sp.GetRequiredService<Gamma.Erp.Services.Banking.CyprusMyDataAdapter>());
+builder.Services.AddHttpClient<Gamma.Erp.Services.Banking.AlbaniaFiscalisationAdapter>(c => c.Timeout = TimeSpan.FromSeconds(30));
+builder.Services.AddHttpClient<Gamma.Erp.Services.Banking.SpainVeriFactuAdapter>(c => c.Timeout = TimeSpan.FromSeconds(30));
+builder.Services.AddHttpClient<Gamma.Erp.Services.Banking.PortugalAtcudAdapter>(c => c.Timeout = TimeSpan.FromSeconds(30));
+builder.Services.AddScoped<Gamma.Erp.Services.Banking.IFiscalAdapter>(sp => sp.GetRequiredService<Gamma.Erp.Services.Banking.AlbaniaFiscalisationAdapter>());
+builder.Services.AddScoped<Gamma.Erp.Services.Banking.IFiscalAdapter>(sp => sp.GetRequiredService<Gamma.Erp.Services.Banking.SpainVeriFactuAdapter>());
+builder.Services.AddScoped<Gamma.Erp.Services.Banking.IFiscalAdapter>(sp => sp.GetRequiredService<Gamma.Erp.Services.Banking.PortugalAtcudAdapter>());
+builder.Services.AddScoped<Gamma.Erp.Services.Banking.FiscalReceipts>();
+builder.Services.AddScoped<Gamma.Erp.Services.Banking.FiscalProviders>();
+// Gamma Wallet (plan 4.5): the retailer's access is the company's row; the ERP pushes paid bills.
+builder.Services.AddHttpClient<Gamma.Erp.Services.Banking.GammaIntegrationClient>(c => c.Timeout = TimeSpan.FromSeconds(30));
+builder.Services.AddScoped<Gamma.Erp.Services.Banking.WalletProviders>();
+builder.Services.AddScoped<Gamma.Erp.Services.Banking.GammaWalletBills>();
 
 // A request with a personal token (Bearer GE_…) is signed in by TokenSignIn; every other one by the sign-in page's tokens (OpenIddict).
 builder.Services.AddAuthentication(options =>
@@ -242,6 +265,7 @@ if (app.Environment.IsDevelopment())
 app.MapHealthChecks("/health");
 app.MapAuth();
 app.MapApi();
+Gamma.Erp.Api.Banking.PaymentLinkPages.Map(app);
 app.MapGammaMcp();
 
 // The sign-in tables are this host's own; the business schema is migrated by its own migrations (the dev seed or the deployment).

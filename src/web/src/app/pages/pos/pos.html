@@ -23,6 +23,41 @@
 
 <main [class.wide]="view() === 'order' || view() === 'shop'">
   @if (message()) { <p class="message" role="alert"><ui-icon name="critical" [size]="18" />{{ message() }}</p> }
+  @if (fiscal().length) {
+    <section class="fiscal" aria-live="polite">
+      @for (r of fiscal(); track r.id) {
+        <div class="fiscal-receipt">
+          @if (r.status === 'Confirmed') {
+            @if (fiscalQr(r); as qr) { <img class="qr" [src]="qr" [alt]="'Fiscal QR code' | t" width="160" height="160" /> }
+            <p><strong>{{ 'Declared to the tax authority' | t }}</strong> · {{ r.bill }} · {{ r.authorityCode }}</p>
+          } @else {
+            <p><strong>{{ (r.status === 'Refused' ? 'The tax authority refused the bill' : 'The tax authority did not answer') | t }}</strong> · {{ r.bill }}</p>
+            @if (r.errors) { <p class="muted">{{ r.errors }}</p> }
+            <button uiButton size="touch" [disabled]="busy()" (click)="sendFiscalAgain(r)">{{ 'Send again' | t }}</button>
+          }
+        </div>
+      }
+      <button uiButton variant="quiet" (click)="fiscal.set([])">{{ 'Close' | t }}</button>
+    </section>
+  }
+  @if (wallet().length) {
+    <section class="fiscal" aria-live="polite">
+      @for (b of wallet(); track b.id) {
+        <div class="fiscal-receipt">
+          @if (b.status === 'Waiting' || b.status === 'Claimed') {
+            @if (walletQr(b); as qr) { <img class="qr" [src]="qr" [alt]="'Gamma Wallet QR code' | t" width="160" height="160" /> }
+            <p><strong>{{ (b.status === 'Claimed' ? 'Reward claimed in Gamma Wallet' : 'The customer scans this in Gamma Wallet for the reward') | t }}</strong> · {{ b.reference }}</p>
+            @if (b.status === 'Waiting') { <button uiButton size="touch" [disabled]="busy()" (click)="walletPress(b, 'check')">{{ 'Check claim' | t }}</button> }
+          } @else {
+            <p><strong>{{ (b.status === 'Held' ? 'Gamma Wallet: waiting for the tax authority' : 'Gamma Wallet did not take the bill') | t }}</strong> · {{ b.reference }}</p>
+            @if (b.errors) { <p class="muted">{{ b.errors }}</p> }
+            <button uiButton size="touch" [disabled]="busy()" (click)="walletPress(b, 'again')">{{ 'Send again' | t }}</button>
+          }
+        </div>
+      }
+      <button uiButton variant="quiet" (click)="wallet.set([])">{{ 'Close' | t }}</button>
+    </section>
+  }
 
   @if (!loaded()) {
     <p class="muted center">{{ 'Opening the point of sale…' | t }}</p>
@@ -195,6 +230,16 @@
             <p>{{ qr.holder }}<br />{{ qr.iban }}<br /><strong>{{ qr.currency }} {{ n(qr.amount) }}</strong> · {{ qr.reference }}</p>
             <p class="muted">{{ 'The customer scans the code with their banking app and pays.' | t }}</p>
             @if (qr.canCheck) {
+              @if (bankNotices().length) {
+                <ul class="bank-lines confirmed" aria-live="polite">
+                  @for (l of bankNotices(); track l.externalId) {
+                    <li>
+                      <span><strong>{{ (l.kind === 'card' ? 'Card paid' : 'Bank confirmed') | t }}</strong> · {{ l.counterpartyName ?? ('Unknown payer' | t) }} · {{ n(l.amount) }} @if (!l.booked) { <em>({{ 'pending' | t }})</em> }</span>
+                      <button uiButton size="touch" variant="primary" [disabled]="busy()" (click)="paidByBank(l)">{{ 'Paid' | t }}</button>
+                    </li>
+                  }
+                </ul>
+              }
               @if (bankLines(); as lines) {
                 <ul class="bank-lines">
                   @for (l of lines; track $index) {
@@ -208,7 +253,11 @@
                 </ul>
               }
               <div class="actions">
-                <button uiButton size="touch" [disabled]="busy()" (click)="checkBank()">{{ busy() ? ('Checking…' | t) : ('Check bank' | t) }}</button>
+                @if (qr.provider === 'Jcc') {
+                  <button uiButton size="touch" [disabled]="busy()" (click)="checkCard()">{{ busy() ? ('Checking…' | t) : ('Check card' | t) }}</button>
+                } @else {
+                  <button uiButton size="touch" [disabled]="busy()" (click)="checkBank()">{{ busy() ? ('Checking…' | t) : ('Check bank' | t) }}</button>
+                }
               </div>
             } @else {
               <p class="muted">{{ 'The bank account is not connected: check the bank app, then press Received.' | t }}</p>

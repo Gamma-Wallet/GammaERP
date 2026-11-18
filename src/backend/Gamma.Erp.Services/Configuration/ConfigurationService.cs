@@ -19,7 +19,7 @@ namespace Gamma.Erp.Services.Configuration;
 /// <summary>The settings of a document type that are not its entity's (its reversal, whether it posts).</summary>
 public sealed record DocumentTypeSettings(bool NeverPosted, bool AllowsPartialReversal, bool IsReversal, Guid? ReversedDocumentTypeId, bool SendsToProduction = false, Guid? ProductionDocumentTypeId = null, bool SellsProducedProduct = false, bool StartsRepair = false, bool CanBeAccepted = false,
     bool HoldsOpenItem = false, bool PaysOpenItems = false, bool BillsByPlan = false, bool NeedsApproval = false, bool SellsAssets = false,
-    bool ProducedOnProductionScreen = false);
+    bool ProducedOnProductionScreen = false, bool? Fiscalise = null);
 
 /// <summary>
 /// The company's configuration rows (VAT posting groups, payment methods and their cash desks / banks and document
@@ -73,6 +73,7 @@ public sealed partial class ConfigurationService(ErpDbContext db, RequestContext
         ["depreciation-scenario-lines"] = typeof(Gamma.Erp.Models.Depreciation.DepreciationScenarioConf),
         ["group-purchase-settings"] = typeof(GroupPurchaseSetting),
         ["unit-conversions"] = typeof(Gamma.Erp.Models.Units.UnitConversion),
+        ["fiscal-series"] = typeof(FiscalSeries),
         ["product-recipes"] = typeof(ProductRecipe),
         ["vat-return-boxes"] = typeof(VatReturnBox),
         ["vat-return-box-rules"] = typeof(VatReturnBoxRule),
@@ -310,6 +311,8 @@ public sealed partial class ConfigurationService(ErpDbContext db, RequestContext
         (type.SendsToProduction, type.ProductionDocumentTypeId, type.SellsProducedProduct, type.StartsRepair, type.CanBeAccepted) = (settings.SendsToProduction, settings.ProductionDocumentTypeId, settings.SellsProducedProduct, settings.StartsRepair, settings.CanBeAccepted);
         (type.HoldsOpenItem, type.PaysOpenItems, type.BillsByPlan, type.NeedsApproval, type.SellsAssets) = (settings.HoldsOpenItem, settings.PaysOpenItems, settings.BillsByPlan, settings.NeedsApproval, settings.SellsAssets);
         type.ProducedOnProductionScreen = settings.ProducedOnProductionScreen;
+        // Declared to the tax authority once paid (plan 4.3c); left out, it stays as it is.
+        type.Fiscalise = settings.Fiscalise ?? type.Fiscalise;
         await SaveOrRefuseAsync(ct).ConfigureAwait(false);
         return settings;
     }

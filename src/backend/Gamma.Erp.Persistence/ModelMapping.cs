@@ -96,6 +96,17 @@ public static class ModelMapping
             "reversed_document_code IS NULL OR reversed_document_id IS NOT NULL"));
         modelBuilder.Entity<Gamma.Erp.Models.Users.User>().HasIndex(u => u.Username).IsUnique().HasFilter("active AND username IS NOT NULL")
             .HasDatabaseName("ux_user_username");
+
+        // A provider's message sent twice (its retries, a resend) keeps one notice.
+        modelBuilder.Entity<Gamma.Erp.Models.Payments.BankNotice>().HasIndex(n => new { n.ProviderId, n.ExternalId }).IsUnique()
+            .HasFilter("active AND provider_id IS NOT NULL").HasDatabaseName("ux_bank_notice_provider_external");
+
+        // A card gateway's order is one notice.
+        modelBuilder.Entity<Gamma.Erp.Models.Payments.BankNotice>().HasIndex(n => new { n.CardProviderId, n.ExternalId }).IsUnique()
+            .HasFilter("active AND card_provider_id IS NOT NULL").HasDatabaseName("ux_bank_notice_card_external");
+
+        // A payment link's address is one link's only.
+        modelBuilder.Entity<Gamma.Erp.Models.Payments.PaymentLink>().HasIndex(l => l.PayToken).IsUnique().HasFilter("active").HasDatabaseName("ux_payment_link_token");
     }
 
     private static void OnlyActive<T>(EntityTypeBuilder builder)

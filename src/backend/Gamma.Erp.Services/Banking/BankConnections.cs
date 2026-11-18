@@ -109,11 +109,12 @@ public sealed class BankConnections(ErpDbContext db, RequestContext request, Vis
         var psu = start.PsuType?.Trim().ToLowerInvariant() is "personal" ? "personal" : "business";
         var state = Guid.NewGuid().ToString("N");
         var bank = new BankAspsp(start.AspspName.Trim(), Country(start.Country), [psu]);
-        var url = await Call(() => connector.StartAsync(provider, key, bank, psu, state, time.GetUtcNow().AddDays(provider.AccessDays), ct)).ConfigureAwait(false);
+        var begun = await Call(() => connector.StartAsync(provider, key, bank, psu, state, time.GetUtcNow().AddDays(provider.AccessDays), ct)).ConfigureAwait(false);
         row ??= await NewRowAsync(bankId, ct).ConfigureAwait(false);
         (row.PendingState, row.PendingAccounts, row.AspspName, row.AspspCountry, row.PsuType) = (state, null, bank.Name, bank.Country, psu);
+        row.PendingSession = begun.Pending is { } pending ? secrets.Seal(pending) : null;
         await db.SaveChangesAsync(ct).ConfigureAwait(false);
-        return new BankConnectLink(url);
+        return new BankConnectLink(begun.Url);
     }
 
     /// <summary>
@@ -133,18 +134,19 @@ public sealed class BankConnections(ErpDbContext db, RequestContext request, Vis
             throw ValidationException.For("code", "The bank sent no code back: the sign-in was cancelled or refused. Start it again.");
         }
 
-        var session = await Call(() => connector.SessionAsync(provider, key, finish.Code.Trim(), ct)).ConfigureAwait(false);
+        var pending = row.PendingSession is { } sealedPending ? secrets.Open(sealedPending) : null;
+        var session = await Call(() => connector.SessionAsync(provider, key, finish.Code.Trim(), pending, ct)).ConfigureAwait(false);
         var accounts = session.Accounts;
         var chosen = row.Iban is { } typed ? accounts.Where(a => Compact(a.Iban) == typed).ToList() : accounts.ToList();
         if (chosen.Count == 0)
         {
             await connector.EndAsync(provider, key, session.SessionId, ct).ConfigureAwait(false);
-            row.PendingState = null;
+            (row.PendingState, row.PendingSession) = (null, null);
             await db.SaveChangesAsync(ct).ConfigureAwait(false);
             throw ValidationException.For("iban", row.Iban is null ? "The bank gave no account." : $"The bank gave no account with the IBAN {row.Iban}: sign in with the bank and user that hold it.");
         }
 
-        row.PendingState = null;
+        (row.PendingState, row.PendingSession) = (null, null);
         row.ProviderId = provider.Id;
         row.SessionId = secrets.Seal(session.SessionId);
         row.ValidUntil = session.ValidUntil;
@@ -192,7 +194,7 @@ public sealed class BankConnections(ErpDbContext db, RequestContext request, Vis
             await connector.EndAsync(provider, key, session, ct).ConfigureAwait(false);
         }
 
-        (row.ProviderId, row.SessionId, row.AccountUid, row.ValidUntil, row.PendingState, row.PendingAccounts) = (null, null, null, null, null, null);
+        (row.ProviderId, row.SessionId, row.AccountUid, row.ValidUntil, row.PendingState, row.PendingAccounts, row.PendingSession) = (null, null, null, null, null, null, null);
         await db.SaveChangesAsync(ct).ConfigureAwait(false);
         return ToDto(bankId, bank, row);
     }

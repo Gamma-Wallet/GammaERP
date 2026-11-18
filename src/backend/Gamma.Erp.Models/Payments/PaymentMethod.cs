@@ -20,4 +20,13 @@ public sealed class PaymentMethod : Row
     /// (the founder, 2026-11-14).
     /// </summary>
     public bool ShowsBankQr { get; set; }
+
+    /// <summary>
+    /// The payment provider the method uses (data, not code): empty for none; BankOfCyprus = the till shows the ERP's payment link, whose page pays
+    /// through the company's Bank of Cyprus provider.
+    /// </summary>
+    public string? ProviderKind { get; set; }
+
+    /// <summary>Its till payments are sent to Gamma Wallet as bills (plan 4.5; packs: every till method but store credits).</summary>
+    public bool PushesToWallet { get; set; }
 }

@@ -6,7 +6,7 @@ import { NgTemplateOutlet } from '@angular/common';
 import { Router, RouterLink } from '@angular/router';
 import { DocumentApi, DocumentForm, HeldLot } from '../../core/documents';
 import { EntityApi, LookupOption, REGISTERS, errorsOf } from '../../core/entities';
-import { BankPaymentLine, BankQr, PosApi, PosBarcode, PosPlace, PosSettings, SaleMenu, UnpaidBill, PosShift, PosShiftSummary } from '../../core/pos';
+import { BankPaymentLine, BankQr, FiscalReceipt, WalletBill, PosApi, PosBarcode, PosPlace, PosSettings, SaleMenu, UnpaidBill, PosShift, PosShiftSummary } from '../../core/pos';
 import { DomSanitizer, SafeUrl } from '@angular/platform-browser';
 import { SessionService } from '../../core/session';
 import { PosEvents } from './pos-events';
@@ -160,6 +160,20 @@ export class Pos {
         void this.api.bankQr(place, method, due, reference).then(qr => this.bankQr.set(qr)).catch(error => this.message.set(errorsOf(error).message));
       }
     });
+  });
+
+  /** The bank's own "payment received" messages for the open QR code (confirmation 1): asked every few seconds, no read of the bank. */
+  protected readonly bankNotices = signal<BankPaymentLine[]>([]);
+  private readonly watchBankNotices = effect(onCleanup => {
+    const [qr, method, place] = [this.bankQr(), this.methodId(), this.pointOfSale()?.id];
+    untracked(() => this.bankNotices.set([]));
+    if (!qr?.canCheck || !method || !place) {
+      return;
+    }
+    const ask = () => void this.api.bankNotices(place, method, qr.amount, qr.reference).then(lines => this.bankNotices.set(lines)).catch(() => undefined);
+    ask();
+    const timer = setInterval(ask, 3000);
+    onCleanup(() => clearInterval(timer));
   });
 
   private readonly loadAllowedMethods = effect(() => {
@@ -661,6 +675,68 @@ export class Pos {
     }
   }
 
+  /** The last payment's Gamma bill: its QR while Waiting, Claimed when the customer took the reward, Held / Failed with Send again. */
+  protected readonly wallet = signal<WalletBill[]>([]);
+  protected walletQr(b: WalletBill): SafeUrl | null {
+    return b.qrSvg ? this.sanitizer.bypassSecurityTrustUrl(`data:image/svg+xml;charset=utf-8,${encodeURIComponent(b.qrSvg)}`) : null;
+  }
+
+  protected async walletPress(b: WalletBill, what: 'check' | 'again'): Promise<void> {
+    this.busy.set(true);
+    try {
+      const fresh = what === 'check' ? await this.api.walletCheckClaim(b.id) : await this.api.walletSendAgain(b.id);
+      this.wallet.set(this.wallet().map(x => x.id === fresh.id ? fresh : x));
+    } catch (error) {
+      this.message.set(errorsOf(error).message);
+    } finally {
+      this.busy.set(false);
+    }
+  }
+
+  /** The last paid bills' fiscal receipts: the fiscal QR when confirmed, Send again when refused or unanswered. */
+  protected readonly fiscal = signal<FiscalReceipt[]>([]);
+  protected fiscalQr(r: FiscalReceipt): SafeUrl | null {
+    return r.qrSvg ? this.sanitizer.bypassSecurityTrustUrl(`data:image/svg+xml;charset=utf-8,${encodeURIComponent(r.qrSvg)}`) : null;
+  }
+
+  protected async sendFiscalAgain(r: FiscalReceipt): Promise<void> {
+    this.busy.set(true);
+    try {
+      const again = await this.api.sendFiscalAgain(r.id);
+      this.fiscal.set(this.fiscal().map(x => x.id === again.id ? again : x));
+      // A Gamma bill held for this confirmation was sent: show its state.
+      const ids = this.wallet().map(w => w.documentId);
+      if (ids.length) {
+        this.wallet.set(await this.api.walletBills(ids).catch(() => this.wallet()));
+      }
+    } catch (error) {
+      this.message.set(errorsOf(error).message);
+    } finally {
+      this.busy.set(false);
+    }
+  }
+
+  /** Check card: asks the card gateway about this payment (when its callback did not come); a paid card shows as Card paid. */
+  protected async checkCard(): Promise<void> {
+    const [qr, method, place] = [this.bankQr(), this.methodId(), this.pointOfSale()?.id];
+    if (!qr || !method || !place) {
+      return;
+    }
+    this.busy.set(true);
+    this.message.set(null);
+    try {
+      const lines = await this.api.cardCheck(place, method, qr.amount, qr.reference);
+      this.bankNotices.set(lines);
+      if (!lines.length) {
+        this.message.set(t('The card is not paid yet.'));
+      }
+    } catch (error) {
+      this.message.set(errorsOf(error).message);
+    } finally {
+      this.busy.set(false);
+    }
+  }
+
   /** Paid on the line the cashier chose: posts the receipt into the bank and matches that line to it. */
   protected async paidByBank(line: BankPaymentLine): Promise<void> {
     const settings = this.settings();
@@ -671,9 +747,13 @@ export class Pos {
     this.busy.set(true);
     this.message.set(null);
     try {
-      await this.api.payByBank({ billTypeId: settings.billTypeId, paymentTypeId: settings.moneyInTypeId, cashDeskId: settings.cashDeskId, billIds: ids,
+      const paid = await this.api.payByBank({ billTypeId: settings.billTypeId, paymentTypeId: settings.moneyInTypeId, cashDeskId: settings.cashDeskId, billIds: ids,
         paymentMethodId: this.methodId(), pointOfSaleId: this.pointOfSale()?.id ?? null }, line);
       this.toasts.good(t('Paid {0} by bank; the bank line is matched.', this.n(this.due())));
+      // Confirmation 2: what the tax authority answered (when the bill's type is declared).
+      this.fiscal.set(await this.api.fiscalReceipts(ids).catch(() => []));
+      // Then Gamma Wallet: the payment's bill and its QR for the customer (or why it is held).
+      this.wallet.set(await this.api.walletBills(paid.map(d => d.id!).filter(x => !!x)).catch(() => []));
       this.show(this.home());
     } catch (error) {
       this.message.set(errorsOf(error).message);

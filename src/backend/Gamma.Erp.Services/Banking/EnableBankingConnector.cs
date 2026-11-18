@@ -24,7 +24,7 @@ public sealed class EnableBankingConnector(HttpClient http) : IBankConnector
             [.. (a["psu_types"]?.AsArray() ?? []).Select(p => (string?)p).OfType<string>()])).Where(a => a.Name.Length > 0).OrderBy(a => a.Name, StringComparer.CurrentCulture)];
     }
 
-    public async Task<string> StartAsync(BankProvider provider, string privateKey, BankAspsp bank, string psuType, string state, DateTimeOffset validUntil, CancellationToken ct)
+    public async Task<BankStartInfo> StartAsync(BankProvider provider, string privateKey, BankAspsp bank, string psuType, string state, DateTimeOffset validUntil, CancellationToken ct)
     {
         ArgumentNullException.ThrowIfNull(provider);
         ArgumentNullException.ThrowIfNull(bank);
@@ -37,10 +37,10 @@ public sealed class EnableBankingConnector(HttpClient http) : IBankConnector
             ["psu_type"] = psuType,
         };
         var answer = await SendAsync(HttpMethod.Post, provider, privateKey, "/auth", body, null, ct).ConfigureAwait(false);
-        return (string?)answer?["url"] ?? throw new BankProviderException("The provider gave no address to sign in at the bank.");
+        return new BankStartInfo((string?)answer?["url"] ?? throw new BankProviderException("The provider gave no address to sign in at the bank."));
     }
 
-    public async Task<BankSessionInfo> SessionAsync(BankProvider provider, string privateKey, string code, CancellationToken ct)
+    public async Task<BankSessionInfo> SessionAsync(BankProvider provider, string privateKey, string code, string? pending, CancellationToken ct)
     {
         var answer = await SendAsync(HttpMethod.Post, provider, privateKey, "/sessions", new JsonObject { ["code"] = code }, null, ct).ConfigureAwait(false)
             ?? throw new BankProviderException("The provider gave no session.");

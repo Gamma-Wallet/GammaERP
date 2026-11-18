@@ -185,6 +185,35 @@ export interface BankQr {
   svg: string;
   /** The bank account is connected: Check bank can read it. */
   canCheck: boolean;
+  /** The provider the method pays through by the payment link: BankOfCyprus or Jcc (cards); null for the plain bank QR. */
+  provider?: string | null;
+}
+
+/** A bill declared to the tax authority after its payment was confirmed: Confirmed (code + fiscal QR), Refused or Declared (Send again). */
+export interface FiscalReceipt {
+  id: string;
+  documentId: string;
+  bill: string | null;
+  status: 'Declared' | 'Confirmed' | 'Refused';
+  number: number | null;
+  authorityCode: string | null;
+  qrText: string | null;
+  qrSvg: string | null;
+  errors: string | null;
+  attempts: number;
+}
+
+/** A till payment's bill at Gamma Wallet: Waiting (the customer can claim), Claimed, Held (waiting for the tax authority) or Failed. */
+export interface WalletBill {
+  id: string;
+  documentId: string;
+  reference: string;
+  total: number;
+  status: 'Held' | 'Waiting' | 'Claimed' | 'Failed';
+  link: string | null;
+  qrSvg: string | null;
+  errors: string | null;
+  attempts: number;
 }
 
 /** A money-in line from the bank that may be the payment. */
@@ -198,6 +227,8 @@ export interface BankPaymentLine {
   counterpartyIban: string | null;
   booked: boolean;
   mentionsReference: boolean;
+  /** bank, or card (a card gateway's notice). */
+  kind?: string;
 }
 
 /** The point-of-sale API: its settings and floor plan, the menus open now, the bills not yet paid and paying them. */
@@ -332,6 +363,40 @@ export class PosApi {
   async bankQr(pointOfSale: string, paymentMethod: string, amount: number, reference: string): Promise<BankQr | null> {
     const params = { pointOfSale, paymentMethod, amount: amount.toFixed(2), reference };
     return (await firstValueFrom(this.http.get<BankQr | null>(`${this.base}/bank-qr`, { params }))) ?? null;
+  }
+
+  /** The bank's own "payment received" messages for this amount and reference, not used yet (no read of the bank). */
+  bankNotices(pointOfSale: string, paymentMethod: string, amount: number, reference: string): Promise<BankPaymentLine[]> {
+    const params = { pointOfSale, paymentMethod, amount: amount.toFixed(2), reference };
+    return firstValueFrom(this.http.get<BankPaymentLine[]>(`${this.base}/bank-notices`, { params }));
+  }
+
+  /** The payments' Gamma bills. */
+  walletBills(paymentIds: string[]): Promise<WalletBill[]> {
+    return firstValueFrom(this.http.get<WalletBill[]>(`${this.base}/wallet-bills`, { params: { payment: paymentIds } }));
+  }
+
+  walletSendAgain(id: string): Promise<WalletBill> {
+    return firstValueFrom(this.http.post<WalletBill>(`${this.base}/wallet-bills/${id}/send-again`, {}));
+  }
+
+  walletCheckClaim(id: string): Promise<WalletBill> {
+    return firstValueFrom(this.http.post<WalletBill>(`${this.base}/wallet-bills/${id}/check-claim`, {}));
+  }
+
+  /** The bills' fiscal receipts. */
+  fiscalReceipts(billIds: string[]): Promise<FiscalReceipt[]> {
+    return firstValueFrom(this.http.get<FiscalReceipt[]>(`${this.base}/fiscal-receipts`, { params: { bill: billIds } }));
+  }
+
+  /** Send again: declares a refused or unanswered receipt again. */
+  sendFiscalAgain(id: string): Promise<FiscalReceipt> {
+    return firstValueFrom(this.http.post<FiscalReceipt>(`${this.base}/fiscal-receipts/${id}/send-again`, {}));
+  }
+
+  /** Check card: reads the card gateway for this payment, then answers its notices. */
+  cardCheck(pointOfSaleId: string, paymentMethodId: string, amount: number, reference: string): Promise<BankPaymentLine[]> {
+    return firstValueFrom(this.http.post<BankPaymentLine[]>(`${this.base}/card-check`, { pointOfSaleId, paymentMethodId, amount, reference }));
   }
 
   /** Reads the bank once for the cashier: money-in lines of this amount not yet held, those mentioning the reference first. */

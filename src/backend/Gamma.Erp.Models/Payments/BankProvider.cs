@@ -37,4 +37,19 @@ public sealed class BankProvider : Row
 
     /// <summary>How many days a bank connection asks for, 1 to 180.</summary>
     public int AccessDays { get; set; } = 180;
+
+    /// <summary>
+    /// The secret the bank signs its "payment received" messages with (HMAC-SHA256), sealed by the host and never returned; empty when the bank sends
+    /// none. A message only writes a bank notice: the cashier still presses Paid.
+    /// </summary>
+    public string? ResponseSecret { get; set; }
+
+    /// <summary>The provider also starts payments (Bank of Cyprus payment initiation, from the ERP's payment link page).</summary>
+    public bool PaymentsEnabled { get; set; }
+
+    /// <summary>Where the bank sends the payer back after approving a payment: the ERP's <c>/pay/bank-return</c>; its origin is also the payment links' address.</summary>
+    public string? PaymentReturnUrl { get; set; }
+
+    /// <summary>How long a payment link can be paid, in minutes.</summary>
+    public int PaymentLinkMinutes { get; set; } = 20;
 }

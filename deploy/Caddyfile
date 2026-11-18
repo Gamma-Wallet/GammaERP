@@ -5,14 +5,16 @@
 	auto_https off
 	servers {
 		# The port is published on 127.0.0.1 only: what connects is the host's proxy, and its X-Forwarded-For names the client.
-		trusted_proxies static private_ranges
+		# A host whose only way in is its own front end (e.g. Google Cloud Run) sets TRUSTED_PROXIES=0.0.0.0/0.
+		trusted_proxies static {$TRUSTED_PROXIES:private_ranges}
 	}
 }
 
 :8080 {
 	encode zstd gzip
 
-	@api path /api/* /account/* /connect/* /.well-known/* /health
+	# /pay/*: the payment link pages (public, served by the API).
+	@api path /api/* /account/* /connect/* /.well-known/* /health /pay/*
 	handle @api {
 		reverse_proxy {$ERP_UPSTREAM} {
 			header_up X-Forwarded-For {client_ip}

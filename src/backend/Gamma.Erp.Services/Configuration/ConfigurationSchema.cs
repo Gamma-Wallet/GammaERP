@@ -150,7 +150,7 @@ public sealed partial class ConfigurationService
         var type = await db.Set<DocumentType>().AsNoTracking().FirstOrDefaultAsync(t => t.Id == id && t.Active, ct).ConfigureAwait(false);
         return type is null || (type.OwnerId is { } owner && !nodes.Contains(owner)) ? null
             : new DocumentTypeSettings(type.NeverPosted, type.AllowsPartialReversal, type.IsReversal, type.ReversedDocumentTypeId, type.SendsToProduction, type.ProductionDocumentTypeId, type.SellsProducedProduct, type.StartsRepair, type.CanBeAccepted,
-                type.HoldsOpenItem, type.PaysOpenItems, type.BillsByPlan, type.NeedsApproval, type.SellsAssets, type.ProducedOnProductionScreen);
+                type.HoldsOpenItem, type.PaysOpenItems, type.BillsByPlan, type.NeedsApproval, type.SellsAssets, type.ProducedOnProductionScreen, type.Fiscalise);
     }
 
     /// <summary>The users and roles a document type is given to (B7).</summary>
