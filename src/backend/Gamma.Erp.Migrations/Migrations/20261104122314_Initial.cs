@@ -23403,6 +23403,57 @@ namespace Gamma.Erp.Migrations.Migrations
                 nullable: true);
         
 
+            // Pay with Gamma app: the open bill at Gamma, the till's staff login, the bank text for Bill/Paid (2026-11-19)
+            migrationBuilder.AddColumn<string>(
+                name: "bank_reference",
+                schema: "payments",
+                table: "tbl_wallet_bill",
+                type: "text",
+                nullable: true);
+
+            migrationBuilder.AddColumn<string>(
+                name: "payment_text",
+                schema: "payments",
+                table: "tbl_wallet_bill",
+                type: "text",
+                nullable: true);
+
+            migrationBuilder.AddColumn<string>(
+                name: "gamma_staff_login",
+                schema: "products",
+                table: "tbl_point_of_sale_setting",
+                type: "text",
+                nullable: true);
+
+            migrationBuilder.AddColumn<string>(
+                name: "gamma_bill_code",
+                schema: "payments",
+                table: "tbl_payment_link",
+                type: "text",
+                nullable: true);
+
+            migrationBuilder.AddColumn<string>(
+                name: "gamma_bill_id",
+                schema: "payments",
+                table: "tbl_payment_link",
+                type: "text",
+                nullable: true);
+
+            migrationBuilder.AddColumn<string>(
+                name: "gamma_errors",
+                schema: "payments",
+                table: "tbl_payment_link",
+                type: "text",
+                nullable: true);
+
+            migrationBuilder.AddColumn<string>(
+                name: "gamma_link",
+                schema: "payments",
+                table: "tbl_payment_link",
+                type: "text",
+                nullable: true);
+        
+
             RowLevelSecurity.CreateTenantRole(migrationBuilder);
             RowLevelSecurity.GrantSchema(migrationBuilder, "charts");
             RowLevelSecurity.GrantSchema(migrationBuilder, "cost_centers");
@@ -23633,6 +23684,42 @@ namespace Gamma.Erp.Migrations.Migrations
         /// <inheritdoc />
         protected override void Down(MigrationBuilder migrationBuilder)
         {
+            migrationBuilder.DropColumn(
+                name: "bank_reference",
+                schema: "payments",
+                table: "tbl_wallet_bill");
+
+            migrationBuilder.DropColumn(
+                name: "payment_text",
+                schema: "payments",
+                table: "tbl_wallet_bill");
+
+            migrationBuilder.DropColumn(
+                name: "gamma_staff_login",
+                schema: "products",
+                table: "tbl_point_of_sale_setting");
+
+            migrationBuilder.DropColumn(
+                name: "gamma_bill_code",
+                schema: "payments",
+                table: "tbl_payment_link");
+
+            migrationBuilder.DropColumn(
+                name: "gamma_bill_id",
+                schema: "payments",
+                table: "tbl_payment_link");
+
+            migrationBuilder.DropColumn(
+                name: "gamma_errors",
+                schema: "payments",
+                table: "tbl_payment_link");
+
+            migrationBuilder.DropColumn(
+                name: "gamma_link",
+                schema: "payments",
+                table: "tbl_payment_link");
+        
+
             migrationBuilder.DropColumn(
                 name: "pays_on_confirmation",
                 schema: "payments",

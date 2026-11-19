@@ -9170,6 +9170,22 @@ namespace Gamma.Erp.Migrations.Migrations
                         .HasColumnType("boolean")
                         .HasColumnName("from_app");
 
+                    b.Property<string>("GammaBillCode")
+                        .HasColumnType("text")
+                        .HasColumnName("gamma_bill_code");
+
+                    b.Property<string>("GammaBillId")
+                        .HasColumnType("text")
+                        .HasColumnName("gamma_bill_id");
+
+                    b.Property<string>("GammaErrors")
+                        .HasColumnType("text")
+                        .HasColumnName("gamma_errors");
+
+                    b.Property<string>("GammaLink")
+                        .HasColumnType("text")
+                        .HasColumnName("gamma_link");
+
                     b.Property<Guid?>("IdChange")
                         .HasColumnType("uuid")
                         .HasColumnName("id_change");
@@ -9632,6 +9648,10 @@ namespace Gamma.Erp.Migrations.Migrations
                         .HasColumnType("integer")
                         .HasColumnName("attempts");
 
+                    b.Property<string>("BankReference")
+                        .HasColumnType("text")
+                        .HasColumnName("bank_reference");
+
                     b.Property<DateTimeOffset?>("ClaimedOn")
                         .HasColumnType("timestamp with time zone")
                         .HasColumnName("claimed_on");
@@ -9680,6 +9700,10 @@ namespace Gamma.Erp.Migrations.Migrations
                     b.Property<Guid?>("OwnerId")
                         .HasColumnType("uuid")
                         .HasColumnName("owner_id");
+
+                    b.Property<string>("PaymentText")
+                        .HasColumnType("text")
+                        .HasColumnName("payment_text");
 
                     b.Property<string>("Reference")
                         .IsRequired()
@@ -11919,6 +11943,10 @@ namespace Gamma.Erp.Migrations.Migrations
                     b.Property<DateTimeOffset>("CreatedOn")
                         .HasColumnType("timestamp with time zone")
                         .HasColumnName("created_on");
+
+                    b.Property<string>("GammaStaffLogin")
+                        .HasColumnType("text")
+                        .HasColumnName("gamma_staff_login");
 
                     b.Property<Guid?>("IdChange")
                         .HasColumnType("uuid")

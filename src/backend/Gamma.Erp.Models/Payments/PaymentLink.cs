@@ -62,4 +62,17 @@ public sealed class PaymentLink : Row
 
     /// <summary>Why the confirmation could not pay the bill by itself; the cashier then presses Paid.</summary>
     public string? SettleError { get; set; }
+
+    /// <summary>
+    /// "Pay with Gamma app" (plan 10): the open bill as Gamma holds it, sent when the cashier chose the method (Bill/Open) — Gamma's bill id, its
+    /// code and link (the QR the till's Retailer app shows). Paid, the same bill is marked paid (Bill/Paid) instead of a new one.
+    /// </summary>
+    public string? GammaBillId { get; set; }
+
+    public string? GammaBillCode { get; set; }
+
+    public string? GammaLink { get; set; }
+
+    /// <summary>Why Gamma did not take the open bill (the till shows it; choosing the method again sends it again).</summary>
+    public string? GammaErrors { get; set; }
 }

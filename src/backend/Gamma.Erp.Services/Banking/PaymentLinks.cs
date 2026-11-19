@@ -11,6 +11,9 @@ namespace Gamma.Erp.Services.Banking;
 public sealed record PaymentLinkView(string PayToken, string Shop, decimal Amount, string Currency, string Reference, string Status, DateTimeOffset ExpiresOn,
     IReadOnlyList<string> Methods, string? ProviderReference, string? GammaBusinessId = null, bool BillPaid = false, string? Note = null, bool FromApp = false);
 
+/// <summary>The till's view of its payment link: Open / Paid / Expired, the payment the confirmation posted (when it did) and why not; Gamma's link and errors.</summary>
+public sealed record TillLinkDto(string PayToken, string Status, string? Method, Guid? PaymentId, string? SettleError, string? GammaLink, string? GammaErrors);
+
 /// <summary>What the bank's return came to: the link (when known) and what to tell the payer.</summary>
 public sealed record PaymentReturn(PaymentLinkView? Link, bool Paid, string Message);
 
@@ -28,8 +31,12 @@ public sealed class PaymentLinks(ErpDbContext db, ISecretBox secrets, BankOfCypr
 
     public const string Jcc = JccConnector.KindName;
 
-    /// <summary>The provider kinds a payment method can pay through by a link.</summary>
-    public static bool ByLink(string? kind) => kind is BankOfCyprus or Jcc;
+    /// <summary>"Pay with Gamma app" (plan 10): the bill is sent open to Gamma; the customer pays it from their own bank in Gamma Wallet; the bank's notice of
+    /// the money on the shop's account pays it here.</summary>
+    public const string GammaApp = "GammaApp";
+
+    /// <summary>The provider kinds a payment method can pay through by a link (a payment request the ERP keeps).</summary>
+    public static bool ByLink(string? kind) => kind is BankOfCyprus or Jcc or GammaApp;
 
     private readonly TimeProvider time = clock ?? TimeProvider.System;
 
@@ -41,8 +48,12 @@ public sealed class PaymentLinks(ErpDbContext db, ISecretBox secrets, BankOfCypr
         string currency, string reference, string kind, CancellationToken ct)
     {
         var provider = await db.Set<BankProvider>().AsNoTracking().FirstOrDefaultAsync(p => p.Active && p.OwnerId == company, ct).ConfigureAwait(false);
-        Uri? back;
-        if (kind == Jcc)
+        Uri? back = null;
+        if (kind == GammaApp)
+        {
+            // Nobody opens this link: Gamma's own bill is the QR. The request lives as long as a payment link does.
+        }
+        else if (kind == Jcc)
         {
             var card = await db.Set<CardProvider>().AsNoTracking().FirstOrDefaultAsync(p => p.Active && p.OwnerId == company, ct).ConfigureAwait(false);
             if (card is null || !Uri.TryCreate(card.ReturnUrl, UriKind.Absolute, out back))
@@ -69,7 +80,57 @@ public sealed class PaymentLinks(ErpDbContext db, ISecretBox secrets, BankOfCypr
             await db.SaveChangesAsync(ct).ConfigureAwait(false);
         }
 
-        return (link, $"{back.GetLeftPart(UriPartial.Authority)}/pay/{link.PayToken}");
+        return (link, back is null ? string.Empty : $"{back.GetLeftPart(UriPartial.Authority)}/pay/{link.PayToken}");
+    }
+
+    /// <summary>Keeps what Gamma answered for the open bill ("Pay with Gamma app"), or why it did not take it.</summary>
+    public async Task KeepGammaAsync(Guid linkId, GammaBill? bill, string? error, CancellationToken ct)
+    {
+        var rows = db.Set<PaymentLink>().Where(l => l.Id == linkId);
+        if (bill is null)
+        {
+            await rows.ExecuteUpdateAsync(u => u.SetProperty(l => l.GammaErrors, error), ct).ConfigureAwait(false);
+            return;
+        }
+
+        var (id, code, link) = (bill.BillId, bill.Code, bill.Link);
+        await rows.ExecuteUpdateAsync(u => u.SetProperty(l => l.GammaBillId, id).SetProperty(l => l.GammaBillCode, code).SetProperty(l => l.GammaLink, link)
+            .SetProperty(l => l.GammaErrors, (string?)null), ct).ConfigureAwait(false);
+    }
+
+    /// <summary>
+    /// A bank notice just kept (money on one of the company's accounts): when it is the payment of an open "Pay with Gamma app" request — same bank
+    /// account, same amount, its text naming every bill of the request — the request is paid by it. Answers the request's token (then
+    /// PaymentLinkSettlement pays the bills), or null. Nothing is guessed: no match, nothing happens and the notice waits for a person.
+    /// </summary>
+    public async Task<string?> MatchNoticeAsync(Guid noticeId, CancellationToken ct)
+    {
+        var notice = await db.Set<BankNotice>().AsNoTracking().FirstOrDefaultAsync(n => n.Active && n.Id == noticeId && n.Kind == "bank", ct).ConfigureAwait(false);
+        if (notice?.Reference is not { Length: > 0 } text)
+        {
+            return null;
+        }
+
+        var words = text.Split([' ', ',', ';', '/', '\t'], StringSplitOptions.RemoveEmptyEntries).ToHashSet(StringComparer.OrdinalIgnoreCase);
+        var candidates = await db.Set<PaymentLink>().Where(l => l.Active && l.OwnerId == notice.OwnerId && l.Method == GammaApp && l.BankNoticeId == null
+            && (l.Status == "Open" || l.Status == "Expired") && l.BankId == notice.BankId && l.Amount == notice.Amount).OrderByDescending(l => l.CreatedOn).ToListAsync(ct)
+            .ConfigureAwait(false);
+        var link = candidates.FirstOrDefault(l => l.Reference.Split(' ', StringSplitOptions.RemoveEmptyEntries).All(words.Contains));
+        if (link is null)
+        {
+            return null;
+        }
+
+        (link.Status, link.ProviderReference, link.PaidOn, link.BankNoticeId) = ("Paid", notice.ProviderReference, time.GetUtcNow(), notice.Id);
+        await db.SaveChangesAsync(ct).ConfigureAwait(false);
+        return link.PayToken;
+    }
+
+    /// <summary>The till's view of its link (signed in, the company's own): state, whether the bill is paid here and by which payment, and why not.</summary>
+    public async Task<TillLinkDto?> TillStatusAsync(Guid company, string payToken, CancellationToken ct)
+    {
+        var link = await db.Set<PaymentLink>().AsNoTracking().FirstOrDefaultAsync(l => l.Active && l.OwnerId == company && l.PayToken == payToken, ct).ConfigureAwait(false);
+        return link is null ? null : new TillLinkDto(link.PayToken, link.Status, link.Method, link.PaymentId, link.SettleError, link.GammaLink, link.GammaErrors);
     }
 
     /// <summary>The page's view of a link; null when there is no such link.</summary>

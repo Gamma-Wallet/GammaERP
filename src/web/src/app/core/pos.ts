@@ -185,8 +185,23 @@ export interface BankQr {
   svg: string;
   /** The bank account is connected: Check bank can read it. */
   canCheck: boolean;
-  /** The provider the method pays through by the payment link: BankOfCyprus or Jcc (cards); null for the plain bank QR. */
+  /** The provider the method pays through by the payment link: BankOfCyprus, Jcc (cards) or GammaApp (the bill open in Gamma); null for the plain bank QR. */
   provider?: string | null;
+  /** The ERP's payment request behind a link method: the till watches it. */
+  payToken?: string | null;
+  /** Why Gamma did not take the open bill ("Pay with Gamma app"). */
+  note?: string | null;
+}
+
+/** The till's view of its payment request: Paid here by the confirmation (paymentId), or why not (settleError). */
+export interface TillLink {
+  payToken: string;
+  status: string;
+  method: string | null;
+  paymentId: string | null;
+  settleError: string | null;
+  gammaLink: string | null;
+  gammaErrors: string | null;
 }
 
 /** A bill declared to the tax authority after its payment was confirmed: Confirmed (code + fiscal QR), Refused or Declared (Send again). */
@@ -366,6 +381,10 @@ export class PosApi {
   }
 
   /** The bank's own "payment received" messages for this amount and reference, not used yet (no read of the bank). */
+  paymentLink(payToken: string): Promise<TillLink> {
+    return firstValueFrom(this.http.get<TillLink>(`${this.base}/payment-links/${encodeURIComponent(payToken)}`));
+  }
+
   bankNotices(pointOfSale: string, paymentMethod: string, amount: number, reference: string): Promise<BankPaymentLine[]> {
     const params = { pointOfSale, paymentMethod, amount: amount.toFixed(2), reference };
     return firstValueFrom(this.http.get<BankPaymentLine[]>(`${this.base}/bank-notices`, { params }));

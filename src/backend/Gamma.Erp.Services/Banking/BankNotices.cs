@@ -1,4 +1,4 @@
-using System.Globalization;
+﻿using System.Globalization;
 using System.Security.Cryptography;
 using System.Text;
 using System.Text.Json;
@@ -9,7 +9,7 @@ using Microsoft.EntityFrameworkCore;
 namespace Gamma.Erp.Services.Banking;
 
 /// <summary>How a bank's message was taken: kept (new or already held), or refused with the reason and the HTTP status to answer.</summary>
-public sealed record BankMessageResult(bool Kept, int Status, string Message);
+public sealed record BankMessageResult(bool Kept, int Status, string Message, Guid? NoticeId = null);
 
 /// <summary>
 /// The bank's signed "payment received" message (the founder, 2026-11-16: confirmation 1 of the till's chain). The bank POSTs a JSON body to the
@@ -103,13 +103,14 @@ public sealed class BankNotices(ErpDbContext db, ISecretBox secrets, TimeProvide
             return new(true, 200, "Already held.");
         }
 
-        db.Add(new BankNotice
+        var notice = new BankNotice
         {
             TenantId = provider.TenantId, OwnerId = company, Kind = "bank", ProviderId = provider.Id, BankId = connection.BankId, ExternalId = externalId,
             MessageId = Cut(message.ResponseId, 100), Amount = amount, Currency = currency, Reference = Cut(message.Reference, 200),
             ProviderReference = Cut(message.BankReference, 100), PayerName = Cut(message.PayerName, 200), PayerIban = BankConnections.Compact(message.PayerIban),
             Booked = !string.Equals(message.Status, "PDNG", StringComparison.OrdinalIgnoreCase), BookedOn = booked, ReceivedOn = time.GetUtcNow(),
-        });
+        };
+        db.Add(notice);
         try
         {
             await db.SaveChangesAsync(ct).ConfigureAwait(false);
@@ -120,7 +121,7 @@ public sealed class BankNotices(ErpDbContext db, ISecretBox secrets, TimeProvide
             return new(true, 200, "Already held.");
         }
 
-        return new(true, 200, "Kept.");
+        return new(true, 200, "Kept.", notice.Id);
     }
 
     /// <summary>Compares the signature in constant time.</summary>

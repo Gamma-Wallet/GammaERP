@@ -226,9 +226,15 @@
           </div>
           @if (bankQr(); as qr) {
           <div class="cash bank-qr">
-            <img class="qr" [src]="bankQrImage()" [alt]="'Payment QR code' | t" width="260" height="260" />
+            @if (qr.svg) { <img class="qr" [src]="bankQrImage()" [alt]="'Payment QR code' | t" width="260" height="260" /> }
             <p>{{ qr.holder }}<br />{{ qr.iban }}<br /><strong>{{ qr.currency }} {{ n(qr.amount) }}</strong> · {{ qr.reference }}</p>
-            <p class="muted">{{ 'The customer scans the code with their banking app and pays.' | t }}</p>
+            @if (qr.provider === 'GammaApp') {
+              <p class="muted">{{ 'Sent to the Gamma app of this point of sale: the customer scans it there (or here) and pays from their bank in Gamma Wallet. The bill is paid when the bank confirms.' | t }}</p>
+              @if (qr.note) { <p class="message" role="alert">{{ qr.note }}</p> }
+            } @else {
+              <p class="muted">{{ 'The customer scans the code with their banking app and pays.' | t }}</p>
+            }
+            @if (linkNote()) { <p class="message" role="alert">{{ linkNote() }}</p> }
             @if (qr.canCheck) {
               @if (bankNotices().length) {
                 <ul class="bank-lines confirmed" aria-live="polite">

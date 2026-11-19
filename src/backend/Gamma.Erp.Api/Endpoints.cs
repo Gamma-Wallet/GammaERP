@@ -40,7 +40,8 @@ public static class Endpoints
 
         // The bank's signed "payment received" message (confirmation 1, the founder 2026-11-16): no sign-in; the signature is the company's secret. It
         // only writes a bank notice. Answers 2xx when kept (or already held) so the bank stops retrying, 4xx when refused.
-        app.MapPost("/api/bank-responses/{providerId:guid}", async (Gamma.Erp.Services.Banking.BankNotices s, HttpContext http, Guid providerId, CancellationToken ct) =>
+        app.MapPost("/api/bank-responses/{providerId:guid}", async (Gamma.Erp.Services.Banking.BankNotices s, Gamma.Erp.Services.Banking.PaymentLinks links,
+            Banking.PaymentLinkSettlement settle, HttpContext http, Guid providerId, CancellationToken ct) =>
         {
             if (http.Request.ContentLength is > Gamma.Erp.Services.Banking.BankNotices.MaxBodyBytes)
             {
@@ -57,6 +58,12 @@ public static class Endpoints
 
             var result = await s.ReceiveAsync(providerId, http.Request.Headers["X-Bank-Timestamp"].ToString(), http.Request.Headers["X-Bank-Signature"].ToString(),
                 new string(buffer, 0, read), ct);
+            // Plan 10: money on the shop's account for an open "Pay with Gamma app" request pays its bills now (its method pays on confirmation).
+            if (result.NoticeId is { } kept && await links.MatchNoticeAsync(kept, ct) is { } token)
+            {
+                await settle.SettleTokenAsync(token, ct);
+            }
+
             return result.Kept ? Results.Ok(new { received = true, message = result.Message }) : Results.Problem(result.Message, statusCode: result.Status);
         }).AllowAnonymous().DisableAntiforgery().WithTags("open banking");
 
@@ -690,6 +697,9 @@ public static class Endpoints
             s.RefundCardAsync(refund.PayToken, refund.Amount, ct));
         pos.MapPost("/bank-check", (Gamma.Erp.Services.Banking.PosBankPayments s, HttpContext http, Gamma.Erp.Services.Banking.BankCheckRequest check, CancellationToken ct) =>
             s.CheckAsync(check.PointOfSaleId, check.PaymentMethodId, check.Amount, check.Reference, Psu(http), ct));
+        // The till watches its payment request (a link method): paid here by the confirmation, and by which payment.
+        pos.MapGet("/payment-links/{payToken}", async (Gamma.Erp.Services.Banking.PaymentLinks s, Visibility visibility, string payToken, CancellationToken ct) =>
+            await visibility.CompanyAsync(ct) is { } company && await s.TillStatusAsync(company, payToken, ct) is { } link ? Results.Ok(link) : Results.NotFound());
         pos.MapPost("/bills/pay-by-bank", (Gamma.Erp.Services.Pos.PosService s, Gamma.Erp.Services.Banking.PosBankPayments bank, Gamma.Erp.Services.Banking.FiscalReceipts fiscalReceipts,
             Gamma.Erp.Services.Banking.GammaWalletBills walletBills, Gamma.Erp.Services.Banking.PayByBankRequest request, CancellationToken ct) =>
             PayByBankAsync(s, bank, fiscalReceipts, walletBills, request, ct));
@@ -942,7 +952,7 @@ public static class Endpoints
         // and total are what the payment link showed, so a customer who paid through it in Gamma Wallet is matched.
         var reference = string.Join(' ', chosen.Select(b => b.Code).Where(c => !string.IsNullOrEmpty(c)));
         await wallet.AfterPaidAsync(paid[0].Id!.Value, [.. chosen.Select(b => b.Id)], method, reference.Length > 140 ? reference[..140] : reference,
-            decimal.Round(due, 2, MidpointRounding.AwayFromZero), ct);
+            decimal.Round(due, 2, MidpointRounding.AwayFromZero), ct, request.Open);
         return paid;
     }
 }

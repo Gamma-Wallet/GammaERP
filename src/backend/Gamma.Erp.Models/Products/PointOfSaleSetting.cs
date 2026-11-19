@@ -1,4 +1,4 @@
-using System.ComponentModel.DataAnnotations.Schema;
+﻿using System.ComponentModel.DataAnnotations.Schema;
 using Gamma.Erp.Models.Base;
 
 namespace Gamma.Erp.Models.Products;
@@ -47,4 +47,10 @@ public sealed class PointOfSaleSetting : Row
 
     /// <summary>Whether bills need an open shift; empty: the next setting's, and in the end they do.</summary>
     public bool? RequiresShift { get; set; }
+
+    /// <summary>
+    /// The Gamma Business login (e-mail) of the one Retailer app connected to this point of sale (plan 10, the founder 2026-11-19): a bill paid
+    /// "with the Gamma app" here is sent to Gamma for that staff member's Current bill screen; empty: the next setting's.
+    /// </summary>
+    public string? GammaStaffLogin { get; set; }
 }

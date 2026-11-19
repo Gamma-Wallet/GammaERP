@@ -176,6 +176,41 @@ export class Pos {
     onCleanup(() => clearInterval(timer));
   });
 
+  /**
+   * A link method's payment request (plan 10, 2026-11-19): the bank's or card's confirmation pays the bill here by itself; the till sees it and shows
+   * what it shows after Paid (the fiscal receipt, the Gamma bill). Asked every 3 s while its QR is open.
+   */
+  protected readonly linkNote = signal<string | null>(null);
+  private readonly watchLink = effect(onCleanup => {
+    const qr = this.bankQr();
+    untracked(() => this.linkNote.set(null));
+    const token = qr?.payToken;
+    if (!token) {
+      return;
+    }
+    const billIds = untracked(() => this.payBills().filter(b => this.chosen().has(b.id)).map(b => b.id));
+    let done = false;
+    const ask = () => void this.api.paymentLink(token).then(async link => {
+      if (done) {
+        return;
+      }
+      if (link.status === 'Paid' && link.paymentId) {
+        done = true;
+        this.toasts.good(t('Paid {0}: the bank confirmed it, the bill is paid.', this.n(qr!.amount)));
+        this.fiscal.set(await this.api.fiscalReceipts(billIds).catch(() => []));
+        this.wallet.set(await this.api.walletBills([link.paymentId]).catch(() => []));
+        this.show(this.home());
+      } else if (link.status === 'Paid' && link.settleError) {
+        this.linkNote.set(t('Paid at the bank, but the bill could not be paid by itself: {0} Press Paid.', link.settleError));
+      } else if (link.gammaErrors) {
+        this.linkNote.set(link.gammaErrors);
+      }
+    }).catch(() => undefined);
+    ask();
+    const timer = setInterval(ask, 3000);
+    onCleanup(() => { done = true; clearInterval(timer); });
+  });
+
   private readonly loadAllowedMethods = effect(() => {
     const place = this.pointOfSale()?.id;
     untracked(() => {

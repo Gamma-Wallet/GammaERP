@@ -1,4 +1,4 @@
-using System.Globalization;
+﻿using System.Globalization;
 using System.Text;
 using Gamma.Erp.Models.CostCenters;
 using Gamma.Erp.Models.Currencies;
@@ -12,14 +12,16 @@ using QRCoder;
 namespace Gamma.Erp.Services.Banking;
 
 /// <summary>The payment QR code a till shows: the bank account, the amount, the bill's code as the reference, the EPC text and its picture (SVG).</summary>
+/// <para>PayToken: the ERP's payment request behind a link method (the till watches it); Note: why Gamma did not take an open bill ("Pay with Gamma app").</para>
 public sealed record BankQrDto(Guid BankId, string? Bank, string Iban, string? Bic, string Holder, decimal Amount, string Currency, string Reference, string Payload, string Svg,
-    bool CanCheck, string? Provider = null);
+    bool CanCheck, string? Provider = null, string? PayToken = null, string? Note = null);
 
 /// <summary>What Check bank looks for: the method's bank at the point of sale, the amount and the bill's code.</summary>
 public sealed record BankCheckRequest(Guid PointOfSaleId, Guid PaymentMethodId, decimal Amount, string Reference);
 
 /// <summary>Paying bills by a bank line the cashier chose after Check bank: the till's usual payment, and that line.</summary>
-public sealed record PayByBankRequest(Gamma.Erp.Services.Pos.PayBillsRequest Pay, BankPaymentLine BankLine);
+/// <para>Open: the bill Gamma holds open ("Pay with Gamma app"), set by the confirmation that pays it; it is then marked paid at Gamma instead of created.</para>
+public sealed record PayByBankRequest(Gamma.Erp.Services.Pos.PayBillsRequest Pay, BankPaymentLine BankLine, OpenGammaBill? Open = null);
 
 /// <summary>A money-in line from the bank that may be the payment: the newest first, those that mention the reference before the others.</summary>
 public sealed record BankPaymentLine(string? ExternalId, DateOnly Date, decimal Amount, string? Text, string? Reference, string? CounterpartyName, string? CounterpartyIban,
@@ -31,7 +33,8 @@ public sealed record BankPaymentLine(string? ExternalId, DateOnly Date, decimal 
 /// Check bank (one read of the bank, started by them) and Paid on the right line, which posts the receipt and matches that bank line in the same press.
 /// Without a connection the cashier checks by eye and presses Received; the bank line is then matched later on Bank statements.
 /// </summary>
-public sealed class PosBankPayments(ErpDbContext db, Visibility visibility, BankConnections connections, PaymentLinks links, RequestContext request, TimeProvider? clock = null)
+public sealed class PosBankPayments(ErpDbContext db, Visibility visibility, BankConnections connections, PaymentLinks links, RequestContext request, ISecretBox secrets,
+    GammaIntegrationClient gamma, TimeProvider? clock = null)
 {
     /// <summary>How far back Check bank looks.</summary>
     public const int CheckMinutes = 60;
@@ -69,12 +72,61 @@ public sealed class PosBankPayments(ErpDbContext db, Visibility visibility, Bank
         if (viaLink)
         {
             var company = await visibility.CompanyAsync(ct).ConfigureAwait(false) ?? throw ValidationException.For("pointOfSaleId", "The point of sale belongs to no company.");
-            var (_, url) = await links.ForTillAsync(request.TenantId, company, pointOfSaleId, paymentMethodId, bankId, amount, Euro, text, method!.ProviderKind!, ct).ConfigureAwait(false);
-            return new BankQrDto(bankId, bank, iban, connection.Bic, holder, amount, Euro, text, url, Svg(url), CanCheck: true, method.ProviderKind);
+            var (link, url) = await links.ForTillAsync(request.TenantId, company, pointOfSaleId, paymentMethodId, bankId, amount, Euro, text, method!.ProviderKind!, ct).ConfigureAwait(false);
+            if (method.ProviderKind == PaymentLinks.GammaApp)
+            {
+                // Pay with Gamma app (plan 10): the bill goes to Gamma open; its QR is Gamma's (the till's Retailer app shows the same).
+                var (gammaLink, note) = await OpenAtGammaAsync(link, company, pointOfSaleId, iban, holder, connection.Bic, ct).ConfigureAwait(false);
+                return new BankQrDto(bankId, bank, iban, connection.Bic, holder, amount, Euro, text, gammaLink ?? string.Empty, gammaLink is null ? string.Empty : Svg(gammaLink),
+                    CanCheck: true, PaymentLinks.GammaApp, link.PayToken, note);
+            }
+
+            return new BankQrDto(bankId, bank, iban, connection.Bic, holder, amount, Euro, text, url, Svg(url), CanCheck: true, method.ProviderKind, link.PayToken);
         }
 
         var payload = Payload(connection.Bic, holder, iban, amount, text);
         return new BankQrDto(bankId, bank, iban, connection.Bic, holder, amount, Euro, text, payload, Svg(payload), connection.SessionId is not null && connection.AccountUid is not null);
+    }
+
+    /// <summary>
+    /// Sends the open bill of a "Pay with Gamma app" request to Gamma (once: a request that has Gamma's bill keeps it), with the shop's account, the point
+    /// of sale and the staff login of its Retailer app (point of sale settings). Gamma's refusal is kept on the request and shown; choosing the method
+    /// again sends it again.
+    /// </summary>
+    private async Task<(string? Link, string? Note)> OpenAtGammaAsync(Models.Payments.PaymentLink link, Guid company, Guid pointOfSaleId, string iban, string holder, string? bic,
+        CancellationToken ct)
+    {
+        if (link.GammaBillId is not null)
+        {
+            return (link.GammaLink, null);
+        }
+
+        var provider = await db.Set<WalletProvider>().AsNoTracking().FirstOrDefaultAsync(p => p.Active && p.OwnerId == company, ct).ConfigureAwait(false)
+            ?? throw ValidationException.For("paymentMethodId", $"{ErrorCodes.NotConfiguredError}: connect the company to Gamma Wallet first (Configuration › Open banking, Gamma Wallet).");
+        var (_, chain) = await Pos.PosPlaces.ChainAsync(db, await visibility.ConfigurationNodesAsync(ct).ConfigureAwait(false), pointOfSaleId, ct).ConfigureAwait(false);
+        var staff = chain.Select(r => r.GammaStaffLogin?.Trim()).FirstOrDefault(v => !string.IsNullOrEmpty(v))
+            ?? throw ValidationException.For("pointOfSaleId", $"{ErrorCodes.NotConfiguredError}: name the Gamma staff login of this point of sale's Retailer app (point of sale settings, Gamma staff login).");
+        var place = await db.Set<CostCenter>().AsNoTracking().FirstOrDefaultAsync(c => c.Id == pointOfSaleId, ct).ConfigureAwait(false);
+        var token = secrets.Open(provider.Token);
+        if (token is null)
+        {
+            const string unreadable = "The Gamma Wallet token can no longer be opened: an administrator enters it again.";
+            await links.KeepGammaAsync(link.Id, null, unreadable, ct).ConfigureAwait(false);
+            return (null, unreadable);
+        }
+
+        try
+        {
+            var bill = await gamma.OpenBillAsync(provider.ApiBase, token, new GammaOpenBill(link.Reference, decimal.Round(link.Amount, 2), link.Currency, time.GetUtcNow(), iban, holder, bic,
+                place?.Code, place?.Name.In(Models.Base.TranslatedText.DefaultLanguage), staff, link.ExpiresOn), GammaWalletBills.Version, ct).ConfigureAwait(false);
+            await links.KeepGammaAsync(link.Id, bill, null, ct).ConfigureAwait(false);
+            return (bill.Link, null);
+        }
+        catch (BankProviderException e)
+        {
+            await links.KeepGammaAsync(link.Id, null, e.Message, ct).ConfigureAwait(false);
+            return (null, e.Message);
+        }
     }
 
     /// <summary>

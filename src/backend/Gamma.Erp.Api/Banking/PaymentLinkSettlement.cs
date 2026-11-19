@@ -105,8 +105,10 @@ public sealed partial class PaymentLinkSettlement(IServiceScopeFactory scopes, I
                 var notice = await db.Set<BankNotice>().AsNoTracking().FirstAsync(n => n.Id == link.BankNoticeId, ct).ConfigureAwait(false);
                 var line = new BankPaymentLine(notice.ExternalId, notice.BookedOn, notice.Amount, notice.Reference, notice.ProviderReference ?? notice.Reference, notice.PayerName,
                     notice.PayerIban, notice.Booked, true, notice.Kind);
+                // Paid with the Gamma app: Gamma's open bill is marked paid, with the bank's text (Gamma finds its payment code in it).
+                var open = link.GammaBillId is { } gammaBill ? new OpenGammaBill(gammaBill, link.GammaBillCode, link.GammaLink, notice.Reference, notice.ProviderReference) : null;
                 var request = new PayByBankRequest(new PayBillsRequest(billType, moneyIn, cashDesk, [.. bills.Select(b => b.Id)], PaymentMethodId: link.PaymentMethodId,
-                    PointOfSaleId: link.PointOfSaleId), line);
+                    PointOfSaleId: link.PointOfSaleId), line, open);
                 var paid = await Endpoints.PayByBankAsync(pos, sp.GetRequiredService<PosBankPayments>(), sp.GetRequiredService<FiscalReceipts>(),
                     sp.GetRequiredService<GammaWalletBills>(), request, ct).ConfigureAwait(false);
                 paymentId = paid[0].Id;

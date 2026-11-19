@@ -1,4 +1,4 @@
-using System.Globalization;
+﻿using System.Globalization;
 using System.Net.Http.Headers;
 using System.Net.Http.Json;
 using System.Text.Json.Nodes;
@@ -36,6 +36,31 @@ public sealed class GammaIntegrationClient(HttpClient http)
             ["reference"] = reference, ["total"] = total, ["currencyCode"] = currency, ["issuedOn"] = issuedOn.UtcDateTime, ["platform"] = "gamma-erp", ["pluginVersion"] = version,
         };
         return Bill(await SendAsync(HttpMethod.Post, apiBase, "/api/Bill/Create", token, body, ct).ConfigureAwait(false));
+    }
+
+    /// <summary>
+    /// "Pay with Gamma app" (plan 10): the bill while it is still to pay — Gamma shows it on the point of sale's Retailer app; the customer pays it from
+    /// their own bank in Gamma Wallet, to the shop's account.
+    /// </summary>
+    public async Task<GammaBill> OpenBillAsync(string apiBase, string token, GammaOpenBill bill, string version, CancellationToken ct)
+    {
+        ArgumentNullException.ThrowIfNull(bill);
+        var body = new JsonObject
+        {
+            ["reference"] = bill.Reference, ["total"] = bill.Total, ["currencyCode"] = bill.Currency, ["issuedOn"] = bill.IssuedOn.UtcDateTime,
+            ["payee"] = new JsonObject { ["iban"] = bill.PayeeIban, ["name"] = bill.PayeeName, ["bic"] = bill.PayeeBic },
+            ["pointOfSale"] = new JsonObject { ["code"] = bill.PointOfSaleCode, ["name"] = bill.PointOfSaleName },
+            ["staffLogin"] = bill.StaffLogin, ["validUntil"] = bill.ValidUntil.UtcDateTime, ["platform"] = "gamma-erp", ["pluginVersion"] = version,
+        };
+        return Bill(await SendAsync(HttpMethod.Post, apiBase, "/api/Bill/Open", token, body, ct).ConfigureAwait(false));
+    }
+
+    /// <summary>The open bill was paid to the shop's account: the bank's payment text (Gamma finds its payment code in it) and reference.</summary>
+    public async Task<GammaBill> MarkBillPaidAsync(string apiBase, string token, string billId, string? paymentText, string? bankReference, DateTimeOffset paidOn,
+        CancellationToken ct)
+    {
+        var body = new JsonObject { ["billId"] = billId, ["paymentReference"] = paymentText, ["bankReference"] = bankReference, ["paidOn"] = paidOn.UtcDateTime };
+        return Bill(await SendAsync(HttpMethod.Post, apiBase, "/api/Bill/Paid", token, body, ct).ConfigureAwait(false));
     }
 
     public async Task<GammaBill> GetBillAsync(string apiBase, string token, string billId, CancellationToken ct) =>
@@ -93,6 +118,10 @@ public sealed class GammaIntegrationClient(HttpClient http)
         }
     }
 }
+
+/// <summary>An open bill for Gamma (plan 10): what the customer pays, to whom, at which point of sale and for which staff member's Retailer app.</summary>
+public sealed record GammaOpenBill(string Reference, decimal Total, string Currency, DateTimeOffset IssuedOn, string PayeeIban, string PayeeName, string? PayeeBic,
+    string? PointOfSaleCode, string? PointOfSaleName, string StaffLogin, DateTimeOffset ValidUntil);
 
 /// <summary>The company's Gamma Wallet connection as entered: an empty token keeps the one set.</summary>
 public sealed record WalletProviderInput(string? Token, string? ApiBase = null);
@@ -199,7 +228,10 @@ public sealed class GammaWalletBills(ErpDbContext db, Visibility visibility, ISe
     private readonly TimeProvider time = clock ?? TimeProvider.System;
 
     /// <summary>Called in the Paid press: the payment's Gamma bill, sent now when the gate allows, held otherwise; nothing when the method or company does not push.</summary>
-    public async Task<WalletBillDto?> AfterPaidAsync(Guid paymentId, IReadOnlyList<Guid> billIds, Guid paymentMethodId, string reference, decimal total, CancellationToken ct)
+    /// <remarks>A bill already open at Gamma ("Pay with Gamma app"): <paramref name="open"/> holds its id and the bank's payment text and reference; it is
+    /// then marked paid instead of created.</remarks>
+    public async Task<WalletBillDto?> AfterPaidAsync(Guid paymentId, IReadOnlyList<Guid> billIds, Guid paymentMethodId, string reference, decimal total, CancellationToken ct,
+        OpenGammaBill? open = null)
     {
         var payment = await db.Set<Document>().AsNoTracking().FirstOrDefaultAsync(d => d.Id == paymentId, ct).ConfigureAwait(false);
         var method = await db.Set<PaymentMethod>().AsNoTracking().FirstOrDefaultAsync(m => m.Id == paymentMethodId, ct).ConfigureAwait(false);
@@ -223,6 +255,7 @@ public sealed class GammaWalletBills(ErpDbContext db, Visibility visibility, ISe
             {
                 TenantId = payment.TenantId, OwnerId = payment.CompanyId, DocumentId = paymentId, WalletProviderId = provider.Id, Reference = reference.Trim(),
                 Total = decimal.Round(total, 2, MidpointRounding.AwayFromZero), CurrencyCode = currency,
+                GammaBillId = open?.GammaBillId, Code = open?.Code, Link = open?.Link, PaymentText = open?.PaymentText, BankReference = open?.BankReference,
             };
             db.Add(row);
         }
@@ -314,8 +347,11 @@ public sealed class GammaWalletBills(ErpDbContext db, Visibility visibility, ISe
 
         try
         {
-            var bill = await gamma.CreateBillAsync(provider.ApiBase, token, row.Reference, row.Total, row.CurrencyCode, time.GetUtcNow(), Version, ct).ConfigureAwait(false);
-            (row.GammaBillId, row.Code, row.Link, row.SentOn, row.Errors) = (bill.BillId, bill.Code, bill.Link, time.GetUtcNow(), null);
+            // Open at Gamma already (paid with the Gamma app): the same bill becomes paid; else a new paid bill.
+            var bill = row.GammaBillId is { } open && row.SentOn is null
+                ? await gamma.MarkBillPaidAsync(provider.ApiBase, token, open, row.PaymentText, row.BankReference, time.GetUtcNow(), ct).ConfigureAwait(false)
+                : await gamma.CreateBillAsync(provider.ApiBase, token, row.Reference, row.Total, row.CurrencyCode, time.GetUtcNow(), Version, ct).ConfigureAwait(false);
+            (row.GammaBillId, row.Code, row.Link, row.SentOn, row.Errors) = (bill.BillId ?? row.GammaBillId, bill.Code ?? row.Code, bill.Link ?? row.Link, time.GetUtcNow(), null);
             (row.Status, row.ClaimedOn) = bill.Claimed ? ("Claimed", bill.ClaimedOn) : ("Waiting", null);
         }
         catch (BankProviderException e)
@@ -345,3 +381,6 @@ public sealed class GammaWalletBills(ErpDbContext db, Visibility visibility, ISe
     private static WalletBillDto Dto(WalletBill r) =>
         new(r.Id, r.DocumentId, r.Reference, r.Total, r.Status, r.Link, r.Link is { Length: > 0 } link ? PosBankPayments.Svg(link) : null, r.Errors, r.Attempts);
 }
+
+/// <summary>A bill Gamma holds as open, paid now: its id, code and link, and what the bank said (its text holds Gamma's payment code).</summary>
+public sealed record OpenGammaBill(string GammaBillId, string? Code, string? Link, string? PaymentText, string? BankReference);

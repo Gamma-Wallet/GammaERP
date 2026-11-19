@@ -1,4 +1,4 @@
-using System.ComponentModel.DataAnnotations.Schema;
+﻿using System.ComponentModel.DataAnnotations.Schema;
 using Gamma.Erp.Models.Base;
 
 namespace Gamma.Erp.Models.Payments;
@@ -39,6 +39,14 @@ public sealed class WalletBill : Row
     public DateTimeOffset? ClaimedOn { get; set; }
 
     public int Attempts { get; set; }
+
+    /// <summary>
+    /// For a bill Gamma already holds as open (paid "with the Gamma app"): the bank's payment text and reference, sent with Bill/Paid so Gamma finds
+    /// its own payment code in it. The ERP does not read that code.
+    /// </summary>
+    public string? PaymentText { get; set; }
+
+    public string? BankReference { get; set; }
 
     public string? Errors { get; set; }
 }
