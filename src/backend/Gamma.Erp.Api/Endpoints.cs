@@ -96,12 +96,14 @@ public static class Endpoints
             await s.GetAsync(ct) is { } provider ? Results.Ok(provider) : Results.NoContent());
         openBanking.MapPut("/provider", (Gamma.Erp.Services.Banking.BankProviders s, Gamma.Erp.Services.Banking.BankProviderInput input, CancellationToken ct) =>
             s.SaveAsync(input, ct));
-        // The company's card gateway (JCC; the founder, 2026-11-18): administrators only; the password and callback key are written, never read back.
-        openBanking.MapGet("/card-provider", async (Gamma.Erp.Services.Banking.CardProviders s, CancellationToken ct) =>
+        // The company's card gateway (JCC; the founder, 2026-11-18/19): card payments, not open banking, so its own group and screen (Card payments).
+        // Administrators only; the password and callback key are written, never read back.
+        var cardPayments = api.MapGroup("/card-payments").WithTags("card payments").RequireAdministrator();
+        cardPayments.MapGet("/provider", async (Gamma.Erp.Services.Banking.CardProviders s, CancellationToken ct) =>
             await s.GetAsync(ct) is { } card ? Results.Ok(card) : Results.NoContent());
-        openBanking.MapPut("/card-provider", (Gamma.Erp.Services.Banking.CardProviders s, Gamma.Erp.Services.Banking.CardProviderInput input, CancellationToken ct) =>
+        cardPayments.MapPut("/provider", (Gamma.Erp.Services.Banking.CardProviders s, Gamma.Erp.Services.Banking.CardProviderInput input, CancellationToken ct) =>
             s.SaveAsync(input, ct));
-        openBanking.MapDelete("/card-provider", async (Gamma.Erp.Services.Banking.CardProviders s, CancellationToken ct) =>
+        cardPayments.MapDelete("/provider", async (Gamma.Erp.Services.Banking.CardProviders s, CancellationToken ct) =>
         {
             await s.SwitchOffAsync(ct);
             return Results.NoContent();

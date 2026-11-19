@@ -123,7 +123,7 @@ public sealed class Visibility(ErpDbContext db, RequestContext request)
     public async Task<(List<Menu> Menu, HashSet<Guid> Shown)> MenuAsync(CancellationToken ct)
     {
         var nodes = await ConfigurationNodesAsync(ct).ConfigureAwait(false);
-        var menu = await db.Set<Menu>().AsNoTracking().Where(m => m.OwnerId != null && nodes.Contains(m.OwnerId.Value)).ToListAsync(ct).ConfigureAwait(false);
+        var menu = await db.Set<Menu>().AsNoTracking().Where(m => m.Active && m.OwnerId != null && nodes.Contains(m.OwnerId.Value)).ToListAsync(ct).ConfigureAwait(false);
         if (request.IsAdministrator)
         {
             return (menu, menu.Select(m => m.Id).ToHashSet());

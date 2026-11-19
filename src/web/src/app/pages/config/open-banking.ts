@@ -1,6 +1,5 @@
 import { ChangeDetectionStrategy, Component, computed, inject, signal } from '@angular/core';
-import { BankProvider, BankProviderChoices, BankProviderModel, BankingApi, CardProvider, CardProviderModel, WalletProvider, bankProviderModelOf, bankProviderProblem, bankResponseUrl,
-  cardCallbackUrl, cardProviderModelOf, emptyBankProvider } from '../../core/banking';
+import { BankProvider, BankProviderChoices, BankProviderModel, BankingApi, WalletProvider, bankProviderModelOf, bankProviderProblem, bankResponseUrl, emptyBankProvider } from '../../core/banking';
 import { Field, Input } from '../../ui/controls';
 import { errorsOf } from '../../core/entities';
 import { t } from '../../core/i18n';
@@ -73,37 +72,6 @@ import { BankProviderFields } from '../setup/bank-provider-fields';
           <button uiButton variant="primary" [disabled]="busy() || (!walletToken().trim() && !wallet()?.tokenSet)" (click)="saveWallet()">{{ 'Save' | t }}</button>
         </footer>
       </section>
-      <section class="card">
-        <h2>{{ 'Card payments (JCC)' | t }}</h2>
-        <p class="muted">{{ 'The shop takes cards through its own JCC merchant account: a payment method with provider kind Jcc shows the payment link at the till, and its page offers Pay by card.' | t }}</p>
-        @if (card(); as c) {
-          <dl class="review">
-            <dt>{{ 'API user' | t }}</dt><dd>{{ c.apiUser }} · {{ c.environment }}</dd>
-            <dt>{{ 'Password' | t }}</dt><dd>@if (c.passwordReadable) { {{ 'Set' | t }} } @else { <strong>{{ 'Enter it again' | t }}</strong> }</dd>
-            <dt>{{ 'Callbacks' | t }}</dt><dd>@if (c.callbackKeySet) { {{ 'Checked with the key, taken at' | t }} <code>{{ callbackUrl(c) }}</code> } @else { {{ 'No key: callbacks are refused; the till uses Check card.' | t }} }</dd>
-          </dl>
-        }
-        <ui-field [label]="'API user' | t" [required]="true" [hint]="'The merchant API user JCC gave (login-api).' | t">
-          <input uiInput [value]="cardModel().apiUser" (input)="setCard({ apiUser: $any($event.target).value })" />
-        </ui-field>
-        <ui-field [label]="'Password' | t" [required]="!card()?.passwordSet" [hint]="card()?.passwordSet ? ('Set. Type a new one only to replace it.' | t) : ''">
-          <input uiInput type="password" autocomplete="off" [value]="cardModel().password" (input)="setCard({ password: $any($event.target).value })" />
-        </ui-field>
-        <ui-field [label]="'Callback key' | t" [hint]="'The key JCC signs its callbacks with (checksum).' | t">
-          <input uiInput type="password" autocomplete="off" [value]="cardModel().callbackKey" (input)="setCard({ callbackKey: $any($event.target).value })" />
-        </ui-field>
-        <ui-field [label]="'Return address' | t" [required]="true" [hint]="'Where JCC sends the payer back: the ERP address and /pay/card-return.' | t">
-          <input uiInput [value]="cardModel().returnUrl" (input)="setCard({ returnUrl: $any($event.target).value })" />
-        </ui-field>
-        <ui-field [label]="'API address' | t" [hint]="'Empty: JCC test gateway. Another https address only for a copy of the gateway (e.g. a test simulator).' | t">
-          <input uiInput [value]="cardModel().apiBase" (input)="setCard({ apiBase: $any($event.target).value })" />
-        </ui-field>
-        <footer>
-          @if (card()) { <button uiButton variant="quiet" [disabled]="busy()" (click)="switchOffCard()">{{ 'Switch off…' | t }}</button> }
-          <span class="spacer"></span>
-          <button uiButton variant="primary" [disabled]="busy() || !cardModel().apiUser.trim()" (click)="saveCard()">{{ 'Save' | t }}</button>
-        </footer>
-      </section>
     }
   `,
   styles: `
@@ -150,64 +118,17 @@ export class OpenBanking {
     }
   }
 
-  protected readonly card = signal<CardProvider | null>(null);
-  protected readonly cardModel = signal<CardProviderModel>(cardProviderModelOf(null, window.location.origin));
-
-  protected callbackUrl(c: CardProvider): string {
-    return cardCallbackUrl(window.location.origin, c.id);
-  }
-
-  protected setCard(change: Partial<CardProviderModel>): void {
-    this.cardModel.set({ ...this.cardModel(), ...change });
-  }
-
-  private showCard(card: CardProvider | null): void {
-    this.card.set(card);
-    this.cardModel.set(cardProviderModelOf(card, window.location.origin));
-  }
-
-  protected async saveCard(): Promise<void> {
-    this.busy.set(true);
-    this.message.set(null);
-    try {
-      this.showCard(await this.api.saveCardProvider(this.cardModel()));
-      this.toasts.good(t('Card payments saved.'));
-    } catch (error) {
-      this.message.set(errorsOf(error).message);
-    } finally {
-      this.busy.set(false);
-    }
-  }
-
-  protected async switchOffCard(): Promise<void> {
-    const yes = await this.dialogs.confirm({ title: t('Switch card payments off?'), message: t('The payment link can no longer take cards until a gateway is set again. Nothing is deleted.'),
-      confirmLabel: t('Switch off'), danger: true });
-    if (!yes) {
-      return;
-    }
-    this.busy.set(true);
-    try {
-      await this.api.switchOffCardProvider();
-      this.showCard(null);
-    } catch (error) {
-      this.message.set(errorsOf(error).message);
-    } finally {
-      this.busy.set(false);
-    }
-  }
-
   protected responseUrl(p: BankProvider): string {
     return bankResponseUrl(window.location.origin, p.id);
   }
 
   private async load(): Promise<void> {
     try {
-      const [choices, current, card, wallet] = await Promise.all([this.api.choices(), this.api.provider(), this.api.cardProvider(), this.api.walletProvider()]);
+      const [choices, current, wallet] = await Promise.all([this.api.choices(), this.api.provider(), this.api.walletProvider()]);
       this.wallet.set(wallet);
       this.walletApi.set(wallet?.apiBase ?? '');
       this.choices.set(choices);
       this.show(current);
-      this.showCard(card);
     } catch (error) {
       this.message.set(errorsOf(error).message);
     } finally {

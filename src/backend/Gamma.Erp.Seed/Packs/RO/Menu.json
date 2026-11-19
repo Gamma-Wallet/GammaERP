@@ -1343,6 +1343,23 @@
   "AdminOnly": true
  },
  {
+  "Key": "menu:CARD_PAYMENTS",
+  "IdSup": "menu:CURRENCIES_AREA",
+  "Active": true,
+  "IsElement": true,
+  "Code": "CARD_PAYMENTS",
+  "Name": {
+   "en": "Card payments",
+   "ro": "Plăți cu cardul"
+  },
+  "SortOrder": 60,
+  "Screen": "card-payments",
+  "Parameter": null,
+  "DocumentCategoryId": null,
+  "Icon": "credit-card",
+  "AdminOnly": true
+ },
+ {
   "Key": "menu:REPORTS",
   "IdSup": null,
   "Active": true,

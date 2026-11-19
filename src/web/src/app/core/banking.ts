@@ -143,18 +143,18 @@ export class BankingApi {
 
   /** The company's card gateway (JCC); null when it has none. */
   async cardProvider(): Promise<CardProvider | null> {
-    return (await firstValueFrom(this.http.get<CardProvider | null>('/api/v1/open-banking/card-provider'))) ?? null;
+    return (await firstValueFrom(this.http.get<CardProvider | null>('/api/v1/card-payments/provider'))) ?? null;
   }
 
   saveCardProvider(m: CardProviderModel): Promise<CardProvider> {
-    return firstValueFrom(this.http.put<CardProvider>('/api/v1/open-banking/card-provider', {
+    return firstValueFrom(this.http.put<CardProvider>('/api/v1/card-payments/provider', {
       kind: 'Jcc', apiUser: m.apiUser.trim(), password: m.password.trim() || null, callbackKey: m.callbackKey.trim() || null, returnUrl: m.returnUrl.trim(),
       apiBase: m.apiBase.trim() || null, environment: m.environment,
     }));
   }
 
   switchOffCardProvider(): Promise<unknown> {
-    return firstValueFrom(this.http.delete('/api/v1/open-banking/card-provider', { headers: new HttpHeaders() }));
+    return firstValueFrom(this.http.delete('/api/v1/card-payments/provider', { headers: new HttpHeaders() }));
   }
 }
 
