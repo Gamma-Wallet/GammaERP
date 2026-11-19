@@ -9169,6 +9169,10 @@ namespace Gamma.Erp.Migrations.Migrations
                         .HasColumnType("timestamp with time zone")
                         .HasColumnName("expires_on");
 
+                    b.Property<bool>("FromApp")
+                        .HasColumnType("boolean")
+                        .HasColumnName("from_app");
+
                     b.Property<Guid?>("IdChange")
                         .HasColumnType("uuid")
                         .HasColumnName("id_change");
@@ -9193,6 +9197,10 @@ namespace Gamma.Erp.Migrations.Migrations
                         .IsRequired()
                         .HasColumnType("text")
                         .HasColumnName("pay_token");
+
+                    b.Property<Guid?>("PaymentId")
+                        .HasColumnType("uuid")
+                        .HasColumnName("payment_id");
 
                     b.Property<Guid>("PaymentMethodId")
                         .HasColumnType("uuid")
@@ -9219,6 +9227,14 @@ namespace Gamma.Erp.Migrations.Migrations
                         .HasPrecision(19, 6)
                         .HasColumnType("numeric(19,6)")
                         .HasColumnName("refunded_amount");
+
+                    b.Property<string>("SettleError")
+                        .HasColumnType("text")
+                        .HasColumnName("settle_error");
+
+                    b.Property<DateTimeOffset?>("SettledOn")
+                        .HasColumnType("timestamp with time zone")
+                        .HasColumnName("settled_on");
 
                     b.Property<string>("Status")
                         .IsRequired()
@@ -9314,6 +9330,10 @@ namespace Gamma.Erp.Migrations.Migrations
                     b.Property<Guid?>("OwnerId")
                         .HasColumnType("uuid")
                         .HasColumnName("owner_id");
+
+                    b.Property<bool>("PaysOnConfirmation")
+                        .HasColumnType("boolean")
+                        .HasColumnName("pays_on_confirmation");
 
                     b.Property<string>("ProviderKind")
                         .HasColumnType("text")

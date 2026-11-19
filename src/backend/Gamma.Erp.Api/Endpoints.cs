@@ -1,4 +1,4 @@
-using Gamma.Erp.Models.Base;
+﻿using Gamma.Erp.Models.Base;
 using Gamma.Erp.Models.Base.Dto;
 using Gamma.Erp.Models.Documents.Dto;
 using Gamma.Erp.Api.Setup;
@@ -62,7 +62,7 @@ public static class Endpoints
 
         // JCC's callback (no sign-in; the checksum is the merchant's key): GET with the parameters in the query, or POST as a form. It only writes a card
         // notice. 200 when taken (JCC stops retrying), 401 for a wrong checksum.
-        async Task<IResult> CardCallback(Gamma.Erp.Services.Banking.PaymentLinks s, HttpContext http, Guid providerId, CancellationToken ct)
+        async Task<IResult> CardCallback(Gamma.Erp.Services.Banking.PaymentLinks s, Banking.PaymentLinkSettlement settle, HttpContext http, Guid providerId, CancellationToken ct)
         {
             var parameters = http.Request.Query.ToDictionary(q => q.Key, q => q.Value.ToString(), StringComparer.Ordinal);
             if (http.Request.HasFormContentType)
@@ -74,6 +74,12 @@ public static class Endpoints
             }
 
             var status = await s.CardCallbackAsync(providerId, parameters, ct);
+            if (status == 200)
+            {
+                // A paid order pays its bill now when its method says so (the founder, 2026-11-19).
+                await settle.SettleOrderAsync(parameters.GetValueOrDefault("mdOrder"), ct);
+            }
+
             return status == 200 ? Results.Ok() : Results.StatusCode(status);
         }
 
@@ -906,7 +912,7 @@ public static class Endpoints
     /// Pays bills with the bank line the cashier chose: checked before anything is posted (one client, so one receipt; the line's amount is the amount
     /// due; the line not held yet), then the till's usual payment into the bank, then the line kept on the bank's statement, matched to the receipt.
     /// </summary>
-    private static async Task<IReadOnlyList<Gamma.Erp.Models.Documents.Dto.DocumentDto>> PayByBankAsync(Gamma.Erp.Services.Pos.PosService pos, Gamma.Erp.Services.Banking.PosBankPayments bank,
+    internal static async Task<IReadOnlyList<Gamma.Erp.Models.Documents.Dto.DocumentDto>> PayByBankAsync(Gamma.Erp.Services.Pos.PosService pos, Gamma.Erp.Services.Banking.PosBankPayments bank,
         Gamma.Erp.Services.Banking.FiscalReceipts fiscal, Gamma.Erp.Services.Banking.GammaWalletBills wallet, Gamma.Erp.Services.Banking.PayByBankRequest request, CancellationToken ct)
     {
         var pay = request.Pay;

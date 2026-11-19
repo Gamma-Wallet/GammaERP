@@ -23364,6 +23364,45 @@ namespace Gamma.Erp.Migrations.Migrations
                 column: "tenant_id");
         
 
+            // Payment links pay their bill on the confirmation; Gamma Wallet starts them (2026-11-19)
+            migrationBuilder.AddColumn<bool>(
+                name: "pays_on_confirmation",
+                schema: "payments",
+                table: "tbl_payment_method",
+                type: "boolean",
+                nullable: false,
+                defaultValue: false);
+
+            migrationBuilder.AddColumn<bool>(
+                name: "from_app",
+                schema: "payments",
+                table: "tbl_payment_link",
+                type: "boolean",
+                nullable: false,
+                defaultValue: false);
+
+            migrationBuilder.AddColumn<Guid>(
+                name: "payment_id",
+                schema: "payments",
+                table: "tbl_payment_link",
+                type: "uuid",
+                nullable: true);
+
+            migrationBuilder.AddColumn<string>(
+                name: "settle_error",
+                schema: "payments",
+                table: "tbl_payment_link",
+                type: "text",
+                nullable: true);
+
+            migrationBuilder.AddColumn<DateTimeOffset>(
+                name: "settled_on",
+                schema: "payments",
+                table: "tbl_payment_link",
+                type: "timestamp with time zone",
+                nullable: true);
+        
+
             RowLevelSecurity.CreateTenantRole(migrationBuilder);
             RowLevelSecurity.GrantSchema(migrationBuilder, "charts");
             RowLevelSecurity.GrantSchema(migrationBuilder, "cost_centers");
@@ -23594,6 +23633,32 @@ namespace Gamma.Erp.Migrations.Migrations
         /// <inheritdoc />
         protected override void Down(MigrationBuilder migrationBuilder)
         {
+            migrationBuilder.DropColumn(
+                name: "pays_on_confirmation",
+                schema: "payments",
+                table: "tbl_payment_method");
+
+            migrationBuilder.DropColumn(
+                name: "from_app",
+                schema: "payments",
+                table: "tbl_payment_link");
+
+            migrationBuilder.DropColumn(
+                name: "payment_id",
+                schema: "payments",
+                table: "tbl_payment_link");
+
+            migrationBuilder.DropColumn(
+                name: "settle_error",
+                schema: "payments",
+                table: "tbl_payment_link");
+
+            migrationBuilder.DropColumn(
+                name: "settled_on",
+                schema: "payments",
+                table: "tbl_payment_link");
+        
+
             migrationBuilder.DropTable(
                 name: "tbl_wallet_bill",
                 schema: "payments");

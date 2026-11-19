@@ -1,4 +1,4 @@
-using System.Security.Cryptography;
+﻿using System.Security.Cryptography;
 using Gamma.Erp.Models.CostCenters;
 using Gamma.Erp.Models.Payments;
 using Gamma.Erp.Persistence;
@@ -7,8 +7,9 @@ using Microsoft.EntityFrameworkCore;
 namespace Gamma.Erp.Services.Banking;
 
 /// <summary>What the payment link page shows: no personal data, only the shop, the amount, the bills' codes, the state and how it can be paid.</summary>
+/// <para>BillPaid: the ERP has paid the bill (the confirmation did, or the cashier). Note: why the confirmation could not pay it by itself.</para>
 public sealed record PaymentLinkView(string PayToken, string Shop, decimal Amount, string Currency, string Reference, string Status, DateTimeOffset ExpiresOn,
-    IReadOnlyList<string> Methods, string? ProviderReference, string? GammaBusinessId = null);
+    IReadOnlyList<string> Methods, string? ProviderReference, string? GammaBusinessId = null, bool BillPaid = false, string? Note = null, bool FromApp = false);
 
 /// <summary>What the bank's return came to: the link (when known) and what to tell the payer.</summary>
 public sealed record PaymentReturn(PaymentLinkView? Link, bool Paid, string Message);
@@ -17,7 +18,8 @@ public sealed record PaymentReturn(PaymentLinkView? Link, bool Paid, string Mess
 /// The till's payment links (the founder, 2026-11-18; plan 4.5): a payment method whose <see cref="PaymentMethod.ProviderKind"/> is BankOfCyprus makes the
 /// till show <c>&lt;erp&gt;/pay/{payToken}</c> as its QR code. The page pays through the company's Bank of Cyprus provider: the ERP starts the payment, the
 /// payer approves it at the bank, the bank sends them back to <c>/pay/bank-return</c>, and the ERP completes it and writes the bank notice. The till's
-/// Bank confirmed shows it and the cashier presses Paid: nothing is posted here.
+/// Bank confirmed shows it. Nothing is posted here: the method's PaysOnConfirmation lets the API pay the bill on the confirmation (PaymentLinkSettlement),
+/// else the cashier presses Paid. Gamma Wallet opens <c>/pay/{payToken}/start?method=card|bank&amp;app=true</c> for the way the customer chose.
 /// <para>The page and the return have nobody signed in: they read the link by its token only, and write rows with the link's own corporate and company.</para>
 /// </summary>
 public sealed class PaymentLinks(ErpDbContext db, ISecretBox secrets, BankOfCyprusConnector boc, JccConnector jcc, TimeProvider? clock = null)
@@ -77,12 +79,20 @@ public sealed class PaymentLinks(ErpDbContext db, ISecretBox secrets, BankOfCypr
         return link is null ? null : await ViewOfAsync(link, ct).ConfigureAwait(false);
     }
 
+    /// <summary>Gamma Wallet started this link's payment: its return pages send the payer back into the app.</summary>
+    public async Task FromAppAsync(string payToken, CancellationToken ct)
+    {
+        await db.Set<PaymentLink>().Where(l => l.Active && l.PayToken == payToken && l.Status == "Open").ExecuteUpdateAsync(u => u.SetProperty(l => l.FromApp, true), ct)
+            .ConfigureAwait(false);
+    }
+
     /// <summary>"Pay with Bank of Cyprus": starts the payment at the bank and gives the address where the payer approves it.</summary>
     public async Task<string> StartBankOfCyprusAsync(string payToken, CancellationToken ct)
     {
         var link = await db.Set<PaymentLink>().FirstOrDefaultAsync(l => l.Active && l.PayToken == payToken, ct).ConfigureAwait(false)
             ?? throw ValidationException.For("payToken", "There is no such payment link.");
         Expire(link);
+        await ChooseAsync(link, BankOfCyprus, ct).ConfigureAwait(false);
         Payable(link, BankOfCyprus);
         var (provider, secret, account) = await PaymentSideAsync(link, ct).ConfigureAwait(false);
         var paymentId = await BankConnections.Call(() => boc.InitiatePaymentAsync(provider, secret, account, decimal.Round(link.Amount, 2), link.Currency, link.Reference,
@@ -146,6 +156,7 @@ public sealed class PaymentLinks(ErpDbContext db, ISecretBox secrets, BankOfCypr
         var link = await db.Set<PaymentLink>().FirstOrDefaultAsync(l => l.Active && l.PayToken == payToken, ct).ConfigureAwait(false)
             ?? throw ValidationException.For("payToken", "There is no such payment link.");
         Expire(link);
+        await ChooseAsync(link, Jcc, ct).ConfigureAwait(false);
         Payable(link, Jcc);
         var (card, password) = await CardSideAsync(link.OwnerId, ct).ConfigureAwait(false);
         var minor = (long)decimal.Round(link.Amount * 100m, 0, MidpointRounding.AwayFromZero);
@@ -334,6 +345,41 @@ public sealed class PaymentLinks(ErpDbContext db, ISecretBox secrets, BankOfCypr
         return (card, password);
     }
 
+    /// <summary>
+    /// The ways the link can be paid now (the founder, 2026-11-19: Gamma Wallet chooses card or bank before it scans): each provider kind that a payment
+    /// method linked to the till's point of sale (with its bank or cash account) pays through, and whose provider the company has set.
+    /// </summary>
+    private async Task<IReadOnlyList<(string Kind, Guid MethodId, Guid BankId)>> WaysAsync(PaymentLink link, CancellationToken ct)
+    {
+        var linked = await (from l in db.Set<InterPaymentMethodCostCenter>().AsNoTracking()
+                            join m in db.Set<PaymentMethod>().AsNoTracking() on l.PaymentMethodId equals m.Id
+                            where l.Active && m.Active && l.CostCenterId == link.PointOfSaleId && l.CashBankId != null && (m.ProviderKind == BankOfCyprus || m.ProviderKind == Jcc)
+                            select new { m.Id, m.ProviderKind, Bank = l.CashBankId!.Value, m.Code }).ToListAsync(ct).ConfigureAwait(false);
+        var bank = await db.Set<BankProvider>().AsNoTracking().AnyAsync(p => p.Active && p.OwnerId == link.OwnerId && p.Kind == BankOfCyprus && p.PaymentsEnabled, ct)
+            .ConfigureAwait(false);
+        var card = await db.Set<CardProvider>().AsNoTracking().AnyAsync(p => p.Active && p.OwnerId == link.OwnerId, ct).ConfigureAwait(false);
+        // The link's own method first; then one method per kind.
+        return [.. linked.Where(m => m.ProviderKind == BankOfCyprus ? bank : card).OrderBy(m => m.Id == link.PaymentMethodId ? 0 : 1).ThenBy(m => m.Code, StringComparer.Ordinal)
+            .GroupBy(m => m.ProviderKind!).Select(g => (g.Key, g.First().Id, g.First().Bank))];
+    }
+
+    /// <summary>The payer chose another way than the till's method: the link now pays by the company's method of that kind at the till.</summary>
+    private async Task ChooseAsync(PaymentLink link, string kind, CancellationToken ct)
+    {
+        if (link.Status != "Open" || (link.Method ?? BankOfCyprus) == kind)
+        {
+            return;
+        }
+
+        var way = (await WaysAsync(link, ct).ConfigureAwait(false)).FirstOrDefault(w => w.Kind == kind);
+        if (way.Kind is null)
+        {
+            throw ValidationException.For("payToken", kind == Jcc ? "The shop does not take cards this way: pay with your bank or at the till." : "The shop does not take bank payments this way: pay by card or at the till.");
+        }
+
+        (link.Method, link.PaymentMethodId, link.BankId, link.ProviderPaymentId) = (kind, way.MethodId, way.BankId, null);
+    }
+
     /// <summary>Refuses a link that can't be paid now, or not this way.</summary>
     private static void Payable(PaymentLink link, string kind)
     {
@@ -418,6 +464,12 @@ public sealed class PaymentLinks(ErpDbContext db, ISecretBox secrets, BankOfCypr
             return null;
         }
 
+        // Read afresh: the confirmation may have paid the bill since (PaymentLinkSettlement writes in its own scope).
+        foreach (var held in db.ChangeTracker.Entries<PaymentLink>().Where(e => e.Entity.PayToken == payToken).ToList())
+        {
+            held.State = EntityState.Detached;
+        }
+
         var link = await db.Set<PaymentLink>().FirstOrDefaultAsync(l => l.Active && l.PayToken == payToken, ct).ConfigureAwait(false);
         if (link is not null && Expire(link))
         {
@@ -443,11 +495,17 @@ public sealed class PaymentLinks(ErpDbContext db, ISecretBox secrets, BankOfCypr
     {
         var company = await db.Set<CostCenter>().AsNoTracking().FirstOrDefaultAsync(c => c.Id == link.OwnerId, ct).ConfigureAwait(false);
         var shop = company?.Name.In(Models.Base.TranslatedText.DefaultLanguage) ?? company?.Code ?? "Shop";
-        var methods = link.Status == "Open" ? new[] { link.Method ?? BankOfCyprus } : [];
+        IReadOnlyList<string> methods = link.Status == "Open" ? [.. (await WaysAsync(link, ct).ConfigureAwait(false)).Select(w => w.Kind)] : [];
+        if (link.Status == "Open" && methods.Count == 0)
+        {
+            methods = [link.Method ?? BankOfCyprus];
+        }
+
         // The company's Gamma business, so Gamma Wallet can say whom the customer is paying (plan 4.5).
         var gamma = await db.Set<WalletProvider>().AsNoTracking().Where(p => p.Active && p.OwnerId == link.OwnerId).Select(p => p.GammaBusinessId).FirstOrDefaultAsync(ct)
             .ConfigureAwait(false);
-        return new PaymentLinkView(link.PayToken, shop, decimal.Round(link.Amount, 2), link.Currency, link.Reference, link.Status, link.ExpiresOn, methods, link.ProviderReference, gamma);
+        return new PaymentLinkView(link.PayToken, shop, decimal.Round(link.Amount, 2), link.Currency, link.Reference, link.Status, link.ExpiresOn, methods, link.ProviderReference, gamma,
+            link.PaymentId is not null, link.SettleError, link.FromApp);
     }
 
     /// <summary>24 random bytes, URL-safe (32 characters): the link can't be guessed.</summary>

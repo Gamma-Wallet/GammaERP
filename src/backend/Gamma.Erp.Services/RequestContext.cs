@@ -15,3 +15,12 @@ public sealed class ValidationException(IReadOnlyDictionary<string, string> erro
 
     public static ValidationException For(string field, string message) => new(new Dictionary<string, string> { [field] = message });
 }
+
+/// <summary>
+/// A request context set by the server itself for work nobody signed in for (the founder, 2026-11-19: a bank's or card gateway's confirmation pays the
+/// bill as the cashier who made the payment link). Used only in a scope made for that work; a signed-in request never sets it.
+/// </summary>
+public sealed class ActingContext
+{
+    public RequestContext? Current { get; set; }
+}

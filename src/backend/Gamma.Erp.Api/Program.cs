@@ -1,4 +1,4 @@
-using Gamma.Erp.Api;
+﻿using Gamma.Erp.Api;
 using Gamma.Erp.Api.Auth;
 using Gamma.Erp.Api.Mcp;
 using Gamma.Erp.Persistence;
@@ -24,7 +24,8 @@ builder.Services.AddDbContext<AuthDbContext>(options => options
     .UseNpgsql(connection, npgsql => npgsql.MigrationsHistoryTable("__ef_migrations_history", AuthDbContext.Schema))
     .UseOpenIddict());
 builder.Services.AddHttpContextAccessor();
-builder.Services.AddScoped(sp => sp.GetRequiredService<IHttpContextAccessor>().HttpContext?.Items[typeof(RequestContext)] as RequestContext
+builder.Services.AddScoped<ActingContext>();
+builder.Services.AddScoped(sp => sp.GetRequiredService<ActingContext>().Current ?? sp.GetRequiredService<IHttpContextAccessor>().HttpContext?.Items[typeof(RequestContext)] as RequestContext
     ?? throw new InvalidOperationException("No request context: the route is not under /api or the user is not signed in."));
 builder.Services.AddScoped<Visibility>();
 builder.Services.AddScoped<DocumentService>();
@@ -111,6 +112,7 @@ builder.Services.AddScoped<Gamma.Erp.Services.Banking.BankFeeds>();
 builder.Services.AddScoped<Gamma.Erp.Services.Banking.PosBankPayments>();
 builder.Services.AddScoped<Gamma.Erp.Services.Banking.BankNotices>();
 builder.Services.AddScoped<Gamma.Erp.Services.Banking.PaymentLinks>();
+builder.Services.AddSingleton<Gamma.Erp.Api.Banking.PaymentLinkSettlement>();
 builder.Services.AddHttpClient<Gamma.Erp.Services.Banking.JccConnector>(c => c.Timeout = TimeSpan.FromSeconds(60));
 builder.Services.AddScoped<Gamma.Erp.Services.Banking.CardProviders>();
 // The tax authorities (plan 4.3c): one adapter per country; the company's fiscal provider row says which one it uses.

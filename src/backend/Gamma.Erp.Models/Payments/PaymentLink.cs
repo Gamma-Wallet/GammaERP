@@ -1,12 +1,12 @@
-using System.ComponentModel.DataAnnotations.Schema;
+﻿using System.ComponentModel.DataAnnotations.Schema;
 using Gamma.Erp.Models.Base;
 
 namespace Gamma.Erp.Models.Payments;
 
 /// <summary>
 /// A till bill's payment link (plan 4.5, the founder 2026-11-18): <c>&lt;erp&gt;/pay/{PayToken}</c>, shown as the till's QR code. Its page, open to anyone with
-/// the link and showing no personal data, offers the company's way to pay (Bank of Cyprus). A paid link has written a bank notice; the cashier still
-/// presses Paid at the till.
+/// the link and showing no personal data, offers the company's ways to pay (Bank of Cyprus, card). A paid link has written a bank notice; when its payment
+/// method says so (PaysOnConfirmation) the ERP then pays the bill itself, else the cashier presses Paid at the till.
 /// </summary>
 [Table("tbl_payment_link")]
 public sealed class PaymentLink : Row
@@ -50,4 +50,16 @@ public sealed class PaymentLink : Row
 
     /// <summary>What was given back to the card (JCC refunds), in the link's currency.</summary>
     public decimal RefundedAmount { get; set; }
+
+    /// <summary>Started from Gamma Wallet: the return pages send the payer back into the app.</summary>
+    public bool FromApp { get; set; }
+
+    /// <summary>When the confirmation began paying the bill by itself (the method's PaysOnConfirmation); set once, so two confirmations never pay twice.</summary>
+    public DateTimeOffset? SettledOn { get; set; }
+
+    /// <summary>The payment document the confirmation posted.</summary>
+    public Guid? PaymentId { get; set; }
+
+    /// <summary>Why the confirmation could not pay the bill by itself; the cashier then presses Paid.</summary>
+    public string? SettleError { get; set; }
 }
