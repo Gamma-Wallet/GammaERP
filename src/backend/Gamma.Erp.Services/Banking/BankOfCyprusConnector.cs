@@ -144,6 +144,8 @@ public sealed class BankOfCyprusConnector(HttpClient http) : IBankConnector
         using var sign = new HttpRequestMessage(HttpMethod.Post, SignUrl(provider)) { Content = new StringContent(payment.ToJsonString(), Encoding.UTF8, "application/json") };
         sign.Headers.Add("journeyId", Guid.NewGuid().ToString());
         sign.Headers.Add("timeStamp", DateTimeOffset.UtcNow.ToUnixTimeSeconds().ToString(CultureInfo.InvariantCulture));
+        // The sandbox sign helper answers 500 without it (its guide's value).
+        sign.Headers.Add("tppId", "singpaymentdata");
         var signed = await ReadAsync(sign, ct).ConfigureAwait(false) as JsonObject ?? throw new BankProviderException("The bank's sign helper gave nothing.");
         var token = await AppTokenAsync(provider, secret, ct).ConfigureAwait(false);
         var answer = await SendAsync(HttpMethod.Post, provider, "/v1/payments/initiate", token, null, signed, ct).ConfigureAwait(false);
