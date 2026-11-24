@@ -143,7 +143,7 @@ public sealed class BankOfCyprusConnector(HttpClient http) : IBankConnector
             ["endToEndId"] = endToEndId,
             ["paymentDetails"] = details,
         };
-        using var sign = new HttpRequestMessage(HttpMethod.Post, SignUrl(provider)) { Content = new StringContent(payment.ToJsonString(), Encoding.UTF8, "application/json") };
+        using var sign = new HttpRequestMessage(HttpMethod.Post, SignUrl(provider)) { Content = Json(payment) };
         sign.Headers.Add("journeyId", Guid.NewGuid().ToString());
         sign.Headers.Add("timeStamp", DateTimeOffset.UtcNow.ToUnixTimeSeconds().ToString(CultureInfo.InvariantCulture));
         // The sandbox sign helper answers 500 without it (its guide's value).
@@ -239,7 +239,7 @@ public sealed class BankOfCyprusConnector(HttpClient http) : IBankConnector
 
         if (body is not null)
         {
-            request.Content = new StringContent(body.ToJsonString(), Encoding.UTF8, "application/json");
+            request.Content = Json(body);
         }
 
         return await ReadAsync(request, ct).ConfigureAwait(false);
@@ -283,6 +283,14 @@ public sealed class BankOfCyprusConnector(HttpClient http) : IBankConnector
 
             return json;
         }
+    }
+
+    /// <summary>A JSON body sent as plain "application/json": the sandbox's gateway answers 500 "Invalid" when a charset follows it.</summary>
+    private static StringContent Json(JsonObject body)
+    {
+        var content = new StringContent(body.ToJsonString(), Encoding.UTF8);
+        content.Headers.ContentType = new MediaTypeHeaderValue("application/json");
+        return content;
     }
 
     /// <summary>A JSON string's text; null for anything else (an object or array is not a reason).</summary>
