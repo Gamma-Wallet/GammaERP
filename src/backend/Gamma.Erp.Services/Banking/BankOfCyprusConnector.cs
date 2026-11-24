@@ -50,7 +50,7 @@ public sealed class BankOfCyprusConnector(HttpClient http) : IBankConnector
             ["response_type"] = "code", ["redirect_uri"] = provider.RedirectUrl, ["scope"] = "UserOAuth2Security", ["client_id"] = provider.ApplicationId,
             ["subscriptionid"] = subscription, ["state"] = state,
         };
-        return new BankStartInfo(Base(provider) + "/oauth2/authorize?" + string.Join('&', query.Select(q => $"{q.Key}={Uri.EscapeDataString(q.Value)}")), subscription);
+        return new BankStartInfo(AuthorizeUrl(provider, query), subscription);
     }
 
     /// <summary>The code becomes a customer token, which activates the subscription with the accounts the shop chose; then the accounts are read.</summary>
@@ -168,7 +168,7 @@ public sealed class BankOfCyprusConnector(HttpClient http) : IBankConnector
             ["response_type"] = "code", ["redirect_uri"] = returnUrl, ["scope"] = "UserOAuth2Security", ["client_id"] = provider.ApplicationId, ["paymentid"] = paymentId,
             ["state"] = state,
         };
-        return Base(provider) + "/oauth2/authorize?" + string.Join('&', query.Select(q => $"{q.Key}={Uri.EscapeDataString(q.Value)}"));
+        return AuthorizeUrl(provider, query);
     }
 
     /// <summary>Completes an approved payment with the payer's token (from the code): the bank's status (CPLT when done) and its reference.</summary>
@@ -284,6 +284,15 @@ public sealed class BankOfCyprusConnector(HttpClient http) : IBankConnector
             return json;
         }
     }
+
+    /// <summary>
+    /// The bank's sign-in address. The sandbox's login page sends redirect_uri back unencoded and its gateway then answers "badstate" unless the first
+    /// request had it unencoded too, so ':' and '/' stay as they are there (valid in a query).
+    /// </summary>
+    private static string AuthorizeUrl(BankProvider provider, Dictionary<string, string> query) =>
+        Base(provider) + "/oauth2/authorize?" + string.Join('&', query.Select(q => q.Key + "=" + (q.Key == "redirect_uri"
+            ? Uri.EscapeDataString(q.Value).Replace("%3A", ":", StringComparison.Ordinal).Replace("%2F", "/", StringComparison.Ordinal)
+            : Uri.EscapeDataString(q.Value))));
 
     /// <summary>A JSON body sent as plain "application/json": the sandbox's gateway answers 500 "Invalid" when a charset follows it.</summary>
     private static StringContent Json(JsonObject body)
