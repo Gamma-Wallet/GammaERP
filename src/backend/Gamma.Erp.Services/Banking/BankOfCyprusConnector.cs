@@ -124,8 +124,8 @@ public sealed class BankOfCyprusConnector(HttpClient http) : IBankConnector
     /// Starts a payment to the shop's account: the payment JSON is signed (JWS; in the sandbox by the bank's sign helper, as its guide says — real payments
     /// need the company's own QSeal certificate and a payment-initiation licence), then initiated. The answer is the bank's payment id.
     /// </summary>
-    public async Task<string> InitiatePaymentAsync(BankProvider provider, string secret, string creditorAccountId, decimal amount, string currency, string details,
-        string endToEndId, CancellationToken ct)
+    public async Task<string> InitiatePaymentAsync(BankProvider provider, string secret, string? creditorBic, string creditorAccountId, decimal amount, string currency,
+        string details, string endToEndId, BankPayer payer, CancellationToken ct)
     {
         ArgumentNullException.ThrowIfNull(provider);
         if (!string.Equals(provider.Environment, "Sandbox", StringComparison.OrdinalIgnoreCase))
@@ -133,10 +133,12 @@ public sealed class BankOfCyprusConnector(HttpClient http) : IBankConnector
             throw new BankProviderException("Bank of Cyprus payments are set up for the sandbox only: real payments need the company's payment-initiation licence and QSeal certificate.");
         }
 
+        ArgumentNullException.ThrowIfNull(payer);
+
+        // No debtor: the payer chooses the account at the bank (Bank of Cyprus refuses an empty one). The creditor needs its bank's BIC.
         var payment = new JsonObject
         {
-            ["debtor"] = new JsonObject { ["bankId"] = string.Empty, ["accountId"] = string.Empty },
-            ["creditor"] = new JsonObject { ["bankId"] = string.Empty, ["accountId"] = creditorAccountId },
+            ["creditor"] = new JsonObject { ["bankId"] = creditorBic ?? string.Empty, ["accountId"] = creditorAccountId },
             ["transactionAmount"] = new JsonObject { ["amount"] = amount, ["currency"] = currency },
             ["endToEndId"] = endToEndId,
             ["paymentDetails"] = details,
@@ -148,7 +150,12 @@ public sealed class BankOfCyprusConnector(HttpClient http) : IBankConnector
         sign.Headers.Add("tppId", "singpaymentdata");
         var signed = await ReadAsync(sign, ct).ConfigureAwait(false) as JsonObject ?? throw new BankProviderException("The bank's sign helper gave nothing.");
         var token = await AppTokenAsync(provider, secret, ct).ConfigureAwait(false);
-        var answer = await SendAsync(HttpMethod.Post, provider, "/v1/payments/initiate", token, null, signed, ct).ConfigureAwait(false);
+        var now = DateTimeOffset.UtcNow.ToUnixTimeSeconds().ToString(CultureInfo.InvariantCulture);
+        var customer = new Dictionary<string, string>
+        {
+            ["customerDevice"] = payer.Device, ["customerIP"] = payer.Ip, ["customerSessionId"] = endToEndId, ["loginTimeStamp"] = now,
+        };
+        var answer = await SendAsync(HttpMethod.Post, provider, "/v1/payments/initiate", token, null, signed, ct, customer).ConfigureAwait(false);
         return (string?)answer?["payment"]?["paymentId"] ?? throw new BankProviderException("The bank gave no payment id.");
     }
 
@@ -213,7 +220,8 @@ public sealed class BankOfCyprusConnector(HttpClient http) : IBankConnector
         return (string?)json?["access_token"] ?? throw new BankProviderException("The bank gave no access token.");
     }
 
-    private async Task<JsonNode?> SendAsync(HttpMethod method, BankProvider provider, string path, string token, string? subscription, JsonObject? body, CancellationToken ct)
+    private async Task<JsonNode?> SendAsync(HttpMethod method, BankProvider provider, string path, string token, string? subscription, JsonObject? body, CancellationToken ct,
+        IReadOnlyDictionary<string, string>? headers = null)
     {
         using var request = new HttpRequestMessage(method, Base(provider) + path);
         request.Headers.Authorization = new AuthenticationHeaderValue("Bearer", token);
@@ -222,6 +230,11 @@ public sealed class BankOfCyprusConnector(HttpClient http) : IBankConnector
         if (subscription is not null)
         {
             request.Headers.Add("subscriptionId", subscription);
+        }
+
+        foreach (var (name, value) in headers ?? new Dictionary<string, string>())
+        {
+            request.Headers.TryAddWithoutValidation(name, value);
         }
 
         if (body is not null)
@@ -260,9 +273,11 @@ public sealed class BankOfCyprusConnector(HttpClient http) : IBankConnector
 
             if (!response.IsSuccessStatusCode)
             {
-                // The bank's errors: { code, description: [ … ] } (the copy), or OAuth's { error, error_description }.
-                var reason = json?["description"] is JsonArray d && d.Count > 0 ? string.Join("; ", d.Select(x => (string?)x)) : (string?)json?["description"]
-                    ?? (string?)json?["error_description"] ?? (string?)json?["error"] ?? response.ReasonPhrase ?? "refused";
+                // The bank's errors: { code, description: [ … ] } (the copy); the sandbox's { error: { description, additionalDetails: [ { description } ] } }
+                // or { httpMessage, moreInformation }; OAuth's { error, error_description }.
+                var reason = Text(json?["error"]?["additionalDetails"]?[0]?["description"]) ?? Text(json?["moreInformation"])
+                    ?? (json?["description"] is JsonArray d && d.Count > 0 ? string.Join("; ", d.Select(Text)) : Text(json?["description"]))
+                    ?? Text(json?["error_description"]) ?? Text(json?["error"]?["description"]) ?? Text(json?["error"]) ?? response.ReasonPhrase ?? "refused";
                 throw new BankProviderException($"Bank of Cyprus refused ({(int)response.StatusCode}): {reason}");
             }
 
@@ -270,8 +285,15 @@ public sealed class BankOfCyprusConnector(HttpClient http) : IBankConnector
         }
     }
 
+    /// <summary>A JSON string's text; null for anything else (an object or array is not a reason).</summary>
+    private static string? Text(JsonNode? node) =>
+        node is JsonValue v && v.TryGetValue<string>(out var s) && !string.IsNullOrWhiteSpace(s) ? s.Trim(' ', ':') : null;
+
     private static string Base(BankProvider provider) => provider.ApiBase.TrimEnd('/');
 
     private static DateOnly? Day(string? value) =>
         DateOnly.TryParseExact(value, DateFormat, CultureInfo.InvariantCulture, DateTimeStyles.None, out var day) ? day : null;
 }
+
+/// <summary>The payer's side of a payment initiation, which Bank of Cyprus asks for: their address and their browser or app.</summary>
+public sealed record BankPayer(string Ip, string Device);

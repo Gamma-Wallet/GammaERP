@@ -57,7 +57,7 @@ public static class PaymentLinkPages
                 var url = method switch
                 {
                     "card" => await links.StartCardAsync(payToken, ct),
-                    "bank" => await links.StartBankOfCyprusAsync(payToken, ct),
+                    "bank" => await links.StartBankOfCyprusAsync(payToken, Payer(http), ct),
                     _ => throw ValidationException.For("method", "Choose card or bank."),
                 };
                 return Results.Redirect(url, permanent: false, preserveMethod: false);
@@ -108,7 +108,7 @@ public static class PaymentLinkPages
         {
             try
             {
-                return Results.Redirect(await links.StartBankOfCyprusAsync(payToken, ct), permanent: false, preserveMethod: false);
+                return Results.Redirect(await links.StartBankOfCyprusAsync(payToken, Payer(http), ct), permanent: false, preserveMethod: false);
             }
             catch (Exception e) when (e is ValidationException or BankProviderException)
             {
@@ -124,6 +124,14 @@ public static class PaymentLinkPages
 
     /// <summary>What the return page says: paid and the bill paid by the ERP, or the bank's or gateway's own answer.</summary>
     private static string Done(PaymentReturn back) => back is { Paid: true, Link.BillPaid: true } ? "Paid. The shop has your payment; nothing more to do." : back.Message;
+
+    /// <summary>The payer as Bank of Cyprus asks for them: their address (behind the host's proxy, the forwarded one) and their browser or app.</summary>
+    private static BankPayer Payer(HttpContext http)
+    {
+        var device = http.Request.Headers.UserAgent.ToString();
+        return new BankPayer(http.Connection.RemoteIpAddress?.MapToIPv4().ToString() ?? "0.0.0.0",
+            string.IsNullOrWhiteSpace(device) ? "Gamma ERP payment link" : device[..Math.Min(device.Length, 200)]);
+    }
 
     private static IResult Page(HttpContext http, string title, PaymentLinkView? link, string? message, bool paid, int status = 200)
     {

@@ -148,16 +148,16 @@ public sealed class PaymentLinks(ErpDbContext db, ISecretBox secrets, BankOfCypr
     }
 
     /// <summary>"Pay with Bank of Cyprus": starts the payment at the bank and gives the address where the payer approves it.</summary>
-    public async Task<string> StartBankOfCyprusAsync(string payToken, CancellationToken ct)
+    public async Task<string> StartBankOfCyprusAsync(string payToken, BankPayer payer, CancellationToken ct)
     {
         var link = await db.Set<PaymentLink>().FirstOrDefaultAsync(l => l.Active && l.PayToken == payToken, ct).ConfigureAwait(false)
             ?? throw ValidationException.For("payToken", "There is no such payment link.");
         Expire(link);
         await ChooseAsync(link, BankOfCyprus, ct).ConfigureAwait(false);
         Payable(link, BankOfCyprus);
-        var (provider, secret, account) = await PaymentSideAsync(link, ct).ConfigureAwait(false);
-        var paymentId = await BankConnections.Call(() => boc.InitiatePaymentAsync(provider, secret, account, decimal.Round(link.Amount, 2), link.Currency, link.Reference,
-            "GAMMA-" + link.PayToken[..16], ct)).ConfigureAwait(false);
+        var (provider, secret, bic, account) = await PaymentSideAsync(link, ct).ConfigureAwait(false);
+        var paymentId = await BankConnections.Call(() => boc.InitiatePaymentAsync(provider, secret, bic, account, decimal.Round(link.Amount, 2), link.Currency,
+            link.Reference, "GAMMA-" + link.PayToken[..16], payer, ct)).ConfigureAwait(false);
         (link.ProviderPaymentId, link.Method) = (paymentId, BankOfCyprus);
         await db.SaveChangesAsync(ct).ConfigureAwait(false);
         return BankOfCyprusConnector.ApprovalUrl(provider, paymentId, provider.PaymentReturnUrl!, link.PayToken);
@@ -185,7 +185,7 @@ public sealed class PaymentLinks(ErpDbContext db, ISecretBox secrets, BankOfCypr
             return new(await ViewOfAsync(link, ct).ConfigureAwait(false), false, "The payment was not approved at the bank. Nothing was paid; you can try again.");
         }
 
-        var (provider, secret, _) = await PaymentSideAsync(link, ct).ConfigureAwait(false);
+        var (provider, secret, _, _) = await PaymentSideAsync(link, ct).ConfigureAwait(false);
         string status;
         string? reference;
         try
@@ -503,7 +503,7 @@ public sealed class PaymentLinks(ErpDbContext db, ISecretBox secrets, BankOfCypr
     }
 
     /// <summary>The company's Bank of Cyprus provider with payments on, its opened secret, and the bank account id the money goes to.</summary>
-    private async Task<(BankProvider Provider, string Secret, string Account)> PaymentSideAsync(PaymentLink link, CancellationToken ct)
+    private async Task<(BankProvider Provider, string Secret, string? Bic, string Account)> PaymentSideAsync(PaymentLink link, CancellationToken ct)
     {
         var provider = await db.Set<BankProvider>().AsNoTracking().FirstOrDefaultAsync(p => p.Active && p.OwnerId == link.OwnerId, ct).ConfigureAwait(false);
         if (provider is not { Kind: BankOfCyprus, PaymentsEnabled: true } || string.IsNullOrEmpty(provider.PaymentReturnUrl))
@@ -515,7 +515,7 @@ public sealed class PaymentLinks(ErpDbContext db, ISecretBox secrets, BankOfCypr
         var connection = await db.Set<BankConnection>().AsNoTracking().FirstOrDefaultAsync(c => c.Active && c.BankId == link.BankId && c.OwnerId == link.OwnerId
             && c.ProviderId == provider.Id && c.AccountUid != null, ct).ConfigureAwait(false)
             ?? throw ValidationException.For("payToken", "The shop's bank account is not connected to Bank of Cyprus: pay at the till another way.");
-        return (provider, secret, BankOfCyprusConnector.AccountOf(connection.AccountUid!));
+        return (provider, secret, connection.Bic, BankOfCyprusConnector.AccountOf(connection.AccountUid!));
     }
 
     private async Task<PaymentLink?> LinkAsync(string payToken, CancellationToken ct)
