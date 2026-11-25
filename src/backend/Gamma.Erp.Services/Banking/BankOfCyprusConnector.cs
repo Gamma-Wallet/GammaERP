@@ -183,6 +183,21 @@ public sealed class BankOfCyprusConnector(HttpClient http) : IBankConnector
         return ((string?)answer?["code"] ?? "UNKNOWN", (string?)answer?["refNumber"]);
     }
 
+    /// <summary>
+    /// The bank's status of a payment, asked with the application's own token (no payer, no subscription): COMPLETED (CPLT on our copy of the bank) once
+    /// executed, PENDING while the payer has not approved it.
+    /// </summary>
+    public async Task<string> PaymentStatusAsync(BankProvider provider, string secret, string paymentId, CancellationToken ct)
+    {
+        ArgumentNullException.ThrowIfNull(provider);
+        var token = await AppTokenAsync(provider, secret, ct).ConfigureAwait(false);
+        var answer = await SendAsync(HttpMethod.Get, provider, $"/v1/payments/{Uri.EscapeDataString(paymentId)}/status", token, null, null, ct).ConfigureAwait(false);
+        return Text(answer?["status"]?["code"]) ?? Text(answer?["code"]) ?? "UNKNOWN";
+    }
+
+    /// <summary>Whether a payment status means the money moved: the real sandbox says COMPLETED, our copy and the execute call CPLT.</summary>
+    public static bool Completed(string? status) => status is "COMPLETED" or "CPLT";
+
     /// <summary>The sandbox sign helper sits next to the PSD2 API: …/sb/psd2 → …/sb/jwssignverifyapi/sign.</summary>
     private static string SignUrl(BankProvider provider)
     {

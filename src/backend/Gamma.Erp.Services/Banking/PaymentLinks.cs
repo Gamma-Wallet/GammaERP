@@ -332,6 +332,41 @@ public sealed class PaymentLinks(ErpDbContext db, ISecretBox secrets, BankOfCypr
     }
 
     /// <summary>
+    /// Check bank at the till for a Bank of Cyprus link (a person's press): the newest link of this payment that went to the bank is asked about by its
+    /// payment id; executed there, the link is paid and the notice written, as on the payer's return. For a payer whose return never reached the ERP. The
+    /// answer is whether a Bank of Cyprus link was found (then the statement is not read), its token, and the bank's status.
+    /// </summary>
+    public async Task<(bool Found, string? PayToken, string? Status)> CheckBankOfCyprusAsync(Guid company, Guid pointOfSaleId, Guid paymentMethodId, decimal amount,
+        string reference, CancellationToken ct)
+    {
+        var link = await db.Set<PaymentLink>().Where(l => l.Active && l.OwnerId == company && l.PointOfSaleId == pointOfSaleId && l.PaymentMethodId == paymentMethodId
+                && l.Reference == reference && l.Amount == amount && l.Method == BankOfCyprus && l.ProviderPaymentId != null)
+            .OrderByDescending(l => l.CreatedOn).FirstOrDefaultAsync(ct).ConfigureAwait(false);
+        if (link is null)
+        {
+            return (false, null, null);
+        }
+
+        if (link.Status == "Paid")
+        {
+            return (true, link.PayToken, "COMPLETED");
+        }
+
+        var (provider, secret, _, _) = await PaymentSideAsync(link, ct).ConfigureAwait(false);
+        var status = await BankConnections.Call(() => boc.PaymentStatusAsync(provider, secret, link.ProviderPaymentId!, ct)).ConfigureAwait(false);
+        if (!BankOfCyprusConnector.Completed(status) || link.Status is not ("Open" or "Expired"))
+        {
+            return (true, null, status);
+        }
+
+        // Executed at the bank: the bank's status gives no reference, so the notice keeps the payment id (BOC-…), unless the statement line is found.
+        (link.Status, link.PaidOn) = ("Paid", time.GetUtcNow());
+        link.BankNoticeId = await NoticeAsync(link, provider, null, ct).ConfigureAwait(false);
+        await db.SaveChangesAsync(ct).ConfigureAwait(false);
+        return (true, link.PayToken, status);
+    }
+
+    /// <summary>
     /// Gives money back to the card of a paid link (a person's press; the receipt is then reversed as usual): up to what is left. JCC's externalRefundId
     /// makes a retry of the same press safe.
     /// </summary>

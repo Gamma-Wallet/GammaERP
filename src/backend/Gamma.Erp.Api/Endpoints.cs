@@ -695,8 +695,18 @@ public static class Endpoints
             s.CheckCardAsync(check.PointOfSaleId, check.PaymentMethodId, check.Amount, check.Reference, ct));
         pos.MapPost("/card-refund", (Gamma.Erp.Services.Banking.PosBankPayments s, CardRefundRequest refund, CancellationToken ct) =>
             s.RefundCardAsync(refund.PayToken, refund.Amount, ct));
-        pos.MapPost("/bank-check", (Gamma.Erp.Services.Banking.PosBankPayments s, HttpContext http, Gamma.Erp.Services.Banking.BankCheckRequest check, CancellationToken ct) =>
-            s.CheckAsync(check.PointOfSaleId, check.PaymentMethodId, check.Amount, check.Reference, Psu(http), ct));
+        // Check bank: a Bank of Cyprus payment link is asked about at the bank (paid there, it settles as on the payer's return); otherwise the statement is read.
+        pos.MapPost("/bank-check", async (Gamma.Erp.Services.Banking.PosBankPayments s, Banking.PaymentLinkSettlement settle, HttpContext http,
+            Gamma.Erp.Services.Banking.BankCheckRequest check, CancellationToken ct) =>
+        {
+            if (await s.CheckLinkAsync(check.PointOfSaleId, check.PaymentMethodId, check.Amount, check.Reference, ct) is { } link)
+            {
+                await settle.SettleTokenAsync(link.PayToken, ct);
+                return link.Lines;
+            }
+
+            return await s.CheckAsync(check.PointOfSaleId, check.PaymentMethodId, check.Amount, check.Reference, Psu(http), ct);
+        });
         // The till watches its payment request (a link method): paid here by the confirmation, and by which payment.
         pos.MapGet("/payment-links/{payToken}", async (Gamma.Erp.Services.Banking.PaymentLinks s, Visibility visibility, string payToken, CancellationToken ct) =>
             await visibility.CompanyAsync(ct) is { } company && await s.TillStatusAsync(company, payToken, ct) is { } link ? Results.Ok(link) : Results.NotFound());

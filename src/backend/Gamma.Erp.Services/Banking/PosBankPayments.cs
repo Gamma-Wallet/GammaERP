@@ -19,6 +19,9 @@ public sealed record BankQrDto(Guid BankId, string? Bank, string Iban, string? B
 /// <summary>What Check bank looks for: the method's bank at the point of sale, the amount and the bill's code.</summary>
 public sealed record BankCheckRequest(Guid PointOfSaleId, Guid PaymentMethodId, decimal Amount, string Reference);
 
+/// <summary>What Check bank learnt from Bank of Cyprus about a payment link: the paid link's token (null while not paid), the bank's status, the notices.</summary>
+public sealed record BankLinkCheck(string? PayToken, string? Status, IReadOnlyList<BankPaymentLine> Lines);
+
 /// <summary>Paying bills by a bank line the cashier chose after Check bank: the till's usual payment, and that line.</summary>
 /// <para>Open: the bill Gamma holds open ("Pay with Gamma app"), set by the confirmation that pays it; it is then marked paid at Gamma instead of created.</para>
 public sealed record PayByBankRequest(Gamma.Erp.Services.Pos.PayBillsRequest Pay, BankPaymentLine BankLine, OpenGammaBill? Open = null);
@@ -191,6 +194,19 @@ public sealed class PosBankPayments(ErpDbContext db, Visibility visibility, Bank
         var company = await visibility.CompanyAsync(ct).ConfigureAwait(false) ?? throw ValidationException.For("pointOfSaleId", "The point of sale belongs to no company.");
         await links.CheckCardAsync(company, pointOfSaleId, paymentMethodId, amount, reference.Trim(), ct).ConfigureAwait(false);
         return await NoticesAsync(pointOfSaleId, paymentMethodId, amount, reference, ct).ConfigureAwait(false);
+    }
+
+    /// <summary>
+    /// Check bank for a Bank of Cyprus payment link (a person's press): asks the bank about this payment's link instead of reading the statement (Bank of
+    /// Cyprus's sandbox shows no incoming lines). Null when this payment has no link that went to Bank of Cyprus: the statement is read as before. Otherwise
+    /// the notices as the till's Bank confirmed shows them, and the paid link's token, for the settlement.
+    /// </summary>
+    public async Task<BankLinkCheck?> CheckLinkAsync(Guid pointOfSaleId, Guid paymentMethodId, decimal amount, string reference, CancellationToken ct)
+    {
+        await BankAsync(pointOfSaleId, paymentMethodId, ct).ConfigureAwait(false);
+        var company = await visibility.CompanyAsync(ct).ConfigureAwait(false) ?? throw ValidationException.For("pointOfSaleId", "The point of sale belongs to no company.");
+        var (found, payToken, status) = await links.CheckBankOfCyprusAsync(company, pointOfSaleId, paymentMethodId, amount, reference.Trim(), ct).ConfigureAwait(false);
+        return found ? new BankLinkCheck(payToken, status, await NoticesAsync(pointOfSaleId, paymentMethodId, amount, reference, ct).ConfigureAwait(false)) : null;
     }
 
     /// <summary>Refunds (part of) a card payment made through a payment link; the receipt is then reversed as usual.</summary>
