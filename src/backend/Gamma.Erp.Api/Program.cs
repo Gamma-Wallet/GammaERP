@@ -128,6 +128,10 @@ builder.Services.AddScoped<Gamma.Erp.Services.Banking.IFiscalAdapter>(sp => sp.G
 builder.Services.AddScoped<Gamma.Erp.Services.Banking.IFiscalAdapter>(sp => sp.GetRequiredService<Gamma.Erp.Services.Banking.PortugalAtcudAdapter>());
 builder.Services.AddScoped<Gamma.Erp.Services.Banking.FiscalReceipts>();
 builder.Services.AddScoped<Gamma.Erp.Services.Banking.FiscalProviders>();
+// E-invoicing through Jinius (the founder 2026-11-28): the company's connection row says where and with which codes.
+builder.Services.AddHttpClient<Gamma.Erp.Services.Banking.JiniusClient>(c => c.Timeout = TimeSpan.FromSeconds(60));
+builder.Services.AddScoped<Gamma.Erp.Services.Banking.EInvoiceProviders>();
+builder.Services.AddScoped<Gamma.Erp.Services.Banking.EInvoices>();
 // Gamma Wallet (plan 4.5): the retailer's access is the company's row; the ERP pushes paid bills.
 builder.Services.AddHttpClient<Gamma.Erp.Services.Banking.GammaIntegrationClient>(c => c.Timeout = TimeSpan.FromSeconds(30));
 builder.Services.AddScoped<Gamma.Erp.Services.Banking.WalletProviders>();

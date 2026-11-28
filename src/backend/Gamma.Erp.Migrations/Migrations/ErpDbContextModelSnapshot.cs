@@ -8714,6 +8714,230 @@ namespace Gamma.Erp.Migrations.Migrations
                     b.ToTable("tbl_card_provider", "payments");
                 });
 
+            modelBuilder.Entity("Gamma.Erp.Models.Payments.EInvoiceLink", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .HasColumnType("uuid")
+                        .HasColumnName("id");
+
+                    b.Property<bool>("Active")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("boolean")
+                        .HasDefaultValue(true)
+                        .HasColumnName("active");
+
+                    b.Property<decimal?>("Amount")
+                        .HasPrecision(19, 6)
+                        .HasColumnType("numeric(19,6)")
+                        .HasColumnName("amount");
+
+                    b.Property<string>("Answer")
+                        .HasColumnType("jsonb")
+                        .HasColumnName("answer");
+
+                    b.Property<int>("Attempts")
+                        .HasColumnType("integer")
+                        .HasColumnName("attempts");
+
+                    b.Property<DateTimeOffset?>("CheckedOn")
+                        .HasColumnType("timestamp with time zone")
+                        .HasColumnName("checked_on");
+
+                    b.Property<Guid?>("CreatedBy")
+                        .HasColumnType("uuid")
+                        .HasColumnName("created_by");
+
+                    b.Property<DateTimeOffset>("CreatedOn")
+                        .HasColumnType("timestamp with time zone")
+                        .HasColumnName("created_on");
+
+                    b.Property<string>("Direction")
+                        .IsRequired()
+                        .HasColumnType("text")
+                        .HasColumnName("direction");
+
+                    b.Property<Guid?>("DocumentId")
+                        .HasColumnType("uuid")
+                        .HasColumnName("document_id");
+
+                    b.Property<Guid>("EInvoiceProviderId")
+                        .HasColumnType("uuid")
+                        .HasColumnName("e_invoice_provider_id");
+
+                    b.Property<string>("Errors")
+                        .HasColumnType("text")
+                        .HasColumnName("errors");
+
+                    b.Property<string>("ExternalId")
+                        .HasColumnType("text")
+                        .HasColumnName("external_id");
+
+                    b.Property<string>("ExternalNumber")
+                        .HasColumnType("text")
+                        .HasColumnName("external_number");
+
+                    b.Property<Guid?>("IdChange")
+                        .HasColumnType("uuid")
+                        .HasColumnName("id_change");
+
+                    b.Property<Guid?>("IdSup")
+                        .HasColumnType("uuid")
+                        .HasColumnName("id_sup");
+
+                    b.Property<Guid?>("OwnerId")
+                        .HasColumnType("uuid")
+                        .HasColumnName("owner_id");
+
+                    b.Property<DateTimeOffset?>("PaidOn")
+                        .HasColumnType("timestamp with time zone")
+                        .HasColumnName("paid_on");
+
+                    b.Property<string>("PartnerName")
+                        .HasColumnType("text")
+                        .HasColumnName("partner_name");
+
+                    b.Property<string>("PartnerVatNumber")
+                        .HasColumnType("text")
+                        .HasColumnName("partner_vat_number");
+
+                    b.Property<Guid?>("PaymentId")
+                        .HasColumnType("uuid")
+                        .HasColumnName("payment_id");
+
+                    b.Property<string>("PaymentStatus")
+                        .HasColumnType("text")
+                        .HasColumnName("payment_status");
+
+                    b.Property<DateTimeOffset?>("SentOn")
+                        .HasColumnType("timestamp with time zone")
+                        .HasColumnName("sent_on");
+
+                    b.Property<string>("Status")
+                        .IsRequired()
+                        .HasColumnType("text")
+                        .HasColumnName("status");
+
+                    b.Property<Guid>("TenantId")
+                        .HasColumnType("uuid")
+                        .HasColumnName("tenant_id");
+
+                    b.HasKey("Id")
+                        .HasName("pk_tbl_einvoice_link");
+
+                    b.HasIndex("CreatedBy")
+                        .HasDatabaseName("ix_tbl_einvoice_link_created_by");
+
+                    b.HasIndex("DocumentId")
+                        .HasDatabaseName("ix_tbl_einvoice_link_document_id");
+
+                    b.HasIndex("EInvoiceProviderId")
+                        .HasDatabaseName("ix_tbl_einvoice_link_e_invoice_provider_id");
+
+                    b.HasIndex("IdChange")
+                        .HasDatabaseName("ix_tbl_einvoice_link_id_change");
+
+                    b.HasIndex("IdSup")
+                        .HasDatabaseName("ix_tbl_einvoice_link_id_sup");
+
+                    b.HasIndex("OwnerId")
+                        .HasDatabaseName("ix_tbl_einvoice_link_owner_id");
+
+                    b.HasIndex("TenantId")
+                        .HasDatabaseName("ix_tbl_einvoice_link_tenant_id");
+
+                    b.ToTable("tbl_einvoice_link", "payments");
+                });
+
+            modelBuilder.Entity("Gamma.Erp.Models.Payments.EInvoiceProvider", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .HasColumnType("uuid")
+                        .HasColumnName("id");
+
+                    b.Property<bool>("Active")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("boolean")
+                        .HasDefaultValue(true)
+                        .HasColumnName("active");
+
+                    b.Property<string>("ApiBase")
+                        .IsRequired()
+                        .HasColumnType("text")
+                        .HasColumnName("api_base");
+
+                    b.Property<string>("ClientId")
+                        .IsRequired()
+                        .HasColumnType("text")
+                        .HasColumnName("client_id");
+
+                    b.Property<string>("ClientSecret")
+                        .IsRequired()
+                        .HasColumnType("text")
+                        .HasColumnName("client_secret");
+
+                    b.Property<string>("Codes")
+                        .HasColumnType("jsonb")
+                        .HasColumnName("codes");
+
+                    b.Property<Guid?>("CreatedBy")
+                        .HasColumnType("uuid")
+                        .HasColumnName("created_by");
+
+                    b.Property<DateTimeOffset>("CreatedOn")
+                        .HasColumnType("timestamp with time zone")
+                        .HasColumnName("created_on");
+
+                    b.Property<string>("Environment")
+                        .IsRequired()
+                        .HasColumnType("text")
+                        .HasColumnName("environment");
+
+                    b.Property<Guid?>("IdChange")
+                        .HasColumnType("uuid")
+                        .HasColumnName("id_change");
+
+                    b.Property<Guid?>("IdSup")
+                        .HasColumnType("uuid")
+                        .HasColumnName("id_sup");
+
+                    b.Property<string>("Kind")
+                        .IsRequired()
+                        .HasColumnType("text")
+                        .HasColumnName("kind");
+
+                    b.Property<string>("Name")
+                        .HasColumnType("text")
+                        .HasColumnName("name");
+
+                    b.Property<Guid?>("OwnerId")
+                        .HasColumnType("uuid")
+                        .HasColumnName("owner_id");
+
+                    b.Property<Guid>("TenantId")
+                        .HasColumnType("uuid")
+                        .HasColumnName("tenant_id");
+
+                    b.HasKey("Id")
+                        .HasName("pk_tbl_einvoice_provider");
+
+                    b.HasIndex("CreatedBy")
+                        .HasDatabaseName("ix_tbl_einvoice_provider_created_by");
+
+                    b.HasIndex("IdChange")
+                        .HasDatabaseName("ix_tbl_einvoice_provider_id_change");
+
+                    b.HasIndex("IdSup")
+                        .HasDatabaseName("ix_tbl_einvoice_provider_id_sup");
+
+                    b.HasIndex("OwnerId")
+                        .HasDatabaseName("ix_tbl_einvoice_provider_owner_id");
+
+                    b.HasIndex("TenantId")
+                        .HasDatabaseName("ix_tbl_einvoice_provider_tenant_id");
+
+                    b.ToTable("tbl_einvoice_provider", "payments");
+                });
+
             modelBuilder.Entity("Gamma.Erp.Models.Payments.FiscalProvider", b =>
                 {
                     b.Property<Guid>("Id")
@@ -21853,6 +22077,73 @@ namespace Gamma.Erp.Migrations.Migrations
                         .HasForeignKey("OwnerId")
                         .OnDelete(DeleteBehavior.Restrict)
                         .HasConstraintName("fk_tbl_card_provider_owner_id");
+                });
+
+            modelBuilder.Entity("Gamma.Erp.Models.Payments.EInvoiceLink", b =>
+                {
+                    b.HasOne("Gamma.Erp.Models.Users.User", null)
+                        .WithMany()
+                        .HasForeignKey("CreatedBy")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .HasConstraintName("fk_tbl_einvoice_link_created_by");
+
+                    b.HasOne("Gamma.Erp.Models.Documents.Document", null)
+                        .WithMany()
+                        .HasForeignKey("DocumentId")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .HasConstraintName("fk_tbl_einvoice_link_document_id");
+
+                    b.HasOne("Gamma.Erp.Models.Payments.EInvoiceProvider", null)
+                        .WithMany()
+                        .HasForeignKey("EInvoiceProviderId")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .IsRequired()
+                        .HasConstraintName("fk_tbl_einvoice_link_e_invoice_provider_id");
+
+                    b.HasOne("Gamma.Erp.Models.Payments.EInvoiceLink", null)
+                        .WithMany()
+                        .HasForeignKey("IdChange")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .HasConstraintName("fk_tbl_einvoice_link_id_change");
+
+                    b.HasOne("Gamma.Erp.Models.Payments.EInvoiceLink", null)
+                        .WithMany()
+                        .HasForeignKey("IdSup")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .HasConstraintName("fk_tbl_einvoice_link_id_sup");
+
+                    b.HasOne("Gamma.Erp.Models.CostCenters.CostCenter", null)
+                        .WithMany()
+                        .HasForeignKey("OwnerId")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .HasConstraintName("fk_tbl_einvoice_link_owner_id");
+                });
+
+            modelBuilder.Entity("Gamma.Erp.Models.Payments.EInvoiceProvider", b =>
+                {
+                    b.HasOne("Gamma.Erp.Models.Users.User", null)
+                        .WithMany()
+                        .HasForeignKey("CreatedBy")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .HasConstraintName("fk_tbl_einvoice_provider_created_by");
+
+                    b.HasOne("Gamma.Erp.Models.Payments.EInvoiceProvider", null)
+                        .WithMany()
+                        .HasForeignKey("IdChange")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .HasConstraintName("fk_tbl_einvoice_provider_id_change");
+
+                    b.HasOne("Gamma.Erp.Models.Payments.EInvoiceProvider", null)
+                        .WithMany()
+                        .HasForeignKey("IdSup")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .HasConstraintName("fk_tbl_einvoice_provider_id_sup");
+
+                    b.HasOne("Gamma.Erp.Models.CostCenters.CostCenter", null)
+                        .WithMany()
+                        .HasForeignKey("OwnerId")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .HasConstraintName("fk_tbl_einvoice_provider_owner_id");
                 });
 
             modelBuilder.Entity("Gamma.Erp.Models.Payments.FiscalProvider", b =>

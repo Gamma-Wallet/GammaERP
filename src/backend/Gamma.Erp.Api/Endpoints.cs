@@ -128,6 +128,26 @@ public static class Endpoints
         walletSetup.MapPut("/provider", (Gamma.Erp.Services.Banking.WalletProviders s, Gamma.Erp.Services.Banking.WalletProviderInput input, CancellationToken ct) =>
             s.SaveAsync(input, ct));
 
+        // E-invoicing through Jinius (the founder 2026-11-28): the connection is set by administrators (the secret is written, never read back); every
+        // exchange is a person's press: Send / Check a posted sales invoice, list the received ones, Approve / Reject / Enter one.
+        var einvoiceSetup = api.MapGroup("/einvoicing").WithTags("e-invoicing").RequireAdministrator();
+        einvoiceSetup.MapGet("/provider", async (Gamma.Erp.Services.Banking.EInvoiceProviders s, CancellationToken ct) =>
+            await s.GetAsync(ct) is { } provider ? Results.Ok(provider) : Results.NoContent());
+        einvoiceSetup.MapPut("/provider", (Gamma.Erp.Services.Banking.EInvoiceProviders s, Gamma.Erp.Services.Banking.EInvoiceProviderInput input, CancellationToken ct) =>
+            s.SaveAsync(input, ct));
+        einvoiceSetup.MapPost("/provider/test", (Gamma.Erp.Services.Banking.EInvoiceProviders s, CancellationToken ct) => s.TestAsync(ct));
+        var einvoicing = api.MapGroup("/einvoicing").WithTags("e-invoicing");
+        einvoicing.MapGet("/partners/{partnerId:guid}", (Gamma.Erp.Services.Banking.EInvoiceProviders s, Guid partnerId, CancellationToken ct) => s.PartnerAsync(partnerId, ct));
+        einvoicing.MapGet("/documents/{documentId:guid}", async (Gamma.Erp.Services.Banking.EInvoices s, Guid documentId, CancellationToken ct) =>
+            await s.OfDocumentAsync(documentId, ct) is { } sent ? Results.Ok(sent) : Results.NoContent());
+        einvoicing.MapPost("/documents/{documentId:guid}/send", (Gamma.Erp.Services.Banking.EInvoices s, Guid documentId, CancellationToken ct) => s.SendAsync(documentId, ct));
+        einvoicing.MapPost("/documents/{documentId:guid}/check", (Gamma.Erp.Services.Banking.EInvoices s, Guid documentId, CancellationToken ct) => s.CheckAsync(documentId, ct));
+        einvoicing.MapGet("/received", (Gamma.Erp.Services.Banking.EInvoices s, CancellationToken ct) => s.ReceivedAsync(ct));
+        einvoicing.MapPost("/received/{linkId:guid}/approve", (Gamma.Erp.Services.Banking.EInvoices s, Guid linkId, CancellationToken ct) => s.ApproveAsync(linkId, ct));
+        einvoicing.MapPost("/received/{linkId:guid}/reject", (Gamma.Erp.Services.Banking.EInvoices s, Guid linkId, Gamma.Erp.Services.Banking.EInvoiceRejectRequest body, CancellationToken ct) =>
+            s.RejectAsync(linkId, body?.Reason, ct));
+        einvoicing.MapPost("/received/{linkId:guid}/enter", (Gamma.Erp.Services.Banking.EInvoices s, Guid linkId, CancellationToken ct) => s.EnterAsync(linkId, ct));
+
         // The company's tax authority connection (plan 4.3c): administrators only; the certificate is written, never read back.
         var fiscal = api.MapGroup("/fiscal").WithTags("fiscal").RequireAdministrator();
         fiscal.MapGet("/kinds", (Gamma.Erp.Services.Banking.FiscalProviders s) => s.Kinds());

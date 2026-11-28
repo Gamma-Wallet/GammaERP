@@ -23679,11 +23679,224 @@ namespace Gamma.Erp.Migrations.Migrations
             migrationBuilder.Sql("CREATE UNIQUE INDEX ux_pos_shift_open ON products.tbl_pos_shift (point_of_sale_id) WHERE active AND closed_on IS NULL;");
             migrationBuilder.Sql("CREATE UNIQUE INDEX ux_bank_statement_line_document ON documents.tbl_bank_statement_line (document_id) WHERE active AND document_id IS NOT NULL;");
             migrationBuilder.Sql("CREATE UNIQUE INDEX ux_repair_job_intake ON documents.tbl_repair_job (intake_id) WHERE active;");
+                    // E-invoicing through Jinius: the connection and the invoices on the network (2026-11-28)
+
+            migrationBuilder.CreateTable(
+                name: "tbl_einvoice_provider",
+                schema: "payments",
+                columns: table => new
+                {
+                    id = table.Column<Guid>(type: "uuid", nullable: false),
+                    kind = table.Column<string>(type: "text", nullable: false),
+                    name = table.Column<string>(type: "text", nullable: true),
+                    environment = table.Column<string>(type: "text", nullable: false),
+                    api_base = table.Column<string>(type: "text", nullable: false),
+                    client_id = table.Column<string>(type: "text", nullable: false),
+                    client_secret = table.Column<string>(type: "text", nullable: false),
+                    codes = table.Column<string>(type: "jsonb", nullable: true),
+                    tenant_id = table.Column<Guid>(type: "uuid", nullable: false),
+                    owner_id = table.Column<Guid>(type: "uuid", nullable: true),
+                    id_sup = table.Column<Guid>(type: "uuid", nullable: true),
+                    id_change = table.Column<Guid>(type: "uuid", nullable: true),
+                    active = table.Column<bool>(type: "boolean", nullable: false, defaultValue: true),
+                    created_on = table.Column<DateTimeOffset>(type: "timestamp with time zone", nullable: false),
+                    created_by = table.Column<Guid>(type: "uuid", nullable: true)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("pk_tbl_einvoice_provider", x => x.id);
+                    table.ForeignKey(
+                        name: "fk_tbl_einvoice_provider_created_by",
+                        column: x => x.created_by,
+                        principalSchema: "users",
+                        principalTable: "tbl_user",
+                        principalColumn: "id",
+                        onDelete: ReferentialAction.Restrict);
+                    table.ForeignKey(
+                        name: "fk_tbl_einvoice_provider_id_change",
+                        column: x => x.id_change,
+                        principalSchema: "payments",
+                        principalTable: "tbl_einvoice_provider",
+                        principalColumn: "id",
+                        onDelete: ReferentialAction.Restrict);
+                    table.ForeignKey(
+                        name: "fk_tbl_einvoice_provider_id_sup",
+                        column: x => x.id_sup,
+                        principalSchema: "payments",
+                        principalTable: "tbl_einvoice_provider",
+                        principalColumn: "id",
+                        onDelete: ReferentialAction.Restrict);
+                    table.ForeignKey(
+                        name: "fk_tbl_einvoice_provider_owner_id",
+                        column: x => x.owner_id,
+                        principalSchema: "cost_centers",
+                        principalTable: "tbl_cost_center",
+                        principalColumn: "id",
+                        onDelete: ReferentialAction.Restrict);
+                });
+
+            migrationBuilder.CreateTable(
+                name: "tbl_einvoice_link",
+                schema: "payments",
+                columns: table => new
+                {
+                    id = table.Column<Guid>(type: "uuid", nullable: false),
+                    e_invoice_provider_id = table.Column<Guid>(type: "uuid", nullable: false),
+                    direction = table.Column<string>(type: "text", nullable: false),
+                    document_id = table.Column<Guid>(type: "uuid", nullable: true),
+                    external_id = table.Column<string>(type: "text", nullable: true),
+                    external_number = table.Column<string>(type: "text", nullable: true),
+                    status = table.Column<string>(type: "text", nullable: false),
+                    payment_status = table.Column<string>(type: "text", nullable: true),
+                    amount = table.Column<decimal>(type: "numeric(19,6)", precision: 19, scale: 6, nullable: true),
+                    partner_name = table.Column<string>(type: "text", nullable: true),
+                    partner_vat_number = table.Column<string>(type: "text", nullable: true),
+                    payment_id = table.Column<Guid>(type: "uuid", nullable: true),
+                    answer = table.Column<string>(type: "jsonb", nullable: true),
+                    errors = table.Column<string>(type: "text", nullable: true),
+                    attempts = table.Column<int>(type: "integer", nullable: false),
+                    sent_on = table.Column<DateTimeOffset>(type: "timestamp with time zone", nullable: true),
+                    checked_on = table.Column<DateTimeOffset>(type: "timestamp with time zone", nullable: true),
+                    paid_on = table.Column<DateTimeOffset>(type: "timestamp with time zone", nullable: true),
+                    tenant_id = table.Column<Guid>(type: "uuid", nullable: false),
+                    owner_id = table.Column<Guid>(type: "uuid", nullable: true),
+                    id_sup = table.Column<Guid>(type: "uuid", nullable: true),
+                    id_change = table.Column<Guid>(type: "uuid", nullable: true),
+                    active = table.Column<bool>(type: "boolean", nullable: false, defaultValue: true),
+                    created_on = table.Column<DateTimeOffset>(type: "timestamp with time zone", nullable: false),
+                    created_by = table.Column<Guid>(type: "uuid", nullable: true)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("pk_tbl_einvoice_link", x => x.id);
+                    table.ForeignKey(
+                        name: "fk_tbl_einvoice_link_created_by",
+                        column: x => x.created_by,
+                        principalSchema: "users",
+                        principalTable: "tbl_user",
+                        principalColumn: "id",
+                        onDelete: ReferentialAction.Restrict);
+                    table.ForeignKey(
+                        name: "fk_tbl_einvoice_link_document_id",
+                        column: x => x.document_id,
+                        principalSchema: "documents",
+                        principalTable: "tbl_document",
+                        principalColumn: "id",
+                        onDelete: ReferentialAction.Restrict);
+                    table.ForeignKey(
+                        name: "fk_tbl_einvoice_link_e_invoice_provider_id",
+                        column: x => x.e_invoice_provider_id,
+                        principalSchema: "payments",
+                        principalTable: "tbl_einvoice_provider",
+                        principalColumn: "id",
+                        onDelete: ReferentialAction.Restrict);
+                    table.ForeignKey(
+                        name: "fk_tbl_einvoice_link_id_change",
+                        column: x => x.id_change,
+                        principalSchema: "payments",
+                        principalTable: "tbl_einvoice_link",
+                        principalColumn: "id",
+                        onDelete: ReferentialAction.Restrict);
+                    table.ForeignKey(
+                        name: "fk_tbl_einvoice_link_id_sup",
+                        column: x => x.id_sup,
+                        principalSchema: "payments",
+                        principalTable: "tbl_einvoice_link",
+                        principalColumn: "id",
+                        onDelete: ReferentialAction.Restrict);
+                    table.ForeignKey(
+                        name: "fk_tbl_einvoice_link_owner_id",
+                        column: x => x.owner_id,
+                        principalSchema: "cost_centers",
+                        principalTable: "tbl_cost_center",
+                        principalColumn: "id",
+                        onDelete: ReferentialAction.Restrict);
+                });
+
+            migrationBuilder.CreateIndex(
+                name: "ix_tbl_einvoice_link_created_by",
+                schema: "payments",
+                table: "tbl_einvoice_link",
+                column: "created_by");
+
+            migrationBuilder.CreateIndex(
+                name: "ix_tbl_einvoice_link_document_id",
+                schema: "payments",
+                table: "tbl_einvoice_link",
+                column: "document_id");
+
+            migrationBuilder.CreateIndex(
+                name: "ix_tbl_einvoice_link_e_invoice_provider_id",
+                schema: "payments",
+                table: "tbl_einvoice_link",
+                column: "e_invoice_provider_id");
+
+            migrationBuilder.CreateIndex(
+                name: "ix_tbl_einvoice_link_id_change",
+                schema: "payments",
+                table: "tbl_einvoice_link",
+                column: "id_change");
+
+            migrationBuilder.CreateIndex(
+                name: "ix_tbl_einvoice_link_id_sup",
+                schema: "payments",
+                table: "tbl_einvoice_link",
+                column: "id_sup");
+
+            migrationBuilder.CreateIndex(
+                name: "ix_tbl_einvoice_link_owner_id",
+                schema: "payments",
+                table: "tbl_einvoice_link",
+                column: "owner_id");
+
+            migrationBuilder.CreateIndex(
+                name: "ix_tbl_einvoice_link_tenant_id",
+                schema: "payments",
+                table: "tbl_einvoice_link",
+                column: "tenant_id");
+
+            migrationBuilder.CreateIndex(
+                name: "ix_tbl_einvoice_provider_created_by",
+                schema: "payments",
+                table: "tbl_einvoice_provider",
+                column: "created_by");
+
+            migrationBuilder.CreateIndex(
+                name: "ix_tbl_einvoice_provider_id_change",
+                schema: "payments",
+                table: "tbl_einvoice_provider",
+                column: "id_change");
+
+            migrationBuilder.CreateIndex(
+                name: "ix_tbl_einvoice_provider_id_sup",
+                schema: "payments",
+                table: "tbl_einvoice_provider",
+                column: "id_sup");
+
+            migrationBuilder.CreateIndex(
+                name: "ix_tbl_einvoice_provider_owner_id",
+                schema: "payments",
+                table: "tbl_einvoice_provider",
+                column: "owner_id");
+
+            migrationBuilder.CreateIndex(
+                name: "ix_tbl_einvoice_provider_tenant_id",
+                schema: "payments",
+                table: "tbl_einvoice_provider",
+                column: "tenant_id");
         }
 
         /// <inheritdoc />
         protected override void Down(MigrationBuilder migrationBuilder)
         {
+            migrationBuilder.DropTable(
+                name: "tbl_einvoice_link",
+                schema: "payments");
+
+            migrationBuilder.DropTable(
+                name: "tbl_einvoice_provider",
+                schema: "payments");
+
             migrationBuilder.DropColumn(
                 name: "bank_reference",
                 schema: "payments",
