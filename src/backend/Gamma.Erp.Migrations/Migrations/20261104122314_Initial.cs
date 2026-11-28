@@ -23884,6 +23884,9 @@ namespace Gamma.Erp.Migrations.Migrations
                 schema: "payments",
                 table: "tbl_einvoice_provider",
                 column: "tenant_id");
+                    // E-invoicing tables: tenant isolation as every tenant table (after they are made).
+            RowLevelSecurity.EnableForTenantTable(migrationBuilder, "payments", "tbl_einvoice_provider");
+            RowLevelSecurity.EnableForTenantTable(migrationBuilder, "payments", "tbl_einvoice_link");
         }
 
         /// <inheritdoc />
