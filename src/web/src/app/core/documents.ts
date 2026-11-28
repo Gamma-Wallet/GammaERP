@@ -283,6 +283,33 @@ export function blankDocument(typeId: string, categoryId: string): DocumentData 
 }
 
 /** The document API (C3 phase 4): lists, the document and its actions, the type's form, line proposals, side balances. */
+/** An invoice on the e-invoicing network (Jinius) as the ERP last heard of it. */
+export interface EInvoice {
+  id: string;
+  direction: string;
+  documentId: string | null;
+  documentCode: string | null;
+  externalId: string | null;
+  externalNumber: string | null;
+  status: string;
+  paymentStatus: string | null;
+  amount: number | null;
+  partnerName: string | null;
+  partnerVatNumber: string | null;
+  paymentId: string | null;
+  errors: string | null;
+  sentOn: string | null;
+  checkedOn: string | null;
+  paidOn: string | null;
+}
+
+/** A document's e-invoicing: may it be sent (the company's connection allows its type), through which network, what was sent. */
+export interface EInvoiceState {
+  enabled: boolean;
+  network: string | null;
+  sent: EInvoice | null;
+}
+
 @Injectable({ providedIn: 'root' })
 export class DocumentApi {
   private readonly http = inject(HttpClient);
@@ -340,6 +367,21 @@ export class DocumentApi {
 
   form(type: string): Promise<DocumentForm> {
     return firstValueFrom(this.http.get<DocumentForm>(`${this.base}/types/${type}/form`));
+  }
+
+  /** The document's e-invoicing (Jinius): may it be sent, and what the network last said of it. */
+  einvoice(id: string): Promise<EInvoiceState> {
+    return firstValueFrom(this.http.get<EInvoiceState>(`/api/v1/einvoicing/documents/${id}`));
+  }
+
+  /** Send to the network (a person's press). */
+  sendEInvoice(id: string): Promise<EInvoice> {
+    return firstValueFrom(this.http.post<EInvoice>(`/api/v1/einvoicing/documents/${id}/send`, null));
+  }
+
+  /** Check with the network (a person's press): paid there books the payment. */
+  checkEInvoice(id: string): Promise<EInvoice> {
+    return firstValueFrom(this.http.post<EInvoice>(`/api/v1/einvoicing/documents/${id}/check`, null));
   }
 
   matchBankLine(line: string, document: string): Promise<unknown> {

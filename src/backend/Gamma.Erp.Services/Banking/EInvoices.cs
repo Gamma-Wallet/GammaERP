@@ -21,6 +21,9 @@ public sealed record EInvoiceDto(Guid Id, string Direction, Guid? DocumentId, st
     string? PaymentStatus, decimal? Amount, string? PartnerName, string? PartnerVatNumber, Guid? PaymentId, string? Errors, DateTimeOffset? SentOn, DateTimeOffset? CheckedOn,
     DateTimeOffset? PaidOn);
 
+/// <summary>A document's e-invoicing for its screen: may it be sent, through which network, and what was sent.</summary>
+public sealed record EInvoiceStateDto(bool Enabled, string? Network, EInvoiceDto? Sent);
+
 /// <summary>Why a received invoice is rejected (the supplier reads it).</summary>
 public sealed record EInvoiceRejectRequest(string? Reason);
 
@@ -35,12 +38,25 @@ public sealed class EInvoices(ErpDbContext db, Visibility visibility, ISecretBox
 {
     private readonly TimeProvider time = clock ?? TimeProvider.System;
 
-    /// <summary>The network's state of a sales invoice the company sent, if it was sent.</summary>
-    public async Task<EInvoiceDto?> OfDocumentAsync(Guid documentId, CancellationToken ct)
+    /// <summary>
+    /// For the document screen: whether the document may go to the network (the company has a connection and the codes allow its type), the network's
+    /// name, and what was sent and last heard of it.
+    /// </summary>
+    public async Task<EInvoiceStateDto> OfDocumentAsync(Guid documentId, CancellationToken ct)
     {
+        var nodes = await visibility.NodesAsync(ct).ConfigureAwait(false);
+        var bill = await db.Set<Document>().AsNoTracking().FirstOrDefaultAsync(d => d.Id == documentId && d.Active, ct).ConfigureAwait(false);
+        if (bill is null || !nodes.Contains(bill.CompanyId) && (bill.OwnerId is not { } owner || !nodes.Contains(owner)))
+        {
+            return new EInvoiceStateDto(false, null, null);
+        }
+
+        var provider = await db.Set<EInvoiceProvider>().AsNoTracking().FirstOrDefaultAsync(p => p.Active && p.OwnerId == bill.CompanyId, ct).ConfigureAwait(false);
+        var allowed = provider is not null && (provider.Codes?["documentTypes"] is not JsonArray { Count: > 0 } types
+            || types.Any(t => Guid.TryParse((string?)t, out var id) && id == bill.TypeId));
         var link = await db.Set<EInvoiceLink>().AsNoTracking().Where(l => l.Active && l.DocumentId == documentId && l.Direction == "Sent").OrderByDescending(l => l.CreatedOn)
             .FirstOrDefaultAsync(ct).ConfigureAwait(false);
-        return link is null ? null : await DtoAsync(link, ct).ConfigureAwait(false);
+        return new EInvoiceStateDto(allowed, provider?.Kind, link is null ? null : await DtoAsync(link, ct).ConfigureAwait(false));
     }
 
     /// <summary>Send (a person's press): the posted sales invoice goes to the network as a structured e-invoice, with its PDF.</summary>

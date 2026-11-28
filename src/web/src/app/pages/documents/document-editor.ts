@@ -8,7 +8,7 @@ import { CdkMenu, CdkMenuItem, CdkMenuTrigger } from '@angular/cdk/menu';
 import { ChangeDetectionStrategy, Component, DestroyRef, computed, effect, inject, input, signal, untracked, viewChild } from '@angular/core';
 import { Router } from '@angular/router';
 import { firstValueFrom } from 'rxjs';
-import { balanceLcu, blankDocument, dayOf, ledgerOf, localToday, DocumentApi, DocumentData, DocumentFlow, DocumentForm, MadeDocument, PostingRow, Side } from '../../core/documents';
+import { balanceLcu, blankDocument, dayOf, ledgerOf, localToday, DocumentApi, DocumentData, DocumentFlow, DocumentForm, EInvoiceState, MadeDocument, PostingRow, Side } from '../../core/documents';
 import { ElementType, EntityApi, HistoryEntry, errorsOf } from '../../core/entities';
 import { SessionService } from '../../core/session';
 import { Button, Field, Input } from '../../ui/controls';
@@ -80,6 +80,8 @@ export class DocumentEditor {
   protected readonly neighbours = signal<{ previous: string | null; next: string | null }>({ previous: null, next: null });
   protected readonly tab = signal<string | null>('lines');
   protected readonly preview = signal<PostingRow[] | null>(null);
+  /** E-invoicing (Jinius): null when the document can't go to a network. */
+  protected readonly einvoice = signal<EInvoiceState | null>(null);
   protected readonly history = signal<HistoryEntry[] | null>(null);
   protected readonly sideOptions = signal<{ from: SelectOption[]; to: SelectOption[] }>({ from: [], to: [] });
   protected readonly balances = signal<{ from: number | null; to: number | null }>({ from: null, to: null });
@@ -295,6 +297,76 @@ export class DocumentEditor {
     this.currencyId.set(document.transactions[0]?.currencyId ?? this.form()?.currencies.find(c => c.isBase)?.id ?? null);
     void this.loadBalances();
     void this.showRate(document.transactions[0]?.exchangeRate ?? null);
+    void this.loadEInvoice(document);
+  }
+
+  /** E-invoicing (Jinius) of a posted document: whether it may be sent, and what the network last said of it. */
+  private async loadEInvoice(document: DocumentData): Promise<void> {
+    this.einvoice.set(document.posted && document.id ? await this.api.einvoice(document.id).catch(() => null) : null);
+  }
+
+  /** The network's word for the invoice, shown next to Posted: sent, approved, paid… and when the ERP booked the payment. */
+  protected readonly einvoiceLabel = computed(() => {
+    const state = this.einvoice();
+    const sent = state?.sent;
+    if (!state?.enabled && !sent) {
+      return null;
+    }
+    const network = state?.network ?? 'Jinius';
+    if (!sent?.externalId) {
+      return sent?.status === 'Refused' ? { kind: 'serious' as const, text: t('{0}: refused', network) } : null;
+    }
+    if (sent.paymentId) {
+      return { kind: 'good' as const, text: t('{0}: paid, payment booked', network) };
+    }
+    return { kind: sent.paidOn ? 'warning' as const : 'info' as const, text: sent.paymentStatus ? t('{0}: {1}, payment {2}', network, sent.status, sent.paymentStatus) : t('{0}: {1}', network, sent.status) };
+  });
+
+  /** Send to Jinius (a person's press): the posted invoice goes to the network as a structured e-invoice with its PDF. */
+  protected async sendEInvoice(): Promise<void> {
+    const document = this.document();
+    const network = this.einvoice()?.network ?? 'Jinius';
+    if (!document?.id) {
+      return;
+    }
+    const yes = await this.dialogs.confirm({
+      title: t('Send {0} to {1}?', document.code, network),
+      message: t('The invoice goes to the client through {0} as a structured e-invoice, with its PDF. The client must be on {0}.', network),
+      confirmLabel: t('Send'),
+    });
+    if (!yes) {
+      return;
+    }
+    await this.act(async () => {
+      const sent = await this.api.sendEInvoice(document.id!);
+      this.einvoice.update(state => ({ enabled: state?.enabled ?? true, network: state?.network ?? network, sent }));
+      if (sent.externalId) {
+        this.toasts.good(t('{0} sent to {1}.', document.code, network));
+      } else {
+        this.toasts.warning(t('{0} did not take the invoice: {1}', network, sent.errors ?? sent.status));
+      }
+    });
+  }
+
+  /** Check Jinius (a person's press): the invoice's state there; paid there books the payment against it. */
+  protected async checkEInvoice(): Promise<void> {
+    const document = this.document();
+    const network = this.einvoice()?.network ?? 'Jinius';
+    if (!document?.id) {
+      return;
+    }
+    await this.act(async () => {
+      const before = this.einvoice()?.sent?.paymentId;
+      const sent = await this.api.checkEInvoice(document.id!);
+      this.einvoice.update(state => ({ enabled: state?.enabled ?? true, network: state?.network ?? network, sent }));
+      if (sent.paymentId && !before) {
+        this.toasts.good(t('Paid on {0}: the payment is booked.', network));
+        await this.loadFlows(document.id!);
+        void this.loadBalances();
+      } else {
+        this.toasts.good(t('{0} says: {1}', network, sent.paymentStatus ? `${sent.status}, ${sent.paymentStatus}` : sent.status));
+      }
+    });
   }
 
   /** A draft is held while open: if someone else holds it, it opens read only. */

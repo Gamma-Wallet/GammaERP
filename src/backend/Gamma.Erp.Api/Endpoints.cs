@@ -138,8 +138,8 @@ public static class Endpoints
         einvoiceSetup.MapPost("/provider/test", (Gamma.Erp.Services.Banking.EInvoiceProviders s, CancellationToken ct) => s.TestAsync(ct));
         var einvoicing = api.MapGroup("/einvoicing").WithTags("e-invoicing");
         einvoicing.MapGet("/partners/{partnerId:guid}", (Gamma.Erp.Services.Banking.EInvoiceProviders s, Guid partnerId, CancellationToken ct) => s.PartnerAsync(partnerId, ct));
-        einvoicing.MapGet("/documents/{documentId:guid}", async (Gamma.Erp.Services.Banking.EInvoices s, Guid documentId, CancellationToken ct) =>
-            await s.OfDocumentAsync(documentId, ct) is { } sent ? Results.Ok(sent) : Results.NoContent());
+        einvoicing.MapGet("/documents/{documentId:guid}", (Gamma.Erp.Services.Banking.EInvoices s, Guid documentId, CancellationToken ct) =>
+            s.OfDocumentAsync(documentId, ct));
         einvoicing.MapPost("/documents/{documentId:guid}/send", (Gamma.Erp.Services.Banking.EInvoices s, Guid documentId, CancellationToken ct) => s.SendAsync(documentId, ct));
         einvoicing.MapPost("/documents/{documentId:guid}/check", (Gamma.Erp.Services.Banking.EInvoices s, Guid documentId, CancellationToken ct) => s.CheckAsync(documentId, ct));
         einvoicing.MapGet("/received", (Gamma.Erp.Services.Banking.EInvoices s, CancellationToken ct) => s.ReceivedAsync(ct));

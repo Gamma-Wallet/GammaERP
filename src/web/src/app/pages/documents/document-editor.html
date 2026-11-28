@@ -9,6 +9,7 @@
         @case ('draft') { <ui-status kind="info">{{ 'Draft' | t }}</ui-status> }
         @default { <ui-status kind="info">{{ 'New' | t }}</ui-status> }
       }
+      @if (einvoiceLabel(); as e) { <ui-status [kind]="e.kind">{{ e.text }}</ui-status> }
       @if (dirty() && !readOnly()) { <span class="muted unsaved">{{ 'Not saved' | t }}</span> }
     </div>
     <div class="actions">
@@ -22,6 +23,14 @@
         <button uiButton (click)="print()"><ui-icon name="printer" />{{ 'Print' | t }}</button>
         <button uiButton (click)="email()">{{ 'E-mail' | t }}</button>
         <button uiButton (click)="repeat()"><ui-icon name="repeat" />{{ 'Repeat' | t }}</button>
+      }
+      <!-- E-invoicing (Jinius): a posted invoice of a type the company's connection allows is sent, then checked; paid there books the payment. -->
+      @if (d.posted && einvoice(); as e) {
+        @if (e.sent?.externalId) {
+          <button uiButton [disabled]="busy()" (click)="checkEInvoice()">{{ 'Check {0}' | t: (e.network ?? 'Jinius') }}</button>
+        } @else if (e.enabled) {
+          <button uiButton variant="primary" [disabled]="busy()" (click)="sendEInvoice()">{{ 'Send to {0}' | t: (e.network ?? 'Jinius') }}</button>
+        }
       }
       <!-- What this document generates: its reversal when it is a posted bill, and what the configuration lets it make. -->
       @if (flows().length || canReverse()) {
@@ -49,6 +58,9 @@
     <p class="notice" role="status"><ui-icon name="warning" [size]="16" />{{ 'Another user is editing this document. It is open read only until they close it.' | t }}</p>
   }
   @if (message()) { <p class="message" role="alert"><ui-icon name="critical" [size]="16" />{{ message() }}</p> }
+  @if (einvoice()?.sent?.errors; as problem) {
+    <p class="notice" role="status"><ui-icon name="warning" [size]="16" />{{ (einvoice()?.network ?? 'Jinius') + ': ' + problem }}</p>
+  }
 
   <section class="header">
     <ui-field [label]="'Number' | t" [hint]="'Given on saving' | t">
